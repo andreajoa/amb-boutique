@@ -1,0 +1,9 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { Footer, Header } from "../../components";
+import { stories } from "../data";
+
+export function generateStaticParams() { return stories.map((story) => ({ slug: story.slug })); }
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> { const { slug } = await params; const story = stories.find((item) => item.slug === slug); return story ? { title: story.title, description: story.excerpt, alternates: { canonical: `/journal/${slug}` }, openGraph: { title: story.title, description: story.excerpt, type: "article", url: `/journal/${slug}` } } : {}; }
+export default async function StoryPage({ params }: { params: Promise<{ slug: string }> }) { const { slug } = await params; const story = stories.find((item) => item.slug === slug); if (!story) notFound(); const articleJsonLd = { "@context": "https://schema.org", "@type": "Article", headline: story.title, description: story.excerpt, author: { "@type": "Person", name: "Ana Paula Maciel" }, publisher: { "@type": "Organization", name: "AMB BOUTIQUE", url: "https://ambboutique.online" }, mainEntityOfPage: `https://ambboutique.online/journal/${story.slug}` }; return <main><Header/><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}/><article className="story-page shell"><p className="eyebrow">{story.category}</p><h1>{story.title}</h1><p className="story-deck">{story.excerpt}</p><div className={`story-image ${story.image}`}/><div className="story-body">{story.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}<Link className="button dark" href="/collections">Shop the Edit</Link></div></article><Footer/></main>; }

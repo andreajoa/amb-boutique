@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Footer, Header, ProductCard } from "../components";
 import { products } from "../data";
 
-const categories = ["All", "Dresses", "Tops", "Playsuits", "Bags", "Shoes"] as const;
+const categories = ["All", "Dresses", "Tops", "Playsuits", "Skirts", "Shorts", "Knitwear", "Bags", "Shoes", "Accessories"] as const;
 
 export default function CollectionsPage() {
   const [category, setCategory] = useState<string>("All");
@@ -43,7 +43,7 @@ export default function CollectionsPage() {
         <p className="results-count">Showing {filtered.length} of {products.length} pieces.</p>
       </section>
 
-      <section className="collection-explore shell"><p>SHOP BY MOOD</p><h2>Explore the Collections</h2><div><Link href="#" onClick={() => setCategory("Tops")} className="sheet-one q2"><span>Tops & Blouses<small>Everyday, elevated</small></span></Link><Link href="#" onClick={() => setCategory("Dresses")} className="sheet-one q3"><span>Dresses<small>Made for the moment</small></span></Link><Link href="#" onClick={() => setCategory("Bags")} className="sheet-two q1"><span>Bags<small>The finishing touch</small></span></Link></div></section>
+      <section className="collection-explore shell"><p>SHOP BY MOOD</p><h2>Explore the Collections</h2><div><Link href="/collections/tops-blouses" className="sheet-one q2"><span>Tops & Blouses<small>Everyday, elevated</small></span></Link><Link href="/collections/dresses" className="sheet-one q3"><span>Dresses<small>Made for the moment</small></span></Link><Link href="/collections/bags" className="sheet-two q1"><span>Bags<small>The finishing touch</small></span></Link></div></section>
       <Footer />
     </main>
   );

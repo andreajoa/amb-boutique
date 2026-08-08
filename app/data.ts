@@ -1,7 +1,9 @@
+import { generatedProducts } from "./generated-products";
+
 export type Product = {
   slug: string;
   name: string;
-  category: "Dresses" | "Tops" | "Playsuits" | "Bags" | "Shoes";
+  category: "Dresses" | "Tops" | "Playsuits" | "Skirts" | "Shorts" | "Knitwear" | "Bags" | "Shoes" | "Accessories";
   price: number;
   compareAt?: number;
   badge?: string;
@@ -9,9 +11,16 @@ export type Product = {
   quadrant: 1 | 2 | 3 | 4;
   colors: string[];
   rating?: number;
+  description?: string;
+  materials?: string;
+  care?: string;
+  sizes?: string[];
+  colorNames?: string[];
+  images?: string[];
+  stock?: number;
 };
 
-export const products: Product[] = [
+const placeholderProducts: Product[] = [
   { slug: "sienna-linen-midi-dress", name: "Sienna Linen Midi Dress", category: "Dresses", price: 89, compareAt: 118, badge: "Save 25%", sheet: "one", quadrant: 1, colors: ["#eee6d8", "#1b1b1b"], rating: 5 },
   { slug: "isla-pleated-mini-dress", name: "Isla Pleated Mini Dress", category: "Dresses", price: 98, sheet: "one", quadrant: 2, colors: ["#e8c7c0", "#f4eee2"] },
   { slug: "margot-knit-midi-dress", name: "Margot Knit Midi Dress", category: "Dresses", price: 112, badge: "New", sheet: "one", quadrant: 3, colors: ["#191919", "#b58d78"], rating: 5 },
@@ -24,7 +33,25 @@ export const products: Product[] = [
   { slug: "pacific-structured-tote", name: "Pacific Structured Tote", category: "Bags", price: 146, badge: "Best Seller", sheet: "two", quadrant: 1, colors: ["#8c5b3d", "#e7d9c5"], rating: 5 },
   { slug: "paloma-slingback-heel", name: "Paloma Slingback Heel", category: "Shoes", price: 118, sheet: "two", quadrant: 3, colors: ["#d5b39d", "#171717"] },
   { slug: "maren-strappy-sandal", name: "Maren Strappy Sandal", category: "Shoes", price: 92, compareAt: 115, badge: "Save 20%", sheet: "two", quadrant: 3, colors: ["#b99070", "#e9ddce"] },
+  { slug: "carmel-knit-midi-skirt", name: "Carmel Knit Midi Skirt", category: "Skirts", price: 84, badge: "New", sheet: "two", quadrant: 3, colors: ["#d8c8b7", "#1b1b1b"] },
+  { slug: "ocean-beach-tailored-short", name: "Ocean Beach Tailored Short", category: "Shorts", price: 72, sheet: "two", quadrant: 4, colors: ["#e9dfd1", "#b78970"] },
+  { slug: "torrey-soft-knit", name: "Torrey Soft Knit", category: "Knitwear", price: 88, sheet: "one", quadrant: 3, colors: ["#e6ded0", "#9f806b"] },
+  { slug: "sunset-sculpted-earrings", name: "Sunset Sculpted Earrings", category: "Accessories", price: 48, badge: "Just In", sheet: "two", quadrant: 1, colors: ["#c69b54"] },
 ];
+
+export const products: Product[] = generatedProducts.length ? generatedProducts : placeholderProducts;
+
+export const categoryPages = [
+  { slug: "dresses", name: "Dresses", title: "Women’s Dresses", description: "Mini, midi and occasion-ready dresses with an effortless California point of view." },
+  { slug: "tops-blouses", name: "Tops", title: "Women’s Tops & Blouses", description: "Polished blouses, refined tanks and easy tops for everyday styling." },
+  { slug: "rompers-playsuits", name: "Playsuits", title: "Rompers & Playsuits", description: "One-and-done silhouettes made for warm days, weekends and getaways." },
+  { slug: "skirts", name: "Skirts", title: "Women’s Skirts", description: "Mini and midi skirts that balance movement, polish and modern femininity." },
+  { slug: "shorts", name: "Shorts", title: "Women’s Shorts", description: "Tailored, relaxed and warm-weather shorts for an elevated everyday wardrobe." },
+  { slug: "knitwear", name: "Knitwear", title: "Women’s Knitwear", description: "Soft knits and light layers selected for comfort, texture and repeat wear." },
+  { slug: "bags", name: "Bags", title: "Women’s Bags", description: "Shoulder bags, totes and polished everyday companions in considered proportions." },
+  { slug: "shoes", name: "Shoes", title: "Women’s Shoes", description: "Elegant sandals, slingbacks and versatile shoes that finish every look." },
+  { slug: "accessories", name: "Accessories", title: "Women’s Accessories", description: "Jewellery and finishing touches curated to make personal style feel complete." },
+] as const;
 
 export const formatPrice = (value: number) =>
   new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", minimumFractionDigits: 0 }).format(value);

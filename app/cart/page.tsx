@@ -1,0 +1,11 @@
+"use client";
+
+import Link from "next/link";
+import { Footer, Header } from "../components";
+import { formatPrice } from "../data";
+import { useStore } from "../store-provider";
+
+export default function CartPage() {
+  const { cart, cartTotal, updateQuantity, removeItem, checkout, checkoutError } = useStore();
+  return <main><Header/><section className="info-hero compact-hero"><p>YOUR SELECTION</p><h1>Shopping Bag</h1></section><section className="cart-page shell">{cart.length ? <div className="cart-page-grid"><div className="cart-page-lines">{cart.map((line) => <article key={line.id}><div className={`cart-page-image sheet-${line.sheet} q${line.quadrant}`}/><div><Link href={`/products/${line.slug}`}><h2>{line.name}</h2></Link><p>Size: {line.size}<br/>Color: {line.color}</p><div className="inline-quantity"><button onClick={() => updateQuantity(line.id, line.quantity - 1)}>−</button><span>{line.quantity}</span><button onClick={() => updateQuantity(line.id, line.quantity + 1)}>+</button></div><button className="remove-link" onClick={() => removeItem(line.id)}>Remove</button></div><strong>{formatPrice(line.price * line.quantity)}</strong></article>)}</div><aside className="order-summary"><h2>Order Summary</h2><p><span>Subtotal</span><strong>{formatPrice(cartTotal)}</strong></p><p><span>Shipping</span><span>Calculated at checkout</span></p><p><span>Estimated taxes</span><span>Calculated at checkout</span></p><button className="checkout-button" onClick={checkout}>Secure Checkout</button>{checkoutError && <p className="form-message error">{checkoutError}</p>}<small>Secure payments · 30-day return requests</small></aside></div> : <div className="empty-cart page-empty"><h2>Your bag is waiting.</h2><p>Explore the newest AMB silhouettes and finishing touches.</p><Link href="/collections" className="button dark">Shop New Arrivals</Link></div>}</section><Footer/></main>;
+}
