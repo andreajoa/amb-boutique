@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { products } from "../../data";
+import { generatedProducts } from "../../generated-products";
 import { convertFromUsd, FIRST_ORDER_CODE, getDiscountState, getShippingQuotes, isMarketCode, markets } from "../../commerce";
 import { bestNonStackingDiscount, protectMargin } from "../../profitability";
 import { rankRecommendations } from "../../recommendations";
@@ -16,6 +17,7 @@ const stripeCountry = { US: "US", CA: "CA", UK: "GB", AU: "AU", NZ: "NZ" } as co
 export async function POST(request: NextRequest) {
   const stripe = getStripe();
   if (!stripe) return NextResponse.json({ error: "Secure checkout is prepared and will be activated when payment credentials are connected." }, { status: 503 });
+  if (!generatedProducts.length) return NextResponse.json({ error: "The AMB preview catalogue cannot be purchased. Secure checkout will activate automatically after the real product CSV is imported." }, { status: 503 });
 
   const body = await request.json().catch(() => null) as CheckoutBody | null;
   if (!body?.items?.length || body.items.length > 20) return NextResponse.json({ error: "Your bag is empty or contains too many separate items." }, { status: 400 });
