@@ -37,7 +37,7 @@ International women’s fashion storefront based in San Diego, California and fo
 
 Download and unzip the project, then double-click `OPEN-LOCAL-PREVIEW.command`. The first run installs the project packages and opens [http://127.0.0.1:3000](http://127.0.0.1:3000). Keep the Terminal window open while browsing. If macOS blocks the file, right-click it and choose **Open**.
 
-The preview includes working navigation, collections, product options, cart drawer, quick-add upsell, automatic cart rewards and market currency switching. Checkout stays safely inactive until Stripe credentials are added. Unknown product costs fail closed: no automatic cart, order-bump or post-purchase discount is applied until landed cost and minimum margin are present.
+The preview includes working navigation, collections, product options, cart drawer, quick-add upsell, automatic cart rewards and market currency switching. Checkout stays safely inactive until Stripe credentials and the real generated product catalogue are present; demonstration products can never reach payment. Unknown product costs fail closed: no automatic cart, order-bump or post-purchase discount is applied until landed cost and minimum margin are present.
 
 ### Terminal
 
@@ -74,3 +74,5 @@ Copy `.env.example` to `.env.local` and connect Stripe and Resend before launch.
 Policy pages are operational drafts and should be reviewed by the owner and qualified counsel before public launch. Delivery estimates, the $99 U.S. free-shipping threshold, the 30-day return window and tax/duty handling must be confirmed against the final operation.
 
 Deployment is intentionally deferred until explicit approval.
+
+<!-- Production deployment refresh: 2026-08-09 -->
