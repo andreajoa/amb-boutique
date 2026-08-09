@@ -43,7 +43,7 @@ export default function CollectionsPage() {
         <p className="results-count">Showing {filtered.length} of {products.length} pieces.</p>
       </section>
 
-      <section className="collection-explore shell" data-reveal><p>SHOP BY MOOD</p><h2>Explore the Collections</h2><div><Link href="/collections/tops-blouses" className="category-one q2"><span>Tops & Blouses<small>Everyday, elevated</small></span></Link><Link href="/collections/dresses" className="category-one q1"><span>Dresses<small>Made for the moment</small></span></Link><Link href="/collections/bags" className="category-two q3"><span>Bags<small>The finishing touch</small></span></Link></div></section>
+      <section className="collection-explore shell" data-reveal><p>SHOP BY MOOD</p><h2>Explore the Collections</h2><div><Link href="/collections/tops-blouses" className="category-one q2"><span>Tops & Blouses<small>Everyday, elevated</small></span></Link><Link href="/collections/dresses" className="category-one q1"><span>Dresses<small>Made for the moment</small></span></Link><Link href="/collections/rompers-playsuits" className="category-one q3"><span>Rompers & Playsuits<small>One-and-done ease</small></span></Link></div></section>
       <Footer />
     </main>
   );
