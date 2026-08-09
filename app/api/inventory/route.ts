@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getVariantAvailability, InventoryError, releaseExpiredInventory } from "../../inventory";
+import { ensureInventoryForProducts, getVariantAvailability, InventoryError, releaseExpiredInventory } from "../../inventory";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -14,6 +14,7 @@ export async function GET(request: NextRequest) {
   }
 
   try {
+    await ensureInventoryForProducts([slug]);
     await releaseExpiredInventory();
     const result = await getVariantAvailability(slug, color, size);
     return NextResponse.json(result, {
