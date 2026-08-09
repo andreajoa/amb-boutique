@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Product, formatPrice } from "./data";
+import { Product } from "./data";
+import { MarketCode, marketCodes, markets } from "./commerce";
 import { useStore } from "./store-provider";
 import { NewsletterForm } from "./newsletter-form";
 
@@ -12,13 +13,13 @@ function Icon({ name }: { name: "search" | "user" | "bag" }) {
 }
 
 export function Header() {
-  const { openCart, cartCount } = useStore();
+  const { openCart, cartCount, market, setMarket, formatMoney } = useStore();
   return (
     <>
       <div className="announcement">
         <div className="social-mini" aria-label="Social media"><span>f</span><span>◎</span><span>p</span><span>𝕏</span></div>
-        <p>COMPLIMENTARY U.S. SHIPPING ON ORDERS $150+</p>
-        <label className="market"><span aria-hidden="true">🇺🇸</span><select aria-label="Market and currency" defaultValue="US"><option value="US">USD $</option><option value="CA">CAD $</option><option value="UK">GBP £</option><option value="AU">AUD $</option><option value="NZ">NZD $</option></select></label>
+        <p>{market === "US" ? `COMPLIMENTARY U.S. SHIPPING ON ORDERS ${formatMoney(150)}+` : `NOW SHOPPING FOR ${markets[market].country.toUpperCase()}`}</p>
+        <label className="market"><span aria-hidden="true">{markets[market].flag}</span><select aria-label="Market and currency" value={market} onChange={(event) => setMarket(event.target.value as MarketCode)}>{marketCodes.map((code) => <option value={code} key={code}>{markets[code].currency} {code === "UK" ? "£" : "$"}</option>)}</select></label>
       </div>
       <header className="site-header">
         <div className="header-main shell">
@@ -46,6 +47,7 @@ export function Header() {
 }
 
 export function ProductCard({ product, compact = false }: { product: Product; compact?: boolean }) {
+  const { formatMoney } = useStore();
   return (
     <article className={`product-card${compact ? " compact" : ""}`}>
       <Link href={`/products/${product.slug}`} className={`product-photo sheet-${product.sheet} q${product.quadrant}`} style={product.images?.[0] ? { backgroundImage: `url(${product.images[0]})`, backgroundSize: "cover", backgroundPosition: "center" } : undefined} aria-label={`View ${product.name}`}>
@@ -55,8 +57,8 @@ export function ProductCard({ product, compact = false }: { product: Product; co
       <div className="product-meta">
         <Link href={`/products/${product.slug}`}>{product.name}</Link>
         <div className="price-row">
-          <span className={product.compareAt ? "sale-price" : ""}>{formatPrice(product.price)}</span>
-          {product.compareAt && <del>{formatPrice(product.compareAt)}</del>}
+          <span className={product.compareAt ? "sale-price" : ""}>{formatMoney(product.price)}</span>
+          {product.compareAt && <del>{formatMoney(product.compareAt)}</del>}
         </div>
         <div className="swatches" aria-label="Available colors">
           {product.colors.map((color) => <span key={color} style={{ backgroundColor: color }} />)}

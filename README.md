@@ -17,6 +17,8 @@ International women’s fashion storefront based in San Diego, California and fo
 - Search-friendly category collection pages
 - Reusable product detail page with gallery, variants, fit, quantity and recommendations
 - Persistent global shopping bag and full cart page
+- Automatic cart rewards: 5% at US$100, 10% at US$200, 15% at US$300, 20% at US$400 and 25% at US$500
+- Real market formatting and configurable USD-to-CAD/GBP/AUD/NZD preview conversions
 - Stripe Checkout and verified webhook endpoints, ready for credentials
 - Contact and newsletter endpoints, ready for Resend credentials
 - About, contact, FAQ, shipping, returns, privacy, terms, cookies, accessibility, size guide, order tracking, account, sale and journal pages
@@ -25,6 +27,14 @@ International women’s fashion storefront based in San Diego, California and fo
 - Cookie preference interface with optional technologies disabled by default
 
 ## Development
+
+### One-click preview on Mac
+
+Download and unzip the project, then double-click `OPEN-LOCAL-PREVIEW.command`. The first run installs the project packages and opens [http://127.0.0.1:3000](http://127.0.0.1:3000). Keep the Terminal window open while browsing. If macOS blocks the file, right-click it and choose **Open**.
+
+The preview includes working navigation, collections, product options, cart drawer, quick-add upsell, automatic cart rewards and market currency switching. Checkout stays safely inactive until Stripe credentials are added.
+
+### Terminal
 
 ```bash
 npm install
@@ -54,7 +64,7 @@ Supported catalog categories: Dresses, Tops/Blouses, Rompers/Playsuits, Skirts, 
 
 ## Launch configuration
 
-Copy `.env.example` to `.env.local` and connect Stripe and Resend before launch. Stripe Checkout validates every line against the server catalog and accepts shipping addresses in the US, Canada, UK, Australia and New Zealand. Never commit real secrets.
+Copy `.env.example` to `.env.local` and connect Stripe and Resend before launch. Stripe Checkout validates every line against the server catalog, applies the earned cart reward server-side and charges in USD, CAD, GBP, AUD or NZD for the selected market. It accepts shipping addresses in the US, Canada, UK, Australia and New Zealand. Refresh the configurable conversion rates immediately before launch or replace them with a live-rate provider. Never commit real secrets.
 
 Policy pages are operational drafts and should be reviewed by the owner and qualified counsel before public launch. Delivery estimates, the $150 U.S. free-shipping threshold, the 30-day return window and tax/duty handling must be confirmed against the final operation.
 

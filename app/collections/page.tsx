@@ -28,7 +28,7 @@ export default function CollectionsPage() {
         {categories.map((item) => <button key={item} className={category === item ? "active" : ""} onClick={() => setCategory(item)}>{item === "All" ? "Everything" : item}</button>)}
       </nav>
 
-      <section className="collection-shell shell">
+      <section className="collection-shell shell" data-reveal>
         <div className="collection-toolbar">
           <p><strong>{filtered.length}</strong> {filtered.length === 1 ? "piece" : "pieces"}</p>
           <div>
@@ -43,7 +43,7 @@ export default function CollectionsPage() {
         <p className="results-count">Showing {filtered.length} of {products.length} pieces.</p>
       </section>
 
-      <section className="collection-explore shell"><p>SHOP BY MOOD</p><h2>Explore the Collections</h2><div><Link href="/collections/tops-blouses" className="sheet-one q2"><span>Tops & Blouses<small>Everyday, elevated</small></span></Link><Link href="/collections/dresses" className="sheet-one q3"><span>Dresses<small>Made for the moment</small></span></Link><Link href="/collections/bags" className="sheet-two q1"><span>Bags<small>The finishing touch</small></span></Link></div></section>
+      <section className="collection-explore shell" data-reveal><p>SHOP BY MOOD</p><h2>Explore the Collections</h2><div><Link href="/collections/tops-blouses" className="category-one q2"><span>Tops & Blouses<small>Everyday, elevated</small></span></Link><Link href="/collections/dresses" className="category-one q1"><span>Dresses<small>Made for the moment</small></span></Link><Link href="/collections/bags" className="category-two q3"><span>Bags<small>The finishing touch</small></span></Link></div></section>
       <Footer />
     </main>
   );
