@@ -8,7 +8,7 @@ import { PersonalizedProducts } from "./personalized-products";
 const collections = [
   { title: "Dresses", subtitle: "Made for every plan", image: "category-one q1", href: "/collections/dresses" },
   { title: "Tops & Blouses", subtitle: "Elevated everyday layers", image: "category-one q2", href: "/collections/tops-blouses" },
-  { title: "Bags", subtitle: "The finishing touch", image: "category-two q3", href: "/collections/bags" },
+  { title: "Rompers & Playsuits", subtitle: "One-and-done ease", image: "category-one q3", href: "/collections/rompers-playsuits" },
 ];
 
 export default function Home() {
@@ -44,14 +44,14 @@ export default function Home() {
         <div className="explore-grid">
           <Link href="/collections/dresses" className="explore-card category-one q1"><div><h3>Dresses</h3><span>Shop the edit</span></div></Link>
           <Link href="/collections/rompers-playsuits" className="explore-card category-one q3"><div><h3>Rompers & Playsuits</h3><span>Shop the edit</span></div></Link>
-          <Link href="/collections/shoes" className="explore-card category-two q4"><div><h3>Shoes</h3><span>Shop the edit</span></div></Link>
+          <Link href="/collections/tops-blouses" className="explore-card category-one q2"><div><h3>Tops & Blouses</h3><span>Shop the edit</span></div></Link>
         </div>
       </section>
 
       <div className="editorial-stack">
         <section className="feature-split stack-panel">
-          <div className="feature-copy"><p>THE AMB FAVORITE</p><h2>Catalina Shoulder Bag</h2><span>Clean lines, a warm caramel finish and just enough room for every day.</span><strong>$128</strong><Link className="button dark" href="/products/catalina-shoulder-bag">View the Bag</Link></div>
-          <div className="feature-image sheet-two q1" role="img" aria-label="Catalina caramel shoulder bag styled with a cream dress" />
+          <div className="feature-copy"><p>THE AMB FAVORITE</p><h2>Selene Satin Maxi Dress</h2><span>A fluid silhouette with a softly draped neckline, selected for luminous evenings and effortless entrances.</span><strong>$118</strong><Link className="button dark" href="/products/selene-satin-maxi-dress">View the Dress</Link></div>
+          <div className="feature-image" style={{ backgroundImage: "url(/products/selene-satin-maxi-dress/01.webp)", backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundColor: "#f5f3ef" }} role="img" aria-label="Selene Satin Maxi Dress by AMB BOUTIQUE" />
         </section>
 
         <div className="stack-panel founder-panel">
