@@ -3,7 +3,7 @@ import { generatedProducts } from "./generated-products";
 export type Product = {
   slug: string;
   name: string;
-  category: "Dresses" | "Tops" | "Playsuits" | "Skirts" | "Shorts" | "Knitwear" | "Bags" | "Shoes" | "Accessories";
+  category: "Dresses" | "Tops" | "Playsuits" | "Skirts" | "Pants" | "Shorts" | "Knitwear" | "Bags" | "Shoes" | "Accessories";
   price: number;
   compareAt?: number;
   badge?: string;
@@ -18,6 +18,15 @@ export type Product = {
   colorNames?: string[];
   images?: string[];
   stock?: number;
+  weightOz?: number;
+  unitCostUsd?: number;
+  inboundFreightUsd?: number;
+  dutyUsd?: number;
+  packagingUsd?: number;
+  minimumMarginPercent?: number;
+  complementarySlugs?: string[];
+  garmentMeasurements?: Record<string, { bust?: number; waist?: number; hip?: number }>;
+  stripePriceId?: string;
 };
 
 const placeholderProducts: Product[] = [
@@ -34,6 +43,7 @@ const placeholderProducts: Product[] = [
   { slug: "paloma-slingback-heel", name: "Paloma Slingback Heel", category: "Shoes", price: 118, sheet: "two", quadrant: 3, colors: ["#d5b39d", "#171717"] },
   { slug: "maren-strappy-sandal", name: "Maren Strappy Sandal", category: "Shoes", price: 92, compareAt: 115, badge: "Save 20%", sheet: "two", quadrant: 3, colors: ["#b99070", "#e9ddce"] },
   { slug: "carmel-knit-midi-skirt", name: "Carmel Knit Midi Skirt", category: "Skirts", price: 84, badge: "New", sheet: "two", quadrant: 3, colors: ["#d8c8b7", "#1b1b1b"] },
+  { slug: "coronado-wide-leg-trouser", name: "Coronado Wide-Leg Trouser", category: "Pants", price: 92, badge: "New", sheet: "two", quadrant: 4, colors: ["#eee5d8", "#9e7967"] },
   { slug: "ocean-beach-tailored-short", name: "Ocean Beach Tailored Short", category: "Shorts", price: 72, sheet: "two", quadrant: 4, colors: ["#e9dfd1", "#b78970"] },
   { slug: "torrey-soft-knit", name: "Torrey Soft Knit", category: "Knitwear", price: 88, sheet: "one", quadrant: 3, colors: ["#e6ded0", "#9f806b"] },
   { slug: "sunset-sculpted-earrings", name: "Sunset Sculpted Earrings", category: "Accessories", price: 48, badge: "Just In", sheet: "two", quadrant: 1, colors: ["#c69b54"] },
@@ -46,6 +56,7 @@ export const categoryPages = [
   { slug: "tops-blouses", name: "Tops", title: "Women’s Tops & Blouses", description: "Polished blouses, refined tanks and easy tops for everyday styling." },
   { slug: "rompers-playsuits", name: "Playsuits", title: "Rompers & Playsuits", description: "One-and-done silhouettes made for warm days, weekends and getaways." },
   { slug: "skirts", name: "Skirts", title: "Women’s Skirts", description: "Mini and midi skirts that balance movement, polish and modern femininity." },
+  { slug: "pants", name: "Pants", title: "Women’s Pants & Trousers", description: "Tailored trousers and relaxed wide-leg pants for polished everyday styling." },
   { slug: "shorts", name: "Shorts", title: "Women’s Shorts", description: "Tailored, relaxed and warm-weather shorts for an elevated everyday wardrobe." },
   { slug: "knitwear", name: "Knitwear", title: "Women’s Knitwear", description: "Soft knits and light layers selected for comfort, texture and repeat wear." },
   { slug: "bags", name: "Bags", title: "Women’s Bags", description: "Shoulder bags, totes and polished everyday companions in considered proportions." },
