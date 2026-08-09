@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Footer, Header, ProductCard } from "../components";
 import { products } from "../data";
 
-const categories = ["All", "Dresses", "Tops", "Playsuits", "Skirts", "Shorts", "Knitwear", "Bags", "Shoes", "Accessories"] as const;
+const categories = ["All", "Dresses", "Tops", "Playsuits", "Skirts", "Pants", "Shorts", "Knitwear", "Bags", "Shoes", "Accessories"] as const;
 
 export default function CollectionsPage() {
   const [category, setCategory] = useState<string>("All");
