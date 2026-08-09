@@ -19,7 +19,8 @@ export const generatedProducts: Product[] = [
     images: [
       "/products/vesper-belted-romper/01.svg",
       "/products/vesper-belted-romper/02.svg",
-      "/products/vesper-belted-romper/03.svg"
+      "/products/vesper-belted-romper/03.svg",
+      "/products/vesper-belted-romper/04.svg"
     ],
     stock: 587,
     weightOz: 10.58,
@@ -42,7 +43,9 @@ export const generatedProducts: Product[] = [
     care: "Check the garment care label before washing. Cold gentle wash and air dry recommended.",
     images: [
       "/products/maris-belted-romper/01.svg",
-      "/products/maris-belted-romper/02.svg"
+      "/products/maris-belted-romper/02.svg",
+      "/products/maris-belted-romper/03.svg",
+      "/products/maris-belted-romper/04.svg"
     ],
     stock: 588,
     weightOz: 10.58,
