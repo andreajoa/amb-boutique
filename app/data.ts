@@ -3,6 +3,7 @@ import { generatedProducts } from "./generated-products";
 export type Product = {
   slug: string;
   name: string;
+  vendor?: string;
   category: "Dresses" | "Tops" | "Playsuits" | "Skirts" | "Pants" | "Shorts" | "Knitwear" | "Bags" | "Shoes" | "Accessories";
   price: number;
   compareAt?: number;
