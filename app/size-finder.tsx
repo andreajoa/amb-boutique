@@ -2,6 +2,7 @@
 
 import { FormEvent, useEffect, useState } from "react";
 import type { Product } from "./data";
+import { useStore } from "./store-provider";
 
 const chart = [
   { us: "2", international: "6", alpha: "XS", bust: 33, waist: 25, hip: 35 },
@@ -17,6 +18,7 @@ export function SizeFinder({ product, sizes, onSelect }: { product: Product; siz
   const [open, setOpen] = useState(false);
   const [unit, setUnit] = useState<"in" | "cm">("in");
   const [result, setResult] = useState("");
+  const { trackEvent } = useStore();
 
   useEffect(() => {
     if (!open) return;
@@ -38,7 +40,7 @@ export function SizeFinder({ product, sizes, onSelect }: { product: Product; siz
   }
 
   return <div className="size-finder">
-    <button type="button" className="text-link" onClick={() => setOpen(true)}>Size guide & fit finder</button>
+    <button type="button" className="text-link" onClick={() => { setOpen(true); trackEvent("size_guide_open", { slug: product.slug, category: product.category }); }}>Size guide & fit finder</button>
     {open && <div className="size-modal-layer" role="dialog" aria-modal="true" aria-labelledby="size-modal-title">
       <button className="size-modal-backdrop" type="button" onClick={() => setOpen(false)} aria-label="Close size guide"/>
       <section className="size-modal">
