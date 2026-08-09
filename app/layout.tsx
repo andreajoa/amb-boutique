@@ -4,6 +4,7 @@ import { StoreProvider } from "./store-provider";
 import { CookieConsent } from "./cookie-consent";
 import { StructuredData } from "./structured-data";
 import { ScrollReveal } from "./scroll-reveal";
+import { MarketingPopup } from "./marketing-popup";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ambboutique.online";
 
@@ -27,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body><StructuredData/><StoreProvider>{children}<ScrollReveal/><CookieConsent /></StoreProvider></body>
+      <body><StructuredData/><StoreProvider>{children}<ScrollReveal/><CookieConsent/><MarketingPopup/></StoreProvider></body>
     </html>
   );
 }
