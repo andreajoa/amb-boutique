@@ -23,6 +23,7 @@ export type CartLine = {
 };
 
 type AddOptions = { size: string; color: string; quantity: number; offer?: OfferType };
+type BehaviorEvent = "product_view" | "size_guide_open" | "add_to_cart" | "cart_open" | "style_look_add" | "checkout_start";
 
 type StoreContextValue = {
   cart: CartLine[];
@@ -44,6 +45,7 @@ type StoreContextValue = {
   updateQuantity: (id: string, quantity: number) => void;
   removeItem: (id: string) => void;
   recordProductView: (product: Product) => void;
+  trackEvent: (event: BehaviorEvent, details?: { slug?: string; category?: string; source?: string; valueUsd?: number }) => void;
   openCart: () => void;
   closeCart: () => void;
   checkout: () => Promise<void>;
@@ -137,6 +139,11 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   const effectiveDiscountUsd = cartTotal - estimatedTotal;
   const formatMoney = (valueUsd: number) => formatMarketPrice(valueUsd, market);
 
+  const trackEvent: StoreContextValue["trackEvent"] = useCallback((event, details = {}) => {
+    if (!consentAllowsPersonalization() || !visitorId) return;
+    void fetch("/api/events", { method: "POST", headers: { "Content-Type": "application/json" }, keepalive: true, body: JSON.stringify({ event, visitorId, market, ...details }) }).catch(() => undefined);
+  }, [market, visitorId]);
+
   const setPromoCode = (code: string) => {
     const normalized = code.trim().toUpperCase();
     setPromoCodeState(normalized);
@@ -152,6 +159,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     });
     setCheckoutError("");
     setCartOpen(true);
+    trackEvent("add_to_cart", { slug: product.slug, category: product.category, source: options.offer || "product", valueUsd: product.price * options.quantity });
   };
 
   const updateQuantity = (id: string, quantity: number) => {
@@ -166,10 +174,12 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
       if (consentAllowsPersonalization()) window.localStorage.setItem(profileStorageKey, JSON.stringify({ visitorId, categories: next, updatedAt: new Date().toISOString() }));
       return next;
     });
-  }, [visitorId]);
+    trackEvent("product_view", { slug: product.slug, category: product.category, valueUsd: product.price });
+  }, [trackEvent, visitorId]);
 
   const startCheckout = async (lines: Array<Pick<CartLine, "slug" | "quantity" | "size" | "color" | "offer">>) => {
     setCheckoutError("");
+    trackEvent("checkout_start", { source: "shopping-bag", valueUsd: estimatedTotal });
     try {
       const response = await fetch("/api/checkout", {
         method: "POST",
@@ -190,7 +200,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     await startCheckout([{ slug: product.slug, quantity: options.quantity, size: options.size, color: options.color, offer: options.offer }]);
   };
 
-  const value = { cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, addItem, updateQuantity, removeItem, recordProductView, openCart: () => setCartOpen(true), closeCart: () => setCartOpen(false), checkout, buyNow, checkoutError };
+  const value = { cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, addItem, updateQuantity, removeItem, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart: () => setCartOpen(false), checkout, buyNow, checkoutError };
   return <StoreContext.Provider value={value}>{children}<CartDrawer /></StoreContext.Provider>;
 }
 
