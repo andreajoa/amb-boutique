@@ -57,8 +57,9 @@ npm run build
 
 1. Copy the real CSV to `imports/products.csv` (use `imports/product-template.csv` for the accepted columns).
 2. Publish every source colour as a separate AMB product with its own short editorial name, URL and gallery. Keep the same retail price across colour-separated products unless merchandising requires otherwise. Use an evocative name plus the garment type (for example, `Vesper Belted Romper`); never expose supplier titles to customers.
-3. Keep multiple values separated with `|`. Use `Color name:#hex` for colours and up to four `image_urls` for the gallery. Add packed `weight_oz`, unit cost, inbound freight, duty, packaging and minimum margin so every promotion can be checked for profit before checkout.
-4. Run:
+3. Every product colour must have a coordinated AMB studio gallery on a warm ivory-beige background from the store palette. The minimum gallery is four square images in this order: front, back, left profile and right profile. Preserve the real garment construction and never invent accessories or details.
+4. Keep multiple values separated with `|`. Use `Color name:#hex` for colours and four `image_urls` for the gallery. Add packed `weight_oz`, unit cost, inbound freight, duty, packaging and minimum margin so every promotion can be checked for profit before checkout.
+5. Run:
 
 ```bash
 npm run import:products
