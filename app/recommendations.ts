@@ -1,24 +1,28 @@
 import type { Product } from "./data";
 
 const complements: Record<Product["category"], Product["category"][]> = {
-  Dresses: ["Shoes", "Bags", "Accessories"],
-  Tops: ["Skirts", "Shorts", "Bags"],
-  Playsuits: ["Shoes", "Bags", "Accessories"],
-  Skirts: ["Tops", "Shoes", "Bags"],
-  Pants: ["Tops", "Shoes", "Bags"],
-  Shorts: ["Tops", "Shoes", "Bags"],
-  Knitwear: ["Skirts", "Bags", "Accessories"],
-  Bags: ["Dresses", "Shoes", "Accessories"],
-  Shoes: ["Dresses", "Bags", "Accessories"],
-  Accessories: ["Dresses", "Bags", "Shoes"],
+  Dresses: ["Shoes", "Bags", "Accessories", "Knitwear"],
+  Tops: ["Skirts", "Pants", "Shorts", "Shoes", "Bags", "Accessories"],
+  Playsuits: ["Shoes", "Bags", "Accessories", "Knitwear"],
+  Skirts: ["Tops", "Knitwear", "Shoes", "Bags", "Accessories"],
+  Pants: ["Tops", "Knitwear", "Shoes", "Bags", "Accessories"],
+  Shorts: ["Tops", "Knitwear", "Shoes", "Bags", "Accessories"],
+  Knitwear: ["Skirts", "Pants", "Shorts", "Shoes", "Bags", "Accessories"],
+  Bags: ["Dresses", "Tops", "Skirts", "Pants", "Shorts", "Shoes", "Accessories"],
+  Shoes: ["Dresses", "Tops", "Skirts", "Pants", "Shorts", "Bags", "Accessories"],
+  Accessories: ["Dresses", "Tops", "Skirts", "Pants", "Shorts", "Bags", "Shoes"],
 };
 
 export function rankRecommendations(catalog: Product[], excludedSlugs: string[], preferredCategories: string[] = [], anchorProducts: Product[] = []) {
   const excluded = new Set(excludedSlugs);
   const explicit = new Set(anchorProducts.flatMap((product) => product.complementarySlugs || []));
   const complementaryCategories = anchorProducts.flatMap((product) => complements[product.category]);
+  const anchorCategories = new Set(anchorProducts.map((product) => product.category));
+  const complementaryOnly = anchorProducts.length > 0;
   return catalog
-    .filter((product) => !excluded.has(product.slug))
+    .filter((product) => !excluded.has(product.slug)
+      && !anchorCategories.has(product.category)
+      && (!complementaryOnly || complementaryCategories.includes(product.category)))
     .map((product, index) => ({
       product,
       score: (explicit.has(product.slug) ? 100 : 0)
@@ -31,17 +35,23 @@ export function rankRecommendations(catalog: Product[], excludedSlugs: string[],
     .map((entry) => entry.product);
 }
 
-const styleBlueprints: Record<Product["category"], [Product["category"][], Product["category"][]]> = {
-  Dresses: [["Shoes", "Bags", "Accessories"], ["Knitwear", "Shoes", "Bags"]],
-  Tops: [["Skirts", "Shoes", "Bags"], ["Pants", "Shoes", "Accessories"]],
-  Playsuits: [["Shoes", "Bags", "Accessories"], ["Knitwear", "Shoes", "Bags"]],
-  Skirts: [["Tops", "Shoes", "Bags"], ["Knitwear", "Shoes", "Accessories"]],
-  Pants: [["Tops", "Shoes", "Bags"], ["Knitwear", "Shoes", "Accessories"]],
-  Shorts: [["Tops", "Shoes", "Bags"], ["Knitwear", "Shoes", "Accessories"]],
-  Knitwear: [["Skirts", "Shoes", "Bags"], ["Dresses", "Shoes", "Accessories"]],
-  Bags: [["Dresses", "Shoes", "Accessories"], ["Tops", "Skirts", "Shoes"]],
-  Shoes: [["Dresses", "Bags", "Accessories"], ["Pants", "Tops", "Bags"]],
-  Accessories: [["Dresses", "Shoes", "Bags"], ["Tops", "Skirts", "Shoes"]],
+type StyleSlot = Product["category"][];
+type StyleBlueprint = [StyleSlot[], StyleSlot[]];
+
+// Each inner array is one outfit slot. Categories inside a slot are alternatives,
+// never extra pieces. Missing inventory leaves the slot empty instead of inserting
+// an unrelated product.
+const styleBlueprints: Record<Product["category"], StyleBlueprint> = {
+  Dresses: [[["Shoes"], ["Bags"], ["Accessories"]], [["Knitwear"], ["Shoes"], ["Bags"]]],
+  Tops: [[["Skirts", "Pants", "Shorts"], ["Shoes"], ["Bags"]], [["Pants", "Skirts", "Shorts"], ["Shoes"], ["Accessories"]]],
+  Playsuits: [[["Shoes"], ["Bags"], ["Accessories"]], [["Knitwear"], ["Shoes"], ["Bags"]]],
+  Skirts: [[["Tops", "Knitwear"], ["Shoes"], ["Bags"]], [["Knitwear", "Tops"], ["Shoes"], ["Accessories"]]],
+  Pants: [[["Tops", "Knitwear"], ["Shoes"], ["Bags"]], [["Knitwear", "Tops"], ["Shoes"], ["Accessories"]]],
+  Shorts: [[["Tops", "Knitwear"], ["Shoes"], ["Bags"]], [["Knitwear", "Tops"], ["Shoes"], ["Accessories"]]],
+  Knitwear: [[["Skirts", "Pants", "Shorts"], ["Shoes"], ["Bags"]], [["Pants", "Skirts", "Shorts"], ["Shoes"], ["Accessories"]]],
+  Bags: [[["Dresses"], ["Shoes"], ["Accessories"]], [["Pants", "Skirts", "Shorts"], ["Tops", "Knitwear"], ["Shoes"]]],
+  Shoes: [[["Dresses"], ["Bags"], ["Accessories"]], [["Pants", "Skirts", "Shorts"], ["Tops", "Knitwear"], ["Bags"]]],
+  Accessories: [[["Dresses"], ["Shoes"], ["Bags"]], [["Pants", "Skirts", "Shorts"], ["Tops", "Knitwear"], ["Shoes"]]],
 };
 
 export type StyleLook = { title: string; description: string; products: Product[] };
@@ -54,14 +64,19 @@ export function createStyleLooks(anchor: Product, catalog: Product[], preferredC
     { title: "Coastal Polished", description: "Clean lines, refined contrast and an effortless San Diego finish." },
     { title: "Golden Hour", description: "A softer styling direction with warm, feminine finishing touches." },
   ];
-  return styleBlueprints[anchor.category].map((categories, lookIndex) => {
-    const matches = categories.map((category) => {
-      const fresh = ranked.find((product) => product.category === category && !used.has(product.slug));
-      const fallback = ranked.find((product) => product.category === category) || ranked.find((product) => !used.has(product.slug));
-      const selected = fresh || fallback;
+  return styleBlueprints[anchor.category].map((slots, lookIndex) => {
+    const matches = slots.map((allowedCategories) => {
+      const selected = ranked.find((product) => allowedCategories.includes(product.category) && !used.has(product.slug));
       if (selected) used.add(selected.slug);
       return selected;
     }).filter((product): product is Product => Boolean(product));
     return { ...names[lookIndex], products: [anchor, ...matches] };
-  });
+  }).filter((look) => look.products.length > 1);
+}
+
+/** Returns one coherent outfit, without repeating the viewed product's category. */
+export function createCompleteLook(anchor: Product, catalog: Product[], preferredCategories: string[] = []) {
+  const looks = createStyleLooks(anchor, catalog, preferredCategories);
+  const richest = looks.reduce<StyleLook | undefined>((best, look) => !best || look.products.length > best.products.length ? look : best, undefined);
+  return richest?.products.filter((product) => product.slug !== anchor.slug) || [];
 }
