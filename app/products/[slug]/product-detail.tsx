@@ -24,6 +24,7 @@ export default function ProductDetail({ product }: { product: Product }) {
   const [quantity, setQuantity] = useState(1);
   const { addItem, buyNow, formatMoney, preferredCategories, recordProductView } = useStore();
   const completeLook = useMemo(() => createCompleteLook(product, products, preferredCategories), [product, preferredCategories]);
+  const gallery = product.images?.length ? product.images : [undefined, undefined, undefined, undefined];
 
   useEffect(() => { recordProductView(product); }, [product, recordProductView]);
 
@@ -36,7 +37,7 @@ export default function ProductDetail({ product }: { product: Product }) {
       <Header />
       <div className="product-layout shell" data-reveal>
         <section className="product-gallery" aria-label={`${product.name} gallery`}>
-          {[1, 2, 3, 4].map((view) => <button key={view} className={`gallery-image gallery-q${view}`} style={product.images?.[view - 1] ? { backgroundImage: `url(${product.images[view - 1]})`, backgroundSize: "cover", backgroundPosition: "center" } : undefined} aria-label={`Open ${product.name} image ${view}`}><span>⌕</span></button>)}
+          {gallery.map((image, index) => <button key={image || index} className={`gallery-image gallery-q${index + 1}`} style={image ? { backgroundImage: `url(${image})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundColor: "#f5f3ef" } : undefined} aria-label={`Open ${product.name} image ${index + 1}`}><span>⌕</span></button>)}
         </section>
 
         <section className="product-info">
@@ -52,7 +53,7 @@ export default function ProductDetail({ product }: { product: Product }) {
           <div className="fit-guide"><span>How it fits</span><div><i/><i/><i className="active"/><i/><i/></div><p><small>Slim fit</small><small>Regular fit</small><small>Oversized</small></p></div>
 
           <div className="quantity-block"><span>Quantity</span><div><button type="button" onClick={() => setQuantity(Math.max(1, quantity - 1))} aria-label="Decrease quantity">−</button><span>{quantity}</span><button type="button" onClick={() => setQuantity(quantity + 1)} aria-label="Increase quantity">+</button></div></div>
-          <p className="stock-line"><i/> {typeof product.stock === "number" && product.stock <= 5 ? `Only ${product.stock} left` : "In stock and ready to ship"}</p>
+          <p className="stock-line"><i/> {typeof product.stock === "number" && product.stock <= 5 ? `Only ${product.stock} left` : "Available to order"}</p>
           <button className="add-button" type="button" onClick={addToBag}>Add to Bag · {formatMoney(product.price * quantity)}</button>
           <button className="buy-button" type="button" onClick={() => void buyNow(product, { size, color: color.name, quantity })}>Buy Now</button>
 
