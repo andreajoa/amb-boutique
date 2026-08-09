@@ -2,6 +2,7 @@ import "server-only";
 
 import Stripe from "stripe";
 
+// Kept in a dedicated server-only module so checkout and webhook routes share one client.
 let stripeClient: Stripe | null = null;
 
 export function getStripe() {
