@@ -12,6 +12,7 @@ export function CookieConsent() {
 
   const save = (value: "essential" | "all") => {
     window.localStorage.setItem(consentKey, JSON.stringify({ value, savedAt: new Date().toISOString() }));
+    window.dispatchEvent(new CustomEvent("amb-consent-change", { detail: value }));
     setVisible(false);
   };
 
