@@ -23,8 +23,13 @@ export function SizeFinder({ product, sizes, onSelect }: { product: Product; siz
   useEffect(() => {
     if (!open) return;
     const closeOnEscape = (event: KeyboardEvent) => { if (event.key === "Escape") setOpen(false); };
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
     window.addEventListener("keydown", closeOnEscape);
-    return () => window.removeEventListener("keydown", closeOnEscape);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", closeOnEscape);
+    };
   }, [open]);
 
   function submit(event: FormEvent<HTMLFormElement>) {
@@ -44,7 +49,7 @@ export function SizeFinder({ product, sizes, onSelect }: { product: Product; siz
     {open && <div className="size-modal-layer" role="dialog" aria-modal="true" aria-labelledby="size-modal-title">
       <button className="size-modal-backdrop" type="button" onClick={() => setOpen(false)} aria-label="Close size guide"/>
       <section className="size-modal">
-        <div className="size-modal-head"><div><p>AMB FIT GUIDE</p><h2 id="size-modal-title">Find your best size</h2></div><button type="button" onClick={() => setOpen(false)} aria-label="Close">×</button></div>
+        <div className="size-modal-head"><div><p>AMB FIT GUIDE</p><h2 id="size-modal-title">Find your best size</h2></div><button type="button" autoFocus onClick={() => setOpen(false)} aria-label="Close">×</button></div>
         <p className="size-modal-intro">Compare international sizes or enter your measurements. You will stay on {product.name}, and your selected size is preserved.</p>
         <div className="size-modal-grid">
           <div><h3>International conversion</h3><div className="modal-size-table" role="table" aria-label="International women's size conversion"><div role="row"><strong>US / CA</strong><strong>UK / AU / NZ</strong><strong>Bust</strong><strong>Waist</strong><strong>Hip</strong></div>{chart.map((row) => <div role="row" key={row.us}><span>{row.us}</span><span>{row.international}</span><span>{row.bust} in</span><span>{row.waist} in</span><span>{row.hip} in</span></div>)}</div><small>Conversions are a starting point. Product-specific garment measurements take priority.</small></div>
