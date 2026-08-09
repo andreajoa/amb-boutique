@@ -1,12 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Footer, Header, ProductCard } from "../../components";
 import { Product, products } from "../../data";
 import { useStore } from "../../store-provider";
 import { SizeFinder } from "../../size-finder";
-import { rankRecommendations } from "../../recommendations";
+import { createCompleteLook } from "../../recommendations";
 import { StyleMatches } from "../../style-matches";
 
 const defaultSizes = ["2", "4", "6", "8", "10", "12"];
@@ -23,6 +23,7 @@ export default function ProductDetail({ product }: { product: Product }) {
   const [color, setColor] = useState(colors[0] || defaultColors[0]);
   const [quantity, setQuantity] = useState(1);
   const { addItem, buyNow, formatMoney, preferredCategories, recordProductView } = useStore();
+  const completeLook = useMemo(() => createCompleteLook(product, products, preferredCategories), [product, preferredCategories]);
 
   useEffect(() => { recordProductView(product); }, [product, recordProductView]);
 
@@ -68,7 +69,7 @@ export default function ProductDetail({ product }: { product: Product }) {
 
       <StyleMatches product={product} catalog={products}/>
 
-      <section className="section shell product-recommendations" data-reveal><div className="section-heading centered"><div><p>SELECTED FOR THIS LOOK</p><h2>Complete the Look</h2></div></div><div className="product-row">{rankRecommendations(products, [product.slug], preferredCategories, [product]).slice(0, 4).map((item) => <ProductCard key={item.slug} product={item} compact />)}</div></section>
+      {completeLook.length > 0 && <section className="section shell product-recommendations" data-reveal><div className="section-heading centered"><div><p>SELECTED FOR THIS LOOK</p><h2>Complete the Look</h2></div></div><div className="product-row">{completeLook.map((item) => <ProductCard key={item.slug} product={item} compact />)}</div></section>}
       <section className="product-campaign" data-reveal><div><p>THE SAN DIEGO EDIT</p><h2>More to discover</h2><span>New silhouettes and finishing touches, curated for warm days and easy nights.</span><Link className="button light" href="/collections">Explore the Collection</Link></div></section>
       <section className="collection-explore shell product-explore" data-reveal><p>SHOP BY CATEGORY</p><h2>More to Explore</h2><div><Link href="/collections/dresses" className="category-one q1"><span>Dresses<small>Effortless silhouettes</small></span></Link><Link href="/collections/rompers-playsuits" className="category-one q3"><span>Playsuits<small>One-and-done style</small></span></Link><Link href="/collections/tops-blouses" className="category-one q2"><span>Tops & Blouses<small>Elevated essentials</small></span></Link></div></section>
       <Footer />
