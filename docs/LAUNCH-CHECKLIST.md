@@ -5,7 +5,7 @@
 - Homepage, collections, category collections, product template, global cart and support pages
 - Responsive desktop/mobile design and generated editorial imagery
 - SEO, JSON-LD, sitemap, robots, social sharing metadata and llms.txt
-- Stripe Checkout/webhook code and Resend contact/newsletter code
+- Stripe Embedded Checkout/webhook code and Resend contact/newsletter code
 - Margin guard, non-stacking welcome/cart/post-purchase offers and native Checkout cross-sell
 - Consent-aware preference ID, welcome email/SMS capture and size recommendation helper
 - Consent-gated first-party behavior events, ready for an analytics webhook
@@ -26,7 +26,9 @@
 - Confirm the real business return address and support hours
 - Confirm San Diego origin ZIP, packed dimensions/weights, carrier account, delivery estimates and international duties policy; replace preview bands with live rates
 - Confirm the 30-day return policy and exclusions with the owner; obtain legal review for policies
-- Create Stripe account/products settings, enable desired payment methods and add webhook secret
+- Confirm `STRIPE_SECRET_KEY` plus either `STRIPE_PUBLISHABLE_KEY` or `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` in Vercel
+- Add the production Stripe webhook URL `/api/webhooks/stripe` and subscribe to Checkout completion, asynchronous success and asynchronous failure events
+- Run one successful and one declined Stripe test checkout in every supported market; verify currency, tax and shipping before enabling live mode
 - Configure tax collection with qualified tax advice; set `STRIPE_AUTOMATIC_TAX=true` only after Stripe Tax is ready
 - Verify `ambboutique.online` and sending domain in Resend; connect contact and newsletter credentials
 - Add real social profile URLs

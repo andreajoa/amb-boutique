@@ -4,17 +4,18 @@ import { products } from "../../data";
 import { convertFromUsd, FIRST_ORDER_CODE, getDiscountState, getShippingQuotes, isMarketCode, markets } from "../../commerce";
 import { bestNonStackingDiscount, protectMargin } from "../../profitability";
 import { rankRecommendations } from "../../recommendations";
+import { getStripe } from "../../stripe-server";
 
 export const runtime = "nodejs";
 
 type RequestedLine = { slug?: string; quantity?: number; size?: string; color?: string; offer?: "cart-bump" | "post-purchase" };
-type CheckoutBody = { items?: RequestedLine[]; market?: unknown; promotionCode?: string; orderNote?: string; visitorId?: string };
+type CheckoutBody = { items?: RequestedLine[]; market?: unknown; promotionCode?: string; orderNote?: string; visitorId?: string; parentSessionId?: string };
 
 const stripeCountry = { US: "US", CA: "CA", UK: "GB", AU: "AU", NZ: "NZ" } as const;
 
 export async function POST(request: NextRequest) {
-  const secret = process.env.STRIPE_SECRET_KEY;
-  if (!secret) return NextResponse.json({ error: "Secure checkout is prepared and will be activated when payment credentials are connected." }, { status: 503 });
+  const stripe = getStripe();
+  if (!stripe) return NextResponse.json({ error: "Secure checkout is prepared and will be activated when payment credentials are connected." }, { status: 503 });
 
   const body = await request.json().catch(() => null) as CheckoutBody | null;
   if (!body?.items?.length || body.items.length > 20) return NextResponse.json({ error: "Your bag is empty or contains too many separate items." }, { status: 400 });
@@ -40,8 +41,37 @@ export async function POST(request: NextRequest) {
       : 0;
     const totalUnits = normalized.reduce((sum, item) => sum + item.quantity, 0);
 
+    const cartBumps = normalized.filter((item) => item.line.offer === "cart-bump");
+    if (cartBumps.length) {
+      const standardItems = normalized.filter((item) => !item.line.offer);
+      const anchors = standardItems.map((item) => item.product);
+      const allowedBumps = rankRecommendations(products, anchors.map((product) => product.slug), [], anchors);
+      if (cartBumps.length > 1 || !anchors.length || !allowedBumps.some((product) => product.slug === cartBumps[0].product.slug)) {
+        throw new Error("That cart offer is not available for this selection.");
+      }
+    }
+
+    const isPostPurchase = normalized.some((item) => item.line.offer === "post-purchase");
+    let parentSession: Stripe.Checkout.Session | null = null;
+    if (isPostPurchase) {
+      if (!body.parentSessionId || normalized.length !== 1) throw new Error("This private offer is no longer available.");
+      parentSession = await stripe.checkout.sessions.retrieve(body.parentSessionId);
+      const isRecent = parentSession.created * 1000 > Date.now() - 24 * 60 * 60 * 1000;
+      const isOriginalPaidOrder = parentSession.payment_status === "paid"
+        && parentSession.metadata?.store === "AMB BOUTIQUE"
+        && parentSession.metadata?.order_type !== "post-purchase"
+        && parentSession.metadata?.market === market;
+      if (!isRecent || !isOriginalPaidOrder) throw new Error("This private offer is no longer available.");
+
+      const purchasedSlugs = (parentSession.metadata?.purchased_slugs || "").split("|").filter(Boolean);
+      const anchors = purchasedSlugs.map((slug) => products.find((product) => product.slug === slug)).filter((product): product is (typeof products)[number] => Boolean(product));
+      if (!anchors.length) throw new Error("This private offer is no longer available.");
+      const allowed = rankRecommendations(products, purchasedSlugs, [], anchors).some((product) => product.slug === normalized[0].product.slug);
+      if (!allowed) throw new Error("That item is not an eligible match for this order.");
+    }
+
     const lineItems: Stripe.Checkout.SessionCreateParams.LineItem[] = normalized.map((item) => {
-      const requestedPercent = Math.max(globalOffer.percent, item.line.offer === "post-purchase" ? 15 : item.line.offer === "cart-bump" ? 10 : 0);
+      const requestedPercent = item.line.offer === "post-purchase" ? 15 : Math.max(globalOffer.percent, item.line.offer === "cart-bump" ? 10 : 0);
       const margin = protectMargin(item.product, requestedPercent, complimentaryShippingCostUsd / totalUnits);
       const discountedUnitUsd = item.product.price * (1 - margin.approvedPercent / 100);
       return {
@@ -72,31 +102,32 @@ export async function POST(request: NextRequest) {
       },
     }));
 
-    const cartProducts = normalized.map((item) => item.product);
-    const crossSell = rankRecommendations(products, cartProducts.map((product) => product.slug), [], cartProducts)
-      .find((product) => (product.category === "Bags" || product.category === "Accessories") && product.stripePriceId);
-    const optionalItems = crossSell ? [{
-      price: crossSell.stripePriceId!,
-      quantity: 1,
-    }] : undefined;
-
-    const stripe = new Stripe(secret, { apiVersion: "2026-07-29.dahlia" });
     const origin = process.env.NEXT_PUBLIC_SITE_URL || request.nextUrl.origin;
+    const purchasedSlugs = normalized.map((item) => item.product.slug).join("|").slice(0, 450);
+    const orderType = isPostPurchase ? "post-purchase" : "standard";
+    const customer = typeof parentSession?.customer === "string" ? parentSession.customer : undefined;
     const sessionParams: Stripe.Checkout.SessionCreateParams = {
       mode: "payment",
+      ui_mode: "embedded_page",
       line_items: lineItems,
-      ...(optionalItems ? { optional_items: optionalItems } : {}),
       shipping_options: shippingOptions,
       billing_address_collection: "required",
       shipping_address_collection: { allowed_countries: [stripeCountry[market]] },
-      customer_creation: "always",
+      ...(customer ? { customer } : { customer_creation: "always" as const }),
       phone_number_collection: { enabled: true },
       automatic_tax: { enabled: process.env.STRIPE_AUTOMATIC_TAX === "true" },
-      success_url: `${origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${origin}/cart`,
+      redirect_on_completion: "always",
+      return_url: `${origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
+      custom_text: {
+        shipping_address: { message: "AMB BOUTIQUE ships from San Diego, California. Duties may apply outside the United States." },
+        submit: { message: "Your payment is encrypted and processed securely by Stripe." },
+      },
       metadata: {
         store: "AMB BOUTIQUE",
         fulfillment_status: "unfulfilled",
+        order_type: orderType,
+        parent_session_id: parentSession?.id || "",
+        purchased_slugs: purchasedSlugs,
         market,
         currency: markets[market].currency,
         offer_source: globalOffer.source,
@@ -106,7 +137,8 @@ export async function POST(request: NextRequest) {
       },
     };
     const session = await stripe.checkout.sessions.create(sessionParams);
-    return NextResponse.json({ url: session.url });
+    if (!session.client_secret) throw new Error("Secure checkout could not be initialized.");
+    return NextResponse.json({ clientSecret: session.client_secret, sessionId: session.id });
   } catch (error) {
     return NextResponse.json({ error: error instanceof Error ? error.message : "Checkout could not be started." }, { status: 400 });
   }

@@ -25,7 +25,10 @@ export function landedCost(product: ProductEconomics) {
 export function protectMargin(product: Product, requestedPercent: number, shippingSubsidyUsd = 0): ProfitCheck {
   const cost = landedCost(product);
   const requested = Math.max(0, Math.min(25, requestedPercent));
-  if (cost === null) return { costKnown: false, requestedPercent: requested, approvedPercent: requested, landedCostUsd: null, floorPriceUsd: null, contributionUsd: null, marginPercent: null };
+  // Unknown cost never receives an automatic discount. This fail-closed rule is
+  // deliberate: offers become available only after the imported catalogue has
+  // a verified landed cost and minimum contribution margin.
+  if (cost === null) return { costKnown: false, requestedPercent: requested, approvedPercent: 0, landedCostUsd: null, floorPriceUsd: null, contributionUsd: null, marginPercent: null };
 
   const minimumMargin = Math.max(0, Math.min(70, product.minimumMarginPercent ?? DEFAULT_MINIMUM_MARGIN_PERCENT)) / 100;
   const floorPrice = (cost + shippingSubsidyUsd + PAYMENT_FIXED_FEE_USD) / (1 - PAYMENT_FEE_RATE - minimumMargin);

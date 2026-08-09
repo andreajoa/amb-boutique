@@ -1,11 +1,13 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import { Product, products } from "./data";
 import { FIRST_ORDER_CODE, formatMarketPrice, getDiscountState, MarketCode, markets, US_FREE_SHIPPING_THRESHOLD_USD } from "./commerce";
 import { CartRewards } from "./cart-rewards";
 import { rankRecommendations } from "./recommendations";
+import { protectMargin } from "./profitability";
 
 type OfferType = "cart-bump" | "post-purchase";
 
@@ -44,12 +46,13 @@ type StoreContextValue = {
   addItem: (product: Product, options: AddOptions) => void;
   updateQuantity: (id: string, quantity: number) => void;
   removeItem: (id: string) => void;
+  clearCart: () => void;
   recordProductView: (product: Product) => void;
   trackEvent: (event: BehaviorEvent, details?: { slug?: string; category?: string; source?: string; valueUsd?: number }) => void;
   openCart: () => void;
   closeCart: () => void;
   checkout: () => Promise<void>;
-  buyNow: (product: Product, options: AddOptions) => Promise<void>;
+  buyNow: (product: Product, options: AddOptions, context?: { parentSessionId?: string }) => Promise<void>;
   checkoutError: string;
 };
 
@@ -75,6 +78,7 @@ export function useStore() {
 }
 
 export function StoreProvider({ children }: { children: React.ReactNode }) {
+  const router = useRouter();
   const [cart, setCart] = useState<CartLine[]>([]);
   const [cartOpen, setCartOpen] = useState(false);
   const [market, setMarket] = useState<MarketCode>("US");
@@ -133,8 +137,10 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   const discount = getDiscountState(cartTotal);
   const welcomePercent = promoCode.toUpperCase() === FIRST_ORDER_CODE ? 10 : 0;
   const estimatedTotal = useMemo(() => cart.reduce((sum, line) => {
-    const linePercent = Math.max(discount.percent, welcomePercent, line.offer ? 10 : 0);
-    return sum + line.price * line.quantity * (1 - linePercent / 100);
+    const product = products.find((item) => item.slug === line.slug);
+    const requestedPercent = Math.max(discount.percent, welcomePercent, line.offer === "cart-bump" ? 10 : 0);
+    const approvedPercent = product ? protectMargin(product, requestedPercent).approvedPercent : 0;
+    return sum + line.price * line.quantity * (1 - approvedPercent / 100);
   }, 0), [cart, discount.percent, welcomePercent]);
   const effectiveDiscountUsd = cartTotal - estimatedTotal;
   const formatMoney = (valueUsd: number) => formatMarketPrice(valueUsd, market);
@@ -177,30 +183,40 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     trackEvent("product_view", { slug: product.slug, category: product.category, valueUsd: product.price });
   }, [trackEvent, visitorId]);
 
-  const startCheckout = async (lines: Array<Pick<CartLine, "slug" | "quantity" | "size" | "color" | "offer">>) => {
+  const startCheckout = async (lines: Array<Pick<CartLine, "slug" | "quantity" | "size" | "color" | "offer">>, parentSessionId?: string) => {
     setCheckoutError("");
     trackEvent("checkout_start", { source: "shopping-bag", valueUsd: estimatedTotal });
     try {
       const response = await fetch("/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ items: lines, market, promotionCode: promoCode, orderNote, visitorId }),
+        body: JSON.stringify({ items: lines, market, promotionCode: promoCode, orderNote, visitorId, parentSessionId }),
       });
       const result = await response.json();
-      if (!response.ok || !result.url) throw new Error(result.error || "Checkout is not available yet.");
-      window.location.assign(result.url);
+      if (!response.ok || !result.clientSecret) throw new Error(result.error || "Checkout is not available yet.");
+      window.sessionStorage.setItem("amb-stripe-client-secret", result.clientSecret);
+      window.sessionStorage.setItem("amb-stripe-session-id", result.sessionId || "");
+      router.push("/checkout");
     } catch (error) {
       setCheckoutError(error instanceof Error ? error.message : "Checkout is not available yet.");
     }
   };
 
   const checkout = () => startCheckout(cart.map(({ slug, quantity, size, color, offer }) => ({ slug, quantity, size, color, offer })));
-  const buyNow: StoreContextValue["buyNow"] = async (product, options) => {
-    addItem(product, options);
-    await startCheckout([{ slug: product.slug, quantity: options.quantity, size: options.size, color: options.color, offer: options.offer }]);
+  const buyNow: StoreContextValue["buyNow"] = async (product, options, context) => {
+    if (!context?.parentSessionId) addItem(product, options);
+    await startCheckout([{ slug: product.slug, quantity: options.quantity, size: options.size, color: options.color, offer: options.offer }], context?.parentSessionId);
   };
 
-  const value = { cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, addItem, updateQuantity, removeItem, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart: () => setCartOpen(false), checkout, buyNow, checkoutError };
+  const clearCart = useCallback(() => {
+    setCart([]);
+    setPromoCodeState("");
+    setOrderNote("");
+    setCartOpen(false);
+    window.localStorage.removeItem(storageKey);
+    window.localStorage.removeItem(promoStorageKey);
+  }, []);
+  const value = { cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, addItem, updateQuantity, removeItem, clearCart, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart: () => setCartOpen(false), checkout, buyNow, checkoutError };
   return <StoreContext.Provider value={value}>{children}<CartDrawer /></StoreContext.Provider>;
 }
 
@@ -209,7 +225,9 @@ function CartDrawer() {
   if (!cartOpen) return null;
   const shippingGap = Math.max(0, US_FREE_SHIPPING_THRESHOLD_USD - cartTotal);
   const cartProducts = cart.map((line) => products.find((product) => product.slug === line.slug)).filter((product): product is Product => Boolean(product));
-  const upsell = rankRecommendations(products, cart.map((line) => line.slug), preferredCategories, cartProducts)[0];
+  const upsellCandidate = rankRecommendations(products, cart.map((line) => line.slug), preferredCategories, cartProducts)[0];
+  const upsellMargin = upsellCandidate ? protectMargin(upsellCandidate, 10) : null;
+  const upsell = upsellCandidate && upsellMargin?.costKnown && upsellMargin.approvedPercent > 0 ? upsellCandidate : null;
   return <div className="cart-layer" role="dialog" aria-modal="true" aria-label="Shopping bag">
     <button className="cart-backdrop" aria-label="Close shopping bag" onClick={closeCart}/>
     <aside className="cart-drawer">
@@ -221,7 +239,7 @@ function CartDrawer() {
           <b>{formatMoney(line.price * line.quantity)}</b>
         </div>)}</div>
         <CartRewards subtotalUsd={cartTotal} market={market} />
-        {upsell && <div className="cart-upsell"><p>ONE-TIME CART OFFER</p><strong>Complete the look and save 10%</strong><div><div className={`upsell-thumb sheet-${upsell.sheet} q${upsell.quadrant}`} style={upsell.images?.[0] ? { backgroundImage: `url(${upsell.images[0]})`, backgroundSize: "cover", backgroundPosition: "center" } : undefined}/><span><strong>{upsell.name}</strong><small><del>{formatMoney(upsell.price)}</del> {formatMoney(upsell.price * .9)}</small></span><button type="button" onClick={() => addItem(upsell, { size: upsell.sizes?.[0] || "One Size", color: upsell.colorNames?.[0] || "Selected", quantity: 1, offer: "cart-bump" })}>Add offer</button></div><small>Best eligible offer wins; discounts never stack.</small></div>}
+        {upsell && upsellMargin && <div className="cart-upsell"><p>ONE-TIME CART OFFER</p><strong>Complete the look and save {upsellMargin.approvedPercent.toFixed(upsellMargin.approvedPercent % 1 ? 1 : 0)}%</strong><div><div className={`upsell-thumb sheet-${upsell.sheet} q${upsell.quadrant}`} style={upsell.images?.[0] ? { backgroundImage: `url(${upsell.images[0]})`, backgroundSize: "cover", backgroundPosition: "center" } : undefined}/><span><strong>{upsell.name}</strong><small><del>{formatMoney(upsell.price)}</del> {formatMoney(upsell.price * (1 - upsellMargin.approvedPercent / 100))}</small></span><button type="button" onClick={() => addItem(upsell, { size: upsell.sizes?.[0] || "One Size", color: upsell.colorNames?.[0] || "Selected", quantity: 1, offer: "cart-bump" })}>Add offer</button></div><small>Margin verified. Discounts never stack; the best eligible offer wins.</small></div>}
         <div className="shipping-progress"><span>{market === "US" ? (shippingGap ? `You’re ${formatMoney(shippingGap)} away from complimentary U.S. shipping.` : "You’ve unlocked complimentary U.S. shipping.") : `Tracked delivery to ${markets[market].country} is calculated at checkout.`}</span>{market === "US" && <i><b style={{ width: `${Math.min(100, (cartTotal / US_FREE_SHIPPING_THRESHOLD_USD) * 100)}%` }}/></i>}</div>
         <div className="promo-entry"><label htmlFor="cart-code">Offer code</label><div><input id="cart-code" value={promoCode} onChange={(event) => setPromoCode(event.target.value)} placeholder="Enter code"/><button type="button">{promoCode ? "Applied" : "Apply"}</button></div>{promoCode && <small>{promoCode} is ready. The single best eligible discount will be used.</small>}</div>
         <label className="order-note">Add a note to your order<textarea rows={2} onChange={(event) => setOrderNote(event.target.value)}/></label>
