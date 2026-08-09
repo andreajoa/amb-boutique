@@ -22,6 +22,7 @@ export function rankRecommendations(catalog: Product[], excludedSlugs: string[],
   return catalog
     .filter((product) => !excluded.has(product.slug)
       && !anchorCategories.has(product.category)
+      && (!complementaryOnly || product.styleEligible !== false)
       && (!complementaryOnly || complementaryCategories.includes(product.category)))
     .map((product, index) => ({
       product,
@@ -60,14 +61,21 @@ export type StyleLook = { title: string; description: string; products: Product[
 export function createStyleLooks(anchor: Product, catalog: Product[], preferredCategories: string[] = []): StyleLook[] {
   const ranked = rankRecommendations(catalog, [anchor.slug], preferredCategories, [anchor]);
   const used = new Set([anchor.slug]);
+  const visualKey = (product: Product) => product.images?.[0] || `${product.sheet}:${product.quadrant}`;
+  const usedVisuals = new Set([visualKey(anchor)]);
   const names = [
     { title: "Coastal Polished", description: "Clean lines, refined contrast and an effortless San Diego finish." },
     { title: "Golden Hour", description: "A softer styling direction with warm, feminine finishing touches." },
   ];
   return styleBlueprints[anchor.category].map((slots, lookIndex) => {
     const matches = slots.map((allowedCategories) => {
-      const selected = ranked.find((product) => allowedCategories.includes(product.category) && !used.has(product.slug));
-      if (selected) used.add(selected.slug);
+      const selected = ranked.find((product) => allowedCategories.includes(product.category)
+        && !used.has(product.slug)
+        && !usedVisuals.has(visualKey(product)));
+      if (selected) {
+        used.add(selected.slug);
+        usedVisuals.add(visualKey(selected));
+      }
       return selected;
     }).filter((product): product is Product => Boolean(product));
     return { ...names[lookIndex], products: [anchor, ...matches] };
