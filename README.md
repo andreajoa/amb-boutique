@@ -22,7 +22,7 @@ International women’s fashion storefront based in San Diego, California and fo
 - Complimentary standard U.S. shipping at US$99 and configurable carrier previews for CA, UK, AU and NZ
 - Consent-aware visitor preference ID, personalised product ranking and a measurement-based size finder
 - Email/SMS welcome-offer capture prepared for Resend plus a marketing webhook
-- Native Stripe Checkout cross-sell, shipping choices and a separate secure post-purchase offer flow
+- Stripe Embedded Checkout, shipping choices, verified cart bump and a separate secure post-purchase offer/downsell flow
 - Real market formatting and configurable USD-to-CAD/GBP/AUD/NZD preview conversions
 - Stripe Checkout and verified webhook endpoints, ready for credentials
 - Contact and newsletter endpoints, ready for Resend credentials
@@ -37,7 +37,7 @@ International women’s fashion storefront based in San Diego, California and fo
 
 Download and unzip the project, then double-click `OPEN-LOCAL-PREVIEW.command`. The first run installs the project packages and opens [http://127.0.0.1:3000](http://127.0.0.1:3000). Keep the Terminal window open while browsing. If macOS blocks the file, right-click it and choose **Open**.
 
-The preview includes working navigation, collections, product options, cart drawer, quick-add upsell, automatic cart rewards and market currency switching. Checkout stays safely inactive until Stripe credentials are added.
+The preview includes working navigation, collections, product options, cart drawer, quick-add upsell, automatic cart rewards and market currency switching. Checkout stays safely inactive until Stripe credentials are added. Unknown product costs fail closed: no automatic cart, order-bump or post-purchase discount is applied until landed cost and minimum margin are present.
 
 ### Terminal
 
@@ -69,7 +69,7 @@ Supported catalog categories: Dresses, Tops/Blouses, Rompers/Playsuits, Skirts, 
 
 ## Launch configuration
 
-Copy `.env.example` to `.env.local` and connect Stripe and Resend before launch. Stripe Checkout validates every line against the server catalog, applies the earned cart reward server-side and charges in USD, CAD, GBP, AUD or NZD for the selected market. It accepts shipping addresses in the US, Canada, UK, Australia and New Zealand. Refresh the configurable conversion rates immediately before launch or replace them with a live-rate provider. Never commit real secrets.
+Copy `.env.example` to `.env.local` and connect Stripe and Resend before launch. Stripe Embedded Checkout validates every line and offer against the server catalog, applies only the margin-safe reward server-side and charges in USD, CAD, GBP, AUD or NZD for the selected market. It accepts shipping addresses in the US, Canada, UK, Australia and New Zealand. Configure the Stripe webhook at `/api/webhooks/stripe` for `checkout.session.completed`, `checkout.session.async_payment_succeeded` and `checkout.session.async_payment_failed`. Refresh the configurable conversion rates immediately before launch or replace them with a live-rate provider. Never commit real secrets.
 
 Policy pages are operational drafts and should be reviewed by the owner and qualified counsel before public launch. Delivery estimates, the $99 U.S. free-shipping threshold, the 30-day return window and tax/duty handling must be confirmed against the final operation.
 
