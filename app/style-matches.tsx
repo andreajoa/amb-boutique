@@ -17,7 +17,7 @@ function sizesFor(product: Product) {
 }
 
 export function StyleMatches({ product, catalog }: { product: Product; catalog: Product[] }) {
-  const { addItem, formatMoney, preferredCategories } = useStore();
+  const { addItem, formatMoney, preferredCategories, trackEvent } = useStore();
   const looks = useMemo(() => createStyleLooks(product, catalog, preferredCategories), [catalog, product, preferredCategories]);
   const [active, setActive] = useState(0);
   const [selections, setSelections] = useState<Record<string, string>>({});
@@ -26,6 +26,7 @@ export function StyleMatches({ product, catalog }: { product: Product; catalog: 
 
   const updateSize = (slug: string, size: string) => setSelections((current) => ({ ...current, [slug]: size }));
   const addLook = () => {
+    trackEvent("style_look_add", { slug: product.slug, category: product.category, source: look.title, valueUsd: total });
     look.products.forEach((item) => addItem(item, {
       size: selections[item.slug] || sizesFor(item)[0],
       color: item.colorNames?.[0] || "Selected",
