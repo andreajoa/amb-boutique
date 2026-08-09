@@ -38,17 +38,17 @@ export function StyleMatches({ product, catalog }: { product: Product; catalog: 
   return <section className="style-matches shell" data-reveal>
     <div className="style-title"><span/><div><p>STYLED BY AMB</p><h2>How to Style It</h2></div><span/></div>
     <div className="style-look-card">
-      <button className="style-arrow previous" type="button" onClick={() => setActive((active + looks.length - 1) % looks.length)} aria-label="Previous look">‹</button>
+      {looks.length > 1 && <button className="style-arrow previous" type="button" onClick={() => setActive((active + looks.length - 1) % looks.length)} aria-label="Previous look">‹</button>}
       <div className="style-look-copy"><p>LOOK {active + 1} OF {looks.length}</p><h3>{look.title}</h3><span>{look.description}</span></div>
-      <div className="style-board">
+      <div className={`style-board items-${look.products.length}`}>
         {look.products.map((item, index) => <article className={`style-piece piece-${index}${item.slug === product.slug ? " anchor" : ""}`} key={`${active}-${item.slug}`}>
           <Link href={`/products/${item.slug}`} className={`style-piece-image sheet-${item.sheet} q${item.quadrant}`} style={item.images?.[0] ? { backgroundImage: `url(${item.images[0]})`, backgroundSize: "cover", backgroundPosition: "center" } : undefined} aria-label={`View ${item.name}`}/>
           <div><Link href={`/products/${item.slug}`}>{item.name}</Link><span>{formatMoney(item.price)}</span><label><span className="sr-only">Size for {item.name}</span><select value={selections[item.slug] || sizesFor(item)[0]} onChange={(event) => updateSize(item.slug, event.target.value)}>{sizesFor(item).map((size) => <option key={size}>{size}</option>)}</select></label></div>
         </article>)}
       </div>
-      <button className="style-arrow next" type="button" onClick={() => setActive((active + 1) % looks.length)} aria-label="Next look">›</button>
+      {looks.length > 1 && <button className="style-arrow next" type="button" onClick={() => setActive((active + 1) % looks.length)} aria-label="Next look">›</button>}
       <div className="style-look-action"><button type="button" onClick={addLook}>Add the Look · {formatMoney(total)}</button><small>Sizes are selected above. Cart rewards apply automatically when eligible.</small></div>
     </div>
-    <div className="style-dots" aria-label="Choose a styled look">{looks.map((item, index) => <button type="button" className={active === index ? "active" : ""} onClick={() => setActive(index)} aria-label={`View ${item.title}`} key={item.title}/>)}</div>
+    {looks.length > 1 && <div className="style-dots" aria-label="Choose a styled look">{looks.map((item, index) => <button type="button" className={active === index ? "active" : ""} onClick={() => setActive(index)} aria-label={`View ${item.title}`} key={item.title}/>)}</div>}
   </section>;
 }
