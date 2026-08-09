@@ -1,11 +1,11 @@
-product_slug,color,size,source_sku_id,supplier_product_id,supplier_url,unit_cost_usd,source_stock
-vesper-belted-romper,Black,XS,12000059080638974,3256812501283942,https://ar.aliexpress.com/item/3256812501283942.html,18.13,588
-vesper-belted-romper,Black,S,12000059080638975,3256812501283942,https://ar.aliexpress.com/item/3256812501283942.html,18.13,588
-vesper-belted-romper,Black,M,12000059080638976,3256812501283942,https://ar.aliexpress.com/item/3256812501283942.html,18.13,588
-vesper-belted-romper,Black,L,12000059080638977,3256812501283942,https://ar.aliexpress.com/item/3256812501283942.html,18.13,587
-vesper-belted-romper,Black,XL,12000059080638978,3256812501283942,https://ar.aliexpress.com/item/3256812501283942.html,18.13,587
-maris-belted-romper,Powder Blue,XS,12000059080638979,3256812501283942,https://ar.aliexpress.com/item/3256812501283942.html,18.13,588
-maris-belted-romper,Powder Blue,S,12000059080638980,3256812501283942,https://ar.aliexpress.com/item/3256812501283942.html,18.13,588
-maris-belted-romper,Powder Blue,M,12000059080638981,3256812501283942,https://ar.aliexpress.com/item/3256812501283942.html,18.13,588
-maris-belted-romper,Powder Blue,L,12000059080638982,3256812501283942,https://ar.aliexpress.com/item/3256812501283942.html,18.13,588
-maris-belted-romper,Powder Blue,XL,12000059080638983,3256812501283942,https://ar.aliexpress.com/item/3256812501283942.html,18.13,588
+product_slug,vendor,color,size,variant_reference,unit_cost_usd,source_stock
+vesper-belted-romper,AMB,Black,XS,AMB-VES-BLK-XS,18.13,588
+vesper-belted-romper,AMB,Black,S,AMB-VES-BLK-S,18.13,588
+vesper-belted-romper,AMB,Black,M,AMB-VES-BLK-M,18.13,588
+vesper-belted-romper,AMB,Black,L,AMB-VES-BLK-L,18.13,587
+vesper-belted-romper,AMB,Black,XL,AMB-VES-BLK-XL,18.13,587
+maris-belted-romper,AMB,Powder Blue,XS,AMB-MAR-BLU-XS,18.13,588
+maris-belted-romper,AMB,Powder Blue,S,AMB-MAR-BLU-S,18.13,588
+maris-belted-romper,AMB,Powder Blue,M,AMB-MAR-BLU-M,18.13,588
+maris-belted-romper,AMB,Powder Blue,L,AMB-MAR-BLU-L,18.13,588
+maris-belted-romper,AMB,Powder Blue,XL,AMB-MAR-BLU-XL,18.13,588
