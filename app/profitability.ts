@@ -17,8 +17,9 @@ const PAYMENT_FIXED_FEE_USD = 0.3;
 const DEFAULT_MINIMUM_MARGIN_PERCENT = 30;
 
 export function landedCost(product: ProductEconomics) {
-  if (typeof product.unitCostUsd !== "number") return null;
-  return product.unitCostUsd + (product.inboundFreightUsd || 0) + (product.dutyUsd || 0) + (product.packagingUsd || 0);
+  const costs = [product.unitCostUsd, product.inboundFreightUsd, product.dutyUsd, product.packagingUsd];
+  if (!costs.every((value) => typeof value === "number" && Number.isFinite(value))) return null;
+  return costs.reduce((total, value) => total + (value as number), 0);
 }
 
 /** Caps a promotion so the order preserves its configured contribution margin. */

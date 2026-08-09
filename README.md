@@ -56,8 +56,9 @@ npm run build
 ## Product CSV import
 
 1. Copy the real CSV to `imports/products.csv` (use `imports/product-template.csv` for the accepted columns).
-2. Keep multiple values separated with `|`. Use `Color name:#hex` for colours and up to four `image_urls` for the gallery. Add packed `weight_oz`, unit cost, inbound freight, duty, packaging and minimum margin so every promotion can be checked for profit before checkout.
-3. Run:
+2. Publish every source colour as a separate AMB product with its own short editorial name, URL and gallery. Keep the same retail price across colour-separated products unless merchandising requires otherwise. Use an evocative name plus the garment type (for example, `Vesper Belted Romper`); never expose supplier titles to customers.
+3. Keep multiple values separated with `|`. Use `Color name:#hex` for colours and up to four `image_urls` for the gallery. Add packed `weight_oz`, unit cost, inbound freight, duty, packaging and minimum margin so every promotion can be checked for profit before checkout.
+4. Run:
 
 ```bash
 npm run import:products
@@ -73,6 +74,6 @@ Copy `.env.example` to `.env.local` and connect Stripe and Resend before launch.
 
 Policy pages are operational drafts and should be reviewed by the owner and qualified counsel before public launch. Delivery estimates, the $99 U.S. free-shipping threshold, the 30-day return window and tax/duty handling must be confirmed against the final operation.
 
-Deployment is intentionally deferred until explicit approval.
+Production is connected to the `main` branch on Vercel. Product changes are prepared on a review branch, verified, and merged to `main` for release.
 
 <!-- Production deployment refresh: 2026-08-09 -->
