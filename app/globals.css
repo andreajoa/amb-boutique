@@ -511,6 +511,13 @@ button { cursor: pointer; }
 .style-piece.piece-1 { grid-column: 1; grid-row: 1 / 3; }
 .style-piece.piece-2 { grid-column: 4; grid-row: 1; }
 .style-piece.piece-3 { grid-column: 4; grid-row: 2; }
+.style-board.items-2 { grid-template-columns: 1.35fr .65fr; grid-template-rows: 484px; }
+.style-board.items-2 .piece-0 { grid-column: 1; grid-row: 1; }
+.style-board.items-2 .piece-1 { grid-column: 2; grid-row: 1; }
+.style-board.items-3 { grid-template-columns: .72fr 1.25fr .72fr; grid-template-rows: 484px; }
+.style-board.items-3 .piece-0 { grid-column: 2; grid-row: 1; }
+.style-board.items-3 .piece-1 { grid-column: 1; grid-row: 1; }
+.style-board.items-3 .piece-2 { grid-column: 3; grid-row: 1; }
 .style-piece-image { display: block; height: 100%; min-height: 0; background-color: #eeeae4; transition: transform .35s ease; }
 .style-piece:hover .style-piece-image { transform: scale(1.02); }
 .style-piece > div { position: absolute; left: 8px; right: 8px; bottom: 8px; display: grid; grid-template-columns: 1fr auto; gap: 3px 8px; align-items: center; padding: 9px 10px; background: rgba(255,255,255,.94); box-shadow: 0 4px 18px rgba(0,0,0,.07); }
@@ -582,7 +589,11 @@ button { cursor: pointer; }
   .size-modal-grid { grid-template-columns: 1fr; }
   .style-look-card { padding-inline: 48px; }
   .style-board { grid-template-columns: 1fr 1fr; grid-template-rows: repeat(2, 330px); }
-  .style-piece.piece-0, .style-piece.piece-1, .style-piece.piece-2, .style-piece.piece-3 { grid-column: auto; grid-row: auto; }
+  .style-piece.piece-0, .style-piece.piece-1, .style-piece.piece-2, .style-piece.piece-3,
+  .style-board.items-2 .piece-0, .style-board.items-2 .piece-1,
+  .style-board.items-3 .piece-0, .style-board.items-3 .piece-1, .style-board.items-3 .piece-2 { grid-column: auto; grid-row: auto; }
+  .style-board.items-2 { grid-template-columns: 1fr 1fr; grid-template-rows: 330px; }
+  .style-board.items-3 { grid-template-columns: 1fr 1fr; grid-template-rows: repeat(2, 330px); }
 }
 
 @media (max-width: 560px) {
@@ -676,6 +687,8 @@ button { cursor: pointer; }
   .style-look-card { margin-inline: -2px; padding: 25px 13px 27px; border-radius: 12px; }
   .style-look-copy { padding-inline: 26px; }
   .style-board { grid-template-columns: 1fr 1fr; grid-template-rows: repeat(2, 285px); gap: 7px; }
+  .style-board.items-2 { grid-template-rows: 285px; }
+  .style-board.items-3 { grid-template-rows: repeat(2, 285px); }
   .style-piece > div { left: 5px; right: 5px; bottom: 5px; padding: 7px; }
   .style-arrow { top: 31px; width: 35px; height: 41px; transform: none; font-size: 25px; }
   .style-arrow.previous { left: 9px; }
