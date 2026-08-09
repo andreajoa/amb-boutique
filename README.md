@@ -18,6 +18,11 @@ International women’s fashion storefront based in San Diego, California and fo
 - Reusable product detail page with gallery, variants, fit, quantity and recommendations
 - Persistent global shopping bag and full cart page
 - Automatic cart rewards: 5% at US$100, 10% at US$200, 15% at US$300, 20% at US$400 and 25% at US$500
+- Margin-protected, non-stacking welcome, cart-bump and post-purchase offers
+- Complimentary standard U.S. shipping at US$99 and configurable carrier previews for CA, UK, AU and NZ
+- Consent-aware visitor preference ID, personalised product ranking and a measurement-based size finder
+- Email/SMS welcome-offer capture prepared for Resend plus a marketing webhook
+- Native Stripe Checkout cross-sell, shipping choices and a separate secure post-purchase offer flow
 - Real market formatting and configurable USD-to-CAD/GBP/AUD/NZD preview conversions
 - Stripe Checkout and verified webhook endpoints, ready for credentials
 - Contact and newsletter endpoints, ready for Resend credentials
@@ -51,7 +56,7 @@ npm run build
 ## Product CSV import
 
 1. Copy the real CSV to `imports/products.csv` (use `imports/product-template.csv` for the accepted columns).
-2. Keep multiple values separated with `|`. Use `Color name:#hex` for colours and up to four `image_urls` for the gallery.
+2. Keep multiple values separated with `|`. Use `Color name:#hex` for colours and up to four `image_urls` for the gallery. Add packed `weight_oz`, unit cost, inbound freight, duty, packaging and minimum margin so every promotion can be checked for profit before checkout.
 3. Run:
 
 ```bash
@@ -60,12 +65,12 @@ npm run import:products
 
 The importer validates required data and creates `app/generated-products.ts`. When the generated catalog contains products, it automatically replaces the visual placeholder catalog.
 
-Supported catalog categories: Dresses, Tops/Blouses, Rompers/Playsuits, Skirts, Shorts, Knitwear, Bags, Shoes and Accessories.
+Supported catalog categories: Dresses, Tops/Blouses, Rompers/Playsuits, Skirts, Pants/Trousers, Shorts, Knitwear, Bags, Shoes and Accessories.
 
 ## Launch configuration
 
 Copy `.env.example` to `.env.local` and connect Stripe and Resend before launch. Stripe Checkout validates every line against the server catalog, applies the earned cart reward server-side and charges in USD, CAD, GBP, AUD or NZD for the selected market. It accepts shipping addresses in the US, Canada, UK, Australia and New Zealand. Refresh the configurable conversion rates immediately before launch or replace them with a live-rate provider. Never commit real secrets.
 
-Policy pages are operational drafts and should be reviewed by the owner and qualified counsel before public launch. Delivery estimates, the $150 U.S. free-shipping threshold, the 30-day return window and tax/duty handling must be confirmed against the final operation.
+Policy pages are operational drafts and should be reviewed by the owner and qualified counsel before public launch. Delivery estimates, the $99 U.S. free-shipping threshold, the 30-day return window and tax/duty handling must be confirmed against the final operation.
 
 Deployment is intentionally deferred until explicit approval.
