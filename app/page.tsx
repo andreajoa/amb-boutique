@@ -3,6 +3,7 @@ import { Footer, Header, ProductCard } from "./components";
 import { products } from "./data";
 import { NewsletterForm } from "./newsletter-form";
 import { HeroCarousel } from "./hero-carousel";
+import { PersonalizedProducts } from "./personalized-products";
 
 const collections = [
   { title: "Dresses", subtitle: "Made for every plan", image: "category-one q1", href: "/collections/dresses" },
@@ -19,8 +20,8 @@ export default function Home() {
       <section className="statement-strip" data-reveal><p>New season, new perspective.</p><span>Curated in San Diego · Designed for wherever life takes you.</span><Link href="/collections">Discover the Edit</Link></section>
 
       <section className="section shell" data-reveal>
-        <div className="section-heading"><div><p>CURATED FOR YOU</p><h2>Trending Now</h2></div><Link href="/collections">View all</Link></div>
-        <div className="product-row">{products.slice(0, 4).map((p) => <ProductCard key={p.slug} product={p} compact />)}</div>
+        <div className="section-heading"><div><p>CURATED FOR YOU</p><h2>Your AMB Edit</h2></div><Link href="/collections">View all</Link></div>
+        <PersonalizedProducts catalog={products}/>
       </section>
 
       <section className="collection-tiles shell" data-reveal>
