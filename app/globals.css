@@ -235,7 +235,7 @@ button { cursor: pointer; }
 /* Product page */
 .product-layout { display: grid; grid-template-columns: 1.08fr 1fr; gap: 36px; padding-block: 60px 95px; align-items: start; }
 .product-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.gallery-image { height: 555px; border: 0; position: relative; background: url('/images/product-gallery.webp') no-repeat; background-size: auto 200%; }
+.gallery-image { width: 100%; height: auto; aspect-ratio: 1 / 1; border: 0; position: relative; background: url('/images/product-gallery.webp') center / contain no-repeat; background-color: #f5f3ef; }
 .gallery-image > span { position: absolute; top: 14px; right: 14px; width: 46px; height: 46px; display: grid; place-items: center; background: white; border-radius: 50%; font-size: 25px; }
 .gallery-q1 { background: url('/images/product-gallery.webp') 14% top / auto 200% no-repeat; }
 .gallery-q2 { background: url('/images/product-gallery.webp') 86% top / auto 200% no-repeat; }
@@ -619,7 +619,7 @@ button { cursor: pointer; }
   .collection-explore a { min-width: 70vw; }
   .product-layout { grid-template-columns: 1fr; }
   .product-info { position: static; padding-right: 0; }
-  .gallery-image { height: 500px; }
+  .gallery-image { height: auto; }
   .welcome-popup { grid-template-columns: .75fr 1.25fr; }
   .post-purchase-offer { grid-template-columns: 1fr 1fr; }
   .post-purchase-offer > div:last-child { padding: 45px; }
@@ -694,7 +694,7 @@ button { cursor: pointer; }
   .collection-explore a { min-width: 82vw; height: 400px; }
   .product-layout { padding-block: 18px 65px; }
   .product-gallery { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; margin-inline: -14px; }
-  .gallery-image { min-width: 88vw; height: 520px; scroll-snap-align: center; }
+  .gallery-image { min-width: 88vw; width: 88vw; height: auto; aspect-ratio: 1 / 1; scroll-snap-align: center; }
   .product-info h1 { font-size: 41px; }
   .size-options { flex-wrap: wrap; }
   .product-campaign { width: 100%; min-height: 420px; margin-bottom: 70px; padding: 35px 22px; align-items: end; background-position: 30% center; }
