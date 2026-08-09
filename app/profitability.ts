@@ -19,7 +19,7 @@ const DEFAULT_MINIMUM_MARGIN_PERCENT = 30;
 export function landedCost(product: ProductEconomics) {
   const costs = [product.unitCostUsd, product.inboundFreightUsd, product.dutyUsd, product.packagingUsd];
   if (!costs.every((value) => typeof value === "number" && Number.isFinite(value))) return null;
-  return costs.reduce((total, value) => total + (value as number), 0);
+  return costs.reduce<number>((total, value) => total + (value ?? 0), 0);
 }
 
 /** Caps a promotion so the order preserves its configured contribution margin. */
