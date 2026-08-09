@@ -8,6 +8,7 @@
 - Stripe Checkout/webhook code and Resend contact/newsletter code
 - Margin guard, non-stacking welcome/cart/post-purchase offers and native Checkout cross-sell
 - Consent-aware preference ID, welcome email/SMS capture and size recommendation helper
+- Consent-gated first-party behavior events, ready for an analytics webhook
 - $99 complimentary U.S. shipping rule and January 2026 USPS preview bands for international parcels up to 4 lb
 - CSV product importer and documented catalog format
 - English brand, service, journal and policy copy for the intended markets
