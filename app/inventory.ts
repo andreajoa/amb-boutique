@@ -1,4 +1,5 @@
 import { neon, type NeonQueryFunction } from "@neondatabase/serverless";
+import { generatedInventoryVariants } from "./generated-inventory";
 
 export type InventoryRequest = {
   slug: string;
@@ -47,6 +48,45 @@ function uniqueRequests(requests: InventoryRequest[]) {
     grouped.set(key, { slug, color, size, quantity: (current?.quantity || 0) + quantity });
   }
   return [...grouped.values()];
+}
+
+export async function ensureInventoryForProducts(productSlugs: string[]) {
+  const wanted = new Set(productSlugs);
+  const variants = generatedInventoryVariants.filter((variant) => wanted.has(variant.productSlug));
+  if (!variants.length) return;
+  const sql = getDatabase();
+  await sql.query(`
+    INSERT INTO inventory_variants
+      (sku, product_slug, product_name, color, size, stock_on_hand, active, supplier_unit_cost_usd)
+    SELECT sku, product_slug, product_name, color, size, stock, active, unit_cost_usd
+    FROM jsonb_to_recordset($1::jsonb) AS item(
+      sku text,
+      product_slug text,
+      product_name text,
+      color text,
+      size text,
+      stock integer,
+      active boolean,
+      unit_cost_usd numeric
+    )
+    ON CONFLICT (sku) DO UPDATE
+    SET product_slug = EXCLUDED.product_slug,
+        product_name = EXCLUDED.product_name,
+        color = EXCLUDED.color,
+        size = EXCLUDED.size,
+        active = EXCLUDED.active,
+        supplier_unit_cost_usd = EXCLUDED.supplier_unit_cost_usd,
+        updated_at = NOW()
+  `, [JSON.stringify(variants.map((variant) => ({
+    sku: variant.sku,
+    product_slug: variant.productSlug,
+    product_name: variant.productName,
+    color: variant.color,
+    size: variant.size,
+    stock: variant.stock,
+    active: variant.active,
+    unit_cost_usd: variant.unitCostUsd,
+  })))]);
 }
 
 export async function releaseExpiredInventory() {
