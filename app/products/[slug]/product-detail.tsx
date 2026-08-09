@@ -1,10 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Footer, Header, ProductCard } from "../../components";
 import { Product, products } from "../../data";
 import { useStore } from "../../store-provider";
+import { SizeFinder } from "../../size-finder";
+import { rankRecommendations } from "../../recommendations";
+import { StyleMatches } from "../../style-matches";
 
 const defaultSizes = ["2", "4", "6", "8", "10", "12"];
 const defaultColors = [
@@ -19,7 +22,9 @@ export default function ProductDetail({ product }: { product: Product }) {
   const [size, setSize] = useState(sizes[Math.min(1, sizes.length - 1)] || "One Size");
   const [color, setColor] = useState(colors[0] || defaultColors[0]);
   const [quantity, setQuantity] = useState(1);
-  const { addItem, buyNow, formatMoney } = useStore();
+  const { addItem, buyNow, formatMoney, preferredCategories, recordProductView } = useStore();
+
+  useEffect(() => { recordProductView(product); }, [product, recordProductView]);
 
   const addToBag = () => {
     addItem(product, { size, color: color.name, quantity });
@@ -39,7 +44,7 @@ export default function ProductDetail({ product }: { product: Product }) {
           <div className="product-price"><span>{formatMoney(product.price)}</span>{product.compareAt && <del>{formatMoney(product.compareAt)}</del>}</div>
           <p className="product-intro">{product.description || "An effortless AMB essential designed with a softly structured silhouette and an easy, feminine finish."}</p>
 
-          <fieldset className="option-group"><legend><strong>Size:</strong> {size}</legend><div className="size-options">{sizes.map((item) => <button type="button" key={item} className={size === item ? "selected" : ""} onClick={() => setSize(item)}>{item}</button>)}</div><Link className="text-link" href="/size-guide">Size guide</Link></fieldset>
+          <fieldset className="option-group"><legend><strong>Size:</strong> {size}</legend><div className="size-options">{sizes.map((item) => <button type="button" key={item} className={size === item ? "selected" : ""} onClick={() => setSize(item)}>{item}</button>)}</div><div className="size-help-links"><SizeFinder product={product} sizes={sizes} onSelect={setSize}/></div></fieldset>
 
           <fieldset className="option-group"><legend><strong>Color:</strong> {color.name}</legend><div className="color-options">{colors.map((item) => <button type="button" key={item.name} className={color.name === item.name ? "selected" : ""} onClick={() => setColor(item)} aria-label={item.name}><span style={{ backgroundColor: item.value }}/></button>)}</div></fieldset>
 
@@ -61,7 +66,9 @@ export default function ProductDetail({ product }: { product: Product }) {
         </section>
       </div>
 
-      <section className="section shell product-recommendations" data-reveal><div className="section-heading centered"><div><p>COMPLETE THE LOOK</p><h2>You May Also Like</h2></div></div><div className="product-row">{products.filter((item) => item.slug !== product.slug).slice(0, 4).map((item) => <ProductCard key={item.slug} product={item} compact />)}</div></section>
+      <StyleMatches product={product} catalog={products}/>
+
+      <section className="section shell product-recommendations" data-reveal><div className="section-heading centered"><div><p>SELECTED FOR THIS LOOK</p><h2>Complete the Look</h2></div></div><div className="product-row">{rankRecommendations(products, [product.slug], preferredCategories, [product]).slice(0, 4).map((item) => <ProductCard key={item.slug} product={item} compact />)}</div></section>
       <section className="product-campaign" data-reveal><div><p>THE SAN DIEGO EDIT</p><h2>More to discover</h2><span>New silhouettes and finishing touches, curated for warm days and easy nights.</span><Link className="button light" href="/collections">Explore the Collection</Link></div></section>
       <section className="collection-explore shell product-explore" data-reveal><p>SHOP BY CATEGORY</p><h2>More to Explore</h2><div><Link href="/collections/dresses" className="category-one q1"><span>Dresses<small>Effortless silhouettes</small></span></Link><Link href="/collections/rompers-playsuits" className="category-one q3"><span>Playsuits<small>One-and-done style</small></span></Link><Link href="/collections/tops-blouses" className="category-one q2"><span>Tops & Blouses<small>Elevated essentials</small></span></Link></div></section>
       <Footer />
