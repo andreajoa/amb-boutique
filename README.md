@@ -74,3 +74,5 @@ Copy `.env.example` to `.env.local` and connect Stripe and Resend before launch.
 Policy pages are operational drafts and should be reviewed by the owner and qualified counsel before public launch. Delivery estimates, the $99 U.S. free-shipping threshold, the 30-day return window and tax/duty handling must be confirmed against the final operation.
 
 Deployment is intentionally deferred until explicit approval.
+
+<!-- Production deployment refresh: 2026-08-09 -->
