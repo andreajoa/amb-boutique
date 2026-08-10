@@ -12,6 +12,8 @@ const collections = [
 ];
 
 export default function Home() {
+  const finishingTouches = products.filter((product) => product.category === "Bags" || product.category === "Shoes").slice(0, 4);
+
   return (
     <main>
       <Header />
@@ -37,14 +39,19 @@ export default function Home() {
         <div className="product-row">{products.slice(4, 8).map((p) => <ProductCard key={p.slug} product={p} compact />)}</div>
       </section>
 
+      {finishingTouches.length > 0 && <section className="section shell" data-reveal>
+        <div className="section-heading"><div><p>THE FINISHING TOUCH</p><h2>Bags & Heels</h2></div><div><Link href="/collections/bags">Shop Bags</Link>&nbsp;&nbsp;·&nbsp;&nbsp;<Link href="/collections/heels">Shop Heels</Link></div></div>
+        <div className="product-row">{finishingTouches.map((p) => <ProductCard key={p.slug} product={p} compact />)}</div>
+      </section>}
+
       <section className="values-band" data-reveal><div><strong>San Diego Born</strong><span>California ease, thoughtfully curated</span></div><div><strong>Easy Returns</strong><span>Simple returns within 30 days</span></div><div><strong>Worldwide Delivery</strong><span>US, Canada, UK, Australia & New Zealand</span></div><div><strong>Personal Service</strong><span>We’re here at info@ambboutique.online</span></div></section>
 
       <section className="explore section shell" data-reveal>
         <div className="section-heading centered"><div><p>FIND YOUR FAVORITES</p><h2>Explore the Collections</h2></div></div>
         <div className="explore-grid">
           <Link href="/collections/dresses" className="explore-card category-one q1"><div><h3>Dresses</h3><span>Shop the edit</span></div></Link>
-          <Link href="/collections/rompers-playsuits" className="explore-card category-one q3"><div><h3>Rompers & Playsuits</h3><span>Shop the edit</span></div></Link>
-          <Link href="/collections/tops-blouses" className="explore-card category-one q2"><div><h3>Tops & Blouses</h3><span>Shop the edit</span></div></Link>
+          <Link href="/collections/bags" className="explore-card category-two q3"><div><h3>Bags</h3><span>Shop the edit</span></div></Link>
+          <Link href="/collections/heels" className="explore-card category-two q4"><div><h3>Heels</h3><span>Shop the edit</span></div></Link>
         </div>
       </section>
 
