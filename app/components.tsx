@@ -7,6 +7,8 @@ import { MarketCode, marketCodes, markets, US_FREE_SHIPPING_THRESHOLD_USD } from
 import { useStore } from "./store-provider";
 import { NewsletterForm } from "./newsletter-form";
 
+const SHOE_ATLAS_PRODUCT_COUNT = 27;
+
 export function getProductImageStyle(product: Product, view = 0): CSSProperties | undefined {
   const firstImage = product.images?.[0];
   if (!firstImage) return undefined;
@@ -27,14 +29,33 @@ export function getProductImageStyle(product: Product, view = 0): CSSProperties 
     };
   }
 
-  // The generated AMB editorial sheets are stored once per product family.
-  // images[1] is the sheet; subsequent gallery positions crop one cell each.
   const sprite = product.images?.[1] || firstImage;
   const { columns, rows, viewWidth, viewHeight } = product.gallerySprite;
   const count = Math.max(1, columns * rows);
   const spriteView = Math.min(Math.max(view - 1, 0), count - 1);
   const col = spriteView % columns;
   const row = Math.floor(spriteView / columns);
+
+  // Shoes share one validated AMB editorial atlas. Every product occupies one
+  // 2x3 block (front/three-quarter/profile/back/top/sole). heelAtlasIndex points
+  // to that product block so no corrupt per-family SVG/base64 file is needed.
+  if (typeof product.heelAtlasIndex === "number") {
+    const atlasRows = rows * SHOE_ATLAS_PRODUCT_COUNT;
+    const atlasRow = product.heelAtlasIndex * rows + row;
+    const x = columns === 1 ? 0 : (col / (columns - 1)) * 100;
+    const y = atlasRows === 1 ? 0 : (atlasRow / (atlasRows - 1)) * 100;
+
+    return {
+      backgroundImage: `url(${sprite})`,
+      backgroundSize: `${columns * 100}% ${atlasRows * 100}%`,
+      backgroundPosition: `${x}% ${y}%`,
+      backgroundRepeat: "no-repeat",
+      backgroundColor: "#f5efe5",
+      aspectRatio: `${viewWidth} / ${viewHeight}`,
+    };
+  }
+
+  // Generic editorial sheets keep the original 2xN crop behaviour.
   const x = columns === 1 ? 0 : (col / (columns - 1)) * 100;
   const y = rows === 1 ? 0 : (row / (rows - 1)) * 100;
 

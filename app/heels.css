@@ -48,6 +48,14 @@
 .shoe-fit-summary strong { font-size: 12px; }
 .shoe-size-link { display: inline-flex; align-items: center; min-height: 26px; text-decoration: underline; text-underline-offset: 3px; font-size: 10px; }
 
+/* Product-page hardening for the shoe editorial gallery. */
+.product-gallery, .product-info { min-width: 0; }
+.product-gallery { align-content: start; }
+.product-gallery .gallery-image { overflow: hidden; isolation: isolate; background-color: var(--cream); }
+.product-gallery .gallery-image > span { z-index: 2; }
+.product-info .size-help-links { position: static; margin-top: 12px; justify-content: flex-start; min-height: 26px; }
+.product-info .size-options { flex-wrap: wrap; }
+
 @media (max-width: 900px) {
   .mega-panel { display: none; }
 }
