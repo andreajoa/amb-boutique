@@ -15,9 +15,9 @@ export function getProductImageStyle(product: Product, view = 0): CSSProperties 
 
   const singleImageSprite = Boolean(product.gallerySprite && product.images?.length === 1);
 
-  // Normal products use their exact image directly. Editorial bag sheets with a
+  // Normal products use their exact image directly. Editorial products with a
   // single source image are intentionally excluded here so view 0 is cropped to
-  // the first cell instead of displaying the whole 2x3 contact sheet.
+  // the first cell instead of displaying the whole contact sheet/atlas.
   if ((!singleImageSprite && view === 0) || !product.gallerySprite) {
     const image = product.images?.[view] || firstImage;
     const isEditorialAsset = image.startsWith("/editorial/") || image.startsWith("/products/");
@@ -38,9 +38,25 @@ export function getProductImageStyle(product: Product, view = 0): CSSProperties 
   const col = spriteView % columns;
   const row = Math.floor(spriteView / columns);
 
-  // Shoes share one validated AMB editorial atlas. Every product occupies one
-  // 2x3 block (front/three-quarter/profile/back/top/sole). heelAtlasIndex points
-  // to that product block so no corrupt per-family SVG/base64 file is needed.
+  // User-approved atlas: each product occupies one complete 2x3 block. This is
+  // used by the exact Bags and Shoes sheets supplied by the store owner.
+  if (typeof product.galleryAtlasIndex === "number" && typeof product.galleryAtlasCount === "number") {
+    const atlasRows = rows * product.galleryAtlasCount;
+    const atlasRow = product.galleryAtlasIndex * rows + row;
+    const x = columns === 1 ? 0 : (col / (columns - 1)) * 100;
+    const y = atlasRows === 1 ? 0 : (atlasRow / (atlasRows - 1)) * 100;
+
+    return {
+      backgroundImage: `url(${sprite})`,
+      backgroundSize: `${columns * 100}% ${atlasRows * 100}%`,
+      backgroundPosition: `${x}% ${y}%`,
+      backgroundRepeat: "no-repeat",
+      backgroundColor: "#f5efe5",
+      aspectRatio: `${viewWidth} / ${viewHeight}`,
+    };
+  }
+
+  // Existing Shoes atlas. Every product occupies one 2x3 block.
   if (typeof product.heelAtlasIndex === "number") {
     const atlasRows = rows * SHOE_ATLAS_PRODUCT_COUNT;
     const atlasRow = product.heelAtlasIndex * rows + row;
@@ -57,7 +73,7 @@ export function getProductImageStyle(product: Product, view = 0): CSSProperties 
     };
   }
 
-  // Generic editorial sheets (including Bags) crop one clean cell per view.
+  // Generic editorial sheets crop one clean cell per view.
   const x = columns === 1 ? 0 : (col / (columns - 1)) * 100;
   const y = rows === 1 ? 0 : (row / (rows - 1)) * 100;
 
