@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Footer, Header, ProductCard } from "../components";
 import { products } from "../data";
 
-const categories = ["All", "Dresses", "Tops", "Playsuits", "Skirts", "Pants", "Shorts", "Knitwear", "Bags", "Shoes", "Accessories"] as const;
+const categories = ["All", "Dresses", "Tops", "Playsuits", "Skirts", "Pants", "Shorts", "Knitwear", "Bags", "Shoes", "Heels", "Accessories"] as const;
 
 export default function CollectionsPage() {
   const [category, setCategory] = useState<string>("All");
@@ -13,7 +13,11 @@ export default function CollectionsPage() {
   const [filtersOpen, setFiltersOpen] = useState(false);
 
   const filtered = useMemo(() => {
-    const selected = category === "All" ? [...products] : products.filter((p) => p.category === category);
+    const selected = category === "All"
+      ? [...products]
+      : category === "Heels"
+        ? products.filter((p) => p.category === "Shoes" && p.subcategory === "Heels")
+        : products.filter((p) => p.category === category);
     if (sort === "low") selected.sort((a, b) => a.price - b.price);
     if (sort === "high") selected.sort((a, b) => b.price - a.price);
     if (sort === "name") selected.sort((a, b) => a.name.localeCompare(b.name));
@@ -37,13 +41,13 @@ export default function CollectionsPage() {
           </div>
         </div>
 
-        {filtersOpen && <div className="filter-panel"><div><strong>Category</strong>{categories.map((item) => <label key={item}><input type="radio" name="category" checked={category === item} onChange={() => setCategory(item)}/>{item === "All" ? "Everything" : item}</label>)}</div><div><strong>Availability</strong><label><input type="checkbox"/> In stock</label><label><input type="checkbox"/> New arrivals</label><label><input type="checkbox"/> On sale</label></div><div><strong>Price</strong><span>$0</span><input aria-label="Maximum price" type="range" min="0" max="200" defaultValue="200"/><span>$200+</span></div><button onClick={() => { setCategory("All"); setFiltersOpen(false); }}>Clear filters</button></div>}
+        {filtersOpen && <div className="filter-panel"><div><strong>Category</strong>{categories.map((item) => <label key={item}><input type="radio" name="category" checked={category === item} onChange={() => setCategory(item)}/>{item === "All" ? "Everything" : item}</label>)}</div><div><strong>Availability</strong><label><input type="checkbox"/> In stock</label><label><input type="checkbox"/> New arrivals</label><label><input type="checkbox"/> On sale</label></div><div><strong>Price</strong><span>$0</span><input aria-label="Maximum price" type="range" min="0" max="250" defaultValue="250"/><span>$250+</span></div><button onClick={() => { setCategory("All"); setFiltersOpen(false); }}>Clear filters</button></div>}
 
         <div className="product-grid">{filtered.map((product) => <ProductCard key={product.slug} product={product} />)}</div>
         <p className="results-count">Showing {filtered.length} of {products.length} pieces.</p>
       </section>
 
-      <section className="collection-explore shell" data-reveal><p>SHOP BY MOOD</p><h2>Explore the Collections</h2><div><Link href="/collections/tops-blouses" className="category-one q2"><span>Tops & Blouses<small>Everyday, elevated</small></span></Link><Link href="/collections/dresses" className="category-one q1"><span>Dresses<small>Made for the moment</small></span></Link><Link href="/collections/rompers-playsuits" className="category-one q3"><span>Rompers & Playsuits<small>One-and-done ease</small></span></Link></div></section>
+      <section className="collection-explore shell" data-reveal><p>SHOP BY MOOD</p><h2>Explore the Collections</h2><div><Link href="/collections/tops-blouses" className="category-one q2"><span>Tops & Blouses<small>Everyday, elevated</small></span></Link><Link href="/collections/dresses" className="category-one q1"><span>Dresses<small>Made for the moment</small></span></Link><Link href="/collections/heels" className="category-one q3"><span>Heels<small>The finishing touch</small></span></Link></div></section>
       <Footer />
     </main>
   );
