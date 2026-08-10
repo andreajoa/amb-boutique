@@ -34,9 +34,9 @@ export default function ProductDetail({ product }: { product: Product }) {
   const { addItem, buyNow, formatMoney, preferredCategories, recordProductView } = useStore();
   const completeLook = useMemo(() => createCompleteLook(product, products, preferredCategories), [product, preferredCategories]);
 
-  const gallery = product.gallerySprite && product.images?.[1]
-    ? Array.from({ length: 1 + product.gallerySprite.columns * product.gallerySprite.rows }, (_, index) => index === 0 ? product.images![0] : product.images![1])
-    : product.images?.length ? product.images : [undefined, undefined, undefined, undefined];
+  const galleryViews = isShoe
+    ? [0, 1, 2, 3, 4, 5, 6]
+    : Array.from({ length: product.images?.length || 4 }, (_, index) => index);
 
   useEffect(() => { recordProductView(product); }, [product, recordProductView]);
   useEffect(() => {
@@ -50,10 +50,17 @@ export default function ProductDetail({ product }: { product: Product }) {
   return (
     <main>
       <Header />
-      <div className="product-layout shell" data-reveal>
+      <div className={`product-layout shell${isShoe ? " shoe-product-layout" : ""}`} data-reveal>
         <section className="product-gallery" aria-label={`${product.name} gallery`}>
-          {gallery.map((image, index) => (
-            <button key={`${image || "gallery"}-${index}`} className={`gallery-image gallery-q${index + 1}`} style={image ? getProductImageStyle(product, index) : undefined} aria-label={`Open ${product.name} image ${index + 1}`}><span>⌕</span></button>
+          {galleryViews.map((viewIndex) => (
+            <button
+              key={`${product.slug}-${viewIndex}`}
+              className="gallery-image"
+              style={getProductImageStyle(product, viewIndex)}
+              aria-label={`Open ${product.name} image ${viewIndex + 1}`}
+            >
+              <span>⌕</span>
+            </button>
           ))}
         </section>
 
