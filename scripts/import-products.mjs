@@ -23,6 +23,7 @@ function parseCsv(source) {
 const categoryAliases = { dress: "Dresses", dresses: "Dresses", top: "Tops", tops: "Tops", blouse: "Tops", blouses: "Tops", romper: "Playsuits", rompers: "Playsuits", playsuit: "Playsuits", playsuits: "Playsuits", skirt: "Skirts", skirts: "Skirts", pant: "Pants", pants: "Pants", trouser: "Pants", trousers: "Pants", short: "Shorts", shorts: "Shorts", knit: "Knitwear", knitwear: "Knitwear", bag: "Bags", bags: "Bags", shoe: "Shoes", shoes: "Shoes", accessory: "Accessories", accessories: "Accessories" };
 const split = (value) => value ? value.split("|").map((item) => item.trim()).filter(Boolean) : [];
 const optionalNumber = (value) => value === "" || value == null ? undefined : Number(value);
+const optionalBoolean = (value) => value === "" || value == null ? undefined : !["false", "0", "no", "off"].includes(String(value).toLowerCase());
 const records = parseCsv(await readFile(input, "utf8"));
 
 const products = records.map((record, index) => {
@@ -32,7 +33,39 @@ const products = records.map((record, index) => {
   const colorParts = split(record.colors).map((item) => { const separator = item.lastIndexOf(":"); return separator > -1 ? { name: item.slice(0, separator), value: item.slice(separator + 1) } : { name: item, value: item }; });
   const economics = ["weight_oz", "unit_cost_usd", "inbound_freight_usd", "duty_usd", "packaging_usd", "minimum_margin_percent"].map((key) => optionalNumber(record[key]));
   if (economics.some((value) => value !== undefined && (!Number.isFinite(value) || value < 0))) throw new Error(`Row ${index + 2}: weight and cost fields must be non-negative numbers.`);
-  return { slug, name: record.name, category, price: Number(record.price), ...(record.compare_at ? { compareAt: Number(record.compare_at) } : {}), ...(record.badge ? { badge: record.badge } : {}), sheet: "one", quadrant: 1, colors: colorParts.map((item) => item.value), colorNames: colorParts.map((item) => item.name), sizes: split(record.sizes), description: record.description, materials: record.materials, care: record.care, images: split(record.image_urls), stock: Number(record.stock || 0), ...(economics[0] !== undefined ? { weightOz: economics[0] } : {}), ...(economics[1] !== undefined ? { unitCostUsd: economics[1] } : {}), ...(economics[2] !== undefined ? { inboundFreightUsd: economics[2] } : {}), ...(economics[3] !== undefined ? { dutyUsd: economics[3] } : {}), ...(economics[4] !== undefined ? { packagingUsd: economics[4] } : {}), ...(economics[5] !== undefined ? { minimumMarginPercent: economics[5] } : {}), ...(record.complementary_slugs ? { complementarySlugs: split(record.complementary_slugs) } : {}), ...(record.stripe_price_id ? { stripePriceId: record.stripe_price_id } : {}) };
+  const heelHeightCm = optionalNumber(record.heel_height_cm);
+  if (heelHeightCm !== undefined && (!Number.isFinite(heelHeightCm) || heelHeightCm < 0)) throw new Error(`Row ${index + 2}: heel_height_cm must be a non-negative number.`);
+  const styleEligible = optionalBoolean(record.style_eligible);
+  return {
+    slug,
+    name: record.name,
+    vendor: record.vendor || "AMB BOUTIQUE",
+    category,
+    ...(record.subcategory ? { subcategory: record.subcategory } : {}),
+    price: Number(record.price),
+    ...(record.compare_at ? { compareAt: Number(record.compare_at) } : {}),
+    ...(record.badge ? { badge: record.badge } : {}),
+    sheet: "one",
+    quadrant: 1,
+    colors: colorParts.map((item) => item.value),
+    colorNames: colorParts.map((item) => item.name),
+    sizes: split(record.sizes),
+    description: record.description,
+    materials: record.materials,
+    care: record.care,
+    images: split(record.image_urls),
+    stock: Number(record.stock || 0),
+    ...(economics[0] !== undefined ? { weightOz: economics[0] } : {}),
+    ...(economics[1] !== undefined ? { unitCostUsd: economics[1] } : {}),
+    ...(economics[2] !== undefined ? { inboundFreightUsd: economics[2] } : {}),
+    ...(economics[3] !== undefined ? { dutyUsd: economics[3] } : {}),
+    ...(economics[4] !== undefined ? { packagingUsd: economics[4] } : {}),
+    ...(economics[5] !== undefined ? { minimumMarginPercent: economics[5] } : {}),
+    ...(record.complementary_slugs ? { complementarySlugs: split(record.complementary_slugs) } : {}),
+    ...(record.stripe_price_id ? { stripePriceId: record.stripe_price_id } : {}),
+    ...(heelHeightCm !== undefined ? { heelHeightCm } : {}),
+    ...(styleEligible !== undefined ? { styleEligible } : {}),
+  };
 });
 
 const source = `import type { Product } from "./data";\n\n// Generated from ${input.split("/").pop()}. Edit the CSV, then run npm run import:products.\nexport const generatedProducts: Product[] = ${JSON.stringify(products, null, 2)};\n`;
