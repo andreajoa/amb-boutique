@@ -79,17 +79,17 @@ type CategoryPage = {
 };
 
 export const categoryPages: CategoryPage[] = [
-  { slug: "dresses", name: "Dresses", title: "Women’s Dresses", description: "Mini, midi and occasion-ready dresses with an effortless California point of view." },
-  { slug: "tops-blouses", name: "Tops", title: "Women’s Tops & Blouses", description: "Polished blouses, refined tanks and easy tops for everyday styling." },
-  { slug: "rompers-playsuits", name: "Playsuits", title: "Rompers & Playsuits", description: "One-and-done silhouettes made for warm days, weekends and getaways." },
-  { slug: "skirts", name: "Skirts", title: "Women’s Skirts", description: "Mini and midi skirts that balance movement, polish and modern femininity." },
-  { slug: "pants", name: "Pants", title: "Women’s Pants & Trousers", description: "Tailored trousers and relaxed wide-leg pants for polished everyday styling." },
-  { slug: "shorts", name: "Shorts", title: "Women’s Shorts", description: "Tailored, relaxed and warm-weather shorts for an elevated everyday wardrobe." },
-  { slug: "knitwear", name: "Knitwear", title: "Women’s Knitwear", description: "Soft knits and light layers selected for comfort, texture and repeat wear." },
-  { slug: "bags", name: "Bags", title: "Women’s Bags", description: "Shoulder bags, totes and polished everyday companions in considered proportions." },
-  { slug: "shoes", name: "Shoes", title: "Women’s Shoes", description: "Elegant heels, slingbacks and occasion shoes selected to finish every look." },
-  { slug: "heels", name: "Shoes", subcategory: "Heels", title: "Women’s Heels", description: "Pointed pumps, slingbacks, block heels and stilettos curated for polished day-to-evening dressing." },
-  { slug: "accessories", name: "Accessories", title: "Women’s Accessories", description: "Jewellery and finishing touches curated to make personal style feel complete." },
+  { slug: "dresses", name: "Dresses", title: "Women’s Dresses", description: "Shop women’s mini, midi, maxi and occasion dresses selected for weddings, dinners, vacations and effortless everyday dressing." },
+  { slug: "tops-blouses", name: "Tops", title: "Women’s Tops & Blouses", description: "Shop women’s tops and blouses, from polished shirts and refined tanks to easy layers designed for workdays, weekends and evenings out." },
+  { slug: "rompers-playsuits", name: "Playsuits", title: "Women’s Rompers & Playsuits", description: "Shop women’s rompers and playsuits with one-and-done silhouettes for warm days, vacations, weekends and polished casual plans." },
+  { slug: "skirts", name: "Skirts", title: "Women’s Skirts", description: "Shop women’s mini and midi skirts with flattering proportions, movement and modern styling for casual days, work and evening plans." },
+  { slug: "pants", name: "Pants", title: "Women’s Pants & Trousers", description: "Shop women’s tailored trousers and relaxed wide-leg pants for polished workwear, travel outfits and elevated everyday style." },
+  { slug: "shorts", name: "Shorts", title: "Women’s Shorts", description: "Shop women’s tailored and relaxed shorts for warm-weather outfits, vacations and elevated everyday dressing." },
+  { slug: "knitwear", name: "Knitwear", title: "Women’s Knitwear", description: "Shop women’s knitwear and light layers selected for softness, texture, comfort and repeat wear across seasons." },
+  { slug: "bags", name: "Bags", title: "Women’s Bags", description: "Shop women’s shoulder bags, totes and polished everyday bags selected to finish work, weekend and evening outfits." },
+  { slug: "shoes", name: "Shoes", title: "Women’s Shoes", description: "Shop women’s shoes including elegant heels, slingbacks and occasion styles selected to complete polished day-to-evening looks." },
+  { slug: "heels", name: "Shoes", subcategory: "Heels", title: "Women’s Heels", description: "Shop women’s heels including pumps, slingbacks, block heels and stilettos curated for weddings, dinners, work and evening occasions." },
+  { slug: "accessories", name: "Accessories", title: "Women’s Accessories", description: "Shop women’s accessories and finishing touches curated to make everyday, occasion and travel outfits feel complete." },
 ];
 
 export const formatPrice = (value: number) =>
