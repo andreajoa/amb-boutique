@@ -4,7 +4,7 @@ const BAG_CARE = "Wipe clean with a soft damp cloth. Avoid prolonged moisture, d
 const BAG_MATERIALS = "Soft synthetic leather or textile upper with synthetic lining and polished metal hardware. Exact composition follows the product label.";
 const BAG_DESCRIPTION = "An AMB BOUTIQUE bag selected for practical everyday capacity, polished proportions and easy day-to-evening styling.";
 
-function bag(slug: string, name: string, price: number, color: string, colorName: string, stock: number, weightOz: number, unitCostUsd: number, image: string): Product {
+function bag(slug: string, name: string, price: number, color: string, colorName: string, stock: number, weightOz: number, unitCostUsd: number, image: string, gallerySprite?: Product["gallerySprite"]): Product {
   return {
     slug,
     name,
@@ -20,7 +20,8 @@ function bag(slug: string, name: string, price: number, color: string, colorName
     description: BAG_DESCRIPTION,
     materials: BAG_MATERIALS,
     care: BAG_CARE,
-    images: [image, image, image, image],
+    images: gallerySprite ? [image] : [image, image, image, image],
+    ...(gallerySprite ? { gallerySprite } : {}),
     stock,
     weightOz,
     unitCostUsd,
@@ -37,7 +38,7 @@ export const supplementalProducts: Product[] = [
   bag("portofino-carryall-white", "Portofino Carryall — White", 79, "#f4f1e8", "White", 992, 25.29, 25.37, "https://ae01.alicdn.com/kf/S24c42f1a63a447e3be3e254944f08d41V.jpg"),
   bag("portofino-carryall-light-brown", "Portofino Carryall — Light Brown", 79, "#b88663", "Light Brown", 994, 25.29, 24.77, "https://ae01.alicdn.com/kf/Sb1cd051acdf14c3087c7f93af47b7681D.jpg"),
   bag("portofino-carryall-brown", "Portofino Carryall — Brown", 79, "#774936", "Brown", 4, 25.29, 25.74, "https://ae01.alicdn.com/kf/S694fa37b398747e1b7c601df3d98dcaca.jpg"),
-  bag("noir-lace-crossbody-black", "Noir Lace Crossbody — Black", 49, "#171717", "Black", 28, 6.31, 6.81, "https://ae01.alicdn.com/kf/Sa5f04fe2de324971bbd6439a2241505da.jpg"),
+  bag("noir-lace-crossbody-black", "Noir Lace Crossbody — Black", 49, "#171717", "Black", 28, 6.31, 6.81, "/editorial/bags/noir-lace-crossbody-black.svg?v=20260810-1806", { columns: 2, rows: 3, viewWidth: 420, viewHeight: 280 }),
   bag("camille-multi-pocket-crossbody-black", "Camille Multi-Pocket Crossbody — Black", 59, "#171717", "Black", 962, 9.88, 8.54, "https://ae01.alicdn.com/kf/S3affadc9f04e49f797aa92118ffedb32s.jpg"),
   bag("camille-multi-pocket-crossbody-green", "Camille Multi-Pocket Crossbody — Green", 59, "#4d6b5b", "Green", 1, 9.88, 9.86, "https://ae01.alicdn.com/kf/S3165e8413c8a49459920718c9d8a75fbq.jpg"),
   bag("camille-multi-pocket-crossbody-red", "Camille Multi-Pocket Crossbody — Red", 59, "#a9323a", "Red", 1, 9.88, 9.49, "https://ae01.alicdn.com/kf/Sd0ec1b40fb5649b29a8d319af6f523c4D.jpg"),
