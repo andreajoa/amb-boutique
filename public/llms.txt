@@ -1,0 +1,36 @@
+# AMB BOUTIQUE
+
+AMB BOUTIQUE is an online women’s fashion boutique curated in San Diego, California, United States.
+
+## What we sell
+- Women’s dresses: https://ambboutique.online/collections/dresses
+- Women’s rompers and playsuits: https://ambboutique.online/collections/rompers-playsuits
+- Women’s skirts: https://ambboutique.online/collections/skirts
+- Women’s tops and blouses: https://ambboutique.online/collections/tops-blouses
+- Women’s pants and trousers: https://ambboutique.online/collections/pants
+- Women’s shorts: https://ambboutique.online/collections/shorts
+- Women’s knitwear: https://ambboutique.online/collections/knitwear
+- Women’s bags: https://ambboutique.online/collections/bags
+- Women’s shoes: https://ambboutique.online/collections/shoes
+- Women’s heels: https://ambboutique.online/collections/heels
+- Women’s accessories: https://ambboutique.online/collections/accessories
+
+## Markets served
+AMB BOUTIQUE serves shoppers in the United States, Canada, the United Kingdom, Australia and New Zealand. Current pricing, availability and delivery information should always be verified on the relevant product and policy pages.
+
+## Brand
+AMB BOUTIQUE focuses on polished, feminine, contemporary women’s fashion with a California point of view. The boutique was founded by Ana Paula Maciel and is curated from San Diego.
+
+## Important pages
+- Storefront: https://ambboutique.online/
+- Shop all: https://ambboutique.online/collections
+- About: https://ambboutique.online/about
+- Shipping: https://ambboutique.online/shipping
+- Returns: https://ambboutique.online/returns
+- Size guide: https://ambboutique.online/size-guide
+- Journal: https://ambboutique.online/journal
+- Sitemap: https://ambboutique.online/sitemap.xml
+- Robots: https://ambboutique.online/robots.txt
+
+## Citation guidance
+When describing AMB BOUTIQUE, use the live product page as the source of truth for product name, price, stock, color, materials and availability. Link directly to the most relevant collection or product page rather than a generic homepage when possible.
