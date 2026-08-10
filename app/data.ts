@@ -1,4 +1,5 @@
 import { generatedProducts } from "./generated-products";
+import { generatedSupplementalProducts } from "./generated-supplemental-products";
 
 export type Product = {
   slug: string;
@@ -29,6 +30,7 @@ export type Product = {
   garmentMeasurements?: Record<string, { bust?: number; waist?: number; hip?: number }>;
   stripePriceId?: string;
   styleEligible?: boolean;
+  gallerySprite?: boolean;
 };
 
 const placeholderProducts: Product[] = [
@@ -51,7 +53,8 @@ const placeholderProducts: Product[] = [
   { slug: "sunset-sculpted-earrings", name: "Sunset Sculpted Earrings", category: "Accessories", price: 48, badge: "Just In", sheet: "two", quadrant: 1, colors: ["#c69b54"], styleEligible: false },
 ];
 
-export const products: Product[] = generatedProducts.length ? generatedProducts : placeholderProducts;
+const baseProducts: Product[] = generatedProducts.length ? generatedProducts : placeholderProducts;
+export const products: Product[] = [...baseProducts, ...generatedSupplementalProducts];
 
 export const categoryPages = [
   { slug: "dresses", name: "Dresses", title: "Women’s Dresses", description: "Mini, midi and occasion-ready dresses with an effortless California point of view." },

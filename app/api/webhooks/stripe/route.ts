@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { getStripe } from "../../../stripe-server";
+import { finalizeInventory, releaseInventory } from "../../../inventory";
 
 export const runtime = "nodejs";
 
@@ -27,19 +28,32 @@ export async function POST(request: NextRequest) {
   const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
   const signature = request.headers.get("stripe-signature");
   if (!stripe || !webhookSecret || !signature) return NextResponse.json({ error: "Webhook is not configured." }, { status: 503 });
+  let event: Stripe.Event;
   try {
-    const event = stripe.webhooks.constructEvent(await request.text(), signature, webhookSecret);
+    event = stripe.webhooks.constructEvent(await request.text(), signature, webhookSecret);
+  } catch (error) {
+    return NextResponse.json({ error: error instanceof Error ? error.message : "Invalid webhook signature." }, { status: 400 });
+  }
+
+  try {
     if (event.type === "checkout.session.completed" && event.data.object.payment_status === "paid") {
+      await finalizeInventory(event.data.object.id, event.id, event.type);
       await forwardForFulfillment(event.data.object, event.type);
     }
     if (event.type === "checkout.session.async_payment_succeeded") {
+      await finalizeInventory(event.data.object.id, event.id, event.type);
       await forwardForFulfillment(event.data.object, event.type);
     }
     if (event.type === "checkout.session.async_payment_failed") {
+      await releaseInventory(event.data.object.id, event.id, event.type, "released");
       console.warn("AMB asynchronous payment failed", { sessionId: event.data.object.id });
+    }
+    if (event.type === "checkout.session.expired") {
+      await releaseInventory(event.data.object.id, event.id, event.type, "expired");
     }
     return NextResponse.json({ received: true });
   } catch (error) {
-    return NextResponse.json({ error: error instanceof Error ? error.message : "Invalid webhook." }, { status: 400 });
+    console.error("AMB Stripe webhook processing failed", { eventId: event.id, eventType: event.type, error });
+    return NextResponse.json({ error: error instanceof Error ? error.message : "Webhook processing failed." }, { status: 500 });
   }
 }

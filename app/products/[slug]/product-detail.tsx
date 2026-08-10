@@ -10,6 +10,7 @@ import { createCompleteLook } from "../../recommendations";
 import { StyleMatches } from "../../style-matches";
 
 const defaultSizes = ["2", "4", "6", "8", "10", "12"];
+const spritePositions = ["0% 0%", "100% 0%", "0% 100%", "100% 100%"];
 const defaultColors = [
   { name: "Ivory", value: "#efe8dc" },
   { name: "Black", value: "#171717" },
@@ -22,13 +23,44 @@ export default function ProductDetail({ product }: { product: Product }) {
   const [size, setSize] = useState(sizes[Math.min(1, sizes.length - 1)] || "One Size");
   const [color, setColor] = useState(colors[0] || defaultColors[0]);
   const [quantity, setQuantity] = useState(1);
+  const [inventory, setInventory] = useState<{ managed: boolean; available: number } | null>(null);
+  const [inventoryError, setInventoryError] = useState("");
   const { addItem, buyNow, formatMoney, preferredCategories, recordProductView } = useStore();
   const completeLook = useMemo(() => createCompleteLook(product, products, preferredCategories), [product, preferredCategories]);
-  const gallery = product.images?.length ? product.images : [undefined, undefined, undefined, undefined];
+  const galleryAngles = product.category === "Bags" ? ["Front", "Back", "Side", "Interior & pockets"] : ["Front", "Alternate", "Back", "Detail"];
+  const gallery = product.gallerySprite && product.images?.[0]
+    ? Array.from({ length: 4 }, () => product.images?.[0])
+    : product.images?.length ? product.images : [undefined, undefined, undefined, undefined];
 
   useEffect(() => { recordProductView(product); }, [product, recordProductView]);
 
+  useEffect(() => {
+    const controller = new AbortController();
+    setInventory(null);
+    setInventoryError("");
+    const params = new URLSearchParams({ slug: product.slug, color: color.name, size });
+    fetch(`/api/inventory?${params.toString()}`, { signal: controller.signal, cache: "no-store" })
+      .then(async (response) => {
+        const result = await response.json();
+        if (!response.ok) throw new Error(result.error || "Live availability could not be confirmed.");
+        setInventory({ managed: Boolean(result.managed), available: Math.max(0, Number(result.available) || 0) });
+      })
+      .catch((error) => {
+        if (error instanceof DOMException && error.name === "AbortError") return;
+        setInventoryError(error instanceof Error ? error.message : "Live availability could not be confirmed.");
+      });
+    return () => controller.abort();
+  }, [product.slug, color.name, size]);
+
+  useEffect(() => {
+    if (inventory?.managed && quantity > inventory.available) setQuantity(Math.max(1, inventory.available));
+  }, [inventory, quantity]);
+
+  const purchasable = Boolean(inventory?.managed && inventory.available > 0 && !inventoryError);
+  const maximumQuantity = inventory?.managed ? Math.min(10, inventory.available) : 1;
+
   const addToBag = () => {
+    if (!purchasable) return;
     addItem(product, { size, color: color.name, quantity });
   };
 
@@ -37,7 +69,7 @@ export default function ProductDetail({ product }: { product: Product }) {
       <Header />
       <div className="product-layout shell" data-reveal>
         <section className="product-gallery" aria-label={`${product.name} gallery`}>
-          {gallery.map((image, index) => <button key={image || index} className={`gallery-image gallery-q${index + 1}`} style={image ? { backgroundImage: `url(${image})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundColor: "#f5f3ef" } : undefined} aria-label={`Open ${product.name} image ${index + 1}`}><span>⌕</span></button>)}
+          {gallery.map((image, index) => <button key={`${image || "placeholder"}-${index}`} className={`gallery-image gallery-q${index + 1}`} style={image ? { backgroundImage: `url(${image})`, backgroundSize: product.gallerySprite ? "auto 200%" : "contain", backgroundPosition: product.gallerySprite ? spritePositions[index] : "center", backgroundRepeat: "no-repeat", backgroundColor: "#f5f3ef" } : undefined} aria-label={`Open ${product.name} ${galleryAngles[index] || `image ${index + 1}`} view`}><span>⌕</span>{product.category === "Bags" && <em>{galleryAngles[index]}</em>}</button>)}
         </section>
 
         <section className="product-info">
@@ -52,10 +84,17 @@ export default function ProductDetail({ product }: { product: Product }) {
 
           <div className="fit-guide"><span>How it fits</span><div><i/><i/><i className="active"/><i/><i/></div><p><small>Slim fit</small><small>Regular fit</small><small>Oversized</small></p></div>
 
-          <div className="quantity-block"><span>Quantity</span><div><button type="button" onClick={() => setQuantity(Math.max(1, quantity - 1))} aria-label="Decrease quantity">−</button><span>{quantity}</span><button type="button" onClick={() => setQuantity(quantity + 1)} aria-label="Increase quantity">+</button></div></div>
-          <p className="stock-line"><i/> {typeof product.stock === "number" && product.stock <= 5 ? `Only ${product.stock} left` : "Available to order"}</p>
-          <button className="add-button" type="button" onClick={addToBag}>Add to Bag · {formatMoney(product.price * quantity)}</button>
-          <button className="buy-button" type="button" onClick={() => void buyNow(product, { size, color: color.name, quantity })}>Buy Now</button>
+          <div className="quantity-block"><span>Quantity</span><div><button type="button" onClick={() => setQuantity(Math.max(1, quantity - 1))} aria-label="Decrease quantity" disabled={!purchasable || quantity <= 1}>−</button><span>{quantity}</span><button type="button" onClick={() => setQuantity(Math.min(maximumQuantity, quantity + 1))} aria-label="Increase quantity" disabled={!purchasable || quantity >= maximumQuantity}>+</button></div></div>
+          <p className={`stock-line ${inventory?.managed && inventory.available === 0 ? "sold-out" : ""}`} role="status"><i/> {
+            inventoryError ? "Live availability will be confirmed at checkout"
+              : !inventory ? "Checking live availability…"
+                : !inventory.managed ? "Coming soon"
+                  : inventory.available === 0 ? "Sold out in this size"
+                    : inventory.available <= 5 ? `Only ${inventory.available} left in this size`
+                      : "In stock and ready to order"
+          }</p>
+          <button className="add-button" type="button" onClick={addToBag} disabled={!purchasable}>Add to Bag · {formatMoney(product.price * quantity)}</button>
+          <button className="buy-button" type="button" disabled={!purchasable} onClick={() => void buyNow(product, { size, color: color.name, quantity })}>Buy Now</button>
 
           <div className="secure-box"><strong>Secure checkout</strong><span>Amex&nbsp;&nbsp; Apple Pay&nbsp;&nbsp; Mastercard&nbsp;&nbsp; Visa</span></div>
           <div className="product-accordions">

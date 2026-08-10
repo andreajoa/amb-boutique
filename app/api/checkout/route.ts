@@ -6,6 +6,7 @@ import { convertFromUsd, FIRST_ORDER_CODE, getDiscountState, getShippingQuotes, 
 import { bestNonStackingDiscount, protectMargin } from "../../profitability";
 import { rankRecommendations } from "../../recommendations";
 import { getStripe } from "../../stripe-server";
+import { ensureInventoryForProducts, InventoryError, releaseExpiredInventory, reserveInventory, resolveInventoryLines } from "../../inventory";
 
 export const runtime = "nodejs";
 
@@ -23,6 +24,7 @@ export async function POST(request: NextRequest) {
   if (!body?.items?.length || body.items.length > 20) return NextResponse.json({ error: "Your bag is empty or contains too many separate items." }, { status: 400 });
 
   try {
+    await releaseExpiredInventory();
     const market = isMarketCode(body.market) ? body.market : "US";
     const normalized = body.items.map((line) => {
       const product = products.find((item) => item.slug === line.slug);
@@ -31,6 +33,15 @@ export async function POST(request: NextRequest) {
       if (product.stock === 0) throw new Error(`${product.name} is currently unavailable.`);
       return { line, product, quantity };
     });
+    await ensureInventoryForProducts(normalized.map((item) => item.product.slug));
+    const inventoryLines = await resolveInventoryLines(normalized.map((item) => ({
+      slug: item.product.slug,
+      color: item.line.color || "",
+      size: item.line.size || "",
+      quantity: item.quantity,
+    })));
+    const inventoryKey = (slug: string, color: string, size: string) => `${slug}\u0000${color.toLowerCase()}\u0000${size.toLowerCase()}`;
+    const inventoryBySelection = new Map(inventoryLines.map((item) => [inventoryKey(item.slug, item.color, item.size), item]));
     const subtotalUsd = normalized.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
     const packedWeightOz = normalized.reduce((sum, item) => sum + (item.product.weightOz || 12) * item.quantity, 0);
     if (market !== "US" && packedWeightOz > 64) throw new Error("This international parcel needs a live carrier quote. Please contact AMB BOUTIQUE for delivery assistance.");
@@ -73,6 +84,8 @@ export async function POST(request: NextRequest) {
     }
 
     const lineItems: Stripe.Checkout.SessionCreateParams.LineItem[] = normalized.map((item) => {
+      const inventory = inventoryBySelection.get(inventoryKey(item.product.slug, item.line.color || "", item.line.size || ""));
+      if (!inventory) throw new InventoryError(`${item.product.name} is not available in that color and size.`);
       const requestedPercent = item.line.offer === "post-purchase" ? 15 : Math.max(globalOffer.percent, item.line.offer === "cart-bump" ? 10 : 0);
       const margin = protectMargin(item.product, requestedPercent, complimentaryShippingCostUsd / totalUnits);
       const discountedUnitUsd = item.product.price * (1 - margin.approvedPercent / 100);
@@ -88,7 +101,7 @@ export async function POST(request: NextRequest) {
               `Color ${item.line.color || "Selected"}`,
               margin.approvedPercent ? `${margin.approvedPercent}% best eligible AMB offer` : "",
             ].filter(Boolean).join(" · "),
-            metadata: { slug: item.product.slug, size: item.line.size || "", color: item.line.color || "", offer: item.line.offer || "standard", margin_guard: margin.costKnown ? "verified" : "catalog-cost-pending" },
+            metadata: { slug: item.product.slug, sku: inventory.sku, size: inventory.size, color: inventory.color, offer: item.line.offer || "standard", margin_guard: margin.costKnown ? "verified" : "catalog-cost-pending" },
           },
         },
       };
@@ -108,6 +121,7 @@ export async function POST(request: NextRequest) {
     const purchasedSlugs = normalized.map((item) => item.product.slug).join("|").slice(0, 450);
     const orderType = isPostPurchase ? "post-purchase" : "standard";
     const customer = typeof parentSession?.customer === "string" ? parentSession.customer : undefined;
+    const expiresAtUnix = Math.floor(Date.now() / 1000) + 30 * 60;
     const sessionParams: Stripe.Checkout.SessionCreateParams = {
       mode: "payment",
       ui_mode: "embedded_page",
@@ -117,6 +131,7 @@ export async function POST(request: NextRequest) {
       shipping_address_collection: { allowed_countries: [stripeCountry[market]] },
       ...(customer ? { customer } : { customer_creation: "always" as const }),
       phone_number_collection: { enabled: true },
+      expires_at: expiresAtUnix,
       automatic_tax: { enabled: process.env.STRIPE_AUTOMATIC_TAX === "true" },
       redirect_on_completion: "always",
       return_url: `${origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
@@ -139,9 +154,19 @@ export async function POST(request: NextRequest) {
       },
     };
     const session = await stripe.checkout.sessions.create(sessionParams);
-    if (!session.client_secret) throw new Error("Secure checkout could not be initialized.");
+    try {
+      await reserveInventory(session.id, new Date(expiresAtUnix * 1000), inventoryLines);
+    } catch (error) {
+      await stripe.checkout.sessions.expire(session.id).catch(() => undefined);
+      throw error;
+    }
+    if (!session.client_secret) {
+      await stripe.checkout.sessions.expire(session.id).catch(() => undefined);
+      throw new Error("Secure checkout could not be initialized.");
+    }
     return NextResponse.json({ clientSecret: session.client_secret, sessionId: session.id });
   } catch (error) {
-    return NextResponse.json({ error: error instanceof Error ? error.message : "Checkout could not be started." }, { status: 400 });
+    const status = error instanceof InventoryError ? error.status : 400;
+    return NextResponse.json({ error: error instanceof Error ? error.message : "Checkout could not be started." }, { status });
   }
 }
