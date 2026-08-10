@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { Footer, Header, ProductCard } from "../../components";
+import { Footer, Header, ProductCard, getProductImageStyle } from "../../components";
 import { Product, products } from "../../data";
 import { useStore } from "../../store-provider";
 import { SizeFinder } from "../../size-finder";
@@ -33,7 +33,11 @@ export default function ProductDetail({ product }: { product: Product }) {
   const [quantity, setQuantity] = useState(1);
   const { addItem, buyNow, formatMoney, preferredCategories, recordProductView } = useStore();
   const completeLook = useMemo(() => createCompleteLook(product, products, preferredCategories), [product, preferredCategories]);
-  const gallery = product.images?.length ? product.images : [undefined, undefined, undefined, undefined];
+  const gallery = product.gallerySprite && product.images?.[0]
+    ? Array.from({ length: product.gallerySprite.columns * product.gallerySprite.rows }, () => product.images![0])
+    : typeof product.heelAtlasIndex === "number" && product.images?.[0]
+      ? Array.from({ length: 4 }, () => product.images![0])
+      : product.images?.length ? product.images : [undefined, undefined, undefined, undefined];
 
   useEffect(() => { recordProductView(product); }, [product, recordProductView]);
   useEffect(() => {
@@ -50,7 +54,7 @@ export default function ProductDetail({ product }: { product: Product }) {
       <div className="product-layout shell" data-reveal>
         <section className="product-gallery" aria-label={`${product.name} gallery`}>
           {gallery.map((image, index) => (
-            <button key={image || index} className={`gallery-image gallery-q${index + 1}`} style={image ? { backgroundImage: `url(${image})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundColor: "#f5efe5" } : undefined} aria-label={`Open ${product.name} image ${index + 1}`}><span>⌕</span></button>
+            <button key={`${image || "gallery"}-${index}`} className={`gallery-image gallery-q${index + 1}`} style={image ? getProductImageStyle(product, index) : undefined} aria-label={`Open ${product.name} image ${index + 1}`}><span>⌕</span></button>
           ))}
         </section>
 
