@@ -13,10 +13,12 @@ export function getProductImageStyle(product: Product, view = 0): CSSProperties 
   const firstImage = product.images?.[0];
   if (!firstImage) return undefined;
 
-  // View 0 is always the exact colour/SKU hero. For supplier packshots we
-  // blend the light background into AMB's warm ivory so the catalogue stays
-  // visually consistent without altering the physical product.
-  if (view === 0 || !product.gallerySprite) {
+  const singleImageSprite = Boolean(product.gallerySprite && product.images?.length === 1);
+
+  // Normal products use their exact image directly. Editorial bag sheets with a
+  // single source image are intentionally excluded here so view 0 is cropped to
+  // the first cell instead of displaying the whole 2x3 contact sheet.
+  if ((!singleImageSprite && view === 0) || !product.gallerySprite) {
     const image = product.images?.[view] || firstImage;
     const isEditorialAsset = image.startsWith("/editorial/") || image.startsWith("/products/");
     return {
@@ -32,7 +34,7 @@ export function getProductImageStyle(product: Product, view = 0): CSSProperties 
   const sprite = product.images?.[1] || firstImage;
   const { columns, rows, viewWidth, viewHeight } = product.gallerySprite;
   const count = Math.max(1, columns * rows);
-  const spriteView = Math.min(Math.max(view - 1, 0), count - 1);
+  const spriteView = Math.min(Math.max(singleImageSprite ? view : view - 1, 0), count - 1);
   const col = spriteView % columns;
   const row = Math.floor(spriteView / columns);
 
@@ -55,7 +57,7 @@ export function getProductImageStyle(product: Product, view = 0): CSSProperties 
     };
   }
 
-  // Generic editorial sheets keep the original 2xN crop behaviour.
+  // Generic editorial sheets (including Bags) crop one clean cell per view.
   const x = columns === 1 ? 0 : (col / (columns - 1)) * 100;
   const y = rows === 1 ? 0 : (row / (rows - 1)) * 100;
 
