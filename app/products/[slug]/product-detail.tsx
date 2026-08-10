@@ -17,18 +17,29 @@ const defaultColors = [
   { name: "Camel", value: "#a46d4e" },
 ];
 
-export default function ProductDetail({ product }: { product: Product }) {
+export default function ProductDetail({
+  product,
+  initialSize,
+  initialHeelHeightCm,
+}: {
+  product: Product;
+  initialSize?: string;
+  initialHeelHeightCm?: number;
+}) {
   const isShoe = product.category === "Shoes";
   const colors = product.colors.map((value, index) => ({ name: product.colorNames?.[index] || defaultColors[index]?.name || `Color ${index + 1}`, value }));
   const heelOptions = product.shoeVariants?.map((variant) => variant.heelHeightCm) || (product.heelHeightCm ? [product.heelHeightCm] : []);
-  const initialSizes = product.shoeVariants?.[0]?.sizes?.length ? product.shoeVariants[0].sizes : product.sizes?.length ? product.sizes : defaultSizes;
+  const initialHeel = initialHeelHeightCm !== undefined && heelOptions.includes(initialHeelHeightCm) ? initialHeelHeightCm : heelOptions[0];
+  const initialShoeVariant = product.shoeVariants?.find((variant) => variant.heelHeightCm === initialHeel);
+  const initialSizes = initialShoeVariant?.sizes?.length ? initialShoeVariant.sizes : product.sizes?.length ? product.sizes : defaultSizes;
+  const startingSize = initialSize && initialSizes.includes(initialSize) ? initialSize : initialSizes[Math.min(1, initialSizes.length - 1)] || "One Size";
 
-  const [heelHeightCm, setHeelHeightCm] = useState<number | undefined>(heelOptions[0]);
+  const [heelHeightCm, setHeelHeightCm] = useState<number | undefined>(initialHeel);
   const activeShoeVariant = product.shoeVariants?.find((variant) => variant.heelHeightCm === heelHeightCm);
   const sizes = activeShoeVariant?.sizes?.length ? activeShoeVariant.sizes : product.sizes?.length ? product.sizes : defaultSizes;
   const activeStock = activeShoeVariant?.stock ?? product.stock;
 
-  const [size, setSize] = useState(initialSizes[Math.min(1, initialSizes.length - 1)] || "One Size");
+  const [size, setSize] = useState(startingSize);
   const [color, setColor] = useState(colors[0] || defaultColors[0]);
   const [quantity, setQuantity] = useState(1);
   const { addItem, buyNow, formatMoney, preferredCategories, recordProductView } = useStore();
@@ -81,9 +92,9 @@ export default function ProductDetail({ product }: { product: Product }) {
 
           <div className="secure-box"><strong>Secure checkout</strong><span>Amex&nbsp;&nbsp; Apple Pay&nbsp;&nbsp; Mastercard&nbsp;&nbsp; Visa</span></div>
           <div className="product-accordions">
-            <details open><summary>Details</summary><p>{product.materials || "Designed for repeat wear with a timeless silhouette, thoughtful seaming and an easy feel. Final fabric composition will be added with the real product catalog."}</p></details>
-            <details><summary>Size & Fit</summary>{isShoe ? <ShoeSizeGuide compact/> : <p>Model sizing and garment measurements will be displayed for each product. International size conversion will include US, CA, UK, AU and NZ.</p>}</details>
-            <details><summary>Product Care</summary><p>{product.care || "Care instructions will be supplied according to each garment label."}</p></details>
+            <details open><summary>Details</summary><p>{product.materials || "Designed for repeat wear with a timeless silhouette, thoughtful seaming and an easy feel."}</p></details>
+            <details><summary>Size & Fit</summary>{isShoe ? <ShoeSizeGuide compact/> : <p>Use the available sizes and garment measurements shown for this product. Our size guide includes US, CA, UK, AU and NZ conversions.</p>}</details>
+            <details><summary>Product Care</summary><p>{product.care || "Follow the care label attached to the item to preserve color, shape and finish."}</p></details>
             <details><summary>Shipping & Returns</summary><p>Delivery estimates and return eligibility adapt to the customer’s market at checkout. <Link href="/shipping">Shipping details</Link> · <Link href="/returns">Return policy</Link></p></details>
           </div>
           <div className="product-help"><Link href="/contact">Contact us</Link><span>San Diego, California</span></div>
