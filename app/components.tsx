@@ -11,26 +11,23 @@ export function getProductImageStyle(product: Product, view = 0): CSSProperties 
   const firstImage = product.images?.[0];
   if (!firstImage) return undefined;
 
-  // View 0 is always the exact colour/SKU hero. For supplier packshots we
-  // blend the light background into AMB's warm ivory so the catalogue stays
-  // visually consistent without altering the physical product.
+  // The first image is always the exact SKU/colour hero.
   if (view === 0 || !product.gallerySprite) {
     const image = product.images?.[view] || firstImage;
-    const isEditorialAsset = image.startsWith("/editorial/") || image.startsWith("/products/");
     return {
       backgroundImage: `url(${image})`,
       backgroundSize: "contain",
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundColor: "#f5efe5",
-      ...(isEditorialAsset ? {} : { backgroundBlendMode: "multiply" as const }),
     };
   }
 
-  // The generated AMB editorial sheets are stored once per product family.
-  // images[1] is the sheet; subsequent gallery positions crop one cell each.
+  // AMB shoe editorial sheets are 2 x 3. Each cell is a 3:2 landscape image.
+  // Crop one editorial frame at a time without stretching the sheet.
   const sprite = product.images?.[1] || firstImage;
-  const { columns, rows, viewWidth, viewHeight } = product.gallerySprite;
+  const columns = product.gallerySprite.columns || 2;
+  const rows = product.gallerySprite.rows || 3;
   const count = Math.max(1, columns * rows);
   const spriteView = Math.min(Math.max(view - 1, 0), count - 1);
   const col = spriteView % columns;
@@ -44,7 +41,6 @@ export function getProductImageStyle(product: Product, view = 0): CSSProperties 
     backgroundPosition: `${x}% ${y}%`,
     backgroundRepeat: "no-repeat",
     backgroundColor: "#f5efe5",
-    aspectRatio: `${viewWidth} / ${viewHeight}`,
   };
 }
 
