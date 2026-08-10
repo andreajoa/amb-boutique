@@ -10,6 +10,8 @@ import { createCompleteLook } from "../../recommendations";
 import { StyleMatches } from "../../style-matches";
 
 const defaultSizes = ["2", "4", "6", "8", "10", "12"];
+const galleryAngles = ["front", "back", "side", "interior"];
+const spritePositions = ["0% 0%", "100% 0%", "0% 100%", "100% 100%"];
 const defaultColors = [
   { name: "Ivory", value: "#efe8dc" },
   { name: "Black", value: "#171717" },
@@ -26,7 +28,9 @@ export default function ProductDetail({ product }: { product: Product }) {
   const [inventoryError, setInventoryError] = useState("");
   const { addItem, buyNow, formatMoney, preferredCategories, recordProductView } = useStore();
   const completeLook = useMemo(() => createCompleteLook(product, products, preferredCategories), [product, preferredCategories]);
-  const gallery = product.images?.length ? product.images : [undefined, undefined, undefined, undefined];
+  const gallery = product.gallerySprite && product.images?.[0]
+    ? Array.from({ length: 4 }, () => product.images?.[0])
+    : product.images?.length ? product.images : [undefined, undefined, undefined, undefined];
 
   useEffect(() => { recordProductView(product); }, [product, recordProductView]);
 
@@ -65,7 +69,7 @@ export default function ProductDetail({ product }: { product: Product }) {
       <Header />
       <div className="product-layout shell" data-reveal>
         <section className="product-gallery" aria-label={`${product.name} gallery`}>
-          {gallery.map((image, index) => <button key={image || index} className={`gallery-image gallery-q${index + 1}`} style={image ? { backgroundImage: `url(${image})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundColor: "#f5f3ef" } : undefined} aria-label={`Open ${product.name} image ${index + 1}`}><span>⌕</span></button>)}
+          {gallery.map((image, index) => <button key={`${image || "placeholder"}-${index}`} className={`gallery-image gallery-q${index + 1}`} style={image ? { backgroundImage: `url(${image})`, backgroundSize: product.gallerySprite ? "200% 200%" : "contain", backgroundPosition: product.gallerySprite ? spritePositions[index] : "center", backgroundRepeat: "no-repeat", backgroundColor: "#f5f3ef" } : undefined} aria-label={`Open ${product.name} ${galleryAngles[index] || `image ${index + 1}`} view`}><span>⌕</span></button>)}
         </section>
 
         <section className="product-info">
