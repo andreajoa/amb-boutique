@@ -4,11 +4,10 @@ const CARE = "Wipe gently with a soft dry cloth after wear. Keep away from prolo
 const SYNTHETIC = "Smooth synthetic upper with decorative detailing, synthetic lining and sole. Exact composition follows the product label.";
 const CRYSTAL = "Textile and synthetic upper with crystal-look embellishment, smooth lining and synthetic sole. Exact composition follows the product label.";
 const WOVEN = "Woven textile upper with smooth synthetic lining and sole. Exact composition follows the product label.";
-
-const images = (slug: string) => [1, 2, 3, 4].map((view) => `/api/heel-image/${slug}/${view}`);
+const HEEL_ATLAS_IMAGE = "/api/heel-atlas?v=20260810-3";
 
 let placement = 0;
-function shell(product: Omit<Product, "vendor" | "category" | "subcategory" | "sheet" | "quadrant" | "images" | "care" | "styleEligible">): Product {
+function shell(product: Omit<Product, "vendor" | "category" | "subcategory" | "sheet" | "quadrant" | "images" | "care" | "styleEligible" | "heelAtlasIndex">): Product {
   const index = placement++;
   return {
     ...product,
@@ -17,7 +16,8 @@ function shell(product: Omit<Product, "vendor" | "category" | "subcategory" | "s
     subcategory: "Heels",
     sheet: index % 2 === 0 ? "one" : "two",
     quadrant: ((index % 4) + 1) as 1 | 2 | 3 | 4,
-    images: images(product.slug),
+    images: [HEEL_ATLAS_IMAGE, HEEL_ATLAS_IMAGE, HEEL_ATLAS_IMAGE, HEEL_ATLAS_IMAGE],
+    heelAtlasIndex: index,
     care: CARE,
     styleEligible: true,
   };
