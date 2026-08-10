@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { atlasBase64 } from "../../../heel-atlas/chunks";
 
 export const runtime = "nodejs";
 
@@ -21,6 +22,7 @@ export async function GET(_: Request, { params }: { params: Promise<{ slug: stri
   const sourceX = tileX + (viewIndex % 2) * VIEW;
   const sourceY = tileY + Math.floor(viewIndex / 2) * VIEW;
   const scale = 900 / VIEW;
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900"><rect width="900" height="900" fill="#f5efe5"/><image href="/products/_heels/heels-atlas.webp" width="${ATLAS_WIDTH * scale}" height="${ATLAS_HEIGHT * scale}" x="${-sourceX * scale}" y="${-sourceY * scale}" preserveAspectRatio="none"/></svg>`;
+  const atlasDataUrl = `data:image/webp;base64,${atlasBase64}`;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900"><rect width="900" height="900" fill="#f5efe5"/><image href="${atlasDataUrl}" width="${ATLAS_WIDTH * scale}" height="${ATLAS_HEIGHT * scale}" x="${-sourceX * scale}" y="${-sourceY * scale}" preserveAspectRatio="none"/></svg>`;
   return new NextResponse(svg, { headers: { "Content-Type": "image/svg+xml; charset=utf-8", "Cache-Control": "public, max-age=31536000, immutable" } });
 }
