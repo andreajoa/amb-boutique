@@ -33,11 +33,10 @@ export default function ProductDetail({ product }: { product: Product }) {
   const [quantity, setQuantity] = useState(1);
   const { addItem, buyNow, formatMoney, preferredCategories, recordProductView } = useStore();
   const completeLook = useMemo(() => createCompleteLook(product, products, preferredCategories), [product, preferredCategories]);
-  const gallery = product.gallerySprite && product.images?.[0]
-    ? Array.from({ length: product.gallerySprite.columns * product.gallerySprite.rows }, () => product.images![0])
-    : typeof product.heelAtlasIndex === "number" && product.images?.[0]
-      ? Array.from({ length: 4 }, () => product.images![0])
-      : product.images?.length ? product.images : [undefined, undefined, undefined, undefined];
+
+  const gallery = product.gallerySprite && product.images?.[1]
+    ? Array.from({ length: 1 + product.gallerySprite.columns * product.gallerySprite.rows }, (_, index) => index === 0 ? product.images![0] : product.images![1])
+    : product.images?.length ? product.images : [undefined, undefined, undefined, undefined];
 
   useEffect(() => { recordProductView(product); }, [product, recordProductView]);
   useEffect(() => {
