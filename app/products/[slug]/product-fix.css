@@ -1,0 +1,67 @@
+.shoe-product-layout {
+  grid-template-columns: minmax(0, 1.05fr) minmax(360px, .95fr);
+  gap: 52px;
+}
+
+.shoe-product-layout .product-gallery,
+.shoe-product-layout .product-info {
+  min-width: 0;
+}
+
+.shoe-product-layout .product-gallery {
+  align-items: start;
+}
+
+.shoe-product-layout .gallery-image {
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+  aspect-ratio: 3 / 2 !important;
+  background-color: #f5efe5;
+  overflow: hidden;
+}
+
+.shoe-product-layout .size-help-links {
+  position: static;
+  inset: auto;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.shoe-product-layout .shoe-size-link {
+  position: static;
+  display: inline-flex;
+  min-height: auto;
+  padding-top: 2px;
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .shoe-product-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .shoe-product-layout .product-info {
+    position: static;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .shoe-product-layout .product-gallery {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 4px;
+  }
+
+  .shoe-product-layout .gallery-image {
+    flex: 0 0 88vw;
+    width: 88vw;
+    scroll-snap-align: start;
+  }
+}
