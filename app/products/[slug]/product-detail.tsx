@@ -69,7 +69,7 @@ export default function ProductDetail({ product }: { product: Product }) {
       <Header />
       <div className="product-layout shell" data-reveal>
         <section className="product-gallery" aria-label={`${product.name} gallery`}>
-          {gallery.map((image, index) => <button key={`${image || "placeholder"}-${index}`} className={`gallery-image gallery-q${index + 1}`} style={image ? { backgroundImage: `url(${image})`, backgroundSize: product.gallerySprite ? "200% 200%" : "contain", backgroundPosition: product.gallerySprite ? spritePositions[index] : "center", backgroundRepeat: "no-repeat", backgroundColor: "#f5f3ef" } : undefined} aria-label={`Open ${product.name} ${galleryAngles[index] || `image ${index + 1}`} view`}><span>⌕</span></button>)}
+          {gallery.map((image, index) => <button key={`${image || "placeholder"}-${index}`} className={`gallery-image gallery-q${index + 1}`} style={image ? { backgroundImage: `url(${image})`, backgroundSize: product.gallerySprite ? "auto 200%" : "contain", backgroundPosition: product.gallerySprite ? spritePositions[index] : "center", backgroundRepeat: "no-repeat", backgroundColor: "#f5f3ef" } : undefined} aria-label={`Open ${product.name} ${galleryAngles[index] || `image ${index + 1}`} view`}><span>⌕</span></button>)}
         </section>
 
         <section className="product-info">
