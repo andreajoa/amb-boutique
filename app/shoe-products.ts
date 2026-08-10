@@ -4,8 +4,8 @@ const CARE = "Wipe gently with a soft dry cloth after wear. Keep away from prolo
 const SYNTHETIC = "Smooth synthetic upper with decorative detailing, synthetic lining and sole. Exact composition follows the product label.";
 const CRYSTAL = "Textile and synthetic upper with crystal-look embellishment, smooth lining and synthetic sole. Exact composition follows the product label.";
 const WOVEN = "Woven textile upper with smooth synthetic lining and sole. Exact composition follows the product label.";
-const editorial = (family: number) => `/editorial/shoes/shoes${family}.svg?v=20260810-final`;
-const shoeGallery = { columns: 2, rows: 3, viewWidth: 360, viewHeight: 240 };
+const SHOE_ATLAS = "/editorial/shoes/amb-shoes-atlas.svg?v=20260810-valid";
+const shoeGallery = { columns: 2, rows: 3, viewWidth: 240, viewHeight: 160 };
 
 let placement = 0;
 function shell(product: Omit<Product, "vendor" | "category" | "subcategory" | "sheet" | "quadrant" | "care" | "styleEligible">): Product {
@@ -19,18 +19,17 @@ function shell(product: Omit<Product, "vendor" | "category" | "subcategory" | "s
     quadrant: ((index % 4) + 1) as 1 | 2 | 3 | 4,
     care: CARE,
     styleEligible: true,
+    heelAtlasIndex: index,
   };
 }
 
-function fixed(slug: string, name: string, price: number, color: string, colorName: string, sizes: string[], stock: number, weightOz: number, unitCostUsd: number, description: string, materials: string, hero: string, family: number, heelHeightCm?: number): Product {
-  const sheet = editorial(family);
-  return shell({ slug, name, price, badge: placement < 5 ? "Just In" : "New", colors: [color], colorNames: [colorName], sizes, stock, weightOz, unitCostUsd, minimumMarginPercent: 40, description, materials, heelHeightCm, images: [hero, sheet, sheet, sheet, sheet, sheet, sheet], gallerySprite: shoeGallery });
+function fixed(slug: string, name: string, price: number, color: string, colorName: string, sizes: string[], stock: number, weightOz: number, unitCostUsd: number, description: string, materials: string, hero: string, _family: number, heelHeightCm?: number): Product {
+  return shell({ slug, name, price, badge: placement < 5 ? "Just In" : "New", colors: [color], colorNames: [colorName], sizes, stock, weightOz, unitCostUsd, minimumMarginPercent: 40, description, materials, heelHeightCm, images: [hero, SHOE_ATLAS], gallerySprite: shoeGallery });
 }
 
-function variable(slug: string, name: string, price: number, color: string, colorName: string, variants: ShoeVariant[], weightOz: number, unitCostUsd: number, description: string, hero: string, family: number): Product {
+function variable(slug: string, name: string, price: number, color: string, colorName: string, variants: ShoeVariant[], weightOz: number, unitCostUsd: number, description: string, hero: string, _family: number): Product {
   const sizes = Array.from(new Set(variants.flatMap((variant) => variant.sizes))).sort((a, b) => Number(a) - Number(b));
-  const sheet = editorial(family);
-  return shell({ slug, name, price, badge: "New", colors: [color], colorNames: [colorName], sizes, stock: variants.reduce((sum, variant) => sum + variant.stock, 0), weightOz, unitCostUsd, minimumMarginPercent: 40, description, materials: SYNTHETIC, shoeVariants: variants, images: [hero, sheet, sheet, sheet, sheet, sheet, sheet], gallerySprite: shoeGallery });
+  return shell({ slug, name, price, badge: "New", colors: [color], colorNames: [colorName], sizes, stock: variants.reduce((sum, variant) => sum + variant.stock, 0), weightOz, unitCostUsd, minimumMarginPercent: 40, description, materials: SYNTHETIC, shoeVariants: variants, images: [hero, SHOE_ATLAS], gallerySprite: shoeGallery });
 }
 
 const wovenDescription = "An airy woven pointed-toe slingback with an openwork upper and slim heel, designed for polished warm-weather dressing.";
@@ -53,26 +52,21 @@ export const shoeProducts: Product[] = [
   fixed("luna-crystal-sandal","Luna Crystal Sandal",98,"#d8c3a8","Beige",["35","36","37","38","39","40","41","42","43","44","45"],437,16.51,21.57,crystalSandalDescription,CRYSTAL,"https://ae01.alicdn.com/kf/S7cfe0e8d352c4c0ba57b2110eb7b4a40z.jpg",2),
   fixed("noir-crystal-sandal","Noir Crystal Sandal",98,"#171717","Black",["35","36","37","38","39","40","41","42","43","44","45"],425,16.51,21.44,crystalSandalDescription,CRYSTAL,"https://ae01.alicdn.com/kf/S98bdb61f48674ad7aa8f1a06dc84ef403.jpg",2),
   fixed("elodie-crystal-slingback","Elodie Crystal Slingback",128,"#d8c3a8","Champagne",["36","37","38","39","40","41","42"],130,17.64,43.07,crystalSlingbackDescription,CRYSTAL,"https://ae01.alicdn.com/kf/S76577406bf604e7d9e3fe54dc5713b3eZ.jpg",3),
-
   fixed("monaco-buckle-slingback","Monaco Buckle Slingback",148,"#171717","Black",["36","37","38","39","40"],19,21.27,50.44,buckleSlingbackDescription,SYNTHETIC,"https://ae01.alicdn.com/kf/S1fbeb0fa6d6c463facd3d85f6a2f7c60g.jpg",4,9),
   fixed("bianca-buckle-slingback","Bianca Buckle Slingback",148,"#f4f2ec","White",["36","37","38","39","40"],25,21.27,50.47,buckleSlingbackDescription,SYNTHETIC,"https://ae01.alicdn.com/kf/Sbba85139abfd4a5488e35d4e8dbb5184S.jpg",4,9),
   fixed("celeste-buckle-slingback","Celeste Buckle Slingback",148,"#c7aa8d","Champagne",["36","37","38","39","40"],35,21.27,50.52,buckleSlingbackDescription,SYNTHETIC,"https://ae01.alicdn.com/kf/S774f31f49ca144e78e6082ca897f25e1F.jpg",4,9),
-
   fixed("mosaic-buckle-pump","Mosaic Buckle Pump",168,"#a78d83","Metallic Mix",["37","40"],5,23.17,57.13,bucklePumpDescription,SYNTHETIC,"https://ae01.alicdn.com/kf/Sb3820bcec3104f4581db65b8ec02faf4B.jpg",5,9),
   fixed("sable-buckle-pump","Sable Buckle Pump",168,"#d8c3a8","Beige",["36","37","38","39","40"],24,23.17,58.59,bucklePumpDescription,SYNTHETIC,"https://ae01.alicdn.com/kf/S800b3f6eb2394d099dc78afc4c43ecaaB.jpg",5,9),
   fixed("onyx-buckle-pump","Onyx Buckle Pump",168,"#171717","Black",["36","37","38","39"],13,23.17,57.32,bucklePumpDescription,SYNTHETIC,"https://ae01.alicdn.com/kf/Sd67d5605437e42508835c41803929a83e.jpg",5,9),
   fixed("rouge-buckle-pump","Rouge Buckle Pump",168,"#b32635","Red",["36","37","38","39","40"],49,23.17,58.70,bucklePumpDescription,SYNTHETIC,"https://ae01.alicdn.com/kf/S9d03454c183b42dda66bd7ae3285d8c8u.jpg",5,9),
   fixed("cognac-buckle-pump","Cognac Buckle Pump",168,"#8a4f35","Cognac",["36","37","39","40"],18,23.17,57.72,bucklePumpDescription,SYNTHETIC,"https://ae01.alicdn.com/kf/Sf2170425fdbe4c269e02bbcc0d58bbe4w.jpg",5,9),
-
   variable("aurelia-patent-slingback","Aurelia Patent Slingback",158,"#d6b39e","Nude",[{ heelHeightCm: 6, sizes: s3343, stock: 1070 },{ heelHeightCm: 8, sizes: s3346, stock: 1337 },{ heelHeightCm: 10, sizes: s3346, stock: 1354 },{ heelHeightCm: 12, sizes: s3346, stock: 1370 }],17.64,49.41,patentDescription,"https://ae01.alicdn.com/kf/Sc300939d3fb54bb180e9f3193819285ce.jpg",6),
   variable("rouge-patent-slingback","Rouge Patent Slingback",158,"#a7192f","Laser Red",[{ heelHeightCm: 6, sizes: s3343, stock: 1087 },{ heelHeightCm: 8, sizes: s3346, stock: 1383 },{ heelHeightCm: 10, sizes: s3346, stock: 1384 },{ heelHeightCm: 12, sizes: s3346, stock: 1383 }],17.64,49.41,patentDescription,"https://ae01.alicdn.com/kf/S039ea985e44449638e96f3091f6c1e38t.jpg",6),
   variable("onyx-patent-slingback","Onyx Patent Slingback",158,"#171717","Black",[{ heelHeightCm: 6, sizes: s3343, stock: 1077 },{ heelHeightCm: 8, sizes: s3346, stock: 1367 },{ heelHeightCm: 10, sizes: s3346, stock: 1378 },{ heelHeightCm: 12, sizes: s3346, stock: 1383 }],17.64,49.41,patentDescription,"https://ae01.alicdn.com/kf/S8380cd7d53244deb99ac5d0856f1137bV.jpg",6),
-
   variable("lucia-gloss-slingback","Lucia Gloss Slingback",228,"#d8b8a4","Nude Gloss",[{ heelHeightCm: 8, sizes: s3441, stock: 7054 },{ heelHeightCm: 10, sizes: s3441, stock: 7054 }],17.64,81.34,glossDescription,"https://ae01.alicdn.com/kf/S2f27ee9d7d284bccadd4484a9871e402J.jpg",7),
   variable("pearl-gloss-slingback","Pearl Gloss Slingback",228,"#b9b5b0","Pearl Grey",[{ heelHeightCm: 8, sizes: s3441, stock: 7056 },{ heelHeightCm: 10, sizes: s3441, stock: 7055 }],17.64,81.34,glossDescription,"https://ae01.alicdn.com/kf/S5e1553f4e52a4c90baa3b9b0afe6e94fq.jpg",7),
   variable("noir-matte-slingback","Noir Matte Slingback",228,"#1b1b1b","Black Matte",[{ heelHeightCm: 8, sizes: s3441, stock: 7050 },{ heelHeightCm: 10, sizes: s3441, stock: 7055 }],17.64,81.34,glossDescription,"https://ae01.alicdn.com/kf/Sa5c914c312d843978ca77e11e99d8299w.jpg",7),
   variable("noir-gloss-slingback","Noir Gloss Slingback",228,"#111111","Black Gloss",[{ heelHeightCm: 8, sizes: s3441, stock: 7052 },{ heelHeightCm: 10, sizes: s3441, stock: 7056 }],17.64,81.34,glossDescription,"https://ae01.alicdn.com/kf/S6abc9c6b02d7485aa7d65b25aeae2228M.jpg",7),
-
   variable("soleil-bow-pump","Soleil Bow Pump",98,"#e7cd68","Yellow",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6209 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6195 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/S9554a47074564e75b683ab30762797c8D.jpg",8),
   variable("pearl-bow-pump","Pearl Bow Pump",98,"#f2eee6","White",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6204 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6151 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/S0a8bc128b9284a8bbd9442b20c09e3e4h.jpg",8),
   variable("rouge-bow-pump","Rouge Bow Pump",98,"#b32635","Red",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6214 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6183 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/S29b4f55d90b24469abc87f809b0fd13fA.jpg",8),
