@@ -1,0 +1,61 @@
+/* Shoes / Heels navigation and sizing additions */
+.desktop-nav .nav-mega { position: relative; height: 100%; display: flex; align-items: center; }
+.desktop-nav .nav-mega > a { display: inline-flex; align-items: center; gap: 7px; }
+.desktop-nav .nav-mega > a span { font-size: 9px; transform: translateY(-1px); }
+.mega-panel { position: absolute; top: calc(100% - 1px); left: 50%; width: 520px; padding: 26px; display: grid; grid-template-columns: 1.1fr .9fr; gap: 34px; background: #fffefc; border: 1px solid var(--line); box-shadow: 0 18px 40px rgba(28,22,17,.14); opacity: 0; visibility: hidden; pointer-events: none; transform: translate(-50%, 9px); transition: opacity .18s ease, transform .18s ease, visibility .18s; text-transform: none; letter-spacing: normal; }
+.nav-mega:hover .mega-panel, .nav-mega:focus-within .mega-panel { opacity: 1; visibility: visible; pointer-events: auto; transform: translate(-50%, 0); }
+.mega-panel > div { min-width: 0; }
+.mega-panel strong { display: block; margin-bottom: 13px; color: var(--camel); font-size: 9px; letter-spacing: .15em; text-transform: uppercase; }
+.desktop-nav .mega-panel a { display: block; padding: 8px 0; font-size: 13px; letter-spacing: 0; text-transform: none; }
+.desktop-nav .mega-panel a::after { display: none; }
+.desktop-nav .mega-panel a:hover, .desktop-nav .mega-panel a:focus-visible { text-decoration: underline; text-underline-offset: 4px; }
+.mega-panel p { margin: 4px 0 13px; color: var(--muted); font-size: 11px; line-height: 1.6; }
+.mega-panel .mega-size-link { display: inline-block; border-bottom: 1px solid var(--ink); }
+
+.mobile-submenu { margin: -2px 0; }
+.mobile-submenu > summary { list-style: none; cursor: pointer; font: inherit; }
+.mobile-submenu > summary::-webkit-details-marker { display: none; }
+.mobile-submenu > summary::after { content: "+"; float: right; }
+.mobile-submenu[open] > summary::after { content: "−"; }
+.mobile-submenu > div { display: flex; flex-direction: column; gap: 12px; margin-top: 14px; padding: 14px 0 2px 14px; border-left: 1px solid var(--line); }
+.mobile-submenu > div a { color: var(--muted); }
+
+.size-guide-page { padding-block: 78px 105px; }
+.shoe-size-guide { scroll-margin-top: 30px; }
+.shoe-size-intro { max-width: 760px; margin: 0 auto 34px; text-align: center; }
+.shoe-size-intro > p, .apparel-size-note > p { margin: 0 0 10px; color: var(--camel); font-size: 9px; font-weight: 700; letter-spacing: .17em; text-transform: uppercase; }
+.shoe-size-intro h2, .apparel-size-note h2 { margin: 0 0 15px; font: 500 45px/1 var(--font-cormorant); }
+.shoe-size-intro > span, .apparel-size-note > span { color: var(--muted); line-height: 1.75; }
+.shoe-size-table-wrap { overflow-x: auto; border: 1px solid var(--line); background: white; }
+.shoe-size-table { width: 100%; min-width: 660px; border-collapse: collapse; text-align: center; }
+.shoe-size-table th { padding: 14px 12px; background: var(--cream); font-size: 9px; letter-spacing: .13em; text-transform: uppercase; }
+.shoe-size-table td { padding: 13px 12px; border-top: 1px solid var(--line); font-size: 11px; }
+.shoe-size-table td small { color: var(--muted); }
+.shoe-size-notes { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 18px; }
+.shoe-size-notes > div { padding: 20px; background: var(--cream); }
+.shoe-size-notes strong { display: block; margin-bottom: 7px; font: 500 20px var(--font-cormorant); }
+.shoe-size-notes p { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.7; }
+.shoe-size-disclaimer { margin: 14px 0 0; color: var(--muted); font-size: 9px; line-height: 1.6; }
+.shoe-size-guide.compact { margin-top: 13px; }
+.shoe-size-guide.compact .shoe-size-table { min-width: 560px; }
+.shoe-size-guide.compact .shoe-size-notes { grid-template-columns: 1fr; }
+.shoe-size-guide.compact .shoe-size-notes > div { padding: 15px; }
+.shoe-size-guide.compact .shoe-size-notes strong { font-size: 16px; }
+.apparel-size-note { margin-top: 72px; padding-top: 56px; border-top: 1px solid var(--line); max-width: 760px; }
+.shoe-fit-summary { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; margin: 0 0 24px; }
+.shoe-fit-summary > div { padding: 14px 16px; background: var(--cream); }
+.shoe-fit-summary span { display: block; margin-bottom: 4px; color: var(--muted); font-size: 9px; text-transform: uppercase; letter-spacing: .1em; }
+.shoe-fit-summary strong { font-size: 12px; }
+.shoe-size-link { display: inline-flex; align-items: center; min-height: 26px; text-decoration: underline; text-underline-offset: 3px; font-size: 10px; }
+
+@media (max-width: 900px) {
+  .mega-panel { display: none; }
+}
+
+@media (max-width: 560px) {
+  .size-guide-page { padding-block: 55px 78px; }
+  .shoe-size-intro { text-align: left; }
+  .shoe-size-intro h2, .apparel-size-note h2 { font-size: 38px; }
+  .shoe-size-notes { grid-template-columns: 1fr; }
+  .shoe-fit-summary { grid-template-columns: 1fr 1fr; }
+}
