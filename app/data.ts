@@ -1,6 +1,12 @@
 import { generatedProducts } from "./generated-products";
 import { shoeProducts } from "./shoe-products";
 
+export type ShoeVariant = {
+  heelHeightCm: number;
+  sizes: string[];
+  stock: number;
+};
+
 export type Product = {
   slug: string;
   name: string;
@@ -32,6 +38,7 @@ export type Product = {
   stripePriceId?: string;
   styleEligible?: boolean;
   heelHeightCm?: number;
+  shoeVariants?: ShoeVariant[];
 };
 
 const placeholderProducts: Product[] = [
