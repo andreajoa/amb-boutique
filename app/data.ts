@@ -1,10 +1,12 @@
 import { generatedProducts } from "./generated-products";
+import { shoeProducts } from "./shoe-products";
 
 export type Product = {
   slug: string;
   name: string;
   vendor?: string;
   category: "Dresses" | "Tops" | "Playsuits" | "Skirts" | "Pants" | "Shorts" | "Knitwear" | "Bags" | "Shoes" | "Accessories";
+  subcategory?: string;
   price: number;
   compareAt?: number;
   badge?: string;
@@ -29,6 +31,7 @@ export type Product = {
   garmentMeasurements?: Record<string, { bust?: number; waist?: number; hip?: number }>;
   stripePriceId?: string;
   styleEligible?: boolean;
+  heelHeightCm?: number;
 };
 
 const placeholderProducts: Product[] = [
@@ -42,8 +45,8 @@ const placeholderProducts: Product[] = [
   { slug: "solana-wrap-playsuit", name: "Solana Wrap Playsuit", category: "Playsuits", price: 96, badge: "Just In", sheet: "two", quadrant: 4, colors: ["#d5aaa4", "#f5efe6"] },
   { slug: "catalina-shoulder-bag", name: "Catalina Shoulder Bag", category: "Bags", price: 128, sheet: "two", quadrant: 1, colors: ["#9d6541", "#151515"], styleEligible: false },
   { slug: "pacific-structured-tote", name: "Pacific Structured Tote", category: "Bags", price: 146, badge: "Best Seller", sheet: "two", quadrant: 1, colors: ["#8c5b3d", "#e7d9c5"], rating: 5, styleEligible: false },
-  { slug: "paloma-slingback-heel", name: "Paloma Slingback Heel", category: "Shoes", price: 118, sheet: "two", quadrant: 3, colors: ["#d5b39d", "#171717"], styleEligible: false },
-  { slug: "maren-strappy-sandal", name: "Maren Strappy Sandal", category: "Shoes", price: 92, compareAt: 115, badge: "Save 20%", sheet: "two", quadrant: 3, colors: ["#b99070", "#e9ddce"], styleEligible: false },
+  { slug: "paloma-slingback-heel", name: "Paloma Slingback Heel", category: "Shoes", subcategory: "Heels", price: 118, sheet: "two", quadrant: 3, colors: ["#d5b39d", "#171717"], styleEligible: false },
+  { slug: "maren-strappy-sandal", name: "Maren Strappy Sandal", category: "Shoes", subcategory: "Heels", price: 92, compareAt: 115, badge: "Save 20%", sheet: "two", quadrant: 3, colors: ["#b99070", "#e9ddce"], styleEligible: false },
   { slug: "carmel-knit-midi-skirt", name: "Carmel Knit Midi Skirt", category: "Skirts", price: 84, badge: "New", sheet: "two", quadrant: 3, colors: ["#d8c8b7", "#1b1b1b"] },
   { slug: "coronado-wide-leg-trouser", name: "Coronado Wide-Leg Trouser", category: "Pants", price: 92, badge: "New", sheet: "two", quadrant: 4, colors: ["#eee5d8", "#9e7967"] },
   { slug: "ocean-beach-tailored-short", name: "Ocean Beach Tailored Short", category: "Shorts", price: 72, sheet: "two", quadrant: 4, colors: ["#e9dfd1", "#b78970"] },
@@ -51,9 +54,17 @@ const placeholderProducts: Product[] = [
   { slug: "sunset-sculpted-earrings", name: "Sunset Sculpted Earrings", category: "Accessories", price: 48, badge: "Just In", sheet: "two", quadrant: 1, colors: ["#c69b54"], styleEligible: false },
 ];
 
-export const products: Product[] = generatedProducts.length ? generatedProducts : placeholderProducts;
+export const products: Product[] = generatedProducts.length ? [...generatedProducts, ...shoeProducts] : [...placeholderProducts, ...shoeProducts];
 
-export const categoryPages = [
+type CategoryPage = {
+  slug: string;
+  name: Product["category"];
+  title: string;
+  description: string;
+  subcategory?: string;
+};
+
+export const categoryPages: CategoryPage[] = [
   { slug: "dresses", name: "Dresses", title: "Women’s Dresses", description: "Mini, midi and occasion-ready dresses with an effortless California point of view." },
   { slug: "tops-blouses", name: "Tops", title: "Women’s Tops & Blouses", description: "Polished blouses, refined tanks and easy tops for everyday styling." },
   { slug: "rompers-playsuits", name: "Playsuits", title: "Rompers & Playsuits", description: "One-and-done silhouettes made for warm days, weekends and getaways." },
@@ -62,9 +73,10 @@ export const categoryPages = [
   { slug: "shorts", name: "Shorts", title: "Women’s Shorts", description: "Tailored, relaxed and warm-weather shorts for an elevated everyday wardrobe." },
   { slug: "knitwear", name: "Knitwear", title: "Women’s Knitwear", description: "Soft knits and light layers selected for comfort, texture and repeat wear." },
   { slug: "bags", name: "Bags", title: "Women’s Bags", description: "Shoulder bags, totes and polished everyday companions in considered proportions." },
-  { slug: "shoes", name: "Shoes", title: "Women’s Shoes", description: "Elegant sandals, slingbacks and versatile shoes that finish every look." },
+  { slug: "shoes", name: "Shoes", title: "Women’s Shoes", description: "Elegant heels, slingbacks and occasion shoes selected to finish every look." },
+  { slug: "heels", name: "Shoes", subcategory: "Heels", title: "Women’s Heels", description: "Pointed pumps, slingbacks, block heels and stilettos curated for polished day-to-evening dressing." },
   { slug: "accessories", name: "Accessories", title: "Women’s Accessories", description: "Jewellery and finishing touches curated to make personal style feel complete." },
-] as const;
+];
 
 export const formatPrice = (value: number) =>
   new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", minimumFractionDigits: 0 }).format(value);
