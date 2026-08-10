@@ -7,56 +7,44 @@ import { MarketCode, marketCodes, markets, US_FREE_SHIPPING_THRESHOLD_USD } from
 import { useStore } from "./store-provider";
 import { NewsletterForm } from "./newsletter-form";
 
-const HEEL_ATLAS_WIDTH = 1800;
-const HEEL_ATLAS_HEIGHT = 1500;
-const HEEL_TILE = 300;
-const HEEL_VIEW = 150;
-const HEEL_COLS = 6;
-
 export function getProductImageStyle(product: Product, view = 0): CSSProperties | undefined {
   const firstImage = product.images?.[0];
   if (!firstImage) return undefined;
 
-  if (typeof product.heelAtlasIndex === "number") {
-    const tileX = (product.heelAtlasIndex % HEEL_COLS) * HEEL_TILE;
-    const tileY = Math.floor(product.heelAtlasIndex / HEEL_COLS) * HEEL_TILE;
-    const sourceX = tileX + (view % 2) * HEEL_VIEW;
-    const sourceY = tileY + Math.floor(view / 2) * HEEL_VIEW;
-    const x = (sourceX / (HEEL_ATLAS_WIDTH - HEEL_VIEW)) * 100;
-    const y = (sourceY / (HEEL_ATLAS_HEIGHT - HEEL_VIEW)) * 100;
+  // View 0 is always the exact colour/SKU hero. For supplier packshots we
+  // blend the light background into AMB's warm ivory so the catalogue stays
+  // visually consistent without altering the physical product.
+  if (view === 0 || !product.gallerySprite) {
+    const image = product.images?.[view] || firstImage;
+    const isEditorialAsset = image.startsWith("/editorial/") || image.startsWith("/products/");
     return {
-      backgroundImage: `url(${firstImage})`,
-      backgroundSize: `${(HEEL_ATLAS_WIDTH / HEEL_VIEW) * 100}% ${(HEEL_ATLAS_HEIGHT / HEEL_VIEW) * 100}%`,
-      backgroundPosition: `${x}% ${y}%`,
+      backgroundImage: `url(${image})`,
+      backgroundSize: "contain",
+      backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundColor: "#f5efe5",
+      ...(isEditorialAsset ? {} : { backgroundBlendMode: "multiply" as const }),
     };
   }
 
-  if (product.gallerySprite) {
-    const { columns, rows } = product.gallerySprite;
-    const count = Math.max(1, columns * rows);
-    const safeView = Math.min(Math.max(view, 0), count - 1);
-    const col = safeView % columns;
-    const row = Math.floor(safeView / columns);
-    const x = columns === 1 ? 0 : (col / (columns - 1)) * 100;
-    const y = rows === 1 ? 0 : (row / (rows - 1)) * 100;
-    return {
-      backgroundImage: `url(${firstImage})`,
-      backgroundSize: `${columns * 100}% ${rows * 100}%`,
-      backgroundPosition: `${x}% ${y}%`,
-      backgroundRepeat: "no-repeat",
-      backgroundColor: "#f5efe5",
-    };
-  }
+  // The generated AMB editorial sheets are stored once per product family.
+  // images[1] is the sheet; subsequent gallery positions crop one cell each.
+  const sprite = product.images?.[1] || firstImage;
+  const { columns, rows, viewWidth, viewHeight } = product.gallerySprite;
+  const count = Math.max(1, columns * rows);
+  const spriteView = Math.min(Math.max(view - 1, 0), count - 1);
+  const col = spriteView % columns;
+  const row = Math.floor(spriteView / columns);
+  const x = columns === 1 ? 0 : (col / (columns - 1)) * 100;
+  const y = rows === 1 ? 0 : (row / (rows - 1)) * 100;
 
-  const image = product.images?.[view] || firstImage;
   return {
-    backgroundImage: `url(${image})`,
-    backgroundSize: "contain",
-    backgroundPosition: "center",
+    backgroundImage: `url(${sprite})`,
+    backgroundSize: `${columns * 100}% ${rows * 100}%`,
+    backgroundPosition: `${x}% ${y}%`,
     backgroundRepeat: "no-repeat",
-    backgroundColor: "#f5f3ef",
+    backgroundColor: "#f5efe5",
+    aspectRatio: `${viewWidth} / ${viewHeight}`,
   };
 }
 
