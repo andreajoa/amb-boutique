@@ -39,6 +39,8 @@ export type Product = {
   styleEligible?: boolean;
   heelHeightCm?: number;
   shoeVariants?: ShoeVariant[];
+  heelAtlasIndex?: number;
+  gallerySprite?: { columns: number; rows: number; viewWidth: number; viewHeight: number };
 };
 
 const placeholderProducts: Product[] = [
