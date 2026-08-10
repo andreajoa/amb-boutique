@@ -7,14 +7,16 @@ import { useEffect, useState } from "react";
 const slides = [
   {
     image: "/images/hero-01.webp",
+    alt: "AMB BOUTIQUE women’s fashion editorial with polished warm-weather styling",
     eyebrow: "THE AMB EDIT",
-    title: <>A new point<br />of view.</>,
+    title: <>Women’s fashion,<br />a new point of view.</>,
     copy: "Modern femininity, warm-weather ease and polished silhouettes curated in San Diego.",
     align: "center",
     position: "center center",
   },
   {
     image: "/images/hero-02.webp",
+    alt: "AMB BOUTIQUE resort fashion editorial with flowing dresses and accessories",
     eyebrow: "THE RESORT EDIT",
     title: <>Made for<br />golden hours.</>,
     copy: "Flowing dresses and understated accessories for sunlit days and beautifully unhurried plans.",
@@ -23,6 +25,7 @@ const slides = [
   },
   {
     image: "/images/hero-03.webp",
+    alt: "AMB BOUTIQUE women’s clothing editorial with warm tones and modern tailoring",
     eyebrow: "NEW SEASON",
     title: <>Warm tones.<br />Modern lines.</>,
     copy: "Soft tailoring and confident color, designed to move from daytime ease to dinner plans.",
@@ -31,6 +34,7 @@ const slides = [
   },
   {
     image: "/images/hero-04.webp",
+    alt: "AMB BOUTIQUE evening fashion editorial with refined black dresses and heels",
     eyebrow: "THE EVENING EDIT",
     title: <>Quiet<br />confidence.</>,
     copy: "Refined black dresses and elegant finishing touches for every invitation on your calendar.",
@@ -70,7 +74,7 @@ export function HeroCarousel() {
           >
             <Image
               src={slide.image}
-              alt=""
+              alt={slide.alt}
               fill
               priority={index === 0}
               sizes="100vw"
