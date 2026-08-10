@@ -1,22 +1,25 @@
 import { notFound } from "next/navigation";
 import { products } from "../../data";
+import { getShippingQuotes } from "../../commerce";
+import { getMerchantAdditionalImages, getMerchantImage } from "../../merchant";
 import ProductDetail from "./product-detail";
 import type { Metadata } from "next";
 
 const siteUrl = "https://ambboutique.online";
 const servedMarkets = ["US", "CA", "GB", "AU", "NZ"];
 
-function absoluteImage(image: string) {
-  return image.startsWith("http") ? image : `${siteUrl}${image}`;
-}
+type ProductPageProps = {
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<{ size?: string; heel?: string }>;
+};
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+export async function generateMetadata({ params }: Pick<ProductPageProps, "params">): Promise<Metadata> {
   const { slug } = await params;
   const product = products.find((item) => item.slug === slug);
   if (!product) return {};
 
   const description = product.description || `${product.name} by AMB BOUTIQUE. Shop contemporary women’s ${product.category.toLowerCase()} curated in San Diego with delivery to the US, Canada, UK, Australia and New Zealand.`;
-  const socialImage = product.images?.[0] || "/images/product-gallery.webp";
+  const socialImage = getMerchantImage(product) || "/images/product-gallery.webp";
 
   return {
     title: product.name,
@@ -39,15 +42,22 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
-export default async function ProductPage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function ProductPage({ params, searchParams }: ProductPageProps) {
   const { slug } = await params;
+  const query = await searchParams;
   const product = products.find((item) => item.slug === slug);
   if (!product) notFound();
 
+  const requestedHeel = query.heel === undefined ? undefined : Number(query.heel);
+  const initialHeelHeightCm = Number.isFinite(requestedHeel) ? requestedHeel : undefined;
+  const selectedShoeVariant = product.shoeVariants?.find((variant) => variant.heelHeightCm === initialHeelHeightCm);
+  const activeStock = selectedShoeVariant?.stock ?? product.stock;
   const pageUrl = `${siteUrl}/products/${product.slug}`;
-  const productImages = product.images?.length
-    ? product.images.map(absoluteImage)
+  const merchantPrimary = getMerchantImage(product);
+  const productImages = merchantPrimary
+    ? [merchantPrimary, ...getMerchantAdditionalImages(product)]
     : [`${siteUrl}/images/product-gallery.webp`];
+  const usShipping = getShippingQuotes("US", product.price, product.weightOz || 12)[0];
 
   const productJsonLd = {
     "@context": "https://schema.org",
@@ -57,21 +67,32 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
     name: product.name,
     description: product.description || `${product.name}, a contemporary women’s ${product.category.toLowerCase()} style curated by AMB BOUTIQUE in San Diego.`,
     sku: `AMB-${product.slug.toUpperCase()}`,
-    brand: { "@type": "Brand", name: "AMB BOUTIQUE" },
+    brand: { "@type": "Brand", name: product.vendor || "AMB BOUTIQUE" },
     category: `Women’s ${product.category}`,
     image: productImages,
     ...(product.colorNames?.length ? { color: product.colorNames.join(", ") } : {}),
     ...(product.materials ? { material: product.materials } : {}),
-    audience: { "@type": "PeopleAudience", suggestedGender: "female" },
+    ...(query.size ? { size: query.size } : {}),
+    audience: { "@type": "PeopleAudience", suggestedGender: "female", suggestedMinAge: 18 },
     offers: {
       "@type": "Offer",
       url: pageUrl,
       priceCurrency: "USD",
       price: product.price.toFixed(2),
-      availability: product.stock === 0 ? "https://schema.org/OutOfStock" : "https://schema.org/InStock",
+      availability: activeStock === 0 ? "https://schema.org/OutOfStock" : "https://schema.org/InStock",
       itemCondition: "https://schema.org/NewCondition",
       eligibleRegion: servedMarkets,
       seller: { "@id": `${siteUrl}/#store` },
+      shippingDetails: {
+        "@type": "OfferShippingDetails",
+        shippingDestination: { "@type": "DefinedRegion", addressCountry: "US" },
+        shippingRate: { "@type": "MonetaryAmount", value: usShipping.amountUsd.toFixed(2), currency: "USD" },
+        deliveryTime: {
+          "@type": "ShippingDeliveryTime",
+          handlingTime: { "@type": "QuantitativeValue", minValue: 1, maxValue: 3, unitCode: "DAY" },
+          transitTime: { "@type": "QuantitativeValue", minValue: usShipping.minBusinessDays, maxValue: usShipping.maxBusinessDays, unitCode: "DAY" },
+        },
+      },
     },
   };
 
@@ -88,7 +109,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}/>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}/>
-    <ProductDetail product={product} />
+    <ProductDetail product={product} initialSize={query.size} initialHeelHeightCm={initialHeelHeightCm} />
   </>;
 }
 
