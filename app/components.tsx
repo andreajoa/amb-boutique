@@ -50,7 +50,7 @@ export function ProductCard({ product, compact = false }: { product: Product; co
   const { formatMoney } = useStore();
   const productPhotoStyle = product.images?.[0] ? {
     backgroundImage: `url(${product.images[0]})`,
-    backgroundSize: product.gallerySprite ? "200% 200%" : "contain",
+    backgroundSize: product.gallerySprite ? "auto 200%" : "contain",
     backgroundPosition: product.gallerySprite ? "0% 0%" : "center",
     backgroundRepeat: "no-repeat",
     backgroundColor: "#f5f3ef",
