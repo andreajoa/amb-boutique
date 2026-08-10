@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Product } from "./data";
+import { getProductImageStyle } from "./components";
 import { createStyleLooks } from "./recommendations";
 import { useStore } from "./store-provider";
 
@@ -42,7 +43,7 @@ export function StyleMatches({ product, catalog }: { product: Product; catalog: 
       <div className="style-look-copy"><p>LOOK {active + 1} OF {looks.length}</p><h3>{look.title}</h3><span>{look.description}</span></div>
       <div className={`style-board items-${look.products.length}`}>
         {look.products.map((item, index) => <article className={`style-piece piece-${index}${item.slug === product.slug ? " anchor" : ""}`} key={`${active}-${item.slug}`}>
-          <Link href={`/products/${item.slug}`} className={`style-piece-image sheet-${item.sheet} q${item.quadrant}`} style={item.images?.[0] ? { backgroundImage: `url(${item.images[0]})`, backgroundSize: "cover", backgroundPosition: "center" } : undefined} aria-label={`View ${item.name}`}/>
+          <Link href={`/products/${item.slug}`} className={`style-piece-image sheet-${item.sheet} q${item.quadrant}`} style={getProductImageStyle(item, 0)} aria-label={`View ${item.name}`}/>
           <div><Link href={`/products/${item.slug}`}>{item.name}</Link><span>{formatMoney(item.price)}</span><label><span className="sr-only">Size for {item.name}</span><select value={selections[item.slug] || sizesFor(item)[0]} onChange={(event) => updateSize(item.slug, event.target.value)}>{sizesFor(item).map((size) => <option key={size}>{size}</option>)}</select></label></div>
         </article>)}
       </div>
