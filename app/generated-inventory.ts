@@ -111,5 +111,45 @@ export const generatedInventoryVariants: GeneratedInventoryVariant[] = [
     "stock": 588,
     "active": true,
     "unitCostUsd": 18.13
-  }
+  },
+  {
+    "productSlug": "alba-mini-backpack",
+    "productName": "Alba Mini Backpack",
+    "sku": "12000057681567473",
+    "color": "Apricot",
+    "size": "One Size",
+    "stock": 123,
+    "active": true,
+    "unitCostUsd": 10.78
+  },
+  {
+    "productSlug": "rosalie-mini-backpack",
+    "productName": "Rosalie Mini Backpack",
+    "sku": "12000057681567472",
+    "color": "Blush Pink",
+    "size": "One Size",
+    "stock": 145,
+    "active": true,
+    "unitCostUsd": 10.78
+  },
+  {
+    "productSlug": "marlow-mini-backpack",
+    "productName": "Marlow Mini Backpack",
+    "sku": "12000057681567470",
+    "color": "Dark Brown",
+    "size": "One Size",
+    "stock": 242,
+    "active": true,
+    "unitCostUsd": 9.11
+  },
+  {
+    "productSlug": "noa-mini-backpack",
+    "productName": "Noa Mini Backpack",
+    "sku": "12000057681567469",
+    "color": "Black",
+    "size": "One Size",
+    "stock": 113,
+    "active": true,
+    "unitCostUsd": 10.84
+  },
 ];
