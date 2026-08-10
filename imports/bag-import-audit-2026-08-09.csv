@@ -1,0 +1,9 @@
+package,status,reason,available_variants
+bag1,hold,Interior layout not supplied; publication would require an unverified image,7
+bag2,hold,Interior layout not supplied; publication would require an unverified image,1
+bag3,hold,Third-party branding is printed on the physical product,5
+bag4,approved,Unbranded product with verified interior reference,4
+bag5,hold,Third-party branding is printed on the physical product,7
+bag6,hold,Third-party branding is printed on the physical product,1
+bag7,hold,Third-party branding is printed on the physical product,5
+bag8,hold,Third-party branding is printed on the physical product,3
