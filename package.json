@@ -4,10 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/import-supplemental-products.mjs && node scripts/import-inventory.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "import:products": "node scripts/import-products.mjs && node scripts/import-inventory.mjs",
+    "import:products": "node scripts/import-supplemental-products.mjs && node scripts/import-inventory.mjs",
+    "import:base-products": "node scripts/import-products.mjs",
+    "import:supplemental-products": "node scripts/import-supplemental-products.mjs && node scripts/import-inventory.mjs",
     "import:inventory": "node scripts/import-inventory.mjs"
   },
   "dependencies": {
