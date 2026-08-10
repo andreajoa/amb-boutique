@@ -2,10 +2,10 @@ import { NextResponse } from "next/server";
 
 export const runtime = "nodejs";
 
-const ATLAS_WIDTH = 2400;
-const ATLAS_HEIGHT = 2000;
-const TILE = 400;
-const VIEW = 200;
+const ATLAS_WIDTH = 1800;
+const ATLAS_HEIGHT = 1500;
+const TILE = 300;
+const VIEW = 150;
 const COLS = 6;
 
 const productIndex: Record<string, number> = {"solene-woven-slingback":0,"valentina-crystal-sandal":1,"luna-crystal-sandal":2,"noir-crystal-sandal":3,"elodie-crystal-slingback":4,"monaco-buckle-slingback":5,"bianca-buckle-slingback":6,"celeste-buckle-slingback":7,"mosaic-buckle-pump":8,"sable-buckle-pump":9,"onyx-buckle-pump":10,"rouge-buckle-pump":11,"cognac-buckle-pump":12,"aurelia-patent-slingback":13,"rouge-patent-slingback":14,"onyx-patent-slingback":15,"lucia-gloss-slingback":16,"pearl-gloss-slingback":17,"noir-matte-slingback":18,"noir-gloss-slingback":19,"soleil-bow-pump":20,"pearl-bow-pump":21,"rouge-bow-pump":22,"blush-bow-pump":23,"mist-bow-pump":24,"sky-bow-pump":25,"noir-bow-pump":26};
