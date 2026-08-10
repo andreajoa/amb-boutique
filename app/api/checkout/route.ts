@@ -9,7 +9,7 @@ import { getStripe } from "../../stripe-server";
 
 export const runtime = "nodejs";
 
-type RequestedLine = { slug?: string; quantity?: number; size?: string; color?: string; offer?: "cart-bump" | "post-purchase" };
+type RequestedLine = { slug?: string; quantity?: number; size?: string; color?: string; heelHeightCm?: number; offer?: "cart-bump" | "post-purchase" };
 type CheckoutBody = { items?: RequestedLine[]; market?: unknown; promotionCode?: string; orderNote?: string; visitorId?: string; parentSessionId?: string };
 
 const stripeCountry = { US: "US", CA: "CA", UK: "GB", AU: "AU", NZ: "NZ" } as const;
@@ -29,7 +29,16 @@ export async function POST(request: NextRequest) {
       const quantity = Math.max(1, Math.min(10, Math.floor(Number(line.quantity) || 1)));
       if (!product) throw new Error("One of the selected products is no longer available.");
       if (product.stock === 0) throw new Error(`${product.name} is currently unavailable.`);
-      return { line, product, quantity };
+
+      const requestedHeel = line.heelHeightCm === undefined ? undefined : Number(line.heelHeightCm);
+      const shoeVariant = product.shoeVariants?.length
+        ? product.shoeVariants.find((variant) => variant.heelHeightCm === requestedHeel)
+        : undefined;
+      if (product.shoeVariants?.length && !shoeVariant) throw new Error(`Choose an available heel height for ${product.name}.`);
+      if (shoeVariant && line.size && !shoeVariant.sizes.includes(line.size)) throw new Error(`Size ${line.size} is not available with the selected heel height for ${product.name}.`);
+      if (!shoeVariant && product.sizes?.length && line.size && !product.sizes.includes(line.size)) throw new Error(`Size ${line.size} is not available for ${product.name}.`);
+      const selectedHeelHeightCm = shoeVariant?.heelHeightCm ?? product.heelHeightCm;
+      return { line, product, quantity, selectedHeelHeightCm };
     });
     const subtotalUsd = normalized.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
     const packedWeightOz = normalized.reduce((sum, item) => sum + (item.product.weightOz || 12) * item.quantity, 0);
@@ -76,6 +85,7 @@ export async function POST(request: NextRequest) {
       const requestedPercent = item.line.offer === "post-purchase" ? 15 : Math.max(globalOffer.percent, item.line.offer === "cart-bump" ? 10 : 0);
       const margin = protectMargin(item.product, requestedPercent, complimentaryShippingCostUsd / totalUnits);
       const discountedUnitUsd = item.product.price * (1 - margin.approvedPercent / 100);
+      const heelDescription = item.selectedHeelHeightCm ? `Heel ${item.selectedHeelHeightCm} cm` : "";
       return {
         quantity: item.quantity,
         price_data: {
@@ -86,9 +96,17 @@ export async function POST(request: NextRequest) {
             description: [
               `Size ${item.line.size || "Selected"}`,
               `Color ${item.line.color || "Selected"}`,
+              heelDescription,
               margin.approvedPercent ? `${margin.approvedPercent}% best eligible AMB offer` : "",
             ].filter(Boolean).join(" · "),
-            metadata: { slug: item.product.slug, size: item.line.size || "", color: item.line.color || "", offer: item.line.offer || "standard", margin_guard: margin.costKnown ? "verified" : "catalog-cost-pending" },
+            metadata: {
+              slug: item.product.slug,
+              size: item.line.size || "",
+              color: item.line.color || "",
+              heel_height_cm: item.selectedHeelHeightCm ? String(item.selectedHeelHeightCm) : "",
+              offer: item.line.offer || "standard",
+              margin_guard: margin.costKnown ? "verified" : "catalog-cost-pending",
+            },
           },
         },
       };
