@@ -48,9 +48,16 @@ export function Header() {
 
 export function ProductCard({ product, compact = false }: { product: Product; compact?: boolean }) {
   const { formatMoney } = useStore();
+  const productPhotoStyle = product.images?.[0] ? {
+    backgroundImage: `url(${product.images[0]})`,
+    backgroundSize: product.gallerySprite ? "200% 200%" : "contain",
+    backgroundPosition: product.gallerySprite ? "0% 0%" : "center",
+    backgroundRepeat: "no-repeat",
+    backgroundColor: "#f5f3ef",
+  } : undefined;
   return (
     <article className={`product-card${compact ? " compact" : ""}`}>
-      <Link href={`/products/${product.slug}`} className={`product-photo sheet-${product.sheet} q${product.quadrant}`} style={product.images?.[0] ? { backgroundImage: `url(${product.images[0]})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundColor: "#f5f3ef" } : undefined} aria-label={`View ${product.name}`}>
+      <Link href={`/products/${product.slug}`} className={`product-photo sheet-${product.sheet} q${product.quadrant}`} style={productPhotoStyle} aria-label={`View ${product.name}`}>
         {product.badge && <span className={`product-badge${product.badge === "New" || product.badge === "Just In" ? " dark" : ""}`}>{product.badge}</span>}
         <span className="quick-shop">Quick Shop</span>
       </Link>
