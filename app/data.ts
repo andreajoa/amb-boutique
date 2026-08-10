@@ -1,5 +1,6 @@
 import { generatedProducts } from "./generated-products";
 import { shoeProducts } from "./shoe-products";
+import { supplementalProducts } from "./generated-supplemental-products";
 
 export type ShoeVariant = {
   heelHeightCm: number;
@@ -63,7 +64,9 @@ const placeholderProducts: Product[] = [
   { slug: "sunset-sculpted-earrings", name: "Sunset Sculpted Earrings", category: "Accessories", price: 48, badge: "Just In", sheet: "two", quadrant: 1, colors: ["#c69b54"], styleEligible: false },
 ];
 
-export const products: Product[] = generatedProducts.length ? [...generatedProducts, ...shoeProducts] : [...placeholderProducts, ...shoeProducts];
+export const products: Product[] = generatedProducts.length
+  ? [...generatedProducts, ...shoeProducts, ...supplementalProducts]
+  : [...placeholderProducts, ...shoeProducts, ...supplementalProducts];
 
 type CategoryPage = {
   slug: string;
