@@ -42,6 +42,8 @@ export type Product = {
   shoeVariants?: ShoeVariant[];
   heelAtlasIndex?: number;
   gallerySprite?: { columns: number; rows: number; viewWidth: number; viewHeight: number };
+  galleryAtlasIndex?: number;
+  galleryAtlasCount?: number;
 };
 
 const placeholderProducts: Product[] = [
