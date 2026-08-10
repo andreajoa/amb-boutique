@@ -19,12 +19,13 @@ export type CartLine = {
   quantity: number;
   size: string;
   color: string;
+  heelHeightCm?: number;
   sheet: Product["sheet"];
   quadrant: Product["quadrant"];
   offer?: OfferType;
 };
 
-type AddOptions = { size: string; color: string; quantity: number; offer?: OfferType };
+type AddOptions = { size: string; color: string; quantity: number; heelHeightCm?: number; offer?: OfferType };
 type BehaviorEvent = "product_view" | "size_guide_open" | "add_to_cart" | "cart_open" | "style_look_add" | "checkout_start";
 
 type StoreContextValue = {
@@ -157,11 +158,12 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   };
 
   const addItem: StoreContextValue["addItem"] = (product, options) => {
-    const id = `${product.slug}:${options.size}:${options.color}:${options.offer || "standard"}`;
+    const heelKey = options.heelHeightCm ? `${options.heelHeightCm}cm` : "no-heel-variant";
+    const id = `${product.slug}:${options.size}:${options.color}:${heelKey}:${options.offer || "standard"}`;
     setCart((current) => {
       const existing = current.find((line) => line.id === id);
       if (existing) return current.map((line) => line.id === id ? { ...line, quantity: Math.min(10, line.quantity + options.quantity) } : line);
-      return [...current, { id, slug: product.slug, name: product.name, price: product.price, quantity: options.quantity, size: options.size, color: options.color, sheet: product.sheet, quadrant: product.quadrant, offer: options.offer }];
+      return [...current, { id, slug: product.slug, name: product.name, price: product.price, quantity: options.quantity, size: options.size, color: options.color, heelHeightCm: options.heelHeightCm, sheet: product.sheet, quadrant: product.quadrant, offer: options.offer }];
     });
     setCheckoutError("");
     setCartOpen(true);
@@ -183,7 +185,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     trackEvent("product_view", { slug: product.slug, category: product.category, valueUsd: product.price });
   }, [trackEvent, visitorId]);
 
-  const startCheckout = async (lines: Array<Pick<CartLine, "slug" | "quantity" | "size" | "color" | "offer">>, parentSessionId?: string) => {
+  const startCheckout = async (lines: Array<Pick<CartLine, "slug" | "quantity" | "size" | "color" | "heelHeightCm" | "offer">>, parentSessionId?: string) => {
     setCheckoutError("");
     trackEvent("checkout_start", { source: "shopping-bag", valueUsd: estimatedTotal });
     try {
@@ -202,10 +204,10 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     }
   };
 
-  const checkout = () => startCheckout(cart.map(({ slug, quantity, size, color, offer }) => ({ slug, quantity, size, color, offer })));
+  const checkout = () => startCheckout(cart.map(({ slug, quantity, size, color, heelHeightCm, offer }) => ({ slug, quantity, size, color, heelHeightCm, offer })));
   const buyNow: StoreContextValue["buyNow"] = async (product, options, context) => {
     if (!context?.parentSessionId) addItem(product, options);
-    await startCheckout([{ slug: product.slug, quantity: options.quantity, size: options.size, color: options.color, offer: options.offer }], context?.parentSessionId);
+    await startCheckout([{ slug: product.slug, quantity: options.quantity, size: options.size, color: options.color, heelHeightCm: options.heelHeightCm, offer: options.offer }], context?.parentSessionId);
   };
 
   const clearCart = useCallback(() => {
@@ -235,11 +237,11 @@ function CartDrawer() {
       {cart.length ? <>
         <div className="cart-lines">{cart.map((line) => <div className="cart-item" key={line.id}>
           <div className={`cart-thumb sheet-${line.sheet} q${line.quadrant}`}/>
-          <div><Link href={`/products/${line.slug}`} onClick={closeCart}><strong>{line.name}</strong></Link><span>Size: {line.size}</span><span>Color: {line.color}</span>{line.offer && <span className="offer-label">Private cart offer</span>}<div className="mini-quantity"><button onClick={() => updateQuantity(line.id, line.quantity - 1)} aria-label="Decrease">−</button><span>{line.quantity}</span><button onClick={() => updateQuantity(line.id, line.quantity + 1)} aria-label="Increase">+</button></div><button onClick={() => removeItem(line.id)}>Remove</button></div>
+          <div><Link href={`/products/${line.slug}`} onClick={closeCart}><strong>{line.name}</strong></Link><span>Size: {line.size}</span><span>Color: {line.color}</span>{line.heelHeightCm ? <span>Heel: {line.heelHeightCm} cm</span> : null}{line.offer && <span className="offer-label">Private cart offer</span>}<div className="mini-quantity"><button onClick={() => updateQuantity(line.id, line.quantity - 1)} aria-label="Decrease">−</button><span>{line.quantity}</span><button onClick={() => updateQuantity(line.id, line.quantity + 1)} aria-label="Increase">+</button></div><button onClick={() => removeItem(line.id)}>Remove</button></div>
           <b>{formatMoney(line.price * line.quantity)}</b>
         </div>)}</div>
         <CartRewards subtotalUsd={cartTotal} market={market} />
-        {upsell && upsellMargin && <div className="cart-upsell"><p>ONE-TIME CART OFFER</p><strong>Complete the look and save {upsellMargin.approvedPercent.toFixed(upsellMargin.approvedPercent % 1 ? 1 : 0)}%</strong><div><div className={`upsell-thumb sheet-${upsell.sheet} q${upsell.quadrant}`} style={upsell.images?.[0] ? { backgroundImage: `url(${upsell.images[0]})`, backgroundSize: "cover", backgroundPosition: "center" } : undefined}/><span><strong>{upsell.name}</strong><small><del>{formatMoney(upsell.price)}</del> {formatMoney(upsell.price * (1 - upsellMargin.approvedPercent / 100))}</small></span><button type="button" onClick={() => addItem(upsell, { size: upsell.sizes?.[0] || "One Size", color: upsell.colorNames?.[0] || "Selected", quantity: 1, offer: "cart-bump" })}>Add offer</button></div><small>Margin verified. Discounts never stack; the best eligible offer wins.</small></div>}
+        {upsell && upsellMargin && <div className="cart-upsell"><p>ONE-TIME CART OFFER</p><strong>Complete the look and save {upsellMargin.approvedPercent.toFixed(upsellMargin.approvedPercent % 1 ? 1 : 0)}%</strong><div><div className={`upsell-thumb sheet-${upsell.sheet} q${upsell.quadrant}`} style={upsell.images?.[0] ? { backgroundImage: `url(${upsell.images[0]})`, backgroundSize: "cover", backgroundPosition: "center" } : undefined}/><span><strong>{upsell.name}</strong><small><del>{formatMoney(upsell.price)}</del> {formatMoney(upsell.price * (1 - upsellMargin.approvedPercent / 100))}</small></span><button type="button" onClick={() => addItem(upsell, { size: upsell.shoeVariants?.[0]?.sizes?.[0] || upsell.sizes?.[0] || "One Size", color: upsell.colorNames?.[0] || "Selected", heelHeightCm: upsell.shoeVariants?.[0]?.heelHeightCm || upsell.heelHeightCm, quantity: 1, offer: "cart-bump" })}>Add offer</button></div><small>Margin verified. Discounts never stack; the best eligible offer wins.</small></div>}
         <div className="shipping-progress"><span>{market === "US" ? (shippingGap ? `You’re ${formatMoney(shippingGap)} away from complimentary U.S. shipping.` : "You’ve unlocked complimentary U.S. shipping.") : `Tracked delivery to ${markets[market].country} is calculated at checkout.`}</span>{market === "US" && <i><b style={{ width: `${Math.min(100, (cartTotal / US_FREE_SHIPPING_THRESHOLD_USD) * 100)}%` }}/></i>}</div>
         <div className="promo-entry"><label htmlFor="cart-code">Offer code</label><div><input id="cart-code" value={promoCode} onChange={(event) => setPromoCode(event.target.value)} placeholder="Enter code"/><button type="button">{promoCode ? "Applied" : "Apply"}</button></div>{promoCode && <small>{promoCode} is ready. The single best eligible discount will be used.</small>}</div>
         <label className="order-note">Add a note to your order<textarea rows={2} onChange={(event) => setOrderNote(event.target.value)}/></label>
