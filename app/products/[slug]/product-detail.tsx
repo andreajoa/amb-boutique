@@ -34,9 +34,12 @@ export default function ProductDetail({ product }: { product: Product }) {
   const { addItem, buyNow, formatMoney, preferredCategories, recordProductView } = useStore();
   const completeLook = useMemo(() => createCompleteLook(product, products, preferredCategories), [product, preferredCategories]);
 
-  const gallery = product.gallerySprite && product.images?.[1]
-    ? Array.from({ length: 1 + product.gallerySprite.columns * product.gallerySprite.rows }, (_, index) => index === 0 ? product.images![0] : product.images![1])
-    : product.images?.length ? product.images : [undefined, undefined, undefined, undefined];
+  const spriteCount = product.gallerySprite ? product.gallerySprite.columns * product.gallerySprite.rows : 0;
+  const gallery = product.gallerySprite && product.images?.length === 1
+    ? Array.from({ length: spriteCount }, () => product.images![0])
+    : product.gallerySprite && product.images?.[1]
+      ? Array.from({ length: 1 + spriteCount }, (_, index) => index === 0 ? product.images![0] : product.images![1])
+      : product.images?.length ? product.images : [undefined, undefined, undefined, undefined];
 
   useEffect(() => { recordProductView(product); }, [product, recordProductView]);
   useEffect(() => {
