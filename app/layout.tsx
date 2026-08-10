@@ -8,17 +8,69 @@ import { ScrollReveal } from "./scroll-reveal";
 import { MarketingPopup } from "./marketing-popup";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ambboutique.online";
+const defaultTitle = "AMB BOUTIQUE | Women’s Dresses, Rompers & Fashion";
+const defaultDescription = "Shop women’s dresses, rompers, skirts, tops, knitwear, bags and heels curated in San Diego. Delivery to the US, Canada, UK, Australia & New Zealand.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: { default: "AMB BOUTIQUE | Women’s Fashion from San Diego", template: "%s | AMB BOUTIQUE" },
-  description: "Contemporary women’s clothing, dresses, tops, bags and shoes curated in San Diego, California by AMB BOUTIQUE.",
-  keywords: ["women's clothing", "women's boutique", "dresses", "tops and blouses", "handbags", "women's shoes", "women's heels", "San Diego fashion", "AMB Boutique"],
+  applicationName: "AMB BOUTIQUE",
+  title: { default: defaultTitle, template: "%s | AMB BOUTIQUE" },
+  description: defaultDescription,
+  keywords: [
+    "women's clothing",
+    "women's online boutique",
+    "women's dresses",
+    "rompers for women",
+    "women's playsuits",
+    "women's skirts",
+    "women's tops",
+    "women's knitwear",
+    "women's bags",
+    "women's heels",
+    "San Diego fashion boutique",
+    "AMB Boutique",
+  ],
+  authors: [{ name: "AMB BOUTIQUE", url: siteUrl }],
+  creator: "AMB BOUTIQUE",
+  publisher: "AMB BOUTIQUE",
+  category: "Women’s fashion",
   alternates: { canonical: "/" },
-  openGraph: { type: "website", siteName: "AMB BOUTIQUE", title: "AMB BOUTIQUE | Women’s Fashion from San Diego", description: "Contemporary women’s fashion curated in San Diego.", url: siteUrl, images: [{ url: "/images/hero-01.webp", width: 1774, height: 887, alt: "AMB BOUTIQUE women’s fashion edit in San Diego" }] },
-  twitter: { card: "summary_large_image", title: "AMB BOUTIQUE", description: "Contemporary women’s fashion curated in San Diego.", images: ["/images/hero-01.webp"] },
-  other: {
-    "codex-preview": "development",
+  verification: {
+    google: "nHRFB2Xi3i90p-W22D8HHVorNaelyu2-uavpm5INxpY",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    siteName: "AMB BOUTIQUE",
+    title: defaultTitle,
+    description: defaultDescription,
+    url: siteUrl,
+    locale: "en_US",
+    alternateLocale: ["en_CA", "en_GB", "en_AU", "en_NZ"],
+    images: [
+      {
+        url: "/images/hero-01.webp",
+        width: 1774,
+        height: 887,
+        alt: "AMB BOUTIQUE women’s fashion edit curated in San Diego",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: defaultTitle,
+    description: defaultDescription,
+    images: ["/images/hero-01.webp"],
   },
 };
 
