@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { FIRST_ORDER_CODE, isMarketCode } from "../../commerce";
 import { getAnalyticsSql, jsonForDatabase } from "../../analytics/db";
 import { sendAmbEmail } from "../../email/send";
+import { subscribeResendContact } from "../../email/resend-contacts";
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const phonePattern = /^\+?[0-9()\- .]{7,22}$/;
@@ -72,15 +73,14 @@ export async function POST(request: Request) {
     }
   }
 
-  let audienceConnected = false;
-  if (process.env.RESEND_API_KEY && process.env.RESEND_AUDIENCE_ID && emailConsent) {
-    const response = await fetch(`https://api.resend.com/audiences/${process.env.RESEND_AUDIENCE_ID}/contacts`, {
-      method: "POST",
-      headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ email, unsubscribed: false }),
-    });
-    if (!response.ok) return NextResponse.json({ error: "We could not add that email. Please try again." }, { status: 502 });
-    audienceConnected = true;
+  let resendContactConnected = false;
+  if (emailConsent) {
+    try {
+      resendContactConnected = await subscribeResendContact(email);
+    } catch (error) {
+      console.error("AMB Resend contact sync failed", { error: error instanceof Error ? error.message : "unknown" });
+      return NextResponse.json({ error: "We could not add that email. Please try again." }, { status: 502 });
+    }
   }
 
   if (process.env.MARKETING_CAPTURE_WEBHOOK_URL) {
@@ -108,7 +108,6 @@ export async function POST(request: Request) {
   return NextResponse.json({
     ok: true,
     code: FIRST_ORDER_CODE,
-    preview: !audienceConnected || !emailResult.sent,
+    preview: !resendContactConnected || !emailResult.sent,
   });
 }
-

@@ -161,7 +161,38 @@ export async function cancelJourneyEmails(journeyId?: number | string | null) {
     WHERE journey_id = ${journeyId} AND status = 'scheduled' AND provider_id IS NOT NULL
   ` as Array<{ id: number; provider_id: string }>;
   for (const row of rows) {
-    await resend.emails.cancel(row.provider_id).catch(() => undefined);
-    await sql`UPDATE amb_email_messages SET status = 'cancelled' WHERE id = ${row.id}`;
+    try {
+      const result = await resend.emails.cancel(row.provider_id);
+      if (result.error) {
+        console.error("AMB scheduled email cancellation failed", { providerId: row.provider_id, error: result.error.message });
+        continue;
+      }
+      await sql`UPDATE amb_email_messages SET status = 'cancelled' WHERE id = ${row.id}`;
+    } catch (error) {
+      console.error("AMB scheduled email cancellation failed", { providerId: row.provider_id, error: error instanceof Error ? error.message : "unknown" });
+    }
+  }
+}
+
+export async function cancelContactEmails(email: string) {
+  const sql = getAnalyticsSql();
+  const resend = getResend();
+  if (!sql || !resend) return;
+  const recipientHash = createHash("sha256").update(email.trim().toLowerCase()).digest("hex");
+  const rows = await sql`
+    SELECT id, provider_id FROM amb_email_messages
+    WHERE recipient_hash = ${recipientHash} AND status = 'scheduled' AND provider_id IS NOT NULL
+  ` as Array<{ id: number; provider_id: string }>;
+  for (const row of rows) {
+    try {
+      const result = await resend.emails.cancel(row.provider_id);
+      if (result.error) {
+        console.error("AMB scheduled email cancellation failed", { providerId: row.provider_id, error: result.error.message });
+        continue;
+      }
+      await sql`UPDATE amb_email_messages SET status = 'cancelled' WHERE id = ${row.id}`;
+    } catch (error) {
+      console.error("AMB scheduled email cancellation failed", { providerId: row.provider_id, error: error instanceof Error ? error.message : "unknown" });
+    }
   }
 }

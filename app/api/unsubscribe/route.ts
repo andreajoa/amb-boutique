@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
-import { verifyUnsubscribeToken } from "../../email/send";
+import { cancelContactEmails, verifyUnsubscribeToken } from "../../email/send";
+import { unsubscribeResendContact } from "../../email/resend-contacts";
 import { getAnalyticsSql } from "../../analytics/db";
 
 export async function POST(request: Request) {
@@ -15,13 +16,11 @@ export async function POST(request: Request) {
       WHERE email = ${email}
     `;
   }
-  if (process.env.RESEND_API_KEY && process.env.RESEND_AUDIENCE_ID) {
-    await fetch(`https://api.resend.com/audiences/${process.env.RESEND_AUDIENCE_ID}/contacts/${encodeURIComponent(email)}`, {
-      method: "PATCH",
-      headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ unsubscribed: true }),
-    }).catch(() => undefined);
-  }
+  await cancelContactEmails(email).catch((error) => {
+    console.error("AMB scheduled email cancellation failed", { error: error instanceof Error ? error.message : "unknown" });
+  });
+  await unsubscribeResendContact(email).catch((error) => {
+    console.error("AMB Resend unsubscribe sync failed", { error: error instanceof Error ? error.message : "unknown" });
+  });
   return NextResponse.json({ ok: true });
 }
-
