@@ -5,6 +5,7 @@ const BAG_MATERIALS = "Soft synthetic leather or textile upper with synthetic li
 const BAG_DESCRIPTION = "An AMB BOUTIQUE bag selected for practical everyday capacity, polished proportions and easy day-to-evening styling.";
 const USER_EDITORIAL_ATLAS = "/editorial/user-replacements-atlas.webp?v=20260810-1823";
 const USER_EDITORIAL_GALLERY = { columns: 2, rows: 3, viewWidth: 627, viewHeight: 418 };
+const BAG_VERIFIED_GALLERY = { columns: 2, rows: 2, viewWidth: 512, viewHeight: 512 };
 
 function bag(slug: string, name: string, price: number, color: string, colorName: string, stock: number, weightOz: number, unitCostUsd: number, image: string, gallerySprite?: Product["gallerySprite"], galleryAtlasIndex?: number): Product {
   return {
@@ -33,7 +34,7 @@ function bag(slug: string, name: string, price: number, color: string, colorName
   };
 }
 
-export const supplementalProducts: Product[] = [
+const bagCatalog: Product[] = [
   bag("portofino-carryall-black", "Portofino Carryall — Black", 79, "#171717", "Black", 2, 25.29, 25.67, "https://ae01.alicdn.com/kf/S8ec74f31a46a41bc98025bd7c975313er.jpg"),
   bag("portofino-carryall-coffee", "Portofino Carryall — Coffee", 79, "#7a543b", "Coffee", 9, 25.29, 24.22, "https://ae01.alicdn.com/kf/Sd3363d72301a4c0a9e8d9d19157cd09az.jpg"),
   bag("portofino-carryall-burgundy", "Portofino Carryall — Burgundy", 79, "#742c3d", "Burgundy", 3, 25.29, 24.07, "https://ae01.alicdn.com/kf/Se785aca08bd64901a83491381086b992a.jpg"),
@@ -47,10 +48,10 @@ export const supplementalProducts: Product[] = [
   bag("camille-multi-pocket-crossbody-red", "Camille Multi-Pocket Crossbody — Red", 59, "#a9323a", "Red", 1, 9.88, 9.49, "https://ae01.alicdn.com/kf/Sd0ec1b40fb5649b29a8d319af6f523c4D.jpg"),
   bag("camille-multi-pocket-crossbody-purple", "Camille Multi-Pocket Crossbody — Purple", 59, "#7a5a83", "Purple", 1, 9.88, 11.46, "https://ae01.alicdn.com/kf/S665c65b1e4dc49459920718c9d8a75fbq.jpg"),
   bag("camille-multi-pocket-crossbody-signature-print", "Camille Multi-Pocket Crossbody — Signature Print", 59, "#9b7d5c", "Signature Print", 955, 9.88, 5.20, "https://ae01.alicdn.com/kf/S7524475eaa0b43c3b3e38aff2e215241b.jpg"),
-  bag("florence-mini-backpack-apricot", "Florence Mini Backpack — Apricot", 59, "#d7b58d", "Apricot", 123, 3.49, 10.78, "https://ae01.alicdn.com/kf/Sdbed3c172ff14b0bb64c64b6597414a73.jpg"),
-  bag("florence-mini-backpack-pink", "Florence Mini Backpack — Pink", 59, "#d9a0ab", "Pink", 145, 3.49, 10.78, "https://ae01.alicdn.com/kf/Sb725f61778854f55bc06be3cb17d51ba9.jpg"),
-  bag("florence-mini-backpack-dark-brown", "Florence Mini Backpack — Dark Brown", 59, "#4b3328", "Dark Brown", 242, 3.49, 9.11, "https://ae01.alicdn.com/kf/S818df8e57f1749ec87928f3f857843704.jpg"),
-  bag("florence-mini-backpack-black", "Florence Mini Backpack — Black", 59, "#171717", "Black", 113, 3.49, 10.84, "https://ae01.alicdn.com/kf/S9724298cc0bb4512990cd5aef3b1c232w.jpg"),
+  bag("florence-mini-backpack-apricot", "Florence Mini Backpack — Apricot", 59, "#d7b58d", "Apricot", 123, 3.49, 10.78, "/editorial/bags/florence-mini-backpack-apricot.svg?v=20260810-verified", BAG_VERIFIED_GALLERY),
+  bag("florence-mini-backpack-pink", "Florence Mini Backpack — Pink", 59, "#d9a0ab", "Pink", 145, 3.49, 10.78, "/editorial/bags/florence-mini-backpack-pink.svg?v=20260810-verified", BAG_VERIFIED_GALLERY),
+  bag("florence-mini-backpack-dark-brown", "Florence Mini Backpack — Dark Brown", 59, "#4b3328", "Dark Brown", 242, 3.49, 9.11, "/editorial/bags/florence-mini-backpack-dark-brown.svg?v=20260810-verified", BAG_VERIFIED_GALLERY),
+  bag("florence-mini-backpack-black", "Florence Mini Backpack — Black", 59, "#171717", "Black", 113, 3.49, 10.84, "/editorial/bags/florence-mini-backpack-black.svg?v=20260810-verified", BAG_VERIFIED_GALLERY),
   bag("avery-bow-satchel-black", "Avery Bow Satchel — Black", 69, "#171717", "Black", 6, 13.62, 11.58, "https://ae01.alicdn.com/kf/S025a3141f7274ac29abf4b7b864bb2de2.jpg"),
   bag("avery-bow-satchel-pink", "Avery Bow Satchel — Pink", 69, "#d9a0ab", "Pink", 16, 13.62, 11.98, "https://ae01.alicdn.com/kf/Sdfec2d3b43b4461389dda7c00ca55295U.jpg"),
   bag("avery-bow-satchel-green", "Avery Bow Satchel — Green", 69, "#4d6b5b", "Green", 1, 13.62, 12.25, "https://ae01.alicdn.com/kf/Sc5401f5a0fb24854ad87d6be3f01963bH.jpg"),
@@ -68,3 +69,9 @@ export const supplementalProducts: Product[] = [
   bag("marina-structured-tote-brown", "Marina Structured Tote — Brown", 108, "#774936", "Brown", 4, 17.88, 32.64, "https://ae01.alicdn.com/kf/S151d87e3487645c7973f791c2ae98afdJ.jpg"),
   bag("marina-structured-tote-black", "Marina Structured Tote — Black", 108, "#171717", "Black", 4, 17.88, 31.29, USER_EDITORIAL_ATLAS, USER_EDITORIAL_GALLERY, 4),
 ];
+
+// Only AMB-hosted, owner-approved galleries are customer-facing. Products whose
+// archives do not verify the interior remain held until compliant imagery exists.
+export const supplementalProducts: Product[] = bagCatalog.filter((product) =>
+  product.images?.every((image) => image.startsWith("/")),
+);
