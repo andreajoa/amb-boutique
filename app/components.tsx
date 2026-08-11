@@ -93,12 +93,20 @@ function Icon({ name }: { name: "search" | "user" | "bag" }) {
   return <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>;
 }
 
+function SocialIcon({ name }: { name: "instagram" | "tiktok" }) {
+  if (name === "instagram") return <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.25"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></svg>;
+  return <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M15.5 3c.4 2.5 1.8 4 4.5 4.2v3.1c-1.7 0-3.2-.5-4.5-1.4v6.2a6.1 6.1 0 1 1-5.3-6v3.2a3 3 0 1 0 2.1 2.8V3h3.2Z" fill="currentColor" stroke="none"/></svg>;
+}
+
 export function Header() {
   const { openCart, cartCount, market, setMarket, formatMoney } = useStore();
   return (
     <>
       <div className="announcement">
-        <div className="social-mini" aria-label="Social media"><span>f</span><span>◎</span><span>p</span><span>𝕏</span></div>
+        <div className="social-mini" aria-label="Social media">
+          <a href="https://www.instagram.com/ambb.outique/" target="_blank" rel="noopener noreferrer" aria-label="AMB Boutique on Instagram"><SocialIcon name="instagram" /></a>
+          <a href="https://www.tiktok.com/@ambb.outique" target="_blank" rel="noopener noreferrer" aria-label="AMB Boutique on TikTok"><SocialIcon name="tiktok" /></a>
+        </div>
         <p>{market === "US" ? `COMPLIMENTARY U.S. SHIPPING ON ORDERS ${formatMoney(US_FREE_SHIPPING_THRESHOLD_USD)}+` : `NOW SHOPPING FOR ${markets[market].country.toUpperCase()}`}</p>
         <label className="market"><span aria-hidden="true">{markets[market].flag}</span><select aria-label="Market and currency" value={market} onChange={(event) => setMarket(event.target.value as MarketCode)}>{marketCodes.map((code) => <option value={code} key={code}>{markets[code].currency} {code === "UK" ? "£" : "$"}</option>)}</select></label>
       </div>
