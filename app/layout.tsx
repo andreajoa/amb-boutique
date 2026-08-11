@@ -6,6 +6,7 @@ import { CookieConsent } from "./cookie-consent";
 import { StructuredData } from "./structured-data";
 import { ScrollReveal } from "./scroll-reveal";
 import { MarketingPopup } from "./marketing-popup";
+import { AnalyticsTracker } from "./analytics-tracker";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ambboutique.online";
 const defaultTitle = "AMB BOUTIQUE | Women’s Dresses, Rompers & Fashion";
@@ -81,7 +82,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body><StructuredData/><StoreProvider>{children}<ScrollReveal/><CookieConsent/><MarketingPopup/></StoreProvider></body>
+      <body><StructuredData/><StoreProvider>{children}<AnalyticsTracker/><ScrollReveal/><CookieConsent/><MarketingPopup/></StoreProvider></body>
     </html>
   );
 }

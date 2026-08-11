@@ -6,6 +6,7 @@ import { convertFromUsd, FIRST_ORDER_CODE, getDiscountState, getShippingQuotes, 
 import { bestNonStackingDiscount, protectMargin } from "../../profitability";
 import { rankRecommendations } from "../../recommendations";
 import { getStripe } from "../../stripe-server";
+import { recordCheckoutJourney } from "../../email/commerce-lifecycle";
 
 export const runtime = "nodejs";
 
@@ -158,6 +159,27 @@ export async function POST(request: NextRequest) {
     };
     const session = await stripe.checkout.sessions.create(sessionParams);
     if (!session.client_secret) throw new Error("Secure checkout could not be initialized.");
+    await recordCheckoutJourney({
+      sessionId: session.id,
+      visitorId: body.visitorId,
+      market,
+      currency: markets[market].currency,
+      amountTotal: convertFromUsd(subtotalUsd, market),
+      cart: normalized.map((item) => ({
+        slug: item.product.slug,
+        name: item.product.name,
+        quantity: item.quantity,
+        size: item.line.size || "Selected",
+        color: item.line.color || "Selected",
+        heelHeightCm: item.selectedHeelHeightCm,
+        offer: item.line.offer || "standard",
+        priceUsd: item.product.price,
+      })),
+      metadata: { orderType, requestedDiscountPercent: globalOffer.percent },
+    }).catch((error) => console.error("AMB checkout journey persistence failed", {
+      sessionId: session.id,
+      error: error instanceof Error ? error.message : "unknown",
+    }));
     return NextResponse.json({ clientSecret: session.client_secret, sessionId: session.id });
   } catch (error) {
     return NextResponse.json({ error: error instanceof Error ? error.message : "Checkout could not be started." }, { status: 400 });

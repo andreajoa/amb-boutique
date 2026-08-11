@@ -32,7 +32,7 @@ export type CartLine = {
 
 type AddOptions = { size: string; color: string; quantity: number; heelHeightCm?: number; offer?: OfferType };
 type AddEntry = { product: Product; options: AddOptions };
-type BehaviorEvent = "product_view" | "size_guide_open" | "add_to_cart" | "cart_open" | "style_look_add" | "checkout_start";
+type BehaviorEvent = "product_view" | "size_guide_open" | "add_to_cart" | "cart_open" | "style_look_add" | "checkout_start" | "checkout_error";
 
 type StoreContextValue = {
   cart: CartLine[];
@@ -138,6 +138,26 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => { if (hydrated) window.localStorage.setItem(storageKey, JSON.stringify(cart)); }, [cart, hydrated]);
   useEffect(() => { if (hydrated) window.localStorage.setItem(marketStorageKey, market); }, [market, hydrated]);
+  useEffect(() => {
+    if (!hydrated || !cart.length) return;
+    if (new URLSearchParams(window.location.search).get("open_cart") === "1") queueMicrotask(() => setCartOpen(true));
+  }, [cart.length, hydrated]);
+  useEffect(() => {
+    if (!hydrated || !visitorId) return;
+    const timer = window.setTimeout(() => {
+      void fetch("/api/cart", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        keepalive: true,
+        body: JSON.stringify({
+          visitorId,
+          market,
+          items: cart.map(({ slug, quantity, size, color, heelHeightCm, offer }) => ({ slug, quantity, size, color, heelHeightCm, offer })),
+        }),
+      }).catch(() => undefined);
+    }, 1200);
+    return () => window.clearTimeout(timer);
+  }, [cart, hydrated, market, visitorId]);
   useEffect(() => { document.body.style.overflow = cartOpen ? "hidden" : ""; return () => { document.body.style.overflow = ""; }; }, [cartOpen]);
 
   const cartCount = cart.reduce((sum, line) => sum + line.quantity, 0);
@@ -155,7 +175,19 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
 
   const trackEvent: StoreContextValue["trackEvent"] = useCallback((event, details = {}) => {
     if (!consentAllowsPersonalization() || !visitorId) return;
-    void fetch("/api/events", { method: "POST", headers: { "Content-Type": "application/json" }, keepalive: true, body: JSON.stringify({ event, visitorId, market, ...details }) }).catch(() => undefined);
+    void fetch("/api/events", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      keepalive: true,
+      body: JSON.stringify({
+        event,
+        visitorId,
+        sessionId: window.sessionStorage.getItem("amb-analytics-session-v1") || undefined,
+        path: window.location.pathname,
+        market,
+        ...details,
+      }),
+    }).catch(() => undefined);
   }, [market, visitorId]);
 
   const setPromoCode = (code: string) => {
@@ -237,6 +269,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
       router.push("/checkout");
     } catch (error) {
       setCheckoutError(error instanceof Error ? error.message : "Checkout is not available yet.");
+      trackEvent("checkout_error", { source: "shopping-bag", valueUsd: estimatedTotal });
     }
   };
 

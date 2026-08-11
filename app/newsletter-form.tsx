@@ -1,8 +1,10 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { useStore } from "./store-provider";
 
 export function NewsletterForm({ compact = false }: { compact?: boolean }) {
+  const { market, visitorId } = useStore();
   const [message, setMessage] = useState("");
   const [pending, setPending] = useState(false);
 
@@ -13,7 +15,11 @@ export function NewsletterForm({ compact = false }: { compact?: boolean }) {
     setPending(true);
     setMessage("");
     try {
-      const response = await fetch("/api/newsletter", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email }) });
+      const response = await fetch("/api/newsletter", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, market, visitorId, emailConsent: true, source: compact ? "footer-newsletter" : "newsletter-form" }),
+      });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error);
       form.reset();

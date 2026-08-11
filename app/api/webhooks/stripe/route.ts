@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { getStripe } from "../../../stripe-server";
+import { abandonCheckout, completeJourney, failJourney } from "../../../email/commerce-lifecycle";
 
 export const runtime = "nodejs";
 
@@ -30,13 +31,23 @@ export async function POST(request: NextRequest) {
   try {
     const event = stripe.webhooks.constructEvent(await request.text(), signature, webhookSecret);
     if (event.type === "checkout.session.completed" && event.data.object.payment_status === "paid") {
-      await forwardForFulfillment(event.data.object, event.type);
+      await Promise.all([
+        forwardForFulfillment(event.data.object, event.type),
+        completeJourney(event.data.object),
+      ]);
     }
     if (event.type === "checkout.session.async_payment_succeeded") {
-      await forwardForFulfillment(event.data.object, event.type);
+      await Promise.all([
+        forwardForFulfillment(event.data.object, event.type),
+        completeJourney(event.data.object),
+      ]);
     }
     if (event.type === "checkout.session.async_payment_failed") {
       console.warn("AMB asynchronous payment failed", { sessionId: event.data.object.id });
+      await failJourney(event.data.object);
+    }
+    if (event.type === "checkout.session.expired") {
+      await abandonCheckout(event.data.object);
     }
     return NextResponse.json({ received: true });
   } catch (error) {
