@@ -34,19 +34,19 @@ function shell(product: Omit<Product, "vendor" | "category" | "subcategory" | "s
   };
 }
 
-function fixed(slug: string, name: string, price: number, color: string, colorName: string, sizes: string[], stock: number, weightOz: number, unitCostUsd: number, description: string, materials: string, hero: string, _family: number, heelHeightCm?: number): Product {
+function fixed(slug: string, name: string, price: number, color: string, colorName: string, sizes: string[], stock: number, weightOz: number, unitCostUsd: number, description: string, materials: string, _hero: string, _family: number, heelHeightCm?: number): Product {
   const replacementIndex = replacementGalleryIndex[slug];
   const hasReplacement = typeof replacementIndex === "number";
   return shell({
     slug, name, price, badge: placement < 5 ? "Just In" : "New", colors: [color], colorNames: [colorName], sizes, stock, weightOz, unitCostUsd,
     minimumMarginPercent: 40, description, materials, heelHeightCm,
-    images: hasReplacement ? [USER_EDITORIAL_ATLAS] : [hero, SHOE_ATLAS],
+    images: hasReplacement ? [USER_EDITORIAL_ATLAS] : [SHOE_ATLAS],
     gallerySprite: hasReplacement ? userGallery : shoeGallery,
     ...(hasReplacement ? { galleryAtlasIndex: replacementIndex, galleryAtlasCount: 10 } : {}),
   });
 }
 
-function variable(slug: string, name: string, price: number, color: string, colorName: string, variants: ShoeVariant[], weightOz: number, unitCostUsd: number, description: string, hero: string, _family: number): Product {
+function variable(slug: string, name: string, price: number, color: string, colorName: string, variants: ShoeVariant[], weightOz: number, unitCostUsd: number, description: string, _hero: string, _family: number): Product {
   const sizes = Array.from(new Set(variants.flatMap((variant) => variant.sizes))).sort((a, b) => Number(a) - Number(b));
   const replacementIndex = replacementGalleryIndex[slug];
   const hasReplacement = typeof replacementIndex === "number";
@@ -54,7 +54,7 @@ function variable(slug: string, name: string, price: number, color: string, colo
     slug, name, price, badge: "New", colors: [color], colorNames: [colorName], sizes,
     stock: variants.reduce((sum, variant) => sum + variant.stock, 0), weightOz, unitCostUsd, minimumMarginPercent: 40,
     description, materials: SYNTHETIC, shoeVariants: variants,
-    images: hasReplacement ? [USER_EDITORIAL_ATLAS] : [hero, SHOE_ATLAS],
+    images: hasReplacement ? [USER_EDITORIAL_ATLAS] : [SHOE_ATLAS],
     gallerySprite: hasReplacement ? userGallery : shoeGallery,
     ...(hasReplacement ? { galleryAtlasIndex: replacementIndex, galleryAtlasCount: 10 } : {}),
   });
