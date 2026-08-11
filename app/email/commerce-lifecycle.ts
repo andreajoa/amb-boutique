@@ -167,7 +167,7 @@ export async function abandonCheckout(session: Stripe.Checkout.Session) {
   ` as Array<{ id: number | string }>;
   const journeyId = journeys[0]?.id;
   const token = journeyId ? createJourneyToken(journeyId) : "";
-  if (email && journeyId && token && !contact?.unsubscribed_at) {
+  if (email && journeyId && token && contact?.email_consent && !contact.unsubscribed_at) {
     await scheduleRecoverySequence({
       campaigns: checkoutRecoveryCampaigns,
       to: email,

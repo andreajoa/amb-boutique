@@ -38,7 +38,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
 
   if (!sql) return <main className={styles.dashboard}><Setup/></main>;
 
-  const [metricsRows, funnelRows, sourceRows, countryRows, productRows, emailRows, journeyRows, recentRows] = await Promise.all([
+  const [metricsRows, funnelRows, sourceRows, countryRows, productRows, emailRows, emailCampaignRows, journeyRows, recentRows] = await Promise.all([
     sql`
       SELECT
         count(*) AS sessions,
@@ -87,6 +87,17 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
         count(*) FILTER (WHERE complained_at IS NOT NULL) AS complained,
         count(*) FILTER (WHERE conversion_at IS NOT NULL) AS converted
       FROM amb_email_messages WHERE created_at >= now() - (${days} * interval '1 day')
+    `,
+    sql`
+      SELECT campaign_key, subject_variant,
+        count(*) FILTER (WHERE delivered_at IS NOT NULL) AS delivered,
+        count(*) FILTER (WHERE opened_at IS NOT NULL) AS opened,
+        count(*) FILTER (WHERE clicked_at IS NOT NULL) AS clicked,
+        count(*) FILTER (WHERE conversion_at IS NOT NULL) AS converted
+      FROM amb_email_messages
+      WHERE created_at >= now() - (${days} * interval '1 day')
+      GROUP BY campaign_key, subject_variant
+      ORDER BY campaign_key, subject_variant
     `,
     sql`
       SELECT status, count(*) AS journeys, COALESCE(sum(amount_total),0) AS value
@@ -178,6 +189,13 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
       <PanelTitle eyebrow="PRODUCT INTELLIGENCE" title="What shoppers consider"/>
       <div className={styles.tableWrap}><table><thead><tr><th>Product</th><th>Views</th><th>Bag adds</th><th>Purchases</th><th>Bag rate</th></tr></thead>
       <tbody>{productRows.length ? productRows.map((row) => <tr key={label(row.slug)}><td>{label(row.slug).replaceAll("-"," ")}</td><td>{n(row.views)}</td><td>{n(row.carts)}</td><td>{n(row.purchases)}</td><td>{pct(n(row.views) ? n(row.carts)/n(row.views)*100 : 0)}</td></tr>) : <tr><td colSpan={5}>Product behavior will appear after consented visits.</td></tr>}</tbody></table></div>
+    </section>
+
+    <section className={styles.panel}>
+      <PanelTitle eyebrow="EXPERIMENTS" title="Which message earns the next step"/>
+      <p className={styles.bodyCopy}>Subject variants are assigned consistently per shopper. Compare opens first, then clicks and purchases before changing the email body or offer.</p>
+      <div className={styles.tableWrap}><table><thead><tr><th>Campaign</th><th>Subject</th><th>Delivered</th><th>Open rate</th><th>Click rate</th><th>Purchases</th></tr></thead>
+      <tbody>{emailCampaignRows.length ? emailCampaignRows.map((row) => <tr key={`${label(row.campaign_key)}-${label(row.subject_variant)}`}><td>{label(row.campaign_key)}</td><td>{label(row.subject_variant)}</td><td>{n(row.delivered)}</td><td>{pct(n(row.delivered) ? n(row.opened)/n(row.delivered)*100 : 0)}</td><td>{pct(n(row.delivered) ? n(row.clicked)/n(row.delivered)*100 : 0)}</td><td>{n(row.converted)}</td></tr>) : <tr><td colSpan={6}>Campaign experiments will appear after delivery is enabled.</td></tr>}</tbody></table></div>
     </section>
 
     <div className={styles.twoColumns}>

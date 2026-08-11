@@ -18,6 +18,17 @@ export function automationEnabled() {
   return process.env.EMAIL_AUTOMATION_ENABLED === "true" && Boolean(process.env.RESEND_API_KEY);
 }
 
+function subjectExperiment(campaign: AmbCampaign, recipient: string) {
+  if (!campaign.subjectB) return { subject: campaign.subjectA, variant: "A" as const };
+  const bucket = Number.parseInt(
+    createHash("sha256").update(`${campaign.key}:${recipient.trim().toLowerCase()}`).digest("hex").slice(0, 2),
+    16,
+  );
+  return bucket % 2 === 0
+    ? { subject: campaign.subjectA, variant: "A" as const }
+    : { subject: campaign.subjectB, variant: "B" as const };
+}
+
 function unsubscribeToken(email: string) {
   const secret = process.env.EMAIL_TOKEN_SECRET || process.env.DASHBOARD_SESSION_SECRET;
   if (!secret) return "";
@@ -77,6 +88,7 @@ export async function sendAmbEmail(options: {
 
   const token = unsubscribeToken(options.to);
   const unsubscribeUrl = token ? absoluteUrl(`/unsubscribe?token=${encodeURIComponent(token)}`) : absoluteUrl("/unsubscribe");
+  const subjectTest = subjectExperiment(campaign, options.to);
   const html = renderAmbEmail(campaign, {
     firstName: options.firstName,
     recoveryUrl: options.recoveryUrl,
@@ -88,7 +100,7 @@ export async function sendAmbEmail(options: {
     from,
     to: [options.to],
     replyTo: process.env.NEXT_PUBLIC_SUPPORT_EMAIL || "info@ambboutique.online",
-    subject: campaign.subjectA,
+    subject: subjectTest.subject,
     html,
     scheduledAt: options.scheduledAt,
     headers: {
@@ -111,7 +123,7 @@ export async function sendAmbEmail(options: {
       ) VALUES (
         ${options.contactId || null}, ${options.journeyId || null}, ${campaign.key},
         ${result.data.id}, ${createHash("sha256").update(options.to.trim().toLowerCase()).digest("hex")},
-        'A', ${options.scheduledAt ? "scheduled" : "sent"}, ${options.scheduledAt || null},
+        ${subjectTest.variant}, ${options.scheduledAt ? "scheduled" : "sent"}, ${options.scheduledAt || null},
         ${jsonForDatabase({ recoveryUrl: options.recoveryUrl || campaign.ctaUrl })}::jsonb
       )
       ON CONFLICT (provider_id) DO NOTHING
