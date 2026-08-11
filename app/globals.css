@@ -295,7 +295,9 @@ button { cursor: pointer; }
 .cart-head strong { font: 500 22px var(--font-cormorant); }
 .cart-head span { justify-self: end; font-size: 11px; }
 .cart-item { display: grid; grid-template-columns: 82px 1fr auto; gap: 16px; padding: 20px 0; border-bottom: 1px solid var(--line); }
-.cart-thumb { height: 108px; }
+.cart-thumb { display: grid; place-items: center; height: 108px; overflow: hidden; background: #f5efe5; }
+.cart-thumb-media { display: block; width: 100%; height: 100%; background-repeat: no-repeat; }
+.cart-thumb-media.sprite-media { width: 90%; height: auto; max-height: 90%; aspect-ratio: 1 / 1; }
 .cart-item > div:nth-child(2) { display: flex; flex-direction: column; gap: 5px; font-size: 11px; }
 .cart-item > div:nth-child(2) strong { font-size: 12px; }
 .cart-item > div:nth-child(2) button { width: max-content; border: 0; border-bottom: 1px solid; background: transparent; padding: 0; margin-top: 5px; font-size: 9px; }
@@ -554,8 +556,10 @@ button { cursor: pointer; }
 .style-board.items-3 .piece-0 { grid-column: 2; grid-row: 1; }
 .style-board.items-3 .piece-1 { grid-column: 1; grid-row: 1; }
 .style-board.items-3 .piece-2 { grid-column: 3; grid-row: 1; }
-.style-piece-image { display: block; height: 100%; min-height: 0; background-color: #eeeae4; transition: transform .35s ease; }
-.style-piece:hover .style-piece-image { transform: scale(1.02); }
+.style-piece-image { display: grid; place-items: center; height: 100%; min-height: 0; overflow: hidden; background-color: #eeeae4; }
+.style-piece-media { display: block; width: 100%; height: 100%; background-repeat: no-repeat; transition: transform .35s ease; }
+.style-piece-media.sprite-media { width: 88%; height: auto; max-height: 88%; aspect-ratio: 1 / 1; }
+.style-piece:hover .style-piece-media { transform: scale(1.02); }
 .style-piece > div { position: absolute; left: 8px; right: 8px; bottom: 8px; display: grid; grid-template-columns: 1fr auto; gap: 3px 8px; align-items: center; padding: 9px 10px; background: rgba(255,255,255,.94); box-shadow: 0 4px 18px rgba(0,0,0,.07); }
 .style-piece > div > a { overflow: hidden; font-size: 9px; font-weight: 700; text-overflow: ellipsis; white-space: nowrap; }
 .style-piece > div > span { font-size: 8px; }

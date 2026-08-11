@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useMemo, useState, type CSSProperties } from "react";
 import { Product, products } from "./data";
 import { FIRST_ORDER_CODE, formatMarketPrice, getDiscountState, MarketCode, markets, US_FREE_SHIPPING_THRESHOLD_USD } from "./commerce";
 import { CartRewards } from "./cart-rewards";
@@ -22,10 +22,16 @@ export type CartLine = {
   heelHeightCm?: number;
   sheet: Product["sheet"];
   quadrant: Product["quadrant"];
+  image?: string;
+  imageSpriteColumns?: number;
+  imageSpriteRows?: number;
+  imageViewWidth?: number;
+  imageViewHeight?: number;
   offer?: OfferType;
 };
 
 type AddOptions = { size: string; color: string; quantity: number; heelHeightCm?: number; offer?: OfferType };
+type AddEntry = { product: Product; options: AddOptions };
 type BehaviorEvent = "product_view" | "size_guide_open" | "add_to_cart" | "cart_open" | "style_look_add" | "checkout_start";
 
 type StoreContextValue = {
@@ -45,6 +51,7 @@ type StoreContextValue = {
   discount: ReturnType<typeof getDiscountState>;
   effectiveDiscountUsd: number;
   addItem: (product: Product, options: AddOptions) => void;
+  addItems: (entries: AddEntry[]) => void;
   updateQuantity: (id: string, quantity: number) => void;
   removeItem: (id: string) => void;
   clearCart: () => void;
@@ -157,17 +164,46 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     if (normalized) window.localStorage.setItem(promoStorageKey, normalized); else window.localStorage.removeItem(promoStorageKey);
   };
 
-  const addItem: StoreContextValue["addItem"] = (product, options) => {
-    const heelKey = options.heelHeightCm ? `${options.heelHeightCm}cm` : "no-heel-variant";
-    const id = `${product.slug}:${options.size}:${options.color}:${heelKey}:${options.offer || "standard"}`;
-    setCart((current) => {
-      const existing = current.find((line) => line.id === id);
-      if (existing) return current.map((line) => line.id === id ? { ...line, quantity: Math.min(10, line.quantity + options.quantity) } : line);
-      return [...current, { id, slug: product.slug, name: product.name, price: product.price, quantity: options.quantity, size: options.size, color: options.color, heelHeightCm: options.heelHeightCm, sheet: product.sheet, quadrant: product.quadrant, offer: options.offer }];
-    });
+  const addItems: StoreContextValue["addItems"] = (entries) => {
+    if (!entries.length) return;
+    setCart((current) => entries.reduce<CartLine[]>((next, { product, options }) => {
+      const heelKey = options.heelHeightCm ? `${options.heelHeightCm}cm` : "no-heel-variant";
+      const id = `${product.slug}:${options.size}:${options.color}:${heelKey}:${options.offer || "standard"}`;
+      const existing = next.find((line) => line.id === id);
+      if (existing) {
+        return next.map((line) => line.id === id
+          ? { ...line, quantity: Math.min(10, line.quantity + options.quantity) }
+          : line);
+      }
+      const sprite = product.gallerySprite && product.images?.length === 1 ? product.gallerySprite : undefined;
+      return [...next, {
+        id,
+        slug: product.slug,
+        name: product.name,
+        price: product.price,
+        quantity: options.quantity,
+        size: options.size,
+        color: options.color,
+        heelHeightCm: options.heelHeightCm,
+        sheet: product.sheet,
+        quadrant: product.quadrant,
+        image: product.images?.[0],
+        imageSpriteColumns: sprite?.columns,
+        imageSpriteRows: sprite?.rows,
+        imageViewWidth: sprite?.viewWidth,
+        imageViewHeight: sprite?.viewHeight,
+        offer: options.offer,
+      }];
+    }, current));
     setCheckoutError("");
     setCartOpen(true);
-    trackEvent("add_to_cart", { slug: product.slug, category: product.category, source: options.offer || "product", valueUsd: product.price * options.quantity });
+    entries.forEach(({ product, options }) => {
+      trackEvent("add_to_cart", { slug: product.slug, category: product.category, source: options.offer || "product", valueUsd: product.price * options.quantity });
+    });
+  };
+
+  const addItem: StoreContextValue["addItem"] = (product, options) => {
+    addItems([{ product, options }]);
   };
 
   const updateQuantity = (id: string, quantity: number) => {
@@ -218,8 +254,30 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     window.localStorage.removeItem(storageKey);
     window.localStorage.removeItem(promoStorageKey);
   }, []);
-  const value = { cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, addItem, updateQuantity, removeItem, clearCart, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart: () => setCartOpen(false), checkout, buyNow, checkoutError };
+  const value = { cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, addItem, addItems, updateQuantity, removeItem, clearCart, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart: () => setCartOpen(false), checkout, buyNow, checkoutError };
   return <StoreContext.Provider value={value}>{children}<CartDrawer /></StoreContext.Provider>;
+}
+
+function getExactCartThumbnail(line: CartLine, product?: Product): { style?: CSSProperties; isSprite: boolean } {
+  const image = line.image || product?.images?.[0];
+  if (!image) return { isSprite: false };
+
+  const fallbackSprite = product?.gallerySprite && product.images?.length === 1 ? product.gallerySprite : undefined;
+  const columns = line.imageSpriteColumns || fallbackSprite?.columns;
+  const rows = line.imageSpriteRows || fallbackSprite?.rows;
+  const isSprite = Boolean(columns && rows);
+
+  return {
+    isSprite,
+    style: {
+      backgroundImage: `url(${image})`,
+      backgroundSize: isSprite ? `${columns! * 100}% ${rows! * 100}%` : "contain",
+      backgroundPosition: "0% 0%",
+      backgroundRepeat: "no-repeat",
+      backgroundColor: "#f5efe5",
+      ...(isSprite ? { aspectRatio: `${line.imageViewWidth || fallbackSprite?.viewWidth || 1} / ${line.imageViewHeight || fallbackSprite?.viewHeight || 1}` } : {}),
+    },
+  };
 }
 
 function CartDrawer() {
@@ -235,13 +293,17 @@ function CartDrawer() {
     <aside className="cart-drawer">
       <div className="cart-head"><button onClick={closeCart} aria-label="Close">×</button><strong>Your Bag</strong><span>{cartCount ? `${cartCount} item${cartCount > 1 ? "s" : ""}` : "Empty"}</span></div>
       {cart.length ? <>
-        <div className="cart-lines">{cart.map((line) => <div className="cart-item" key={line.id}>
-          <div className={`cart-thumb sheet-${line.sheet} q${line.quadrant}`}/>
+        <div className="cart-lines">{cart.map((line) => {
+          const lineProduct = products.find((item) => item.slug === line.slug);
+          const thumbnail = getExactCartThumbnail(line, lineProduct);
+          return <div className="cart-item" data-product-slug={line.slug} key={line.id}>
+          <div className="cart-thumb"><span className={`cart-thumb-media sheet-${line.sheet} q${line.quadrant}${thumbnail.isSprite ? " sprite-media" : ""}`} style={thumbnail.style}/></div>
           <div><Link href={`/products/${line.slug}`} onClick={closeCart}><strong>{line.name}</strong></Link><span>Size: {line.size}</span><span>Color: {line.color}</span>{line.heelHeightCm ? <span>Heel: {line.heelHeightCm} cm</span> : null}{line.offer && <span className="offer-label">Private cart offer</span>}<div className="mini-quantity"><button onClick={() => updateQuantity(line.id, line.quantity - 1)} aria-label="Decrease">−</button><span>{line.quantity}</span><button onClick={() => updateQuantity(line.id, line.quantity + 1)} aria-label="Increase">+</button></div><button onClick={() => removeItem(line.id)}>Remove</button></div>
           <b>{formatMoney(line.price * line.quantity)}</b>
-        </div>)}</div>
+        </div>;
+        })}</div>
         <CartRewards subtotalUsd={cartTotal} market={market} />
-        {upsell && upsellMargin && <div className="cart-upsell"><p>ONE-TIME CART OFFER</p><strong>Complete the look and save {upsellMargin.approvedPercent.toFixed(upsellMargin.approvedPercent % 1 ? 1 : 0)}%</strong><div><div className={`upsell-thumb sheet-${upsell.sheet} q${upsell.quadrant}`} style={upsell.images?.[0] ? { backgroundImage: `url(${upsell.images[0]})`, backgroundSize: "cover", backgroundPosition: "center" } : undefined}/><span><strong>{upsell.name}</strong><small><del>{formatMoney(upsell.price)}</del> {formatMoney(upsell.price * (1 - upsellMargin.approvedPercent / 100))}</small></span><button type="button" onClick={() => addItem(upsell, { size: upsell.shoeVariants?.[0]?.sizes?.[0] || upsell.sizes?.[0] || "One Size", color: upsell.colorNames?.[0] || "Selected", heelHeightCm: upsell.shoeVariants?.[0]?.heelHeightCm || upsell.heelHeightCm, quantity: 1, offer: "cart-bump" })}>Add offer</button></div><small>Margin verified. Discounts never stack; the best eligible offer wins.</small></div>}
+        {upsell && upsellMargin && <div className="cart-upsell"><p>ONE-TIME CART OFFER</p><strong>Complete the look and save {upsellMargin.approvedPercent.toFixed(upsellMargin.approvedPercent % 1 ? 1 : 0)}%</strong><div><div className={`upsell-thumb sheet-${upsell.sheet} q${upsell.quadrant}`} style={upsell.images?.[0] ? { backgroundImage: `url(${upsell.images[0]})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundColor: "#f5efe5" } : undefined}/><span><strong>{upsell.name}</strong><small><del>{formatMoney(upsell.price)}</del> {formatMoney(upsell.price * (1 - upsellMargin.approvedPercent / 100))}</small></span><button type="button" onClick={() => addItem(upsell, { size: upsell.shoeVariants?.[0]?.sizes?.[0] || upsell.sizes?.[0] || "One Size", color: upsell.colorNames?.[0] || "Selected", heelHeightCm: upsell.shoeVariants?.[0]?.heelHeightCm || upsell.heelHeightCm, quantity: 1, offer: "cart-bump" })}>Add offer</button></div><small>Margin verified. Discounts never stack; the best eligible offer wins.</small></div>}
         <div className="shipping-progress"><span>{market === "US" ? (shippingGap ? `You’re ${formatMoney(shippingGap)} away from complimentary U.S. shipping.` : "You’ve unlocked complimentary U.S. shipping.") : `Tracked delivery to ${markets[market].country} is calculated at checkout.`}</span>{market === "US" && <i><b style={{ width: `${Math.min(100, (cartTotal / US_FREE_SHIPPING_THRESHOLD_USD) * 100)}%` }}/></i>}</div>
         <div className="promo-entry"><label htmlFor="cart-code">Offer code</label><div><input id="cart-code" value={promoCode} onChange={(event) => setPromoCode(event.target.value)} placeholder="Enter code"/><button type="button">{promoCode ? "Applied" : "Apply"}</button></div>{promoCode && <small>{promoCode} is ready. The single best eligible discount will be used.</small>}</div>
         <label className="order-note">Add a note to your order<textarea rows={2} onChange={(event) => setOrderNote(event.target.value)}/></label>
