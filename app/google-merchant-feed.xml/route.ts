@@ -34,6 +34,10 @@ function variantId(product: Product, size?: string, heelHeightCm?: number) {
   return `amb-${safePart(product.slug).slice(0, maxSlug)}${suffix ? `-${suffix}` : ""}`.slice(0, 50);
 }
 
+function variantOption(name: string, value: string | number) {
+  return `<g:variant_option><g:name>${xml(name)}</g:name><g:value>${xml(value)}</g:value></g:variant_option>`;
+}
+
 function commonFields(product: Product, title: string, link: string, image: string, availability: "in_stock" | "out_of_stock") {
   const description = clean(product.description, `${product.name} from AMB BOUTIQUE, a women’s fashion boutique based in San Diego, California.`).slice(0, 5000);
   const color = product.colorNames?.filter(Boolean).slice(0, 3).join("/");
@@ -76,6 +80,8 @@ ${commonFields(product, title, link, image, variant.stock > 0 ? "in_stock" : "ou
 <g:size_type>regular</g:size_type>
 <g:item_group_id>${xml(product.slug.slice(0, 50))}</g:item_group_id>
 <g:item_group_title>${xml(product.name.slice(0, 150))}</g:item_group_title>
+${variantOption("size", size)}
+${variantOption("heel height", `${variant.heelHeightCm} cm`)}
 <g:custom_label_0>${xml(`${variant.heelHeightCm}cm heel`)}</g:custom_label_0>
 </item>`;
     }));
@@ -93,6 +99,7 @@ ${commonFields(product, title, link, image, product.stock! > 0 ? "in_stock" : "o
 <g:size_type>regular</g:size_type>
 <g:item_group_id>${xml(product.slug.slice(0, 50))}</g:item_group_id>
 <g:item_group_title>${xml(product.name.slice(0, 150))}</g:item_group_title>
+${variantOption("size", size)}
 </item>`;
     });
   }
