@@ -36,6 +36,10 @@ export function StructuredData() {
       availableLanguage: "English",
       areaServed: servedCountries,
     },
+    hasMerchantReturnPolicy: {
+      "@type": "MerchantReturnPolicy",
+      merchantReturnLink: `${siteUrl}/returns`,
+    },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "AMB BOUTIQUE Women’s Fashion",
