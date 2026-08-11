@@ -32,7 +32,7 @@ export default function CollectionsPage() {
         {categories.map((item) => <button key={item} className={category === item ? "active" : ""} onClick={() => setCategory(item)}>{item === "All" ? "Everything" : item}</button>)}
       </nav>
 
-      <section className="collection-shell shell" data-reveal>
+      <section className="collection-shell shell">
         <div className="collection-toolbar">
           <p><strong>{filtered.length}</strong> {filtered.length === 1 ? "piece" : "pieces"}</p>
           <div>
