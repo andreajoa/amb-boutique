@@ -15,7 +15,7 @@ const BAG_COPY: Record<string, string> = {
 type BagKind = keyof typeof BAG_COPY;
 
 function localGallery(slug: string): string[] {
-  return ["01", "02", "03", "04"].map((view) => `/editorial/bags/products/${slug}/${view}.webp?v=20260811-safe-frame`);
+  return ["01", "02", "03", "04"].map((view) => `/editorial/bags/products/${slug}/${view}.webp?v=20260811-complete-gallery`);
 }
 
 function bag(
