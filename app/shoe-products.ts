@@ -5,7 +5,7 @@ const SYNTHETIC = "Smooth synthetic upper with decorative detailing, synthetic l
 const CRYSTAL = "Textile and synthetic upper with crystal-look embellishment, smooth lining and synthetic sole. Exact composition follows the product label.";
 const WOVEN = "Woven textile upper with smooth synthetic lining and sole. Exact composition follows the product label.";
 const SHOE_GALLERY_BASE = "/editorial/shoes/products";
-const shoeGallery = { columns: 2, rows: 3, viewWidth: 180, viewHeight: 120 };
+const shoeGallery = { columns: 1, rows: 3, viewWidth: 418, viewHeight: 418 };
 
 let placement = 0;
 function shell(product: Omit<Product, "vendor" | "category" | "subcategory" | "sheet" | "quadrant" | "care" | "styleEligible">): Product {
@@ -26,7 +26,7 @@ function fixed(slug: string, name: string, price: number, color: string, colorNa
   return shell({
     slug, name, price, badge: placement < 5 ? "Just In" : "New", colors: [color], colorNames: [colorName], sizes, stock, weightOz, unitCostUsd,
     minimumMarginPercent: 40, description, materials, heelHeightCm,
-    images: [`${SHOE_GALLERY_BASE}/${slug}.svg?v=20260810-split`],
+    images: [`${SHOE_GALLERY_BASE}/${slug}.webp?v=20260811-generated`],
     gallerySprite: shoeGallery,
   });
 }
@@ -37,7 +37,7 @@ function variable(slug: string, name: string, price: number, color: string, colo
     slug, name, price, badge: "New", colors: [color], colorNames: [colorName], sizes,
     stock: variants.reduce((sum, variant) => sum + variant.stock, 0), weightOz, unitCostUsd, minimumMarginPercent: 40,
     description, materials: SYNTHETIC, shoeVariants: variants,
-    images: [`${SHOE_GALLERY_BASE}/${slug}.svg?v=20260810-split`],
+    images: [`${SHOE_GALLERY_BASE}/${slug}.webp?v=20260811-generated`],
     gallerySprite: shoeGallery,
   });
 }
