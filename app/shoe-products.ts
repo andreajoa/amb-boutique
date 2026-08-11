@@ -4,23 +4,12 @@ const CARE = "Wipe gently with a soft dry cloth after wear. Keep away from prolo
 const SYNTHETIC = "Smooth synthetic upper with decorative detailing, synthetic lining and sole. Exact composition follows the product label.";
 const CRYSTAL = "Textile and synthetic upper with crystal-look embellishment, smooth lining and synthetic sole. Exact composition follows the product label.";
 const WOVEN = "Woven textile upper with smooth synthetic lining and sole. Exact composition follows the product label.";
-const SHOE_ATLAS = "/editorial/shoes/amb-shoes-atlas.svg?v=20260810-valid";
-const USER_EDITORIAL_ATLAS = "/editorial/user-replacements-atlas.webp?v=20260810-1823";
-const shoeGallery = { columns: 2, rows: 3, viewWidth: 240, viewHeight: 160 };
-const userGallery = { columns: 2, rows: 3, viewWidth: 627, viewHeight: 418 };
-
-const replacementGalleryIndex: Record<string, number> = {
-  "solene-woven-slingback": 5,
-  "monaco-buckle-slingback": 6,
-  "onyx-buckle-pump": 7,
-  "noir-matte-slingback": 8,
-  "rouge-bow-pump": 9,
-};
+const SHOE_GALLERY_BASE = "/editorial/shoes/products";
+const shoeGallery = { columns: 2, rows: 3, viewWidth: 180, viewHeight: 120 };
 
 let placement = 0;
 function shell(product: Omit<Product, "vendor" | "category" | "subcategory" | "sheet" | "quadrant" | "care" | "styleEligible">): Product {
   const index = placement++;
-  const usesUserAtlas = typeof product.galleryAtlasIndex === "number";
   return {
     ...product,
     vendor: "AMB BOUTIQUE",
@@ -30,33 +19,26 @@ function shell(product: Omit<Product, "vendor" | "category" | "subcategory" | "s
     quadrant: ((index % 4) + 1) as 1 | 2 | 3 | 4,
     care: CARE,
     styleEligible: true,
-    ...(usesUserAtlas ? {} : { heelAtlasIndex: index }),
   };
 }
 
 function fixed(slug: string, name: string, price: number, color: string, colorName: string, sizes: string[], stock: number, weightOz: number, unitCostUsd: number, description: string, materials: string, _hero: string, _family: number, heelHeightCm?: number): Product {
-  const replacementIndex = replacementGalleryIndex[slug];
-  const hasReplacement = typeof replacementIndex === "number";
   return shell({
     slug, name, price, badge: placement < 5 ? "Just In" : "New", colors: [color], colorNames: [colorName], sizes, stock, weightOz, unitCostUsd,
     minimumMarginPercent: 40, description, materials, heelHeightCm,
-    images: hasReplacement ? [USER_EDITORIAL_ATLAS] : [SHOE_ATLAS],
-    gallerySprite: hasReplacement ? userGallery : shoeGallery,
-    ...(hasReplacement ? { galleryAtlasIndex: replacementIndex, galleryAtlasCount: 10 } : {}),
+    images: [`${SHOE_GALLERY_BASE}/${slug}.svg?v=20260810-split`],
+    gallerySprite: shoeGallery,
   });
 }
 
 function variable(slug: string, name: string, price: number, color: string, colorName: string, variants: ShoeVariant[], weightOz: number, unitCostUsd: number, description: string, _hero: string, _family: number): Product {
   const sizes = Array.from(new Set(variants.flatMap((variant) => variant.sizes))).sort((a, b) => Number(a) - Number(b));
-  const replacementIndex = replacementGalleryIndex[slug];
-  const hasReplacement = typeof replacementIndex === "number";
   return shell({
     slug, name, price, badge: "New", colors: [color], colorNames: [colorName], sizes,
     stock: variants.reduce((sum, variant) => sum + variant.stock, 0), weightOz, unitCostUsd, minimumMarginPercent: 40,
     description, materials: SYNTHETIC, shoeVariants: variants,
-    images: hasReplacement ? [USER_EDITORIAL_ATLAS] : [SHOE_ATLAS],
-    gallerySprite: hasReplacement ? userGallery : shoeGallery,
-    ...(hasReplacement ? { galleryAtlasIndex: replacementIndex, galleryAtlasCount: 10 } : {}),
+    images: [`${SHOE_GALLERY_BASE}/${slug}.svg?v=20260810-split`],
+    gallerySprite: shoeGallery,
   });
 }
 

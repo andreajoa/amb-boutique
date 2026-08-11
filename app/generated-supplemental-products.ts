@@ -72,6 +72,13 @@ const bagCatalog: Product[] = [
 
 // Only AMB-hosted, owner-approved galleries are customer-facing. Products whose
 // archives do not verify the interior remain held until compliant imagery exists.
+const verifiedBagSlugs = new Set([
+  "florence-mini-backpack-apricot",
+  "florence-mini-backpack-pink",
+  "florence-mini-backpack-dark-brown",
+  "florence-mini-backpack-black",
+]);
+
 export const supplementalProducts: Product[] = bagCatalog.filter((product) =>
-  product.images?.every((image) => image.startsWith("/")),
+  verifiedBagSlugs.has(product.slug),
 );
