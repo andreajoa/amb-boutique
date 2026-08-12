@@ -1,0 +1,64 @@
+{
+  "id": "amb-edit-2026-08-12",
+  "name": "The AMB August Edit",
+  "subject": "The pieces making the AMB edit right now",
+  "preheader": "Six polished pieces selected for effortless day-to-evening dressing.",
+  "eyebrow": "THE AMB EDIT",
+  "headline": "The kind of pieces that make getting dressed feel easy.",
+  "intro": "A considered mix of feminine silhouettes, polished accessories and shoes that finish the look without trying too hard. These are the pieces we would build a wardrobe around right now.",
+  "heroImage": "/images/newsletter-editorial.webp",
+  "heroAlt": "The AMB BOUTIQUE editorial edit",
+  "cta": {
+    "label": "SHOP THE EDIT",
+    "url": "/collections"
+  },
+  "productSectionEyebrow": "SIX PIECES, ONE POINT OF VIEW",
+  "productSectionTitle": "A sharper edit for the plans ahead.",
+  "products": [
+    {
+      "slug": "brielle-satin-maxi-dress",
+      "name": "Brielle Satin Maxi Dress",
+      "price": "$118 USD",
+      "image": "/products/brielle-satin-maxi-dress/01.webp",
+      "label": "THE DRESS EDIT"
+    },
+    {
+      "slug": "cora-square-neck-top",
+      "name": "Cora Square-Neck Top",
+      "price": "$54 USD",
+      "image": "/products/cora-square-neck-top/01.webp",
+      "label": "THE TOPS EDIT"
+    },
+    {
+      "slug": "capri-utility-romper",
+      "name": "Capri Utility Romper",
+      "price": "$98 USD",
+      "image": "/products/capri-utility-romper/01.webp",
+      "label": "ONE-PIECE EASE"
+    },
+    {
+      "slug": "portofino-carryall-burgundy",
+      "name": "Portofino Carryall — Burgundy",
+      "price": "$79 USD",
+      "image": "/editorial/bags/products/portofino-carryall-burgundy/01.webp",
+      "label": "THE BAG EDIT"
+    },
+    {
+      "slug": "cove-wide-leg-jumpsuit",
+      "name": "Cove Wide-Leg Jumpsuit",
+      "price": "$89 USD",
+      "image": "/products/cove-wide-leg-jumpsuit/01.webp",
+      "label": "THE JUMPSUIT EDIT"
+    },
+    {
+      "slug": "maris-belted-romper",
+      "name": "Maris Belted Romper",
+      "price": "$79 USD",
+      "image": "/products/maris-belted-romper/01.webp",
+      "label": "WEEKEND EDIT"
+    }
+  ],
+  "closingEyebrow": "STYLE WITH INTENTION",
+  "closingTitle": "Buy the piece you can already imagine wearing three ways.",
+  "closingBody": "That is the AMB standard: fewer random additions, more pieces with real styling potential. Start with the silhouette you love, then build the rest of the look around it."
+}
