@@ -4,6 +4,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const readline = require('node:readline');
+const { execSync } = require('node:child_process');
 
 const ROOT = __dirname;
 const ENV_FILE = path.join(ROOT, '.env');
@@ -31,9 +32,27 @@ function setEnvValue(text, key, value) {
   return rows.join('\n').replace(/\n*$/, '\n');
 }
 
-function ask(question) {
+function setEcho(enabled) {
+  if (!process.stdin.isTTY) return;
+  try {
+    execSync(enabled ? 'stty echo' : 'stty -echo', { stdio: ['inherit', 'ignore', 'ignore'] });
+  } catch {
+    // If terminal echo control is unavailable, continue without blocking setup.
+  }
+}
+
+function askSecret(question) {
   const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
-  return new Promise((resolve) => rl.question(question, (answer) => { rl.close(); resolve(answer.trim()); }));
+  process.stdout.write(question);
+  setEcho(false);
+  return new Promise((resolve) => {
+    rl.question('', (answer) => {
+      setEcho(true);
+      process.stdout.write('\n');
+      rl.close();
+      resolve(answer.trim());
+    });
+  });
 }
 
 async function run() {
@@ -42,7 +61,7 @@ async function run() {
 
   if (!apiKey) {
     console.log('One-time setup: the standalone mailer still needs its private Resend API key.');
-    apiKey = await ask('Paste RESEND_API_KEY here (it will be saved only in local .env): ');
+    apiKey = await askSecret('Paste RESEND_API_KEY here (input hidden; saved only in local .env): ');
     if (!apiKey || !/^re_/.test(apiKey)) {
       throw new Error('A valid Resend API key is required. Nothing was sent.');
     }
@@ -62,6 +81,7 @@ async function run() {
 }
 
 run().catch((error) => {
+  setEcho(true);
   console.error(`\nERROR: ${error.message}`);
   process.exitCode = 1;
 });
