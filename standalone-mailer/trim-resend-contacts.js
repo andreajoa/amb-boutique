@@ -8,6 +8,7 @@ const ROOT = __dirname;
 const ENV_FILE = path.join(ROOT, '.env');
 const TARGET_TOTAL = Number(process.env.RESEND_TARGET_CONTACTS || 800);
 const SEGMENT_NAME = 'AMB Standalone Mailer';
+const PAGE_SIZE = 100;
 
 function loadEnv(file) {
   if (!fs.existsSync(file)) return;
@@ -41,9 +42,11 @@ async function api(pathname, options = {}, attempt = 0) {
   });
   const data = await response.json().catch(() => ({}));
   if (response.ok) return data;
-  if ((response.status === 429 || response.status >= 500) && attempt < 6) {
+  if ((response.status === 429 || response.status >= 500) && attempt < 8) {
     const retryAfter = Number(response.headers.get('retry-after'));
-    const delay = Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : Math.min(1000 * (2 ** attempt), 12000);
+    const delay = Number.isFinite(retryAfter) && retryAfter > 0
+      ? retryAfter * 1000
+      : Math.min(750 * (2 ** attempt), 12000);
     await sleep(delay);
     return api(pathname, options, attempt + 1);
   }
@@ -52,9 +55,36 @@ async function api(pathname, options = {}, attempt = 0) {
   throw error;
 }
 
+function withQuery(pathname, params) {
+  const url = new URL(`https://api.resend.com${pathname}`);
+  for (const [key, value] of Object.entries(params)) {
+    if (value != null && value !== '') url.searchParams.set(key, String(value));
+  }
+  return `${url.pathname}${url.search}`;
+}
+
 async function listAll(pathname) {
-  const result = await api(pathname, { method: 'GET' });
-  return Array.isArray(result.data) ? result.data : [];
+  const items = [];
+  let after = '';
+  let page = 0;
+
+  while (true) {
+    const pagePath = withQuery(pathname, { limit: PAGE_SIZE, after: after || undefined });
+    const result = await api(pagePath, { method: 'GET' });
+    const data = Array.isArray(result.data) ? result.data : [];
+    items.push(...data);
+    page += 1;
+
+    if (!result.has_more || data.length === 0) break;
+    const last = data[data.length - 1];
+    if (!last?.id) throw new Error(`Pagination failed for ${pathname}: last item has no id.`);
+    after = last.id;
+
+    if (page > 1000) throw new Error(`Pagination safety stop for ${pathname}.`);
+    await sleep(120);
+  }
+
+  return items;
 }
 
 function byOldest(a, b) {
@@ -72,9 +102,13 @@ async function resolveSegmentId() {
 }
 
 async function main() {
-  if (!Number.isInteger(TARGET_TOTAL) || TARGET_TOTAL < 1) throw new Error('RESEND_TARGET_CONTACTS must be a positive integer.');
+  if (!Number.isInteger(TARGET_TOTAL) || TARGET_TOTAL < 1) {
+    throw new Error('RESEND_TARGET_CONTACTS must be a positive integer.');
+  }
 
   const segmentId = await resolveSegmentId();
+
+  console.log('Reading the complete Resend contact list with pagination...');
   const allContacts = await listAll('/contacts');
   const segmentContacts = await listAll(`/segments/${encodeURIComponent(segmentId)}/contacts`);
   const segmentIds = new Set(segmentContacts.map((contact) => contact.id));
@@ -100,6 +134,11 @@ async function main() {
   const keepMailer = mailerContacts.slice(0, keepMailerCount);
   const deleteMailer = mailerContacts.slice(keepMailerCount);
 
+  const expectedRemaining = protectedContacts.length + keepMailer.length;
+  if (expectedRemaining !== TARGET_TOTAL) {
+    throw new Error(`Safety stop: computed remaining total is ${expectedRemaining}, expected ${TARGET_TOTAL}. Nothing was deleted.`);
+  }
+
   console.log(`Keeping ${protectedContacts.length} protected contacts outside the mailer segment.`);
   console.log(`Keeping ${keepMailer.length} oldest contacts from ${SEGMENT_NAME}.`);
   console.log(`Deleting ${deleteMailer.length} newer contacts from ${SEGMENT_NAME}...`);
@@ -111,12 +150,18 @@ async function main() {
     if (deleted % 25 === 0 || deleted === deleteMailer.length) {
       process.stdout.write(`\rContacts deleted: ${deleted}/${deleteMailer.length}`);
     }
-    await sleep(300);
+    await sleep(130);
   }
   if (deleteMailer.length) process.stdout.write('\n');
 
+  console.log('Verifying final Resend contact count...');
   const remaining = await listAll('/contacts');
   const remainingSegment = await listAll(`/segments/${encodeURIComponent(segmentId)}/contacts`);
+
+  if (remaining.length !== TARGET_TOTAL) {
+    throw new Error(`Verification failed: Resend reports ${remaining.length} contacts after trimming; expected ${TARGET_TOTAL}. Do not send the broadcast yet.`);
+  }
+
   console.log(`Done. Resend now has ${remaining.length} total contacts.`);
   console.log(`${SEGMENT_NAME} now has ${remainingSegment.length} contacts.`);
   console.log(`Free-plan headroom reserved: ${Math.max(0, 1000 - remaining.length)} contacts.`);
