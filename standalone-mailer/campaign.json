@@ -1,64 +1,64 @@
 {
-  "id": "amb-evening-edit-2026-08-12",
-  "name": "The AMB Evening Edit",
-  "subject": "One piece. Three plans. That is the point.",
-  "preheader": "The AMB pieces designed to work harder in your wardrobe — from daytime plans to dinner.",
-  "eyebrow": "THE EVENING EDIT",
-  "headline": "The best piece in your wardrobe is the one you keep finding reasons to wear.",
-  "intro": "A polished wardrobe does not need more noise. It needs pieces that can shift with you — coffee to dinner, weekday to weekend, understated to dressed-up with just a change of accessories. Tonight, we are editing for versatility.",
-  "heroImage": "/images/newsletter-editorial.webp",
-  "heroAlt": "The AMB BOUTIQUE evening editorial edit",
+  "id": "amb-3-piece-formula-2026-08-12",
+  "name": "The AMB 3-Piece Formula",
+  "subject": "A 3-piece rule for better outfits (and fewer random buys)",
+  "preheader": "Use this simple styling formula before you buy another piece.",
+  "eyebrow": "THE 3-PIECE FORMULA",
+  "headline": "Before you buy another piece, ask one question: can it build three outfits?",
+  "intro": "Here is the AMB rule: choose one strong anchor, add one layer that changes the proportion, then finish with one accessory that makes the look feel intentional. It is a simple way to get more outfits from fewer pieces — and a better filter for what deserves a place in your wardrobe.",
+  "heroImage": "/products/sabine-tailored-romper/01.webp",
+  "heroAlt": "Sabine Tailored Romper from the AMB BOUTIQUE 3-Piece Formula edit",
   "cta": {
-    "label": "SHOP THE EVENING EDIT",
+    "label": "BUILD YOUR EDIT",
     "url": "/collections"
   },
-  "productSectionEyebrow": "WEAR IT YOUR WAY",
-  "productSectionTitle": "Six pieces with more than one plan.",
+  "productSectionEyebrow": "THE FORMULA, IN PRACTICE",
+  "productSectionTitle": "Start with the anchor. Add the layer. Finish with intention.",
   "products": [
     {
-      "slug": "maris-belted-romper",
-      "name": "Maris Belted Romper",
-      "price": "$79 USD",
-      "image": "/products/maris-belted-romper/01.webp",
-      "label": "DAY TO DINNER"
-    },
-    {
-      "slug": "portofino-carryall-burgundy",
-      "name": "Portofino Carryall — Burgundy",
-      "price": "$79 USD",
-      "image": "/editorial/bags/products/portofino-carryall-burgundy/01.webp",
-      "label": "THE FINISHING PIECE"
-    },
-    {
-      "slug": "brielle-satin-maxi-dress",
-      "name": "Brielle Satin Maxi Dress",
-      "price": "$118 USD",
-      "image": "/products/brielle-satin-maxi-dress/01.webp",
-      "label": "AFTER-DARK FAVORITE"
-    },
-    {
-      "slug": "cora-square-neck-top",
-      "name": "Cora Square-Neck Top",
-      "price": "$54 USD",
-      "image": "/products/cora-square-neck-top/01.webp",
-      "label": "STYLE IT THREE WAYS"
-    },
-    {
-      "slug": "cove-wide-leg-jumpsuit",
-      "name": "Cove Wide-Leg Jumpsuit",
-      "price": "$89 USD",
-      "image": "/products/cove-wide-leg-jumpsuit/01.webp",
-      "label": "EASY POLISH"
-    },
-    {
-      "slug": "capri-utility-romper",
-      "name": "Capri Utility Romper",
+      "slug": "sabine-tailored-romper",
+      "name": "Sabine Tailored Romper",
       "price": "$98 USD",
-      "image": "/products/capri-utility-romper/01.webp",
-      "label": "WEEKEND TO WEEKDAY"
+      "image": "/products/sabine-tailored-romper/01.webp",
+      "label": "THE ANCHOR"
+    },
+    {
+      "slug": "noa-wide-leg-jumpsuit",
+      "name": "Noa Wide-Leg Jumpsuit",
+      "price": "$89 USD",
+      "image": "/products/noa-wide-leg-jumpsuit/01.webp",
+      "label": "THE ONE-PIECE OPTION"
+    },
+    {
+      "slug": "kaia-halter-top",
+      "name": "Kaia Halter Top",
+      "price": "$52 USD",
+      "image": "/products/kaia-halter-top/01.webp",
+      "label": "THE BASE"
+    },
+    {
+      "slug": "ada-knit-vest",
+      "name": "Ada Knit Vest",
+      "price": "$58 USD",
+      "image": "/products/ada-knit-vest/01.webp",
+      "label": "THE LAYER"
+    },
+    {
+      "slug": "florence-mini-backpack-apricot",
+      "name": "Florence Mini — Apricot",
+      "price": "$59 USD",
+      "image": "/editorial/bags/products/florence-mini-backpack-apricot/01.webp?v=20260811-complete-gallery",
+      "label": "THE EASY FINISHER"
+    },
+    {
+      "slug": "marina-structured-tote-brown",
+      "name": "Marina Tote — Cognac",
+      "price": "$108 USD",
+      "image": "/editorial/bags/products/marina-structured-tote-brown/01.webp?v=20260811-complete-gallery",
+      "label": "THE POLISHED FINISH"
     }
   ],
-  "closingEyebrow": "THE AMB RULE",
-  "closingTitle": "If you can already picture three ways to wear it, it belongs in the edit.",
-  "closingBody": "Start with the silhouette that feels most like you. Add the shoe, bag or layer that changes the mood. The goal is not to own more — it is to have more ways to wear what you choose."
+  "closingEyebrow": "THE 10-SECOND AMB TEST",
+  "closingTitle": "Can you name three ways you would wear it before you click add to bag?",
+  "closingBody": "If the answer is yes, the piece is already doing more work for you. Think weekday, weekend and evening. Change one layer, one shoe or one bag and the same anchor becomes a different outfit. Buy with a plan, then style it your way."
 }
