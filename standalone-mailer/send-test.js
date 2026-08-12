@@ -22,7 +22,7 @@ function readEnvText() {
 
 function getEnvValue(text, key) {
   const line = text.split(/\r?\n/).find((row) => row.trim().startsWith(`${key}=`));
-  return line ? line.slice(line.indexOf('=') + 1).trim().replace(/^['"]|['"]$/g, '') : '';
+  return line ? line.slice(line.indexOf('=') + 1).trim().replace(/^['\"]|['\"]$/g, '') : '';
 }
 
 function setEnvValue(text, key, value) {
@@ -99,7 +99,10 @@ async function requestAndSaveKey(envText, reason) {
 
 async function run() {
   let envText = readEnvText();
-  let apiKey = process.env.RESEND_API_KEY || getEnvValue(envText, 'RESEND_API_KEY');
+
+  // The standalone mailer must prefer its own local .env key. A stale
+  // RESEND_API_KEY exported in the user's shell must never override it.
+  let apiKey = getEnvValue(envText, 'RESEND_API_KEY') || process.env.RESEND_API_KEY || '';
 
   if (!apiKey) {
     const configured = await requestAndSaveKey(envText, 'One-time setup: the standalone mailer needs its private Resend API key.');
@@ -107,25 +110,20 @@ async function run() {
     envText = configured.envText;
   }
 
+  console.log('Using the RESEND_API_KEY stored in standalone-mailer/.env.');
   console.log(`Safe test mode: only ${email} can receive this run.`);
   let attempt = runSafeTest(apiKey);
   if (attempt.ok) return;
 
-  const invalidKey = /Resend\s+401|API key is invalid|invalid api key|authentication/i.test(attempt.output);
-  if (!invalidKey) {
-    throw new Error('The test failed for a reason other than the API key. Nothing was sent to the contact list.');
+  const authFailure = /Resend\s+(401|403)|API key is invalid|invalid api key|restricted_api_key|authentication/i.test(attempt.output);
+  if (!authFailure) {
+    throw new Error('The test failed for a reason other than Resend authentication. Nothing was sent to the contact list.');
   }
 
-  const replacement = await requestAndSaveKey(
-    envText,
-    'The saved Resend API key is invalid or was revoked. Nothing was sent. Create a new Resend API key and paste it below.'
-  );
-
-  console.log(`Retrying safe test: only ${email} can receive this run.`);
-  attempt = runSafeTest(replacement.apiKey);
-  if (!attempt.ok) {
-    throw new Error('The new API key also failed. Nothing was sent to the contact list.');
-  }
+  console.error('\nAuthentication diagnostic: the exact key from standalone-mailer/.env was rejected by Resend.');
+  console.error('If you verified the token itself, check that the key is active in the correct Resend account/team and that its Sending access domain (if restricted) allows ambboutique.online.');
+  console.error('Nothing was sent to the contact list.');
+  process.exitCode = 1;
 }
 
 run().catch((error) => {
