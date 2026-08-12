@@ -9,6 +9,8 @@ const { execSync, spawnSync } = require('node:child_process');
 const ROOT = __dirname;
 const ENV_FILE = path.join(ROOT, '.env');
 const SMART_SEND = path.join(ROOT, 'smart-send.js');
+const CAMPAIGN_FILE = path.join(ROOT, 'campaign.json');
+const PREVIEW_FILE = path.join(ROOT, 'preview.html');
 const email = String(process.argv[2] || 'andremuseu@gmail.com').trim();
 
 if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
@@ -22,7 +24,12 @@ function readEnvText() {
 
 function getEnvValue(text, key) {
   const line = text.split(/\r?\n/).find((row) => row.trim().startsWith(`${key}=`));
-  return line ? line.slice(line.indexOf('=') + 1).trim().replace(/^['\"]|['\"]$/g, '') : '';
+  if (!line) return '';
+  return line.slice(line.indexOf('=') + 1).trim().replace(/^['\"]|['\"]$/g, '');
+}
+
+function normalizeSecret(value) {
+  return String(value || '').replace(/[\u200B-\u200D\uFEFF]/g, '').trim();
 }
 
 function setEnvValue(text, key, value) {
@@ -51,7 +58,7 @@ function askSecret(question) {
       setEcho(true);
       process.stdout.write('\n');
       rl.close();
-      resolve(answer.trim());
+      resolve(normalizeSecret(answer));
     });
   });
 }
@@ -62,72 +69,85 @@ function saveApiKey(envText, apiKey) {
   return updated;
 }
 
-function runSafeTest(apiKey) {
-  const result = spawnSync(process.execPath, [SMART_SEND], {
+function generatePreview() {
+  const result = spawnSync(process.execPath, [SMART_SEND, '--preview'], {
     cwd: ROOT,
-    env: {
-      ...process.env,
-      RESEND_API_KEY: apiKey,
-      PREVIEW_ONLY: 'false',
-      TEST_ONLY: 'true',
-      TEST_EMAIL: email,
-      SEND_LIVE: 'false',
-    },
+    env: { ...process.env, PREVIEW_ONLY: 'true', TEST_ONLY: 'false', SEND_LIVE: 'false' },
     encoding: 'utf8',
   });
 
   if (result.stdout) process.stdout.write(result.stdout);
   if (result.stderr) process.stderr.write(result.stderr);
-
-  return {
-    ok: result.status === 0,
-    output: `${result.stdout || ''}\n${result.stderr || ''}`,
-    status: result.status,
-  };
+  if (result.status !== 0) throw new Error('Could not generate the email preview. Nothing was sent.');
+  if (!fs.existsSync(PREVIEW_FILE)) throw new Error('preview.html was not generated. Nothing was sent.');
 }
 
-async function requestAndSaveKey(envText, reason) {
-  if (reason) console.log(reason);
-  const apiKey = await askSecret('Paste a NEW RESEND_API_KEY here (input hidden; saved only in local .env): ');
-  if (!apiKey || !/^re_/.test(apiKey)) {
-    throw new Error('A valid Resend API key is required. Nothing was sent.');
+async function sendDirectTest(apiKey, envText) {
+  const campaign = JSON.parse(fs.readFileSync(CAMPAIGN_FILE, 'utf8'));
+  const replyTo = getEnvValue(envText, 'REPLY_TO') || 'info@ambboutique.online';
+  const from = getEnvValue(envText, 'FROM_EMAIL') || 'AMB BOUTIQUE <info@ambboutique.online>';
+  const html = fs.readFileSync(PREVIEW_FILE, 'utf8')
+    .replace(/https:\/\/example\.com\/unsubscribe-preview/g, `mailto:${replyTo}?subject=Unsubscribe`);
+
+  const response = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      'Content-Type': 'application/json',
+      'User-Agent': 'AMB-Standalone-Mailer-Test/1.0',
+    },
+    body: JSON.stringify({
+      from,
+      to: [email],
+      reply_to: replyTo,
+      subject: `[TEST] ${campaign.subject}`,
+      html,
+    }),
+  });
+
+  const raw = await response.text();
+  let data = {};
+  try { data = raw ? JSON.parse(raw) : {}; } catch { data = { message: raw }; }
+
+  if (!response.ok) {
+    const type = data.name || data.type || data.error || 'unknown_error';
+    const message = data.message || 'No message returned by Resend.';
+    console.error('\nResend direct API diagnostic:');
+    console.error(`HTTP status: ${response.status}`);
+    console.error(`Error type: ${type}`);
+    console.error(`Message: ${message}`);
+    console.error('The API key itself was not printed. Nothing was sent to the contact list.');
+    process.exitCode = 1;
+    return false;
   }
-  const updatedEnv = saveApiKey(envText, apiKey);
-  console.log('New Resend key saved locally in standalone-mailer/.env.');
-  return { apiKey, envText: updatedEnv };
+
+  console.log(`Test sent to ${email}. Resend id: ${data.id || 'accepted'}`);
+  return true;
 }
 
 async function run() {
   let envText = readEnvText();
-
-  // The standalone mailer must prefer its own local .env key. A stale
-  // RESEND_API_KEY exported in the user's shell must never override it.
-  let apiKey = getEnvValue(envText, 'RESEND_API_KEY') || process.env.RESEND_API_KEY || '';
+  let apiKey = normalizeSecret(getEnvValue(envText, 'RESEND_API_KEY'));
 
   if (!apiKey) {
-    const configured = await requestAndSaveKey(envText, 'One-time setup: the standalone mailer needs its private Resend API key.');
-    apiKey = configured.apiKey;
-    envText = configured.envText;
+    console.log('One-time setup: the standalone mailer needs its private Resend API key.');
+    apiKey = await askSecret('Paste RESEND_API_KEY here (input hidden; saved only in local .env): ');
+    if (!apiKey || !/^re_/.test(apiKey)) throw new Error('A valid Resend API key is required. Nothing was sent.');
+    envText = saveApiKey(envText, apiKey);
+    console.log('Resend key saved locally in standalone-mailer/.env.');
   }
 
   console.log('Using the RESEND_API_KEY stored in standalone-mailer/.env.');
   console.log(`Safe test mode: only ${email} can receive this run.`);
-  let attempt = runSafeTest(apiKey);
-  if (attempt.ok) return;
+  console.log('Generating the exact AMB email HTML, then calling Resend POST /emails directly...');
 
-  const authFailure = /Resend\s+(401|403)|API key is invalid|invalid api key|restricted_api_key|authentication/i.test(attempt.output);
-  if (!authFailure) {
-    throw new Error('The test failed for a reason other than Resend authentication. Nothing was sent to the contact list.');
-  }
-
-  console.error('\nAuthentication diagnostic: the exact key from standalone-mailer/.env was rejected by Resend.');
-  console.error('If you verified the token itself, check that the key is active in the correct Resend account/team and that its Sending access domain (if restricted) allows ambboutique.online.');
-  console.error('Nothing was sent to the contact list.');
-  process.exitCode = 1;
+  generatePreview();
+  await sendDirectTest(apiKey, envText);
 }
 
 run().catch((error) => {
   setEcho(true);
   console.error(`\nERROR: ${error.message}`);
+  console.error('Nothing was sent to the contact list.');
   process.exitCode = 1;
 });
