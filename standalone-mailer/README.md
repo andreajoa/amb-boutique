@@ -10,6 +10,8 @@ Manual editorial email sender for AMB BOUTIQUE. This folder is intentionally iso
 4. Put one or more exported CSV files inside `contacts/`. Supported columns include `Email address`, `First name`, and `Last name`.
 5. Keep `PREVIEW_ONLY=true` for the first run.
 
+Only place contacts in `contacts/` who are currently eligible to receive marketing email (for example, a SUBSCRIBED/opted-in export). The supplied CSV format does not contain a subscription-status column, so the standalone script cannot infer prior opt-outs from the file itself.
+
 No npm install is required. The script uses Node's built-in `fetch` API, so use Node 18 or newer.
 
 ## Everyday workflow
@@ -57,7 +59,7 @@ Edit `campaign.json`. **Always change `id`** to a new unique value, for example 
 node smart-send.js
 ```
 
-The local `state/` marker prevents the same campaign ID from being sent twice accidentally.
+The local `state/` marker prevents the same campaign ID from being sent twice accidentally. The contact-list fingerprint also prevents re-importing the same unchanged CSV list on every new campaign.
 
 ## Local suppression
 
