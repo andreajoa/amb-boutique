@@ -61,7 +61,7 @@ async function ensureCampaign(campaign: AmbCampaign) {
     ) VALUES (
       ${campaign.key}, ${campaign.type}, ${campaign.step || null}, ${campaign.name},
       ${campaign.market || "ALL"}, ${campaign.subjectA}, ${campaign.subjectB || null},
-      ${campaign.preview}, 'amb-clean-v1',
+      ${campaign.preview}, 'amb-editorial-v2',
       ${jsonForDatabase({ delayHours: campaign.delayHours })}::jsonb,
       ${jsonForDatabase({ eyebrow: campaign.eyebrow, headline: campaign.headline, body: campaign.body, ctaLabel: campaign.ctaLabel, ctaUrl: campaign.ctaUrl })}::jsonb
     )
