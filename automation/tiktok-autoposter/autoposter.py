@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sqlite3
 import subprocess
 import sys
@@ -11,6 +12,8 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
+
+from music_selector import commercial_music_query
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
@@ -47,6 +50,9 @@ class QueueItem:
     scheduled_for: str | None
     published_at: str | None
     error: str | None
+    music_query: str
+    music_required: int
+    selected_music: str | None
 
 
 def load_config() -> dict:
@@ -72,13 +78,22 @@ def connect() -> sqlite3.Connection:
             created_at TEXT NOT NULL,
             scheduled_for TEXT,
             published_at TEXT,
-            error TEXT
+            error TEXT,
+            music_query TEXT NOT NULL DEFAULT '',
+            music_required INTEGER NOT NULL DEFAULT 1,
+            selected_music TEXT
         )
         """
     )
     columns = {row[1] for row in conn.execute("PRAGMA table_info(queue)").fetchall()}
     if "scheduled_for" not in columns:
         conn.execute("ALTER TABLE queue ADD COLUMN scheduled_for TEXT")
+    if "music_query" not in columns:
+        conn.execute("ALTER TABLE queue ADD COLUMN music_query TEXT NOT NULL DEFAULT ''")
+    if "music_required" not in columns:
+        conn.execute("ALTER TABLE queue ADD COLUMN music_required INTEGER NOT NULL DEFAULT 1")
+    if "selected_music" not in columns:
+        conn.execute("ALTER TABLE queue ADD COLUMN selected_music TEXT")
     conn.commit()
     return conn
 
@@ -124,7 +139,16 @@ def default_caption(product_name: str, market: str, product_url: str = "") -> st
     return caption
 
 
-def add_item(video: str, product: str, market: str, url: str, caption: str | None, publish_at: str | None = None) -> int:
+def add_item(
+    video: str,
+    product: str,
+    market: str,
+    url: str,
+    caption: str | None,
+    publish_at: str | None = None,
+    music_query: str | None = None,
+    music_required: bool = True,
+) -> int:
     market = market.upper()
     if market not in MARKETS:
         raise ValueError(f"Market must be one of: {', '.join(MARKETS)}")
@@ -133,12 +157,33 @@ def add_item(video: str, product: str, market: str, url: str, caption: str | Non
         raise FileNotFoundError(video_path)
     final_caption = caption.strip() if caption else default_caption(product, market, url)
     assert_english_only(final_caption)
+    final_music_query = commercial_music_query(
+        product,
+        final_caption,
+        video_path,
+        override_query=music_query,
+    ) if music_required else ""
     created_at = datetime.now(timezone.utc).isoformat()
     scheduled_for = normalize_publish_at(publish_at)
     with connect() as conn:
         cur = conn.execute(
-            "INSERT INTO queue(video_path, product_name, product_url, market, caption, status, created_at, scheduled_for) VALUES (?, ?, ?, ?, ?, 'queued', ?, ?)",
-            (video_path, product, url, market, final_caption, created_at, scheduled_for),
+            """
+            INSERT INTO queue(
+                video_path, product_name, product_url, market, caption, status,
+                created_at, scheduled_for, music_query, music_required
+            ) VALUES (?, ?, ?, ?, ?, 'queued', ?, ?, ?, ?)
+            """,
+            (
+                video_path,
+                product,
+                url,
+                market,
+                final_caption,
+                created_at,
+                scheduled_for,
+                final_music_query,
+                1 if music_required else 0,
+            ),
         )
         conn.commit()
         return int(cur.lastrowid)
@@ -210,9 +255,49 @@ def mark(item_id: int, status: str, error: str | None = None) -> None:
         conn.commit()
 
 
-def post(item: QueueItem, visibility: str = "public", dry_run: bool = False) -> int:
+def mark_selected_music(item_id: int, selected_music: str) -> None:
+    with connect() as conn:
+        conn.execute(
+            "UPDATE queue SET selected_music=? WHERE id=?",
+            (selected_music[:500], item_id),
+        )
+        conn.commit()
+
+
+def extract_selected_music(output: str) -> str | None:
+    match = re.search(r"^MUSIC_SELECTED:\s*(.+)$", output, flags=re.MULTILINE)
+    if not match:
+        return None
+    return " ".join(match.group(1).split())[:500]
+
+
+def music_mode() -> str:
+    return os.getenv("AMB_TIKTOK_MUSIC_MODE", "native").strip().lower() or "native"
+
+
+def build_post_command(item: QueueItem, visibility: str = "public") -> tuple[list[str], Path]:
     cli, account = preflight(item)
     vendor = cli.parent
+    mode = music_mode()
+
+    if item.music_required and mode == "native":
+        if visibility != "public":
+            raise ValueError("Native Commercial Sounds mode currently supports public posts only")
+        studio = ROOT / "tiktok_studio_music.py"
+        if not studio.exists():
+            raise FileNotFoundError(studio)
+        query = item.music_query or commercial_music_query(item.product_name, item.caption, item.video_path)
+        cmd = [
+            sys.executable,
+            str(studio),
+            "--user", account,
+            "--vendor", str(vendor),
+            "--video", item.video_path,
+            "--caption", item.caption,
+            "--music-query", query,
+        ]
+        return cmd, ROOT
+
     visibility_value = "0" if visibility == "public" else "1"
     cmd = [
         sys.executable,
@@ -227,16 +312,45 @@ def post(item: QueueItem, visibility: str = "public", dry_run: bool = False) -> 
         "-st", "0",
         "-ai", "0",
     ]
+    return cmd, vendor
+
+
+def post(item: QueueItem, visibility: str = "public", dry_run: bool = False) -> int:
+    cmd, cwd = build_post_command(item, visibility=visibility)
     if dry_run:
         safe = cmd.copy()
-        safe[safe.index(item.caption)] = "<ENGLISH_CAPTION>"
-        print(json.dumps({"dry_run": True, "command": safe, "item_id": item.id}, indent=2))
+        for flag in ("--caption", "-t"):
+            if flag in safe:
+                index = safe.index(flag) + 1
+                if index < len(safe):
+                    safe[index] = "<ENGLISH_CAPTION>"
+        print(
+            json.dumps(
+                {
+                    "dry_run": True,
+                    "command": safe,
+                    "item_id": item.id,
+                    "music_required": bool(item.music_required),
+                    "music_query": item.music_query,
+                    "music_mode": music_mode(),
+                },
+                indent=2,
+            )
+        )
         return 0
 
     mark(item.id, "publishing")
-    result = subprocess.run(cmd, cwd=vendor, text=True, capture_output=True)
+    result = subprocess.run(cmd, cwd=cwd, text=True, capture_output=True)
     output = ((result.stdout or "") + "\n" + (result.stderr or "")).strip()
     if result.returncode == 0 and "Published successfully" in output:
+        selected = extract_selected_music(output)
+        if item.music_required and music_mode() == "native" and not selected:
+            error = "TikTok reported publication success but native Commercial Sound selection was not confirmed"
+            mark(item.id, "failed", error)
+            print(error, file=sys.stderr)
+            return 1
+        if selected:
+            mark_selected_music(item.id, selected)
         mark(item.id, "published")
         print(output)
         return 0
@@ -253,6 +367,9 @@ def command_status() -> int:
     for item in items:
         schedule = item.scheduled_for or "as soon as runner executes"
         print(f"#{item.id} [{item.status}] {item.market} | {item.product_name} | {Path(item.video_path).name} | {schedule}")
+        if item.music_required:
+            music = item.selected_music or f"planned: {item.music_query}"
+            print(f"  music: {music}")
         if item.error:
             print(f"  error: {item.error.splitlines()[-1][:300]}")
     return 0
@@ -269,6 +386,8 @@ def main() -> int:
     add.add_argument("--url", default="")
     add.add_argument("--caption")
     add.add_argument("--publish-at", help="ISO 8601 time with timezone, e.g. 2026-08-22T19:00:00-04:00")
+    add.add_argument("--music-query", help="Override the automatic Commercial Sounds search phrase")
+    add.add_argument("--no-music", action="store_true", help="Disable native music for this item")
 
     sub.add_parser("status", help="Show queue status")
 
@@ -279,7 +398,16 @@ def main() -> int:
     args = parser.parse_args()
     try:
         if args.command == "add":
-            item_id = add_item(args.video, args.product, args.market, args.url, args.caption, args.publish_at)
+            item_id = add_item(
+                args.video,
+                args.product,
+                args.market,
+                args.url,
+                args.caption,
+                args.publish_at,
+                music_query=args.music_query,
+                music_required=not args.no_music,
+            )
             print(f"Queued item #{item_id}")
             return 0
         if args.command == "status":

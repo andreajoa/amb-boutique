@@ -45,13 +45,20 @@ def test_product_name_comes_from_filename():
     assert product_from_filename(Path("satin-midi-dress_black.mp4")) == "Satin Midi Dress Black"
 
 
-def test_scan_keeps_video_in_inbox_until_publication(tmp_path, monkeypatch):
+def test_scan_keeps_video_in_inbox_until_publication_and_requires_music(tmp_path, monkeypatch):
     folders = auto_queue.ensure_folders(tmp_path)
     video = folders["inbox"] / "satin-midi-dress.mp4"
     video.write_bytes(b"video")
+    captured = {}
 
     monkeypatch.setattr(auto_queue, "list_items", lambda: [])
-    monkeypatch.setattr(auto_queue, "add_item", lambda *args, **kwargs: 99)
+
+    def fake_add_item(*args, **kwargs):
+        captured["args"] = args
+        captured["kwargs"] = kwargs
+        return 99
+
+    monkeypatch.setattr(auto_queue, "add_item", fake_add_item)
     monkeypatch.setattr(
         auto_queue,
         "next_available_slot",
@@ -63,6 +70,31 @@ def test_scan_keeps_video_in_inbox_until_publication(tmp_path, monkeypatch):
     assert ids == [99]
     assert video.exists()
     assert not (folders["queued"] / video.name).exists()
+    assert captured["kwargs"]["music_required"] is True
+    assert captured["kwargs"]["music_query"] is None
+
+
+def test_sidecar_can_override_music_search(tmp_path, monkeypatch):
+    folders = auto_queue.ensure_folders(tmp_path)
+    video = folders["inbox"] / "black-blazer.mp4"
+    video.write_bytes(b"video")
+    video.with_suffix(".json").write_text(
+        '{"music_query":"runway electronic","music_required":true}',
+        encoding="utf-8",
+    )
+    captured = {}
+
+    monkeypatch.setattr(auto_queue, "list_items", lambda: [])
+    monkeypatch.setattr(auto_queue, "next_available_slot", lambda *a, **k: "2026-08-21T18:00:00+00:00")
+
+    def fake_add_item(*args, **kwargs):
+        captured.update(kwargs)
+        return 100
+
+    monkeypatch.setattr(auto_queue, "add_item", fake_add_item)
+    assert scan_inbox(tmp_path) == [100]
+    assert captured["music_query"] == "runway electronic"
+    assert captured["music_required"] is True
 
 
 def test_published_archive_has_date_and_time(tmp_path):

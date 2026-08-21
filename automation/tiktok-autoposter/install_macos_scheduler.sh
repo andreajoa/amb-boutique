@@ -44,6 +44,12 @@ cat > "$PLIST" <<EOF
     <string>America/Sao_Paulo</string>
     <key>AMB_TIKTOK_SLOTS</key>
     <string>09:00,12:00,15:00,18:00,21:00,23:00</string>
+    <key>AMB_TIKTOK_MUSIC_MODE</key>
+    <string>native</string>
+    <key>AMB_TIKTOK_REQUIRE_COMMERCIAL_MUSIC</key>
+    <string>1</string>
+    <key>AMB_TIKTOK_BROWSER_HEADLESS</key>
+    <string>1</string>
   </dict>
 </dict>
 </plist>
@@ -53,5 +59,6 @@ launchctl bootout "gui/$UID" "$PLIST" 2>/dev/null || true
 launchctl bootstrap "gui/$UID" "$PLIST"
 echo "Installed TikTok real-video automation. Queue check interval: ${INTERVAL}s"
 echo "Automatic publication slots: 09:00, 12:00, 15:00, 18:00, 21:00 and 23:00 America/Sao_Paulo"
+echo "Native Commercial Sounds: required"
 echo "Drop real videos into: $DROPBOX/inbox"
 echo "LaunchAgent: $PLIST"

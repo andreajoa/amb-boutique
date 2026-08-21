@@ -47,10 +47,16 @@ echo
 echo 'Default publication slots:'
 echo '  09:00, 12:00, 15:00, 18:00, 21:00 and 23:00 (America/Sao_Paulo)'
 echo
+echo 'Automatic native music:'
+echo '  - music search is inferred from the fashion product/video'
+echo '  - TikTok Commercial Sounds are required'
+echo '  - the item fails closed if commercial music cannot be applied safely'
+echo
 echo 'If no metadata file is supplied:'
 echo '  - product name comes from the video filename'
 echo '  - caption is generated in English'
 echo '  - market hashtags rotate through US, CA, UK, AU and NZ'
+echo '  - a suitable Commercial Sounds search phrase is selected automatically'
 echo
 echo 'Opening the inbox folder in Finder...'
 open "$DROPBOX/inbox"
