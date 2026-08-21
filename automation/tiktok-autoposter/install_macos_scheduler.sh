@@ -2,7 +2,11 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")" && pwd)"
-PYTHON="$(command -v python3)"
+if [ -x "$ROOT/.venv/bin/python" ]; then
+  PYTHON="$ROOT/.venv/bin/python"
+else
+  PYTHON="$(command -v python3)"
+fi
 INTERVAL="${1:-900}"
 PLIST="$HOME/Library/LaunchAgents/com.amb.tiktok-autoposter.plist"
 mkdir -p "$HOME/Library/LaunchAgents" "$ROOT/logs"
