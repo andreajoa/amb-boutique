@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
 
+from music_bed import prepare_video_with_music
 from music_selector import commercial_music_query
 
 ROOT = Path(__file__).resolve().parent
@@ -272,15 +273,19 @@ def extract_selected_music(output: str) -> str | None:
 
 
 def music_mode() -> str:
-    return os.getenv("AMB_TIKTOK_MUSIC_MODE", "native").strip().lower() or "native"
+    return os.getenv("AMB_TIKTOK_MUSIC_MODE", "local-original").strip().lower() or "local-original"
 
 
-def build_post_command(item: QueueItem, visibility: str = "public") -> tuple[list[str], Path]:
+def build_post_command(
+    item: QueueItem,
+    visibility: str = "public",
+    video_override: str | None = None,
+) -> tuple[list[str], Path]:
     cli, account = preflight(item)
     vendor = cli.parent
     mode = music_mode()
 
-    if item.music_required and mode == "native":
+    if item.music_required and mode == "native" and not video_override:
         if visibility != "public":
             raise ValueError("Native Commercial Sounds mode currently supports public posts only")
         studio = ROOT / "tiktok_studio_music.py"
@@ -304,7 +309,7 @@ def build_post_command(item: QueueItem, visibility: str = "public") -> tuple[lis
         str(cli),
         "upload",
         "--user", account,
-        "-v", item.video_path,
+        "-v", video_override or item.video_path,
         "-t", item.caption,
         "-vi", visibility_value,
         "-ct", "1",
@@ -316,8 +321,9 @@ def build_post_command(item: QueueItem, visibility: str = "public") -> tuple[lis
 
 
 def post(item: QueueItem, visibility: str = "public", dry_run: bool = False) -> int:
-    cmd, cwd = build_post_command(item, visibility=visibility)
+    mode = music_mode()
     if dry_run:
+        cmd, _ = build_post_command(item, visibility=visibility)
         safe = cmd.copy()
         for flag in ("--caption", "-t"):
             if flag in safe:
@@ -332,31 +338,72 @@ def post(item: QueueItem, visibility: str = "public", dry_run: bool = False) -> 
                     "item_id": item.id,
                     "music_required": bool(item.music_required),
                     "music_query": item.music_query,
-                    "music_mode": music_mode(),
+                    "music_mode": mode,
+                    "music_preparation": "generated original music is mixed before upload"
+                    if item.music_required and mode in {"local-original", "local", "original"}
+                    else None,
                 },
                 indent=2,
             )
         )
         return 0
 
-    mark(item.id, "publishing")
-    result = subprocess.run(cmd, cwd=cwd, text=True, capture_output=True)
-    output = ((result.stdout or "") + "\n" + (result.stderr or "")).strip()
-    if result.returncode == 0 and "Published successfully" in output:
-        selected = extract_selected_music(output)
-        if item.music_required and music_mode() == "native" and not selected:
-            error = "TikTok reported publication success but native Commercial Sound selection was not confirmed"
-            mark(item.id, "failed", error)
-            print(error, file=sys.stderr)
-            return 1
-        if selected:
-            mark_selected_music(item.id, selected)
-        mark(item.id, "published")
-        print(output)
-        return 0
-    mark(item.id, "failed", output[-4000:] if output else f"Uploader exited {result.returncode}")
-    print(output, file=sys.stderr)
-    return result.returncode or 1
+    prepared: Path | None = None
+    selected_music: str | None = None
+    try:
+        if item.music_required and mode in {"local-original", "local", "original"}:
+            prepared, selected_music = prepare_video_with_music(
+                item.video_path,
+                item.product_name,
+                item.caption,
+                music_query=item.music_query or None,
+                item_id=item.id,
+            )
+            cmd, cwd = build_post_command(
+                item,
+                visibility=visibility,
+                video_override=str(prepared),
+            )
+            print(f"Prepared video with music: {selected_music}")
+        else:
+            cmd, cwd = build_post_command(item, visibility=visibility)
+
+        mark(item.id, "publishing")
+        result = subprocess.run(cmd, cwd=cwd, text=True, capture_output=True)
+        output = ((result.stdout or "") + "\n" + (result.stderr or "")).strip()
+        if result.returncode == 0 and "Published successfully" in output:
+            native_selected = extract_selected_music(output)
+            final_selected = selected_music or native_selected
+            if item.music_required and mode == "native" and not final_selected:
+                error = "TikTok reported publication success but native Commercial Sound selection was not confirmed"
+                mark(item.id, "failed", error)
+                print(error, file=sys.stderr)
+                return 1
+            if item.music_required and mode in {"local-original", "local", "original"} and not final_selected:
+                error = "Original music preparation was required but no selected music was recorded"
+                mark(item.id, "failed", error)
+                print(error, file=sys.stderr)
+                return 1
+            if final_selected:
+                mark_selected_music(item.id, final_selected)
+            mark(item.id, "published")
+            print(output)
+            return 0
+
+        mark(item.id, "failed", output[-4000:] if output else f"Uploader exited {result.returncode}")
+        print(output, file=sys.stderr)
+        return result.returncode or 1
+    except Exception as exc:
+        error = f"{type(exc).__name__}: {exc}"
+        mark(item.id, "failed", error[-4000:])
+        print(error, file=sys.stderr)
+        return 1
+    finally:
+        if prepared and prepared.exists():
+            try:
+                prepared.unlink()
+            except OSError:
+                pass
 
 
 def command_status() -> int:
@@ -368,7 +415,12 @@ def command_status() -> int:
         schedule = item.scheduled_for or "as soon as runner executes"
         print(f"#{item.id} [{item.status}] {item.market} | {item.product_name} | {Path(item.video_path).name} | {schedule}")
         if item.music_required:
-            music = item.selected_music or f"planned: {item.music_query}"
+            if item.selected_music:
+                music = item.selected_music
+            elif item.music_query:
+                music = f"planned: {item.music_query}"
+            else:
+                music = "planned: automatic original fashion music"
             print(f"  music: {music}")
         if item.error:
             print(f"  error: {item.error.splitlines()[-1][:300]}")
@@ -386,8 +438,8 @@ def main() -> int:
     add.add_argument("--url", default="")
     add.add_argument("--caption")
     add.add_argument("--publish-at", help="ISO 8601 time with timezone, e.g. 2026-08-22T19:00:00-04:00")
-    add.add_argument("--music-query", help="Override the automatic Commercial Sounds search phrase")
-    add.add_argument("--no-music", action="store_true", help="Disable native music for this item")
+    add.add_argument("--music-query", help="Override the automatic music style search phrase")
+    add.add_argument("--no-music", action="store_true", help="Disable automatic music for this item")
 
     sub.add_parser("status", help="Show queue status")
 
