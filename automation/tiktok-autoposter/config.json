@@ -1,0 +1,15 @@
+{
+  "language": "en",
+  "content_niche": "women's fashion",
+  "target_markets": ["US", "CA", "UK", "AU", "NZ"],
+  "default_visibility": "public",
+  "comments": true,
+  "duet": false,
+  "stitch": false,
+  "ai_generated_label": false,
+  "publishing_policy": {
+    "english_only": true,
+    "requires_existing_video_file": true,
+    "credentials_must_never_be_committed": true
+  }
+}
