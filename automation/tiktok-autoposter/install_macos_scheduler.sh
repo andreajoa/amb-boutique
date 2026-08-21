@@ -9,7 +9,8 @@ else
 fi
 INTERVAL="${1:-900}"
 PLIST="$HOME/Library/LaunchAgents/com.amb.tiktok-autoposter.plist"
-mkdir -p "$HOME/Library/LaunchAgents" "$ROOT/logs" "$HOME/AMB-TikTok/inbox" "$HOME/AMB-TikTok/queued" "$HOME/AMB-TikTok/published" "$HOME/AMB-TikTok/failed"
+DROPBOX="$HOME/Downloads/AMB-TikTok"
+mkdir -p "$HOME/Library/LaunchAgents" "$ROOT/logs" "$DROPBOX/inbox" "$DROPBOX/queued" "$DROPBOX/published" "$DROPBOX/failed"
 
 cat > "$PLIST" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
@@ -38,7 +39,7 @@ cat > "$PLIST" <<EOF
     <key>TIKTOK_ACCOUNT_NAME</key>
     <string>amb-boutique</string>
     <key>AMB_TIKTOK_DROPBOX</key>
-    <string>$HOME/AMB-TikTok</string>
+    <string>$DROPBOX</string>
     <key>AMB_TIKTOK_TIMEZONE</key>
     <string>America/Sao_Paulo</string>
     <key>AMB_TIKTOK_SLOTS</key>
@@ -52,5 +53,5 @@ launchctl bootout "gui/$UID" "$PLIST" 2>/dev/null || true
 launchctl bootstrap "gui/$UID" "$PLIST"
 echo "Installed TikTok real-video automation. Queue check interval: ${INTERVAL}s"
 echo "Automatic publication slots: 09:00, 12:00, 15:00, 18:00, 21:00 and 23:00 America/Sao_Paulo"
-echo "Drop real videos into: $HOME/AMB-TikTok/inbox"
+echo "Drop real videos into: $DROPBOX/inbox"
 echo "LaunchAgent: $PLIST"

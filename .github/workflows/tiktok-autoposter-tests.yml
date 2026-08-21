@@ -27,7 +27,7 @@ jobs:
       - run: python -m pytest -q automation/tiktok-autoposter/tests
         env:
           PYTHONPATH: automation/tiktok-autoposter
-      - run: bash -n automation/tiktok-autoposter/setup.sh automation/tiktok-autoposter/install_macos_scheduler.sh automation/tiktok-autoposter/uninstall_macos_scheduler.sh automation/tiktok-autoposter/FIRST_TIKTOK_LIVE_TEST.command automation/tiktok-autoposter/ENABLE_REAL_TIKTOK_AUTOMATION.command
+      - run: bash -n automation/tiktok-autoposter/setup.sh automation/tiktok-autoposter/install_macos_scheduler.sh automation/tiktok-autoposter/uninstall_macos_scheduler.sh automation/tiktok-autoposter/FIRST_TIKTOK_LIVE_TEST.command automation/tiktok-autoposter/ENABLE_REAL_TIKTOK_AUTOMATION.command automation/tiktok-autoposter/MIGRATE_TIKTOK_FOLDER.command
 
   upstream-setup:
     runs-on: ubuntu-latest
