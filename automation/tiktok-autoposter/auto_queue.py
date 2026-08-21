@@ -25,9 +25,10 @@ def ensure_folders(root: Path | None = None) -> dict[str, Path]:
     folders = {
         "root": base,
         "inbox": base / "inbox",
-        "queued": base / "queued",
         "published": base / "published",
         "failed": base / "failed",
+        # Kept only for backward compatibility with older queued files.
+        "queued": base / "queued",
     }
     for path in folders.values():
         path.mkdir(parents=True, exist_ok=True)
@@ -114,6 +115,28 @@ def future_occupied_slots() -> set[str]:
     return occupied
 
 
+def tracked_active_paths() -> set[str]:
+    tracked: set[str] = set()
+    for item in list_items():
+        if item.status not in {"queued", "publishing", "published"}:
+            continue
+        try:
+            tracked.add(str(Path(item.video_path).expanduser().resolve()))
+        except OSError:
+            continue
+    return tracked
+
+
+def move_failed_intake(video: Path, sidecar: Path, folders: dict[str, Path]) -> None:
+    failed_day = folders["failed"] / datetime.now().strftime("%Y-%m-%d")
+    failed_day.mkdir(parents=True, exist_ok=True)
+    failed_video = unique_destination(failed_day, video.name)
+    if video.exists():
+        shutil.move(str(video), str(failed_video))
+    if sidecar.exists():
+        shutil.move(str(sidecar), str(failed_video.with_suffix(".json")))
+
+
 def scan_inbox(root: Path | None = None) -> list[int]:
     folders = ensure_folders(root)
     videos = sorted(
@@ -125,32 +148,35 @@ def scan_inbox(root: Path | None = None) -> list[int]:
 
     queued_ids: list[int] = []
     occupied = future_occupied_slots()
-    existing_count = len(list_items())
+    all_items = list_items()
+    existing_count = len(all_items)
+    tracked = tracked_active_paths()
 
     for index, source_video in enumerate(videos):
+        resolved_source = str(source_video.resolve())
+        if resolved_source in tracked:
+            print(f"Already tracked, leaving in inbox until publication: {source_video.name}")
+            continue
+
         source_sidecar = source_video.with_suffix(".json")
-        metadata = load_metadata(source_video)
-        market = str(metadata.get("market") or MARKET_ROTATION[(existing_count + index) % len(MARKET_ROTATION)]).upper()
-        if market not in MARKETS:
-            raise ValueError(f"Unsupported market '{market}' for {source_video.name}")
-
-        product = str(metadata.get("product") or product_from_filename(source_video)).strip()
-        url = str(metadata.get("url") or "").strip()
-        caption = metadata.get("caption")
-        publish_at = metadata.get("publish_at")
-        if not publish_at:
-            publish_at = next_available_slot(datetime.now(timezone.utc), occupied_utc=occupied)
-            occupied.add(publish_at)
-
-        queued_video = unique_destination(folders["queued"], source_video.name)
-        queued_sidecar = queued_video.with_suffix(".json")
-        shutil.move(str(source_video), str(queued_video))
-        if source_sidecar.exists():
-            shutil.move(str(source_sidecar), str(queued_sidecar))
-
         try:
+            metadata = load_metadata(source_video)
+            market = str(metadata.get("market") or MARKET_ROTATION[(existing_count + index) % len(MARKET_ROTATION)]).upper()
+            if market not in MARKETS:
+                raise ValueError(f"Unsupported market '{market}' for {source_video.name}")
+
+            product = str(metadata.get("product") or product_from_filename(source_video)).strip()
+            url = str(metadata.get("url") or "").strip()
+            caption = metadata.get("caption")
+            publish_at = metadata.get("publish_at")
+            if not publish_at:
+                publish_at = next_available_slot(datetime.now(timezone.utc), occupied_utc=occupied)
+                occupied.add(publish_at)
+
+            # Important invariant: the video remains in inbox while queued.
+            # Its presence means it has not yet been confirmed as published.
             item_id = add_item(
-                str(queued_video),
+                str(source_video),
                 product,
                 market,
                 url,
@@ -158,14 +184,12 @@ def scan_inbox(root: Path | None = None) -> list[int]:
                 str(publish_at),
             )
         except Exception:
-            failed_video = unique_destination(folders["failed"], queued_video.name)
-            shutil.move(str(queued_video), str(failed_video))
-            if queued_sidecar.exists():
-                shutil.move(str(queued_sidecar), str(failed_video.with_suffix(".json")))
+            move_failed_intake(source_video, source_sidecar, folders)
             raise
 
         queued_ids.append(item_id)
-        print(f"Auto-queued #{item_id}: {queued_video.name} -> {publish_at} [{market}]")
+        tracked.add(resolved_source)
+        print(f"Auto-queued #{item_id}: {source_video.name} -> {publish_at} [{market}] (kept in inbox until success)")
 
     return queued_ids
 
