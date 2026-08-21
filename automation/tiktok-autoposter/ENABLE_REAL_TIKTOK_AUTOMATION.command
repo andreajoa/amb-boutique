@@ -37,7 +37,7 @@ bash "$MODULE/MIGRATE_TIKTOK_FOLDER.command"
 mkdir -p "$DROPBOX/inbox" "$DROPBOX/queued" "$DROPBOX/published" "$DROPBOX/failed"
 
 echo 'Installing the automatic real-video queue...'
-bash "$MODULE/install_macos_scheduler.sh" 900
+bash "$MODULE/install_macos_scheduler.sh" 60
 
 echo
 echo 'Automation enabled.'
@@ -46,17 +46,19 @@ echo "  $DROPBOX/inbox"
 echo
 echo 'Default publication slots:'
 echo '  09:00, 12:00, 15:00, 18:00, 21:00 and 23:00 (America/Sao_Paulo)'
+echo '  missed cycles have a 45-minute grace window'
 echo
-echo 'Automatic native music:'
-echo '  - music search is inferred from the fashion product/video'
-echo '  - TikTok Commercial Sounds are required'
-echo '  - the item fails closed if commercial music cannot be applied safely'
+echo 'Automatic music:'
+echo '  - the fashion style is inferred from the product/video'
+echo '  - an original AMB instrumental bed is selected/generated locally'
+echo '  - music is mixed into a temporary publishing copy before upload'
+echo '  - the source video in inbox is never modified'
 echo
 echo 'If no metadata file is supplied:'
 echo '  - product name comes from the video filename'
 echo '  - caption is generated in English'
 echo '  - market hashtags rotate through US, CA, UK, AU and NZ'
-echo '  - a suitable Commercial Sounds search phrase is selected automatically'
+echo '  - a suitable fashion soundtrack profile is selected automatically'
 echo
 echo 'Opening the inbox folder in Finder...'
 open "$DROPBOX/inbox"
