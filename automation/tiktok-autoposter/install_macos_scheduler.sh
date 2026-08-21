@@ -9,7 +9,7 @@ else
 fi
 INTERVAL="${1:-900}"
 PLIST="$HOME/Library/LaunchAgents/com.amb.tiktok-autoposter.plist"
-mkdir -p "$HOME/Library/LaunchAgents" "$ROOT/logs"
+mkdir -p "$HOME/Library/LaunchAgents" "$ROOT/logs" "$HOME/AMB-TikTok/inbox" "$HOME/AMB-TikTok/queued" "$HOME/AMB-TikTok/published" "$HOME/AMB-TikTok/failed"
 
 cat > "$PLIST" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
@@ -21,10 +21,7 @@ cat > "$PLIST" <<EOF
   <key>ProgramArguments</key>
   <array>
     <string>$PYTHON</string>
-    <string>$ROOT/autoposter.py</string>
-    <string>post-next</string>
-    <string>--visibility</string>
-    <string>public</string>
+    <string>$ROOT/auto_runner.py</string>
   </array>
   <key>WorkingDirectory</key>
   <string>$ROOT</string>
@@ -40,6 +37,12 @@ cat > "$PLIST" <<EOF
   <dict>
     <key>TIKTOK_ACCOUNT_NAME</key>
     <string>amb-boutique</string>
+    <key>AMB_TIKTOK_DROPBOX</key>
+    <string>$HOME/AMB-TikTok</string>
+    <key>AMB_TIKTOK_TIMEZONE</key>
+    <string>America/Sao_Paulo</string>
+    <key>AMB_TIKTOK_SLOTS</key>
+    <string>13:00,21:00</string>
   </dict>
 </dict>
 </plist>
@@ -47,5 +50,7 @@ EOF
 
 launchctl bootout "gui/$UID" "$PLIST" 2>/dev/null || true
 launchctl bootstrap "gui/$UID" "$PLIST"
-echo "Installed TikTok autoposter scheduler. Queue check interval: ${INTERVAL}s"
+echo "Installed TikTok real-video automation. Queue check interval: ${INTERVAL}s"
+echo "Automatic publication slots: 13:00 and 21:00 America/Sao_Paulo"
+echo "Drop real videos into: $HOME/AMB-TikTok/inbox"
 echo "LaunchAgent: $PLIST"
