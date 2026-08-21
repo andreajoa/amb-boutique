@@ -2,7 +2,7 @@
 
 English-only TikTok publishing workflow for a women's fashion store targeting the United States, Canada, United Kingdom, Australia, and New Zealand.
 
-The module is isolated from the storefront runtime. It uses `makiisthenes/TiktokAutoUploader` as a pinned local dependency and wraps it with queue management, credential isolation, market presets, validation, and publication status tracking.
+The module is isolated from the storefront runtime. It uses `makiisthenes/TiktokAutoUploader` as a pinned local dependency and wraps it with queue management, credential isolation, market presets, timezone-aware scheduling, validation, and publication status tracking.
 
 ## Security
 
@@ -25,6 +25,8 @@ python3 import_cookies.py /absolute/path/to/cookies.txt --account amb-boutique
 
 ## Add a video
 
+Publish as soon as the automatic runner sees it:
+
 ```bash
 python3 autoposter.py add \
   --video ./videos/look-01.mp4 \
@@ -32,6 +34,18 @@ python3 autoposter.py add \
   --market US \
   --url "https://your-store.example/products/elegant-satin-midi-dress"
 ```
+
+Schedule it for an exact local time by providing an ISO 8601 timezone offset:
+
+```bash
+python3 autoposter.py add \
+  --video ./videos/look-02.mp4 \
+  --product "Minimal Knit Set" \
+  --market US \
+  --publish-at "2026-08-22T19:00:00-04:00"
+```
+
+The scheduled time is normalized to UTC internally so daylight-saving and international schedules do not get mixed up.
 
 Supported markets: `US`, `CA`, `UK`, `AU`, `NZ`.
 
@@ -49,9 +63,9 @@ python3 autoposter.py status
 python3 autoposter.py post-next --dry-run
 ```
 
-The dry run validates the video, account session file, uploader installation, and English-only caption without publishing.
+The dry run validates the video, account session file, uploader installation, due time, and English-only caption without publishing.
 
-## Publish
+## Publish manually
 
 Private test:
 
@@ -67,9 +81,31 @@ python3 autoposter.py post-next --visibility public
 
 A queue item is marked `published` only when the upstream uploader explicitly returns `Published successfully`. Soft failures are recorded as `failed` instead of being incorrectly treated as success.
 
+## Automatic publishing on macOS
+
+After the first live publication has been validated, install the LaunchAgent:
+
+```bash
+bash install_macos_scheduler.sh
+```
+
+By default it checks the queue every 15 minutes. To check every hour:
+
+```bash
+bash install_macos_scheduler.sh 3600
+```
+
+The scheduler publishes only due queue items and only one item per run. The Mac must be powered on, logged in, and connected to the internet. Logs are written under `logs/`.
+
+Remove the scheduler with:
+
+```bash
+bash uninstall_macos_scheduler.sh
+```
+
 ## Language rule
 
-All generated captions are English. The publisher rejects captions containing common Portuguese commerce terms before it calls TikTok.
+All generated captions, CTAs, and hashtags are English. The publisher rejects captions containing common Portuguese commerce terms before it calls TikTok. Source videos intended for automatic publishing must also contain only English on-screen text and audio when speech is present.
 
 ## Market targeting
 
