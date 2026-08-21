@@ -8,6 +8,7 @@ on:
   push:
     branches:
       - "feat/tiktok-autoposter"
+      - "feat/tiktok-first-live-launcher"
     paths:
       - "automation/tiktok-autoposter/**"
       - ".github/workflows/tiktok-autoposter-tests.yml"
@@ -23,7 +24,7 @@ jobs:
       - run: python -m pip install pytest
       - run: python -m py_compile automation/tiktok-autoposter/autoposter.py automation/tiktok-autoposter/import_cookies.py automation/tiktok-autoposter/patch_upstream.py
       - run: python -m pytest -q automation/tiktok-autoposter/tests/test_policy.py
-      - run: bash -n automation/tiktok-autoposter/setup.sh automation/tiktok-autoposter/install_macos_scheduler.sh automation/tiktok-autoposter/uninstall_macos_scheduler.sh
+      - run: bash -n automation/tiktok-autoposter/setup.sh automation/tiktok-autoposter/install_macos_scheduler.sh automation/tiktok-autoposter/uninstall_macos_scheduler.sh automation/tiktok-autoposter/FIRST_TIKTOK_LIVE_TEST.command
 
   upstream-setup:
     runs-on: ubuntu-latest
@@ -40,5 +41,6 @@ jobs:
       - name: Verify patched uploader
         run: |
           test -f automation/tiktok-autoposter/vendor/TiktokAutoUploader/cli.py
+          test -x automation/tiktok-autoposter/.venv/bin/python
           grep -q 'Load the complete TikTok-only cookie subset' automation/tiktok-autoposter/vendor/TiktokAutoUploader/tiktok_uploader/tiktok.py
           grep -q '"visibility_type": visibility_type' automation/tiktok-autoposter/vendor/TiktokAutoUploader/tiktok_uploader/tiktok.py
