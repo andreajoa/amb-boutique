@@ -2,7 +2,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import auto_queue
-from auto_queue import next_available_slot, parse_slots, product_from_filename, scan_inbox
+from auto_queue import dropbox_root, next_available_slot, parse_slots, product_from_filename, scan_inbox
 from auto_runner import published_archive_target
 
 
@@ -10,6 +10,12 @@ def test_parse_default_slots():
     assert parse_slots("09:00,12:00,15:00,18:00,21:00,23:00") == [
         (9, 0), (12, 0), (15, 0), (18, 0), (21, 0), (23, 0)
     ]
+
+
+def test_default_dropbox_is_in_downloads(tmp_path, monkeypatch):
+    monkeypatch.delenv("AMB_TIKTOK_DROPBOX", raising=False)
+    monkeypatch.setenv("HOME", str(tmp_path))
+    assert dropbox_root() == (tmp_path / "Downloads" / "AMB-TikTok").resolve()
 
 
 def test_next_slot_uses_sao_paulo_timezone():
