@@ -8,7 +8,8 @@
 
 ## 2. Content policy
 - [x] English-only captions.
-- [x] English-only CTA text.
+- [x] English-only CTA text and hashtags.
+- [x] Source-video rule: on-screen text/audio must also be English when present.
 - [x] Target-market presets for US, Canada, UK, Australia, and New Zealand.
 - [x] Reject common Portuguese commerce terms before publishing.
 
@@ -18,11 +19,14 @@
 - [x] Generate a default English caption.
 - [x] Allow custom English captions.
 - [x] Show queue status.
+- [x] Timezone-aware scheduled publication.
+- [x] Publish only items whose scheduled time has arrived.
 - [x] Publish the next queued item through TiktokAutoUploader.
 - [x] Support public/private test visibility.
 - [x] Record published/failed state locally.
 - [x] Dry-run mode before real publication.
 - [x] Require explicit `Published successfully` response before marking success.
+- [x] macOS LaunchAgent installer/uninstaller created for unattended queue checks.
 
 ## 4. Authentication
 - [x] Import a Netscape cookie export.
@@ -41,14 +45,16 @@
 
 ## 6. Verification
 - [x] Python syntax checks passed locally.
-- [x] English-only policy tests passed: 3/3.
+- [x] English-only/market/scheduling policy tests passed locally.
 - [x] GitHub Actions policy tests passed.
 - [x] Supplied cookie export imported locally without copying third-party cookies.
 - [x] 1080x1920 H.264 English-only test video prepared and queued.
 - [x] End-to-end dry-run completed successfully with the queued test video.
-- [ ] Install/import the TikTok session on a network-enabled execution machine.
+- [x] macOS scheduler scripts pass shell syntax validation.
+- [ ] Install/import the TikTok session on the network-enabled Mac.
 - [ ] Publish one controlled test video.
 - [ ] Confirm the post is visible on the TikTok profile.
+- [ ] Enable the macOS scheduler after the first live post is confirmed.
 
 ## Definition of Done
-The project is considered complete only when a real TikTok post has been published and confirmed on the profile. The remaining unchecked items require an execution environment that can reach TikTok while keeping the account session private.
+The project is considered complete only when a real TikTok post has been published and confirmed on the profile, then the unattended scheduler is enabled. The remaining unchecked items require the account session to be used on a network-enabled execution machine while keeping it private.
