@@ -5,20 +5,33 @@ import argparse
 import pickle
 from pathlib import Path
 
-ALLOWED_DOMAINS = {".tiktok.com", ".www.tiktok.com", "www.tiktok.com"}
 REQUIRED = {"sessionid", "tt-target-idc"}
+
+
+def is_tiktok_domain(domain: str) -> bool:
+    normalized = domain.strip().lower().lstrip(".")
+    return normalized == "tiktok.com" or normalized.endswith(".tiktok.com")
 
 
 def parse_netscape(path: Path) -> list[dict]:
     cookies: list[dict] = []
     for raw in path.read_text(encoding="utf-8", errors="ignore").splitlines():
-        if not raw.strip() or raw.startswith("#"):
+        line = raw.strip("\n\r")
+        if not line.strip():
             continue
-        parts = raw.split("\t")
+
+        # Netscape exports commonly prefix HttpOnly cookies with
+        # '#HttpOnly_'. Those lines are real cookies, not comments.
+        if line.startswith("#HttpOnly_"):
+            line = line[len("#HttpOnly_"):]
+        elif line.startswith("#"):
+            continue
+
+        parts = line.split("\t")
         if len(parts) != 7:
             continue
         domain, _, cookie_path, secure, expires, name, value = parts
-        if domain not in ALLOWED_DOMAINS:
+        if not is_tiktok_domain(domain):
             continue
         item = {
             "domain": domain,
@@ -61,6 +74,7 @@ def main() -> int:
         raise SystemExit(
             "TikTok session is incomplete. Missing required cookie(s): "
             + ", ".join(missing)
+            + ". Export cookies while logged in to https://www.tiktok.com and select that fresh Netscape .txt file."
         )
 
     keep_names = {
