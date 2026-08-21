@@ -3,6 +3,7 @@ set -euo pipefail
 
 PROJECT="$HOME/amb-boutique-tiktok"
 MODULE="$PROJECT/automation/tiktok-autoposter"
+DROPBOX="$HOME/Downloads/AMB-TikTok"
 
 clear
 printf '\nAMB BOUTIQUE — ENABLE REAL TIKTOK AUTOMATION\n'
@@ -32,7 +33,8 @@ if [ ! -f "$COOKIE" ]; then
   exit 1
 fi
 
-mkdir -p "$HOME/AMB-TikTok/inbox" "$HOME/AMB-TikTok/queued" "$HOME/AMB-TikTok/published" "$HOME/AMB-TikTok/failed"
+bash "$MODULE/MIGRATE_TIKTOK_FOLDER.command"
+mkdir -p "$DROPBOX/inbox" "$DROPBOX/queued" "$DROPBOX/published" "$DROPBOX/failed"
 
 echo 'Installing the automatic real-video queue...'
 bash "$MODULE/install_macos_scheduler.sh" 900
@@ -40,10 +42,10 @@ bash "$MODULE/install_macos_scheduler.sh" 900
 echo
 echo 'Automation enabled.'
 echo 'Put real .mp4, .mov or .m4v videos into:'
-echo "  $HOME/AMB-TikTok/inbox"
+echo "  $DROPBOX/inbox"
 echo
 echo 'Default publication slots:'
-echo '  13:00 and 21:00 (America/Sao_Paulo)'
+echo '  09:00, 12:00, 15:00, 18:00, 21:00 and 23:00 (America/Sao_Paulo)'
 echo
 echo 'If no metadata file is supplied:'
 echo '  - product name comes from the video filename'
@@ -51,7 +53,7 @@ echo '  - caption is generated in English'
 echo '  - market hashtags rotate through US, CA, UK, AU and NZ'
 echo
 echo 'Opening the inbox folder in Finder...'
-open "$HOME/AMB-TikTok/inbox"
+open "$DROPBOX/inbox"
 
 echo
 echo 'DONE — drop videos into the opened folder and the Mac will handle the rest.'
