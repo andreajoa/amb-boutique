@@ -23,3 +23,21 @@ jobs:
       - run: python -m pip install pytest
       - run: python -m py_compile automation/tiktok-autoposter/autoposter.py automation/tiktok-autoposter/import_cookies.py automation/tiktok-autoposter/patch_upstream.py
       - run: python -m pytest -q automation/tiktok-autoposter/tests/test_policy.py
+
+  upstream-setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install pinned TikTok uploader and apply compatibility patch
+        run: bash automation/tiktok-autoposter/setup.sh
+      - name: Verify patched uploader
+        run: |
+          test -f automation/tiktok-autoposter/vendor/TiktokAutoUploader/cli.py
+          grep -q 'Load the complete TikTok-only cookie subset' automation/tiktok-autoposter/vendor/TiktokAutoUploader/tiktok_uploader/tiktok.py
+          grep -q '"visibility_type": visibility_type' automation/tiktok-autoposter/vendor/TiktokAutoUploader/tiktok_uploader/tiktok.py
