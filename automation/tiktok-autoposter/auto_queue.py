@@ -93,6 +93,23 @@ def load_metadata(video: Path) -> dict:
     return data
 
 
+def metadata_bool(metadata: dict, key: str, default: bool) -> bool:
+    if key not in metadata:
+        return default
+    value = metadata[key]
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, (int, float)):
+        return bool(value)
+    if isinstance(value, str):
+        normalized = value.strip().lower()
+        if normalized in {"1", "true", "yes", "on"}:
+            return True
+        if normalized in {"0", "false", "no", "off"}:
+            return False
+    raise ValueError(f"Metadata '{key}' must be a boolean")
+
+
 def unique_destination(folder: Path, name: str) -> Path:
     candidate = folder / name
     if not candidate.exists():
@@ -171,6 +188,8 @@ def scan_inbox(root: Path | None = None) -> list[int]:
             url = str(metadata.get("url") or "").strip()
             caption = metadata.get("caption")
             publish_at = metadata.get("publish_at")
+            music_query = str(metadata.get("music_query") or "").strip() or None
+            music_required = metadata_bool(metadata, "music_required", True)
             if not publish_at:
                 publish_at = next_available_slot(datetime.now(timezone.utc), occupied_utc=occupied)
                 occupied.add(publish_at)
@@ -184,6 +203,8 @@ def scan_inbox(root: Path | None = None) -> list[int]:
                 url,
                 str(caption).strip() if caption else None,
                 str(publish_at),
+                music_query=music_query,
+                music_required=music_required,
             )
         except Exception:
             move_failed_intake(source_video, source_sidecar, folders)
@@ -191,7 +212,11 @@ def scan_inbox(root: Path | None = None) -> list[int]:
 
         queued_ids.append(item_id)
         tracked.add(resolved_source)
-        print(f"Auto-queued #{item_id}: {source_video.name} -> {publish_at} [{market}] (kept in inbox until success)")
+        music_note = "with native Commercial Sound" if music_required else "without music"
+        print(
+            f"Auto-queued #{item_id}: {source_video.name} -> {publish_at} [{market}] "
+            f"({music_note}; kept in inbox until success)"
+        )
 
     return queued_ids
 
