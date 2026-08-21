@@ -13,7 +13,7 @@ from autoposter import MARKETS, add_item, list_items
 VIDEO_EXTENSIONS = {".mp4", ".mov", ".m4v"}
 MARKET_ROTATION = ["US", "CA", "UK", "AU", "NZ"]
 DEFAULT_TIMEZONE = "America/Sao_Paulo"
-DEFAULT_SLOTS = "13:00,21:00"
+DEFAULT_SLOTS = "09:00,12:00,15:00,18:00,21:00,23:00"
 
 
 def dropbox_root() -> Path:
