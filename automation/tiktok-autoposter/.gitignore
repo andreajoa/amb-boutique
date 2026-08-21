@@ -1,0 +1,12 @@
+# Never commit credentials or user media
+vendor/
+data/
+videos/
+logs/
+*.cookie
+*.txt
+.env
+.DS_Store
+__pycache__/
+.pytest_cache/
+.venv/
