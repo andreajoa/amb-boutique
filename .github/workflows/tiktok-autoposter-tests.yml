@@ -22,8 +22,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python -m pip install pytest selenium
-      - run: python -m py_compile automation/tiktok-autoposter/autoposter.py automation/tiktok-autoposter/import_cookies.py automation/tiktok-autoposter/patch_upstream.py automation/tiktok-autoposter/auto_queue.py automation/tiktok-autoposter/auto_runner.py automation/tiktok-autoposter/music_selector.py automation/tiktok-autoposter/tiktok_studio_music.py
+      - run: python -m pip install pytest selenium imageio-ffmpeg
+      - run: python -m py_compile automation/tiktok-autoposter/autoposter.py automation/tiktok-autoposter/import_cookies.py automation/tiktok-autoposter/patch_upstream.py automation/tiktok-autoposter/auto_queue.py automation/tiktok-autoposter/auto_runner.py automation/tiktok-autoposter/music_selector.py automation/tiktok-autoposter/music_bed.py automation/tiktok-autoposter/tiktok_studio_music.py
       - run: python -m pytest -q automation/tiktok-autoposter/tests
         env:
           PYTHONPATH: automation/tiktok-autoposter

@@ -41,6 +41,31 @@ def test_next_slot_skips_occupied_slot():
     assert slot == "2026-08-21T21:00:00+00:00"
 
 
+def test_recently_missed_slot_is_kept_inside_grace_window():
+    now = datetime(2026, 8, 21, 21, 27, tzinfo=timezone.utc)  # 18:27 in Sao Paulo
+    slot = next_available_slot(
+        now,
+        occupied_utc=set(),
+        slots=[(18, 0), (21, 0)],
+        timezone_name="America/Sao_Paulo",
+        grace_minutes=45,
+    )
+    assert slot == "2026-08-21T21:00:00+00:00"
+
+
+def test_recent_slot_does_not_duplicate_when_already_occupied():
+    now = datetime(2026, 8, 21, 21, 27, tzinfo=timezone.utc)
+    occupied = {"2026-08-21T21:00:00+00:00"}
+    slot = next_available_slot(
+        now,
+        occupied_utc=occupied,
+        slots=[(18, 0), (21, 0)],
+        timezone_name="America/Sao_Paulo",
+        grace_minutes=45,
+    )
+    assert slot == "2026-08-22T00:00:00+00:00"
+
+
 def test_product_name_comes_from_filename():
     assert product_from_filename(Path("satin-midi-dress_black.mp4")) == "Satin Midi Dress Black"
 

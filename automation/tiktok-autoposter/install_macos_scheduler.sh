@@ -7,7 +7,7 @@ if [ -x "$ROOT/.venv/bin/python" ]; then
 else
   PYTHON="$(command -v python3)"
 fi
-INTERVAL="${1:-900}"
+INTERVAL="${1:-60}"
 PLIST="$HOME/Library/LaunchAgents/com.amb.tiktok-autoposter.plist"
 DROPBOX="$HOME/Downloads/AMB-TikTok"
 mkdir -p "$HOME/Library/LaunchAgents" "$ROOT/logs" "$DROPBOX/inbox" "$DROPBOX/queued" "$DROPBOX/published" "$DROPBOX/failed"
@@ -44,12 +44,14 @@ cat > "$PLIST" <<EOF
     <string>America/Sao_Paulo</string>
     <key>AMB_TIKTOK_SLOTS</key>
     <string>09:00,12:00,15:00,18:00,21:00,23:00</string>
+    <key>AMB_TIKTOK_SLOT_GRACE_MINUTES</key>
+    <string>45</string>
     <key>AMB_TIKTOK_MUSIC_MODE</key>
-    <string>native</string>
-    <key>AMB_TIKTOK_REQUIRE_COMMERCIAL_MUSIC</key>
-    <string>1</string>
-    <key>AMB_TIKTOK_BROWSER_HEADLESS</key>
-    <string>1</string>
+    <string>local-original</string>
+    <key>AMB_TIKTOK_MUSIC_VOLUME</key>
+    <string>0.24</string>
+    <key>AMB_TIKTOK_SOURCE_AUDIO_VOLUME</key>
+    <string>0.55</string>
   </dict>
 </dict>
 </plist>
@@ -59,6 +61,7 @@ launchctl bootout "gui/$UID" "$PLIST" 2>/dev/null || true
 launchctl bootstrap "gui/$UID" "$PLIST"
 echo "Installed TikTok real-video automation. Queue check interval: ${INTERVAL}s"
 echo "Automatic publication slots: 09:00, 12:00, 15:00, 18:00, 21:00 and 23:00 America/Sao_Paulo"
-echo "Native Commercial Sounds: required"
+echo "Slot grace window: 45 minutes"
+echo "Automatic music: original AMB fashion soundtrack mixed before upload"
 echo "Drop real videos into: $DROPBOX/inbox"
 echo "LaunchAgent: $PLIST"
