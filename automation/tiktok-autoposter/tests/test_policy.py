@@ -30,3 +30,16 @@ def test_portuguese_caption_is_rejected():
 
 def test_supported_markets():
     assert set(autoposter.MARKETS) == {"US", "CA", "UK", "AU", "NZ"}
+
+
+def test_publish_time_is_normalized_to_utc():
+    value = autoposter.normalize_publish_at("2026-08-22T19:00:00-04:00")
+    assert value == "2026-08-22T23:00:00+00:00"
+
+
+def test_publish_time_requires_timezone():
+    try:
+        autoposter.normalize_publish_at("2026-08-22T19:00:00")
+    except ValueError:
+        return
+    raise AssertionError("Timezone-less publish time should have been rejected")
