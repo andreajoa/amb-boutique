@@ -44,6 +44,7 @@ class QueueItem:
     caption: str
     status: str
     created_at: str
+    scheduled_for: str | None
     published_at: str | None
     error: str | None
 
@@ -69,13 +70,26 @@ def connect() -> sqlite3.Connection:
             caption TEXT NOT NULL,
             status TEXT NOT NULL DEFAULT 'queued',
             created_at TEXT NOT NULL,
+            scheduled_for TEXT,
             published_at TEXT,
             error TEXT
         )
         """
     )
+    columns = {row[1] for row in conn.execute("PRAGMA table_info(queue)").fetchall()}
+    if "scheduled_for" not in columns:
+        conn.execute("ALTER TABLE queue ADD COLUMN scheduled_for TEXT")
     conn.commit()
     return conn
+
+
+def normalize_publish_at(value: str | None) -> str | None:
+    if not value:
+        return None
+    dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    if dt.tzinfo is None:
+        raise ValueError("--publish-at must include a timezone offset or Z")
+    return dt.astimezone(timezone.utc).isoformat()
 
 
 def tokenize(text: str) -> set[str]:
@@ -86,10 +100,7 @@ def tokenize(text: str) -> set[str]:
 def assert_english_only(text: str) -> None:
     blocked = sorted(tokenize(text) & PORTUGUESE_BLOCKLIST)
     if blocked:
-        raise ValueError(
-            "Caption rejected by English-only policy. Portuguese terms found: "
-            + ", ".join(blocked)
-        )
+        raise ValueError(f"Caption rejected by English-only policy. Portuguese terms found: {', '.join(blocked)}")
     if not text.strip():
         raise ValueError("Caption cannot be empty")
     if len(text) > 2200:
@@ -113,7 +124,7 @@ def default_caption(product_name: str, market: str, product_url: str = "") -> st
     return caption
 
 
-def add_item(video: str, product: str, market: str, url: str, caption: str | None) -> int:
+def add_item(video: str, product: str, market: str, url: str, caption: str | None, publish_at: str | None = None) -> int:
     market = market.upper()
     if market not in MARKETS:
         raise ValueError(f"Market must be one of: {', '.join(MARKETS)}")
@@ -123,10 +134,11 @@ def add_item(video: str, product: str, market: str, url: str, caption: str | Non
     final_caption = caption.strip() if caption else default_caption(product, market, url)
     assert_english_only(final_caption)
     created_at = datetime.now(timezone.utc).isoformat()
+    scheduled_for = normalize_publish_at(publish_at)
     with connect() as conn:
         cur = conn.execute(
-            "INSERT INTO queue(video_path, product_name, product_url, market, caption, status, created_at) VALUES (?, ?, ?, ?, ?, 'queued', ?)",
-            (video_path, product, url, market, final_caption, created_at),
+            "INSERT INTO queue(video_path, product_name, product_url, market, caption, status, created_at, scheduled_for) VALUES (?, ?, ?, ?, ?, 'queued', ?, ?)",
+            (video_path, product, url, market, final_caption, created_at, scheduled_for),
         )
         conn.commit()
         return int(cur.lastrowid)
@@ -143,9 +155,11 @@ def list_items() -> list[QueueItem]:
 
 
 def next_item() -> QueueItem | None:
+    now = datetime.now(timezone.utc).isoformat()
     with connect() as conn:
         row = conn.execute(
-            "SELECT * FROM queue WHERE status='queued' ORDER BY id ASC LIMIT 1"
+            "SELECT * FROM queue WHERE status='queued' AND (scheduled_for IS NULL OR scheduled_for <= ?) ORDER BY COALESCE(scheduled_for, created_at) ASC, id ASC LIMIT 1",
+            (now,),
         ).fetchone()
     return QueueItem(**dict(row)) if row else None
 
@@ -175,7 +189,7 @@ def preflight(item: QueueItem) -> tuple[Path, str]:
     cli = vendor / "cli.py"
     if not cli.exists():
         raise FileNotFoundError(
-            f"TikTok uploader dependency not found at {vendor}. Run ./setup.sh or set TIKTOK_UPLOADER_PATH."
+            f"TikTok uploader dependency not found at {vendor}. Run bash setup.sh or set TIKTOK_UPLOADER_PATH."
         )
     account = account_name()
     cookie = upstream_cookie_path(vendor, account)
@@ -237,18 +251,15 @@ def command_status() -> int:
         print("Queue is empty.")
         return 0
     for item in items:
-        print(
-            f"#{item.id} [{item.status}] {item.market} | {item.product_name} | {Path(item.video_path).name}"
-        )
+        schedule = item.scheduled_for or "as soon as runner executes"
+        print(f"#{item.id} [{item.status}] {item.market} | {item.product_name} | {Path(item.video_path).name} | {schedule}")
         if item.error:
             print(f"  error: {item.error.splitlines()[-1][:300]}")
     return 0
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(
-        description="English-only TikTok autoposter for women's fashion"
-    )
+    parser = argparse.ArgumentParser(description="English-only TikTok autoposter for women's fashion")
     sub = parser.add_subparsers(dest="command", required=True)
 
     add = sub.add_parser("add", help="Add a video to the publishing queue")
@@ -257,6 +268,7 @@ def main() -> int:
     add.add_argument("--market", required=True, choices=sorted(MARKETS))
     add.add_argument("--url", default="")
     add.add_argument("--caption")
+    add.add_argument("--publish-at", help="ISO 8601 time with timezone, e.g. 2026-08-22T19:00:00-04:00")
 
     sub.add_parser("status", help="Show queue status")
 
@@ -267,7 +279,7 @@ def main() -> int:
     args = parser.parse_args()
     try:
         if args.command == "add":
-            item_id = add_item(args.video, args.product, args.market, args.url, args.caption)
+            item_id = add_item(args.video, args.product, args.market, args.url, args.caption, args.publish_at)
             print(f"Queued item #{item_id}")
             return 0
         if args.command == "status":
