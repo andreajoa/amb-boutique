@@ -43,4 +43,5 @@ jobs:
           test -f automation/tiktok-autoposter/vendor/TiktokAutoUploader/cli.py
           test -x automation/tiktok-autoposter/.venv/bin/python
           grep -q 'Load the complete TikTok-only cookie subset' automation/tiktok-autoposter/vendor/TiktokAutoUploader/tiktok_uploader/tiktok.py
+          grep -q 'Browser exports may contain multiple msToken cookies' automation/tiktok-autoposter/vendor/TiktokAutoUploader/tiktok_uploader/tiktok.py
           grep -q '"visibility_type": visibility_type' automation/tiktok-autoposter/vendor/TiktokAutoUploader/tiktok_uploader/tiktok.py
