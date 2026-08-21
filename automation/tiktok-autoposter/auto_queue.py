@@ -14,6 +14,7 @@ VIDEO_EXTENSIONS = {".mp4", ".mov", ".m4v"}
 MARKET_ROTATION = ["US", "CA", "UK", "AU", "NZ"]
 DEFAULT_TIMEZONE = "America/Sao_Paulo"
 DEFAULT_SLOTS = "09:00,12:00,15:00,18:00,21:00,23:00"
+DEFAULT_SLOT_GRACE_MINUTES = 45
 
 
 def dropbox_root() -> Path:
@@ -54,26 +55,48 @@ def parse_slots(value: str | None = None) -> list[tuple[int, int]]:
     return sorted(set(slots))
 
 
+def slot_grace_minutes(value: int | None = None) -> int:
+    if value is not None:
+        grace = int(value)
+    else:
+        grace = int(os.getenv("AMB_TIKTOK_SLOT_GRACE_MINUTES", str(DEFAULT_SLOT_GRACE_MINUTES)))
+    if grace < 0 or grace > 180:
+        raise ValueError("AMB_TIKTOK_SLOT_GRACE_MINUTES must be between 0 and 180")
+    return grace
+
+
 def next_available_slot(
     now: datetime,
     occupied_utc: set[str] | None = None,
     slots: list[tuple[int, int]] | None = None,
     timezone_name: str | None = None,
+    grace_minutes: int | None = None,
 ) -> str:
     tz = ZoneInfo(timezone_name or os.getenv("AMB_TIKTOK_TIMEZONE", DEFAULT_TIMEZONE))
     local_now = now.astimezone(tz)
     occupied = occupied_utc or set()
     slot_list = slots or parse_slots()
+    grace = timedelta(minutes=slot_grace_minutes(grace_minutes))
 
     for day_offset in range(0, 60):
         day = (local_now + timedelta(days=day_offset)).date()
         for hour, minute in slot_list:
             candidate_local = datetime(day.year, day.month, day.day, hour, minute, tzinfo=tz)
-            if candidate_local <= local_now:
-                continue
             candidate_utc = candidate_local.astimezone(timezone.utc).isoformat()
-            if candidate_utc not in occupied:
+            if candidate_utc in occupied:
+                continue
+
+            if day_offset == 0 and candidate_local <= local_now:
+                # A launchd cycle can start a few minutes after a named slot.
+                # Keep a grace window so 18:07 still belongs to the 18:00 slot
+                # instead of silently pushing the video to 21:00.
+                if local_now - candidate_local <= grace:
+                    return candidate_utc
+                continue
+
+            if candidate_local > local_now:
                 return candidate_utc
+
     raise RuntimeError("Could not find a free TikTok publication slot in the next 60 days")
 
 
@@ -120,7 +143,9 @@ def unique_destination(folder: Path, name: str) -> Path:
 
 
 def future_occupied_slots() -> set[str]:
-    now_utc = datetime.now(timezone.utc)
+    # Keep every queued/publishing timestamp occupied, including recently due
+    # slots. Otherwise a new file detected at 18:10 could be assigned to the
+    # same 18:00 slot that another queued item already owns.
     occupied: set[str] = set()
     for item in list_items():
         if item.status not in {"queued", "publishing"} or not item.scheduled_for:
@@ -129,8 +154,7 @@ def future_occupied_slots() -> set[str]:
             dt = datetime.fromisoformat(item.scheduled_for.replace("Z", "+00:00"))
         except ValueError:
             continue
-        if dt.astimezone(timezone.utc) > now_utc:
-            occupied.add(dt.astimezone(timezone.utc).isoformat())
+        occupied.add(dt.astimezone(timezone.utc).isoformat())
     return occupied
 
 
@@ -212,7 +236,7 @@ def scan_inbox(root: Path | None = None) -> list[int]:
 
         queued_ids.append(item_id)
         tracked.add(resolved_source)
-        music_note = "with native Commercial Sound" if music_required else "without music"
+        music_note = "with automatic original soundtrack" if music_required else "without music"
         print(
             f"Auto-queued #{item_id}: {source_video.name} -> {publish_at} [{market}] "
             f"({music_note}; kept in inbox until success)"
