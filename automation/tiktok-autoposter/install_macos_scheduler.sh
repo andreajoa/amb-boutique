@@ -42,7 +42,7 @@ cat > "$PLIST" <<EOF
     <key>AMB_TIKTOK_TIMEZONE</key>
     <string>America/Sao_Paulo</string>
     <key>AMB_TIKTOK_SLOTS</key>
-    <string>13:00,21:00</string>
+    <string>09:00,12:00,15:00,18:00,21:00,23:00</string>
   </dict>
 </dict>
 </plist>
@@ -51,6 +51,6 @@ EOF
 launchctl bootout "gui/$UID" "$PLIST" 2>/dev/null || true
 launchctl bootstrap "gui/$UID" "$PLIST"
 echo "Installed TikTok real-video automation. Queue check interval: ${INTERVAL}s"
-echo "Automatic publication slots: 13:00 and 21:00 America/Sao_Paulo"
+echo "Automatic publication slots: 09:00, 12:00, 15:00, 18:00, 21:00 and 23:00 America/Sao_Paulo"
 echo "Drop real videos into: $HOME/AMB-TikTok/inbox"
 echo "LaunchAgent: $PLIST"
