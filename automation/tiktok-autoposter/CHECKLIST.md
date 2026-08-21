@@ -37,17 +37,18 @@
 - [x] Patch upstream to load the complete TikTok-only session cookie subset.
 - [x] Patch upstream to respect visibility/comment/duet/stitch settings.
 - [x] Automated setup script created.
+- [x] Clean GitHub Actions runner successfully installed the pinned uploader and compatibility patch.
 
 ## 6. Verification
 - [x] Python syntax checks passed locally.
 - [x] English-only policy tests passed: 3/3.
+- [x] GitHub Actions policy tests passed.
 - [x] Supplied cookie export imported locally without copying third-party cookies.
-- [ ] Install upstream dependencies on the execution machine.
-- [ ] Import the supplied TikTok session on the execution machine.
-- [ ] Prepare/queue one real English-only test video.
-- [ ] Run a dry-run using the real test video.
+- [x] 1080x1920 H.264 English-only test video prepared and queued.
+- [x] End-to-end dry-run completed successfully with the queued test video.
+- [ ] Install/import the TikTok session on a network-enabled execution machine.
 - [ ] Publish one controlled test video.
 - [ ] Confirm the post is visible on the TikTok profile.
 
 ## Definition of Done
-The project is considered complete only when a real TikTok post has been published and confirmed on the profile. The remaining unchecked items require an execution environment that can reach TikTok.
+The project is considered complete only when a real TikTok post has been published and confirmed on the profile. The remaining unchecked items require an execution environment that can reach TikTok while keeping the account session private.
