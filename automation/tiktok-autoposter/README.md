@@ -15,12 +15,14 @@ cd automation/tiktok-autoposter
 bash setup.sh
 ```
 
+`setup.sh` creates a private `.venv` Python environment so the TikTok automation does not modify the Mac's global Python packages.
+
 ## Import the TikTok session
 
 Use a Netscape-format cookie export. The importer ignores non-TikTok domains and writes only the minimal TikTok session required by the uploader.
 
 ```bash
-python3 import_cookies.py /absolute/path/to/cookies.txt --account amb-boutique
+.venv/bin/python import_cookies.py /absolute/path/to/cookies.txt --account amb-boutique
 ```
 
 ## Add a video
@@ -28,7 +30,7 @@ python3 import_cookies.py /absolute/path/to/cookies.txt --account amb-boutique
 Publish as soon as the automatic runner sees it:
 
 ```bash
-python3 autoposter.py add \
+.venv/bin/python autoposter.py add \
   --video ./videos/look-01.mp4 \
   --product "Elegant Satin Midi Dress" \
   --market US \
@@ -38,7 +40,7 @@ python3 autoposter.py add \
 Schedule it for an exact local time by providing an ISO 8601 timezone offset:
 
 ```bash
-python3 autoposter.py add \
+.venv/bin/python autoposter.py add \
   --video ./videos/look-02.mp4 \
   --product "Minimal Knit Set" \
   --market US \
@@ -54,13 +56,13 @@ If `--caption` is omitted, a short English caption and market-specific hashtag s
 ## Review the queue
 
 ```bash
-python3 autoposter.py status
+.venv/bin/python autoposter.py status
 ```
 
 ## Dry run
 
 ```bash
-python3 autoposter.py post-next --dry-run
+.venv/bin/python autoposter.py post-next --dry-run
 ```
 
 The dry run validates the video, account session file, uploader installation, due time, and English-only caption without publishing.
@@ -70,13 +72,13 @@ The dry run validates the video, account session file, uploader installation, du
 Private test:
 
 ```bash
-python3 autoposter.py post-next --visibility private
+.venv/bin/python autoposter.py post-next --visibility private
 ```
 
 Public publication:
 
 ```bash
-python3 autoposter.py post-next --visibility public
+.venv/bin/python autoposter.py post-next --visibility public
 ```
 
 A queue item is marked `published` only when the upstream uploader explicitly returns `Published successfully`. Soft failures are recorded as `failed` instead of being incorrectly treated as success.
@@ -95,7 +97,7 @@ By default it checks the queue every 15 minutes. To check every hour:
 bash install_macos_scheduler.sh 3600
 ```
 
-The scheduler publishes only due queue items and only one item per run. The Mac must be powered on, logged in, and connected to the internet. Logs are written under `logs/`.
+The scheduler automatically uses the module's `.venv`, publishes only due queue items, and posts only one item per run. The Mac must be powered on, logged in, and connected to the internet. Logs are written under `logs/`.
 
 Remove the scheduler with:
 
