@@ -12,7 +12,7 @@ Never commit cookie exports, `.cookie` files, browser profiles, passwords, token
 
 ```bash
 cd automation/tiktok-autoposter
-./setup.sh
+bash setup.sh
 ```
 
 ## Import the TikTok session
