@@ -17,7 +17,9 @@ DEFAULT_SLOTS = "09:00,12:00,15:00,18:00,21:00,23:00"
 
 
 def dropbox_root() -> Path:
-    return Path(os.getenv("AMB_TIKTOK_DROPBOX", str(Path.home() / "AMB-TikTok"))).expanduser().resolve()
+    return Path(
+        os.getenv("AMB_TIKTOK_DROPBOX", str(Path.home() / "Downloads" / "AMB-TikTok"))
+    ).expanduser().resolve()
 
 
 def ensure_folders(root: Path | None = None) -> dict[str, Path]:
