@@ -7,7 +7,9 @@ from auto_runner import published_archive_target
 
 
 def test_parse_default_slots():
-    assert parse_slots("13:00,21:00") == [(13, 0), (21, 0)]
+    assert parse_slots("09:00,12:00,15:00,18:00,21:00,23:00") == [
+        (9, 0), (12, 0), (15, 0), (18, 0), (21, 0), (23, 0)
+    ]
 
 
 def test_next_slot_uses_sao_paulo_timezone():
@@ -15,22 +17,22 @@ def test_next_slot_uses_sao_paulo_timezone():
     slot = next_available_slot(
         now,
         occupied_utc=set(),
-        slots=[(13, 0), (21, 0)],
+        slots=[(15, 0), (18, 0)],
         timezone_name="America/Sao_Paulo",
     )
-    assert slot == "2026-08-21T16:00:00+00:00"
+    assert slot == "2026-08-21T18:00:00+00:00"
 
 
 def test_next_slot_skips_occupied_slot():
     now = datetime(2026, 8, 21, 15, 0, tzinfo=timezone.utc)
-    occupied = {"2026-08-21T16:00:00+00:00"}
+    occupied = {"2026-08-21T18:00:00+00:00"}
     slot = next_available_slot(
         now,
         occupied_utc=occupied,
-        slots=[(13, 0), (21, 0)],
+        slots=[(15, 0), (18, 0)],
         timezone_name="America/Sao_Paulo",
     )
-    assert slot == "2026-08-22T00:00:00+00:00"
+    assert slot == "2026-08-21T21:00:00+00:00"
 
 
 def test_product_name_comes_from_filename():
@@ -47,7 +49,7 @@ def test_scan_keeps_video_in_inbox_until_publication(tmp_path, monkeypatch):
     monkeypatch.setattr(
         auto_queue,
         "next_available_slot",
-        lambda *args, **kwargs: "2026-08-21T21:00:00+00:00",
+        lambda *args, **kwargs: "2026-08-21T18:00:00+00:00",
     )
 
     ids = scan_inbox(tmp_path)
