@@ -8,7 +8,17 @@ The module is isolated from the storefront runtime. It uses `makiisthenes/Tiktok
 
 Never commit cookie exports, `.cookie` files, browser profiles, passwords, tokens, or customer data. Runtime credentials and media remain local and are excluded by `.gitignore`.
 
-## Install
+## First live test on macOS
+
+For the first real publication, open Terminal in this folder and run:
+
+```bash
+bash FIRST_TIKTOK_LIVE_TEST.command
+```
+
+The launcher installs/updates the isolated environment, opens a macOS file picker for the TikTok cookie export, opens a second picker for the English video, imports only TikTok cookies, creates an English-only caption, performs a dry-run, publishes publicly, verifies the local success state, and enables the automatic queue checker only if publication succeeds.
+
+## Install manually
 
 ```bash
 cd automation/tiktok-autoposter
