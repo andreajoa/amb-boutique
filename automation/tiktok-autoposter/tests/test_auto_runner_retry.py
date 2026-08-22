@@ -166,8 +166,9 @@ def test_missing_renamed_video_backfills_overdue_slot(tmp_path, monkeypatch):
         "ensure_folders",
         lambda: {"inbox": inbox, "queued": queued, "published": published, "failed": failed},
     )
+    monkeypatch.setattr(auto_runner, "next_available_slot", lambda cursor, occupied_utc=None: overdue)
 
-    auto_runner.backfill_missing_due_items()
+    auto_runner.reflow_queue_after_renames()
 
     with auto_runner.connect() as conn:
         old = conn.execute("SELECT status, error FROM queue WHERE id=6").fetchone()
