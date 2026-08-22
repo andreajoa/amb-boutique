@@ -52,6 +52,12 @@ cat > "$PLIST" <<EOF
     <string>0.24</string>
     <key>AMB_TIKTOK_SOURCE_AUDIO_VOLUME</key>
     <string>0.55</string>
+    <key>AMB_TIKTOK_RETRY_DELAY_SECONDS</key>
+    <string>120</string>
+    <key>AMB_TIKTOK_MAX_ATTEMPTS</key>
+    <string>6</string>
+    <key>AMB_TIKTOK_UPLOAD_TIMEOUT_SECONDS</key>
+    <string>180</string>
   </dict>
 </dict>
 </plist>
@@ -63,5 +69,7 @@ echo "Installed TikTok real-video automation. Queue check interval: ${INTERVAL}s
 echo "Automatic publication slots: 09:00, 12:00, 15:00, 18:00, 21:00 and 23:00 America/Sao_Paulo"
 echo "Slot grace window: 45 minutes"
 echo "Automatic music: original AMB fashion soundtrack mixed before upload"
+echo "Upload timeout: 180s"
+echo "Automatic retry: up to 6 attempts, 120s between attempts"
 echo "Drop real videos into: $DROPBOX/inbox"
 echo "LaunchAgent: $PLIST"
