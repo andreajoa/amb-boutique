@@ -7,6 +7,27 @@ if [ -x "$ROOT/.venv/bin/python" ]; then
 else
   PYTHON="$(command -v python3)"
 fi
+
+# launchd does not inherit the interactive shell PATH. The upstream TikTok
+# uploader shells out to `node`, so capture the Node installation directory
+# while this installer is running from the user's Terminal and pass it into
+# the LaunchAgent explicitly.
+NODE_BIN="$(command -v node 2>/dev/null || true)"
+if [ -z "$NODE_BIN" ]; then
+  for candidate in /opt/homebrew/bin/node /usr/local/bin/node /usr/bin/node; do
+    if [ -x "$candidate" ]; then
+      NODE_BIN="$candidate"
+      break
+    fi
+  done
+fi
+if [ -z "$NODE_BIN" ]; then
+  echo "ERROR: Node.js was not found. Install Node.js before enabling TikTok automation." >&2
+  exit 1
+fi
+NODE_DIR="$(dirname "$NODE_BIN")"
+LAUNCH_PATH="$NODE_DIR:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
 INTERVAL="${1:-60}"
 PLIST="$HOME/Library/LaunchAgents/com.amb.tiktok-autoposter.plist"
 DROPBOX="$HOME/Downloads/AMB-TikTok"
@@ -36,6 +57,8 @@ cat > "$PLIST" <<EOF
   <string>$ROOT/logs/launchd.err.log</string>
   <key>EnvironmentVariables</key>
   <dict>
+    <key>PATH</key>
+    <string>$LAUNCH_PATH</string>
     <key>TIKTOK_ACCOUNT_NAME</key>
     <string>amb-boutique</string>
     <key>AMB_TIKTOK_DROPBOX</key>
@@ -71,5 +94,7 @@ echo "Slot grace window: 45 minutes"
 echo "Automatic music: original AMB fashion soundtrack mixed before upload"
 echo "Upload timeout: 180s"
 echo "Automatic retry: up to 6 attempts, 120s between attempts"
+echo "Node.js: $NODE_BIN"
+echo "LaunchAgent PATH: $LAUNCH_PATH"
 echo "Drop real videos into: $DROPBOX/inbox"
 echo "LaunchAgent: $PLIST"
