@@ -193,6 +193,91 @@ def current_item(item_id: int):
     return None
 
 
+def scheduled_datetime(value: str | None) -> datetime | None:
+    if not value:
+        return None
+    try:
+        dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc)
+
+
+def backfill_missing_due_items() -> None:
+    """Move a missed slot to the next real inbox video after a rename.
+
+    The queue historically identified videos only by path. If a queued file was
+    renamed in Finder, the old row kept pointing at a path that no longer
+    existed and could consume the whole retry budget. scan_inbox() will already
+    create a new row for the renamed file. This routine pairs an overdue missing
+    row with the earliest valid queued row, moves the missed schedule forward to
+    that real file, and retires the stale row so it cannot block the runner.
+    """
+    folders = ensure_folders()
+    now = datetime.now(timezone.utc)
+    items = list_items()
+    missing_due = []
+    replacements = []
+
+    for item in items:
+        source = Path(item.video_path).expanduser().resolve()
+        if not is_managed_pending_file(source, folders):
+            continue
+
+        scheduled = scheduled_datetime(item.scheduled_for)
+        due = scheduled is None or scheduled <= now
+
+        if item.status == "queued" and source.exists():
+            replacements.append(item)
+            continue
+
+        if item.status not in {"queued", "failed"} or source.exists() or not due:
+            continue
+        if item.error and "[backfilled by item #" in item.error:
+            continue
+        missing_due.append(item)
+
+    def schedule_key(item):
+        return (scheduled_datetime(item.scheduled_for) or datetime.max.replace(tzinfo=timezone.utc), item.id)
+
+    missing_due.sort(key=schedule_key)
+    replacements.sort(key=schedule_key)
+
+    for missing in missing_due:
+        if not replacements:
+            if missing.status == "queued":
+                mark(
+                    missing.id,
+                    "failed",
+                    f"Source file missing or renamed; waiting for a replacement video in inbox: {missing.video_path}",
+                )
+                clear_retry_state(missing.id)
+                print(f"Missing/renamed source for item #{missing.id}; waiting for a real inbox video.")
+            continue
+
+        replacement = replacements.pop(0)
+        target_schedule = missing.scheduled_for or now.isoformat()
+        backfill_error = (
+            f"[backfilled by item #{replacement.id}] Source file was renamed or is missing: {missing.video_path}"
+        )
+        with connect() as conn:
+            conn.execute(
+                "UPDATE queue SET scheduled_for=?, error=NULL WHERE id=?",
+                (target_schedule, replacement.id),
+            )
+            conn.execute(
+                "UPDATE queue SET status='failed', error=? WHERE id=?",
+                (backfill_error, missing.id),
+            )
+            conn.commit()
+        clear_retry_state(missing.id)
+        print(
+            f"Recovered missed TikTok slot from item #{missing.id} with existing video item #{replacement.id}."
+        )
+
+
 def retry_error_message(attempts: int, error: str, next_at: str | None) -> str:
     cleaned = " ".join((error or "Unknown TikTok publication error").split())
     if len(cleaned) > 3000:
@@ -304,6 +389,7 @@ def main() -> int:
     ensure_retry_table()
     reconcile_finished_items()
     scan_inbox()
+    backfill_missing_due_items()
 
     item = next_item()
     if not item:

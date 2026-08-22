@@ -1,5 +1,6 @@
 import sqlite3
 import subprocess
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from types import SimpleNamespace
 
@@ -125,3 +126,54 @@ def test_reconcile_recovers_interrupted_publishing_item(tmp_path, monkeypatch):
     assert captured["item_id"] == 22
     assert captured["attempts"] == 1
     assert "interrupted TikTok publishing attempt" in captured["error"]
+
+
+def test_missing_renamed_video_backfills_overdue_slot(tmp_path, monkeypatch):
+    db_path = tmp_path / "retry.db"
+    monkeypatch.setattr(auto_runner, "connect", fake_connect_factory(db_path))
+
+    inbox = tmp_path / "inbox"
+    queued = tmp_path / "queued"
+    published = tmp_path / "published"
+    failed = tmp_path / "failed"
+    for folder in (inbox, queued, published, failed):
+        folder.mkdir()
+
+    missing_path = inbox / "old-name.mp4"
+    renamed_path = inbox / "01.mp4"
+    renamed_path.write_bytes(b"same real video under a new name")
+    overdue = (datetime.now(timezone.utc) - timedelta(hours=2)).isoformat()
+    future = (datetime.now(timezone.utc) + timedelta(hours=4)).isoformat()
+
+    with auto_runner.connect() as conn:
+        conn.execute(
+            "INSERT INTO queue(id, status, scheduled_for, error, video_path) VALUES (6, 'failed', ?, 'old retry error', ?)",
+            (overdue, str(missing_path)),
+        )
+        conn.execute(
+            "INSERT INTO queue(id, status, scheduled_for, error, video_path) VALUES (9, 'queued', ?, NULL, ?)",
+            (future, str(renamed_path)),
+        )
+        conn.commit()
+
+    items = [
+        SimpleNamespace(id=6, status="failed", scheduled_for=overdue, error="old retry error", video_path=str(missing_path)),
+        SimpleNamespace(id=9, status="queued", scheduled_for=future, error=None, video_path=str(renamed_path)),
+    ]
+    monkeypatch.setattr(auto_runner, "list_items", lambda: items)
+    monkeypatch.setattr(
+        auto_runner,
+        "ensure_folders",
+        lambda: {"inbox": inbox, "queued": queued, "published": published, "failed": failed},
+    )
+
+    auto_runner.backfill_missing_due_items()
+
+    with auto_runner.connect() as conn:
+        old = conn.execute("SELECT status, error FROM queue WHERE id=6").fetchone()
+        replacement = conn.execute("SELECT scheduled_for, error FROM queue WHERE id=9").fetchone()
+
+    assert old["status"] == "failed"
+    assert "[backfilled by item #9]" in old["error"]
+    assert replacement["scheduled_for"] == overdue
+    assert replacement["error"] is None
