@@ -14,7 +14,7 @@ fi
 # the LaunchAgent explicitly.
 NODE_BIN="$(command -v node 2>/dev/null || true)"
 if [ -z "$NODE_BIN" ]; then
-  for candidate in /opt/homebrew/bin/node /usr/local/bin/node /usr/bin/node; do
+  for candidate in "$HOME/.local/bin/node" /opt/homebrew/bin/node /usr/local/bin/node /usr/bin/node; do
     if [ -x "$candidate" ]; then
       NODE_BIN="$candidate"
       break
@@ -26,11 +26,12 @@ if [ -z "$NODE_BIN" ]; then
   exit 1
 fi
 NODE_DIR="$(dirname "$NODE_BIN")"
-LAUNCH_PATH="$NODE_DIR:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+LAUNCH_PATH="$NODE_DIR:$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 INTERVAL="${1:-60}"
 PLIST="$HOME/Library/LaunchAgents/com.amb.tiktok-autoposter.plist"
 DROPBOX="$HOME/Downloads/AMB-TikTok"
+LABEL="com.amb.tiktok-autoposter"
 mkdir -p "$HOME/Library/LaunchAgents" "$ROOT/logs" "$DROPBOX/inbox" "$DROPBOX/queued" "$DROPBOX/published" "$DROPBOX/failed"
 
 cat > "$PLIST" <<EOF
@@ -39,7 +40,7 @@ cat > "$PLIST" <<EOF
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>com.amb.tiktok-autoposter</string>
+  <string>$LABEL</string>
   <key>ProgramArguments</key>
   <array>
     <string>$PYTHON</string>
@@ -47,10 +48,28 @@ cat > "$PLIST" <<EOF
   </array>
   <key>WorkingDirectory</key>
   <string>$ROOT</string>
+
+  <!-- Heartbeat: catches overdue/retry items while the Mac is awake. -->
   <key>StartInterval</key>
   <integer>$INTERVAL</integer>
+
+  <!-- Named publication slots: unlike a plain StartInterval, launchd can
+       recover a missed calendar trigger when the Mac wakes from sleep. -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Hour</key><integer>12</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Hour</key><integer>15</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Hour</key><integer>18</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Hour</key><integer>21</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Hour</key><integer>23</integer><key>Minute</key><integer>0</integer></dict>
+  </array>
+
+  <!-- Also check immediately after login/bootstrap so an overdue queued video
+       is not abandoned just because the Mac was powered off at its slot. -->
   <key>RunAtLoad</key>
   <true/>
+
   <key>StandardOutPath</key>
   <string>$ROOT/logs/launchd.out.log</string>
   <key>StandardErrorPath</key>
@@ -86,10 +105,20 @@ cat > "$PLIST" <<EOF
 </plist>
 EOF
 
+# Fail fast instead of leaving a malformed scheduler silently installed.
+plutil -lint "$PLIST" >/dev/null
+
 launchctl bootout "gui/$UID" "$PLIST" 2>/dev/null || true
 launchctl bootstrap "gui/$UID" "$PLIST"
+
+# Force one cycle now. This recovers an overdue item immediately after an
+# update/relogin rather than waiting for the next heartbeat/calendar event.
+launchctl kickstart -k "gui/$UID/$LABEL"
+
 echo "Installed TikTok real-video automation. Queue check interval: ${INTERVAL}s"
 echo "Automatic publication slots: 09:00, 12:00, 15:00, 18:00, 21:00 and 23:00 America/Sao_Paulo"
+echo "Calendar recovery: enabled for sleep/wake"
+echo "Immediate overdue recovery: enabled at login/install"
 echo "Slot grace window: 45 minutes"
 echo "Automatic music: original AMB fashion soundtrack mixed before upload"
 echo "Upload timeout: 180s"
