@@ -2888,5 +2888,47 @@ export const generatedProducts: Product[] = [
     "weightOz": 13,
     "unitCostUsd": 9.56,
     "minimumMarginPercent": 40
+  },
+  {
+    "slug": "seraphina-tulle-bridal-dress",
+    "name": "Seraphina Tulle Bridal Dress",
+    "vendor": "AMB BOUTIQUE",
+    "category": "Dresses",
+    "price": 189,
+    "compareAt": 248,
+    "badge": "Just In",
+    "sheet": "one",
+    "quadrant": 1,
+    "colors": [
+      "#f5f5f0",
+      "#faf5eb"
+    ],
+    "colorNames": [
+      "White",
+      "Ivory"
+    ],
+    "sizes": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "description": "Seraphina Tulle Bridal Dress is the AMB take on the modern bohemian bridal gown. A deep V-neckline with gathered tulle straps, a gracefully open back and a flowing floor-length skirt create a silhouette that moves beautifully on a beach, in a garden or down a candlelit aisle. Curated in San Diego for a polished, feminine wardrobe.",
+    "materials": "Lightweight tulle overlaying a soft lining with a smooth satin waistband.",
+    "care": "Professional dry clean only. Store in a breathable garment bag away from direct sunlight.",
+    "images": [
+      "/products/seraphina-tulle-bridal-dress/01.webp",
+      "/products/seraphina-tulle-bridal-dress/02.webp",
+      "/products/seraphina-tulle-bridal-dress/03.webp",
+      "/products/seraphina-tulle-bridal-dress/04.webp"
+    ],
+    "stock": 8968,
+    "weightOz": 42.33,
+    "unitCostUsd": 23.85,
+    "minimumMarginPercent": 40
   }
 ];
