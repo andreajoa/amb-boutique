@@ -2931,6 +2931,7 @@ export const generatedProducts: Product[] = [
     "unitCostUsd": 23.85,
     "minimumMarginPercent": 40
   },
+
   {
     "slug": "calla-maxi-dress",
     "name": "Calla Maxi Dress",
@@ -2994,10 +2995,7 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/talia-wide-leg-trousers/01.webp",
-      "/products/talia-wide-leg-trousers/02.webp",
-      "/products/talia-wide-leg-trousers/03.webp",
-      "/products/talia-wide-leg-trousers/04.webp"
+      "/products/talia-wide-leg-trousers/01.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -3032,9 +3030,7 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/mira-wide-leg-trousers/01.webp",
-      "/products/mira-wide-leg-trousers/02.webp",
-      "/products/mira-wide-leg-trousers/03.webp",
-      "/products/mira-wide-leg-trousers/04.webp"
+      "/products/mira-wide-leg-trousers/02.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -3068,10 +3064,7 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/unity-wide-leg-trousers/01.webp",
-      "/products/unity-wide-leg-trousers/02.webp",
-      "/products/unity-wide-leg-trousers/03.webp",
-      "/products/unity-wide-leg-trousers/04.webp"
+      "/products/unity-wide-leg-trousers/01.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -3105,10 +3098,7 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/xyla-wide-leg-trousers/01.webp",
-      "/products/xyla-wide-leg-trousers/02.webp",
-      "/products/xyla-wide-leg-trousers/03.webp",
-      "/products/xyla-wide-leg-trousers/04.webp"
+      "/products/xyla-wide-leg-trousers/01.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -3142,10 +3132,7 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/kira-wide-leg-trousers/01.webp",
-      "/products/kira-wide-leg-trousers/02.webp",
-      "/products/kira-wide-leg-trousers/03.webp",
-      "/products/kira-wide-leg-trousers/04.webp"
+      "/products/kira-wide-leg-trousers/01.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -3321,10 +3308,7 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/tamsin-maxi-skirt/01.webp",
-      "/products/tamsin-maxi-skirt/02.webp",
-      "/products/tamsin-maxi-skirt/03.webp",
-      "/products/tamsin-maxi-skirt/04.webp"
+      "/products/tamsin-maxi-skirt/01.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
@@ -3358,10 +3342,7 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/petra-maxi-skirt/01.webp",
-      "/products/petra-maxi-skirt/02.webp",
-      "/products/petra-maxi-skirt/03.webp",
-      "/products/petra-maxi-skirt/04.webp"
+      "/products/petra-maxi-skirt/01.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
@@ -3370,51 +3351,14 @@ export const generatedProducts: Product[] = [
     "badge": "Just In"
   },
   {
-    "slug": "eva-maxi-skirt",
-    "name": "Eva Maxi Skirt",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#2c5ea8"
-    ],
-    "colorNames": [
-      "Blue"
-    ],
-    "sizes": [
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "description": "Eva Maxi Skirt is the AMB take on the modern maxi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/eva-maxi-skirt/01.webp",
-      "/products/eva-maxi-skirt/02.webp",
-      "/products/eva-maxi-skirt/03.webp",
-      "/products/eva-maxi-skirt/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 12.35,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
     "slug": "harlow-maxi-skirt",
     "name": "Harlow Maxi Skirt",
     "vendor": "AMB BOUTIQUE",
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 1,
     "colors": [
       "#1b3a5c"
     ],
@@ -3451,8 +3395,8 @@ export const generatedProducts: Product[] = [
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "one",
-    "quadrant": 3,
+    "sheet": "two",
+    "quadrant": 2,
     "colors": [
       "#1b1b1b"
     ],
@@ -3470,16 +3414,13 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/flor-maxi-skirt/01.webp",
-      "/products/flor-maxi-skirt/02.webp",
-      "/products/flor-maxi-skirt/03.webp",
-      "/products/flor-maxi-skirt/04.webp"
+      "/products/flor-maxi-skirt/01.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "thea-maxi-skirt",
@@ -3488,8 +3429,8 @@ export const generatedProducts: Product[] = [
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "two",
-    "quadrant": 4,
+    "sheet": "one",
+    "quadrant": 3,
     "colors": [
       "#722f37"
     ],
@@ -3507,52 +3448,13 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/thea-maxi-skirt/01.webp",
-      "/products/thea-maxi-skirt/02.webp",
-      "/products/thea-maxi-skirt/03.webp",
-      "/products/thea-maxi-skirt/04.webp"
+      "/products/thea-maxi-skirt/01.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "violet-maxi-skirt",
-    "name": "Violet Maxi Skirt",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#2c5ea8"
-    ],
-    "colorNames": [
-      "Blue"
-    ],
-    "sizes": [
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "description": "Violet Maxi Skirt is the AMB take on the modern maxi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/violet-maxi-skirt/01.webp",
-      "/products/violet-maxi-skirt/02.webp",
-      "/products/violet-maxi-skirt/03.webp",
-      "/products/violet-maxi-skirt/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 12.35,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
+    "badge": "Just In"
   },
   {
     "slug": "reina-maxi-skirt",
@@ -3562,7 +3464,7 @@ export const generatedProducts: Product[] = [
     "price": 58,
     "compareAt": 75,
     "sheet": "two",
-    "quadrant": 2,
+    "quadrant": 4,
     "colors": [
       "#1b1b1b"
     ],
@@ -3580,10 +3482,7 @@ export const generatedProducts: Product[] = [
     "materials": "Lightweight chiffon with a fluid, airy drape.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/reina-maxi-skirt/01.webp",
-      "/products/reina-maxi-skirt/02.webp",
-      "/products/reina-maxi-skirt/03.webp",
-      "/products/reina-maxi-skirt/04.webp"
+      "/products/reina-maxi-skirt/01.webp"
     ],
     "stock": 50,
     "weightOz": 8.47,
@@ -3599,7 +3498,7 @@ export const generatedProducts: Product[] = [
     "price": 58,
     "compareAt": 75,
     "sheet": "one",
-    "quadrant": 3,
+    "quadrant": 1,
     "colors": [
       "#1b1b1b"
     ],
@@ -3617,10 +3516,7 @@ export const generatedProducts: Product[] = [
     "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/fleur-maxi-skirt/01.webp",
-      "/products/fleur-maxi-skirt/02.webp",
-      "/products/fleur-maxi-skirt/03.webp",
-      "/products/fleur-maxi-skirt/04.webp"
+      "/products/fleur-maxi-skirt/01.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
@@ -3635,7 +3531,7 @@ export const generatedProducts: Product[] = [
     "price": 58,
     "compareAt": 75,
     "sheet": "two",
-    "quadrant": 4,
+    "quadrant": 2,
     "colors": [
       "#4a7c59"
     ],
@@ -3654,15 +3550,13 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/ulla-maxi-skirt/01.webp",
-      "/products/ulla-maxi-skirt/02.webp",
-      "/products/ulla-maxi-skirt/03.webp",
-      "/products/ulla-maxi-skirt/04.webp"
+      "/products/ulla-maxi-skirt/02.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "zelda-maxi-skirt",
@@ -3672,7 +3566,7 @@ export const generatedProducts: Product[] = [
     "price": 58,
     "compareAt": 75,
     "sheet": "one",
-    "quadrant": 1,
+    "quadrant": 3,
     "colors": [
       "#f5f5f0"
     ],
@@ -3691,15 +3585,12 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/zelda-maxi-skirt/01.webp",
-      "/products/zelda-maxi-skirt/02.webp",
-      "/products/zelda-maxi-skirt/03.webp",
-      "/products/zelda-maxi-skirt/04.webp"
+      "/products/zelda-maxi-skirt/02.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "ximena-maxi-skirt",
@@ -3709,7 +3600,7 @@ export const generatedProducts: Product[] = [
     "price": 58,
     "compareAt": 75,
     "sheet": "two",
-    "quadrant": 2,
+    "quadrant": 4,
     "colors": [
       "#c3b091"
     ],
@@ -3727,16 +3618,13 @@ export const generatedProducts: Product[] = [
     "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/ximena-maxi-skirt/01.webp",
-      "/products/ximena-maxi-skirt/02.webp",
-      "/products/ximena-maxi-skirt/03.webp",
-      "/products/ximena-maxi-skirt/04.webp"
+      "/products/ximena-maxi-skirt/01.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "elise-maxi-skirt",
@@ -3746,7 +3634,7 @@ export const generatedProducts: Product[] = [
     "price": 58,
     "compareAt": 75,
     "sheet": "one",
-    "quadrant": 3,
+    "quadrant": 1,
     "colors": [
       "#3e2723"
     ],
@@ -3764,15 +3652,13 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/elise-maxi-skirt/01.webp",
-      "/products/elise-maxi-skirt/02.webp",
-      "/products/elise-maxi-skirt/03.webp",
-      "/products/elise-maxi-skirt/04.webp"
+      "/products/elise-maxi-skirt/01.webp"
     ],
     "stock": 9999,
     "weightOz": 15.87,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
+    "minimumMarginPercent": 40,
+    "badge": "Just In"
   },
   {
     "slug": "eden-maxi-skirt",
@@ -3782,7 +3668,7 @@ export const generatedProducts: Product[] = [
     "price": 58,
     "compareAt": 75,
     "sheet": "two",
-    "quadrant": 4,
+    "quadrant": 2,
     "colors": [
       "#1b1b1b"
     ],
@@ -3800,53 +3686,13 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/eden-maxi-skirt/01.webp",
-      "/products/eden-maxi-skirt/02.webp",
-      "/products/eden-maxi-skirt/03.webp",
-      "/products/eden-maxi-skirt/04.webp"
+      "/products/eden-maxi-skirt/01.webp"
     ],
     "stock": 9999,
     "weightOz": 15.87,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "delphine-maxi-skirt",
-    "name": "Delphine Maxi Skirt",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#4a7c59"
-    ],
-    "colorNames": [
-      "Green"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Delphine Maxi Skirt is the AMB take on the modern maxi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/delphine-maxi-skirt/01.webp",
-      "/products/delphine-maxi-skirt/02.webp",
-      "/products/delphine-maxi-skirt/03.webp",
-      "/products/delphine-maxi-skirt/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 15.87,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "vita-maxi-skirt",
@@ -3855,8 +3701,8 @@ export const generatedProducts: Product[] = [
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 3,
     "colors": [
       "#808080"
     ],
@@ -3882,8 +3728,7 @@ export const generatedProducts: Product[] = [
     "stock": 9999,
     "weightOz": 15.87,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "ilana-blazer",
@@ -3892,8 +3737,8 @@ export const generatedProducts: Product[] = [
     "category": "Knitwear",
     "price": 68,
     "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
+    "sheet": "two",
+    "quadrant": 4,
     "colors": [
       "#f5f5f0"
     ],
@@ -3918,41 +3763,6 @@ export const generatedProducts: Product[] = [
     ],
     "stock": 89,
     "weightOz": 29.98,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "lila-mini-dress",
-    "name": "Lila Mini Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#2c5ea8"
-    ],
-    "colorNames": [
-      "Blue"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Lila Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "All-over sequin embellishment on a stretch-lined base.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/lila-mini-dress/01.webp",
-      "/products/lila-mini-dress/02.webp",
-      "/products/lila-mini-dress/03.webp",
-      "/products/lila-mini-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 14.11,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
     "badge": "Just In"
@@ -3981,10 +3791,7 @@ export const generatedProducts: Product[] = [
     "materials": "All-over sequin embellishment on a stretch-lined base.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/dalia-mini-dress/01.webp",
-      "/products/dalia-mini-dress/02.webp",
-      "/products/dalia-mini-dress/03.webp",
-      "/products/dalia-mini-dress/04.webp"
+      "/products/dalia-mini-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -4017,119 +3824,13 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/vega-mini-dress/01.webp",
-      "/products/vega-mini-dress/02.webp",
-      "/products/vega-mini-dress/03.webp",
-      "/products/vega-mini-dress/04.webp"
+      "/products/vega-mini-dress/02.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "iris-mini-dress",
-    "name": "Iris Mini Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#555555"
-    ],
-    "colorNames": [
-      "Dark Grey"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Iris Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "All-over sequin embellishment on a stretch-lined base.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/iris-mini-dress/01.webp",
-      "/products/iris-mini-dress/02.webp",
-      "/products/iris-mini-dress/03.webp",
-      "/products/iris-mini-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 14.11,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "willa-mini-dress",
-    "name": "Willa Mini Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#d4a843"
-    ],
-    "colorNames": [
-      "Gold"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Willa Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "All-over sequin embellishment on a stretch-lined base.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/willa-mini-dress/01.webp",
-      "/products/willa-mini-dress/02.webp",
-      "/products/willa-mini-dress/03.webp",
-      "/products/willa-mini-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 14.11,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "giselle-mini-dress",
-    "name": "Giselle Mini Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#87ceeb"
-    ],
-    "colorNames": [
-      "Sky Blue"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Giselle Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "All-over sequin embellishment on a stretch-lined base.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/giselle-mini-dress/01.webp",
-      "/products/giselle-mini-dress/02.webp",
-      "/products/giselle-mini-dress/03.webp",
-      "/products/giselle-mini-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 14.11,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "odette-mini-dress",
@@ -4138,8 +3839,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 3,
     "colors": [
       "#4a7c59"
     ],
@@ -4155,16 +3856,13 @@ export const generatedProducts: Product[] = [
     "materials": "All-over sequin embellishment on a stretch-lined base.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/odette-mini-dress/01.webp",
-      "/products/odette-mini-dress/02.webp",
-      "/products/odette-mini-dress/03.webp",
-      "/products/odette-mini-dress/04.webp"
+      "/products/odette-mini-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "lana-mini-dress",
@@ -4173,8 +3871,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
+    "sheet": "two",
+    "quadrant": 4,
     "colors": [
       "#808080"
     ],
@@ -4191,9 +3889,7 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/lana-mini-dress/01.webp",
-      "/products/lana-mini-dress/02.webp",
-      "/products/lana-mini-dress/03.webp",
-      "/products/lana-mini-dress/04.webp"
+      "/products/lana-mini-dress/02.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -4208,8 +3904,8 @@ export const generatedProducts: Product[] = [
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "two",
-    "quadrant": 4,
+    "sheet": "one",
+    "quadrant": 1,
     "colors": [
       "#d5c4a1"
     ],
@@ -4238,256 +3934,6 @@ export const generatedProducts: Product[] = [
     "badge": "Just In"
   },
   {
-    "slug": "piper-halter-dress",
-    "name": "Piper Halter Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#1b1b1b"
-    ],
-    "colorNames": [
-      "Black"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Piper Halter Dress is the AMB take on the modern halter dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/piper-halter-dress/01.webp",
-      "/products/piper-halter-dress/02.webp",
-      "/products/piper-halter-dress/03.webp",
-      "/products/piper-halter-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 35.27,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "jessa-halter-dress",
-    "name": "Jessa Halter Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
-    "colors": [
-      "#722f37"
-    ],
-    "colorNames": [
-      "Burgundy"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Jessa Halter Dress is the AMB take on the modern halter dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/jessa-halter-dress/01.webp",
-      "/products/jessa-halter-dress/02.webp",
-      "/products/jessa-halter-dress/03.webp",
-      "/products/jessa-halter-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 35.27,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "maren-halter-dress",
-    "name": "Maren Halter Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#e8a0b8"
-    ],
-    "colorNames": [
-      "Pink"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Maren Halter Dress is the AMB take on the modern halter dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/maren-halter-dress/01.webp",
-      "/products/maren-halter-dress/02.webp",
-      "/products/maren-halter-dress/03.webp",
-      "/products/maren-halter-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 35.27,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "estelle-halter-dress",
-    "name": "Estelle Halter Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#87ceeb"
-    ],
-    "colorNames": [
-      "Light Blue"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Estelle Halter Dress is the AMB take on the modern halter dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/estelle-halter-dress/01.webp",
-      "/products/estelle-halter-dress/02.webp",
-      "/products/estelle-halter-dress/03.webp",
-      "/products/estelle-halter-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 35.27,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "selene-halter-dress",
-    "name": "Selene Halter Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#f5f5f0"
-    ],
-    "colorNames": [
-      "White"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Selene Halter Dress is the AMB take on the modern halter dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/selene-halter-dress/01.webp",
-      "/products/selene-halter-dress/02.webp",
-      "/products/selene-halter-dress/03.webp",
-      "/products/selene-halter-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 35.27,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "margot-halter-dress",
-    "name": "Margot Halter Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
-    "colors": [
-      "#d5c4a1"
-    ],
-    "colorNames": [
-      "Beige"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Margot Halter Dress is the AMB take on the modern halter dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/margot-halter-dress/01.webp",
-      "/products/margot-halter-dress/02.webp",
-      "/products/margot-halter-dress/03.webp",
-      "/products/margot-halter-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 35.27,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "blair-halter-dress",
-    "name": "Blair Halter Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#6f4e37"
-    ],
-    "colorNames": [
-      "Coffee"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Blair Halter Dress is the AMB take on the modern halter dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/blair-halter-dress/01.webp",
-      "/products/blair-halter-dress/02.webp",
-      "/products/blair-halter-dress/03.webp",
-      "/products/blair-halter-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 35.27,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
     "slug": "gaia-midi-dress",
     "name": "Gaia Midi Dress",
     "vendor": "AMB BOUTIQUE",
@@ -4495,7 +3941,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "two",
-    "quadrant": 4,
+    "quadrant": 2,
     "colors": [
       "#2c5ea8"
     ],
@@ -4513,10 +3959,7 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/gaia-midi-dress/01.webp",
-      "/products/gaia-midi-dress/02.webp",
-      "/products/gaia-midi-dress/03.webp",
-      "/products/gaia-midi-dress/04.webp"
+      "/products/gaia-midi-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
@@ -4532,7 +3975,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "one",
-    "quadrant": 1,
+    "quadrant": 3,
     "colors": [
       "#1b1b1b"
     ],
@@ -4551,15 +3994,12 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/fia-midi-dress/01.webp",
-      "/products/fia-midi-dress/02.webp",
-      "/products/fia-midi-dress/03.webp",
-      "/products/fia-midi-dress/04.webp"
+      "/products/fia-midi-dress/02.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "zinnia-midi-dress",
@@ -4569,7 +4009,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "two",
-    "quadrant": 2,
+    "quadrant": 4,
     "colors": [
       "#c4506e"
     ],
@@ -4587,16 +4027,13 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/zinnia-midi-dress/01.webp",
-      "/products/zinnia-midi-dress/02.webp",
-      "/products/zinnia-midi-dress/03.webp",
-      "/products/zinnia-midi-dress/04.webp"
+      "/products/zinnia-midi-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "ines-midi-dress",
@@ -4606,7 +4043,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "one",
-    "quadrant": 3,
+    "quadrant": 1,
     "colors": [
       "#e8a0b8"
     ],
@@ -4624,47 +4061,7 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/ines-midi-dress/01.webp",
-      "/products/ines-midi-dress/02.webp",
-      "/products/ines-midi-dress/03.webp",
-      "/products/ines-midi-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 12.35,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "mika-midi-dress",
-    "name": "Mika Midi Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#c0392b"
-    ],
-    "colorNames": [
-      "Red"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Mika Midi Dress is the AMB take on the modern midi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/mika-midi-dress/01.webp",
-      "/products/mika-midi-dress/02.webp",
-      "/products/mika-midi-dress/03.webp",
-      "/products/mika-midi-dress/04.webp"
+      "/products/ines-midi-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
@@ -4679,8 +4076,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
+    "sheet": "two",
+    "quadrant": 2,
     "colors": [
       "#e67e22"
     ],
@@ -4698,236 +4095,13 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/aria-midi-dress/01.webp",
-      "/products/aria-midi-dress/02.webp",
-      "/products/aria-midi-dress/03.webp",
-      "/products/aria-midi-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 12.35,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "sierra-midi-dress",
-    "name": "Sierra Midi Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
-    "colors": [
-      "#7b4f9d"
-    ],
-    "colorNames": [
-      "Purple"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Sierra Midi Dress is the AMB take on the modern midi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/sierra-midi-dress/01.webp",
-      "/products/sierra-midi-dress/02.webp",
-      "/products/sierra-midi-dress/03.webp",
-      "/products/sierra-midi-dress/04.webp"
+      "/products/aria-midi-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
     "badge": "Just In"
-  },
-  {
-    "slug": "quinn-midi-dress",
-    "name": "Quinn Midi Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#f0c040"
-    ],
-    "colorNames": [
-      "Yellow"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Quinn Midi Dress is the AMB take on the modern midi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/quinn-midi-dress/01.webp",
-      "/products/quinn-midi-dress/02.webp",
-      "/products/quinn-midi-dress/03.webp",
-      "/products/quinn-midi-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 12.35,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "rio-midi-dress",
-    "name": "Rio Midi Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#2d5a3d"
-    ],
-    "colorNames": [
-      "Dark Green"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Rio Midi Dress is the AMB take on the modern midi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/rio-midi-dress/01.webp",
-      "/products/rio-midi-dress/02.webp",
-      "/products/rio-midi-dress/03.webp",
-      "/products/rio-midi-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 12.35,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "coral-midi-dress",
-    "name": "Coral Midi Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#722f37"
-    ],
-    "colorNames": [
-      "Wine Red"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Coral Midi Dress is the AMB take on the modern midi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/coral-midi-dress/01.webp",
-      "/products/coral-midi-dress/02.webp",
-      "/products/coral-midi-dress/03.webp",
-      "/products/coral-midi-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 12.35,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "trinity-midi-dress",
-    "name": "Trinity Midi Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
-    "colors": [
-      "#f5f5f0"
-    ],
-    "colorNames": [
-      "White"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Trinity Midi Dress is the AMB take on the modern midi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/trinity-midi-dress/01.webp",
-      "/products/trinity-midi-dress/02.webp",
-      "/products/trinity-midi-dress/03.webp",
-      "/products/trinity-midi-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 12.35,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "mirabel-midi-dress",
-    "name": "Mirabel Midi Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#1b3a5c"
-    ],
-    "colorNames": [
-      "Dark Blue"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Mirabel Midi Dress is the AMB take on the modern midi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/mirabel-midi-dress/01.webp",
-      "/products/mirabel-midi-dress/02.webp",
-      "/products/mirabel-midi-dress/03.webp",
-      "/products/mirabel-midi-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 12.35,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
   },
   {
     "slug": "halcyon-midi-skirt",
@@ -4936,8 +4110,8 @@ export const generatedProducts: Product[] = [
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "two",
-    "quadrant": 4,
+    "sheet": "one",
+    "quadrant": 3,
     "colors": [
       "#1b1b1b"
     ],
@@ -4955,10 +4129,7 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/halcyon-midi-skirt/01.webp",
-      "/products/halcyon-midi-skirt/02.webp",
-      "/products/halcyon-midi-skirt/03.webp",
-      "/products/halcyon-midi-skirt/04.webp"
+      "/products/halcyon-midi-skirt/01.webp"
     ],
     "stock": 9999,
     "weightOz": 12.73,
@@ -4973,8 +4144,8 @@ export const generatedProducts: Product[] = [
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "one",
-    "quadrant": 1,
+    "sheet": "two",
+    "quadrant": 4,
     "colors": [
       "#2d8b72"
     ],
@@ -4992,10 +4163,7 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/birdie-midi-skirt/01.webp",
-      "/products/birdie-midi-skirt/02.webp",
-      "/products/birdie-midi-skirt/03.webp",
-      "/products/birdie-midi-skirt/04.webp"
+      "/products/birdie-midi-skirt/01.webp"
     ],
     "stock": 9999,
     "weightOz": 12.73,
@@ -5010,8 +4178,8 @@ export const generatedProducts: Product[] = [
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 1,
     "colors": [
       "#1b2838"
     ],
@@ -5029,16 +4197,12 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/maeve-midi-skirt/01.webp",
-      "/products/maeve-midi-skirt/02.webp",
-      "/products/maeve-midi-skirt/03.webp",
-      "/products/maeve-midi-skirt/04.webp"
+      "/products/maeve-midi-skirt/01.webp"
     ],
     "stock": 9999,
     "weightOz": 12.73,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "lotus-midi-skirt",
@@ -5047,8 +4211,8 @@ export const generatedProducts: Product[] = [
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "one",
-    "quadrant": 3,
+    "sheet": "two",
+    "quadrant": 2,
     "colors": [
       "#722f37"
     ],
@@ -5068,8 +4232,7 @@ export const generatedProducts: Product[] = [
     "images": [
       "/products/lotus-midi-skirt/01.webp",
       "/products/lotus-midi-skirt/02.webp",
-      "/products/lotus-midi-skirt/03.webp",
-      "/products/lotus-midi-skirt/04.webp"
+      "/products/lotus-midi-skirt/03.webp"
     ],
     "stock": 9999,
     "weightOz": 12.73,
@@ -5084,8 +4247,8 @@ export const generatedProducts: Product[] = [
     "category": "Shorts",
     "price": 48,
     "compareAt": 60,
-    "sheet": "two",
-    "quadrant": 4,
+    "sheet": "one",
+    "quadrant": 3,
     "colors": [
       "#d5c4a1"
     ],
@@ -5111,82 +4274,7 @@ export const generatedProducts: Product[] = [
     "stock": 2947,
     "weightOz": 70.55,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "camille-trousers",
-    "name": "Camille Trousers",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
-    "price": 62,
-    "compareAt": 80,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#f5f5f0"
-    ],
-    "colorNames": [
-      "White"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Camille Trousers is the AMB take on the modern trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/camille-trousers/01.webp",
-      "/products/camille-trousers/02.webp",
-      "/products/camille-trousers/03.webp",
-      "/products/camille-trousers/04.webp"
-    ],
-    "stock": 700,
-    "weightOz": 35.27,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "kaia-trousers",
-    "name": "Kaia Trousers",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
-    "price": 62,
-    "compareAt": 80,
-    "sheet": "two",
-    "quadrant": 2,
-    "colors": [
-      "#1b1b1b"
-    ],
-    "colorNames": [
-      "Black"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Kaia Trousers is the AMB take on the modern trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/kaia-trousers/01.webp",
-      "/products/kaia-trousers/02.webp",
-      "/products/kaia-trousers/03.webp",
-      "/products/kaia-trousers/04.webp"
-    ],
-    "stock": 700,
-    "weightOz": 35.27,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "fern-trousers",
@@ -5195,8 +4283,8 @@ export const generatedProducts: Product[] = [
     "category": "Pants",
     "price": 62,
     "compareAt": 80,
-    "sheet": "one",
-    "quadrant": 3,
+    "sheet": "two",
+    "quadrant": 4,
     "colors": [
       "#c0392b"
     ],
@@ -5223,7 +4311,7 @@ export const generatedProducts: Product[] = [
     "weightOz": 35.27,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "tessa-midi-dress",
@@ -5232,8 +4320,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 4,
+    "sheet": "one",
+    "quadrant": 1,
     "colors": [
       "#e8c4a0"
     ],
@@ -5253,13 +4341,13 @@ export const generatedProducts: Product[] = [
     "images": [
       "/products/tessa-midi-dress/01.webp",
       "/products/tessa-midi-dress/02.webp",
-      "/products/tessa-midi-dress/03.webp",
-      "/products/tessa-midi-dress/04.webp"
+      "/products/tessa-midi-dress/03.webp"
     ],
     "stock": 10,
     "weightOz": 19.4,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
+    "minimumMarginPercent": 40,
+    "badge": "Just In"
   },
   {
     "slug": "opal-mini-dress",
@@ -5268,8 +4356,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
+    "sheet": "two",
+    "quadrant": 2,
     "colors": [
       "#4a7c59"
     ],
@@ -5295,7 +4383,8 @@ export const generatedProducts: Product[] = [
     "stock": 36,
     "weightOz": 6.98,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
+    "minimumMarginPercent": 40,
+    "badge": "Just In"
   },
   {
     "slug": "demi-dress",
@@ -5304,8 +4393,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 3,
     "colors": [
       "#7b4f9d"
     ],
@@ -5324,44 +4413,7 @@ export const generatedProducts: Product[] = [
     "images": [
       "/products/demi-dress/01.webp",
       "/products/demi-dress/02.webp",
-      "/products/demi-dress/03.webp",
-      "/products/demi-dress/04.webp"
-    ],
-    "stock": 281,
-    "weightOz": 18.62,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "twyla-dress",
-    "name": "Twyla Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#b39ddb"
-    ],
-    "colorNames": [
-      "Light Purple"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "description": "Twyla Dress is the AMB take on the modern dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/twyla-dress/01.webp",
-      "/products/twyla-dress/02.webp",
-      "/products/twyla-dress/03.webp",
-      "/products/twyla-dress/04.webp"
+      "/products/demi-dress/03.webp"
     ],
     "stock": 281,
     "weightOz": 18.62,
@@ -5395,45 +4447,7 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/rae-dress/01.webp",
-      "/products/rae-dress/02.webp",
-      "/products/rae-dress/03.webp",
-      "/products/rae-dress/04.webp"
-    ],
-    "stock": 281,
-    "weightOz": 18.62,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "vivienne-dress",
-    "name": "Vivienne Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#d63384"
-    ],
-    "colorNames": [
-      "Fuchsia"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "description": "Vivienne Dress is the AMB take on the modern dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/vivienne-dress/01.webp",
-      "/products/vivienne-dress/02.webp",
-      "/products/vivienne-dress/03.webp",
-      "/products/vivienne-dress/04.webp"
+      "/products/rae-dress/02.webp"
     ],
     "stock": 281,
     "weightOz": 18.62,
@@ -5448,8 +4462,8 @@ export const generatedProducts: Product[] = [
     "category": "Tops",
     "price": 42,
     "compareAt": 55,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 1,
     "colors": [
       "#1b1b1b"
     ],
@@ -5465,43 +4479,7 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/kai-tank-top/01.webp",
-      "/products/kai-tank-top/02.webp",
-      "/products/kai-tank-top/03.webp",
-      "/products/kai-tank-top/04.webp"
-    ],
-    "stock": 3154,
-    "weightOz": 5.29,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "greta-tank-top",
-    "name": "Greta Tank Top",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Tops",
-    "price": 42,
-    "compareAt": 55,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#e8a0b8"
-    ],
-    "colorNames": [
-      "Pink"
-    ],
-    "sizes": [
-      "S",
-      "M"
-    ],
-    "description": "Greta Tank Top is the AMB take on the modern tank top. A refined silhouette with thoughtful details that moves effortlessly for layering, lounging and everyday polish. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Soft ribbed knit with gentle stretch for all-day comfort.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/greta-tank-top/01.webp",
-      "/products/greta-tank-top/02.webp",
-      "/products/greta-tank-top/03.webp",
-      "/products/greta-tank-top/04.webp"
+      "/products/kai-tank-top/02.webp"
     ],
     "stock": 3154,
     "weightOz": 5.29,
@@ -5517,7 +4495,7 @@ export const generatedProducts: Product[] = [
     "price": 42,
     "compareAt": 55,
     "sheet": "two",
-    "quadrant": 4,
+    "quadrant": 2,
     "colors": [
       "#b0b0b0"
     ],
@@ -5532,16 +4510,13 @@ export const generatedProducts: Product[] = [
     "materials": "Soft ribbed knit with gentle stretch for all-day comfort.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/hope-tank-top/01.webp",
-      "/products/hope-tank-top/02.webp",
-      "/products/hope-tank-top/03.webp",
-      "/products/hope-tank-top/04.webp"
+      "/products/hope-tank-top/01.webp"
     ],
     "stock": 3154,
     "weightOz": 5.29,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "britt-tank-top",
@@ -5551,7 +4526,7 @@ export const generatedProducts: Product[] = [
     "price": 42,
     "compareAt": 55,
     "sheet": "one",
-    "quadrant": 1,
+    "quadrant": 3,
     "colors": [
       "#f5f5f0"
     ],
@@ -5567,14 +4542,13 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/britt-tank-top/01.webp",
-      "/products/britt-tank-top/02.webp",
-      "/products/britt-tank-top/03.webp",
-      "/products/britt-tank-top/04.webp"
+      "/products/britt-tank-top/02.webp"
     ],
     "stock": 3154,
     "weightOz": 5.29,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
+    "minimumMarginPercent": 40,
+    "badge": "Just In"
   },
   {
     "slug": "indie-tank-top",
@@ -5584,7 +4558,7 @@ export const generatedProducts: Product[] = [
     "price": 42,
     "compareAt": 55,
     "sheet": "two",
-    "quadrant": 2,
+    "quadrant": 4,
     "colors": [
       "#d5c4a1"
     ],
@@ -5621,7 +4595,7 @@ export const generatedProducts: Product[] = [
     "price": 48,
     "compareAt": 60,
     "sheet": "one",
-    "quadrant": 3,
+    "quadrant": 1,
     "colors": [
       "#d5c4a1"
     ],
@@ -5645,7 +4619,7 @@ export const generatedProducts: Product[] = [
     "weightOz": 12.7,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "remi-denim-shorts",
@@ -5655,7 +4629,7 @@ export const generatedProducts: Product[] = [
     "price": 48,
     "compareAt": 60,
     "sheet": "two",
-    "quadrant": 4,
+    "quadrant": 2,
     "colors": [
       "#87ceeb"
     ],
@@ -5682,7 +4656,7 @@ export const generatedProducts: Product[] = [
     "weightOz": 8.11,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "honor-denim-shorts",
@@ -5692,7 +4666,7 @@ export const generatedProducts: Product[] = [
     "price": 48,
     "compareAt": 60,
     "sheet": "one",
-    "quadrant": 1,
+    "quadrant": 3,
     "colors": [
       "#1b3a5c"
     ],
@@ -5711,158 +4685,10 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/honor-denim-shorts/01.webp",
-      "/products/honor-denim-shorts/02.webp",
-      "/products/honor-denim-shorts/03.webp",
-      "/products/honor-denim-shorts/04.webp"
+      "/products/honor-denim-shorts/02.webp"
     ],
     "stock": 955,
     "weightOz": 12.17,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "yolanda-denim-shorts",
-    "name": "Yolanda Denim Shorts",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Shorts",
-    "price": 48,
-    "compareAt": 60,
-    "sheet": "two",
-    "quadrant": 2,
-    "colors": [
-      "#1b1b1b"
-    ],
-    "colorNames": [
-      "Black"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Yolanda Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Premium stretch denim with a soft, lived-in hand feel.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/yolanda-denim-shorts/01.webp",
-      "/products/yolanda-denim-shorts/02.webp",
-      "/products/yolanda-denim-shorts/03.webp",
-      "/products/yolanda-denim-shorts/04.webp"
-    ],
-    "stock": 1059,
-    "weightOz": 10.58,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "usha-denim-shorts",
-    "name": "Usha Denim Shorts",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Shorts",
-    "price": 48,
-    "compareAt": 60,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#1b3a5c"
-    ],
-    "colorNames": [
-      "Dark Blue"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Usha Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Premium stretch denim with a soft, lived-in hand feel.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/usha-denim-shorts/01.webp",
-      "/products/usha-denim-shorts/02.webp",
-      "/products/usha-denim-shorts/03.webp",
-      "/products/usha-denim-shorts/04.webp"
-    ],
-    "stock": 1059,
-    "weightOz": 10.58,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "hana-denim-shorts",
-    "name": "Hana Denim Shorts",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Shorts",
-    "price": 48,
-    "compareAt": 60,
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#87ceeb"
-    ],
-    "colorNames": [
-      "Light Blue"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Hana Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Premium stretch denim with a soft, lived-in hand feel.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/hana-denim-shorts/01.webp",
-      "/products/hana-denim-shorts/02.webp",
-      "/products/hana-denim-shorts/03.webp",
-      "/products/hana-denim-shorts/04.webp"
-    ],
-    "stock": 1059,
-    "weightOz": 10.58,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "sage-denim-shorts",
-    "name": "Sage Denim Shorts",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Shorts",
-    "price": 48,
-    "compareAt": 60,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#1b1b1b"
-    ],
-    "colorNames": [
-      "Black"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Sage Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Premium stretch denim with a soft, lived-in hand feel.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/sage-denim-shorts/01.webp",
-      "/products/sage-denim-shorts/02.webp",
-      "/products/sage-denim-shorts/03.webp",
-      "/products/sage-denim-shorts/04.webp"
-    ],
-    "stock": 116,
-    "weightOz": 8.64,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40
   },
@@ -5874,7 +4700,7 @@ export const generatedProducts: Product[] = [
     "price": 48,
     "compareAt": 60,
     "sheet": "two",
-    "quadrant": 2,
+    "quadrant": 4,
     "colors": [
       "#87ceeb"
     ],
@@ -5901,7 +4727,7 @@ export const generatedProducts: Product[] = [
     "weightOz": 8.64,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "wisteria-denim-shorts",
@@ -5911,7 +4737,7 @@ export const generatedProducts: Product[] = [
     "price": 48,
     "compareAt": 60,
     "sheet": "one",
-    "quadrant": 3,
+    "quadrant": 1,
     "colors": [
       "#1b2838"
     ],
@@ -5930,15 +4756,12 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/wisteria-denim-shorts/01.webp",
-      "/products/wisteria-denim-shorts/02.webp",
-      "/products/wisteria-denim-shorts/03.webp",
-      "/products/wisteria-denim-shorts/04.webp"
+      "/products/wisteria-denim-shorts/02.webp"
     ],
     "stock": 116,
     "weightOz": 8.64,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "bonnie-denim-shorts",
@@ -5948,7 +4771,7 @@ export const generatedProducts: Product[] = [
     "price": 48,
     "compareAt": 60,
     "sheet": "two",
-    "quadrant": 4,
+    "quadrant": 2,
     "colors": [
       "#1b1b1b"
     ],
@@ -5967,52 +4790,13 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/bonnie-denim-shorts/01.webp",
-      "/products/bonnie-denim-shorts/02.webp",
-      "/products/bonnie-denim-shorts/03.webp",
-      "/products/bonnie-denim-shorts/04.webp"
+      "/products/bonnie-denim-shorts/02.webp"
     ],
     "stock": 9999,
     "weightOz": 9.88,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "sabine-denim-shorts",
-    "name": "Sabine Denim Shorts",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Shorts",
-    "price": 48,
-    "compareAt": 60,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#f0c040"
-    ],
-    "colorNames": [
-      "Yellow"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Sabine Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Premium stretch denim with a soft, lived-in hand feel.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/sabine-denim-shorts/01.webp",
-      "/products/sabine-denim-shorts/02.webp",
-      "/products/sabine-denim-shorts/03.webp",
-      "/products/sabine-denim-shorts/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 9.88,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "pearl-denim-shorts",
@@ -6021,8 +4805,8 @@ export const generatedProducts: Product[] = [
     "category": "Shorts",
     "price": 48,
     "compareAt": 60,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 3,
     "colors": [
       "#c4506e"
     ],
@@ -6042,123 +4826,13 @@ export const generatedProducts: Product[] = [
     "images": [
       "/products/pearl-denim-shorts/01.webp",
       "/products/pearl-denim-shorts/02.webp",
-      "/products/pearl-denim-shorts/03.webp",
-      "/products/pearl-denim-shorts/04.webp"
+      "/products/pearl-denim-shorts/03.webp"
     ],
     "stock": 9999,
     "weightOz": 9.88,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "aura-denim-shorts",
-    "name": "Aura Denim Shorts",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Shorts",
-    "price": 48,
-    "compareAt": 60,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#c0392b"
-    ],
-    "colorNames": [
-      "Red"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Aura Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Premium stretch denim with a soft, lived-in hand feel.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/aura-denim-shorts/01.webp",
-      "/products/aura-denim-shorts/02.webp",
-      "/products/aura-denim-shorts/03.webp",
-      "/products/aura-denim-shorts/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 9.88,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "rhea-denim-shorts",
-    "name": "Rhea Denim Shorts",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Shorts",
-    "price": 48,
-    "compareAt": 60,
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#87ceeb"
-    ],
-    "colorNames": [
-      "Sky Blue"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Rhea Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Premium stretch denim with a soft, lived-in hand feel.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/rhea-denim-shorts/01.webp",
-      "/products/rhea-denim-shorts/02.webp",
-      "/products/rhea-denim-shorts/03.webp",
-      "/products/rhea-denim-shorts/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 9.88,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "esme-denim-shorts",
-    "name": "Esme Denim Shorts",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Shorts",
-    "price": 48,
-    "compareAt": 60,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#f5f5f0"
-    ],
-    "colorNames": [
-      "White"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Esme Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Premium stretch denim with a soft, lived-in hand feel.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/esme-denim-shorts/01.webp",
-      "/products/esme-denim-shorts/02.webp",
-      "/products/esme-denim-shorts/03.webp",
-      "/products/esme-denim-shorts/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 9.88,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "briar-denim-shorts",
@@ -6168,7 +4842,7 @@ export const generatedProducts: Product[] = [
     "price": 48,
     "compareAt": 60,
     "sheet": "two",
-    "quadrant": 2,
+    "quadrant": 4,
     "colors": [
       "#d5c4a1"
     ],
@@ -6195,116 +4869,6 @@ export const generatedProducts: Product[] = [
     "weightOz": 7.76,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "keara-denim-shorts",
-    "name": "Keara Denim Shorts",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Shorts",
-    "price": 48,
-    "compareAt": 60,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#87ceeb"
-    ],
-    "colorNames": [
-      "Sky Blue"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Keara Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Premium stretch denim with a soft, lived-in hand feel.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/keara-denim-shorts/01.webp",
-      "/products/keara-denim-shorts/02.webp",
-      "/products/keara-denim-shorts/03.webp",
-      "/products/keara-denim-shorts/04.webp"
-    ],
-    "stock": 2900,
-    "weightOz": 8.22,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "kensa-denim-shorts",
-    "name": "Kensa Denim Shorts",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Shorts",
-    "price": 48,
-    "compareAt": 60,
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#1b1b1b"
-    ],
-    "colorNames": [
-      "Black"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Kensa Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Premium stretch denim with a soft, lived-in hand feel.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/kensa-denim-shorts/01.webp",
-      "/products/kensa-denim-shorts/02.webp",
-      "/products/kensa-denim-shorts/03.webp",
-      "/products/kensa-denim-shorts/04.webp"
-    ],
-    "stock": 2900,
-    "weightOz": 8.22,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "freya-denim-shorts",
-    "name": "Freya Denim Shorts",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Shorts",
-    "price": 48,
-    "compareAt": 60,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#f5f5f0"
-    ],
-    "colorNames": [
-      "White"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Freya Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Premium stretch denim with a soft, lived-in hand feel.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/freya-denim-shorts/01.webp",
-      "/products/freya-denim-shorts/02.webp",
-      "/products/freya-denim-shorts/03.webp",
-      "/products/freya-denim-shorts/04.webp"
-    ],
-    "stock": 2900,
-    "weightOz": 8.22,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
     "badge": "Just In"
   },
   {
@@ -6314,8 +4878,8 @@ export const generatedProducts: Product[] = [
     "category": "Shorts",
     "price": 48,
     "compareAt": 60,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 1,
     "colors": [
       "#c0392b"
     ],
@@ -6333,10 +4897,7 @@ export const generatedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/sol-denim-shorts/01.webp",
-      "/products/sol-denim-shorts/02.webp",
-      "/products/sol-denim-shorts/03.webp",
-      "/products/sol-denim-shorts/04.webp"
+      "/products/sol-denim-shorts/01.webp"
     ],
     "stock": 2900,
     "weightOz": 8.22,
@@ -6351,8 +4912,8 @@ export const generatedProducts: Product[] = [
     "category": "Shorts",
     "price": 48,
     "compareAt": 60,
-    "sheet": "one",
-    "quadrant": 3,
+    "sheet": "two",
+    "quadrant": 2,
     "colors": [
       "#f0c040"
     ],
@@ -6370,16 +4931,13 @@ export const generatedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/elara-denim-shorts/01.webp",
-      "/products/elara-denim-shorts/02.webp",
-      "/products/elara-denim-shorts/03.webp",
-      "/products/elara-denim-shorts/04.webp"
+      "/products/elara-denim-shorts/01.webp"
     ],
     "stock": 2900,
     "weightOz": 8.22,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "daria-denim-shorts",
@@ -6388,8 +4946,8 @@ export const generatedProducts: Product[] = [
     "category": "Shorts",
     "price": 48,
     "compareAt": 60,
-    "sheet": "two",
-    "quadrant": 4,
+    "sheet": "one",
+    "quadrant": 3,
     "colors": [
       "#e84887"
     ],
@@ -6407,16 +4965,13 @@ export const generatedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/daria-denim-shorts/01.webp",
-      "/products/daria-denim-shorts/02.webp",
-      "/products/daria-denim-shorts/03.webp",
-      "/products/daria-denim-shorts/04.webp"
+      "/products/daria-denim-shorts/01.webp"
     ],
     "stock": 2900,
     "weightOz": 8.22,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "jaya-denim-shorts",
@@ -6425,8 +4980,8 @@ export const generatedProducts: Product[] = [
     "category": "Shorts",
     "price": 48,
     "compareAt": 60,
-    "sheet": "one",
-    "quadrant": 1,
+    "sheet": "two",
+    "quadrant": 4,
     "colors": [
       "#1b1b1b"
     ],
@@ -6445,16 +5000,13 @@ export const generatedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/jaya-denim-shorts/01.webp",
-      "/products/jaya-denim-shorts/02.webp",
-      "/products/jaya-denim-shorts/03.webp",
-      "/products/jaya-denim-shorts/04.webp"
+      "/products/jaya-denim-shorts/01.webp"
     ],
     "stock": 1589,
     "weightOz": 6.53,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "paloma-denim-shorts",
@@ -6463,8 +5015,8 @@ export const generatedProducts: Product[] = [
     "category": "Shorts",
     "price": 48,
     "compareAt": 60,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 1,
     "colors": [
       "#87ceeb"
     ],
@@ -6491,45 +5043,8 @@ export const generatedProducts: Product[] = [
     "stock": 1589,
     "weightOz": 6.53,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "zena-denim-shorts",
-    "name": "Zena Denim Shorts",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Shorts",
-    "price": 48,
-    "compareAt": 60,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#2c5ea8"
-    ],
-    "colorNames": [
-      "Blue"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Zena Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Premium stretch denim with a soft, lived-in hand feel.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/zena-denim-shorts/01.webp",
-      "/products/zena-denim-shorts/02.webp",
-      "/products/zena-denim-shorts/03.webp",
-      "/products/zena-denim-shorts/04.webp"
-    ],
-    "stock": 1589,
-    "weightOz": 6.53,
-    "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "yvette-denim-shorts",
@@ -6539,7 +5054,7 @@ export const generatedProducts: Product[] = [
     "price": 48,
     "compareAt": 60,
     "sheet": "two",
-    "quadrant": 4,
+    "quadrant": 2,
     "colors": [
       "#87ceeb"
     ],
@@ -6565,7 +5080,8 @@ export const generatedProducts: Product[] = [
     "stock": 5182,
     "weightOz": 10.12,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
+    "minimumMarginPercent": 40,
+    "badge": "New"
   },
   {
     "slug": "livia-denim-shorts",
@@ -6575,7 +5091,7 @@ export const generatedProducts: Product[] = [
     "price": 48,
     "compareAt": 60,
     "sheet": "one",
-    "quadrant": 1,
+    "quadrant": 3,
     "colors": [
       "#d5c4a1"
     ],
@@ -6601,41 +5117,8 @@ export const generatedProducts: Product[] = [
     "stock": 4990,
     "weightOz": 9.88,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "frances-pleated-skirt",
-    "name": "Frances Pleated Skirt",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
-    "sheet": "two",
-    "quadrant": 2,
-    "colors": [
-      "#b39ddb"
-    ],
-    "colorNames": [
-      "Light Purple"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Frances Pleated Skirt is the AMB take on the modern pleated skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/frances-pleated-skirt/01.webp",
-      "/products/frances-pleated-skirt/02.webp",
-      "/products/frances-pleated-skirt/03.webp",
-      "/products/frances-pleated-skirt/04.webp"
-    ],
-    "stock": 3200,
-    "weightOz": 12.52,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
+    "minimumMarginPercent": 40,
+    "badge": "New"
   },
   {
     "slug": "tallulah-pleated-skirt",
@@ -6644,8 +5127,8 @@ export const generatedProducts: Product[] = [
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "one",
-    "quadrant": 3,
+    "sheet": "two",
+    "quadrant": 4,
     "colors": [
       "#1b1b1b"
     ],
@@ -6661,16 +5144,12 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/tallulah-pleated-skirt/01.webp",
-      "/products/tallulah-pleated-skirt/02.webp",
-      "/products/tallulah-pleated-skirt/03.webp",
-      "/products/tallulah-pleated-skirt/04.webp"
+      "/products/tallulah-pleated-skirt/01.webp"
     ],
     "stock": 3200,
     "weightOz": 12.52,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "celine-pleated-skirt",
@@ -6679,8 +5158,8 @@ export const generatedProducts: Product[] = [
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "two",
-    "quadrant": 4,
+    "sheet": "one",
+    "quadrant": 1,
     "colors": [
       "#87ceeb"
     ],
@@ -6696,16 +5175,12 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/celine-pleated-skirt/01.webp",
-      "/products/celine-pleated-skirt/02.webp",
-      "/products/celine-pleated-skirt/03.webp",
-      "/products/celine-pleated-skirt/04.webp"
+      "/products/celine-pleated-skirt/01.webp"
     ],
     "stock": 3200,
     "weightOz": 12.52,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "cleo-pleated-skirt",
@@ -6714,8 +5189,8 @@ export const generatedProducts: Product[] = [
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "one",
-    "quadrant": 1,
+    "sheet": "two",
+    "quadrant": 2,
     "colors": [
       "#f5f5f0"
     ],
@@ -6731,10 +5206,7 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/cleo-pleated-skirt/01.webp",
-      "/products/cleo-pleated-skirt/02.webp",
-      "/products/cleo-pleated-skirt/03.webp",
-      "/products/cleo-pleated-skirt/04.webp"
+      "/products/cleo-pleated-skirt/01.webp"
     ],
     "stock": 3200,
     "weightOz": 12.52,
@@ -6749,8 +5221,8 @@ export const generatedProducts: Product[] = [
     "category": "Playsuits",
     "price": 72,
     "compareAt": 90,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 3,
     "colors": [
       "#f5f5f0"
     ],
@@ -6776,7 +5248,7 @@ export const generatedProducts: Product[] = [
     "weightOz": 8.82,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "gianna-maxi-skirt",
@@ -6785,8 +5257,8 @@ export const generatedProducts: Product[] = [
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "one",
-    "quadrant": 3,
+    "sheet": "two",
+    "quadrant": 4,
     "colors": [
       "#d5c4a1"
     ],
@@ -6818,8 +5290,8 @@ export const generatedProducts: Product[] = [
     "category": "Pants",
     "price": 62,
     "compareAt": 80,
-    "sheet": "two",
-    "quadrant": 4,
+    "sheet": "one",
+    "quadrant": 1,
     "colors": [
       "#d5c4a1"
     ],
@@ -6842,43 +5314,6 @@ export const generatedProducts: Product[] = [
     ],
     "stock": 563,
     "weightOz": 17.64,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "alma-trousers",
-    "name": "Alma Trousers",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
-    "price": 62,
-    "compareAt": 80,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#f5f5f0"
-    ],
-    "colorNames": [
-      "White"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Alma Trousers is the AMB take on the modern trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/alma-trousers/01.webp",
-      "/products/alma-trousers/02.webp",
-      "/products/alma-trousers/03.webp",
-      "/products/alma-trousers/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 12.7,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
     "badge": "Just In"
@@ -6909,46 +5344,7 @@ export const generatedProducts: Product[] = [
     "materials": "Delicate lace overlay with a soft lining for comfort.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/aster-trousers/01.webp",
-      "/products/aster-trousers/02.webp",
-      "/products/aster-trousers/03.webp",
-      "/products/aster-trousers/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 12.7,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "vera-trousers",
-    "name": "Vera Trousers",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
-    "price": 62,
-    "compareAt": 80,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#87ceeb"
-    ],
-    "colorNames": [
-      "Sky Blue"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Vera Trousers is the AMB take on the modern trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/vera-trousers/01.webp",
-      "/products/vera-trousers/02.webp",
-      "/products/vera-trousers/03.webp",
-      "/products/vera-trousers/04.webp"
+      "/products/aster-trousers/01.webp"
     ],
     "stock": 9999,
     "weightOz": 12.7,
@@ -6957,87 +5353,14 @@ export const generatedProducts: Product[] = [
     "badge": "New"
   },
   {
-    "slug": "jolie-trousers",
-    "name": "Jolie Trousers",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
-    "price": 62,
-    "compareAt": 80,
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#4a7c59"
-    ],
-    "colorNames": [
-      "Green"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Jolie Trousers is the AMB take on the modern trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/jolie-trousers/01.webp",
-      "/products/jolie-trousers/02.webp",
-      "/products/jolie-trousers/03.webp",
-      "/products/jolie-trousers/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 12.7,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "juno-trousers",
-    "name": "Juno Trousers",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
-    "price": 62,
-    "compareAt": 80,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#d5c4a1"
-    ],
-    "colorNames": [
-      "Beige"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Juno Trousers is the AMB take on the modern trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/juno-trousers/01.webp",
-      "/products/juno-trousers/02.webp",
-      "/products/juno-trousers/03.webp",
-      "/products/juno-trousers/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 12.7,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
     "slug": "jade-knit-top",
     "name": "Jade Knit Top",
     "vendor": "AMB BOUTIQUE",
     "category": "Knitwear",
     "price": 68,
     "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 3,
     "colors": [
       "#d5c4a1"
     ],
@@ -7069,8 +5392,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
+    "sheet": "two",
+    "quadrant": 4,
     "colors": [
       "#d5c4a1"
     ],
@@ -7091,39 +5414,6 @@ export const generatedProducts: Product[] = [
     ],
     "stock": 985,
     "weightOz": 9.88,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "primrose-cover-up",
-    "name": "Primrose Cover-Up",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Tops",
-    "price": 42,
-    "compareAt": 55,
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#d5c4a1"
-    ],
-    "colorNames": [
-      "Natural"
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "description": "Primrose Cover-Up is the AMB take on the modern cover-up. A refined silhouette with thoughtful details that moves effortlessly for layering, lounging and everyday polish. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/primrose-cover-up/01.webp",
-      "/products/primrose-cover-up/02.webp",
-      "/products/primrose-cover-up/03.webp",
-      "/products/primrose-cover-up/04.webp"
-    ],
-    "stock": 48,
-    "weightOz": 13.19,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
     "badge": "Just In"
@@ -7158,8 +5448,7 @@ export const generatedProducts: Product[] = [
     "stock": 9999,
     "weightOz": 11.99,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "ivy-wide-leg-trousers",
@@ -7196,7 +5485,7 @@ export const generatedProducts: Product[] = [
     "weightOz": 13.26,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "suki-maxi-skirt",
@@ -7223,15 +5512,13 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/suki-maxi-skirt/01.webp",
-      "/products/suki-maxi-skirt/02.webp",
-      "/products/suki-maxi-skirt/03.webp",
-      "/products/suki-maxi-skirt/04.webp"
+      "/products/suki-maxi-skirt/02.webp"
     ],
     "stock": 1193,
     "weightOz": 11.64,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "maven-maxi-skirt",
@@ -7259,14 +5546,13 @@ export const generatedProducts: Product[] = [
     "images": [
       "/products/maven-maxi-skirt/01.webp",
       "/products/maven-maxi-skirt/02.webp",
-      "/products/maven-maxi-skirt/03.webp",
-      "/products/maven-maxi-skirt/04.webp"
+      "/products/maven-maxi-skirt/03.webp"
     ],
     "stock": 1193,
     "weightOz": 11.64,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "valentina-wide-leg-trousers",
@@ -7295,15 +5581,13 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/valentina-wide-leg-trousers/01.webp",
-      "/products/valentina-wide-leg-trousers/02.webp",
-      "/products/valentina-wide-leg-trousers/03.webp",
-      "/products/valentina-wide-leg-trousers/04.webp"
+      "/products/valentina-wide-leg-trousers/02.webp"
     ],
     "stock": 9999,
     "weightOz": 18.34,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "nadia-wide-leg-trousers",
@@ -7340,44 +5624,7 @@ export const generatedProducts: Product[] = [
     "weightOz": 18.34,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "priya-wide-leg-trousers",
-    "name": "Priya Wide-Leg Trousers",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
-    "price": 62,
-    "compareAt": 80,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#f5f5f0"
-    ],
-    "colorNames": [
-      "White"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Priya Wide-Leg Trousers is the AMB take on the modern wide-leg trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/priya-wide-leg-trousers/01.webp",
-      "/products/priya-wide-leg-trousers/02.webp",
-      "/products/priya-wide-leg-trousers/03.webp",
-      "/products/priya-wide-leg-trousers/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 18.34,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "willow-maxi-skirt",
@@ -7386,8 +5633,8 @@ export const generatedProducts: Product[] = [
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "two",
-    "quadrant": 4,
+    "sheet": "one",
+    "quadrant": 3,
     "colors": [
       "#d5c4a1"
     ],
@@ -7420,8 +5667,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
+    "sheet": "two",
+    "quadrant": 4,
     "colors": [
       "#d5c4a1"
     ],
@@ -7445,8 +5692,7 @@ export const generatedProducts: Product[] = [
     "stock": 38,
     "weightOz": 14.11,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "nell-maxi-dress",
@@ -7455,8 +5701,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 1,
     "colors": [
       "#d5c4a1"
     ],
@@ -7480,45 +5726,7 @@ export const generatedProducts: Product[] = [
     "stock": 1375,
     "weightOz": 17.64,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "sloane-maxi-dress",
-    "name": "Sloane Maxi Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#d5c4a1"
-    ],
-    "colorNames": [
-      "Natural"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Sloane Maxi Dress is the AMB take on the modern maxi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/sloane-maxi-dress/01.webp",
-      "/products/sloane-maxi-dress/02.webp",
-      "/products/sloane-maxi-dress/03.webp",
-      "/products/sloane-maxi-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 10.58,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "oceane-print-dress",
@@ -7528,7 +5736,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "two",
-    "quadrant": 4,
+    "quadrant": 2,
     "colors": [
       "#d5c4a1"
     ],
@@ -7546,16 +5754,13 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/oceane-print-dress/01.webp",
-      "/products/oceane-print-dress/02.webp",
-      "/products/oceane-print-dress/03.webp",
-      "/products/oceane-print-dress/04.webp"
+      "/products/oceane-print-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 11.64,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "ilaria-dress",
@@ -7565,7 +5770,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "one",
-    "quadrant": 1,
+    "quadrant": 3,
     "colors": [
       "#d5c4a1"
     ],
@@ -7592,7 +5797,7 @@ export const generatedProducts: Product[] = [
     "weightOz": 7.05,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "zara-dress",
@@ -7602,7 +5807,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "two",
-    "quadrant": 2,
+    "quadrant": 4,
     "colors": [
       "#d5c4a1"
     ],
@@ -7629,7 +5834,7 @@ export const generatedProducts: Product[] = [
     "weightOz": 7.05,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "greer-maxi-dress",
@@ -7639,7 +5844,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "one",
-    "quadrant": 3,
+    "quadrant": 1,
     "colors": [
       "#d5c4a1"
     ],
@@ -7669,80 +5874,6 @@ export const generatedProducts: Product[] = [
     "badge": "New"
   },
   {
-    "slug": "zephyr-print-dress",
-    "name": "Zephyr Print Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#87ceeb"
-    ],
-    "colorNames": [
-      "Sky Blue"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Zephyr Print Dress is the AMB take on the modern print dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/zephyr-print-dress/01.webp",
-      "/products/zephyr-print-dress/02.webp",
-      "/products/zephyr-print-dress/03.webp",
-      "/products/zephyr-print-dress/04.webp"
-    ],
-    "stock": 492,
-    "weightOz": 24.69,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "goldie-print-dress",
-    "name": "Goldie Print Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#b39ddb"
-    ],
-    "colorNames": [
-      "Lavender"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Goldie Print Dress is the AMB take on the modern print dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/goldie-print-dress/01.webp",
-      "/products/goldie-print-dress/02.webp",
-      "/products/goldie-print-dress/03.webp",
-      "/products/goldie-print-dress/04.webp"
-    ],
-    "stock": 399,
-    "weightOz": 9.42,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
     "slug": "mabel-print-dress",
     "name": "Mabel Print Dress",
     "vendor": "AMB BOUTIQUE",
@@ -7770,13 +5901,13 @@ export const generatedProducts: Product[] = [
     "images": [
       "/products/mabel-print-dress/01.webp",
       "/products/mabel-print-dress/02.webp",
-      "/products/mabel-print-dress/03.webp",
-      "/products/mabel-print-dress/04.webp"
+      "/products/mabel-print-dress/03.webp"
     ],
     "stock": 399,
     "weightOz": 9.42,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
+    "minimumMarginPercent": 40,
+    "badge": "Just In"
   },
   {
     "slug": "dune-print-dress",
@@ -7805,15 +5936,12 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/dune-print-dress/01.webp",
-      "/products/dune-print-dress/02.webp",
-      "/products/dune-print-dress/03.webp",
-      "/products/dune-print-dress/04.webp"
+      "/products/dune-print-dress/02.webp"
     ],
     "stock": 399,
     "weightOz": 9.42,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "reva-print-dress",
@@ -7841,85 +5969,10 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/reva-print-dress/01.webp",
-      "/products/reva-print-dress/02.webp",
-      "/products/reva-print-dress/03.webp",
-      "/products/reva-print-dress/04.webp"
+      "/products/reva-print-dress/01.webp"
     ],
     "stock": 399,
     "weightOz": 9.42,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "dahlia-skirt",
-    "name": "Dahlia Skirt",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#1b3a5c"
-    ],
-    "colorNames": [
-      "Dark Blue"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "description": "Dahlia Skirt is the AMB take on the modern skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/dahlia-skirt/01.webp",
-      "/products/dahlia-skirt/02.webp",
-      "/products/dahlia-skirt/03.webp",
-      "/products/dahlia-skirt/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 13.76,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "zola-skirt",
-    "name": "Zola Skirt",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
-    "sheet": "two",
-    "quadrant": 2,
-    "colors": [
-      "#c19a6b"
-    ],
-    "colorNames": [
-      "Camel"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "description": "Zola Skirt is the AMB take on the modern skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/zola-skirt/01.webp",
-      "/products/zola-skirt/02.webp",
-      "/products/zola-skirt/03.webp",
-      "/products/zola-skirt/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 13.76,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40
   },
@@ -7931,7 +5984,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "one",
-    "quadrant": 3,
+    "quadrant": 1,
     "colors": [
       "#e67e22"
     ],
@@ -7948,16 +6001,13 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/halle-print-dress/01.webp",
-      "/products/halle-print-dress/02.webp",
-      "/products/halle-print-dress/03.webp",
-      "/products/halle-print-dress/04.webp"
+      "/products/halle-print-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "uma-print-dress",
@@ -7967,7 +6017,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "two",
-    "quadrant": 4,
+    "quadrant": 2,
     "colors": [
       "#87ceeb"
     ],
@@ -7984,16 +6034,13 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/uma-print-dress/01.webp",
-      "/products/uma-print-dress/02.webp",
-      "/products/uma-print-dress/03.webp",
-      "/products/uma-print-dress/04.webp"
+      "/products/uma-print-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "drew-print-dress",
@@ -8003,7 +6050,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "one",
-    "quadrant": 1,
+    "quadrant": 3,
     "colors": [
       "#f0c040"
     ],
@@ -8021,14 +6068,13 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/drew-print-dress/01.webp",
-      "/products/drew-print-dress/02.webp",
-      "/products/drew-print-dress/03.webp",
-      "/products/drew-print-dress/04.webp"
+      "/products/drew-print-dress/02.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
+    "minimumMarginPercent": 40,
+    "badge": "New"
   },
   {
     "slug": "faye-print-dress",
@@ -8038,7 +6084,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "two",
-    "quadrant": 2,
+    "quadrant": 4,
     "colors": [
       "#4a7c59"
     ],
@@ -8055,16 +6101,12 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/faye-print-dress/01.webp",
-      "/products/faye-print-dress/02.webp",
-      "/products/faye-print-dress/03.webp",
-      "/products/faye-print-dress/04.webp"
+      "/products/faye-print-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "winter-print-dress",
@@ -8074,7 +6116,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "one",
-    "quadrant": 3,
+    "quadrant": 1,
     "colors": [
       "#d5c4a1"
     ],
@@ -8101,7 +6143,7 @@ export const generatedProducts: Product[] = [
     "weightOz": 14.11,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "bliss-mini-dress",
@@ -8111,7 +6153,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "two",
-    "quadrant": 4,
+    "quadrant": 2,
     "colors": [
       "#1b1b1b"
     ],
@@ -8130,9 +6172,7 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/bliss-mini-dress/01.webp",
-      "/products/bliss-mini-dress/02.webp",
-      "/products/bliss-mini-dress/03.webp",
-      "/products/bliss-mini-dress/04.webp"
+      "/products/bliss-mini-dress/02.webp"
     ],
     "stock": 5256,
     "weightOz": 8.01,
@@ -8141,50 +6181,14 @@ export const generatedProducts: Product[] = [
     "badge": "Just In"
   },
   {
-    "slug": "luna-mini-dress",
-    "name": "Luna Mini Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#e8a0b8"
-    ],
-    "colorNames": [
-      "Pink"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Luna Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/luna-mini-dress/01.webp",
-      "/products/luna-mini-dress/02.webp",
-      "/products/luna-mini-dress/03.webp",
-      "/products/luna-mini-dress/04.webp"
-    ],
-    "stock": 5256,
-    "weightOz": 8.01,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
     "slug": "zuri-mini-dress",
     "name": "Zuri Mini Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 3,
     "colors": [
       "#f0c040"
     ],
@@ -8204,50 +6208,13 @@ export const generatedProducts: Product[] = [
     "images": [
       "/products/zuri-mini-dress/01.webp",
       "/products/zuri-mini-dress/02.webp",
-      "/products/zuri-mini-dress/03.webp",
-      "/products/zuri-mini-dress/04.webp"
+      "/products/zuri-mini-dress/03.webp"
     ],
     "stock": 5256,
     "weightOz": 8.01,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
     "badge": "Just In"
-  },
-  {
-    "slug": "veda-mini-dress",
-    "name": "Veda Mini Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#4a7c59"
-    ],
-    "colorNames": [
-      "Green"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Veda Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/veda-mini-dress/01.webp",
-      "/products/veda-mini-dress/02.webp",
-      "/products/veda-mini-dress/03.webp",
-      "/products/veda-mini-dress/04.webp"
-    ],
-    "stock": 5256,
-    "weightOz": 8.01,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
   },
   {
     "slug": "yuna-dress",
@@ -8276,51 +6243,13 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/yuna-dress/01.webp",
-      "/products/yuna-dress/02.webp",
-      "/products/yuna-dress/03.webp",
-      "/products/yuna-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 8.22,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "yara-dress",
-    "name": "Yara Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#f0c040"
-    ],
-    "colorNames": [
-      "Yellow"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Yara Dress is the AMB take on the modern dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/yara-dress/01.webp",
-      "/products/yara-dress/02.webp",
-      "/products/yara-dress/03.webp",
-      "/products/yara-dress/04.webp"
+      "/products/yuna-dress/02.webp"
     ],
     "stock": 9999,
     "weightOz": 8.22,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "ember-dress",
@@ -8329,8 +6258,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 1,
     "colors": [
       "#87ceeb"
     ],
@@ -8348,10 +6277,7 @@ export const generatedProducts: Product[] = [
     "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/ember-dress/01.webp",
-      "/products/ember-dress/02.webp",
-      "/products/ember-dress/03.webp",
-      "/products/ember-dress/04.webp"
+      "/products/ember-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 8.22,
@@ -8366,8 +6292,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
+    "sheet": "two",
+    "quadrant": 2,
     "colors": [
       "#4a7c59"
     ],
@@ -8385,16 +6311,12 @@ export const generatedProducts: Product[] = [
     "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/imani-dress/01.webp",
-      "/products/imani-dress/02.webp",
-      "/products/imani-dress/03.webp",
-      "/products/imani-dress/04.webp"
+      "/products/imani-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 8.22,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "rowan-dress",
@@ -8403,8 +6325,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 4,
+    "sheet": "one",
+    "quadrant": 3,
     "colors": [
       "#c0392b"
     ],
@@ -8422,127 +6344,13 @@ export const generatedProducts: Product[] = [
     "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/rowan-dress/01.webp",
-      "/products/rowan-dress/02.webp",
-      "/products/rowan-dress/03.webp",
-      "/products/rowan-dress/04.webp"
+      "/products/rowan-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 8.22,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
     "badge": "Just In"
-  },
-  {
-    "slug": "tate-dress",
-    "name": "Tate Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#d5c4a1"
-    ],
-    "colorNames": [
-      "Beige"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Tate Dress is the AMB take on the modern dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/tate-dress/01.webp",
-      "/products/tate-dress/02.webp",
-      "/products/tate-dress/03.webp",
-      "/products/tate-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 8.22,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "phoenix-dress",
-    "name": "Phoenix Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
-    "colors": [
-      "#c3b091"
-    ],
-    "colorNames": [
-      "Khaki"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Phoenix Dress is the AMB take on the modern dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/phoenix-dress/01.webp",
-      "/products/phoenix-dress/02.webp",
-      "/products/phoenix-dress/03.webp",
-      "/products/phoenix-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 8.22,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "nina-dress",
-    "name": "Nina Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#e67e22"
-    ],
-    "colorNames": [
-      "Orange"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Nina Dress is the AMB take on the modern dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/nina-dress/01.webp",
-      "/products/nina-dress/02.webp",
-      "/products/nina-dress/03.webp",
-      "/products/nina-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 8.22,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
   },
   {
     "slug": "ursula-maxi-dress",
@@ -8577,8 +6385,7 @@ export const generatedProducts: Product[] = [
     "stock": 200,
     "weightOz": 11.15,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "ursa-print-dress",
@@ -8607,15 +6414,12 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/ursa-print-dress/01.webp",
-      "/products/ursa-print-dress/02.webp",
-      "/products/ursa-print-dress/03.webp",
-      "/products/ursa-print-dress/04.webp"
+      "/products/ursa-print-dress/02.webp"
     ],
     "stock": 9938,
     "weightOz": 9.17,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "lux-print-dress",
@@ -8644,15 +6448,12 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/lux-print-dress/01.webp",
-      "/products/lux-print-dress/02.webp",
-      "/products/lux-print-dress/03.webp",
-      "/products/lux-print-dress/04.webp"
+      "/products/lux-print-dress/02.webp"
     ],
     "stock": 9938,
     "weightOz": 9.17,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "olive-maxi-skirt",
@@ -8682,184 +6483,10 @@ export const generatedProducts: Product[] = [
     "images": [
       "/products/olive-maxi-skirt/01.webp",
       "/products/olive-maxi-skirt/02.webp",
-      "/products/olive-maxi-skirt/03.webp",
-      "/products/olive-maxi-skirt/04.webp"
+      "/products/olive-maxi-skirt/03.webp"
     ],
     "stock": 9999,
     "weightOz": 7.05,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "bela-maxi-skirt",
-    "name": "Bela Maxi Skirt",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#87ceeb"
-    ],
-    "colorNames": [
-      "Light Blue"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Bela Maxi Skirt is the AMB take on the modern maxi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/bela-maxi-skirt/01.webp",
-      "/products/bela-maxi-skirt/02.webp",
-      "/products/bela-maxi-skirt/03.webp",
-      "/products/bela-maxi-skirt/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 7.05,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "dove-maxi-skirt",
-    "name": "Dove Maxi Skirt",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#e8a0b8"
-    ],
-    "colorNames": [
-      "Pink"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Dove Maxi Skirt is the AMB take on the modern maxi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/dove-maxi-skirt/01.webp",
-      "/products/dove-maxi-skirt/02.webp",
-      "/products/dove-maxi-skirt/03.webp",
-      "/products/dove-maxi-skirt/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 7.05,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "joya-midi-skirt",
-    "name": "Joya Midi Skirt",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
-    "sheet": "two",
-    "quadrant": 2,
-    "colors": [
-      "#e8a0b8"
-    ],
-    "colorNames": [
-      "Pink"
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "description": "Joya Midi Skirt is the AMB take on the modern midi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Soft mesh fabric with a smooth stretch lining.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/joya-midi-skirt/01.webp",
-      "/products/joya-midi-skirt/02.webp",
-      "/products/joya-midi-skirt/03.webp",
-      "/products/joya-midi-skirt/04.webp"
-    ],
-    "stock": 776,
-    "weightOz": 9.17,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "waverly-midi-skirt",
-    "name": "Waverly Midi Skirt",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#e8c4a0"
-    ],
-    "colorNames": [
-      "Apricot"
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "description": "Waverly Midi Skirt is the AMB take on the modern midi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Soft mesh fabric with a smooth stretch lining.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/waverly-midi-skirt/01.webp",
-      "/products/waverly-midi-skirt/02.webp",
-      "/products/waverly-midi-skirt/03.webp",
-      "/products/waverly-midi-skirt/04.webp"
-    ],
-    "stock": 776,
-    "weightOz": 9.17,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "kyla-midi-skirt",
-    "name": "Kyla Midi Skirt",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#4a7c59"
-    ],
-    "colorNames": [
-      "Green"
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "description": "Kyla Midi Skirt is the AMB take on the modern midi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Soft mesh fabric with a smooth stretch lining.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/kyla-midi-skirt/01.webp",
-      "/products/kyla-midi-skirt/02.webp",
-      "/products/kyla-midi-skirt/03.webp",
-      "/products/kyla-midi-skirt/04.webp"
-    ],
-    "stock": 776,
-    "weightOz": 9.17,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
     "badge": "Just In"
@@ -8871,8 +6498,8 @@ export const generatedProducts: Product[] = [
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "one",
-    "quadrant": 1,
+    "sheet": "two",
+    "quadrant": 4,
     "colors": [
       "#1b1b1b"
     ],
@@ -8886,43 +6513,7 @@ export const generatedProducts: Product[] = [
     "materials": "Soft mesh fabric with a smooth stretch lining.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/ondine-midi-skirt/01.webp",
-      "/products/ondine-midi-skirt/02.webp",
-      "/products/ondine-midi-skirt/03.webp",
-      "/products/ondine-midi-skirt/04.webp"
-    ],
-    "stock": 776,
-    "weightOz": 9.17,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "oriel-midi-skirt",
-    "name": "Oriel Midi Skirt",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
-    "sheet": "two",
-    "quadrant": 2,
-    "colors": [
-      "#c3b091"
-    ],
-    "colorNames": [
-      "Khaki"
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "description": "Oriel Midi Skirt is the AMB take on the modern midi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Soft mesh fabric with a smooth stretch lining.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/oriel-midi-skirt/01.webp",
-      "/products/oriel-midi-skirt/02.webp",
-      "/products/oriel-midi-skirt/03.webp",
-      "/products/oriel-midi-skirt/04.webp"
+      "/products/ondine-midi-skirt/01.webp"
     ],
     "stock": 776,
     "weightOz": 9.17,
@@ -8931,50 +6522,14 @@ export const generatedProducts: Product[] = [
     "badge": "Just In"
   },
   {
-    "slug": "alba-maxi-skirt",
-    "name": "Alba Maxi Skirt",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#c3b091"
-    ],
-    "colorNames": [
-      "Khaki"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Alba Maxi Skirt is the AMB take on the modern maxi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/alba-maxi-skirt/01.webp",
-      "/products/alba-maxi-skirt/02.webp",
-      "/products/alba-maxi-skirt/03.webp",
-      "/products/alba-maxi-skirt/04.webp"
-    ],
-    "stock": 37,
-    "weightOz": 14.96,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
     "slug": "elodie-maxi-skirt",
     "name": "Elodie Maxi Skirt",
     "vendor": "AMB BOUTIQUE",
     "category": "Skirts",
     "price": 58,
     "compareAt": 75,
-    "sheet": "two",
-    "quadrant": 4,
+    "sheet": "one",
+    "quadrant": 1,
     "colors": [
       "#e8a0b8"
     ],
@@ -9001,7 +6556,7 @@ export const generatedProducts: Product[] = [
     "weightOz": 14.96,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "clara-maxi-dress",
@@ -9010,8 +6565,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
+    "sheet": "two",
+    "quadrant": 2,
     "colors": [
       "#f0c040"
     ],
@@ -9032,14 +6587,13 @@ export const generatedProducts: Product[] = [
     "images": [
       "/products/clara-maxi-dress/01.webp",
       "/products/clara-maxi-dress/02.webp",
-      "/products/clara-maxi-dress/03.webp",
-      "/products/clara-maxi-dress/04.webp"
+      "/products/clara-maxi-dress/03.webp"
     ],
     "stock": 9999,
     "weightOz": 17.28,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "xiomara-maxi-dress",
@@ -9048,8 +6602,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 3,
     "colors": [
       "#8fbc8f"
     ],
@@ -9070,48 +6624,13 @@ export const generatedProducts: Product[] = [
     "images": [
       "/products/xiomara-maxi-dress/01.webp",
       "/products/xiomara-maxi-dress/02.webp",
-      "/products/xiomara-maxi-dress/03.webp",
-      "/products/xiomara-maxi-dress/04.webp"
+      "/products/xiomara-maxi-dress/03.webp"
     ],
     "stock": 9999,
     "weightOz": 17.28,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "neve-maxi-dress",
-    "name": "Neve Maxi Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#e67e22"
-    ],
-    "colorNames": [
-      "Orange"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Neve Maxi Dress is the AMB take on the modern maxi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/neve-maxi-dress/01.webp",
-      "/products/neve-maxi-dress/02.webp",
-      "/products/neve-maxi-dress/03.webp",
-      "/products/neve-maxi-dress/04.webp"
-    ],
-    "stock": 9000,
-    "weightOz": 14.46,
-    "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "nico-maxi-dress",
@@ -9145,7 +6664,8 @@ export const generatedProducts: Product[] = [
     "stock": 9000,
     "weightOz": 14.46,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
+    "minimumMarginPercent": 40,
+    "badge": "Just In"
   },
   {
     "slug": "noemi-maxi-dress",
@@ -9172,14 +6692,13 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/noemi-maxi-dress/01.webp",
-      "/products/noemi-maxi-dress/02.webp",
-      "/products/noemi-maxi-dress/03.webp",
-      "/products/noemi-maxi-dress/04.webp"
+      "/products/noemi-maxi-dress/02.webp"
     ],
     "stock": 9000,
     "weightOz": 14.46,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
+    "minimumMarginPercent": 40,
+    "badge": "Just In"
   },
   {
     "slug": "jules-maxi-dress",
@@ -9213,43 +6732,7 @@ export const generatedProducts: Product[] = [
     "stock": 1392,
     "weightOz": 8.82,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "xena-backless-dress",
-    "name": "Xena Backless Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#4a7c59"
-    ],
-    "colorNames": [
-      "Green"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Xena Backless Dress is the AMB take on the modern backless dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/xena-backless-dress/01.webp",
-      "/products/xena-backless-dress/02.webp",
-      "/products/xena-backless-dress/03.webp",
-      "/products/xena-backless-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 16.23,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "haven-backless-dress",
@@ -9258,8 +6741,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 4,
+    "sheet": "one",
+    "quadrant": 3,
     "colors": [
       "#1b1b1b"
     ],
@@ -9275,50 +6758,13 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/haven-backless-dress/01.webp",
-      "/products/haven-backless-dress/02.webp",
-      "/products/haven-backless-dress/03.webp",
-      "/products/haven-backless-dress/04.webp"
+      "/products/haven-backless-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 16.23,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "isla-backless-dress",
-    "name": "Isla Backless Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#f0c040"
-    ],
-    "colorNames": [
-      "Yellow"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Isla Backless Dress is the AMB take on the modern backless dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/isla-backless-dress/01.webp",
-      "/products/isla-backless-dress/02.webp",
-      "/products/isla-backless-dress/03.webp",
-      "/products/isla-backless-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 16.23,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
+    "badge": "New"
   },
   {
     "slug": "pippa-backless-dress",
@@ -9328,7 +6774,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "two",
-    "quadrant": 2,
+    "quadrant": 4,
     "colors": [
       "#c3b091"
     ],
@@ -9345,15 +6791,12 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/pippa-backless-dress/01.webp",
-      "/products/pippa-backless-dress/02.webp",
-      "/products/pippa-backless-dress/03.webp",
-      "/products/pippa-backless-dress/04.webp"
+      "/products/pippa-backless-dress/02.webp"
     ],
     "stock": 9999,
     "weightOz": 16.23,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "kali-backless-dress",
@@ -9363,7 +6806,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "one",
-    "quadrant": 3,
+    "quadrant": 1,
     "colors": [
       "#808080"
     ],
@@ -9380,14 +6823,13 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/kali-backless-dress/01.webp",
-      "/products/kali-backless-dress/02.webp",
-      "/products/kali-backless-dress/03.webp",
-      "/products/kali-backless-dress/04.webp"
+      "/products/kali-backless-dress/02.webp"
     ],
     "stock": 9999,
     "weightOz": 16.23,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
+    "minimumMarginPercent": 40,
+    "badge": "Just In"
   },
   {
     "slug": "wren-maxi-dress",
@@ -9397,7 +6839,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "two",
-    "quadrant": 4,
+    "quadrant": 2,
     "colors": [
       "#1b1b1b"
     ],
@@ -9417,74 +6859,6 @@ export const generatedProducts: Product[] = [
       "/products/wren-maxi-dress/02.webp",
       "/products/wren-maxi-dress/03.webp",
       "/products/wren-maxi-dress/04.webp"
-    ],
-    "stock": 407,
-    "weightOz": 18.98,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "yasmin-maxi-dress",
-    "name": "Yasmin Maxi Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#8b5e3c"
-    ],
-    "colorNames": [
-      "Brown"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Yasmin Maxi Dress is the AMB take on the modern maxi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/yasmin-maxi-dress/01.webp",
-      "/products/yasmin-maxi-dress/02.webp",
-      "/products/yasmin-maxi-dress/03.webp",
-      "/products/yasmin-maxi-dress/04.webp"
-    ],
-    "stock": 407,
-    "weightOz": 18.98,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "hera-maxi-dress",
-    "name": "Hera Maxi Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
-    "colors": [
-      "#f5f5f0"
-    ],
-    "colorNames": [
-      "White"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Hera Maxi Dress is the AMB take on the modern maxi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/hera-maxi-dress/01.webp",
-      "/products/hera-maxi-dress/02.webp",
-      "/products/hera-maxi-dress/03.webp",
-      "/products/hera-maxi-dress/04.webp"
     ],
     "stock": 407,
     "weightOz": 18.98,
@@ -9518,14 +6892,13 @@ export const generatedProducts: Product[] = [
     "images": [
       "/products/adele-maxi-dress/01.webp",
       "/products/adele-maxi-dress/02.webp",
-      "/products/adele-maxi-dress/03.webp",
-      "/products/adele-maxi-dress/04.webp"
+      "/products/adele-maxi-dress/03.webp"
     ],
     "stock": 9999,
     "weightOz": 22.93,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "Just In"
+    "badge": "New"
   },
   {
     "slug": "josie-maxi-dress",
@@ -9553,8 +6926,7 @@ export const generatedProducts: Product[] = [
     "images": [
       "/products/josie-maxi-dress/01.webp",
       "/products/josie-maxi-dress/02.webp",
-      "/products/josie-maxi-dress/03.webp",
-      "/products/josie-maxi-dress/04.webp"
+      "/products/josie-maxi-dress/03.webp"
     ],
     "stock": 9999,
     "weightOz": 22.93,
@@ -9597,40 +6969,6 @@ export const generatedProducts: Product[] = [
     "stock": 9999,
     "weightOz": 35.27,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "rosie-bodycon-dress",
-    "name": "Rosie Bodycon Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
-    "colors": [
-      "#f5f5f0"
-    ],
-    "colorNames": [
-      "White"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Rosie Bodycon Dress is the AMB take on the modern bodycon dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/rosie-bodycon-dress/01.webp",
-      "/products/rosie-bodycon-dress/02.webp",
-      "/products/rosie-bodycon-dress/03.webp",
-      "/products/rosie-bodycon-dress/04.webp"
-    ],
-    "stock": 7,
-    "weightOz": 8.82,
-    "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
     "badge": "Just In"
   },
@@ -9641,8 +6979,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
+    "sheet": "two",
+    "quadrant": 2,
     "colors": [
       "#8b5e3c"
     ],
@@ -9658,48 +6996,10 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/cosima-bodycon-dress/01.webp",
-      "/products/cosima-bodycon-dress/02.webp",
-      "/products/cosima-bodycon-dress/03.webp",
-      "/products/cosima-bodycon-dress/04.webp"
+      "/products/cosima-bodycon-dress/01.webp"
     ],
     "stock": 7,
     "weightOz": 8.82,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "Just In"
-  },
-  {
-    "slug": "gemma-bodycon-dress",
-    "name": "Gemma Bodycon Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#f5f5f0"
-    ],
-    "colorNames": [
-      "White"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Gemma Bodycon Dress is the AMB take on the modern bodycon dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/gemma-bodycon-dress/01.webp",
-      "/products/gemma-bodycon-dress/02.webp",
-      "/products/gemma-bodycon-dress/03.webp",
-      "/products/gemma-bodycon-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 17.64,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
     "badge": "New"
@@ -9712,7 +7012,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "one",
-    "quadrant": 1,
+    "quadrant": 3,
     "colors": [
       "#c0392b"
     ],
@@ -9728,10 +7028,7 @@ export const generatedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/celeste-bodycon-dress/01.webp",
-      "/products/celeste-bodycon-dress/02.webp",
-      "/products/celeste-bodycon-dress/03.webp",
-      "/products/celeste-bodycon-dress/04.webp"
+      "/products/celeste-bodycon-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 17.64,
@@ -9747,7 +7044,7 @@ export const generatedProducts: Product[] = [
     "price": 68,
     "compareAt": 85,
     "sheet": "two",
-    "quadrant": 2,
+    "quadrant": 4,
     "colors": [
       "#1b1b1b"
     ],
@@ -9772,41 +7069,7 @@ export const generatedProducts: Product[] = [
     "weightOz": 17.64,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
-  },
-  {
-    "slug": "primrose-bodycon-dress",
-    "name": "Primrose Bodycon Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 3,
-    "colors": [
-      "#2c5ea8"
-    ],
-    "colorNames": [
-      "Blue"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "description": "Primrose Bodycon Dress is the AMB take on the modern bodycon dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/primrose-bodycon-dress/01.webp",
-      "/products/primrose-bodycon-dress/02.webp",
-      "/products/primrose-bodycon-dress/03.webp",
-      "/products/primrose-bodycon-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 17.64,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
+    "badge": "Just In"
   },
   {
     "slug": "xiomara-mini-dress",
@@ -9815,8 +7078,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 4,
+    "sheet": "one",
+    "quadrant": 1,
     "colors": [
       "#f5f5f0"
     ],
@@ -9851,8 +7114,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
+    "sheet": "two",
+    "quadrant": 2,
     "colors": [
       "#1b1b1b"
     ],
@@ -9870,50 +7133,13 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/tessa-mini-dress/01.webp",
-      "/products/tessa-mini-dress/02.webp",
-      "/products/tessa-mini-dress/03.webp",
-      "/products/tessa-mini-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 10.58,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "olympia-mini-dress",
-    "name": "Olympia Mini Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
-    "colors": [
-      "#e8a0b8"
-    ],
-    "colorNames": [
-      "Pink"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "description": "Olympia Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/olympia-mini-dress/01.webp",
-      "/products/olympia-mini-dress/02.webp",
-      "/products/olympia-mini-dress/03.webp",
-      "/products/olympia-mini-dress/04.webp"
+      "/products/tessa-mini-dress/02.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
-    "badge": "New"
+    "badge": "Just In"
   },
   {
     "slug": "maven-mini-dress",
@@ -9940,10 +7166,7 @@ export const generatedProducts: Product[] = [
     "materials": "Delicate lace overlay with a soft lining for comfort.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/maven-mini-dress/01.webp",
-      "/products/maven-mini-dress/02.webp",
-      "/products/maven-mini-dress/03.webp",
-      "/products/maven-mini-dress/04.webp"
+      "/products/maven-mini-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
@@ -9952,49 +7175,14 @@ export const generatedProducts: Product[] = [
     "badge": "Just In"
   },
   {
-    "slug": "venus-mini-dress",
-    "name": "Venus Mini Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 68,
-    "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#f0c040"
-    ],
-    "colorNames": [
-      "Yellow"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "description": "Venus Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/venus-mini-dress/01.webp",
-      "/products/venus-mini-dress/02.webp",
-      "/products/venus-mini-dress/03.webp",
-      "/products/venus-mini-dress/04.webp"
-    ],
-    "stock": 9999,
-    "weightOz": 10.58,
-    "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40
-  },
-  {
     "slug": "jules-mini-dress",
     "name": "Jules Mini Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "one",
-    "quadrant": 1,
+    "sheet": "two",
+    "quadrant": 4,
     "colors": [
       "#4a7c59"
     ],
@@ -10011,16 +7199,12 @@ export const generatedProducts: Product[] = [
     "materials": "Delicate lace overlay with a soft lining for comfort.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/jules-mini-dress/01.webp",
-      "/products/jules-mini-dress/02.webp",
-      "/products/jules-mini-dress/03.webp",
-      "/products/jules-mini-dress/04.webp"
+      "/products/jules-mini-dress/01.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
-    "minimumMarginPercent": 40,
-    "badge": "New"
+    "minimumMarginPercent": 40
   },
   {
     "slug": "lila-mini-dress-2",
@@ -10029,8 +7213,8 @@ export const generatedProducts: Product[] = [
     "category": "Dresses",
     "price": 68,
     "compareAt": 85,
-    "sheet": "two",
-    "quadrant": 2,
+    "sheet": "one",
+    "quadrant": 1,
     "colors": [
       "#e8c4a0"
     ],
@@ -10048,9 +7232,7 @@ export const generatedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/lila-mini-dress-2/01.webp",
-      "/products/lila-mini-dress-2/02.webp",
-      "/products/lila-mini-dress-2/03.webp",
-      "/products/lila-mini-dress-2/04.webp"
+      "/products/lila-mini-dress-2/02.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
