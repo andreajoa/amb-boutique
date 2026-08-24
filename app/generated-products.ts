@@ -2971,9 +2971,9 @@ export const generatedProducts: Product[] = [
   },
   {
     "slug": "talia-wide-leg-trousers",
-    "name": "Talia Wide-Leg Trousers",
+    "name": "Talia Tailored Two-Piece Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
+    "category": "Sets",
     "price": 62,
     "compareAt": 80,
     "sheet": "two",
@@ -2991,11 +2991,14 @@ export const generatedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Talia Wide-Leg Trousers is the AMB take on the modern wide-leg trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
+    "description": "A polished two-piece set pairing a fitted sleeveless waistcoat with fluid high-rise wide-leg trousers. Wear it together for modern tailoring or style each piece separately. Curated in San Diego for a polished, feminine wardrobe.",
+    "materials": "Soft tailored fabric. Exact fibre composition follows the garment label.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/talia-wide-leg-trousers/01.webp"
+      "/products/talia-wide-leg-trousers/01.webp",
+      "/products/talia-wide-leg-trousers/02.webp",
+      "/products/talia-wide-leg-trousers/03.webp",
+      "/products/talia-wide-leg-trousers/04.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -3005,9 +3008,9 @@ export const generatedProducts: Product[] = [
   },
   {
     "slug": "mira-wide-leg-trousers",
-    "name": "Mira Wide-Leg Trousers",
+    "name": "Mira Tailored Two-Piece Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
+    "category": "Sets",
     "price": 62,
     "compareAt": 80,
     "sheet": "one",
@@ -3025,12 +3028,14 @@ export const generatedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Mira Wide-Leg Trousers is the AMB take on the modern wide-leg trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
+    "description": "A polished two-piece set pairing a fitted sleeveless waistcoat with fluid high-rise wide-leg trousers. Wear it together for modern tailoring or style each piece separately. Curated in San Diego for a polished, feminine wardrobe.",
+    "materials": "Soft tailored fabric. Exact fibre composition follows the garment label.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/mira-wide-leg-trousers/01.webp",
-      "/products/mira-wide-leg-trousers/02.webp"
+      "/products/mira-wide-leg-trousers/02.webp",
+      "/products/mira-wide-leg-trousers/03.webp",
+      "/products/mira-wide-leg-trousers/04.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -3040,9 +3045,9 @@ export const generatedProducts: Product[] = [
   },
   {
     "slug": "unity-wide-leg-trousers",
-    "name": "Unity Wide-Leg Trousers",
+    "name": "Unity Tailored Two-Piece Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
+    "category": "Sets",
     "price": 62,
     "compareAt": 80,
     "sheet": "two",
@@ -3060,11 +3065,14 @@ export const generatedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Unity Wide-Leg Trousers is the AMB take on the modern wide-leg trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
+    "description": "A polished two-piece set pairing a fitted sleeveless waistcoat with fluid high-rise wide-leg trousers. Wear it together for modern tailoring or style each piece separately. Curated in San Diego for a polished, feminine wardrobe.",
+    "materials": "Soft tailored fabric. Exact fibre composition follows the garment label.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/unity-wide-leg-trousers/01.webp"
+      "/products/unity-wide-leg-trousers/01.webp",
+      "/products/unity-wide-leg-trousers/02.webp",
+      "/products/unity-wide-leg-trousers/03.webp",
+      "/products/unity-wide-leg-trousers/04.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -3074,9 +3082,9 @@ export const generatedProducts: Product[] = [
   },
   {
     "slug": "xyla-wide-leg-trousers",
-    "name": "Xyla Wide-Leg Trousers",
+    "name": "Xyla Tailored Two-Piece Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
+    "category": "Sets",
     "price": 62,
     "compareAt": 80,
     "sheet": "one",
@@ -3094,11 +3102,14 @@ export const generatedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Xyla Wide-Leg Trousers is the AMB take on the modern wide-leg trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
+    "description": "A polished two-piece set pairing a fitted sleeveless waistcoat with fluid high-rise wide-leg trousers. Wear it together for modern tailoring or style each piece separately. Curated in San Diego for a polished, feminine wardrobe.",
+    "materials": "Soft tailored fabric. Exact fibre composition follows the garment label.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/xyla-wide-leg-trousers/01.webp"
+      "/products/xyla-wide-leg-trousers/01.webp",
+      "/products/xyla-wide-leg-trousers/02.webp",
+      "/products/xyla-wide-leg-trousers/03.webp",
+      "/products/xyla-wide-leg-trousers/04.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -3108,9 +3119,9 @@ export const generatedProducts: Product[] = [
   },
   {
     "slug": "kira-wide-leg-trousers",
-    "name": "Kira Wide-Leg Trousers",
+    "name": "Kira Tailored Two-Piece Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
+    "category": "Sets",
     "price": 62,
     "compareAt": 80,
     "sheet": "two",
@@ -3128,11 +3139,14 @@ export const generatedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Kira Wide-Leg Trousers is the AMB take on the modern wide-leg trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
+    "description": "A polished two-piece set pairing a fitted sleeveless waistcoat with fluid high-rise wide-leg trousers. Wear it together for modern tailoring or style each piece separately. Curated in San Diego for a polished, feminine wardrobe.",
+    "materials": "Soft tailored fabric. Exact fibre composition follows the garment label.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/kira-wide-leg-trousers/01.webp"
+      "/products/kira-wide-leg-trousers/01.webp",
+      "/products/kira-wide-leg-trousers/02.webp",
+      "/products/kira-wide-leg-trousers/03.webp",
+      "/products/kira-wide-leg-trousers/04.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -5452,9 +5466,9 @@ export const generatedProducts: Product[] = [
   },
   {
     "slug": "ivy-wide-leg-trousers",
-    "name": "Ivy Wide-Leg Trousers",
+    "name": "Ivy Eyelet Two-Piece Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
+    "category": "Sets",
     "price": 62,
     "compareAt": 80,
     "sheet": "two",
@@ -5472,8 +5486,8 @@ export const generatedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Ivy Wide-Leg Trousers is the AMB take on the modern wide-leg trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
+    "description": "A coordinated eyelet set with a sleeveless round-neck top, adjustable side tie and relaxed wide-leg trousers. Wear the pieces together for an effortless statement or style them separately throughout the season. Curated in San Diego for a polished, feminine wardrobe.",
+    "materials": "Eyelet-embroidered fabric. Exact fibre composition follows the garment label.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/ivy-wide-leg-trousers/01.webp",

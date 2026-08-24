@@ -119,6 +119,7 @@ export function Header() {
               <Link href="/collections">New In</Link>
               <Link href="/collections/dresses">Dresses</Link>
               <Link href="/collections/tops-blouses">Tops & Blouses</Link>
+              <Link href="/collections/sets">Matching Sets</Link>
               <Link href="/collections/rompers-playsuits">Rompers & Playsuits</Link>
               <Link href="/collections/skirts">Skirts</Link>
               <Link href="/collections/pants">Pants</Link>
@@ -142,6 +143,7 @@ export function Header() {
           <Link href="/collections">New In</Link>
           <Link href="/collections/dresses">Dresses</Link>
           <Link href="/collections/tops-blouses">Tops & Blouses</Link>
+          <Link href="/collections/sets">Matching Sets</Link>
           <Link href="/collections/bags">Bags</Link>
           <div className="nav-mega">
             <Link href="/collections/shoes">Shoes <span aria-hidden="true">⌄</span></Link>
@@ -186,7 +188,7 @@ export function Footer() {
     <footer className="footer" id="about">
       <div className="footer-grid shell">
         <div><Link className="footer-logo" href="/">AMB BOUTIQUE</Link><p>Contemporary women’s style, thoughtfully curated in San Diego by founder Ana Paula Maciel.</p><p className="location">San Diego, California</p></div>
-        <div><h3>Shop</h3><Link href="/collections">New In</Link><Link href="/collections/dresses">Dresses</Link><Link href="/collections/tops-blouses">Tops & Blouses</Link><Link href="/collections/rompers-playsuits">Rompers & Playsuits</Link><Link href="/collections/skirts">Skirts</Link><Link href="/collections/pants">Pants & Trousers</Link><Link href="/collections/shorts">Shorts</Link><Link href="/collections/bags">Bags</Link><Link href="/collections/shoes">Shoes</Link><Link href="/collections/heels">Heels</Link></div>
+        <div><h3>Shop</h3><Link href="/collections">New In</Link><Link href="/collections/dresses">Dresses</Link><Link href="/collections/tops-blouses">Tops & Blouses</Link><Link href="/collections/sets">Matching Sets</Link><Link href="/collections/rompers-playsuits">Rompers & Playsuits</Link><Link href="/collections/skirts">Skirts</Link><Link href="/collections/pants">Pants & Trousers</Link><Link href="/collections/shorts">Shorts</Link><Link href="/collections/bags">Bags</Link><Link href="/collections/shoes">Shoes</Link><Link href="/collections/heels">Heels</Link></div>
         <div><h3>Customer Care</h3><Link href="/contact">Contact Us</Link><Link href="/shipping">Shipping</Link><Link href="/returns">Returns</Link><Link href="/size-guide">Size Guide</Link><Link href="/faq">FAQ</Link><Link href="/track-order">Track an Order</Link></div>
         <div><h3>About & Legal</h3><Link href="/about">Our Story</Link><Link href="/journal">Journal</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link><Link href="/cookies">Cookie Preferences</Link><Link href="/accessibility">Accessibility</Link></div>
         <div><h3>Stay in the know</h3><p>New arrivals, private offers and notes from San Diego.</p><NewsletterForm compact/><a href="mailto:info@ambboutique.online">info@ambboutique.online</a></div>

@@ -12,7 +12,7 @@ export type Product = {
   slug: string;
   name: string;
   vendor?: string;
-  category: "Dresses" | "Tops" | "Playsuits" | "Skirts" | "Pants" | "Shorts" | "Knitwear" | "Bags" | "Shoes" | "Accessories";
+  category: "Dresses" | "Tops" | "Sets" | "Playsuits" | "Skirts" | "Pants" | "Shorts" | "Knitwear" | "Bags" | "Shoes" | "Accessories";
   subcategory?: string;
   price: number;
   compareAt?: number;
@@ -81,6 +81,7 @@ type CategoryPage = {
 export const categoryPages: CategoryPage[] = [
   { slug: "dresses", name: "Dresses", title: "Women’s Dresses", description: "Shop women’s mini, midi, maxi and occasion dresses selected for weddings, dinners, vacations and effortless everyday dressing." },
   { slug: "tops-blouses", name: "Tops", title: "Women’s Tops & Blouses", description: "Shop women’s tops and blouses, from polished shirts and refined tanks to easy layers designed for workdays, weekends and evenings out." },
+  { slug: "sets", name: "Sets", title: "Women’s Matching Sets", description: "Shop coordinated women’s two-piece sets designed for effortless styling, versatile separates and polished warm-weather dressing." },
   { slug: "rompers-playsuits", name: "Playsuits", title: "Women’s Rompers & Playsuits", description: "Shop women’s rompers and playsuits with one-and-done silhouettes for warm days, vacations, weekends and polished casual plans." },
   { slug: "skirts", name: "Skirts", title: "Women’s Skirts", description: "Shop women’s mini and midi skirts with flattering proportions, movement and modern styling for casual days, work and evening plans." },
   { slug: "pants", name: "Pants", title: "Women’s Pants & Trousers", description: "Shop women’s tailored trousers and relaxed wide-leg pants for polished workwear, travel outfits and elevated everyday style." },

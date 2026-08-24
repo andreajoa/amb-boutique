@@ -3,6 +3,7 @@ import type { Product } from "./data";
 const complements: Record<Product["category"], Product["category"][]> = {
   Dresses: ["Shoes", "Bags", "Accessories", "Knitwear"],
   Tops: ["Skirts", "Pants", "Shorts", "Shoes", "Bags", "Accessories"],
+  Sets: ["Shoes", "Bags", "Accessories", "Knitwear"],
   Playsuits: ["Shoes", "Bags", "Accessories", "Knitwear"],
   Skirts: ["Tops", "Knitwear", "Shoes", "Bags", "Accessories"],
   Pants: ["Tops", "Knitwear", "Shoes", "Bags", "Accessories"],
@@ -45,6 +46,7 @@ type StyleBlueprint = [StyleSlot[], StyleSlot[]];
 const styleBlueprints: Record<Product["category"], StyleBlueprint> = {
   Dresses: [[["Shoes"], ["Bags"], ["Accessories"]], [["Knitwear"], ["Shoes"], ["Bags"]]],
   Tops: [[["Skirts", "Pants", "Shorts"], ["Shoes"], ["Bags"]], [["Pants", "Skirts", "Shorts"], ["Shoes"], ["Accessories"]]],
+  Sets: [[["Shoes"], ["Bags"], ["Accessories"]], [["Knitwear"], ["Shoes"], ["Bags"]]],
   Playsuits: [[["Shoes"], ["Bags"], ["Accessories"]], [["Knitwear"], ["Shoes"], ["Bags"]]],
   Skirts: [[["Tops", "Knitwear"], ["Shoes"], ["Bags"]], [["Knitwear", "Tops"], ["Shoes"], ["Accessories"]]],
   Pants: [[["Tops", "Knitwear"], ["Shoes"], ["Bags"]], [["Knitwear", "Tops"], ["Shoes"], ["Accessories"]]],
