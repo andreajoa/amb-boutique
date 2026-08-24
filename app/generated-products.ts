@@ -2,7 +2,7 @@ import type { Product } from "./data";
 
 // AMB BOUTIQUE catalogue generated from verified product imports.
 // Each color is intentionally published as its own product; sizes remain variants.
-export const generatedProducts: Product[] = [
+const allGeneratedProducts: Product[] = [
   {
     "slug": "maris-belted-romper",
     "name": "Maris Belted Romper",
@@ -7255,3 +7255,21 @@ export const generatedProducts: Product[] = [
     "badge": "Just In"
   }
 ];
+
+// The first 81 records are the established catalogue that was live before the
+// 2026-08-23 import. Keep every one of them available. Products from the new
+// import are exposed only after their four-view gallery passes visual QA.
+const ESTABLISHED_CATALOGUE_COUNT = 81;
+const approvedNewProductSlugs = new Set([
+  "calla-maxi-dress",
+  "talia-wide-leg-trousers",
+  "mira-wide-leg-trousers",
+  "unity-wide-leg-trousers",
+  "xyla-wide-leg-trousers",
+  "kira-wide-leg-trousers",
+  "ivy-wide-leg-trousers",
+]);
+
+export const generatedProducts: Product[] = allGeneratedProducts.filter(
+  (product, index) => index < ESTABLISHED_CATALOGUE_COUNT || approvedNewProductSlugs.has(product.slug),
+);
