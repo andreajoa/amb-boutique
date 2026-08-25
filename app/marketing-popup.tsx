@@ -1,30 +1,81 @@
 "use client";
 
 import Link from "next/link";
-import { FormEvent, useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import { FormEvent, useCallback, useEffect, useRef, useState } from "react";
 import { FIRST_ORDER_CODE, markets } from "./commerce";
 import { useStore } from "./store-provider";
 
 const dismissedKey = "amb-welcome-offer-v1";
+const consentKey = "amb-cookie-consent-v1";
 
 export function MarketingPopup() {
   const { market, visitorId, setPromoCode } = useStore();
+  const pathname = usePathname();
   const [visible, setVisible] = useState(false);
   const [pending, setPending] = useState(false);
   const [message, setMessage] = useState("");
   const [unlocked, setUnlocked] = useState(false);
-
-  useEffect(() => {
-    const saved = window.localStorage.getItem(dismissedKey);
-    if (saved) return;
-    const timer = window.setTimeout(() => setVisible(true), 4500);
-    return () => window.clearTimeout(timer);
-  }, []);
-
-  const close = () => {
+  const popupRef = useRef<HTMLElement>(null);
+  const closeRef = useRef<HTMLButtonElement>(null);
+  const close = useCallback(() => {
     window.localStorage.setItem(dismissedKey, JSON.stringify({ dismissedAt: new Date().toISOString() }));
     setVisible(false);
-  };
+  }, []);
+
+  useEffect(() => {
+    const blockedRoute = pathname?.startsWith("/cart") || pathname?.startsWith("/checkout") || pathname?.startsWith("/account");
+    if (blockedRoute || window.localStorage.getItem(dismissedKey)) return;
+    let timer: number | undefined;
+    let started = false;
+    const show = () => {
+      window.clearTimeout(timer);
+      window.removeEventListener("scroll", onScroll);
+      setVisible(true);
+    };
+    const onScroll = () => {
+      const available = document.documentElement.scrollHeight - window.innerHeight;
+      if (available > 0 && window.scrollY / available >= 0.35) show();
+    };
+    const start = () => {
+      if (started || window.localStorage.getItem(dismissedKey)) return;
+      started = true;
+      timer = window.setTimeout(show, 12000);
+      window.addEventListener("scroll", onScroll, { passive: true });
+    };
+    const onConsent = () => start();
+    if (window.localStorage.getItem(consentKey)) start();
+    else window.addEventListener("amb-consent-change", onConsent);
+    return () => {
+      window.clearTimeout(timer);
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("amb-consent-change", onConsent);
+    };
+  }, [pathname]);
+
+  useEffect(() => {
+    if (!visible) return;
+    const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    closeRef.current?.focus();
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") { event.preventDefault(); close(); return; }
+      if (event.key !== "Tab") return;
+      const focusable = popupRef.current?.querySelectorAll<HTMLElement>("button:not([disabled]),a[href],input:not([disabled])");
+      if (!focusable?.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", onKeyDown);
+      previousFocus?.focus();
+    };
+  }, [close, visible]);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -57,8 +108,8 @@ export function MarketingPopup() {
   if (!visible) return null;
   return <div className="welcome-layer" role="dialog" aria-modal="true" aria-labelledby="welcome-title">
     <button className="welcome-backdrop" onClick={close} aria-label="Close welcome offer"/>
-    <section className="welcome-popup">
-      <button className="welcome-close" type="button" onClick={close} aria-label="Close">×</button>
+    <section className="welcome-popup" ref={popupRef}>
+      <button className="welcome-close" type="button" onClick={close} aria-label="Close welcome offer" ref={closeRef}>×</button>
       <div className="welcome-image" role="img" aria-label="AMB BOUTIQUE coastal fashion editorial"/>
       <div className="welcome-copy">
         <p>WELCOME TO AMB</p>

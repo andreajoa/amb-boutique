@@ -4,6 +4,7 @@ import { products } from "./data";
 import { NewsletterForm } from "./newsletter-form";
 import { HeroCarousel } from "./hero-carousel";
 import { PersonalizedProducts } from "./personalized-products";
+import { EditorialStackMotion } from "./editorial-stack-motion";
 
 const collections = [
   { title: "Dresses", subtitle: "Made for every plan", image: "category-one q1", href: "/collections/dresses" },
@@ -56,6 +57,7 @@ export default function Home() {
       </section>
 
       <div className="editorial-stack">
+        <EditorialStackMotion />
         <section className="feature-split stack-panel">
           <div className="feature-copy"><p>THE AMB FAVORITE</p><h2>Selene Satin Maxi Dress</h2><span>A fluid silhouette with a softly draped neckline, selected for luminous evenings and effortless entrances.</span><strong>$118</strong><Link className="button dark" href="/products/selene-satin-maxi-dress">View the Dress</Link></div>
           <div className="feature-image" style={{ backgroundImage: "url(/products/selene-satin-maxi-dress/01.webp)", backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundColor: "#f5f3ef" }} role="img" aria-label="Selene Satin Maxi Dress by AMB BOUTIQUE" />

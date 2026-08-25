@@ -4,7 +4,7 @@ import { EmbeddedCheckout, EmbeddedCheckoutProvider } from "@stripe/react-stripe
 import { loadStripe } from "@stripe/stripe-js";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { useStore } from "../store-provider";
+import { getCartLineThumbnail, useStore } from "../store-provider";
 
 export function EmbeddedCheckoutPanel({ publishableKey }: { publishableKey: string }) {
   const { cart, formatMoney } = useStore();
@@ -27,7 +27,10 @@ export function EmbeddedCheckoutPanel({ publishableKey }: { publishableKey: stri
     <aside className="checkout-order-card">
       <p>YOUR AMB EDIT</p>
       <h2>{cart.length ? `${cart.length} selected style${cart.length === 1 ? "" : "s"}` : "Secure order"}</h2>
-      {cart.map((line) => <div className="checkout-mini-line" key={line.id}><div className={`cart-thumb sheet-${line.sheet} q${line.quadrant}`}/><span><strong>{line.name}</strong><small>{line.size} · {line.color} · Qty {line.quantity}</small></span><b>{formatMoney(line.price * line.quantity)}</b></div>)}
+      {cart.map((line) => {
+        const thumbnail = getCartLineThumbnail(line);
+        return <div className="checkout-mini-line" key={line.id}><div className={`cart-thumb checkout-thumb-media${thumbnail.isSprite ? " sprite-media" : ""}${thumbnail.hasImage ? "" : ` sheet-${line.sheet} q${line.quadrant}`}`} style={thumbnail.style} role="img" aria-label={line.name}/><span><strong>{line.name}</strong><small>{line.size} · {line.color} · Qty {line.quantity}</small></span><b>{formatMoney(line.price * line.quantity)}</b></div>;
+      })}
       <ul><li>Encrypted payment by Stripe</li><li>Delivery from San Diego, California</li><li>30-day return requests</li><li>No automatic post-purchase charges</li></ul>
       <a href="mailto:info@ambboutique.online">Need help? info@ambboutique.online</a>
     </aside>

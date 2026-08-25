@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { createContext, useCallback, useContext, useEffect, useMemo, useState, type CSSProperties } from "react";
-import { Product, products } from "./data";
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
+import type { Product } from "./data";
 import { FIRST_ORDER_CODE, formatMarketPrice, getDiscountState, MarketCode, markets, US_FREE_SHIPPING_THRESHOLD_USD } from "./commerce";
 import { CartRewards } from "./cart-rewards";
 import { rankRecommendations } from "./recommendations";
@@ -85,7 +85,7 @@ export function useStore() {
   return value;
 }
 
-export function StoreProvider({ children }: { children: React.ReactNode }) {
+export function StoreProvider({ children, catalog }: { children: React.ReactNode; catalog: Product[] }) {
   const router = useRouter();
   const [cart, setCart] = useState<CartLine[]>([]);
   const [cartOpen, setCartOpen] = useState(false);
@@ -164,12 +164,13 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   const cartTotal = cart.reduce((sum, line) => sum + line.price * line.quantity, 0);
   const discount = getDiscountState(cartTotal);
   const welcomePercent = promoCode.toUpperCase() === FIRST_ORDER_CODE ? 10 : 0;
+  const catalogBySlug = useMemo(() => new Map(catalog.map((product) => [product.slug, product])), [catalog]);
   const estimatedTotal = useMemo(() => cart.reduce((sum, line) => {
-    const product = products.find((item) => item.slug === line.slug);
+    const product = catalogBySlug.get(line.slug);
     const requestedPercent = Math.max(discount.percent, welcomePercent, line.offer === "cart-bump" ? 10 : 0);
     const approvedPercent = product ? protectMargin(product, requestedPercent).approvedPercent : 0;
     return sum + line.price * line.quantity * (1 - approvedPercent / 100);
-  }, 0), [cart, discount.percent, welcomePercent]);
+  }, 0), [cart, catalogBySlug, discount.percent, welcomePercent]);
   const effectiveDiscountUsd = cartTotal - estimatedTotal;
   const formatMoney = (valueUsd: number) => formatMarketPrice(valueUsd, market);
 
@@ -287,13 +288,14 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     window.localStorage.removeItem(storageKey);
     window.localStorage.removeItem(promoStorageKey);
   }, []);
-  const value = { cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, addItem, addItems, updateQuantity, removeItem, clearCart, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart: () => setCartOpen(false), checkout, buyNow, checkoutError };
-  return <StoreContext.Provider value={value}>{children}<CartDrawer /></StoreContext.Provider>;
+  const closeCart = useCallback(() => setCartOpen(false), []);
+  const value = { cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, addItem, addItems, updateQuantity, removeItem, clearCart, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart, checkout, buyNow, checkoutError };
+  return <StoreContext.Provider value={value}>{children}<CartDrawer catalog={catalog} /></StoreContext.Provider>;
 }
 
-function getExactCartThumbnail(line: CartLine, product?: Product): { style?: CSSProperties; isSprite: boolean } {
+export function getCartLineThumbnail(line: CartLine, product?: Product): { style?: CSSProperties; isSprite: boolean; hasImage: boolean } {
   const image = line.image || product?.images?.[0];
-  if (!image) return { isSprite: false };
+  if (!image) return { isSprite: false, hasImage: false };
 
   const fallbackSprite = product?.gallerySprite && product.images?.length === 1 ? product.gallerySprite : undefined;
   const columns = line.imageSpriteColumns || fallbackSprite?.columns;
@@ -302,6 +304,7 @@ function getExactCartThumbnail(line: CartLine, product?: Product): { style?: CSS
 
   return {
     isSprite,
+    hasImage: true,
     style: {
       backgroundImage: `url(${image})`,
       backgroundSize: isSprite ? `${columns! * 100}% ${rows! * 100}%` : "contain",
@@ -313,22 +316,47 @@ function getExactCartThumbnail(line: CartLine, product?: Product): { style?: CSS
   };
 }
 
-function CartDrawer() {
+function CartDrawer({ catalog }: { catalog: Product[] }) {
   const { cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, preferredCategories, formatMoney, effectiveDiscountUsd, setPromoCode, setOrderNote, addItem, closeCart, removeItem, updateQuantity, checkout, checkoutError } = useStore();
+  const layerRef = useRef<HTMLDivElement>(null);
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
+  const catalogBySlug = useMemo(() => new Map(catalog.map((product) => [product.slug, product])), [catalog]);
+
+  useEffect(() => {
+    if (!cartOpen) return;
+    const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    closeButtonRef.current?.focus();
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") { event.preventDefault(); closeCart(); return; }
+      if (event.key !== "Tab") return;
+      const focusable = layerRef.current?.querySelectorAll<HTMLElement>("button:not([disabled]),a[href],input:not([disabled]),textarea:not([disabled]),select:not([disabled])");
+      if (!focusable?.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+      previousFocus?.focus();
+    };
+  }, [cartOpen, closeCart]);
+
   if (!cartOpen) return null;
   const shippingGap = Math.max(0, US_FREE_SHIPPING_THRESHOLD_USD - cartTotal);
-  const cartProducts = cart.map((line) => products.find((product) => product.slug === line.slug)).filter((product): product is Product => Boolean(product));
-  const upsellCandidate = rankRecommendations(products, cart.map((line) => line.slug), preferredCategories, cartProducts)[0];
+  const cartProducts = cart.map((line) => catalogBySlug.get(line.slug)).filter((product): product is Product => Boolean(product));
+  const upsellCandidate = rankRecommendations(catalog, cart.map((line) => line.slug), preferredCategories, cartProducts)[0];
   const upsellMargin = upsellCandidate ? protectMargin(upsellCandidate, 10) : null;
   const upsell = upsellCandidate && upsellMargin?.costKnown && upsellMargin.approvedPercent > 0 ? upsellCandidate : null;
-  return <div className="cart-layer" role="dialog" aria-modal="true" aria-label="Shopping bag">
+  return <div className="cart-layer" role="dialog" aria-modal="true" aria-label="Shopping bag" ref={layerRef}>
     <button className="cart-backdrop" aria-label="Close shopping bag" onClick={closeCart}/>
     <aside className="cart-drawer">
-      <div className="cart-head"><button onClick={closeCart} aria-label="Close">×</button><strong>Your Bag</strong><span>{cartCount ? `${cartCount} item${cartCount > 1 ? "s" : ""}` : "Empty"}</span></div>
+      <div className="cart-head"><button onClick={closeCart} aria-label="Close shopping bag" ref={closeButtonRef}>×</button><strong>Your Bag</strong><span>{cartCount ? `${cartCount} item${cartCount > 1 ? "s" : ""}` : "Empty"}</span></div>
       {cart.length ? <>
         <div className="cart-lines">{cart.map((line) => {
-          const lineProduct = products.find((item) => item.slug === line.slug);
-          const thumbnail = getExactCartThumbnail(line, lineProduct);
+          const lineProduct = catalogBySlug.get(line.slug);
+          const thumbnail = getCartLineThumbnail(line, lineProduct);
           return <div className="cart-item" data-product-slug={line.slug} key={line.id}>
           <div className="cart-thumb"><span className={`cart-thumb-media sheet-${line.sheet} q${line.quadrant}${thumbnail.isSprite ? " sprite-media" : ""}`} style={thumbnail.style}/></div>
           <div><Link href={`/products/${line.slug}`} onClick={closeCart}><strong>{line.name}</strong></Link><span>Size: {line.size}</span><span>Color: {line.color}</span>{line.heelHeightCm ? <span>Heel: {line.heelHeightCm} cm</span> : null}{line.offer && <span className="offer-label">Private cart offer</span>}<div className="mini-quantity"><button onClick={() => updateQuantity(line.id, line.quantity - 1)} aria-label="Decrease">−</button><span>{line.quantity}</span><button onClick={() => updateQuantity(line.id, line.quantity + 1)} aria-label="Increase">+</button></div><button onClick={() => removeItem(line.id)}>Remove</button></div>

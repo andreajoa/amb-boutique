@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
-import { Footer, Header, ProductCard, getProductImageStyle } from "../../components";
+import { Footer, Header, ProductCard, getDirectProductImage, getProductImageStyle } from "../../components";
 import { Product, products } from "../../data";
 import { useStore } from "../../store-provider";
 import { SizeFinder } from "../../size-finder";
@@ -42,6 +43,10 @@ export default function ProductDetail({
   const [size, setSize] = useState(startingSize);
   const [color, setColor] = useState(colors[0] || defaultColors[0]);
   const [quantity, setQuantity] = useState(1);
+  const [activeImage, setActiveImage] = useState<number | null>(null);
+  const lightboxRef = useRef<HTMLDivElement>(null);
+  const lightboxCloseRef = useRef<HTMLButtonElement>(null);
+  const lightboxReturnFocus = useRef<HTMLElement | null>(null);
   const { addItem, buyNow, formatMoney, preferredCategories, recordProductView } = useStore();
   const completeLook = useMemo(() => createCompleteLook(product, products, preferredCategories), [product, preferredCategories]);
 
@@ -53,9 +58,39 @@ export default function ProductDetail({
       : product.images?.length ? product.images : [undefined, undefined, undefined, undefined];
 
   useEffect(() => { recordProductView(product); }, [product, recordProductView]);
+
+  const selectHeelHeight = (height: number) => {
+    const nextVariant = product.shoeVariants?.find((variant) => variant.heelHeightCm === height);
+    const nextSizes = nextVariant?.sizes?.length ? nextVariant.sizes : product.sizes?.length ? product.sizes : defaultSizes;
+    setHeelHeightCm(height);
+    if (!nextSizes.includes(size)) setSize(nextSizes[0] || "One Size");
+  };
+
+  const lightboxOpen = activeImage !== null;
   useEffect(() => {
-    if (!sizes.includes(size)) setSize(sizes[0] || "One Size");
-  }, [heelHeightCm, size, sizes]);
+    if (!lightboxOpen) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    lightboxCloseRef.current?.focus();
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setActiveImage(null);
+      if (event.key === "ArrowLeft") setActiveImage((current) => current === null ? null : (current - 1 + gallery.length) % gallery.length);
+      if (event.key === "ArrowRight") setActiveImage((current) => current === null ? null : (current + 1) % gallery.length);
+      if (event.key !== "Tab") return;
+      const focusable = lightboxRef.current?.querySelectorAll<HTMLElement>("button:not([disabled]),a[href]");
+      if (!focusable?.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", onKeyDown);
+      lightboxReturnFocus.current?.focus();
+    };
+  }, [gallery.length, lightboxOpen]);
 
   const addToBag = () => {
     addItem(product, { size, color: color.name, quantity, heelHeightCm: isShoe ? (heelHeightCm ?? product.heelHeightCm) : undefined });
@@ -66,10 +101,24 @@ export default function ProductDetail({
       <Header />
       <div className="product-layout shell" data-reveal>
         <section className="product-gallery" aria-label={`${product.name} gallery`}>
-          {gallery.map((image, index) => (
-            <button key={`${image || "gallery"}-${index}`} className={`gallery-image gallery-q${index + 1}`} style={image ? getProductImageStyle(product, index) : undefined} aria-label={`Open ${product.name} image ${index + 1}`}><span>⌕</span></button>
-          ))}
+          {gallery.map((image, index) => {
+            const directImage = image ? getDirectProductImage(product, index) : undefined;
+            return <button type="button" key={`${image || "gallery"}-${index}`} className={`gallery-image gallery-q${index + 1}${directImage ? " has-direct-image" : ""}`} style={image && !directImage ? getProductImageStyle(product, index) : undefined} aria-label={`Open ${product.name} image ${index + 1} of ${gallery.length}`} onClick={(event) => { lightboxReturnFocus.current = event.currentTarget; setActiveImage(index); }} data-track={`product-gallery:${product.slug}:${index + 1}`}>{directImage && <Image src={directImage} alt={`${product.name}, view ${index + 1}`} fill sizes="(max-width: 560px) 88vw, (max-width: 900px) 100vw, 33vw"/>}<span aria-hidden="true">⌕</span></button>;
+          })}
         </section>
+
+        {activeImage !== null && <div className="product-lightbox" role="dialog" aria-modal="true" aria-label={`${product.name} image viewer`} ref={lightboxRef}>
+          <button type="button" className="product-lightbox-backdrop" onClick={() => setActiveImage(null)} aria-label="Close image viewer"/>
+          <div className="product-lightbox-panel">
+            <button type="button" className="product-lightbox-close" onClick={() => setActiveImage(null)} aria-label="Close image viewer" ref={lightboxCloseRef}>×</button>
+            <button type="button" className="product-lightbox-arrow previous" onClick={() => setActiveImage((activeImage - 1 + gallery.length) % gallery.length)} aria-label="Previous image">‹</button>
+            <div className="product-lightbox-image" style={getDirectProductImage(product, activeImage) ? undefined : getProductImageStyle(product, activeImage)}>
+              {getDirectProductImage(product, activeImage) && <Image src={getDirectProductImage(product, activeImage)!} alt={`${product.name}, enlarged view ${activeImage + 1}`} fill sizes="min(88vw, 900px)" priority/>}
+            </div>
+            <button type="button" className="product-lightbox-arrow next" onClick={() => setActiveImage((activeImage + 1) % gallery.length)} aria-label="Next image">›</button>
+            <p aria-live="polite">{activeImage + 1} / {gallery.length}</p>
+          </div>
+        </div>}
 
         <section className="product-info">
           <p className="product-breadcrumb"><Link href="/collections">Shop</Link> / {isShoe ? <><Link href="/collections/shoes">Shoes</Link>{product.subcategory ? <> / <Link href="/collections/heels">{product.subcategory}</Link></> : null}</> : product.category}</p>
@@ -77,7 +126,7 @@ export default function ProductDetail({
           <div className="product-price"><span>{formatMoney(product.price)}</span>{product.compareAt && <del>{formatMoney(product.compareAt)}</del>}</div>
           <p className="product-intro">{product.description || "An effortless AMB essential designed with a softly structured silhouette and an easy, feminine finish."}</p>
 
-          {isShoe && heelOptions.length > 1 && <fieldset className="option-group"><legend><strong>Heel height:</strong> {heelHeightCm} cm</legend><div className="size-options">{heelOptions.map((height) => <button type="button" key={height} className={heelHeightCm === height ? "selected" : ""} onClick={() => setHeelHeightCm(height)}>{height} cm</button>)}</div></fieldset>}
+          {isShoe && heelOptions.length > 1 && <fieldset className="option-group"><legend><strong>Heel height:</strong> {heelHeightCm} cm</legend><div className="size-options">{heelOptions.map((height) => <button type="button" key={height} className={heelHeightCm === height ? "selected" : ""} onClick={() => selectHeelHeight(height)}>{height} cm</button>)}</div></fieldset>}
 
           <fieldset className="option-group"><legend><strong>{isShoe ? "AMB Size" : "Size"}:</strong> {size}</legend><div className="size-options">{sizes.map((item) => <button type="button" key={item} className={size === item ? "selected" : ""} onClick={() => setSize(item)}>{item}</button>)}</div><div className="size-help-links">{isShoe ? <Link className="shoe-size-link" href="/size-guide#shoes">Shoe Size Guide</Link> : <SizeFinder product={product} sizes={sizes} onSelect={setSize}/>}</div></fieldset>
 
@@ -110,4 +159,3 @@ export default function ProductDetail({
     </main>
   );
 }
-
