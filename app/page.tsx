@@ -5,6 +5,7 @@ import { NewsletterForm } from "./newsletter-form";
 import { HeroCarousel } from "./hero-carousel";
 import { PersonalizedProducts } from "./personalized-products";
 import { EditorialStackMotion } from "./editorial-stack-motion";
+import { EditorialHorizontal } from "./editorial-horizontal";
 
 const collections = [
   { title: "Dresses", subtitle: "Made for every plan", image: "category-one q1", href: "/collections/dresses" },
@@ -34,6 +35,8 @@ export default function Home() {
       <section className="editorial-banner" data-reveal>
         <div><p>THE COASTAL WARDROBE</p><h2>Sunlit in San Diego</h2><span>Soft tailoring, fluid dresses and understated accessories inspired by golden-hour days.</span><Link className="button dark" href="/collections">Shop the Story</Link></div>
       </section>
+
+      <EditorialHorizontal />
 
       <section className="section shell" data-reveal>
         <div className="section-heading centered"><div><p>FRESHLY CURATED</p><h2>Just Arrived</h2></div></div>

@@ -8,6 +8,7 @@ import { ScrollReveal } from "./scroll-reveal";
 import { MarketingPopup } from "./marketing-popup";
 import { AnalyticsTracker } from "./analytics-tracker";
 import { products, type Product } from "./data";
+import { PremiumInteractions } from "./premium-interactions";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ambboutique.online";
 const defaultTitle = "AMB BOUTIQUE | Women’s Dresses, Rompers & Fashion";
@@ -97,7 +98,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body><StructuredData/><StoreProvider catalog={getStoreCatalog()}>{children}<AnalyticsTracker/><ScrollReveal/><CookieConsent/><MarketingPopup/></StoreProvider></body>
+      <body><StructuredData/><StoreProvider catalog={getStoreCatalog()}>{children}<AnalyticsTracker/><ScrollReveal/><PremiumInteractions/><CookieConsent/><MarketingPopup/></StoreProvider></body>
     </html>
   );
 }
