@@ -3394,10 +3394,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/nola-a-line-dress/01.webp",
-      "/products/nola-a-line-dress/02.webp",
-      "/products/nola-a-line-dress/03.webp",
-      "/products/nola-a-line-dress/04.webp"
+      "/products/nola-a-line-dress/front.webp",
+      "/products/nola-a-line-dress/back.webp",
+      "/products/nola-a-line-dress/left.webp",
+      "/products/nola-a-line-dress/right.webp"
     ],
     "stock": 2876,
     "weightOz": 28.22,
@@ -4061,10 +4061,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/gloria-maxi-skirt/01.webp",
-      "/products/gloria-maxi-skirt/02.webp",
-      "/products/gloria-maxi-skirt/03.webp",
-      "/products/gloria-maxi-skirt/04.webp"
+      "/products/gloria-maxi-skirt/front.webp",
+      "/products/gloria-maxi-skirt/back.webp",
+      "/products/gloria-maxi-skirt/left.webp",
+      "/products/gloria-maxi-skirt/right.webp"
     ],
     "stock": 7994,
     "weightOz": 10.93,
@@ -4514,10 +4514,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Lustrous satin fabric with a smooth, refined finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/opal-mini-dress/01.webp",
-      "/products/opal-mini-dress/02.webp",
-      "/products/opal-mini-dress/03.webp",
-      "/products/opal-mini-dress/04.webp"
+      "/products/opal-mini-dress/front.webp",
+      "/products/opal-mini-dress/back.webp",
+      "/products/opal-mini-dress/left.webp",
+      "/products/opal-mini-dress/right.webp"
     ],
     "stock": 36,
     "weightOz": 6.98,
@@ -4860,10 +4860,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/leia-denim-shorts/01.webp",
-      "/products/leia-denim-shorts/02.webp",
-      "/products/leia-denim-shorts/03.webp",
-      "/products/leia-denim-shorts/04.webp"
+      "/products/leia-denim-shorts/front.webp",
+      "/products/leia-denim-shorts/back.webp",
+      "/products/leia-denim-shorts/left.webp",
+      "/products/leia-denim-shorts/right.webp"
     ],
     "stock": 47,
     "weightOz": 12.7,
@@ -4968,10 +4968,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/kenza-denim-shorts/01.webp",
-      "/products/kenza-denim-shorts/02.webp",
-      "/products/kenza-denim-shorts/03.webp",
-      "/products/kenza-denim-shorts/04.webp"
+      "/products/kenza-denim-shorts/front.webp",
+      "/products/kenza-denim-shorts/back.webp",
+      "/products/kenza-denim-shorts/left.webp",
+      "/products/kenza-denim-shorts/right.webp"
     ],
     "stock": 116,
     "weightOz": 8.64,
@@ -5110,10 +5110,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/briar-denim-shorts/01.webp",
-      "/products/briar-denim-shorts/02.webp",
-      "/products/briar-denim-shorts/03.webp",
-      "/products/briar-denim-shorts/04.webp"
+      "/products/briar-denim-shorts/front.webp",
+      "/products/briar-denim-shorts/back.webp",
+      "/products/briar-denim-shorts/left.webp",
+      "/products/briar-denim-shorts/right.webp"
     ],
     "stock": 998,
     "weightOz": 7.76,
@@ -5285,10 +5285,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/paloma-denim-shorts/01.webp",
-      "/products/paloma-denim-shorts/02.webp",
-      "/products/paloma-denim-shorts/03.webp",
-      "/products/paloma-denim-shorts/04.webp"
+      "/products/paloma-denim-shorts/front.webp",
+      "/products/paloma-denim-shorts/back.webp",
+      "/products/paloma-denim-shorts/left.webp",
+      "/products/paloma-denim-shorts/right.webp"
     ],
     "stock": 1589,
     "weightOz": 6.53,
@@ -5322,10 +5322,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/yvette-denim-shorts/01.webp",
-      "/products/yvette-denim-shorts/02.webp",
-      "/products/yvette-denim-shorts/03.webp",
-      "/products/yvette-denim-shorts/04.webp"
+      "/products/yvette-denim-shorts/front.webp",
+      "/products/yvette-denim-shorts/back.webp",
+      "/products/yvette-denim-shorts/left.webp",
+      "/products/yvette-denim-shorts/right.webp"
     ],
     "stock": 5182,
     "weightOz": 10.12,
@@ -5489,10 +5489,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/olympia-romper/01.webp",
-      "/products/olympia-romper/02.webp",
-      "/products/olympia-romper/03.webp",
-      "/products/olympia-romper/04.webp"
+      "/products/olympia-romper/front.webp",
+      "/products/olympia-romper/back.webp",
+      "/products/olympia-romper/left.webp",
+      "/products/olympia-romper/right.webp"
     ],
     "stock": 4000,
     "weightOz": 8.82,
@@ -5756,10 +5756,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/orla-dress/01.webp",
-      "/products/orla-dress/02.webp",
-      "/products/orla-dress/03.webp",
-      "/products/orla-dress/04.webp"
+      "/products/orla-dress/front.webp",
+      "/products/orla-dress/back.webp",
+      "/products/orla-dress/left.webp",
+      "/products/orla-dress/right.webp"
     ],
     "stock": 985,
     "weightOz": 9.88,
@@ -6726,10 +6726,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/ursula-maxi-dress/01.webp",
-      "/products/ursula-maxi-dress/02.webp",
-      "/products/ursula-maxi-dress/03.webp",
-      "/products/ursula-maxi-dress/04.webp"
+      "/products/ursula-maxi-dress/front.webp",
+      "/products/ursula-maxi-dress/back.webp",
+      "/products/ursula-maxi-dress/left.webp",
+      "/products/ursula-maxi-dress/right.webp"
     ],
     "stock": 200,
     "weightOz": 11.15,
@@ -6900,10 +6900,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/elodie-maxi-skirt/01.webp",
-      "/products/elodie-maxi-skirt/02.webp",
-      "/products/elodie-maxi-skirt/03.webp",
-      "/products/elodie-maxi-skirt/04.webp"
+      "/products/elodie-maxi-skirt/front.webp",
+      "/products/elodie-maxi-skirt/back.webp",
+      "/products/elodie-maxi-skirt/left.webp",
+      "/products/elodie-maxi-skirt/right.webp"
     ],
     "stock": 37,
     "weightOz": 14.96,
@@ -7077,10 +7077,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/jules-maxi-dress/01.webp",
-      "/products/jules-maxi-dress/02.webp",
-      "/products/jules-maxi-dress/03.webp",
-      "/products/jules-maxi-dress/04.webp"
+      "/products/jules-maxi-dress/front.webp",
+      "/products/jules-maxi-dress/back.webp",
+      "/products/jules-maxi-dress/left.webp",
+      "/products/jules-maxi-dress/right.webp"
     ],
     "stock": 1392,
     "weightOz": 8.82,
@@ -7449,10 +7449,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/xiomara-mini-dress/01.webp",
-      "/products/xiomara-mini-dress/02.webp",
-      "/products/xiomara-mini-dress/03.webp",
-      "/products/xiomara-mini-dress/04.webp"
+      "/products/xiomara-mini-dress/front.webp",
+      "/products/xiomara-mini-dress/back.webp",
+      "/products/xiomara-mini-dress/left.webp",
+      "/products/xiomara-mini-dress/right.webp"
     ],
     "stock": 43,
     "weightOz": 11.39,
