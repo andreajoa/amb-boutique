@@ -81,7 +81,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}/>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}/>
     <section className="collection-hero"><div><p>THE AMB EDIT</p><h1>{entry.title}</h1><span>{entry.description}</span></div></section>
-    <section className="collection-shell shell" data-reveal>
+    <section className="collection-shell shell" data-reveal={entry.slug === "dresses" ? undefined : ""}>
       <div className="collection-toolbar"><p><strong>{selected.length}</strong> {selected.length === 1 ? "piece" : "pieces"}</p></div>
       <div className="product-grid">{selected.map((product) => <ProductCard product={product} key={product.slug}/>)}</div>
     </section>
