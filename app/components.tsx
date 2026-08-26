@@ -1,6 +1,7 @@
 "use client";
 
 import type { CSSProperties } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Product } from "./data";
 import { MarketCode, marketCodes, markets, US_FREE_SHIPPING_THRESHOLD_USD } from "./commerce";
@@ -9,7 +10,19 @@ import { NewsletterForm } from "./newsletter-form";
 
 const SHOE_ATLAS_PRODUCT_COUNT = 27;
 
-export function getProductImageStyle(product: Product, view = 0): CSSProperties | undefined {
+export type ProductImageSource = Pick<Product, "images" | "gallerySprite" | "galleryAtlasIndex" | "galleryAtlasCount" | "heelAtlasIndex">;
+export type ProductCardProduct = ProductImageSource & Pick<Product, "slug" | "name" | "price" | "compareAt" | "badge" | "sheet" | "quadrant" | "colors" | "rating">;
+
+export function getDirectProductImage(product: ProductImageSource, view = 0): string | undefined {
+  const firstImage = product.images?.[0];
+  if (!firstImage) return undefined;
+  const normalized = (image: string) => image.startsWith("/") ? image.split("?")[0] : image;
+  if (!product.gallerySprite) return normalized(product.images?.[view] || firstImage);
+  if (product.images?.length !== 1 && view === 0) return normalized(firstImage);
+  return undefined;
+}
+
+export function getProductImageStyle(product: ProductImageSource, view = 0): CSSProperties | undefined {
   const firstImage = product.images?.[0];
   if (!firstImage) return undefined;
 
@@ -160,13 +173,15 @@ export function Header() {
   );
 }
 
-export function ProductCard({ product, compact = false }: { product: Product; compact?: boolean }) {
+export function ProductCard({ product, compact = false }: { product: ProductCardProduct; compact?: boolean }) {
   const { formatMoney } = useStore();
+  const directImage = getDirectProductImage(product, 0);
   return (
-    <article className={`product-card${compact ? " compact" : ""}`}>
-      <Link href={`/products/${product.slug}`} className={`product-photo sheet-${product.sheet} q${product.quadrant}`} style={getProductImageStyle(product, 0)} aria-label={`View ${product.name}`}>
+    <article className={`product-card${compact ? " compact" : ""}`} data-product-slug={product.slug}>
+      <Link href={`/products/${product.slug}`} className={`product-photo sheet-${product.sheet} q${product.quadrant}${directImage ? " has-direct-image" : ""}`} style={directImage ? undefined : getProductImageStyle(product, 0)} aria-label={`View ${product.name}`} data-track={`view-product:${product.slug}`}>
+        {directImage && <Image className="product-card-image" src={directImage} alt={product.name} fill sizes={compact ? "(max-width: 560px) 50vw, (max-width: 900px) 50vw, 25vw" : "(max-width: 560px) 50vw, (max-width: 900px) 50vw, 33vw"}/>}
         {product.badge && <span className={`product-badge${product.badge === "New" || product.badge === "Just In" ? " dark" : ""}`}>{product.badge}</span>}
-        <span className="quick-shop">Quick Shop</span>
+        <span className="quick-shop">View Product</span>
       </Link>
       <div className="product-meta">
         <Link href={`/products/${product.slug}`}>{product.name}</Link>
