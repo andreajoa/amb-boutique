@@ -12,9 +12,9 @@ Last updated: 2026-08-26
 
 ## Current progress
 
-- Published imported galleries: 48 / 135
-- Hidden imported products awaiting approval: 87 / 135
-- Integrated final images: 192 / 540
+- Published imported galleries: 68 / 135
+- Hidden imported products awaiting approval: 67 / 135
+- Integrated final images: 272 / 540
 - Supplier identity resolved: 134 / 135
 - Production build: passing (231 pages)
 
@@ -68,6 +68,31 @@ Twelve reviewed galleries were restored without changing their catalogue invento
 | Lyra Mini Dress | Dresses | Coral | Approved and integrated |
 | Xiomara Mini Dress | Dresses | White | Approved and integrated |
 
+### Second reviewed release — 2026-08-26
+
+| Product | Category | Colour | Status |
+| --- | --- | --- | --- |
+| Tamsin Maxi Skirt | Skirts | Black | Approved and integrated |
+| Petra Maxi Skirt | Skirts | Wine Red | Approved and integrated |
+| Reina Maxi Skirt | Skirts | Black | Approved and integrated |
+| Fleur Maxi Skirt | Skirts | Deep Navy | Approved and integrated |
+| Ulla Maxi Skirt | Skirts | Sage Green | Approved and integrated |
+| Zelda Maxi Skirt | Skirts | White | Approved and integrated |
+| Ximena Maxi Skirt | Skirts | Khaki | Approved and integrated |
+| Gaia Midi Dress | Dresses | Royal Blue | Approved and integrated |
+| Fia Midi Dress | Dresses | Black | Approved and integrated |
+| Zinnia Midi Dress | Dresses | Red | Approved and integrated |
+| Ines Midi Dress | Dresses | Dusty Pink | Approved and integrated |
+| Aria Midi Dress | Dresses | Orange | Approved and integrated |
+| Remi Denim Shorts | Shorts | Light Blue | Approved and integrated |
+| Honor Denim Shorts | Shorts | Deep Blue | Approved and integrated |
+| Wisteria Denim Shorts | Shorts | Navy | Approved and integrated |
+| Sol Denim Shorts | Shorts | Red | Approved and integrated |
+| Elara Denim Shorts | Shorts | Yellow | Approved and integrated |
+| Daria Denim Shorts | Shorts | Hot Pink | Approved and integrated |
+| Aster Eyelet Two-Piece Set | Sets | Pink | Approved and integrated |
+| Tallulah Halter Mini Dress | Dresses | Black | Approved and integrated |
+
 ## Catalogue corrections included
 
 - Added the `Sets` product category and `/collections/sets` collection.
@@ -78,6 +103,8 @@ Twelve reviewed galleries were restored without changing their catalogue invento
 - Replaced generic copy for the corrected sets with source-faithful descriptions.
 - Corrected Gloria and Elodie from skirts to two-piece sets.
 - Corrected Jade from a knit top to a maxi kaftan and Olympia to an eyelet romper.
+- Corrected Aster from trousers to an eyelet two-piece set.
+- Corrected Tallulah from a pleated skirt to a halter mini dress.
 - Split the grouped Venus, Flora, Indie and Jade colour/print variants into 13 independent active products, each with a unique name, one colour and its own four-angle gallery.
 - Excluded the inactive Flora ivory reference; only the three colourways shown as active in the shop were published.
 - Preserved the original aggregate inventory for each split family while assigning positive stock to every new product.

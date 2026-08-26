@@ -5,7 +5,7 @@ Last updated: 2026-08-26
 ## Release rules
 
 - Preserve the 81 established products.
-- Preserve the 48 approved imported products in production.
+- Preserve the 68 approved imported products in production.
 - Keep every remaining imported product hidden until its full gallery passes review.
 - Required order: front, back, left profile, right profile.
 - Required output: 1600 x 1600 WebP, sRGB, AMB warm ivory background.
@@ -15,8 +15,8 @@ Last updated: 2026-08-26
 ## Current totals
 
 - Imported products: 135
-- Approved galleries: 48
-- Hidden products: 87
+- Approved galleries: 68
+- Hidden products: 67
 - Supplier products resolved: 134 / 135
 - Source packages recovered: 81
 - Valid source images: 469
@@ -101,7 +101,7 @@ Last updated: 2026-08-26
 
 ## Approved release — 2026-08-26
 
-This release now contains 29 individual reviewed galleries from 20 supplier designs. Grouped active colour and print variants were separated without changing each source family's aggregate inventory:
+The two 2026-08-26 releases now contain 49 individual reviewed galleries. Grouped active colour and print variants were separated without changing each source family's aggregate inventory:
 
 - Sets: Natasha, Venus Black, Vela Ivory, Gloria and Elodie.
 - Dresses and kaftans: Flora Meadow, Camelia Blush, Azura Sky, Nola, Ursula, Opal, Jade Tiger, Rio Mosaic, Solara Sunset, Leona Leopard, Orla, Jules, Lyra and Xiomara.
@@ -110,6 +110,14 @@ This release now contains 29 individual reviewed galleries from 20 supplier desi
 - Playsuit: Olympia.
 - Fern remains hidden because its gallery did not pass the final visual review.
 - Flora Ivory remains excluded because that colourway is not active in the shop.
+
+The second reviewed release adds exactly 20 independent products:
+
+- Skirts: Tamsin, Petra, Reina, Fleur, Ulla, Zelda and Ximena.
+- Dresses: Gaia, Fia, Zinnia, Ines, Aria and Tallulah.
+- Shorts: Remi, Honor, Wisteria, Sol, Elara and Daria.
+- Set: Aster.
+- Aster is corrected to an eyelet two-piece set and Tallulah to a halter mini dress.
 
 ## Production order
 

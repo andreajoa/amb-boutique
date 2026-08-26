@@ -3431,7 +3431,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/tamsin-maxi-skirt/01.webp"
+      "/products/tamsin-maxi-skirt/front.webp",
+      "/products/tamsin-maxi-skirt/back.webp",
+      "/products/tamsin-maxi-skirt/left.webp",
+      "/products/tamsin-maxi-skirt/right.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
@@ -3465,7 +3468,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/petra-maxi-skirt/01.webp"
+      "/products/petra-maxi-skirt/front.webp",
+      "/products/petra-maxi-skirt/back.webp",
+      "/products/petra-maxi-skirt/left.webp",
+      "/products/petra-maxi-skirt/right.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
@@ -3605,7 +3611,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Lightweight chiffon with a fluid, airy drape.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/reina-maxi-skirt/01.webp"
+      "/products/reina-maxi-skirt/front.webp",
+      "/products/reina-maxi-skirt/back.webp",
+      "/products/reina-maxi-skirt/left.webp",
+      "/products/reina-maxi-skirt/right.webp"
     ],
     "stock": 50,
     "weightOz": 8.47,
@@ -3639,7 +3648,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/fleur-maxi-skirt/01.webp"
+      "/products/fleur-maxi-skirt/front.webp",
+      "/products/fleur-maxi-skirt/back.webp",
+      "/products/fleur-maxi-skirt/left.webp",
+      "/products/fleur-maxi-skirt/right.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
@@ -3672,8 +3684,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/ulla-maxi-skirt/01.webp",
-      "/products/ulla-maxi-skirt/02.webp"
+      "/products/ulla-maxi-skirt/front.webp",
+      "/products/ulla-maxi-skirt/back.webp",
+      "/products/ulla-maxi-skirt/left.webp",
+      "/products/ulla-maxi-skirt/right.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
@@ -3707,8 +3721,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/zelda-maxi-skirt/01.webp",
-      "/products/zelda-maxi-skirt/02.webp"
+      "/products/zelda-maxi-skirt/front.webp",
+      "/products/zelda-maxi-skirt/back.webp",
+      "/products/zelda-maxi-skirt/left.webp",
+      "/products/zelda-maxi-skirt/right.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
@@ -3741,7 +3757,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/ximena-maxi-skirt/01.webp"
+      "/products/ximena-maxi-skirt/front.webp",
+      "/products/ximena-maxi-skirt/back.webp",
+      "/products/ximena-maxi-skirt/left.webp",
+      "/products/ximena-maxi-skirt/right.webp"
     ],
     "stock": 9999,
     "weightOz": 10.58,
@@ -4098,7 +4117,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/gaia-midi-dress/01.webp"
+      "/products/gaia-midi-dress/front.webp",
+      "/products/gaia-midi-dress/back.webp",
+      "/products/gaia-midi-dress/left.webp",
+      "/products/gaia-midi-dress/right.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
@@ -4132,8 +4154,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/fia-midi-dress/01.webp",
-      "/products/fia-midi-dress/02.webp"
+      "/products/fia-midi-dress/front.webp",
+      "/products/fia-midi-dress/back.webp",
+      "/products/fia-midi-dress/left.webp",
+      "/products/fia-midi-dress/right.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
@@ -4166,7 +4190,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/zinnia-midi-dress/01.webp"
+      "/products/zinnia-midi-dress/front.webp",
+      "/products/zinnia-midi-dress/back.webp",
+      "/products/zinnia-midi-dress/left.webp",
+      "/products/zinnia-midi-dress/right.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
@@ -4200,7 +4227,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/ines-midi-dress/01.webp"
+      "/products/ines-midi-dress/front.webp",
+      "/products/ines-midi-dress/back.webp",
+      "/products/ines-midi-dress/left.webp",
+      "/products/ines-midi-dress/right.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
@@ -4234,7 +4264,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/aria-midi-dress/01.webp"
+      "/products/aria-midi-dress/front.webp",
+      "/products/aria-midi-dress/back.webp",
+      "/products/aria-midi-dress/left.webp",
+      "/products/aria-midi-dress/right.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
@@ -4897,10 +4930,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/remi-denim-shorts/01.webp",
-      "/products/remi-denim-shorts/02.webp",
-      "/products/remi-denim-shorts/03.webp",
-      "/products/remi-denim-shorts/04.webp"
+      "/products/remi-denim-shorts/front.webp",
+      "/products/remi-denim-shorts/back.webp",
+      "/products/remi-denim-shorts/left.webp",
+      "/products/remi-denim-shorts/right.webp"
     ],
     "stock": 46,
     "weightOz": 8.11,
@@ -4934,8 +4967,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/honor-denim-shorts/01.webp",
-      "/products/honor-denim-shorts/02.webp"
+      "/products/honor-denim-shorts/front.webp",
+      "/products/honor-denim-shorts/back.webp",
+      "/products/honor-denim-shorts/left.webp",
+      "/products/honor-denim-shorts/right.webp"
     ],
     "stock": 955,
     "weightOz": 12.17,
@@ -5005,8 +5040,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/wisteria-denim-shorts/01.webp",
-      "/products/wisteria-denim-shorts/02.webp"
+      "/products/wisteria-denim-shorts/front.webp",
+      "/products/wisteria-denim-shorts/back.webp",
+      "/products/wisteria-denim-shorts/left.webp",
+      "/products/wisteria-denim-shorts/right.webp"
     ],
     "stock": 116,
     "weightOz": 8.64,
@@ -5147,7 +5184,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/sol-denim-shorts/01.webp"
+      "/products/sol-denim-shorts/front.webp",
+      "/products/sol-denim-shorts/back.webp",
+      "/products/sol-denim-shorts/left.webp",
+      "/products/sol-denim-shorts/right.webp"
     ],
     "stock": 2900,
     "weightOz": 8.22,
@@ -5181,7 +5221,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/elara-denim-shorts/01.webp"
+      "/products/elara-denim-shorts/front.webp",
+      "/products/elara-denim-shorts/back.webp",
+      "/products/elara-denim-shorts/left.webp",
+      "/products/elara-denim-shorts/right.webp"
     ],
     "stock": 2900,
     "weightOz": 8.22,
@@ -5215,7 +5258,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/daria-denim-shorts/01.webp"
+      "/products/daria-denim-shorts/front.webp",
+      "/products/daria-denim-shorts/back.webp",
+      "/products/daria-denim-shorts/left.webp",
+      "/products/daria-denim-shorts/right.webp"
     ],
     "stock": 2900,
     "weightOz": 8.22,
@@ -5372,9 +5418,9 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "tallulah-pleated-skirt",
-    "name": "Tallulah Pleated Skirt",
+    "name": "Tallulah Halter Mini Dress",
     "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
+    "category": "Dresses",
     "price": 58,
     "compareAt": 75,
     "sheet": "two",
@@ -5390,11 +5436,14 @@ const allGeneratedProducts: Product[] = [
       "M",
       "L"
     ],
-    "description": "Tallulah Pleated Skirt is the AMB take on the modern pleated skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
+    "description": "Tallulah Halter Mini Dress pairs a softly draped halter neckline with an open back, tie-neck bow, ruched bodice and double-layer flared skirt. The fluid black silhouette is made for dinners, parties and polished evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "materials": "Smooth lightweight fabric with a softly fluid drape.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/tallulah-pleated-skirt/01.webp"
+      "/products/tallulah-pleated-skirt/front.webp",
+      "/products/tallulah-pleated-skirt/back.webp",
+      "/products/tallulah-pleated-skirt/left.webp",
+      "/products/tallulah-pleated-skirt/right.webp"
     ],
     "stock": 3200,
     "weightOz": 12.52,
@@ -5570,9 +5619,9 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "aster-trousers",
-    "name": "Aster Trousers",
+    "name": "Aster Eyelet Two-Piece Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
+    "category": "Sets",
     "price": 62,
     "compareAt": 80,
     "sheet": "two",
@@ -5590,11 +5639,14 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Aster Trousers is the AMB take on the modern trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
+    "description": "Aster Eyelet Two-Piece Set pairs a sleeveless collared button-front top with matching wide-leg trousers in blush floral eyelet lace. Scalloped edges and airy cutwork give the coordinated silhouette a polished warm-weather finish. Curated in San Diego for a polished, feminine wardrobe.",
+    "materials": "Floral eyelet lace with softly scalloped edges.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/aster-trousers/01.webp"
+      "/products/aster-trousers/front.webp",
+      "/products/aster-trousers/back.webp",
+      "/products/aster-trousers/left.webp",
+      "/products/aster-trousers/right.webp"
     ],
     "stock": 9999,
     "weightOz": 12.7,
@@ -7648,6 +7700,26 @@ export const approvedNewProductSlugs = new Set<string>([
   "jules-maxi-dress",
   "lyra-mini-dress",
   "xiomara-mini-dress",
+  "tamsin-maxi-skirt",
+  "petra-maxi-skirt",
+  "reina-maxi-skirt",
+  "fleur-maxi-skirt",
+  "ulla-maxi-skirt",
+  "zelda-maxi-skirt",
+  "ximena-maxi-skirt",
+  "gaia-midi-dress",
+  "fia-midi-dress",
+  "zinnia-midi-dress",
+  "ines-midi-dress",
+  "aria-midi-dress",
+  "remi-denim-shorts",
+  "honor-denim-shorts",
+  "wisteria-denim-shorts",
+  "sol-denim-shorts",
+  "elara-denim-shorts",
+  "daria-denim-shorts",
+  "aster-trousers",
+  "tallulah-pleated-skirt",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(
