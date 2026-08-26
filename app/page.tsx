@@ -1,11 +1,13 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Footer, Header, ProductCard } from "./components";
 import { products } from "./data";
 import { NewsletterForm } from "./newsletter-form";
 import { HeroCarousel } from "./hero-carousel";
 import { PersonalizedProducts } from "./personalized-products";
 import { EditorialStackMotion } from "./editorial-stack-motion";
-import { EditorialHorizontal } from "./editorial-horizontal";
+import { EditorialHorizontal, type EditorialLook } from "./editorial-horizontal";
+import { storefrontReadyProducts } from "./storefront-products";
 
 const collections = [
   { title: "Dresses", subtitle: "Made for every plan", image: "category-one q1", href: "/collections/dresses" },
@@ -15,17 +17,29 @@ const collections = [
 
 export default function Home() {
   const finishingTouches = products.filter((product) => product.category === "Bags" || product.category === "Shoes").slice(0, 4);
+  const bySlug = (slug: string) => storefrontReadyProducts.find((product) => product.slug === slug);
+  const editorialCopy = [
+    ["calla-maxi-dress", "AFTER DARK", "A graceful black silhouette with movement made for luminous evenings."],
+    ["mira-wide-leg-trousers", "THE SOFT STATEMENT", "Modern tailoring in pink, designed to work beautifully together or apart."],
+    ["xyla-wide-leg-trousers", "CONFIDENT COLOR", "A vivid red two-piece that turns clean lines into an effortless statement."],
+    ["ivy-wide-leg-trousers", "SUNLIT EASE", "Airy eyelet texture and a relaxed shape for polished warm-weather dressing."],
+  ] as const;
+  const editorialLooks = editorialCopy.flatMap(([slug, eyebrow, copy]) => {
+    const product = bySlug(slug);
+    return product?.images?.[0] ? [{ slug, name: product.name, image: product.images[0], eyebrow, copy } satisfies EditorialLook] : [];
+  });
+  const featureProduct = bySlug("calla-maxi-dress");
 
   return (
     <main>
       <Header />
       <HeroCarousel />
 
-      <section className="statement-strip" data-reveal><p>New season, new perspective.</p><span>Curated in San Diego · Designed for wherever life takes you.</span><Link href="/collections">Discover the Edit</Link></section>
+      <section className="statement-strip" data-reveal><p className="rotating-copy" aria-label="New season, new perspective, confidence and expression"><span>New season, new</span><span className="rotating-window" aria-hidden="true"><span className="rotating-track"><span>perspective.</span><span>confidence.</span><span>expression.</span><span>perspective.</span></span></span></p><span>Curated in San Diego · Designed for wherever life takes you.</span><Link href="/collections">Discover the Edit</Link></section>
 
       <section className="section shell" data-reveal>
         <div className="section-heading"><div><p>CURATED FOR YOU</p><h2>Your AMB Edit</h2></div><Link href="/collections">View all</Link></div>
-        <PersonalizedProducts catalog={products}/>
+        <PersonalizedProducts catalog={storefrontReadyProducts}/>
       </section>
 
       <section className="collection-tiles shell" data-reveal>
@@ -36,11 +50,11 @@ export default function Home() {
         <div><p>THE COASTAL WARDROBE</p><h2>Sunlit in San Diego</h2><span>Soft tailoring, fluid dresses and understated accessories inspired by golden-hour days.</span><Link className="button dark" href="/collections">Shop the Story</Link></div>
       </section>
 
-      <EditorialHorizontal />
+      <EditorialHorizontal looks={editorialLooks} />
 
       <section className="section shell" data-reveal>
         <div className="section-heading centered"><div><p>FRESHLY CURATED</p><h2>Just Arrived</h2></div></div>
-        <div className="product-row">{products.slice(4, 8).map((p) => <ProductCard key={p.slug} product={p} compact />)}</div>
+        <div className="product-row">{storefrontReadyProducts.slice(0, 4).map((p) => <ProductCard key={p.slug} product={p} compact />)}</div>
       </section>
 
       {finishingTouches.length > 0 && <section className="section shell" data-reveal>
@@ -61,10 +75,10 @@ export default function Home() {
 
       <div className="editorial-stack">
         <EditorialStackMotion />
-        <section className="feature-split stack-panel">
-          <div className="feature-copy"><p>THE AMB FAVORITE</p><h2>Selene Satin Maxi Dress</h2><span>A fluid silhouette with a softly draped neckline, selected for luminous evenings and effortless entrances.</span><strong>$118</strong><Link className="button dark" href="/products/selene-satin-maxi-dress">View the Dress</Link></div>
-          <div className="feature-image" style={{ backgroundImage: "url(/products/selene-satin-maxi-dress/01.webp)", backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundColor: "#f5f3ef" }} role="img" aria-label="Selene Satin Maxi Dress by AMB BOUTIQUE" />
-        </section>
+        {featureProduct?.images?.[0] && <section className="feature-split stack-panel">
+          <div className="feature-copy"><p>THE AMB FAVORITE</p><h2>{featureProduct.name}</h2><span>A graceful black silhouette with considered movement, selected for polished evenings and effortless entrances.</span><strong>${featureProduct.price}</strong><Link className="button dark" href={`/products/${featureProduct.slug}`}>View the Dress</Link></div>
+          <div className="feature-image"><Image src={featureProduct.images[0]} alt={`${featureProduct.name} by AMB BOUTIQUE`} fill sizes="(max-width: 900px) 100vw, 50vw" /></div>
+        </section>}
 
         <div className="stack-panel founder-panel">
           <section className="founder section shell">
