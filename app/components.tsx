@@ -7,6 +7,7 @@ import { Product } from "./data";
 import { MarketCode, marketCodes, markets, US_FREE_SHIPPING_THRESHOLD_USD } from "./commerce";
 import { useStore } from "./store-provider";
 import { NewsletterForm } from "./newsletter-form";
+import { PaymentMarks } from "./payment-marks";
 
 const SHOE_ATLAS_PRODUCT_COUNT = 27;
 
@@ -208,7 +209,7 @@ export function Footer() {
         <div><h3>About & Legal</h3><Link href="/about">Our Story</Link><Link href="/journal">Journal</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link><Link href="/cookies">Cookie Preferences</Link><Link href="/accessibility">Accessibility</Link></div>
         <div><h3>Stay in the know</h3><p>New arrivals, private offers and notes from San Diego.</p><NewsletterForm compact/><a href="mailto:info@ambboutique.online">info@ambboutique.online</a></div>
       </div>
-      <div className="footer-bottom shell"><span>© 2026 AMB BOUTIQUE</span><span>USD · CAD · GBP · AUD · NZD</span><span>Visa · Mastercard · Amex · Apple Pay</span></div>
+      <div className="footer-bottom shell"><span>© 2026 AMB BOUTIQUE</span><span>USD · CAD · GBP · AUD · NZD</span><span><PaymentMarks compact/></span></div>
     </footer>
   );
 }
