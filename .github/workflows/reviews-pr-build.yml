@@ -1,9 +1,9 @@
 name: Reviews PR Build Check
 
 on:
-  push:
+  pull_request:
     branches:
-      - feat/product-reviews-trust
+      - main
 
 jobs:
   build:
