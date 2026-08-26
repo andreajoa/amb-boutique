@@ -9,6 +9,16 @@ export const dynamic = "force-dynamic";
 
 const cleanText = (value: unknown, max: number) => typeof value === "string" ? value.trim().slice(0, max) : "";
 
+type PublicReviewRow = {
+  id: number | string;
+  customer_name: string;
+  rating: number | string;
+  review_body: string;
+  created_at: string | Date;
+};
+
+type CountRow = { count: number | string };
+
 function requestIpHash(request: NextRequest) {
   const ip = cleanText(request.headers.get("x-forwarded-for")?.split(",")[0], 80);
   const salt = process.env.ANALYTICS_HASH_SALT || process.env.DASHBOARD_SESSION_SECRET || "";
@@ -29,7 +39,7 @@ export async function GET(request: NextRequest) {
     WHERE product_slug = ${slug} AND status = 'approved'
     ORDER BY created_at DESC
     LIMIT 50
-  `;
+  ` as unknown as PublicReviewRow[];
   const count = rows.length;
   const average = count ? rows.reduce((sum, row) => sum + Number(row.rating || 0), 0) / count : 0;
 
@@ -42,7 +52,7 @@ export async function GET(request: NextRequest) {
       customerName: String(row.customer_name),
       rating: Number(row.rating),
       body: String(row.review_body),
-      createdAt: new Date(String(row.created_at)).toISOString(),
+      createdAt: new Date(row.created_at).toISOString(),
     })),
   });
 }
@@ -81,7 +91,7 @@ export async function POST(request: NextRequest) {
       SELECT count(*) AS count
       FROM amb_product_reviews
       WHERE ip_hash = ${ipHash} AND created_at > now() - interval '24 hours'
-    `;
+    ` as unknown as CountRow[];
     if (Number(recent[0]?.count || 0) >= 5) {
       return NextResponse.json({ error: "Too many recent review submissions. Please try again later." }, { status: 429 });
     }
