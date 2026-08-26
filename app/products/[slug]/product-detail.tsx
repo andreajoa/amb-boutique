@@ -10,6 +10,8 @@ import { SizeFinder } from "../../size-finder";
 import { ShoeSizeGuide } from "../../shoe-size-guide";
 import { createCompleteLook } from "../../recommendations";
 import { StyleMatches } from "../../style-matches";
+import { ProductReviews } from "../../product-reviews";
+import { PaymentMarks } from "../../payment-marks";
 
 const defaultSizes = ["2", "4", "6", "8", "10", "12"];
 const defaultColors = [
@@ -139,7 +141,7 @@ export default function ProductDetail({
           <button className="add-button" type="button" onClick={addToBag}>Add to Bag · {formatMoney(product.price * quantity)}</button>
           <button className="buy-button" type="button" onClick={() => void buyNow(product, { size, color: color.name, quantity, heelHeightCm: isShoe ? (heelHeightCm ?? product.heelHeightCm) : undefined })}>Buy Now</button>
 
-          <div className="secure-box"><strong>Secure checkout</strong><span>Amex&nbsp;&nbsp; Apple Pay&nbsp;&nbsp; Mastercard&nbsp;&nbsp; Visa</span></div>
+          <div className="secure-box"><strong>Secure checkout</strong><span>Encrypted payment processing · Powered by Stripe</span><PaymentMarks /></div>
           <div className="product-accordions">
             <details open><summary>Details</summary><p>{product.materials || "Designed for repeat wear with a timeless silhouette, thoughtful seaming and an easy feel."}</p></details>
             <details><summary>Size & Fit</summary>{isShoe ? <ShoeSizeGuide compact/> : <p>Use the available sizes and garment measurements shown for this product. Our size guide includes US, CA, UK, AU and NZ conversions.</p>}</details>
@@ -150,6 +152,7 @@ export default function ProductDetail({
         </section>
       </div>
 
+      <ProductReviews product={product}/>
       <StyleMatches product={product} catalog={products}/>
 
       {completeLook.length > 0 && <section className="section shell product-recommendations" data-reveal><div className="section-heading centered"><div><p>SELECTED FOR THIS LOOK</p><h2>Complete the Look</h2></div></div><div className="product-row">{completeLook.map((item) => <ProductCard key={item.slug} product={item} compact />)}</div></section>}
