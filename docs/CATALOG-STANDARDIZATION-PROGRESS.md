@@ -4,19 +4,19 @@ Last updated: 2026-08-26
 
 ## Scope
 
-- Active products in the imported batch: 126
+- Active products in the imported batch: 135
 - Product bases: 73 (72 supplier bases plus Seraphina)
-- Required final gallery images: 504
+- Required final gallery images: 540
 - Final image order: front, back, left profile, right profile
 - Final format: 1600 × 1600 WebP, sRGB, warm ivory AMB studio background
 
 ## Current progress
 
-- Published imported galleries: 39 / 126
-- Hidden imported products awaiting approval: 87 / 126
-- Integrated final images: 156 / 504
-- Supplier identity resolved: 125 / 126
-- Production build: passing (222 pages)
+- Published imported galleries: 48 / 135
+- Hidden imported products awaiting approval: 87 / 135
+- Integrated final images: 192 / 540
+- Supplier identity resolved: 134 / 135
+- Production build: passing (231 pages)
 
 ## Completed galleries
 
@@ -39,20 +39,29 @@ Twelve reviewed galleries were restored without changing their catalogue invento
 | Product | Category | Colour | Status |
 | --- | --- | --- | --- |
 | Natasha Tailored Two-Piece Set | Sets | Ivory | Approved and integrated |
-| Venus Tailored Two-Piece Set | Sets | Black / Ivory | Approved and integrated |
-| Flora Pleated Dress | Dresses | Green / Pink / Blue Floral | Approved and integrated |
+| Venus Tailored Two-Piece Set | Sets | Black | Approved and integrated |
+| Vela Ivory Tailored Two-Piece Set | Sets | Ivory | Approved and integrated |
+| Flora Meadow Iris Pleated Maxi Dress | Dresses | Meadow Green Iris | Approved and integrated |
+| Camelia Blush Iris Pleated Maxi Dress | Dresses | Blush Iris | Approved and integrated |
+| Azura Sky Iris Pleated Maxi Dress | Dresses | Sky Blue Iris | Approved and integrated |
 | Nola A-Line Dress | Dresses | White Floral | Approved and integrated |
 | Gloria Draped Two-Piece Set | Sets | Champagne | Approved and integrated |
 | Ursula Botanical Maxi Dress | Dresses | Beige | Approved and integrated |
 | Opal Botanical One-Shoulder Mini Dress | Dresses | White Botanical | Approved and integrated |
-| Indie Tank Top | Tops | Sky Blue / White / Black / Grey | Approved and integrated |
+| Indie Sky Ribbed Tank Top | Tops | Sky Blue | Approved and integrated |
+| Lumi Pearl Ribbed Tank Top | Tops | Pearl White | Approved and integrated |
+| Nox Black Ribbed Tank Top | Tops | Black | Approved and integrated |
+| Mist Slate Ribbed Tank Top | Tops | Heather Grey | Approved and integrated |
 | Leia Denim Shorts | Shorts | Light Blue | Approved and integrated |
 | Kenza Denim Shorts | Shorts | Light Blue | Approved and integrated |
 | Briar Denim Shorts | Shorts | Light Blue | Approved and integrated |
 | Paloma Denim Shorts | Shorts | Light Blue | Approved and integrated |
 | Yvette Denim Shorts | Shorts | Light Blue | Approved and integrated |
 | Olympia Eyelet Romper | Playsuits | White | Approved and integrated |
-| Jade Print Maxi Kaftan | Dresses | Tiger / Multicolor / Floral / Leopard | Approved and integrated |
+| Jade Tiger Maxi Kaftan | Dresses | Tiger Stripe | Approved and integrated |
+| Rio Mosaic Maxi Kaftan | Dresses | Multicolor Mosaic | Approved and integrated |
+| Solara Sunset Maxi Kaftan | Dresses | Coral Sunset | Approved and integrated |
+| Leona Leopard Maxi Kaftan | Dresses | Brown Leopard | Approved and integrated |
 | Orla Sheer Maxi Kaftan | Dresses | Charcoal | Approved and integrated |
 | Elodie Ruched Two-Piece Set | Sets | Pink | Approved and integrated |
 | Jules Maxi Dress | Dresses | Olive | Approved and integrated |
@@ -69,6 +78,9 @@ Twelve reviewed galleries were restored without changing their catalogue invento
 - Replaced generic copy for the corrected sets with source-faithful descriptions.
 - Corrected Gloria and Elodie from skirts to two-piece sets.
 - Corrected Jade from a knit top to a maxi kaftan and Olympia to an eyelet romper.
+- Split the grouped Venus, Flora, Indie and Jade colour/print variants into 13 independent active products, each with a unique name, one colour and its own four-angle gallery.
+- Excluded the inactive Flora ivory reference; only the three colourways shown as active in the shop were published.
+- Preserved the original aggregate inventory for each split family while assigning positive stock to every new product.
 - Kept Fern hidden after visual review found that its gallery was not ready for publication.
 - Kept exact fibre composition tied to the garment label where the supplier export does not provide it.
 

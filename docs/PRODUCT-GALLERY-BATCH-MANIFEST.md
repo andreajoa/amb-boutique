@@ -5,7 +5,7 @@ Last updated: 2026-08-26
 ## Release rules
 
 - Preserve the 81 established products.
-- Preserve the 39 approved imported products in production.
+- Preserve the 48 approved imported products in production.
 - Keep every remaining imported product hidden until its full gallery passes review.
 - Required order: front, back, left profile, right profile.
 - Required output: 1600 x 1600 WebP, sRGB, AMB warm ivory background.
@@ -14,10 +14,10 @@ Last updated: 2026-08-26
 
 ## Current totals
 
-- Imported products: 126
-- Approved galleries: 39
+- Imported products: 135
+- Approved galleries: 48
 - Hidden products: 87
-- Supplier products resolved: 125 / 126
+- Supplier products resolved: 134 / 135
 - Source packages recovered: 81
 - Valid source images: 469
 - Real angular views: 158
@@ -101,14 +101,15 @@ Last updated: 2026-08-26
 
 ## Approved release — 2026-08-26
 
-This release adds 20 reviewed galleries while leaving inventory values unchanged:
+This release now contains 29 individual reviewed galleries from 20 supplier designs. Grouped active colour and print variants were separated without changing each source family's aggregate inventory:
 
-- Sets: Natasha, Venus, Gloria and Elodie.
-- Dresses and kaftans: Flora, Nola, Ursula, Opal, Jade, Orla, Jules, Lyra and Xiomara.
+- Sets: Natasha, Venus Black, Vela Ivory, Gloria and Elodie.
+- Dresses and kaftans: Flora Meadow, Camelia Blush, Azura Sky, Nola, Ursula, Opal, Jade Tiger, Rio Mosaic, Solara Sunset, Leona Leopard, Orla, Jules, Lyra and Xiomara.
 - Shorts: Leia, Kenza, Briar, Paloma and Yvette.
-- Top: Indie.
+- Tops: Indie Sky, Lumi Pearl, Nox Black and Mist Slate.
 - Playsuit: Olympia.
 - Fern remains hidden because its gallery did not pass the final visual review.
+- Flora Ivory remains excluded because that colourway is not active in the shop.
 
 ## Production order
 
