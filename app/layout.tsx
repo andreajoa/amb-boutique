@@ -7,10 +7,26 @@ import { StructuredData } from "./structured-data";
 import { ScrollReveal } from "./scroll-reveal";
 import { MarketingPopup } from "./marketing-popup";
 import { AnalyticsTracker } from "./analytics-tracker";
+import { products, type Product } from "./data";
+import { PremiumInteractions } from "./premium-interactions";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ambboutique.online";
 const defaultTitle = "AMB BOUTIQUE | Women’s Dresses, Rompers & Fashion";
 const defaultDescription = "Shop women’s dresses, rompers, skirts, tops, knitwear, bags and heels curated in San Diego. Delivery to the US, Canada, UK, Australia & New Zealand.";
+
+function getStoreCatalog(): Product[] {
+  return products.map((product) => {
+    const storeProduct = { ...product };
+    delete storeProduct.description;
+    delete storeProduct.materials;
+    delete storeProduct.care;
+    delete storeProduct.garmentMeasurements;
+    delete storeProduct.stripePriceId;
+    delete storeProduct.vendor;
+    delete storeProduct.weightOz;
+    return storeProduct;
+  });
+}
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -82,7 +98,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body><StructuredData/><StoreProvider>{children}<AnalyticsTracker/><ScrollReveal/><CookieConsent/><MarketingPopup/></StoreProvider></body>
+      <body><StructuredData/><StoreProvider catalog={getStoreCatalog()}>{children}<AnalyticsTracker/><ScrollReveal/><PremiumInteractions/><CookieConsent/><MarketingPopup/></StoreProvider></body>
     </html>
   );
 }

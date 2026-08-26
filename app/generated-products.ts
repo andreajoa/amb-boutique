@@ -7280,7 +7280,7 @@ const allGeneratedProducts: Product[] = [
 // 2026-08-23 import. Keep every one of them available. Products from the new
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
-const approvedNewProductSlugs = new Set([
+export const approvedNewProductSlugs = new Set<string>([
   "calla-maxi-dress",
   "talia-wide-leg-trousers",
   "mira-wide-leg-trousers",
