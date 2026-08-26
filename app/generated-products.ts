@@ -3179,10 +3179,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/natasha-wide-leg-trousers/01.webp",
-      "/products/natasha-wide-leg-trousers/02.webp",
-      "/products/natasha-wide-leg-trousers/03.webp",
-      "/products/natasha-wide-leg-trousers/04.webp"
+      "/products/natasha-wide-leg-trousers/front.webp",
+      "/products/natasha-wide-leg-trousers/back.webp",
+      "/products/natasha-wide-leg-trousers/left.webp",
+      "/products/natasha-wide-leg-trousers/right.webp"
     ],
     "stock": 26,
     "weightOz": 8.85,
