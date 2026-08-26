@@ -3156,18 +3156,18 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "natasha-wide-leg-trousers",
-    "name": "Natasha Wide-Leg Trousers",
+    "name": "Natasha Tailored Two-Piece Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
+    "category": "Sets",
     "price": 62,
     "compareAt": 80,
     "sheet": "one",
     "quadrant": 3,
     "colors": [
-      "#d5c4a1"
+      "#f4f1ea"
     ],
     "colorNames": [
-      "Natural"
+      "Ivory"
     ],
     "sizes": [
       "XS",
@@ -3175,7 +3175,7 @@ const allGeneratedProducts: Product[] = [
       "M",
       "L"
     ],
-    "description": "Natasha Wide-Leg Trousers is the AMB take on the modern wide-leg trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Natasha Tailored Two-Piece Set pairs a sculpted sleeveless vest with fluid wide-leg trousers in soft ivory. Wear the pieces together for a polished statement or separately across workdays, dinners and warm-weather occasions.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -3192,25 +3192,27 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "venus-trousers",
-    "name": "Venus Trousers",
+    "name": "Venus Tailored Two-Piece Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
+    "category": "Sets",
     "price": 62,
     "compareAt": 80,
     "sheet": "two",
     "quadrant": 4,
     "colors": [
-      "#d5c4a1"
+      "#171717",
+      "#f4f1ea"
     ],
     "colorNames": [
-      "Natural"
+      "Black",
+      "Ivory"
     ],
     "sizes": [
       "S",
       "M",
       "L"
     ],
-    "description": "Venus Trousers is the AMB take on the modern trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Venus Tailored Two-Piece Set combines a fitted button-front vest with sweeping wide-leg trousers. Available in black and ivory, it creates a confident day-to-evening silhouette with versatile separates.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -3235,10 +3237,14 @@ const allGeneratedProducts: Product[] = [
     "sheet": "one",
     "quadrant": 1,
     "colors": [
-      "#d5c4a1"
+      "#cbd68f",
+      "#d9a5b5",
+      "#9fc8d7"
     ],
     "colorNames": [
-      "Natural"
+      "Green Floral",
+      "Pink Floral",
+      "Blue Floral"
     ],
     "sizes": [
       "S",
@@ -3247,7 +3253,7 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Flora Pleated Dress is the AMB take on the modern pleated dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Flora Pleated Dress features a fitted square neckline and a flowing floral maxi skirt with graceful movement. Its garden-inspired colourways bring an effortless statement to vacations, brunches and warm evening plans.",
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -3271,17 +3277,17 @@ const allGeneratedProducts: Product[] = [
     "sheet": "two",
     "quadrant": 2,
     "colors": [
-      "#d5c4a1"
+      "#f3efe5"
     ],
     "colorNames": [
-      "Natural"
+      "White Floral"
     ],
     "sizes": [
       "S",
       "M",
       "L"
     ],
-    "description": "Nola A-Line Dress is the AMB take on the modern a-line dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Nola A-Line Dress balances a fitted floral bodice with a softly flared midi skirt. Light, feminine and easy to style, it is made for garden occasions, destination dinners and sunlit weekends.",
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -3929,18 +3935,18 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "gloria-maxi-skirt",
-    "name": "Gloria Maxi Skirt",
+    "name": "Gloria Draped Two-Piece Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
+    "category": "Sets",
     "price": 58,
     "compareAt": 75,
     "sheet": "one",
     "quadrant": 1,
     "colors": [
-      "#d5c4a1"
+      "#c8ae82"
     ],
     "colorNames": [
-      "Natural"
+      "Champagne"
     ],
     "sizes": [
       "S",
@@ -3948,7 +3954,7 @@ const allGeneratedProducts: Product[] = [
       "L",
       "XL"
     ],
-    "description": "Gloria Maxi Skirt is the AMB take on the modern maxi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Gloria Draped Two-Piece Set pairs an asymmetric cropped top with a fluid champagne maxi skirt. The coordinated silhouette is designed for resort evenings, celebrations and elevated summer styling.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -4308,9 +4314,9 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "fern-trousers",
-    "name": "Fern Trousers",
+    "name": "Fern Tailored Two-Piece Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
+    "category": "Sets",
     "price": 62,
     "compareAt": 80,
     "sheet": "two",
@@ -4328,7 +4334,7 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Fern Trousers is the AMB take on the modern trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Fern Tailored Two-Piece Set brings together a longline sleeveless blazer and sharply flared trousers in vivid red. Clean tailoring and statement colour make it a confident occasion-ready look.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -4381,7 +4387,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "opal-mini-dress",
-    "name": "Opal Mini Dress",
+    "name": "Opal Botanical One-Shoulder Mini Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -4389,10 +4395,10 @@ const allGeneratedProducts: Product[] = [
     "sheet": "two",
     "quadrant": 2,
     "colors": [
-      "#4a7c59"
+      "#f2eee5"
     ],
     "colorNames": [
-      "Green"
+      "White Botanical"
     ],
     "sizes": [
       "S",
@@ -4401,7 +4407,7 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Opal Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Opal Botanical One-Shoulder Mini Dress combines an asymmetric neckline, a fluid draped sleeve and a refined botanical border print. A distinctive choice for resort dinners and summer celebrations.",
     "materials": "Lustrous satin fabric with a smooth, refined finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -4590,10 +4596,16 @@ const allGeneratedProducts: Product[] = [
     "sheet": "two",
     "quadrant": 4,
     "colors": [
-      "#d5c4a1"
+      "#9dc9ea",
+      "#f3f1ec",
+      "#171717",
+      "#9c9c9c"
     ],
     "colorNames": [
-      "Natural"
+      "Sky Blue",
+      "White",
+      "Black",
+      "Grey"
     ],
     "sizes": [
       "XS",
@@ -4602,7 +4614,7 @@ const allGeneratedProducts: Product[] = [
       "L",
       "XL"
     ],
-    "description": "Indie Tank Top is the AMB take on the modern tank top. A refined silhouette with thoughtful details that moves effortlessly for layering, lounging and everyday polish. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Indie Tank Top is a softly ribbed cropped essential with slim straps and a clean square neckline. Its easy stretch and versatile colour range make it ideal for layering and warm-weather dressing.",
     "materials": "Soft ribbed knit with gentle stretch for all-day comfort.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -4627,16 +4639,16 @@ const allGeneratedProducts: Product[] = [
     "sheet": "one",
     "quadrant": 1,
     "colors": [
-      "#d5c4a1"
+      "#a9c4d5"
     ],
     "colorNames": [
-      "Natural"
+      "Light Blue"
     ],
     "sizes": [
       "2XL",
       "3XL"
     ],
-    "description": "Leia Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Leia Denim Shorts feature a high waist, light-wash finish and raw distressed hems. The relaxed shape is designed for warm days, casual weekends and easy vacation styling.",
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -4744,7 +4756,7 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Kenza Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Kenza Denim Shorts feature a high-rise waist, light wash and distressed raw hem. Their clean shape and lived-in finish make them an easy foundation for warm-weather looks.",
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -4874,10 +4886,10 @@ const allGeneratedProducts: Product[] = [
     "sheet": "two",
     "quadrant": 4,
     "colors": [
-      "#d5c4a1"
+      "#a7c1d2"
     ],
     "colorNames": [
-      "Natural"
+      "Light Blue"
     ],
     "sizes": [
       "S",
@@ -4886,7 +4898,7 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Briar Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Briar Denim Shorts combine a high-rise fit with bold distressed panels and a frayed cutoff hem. A statement denim option for festival looks, beach days and relaxed summer outfits.",
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -5061,7 +5073,7 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Paloma Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Paloma Denim Shorts have a softly structured high rise, light-wash finish and gently distressed hem. The flattering everyday cut works with tanks, shirts and relaxed summer layers.",
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -5098,7 +5110,7 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Yvette Denim Shorts is the AMB take on the modern denim shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Yvette Denim Shorts offer a relaxed high-rise fit in a versatile medium-blue wash. Subtle distressing and a soft frayed hem give them an effortless weekend finish.",
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -5246,7 +5258,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "olympia-romper",
-    "name": "Olympia Romper",
+    "name": "Olympia Eyelet Romper",
     "vendor": "AMB BOUTIQUE",
     "category": "Playsuits",
     "price": 72,
@@ -5265,7 +5277,7 @@ const allGeneratedProducts: Product[] = [
       "L",
       "XL"
     ],
-    "description": "Olympia Romper is the AMB take on the modern romper. A refined silhouette with thoughtful details that moves effortlessly for weekends, getaways and one-and-done dressing. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Olympia Eyelet Romper combines a strapless fitted bodice with a softly flared short silhouette. The crisp white eyelet texture makes it a polished one-piece for vacations and sunlit occasions.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -5384,23 +5396,29 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "jade-knit-top",
-    "name": "Jade Knit Top",
+    "name": "Jade Print Maxi Kaftan",
     "vendor": "AMB BOUTIQUE",
-    "category": "Knitwear",
+    "category": "Dresses",
     "price": 68,
     "compareAt": 85,
     "sheet": "one",
     "quadrant": 3,
     "colors": [
-      "#d5c4a1"
+      "#b56a21",
+      "#52705c",
+      "#b75e43",
+      "#6b4a35"
     ],
     "colorNames": [
-      "Natural"
+      "Tiger",
+      "Multicolor",
+      "Floral",
+      "Leopard"
     ],
     "sizes": [
       "One size fits all"
     ],
-    "description": "Jade Knit Top is the AMB take on the modern knit top. A refined silhouette with thoughtful details that moves effortlessly for layered looks with texture and warmth. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Jade Print Maxi Kaftan is a relaxed statement layer with a sweeping full-length shape and expressive print options. Wear it over swimwear or style it for effortless resort evenings.",
     "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -5417,7 +5435,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "orla-dress",
-    "name": "Orla Dress",
+    "name": "Orla Sheer Maxi Kaftan",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -5425,15 +5443,15 @@ const allGeneratedProducts: Product[] = [
     "sheet": "two",
     "quadrant": 4,
     "colors": [
-      "#d5c4a1"
+      "#4b4a47"
     ],
     "colorNames": [
-      "Natural"
+      "Charcoal"
     ],
     "sizes": [
       "One Size"
     ],
-    "description": "Orla Dress is the AMB take on the modern dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Orla Sheer Maxi Kaftan has an airy open-front silhouette, wide sleeves and a deep charcoal finish. Designed as an elegant resort layer, it moves easily from poolside styling to sunset plans.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -6384,7 +6402,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "ursula-maxi-dress",
-    "name": "Ursula Maxi Dress",
+    "name": "Ursula Botanical Maxi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6392,7 +6410,7 @@ const allGeneratedProducts: Product[] = [
     "sheet": "two",
     "quadrant": 4,
     "colors": [
-      "#d5c4a1"
+      "#e6dcc7"
     ],
     "colorNames": [
       "Beige"
@@ -6403,7 +6421,7 @@ const allGeneratedProducts: Product[] = [
       "L",
       "XL"
     ],
-    "description": "Ursula Maxi Dress is the AMB take on the modern maxi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Ursula Botanical Maxi Dress features a relaxed V-neck silhouette, flowing sleeves and a graphic black leaf print on soft beige. An easy full-length option for travel, resort days and relaxed dinners.",
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -6557,9 +6575,9 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "elodie-maxi-skirt",
-    "name": "Elodie Maxi Skirt",
+    "name": "Elodie Ruched Two-Piece Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
+    "category": "Sets",
     "price": 58,
     "compareAt": 75,
     "sheet": "one",
@@ -6577,7 +6595,7 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Elodie Maxi Skirt is the AMB take on the modern maxi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Elodie Ruched Two-Piece Set pairs an asymmetric cropped top with a softly gathered pink maxi skirt. The coordinated silhouette creates an effortless statement for vacations and evening occasions.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -6744,17 +6762,17 @@ const allGeneratedProducts: Product[] = [
     "sheet": "two",
     "quadrant": 2,
     "colors": [
-      "#d5c4a1"
+      "#8b8b43"
     ],
     "colorNames": [
-      "Natural"
+      "Olive"
     ],
     "sizes": [
       "S",
       "M",
       "L"
     ],
-    "description": "Jules Maxi Dress is the AMB take on the modern maxi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Jules Maxi Dress features a sculpted halter neckline, dramatic cutouts and fluid draping in an olive finish. A confident full-length silhouette designed for destination evenings.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -6978,10 +6996,10 @@ const allGeneratedProducts: Product[] = [
     "sheet": "one",
     "quadrant": 1,
     "colors": [
-      "#d5c4a1"
+      "#d66e58"
     ],
     "colorNames": [
-      "Natural"
+      "Coral"
     ],
     "sizes": [
       "XS",
@@ -6991,7 +7009,7 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Lyra Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Lyra Mini Dress combines an asymmetric neckline, open back and softly ruched draping in warm coral. The sculpted silhouette is made for dinners, celebrations and statement summer evenings.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -7126,7 +7144,7 @@ const allGeneratedProducts: Product[] = [
       "M",
       "L"
     ],
-    "description": "Xiomara Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Xiomara Mini Dress has a clean asymmetric neckline, ruched body and a softly draped side detail in white. Its sleek shape works beautifully for resort nights and modern celebrations.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -7300,6 +7318,26 @@ export const approvedNewProductSlugs = new Set<string>([
   "vega-mini-dress",
   "odette-mini-dress",
   "lana-mini-dress",
+  "natasha-wide-leg-trousers",
+  "venus-trousers",
+  "flora-pleated-dress",
+  "nola-a-line-dress",
+  "gloria-maxi-skirt",
+  "ursula-maxi-dress",
+  "opal-mini-dress",
+  "indie-tank-top",
+  "leia-denim-shorts",
+  "kenza-denim-shorts",
+  "briar-denim-shorts",
+  "paloma-denim-shorts",
+  "yvette-denim-shorts",
+  "olympia-romper",
+  "jade-knit-top",
+  "orla-dress",
+  "elodie-maxi-skirt",
+  "jules-maxi-dress",
+  "lyra-mini-dress",
+  "xiomara-mini-dress",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(

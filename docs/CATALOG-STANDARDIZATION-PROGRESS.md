@@ -1,6 +1,6 @@
 # Catalogue Standardization Progress
 
-Last updated: 2026-08-24
+Last updated: 2026-08-26
 
 ## Scope
 
@@ -12,11 +12,11 @@ Last updated: 2026-08-24
 
 ## Current progress
 
-- Approved product bases: 3 / 73
-- Completed product galleries: 7 / 126
-- Integrated final images: 28 / 504
-- Supplier identity resolved: 126 / 126
-- Production build: passing (309 pages)
+- Published imported galleries: 39 / 126
+- Hidden imported products awaiting approval: 87 / 126
+- Integrated final images: 156 / 504
+- Supplier identity resolved: 125 / 126
+- Production build: passing (222 pages)
 
 ## Completed galleries
 
@@ -30,6 +30,35 @@ Last updated: 2026-08-24
 | Kira Tailored Two-Piece Set | Khaki | 3(1).zip | Approved and integrated |
 | Ivy Eyelet Two-Piece Set | Khaki | 50.zip | Approved and integrated |
 
+### Restored release — 2026-08-25
+
+Twelve reviewed galleries were restored without changing their catalogue inventory: Harlow, Wynn, Ursa, Lux, Elise, Eden, Vita, Ilana, Dalia, Vega, Odette and Lana.
+
+### Current release — 2026-08-26
+
+| Product | Category | Colour | Status |
+| --- | --- | --- | --- |
+| Natasha Tailored Two-Piece Set | Sets | Ivory | Approved and integrated |
+| Venus Tailored Two-Piece Set | Sets | Black / Ivory | Approved and integrated |
+| Flora Pleated Dress | Dresses | Green / Pink / Blue Floral | Approved and integrated |
+| Nola A-Line Dress | Dresses | White Floral | Approved and integrated |
+| Gloria Draped Two-Piece Set | Sets | Champagne | Approved and integrated |
+| Ursula Botanical Maxi Dress | Dresses | Beige | Approved and integrated |
+| Opal Botanical One-Shoulder Mini Dress | Dresses | White Botanical | Approved and integrated |
+| Indie Tank Top | Tops | Sky Blue / White / Black / Grey | Approved and integrated |
+| Leia Denim Shorts | Shorts | Light Blue | Approved and integrated |
+| Kenza Denim Shorts | Shorts | Light Blue | Approved and integrated |
+| Briar Denim Shorts | Shorts | Light Blue | Approved and integrated |
+| Paloma Denim Shorts | Shorts | Light Blue | Approved and integrated |
+| Yvette Denim Shorts | Shorts | Light Blue | Approved and integrated |
+| Olympia Eyelet Romper | Playsuits | White | Approved and integrated |
+| Jade Print Maxi Kaftan | Dresses | Tiger / Multicolor / Floral / Leopard | Approved and integrated |
+| Orla Sheer Maxi Kaftan | Dresses | Charcoal | Approved and integrated |
+| Elodie Ruched Two-Piece Set | Sets | Pink | Approved and integrated |
+| Jules Maxi Dress | Dresses | Olive | Approved and integrated |
+| Lyra Mini Dress | Dresses | Coral | Approved and integrated |
+| Xiomara Mini Dress | Dresses | White | Approved and integrated |
+
 ## Catalogue corrections included
 
 - Added the `Sets` product category and `/collections/sets` collection.
@@ -38,6 +67,9 @@ Last updated: 2026-08-24
 - Corrected Talia, Mira, Unity, Xyla and Kira from trousers to tailored two-piece sets.
 - Corrected Ivy from trousers to an eyelet two-piece set.
 - Replaced generic copy for the corrected sets with source-faithful descriptions.
+- Corrected Gloria and Elodie from skirts to two-piece sets.
+- Corrected Jade from a knit top to a maxi kaftan and Olympia to an eyelet romper.
+- Kept Fern hidden after visual review found that its gallery was not ready for publication.
 - Kept exact fibre composition tied to the garment label where the supplier export does not provide it.
 
 ## Validation gates for every remaining base
