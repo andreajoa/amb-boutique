@@ -3666,7 +3666,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/elise-maxi-skirt/01.webp"
+      "/products/elise-maxi-skirt/01.webp",
+      "/products/elise-maxi-skirt/02.webp",
+      "/products/elise-maxi-skirt/03.webp",
+      "/products/elise-maxi-skirt/04.webp"
     ],
     "stock": 9999,
     "weightOz": 15.87,
@@ -3700,7 +3703,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/eden-maxi-skirt/01.webp"
+      "/products/eden-maxi-skirt/01.webp",
+      "/products/eden-maxi-skirt/02.webp",
+      "/products/eden-maxi-skirt/03.webp",
+      "/products/eden-maxi-skirt/04.webp"
     ],
     "stock": 9999,
     "weightOz": 15.87,
@@ -3746,9 +3752,9 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "ilana-blazer",
-    "name": "Ilana Blazer",
+    "name": "Ilana Double-Breasted Maxi Jacket",
     "vendor": "AMB BOUTIQUE",
-    "category": "Knitwear",
+    "category": "Dresses",
     "price": 68,
     "compareAt": 85,
     "sheet": "two",
@@ -3766,7 +3772,7 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Ilana Blazer is the AMB take on the modern blazer. A refined silhouette with thoughtful details that moves effortlessly for layered looks with texture and warmth. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Ilana Double-Breasted Maxi Jacket pairs a sharply structured shoulder with a fitted waist, gold-tone buttons and a dramatic floor-length silhouette. An elegant statement layer for evening and occasion dressing.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -3805,7 +3811,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "All-over sequin embellishment on a stretch-lined base.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/dalia-mini-dress/01.webp"
+      "/products/dalia-mini-dress/01.webp",
+      "/products/dalia-mini-dress/02.webp",
+      "/products/dalia-mini-dress/03.webp",
+      "/products/dalia-mini-dress/04.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -3838,7 +3847,9 @@ const allGeneratedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/vega-mini-dress/01.webp",
-      "/products/vega-mini-dress/02.webp"
+      "/products/vega-mini-dress/02.webp",
+      "/products/vega-mini-dress/03.webp",
+      "/products/vega-mini-dress/04.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -3870,7 +3881,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "All-over sequin embellishment on a stretch-lined base.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/odette-mini-dress/01.webp"
+      "/products/odette-mini-dress/01.webp",
+      "/products/odette-mini-dress/02.webp",
+      "/products/odette-mini-dress/03.webp",
+      "/products/odette-mini-dress/04.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -3903,7 +3917,9 @@ const allGeneratedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/lana-mini-dress/01.webp",
-      "/products/lana-mini-dress/02.webp"
+      "/products/lana-mini-dress/02.webp",
+      "/products/lana-mini-dress/03.webp",
+      "/products/lana-mini-dress/04.webp"
     ],
     "stock": 9999,
     "weightOz": 14.11,
@@ -5434,7 +5450,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "wynn-maxi-dress",
-    "name": "Wynn Maxi Dress",
+    "name": "Wynn Metallic Maxi Kaftan",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -5450,7 +5466,7 @@ const allGeneratedProducts: Product[] = [
     "sizes": [
       "One Size"
     ],
-    "description": "Wynn Maxi Dress is the AMB take on the modern maxi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Wynn Metallic Maxi Kaftan is a fluid statement layer with a luminous gold finish, relaxed sleeves and an elegant full-length silhouette. Designed for resort evenings, poolside styling and elevated vacation looks.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -6428,7 +6444,9 @@ const allGeneratedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/ursa-print-dress/01.webp",
-      "/products/ursa-print-dress/02.webp"
+      "/products/ursa-print-dress/02.webp",
+      "/products/ursa-print-dress/03.webp",
+      "/products/ursa-print-dress/04.webp"
     ],
     "stock": 9938,
     "weightOz": 9.17,
@@ -6462,7 +6480,9 @@ const allGeneratedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/lux-print-dress/01.webp",
-      "/products/lux-print-dress/02.webp"
+      "/products/lux-print-dress/02.webp",
+      "/products/lux-print-dress/03.webp",
+      "/products/lux-print-dress/04.webp"
     ],
     "stock": 9938,
     "weightOz": 9.17,
@@ -7268,6 +7288,18 @@ const approvedNewProductSlugs = new Set([
   "xyla-wide-leg-trousers",
   "kira-wide-leg-trousers",
   "ivy-wide-leg-trousers",
+  "harlow-maxi-skirt",
+  "wynn-maxi-dress",
+  "ursa-print-dress",
+  "lux-print-dress",
+  "elise-maxi-skirt",
+  "eden-maxi-skirt",
+  "vita-maxi-skirt",
+  "ilana-blazer",
+  "dalia-mini-dress",
+  "vega-mini-dress",
+  "odette-mini-dress",
+  "lana-mini-dress",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(
