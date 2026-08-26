@@ -1,0 +1,51 @@
+.section { padding: 88px 0; border-top: 1px solid var(--line); background: #fffefc; }
+.inner { width: min(1120px, calc(100% - 48px)); margin: 0 auto; }
+.heading { display: grid; grid-template-columns: 1fr auto; gap: 28px; align-items: end; margin-bottom: 34px; }
+.eyebrow { margin: 0 0 8px; color: var(--camel); font-size: 10px; font-weight: 700; letter-spacing: .19em; text-transform: uppercase; }
+.heading h2 { margin: 0; font-family: var(--font-cormorant), Georgia, serif; font-size: clamp(36px, 5vw, 50px); font-weight: 500; line-height: 1; }
+.summary { text-align: right; min-width: 190px; }
+.stars { color: #9c684c; letter-spacing: .1em; font-size: 18px; }
+.summary strong { display: block; margin-top: 6px; font-size: 13px; }
+.summary span { color: var(--muted); font-size: 12px; }
+.empty { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: center; padding: 30px; background: var(--cream); border: 1px solid var(--line); }
+.empty p { margin: 6px 0 0; color: var(--muted); line-height: 1.7; }
+.writeButton { min-height: 48px; padding: 0 22px; border: 1px solid var(--ink); background: var(--ink); color: white; text-transform: uppercase; letter-spacing: .12em; font-size: 10px; font-weight: 700; }
+.list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 22px; }
+.card { padding: 24px; border: 1px solid var(--line); background: white; }
+.cardTop { display: flex; justify-content: space-between; gap: 20px; align-items: flex-start; }
+.card strong { display: block; font-size: 13px; }
+.card time { color: var(--muted); font-size: 11px; }
+.card p { margin: 16px 0 0; line-height: 1.75; color: #37322d; white-space: pre-wrap; }
+.formWrap { margin-top: 22px; padding: 28px; border: 1px solid var(--line); background: var(--cream); }
+.productRef { display: flex; gap: 16px; align-items: center; margin-bottom: 24px; }
+.productThumb { width: 72px; height: 86px; position: relative; overflow: hidden; flex: 0 0 auto; background: #eee9e0 center/cover no-repeat; }
+.productThumb img { object-fit: cover; }
+.productRef span { display: block; color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: .12em; }
+.productRef strong { display: block; margin-top: 4px; }
+.form { display: grid; gap: 18px; }
+.field { display: grid; gap: 7px; }
+.field label, .ratingLabel { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; }
+.field input, .field textarea { width: 100%; border: 1px solid #cfc6ba; background: white; padding: 13px 14px; color: var(--ink); border-radius: 0; }
+.field textarea { min-height: 140px; resize: vertical; font: inherit; }
+.ratingButtons { display: flex; gap: 7px; }
+.ratingButtons button { width: 42px; height: 42px; border: 1px solid #cfc6ba; background: white; font-size: 20px; color: #b9afa4; }
+.ratingButtons button.active { color: #9c684c; border-color: #9c684c; background: #fffaf4; }
+.actions { display: flex; gap: 12px; align-items: center; }
+.actions button { min-height: 46px; padding: 0 20px; border: 1px solid var(--ink); background: var(--ink); color: white; text-transform: uppercase; letter-spacing: .1em; font-size: 10px; font-weight: 700; }
+.actions button.secondary { background: transparent; color: var(--ink); }
+.actions button:disabled { opacity: .55; cursor: wait; }
+.notice { margin: 0; font-size: 12px; line-height: 1.6; }
+.success { margin-top: 18px; padding: 15px 18px; background: #eef4ec; border: 1px solid #cad9c6; line-height: 1.6; }
+.error { color: #8f352a; }
+.honeypot { position: absolute !important; left: -10000px !important; width: 1px !important; height: 1px !important; overflow: hidden !important; }
+
+@media (max-width: 700px) {
+  .section { padding: 62px 0; }
+  .inner { width: min(100% - 32px, 1120px); }
+  .heading, .empty { grid-template-columns: 1fr; align-items: start; }
+  .summary { text-align: left; min-width: 0; }
+  .list { grid-template-columns: 1fr; }
+  .formWrap { padding: 20px; }
+  .actions { align-items: stretch; flex-direction: column; }
+  .actions button { width: 100%; }
+}
