@@ -1,4 +1,5 @@
 import type { Product } from "./data";
+import { workProducts } from "./work-products";
 
 const BAG_CARE = "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.";
 const BAG_MATERIALS = "Soft synthetic leather or textile upper with synthetic lining and polished metal hardware. Exact composition follows the product label.";
@@ -55,7 +56,7 @@ function bag(
 
 // Every customer-facing bag below has four independent AMB-hosted images:
 // front, back, side and open interior. No remote marketplace media is used.
-export const supplementalProducts: Product[] = [
+const bagProducts: Product[] = [
   bag("portofino-carryall-black", "Portofino Carryall — Black", 79, "#171717", "Black", 2, 25.29, 25.67, "carryall"),
   bag("noir-lace-crossbody-black", "Noir Lace Crossbody — Black", 49, "#171717", "Black", 28, 6.31, 6.81, "crossbody"),
   bag("camille-multi-pocket-crossbody-green", "Camille Crossbody — Forest", 59, "#234c3c", "Forest Green", 1, 9.88, 9.86, "crossbody"),
@@ -72,3 +73,5 @@ export const supplementalProducts: Product[] = [
   bag("florence-mini-backpack-black", "Florence Mini — Black", 59, "#171717", "Black", 113, 3.49, 10.84, "backpack"),
   bag("portofino-carryall-brown", "Portofino Carryall — Espresso", 79, "#4b3028", "Espresso", 4, 25.29, 25.74, "carryall"),
 ];
+
+export const supplementalProducts: Product[] = [...bagProducts, ...workProducts];
