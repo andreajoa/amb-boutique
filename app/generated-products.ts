@@ -5584,27 +5584,27 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "anais-trousers",
-    "name": "Anais Trousers",
+    "name": "Anais Lace Two-Piece Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
+    "category": "Sets",
     "price": 62,
     "compareAt": 80,
     "sheet": "one",
     "quadrant": 1,
     "colors": [
-      "#d5c4a1"
+      "#f0ebe2"
     ],
     "colorNames": [
-      "Natural"
+      "Natural Ivory"
     ],
     "sizes": [
       "S",
       "M",
       "L"
     ],
-    "description": "Anais Trousers is the AMB take on the modern trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "description": "Anais pairs a sleeveless floral-lace crop top with a scalloped hem and matching high-waisted, fluid wide-leg trousers in natural ivory. A centered back zip completes the fitted top, while the clean trouser silhouette keeps the set polished for warm-weather occasions.",
+    "materials": "Floral lace top with partial lining and smooth fluid trousers. Exact fibre composition follows the garment label.",
+    "care": "Follow the care label attached to the garment. Handle the lace gently, use a cold delicate cycle when permitted and air dry.",
     "images": [
       "/products/anais-trousers/01.webp",
       "/products/anais-trousers/02.webp",
@@ -7238,7 +7238,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "wren-maxi-dress",
-    "name": "Wren Maxi Dress",
+    "name": "Wren Corset Maxi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -7256,9 +7256,9 @@ const allGeneratedProducts: Product[] = [
       "M",
       "L"
     ],
-    "description": "Wren Maxi Dress is the AMB take on the modern maxi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "description": "Wren is a fitted black maxi dress with narrow adjustable straps, a sculpted square neckline, a corset-laced low back and softly draped ruching through the hips. The long, clean skirt falls to the floor for polished evening dressing.",
+    "materials": "Smooth fluid fabric with a structured corset bodice. Exact fibre composition follows the garment label.",
+    "care": "Follow the care label attached to the garment. Fasten the corset ties before storage, use gentle care when permitted and air dry.",
     "images": [
       "/products/wren-maxi-dress/01.webp",
       "/products/wren-maxi-dress/02.webp",
@@ -7720,6 +7720,8 @@ export const approvedNewProductSlugs = new Set<string>([
   "daria-denim-shorts",
   "aster-trousers",
   "tallulah-pleated-skirt",
+  "anais-trousers",
+  "wren-maxi-dress",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(

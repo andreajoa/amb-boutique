@@ -1,6 +1,6 @@
 # Catalogue Standardization Progress
 
-Last updated: 2026-08-26
+Last updated: 2026-08-27
 
 ## Scope
 
@@ -12,11 +12,11 @@ Last updated: 2026-08-26
 
 ## Current progress
 
-- Published imported galleries: 68 / 135
-- Hidden imported products awaiting approval: 67 / 135
-- Integrated final images: 272 / 540
+- Published imported galleries: 70 / 135
+- Hidden imported products awaiting approval: 65 / 135
+- Integrated final images: 280 / 540
 - Supplier identity resolved: 134 / 135
-- Production build: passing (231 pages)
+- Production build: passing (273 pages)
 
 ## Completed galleries
 
@@ -93,6 +93,13 @@ Twelve reviewed galleries were restored without changing their catalogue invento
 | Aster Eyelet Two-Piece Set | Sets | Pink | Approved and integrated |
 | Tallulah Halter Mini Dress | Dresses | Black | Approved and integrated |
 
+### Reviewed release — 2026-08-27
+
+| Product | Category | Colour | Status |
+| --- | --- | --- | --- |
+| Anais Lace Two-Piece Set | Sets | Natural Ivory | Approved and integrated |
+| Wren Corset Maxi Dress | Dresses | Black | Approved and integrated |
+
 ## Catalogue corrections included
 
 - Added the `Sets` product category and `/collections/sets` collection.
@@ -104,6 +111,7 @@ Twelve reviewed galleries were restored without changing their catalogue invento
 - Corrected Gloria and Elodie from skirts to two-piece sets.
 - Corrected Jade from a knit top to a maxi kaftan and Olympia to an eyelet romper.
 - Corrected Aster from trousers to an eyelet two-piece set.
+- Corrected Anais from trousers to a lace two-piece set.
 - Corrected Tallulah from a pleated skirt to a halter mini dress.
 - Split the grouped Venus, Flora, Indie and Jade colour/print variants into 13 independent active products, each with a unique name, one colour and its own four-angle gallery.
 - Excluded the inactive Flora ivory reference; only the three colourways shown as active in the shop were published.
