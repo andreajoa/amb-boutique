@@ -6435,7 +6435,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "halle-print-dress",
-    "name": "Halle Print Dress",
+    "name": "Halle Sunset Palm Maxi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6454,13 +6454,16 @@ const allGeneratedProducts: Product[] = [
       "L",
       "XL"
     ],
-    "description": "Halle Print Dress is the AMB take on the modern print dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Halle is an orange-and-turquoise tropical maxi dress with an off-shoulder ruffle neckline, tied waist, fluid skirt and high side slit. A vivid resort silhouette curated for sunlit escapes and warm evenings.",
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/halle-print-dress/01.webp"
+      "/products/halle-print-dress/01.webp",
+      "/products/halle-print-dress/02.webp",
+      "/products/halle-print-dress/03.webp",
+      "/products/halle-print-dress/04.webp"
     ],
-    "stock": 9999,
+    "stock": 3982,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -6468,7 +6471,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "uma-print-dress",
-    "name": "Uma Print Dress",
+    "name": "Uma Sky Palm Maxi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6487,13 +6490,16 @@ const allGeneratedProducts: Product[] = [
       "L",
       "XL"
     ],
-    "description": "Uma Print Dress is the AMB take on the modern print dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Uma is a sky-blue tropical maxi dress with navy palm motifs, an off-shoulder ruffle neckline, tied waist, fluid skirt and high side slit. An airy resort statement with an elegant full-length line.",
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/uma-print-dress/01.webp"
+      "/products/uma-print-dress/01.webp",
+      "/products/uma-print-dress/02.webp",
+      "/products/uma-print-dress/03.webp",
+      "/products/uma-print-dress/04.webp"
     ],
-    "stock": 9999,
+    "stock": 3987,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -6501,7 +6507,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "drew-print-dress",
-    "name": "Drew Print Dress",
+    "name": "Drew Golden Palm Maxi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6520,14 +6526,16 @@ const allGeneratedProducts: Product[] = [
       "L",
       "XL"
     ],
-    "description": "Drew Print Dress is the AMB take on the modern print dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Drew is a golden-yellow tropical maxi dress with green palm motifs, an off-shoulder ruffle neckline, tied waist, fluid skirt and high side slit. The bright botanical palette brings a polished holiday mood.",
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/drew-print-dress/01.webp",
-      "/products/drew-print-dress/02.webp"
+      "/products/drew-print-dress/02.webp",
+      "/products/drew-print-dress/03.webp",
+      "/products/drew-print-dress/04.webp"
     ],
-    "stock": 9999,
+    "stock": 3994,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -6535,7 +6543,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "faye-print-dress",
-    "name": "Faye Print Dress",
+    "name": "Faye Emerald Palm Maxi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6554,13 +6562,16 @@ const allGeneratedProducts: Product[] = [
       "L",
       "XL"
     ],
-    "description": "Faye Print Dress is the AMB take on the modern print dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Faye is an emerald tropical maxi dress with layered palm motifs, an off-shoulder ruffle neckline, tied waist, fluid skirt and high side slit. A lush botanical look designed for resort days and destination dinners.",
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/faye-print-dress/01.webp"
+      "/products/faye-print-dress/01.webp",
+      "/products/faye-print-dress/02.webp",
+      "/products/faye-print-dress/03.webp",
+      "/products/faye-print-dress/04.webp"
     ],
-    "stock": 9999,
+    "stock": 3976,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40
@@ -6752,7 +6763,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "yuna-dress",
-    "name": "Yuna Dress",
+    "name": "Yuna Black Linen Button Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6770,16 +6781,19 @@ const allGeneratedProducts: Product[] = [
       "M",
       "L",
       "XL",
-      "XXL"
+      "XXL",
+      "XXXL"
     ],
-    "description": "Yuna Dress is the AMB take on the modern dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Yuna is a relaxed black cotton-linen dress with a soft V neckline, three wooden buttons, ruffled three-quarter sleeves and an easy knee-length shape. A versatile everyday silhouette with natural texture.",
     "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/yuna-dress/01.webp",
-      "/products/yuna-dress/02.webp"
+      "/products/yuna-dress/02.webp",
+      "/products/yuna-dress/03.webp",
+      "/products/yuna-dress/04.webp"
     ],
-    "stock": 9999,
+    "stock": 5903,
     "weightOz": 8.22,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -6787,7 +6801,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "ember-dress",
-    "name": "Ember Dress",
+    "name": "Ember Sky Linen Button Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6805,15 +6819,19 @@ const allGeneratedProducts: Product[] = [
       "M",
       "L",
       "XL",
-      "XXL"
+      "XXL",
+      "XXXL"
     ],
-    "description": "Ember Dress is the AMB take on the modern dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Ember is a relaxed sky-blue cotton-linen dress with a soft V neckline, three wooden buttons, ruffled three-quarter sleeves and an easy knee-length shape. Light and polished for warm days.",
     "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/ember-dress/01.webp"
+      "/products/ember-dress/01.webp",
+      "/products/ember-dress/02.webp",
+      "/products/ember-dress/03.webp",
+      "/products/ember-dress/04.webp"
     ],
-    "stock": 9999,
+    "stock": 5829,
     "weightOz": 8.22,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -6821,7 +6839,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "imani-dress",
-    "name": "Imani Dress",
+    "name": "Imani Sage Linen Button Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6839,22 +6857,26 @@ const allGeneratedProducts: Product[] = [
       "M",
       "L",
       "XL",
-      "XXL"
+      "XXL",
+      "XXXL"
     ],
-    "description": "Imani Dress is the AMB take on the modern dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Imani is a relaxed sage-green cotton-linen dress with a soft V neckline, three wooden buttons, ruffled three-quarter sleeves and an easy knee-length shape. The muted green gives this everyday style a refined finish.",
     "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/imani-dress/01.webp"
+      "/products/imani-dress/01.webp",
+      "/products/imani-dress/02.webp",
+      "/products/imani-dress/03.webp",
+      "/products/imani-dress/04.webp"
     ],
-    "stock": 9999,
+    "stock": 5838,
     "weightOz": 8.22,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40
   },
   {
     "slug": "rowan-dress",
-    "name": "Rowan Dress",
+    "name": "Rowan Burgundy Linen Button Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6872,19 +6894,175 @@ const allGeneratedProducts: Product[] = [
       "M",
       "L",
       "XL",
-      "XXL"
+      "XXL",
+      "XXXL"
     ],
-    "description": "Rowan Dress is the AMB take on the modern dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Rowan is a relaxed burgundy cotton-linen dress with a soft V neckline, three wooden buttons, ruffled three-quarter sleeves and an easy knee-length shape. A rich colorway for effortless day-to-evening dressing.",
     "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/rowan-dress/01.webp"
+      "/products/rowan-dress/01.webp",
+      "/products/rowan-dress/02.webp",
+      "/products/rowan-dress/03.webp",
+      "/products/rowan-dress/04.webp"
     ],
-    "stock": 9999,
+    "stock": 5935,
     "weightOz": 8.22,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
     "badge": "Just In"
+  },
+  {
+    "slug": "alina-button-front-dress",
+    "name": "Alina Sand Linen Button Dress",
+    "vendor": "AMB BOUTIQUE",
+    "category": "Dresses",
+    "price": 68,
+    "compareAt": 85,
+    "sheet": "two",
+    "quadrant": 4,
+    "colors": [
+      "#d8c7aa"
+    ],
+    "colorNames": [
+      "Beige"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "description": "Alina is a relaxed sand-beige cotton-linen dress with a soft V neckline, three wooden buttons, ruffled three-quarter sleeves and an easy knee-length shape. A natural neutral for warm, polished everyday dressing.",
+    "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
+    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "images": [
+      "/products/alina-button-front-dress/01.webp",
+      "/products/alina-button-front-dress/02.webp",
+      "/products/alina-button-front-dress/03.webp",
+      "/products/alina-button-front-dress/04.webp"
+    ],
+    "stock": 5782,
+    "weightOz": 8.22,
+    "unitCostUsd": 2.08,
+    "minimumMarginPercent": 40,
+    "badge": "New"
+  },
+  {
+    "slug": "maren-button-front-dress",
+    "name": "Maren Tangerine Linen Button Dress",
+    "vendor": "AMB BOUTIQUE",
+    "category": "Dresses",
+    "price": 68,
+    "compareAt": 85,
+    "sheet": "one",
+    "quadrant": 1,
+    "colors": [
+      "#e85f21"
+    ],
+    "colorNames": [
+      "Orange"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "description": "Maren is a relaxed tangerine cotton-linen dress with a soft V neckline, three wooden buttons, ruffled three-quarter sleeves and an easy knee-length shape. The saturated orange adds bright energy to a comfortable silhouette.",
+    "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
+    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "images": [
+      "/products/maren-button-front-dress/01.webp",
+      "/products/maren-button-front-dress/02.webp",
+      "/products/maren-button-front-dress/03.webp",
+      "/products/maren-button-front-dress/04.webp"
+    ],
+    "stock": 5952,
+    "weightOz": 8.22,
+    "unitCostUsd": 2.08,
+    "minimumMarginPercent": 40,
+    "badge": "Just In"
+  },
+  {
+    "slug": "soleil-button-front-dress",
+    "name": "Soleil Golden Linen Button Dress",
+    "vendor": "AMB BOUTIQUE",
+    "category": "Dresses",
+    "price": 68,
+    "compareAt": 85,
+    "sheet": "two",
+    "quadrant": 2,
+    "colors": [
+      "#efc323"
+    ],
+    "colorNames": [
+      "Yellow"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "description": "Soleil is a relaxed golden-yellow cotton-linen dress with a soft V neckline, three wooden buttons, ruffled three-quarter sleeves and an easy knee-length shape. A sunny colorway for effortless daytime style.",
+    "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
+    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "images": [
+      "/products/soleil-button-front-dress/01.webp",
+      "/products/soleil-button-front-dress/02.webp",
+      "/products/soleil-button-front-dress/03.webp",
+      "/products/soleil-button-front-dress/04.webp"
+    ],
+    "stock": 5916,
+    "weightOz": 8.22,
+    "unitCostUsd": 2.08,
+    "minimumMarginPercent": 40,
+    "badge": "New"
+  },
+  {
+    "slug": "kendra-button-front-dress",
+    "name": "Kendra Khaki Linen Button Dress",
+    "vendor": "AMB BOUTIQUE",
+    "category": "Dresses",
+    "price": 68,
+    "compareAt": 85,
+    "sheet": "one",
+    "quadrant": 3,
+    "colors": [
+      "#9b9b72"
+    ],
+    "colorNames": [
+      "Khaki"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "description": "Kendra is a relaxed khaki cotton-linen dress with a soft V neckline, three wooden buttons, ruffled three-quarter sleeves and an easy knee-length shape. An earthy neutral with an understated, natural finish.",
+    "materials": "Breathable cotton-blend fabric with a relaxed, natural texture.",
+    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "images": [
+      "/products/kendra-button-front-dress/01.webp",
+      "/products/kendra-button-front-dress/02.webp",
+      "/products/kendra-button-front-dress/03.webp",
+      "/products/kendra-button-front-dress/04.webp"
+    ],
+    "stock": 5914,
+    "weightOz": 8.22,
+    "unitCostUsd": 2.08,
+    "minimumMarginPercent": 40,
+    "badge": "New"
   },
   {
     "slug": "ursula-maxi-dress",
@@ -7406,7 +7584,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "adele-maxi-dress",
-    "name": "Adele Maxi Dress",
+    "name": "Adele Olive Draped Open-Back Maxi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -7424,15 +7602,16 @@ const allGeneratedProducts: Product[] = [
       "M",
       "L"
     ],
-    "description": "Adele Maxi Dress is the AMB take on the modern maxi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
+    "description": "Adele is an olive-green floor-length dress with a high sleeveless neckline, sculptural diagonal draping, gathered hip detail and an open back. Its fluid mermaid silhouette is designed for elevated evenings and formal occasions.",
+    "materials": "Smooth stretch fabric with fluid drape and softly gathered texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/adele-maxi-dress/01.webp",
       "/products/adele-maxi-dress/02.webp",
-      "/products/adele-maxi-dress/03.webp"
+      "/products/adele-maxi-dress/03.webp",
+      "/products/adele-maxi-dress/04.webp"
     ],
-    "stock": 9999,
+    "stock": 29986,
     "weightOz": 22.93,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -7440,7 +7619,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "josie-maxi-dress",
-    "name": "Josie Maxi Dress",
+    "name": "Josie Coffee Draped Open-Back Maxi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -7458,15 +7637,16 @@ const allGeneratedProducts: Product[] = [
       "M",
       "L"
     ],
-    "description": "Josie Maxi Dress is the AMB take on the modern maxi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
+    "description": "Josie is a deep coffee-brown floor-length dress with a high sleeveless neckline, sculptural diagonal draping, gathered hip detail and an open back. The rich neutral brings modern depth to its fluid formal silhouette.",
+    "materials": "Smooth stretch fabric with fluid drape and softly gathered texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/josie-maxi-dress/01.webp",
       "/products/josie-maxi-dress/02.webp",
-      "/products/josie-maxi-dress/03.webp"
+      "/products/josie-maxi-dress/03.webp",
+      "/products/josie-maxi-dress/04.webp"
     ],
-    "stock": 9999,
+    "stock": 29991,
     "weightOz": 22.93,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -7647,7 +7827,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "tessa-mini-dress",
-    "name": "Tessa Mini Dress",
+    "name": "Tessa Black Draped Midi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -7666,14 +7846,16 @@ const allGeneratedProducts: Product[] = [
       "L",
       "XL"
     ],
-    "description": "Tessa Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
+    "description": "Tessa is a fitted black midi dress with a sleeveless crew neckline, textured finish, diagonal wrap-effect bodice and a long draped side panel. Its clean pencil silhouette moves easily from dinner to occasion dressing.",
+    "materials": "Lightly crinkled woven fabric with soft structure and fluid drape.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/tessa-mini-dress/01.webp",
-      "/products/tessa-mini-dress/02.webp"
+      "/products/tessa-mini-dress/02.webp",
+      "/products/tessa-mini-dress/03.webp",
+      "/products/tessa-mini-dress/04.webp"
     ],
-    "stock": 9999,
+    "stock": 3996,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -7681,7 +7863,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "maven-mini-dress",
-    "name": "Maven Mini Dress",
+    "name": "Maven Blue Draped Midi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -7700,13 +7882,16 @@ const allGeneratedProducts: Product[] = [
       "L",
       "XL"
     ],
-    "description": "Maven Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
+    "description": "Maven is a fitted blue midi dress with a sleeveless crew neckline, textured finish, diagonal wrap-effect bodice and a long draped side panel. The vivid color sharpens its polished occasion silhouette.",
+    "materials": "Lightly crinkled woven fabric with soft structure and fluid drape.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/maven-mini-dress/01.webp"
+      "/products/maven-mini-dress/01.webp",
+      "/products/maven-mini-dress/02.webp",
+      "/products/maven-mini-dress/03.webp",
+      "/products/maven-mini-dress/04.webp"
     ],
-    "stock": 9999,
+    "stock": 3996,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -7714,7 +7899,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "jules-mini-dress",
-    "name": "Jules Mini Dress",
+    "name": "Jules Green Draped Midi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -7733,20 +7918,23 @@ const allGeneratedProducts: Product[] = [
       "L",
       "XL"
     ],
-    "description": "Jules Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
+    "description": "Jules is a fitted emerald-green midi dress with a sleeveless crew neckline, textured finish, diagonal wrap-effect bodice and a long draped side panel. A saturated statement for dinners and celebrations.",
+    "materials": "Lightly crinkled woven fabric with soft structure and fluid drape.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/jules-mini-dress/01.webp"
+      "/products/jules-mini-dress/01.webp",
+      "/products/jules-mini-dress/02.webp",
+      "/products/jules-mini-dress/03.webp",
+      "/products/jules-mini-dress/04.webp"
     ],
-    "stock": 9999,
+    "stock": 3996,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40
   },
   {
     "slug": "lila-mini-dress-2",
-    "name": "Lila Mini Dress",
+    "name": "Lila Apricot Draped Midi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -7765,14 +7953,88 @@ const allGeneratedProducts: Product[] = [
       "L",
       "XL"
     ],
-    "description": "Lila Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Delicate lace overlay with a soft lining for comfort.",
+    "description": "Lila is a fitted apricot-beige midi dress with a sleeveless crew neckline, textured finish, diagonal wrap-effect bodice and a long draped side panel. The warm neutral keeps its sculptural shape understated and elegant.",
+    "materials": "Lightly crinkled woven fabric with soft structure and fluid drape.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/lila-mini-dress-2/01.webp",
-      "/products/lila-mini-dress-2/02.webp"
+      "/products/lila-mini-dress-2/02.webp",
+      "/products/lila-mini-dress-2/03.webp",
+      "/products/lila-mini-dress-2/04.webp"
     ],
-    "stock": 9999,
+    "stock": 3996,
+    "weightOz": 10.58,
+    "unitCostUsd": 2.08,
+    "minimumMarginPercent": 40,
+    "badge": "Just In"
+  },
+  {
+    "slug": "poppy-draped-midi-dress",
+    "name": "Poppy Pink Draped Midi Dress",
+    "vendor": "AMB BOUTIQUE",
+    "category": "Dresses",
+    "price": 68,
+    "compareAt": 85,
+    "sheet": "two",
+    "quadrant": 2,
+    "colors": [
+      "#dca7ad"
+    ],
+    "colorNames": [
+      "Pink"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Poppy is a fitted dusty-pink midi dress with a sleeveless crew neckline, textured finish, diagonal wrap-effect bodice and a long draped side panel. A soft colorway with a modern sculptural line.",
+    "materials": "Lightly crinkled woven fabric with soft structure and fluid drape.",
+    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "images": [
+      "/products/poppy-draped-midi-dress/01.webp",
+      "/products/poppy-draped-midi-dress/02.webp",
+      "/products/poppy-draped-midi-dress/03.webp",
+      "/products/poppy-draped-midi-dress/04.webp"
+    ],
+    "stock": 3996,
+    "weightOz": 10.58,
+    "unitCostUsd": 2.08,
+    "minimumMarginPercent": 40,
+    "badge": "New"
+  },
+  {
+    "slug": "sunny-draped-midi-dress",
+    "name": "Sunny Yellow Draped Midi Dress",
+    "vendor": "AMB BOUTIQUE",
+    "category": "Dresses",
+    "price": 68,
+    "compareAt": 85,
+    "sheet": "one",
+    "quadrant": 3,
+    "colors": [
+      "#efd568"
+    ],
+    "colorNames": [
+      "Yellow"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Sunny is a fitted warm-yellow midi dress with a sleeveless crew neckline, textured finish, diagonal wrap-effect bodice and a long draped side panel. The bright tone brings lightness to its polished occasion shape.",
+    "materials": "Lightly crinkled woven fabric with soft structure and fluid drape.",
+    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "images": [
+      "/products/sunny-draped-midi-dress/01.webp",
+      "/products/sunny-draped-midi-dress/02.webp",
+      "/products/sunny-draped-midi-dress/03.webp",
+      "/products/sunny-draped-midi-dress/04.webp"
+    ],
+    "stock": 3996,
     "weightOz": 10.58,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -7870,6 +8132,26 @@ export const approvedNewProductSlugs = new Set<string>([
   "zuri-mini-dress",
   "kaia-mini-dress",
   "liora-mini-dress",
+  "halle-print-dress",
+  "uma-print-dress",
+  "drew-print-dress",
+  "faye-print-dress",
+  "alina-button-front-dress",
+  "yuna-dress",
+  "ember-dress",
+  "imani-dress",
+  "maren-button-front-dress",
+  "soleil-button-front-dress",
+  "rowan-dress",
+  "kendra-button-front-dress",
+  "adele-maxi-dress",
+  "josie-maxi-dress",
+  "tessa-mini-dress",
+  "maven-mini-dress",
+  "jules-mini-dress",
+  "lila-mini-dress-2",
+  "poppy-draped-midi-dress",
+  "sunny-draped-midi-dress",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(

@@ -5,7 +5,7 @@ Last updated: 2026-08-28
 ## Release rules
 
 - Preserve the 81 established products.
-- Preserve the 85 approved imported products in production.
+- Preserve the 105 approved imported products in production.
 - Keep every remaining imported product hidden until its full gallery passes review.
 - Required order: front, back, left profile, right profile.
 - Required output: 1600 x 1600 WebP, sRGB, AMB warm ivory background.
@@ -14,10 +14,10 @@ Last updated: 2026-08-28
 
 ## Current totals
 
-- Imported products: 138
-- Approved galleries: 85
-- Hidden products: 53
-- Supplier products resolved: 137 / 138
+- Imported products: 144
+- Approved galleries: 105
+- Hidden products: 39
+- Supplier products resolved: 143 / 144
 - Source packages recovered: 81
 - Valid source images: 469
 - Real angular views: 158
@@ -72,7 +72,7 @@ Last updated: 2026-08-28
 | 64 | Halle, Uma, Drew, Faye |
 | 65 | Winter |
 | 66 | Bliss, Zuri, Kaia, Liora |
-| 67 | Yuna, Ember, Imani, Rowan |
+| 67 | Alina, Yuna, Ember, Imani, Maren, Soleil, Rowan, Kendra |
 | 68 | Ursula |
 | 69 | Ursa, Lux |
 | 70-72 | Olive, Ondine, Elodie |
@@ -86,7 +86,7 @@ Last updated: 2026-08-28
 | 80 | Cosima |
 | 81 | Celeste, Xara |
 | 82 | Xiomara Mini |
-| 83 | Tessa Mini, Maven Mini, Jules Mini, Lila Mini 2 |
+| 83 | Tessa Black, Maven Blue, Jules Green, Lila Apricot, Poppy Pink, Sunny Yellow |
 
 ## Exclusions and corrections
 
@@ -137,6 +137,15 @@ The second reviewed release adds exactly 20 independent products:
 - Source 62: Mabel Khaki, Dune Silver, Reva Green and Lavinia Lavender cover all four active print colourways.
 - Source 66: Bliss Blush Pink, Zuri Bright Yellow, Kaia Mint Green and Liora Neon Yellow cover the four active print colourways; the inactive black reference remains excluded.
 - All ten products have separately reviewed front, back, left-profile and right-profile galleries in 1600 x 1600 WebP format.
+
+## Twenty-product colour-family release — 2026-08-28
+
+- Source 64: Halle Orange, Uma Sky Blue, Drew Yellow and Faye Green cover all four active tropical-print colourways.
+- Source 67: Alina Beige, Yuna Black, Ember Sky Blue, Imani Green, Maren Orange, Soleil Yellow, Rowan Red and Kendra Khaki cover all eight active linen-dress colourways.
+- Source 78: Adele Green and Josie Coffee cover both active draped maxi-dress colourways.
+- Source 83: Tessa Black, Maven Blue, Jules Green, Lila Apricot, Poppy Pink and Sunny Yellow cover all six active draped midi-dress colourways.
+- Six missing colour records were added as independent products; every colour has its own name, URL, stock and four-angle gallery.
+- All 80 images passed visual review for matching color and construction before any of these 20 products were approved.
 
 ## Production order
 
