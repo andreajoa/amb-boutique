@@ -5,7 +5,7 @@ Last updated: 2026-08-28
 ## Release rules
 
 - Preserve the 81 established products.
-- Preserve the 75 approved imported products in production.
+- Preserve the 85 approved imported products in production.
 - Keep every remaining imported product hidden until its full gallery passes review.
 - Required order: front, back, left profile, right profile.
 - Required output: 1600 x 1600 WebP, sRGB, AMB warm ivory background.
@@ -14,10 +14,10 @@ Last updated: 2026-08-28
 
 ## Current totals
 
-- Imported products: 135
-- Approved galleries: 75
-- Hidden products: 60
-- Supplier products resolved: 134 / 135
+- Imported products: 138
+- Approved galleries: 85
+- Hidden products: 53
+- Supplier products resolved: 137 / 138
 - Source packages recovered: 81
 - Valid source images: 469
 - Real angular views: 158
@@ -68,10 +68,10 @@ Last updated: 2026-08-28
 | 54 | Nyx |
 | 55 | Nell |
 | 57-60 | Oceane, Ilaria, Zara, Greer |
-| 62 | Mabel, Dune, Reva |
+| 62 | Mabel, Dune, Reva, Lavinia |
 | 64 | Halle, Uma, Drew, Faye |
 | 65 | Winter |
-| 66 | Bliss, Zuri |
+| 66 | Bliss, Zuri, Kaia, Liora |
 | 67 | Yuna, Ember, Imani, Rowan |
 | 68 | Ursula |
 | 69 | Ursa, Lux |
@@ -130,6 +130,13 @@ The second reviewed release adds exactly 20 independent products:
 - Four independent active colour products from source 20: Halcyon Black, Birdie Malachite Blue, Maeve Navy Blue and Lotus Burgundy. Each is corrected from skirt to Draped Cape Midi Dress and keeps its own supplier-derived stock total.
 - Tessa Rose-Print Midi Dress from source 23 in Apricot Ivory, with the unavailable size S excluded from the active size list.
 - All five products use separately reviewed front, back, left-profile and right-profile galleries in 1600 x 1600 WebP format.
+
+## Ten-product colour-family release — 2026-08-28
+
+- Source 51: Suki Beige and Maven Red are corrected from skirts to independently stocked satin maxi sets.
+- Source 62: Mabel Khaki, Dune Silver, Reva Green and Lavinia Lavender cover all four active print colourways.
+- Source 66: Bliss Blush Pink, Zuri Bright Yellow, Kaia Mint Green and Liora Neon Yellow cover the four active print colourways; the inactive black reference remains excluded.
+- All ten products have separately reviewed front, back, left-profile and right-profile galleries in 1600 x 1600 WebP format.
 
 ## Production order
 

@@ -4,19 +4,19 @@ Last updated: 2026-08-28
 
 ## Scope
 
-- Active products in the imported batch: 135
+- Active products in the imported batch: 138
 - Product bases: 73 (72 supplier bases plus Seraphina)
-- Required final gallery images: 540
+- Required final gallery images: 552
 - Final image order: front, back, left profile, right profile
 - Final format: 1600 × 1600 WebP, sRGB, warm ivory AMB studio background
 
 ## Current progress
 
-- Published imported galleries: 75 / 135
-- Hidden imported products awaiting approval: 60 / 135
-- Integrated final images: 300 / 540
-- Supplier identity resolved: 134 / 135
-- Production build: passing (276 pages)
+- Published imported galleries: 85 / 138
+- Hidden imported products awaiting approval: 53 / 138
+- Integrated final images: 340 / 552
+- Supplier identity resolved: 137 / 138
+- Production build: passing (285 pages)
 
 ## Completed galleries
 
@@ -110,6 +110,21 @@ Twelve reviewed galleries were restored without changing their catalogue invento
 | Lotus Draped Cape Midi Dress | Dresses | Burgundy | Approved and integrated |
 | Tessa Rose-Print Midi Dress | Dresses | Apricot Ivory | Approved and integrated |
 
+### Ten-product colour-family release — 2026-08-28
+
+| Product | Category | Colour | Status |
+| --- | --- | --- | --- |
+| Suki Leopard Satin Maxi Set | Sets | Beige | Approved and integrated |
+| Maven Ruby Leopard Satin Maxi Set | Sets | Red | Approved and integrated |
+| Mabel Tropical Leaf Tie-Front Midi Dress | Dresses | Khaki | Approved and integrated |
+| Dune Graphic Floral Tie-Front Midi Dress | Dresses | Silver | Approved and integrated |
+| Reva Tropical Floral Tie-Front Midi Dress | Dresses | Green | Approved and integrated |
+| Lavinia Lavender Rose Tie-Front Midi Dress | Dresses | Lavender | Approved and integrated |
+| Bliss Blush Mosaic Mini Dress | Dresses | Blush Pink | Approved and integrated |
+| Zuri Neon Stripe Mini Dress | Dresses | Bright Yellow | Approved and integrated |
+| Kaia Mint Mosaic Mini Dress | Dresses | Mint Green | Approved and integrated |
+| Liora Neon Mosaic Mini Dress | Dresses | Neon Yellow | Approved and integrated |
+
 ## Catalogue corrections included
 
 - Added the `Sets` product category and `/collections/sets` collection.
@@ -126,6 +141,10 @@ Twelve reviewed galleries were restored without changing their catalogue invento
 - Corrected Halcyon, Birdie, Maeve and Lotus from skirts to four independently merchandised colourways of the same draped cape midi dress.
 - Corrected the four draped-dress colourway inventory totals from placeholders to the active supplier totals without combining the products.
 - Removed Tessa size S from the active size list because that supplier variant is out of stock.
+- Corrected Suki and Maven from skirts to coordinated satin maxi sets and assigned each colour its own supplier stock.
+- Split source 62 into four independently named active print products, adding the missing Lavender colourway as Lavinia.
+- Replaced the inactive black source-66 placeholder with the active Blush Pink product and added the missing Mint Green and Neon Yellow products.
+- Excluded source 66's black reference because all of its supplier variants are out of stock.
 - Split the grouped Venus, Flora, Indie and Jade colour/print variants into 13 independent active products, each with a unique name, one colour and its own four-angle gallery.
 - Excluded the inactive Flora ivory reference; only the three colourways shown as active in the shop were published.
 - Preserved the original aggregate inventory for each split family while assigning positive stock to every new product.

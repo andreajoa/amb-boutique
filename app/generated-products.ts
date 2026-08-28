@@ -5900,9 +5900,9 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "suki-maxi-skirt",
-    "name": "Suki Maxi Skirt",
+    "name": "Suki Leopard Satin Maxi Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
+    "category": "Sets",
     "price": 58,
     "compareAt": 75,
     "sheet": "one",
@@ -5918,14 +5918,16 @@ const allGeneratedProducts: Product[] = [
       "M",
       "L"
     ],
-    "description": "Suki Maxi Skirt is the AMB take on the modern maxi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
+    "description": "A coordinated beige satin camisole and floor-length skirt set finished in an oversized leopard spot print, with a matching sash that ties low at the hip. Curated in San Diego for a polished, feminine wardrobe.",
+    "materials": "Smooth satin-look woven fabric with a fluid drape.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/suki-maxi-skirt/01.webp",
-      "/products/suki-maxi-skirt/02.webp"
+      "/products/suki-maxi-skirt/02.webp",
+      "/products/suki-maxi-skirt/03.webp",
+      "/products/suki-maxi-skirt/04.webp"
     ],
-    "stock": 1193,
+    "stock": 597,
     "weightOz": 11.64,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -5933,9 +5935,9 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "maven-maxi-skirt",
-    "name": "Maven Maxi Skirt",
+    "name": "Maven Ruby Leopard Satin Maxi Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
+    "category": "Sets",
     "price": 58,
     "compareAt": 75,
     "sheet": "two",
@@ -5951,15 +5953,16 @@ const allGeneratedProducts: Product[] = [
       "M",
       "L"
     ],
-    "description": "Maven Maxi Skirt is the AMB take on the modern maxi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
+    "description": "A coordinated ruby-red satin camisole and floor-length skirt set finished in an ivory-and-charcoal leopard spot print, with a matching sash that ties low at the hip. Curated in San Diego for a polished, feminine wardrobe.",
+    "materials": "Smooth satin-look woven fabric with a fluid drape.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/maven-maxi-skirt/01.webp",
       "/products/maven-maxi-skirt/02.webp",
-      "/products/maven-maxi-skirt/03.webp"
+      "/products/maven-maxi-skirt/03.webp",
+      "/products/maven-maxi-skirt/04.webp"
     ],
-    "stock": 1193,
+    "stock": 596,
     "weightOz": 11.64,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -6286,7 +6289,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "mabel-print-dress",
-    "name": "Mabel Print Dress",
+    "name": "Mabel Tropical Leaf Tie-Front Midi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6306,15 +6309,16 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Mabel Print Dress is the AMB take on the modern print dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "An ivory-khaki midi dress with oversized green and taupe tropical leaves, a softly crossed V neckline, flutter sleeves, removable waist tie and curved wrap-effect hem. Curated in San Diego for a polished, feminine wardrobe.",
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/mabel-print-dress/01.webp",
       "/products/mabel-print-dress/02.webp",
-      "/products/mabel-print-dress/03.webp"
+      "/products/mabel-print-dress/03.webp",
+      "/products/mabel-print-dress/04.webp"
     ],
-    "stock": 399,
+    "stock": 99,
     "weightOz": 9.42,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -6322,7 +6326,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "dune-print-dress",
-    "name": "Dune Print Dress",
+    "name": "Dune Graphic Floral Tie-Front Midi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6342,21 +6346,23 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Dune Print Dress is the AMB take on the modern print dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "A silver-white midi dress patterned with charcoal florals and muted amber paisley accents, finished with a crossed V neckline, flutter sleeves, removable waist tie and curved wrap-effect hem. Curated in San Diego for a polished, feminine wardrobe.",
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/dune-print-dress/01.webp",
-      "/products/dune-print-dress/02.webp"
+      "/products/dune-print-dress/02.webp",
+      "/products/dune-print-dress/03.webp",
+      "/products/dune-print-dress/04.webp"
     ],
-    "stock": 399,
+    "stock": 100,
     "weightOz": 9.42,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40
   },
   {
     "slug": "reva-print-dress",
-    "name": "Reva Print Dress",
+    "name": "Reva Tropical Floral Tie-Front Midi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6376,16 +6382,56 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Reva Print Dress is the AMB take on the modern print dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "A deep green midi dress alive with tropical leaves and pink florals, finished with a crossed V neckline, flutter sleeves, removable waist tie and curved wrap-effect hem. Curated in San Diego for a polished, feminine wardrobe.",
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/reva-print-dress/01.webp"
+      "/products/reva-print-dress/01.webp",
+      "/products/reva-print-dress/02.webp",
+      "/products/reva-print-dress/03.webp",
+      "/products/reva-print-dress/04.webp"
     ],
-    "stock": 399,
+    "stock": 100,
     "weightOz": 9.42,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40
+  },
+  {
+    "slug": "lavinia-print-dress",
+    "name": "Lavinia Lavender Rose Tie-Front Midi Dress",
+    "vendor": "AMB BOUTIQUE",
+    "category": "Dresses",
+    "price": 68,
+    "compareAt": 85,
+    "sheet": "one",
+    "quadrant": 1,
+    "colors": [
+      "#8d63b5"
+    ],
+    "colorNames": [
+      "Lavender"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "An ivory midi dress scattered with painterly lavender roses, finished with a crossed V neckline, flutter sleeves, removable waist tie and curved wrap-effect hem. Curated in San Diego for a polished, feminine wardrobe.",
+    "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
+    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "images": [
+      "/products/lavinia-print-dress/01.webp",
+      "/products/lavinia-print-dress/02.webp",
+      "/products/lavinia-print-dress/03.webp",
+      "/products/lavinia-print-dress/04.webp"
+    ],
+    "stock": 100,
+    "weightOz": 9.42,
+    "unitCostUsd": 2.08,
+    "minimumMarginPercent": 40,
+    "badge": "Just In"
   },
   {
     "slug": "halle-print-dress",
@@ -6558,7 +6604,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "bliss-mini-dress",
-    "name": "Bliss Mini Dress",
+    "name": "Bliss Blush Mosaic Mini Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6566,10 +6612,10 @@ const allGeneratedProducts: Product[] = [
     "sheet": "two",
     "quadrant": 2,
     "colors": [
-      "#1b1b1b"
+      "#ef8fa8"
     ],
     "colorNames": [
-      "Black"
+      "Blush Pink"
     ],
     "sizes": [
       "S",
@@ -6578,14 +6624,16 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Bliss Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "A loose blush, peach and ivory mosaic-print mini dress with a deep V neckline, button front, dramatic batwing sleeves and adjustable drawstring waist. Curated in San Diego for a polished, feminine wardrobe.",
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/bliss-mini-dress/01.webp",
-      "/products/bliss-mini-dress/02.webp"
+      "/products/bliss-mini-dress/02.webp",
+      "/products/bliss-mini-dress/03.webp",
+      "/products/bliss-mini-dress/04.webp"
     ],
-    "stock": 5256,
+    "stock": 1320,
     "weightOz": 8.01,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -6593,7 +6641,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "zuri-mini-dress",
-    "name": "Zuri Mini Dress",
+    "name": "Zuri Neon Stripe Mini Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6604,7 +6652,7 @@ const allGeneratedProducts: Product[] = [
       "#f0c040"
     ],
     "colorNames": [
-      "Yellow"
+      "Bright Yellow"
     ],
     "sizes": [
       "S",
@@ -6613,15 +6661,90 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Zuri Mini Dress is the AMB take on the modern mini dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "A loose mini dress in fluid bright-yellow, hot-pink, purple and orange stripes, with a deep V neckline, button front, dramatic batwing sleeves and adjustable drawstring waist. Curated in San Diego for a polished, feminine wardrobe.",
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/zuri-mini-dress/01.webp",
       "/products/zuri-mini-dress/02.webp",
-      "/products/zuri-mini-dress/03.webp"
+      "/products/zuri-mini-dress/03.webp",
+      "/products/zuri-mini-dress/04.webp"
     ],
-    "stock": 5256,
+    "stock": 1291,
+    "weightOz": 8.01,
+    "unitCostUsd": 2.08,
+    "minimumMarginPercent": 40,
+    "badge": "Just In"
+  },
+  {
+    "slug": "kaia-mini-dress",
+    "name": "Kaia Mint Mosaic Mini Dress",
+    "vendor": "AMB BOUTIQUE",
+    "category": "Dresses",
+    "price": 68,
+    "compareAt": 85,
+    "sheet": "two",
+    "quadrant": 4,
+    "colors": [
+      "#69a99e"
+    ],
+    "colorNames": [
+      "Mint Green"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A loose mint, sage, yellow, coral and ivory mosaic-print mini dress with a deep V neckline, button front, dramatic batwing sleeves and adjustable drawstring waist. Curated in San Diego for a polished, feminine wardrobe.",
+    "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
+    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "images": [
+      "/products/kaia-mini-dress/01.webp",
+      "/products/kaia-mini-dress/02.webp",
+      "/products/kaia-mini-dress/03.webp",
+      "/products/kaia-mini-dress/04.webp"
+    ],
+    "stock": 1325,
+    "weightOz": 8.01,
+    "unitCostUsd": 2.08,
+    "minimumMarginPercent": 40,
+    "badge": "Just In"
+  },
+  {
+    "slug": "liora-mini-dress",
+    "name": "Liora Neon Mosaic Mini Dress",
+    "vendor": "AMB BOUTIQUE",
+    "category": "Dresses",
+    "price": 68,
+    "compareAt": 85,
+    "sheet": "one",
+    "quadrant": 1,
+    "colors": [
+      "#e7ec28"
+    ],
+    "colorNames": [
+      "Neon Yellow"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A loose neon-yellow, hot-pink, navy, green and ivory mosaic-print mini dress with a deep V neckline, button front, dramatic batwing sleeves and adjustable drawstring waist. Curated in San Diego for a polished, feminine wardrobe.",
+    "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
+    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "images": [
+      "/products/liora-mini-dress/01.webp",
+      "/products/liora-mini-dress/02.webp",
+      "/products/liora-mini-dress/03.webp",
+      "/products/liora-mini-dress/04.webp"
+    ],
+    "stock": 1320,
     "weightOz": 8.01,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -7737,6 +7860,16 @@ export const approvedNewProductSlugs = new Set<string>([
   "maeve-midi-skirt",
   "lotus-midi-skirt",
   "tessa-midi-dress",
+  "suki-maxi-skirt",
+  "maven-maxi-skirt",
+  "mabel-print-dress",
+  "dune-print-dress",
+  "reva-print-dress",
+  "lavinia-print-dress",
+  "bliss-mini-dress",
+  "zuri-mini-dress",
+  "kaia-mini-dress",
+  "liora-mini-dress",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(
