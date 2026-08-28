@@ -1,6 +1,6 @@
 # Catalogue Standardization Progress
 
-Last updated: 2026-08-27
+Last updated: 2026-08-28
 
 ## Scope
 
@@ -12,11 +12,11 @@ Last updated: 2026-08-27
 
 ## Current progress
 
-- Published imported galleries: 70 / 135
-- Hidden imported products awaiting approval: 65 / 135
-- Integrated final images: 280 / 540
+- Published imported galleries: 75 / 135
+- Hidden imported products awaiting approval: 60 / 135
+- Integrated final images: 300 / 540
 - Supplier identity resolved: 134 / 135
-- Production build: passing (273 pages)
+- Production build: passing (276 pages)
 
 ## Completed galleries
 
@@ -100,6 +100,16 @@ Twelve reviewed galleries were restored without changing their catalogue invento
 | Anais Lace Two-Piece Set | Sets | Natural Ivory | Approved and integrated |
 | Wren Corset Maxi Dress | Dresses | Black | Approved and integrated |
 
+### Reviewed release — 2026-08-28
+
+| Product | Category | Colour | Status |
+| --- | --- | --- | --- |
+| Halcyon Draped Cape Midi Dress | Dresses | Black | Approved and integrated |
+| Birdie Draped Cape Midi Dress | Dresses | Malachite Blue | Approved and integrated |
+| Maeve Draped Cape Midi Dress | Dresses | Navy Blue | Approved and integrated |
+| Lotus Draped Cape Midi Dress | Dresses | Burgundy | Approved and integrated |
+| Tessa Rose-Print Midi Dress | Dresses | Apricot Ivory | Approved and integrated |
+
 ## Catalogue corrections included
 
 - Added the `Sets` product category and `/collections/sets` collection.
@@ -113,6 +123,9 @@ Twelve reviewed galleries were restored without changing their catalogue invento
 - Corrected Aster from trousers to an eyelet two-piece set.
 - Corrected Anais from trousers to a lace two-piece set.
 - Corrected Tallulah from a pleated skirt to a halter mini dress.
+- Corrected Halcyon, Birdie, Maeve and Lotus from skirts to four independently merchandised colourways of the same draped cape midi dress.
+- Corrected the four draped-dress colourway inventory totals from placeholders to the active supplier totals without combining the products.
+- Removed Tessa size S from the active size list because that supplier variant is out of stock.
 - Split the grouped Venus, Flora, Indie and Jade colour/print variants into 13 independent active products, each with a unique name, one colour and its own four-angle gallery.
 - Excluded the inactive Flora ivory reference; only the three colourways shown as active in the shop were published.
 - Preserved the original aggregate inventory for each split family while assigning positive stock to every new product.

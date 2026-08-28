@@ -4277,15 +4277,15 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "halcyon-midi-skirt",
-    "name": "Halcyon Midi Skirt",
+    "name": "Halcyon Draped Cape Midi Dress",
     "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
+    "category": "Dresses",
+    "price": 68,
+    "compareAt": 85,
     "sheet": "one",
     "quadrant": 3,
     "colors": [
-      "#1b1b1b"
+      "#171717"
     ],
     "colorNames": [
       "Black"
@@ -4297,13 +4297,16 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Halcyon Midi Skirt is the AMB take on the modern midi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "description": "Halcyon is a fitted black midi dress with a shallow boat neckline, flowing cape sleeves and a softly layered cowl drape across the bodice. A defined waist, straight pencil skirt and centered back vent complete the polished silhouette.",
+    "materials": "Smooth fluid woven fabric with a softly structured drape. Exact fibre composition follows the garment label.",
+    "care": "Follow the care label attached to the garment. Use a cold gentle cycle when permitted and air dry to preserve the drape and shape.",
     "images": [
-      "/products/halcyon-midi-skirt/01.webp"
+      "/products/halcyon-midi-skirt/01.webp",
+      "/products/halcyon-midi-skirt/02.webp",
+      "/products/halcyon-midi-skirt/03.webp",
+      "/products/halcyon-midi-skirt/04.webp"
     ],
-    "stock": 9999,
+    "stock": 4994,
     "weightOz": 12.73,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -4311,11 +4314,11 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "birdie-midi-skirt",
-    "name": "Birdie Midi Skirt",
+    "name": "Birdie Draped Cape Midi Dress",
     "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
+    "category": "Dresses",
+    "price": 68,
+    "compareAt": 85,
     "sheet": "two",
     "quadrant": 4,
     "colors": [
@@ -4331,13 +4334,16 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Birdie Midi Skirt is the AMB take on the modern midi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "description": "Birdie is a fitted Malachite Blue midi dress with a shallow boat neckline, flowing cape sleeves and a softly layered cowl drape across the bodice. A defined waist, straight pencil skirt and centered back vent complete the polished silhouette.",
+    "materials": "Smooth fluid woven fabric with a softly structured drape. Exact fibre composition follows the garment label.",
+    "care": "Follow the care label attached to the garment. Use a cold gentle cycle when permitted and air dry to preserve the drape and colour.",
     "images": [
-      "/products/birdie-midi-skirt/01.webp"
+      "/products/birdie-midi-skirt/01.webp",
+      "/products/birdie-midi-skirt/02.webp",
+      "/products/birdie-midi-skirt/03.webp",
+      "/products/birdie-midi-skirt/04.webp"
     ],
-    "stock": 9999,
+    "stock": 4978,
     "weightOz": 12.73,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -4345,11 +4351,11 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "maeve-midi-skirt",
-    "name": "Maeve Midi Skirt",
+    "name": "Maeve Draped Cape Midi Dress",
     "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
+    "category": "Dresses",
+    "price": 68,
+    "compareAt": 85,
     "sheet": "one",
     "quadrant": 1,
     "colors": [
@@ -4365,24 +4371,27 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Maeve Midi Skirt is the AMB take on the modern midi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "description": "Maeve is a fitted Navy Blue midi dress with a shallow boat neckline, flowing cape sleeves and a softly layered cowl drape across the bodice. A defined waist, straight pencil skirt and centered back vent complete the polished silhouette.",
+    "materials": "Smooth fluid woven fabric with a softly structured drape. Exact fibre composition follows the garment label.",
+    "care": "Follow the care label attached to the garment. Use a cold gentle cycle when permitted and air dry to preserve the drape and colour.",
     "images": [
-      "/products/maeve-midi-skirt/01.webp"
+      "/products/maeve-midi-skirt/01.webp",
+      "/products/maeve-midi-skirt/02.webp",
+      "/products/maeve-midi-skirt/03.webp",
+      "/products/maeve-midi-skirt/04.webp"
     ],
-    "stock": 9999,
+    "stock": 4993,
     "weightOz": 12.73,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40
   },
   {
     "slug": "lotus-midi-skirt",
-    "name": "Lotus Midi Skirt",
+    "name": "Lotus Draped Cape Midi Dress",
     "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
-    "price": 58,
-    "compareAt": 75,
+    "category": "Dresses",
+    "price": 68,
+    "compareAt": 85,
     "sheet": "two",
     "quadrant": 2,
     "colors": [
@@ -4398,15 +4407,16 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Lotus Midi Skirt is the AMB take on the modern midi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a softly structured finish.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "description": "Lotus is a fitted Burgundy midi dress with a shallow boat neckline, flowing cape sleeves and a softly layered cowl drape across the bodice. A defined waist, straight pencil skirt and centered back vent complete the polished silhouette.",
+    "materials": "Smooth fluid woven fabric with a softly structured drape. Exact fibre composition follows the garment label.",
+    "care": "Follow the care label attached to the garment. Use a cold gentle cycle when permitted and air dry to preserve the drape and colour.",
     "images": [
       "/products/lotus-midi-skirt/01.webp",
       "/products/lotus-midi-skirt/02.webp",
-      "/products/lotus-midi-skirt/03.webp"
+      "/products/lotus-midi-skirt/03.webp",
+      "/products/lotus-midi-skirt/04.webp"
     ],
-    "stock": 9999,
+    "stock": 4989,
     "weightOz": 12.73,
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
@@ -4487,7 +4497,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "tessa-midi-dress",
-    "name": "Tessa Midi Dress",
+    "name": "Tessa Rose-Print Midi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -4495,25 +4505,25 @@ const allGeneratedProducts: Product[] = [
     "sheet": "one",
     "quadrant": 1,
     "colors": [
-      "#e8c4a0"
+      "#f3ede2"
     ],
     "colorNames": [
-      "Apricot"
+      "Apricot Ivory"
     ],
     "sizes": [
-      "S",
       "M",
       "L",
       "XL",
       "XXL"
     ],
-    "description": "Tessa Midi Dress is the AMB take on the modern midi dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "description": "Tessa is an Apricot Ivory midi dress patterned with oversized pink roses and olive-green leaves. A high stand collar, fitted cap sleeves, tailored bodice, side-seam pockets and a full A-line skirt create its polished occasion silhouette.",
+    "materials": "Smooth structured woven fabric with an all-over botanical print. Exact fibre composition follows the garment label.",
+    "care": "Follow the care label attached to the garment. Use a cold gentle cycle when permitted and air dry to preserve the print and structure.",
     "images": [
       "/products/tessa-midi-dress/01.webp",
       "/products/tessa-midi-dress/02.webp",
-      "/products/tessa-midi-dress/03.webp"
+      "/products/tessa-midi-dress/03.webp",
+      "/products/tessa-midi-dress/04.webp"
     ],
     "stock": 10,
     "weightOz": 19.4,
@@ -7722,6 +7732,11 @@ export const approvedNewProductSlugs = new Set<string>([
   "tallulah-pleated-skirt",
   "anais-trousers",
   "wren-maxi-dress",
+  "halcyon-midi-skirt",
+  "birdie-midi-skirt",
+  "maeve-midi-skirt",
+  "lotus-midi-skirt",
+  "tessa-midi-dress",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(

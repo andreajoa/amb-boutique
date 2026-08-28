@@ -1,11 +1,11 @@
 # Product Gallery Batch Manifest
 
-Last updated: 2026-08-27
+Last updated: 2026-08-28
 
 ## Release rules
 
 - Preserve the 81 established products.
-- Preserve the 70 approved imported products in production.
+- Preserve the 75 approved imported products in production.
 - Keep every remaining imported product hidden until its full gallery passes review.
 - Required order: front, back, left profile, right profile.
 - Required output: 1600 x 1600 WebP, sRGB, AMB warm ivory background.
@@ -15,8 +15,8 @@ Last updated: 2026-08-27
 ## Current totals
 
 - Imported products: 135
-- Approved galleries: 70
-- Hidden products: 65
+- Approved galleries: 75
+- Hidden products: 60
 - Supplier products resolved: 134 / 135
 - Source packages recovered: 81
 - Valid source images: 469
@@ -124,6 +124,12 @@ The second reviewed release adds exactly 20 independent products:
 - Set: Anais Lace Two-Piece Set in Natural Ivory, corrected from trousers to its source-faithful two-piece category.
 - Dress: Wren Corset Maxi Dress in Black, with its square neckline, corset-laced low back and draped hip construction preserved.
 - Both products use reviewed front, back, left-profile and right-profile galleries in 1600 x 1600 WebP format.
+
+## Approved release — 2026-08-28
+
+- Four independent active colour products from source 20: Halcyon Black, Birdie Malachite Blue, Maeve Navy Blue and Lotus Burgundy. Each is corrected from skirt to Draped Cape Midi Dress and keeps its own supplier-derived stock total.
+- Tessa Rose-Print Midi Dress from source 23 in Apricot Ivory, with the unavailable size S excluded from the active size list.
+- All five products use separately reviewed front, back, left-profile and right-profile galleries in 1600 x 1600 WebP format.
 
 ## Production order
 
