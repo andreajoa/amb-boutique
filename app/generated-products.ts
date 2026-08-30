@@ -2930,47 +2930,6 @@ const allGeneratedProducts: Product[] = [
     "minimumMarginPercent": 40
   },
   {
-    "slug": "evelina-ivory-tulle-bridal-dress",
-    "name": "Evelina Ivory Tulle Bridal Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 189,
-    "compareAt": 248,
-    "badge": "Just In",
-    "sheet": "one",
-    "quadrant": 1,
-    "colors": [
-      "#faf5eb"
-    ],
-    "colorNames": [
-      "Ivory"
-    ],
-    "sizes": [
-      "2",
-      "4",
-      "6",
-      "8",
-      "10",
-      "12",
-      "14",
-      "16"
-    ],
-    "description": "Evelina Ivory Tulle Bridal Dress pairs a deep V-neckline and gathered tulle straps with an open back and a flowing floor-length skirt. The warm ivory tone creates a distinct bridal look with soft movement.",
-    "materials": "Lightweight tulle overlaying a soft lining with a smooth satin waistband.",
-    "care": "Professional dry clean only. Store in a breathable garment bag away from direct sunlight.",
-    "images": [
-      "/products/evelina-ivory-tulle-bridal-dress/01.webp",
-      "/products/evelina-ivory-tulle-bridal-dress/02.webp",
-      "/products/evelina-ivory-tulle-bridal-dress/03.webp",
-      "/products/evelina-ivory-tulle-bridal-dress/04.webp"
-    ],
-    "stock": 4484,
-    "weightOz": 42.33,
-    "unitCostUsd": 23.85,
-    "minimumMarginPercent": 40
-  },
-
-  {
     "slug": "calla-maxi-dress",
     "name": "Calla Maxi Dress",
     "vendor": "AMB BOUTIQUE",
@@ -8256,7 +8215,6 @@ export const approvedNewProductSlugs = new Set<string>([
   "cleo-pleated-skirt",
   "cosima-bodycon-dress",
   "demi-dress",
-  "evelina-ivory-tulle-bridal-dress",
   "fern-trousers",
   "flor-maxi-skirt",
   "gianna-maxi-skirt",
