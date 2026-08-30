@@ -1,23 +1,23 @@
 # Product Gallery Batch Manifest
 
-Last updated: 2026-08-28
+Last updated: 2026-08-30
 
 ## Release rules
 
 - Preserve the 81 established products.
-- Preserve the 105 approved imported products in production.
-- Keep every remaining imported product hidden until its full gallery passes review.
+- Preserve the 105 previously approved imported products in production without changing their assets or records.
+- Publish a new product only after its complete four-angle gallery passes review.
 - Required order: front, back, left profile, right profile.
 - Required output: 1600 x 1600 WebP, sRGB, AMB warm ivory background.
 - Never infer construction from the product name alone.
-- Seraphina remains blocked until a real source is supplied.
+- Each colour is an independent product with its own name, URL and gallery.
 
 ## Current totals
 
-- Imported products: 144
-- Approved galleries: 105
-- Hidden products: 39
-- Supplier products resolved: 143 / 144
+- Imported products: 145
+- Approved galleries: 145
+- Hidden products: 0
+- Supplier products resolved: 143 / 145
 - Source packages recovered: 81
 - Valid source images: 469
 - Real angular views: 158
@@ -146,6 +146,14 @@ The second reviewed release adds exactly 20 independent products:
 - Source 83: Tessa Black, Maven Blue, Jules Green, Lila Apricot, Poppy Pink and Sunny Yellow cover all six active draped midi-dress colourways.
 - Six missing colour records were added as independent products; every colour has its own name, URL, stock and four-angle gallery.
 - All 80 images passed visual review for matching color and construction before any of these 20 products were approved.
+
+## Final reviewed release — 2026-08-30
+
+- The 39 remaining hidden catalogue records received complete front, back, left-profile and right-profile galleries.
+- Seraphina White and Evelina Ivory are published as separate bridal products with separate names, URLs, colours and galleries, bringing the release to 40 products and 160 final images.
+- Stella is corrected from shorts to a black studded mesh stiletto boot; Celine and Cleo are corrected to halter mini dresses; Gianna, Valentina and Nadia are corrected to sets; Willow is corrected to a slip maxi dress.
+- Livia is corrected to Light Blue, and the generic print records now use their reviewed colour/print identities.
+- Every gallery passed the four-file, 1600 × 1600, unique-image and same-product/same-colour review before the approval list was changed.
 
 ## Production order
 

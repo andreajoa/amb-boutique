@@ -1,22 +1,22 @@
 # Catalogue Standardization Progress
 
-Last updated: 2026-08-28
+Last updated: 2026-08-30
 
 ## Scope
 
-- Active products in the imported batch: 144
-- Product bases: 73 (72 supplier bases plus Seraphina)
-- Required final gallery images: 576
+- Active products in the imported batch: 145
+- Product bases: 73 (72 supplier bases plus the split White/Ivory bridal base)
+- Required final gallery images: 580
 - Final image order: front, back, left profile, right profile
 - Final format: 1600 × 1600 WebP, sRGB, warm ivory AMB studio background
 
 ## Current progress
 
-- Published imported galleries: 105 / 144
-- Hidden imported products awaiting approval: 39 / 144
-- Integrated final images: 420 / 576
-- Supplier identity resolved: 143 / 144
-- Production build: passing (305 pages)
+- Published imported galleries: 145 / 145
+- Hidden imported products awaiting approval: 0 / 145
+- Integrated final images: 580 / 580
+- Supplier identity resolved: 143 / 145
+- Production build: passing (344 pages)
 
 ## Completed galleries
 
@@ -150,6 +150,13 @@ Twelve reviewed galleries were restored without changing their catalogue invento
 | Poppy Pink Draped Midi Dress | Dresses | Pink | Approved and integrated |
 | Sunny Yellow Draped Midi Dress | Dresses | Yellow | Approved and integrated |
 
+### Final reviewed release — 2026-08-30
+
+- Completed and approved the final 39 hidden catalogue records.
+- Split the grouped bridal record into Seraphina White and Evelina Ivory, so the final release contains 40 independent products and 160 reviewed images.
+- Confirmed one colour, four unique 1600 × 1600 views and complete local assets for every imported product before approval.
+- Preserved the 81 established products and all 105 previously live imported products unchanged.
+
 ## Catalogue corrections included
 
 - Added the `Sets` product category and `/collections/sets` collection.
@@ -176,7 +183,7 @@ Twelve reviewed galleries were restored without changing their catalogue invento
 - Split the grouped Venus, Flora, Indie and Jade colour/print variants into 13 independent active products, each with a unique name, one colour and its own four-angle gallery.
 - Excluded the inactive Flora ivory reference; only the three colourways shown as active in the shop were published.
 - Preserved the original aggregate inventory for each split family while assigning positive stock to every new product.
-- Kept Fern hidden after visual review found that its gallery was not ready for publication.
+- Rebuilt Fern's red set gallery and approved it only after the four-angle review passed.
 - Kept exact fibre composition tied to the garment label where the supplier export does not provide it.
 
 ## Validation gates for every remaining base

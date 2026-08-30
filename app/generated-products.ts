@@ -2891,7 +2891,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "seraphina-tulle-bridal-dress",
-    "name": "Seraphina Tulle Bridal Dress",
+    "name": "Seraphina White Tulle Bridal Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 189,
@@ -2900,12 +2900,10 @@ const allGeneratedProducts: Product[] = [
     "sheet": "one",
     "quadrant": 1,
     "colors": [
-      "#f5f5f0",
-      "#faf5eb"
+      "#f5f5f0"
     ],
     "colorNames": [
-      "White",
-      "Ivory"
+      "White"
     ],
     "sizes": [
       "2",
@@ -2926,7 +2924,47 @@ const allGeneratedProducts: Product[] = [
       "/products/seraphina-tulle-bridal-dress/03.webp",
       "/products/seraphina-tulle-bridal-dress/04.webp"
     ],
-    "stock": 8968,
+    "stock": 4484,
+    "weightOz": 42.33,
+    "unitCostUsd": 23.85,
+    "minimumMarginPercent": 40
+  },
+  {
+    "slug": "evelina-ivory-tulle-bridal-dress",
+    "name": "Evelina Ivory Tulle Bridal Dress",
+    "vendor": "AMB BOUTIQUE",
+    "category": "Dresses",
+    "price": 189,
+    "compareAt": 248,
+    "badge": "Just In",
+    "sheet": "one",
+    "quadrant": 1,
+    "colors": [
+      "#faf5eb"
+    ],
+    "colorNames": [
+      "Ivory"
+    ],
+    "sizes": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "description": "Evelina Ivory Tulle Bridal Dress pairs a deep V-neckline and gathered tulle straps with an open back and a flowing floor-length skirt. The warm ivory tone creates a distinct bridal look with soft movement.",
+    "materials": "Lightweight tulle overlaying a soft lining with a smooth satin waistband.",
+    "care": "Professional dry clean only. Store in a breathable garment bag away from direct sunlight.",
+    "images": [
+      "/products/evelina-ivory-tulle-bridal-dress/01.webp",
+      "/products/evelina-ivory-tulle-bridal-dress/02.webp",
+      "/products/evelina-ivory-tulle-bridal-dress/03.webp",
+      "/products/evelina-ivory-tulle-bridal-dress/04.webp"
+    ],
+    "stock": 4484,
     "weightOz": 42.33,
     "unitCostUsd": 23.85,
     "minimumMarginPercent": 40
@@ -3543,7 +3581,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/flor-maxi-skirt/01.webp"
+      "/products/flor-maxi-skirt/01.webp",
+      "/products/flor-maxi-skirt/02.webp",
+      "/products/flor-maxi-skirt/03.webp",
+      "/products/flor-maxi-skirt/04.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
@@ -3577,7 +3618,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/thea-maxi-skirt/01.webp"
+      "/products/thea-maxi-skirt/01.webp",
+      "/products/thea-maxi-skirt/02.webp",
+      "/products/thea-maxi-skirt/03.webp",
+      "/products/thea-maxi-skirt/04.webp"
     ],
     "stock": 9999,
     "weightOz": 12.35,
@@ -4424,18 +4468,19 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "stella-tailored-shorts",
-    "name": "Stella Tailored Shorts",
+    "name": "Stella Studded Mesh Stiletto Boot",
     "vendor": "AMB BOUTIQUE",
-    "category": "Shorts",
+    "category": "Shoes",
+    "subcategory": "Heels",
     "price": 48,
     "compareAt": 60,
     "sheet": "one",
     "quadrant": 3,
     "colors": [
-      "#d5c4a1"
+      "#111111"
     ],
     "colorNames": [
-      "Natural"
+      "Black"
     ],
     "sizes": [
       "34",
@@ -4447,11 +4492,14 @@ const allGeneratedProducts: Product[] = [
       "40",
       "41"
     ],
-    "description": "Stella Tailored Shorts is the AMB take on the modern tailored shorts. A refined silhouette with thoughtful details that moves effortlessly for warm days, beach walks and effortless weekends. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Soft mesh fabric with a smooth stretch lining.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "description": "Stella is a black mesh ankle boot with a sharply pointed toe, slim gold stiletto heel, pleated collar and polished gold stud trim.",
+    "materials": "Sheer black mesh with smooth synthetic trim and metallic stud detailing.",
+    "care": "Wipe the trim with a soft dry cloth and protect the mesh from abrasion and moisture.",
     "images": [
-      "/products/stella-tailored-shorts/01.webp"
+      "/products/stella-tailored-shorts/01.webp",
+      "/products/stella-tailored-shorts/02.webp",
+      "/products/stella-tailored-shorts/03.webp",
+      "/products/stella-tailored-shorts/04.webp"
     ],
     "stock": 2947,
     "weightOz": 70.55,
@@ -4595,7 +4643,8 @@ const allGeneratedProducts: Product[] = [
     "images": [
       "/products/demi-dress/01.webp",
       "/products/demi-dress/02.webp",
-      "/products/demi-dress/03.webp"
+      "/products/demi-dress/03.webp",
+      "/products/demi-dress/04.webp"
     ],
     "stock": 281,
     "weightOz": 18.62,
@@ -4629,7 +4678,9 @@ const allGeneratedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/rae-dress/01.webp",
-      "/products/rae-dress/02.webp"
+      "/products/rae-dress/02.webp",
+      "/products/rae-dress/03.webp",
+      "/products/rae-dress/04.webp"
     ],
     "stock": 281,
     "weightOz": 18.62,
@@ -4661,7 +4712,9 @@ const allGeneratedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/kai-tank-top/01.webp",
-      "/products/kai-tank-top/02.webp"
+      "/products/kai-tank-top/02.webp",
+      "/products/kai-tank-top/03.webp",
+      "/products/kai-tank-top/04.webp"
     ],
     "stock": 3154,
     "weightOz": 5.29,
@@ -4692,7 +4745,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Soft ribbed knit with gentle stretch for all-day comfort.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/hope-tank-top/01.webp"
+      "/products/hope-tank-top/01.webp",
+      "/products/hope-tank-top/02.webp",
+      "/products/hope-tank-top/03.webp",
+      "/products/hope-tank-top/04.webp"
     ],
     "stock": 3154,
     "weightOz": 5.29,
@@ -4724,7 +4780,9 @@ const allGeneratedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/britt-tank-top/01.webp",
-      "/products/britt-tank-top/02.webp"
+      "/products/britt-tank-top/02.webp",
+      "/products/britt-tank-top/03.webp",
+      "/products/britt-tank-top/04.webp"
     ],
     "stock": 3154,
     "weightOz": 5.29,
@@ -5087,7 +5145,9 @@ const allGeneratedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/bonnie-denim-shorts/01.webp",
-      "/products/bonnie-denim-shorts/02.webp"
+      "/products/bonnie-denim-shorts/02.webp",
+      "/products/bonnie-denim-shorts/03.webp",
+      "/products/bonnie-denim-shorts/04.webp"
     ],
     "stock": 9999,
     "weightOz": 9.88,
@@ -5123,7 +5183,8 @@ const allGeneratedProducts: Product[] = [
     "images": [
       "/products/pearl-denim-shorts/01.webp",
       "/products/pearl-denim-shorts/02.webp",
-      "/products/pearl-denim-shorts/03.webp"
+      "/products/pearl-denim-shorts/03.webp",
+      "/products/pearl-denim-shorts/04.webp"
     ],
     "stock": 9999,
     "weightOz": 9.88,
@@ -5306,7 +5367,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Premium stretch denim with a soft, lived-in hand feel.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/jaya-denim-shorts/01.webp"
+      "/products/jaya-denim-shorts/01.webp",
+      "/products/jaya-denim-shorts/02.webp",
+      "/products/jaya-denim-shorts/03.webp",
+      "/products/jaya-denim-shorts/04.webp"
     ],
     "stock": 1589,
     "weightOz": 6.53,
@@ -5399,10 +5463,10 @@ const allGeneratedProducts: Product[] = [
     "sheet": "one",
     "quadrant": 3,
     "colors": [
-      "#d5c4a1"
+      "#83b9df"
     ],
     "colorNames": [
-      "Natural"
+      "Light Blue"
     ],
     "sizes": [
       "XS",
@@ -5462,9 +5526,9 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "celine-pleated-skirt",
-    "name": "Celine Pleated Skirt",
+    "name": "Celine Powder-Blue Halter Mini Dress",
     "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
+    "category": "Dresses",
     "price": 58,
     "compareAt": 75,
     "sheet": "one",
@@ -5480,11 +5544,14 @@ const allGeneratedProducts: Product[] = [
       "M",
       "L"
     ],
-    "description": "Celine Pleated Skirt is the AMB take on the modern pleated skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Celine is a powder-blue halter mini dress with a wrapped neckline, triangular keyhole and softly flared skirt.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/celine-pleated-skirt/01.webp"
+      "/products/celine-pleated-skirt/01.webp",
+      "/products/celine-pleated-skirt/02.webp",
+      "/products/celine-pleated-skirt/03.webp",
+      "/products/celine-pleated-skirt/04.webp"
     ],
     "stock": 3200,
     "weightOz": 12.52,
@@ -5493,9 +5560,9 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "cleo-pleated-skirt",
-    "name": "Cleo Pleated Skirt",
+    "name": "Cleo White Halter Mini Dress",
     "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
+    "category": "Dresses",
     "price": 58,
     "compareAt": 75,
     "sheet": "two",
@@ -5511,11 +5578,14 @@ const allGeneratedProducts: Product[] = [
       "M",
       "L"
     ],
-    "description": "Cleo Pleated Skirt is the AMB take on the modern pleated skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Cleo is a white halter mini dress with a wrapped neckline, triangular keyhole and softly flared skirt.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/cleo-pleated-skirt/01.webp"
+      "/products/cleo-pleated-skirt/01.webp",
+      "/products/cleo-pleated-skirt/02.webp",
+      "/products/cleo-pleated-skirt/03.webp",
+      "/products/cleo-pleated-skirt/04.webp"
     ],
     "stock": 3200,
     "weightOz": 12.52,
@@ -5561,9 +5631,9 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "gianna-maxi-skirt",
-    "name": "Gianna Maxi Skirt",
+    "name": "Gianna Ivory Eyelet Two-Piece Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
+    "category": "Sets",
     "price": 58,
     "compareAt": 75,
     "sheet": "two",
@@ -5572,12 +5642,12 @@ const allGeneratedProducts: Product[] = [
       "#d5c4a1"
     ],
     "colorNames": [
-      "Natural"
+      "Ivory"
     ],
     "sizes": [
       "One Size"
     ],
-    "description": "Gianna Maxi Skirt is the AMB take on the modern maxi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Gianna pairs an ivory eyelet blouse with a coordinating long skirt for a light, textured two-piece look.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -5970,9 +6040,9 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "valentina-wide-leg-trousers",
-    "name": "Valentina Wide-Leg Trousers",
+    "name": "Valentina Black Polka-Dot Resort Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
+    "category": "Sets",
     "price": 62,
     "compareAt": 80,
     "sheet": "one",
@@ -5990,12 +6060,14 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Valentina Wide-Leg Trousers is the AMB take on the modern wide-leg trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Valentina is a black two-piece resort set with oversized white polka dots, a fluid one-shoulder top and coordinating wide-leg trousers.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/valentina-wide-leg-trousers/01.webp",
-      "/products/valentina-wide-leg-trousers/02.webp"
+      "/products/valentina-wide-leg-trousers/02.webp",
+      "/products/valentina-wide-leg-trousers/03.webp",
+      "/products/valentina-wide-leg-trousers/04.webp"
     ],
     "stock": 9999,
     "weightOz": 18.34,
@@ -6005,9 +6077,9 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "nadia-wide-leg-trousers",
-    "name": "Nadia Wide-Leg Trousers",
+    "name": "Nadia Red Polka-Dot Resort Set",
     "vendor": "AMB BOUTIQUE",
-    "category": "Pants",
+    "category": "Sets",
     "price": 62,
     "compareAt": 80,
     "sheet": "two",
@@ -6025,7 +6097,7 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Nadia Wide-Leg Trousers is the AMB take on the modern wide-leg trousers. A refined silhouette with thoughtful details that moves effortlessly for the office, dinner dates and everything in between. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Nadia is a red two-piece resort set with oversized ivory polka dots, a fluid one-shoulder top and coordinating wide-leg trousers.",
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -6042,9 +6114,9 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "willow-maxi-skirt",
-    "name": "Willow Maxi Skirt",
+    "name": "Willow Spotted Slip Maxi Dress",
     "vendor": "AMB BOUTIQUE",
-    "category": "Skirts",
+    "category": "Dresses",
     "price": 58,
     "compareAt": 75,
     "sheet": "one",
@@ -6060,7 +6132,7 @@ const allGeneratedProducts: Product[] = [
       "M",
       "L"
     ],
-    "description": "Willow Maxi Skirt is the AMB take on the modern maxi skirt. A refined silhouette with thoughtful details that moves effortlessly for polished everyday styling and weekend plans. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Willow is a cream slip maxi dress with irregular black spots, fine straps and softly gathered draping through the hip.",
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
@@ -6144,7 +6216,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "oceane-print-dress",
-    "name": "Oceane Print Dress",
+    "name": "Oceane Brown Geometric Mini Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6155,7 +6227,7 @@ const allGeneratedProducts: Product[] = [
       "#d5c4a1"
     ],
     "colorNames": [
-      "Natural"
+      "Brown Geometric"
     ],
     "sizes": [
       "S",
@@ -6164,11 +6236,14 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Oceane Print Dress is the AMB take on the modern print dress. A refined silhouette with thoughtful details that moves effortlessly from daytime brunches to candlelit evenings. Curated in San Diego for a polished, feminine wardrobe.",
+    "description": "Oceane is a sleeveless mini dress with an easy shift silhouette and a layered brown geometric print.",
     "materials": "Smooth woven fabric with a vibrant, fade-resistant print.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/oceane-print-dress/01.webp"
+      "/products/oceane-print-dress/01.webp",
+      "/products/oceane-print-dress/02.webp",
+      "/products/oceane-print-dress/03.webp",
+      "/products/oceane-print-dress/04.webp"
     ],
     "stock": 9999,
     "weightOz": 11.64,
@@ -6178,7 +6253,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "ilaria-dress",
-    "name": "Ilaria Dress",
+    "name": "Ilaria Teal Abstract Maxi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6189,7 +6264,7 @@ const allGeneratedProducts: Product[] = [
       "#d5c4a1"
     ],
     "colorNames": [
-      "Natural"
+      "Teal Abstract"
     ],
     "sizes": [
       "S",
@@ -6215,7 +6290,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "zara-dress",
-    "name": "Zara Dress",
+    "name": "Zara Tan Geometric Midi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6226,7 +6301,7 @@ const allGeneratedProducts: Product[] = [
       "#d5c4a1"
     ],
     "colorNames": [
-      "Natural"
+      "Tan Geometric"
     ],
     "sizes": [
       "S",
@@ -6252,7 +6327,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "greer-maxi-dress",
-    "name": "Greer Maxi Dress",
+    "name": "Greer Turquoise Swirl Maxi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6263,7 +6338,7 @@ const allGeneratedProducts: Product[] = [
       "#d5c4a1"
     ],
     "colorNames": [
-      "Natural"
+      "Turquoise Swirl"
     ],
     "sizes": [
       "S",
@@ -6578,7 +6653,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "winter-print-dress",
-    "name": "Winter Print Dress",
+    "name": "Winter Blue Porcelain Floral Maxi Dress",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
@@ -6589,7 +6664,7 @@ const allGeneratedProducts: Product[] = [
       "#d5c4a1"
     ],
     "colorNames": [
-      "Natural"
+      "Blue Floral"
     ],
     "sizes": [
       "S",
@@ -7173,7 +7248,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "olive-maxi-skirt",
-    "name": "Olive Maxi Skirt",
+    "name": "Olive Black Gingham Maxi Skirt",
     "vendor": "AMB BOUTIQUE",
     "category": "Skirts",
     "price": 58,
@@ -7184,7 +7259,7 @@ const allGeneratedProducts: Product[] = [
       "#1b1b1b"
     ],
     "colorNames": [
-      "Black"
+      "Black Gingham"
     ],
     "sizes": [
       "S",
@@ -7199,7 +7274,8 @@ const allGeneratedProducts: Product[] = [
     "images": [
       "/products/olive-maxi-skirt/01.webp",
       "/products/olive-maxi-skirt/02.webp",
-      "/products/olive-maxi-skirt/03.webp"
+      "/products/olive-maxi-skirt/03.webp",
+      "/products/olive-maxi-skirt/04.webp"
     ],
     "stock": 9999,
     "weightOz": 7.05,
@@ -7209,7 +7285,7 @@ const allGeneratedProducts: Product[] = [
   },
   {
     "slug": "ondine-midi-skirt",
-    "name": "Ondine Midi Skirt",
+    "name": "Ondine Black Layered Mesh Midi Skirt",
     "vendor": "AMB BOUTIQUE",
     "category": "Skirts",
     "price": 58,
@@ -7229,7 +7305,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Soft mesh fabric with a smooth stretch lining.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/ondine-midi-skirt/01.webp"
+      "/products/ondine-midi-skirt/01.webp",
+      "/products/ondine-midi-skirt/02.webp",
+      "/products/ondine-midi-skirt/03.webp",
+      "/products/ondine-midi-skirt/04.webp"
     ],
     "stock": 776,
     "weightOz": 9.17,
@@ -7303,7 +7382,8 @@ const allGeneratedProducts: Product[] = [
     "images": [
       "/products/clara-maxi-dress/01.webp",
       "/products/clara-maxi-dress/02.webp",
-      "/products/clara-maxi-dress/03.webp"
+      "/products/clara-maxi-dress/03.webp",
+      "/products/clara-maxi-dress/04.webp"
     ],
     "stock": 9999,
     "weightOz": 17.28,
@@ -7340,7 +7420,8 @@ const allGeneratedProducts: Product[] = [
     "images": [
       "/products/xiomara-maxi-dress/01.webp",
       "/products/xiomara-maxi-dress/02.webp",
-      "/products/xiomara-maxi-dress/03.webp"
+      "/products/xiomara-maxi-dress/03.webp",
+      "/products/xiomara-maxi-dress/04.webp"
     ],
     "stock": 9999,
     "weightOz": 17.28,
@@ -7408,7 +7489,9 @@ const allGeneratedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/noemi-maxi-dress/01.webp",
-      "/products/noemi-maxi-dress/02.webp"
+      "/products/noemi-maxi-dress/02.webp",
+      "/products/noemi-maxi-dress/03.webp",
+      "/products/noemi-maxi-dress/04.webp"
     ],
     "stock": 9000,
     "weightOz": 14.46,
@@ -7474,7 +7557,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/haven-backless-dress/01.webp"
+      "/products/haven-backless-dress/01.webp",
+      "/products/haven-backless-dress/02.webp",
+      "/products/haven-backless-dress/03.webp",
+      "/products/haven-backless-dress/04.webp"
     ],
     "stock": 9999,
     "weightOz": 16.23,
@@ -7507,7 +7593,9 @@ const allGeneratedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/pippa-backless-dress/01.webp",
-      "/products/pippa-backless-dress/02.webp"
+      "/products/pippa-backless-dress/02.webp",
+      "/products/pippa-backless-dress/03.webp",
+      "/products/pippa-backless-dress/04.webp"
     ],
     "stock": 9999,
     "weightOz": 16.23,
@@ -7539,7 +7627,9 @@ const allGeneratedProducts: Product[] = [
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
       "/products/kali-backless-dress/01.webp",
-      "/products/kali-backless-dress/02.webp"
+      "/products/kali-backless-dress/02.webp",
+      "/products/kali-backless-dress/03.webp",
+      "/products/kali-backless-dress/04.webp"
     ],
     "stock": 9999,
     "weightOz": 16.23,
@@ -7714,7 +7804,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/cosima-bodycon-dress/01.webp"
+      "/products/cosima-bodycon-dress/01.webp",
+      "/products/cosima-bodycon-dress/02.webp",
+      "/products/cosima-bodycon-dress/03.webp",
+      "/products/cosima-bodycon-dress/04.webp"
     ],
     "stock": 7,
     "weightOz": 8.82,
@@ -7746,7 +7839,10 @@ const allGeneratedProducts: Product[] = [
     "materials": "Smooth woven fabric with a softly structured finish.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/celeste-bodycon-dress/01.webp"
+      "/products/celeste-bodycon-dress/01.webp",
+      "/products/celeste-bodycon-dress/02.webp",
+      "/products/celeste-bodycon-dress/03.webp",
+      "/products/celeste-bodycon-dress/04.webp"
     ],
     "stock": 9999,
     "weightOz": 17.64,
@@ -8152,6 +8248,46 @@ export const approvedNewProductSlugs = new Set<string>([
   "lila-mini-dress-2",
   "poppy-draped-midi-dress",
   "sunny-draped-midi-dress",
+  "bonnie-denim-shorts",
+  "britt-tank-top",
+  "celeste-bodycon-dress",
+  "celine-pleated-skirt",
+  "clara-maxi-dress",
+  "cleo-pleated-skirt",
+  "cosima-bodycon-dress",
+  "demi-dress",
+  "evelina-ivory-tulle-bridal-dress",
+  "fern-trousers",
+  "flor-maxi-skirt",
+  "gianna-maxi-skirt",
+  "greer-maxi-dress",
+  "haven-backless-dress",
+  "hope-tank-top",
+  "ilaria-dress",
+  "jaya-denim-shorts",
+  "kai-tank-top",
+  "kali-backless-dress",
+  "livia-denim-shorts",
+  "nadia-wide-leg-trousers",
+  "nell-maxi-dress",
+  "nico-maxi-dress",
+  "noemi-maxi-dress",
+  "nyx-slip-dress",
+  "oceane-print-dress",
+  "olive-maxi-skirt",
+  "ondine-midi-skirt",
+  "pearl-denim-shorts",
+  "pippa-backless-dress",
+  "rae-dress",
+  "seraphina-tulle-bridal-dress",
+  "stella-tailored-shorts",
+  "thea-maxi-skirt",
+  "valentina-wide-leg-trousers",
+  "willow-maxi-skirt",
+  "winter-print-dress",
+  "xara-bodycon-dress",
+  "xiomara-maxi-dress",
+  "zara-dress",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(
