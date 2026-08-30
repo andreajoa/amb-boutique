@@ -2668,43 +2668,6 @@ const allGeneratedProducts: Product[] = [
     "minimumMarginPercent": 40
   },
   {
-    "slug": "havana-satin-maxi-dress",
-    "name": "Havana Satin Maxi Dress",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Dresses",
-    "price": 118,
-    "badge": "New",
-    "sheet": "two",
-    "quadrant": 4,
-    "colors": [
-      "#774936"
-    ],
-    "colorNames": [
-      "Brown"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL",
-      "XXXL"
-    ],
-    "description": "Havana Satin Maxi Dress is the AMB take on the satin maxi dress. A softly draped neckline, defined waist and floor-skimming satin silhouette bring luminous elegance to every entrance. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth satin-look woven fabric with an elegant liquid sheen.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/havana-satin-maxi-dress/01.webp",
-      "/products/havana-satin-maxi-dress/02.webp",
-      "/products/havana-satin-maxi-dress/03.webp",
-      "/products/havana-satin-maxi-dress/04.webp"
-    ],
-    "stock": 5992,
-    "weightOz": 13,
-    "unitCostUsd": 9.56,
-    "minimumMarginPercent": 40
-  },
-  {
     "slug": "mocha-satin-maxi-dress",
     "name": "Mocha Satin Maxi Dress",
     "vendor": "AMB BOUTIQUE",
