@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import "./heels.css";
 import { StoreProvider } from "./store-provider";
@@ -11,6 +12,7 @@ import { products, type Product } from "./data";
 import { PremiumInteractions } from "./premium-interactions";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ambboutique.online";
+const googleAnalyticsId = "G-DWG9XEX8VS";
 const defaultTitle = "AMB BOUTIQUE | Women’s Dresses, Rompers & Fashion";
 const defaultDescription = "Shop women’s dresses, rompers, skirts, tops, knitwear, bags and heels curated in San Diego. Delivery to the US, Canada, UK, Australia & New Zealand.";
 
@@ -98,7 +100,30 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body><StructuredData/><StoreProvider catalog={getStoreCatalog()}>{children}<AnalyticsTracker/><ScrollReveal/><PremiumInteractions/><CookieConsent/><MarketingPopup/></StoreProvider></body>
+      <body>
+        <StructuredData />
+        <StoreProvider catalog={getStoreCatalog()}>
+          {children}
+          <AnalyticsTracker />
+          <ScrollReveal />
+          <PremiumInteractions />
+          <CookieConsent />
+          <MarketingPopup />
+        </StoreProvider>
+      </body>
+      <Script
+        id="google-analytics-loader"
+        src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics-config" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${googleAnalyticsId}');
+        `}
+      </Script>
     </html>
   );
 }
