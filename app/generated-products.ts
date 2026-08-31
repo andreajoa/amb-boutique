@@ -1,4 +1,5 @@
 import type { Product } from "./data";
+import { august2026Products, august2026ProductSlugs } from "./generated-august-2026-products";
 
 // AMB BOUTIQUE catalogue generated from verified product imports.
 // Each color is intentionally published as its own product; sizes remain variants.
@@ -8057,7 +8058,8 @@ const allGeneratedProducts: Product[] = [
     "unitCostUsd": 2.08,
     "minimumMarginPercent": 40,
     "badge": "Just In"
-  }
+  },
+  ...august2026Products
 ];
 
 // The first 81 records are the established catalogue that was live before the
@@ -8065,6 +8067,7 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  ...august2026ProductSlugs,
   "calla-maxi-dress",
   "talia-wide-leg-trousers",
   "mira-wide-leg-trousers",

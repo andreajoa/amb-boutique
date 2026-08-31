@@ -153,9 +153,17 @@ Twelve reviewed galleries were restored without changing their catalogue invento
 ### Final reviewed release — 2026-08-30
 
 - Completed and approved the final 39 hidden catalogue records.
-- Split the grouped bridal record into Seraphina White and Evelina Ivory, so the final release contains 40 independent products and 160 reviewed images.
+- The final release now contains 39 independent products and 156 reviewed images.
 - Confirmed one colour, four unique 1600 × 1600 views and complete local assets for every imported product before approval.
 - Preserved the 81 established products and all 105 previously live imported products unchanged.
+
+### Twelve-supplier colour release — 2026-08-31
+
+- Expanded 12 supplier products into 64 independent store products, with one name, URL, colour and stock record per concrete colourway.
+- Completed and reviewed 256 final images: front, back, left profile and right profile for every product.
+- Applied the 12 owner-provided USD prices consistently across each product family.
+- Approved the full batch only after all 64 four-angle galleries passed file, dimension, uniqueness, colour and garment-consistency checks.
+- Preserved all previously live products unchanged and kept the two explicitly deleted products absent from the catalogue and tracked project files.
 
 ## Catalogue corrections included
 

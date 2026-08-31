@@ -150,10 +150,18 @@ The second reviewed release adds exactly 20 independent products:
 ## Final reviewed release — 2026-08-30
 
 - The 39 remaining hidden catalogue records received complete front, back, left-profile and right-profile galleries.
-- Seraphina White and Evelina Ivory are published as separate bridal products with separate names, URLs, colours and galleries, bringing the release to 40 products and 160 final images.
+- The final release contains 39 independent products and 156 final images.
 - Stella is corrected from shorts to a black studded mesh stiletto boot; Celine and Cleo are corrected to halter mini dresses; Gianna, Valentina and Nadia are corrected to sets; Willow is corrected to a slip maxi dress.
 - Livia is corrected to Light Blue, and the generic print records now use their reviewed colour/print identities.
 - Every gallery passed the four-file, 1600 × 1600, unique-image and same-product/same-colour review before the approval list was changed.
+
+## Twelve-supplier colour release — 2026-08-31
+
+- The 12 supplied catalogue packages were expanded into 64 independent colour-specific products.
+- Each product has its own name, slug, colour, supplier-derived size and stock data, owner-provided family price and four-angle gallery.
+- All 256 images were reviewed before catalogue approval and exported as unique 1600 × 1600 WebP files.
+- Customisable colour placeholders were excluded; only concrete colours with complete matching galleries were released.
+- Existing live catalogue entries were not modified, and the two explicitly deleted products remain absent.
 
 ## Production order
 
