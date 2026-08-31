@@ -94,6 +94,11 @@ export function GA4EcommerceTracker({ catalog }: { catalog: Product[] }) {
     const before = previousCart.current;
     const after = cartSnapshot(cart);
 
+    if (pathname === "/checkout/success") {
+      previousCart.current = after;
+      return;
+    }
+
     if (analyticsEnabled) {
       for (const [id, line] of after) {
         const oldQuantity = before.get(id)?.quantity || 0;
@@ -123,7 +128,7 @@ export function GA4EcommerceTracker({ catalog }: { catalog: Product[] }) {
     }
 
     previousCart.current = after;
-  }, [analyticsEnabled, cart, catalogBySlug, market]);
+  }, [analyticsEnabled, cart, catalogBySlug, market, pathname]);
 
   useEffect(() => {
     if (cartOpen && !previousCartOpen.current && analyticsEnabled && cart.length) {
