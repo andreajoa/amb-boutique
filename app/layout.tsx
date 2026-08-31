@@ -9,12 +9,12 @@ import { ScrollReveal } from "./scroll-reveal";
 import { MarketingPopup } from "./marketing-popup";
 import { AnalyticsTracker } from "./analytics-tracker";
 import { GA4EcommerceTracker } from "./ga4-ecommerce-tracker";
+import { AhrefsAnalytics } from "./ahrefs-analytics";
 import { products, type Product } from "./data";
 import { PremiumInteractions } from "./premium-interactions";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ambboutique.online";
 const googleAnalyticsId = "G-DWG9XEX8VS";
-const ahrefsAnalyticsKey = "UuDUZXu+e/yk/8oDyQ+KMQ";
 const defaultTitle = "AMB BOUTIQUE | Women’s Dresses, Rompers & Fashion";
 const defaultDescription = "Shop women’s dresses, rompers, skirts, tops, knitwear, bags and heels curated in San Diego. Delivery to the US, Canada, UK, Australia & New Zealand.";
 
@@ -131,17 +131,12 @@ export default function RootLayout({
           src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
           strategy="afterInteractive"
         />
-        <Script
-          id="ahrefs-web-analytics"
-          src="https://analytics.ahrefs.com/analytics.js"
-          data-key={ahrefsAnalyticsKey}
-          strategy="afterInteractive"
-        />
         <StructuredData />
         <StoreProvider catalog={catalog}>
           {children}
           <AnalyticsTracker />
           <GA4EcommerceTracker catalog={catalog} />
+          <AhrefsAnalytics />
           <ScrollReveal />
           <PremiumInteractions />
           <CookieConsent />
