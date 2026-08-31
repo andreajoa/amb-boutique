@@ -101,6 +101,32 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Script id="google-analytics-bootstrap" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            window.gtag = window.gtag || gtag;
+            var ambConsent = 'denied';
+            try {
+              var savedConsent = JSON.parse(localStorage.getItem('amb-cookie-consent-v1') || 'null');
+              if (savedConsent && savedConsent.value === 'all') ambConsent = 'granted';
+            } catch (e) {}
+            gtag('consent', 'default', {
+              analytics_storage: ambConsent,
+              ad_storage: 'denied',
+              ad_user_data: 'denied',
+              ad_personalization: 'denied',
+              wait_for_update: 500
+            });
+            gtag('js', new Date());
+            gtag('config', '${googleAnalyticsId}', { send_page_view: false });
+          `}
+        </Script>
+        <Script
+          id="google-analytics-loader"
+          src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
+          strategy="afterInteractive"
+        />
         <StructuredData />
         <StoreProvider catalog={getStoreCatalog()}>
           {children}
@@ -111,19 +137,6 @@ export default function RootLayout({
           <MarketingPopup />
         </StoreProvider>
       </body>
-      <Script
-        id="google-analytics-loader"
-        src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics-config" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${googleAnalyticsId}');
-        `}
-      </Script>
     </html>
   );
 }
