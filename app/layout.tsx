@@ -8,6 +8,7 @@ import { StructuredData } from "./structured-data";
 import { ScrollReveal } from "./scroll-reveal";
 import { MarketingPopup } from "./marketing-popup";
 import { AnalyticsTracker } from "./analytics-tracker";
+import { GA4EcommerceTracker } from "./ga4-ecommerce-tracker";
 import { products, type Product } from "./data";
 import { PremiumInteractions } from "./premium-interactions";
 
@@ -98,6 +99,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const catalog = getStoreCatalog();
+
   return (
     <html lang="en">
       <body>
@@ -128,9 +131,10 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
         <StructuredData />
-        <StoreProvider catalog={getStoreCatalog()}>
+        <StoreProvider catalog={catalog}>
           {children}
           <AnalyticsTracker />
+          <GA4EcommerceTracker catalog={catalog} />
           <ScrollReveal />
           <PremiumInteractions />
           <CookieConsent />
