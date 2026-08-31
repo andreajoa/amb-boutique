@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+import { ga4Event, updateGA4Consent } from "./ga4";
 
 const consentKey = "amb-cookie-consent-v1";
 const profileKey = "amb-boutique-preferences-v1";
@@ -15,9 +16,17 @@ function randomId(prefix: string) {
   return `${prefix}-${value}`;
 }
 
+function consentValue(): "essential" | "all" | null {
+  try {
+    const value = JSON.parse(localStorage.getItem(consentKey) || "null")?.value;
+    return value === "all" || value === "essential" ? value : null;
+  } catch {
+    return null;
+  }
+}
+
 function consentGranted() {
-  try { return JSON.parse(localStorage.getItem(consentKey) || "null")?.value === "all"; }
-  catch { return false; }
+  return consentValue() === "all";
 }
 
 function identity() {
@@ -66,7 +75,11 @@ export function AnalyticsTracker() {
   const lastPath = useRef("");
 
   useEffect(() => {
-    const update = () => setEnabled(consentGranted());
+    const update = () => {
+      const value = consentValue();
+      updateGA4Consent(value === "all" ? "all" : "essential");
+      setEnabled(value === "all");
+    };
     update();
     window.addEventListener("amb-consent-change", update);
     return () => window.removeEventListener("amb-consent-change", update);
@@ -140,6 +153,13 @@ export function AnalyticsTracker() {
     if (!enabled || !pathname || lastPath.current === pathname) return;
     lastPath.current = pathname;
     scrollMarks.current.clear();
+
+    ga4Event("page_view", {
+      page_title: document.title,
+      page_location: window.location.href,
+      page_path: pathname,
+    });
+
     const ids = identity();
     void fetch("/api/events", {
       method: "POST",
