@@ -165,6 +165,15 @@ Twelve reviewed galleries were restored without changing their catalogue invento
 - Approved the full batch only after all 64 four-angle galleries passed file, dimension, uniqueness, colour and garment-consistency checks.
 - Preserved all previously live products unchanged and kept the two explicitly deleted products absent from the catalogue and tracked project files.
 
+### Eight-supplier formalwear release — 2026-09-01
+
+- Expanded 8 supplied catalogue products into 35 independent store products, with one product name, URL and gallery per concrete colourway.
+- Completed and reviewed 140 final images: front, back, left profile and right profile for every product.
+- Applied the 8 owner-provided USD prices consistently across each product family and preserved supplier-derived sizes, stock and weight.
+- Excluded custom colour and custom-size placeholders from customer-facing options.
+- Approved the image stage only after all 35 galleries passed file-count, 1600 × 1600 dimension, uniqueness, colour and garment-consistency checks.
+- Preserved every previously live product unchanged and kept the two explicitly deleted products absent.
+
 ## Catalogue corrections included
 
 - Added the `Sets` product category and `/collections/sets` collection.

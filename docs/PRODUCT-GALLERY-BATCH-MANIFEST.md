@@ -163,6 +163,25 @@ The second reviewed release adds exactly 20 independent products:
 - Customisable colour placeholders were excluded; only concrete colours with complete matching galleries were released.
 - Existing live catalogue entries were not modified, and the two explicitly deleted products remain absent.
 
+## Eight-supplier formalwear release — 2026-09-01
+
+- The 8 supplied packages were expanded into 35 independent colour-specific products.
+- Every product has a unique name and slug, one concrete colour, supplier-derived sizes and stock, and a complete front/back/left/right gallery.
+- All 140 final assets are unique 1600 × 1600 WebP files and passed visual review before catalogue approval.
+- Custom colour and custom-size placeholders were excluded from the released customer-facing options.
+- Previously live catalogue records were not modified, and the two explicitly deleted products remain absent.
+
+| Supplier product | Sale price |
+| --- | ---: |
+| Weird Puss Elegant Hollow Dress Women Turtleneck Ruched Patchwork Full Sleeve Irregular Hem Skinny Stretch Party Club Bodycon | $98.00 |
+| Pink Dubai Mermaid Evening Dresses 2026 Deep V Neck Sequined Prom Gowns Wedding Party Dress Customized | $383.90 |
+| FableT Glitter Red Prom Dress Vintage Prom Dress Beading Crystals Evening Party Gowns Luxury Birthday Party Dress Customized | $332.90 |
+| Ice Blue Strapless Sequin Mermaid Prom Dress Plunge V-Neck Beaded Crystal Evening Dresses Sparkly Lace Pageant Party Gown Gala | $455.76 |
+| EVS Evening Dress Sweetheart Floral Lace Corset Glitter Mermaid Floor Length Women's Wedding Formal Prom Party Gowns Customized | $263.90 |
+| Prowinea Glitter Bead Homecoming Dress for Girls Lace Appliques Tassel Ceremony Party Vestidos De Graduaction Customized | $361.90 |
+| Customized Black Deep V Appliques Jersey Evening Dresses Long Mesh Sleeve Feather Tiered Mermaid Evening Party Gown For Women | $254.90 |
+| NFYN Sage Green Evening Dresses Tank Sleeveless Party Dress with Tassel vestidos de fiesta Straight Prom Gowns Simple Customized | $325.90 |
+
 ## Production order
 
 1. Bases with three real views.
