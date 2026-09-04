@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { products } from "../../data";
 import { getShippingQuotes } from "../../commerce";
-import { getMerchantAdditionalImages, getMerchantImage } from "../../merchant";
+import { getMerchantAdditionalImages, getMerchantImage, merchantVariantLink } from "../../merchant";
 import ProductDetail from "./product-detail";
 import type { Metadata } from "next";
 
@@ -51,8 +51,11 @@ export default async function ProductPage({ params, searchParams }: ProductPageP
   const requestedHeel = query.heel === undefined ? undefined : Number(query.heel);
   const initialHeelHeightCm = Number.isFinite(requestedHeel) ? requestedHeel : undefined;
   const selectedShoeVariant = product.shoeVariants?.find((variant) => variant.heelHeightCm === initialHeelHeightCm);
+  const availableSizes = selectedShoeVariant?.sizes || product.sizes || [];
+  const selectedSize = query.size && availableSizes.includes(query.size) ? query.size : undefined;
   const activeStock = selectedShoeVariant?.stock ?? product.stock;
   const pageUrl = `${siteUrl}/products/${product.slug}`;
+  const variantPageUrl = merchantVariantLink(product, selectedSize, initialHeelHeightCm);
   const merchantPrimary = getMerchantImage(product);
   const productImages = merchantPrimary
     ? [merchantPrimary, ...getMerchantAdditionalImages(product)]
@@ -62,21 +65,21 @@ export default async function ProductPage({ params, searchParams }: ProductPageP
   const productJsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "@id": `${pageUrl}#product`,
-    url: pageUrl,
+    "@id": `${variantPageUrl}#product`,
+    url: variantPageUrl,
     name: product.name,
     description: product.description || `${product.name}, a contemporary women’s ${product.category.toLowerCase()} style curated by AMB BOUTIQUE in San Diego.`,
-    sku: `AMB-${product.slug.toUpperCase()}`,
+    sku: `AMB-${product.slug.toUpperCase()}${selectedSize ? `-${selectedSize.toUpperCase().replace(/[^A-Z0-9]+/g, "-")}` : ""}`,
     brand: { "@type": "Brand", name: product.vendor || "AMB BOUTIQUE" },
     category: `Women’s ${product.category}`,
     image: productImages,
     ...(product.colorNames?.length ? { color: product.colorNames.join(", ") } : {}),
     ...(product.materials ? { material: product.materials } : {}),
-    ...(query.size ? { size: query.size } : {}),
+    ...(selectedSize ? { size: selectedSize } : {}),
     audience: { "@type": "PeopleAudience", suggestedGender: "female", suggestedMinAge: 18 },
     offers: {
       "@type": "Offer",
-      url: pageUrl,
+      url: variantPageUrl,
       priceCurrency: "USD",
       price: product.price.toFixed(2),
       availability: activeStock === 0 ? "https://schema.org/OutOfStock" : "https://schema.org/InStock",
@@ -109,7 +112,7 @@ export default async function ProductPage({ params, searchParams }: ProductPageP
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}/>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}/>
-    <ProductDetail product={product} initialSize={query.size} initialHeelHeightCm={initialHeelHeightCm} />
+    <ProductDetail product={product} initialSize={selectedSize} initialHeelHeightCm={initialHeelHeightCm} />
   </>;
 }
 
