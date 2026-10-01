@@ -351,7 +351,6 @@ function OrdersPanel({ orders, error }: { orders: DashboardOrder[]; error: strin
               <div><dt>Payment intent</dt><dd className={styles.codeValue}>{order.paymentIntentId || "—"}</dd></div>
               <div><dt>Stripe customer</dt><dd className={styles.codeValue}>{order.customerId || "—"}</dd></div>
               <div><dt>Shipping rate</dt><dd className={styles.codeValue}>{order.shippingRateId || "—"}</dd></div>
-              {order.originalShippingEstimate && order.originalShippingEstimate !== order.shippingEstimate ? <div><dt>Checkout estimate</dt><dd>{order.originalShippingEstimate}</dd></div> : null}
               <div><dt>Order note</dt><dd>{order.orderNote || "No note"}</dd></div>
             </dl>
           </section>
