@@ -6,21 +6,42 @@ import { abandonCheckout, completeJourney, failJourney } from "../../../email/co
 export const runtime = "nodejs";
 
 async function forwardForFulfillment(session: Stripe.Checkout.Session, eventType: string) {
-  const destination = process.env.ORDER_FULFILLMENT_WEBHOOK_URL;
-  if (!destination) {
-    console.info("AMB paid order received", { sessionId: session.id, eventType, paymentStatus: session.payment_status });
-    return;
+  const destination =
+    process.env.ORDER_FULFILLMENT_WEBHOOK_URL?.trim() ||
+    "https://aliexpress-store-manager-six.vercel.app/api/stores/amb-boutique-store/amb/orders/webhook";
+  const secret =
+    process.env.ORDER_FULFILLMENT_WEBHOOK_SECRET?.trim() ||
+    process.env.STORE_CONNECTOR_SYNC_TOKEN?.trim() ||
+    "";
+
+  if (!secret) {
+    throw new Error("Store Manager fulfillment authentication is not configured.");
   }
+
   const response = await fetch(destination, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       "Idempotency-Key": session.id,
-      ...(process.env.ORDER_FULFILLMENT_WEBHOOK_SECRET ? { Authorization: `Bearer ${process.env.ORDER_FULFILLMENT_WEBHOOK_SECRET}` } : {}),
+      Authorization: `Bearer ${secret}`,
     },
-    body: JSON.stringify({ eventType, sessionId: session.id, paymentIntentId: session.payment_intent, customerId: session.customer, customer: session.customer_details, shipping: session.collected_information?.shipping_details, amountTotal: session.amount_total, currency: session.currency, metadata: session.metadata }),
+    body: JSON.stringify({
+      eventType,
+      sessionId: session.id,
+      paymentIntentId:
+        typeof session.payment_intent === "string" ? session.payment_intent : null,
+      amountTotal: session.amount_total,
+      currency: session.currency,
+    }),
+    cache: "no-store",
   });
-  if (!response.ok) throw new Error(`Fulfillment destination returned ${response.status}.`);
+
+  if (!response.ok) {
+    const detail = await response.text().catch(() => "");
+    throw new Error(
+      `Fulfillment destination returned ${response.status}${detail ? `: ${detail.slice(0, 500)}` : ""}.`,
+    );
+  }
 }
 
 export async function POST(request: NextRequest) {
