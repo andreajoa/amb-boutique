@@ -917,3 +917,11 @@ button { cursor: pointer; }
   .horizontal-look > a { min-height: 520px; }
   .rotating-track { animation: none; transform: none; }
 }
+
+.contact-success{min-height:520px;padding:44px 38px;background:var(--cream);display:flex;flex-direction:column;align-items:flex-start;justify-content:center;border:1px solid var(--line)}
+.contact-success-mark{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--ink);color:#fff;font-size:22px;margin-bottom:22px}
+.contact-success-kicker{margin:0 0 12px;color:var(--camel);font-size:10px;font-weight:700;letter-spacing:.18em}
+.contact-success h2{margin:0;font-family:var(--font-cormorant),Georgia,serif;font-size:38px;line-height:1.05;font-weight:500}
+.contact-success>p:not(.contact-success-kicker){max-width:540px;margin:18px 0 28px;color:var(--muted);font-size:14px;line-height:1.75}
+.form-message-error{display:block;margin-top:14px;padding:14px 16px;border:1px solid #d7a69a;background:#fff5f2;color:#7b3428;font-size:12px;line-height:1.6}
+@media(max-width:560px){.contact-success{min-height:430px;padding:32px 22px}.contact-success h2{font-size:32px}}
