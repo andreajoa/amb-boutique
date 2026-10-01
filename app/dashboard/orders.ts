@@ -1,6 +1,7 @@
 import "server-only";
 
 import type Stripe from "stripe";
+import { deliveryWindows, type MarketCode } from "../commerce";
 import { getStripe } from "../stripe-server";
 
 export type DashboardAddress = {
@@ -39,7 +40,8 @@ export type DashboardOrder = {
   subtotal: number;
   shipping: number;
   shippingMethod: string | null;
-  shippingEstimate: string | null;
+  shippingEstimate: string;
+  originalShippingEstimate: string | null;
   shippingRateId: string | null;
   tax: number;
   discount: number;
@@ -138,7 +140,7 @@ export async function getDashboardOrders(days: number): Promise<DashboardOrdersR
         shippingRate = shippingRateRef;
       }
       const estimate = shippingRate?.delivery_estimate;
-      const shippingEstimate = estimate?.minimum && estimate?.maximum
+      const originalShippingEstimate = estimate?.minimum && estimate?.maximum
         ? `${estimate.minimum.value}–${estimate.maximum.value} ${estimate.minimum.unit.replaceAll("_", " ")}s`
         : null;
 
@@ -146,6 +148,9 @@ export async function getDashboardOrders(days: number): Promise<DashboardOrdersR
       const shippingDetails = collected ? collected.shipping_details : null;
       const customer = session.customer_details;
       const currency = (session.currency || session.metadata?.currency || "usd").toUpperCase();
+      const market = (session.metadata?.market || "US") as MarketCode;
+      const currentWindow = deliveryWindows[market] || deliveryWindows.US;
+      const shippingEstimate = `${currentWindow.min}–${currentWindow.max} business days`;
 
       const items: DashboardOrderItem[] = lines.data.map((line) => {
         const metadata = expandedProductMetadata(line);
@@ -172,12 +177,13 @@ export async function getDashboardOrders(days: number): Promise<DashboardOrdersR
         createdAt: session.created * 1000,
         paymentStatus: session.payment_status || "unknown",
         fulfillmentStatus: session.metadata?.fulfillment_status || "unfulfilled",
-        market: session.metadata?.market || "US",
+        market,
         currency,
         subtotal: session.amount_subtotal || 0,
         shipping: session.shipping_cost?.amount_total || 0,
         shippingMethod: shippingRate?.display_name || null,
         shippingEstimate,
+        originalShippingEstimate,
         shippingRateId: typeof shippingRateRef === "string" ? shippingRateRef : shippingRateRef?.id || null,
         tax: session.total_details?.amount_tax || 0,
         discount: session.total_details?.amount_discount || 0,
