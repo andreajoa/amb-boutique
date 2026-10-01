@@ -1,7 +1,7 @@
 import "server-only";
 
 export function ambResendApiKey() {
-  return process.env.AMB_RESEND_API_KEY?.trim() || "";
+  return process.env.AMB_RESEND_API_KEY?.trim() || process.env.RESEND_API_KEY?.trim() || "";
 }
 
 export function ambResendFromEmail() {
