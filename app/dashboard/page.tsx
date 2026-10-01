@@ -16,11 +16,11 @@ const n = (value: unknown) => Number(value || 0);
 const pct = (value: number) => `${value.toFixed(1)}%`;
 const label = (value: unknown) => String(value || "Direct / unknown");
 
-function insight(metrics: Row, email: Row) {
+function insight(metrics: Row, email: Row, paidOrders: number) {
   const sessions = n(metrics.sessions);
   const cartRate = sessions ? n(metrics.cart_sessions) / sessions * 100 : 0;
   const checkoutRate = sessions ? n(metrics.checkout_sessions) / sessions * 100 : 0;
-  const purchaseRate = sessions ? n(metrics.purchase_sessions) / sessions * 100 : 0;
+  const purchaseRate = sessions ? paidOrders / sessions * 100 : 0;
   const delivered = n(email.delivered);
   const openRate = delivered ? n(email.opened) / delivered * 100 : 0;
   const clickRate = delivered ? n(email.clicked) / delivered * 100 : 0;
@@ -138,11 +138,12 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
   const orderResult = await ordersPromise;
 
   const metrics = metricsRows[0] || {};
+  const paidOrders = orderResult.orders.length;
   const email = emailRows[0] || {};
   const sessions = n(metrics.sessions);
   const funnel = Object.fromEntries(funnelRows.map((row) => [String(row.event_type), n(row.people)]));
   const bounceRate = sessions ? n(metrics.bounced) / sessions * 100 : 0;
-  const conversionRate = sessions ? n(metrics.purchase_sessions) / sessions * 100 : 0;
+  const conversionRate = sessions ? paidOrders / sessions * 100 : 0;
   const openRate = n(email.delivered) ? n(email.opened) / n(email.delivered) * 100 : 0;
   const clickRate = n(email.delivered) ? n(email.clicked) / n(email.delivered) * 100 : 0;
 
@@ -167,14 +168,14 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
       <Metric label="Visitors" value={n(metrics.visitors).toLocaleString()} note={`${n(metrics.pageviews).toLocaleString()} page views`}/>
       <Metric label="Sessions" value={sessions.toLocaleString()} note={`${Math.round(n(metrics.avg_duration))}s average attention`}/>
       <Metric label="Bounce" value={pct(bounceRate)} note="Single-page, under 15 seconds"/>
-      <Metric label="Purchase conversion" value={pct(conversionRate)} note={`${n(metrics.purchase_sessions)} purchasing sessions`}/>
+      <Metric label="Purchase conversion" value={pct(conversionRate)} note={`${paidOrders} paid order${paidOrders === 1 ? "" : "s"}`}/>
       <Metric label="Email open rate" value={pct(openRate)} note={`${n(email.opened)} unique message opens`}/>
       <Metric label="Email click rate" value={pct(clickRate)} note={`${n(email.clicked)} clicked messages`}/>
     </section>
 
     <section className={styles.insight}>
       <div><p className={styles.kicker}>NEXT BEST ACTION</p><h2>What the data is saying</h2></div>
-      <p>{insight(metrics, email)}</p>
+      <p>{insight(metrics, email, paidOrders)}</p>
     </section>
 
     <OrdersPanel orders={orderResult.orders} error={orderResult.error}/>
@@ -185,7 +186,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
         <Funnel label="Product view" value={funnel.product_view || 0} max={funnel.product_view || 1}/>
         <Funnel label="Added to bag" value={funnel.add_to_cart || 0} max={funnel.product_view || 1}/>
         <Funnel label="Checkout started" value={funnel.checkout_start || 0} max={funnel.product_view || 1}/>
-        <Funnel label="Purchased" value={funnel.purchase || 0} max={funnel.product_view || 1}/>
+        <Funnel label="Purchased" value={paidOrders} max={funnel.product_view || 1}/>
       </section>
       <section className={styles.panel}>
         <PanelTitle eyebrow="LIFECYCLE" title="Recovery and content engine"/>
