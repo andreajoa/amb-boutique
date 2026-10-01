@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { getStripe } from "../../../stripe-server";
 import { abandonCheckout, completeJourney, failJourney } from "../../../email/commerce-lifecycle";
+import { storeManagerSyncToken } from "../../../store-manager-auth";
 
 export const runtime = "nodejs";
 
@@ -11,8 +12,7 @@ async function forwardForFulfillment(session: Stripe.Checkout.Session, eventType
     "https://aliexpress-store-manager-six.vercel.app/api/stores/amb-boutique-store/amb/orders/webhook";
   const secret =
     process.env.ORDER_FULFILLMENT_WEBHOOK_SECRET?.trim() ||
-    process.env.STORE_CONNECTOR_SYNC_TOKEN?.trim() ||
-    "";
+    storeManagerSyncToken();
 
   if (!secret) {
     throw new Error("Store Manager fulfillment authentication is not configured.");
