@@ -139,8 +139,9 @@ export async function POST(request: NextRequest) {
       automatic_tax: { enabled: process.env.STRIPE_AUTOMATIC_TAX === "true" },
       redirect_on_completion: "always",
       return_url: `${origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
+      expires_at: Math.floor(Date.now() / 1000) + 60 * 60,
       custom_text: {
-        shipping_address: { message: "AMB BOUTIQUE ships from San Diego, California. Duties may apply outside the United States." },
+        shipping_address: { message: "Delivery estimates and duties vary by destination. Review the shipping details before completing your order." },
         submit: { message: "Your payment is encrypted and processed securely by Stripe." },
       },
       metadata: {
@@ -165,16 +166,21 @@ export async function POST(request: NextRequest) {
       market,
       currency: markets[market].currency,
       amountTotal: convertFromUsd(subtotalUsd, market),
-      cart: normalized.map((item) => ({
-        slug: item.product.slug,
-        name: item.product.name,
-        quantity: item.quantity,
-        size: item.line.size || "Selected",
-        color: item.line.color || "Selected",
-        heelHeightCm: item.selectedHeelHeightCm,
-        offer: item.line.offer || "standard",
-        priceUsd: item.product.price,
-      })),
+      cart: normalized.map((item, index) => {
+        const unitAmountMinor = lineItems[index]?.price_data?.unit_amount;
+        return {
+          slug: item.product.slug,
+          name: item.product.name,
+          quantity: item.quantity,
+          size: item.line.size || "Selected",
+          color: item.line.color || "Selected",
+          heelHeightCm: item.selectedHeelHeightCm,
+          offer: item.line.offer || "standard",
+          priceUsd: item.product.price,
+          unitAmount: typeof unitAmountMinor === "number" ? unitAmountMinor / 100 : undefined,
+          currency: markets[market].currency,
+        };
+      }),
       metadata: { orderType, requestedDiscountPercent: globalOffer.percent },
     }).catch((error) => console.error("AMB checkout journey persistence failed", {
       sessionId: session.id,
