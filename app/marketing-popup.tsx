@@ -114,7 +114,7 @@ export function MarketingPopup() {
       <div className="welcome-copy">
         <p>WELCOME TO AMB</p>
         <h2 id="welcome-title">Your first look deserves something special.</h2>
-        <span>Enjoy 10% off your first full-price order, plus early access to new edits from San Diego.</span>
+        <span>Enjoy 10% off your first full-price order, plus early access to new AMB edits.</span>
         {unlocked ? <div className="unlocked-code"><small>YOUR PRIVATE CODE</small><strong>{FIRST_ORDER_CODE}</strong><button type="button" onClick={() => { setPromoCode(FIRST_ORDER_CODE); close(); }}>Apply & Shop</button></div> : <form onSubmit={submit}>
           <label>Email address<input name="email" type="email" autoComplete="email" required placeholder="you@example.com"/></label>
           <label>Mobile number <small>(optional)</small><input name="phone" type="tel" autoComplete="tel" placeholder={`${markets[market].flag} Include country code`}/></label>
