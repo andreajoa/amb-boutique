@@ -3298,6 +3298,8 @@ const allGeneratedProducts: Product[] = [
   {
     "slug": "azura-sky-iris-dress",
     "name": "Azura Sky Iris Pleated Maxi Dress",
+    "sourceProductId": "3256810409992186",
+    "sourceColor": "3",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
     "price": 68,
