@@ -221,7 +221,10 @@ export async function cancelJourneyEmails(journeyId?: number | string | null) {
   if (!sql || !resend) return;
   const rows = await sql`
     SELECT id, provider_id FROM amb_email_messages
-    WHERE journey_id = ${journeyId} AND status = 'scheduled' AND provider_id IS NOT NULL
+    WHERE journey_id = ${journeyId}
+      AND status = 'scheduled'
+      AND provider_id IS NOT NULL
+      AND (campaign_key LIKE 'cart-%' OR campaign_key LIKE 'checkout-%')
   ` as Array<{ id: number; provider_id: string }>;
   for (const row of rows) {
     try {
