@@ -1,5 +1,7 @@
 import "server-only";
 
+import { ambResendApiKey, ambResendSegmentId } from "./resend-config";
+
 const RESEND_CONTACTS_URL = "https://api.resend.com/contacts";
 
 function resendHeaders(apiKey: string) {
@@ -15,12 +17,12 @@ async function providerError(response: Response) {
 }
 
 export async function subscribeResendContact(email: string) {
-  const apiKey = process.env.RESEND_API_KEY;
+  const apiKey = ambResendApiKey();
   if (!apiKey) return false;
 
   const normalizedEmail = email.trim().toLowerCase();
   const encodedEmail = encodeURIComponent(normalizedEmail);
-  const segmentId = process.env.RESEND_SEGMENT_ID?.trim();
+  const segmentId = ambResendSegmentId();
   const headers = resendHeaders(apiKey);
 
   const updateResponse = await fetch(`${RESEND_CONTACTS_URL}/${encodedEmail}`, {
@@ -58,7 +60,7 @@ export async function subscribeResendContact(email: string) {
 }
 
 export async function unsubscribeResendContact(email: string) {
-  const apiKey = process.env.RESEND_API_KEY;
+  const apiKey = ambResendApiKey();
   if (!apiKey) return false;
 
   const response = await fetch(`${RESEND_CONTACTS_URL}/${encodeURIComponent(email.trim().toLowerCase())}`, {
