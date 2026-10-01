@@ -3,7 +3,7 @@ import { createHash, createHmac } from "node:crypto";
 import { Resend } from "resend";
 import type { AmbCampaign } from "./campaigns";
 import { findCampaign } from "./campaigns";
-import { renderAmbEmail, absoluteUrl } from "./template";
+import { renderAmbEmail, absoluteUrl, type AmbOrderEmailDetails } from "./template";
 import { getAnalyticsSql, jsonForDatabase } from "../analytics/db";
 import { ambResendApiKey, ambResendFromEmail } from "./resend-config";
 
@@ -82,6 +82,7 @@ export async function sendAmbEmail(options: {
   recoveryUrl?: string;
   scheduledAt?: string;
   orderReference?: string;
+  orderDetails?: AmbOrderEmailDetails;
 }) {
   const campaign = typeof options.campaign === "string" ? findCampaign(options.campaign) : options.campaign;
   await ensureCampaign(campaign);
@@ -91,13 +92,43 @@ export async function sendAmbEmail(options: {
   const token = unsubscribeToken(options.to);
   const unsubscribeUrl = token ? absoluteUrl(`/unsubscribe?token=${encodeURIComponent(token)}`) : absoluteUrl("/unsubscribe");
   const subjectTest = subjectExperiment(campaign, options.to);
+  const sql = getAnalyticsSql();
+  if (sql && (options.journeyId || options.contactId)) {
+    const existing = options.journeyId
+      ? await sql`
+          SELECT provider_id, status FROM amb_email_messages
+          WHERE journey_id = ${options.journeyId}
+            AND campaign_key = ${campaign.key}
+            AND status NOT IN ('cancelled', 'failed', 'bounced', 'suppressed')
+          ORDER BY id DESC LIMIT 1
+        ` as Array<{ provider_id: string | null; status: string }>
+      : await sql`
+          SELECT provider_id, status FROM amb_email_messages
+          WHERE contact_id = ${options.contactId || null}
+            AND campaign_key = ${campaign.key}
+            AND status NOT IN ('cancelled', 'failed', 'bounced', 'suppressed')
+          ORDER BY id DESC LIMIT 1
+        ` as Array<{ provider_id: string | null; status: string }>;
+    if (existing[0]) {
+      return {
+        sent: false,
+        preview: false,
+        duplicate: true,
+        id: existing[0].provider_id || undefined,
+        campaign: campaign.key,
+      };
+    }
+  }
+
   const html = renderAmbEmail(campaign, {
     firstName: options.firstName,
     recoveryUrl: options.recoveryUrl,
     unsubscribeUrl,
     orderReference: options.orderReference,
+    orderDetails: options.orderDetails,
   });
   const from = ambResendFromEmail();
+  const transactional = new Set(["order-confirmed", "order-next-steps", "order-shipped", "payment-recovery"]);
   const result = await resend.emails.send({
     from,
     to: [options.to],
@@ -105,10 +136,12 @@ export async function sendAmbEmail(options: {
     subject: subjectTest.subject,
     html,
     scheduledAt: options.scheduledAt,
-    headers: {
-      "List-Unsubscribe": `<${unsubscribeUrl}>`,
-      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
-    },
+    ...(transactional.has(campaign.key) ? {} : {
+      headers: {
+        "List-Unsubscribe": `<${unsubscribeUrl}>`,
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      },
+    }),
     tags: [
       { name: "campaign", value: campaign.key },
       { name: "type", value: campaign.type },
@@ -116,7 +149,6 @@ export async function sendAmbEmail(options: {
   });
   if (result.error || !result.data?.id) throw new Error(result.error?.message || "Email provider did not accept the message.");
 
-  const sql = getAnalyticsSql();
   if (sql) {
     await sql`
       INSERT INTO amb_email_messages (
@@ -134,6 +166,40 @@ export async function sendAmbEmail(options: {
   return { sent: true, preview: false, id: result.data.id, campaign: campaign.key };
 }
 
+export async function scheduleEmailSequence(options: {
+  campaigns: AmbCampaign[];
+  to: string;
+  contactId?: number | string | null;
+  journeyId?: number | string | null;
+  recoveryUrl?: string;
+  firstName?: string;
+  cancelExistingJourneyEmails?: boolean;
+}) {
+  if (!automationEnabled()) return { scheduled: 0, preview: true };
+  if (options.cancelExistingJourneyEmails && options.journeyId) {
+    await cancelJourneyEmails(options.journeyId);
+  }
+  const now = Date.now();
+  const results = [];
+  for (const campaign of options.campaigns) {
+    const scheduledAt = new Date(now + (campaign.delayHours || 1) * 60 * 60 * 1000).toISOString();
+    results.push(await sendAmbEmail({
+      campaign,
+      to: options.to,
+      contactId: options.contactId,
+      journeyId: options.journeyId,
+      recoveryUrl: options.recoveryUrl,
+      firstName: options.firstName,
+      scheduledAt,
+    }));
+  }
+  return {
+    scheduled: results.filter((item) => item.sent).length,
+    duplicates: results.filter((item) => "duplicate" in item && item.duplicate).length,
+    preview: false,
+  };
+}
+
 export async function scheduleRecoverySequence(options: {
   campaigns: AmbCampaign[];
   to: string;
@@ -142,15 +208,10 @@ export async function scheduleRecoverySequence(options: {
   recoveryUrl: string;
   firstName?: string;
 }) {
-  if (!automationEnabled()) return { scheduled: 0, preview: true };
-  await cancelJourneyEmails(options.journeyId);
-  const now = Date.now();
-  const results = [];
-  for (const campaign of options.campaigns) {
-    const scheduledAt = new Date(now + (campaign.delayHours || 1) * 60 * 60 * 1000).toISOString();
-    results.push(await sendAmbEmail({ ...options, campaign, scheduledAt }));
-  }
-  return { scheduled: results.filter((item) => item.sent).length, preview: false };
+  return scheduleEmailSequence({
+    ...options,
+    cancelExistingJourneyEmails: true,
+  });
 }
 
 export async function cancelJourneyEmails(journeyId?: number | string | null) {
