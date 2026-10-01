@@ -5,17 +5,19 @@ import type { AmbCampaign } from "./campaigns";
 import { findCampaign } from "./campaigns";
 import { renderAmbEmail, absoluteUrl } from "./template";
 import { getAnalyticsSql, jsonForDatabase } from "../analytics/db";
+import { ambResendApiKey, ambResendFromEmail } from "./resend-config";
 
 let resendClient: Resend | null | undefined;
 
 function getResend() {
   if (resendClient !== undefined) return resendClient;
-  resendClient = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
+  const apiKey = ambResendApiKey();
+  resendClient = apiKey ? new Resend(apiKey) : null;
   return resendClient;
 }
 
 export function automationEnabled() {
-  return process.env.EMAIL_AUTOMATION_ENABLED === "true" && Boolean(process.env.RESEND_API_KEY);
+  return process.env.EMAIL_AUTOMATION_ENABLED === "true" && Boolean(ambResendApiKey());
 }
 
 function subjectExperiment(campaign: AmbCampaign, recipient: string) {
@@ -95,7 +97,7 @@ export async function sendAmbEmail(options: {
     unsubscribeUrl,
     orderReference: options.orderReference,
   });
-  const from = process.env.RESEND_FROM_EMAIL || "AMB BOUTIQUE <info@ambboutique.online>";
+  const from = ambResendFromEmail();
   const result = await resend.emails.send({
     from,
     to: [options.to],
