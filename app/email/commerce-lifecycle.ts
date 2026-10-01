@@ -204,8 +204,8 @@ export async function completeJourney(session: Stripe.Checkout.Session) {
           COALESCE(NULLIF(item->>'priceUsd','')::numeric, 0) * COALESCE(NULLIF(item->>'quantity','')::int, 1),
           item->>'slug',
           jsonb_build_object(
-            'sessionId', ${session.id},
-            'currency', ${session.currency || null},
+            'sessionId', ${session.id}::text,
+            'currency', ${session.currency || ""}::text,
             'scope', 'product',
             'quantity', COALESCE(NULLIF(item->>'quantity','')::int, 1),
             'size', item->>'size',
