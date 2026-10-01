@@ -36,12 +36,17 @@ async function forwardForFulfillment(session: Stripe.Checkout.Session, eventType
     cache: "no-store",
   });
 
+  const detail = await response.text().catch(() => "");
   if (!response.ok) {
-    const detail = await response.text().catch(() => "");
     throw new Error(
       `Fulfillment destination returned ${response.status}${detail ? `: ${detail.slice(0, 500)}` : ""}.`,
     );
   }
+  return {
+    ok: true,
+    status: response.status,
+    detail: detail.slice(0, 500),
+  };
 }
 
 export async function POST(request: NextRequest) {
@@ -51,22 +56,27 @@ export async function POST(request: NextRequest) {
   if (!stripe || !webhookSecret || !signature) return NextResponse.json({ error: "Webhook is not configured." }, { status: 503 });
   try {
     const event = stripe.webhooks.constructEvent(await request.text(), signature, webhookSecret);
+    let fulfillmentResult: Record<string, unknown> | null = null;
     if (event.type === "checkout.session.completed" && event.data.object.payment_status === "paid") {
       await completeJourney(event.data.object);
-      await forwardForFulfillment(event.data.object, event.type).catch((error) => {
+      fulfillmentResult = await forwardForFulfillment(event.data.object, event.type).catch((error) => {
+        const message = error instanceof Error ? error.message : "unknown";
         console.error("AMB fulfillment forward failed", {
           sessionId: event.data.object.id,
-          error: error instanceof Error ? error.message : "unknown",
+          error: message,
         });
+        return { ok: false, error: message };
       });
     }
     if (event.type === "checkout.session.async_payment_succeeded") {
       await completeJourney(event.data.object);
-      await forwardForFulfillment(event.data.object, event.type).catch((error) => {
+      fulfillmentResult = await forwardForFulfillment(event.data.object, event.type).catch((error) => {
+        const message = error instanceof Error ? error.message : "unknown";
         console.error("AMB fulfillment forward failed", {
           sessionId: event.data.object.id,
-          error: error instanceof Error ? error.message : "unknown",
+          error: message,
         });
+        return { ok: false, error: message };
       });
     }
     if (event.type === "checkout.session.async_payment_failed") {
@@ -76,7 +86,7 @@ export async function POST(request: NextRequest) {
     if (event.type === "checkout.session.expired") {
       await abandonCheckout(event.data.object);
     }
-    return NextResponse.json({ received: true });
+    return NextResponse.json({ received: true, fulfillment: fulfillmentResult });
   } catch (error) {
     console.error("AMB Stripe webhook failed", {
       error: error instanceof Error ? error.message : "Invalid webhook.",
