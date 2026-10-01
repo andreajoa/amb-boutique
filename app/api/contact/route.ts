@@ -31,7 +31,7 @@ export async function POST(request: Request) {
     },
     body: JSON.stringify({
       from,
-      to: [process.env.AMB_CONTACT_TO_EMAIL?.trim() || "andremuseu@gmail.com"],
+      to: ["ambb.outique@proton.me"],
       reply_to: body.email,
       subject: `[AMB BOUTIQUE] ${body.topic || "Customer message"}${body.orderNumber ? ` · ${body.orderNumber}` : ""}`,
       text: `From: ${body.firstName} ${body.lastName || ""}
