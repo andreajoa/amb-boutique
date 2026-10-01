@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import { FIRST_ORDER_CODE, isMarketCode } from "../../commerce";
 import { getAnalyticsSql, jsonForDatabase } from "../../analytics/db";
-import { sendAmbEmail } from "../../email/send";
+import { scheduleEmailSequence, sendAmbEmail } from "../../email/send";
+import { welcomeFollowUpCampaigns } from "../../email/campaigns";
 import { subscribeResendContact } from "../../email/resend-contacts";
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -104,6 +105,19 @@ export async function POST(request: Request) {
           return { sent: false, preview: true };
         })
     : { sent: false, preview: true };
+
+  if (emailConsent && source === "welcome-popup") {
+    await scheduleEmailSequence({
+      campaigns: welcomeFollowUpCampaigns,
+      to: email,
+      contactId,
+      cancelExistingJourneyEmails: false,
+    }).catch((error) => {
+      console.error("AMB welcome follow-up schedule failed", {
+        error: error instanceof Error ? error.message : "unknown",
+      });
+    });
+  }
 
   return NextResponse.json({
     ok: true,
