@@ -11,8 +11,8 @@ async function forwardForFulfillment(session: Stripe.Checkout.Session, eventType
     process.env.ORDER_FULFILLMENT_WEBHOOK_URL?.trim() ||
     "https://aliexpress-store-manager-six.vercel.app/api/stores/amb-boutique-store/amb/orders/webhook";
   const secret =
-    process.env.ORDER_FULFILLMENT_WEBHOOK_SECRET?.trim() ||
-    storeManagerSyncToken();
+    storeManagerSyncToken() ||
+    process.env.ORDER_FULFILLMENT_WEBHOOK_SECRET?.trim();
 
   if (!secret) {
     throw new Error("Store Manager fulfillment authentication is not configured.");
