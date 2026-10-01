@@ -318,6 +318,8 @@ function OrdersPanel({ orders, error }: { orders: DashboardOrder[]; error: strin
               <div><dt>Payment</dt><dd>{order.paymentStatus}</dd></div>
               <div><dt>Subtotal</dt><dd>{money(order.subtotal, order.currency)}</dd></div>
               <div><dt>Shipping</dt><dd>{money(order.shipping, order.currency)}</dd></div>
+              <div><dt>Method</dt><dd>{order.shippingMethod || "—"}</dd></div>
+              <div><dt>Estimate</dt><dd>{order.shippingEstimate || "—"}</dd></div>
               <div><dt>Tax</dt><dd>{money(order.tax, order.currency)}</dd></div>
               <div><dt>Discount</dt><dd>{money(order.discount, order.currency)}</dd></div>
               <div><dt>Total</dt><dd><strong>{money(order.total, order.currency)}</strong></dd></div>
@@ -329,6 +331,7 @@ function OrdersPanel({ orders, error }: { orders: DashboardOrder[]; error: strin
               <div><dt>Stripe session</dt><dd className={styles.codeValue}>{order.sessionId}</dd></div>
               <div><dt>Payment intent</dt><dd className={styles.codeValue}>{order.paymentIntentId || "—"}</dd></div>
               <div><dt>Stripe customer</dt><dd className={styles.codeValue}>{order.customerId || "—"}</dd></div>
+              <div><dt>Shipping rate</dt><dd className={styles.codeValue}>{order.shippingRateId || "—"}</dd></div>
               <div><dt>Order note</dt><dd>{order.orderNote || "No note"}</dd></div>
             </dl>
           </section>
