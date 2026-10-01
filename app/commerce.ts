@@ -36,6 +36,14 @@ export const US_FREE_SHIPPING_THRESHOLD_USD = 99;
 export const FIRST_ORDER_CODE = "AMBWELCOME10";
 export const FIRST_ORDER_DISCOUNT_PERCENT = 10;
 
+export const deliveryWindows: Record<MarketCode, { min: number; max: number }> = {
+  US: { min: 12, max: 18 },
+  CA: { min: 12, max: 18 },
+  UK: { min: 10, max: 21 },
+  AU: { min: 12, max: 21 },
+  NZ: { min: 12, max: 21 },
+};
+
 export type ShippingQuote = {
   id: string;
   label: string;
@@ -88,20 +96,16 @@ export function getShippingQuotes(market: MarketCode, subtotalUsd: number, packe
   if (market === "US") {
     const standard = subtotalUsd >= US_FREE_SHIPPING_THRESHOLD_USD ? 0 : packedWeightOz <= 16 ? 9.95 : packedWeightOz <= 32 ? 13.95 : 17.95;
     return [
-      { id: "us-standard", label: standard ? "Standard U.S. delivery" : "Complimentary U.S. delivery", detail: "Estimated 12–18 business days", amountUsd: standard, minBusinessDays: 12, maxBusinessDays: 18, source: "store-flat" },
+      { id: "us-standard", label: standard ? "Standard U.S. delivery" : "Complimentary U.S. delivery", detail: `Estimated ${deliveryWindows.US.min}–${deliveryWindows.US.max} business days`, amountUsd: standard, minBusinessDays: deliveryWindows.US.min, maxBusinessDays: deliveryWindows.US.max, source: "store-flat" },
     ];
   }
 
   const band = internationalRetailBands[market].find((item) => packedWeightOz <= item.maxOz);
   const amountUsd = band?.amountUsd ?? internationalRetailBands[market].at(-1)!.amountUsd;
-  const deliveryWindow = market === "CA"
-    ? { detail: "Estimated 12–18 business days", min: 12, max: 18 }
-    : market === "UK"
-      ? { detail: "Estimated 10–21 business days", min: 10, max: 21 }
-      : { detail: "Estimated 12–21 business days", min: 12, max: 21 };
+  const deliveryWindow = deliveryWindows[market];
   const detail = packedWeightOz > 64
     ? "Preview only · live carrier rate required for parcels over 4 lb"
-    : deliveryWindow.detail;
+    : `Estimated ${deliveryWindow.min}–${deliveryWindow.max} business days`;
   return [{
     id: `${market.toLowerCase()}-tracked`,
     label: `Tracked delivery to ${markets[market].country}`,
