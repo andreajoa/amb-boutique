@@ -38,6 +38,9 @@ export type DashboardOrder = {
   currency: string;
   subtotal: number;
   shipping: number;
+  shippingMethod: string | null;
+  shippingEstimate: string | null;
+  shippingRateId: string | null;
   tax: number;
   discount: number;
   total: number;
@@ -127,6 +130,18 @@ export async function getDashboardOrders(days: number): Promise<DashboardOrdersR
         expand: ["data.price.product"],
       });
 
+      const shippingRateRef = session.shipping_cost?.shipping_rate || null;
+      let shippingRate: Stripe.ShippingRate | null = null;
+      if (typeof shippingRateRef === "string") {
+        shippingRate = await stripe.shippingRates.retrieve(shippingRateRef).catch(() => null);
+      } else if (shippingRateRef && typeof shippingRateRef === "object") {
+        shippingRate = shippingRateRef;
+      }
+      const estimate = shippingRate?.delivery_estimate;
+      const shippingEstimate = estimate?.minimum && estimate?.maximum
+        ? `${estimate.minimum.value}–${estimate.maximum.value} ${estimate.minimum.unit.replaceAll("_", " ")}s`
+        : null;
+
       const collected = asRecord((session as unknown as UnknownRecord).collected_information);
       const shippingDetails = collected ? collected.shipping_details : null;
       const customer = session.customer_details;
@@ -161,6 +176,9 @@ export async function getDashboardOrders(days: number): Promise<DashboardOrdersR
         currency,
         subtotal: session.amount_subtotal || 0,
         shipping: session.shipping_cost?.amount_total || 0,
+        shippingMethod: shippingRate?.display_name || null,
+        shippingEstimate,
+        shippingRateId: typeof shippingRateRef === "string" ? shippingRateRef : shippingRateRef?.id || null,
         tax: session.total_details?.amount_tax || 0,
         discount: session.total_details?.amount_discount || 0,
         total: session.amount_total || 0,
