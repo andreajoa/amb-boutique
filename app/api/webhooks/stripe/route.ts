@@ -51,6 +51,10 @@ export async function POST(request: NextRequest) {
     }
     return NextResponse.json({ received: true });
   } catch (error) {
+    console.error("AMB Stripe webhook failed", {
+      error: error instanceof Error ? error.message : "Invalid webhook.",
+      stack: error instanceof Error ? error.stack : undefined,
+    });
     return NextResponse.json({ error: error instanceof Error ? error.message : "Invalid webhook." }, { status: 400 });
   }
 }
