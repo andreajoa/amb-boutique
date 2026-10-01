@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Webhook } from "svix";
 import { getAnalyticsSql, jsonForDatabase } from "../../../analytics/db";
+import { ambResendWebhookSecret } from "../../../email/resend-config";
 
 export const runtime = "nodejs";
 
@@ -29,7 +30,7 @@ const statusMap: Record<string, string> = {
 };
 
 export async function POST(request: NextRequest) {
-  const secret = process.env.RESEND_WEBHOOK_SECRET;
+  const secret = ambResendWebhookSecret();
   if (!secret) return NextResponse.json({ error: "Webhook is not configured." }, { status: 503 });
   const payload = await request.text();
   const headers = {
