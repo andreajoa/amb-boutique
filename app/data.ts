@@ -34,6 +34,8 @@ export type Product = {
   dutyUsd?: number;
   packagingUsd?: number;
   minimumMarginPercent?: number;
+  sourceProductId?: string;
+  sourceColor?: string;
   complementarySlugs?: string[];
   garmentMeasurements?: Record<string, { bust?: number; waist?: number; hip?: number }>;
   stripePriceId?: string;
