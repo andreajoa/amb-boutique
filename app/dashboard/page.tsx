@@ -4,6 +4,8 @@ import { redirect } from "next/navigation";
 import { dashboardAuthenticated } from "./auth";
 import { getAnalyticsSql } from "../analytics/db";
 import { allCampaigns, cartRecoveryCampaigns, checkoutRecoveryCampaigns, newsletterCampaigns } from "../email/campaigns";
+import { DashboardAutoRefresh } from "./dashboard-auto-refresh";
+import { getDashboardOrders, type DashboardAddress, type DashboardOrder } from "./orders";
 import styles from "./dashboard.module.css";
 
 export const metadata: Metadata = { title: "Commerce Intelligence", robots: { index: false, follow: false } };
@@ -38,6 +40,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
 
   if (!sql) return <main className={styles.dashboard}><Setup/></main>;
 
+  const ordersPromise = getDashboardOrders(days);
   const [metricsRows, funnelRows, sourceRows, countryRows, productRows, emailRows, emailCampaignRows, journeyRows, recentRows] = await Promise.all([
     sql`
       SELECT
@@ -113,6 +116,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
       ORDER BY last_activity_at DESC LIMIT 12
     `,
   ]) as Array<Array<Row>>;
+  const orderResult = await ordersPromise;
 
   const metrics = metricsRows[0] || {};
   const email = emailRows[0] || {};
@@ -125,7 +129,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
 
   return <main className={styles.dashboard}>
     <header className={styles.header}>
-      <div><p className={styles.kicker}>AMB BOUTIQUE · PRIVATE</p><h1>Commerce Intelligence</h1><p>From first visit to repeat purchase—without recording private form or payment data.</p></div>
+      <div><p className={styles.kicker}>AMB BOUTIQUE · PRIVATE</p><h1>Commerce Intelligence</h1><p>Sales, fulfillment and customer journey in one private operational view.</p></div>
       <div className={styles.headerActions}>
         <nav>{["7d","30d","90d"].map((item) => <Link key={item} className={range === item ? styles.activeRange : ""} href={`/dashboard?range=${item}`}>{item}</Link>)}</nav>
         <form action="/api/dashboard/logout" method="post"><button>Sign out</button></form>
@@ -137,6 +141,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
       <span>{n(metrics.visitors)} consented visitors</span>
       <span>{allCampaigns.length} email journeys drafted</span>
       <span>Range: last {days} days</span>
+      <DashboardAutoRefresh/>
     </section>
 
     <section className={styles.metricGrid}>
@@ -152,6 +157,8 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
       <div><p className={styles.kicker}>NEXT BEST ACTION</p><h2>What the data is saying</h2></div>
       <p>{insight(metrics, email)}</p>
     </section>
+
+    <OrdersPanel orders={orderResult.orders} error={orderResult.error}/>
 
     <div className={styles.twoColumns}>
       <section className={styles.panel}>
@@ -202,8 +209,8 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
       <section className={styles.panel}><PanelTitle eyebrow="COMMERCE" title="Journey status"/>
         <dl className={styles.compactStats}>{journeyRows.length ? journeyRows.map((row) => <div key={label(row.status)}><dt>{label(row.status)}</dt><dd>{n(row.journeys)}</dd></div>) : <div><dt>No journeys yet</dt><dd>0</dd></div>}</dl>
       </section>
-      <section className={styles.panel}><PanelTitle eyebrow="PRIVACY" title="Identity, responsibly"/>
-        <p className={styles.bodyCopy}>Visitors remain anonymous until they voluntarily provide an email or phone number. Card data, passwords, typed field values and raw IP addresses are never stored in this analytics layer.</p>
+      <section className={styles.panel}><PanelTitle eyebrow="DATA CONTROL" title="Where customer data lives"/>
+        <p className={styles.bodyCopy}><strong>Stripe:</strong> payment status, customer identity, billing and shipping address, order totals and payment references. <strong>AMB database:</strong> cart/variant snapshot, email and phone contact, checkout journey, campaign activity and analytics. Full card numbers and security codes are never exposed to or stored by the AMB dashboard.</p>
       </section>
     </div>
 
@@ -213,6 +220,122 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
       <tbody>{recentRows.length ? recentRows.map((row) => <tr key={label(row.session_id)}><td>{label(row.visitor_id).slice(0,12)}…</td><td>{label(row.entry_path)} → {label(row.exit_path)}</td><td>{[row.city,row.country].filter(Boolean).join(", ") || "Unknown"}</td><td>{label(row.device_type)}</td><td>{n(row.pageviews)}</td><td>{n(row.click_count)}</td><td>{n(row.max_scroll)}%</td><td>{row.purchased ? "Purchased" : row.started_checkout ? "Checkout" : row.added_to_cart ? "Bag" : "Browsing"}</td></tr>) : <tr><td colSpan={8}>No consented journeys in this period.</td></tr>}</tbody></table></div>
     </section>
   </main>;
+}
+
+
+function money(amount: number | null, currency: string) {
+  if (amount === null) return "—";
+  try {
+    return new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount / 100);
+  } catch {
+    return `${currency} ${(amount / 100).toFixed(2)}`;
+  }
+}
+
+function orderTime(timestamp: number) {
+  return new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/Los_Angeles",
+    year: "numeric",
+    month: "short",
+    day: "2-digit",
+    hour: "numeric",
+    minute: "2-digit",
+    timeZoneName: "short",
+  }).format(timestamp);
+}
+
+function addressLines(address: DashboardAddress | null) {
+  if (!address) return ["Address unavailable"];
+  const cityLine = [
+    [address.city, address.state].filter(Boolean).join(", "),
+    address.postalCode,
+  ].filter(Boolean).join(" ");
+  return [
+    address.name,
+    address.line1,
+    address.line2,
+    cityLine,
+    address.country,
+  ].filter((value): value is string => Boolean(value));
+}
+
+function OrdersPanel({ orders, error }: { orders: DashboardOrder[]; error: string | null }) {
+  const unfulfilled = orders.filter((order) => order.fulfillmentStatus !== "fulfilled").length;
+  const latest = orders[0];
+
+  return <section className={`${styles.panel} ${styles.ordersPanel}`}>
+    <PanelTitle eyebrow="ORDERS / FULFILLMENT" title="Paid orders and shipping details"/>
+    <div className={styles.orderSummaryGrid}>
+      <div><span>Paid orders</span><strong>{orders.length}</strong><small>In the selected dashboard range</small></div>
+      <div><span>Awaiting fulfillment</span><strong>{unfulfilled}</strong><small>Orders not marked fulfilled</small></div>
+      <div><span>Latest sale</span><strong>{latest ? latest.orderReference : "—"}</strong><small>{latest ? orderTime(latest.createdAt) : "No paid sale in this range"}</small></div>
+    </div>
+    {error ? <p className={styles.orderError}>{error}</p> : null}
+    <p className={styles.bodyCopy}>Open an order to see the exact product, selected variant, customer contact and delivery information needed for fulfillment. This section reads current paid checkout data directly from Stripe and refreshes automatically.</p>
+    <div className={styles.orderList}>
+      {orders.length ? orders.map((order, index) => <details className={styles.orderCard} key={order.sessionId} open={index === 0}>
+        <summary>
+          <div>
+            <span className={styles.orderRef}>ORDER {order.orderReference}</span>
+            <strong>{order.customerName || order.email || "Customer"}</strong>
+            <small>{orderTime(order.createdAt)} · {order.items.length} line item{order.items.length === 1 ? "" : "s"}</small>
+          </div>
+          <div className={styles.orderSummaryRight}>
+            <strong>{money(order.total, order.currency)}</strong>
+            <span className={order.fulfillmentStatus === "fulfilled" ? styles.statusDone : styles.statusPending}>{order.fulfillmentStatus}</span>
+          </div>
+        </summary>
+        <div className={styles.orderDetailGrid}>
+          <section>
+            <h3>Items purchased</h3>
+            <div className={styles.tableWrap}><table><thead><tr><th>Product</th><th>Variant</th><th>Qty</th><th>Total</th></tr></thead>
+              <tbody>{order.items.map((item, itemIndex) => <tr key={`${order.sessionId}-${item.slug || item.name}-${itemIndex}`}>
+                <td><strong>{item.name}</strong>{item.slug ? <small className={styles.blockSmall}>{item.slug}</small> : null}</td>
+                <td>
+                  <span className={styles.variantLine}>Size: <strong>{item.size || "—"}</strong></span>
+                  <span className={styles.variantLine}>Color: <strong>{item.color || "—"}</strong></span>
+                  {item.heelHeightCm ? <span className={styles.variantLine}>Heel: <strong>{item.heelHeightCm} cm</strong></span> : null}
+                  {item.offer && item.offer !== "standard" ? <span className={styles.variantLine}>Offer: <strong>{item.offer}</strong></span> : null}
+                </td>
+                <td>{item.quantity}</td>
+                <td>{money(item.amountTotal, item.currency)}</td>
+              </tr>)}</tbody>
+            </table></div>
+          </section>
+          <section className={styles.fulfillmentCard}>
+            <h3>Ship to</h3>
+            <address>{addressLines(order.shippingAddress).map((line) => <span key={line}>{line}</span>)}</address>
+            <dl>
+              <div><dt>Email</dt><dd>{order.email || "—"}</dd></div>
+              <div><dt>Phone</dt><dd>{order.phone || "—"}</dd></div>
+              <div><dt>Market</dt><dd>{order.market}</dd></div>
+            </dl>
+          </section>
+          <section className={styles.fulfillmentCard}>
+            <h3>Billing / payment</h3>
+            <address>{addressLines(order.billingAddress).map((line) => <span key={line}>{line}</span>)}</address>
+            <dl>
+              <div><dt>Payment</dt><dd>{order.paymentStatus}</dd></div>
+              <div><dt>Subtotal</dt><dd>{money(order.subtotal, order.currency)}</dd></div>
+              <div><dt>Shipping</dt><dd>{money(order.shipping, order.currency)}</dd></div>
+              <div><dt>Tax</dt><dd>{money(order.tax, order.currency)}</dd></div>
+              <div><dt>Discount</dt><dd>{money(order.discount, order.currency)}</dd></div>
+              <div><dt>Total</dt><dd><strong>{money(order.total, order.currency)}</strong></dd></div>
+            </dl>
+          </section>
+          <section className={styles.fulfillmentCard}>
+            <h3>Order control</h3>
+            <dl>
+              <div><dt>Stripe session</dt><dd className={styles.codeValue}>{order.sessionId}</dd></div>
+              <div><dt>Payment intent</dt><dd className={styles.codeValue}>{order.paymentIntentId || "—"}</dd></div>
+              <div><dt>Stripe customer</dt><dd className={styles.codeValue}>{order.customerId || "—"}</dd></div>
+              <div><dt>Order note</dt><dd>{order.orderNote || "No note"}</dd></div>
+            </dl>
+          </section>
+        </div>
+      </details>) : <p className={styles.muted}>No paid AMB orders were found in this range.</p>}
+    </div>
+  </section>;
 }
 
 function Metric({ label, value, note }: { label: string; value: string; note: string }) {
