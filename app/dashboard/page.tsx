@@ -72,13 +72,32 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
       GROUP BY 1 ORDER BY sessions DESC LIMIT 8
     `,
     sql`
-      SELECT slug,
-        count(*) FILTER (WHERE event_type='product_view') AS views,
-        count(*) FILTER (WHERE event_type='add_to_cart') AS carts,
-        count(*) FILTER (WHERE event_type='purchase') AS purchases
-      FROM amb_analytics_events
-      WHERE occurred_at >= now() - (${days} * interval '1 day') AND slug IS NOT NULL
-      GROUP BY slug ORDER BY views DESC LIMIT 10
+      WITH behavior AS (
+        SELECT slug,
+          count(*) FILTER (WHERE event_type='product_view') AS views,
+          count(*) FILTER (WHERE event_type='add_to_cart') AS carts
+        FROM amb_analytics_events
+        WHERE occurred_at >= now() - (${days} * interval '1 day') AND slug IS NOT NULL
+        GROUP BY slug
+      ),
+      sales AS (
+        SELECT item->>'slug' AS slug,
+          COALESCE(sum(NULLIF(item->>'quantity','')::int), 0) AS purchases
+        FROM amb_commerce_journeys journey
+        CROSS JOIN LATERAL jsonb_array_elements(COALESCE(journey.cart, '[]'::jsonb)) item
+        WHERE journey.status = 'completed'
+          AND journey.completed_at >= now() - (${days} * interval '1 day')
+          AND NULLIF(item->>'slug','') IS NOT NULL
+        GROUP BY item->>'slug'
+      )
+      SELECT COALESCE(behavior.slug, sales.slug) AS slug,
+        COALESCE(behavior.views, 0) AS views,
+        COALESCE(behavior.carts, 0) AS carts,
+        COALESCE(sales.purchases, 0) AS purchases
+      FROM behavior
+      FULL OUTER JOIN sales ON sales.slug = behavior.slug
+      ORDER BY purchases DESC, views DESC
+      LIMIT 10
     `,
     sql`
       SELECT
@@ -319,7 +338,7 @@ function OrdersPanel({ orders, error }: { orders: DashboardOrder[]; error: strin
               <div><dt>Subtotal</dt><dd>{money(order.subtotal, order.currency)}</dd></div>
               <div><dt>Shipping</dt><dd>{money(order.shipping, order.currency)}</dd></div>
               <div><dt>Method</dt><dd>{order.shippingMethod || "—"}</dd></div>
-              <div><dt>Estimate</dt><dd>{order.shippingEstimate || "—"}</dd></div>
+              <div><dt>Estimate</dt><dd><strong>{order.shippingEstimate}</strong></dd></div>
               <div><dt>Tax</dt><dd>{money(order.tax, order.currency)}</dd></div>
               <div><dt>Discount</dt><dd>{money(order.discount, order.currency)}</dd></div>
               <div><dt>Total</dt><dd><strong>{money(order.total, order.currency)}</strong></dd></div>
@@ -332,6 +351,7 @@ function OrdersPanel({ orders, error }: { orders: DashboardOrder[]; error: strin
               <div><dt>Payment intent</dt><dd className={styles.codeValue}>{order.paymentIntentId || "—"}</dd></div>
               <div><dt>Stripe customer</dt><dd className={styles.codeValue}>{order.customerId || "—"}</dd></div>
               <div><dt>Shipping rate</dt><dd className={styles.codeValue}>{order.shippingRateId || "—"}</dd></div>
+              {order.originalShippingEstimate && order.originalShippingEstimate !== order.shippingEstimate ? <div><dt>Checkout estimate</dt><dd>{order.originalShippingEstimate}</dd></div> : null}
               <div><dt>Order note</dt><dd>{order.orderNote || "No note"}</dd></div>
             </dl>
           </section>
