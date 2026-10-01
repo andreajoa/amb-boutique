@@ -88,23 +88,27 @@ export function getShippingQuotes(market: MarketCode, subtotalUsd: number, packe
   if (market === "US") {
     const standard = subtotalUsd >= US_FREE_SHIPPING_THRESHOLD_USD ? 0 : packedWeightOz <= 16 ? 9.95 : packedWeightOz <= 32 ? 13.95 : 17.95;
     return [
-      { id: "us-standard", label: standard ? "Standard U.S. delivery" : "Complimentary U.S. delivery", detail: "Estimated 3–7 business days", amountUsd: standard, minBusinessDays: 3, maxBusinessDays: 7, source: "store-flat" },
-      { id: "us-priority", label: "Priority U.S. delivery", detail: "Estimated 2–4 business days", amountUsd: packedWeightOz <= 16 ? 15.95 : 21.95, minBusinessDays: 2, maxBusinessDays: 4, source: "store-flat" },
+      { id: "us-standard", label: standard ? "Standard U.S. delivery" : "Complimentary U.S. delivery", detail: "Estimated 12–18 business days", amountUsd: standard, minBusinessDays: 12, maxBusinessDays: 18, source: "store-flat" },
     ];
   }
 
   const band = internationalRetailBands[market].find((item) => packedWeightOz <= item.maxOz);
   const amountUsd = band?.amountUsd ?? internationalRetailBands[market].at(-1)!.amountUsd;
+  const deliveryWindow = market === "CA"
+    ? { detail: "Estimated 12–18 business days", min: 12, max: 18 }
+    : market === "UK"
+      ? { detail: "Estimated 10–21 business days", min: 10, max: 21 }
+      : { detail: "Estimated 12–21 business days", min: 12, max: 21 };
   const detail = packedWeightOz > 64
     ? "Preview only · live carrier rate required for parcels over 4 lb"
-    : market === "AU" || market === "NZ" ? "Estimated 10–21 business days" : "Estimated 7–15 business days";
+    : deliveryWindow.detail;
   return [{
     id: `${market.toLowerCase()}-tracked`,
     label: `Tracked delivery to ${markets[market].country}`,
     detail,
     amountUsd,
-    minBusinessDays: market === "AU" || market === "NZ" ? 10 : 7,
-    maxBusinessDays: market === "AU" || market === "NZ" ? 21 : 15,
+    minBusinessDays: deliveryWindow.min,
+    maxBusinessDays: deliveryWindow.max,
     source: "usps-retail-preview",
   }];
 }
