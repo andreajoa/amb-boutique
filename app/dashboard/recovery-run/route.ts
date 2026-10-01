@@ -92,11 +92,78 @@ export async function GET() {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
+  const sql = getAnalyticsSql();
+  if (!sql) return NextResponse.json({ error: "Database unavailable" }, { status: 503 });
+
   const rows = await eligibleJourneys();
+  const diagnostics = await sql`
+    WITH base AS (
+      SELECT j.*
+      FROM amb_commerce_journeys j
+      WHERE j.status IN ('cart', 'checkout', 'abandoned')
+        AND j.updated_at >= now() - interval '30 days'
+        AND (
+          (j.status = 'cart' AND j.updated_at <= now() - interval '1 hour')
+          OR
+          (j.status IN ('checkout', 'abandoned') AND j.updated_at <= now() - interval '30 minutes')
+        )
+    ),
+    linked AS (
+      SELECT
+        j.id,
+        j.status,
+        j.visitor_id,
+        j.contact_id,
+        j.email AS journey_email,
+        j.created_at,
+        c.id AS matched_contact_id,
+        c.email AS contact_email,
+        c.email_consent,
+        c.unsubscribed_at,
+        c.suppression_reason
+      FROM base j
+      LEFT JOIN LATERAL (
+        SELECT c.*
+        FROM amb_contacts c
+        WHERE
+          (j.contact_id IS NOT NULL AND c.id = j.contact_id)
+          OR (j.visitor_id IS NOT NULL AND c.visitor_id = j.visitor_id)
+          OR (j.email IS NOT NULL AND lower(c.email) = lower(j.email))
+        ORDER BY
+          CASE WHEN j.contact_id IS NOT NULL AND c.id = j.contact_id THEN 0 ELSE 1 END,
+          c.updated_at DESC
+        LIMIT 1
+      ) c ON true
+    )
+    SELECT
+      count(*) AS total,
+      count(*) FILTER (WHERE COALESCE(contact_email, journey_email) IS NOT NULL) AS with_email,
+      count(*) FILTER (WHERE email_consent = true) AS with_consent,
+      count(*) FILTER (WHERE email_consent = true AND unsubscribed_at IS NULL AND suppression_reason IS NULL) AS consented_active,
+      count(*) FILTER (WHERE EXISTS (
+        SELECT 1 FROM amb_commerce_journeys done
+        WHERE done.status = 'completed'
+          AND done.completed_at >= linked.created_at
+          AND (
+            (matched_contact_id IS NOT NULL AND done.contact_id = matched_contact_id)
+            OR (linked.visitor_id IS NOT NULL AND done.visitor_id = linked.visitor_id)
+            OR (done.email IS NOT NULL AND lower(done.email) = lower(COALESCE(contact_email, journey_email)))
+          )
+      )) AS later_purchased,
+      count(*) FILTER (WHERE EXISTS (
+        SELECT 1 FROM amb_email_messages m
+        WHERE m.journey_id = linked.id
+          AND (m.campaign_key LIKE 'cart-%' OR m.campaign_key LIKE 'checkout-%')
+          AND m.status NOT IN ('cancelled', 'failed', 'bounced', 'suppressed')
+      )) AS existing_recovery
+    FROM linked
+  ` as Array<Record<string, string | number | null>>;
+
   return NextResponse.json({
     eligible: rows.length,
     cart: rows.filter((row) => row.status === "cart").length,
     checkout: rows.filter((row) => row.status !== "cart").length,
+    diagnostics: diagnostics[0] || {},
     recipients: rows.map((row) => ({
       journeyId: row.id,
       status: row.status,
