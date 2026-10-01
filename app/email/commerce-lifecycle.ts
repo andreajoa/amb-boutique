@@ -1,8 +1,9 @@
 import "server-only";
 import type Stripe from "stripe";
 import { getAnalyticsSql, jsonForDatabase } from "../analytics/db";
-import { checkoutRecoveryCampaigns } from "./campaigns";
-import { cancelJourneyEmails, scheduleRecoverySequence, sendAmbEmail } from "./send";
+import { deliveryWindows, isMarketCode } from "../commerce";
+import { checkoutRecoveryCampaigns, postPurchaseFollowUpCampaigns } from "./campaigns";
+import { cancelJourneyEmails, scheduleEmailSequence, scheduleRecoverySequence, sendAmbEmail } from "./send";
 import { createJourneyToken } from "./journey-token";
 
 type CheckoutRecord = {
@@ -18,11 +19,14 @@ type CheckoutRecord = {
 export async function recordCheckoutJourney(record: CheckoutRecord) {
   const sql = getAnalyticsSql();
   if (!sql) return null;
+
   const existing = record.visitorId ? await sql`
     SELECT id FROM amb_commerce_journeys
     WHERE visitor_id = ${record.visitorId} AND status = 'cart'
     ORDER BY updated_at DESC LIMIT 1
   ` as Array<{ id: number | string }> : [];
+
+  let journeyId: number | string | null = null;
   if (existing[0]?.id) {
     await cancelJourneyEmails(existing[0].id);
     const rows = await sql`
@@ -35,23 +39,59 @@ export async function recordCheckoutJourney(record: CheckoutRecord) {
       WHERE id = ${existing[0].id}
       RETURNING id
     ` as Array<{ id: number | string }>;
-    return rows[0]?.id || null;
+    journeyId = rows[0]?.id || null;
+  } else {
+    const rows = await sql`
+      INSERT INTO amb_commerce_journeys (
+        stripe_session_id, visitor_id, market, currency, amount_total, status,
+        cart, metadata, checkout_started_at
+      ) VALUES (
+        ${record.sessionId}, ${record.visitorId || null}, ${record.market}, ${record.currency},
+        ${record.amountTotal}, 'checkout', ${jsonForDatabase(record.cart)}::jsonb,
+        ${jsonForDatabase(record.metadata)}::jsonb, now()
+      )
+      ON CONFLICT (stripe_session_id) DO UPDATE SET
+        status = 'checkout', cart = EXCLUDED.cart, amount_total = EXCLUDED.amount_total,
+        metadata = EXCLUDED.metadata, updated_at = now()
+      RETURNING id
+    ` as Array<{ id: number | string }>;
+    journeyId = rows[0]?.id || null;
   }
-  const rows = await sql`
-    INSERT INTO amb_commerce_journeys (
-      stripe_session_id, visitor_id, market, currency, amount_total, status,
-      cart, metadata, checkout_started_at
-    ) VALUES (
-      ${record.sessionId}, ${record.visitorId || null}, ${record.market}, ${record.currency},
-      ${record.amountTotal}, 'checkout', ${jsonForDatabase(record.cart)}::jsonb,
-      ${jsonForDatabase(record.metadata)}::jsonb, now()
-    )
-    ON CONFLICT (stripe_session_id) DO UPDATE SET
-      status = 'checkout', cart = EXCLUDED.cart, amount_total = EXCLUDED.amount_total,
-      metadata = EXCLUDED.metadata, updated_at = now()
-    RETURNING id
-  ` as Array<{ id: number | string }>;
-  return rows[0]?.id || null;
+
+  if (journeyId && record.visitorId) {
+    const contacts = await sql`
+      SELECT id, email, first_name
+      FROM amb_contacts
+      WHERE visitor_id = ${record.visitorId}
+        AND email_consent = true
+        AND unsubscribed_at IS NULL
+      ORDER BY updated_at DESC
+      LIMIT 1
+    ` as Array<{ id: number | string; email: string; first_name: string | null }>;
+
+    const contact = contacts[0];
+    const token = createJourneyToken(journeyId);
+    if (contact && token) {
+      await sql`
+        UPDATE amb_commerce_journeys
+        SET contact_id = ${contact.id}, email = ${contact.email}, updated_at = now()
+        WHERE id = ${journeyId}
+      `;
+      await scheduleRecoverySequence({
+        campaigns: checkoutRecoveryCampaigns,
+        to: contact.email,
+        contactId: contact.id,
+        journeyId,
+        recoveryUrl: `/recover-cart/${encodeURIComponent(token)}`,
+        firstName: contact.first_name || undefined,
+      }).catch((error) => console.error("AMB checkout recovery schedule failed", {
+        journeyId,
+        error: error instanceof Error ? error.message : "unknown",
+      }));
+    }
+  }
+
+  return journeyId;
 }
 
 async function contactForSession(session: Stripe.Checkout.Session) {
@@ -85,6 +125,21 @@ async function contactForSession(session: Stripe.Checkout.Session) {
 export async function completeJourney(session: Stripe.Checkout.Session) {
   const { sql, email, contact } = await contactForSession(session);
   if (!sql) return;
+
+  type StoredCartItem = {
+    name?: string;
+    quantity?: number;
+    size?: string;
+    color?: string;
+    unitAmount?: number;
+    priceUsd?: number;
+  };
+  type JourneyRow = {
+    id: number | string;
+    visitor_id: string | null;
+    cart: StoredCartItem[] | null;
+  };
+
   const journeys = await sql`
     UPDATE amb_commerce_journeys SET
       contact_id = ${contact?.id || null}, email = ${email || null},
@@ -93,17 +148,30 @@ export async function completeJourney(session: Stripe.Checkout.Session) {
       currency = ${session.currency?.toUpperCase() || session.metadata?.currency || null},
       completed_at = now(), updated_at = now()
     WHERE stripe_session_id = ${session.id}
-    RETURNING id, visitor_id
-  ` as Array<{ id: number | string; visitor_id: string | null }>;
+    RETURNING id, visitor_id, cart
+  ` as JourneyRow[];
+
   const journey = journeys[0];
   if (journey?.id) await cancelJourneyEmails(journey.id);
-  if (journey?.id || contact?.id) {
+
+  if (journey?.id && contact?.id) {
     await sql`
       UPDATE amb_email_messages SET conversion_at = COALESCE(conversion_at, now())
-      WHERE (${journey?.id || null} IS NOT NULL AND journey_id = ${journey?.id || null})
-         OR (${contact?.id || null} IS NOT NULL AND contact_id = ${contact?.id || null} AND clicked_at IS NOT NULL)
+      WHERE journey_id = ${journey.id}
+         OR (contact_id = ${contact.id} AND clicked_at IS NOT NULL)
+    `;
+  } else if (journey?.id) {
+    await sql`
+      UPDATE amb_email_messages SET conversion_at = COALESCE(conversion_at, now())
+      WHERE journey_id = ${journey.id}
+    `;
+  } else if (contact?.id) {
+    await sql`
+      UPDATE amb_email_messages SET conversion_at = COALESCE(conversion_at, now())
+      WHERE contact_id = ${contact.id} AND clicked_at IS NOT NULL
     `;
   }
+
   if (journey?.visitor_id) {
     await sql`
       UPDATE amb_analytics_sessions SET purchased = true
@@ -157,15 +225,62 @@ export async function completeJourney(session: Stripe.Checkout.Session) {
       `;
     }
   }
+
   if (email) {
+    const market = isMarketCode(session.metadata?.market) ? session.metadata.market : "US";
+    const delivery = deliveryWindows[market];
+    const currency = (session.currency || session.metadata?.currency || "usd").toUpperCase();
+    const cart = Array.isArray(journey?.cart) ? journey.cart : [];
+    const firstName = session.customer_details?.name?.trim().split(/\s+/)[0] || contact?.first_name || undefined;
+
+    const orderDetails = {
+      items: cart.map((item) => {
+        const quantity = Math.max(1, Number(item.quantity) || 1);
+        const unitAmount = typeof item.unitAmount === "number"
+          ? item.unitAmount
+          : currency === "USD" && typeof item.priceUsd === "number"
+            ? item.priceUsd
+            : undefined;
+        return {
+          name: item.name || "AMB BOUTIQUE item",
+          quantity,
+          size: item.size,
+          color: item.color,
+          unitAmount,
+        };
+      }),
+      currency,
+      subtotal: typeof session.amount_subtotal === "number" ? session.amount_subtotal / 100 : undefined,
+      shipping: typeof session.shipping_cost?.amount_total === "number" ? session.shipping_cost.amount_total / 100 : undefined,
+      tax: typeof session.total_details?.amount_tax === "number" ? session.total_details.amount_tax / 100 : undefined,
+      discount: typeof session.total_details?.amount_discount === "number" ? session.total_details.amount_discount / 100 : undefined,
+      total: (session.amount_total || 0) / 100,
+      deliveryMinBusinessDays: delivery.min,
+      deliveryMaxBusinessDays: delivery.max,
+    };
+
     await sendAmbEmail({
       campaign: "order-confirmed",
       to: email,
       contactId: contact?.id,
       journeyId: journey?.id,
+      firstName,
       orderReference: session.id.slice(-10).toUpperCase(),
       recoveryUrl: `/checkout/success?session_id=${encodeURIComponent(session.id)}`,
+      orderDetails,
     });
+
+    await scheduleEmailSequence({
+      campaigns: postPurchaseFollowUpCampaigns,
+      to: email,
+      contactId: contact?.id,
+      journeyId: journey?.id,
+      firstName,
+      cancelExistingJourneyEmails: false,
+    }).catch((error) => console.error("AMB post-purchase follow-up schedule failed", {
+      journeyId: journey?.id,
+      error: error instanceof Error ? error.message : "unknown",
+    }));
   }
 }
 
