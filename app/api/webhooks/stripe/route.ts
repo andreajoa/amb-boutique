@@ -52,16 +52,22 @@ export async function POST(request: NextRequest) {
   try {
     const event = stripe.webhooks.constructEvent(await request.text(), signature, webhookSecret);
     if (event.type === "checkout.session.completed" && event.data.object.payment_status === "paid") {
-      await Promise.all([
-        forwardForFulfillment(event.data.object, event.type),
-        completeJourney(event.data.object),
-      ]);
+      await completeJourney(event.data.object);
+      await forwardForFulfillment(event.data.object, event.type).catch((error) => {
+        console.error("AMB fulfillment forward failed", {
+          sessionId: event.data.object.id,
+          error: error instanceof Error ? error.message : "unknown",
+        });
+      });
     }
     if (event.type === "checkout.session.async_payment_succeeded") {
-      await Promise.all([
-        forwardForFulfillment(event.data.object, event.type),
-        completeJourney(event.data.object),
-      ]);
+      await completeJourney(event.data.object);
+      await forwardForFulfillment(event.data.object, event.type).catch((error) => {
+        console.error("AMB fulfillment forward failed", {
+          sessionId: event.data.object.id,
+          error: error instanceof Error ? error.message : "unknown",
+        });
+      });
     }
     if (event.type === "checkout.session.async_payment_failed") {
       console.warn("AMB asynchronous payment failed", { sessionId: event.data.object.id });
