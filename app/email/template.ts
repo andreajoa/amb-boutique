@@ -1,6 +1,26 @@
 import { FIRST_ORDER_CODE } from "../commerce";
 import type { AmbCampaign } from "./campaigns";
 
+export type AmbOrderEmailItem = {
+  name: string;
+  quantity: number;
+  size?: string;
+  color?: string;
+  unitAmount?: number;
+};
+
+export type AmbOrderEmailDetails = {
+  items: AmbOrderEmailItem[];
+  currency: string;
+  subtotal?: number;
+  shipping?: number;
+  tax?: number;
+  discount?: number;
+  total: number;
+  deliveryMinBusinessDays: number;
+  deliveryMaxBusinessDays: number;
+};
+
 const escapeHtml = (value: string) => value.replace(/[&<>"']/g, (character) => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;",
 }[character] || character));
@@ -82,7 +102,7 @@ function emailFooter(campaignKey: string, unsubscribeUrl: string) {
       <a href="${escapeHtml(trackedUrl("https://www.instagram.com/ambb.outique/", campaignKey, "footer-instagram"))}" style="color:#fffdfa;text-decoration:underline;margin:0 10px">INSTAGRAM</a>
       <a href="${escapeHtml(trackedUrl("https://www.tiktok.com/@ambb.outique", campaignKey, "footer-tiktok"))}" style="color:#fffdfa;text-decoration:underline;margin:0 10px">TIKTOK</a>
     </p>
-    <p style="margin:0;color:#d3cbc3;font-size:11px;line-height:1.8">AMB BOUTIQUE · Operated by Ana Paula Maciel<br>San Diego, California, United States<br><a href="mailto:info@ambboutique.online" style="color:#fffdfa">info@ambboutique.online</a></p>
+    <p style="margin:0;color:#d3cbc3;font-size:11px;line-height:1.8">AMB BOUTIQUE · Operated by Ana Paula Maciel<br><a href="mailto:info@ambboutique.online" style="color:#fffdfa">info@ambboutique.online</a></p>
     <p style="margin:17px auto 0;max-width:560px;color:#aaa19a;font-size:9px;line-height:1.65">Worldwide delivery is available to the United States, Canada, the United Kingdom, Australia and New Zealand. Shipping charges, duties and taxes vary by destination. Prices appear in the currency selected on the website.</p>
     <p style="margin:17px 0 0;color:#aaa19a;font-size:9px;line-height:1.7">You received this email because you subscribed, requested an offer or started an AMB order.<br><a href="${escapeHtml(unsubscribeUrl)}" style="color:#fffdfa;text-decoration:underline">Unsubscribe</a> · <a href="${escapeHtml(trackedUrl("/privacy", campaignKey, "footer-privacy"))}" style="color:#fffdfa">Privacy Policy</a> · <a href="${escapeHtml(trackedUrl("/terms", campaignKey, "footer-terms"))}" style="color:#fffdfa">Terms</a> · <a href="${escapeHtml(trackedUrl("/accessibility", campaignKey, "footer-accessibility"))}" style="color:#fffdfa">Accessibility</a></p>
   </td></tr>`;
@@ -130,7 +150,7 @@ function confidenceBlock(campaign: AmbCampaign) {
     return {
       eyebrow: "NEED A REAL ANSWER?",
       headline: "We can help before you decide.",
-      body: "Questions about fit, payment or delivery? Reply to this email or contact our San Diego team. Clear information should come before checkout.",
+      body: "Questions about fit, payment or delivery? Reply to this email or contact our support team. Clear information should come before checkout.",
       label: "GET PERSONAL SUPPORT",
       path: "/contact",
     };
@@ -241,7 +261,7 @@ function renderWelcomeDiscountEmail(options: {
             <tr>
               <td class="mobile-stack" width="50%" valign="middle"><a href="${escapeHtml(storyUrl)}"><img src="${escapeHtml(absoluteUrl("/images/newsletter-editorial.webp"))}" width="360" alt="The considered AMB point of view" style="display:block;width:100%;height:auto;border:0"></a></td>
               <td class="mobile-stack mobile-stack-pad" width="50%" valign="middle" style="padding:34px 36px;background:#f4eee4">
-                <p style="margin:0 0 11px;color:#a16845;font-size:9px;letter-spacing:.2em;font-weight:700">FROM SAN DIEGO, WITH INTENTION</p>
+                <p style="margin:0 0 11px;color:#a16845;font-size:9px;letter-spacing:.2em;font-weight:700">CHOSEN WITH INTENTION</p>
                 <h2 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:29px;line-height:1.14;font-weight:500">A boutique built for real life—not just the photograph.</h2>
                 <p style="margin:17px 0;color:#554d46;font-size:13px;line-height:1.75">Ana Paula Maciel founded AMB around a simple belief: a beautiful piece should earn its place. It should work more than once, style more than one way and still feel unmistakably like you.</p>
                 <a href="${escapeHtml(storyUrl)}" style="color:#171411;font-size:10px;font-weight:700;letter-spacing:.13em;text-decoration:underline">READ THE AMB STORY</a>
@@ -282,11 +302,109 @@ function renderWelcomeDiscountEmail(options: {
 </body></html>`;
 }
 
+
+function formatOrderMoney(amount: number | undefined, currency: string) {
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: currency.toUpperCase(),
+    minimumFractionDigits: 2,
+  }).format(amount || 0);
+}
+
+function renderOrderConfirmationEmail(options: {
+  firstName?: string;
+  orderReference?: string;
+  orderDetails: AmbOrderEmailDetails;
+}) {
+  const firstName = options.firstName?.trim();
+  const greeting = firstName ? `Thank you, ${escapeHtml(firstName)}.` : "Thank you for your order.";
+  const details = options.orderDetails;
+  const currency = details.currency.toUpperCase();
+  const reference = options.orderReference
+    ? `<p style="margin:12px 0 0;color:#786f67;font-size:11px;letter-spacing:.12em">ORDER ${escapeHtml(options.orderReference)}</p>`
+    : "";
+
+  const itemRows = details.items.map((item) => {
+    const quantity = Math.max(1, Number(item.quantity) || 1);
+    const meta = [
+      item.size ? `Size: ${escapeHtml(item.size)}` : "",
+      item.color ? `Color: ${escapeHtml(item.color)}` : "",
+      `Quantity: ${quantity}`,
+    ].filter(Boolean).join("<br>");
+    const amount = typeof item.unitAmount === "number"
+      ? `<td align="right" valign="top" style="padding:22px 0 22px 18px;font-size:14px;font-weight:700;white-space:nowrap">${escapeHtml(formatOrderMoney(item.unitAmount * quantity, currency))}</td>`
+      : "";
+    return `<tr>
+      <td style="padding:22px 0;border-top:1px solid #e4ddd4">
+        <div style="font-family:Georgia,'Times New Roman',serif;font-size:20px;line-height:1.3">${escapeHtml(item.name)}</div>
+        <div style="margin-top:8px;font-size:12px;line-height:1.7;color:#6b655e">${meta}</div>
+      </td>
+      ${amount}
+    </tr>`;
+  }).join("");
+
+  const totalRows = [
+    typeof details.subtotal === "number" ? ["Merchandise", details.subtotal] : null,
+    typeof details.shipping === "number" ? ["Shipping", details.shipping] : null,
+    typeof details.tax === "number" && details.tax > 0 ? ["Tax", details.tax] : null,
+    typeof details.discount === "number" && details.discount > 0 ? ["Discount", -details.discount] : null,
+  ].filter(Boolean) as Array<[string, number]>;
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="x-apple-disable-message-reformatting">
+</head>
+<body style="margin:0;padding:0;background:#f5efe5;color:#171512;font-family:Arial,Helvetica,sans-serif">
+  <div style="display:none;max-height:0;overflow:hidden;opacity:0">We’re preparing your order.</div>
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="width:100%;background:#f5efe5">
+    <tr><td align="center" style="padding:32px 12px">
+      <table role="presentation" width="640" cellspacing="0" cellpadding="0" style="width:100%;max-width:640px;background:#fffefc;border:1px solid #e7dac8">
+        <tr><td style="padding:34px 38px 24px;text-align:center;border-bottom:1px solid #e7dac8">
+          <a href="${escapeHtml(absoluteUrl("/"))}" style="color:#171512;text-decoration:none">
+            <div style="font-family:Georgia,'Times New Roman',serif;font-size:30px;letter-spacing:.16em;font-weight:600">AMB BOUTIQUE</div>
+          </a>
+          <div style="margin-top:8px;font-size:9px;letter-spacing:.32em;color:#6b655e">ORDER CONFIRMATION</div>
+        </td></tr>
+        <tr><td style="padding:40px 38px">
+          <div style="font-size:11px;letter-spacing:.16em;font-weight:700;color:#aa8063">ORDER CONFIRMED</div>
+          <h1 style="margin:12px 0 14px;font-family:Georgia,'Times New Roman',serif;font-size:38px;line-height:1.05;font-weight:500">${greeting}</h1>
+          <p style="margin:0;font-size:14px;line-height:1.75;color:#4e4943">Your order is confirmed and we’re preparing it. We’ll send you another email when tracking information becomes available.</p>
+          ${reference}
+
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="margin-top:28px;border-bottom:1px solid #e4ddd4">
+            ${itemRows}
+          </table>
+
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="font-size:13px;line-height:1.8;margin:28px 0 30px">
+            ${totalRows.map(([label, amount]) => `<tr><td style="color:#6b655e">${escapeHtml(label)}</td><td align="right">${escapeHtml(formatOrderMoney(amount, currency))}</td></tr>`).join("")}
+            <tr><td style="padding-top:8px;font-weight:700;border-top:1px solid #ded8cf">Total paid</td><td align="right" style="padding-top:8px;font-weight:700;border-top:1px solid #ded8cf">${escapeHtml(formatOrderMoney(details.total, currency))}</td></tr>
+          </table>
+
+          <div style="background:#f5efe5;padding:22px 24px;margin-bottom:26px">
+            <div style="font-size:10px;letter-spacing:.14em;font-weight:700;margin-bottom:8px">DELIVERY</div>
+            <div style="font-size:13px;line-height:1.7;color:#4e4943">Estimated delivery window: <strong>${details.deliveryMinBusinessDays}–${details.deliveryMaxBusinessDays} business days</strong>. Tracking will be sent separately when it becomes available.</div>
+          </div>
+
+          <p style="margin:0;font-size:13px;line-height:1.75;color:#6b655e">Need help with your order? Email <a href="mailto:info@ambboutique.online" style="color:#171512">info@ambboutique.online</a>.</p>
+        </td></tr>
+        <tr><td style="padding:22px 38px;border-top:1px solid #e7dac8;text-align:center;font-size:11px;line-height:1.6;color:#6b655e">
+          Thank you for shopping with AMB BOUTIQUE.
+        </td></tr>
+      </table>
+    </td></tr>
+  </table>
+</body></html>`;
+}
+
 export function renderAmbEmail(campaign: AmbCampaign, options: {
   firstName?: string;
   recoveryUrl?: string;
   unsubscribeUrl?: string;
   orderReference?: string;
+  orderDetails?: AmbOrderEmailDetails;
 } = {}) {
   const firstName = options.firstName?.trim();
   const greeting = firstName ? `Hi ${escapeHtml(firstName)},` : "Hello,";
@@ -294,6 +412,14 @@ export function renderAmbEmail(campaign: AmbCampaign, options: {
 
   if (campaign.key === "welcome-discount") {
     return renderWelcomeDiscountEmail({ greeting, unsubscribeUrl });
+  }
+
+  if (campaign.key === "order-confirmed" && options.orderDetails) {
+    return renderOrderConfirmationEmail({
+      firstName: options.firstName,
+      orderReference: options.orderReference,
+      orderDetails: options.orderDetails,
+    });
   }
 
   const ctaUrl = trackedUrl(options.recoveryUrl || campaign.ctaUrl, campaign.key, "primary-cta");
@@ -343,7 +469,7 @@ export function renderAmbEmail(campaign: AmbCampaign, options: {
           <table class="mobile-button" role="presentation" cellspacing="0" cellpadding="0" style="margin:27px auto 0"><tr><td bgcolor="#1c1a18" style="background:#1c1a18;border-radius:99px"><a href="${escapeHtml(ctaUrl)}" style="display:inline-block;color:#fffdfa;text-decoration:none;padding:17px 33px;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase">${escapeHtml(campaign.ctaLabel)}</a></td></tr></table>
         </td></tr>
 
-        <tr><td style="padding:17px 20px;background:#b99a82;color:#fffdfa;text-align:center;font-size:10px;line-height:1.7;letter-spacing:.09em">CURATED IN SAN DIEGO &nbsp;·&nbsp; SECURE CHECKOUT &nbsp;·&nbsp; WORLDWIDE DELIVERY</td></tr>
+        <tr><td style="padding:17px 20px;background:#b99a82;color:#fffdfa;text-align:center;font-size:10px;line-height:1.7;letter-spacing:.09em">CURATED BY AMB BOUTIQUE &nbsp;·&nbsp; SECURE CHECKOUT &nbsp;·&nbsp; WORLDWIDE DELIVERY</td></tr>
 
         ${categoryGrid(campaign.key)}
 
