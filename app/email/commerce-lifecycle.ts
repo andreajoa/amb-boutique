@@ -112,13 +112,50 @@ export async function completeJourney(session: Stripe.Checkout.Session) {
     await sql`
       INSERT INTO amb_analytics_events (
         visitor_id, event_type, path, source, market, value_usd, metadata
-      ) VALUES (
+      )
+      SELECT
         ${journey.visitor_id}, 'purchase', '/checkout/success', 'stripe',
         ${session.metadata?.market || "US"},
         ${session.amount_total ? session.amount_total / 100 : null},
-        ${jsonForDatabase({ sessionId: session.id, currency: session.currency })}::jsonb
+        ${jsonForDatabase({ sessionId: session.id, currency: session.currency, scope: "order" })}::jsonb
+      WHERE NOT EXISTS (
+        SELECT 1 FROM amb_analytics_events
+        WHERE event_type = 'purchase'
+          AND slug IS NULL
+          AND metadata->>'sessionId' = ${session.id}
       )
     `;
+    if (journey.id) {
+      await sql`
+        INSERT INTO amb_analytics_events (
+          visitor_id, event_type, path, source, market, value_usd, slug, metadata
+        )
+        SELECT
+          ${journey.visitor_id}, 'purchase', '/checkout/success', 'stripe',
+          ${session.metadata?.market || "US"},
+          COALESCE(NULLIF(item->>'priceUsd','')::numeric, 0) * COALESCE(NULLIF(item->>'quantity','')::int, 1),
+          item->>'slug',
+          jsonb_build_object(
+            'sessionId', ${session.id},
+            'currency', ${session.currency || null},
+            'scope', 'product',
+            'quantity', COALESCE(NULLIF(item->>'quantity','')::int, 1),
+            'size', item->>'size',
+            'color', item->>'color',
+            'offer', item->>'offer'
+          )
+        FROM amb_commerce_journeys stored_journey
+        CROSS JOIN LATERAL jsonb_array_elements(COALESCE(stored_journey.cart, '[]'::jsonb)) item
+        WHERE stored_journey.id = ${journey.id}
+          AND NULLIF(item->>'slug','') IS NOT NULL
+          AND NOT EXISTS (
+            SELECT 1 FROM amb_analytics_events existing
+            WHERE existing.event_type = 'purchase'
+              AND existing.slug = item->>'slug'
+              AND existing.metadata->>'sessionId' = ${session.id}
+          )
+      `;
+    }
   }
   if (email) {
     await sendAmbEmail({
