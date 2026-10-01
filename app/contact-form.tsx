@@ -2,7 +2,10 @@
 
 import { FormEvent, useState } from "react";
 
+type ContactState = "idle" | "success" | "error";
+
 export function ContactForm() {
+  const [status, setStatus] = useState<ContactState>("idle");
   const [message, setMessage] = useState("");
   const [pending, setPending] = useState(false);
 
@@ -11,18 +14,38 @@ export function ContactForm() {
     const form = event.currentTarget;
     const data = Object.fromEntries(new FormData(form));
     setPending(true);
+    setStatus("idle");
     setMessage("");
+
     try {
-      const response = await fetch("/api/contact", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) });
-      const result = await response.json();
-      if (!response.ok) throw new Error(result.error);
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      const result = await response.json().catch(() => ({})) as { error?: string };
+      if (!response.ok) throw new Error(result.error || "Unable to send message.");
       form.reset();
-      setMessage("Thank you — your message is on its way to our San Diego team.");
-    } catch (error) {
-      setMessage(error instanceof Error ? error.message : "Please email info@ambboutique.online.");
+      setStatus("success");
+      setMessage("Your message has been sent successfully. Our support team will review it and get back to you within two business days.");
+    } catch {
+      setStatus("error");
+      setMessage("We couldn’t send your message right now. Please try again in a few minutes. If the issue continues, email us at info@ambboutique.online.");
     } finally {
       setPending(false);
     }
+  }
+
+  if (status === "success") {
+    return <section className="contact-success" aria-live="polite">
+      <div className="contact-success-mark" aria-hidden="true">✓</div>
+      <p className="contact-success-kicker">MESSAGE SENT</p>
+      <h2>Thank you for contacting AMB BOUTIQUE.</h2>
+      <p>{message}</p>
+      <button type="button" className="button dark" onClick={() => { setStatus("idle"); setMessage(""); }}>
+        Send Another Message
+      </button>
+    </section>;
   }
 
   return <form className="contact-form" onSubmit={submit}>
@@ -32,7 +55,7 @@ export function ContactForm() {
     <label>How can we help?<select name="topic" defaultValue="Product question"><option>Product question</option><option>Order support</option><option>Shipping & returns</option><option>Press & partnerships</option><option>Something else</option></select></label>
     <label>Message<textarea name="message" rows={7} required/></label>
     <button className="button dark" disabled={pending}>{pending ? "Sending…" : "Send Message"}</button>
-    {message && <output className="form-message" aria-live="polite">{message}</output>}
+    {status === "error" && message && <output className="form-message form-message-error" aria-live="assertive">{message}</output>}
   </form>;
 }
 
