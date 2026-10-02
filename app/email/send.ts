@@ -129,6 +129,7 @@ export async function sendAmbEmail(options: {
   });
   const from = ambResendFromEmail();
   const transactional = new Set(["order-confirmed", "order-next-steps", "order-shipped", "payment-recovery"]);
+  const isTransactional = transactional.has(campaign.key) || campaign.key.startsWith("tracking-");
   const result = await resend.emails.send({
     from,
     to: [options.to],
@@ -136,7 +137,7 @@ export async function sendAmbEmail(options: {
     subject: subjectTest.subject,
     html,
     scheduledAt: options.scheduledAt,
-    ...(transactional.has(campaign.key) ? {} : {
+    ...(isTransactional ? {} : {
       headers: {
         "List-Unsubscribe": `<${unsubscribeUrl}>`,
         "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
