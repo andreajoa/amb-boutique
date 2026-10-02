@@ -8503,7 +8503,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "eloise-bow-polka-dot-blouse",
-  "name": "Eloise Bow Polka Dot Blouse",
+  "name": "Eloise Bow Polka Dot Blouse — White",
   "vendor": "AMB BOUTIQUE",
   "category": "Tops",
   "price": 47.9,
@@ -8514,7 +8514,7 @@ const allGeneratedProducts: Product[] = [
     "#f3eadc"
   ],
   "colorNames": [
-    "Ivory"
+    "White"
   ],
   "sizes": [
     "XS",
@@ -8522,7 +8522,7 @@ const allGeneratedProducts: Product[] = [
     "M",
     "L"
   ],
-  "description": "Eloise Bow Polka Dot Blouse is a softly draped ivory blouse with a neck tie, long sleeves and delicate dots for feminine office-to-dinner styling.",
+  "description": "Eloise Bow Polka Dot Blouse in White is a softly draped chiffon blouse with a neck tie, long balloon sleeves and delicate black dots for polished office-to-dinner styling.",
   "materials": "Lightweight chiffon-style woven fabric with a soft drape.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
@@ -8532,8 +8532,46 @@ const allGeneratedProducts: Product[] = [
     "/products/eloise-bow-polka-dot-blouse/right.webp"
   ],
   "stock": 142,
+  "unitCostUsd": 19.18,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811859732538",
+  "sourceColor": "WH"
+},
+{
+  "slug": "eloise-bow-polka-dot-blouse-coffee",
+  "name": "Eloise Bow Polka Dot Blouse — Coffee",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "price": 47.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 3,
+  "colors": [
+    "#4a2f29"
+  ],
+  "colorNames": [
+    "Coffee"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Eloise Bow Polka Dot Blouse in Coffee is a softly draped chiffon blouse with a neck tie, long balloon sleeves and ivory dots in a rich brown tone.",
+  "materials": "Lightweight chiffon-style woven fabric with a soft drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/eloise-bow-polka-dot-blouse-coffee/front.webp",
+    "/products/eloise-bow-polka-dot-blouse-coffee/back.webp",
+    "/products/eloise-bow-polka-dot-blouse-coffee/left.webp",
+    "/products/eloise-bow-polka-dot-blouse-coffee/right.webp"
+  ],
+  "stock": 119,
   "unitCostUsd": 19.21,
-  "minimumMarginPercent": 40
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811859732538",
+  "sourceColor": "Coffee"
 },
 {
   "slug": "margaux-ruffle-polka-dot-blouse",
@@ -8876,6 +8914,7 @@ export const approvedNewProductSlugs = new Set<string>([
   "juliette-ruffle-polka-dot-blouse",
   "vivienne-chiffon-polka-dot-blouse",
   "eloise-bow-polka-dot-blouse",
+  "eloise-bow-polka-dot-blouse-coffee",
   "margaux-ruffle-polka-dot-blouse",
   "sabine-ruched-jumpsuit",
   "sabine-ruched-jumpsuit-taupe",
