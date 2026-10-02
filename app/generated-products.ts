@@ -8571,7 +8571,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "sabine-ruched-jumpsuit",
-  "name": "Sabine Ruched Jumpsuit",
+  "name": "Sabine Ruched Jumpsuit — Black",
   "vendor": "AMB BOUTIQUE",
   "category": "Playsuits",
   "price": 62.9,
@@ -8589,8 +8589,8 @@ const allGeneratedProducts: Product[] = [
     "M",
     "L"
   ],
-  "description": "Sabine Ruched Jumpsuit is a sleek black long-sleeve one-piece with a plunging neckline, gathered waist and fluid flared leg for evening dressing.",
-  "materials": "Lightweight woven fabric with a smooth printed finish.",
+  "description": "Sabine Ruched Jumpsuit in Black features a plunging V neckline, sculpted wrap ruching, long sleeves and fluid flared legs for an elongated evening silhouette.",
+  "materials": "Smooth stretch fabric with a softly lustrous finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
     "/products/sabine-ruched-jumpsuit/front.webp",
@@ -8600,7 +8600,114 @@ const allGeneratedProducts: Product[] = [
   ],
   "stock": 70,
   "unitCostUsd": 26.83,
-  "minimumMarginPercent": 40
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809714237127",
+  "sourceColor": "Black"
+},
+{
+  "slug": "sabine-ruched-jumpsuit-champagne",
+  "name": "Sabine Ruched Jumpsuit — Champagne",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Playsuits",
+  "price": 62.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d8c4a8"
+  ],
+  "colorNames": [
+    "Champagne"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Sabine Ruched Jumpsuit in Champagne features a plunging V neckline, sculpted wrap ruching, long sleeves and fluid flared legs in a soft neutral finish.",
+  "materials": "Smooth stretch fabric with a softly lustrous finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/sabine-ruched-jumpsuit-champagne/front.webp",
+    "/products/sabine-ruched-jumpsuit-champagne/back.webp",
+    "/products/sabine-ruched-jumpsuit-champagne/left.webp",
+    "/products/sabine-ruched-jumpsuit-champagne/right.webp"
+  ],
+  "stock": 70,
+  "unitCostUsd": 26.83,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809714237127",
+  "sourceColor": "Champagne"
+},
+{
+  "slug": "sabine-ruched-jumpsuit-fuchsia",
+  "name": "Sabine Ruched Jumpsuit — Fuchsia",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Playsuits",
+  "price": 62.9,
+  "badge": "Just In",
+  "sheet": "two",
+  "quadrant": 2,
+  "colors": [
+    "#e91e78"
+  ],
+  "colorNames": [
+    "Fuchsia"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Sabine Ruched Jumpsuit in Fuchsia features a plunging V neckline, sculpted wrap ruching, long sleeves and fluid flared legs in a vivid statement color.",
+  "materials": "Smooth stretch fabric with a softly lustrous finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/sabine-ruched-jumpsuit-fuchsia/front.webp",
+    "/products/sabine-ruched-jumpsuit-fuchsia/back.webp",
+    "/products/sabine-ruched-jumpsuit-fuchsia/left.webp",
+    "/products/sabine-ruched-jumpsuit-fuchsia/right.webp"
+  ],
+  "stock": 70,
+  "unitCostUsd": 26.83,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809714237127",
+  "sourceColor": "Fuchsia"
+},
+{
+  "slug": "sabine-ruched-jumpsuit-taupe",
+  "name": "Sabine Ruched Jumpsuit — Taupe",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Playsuits",
+  "price": 62.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 3,
+  "colors": [
+    "#aaa09a"
+  ],
+  "colorNames": [
+    "Taupe"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Sabine Ruched Jumpsuit in Taupe features a plunging V neckline, sculpted wrap ruching, long sleeves and fluid flared legs in a refined stone-neutral shade.",
+  "materials": "Smooth stretch fabric with a softly lustrous finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/sabine-ruched-jumpsuit-taupe/front.webp",
+    "/products/sabine-ruched-jumpsuit-taupe/back.webp",
+    "/products/sabine-ruched-jumpsuit-taupe/left.webp",
+    "/products/sabine-ruched-jumpsuit-taupe/right.webp"
+  ],
+  "stock": 70,
+  "unitCostUsd": 26.83,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809714237127",
+  "sourceColor": "Taupe"
 }
 ];
 
@@ -8771,6 +8878,9 @@ export const approvedNewProductSlugs = new Set<string>([
   "eloise-bow-polka-dot-blouse",
   "margaux-ruffle-polka-dot-blouse",
   "sabine-ruched-jumpsuit",
+  "sabine-ruched-jumpsuit-taupe",
+  "sabine-ruched-jumpsuit-fuchsia",
+  "sabine-ruched-jumpsuit-champagne",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(
