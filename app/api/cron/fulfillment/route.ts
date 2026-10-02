@@ -12,6 +12,7 @@ import {
 } from "../../../fulfillment-tracking";
 import { sendAmbTrackingUpdateEmail } from "../../../email/tracking-update";
 import { storeManagerSyncToken } from "../../../store-manager-auth";
+import { signAmbFulfillmentPayload } from "../../../fulfillment-signing";
 
 export const runtime = "nodejs";
 export const maxDuration = 300;
@@ -69,10 +70,26 @@ export async function GET(request: NextRequest) {
   for (const order of orders) {
     const sessionId = order.stripe_session_id;
     try {
+      const statusPath = "/api/stores/amb-boutique-store/amb/orders/status";
+      const timestamp = String(Date.now());
+      const canonical = [
+        "GET",
+        statusPath,
+        sessionId,
+        timestamp,
+      ].join("\n");
+      const signed = signAmbFulfillmentPayload(canonical);
+      if (!signed) throw new Error("AMB fulfillment signing is not configured.");
+
       const response = await fetch(
-        `${managerBase}/api/stores/amb-boutique-store/amb/orders/status?session_id=${encodeURIComponent(sessionId)}`,
+        `${managerBase}${statusPath}?session_id=${encodeURIComponent(sessionId)}`,
         {
-          headers: { Authorization: `Bearer ${token}` },
+          headers: {
+            Authorization: `Bearer ${token}`,
+            "x-amb-key-id": signed.keyId,
+            "x-amb-signature": signed.signature,
+            "x-amb-timestamp": timestamp,
+          },
           cache: "no-store",
         },
       );
