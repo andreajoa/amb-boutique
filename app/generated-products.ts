@@ -8063,7 +8063,545 @@ const allGeneratedProducts: Product[] = [
     "badge": "Just In"
   },
   ...august2026Products,
-  ...september2026Products
+  ...september2026Products,
+{
+  "slug": "celeste-polka-dot-midi-dress",
+  "name": "Celeste Polka Dot Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 105.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f3eadc"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M"
+  ],
+  "description": "Celeste Polka Dot Midi Dress pairs a softly shaped midi silhouette with delicate black dots and feminine ruffle details for polished day-to-evening dressing.",
+  "materials": "Lightweight woven fabric with a smooth printed finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/celeste-polka-dot-midi-dress/front.webp",
+    "/products/celeste-polka-dot-midi-dress/back.webp",
+    "/products/celeste-polka-dot-midi-dress/left.webp",
+    "/products/celeste-polka-dot-midi-dress/right.webp"
+  ],
+  "stock": 169,
+  "unitCostUsd": 42.05,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "mirelle-halter-polka-dot-maxi-dress",
+  "name": "Mirelle Halter Polka Dot Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 73.9,
+  "badge": "Just In",
+  "sheet": "two",
+  "quadrant": 2,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Mirelle Halter Polka Dot Maxi Dress brings a sleek halter neckline and fluid dotted silhouette together in an elegant black statement dress.",
+  "materials": "Lightweight woven fabric with a smooth printed finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/mirelle-halter-polka-dot-maxi-dress/front.webp",
+    "/products/mirelle-halter-polka-dot-maxi-dress/back.webp",
+    "/products/mirelle-halter-polka-dot-maxi-dress/left.webp",
+    "/products/mirelle-halter-polka-dot-maxi-dress/right.webp"
+  ],
+  "stock": 48,
+  "unitCostUsd": 29.18,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "aurelia-spotted-maxi-dress",
+  "name": "Aurelia Spotted Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 77.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 3,
+  "colors": [
+    "#d7b98c"
+  ],
+  "colorNames": [
+    "Multi"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Aurelia Spotted Maxi Dress features a fitted strappy bodice and fluid floor-length skirt with an expressive spotted print made for warm evenings and destination dressing.",
+  "materials": "Lightweight woven fabric with a smooth printed finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/aurelia-spotted-maxi-dress/front.webp",
+    "/products/aurelia-spotted-maxi-dress/back.webp",
+    "/products/aurelia-spotted-maxi-dress/left.webp",
+    "/products/aurelia-spotted-maxi-dress/right.webp"
+  ],
+  "stock": 2932,
+  "unitCostUsd": 31.15,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "violette-scarf-polka-dot-maxi-dress",
+  "name": "Violette Scarf Polka Dot Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "two",
+  "quadrant": 4,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "Violette Scarf Polka Dot Maxi Dress combines a long black dotted silhouette with an elegant scarf detail for a refined, elongated evening look.",
+  "materials": "Lightweight woven fabric with a smooth printed finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/violette-scarf-polka-dot-maxi-dress/front.webp",
+    "/products/violette-scarf-polka-dot-maxi-dress/back.webp",
+    "/products/violette-scarf-polka-dot-maxi-dress/left.webp",
+    "/products/violette-scarf-polka-dot-maxi-dress/right.webp"
+  ],
+  "stock": 29533,
+  "unitCostUsd": 34.96,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "noelle-polka-dot-mini-dress",
+  "name": "Noelle Polka Dot Mini Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 24.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Noelle Polka Dot Mini Dress is a fitted black mini with a playful dotted print and open-back attitude, designed for nights out and warm-weather styling.",
+  "materials": "Lightweight woven fabric with a smooth printed finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/noelle-polka-dot-mini-dress/front.webp",
+    "/products/noelle-polka-dot-mini-dress/back.webp",
+    "/products/noelle-polka-dot-mini-dress/left.webp",
+    "/products/noelle-polka-dot-mini-dress/right.webp"
+  ],
+  "stock": 10,
+  "unitCostUsd": 9.59,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "amelie-lace-halter-maxi-dress",
+  "name": "Amelie Lace Halter Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 79.9,
+  "badge": "Just In",
+  "sheet": "two",
+  "quadrant": 2,
+  "colors": [
+    "#f5f1e8"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Amelie Lace Halter Maxi Dress pairs a white dotted base with lace accents and a body-skimming halter silhouette for a romantic statement.",
+  "materials": "Lightweight woven fabric with a smooth printed finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/amelie-lace-halter-maxi-dress/front.webp",
+    "/products/amelie-lace-halter-maxi-dress/back.webp",
+    "/products/amelie-lace-halter-maxi-dress/left.webp",
+    "/products/amelie-lace-halter-maxi-dress/right.webp"
+  ],
+  "stock": 29358,
+  "unitCostUsd": 31.76,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "seraphine-polka-dot-maxi-dress",
+  "name": "Seraphine Polka Dot Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 86.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 3,
+  "colors": [
+    "#f5f1e8"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Seraphine Polka Dot Maxi Dress is a white floor-length slip silhouette with black dots, a low back and fluid drape for effortless occasion dressing.",
+  "materials": "Lightweight woven fabric with a smooth printed finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/seraphine-polka-dot-maxi-dress/front.webp",
+    "/products/seraphine-polka-dot-maxi-dress/back.webp",
+    "/products/seraphine-polka-dot-maxi-dress/left.webp",
+    "/products/seraphine-polka-dot-maxi-dress/right.webp"
+  ],
+  "stock": 31,
+  "unitCostUsd": 34.67,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "colette-lace-halter-mini-dress",
+  "name": "Colette Lace Halter Mini Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 71.9,
+  "badge": "Just In",
+  "sheet": "two",
+  "quadrant": 4,
+  "colors": [
+    "#f3eadc"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Colette Lace Halter Mini Dress blends an ivory dotted print with lace trim, a plunging halter neckline and a softly flared mini shape.",
+  "materials": "Lightweight woven fabric with a smooth printed finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/colette-lace-halter-mini-dress/front.webp",
+    "/products/colette-lace-halter-mini-dress/back.webp",
+    "/products/colette-lace-halter-mini-dress/left.webp",
+    "/products/colette-lace-halter-mini-dress/right.webp"
+  ],
+  "stock": 1615,
+  "unitCostUsd": 28.54,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "rosalie-polka-dot-sundress",
+  "name": "Rosalie Polka Dot Sundress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 23.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b62832"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "Rosalie Polka Dot Sundress is a vivid red dotted dress with wide straps, a fitted smocked bodice and easy flared skirt for bright summer styling.",
+  "materials": "Lightweight woven fabric with a smooth printed finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/rosalie-polka-dot-sundress/front.webp",
+    "/products/rosalie-polka-dot-sundress/back.webp",
+    "/products/rosalie-polka-dot-sundress/left.webp",
+    "/products/rosalie-polka-dot-sundress/right.webp"
+  ],
+  "stock": 15,
+  "unitCostUsd": 9.52,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "elara-halter-polka-dot-mini-dress",
+  "name": "Elara Halter Polka Dot Mini Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "two",
+  "quadrant": 2,
+  "colors": [
+    "#f3eadc"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Elara Halter Polka Dot Mini Dress features a plunging halter neckline, cinched waist and airy ivory dotted skirt with a feminine vintage feel.",
+  "materials": "Lightweight woven fabric with a smooth printed finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/elara-halter-polka-dot-mini-dress/front.webp",
+    "/products/elara-halter-polka-dot-mini-dress/back.webp",
+    "/products/elara-halter-polka-dot-mini-dress/left.webp",
+    "/products/elara-halter-polka-dot-mini-dress/right.webp"
+  ],
+  "stock": 616,
+  "unitCostUsd": 33.5,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "camille-polka-dot-halter-mini-dress",
+  "name": "Camille Polka Dot Halter Mini Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 31.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 3,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Camille Polka Dot Halter Mini Dress is a fitted black dotted mini with a high halter neckline and clean, streamlined shape.",
+  "materials": "Lightweight woven fabric with a smooth printed finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/camille-polka-dot-halter-mini-dress/front.webp",
+    "/products/camille-polka-dot-halter-mini-dress/back.webp",
+    "/products/camille-polka-dot-halter-mini-dress/left.webp",
+    "/products/camille-polka-dot-halter-mini-dress/right.webp"
+  ],
+  "stock": 68,
+  "unitCostUsd": 12.49,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "juliette-ruffle-polka-dot-blouse",
+  "name": "Juliette Ruffle Polka Dot Blouse",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "price": 45.9,
+  "badge": "Just In",
+  "sheet": "two",
+  "quadrant": 4,
+  "colors": [
+    "#f5f1e8"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Juliette Ruffle Polka Dot Blouse is a light white blouse with black dots, soft ruffle detailing and relaxed long sleeves for polished everyday wear.",
+  "materials": "Lightweight chiffon-style woven fabric with a soft drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/juliette-ruffle-polka-dot-blouse/front.webp",
+    "/products/juliette-ruffle-polka-dot-blouse/back.webp",
+    "/products/juliette-ruffle-polka-dot-blouse/left.webp",
+    "/products/juliette-ruffle-polka-dot-blouse/right.webp"
+  ],
+  "stock": 59963,
+  "unitCostUsd": 18.25,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "vivienne-chiffon-polka-dot-blouse",
+  "name": "Vivienne Chiffon Polka Dot Blouse",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "price": 40.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Vivienne Chiffon Polka Dot Blouse combines a sheer black dotted layer, flutter sleeves and a wrap-inspired waist tie for an elegant finish.",
+  "materials": "Lightweight chiffon-style woven fabric with a soft drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/vivienne-chiffon-polka-dot-blouse/front.webp",
+    "/products/vivienne-chiffon-polka-dot-blouse/back.webp",
+    "/products/vivienne-chiffon-polka-dot-blouse/left.webp",
+    "/products/vivienne-chiffon-polka-dot-blouse/right.webp"
+  ],
+  "stock": 1773,
+  "unitCostUsd": 15.99,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "eloise-bow-polka-dot-blouse",
+  "name": "Eloise Bow Polka Dot Blouse",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "price": 48.9,
+  "badge": "Just In",
+  "sheet": "two",
+  "quadrant": 2,
+  "colors": [
+    "#f3eadc"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Eloise Bow Polka Dot Blouse is a softly draped ivory blouse with a neck tie, long sleeves and delicate dots for feminine office-to-dinner styling.",
+  "materials": "Lightweight chiffon-style woven fabric with a soft drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/eloise-bow-polka-dot-blouse/front.webp",
+    "/products/eloise-bow-polka-dot-blouse/back.webp",
+    "/products/eloise-bow-polka-dot-blouse/left.webp",
+    "/products/eloise-bow-polka-dot-blouse/right.webp"
+  ],
+  "stock": 142,
+  "unitCostUsd": 19.21,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "margaux-ruffle-polka-dot-blouse",
+  "name": "Margaux Ruffle Polka Dot Blouse",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "price": 35.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 3,
+  "colors": [
+    "#f3eadc"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "Margaux Ruffle Polka Dot Blouse pairs an asymmetric cold-shoulder neckline with soft ruffles and a delicate ivory dotted print.",
+  "materials": "Lightweight chiffon-style woven fabric with a soft drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/margaux-ruffle-polka-dot-blouse/front.webp",
+    "/products/margaux-ruffle-polka-dot-blouse/back.webp",
+    "/products/margaux-ruffle-polka-dot-blouse/left.webp",
+    "/products/margaux-ruffle-polka-dot-blouse/right.webp"
+  ],
+  "stock": 3539,
+  "unitCostUsd": 13.98,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "sabine-ruched-jumpsuit",
+  "name": "Sabine Ruched Jumpsuit",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Playsuits",
+  "price": 67.9,
+  "badge": "Just In",
+  "sheet": "two",
+  "quadrant": 4,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Sabine Ruched Jumpsuit is a sleek black long-sleeve one-piece with a plunging neckline, gathered waist and fluid flared leg for evening dressing.",
+  "materials": "Lightweight woven fabric with a smooth printed finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/sabine-ruched-jumpsuit/front.webp",
+    "/products/sabine-ruched-jumpsuit/back.webp",
+    "/products/sabine-ruched-jumpsuit/left.webp",
+    "/products/sabine-ruched-jumpsuit/right.webp"
+  ],
+  "stock": 70,
+  "unitCostUsd": 26.83,
+  "minimumMarginPercent": 40
+}
 ];
 
 // The first 81 records are the established catalogue that was live before the
@@ -8217,6 +8755,22 @@ export const approvedNewProductSlugs = new Set<string>([
   "xara-bodycon-dress",
   "xiomara-maxi-dress",
   "zara-dress",
+  "celeste-polka-dot-midi-dress",
+  "mirelle-halter-polka-dot-maxi-dress",
+  "aurelia-spotted-maxi-dress",
+  "violette-scarf-polka-dot-maxi-dress",
+  "noelle-polka-dot-mini-dress",
+  "amelie-lace-halter-maxi-dress",
+  "seraphine-polka-dot-maxi-dress",
+  "colette-lace-halter-mini-dress",
+  "rosalie-polka-dot-sundress",
+  "elara-halter-polka-dot-mini-dress",
+  "camille-polka-dot-halter-mini-dress",
+  "juliette-ruffle-polka-dot-blouse",
+  "vivienne-chiffon-polka-dot-blouse",
+  "eloise-bow-polka-dot-blouse",
+  "margaux-ruffle-polka-dot-blouse",
+  "sabine-ruched-jumpsuit",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(
