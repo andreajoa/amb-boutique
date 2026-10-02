@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 import { getAnalyticsSql } from "../../../analytics/db";
+import { dashboardAuthenticated } from "../../../dashboard/auth";
 import {
   completeTrackingNotification,
   ensureFulfillmentTrackingSchema,
@@ -22,7 +23,7 @@ function authorized(request: NextRequest) {
 }
 
 export async function GET(request: NextRequest) {
-  if (!authorized(request)) {
+  if (!authorized(request) && !await dashboardAuthenticated()) {
     return NextResponse.json({ ok: false, error: "Unauthorized" }, { status: 401 });
   }
 
