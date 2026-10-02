@@ -100,6 +100,9 @@ export async function GET(request: NextRequest) {
           ok: false,
           managerStatus: response.status,
           error: body && "error" in body ? body.error : "Manager lookup failed",
+          diagnostic: body && typeof body === "object" && "authDiagnostic" in body
+            ? (body as { authDiagnostic?: unknown }).authDiagnostic
+            : undefined,
         });
         continue;
       }
