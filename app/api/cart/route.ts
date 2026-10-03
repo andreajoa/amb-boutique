@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { products } from "../../data";
+import { resolveShoeProductSlug } from "../../shoe-products";
 import { isMarketCode } from "../../commerce";
 import { getAnalyticsSql, jsonForDatabase } from "../../analytics/db";
 import { cartRecoveryCampaigns } from "../../email/campaigns";
@@ -28,7 +29,9 @@ export async function POST(request: Request) {
   if (!sql) return NextResponse.json({ stored: false, preview: true }, { status: 202 });
 
   const cart = body.items.flatMap((item) => {
-    const product = products.find((candidate) => candidate.slug === item.slug);
+    const requestedHeel = item.heelHeightCm === undefined ? undefined : Number(item.heelHeightCm);
+    const resolvedSlug = item.slug ? resolveShoeProductSlug(item.slug, requestedHeel) : undefined;
+    const product = products.find((candidate) => candidate.slug === resolvedSlug);
     if (!product) return [];
     const quantity = Math.max(1, Math.min(10, Math.floor(Number(item.quantity) || 1)));
     const sprite = product.gallerySprite && product.images?.length === 1 ? product.gallerySprite : undefined;
@@ -110,4 +113,3 @@ export async function POST(request: Request) {
 
   return NextResponse.json({ stored: true, journeyId, recoveryReady: Boolean(contact && token) });
 }
-

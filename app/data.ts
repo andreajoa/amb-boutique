@@ -1,6 +1,8 @@
 import { generatedProducts } from "./generated-products";
 import { shoeProducts } from "./shoe-products";
 import { supplementalProducts } from "./generated-supplemental-products";
+import { octoberColorProducts } from "./october-color-products";
+import { octoberSourceLineage } from "./october-source-lineage";
 
 export type ShoeVariant = {
   heelHeightCm: number;
@@ -68,9 +70,19 @@ const placeholderProducts: Product[] = [
   { slug: "sunset-sculpted-earrings", name: "Sunset Sculpted Earrings", category: "Accessories", price: 48, badge: "Just In", sheet: "two", quadrant: 1, colors: ["#c69b54"], styleEligible: false },
 ];
 
-export const products: Product[] = generatedProducts.length
-  ? [...generatedProducts, ...shoeProducts, ...supplementalProducts]
-  : [...placeholderProducts, ...shoeProducts, ...supplementalProducts];
+const catalogueProducts = (generatedProducts.length ? generatedProducts : placeholderProducts).map(
+  (product) => octoberSourceLineage[product.slug]
+    ? { ...product, ...octoberSourceLineage[product.slug] }
+    : product,
+);
+// Preserve the established page when supplemental imports repeat its slug.
+const establishedSlugs = new Set(catalogueProducts.map((product) => product.slug));
+export const products: Product[] = [
+  ...catalogueProducts,
+  ...shoeProducts,
+  ...supplementalProducts.filter((product) => !establishedSlugs.has(product.slug)),
+  ...octoberColorProducts,
+];
 
 type CategoryPage = {
   slug: string;
