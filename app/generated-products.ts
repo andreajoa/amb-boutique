@@ -8088,10 +8088,10 @@ const allGeneratedProducts: Product[] = [
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
-    "/products/celeste-polka-dot-midi-dress/front.webp",
-    "/products/celeste-polka-dot-midi-dress/back.webp",
-    "/products/celeste-polka-dot-midi-dress/left.webp",
-    "/products/celeste-polka-dot-midi-dress/right.webp"
+    "/products/celeste-polka-dot-midi-dress/front-20261003.webp",
+    "/products/celeste-polka-dot-midi-dress/back-20261003.webp",
+    "/products/celeste-polka-dot-midi-dress/left-20261003.webp",
+    "/products/celeste-polka-dot-midi-dress/right-20261003.webp"
   ],
   "stock": 169,
   "unitCostUsd": 42.05,
@@ -8121,10 +8121,10 @@ const allGeneratedProducts: Product[] = [
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
-    "/products/mirelle-halter-polka-dot-maxi-dress/front.webp",
-    "/products/mirelle-halter-polka-dot-maxi-dress/back.webp",
-    "/products/mirelle-halter-polka-dot-maxi-dress/left.webp",
-    "/products/mirelle-halter-polka-dot-maxi-dress/right.webp"
+    "/products/mirelle-halter-polka-dot-maxi-dress/front-20261003.webp",
+    "/products/mirelle-halter-polka-dot-maxi-dress/back-20261003.webp",
+    "/products/mirelle-halter-polka-dot-maxi-dress/left-20261003.webp",
+    "/products/mirelle-halter-polka-dot-maxi-dress/right-20261003.webp"
   ],
   "stock": 48,
   "unitCostUsd": 29.18,
@@ -8154,10 +8154,10 @@ const allGeneratedProducts: Product[] = [
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
-    "/products/aurelia-spotted-maxi-dress/front.webp",
-    "/products/aurelia-spotted-maxi-dress/back.webp",
-    "/products/aurelia-spotted-maxi-dress/left.webp",
-    "/products/aurelia-spotted-maxi-dress/right.webp"
+    "/products/aurelia-spotted-maxi-dress/front-20261003.webp",
+    "/products/aurelia-spotted-maxi-dress/back-20261003.webp",
+    "/products/aurelia-spotted-maxi-dress/left-20261003.webp",
+    "/products/aurelia-spotted-maxi-dress/right-20261003.webp"
   ],
   "stock": 2932,
   "unitCostUsd": 31.15,
@@ -8188,10 +8188,10 @@ const allGeneratedProducts: Product[] = [
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
-    "/products/violette-scarf-polka-dot-maxi-dress/front.webp",
-    "/products/violette-scarf-polka-dot-maxi-dress/back.webp",
-    "/products/violette-scarf-polka-dot-maxi-dress/left.webp",
-    "/products/violette-scarf-polka-dot-maxi-dress/right.webp"
+    "/products/violette-scarf-polka-dot-maxi-dress/front-20261003.webp",
+    "/products/violette-scarf-polka-dot-maxi-dress/back-20261003.webp",
+    "/products/violette-scarf-polka-dot-maxi-dress/left-20261003.webp",
+    "/products/violette-scarf-polka-dot-maxi-dress/right-20261003.webp"
   ],
   "stock": 29533,
   "unitCostUsd": 34.96,
@@ -8221,10 +8221,10 @@ const allGeneratedProducts: Product[] = [
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
-    "/products/noelle-polka-dot-mini-dress/front.webp",
-    "/products/noelle-polka-dot-mini-dress/back.webp",
-    "/products/noelle-polka-dot-mini-dress/left.webp",
-    "/products/noelle-polka-dot-mini-dress/right.webp"
+    "/products/noelle-polka-dot-mini-dress/front-20261003.webp",
+    "/products/noelle-polka-dot-mini-dress/back-20261003.webp",
+    "/products/noelle-polka-dot-mini-dress/left-20261003.webp",
+    "/products/noelle-polka-dot-mini-dress/right-20261003.webp"
   ],
   "stock": 10,
   "unitCostUsd": 9.59,
@@ -8254,10 +8254,10 @@ const allGeneratedProducts: Product[] = [
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
-    "/products/amelie-lace-halter-maxi-dress/front.webp",
-    "/products/amelie-lace-halter-maxi-dress/back.webp",
-    "/products/amelie-lace-halter-maxi-dress/left.webp",
-    "/products/amelie-lace-halter-maxi-dress/right.webp"
+    "/products/amelie-lace-halter-maxi-dress/front-20261003.webp",
+    "/products/amelie-lace-halter-maxi-dress/back-20261003.webp",
+    "/products/amelie-lace-halter-maxi-dress/left-20261003.webp",
+    "/products/amelie-lace-halter-maxi-dress/right-20261003.webp"
   ],
   "stock": 29358,
   "unitCostUsd": 31.76,
@@ -8287,10 +8287,10 @@ const allGeneratedProducts: Product[] = [
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
-    "/products/seraphine-polka-dot-maxi-dress/front.webp",
-    "/products/seraphine-polka-dot-maxi-dress/back.webp",
-    "/products/seraphine-polka-dot-maxi-dress/left.webp",
-    "/products/seraphine-polka-dot-maxi-dress/right.webp"
+    "/products/seraphine-polka-dot-maxi-dress/front-20261003.webp",
+    "/products/seraphine-polka-dot-maxi-dress/back-20261003.webp",
+    "/products/seraphine-polka-dot-maxi-dress/left-20261003.webp",
+    "/products/seraphine-polka-dot-maxi-dress/right-20261003.webp"
   ],
   "stock": 31,
   "unitCostUsd": 34.67,
@@ -8320,10 +8320,10 @@ const allGeneratedProducts: Product[] = [
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
-    "/products/colette-lace-halter-mini-dress/front.webp",
-    "/products/colette-lace-halter-mini-dress/back.webp",
-    "/products/colette-lace-halter-mini-dress/left.webp",
-    "/products/colette-lace-halter-mini-dress/right.webp"
+    "/products/colette-lace-halter-mini-dress/front-20261003.webp",
+    "/products/colette-lace-halter-mini-dress/back-20261003.webp",
+    "/products/colette-lace-halter-mini-dress/left-20261003.webp",
+    "/products/colette-lace-halter-mini-dress/right-20261003.webp"
   ],
   "stock": 1615,
   "unitCostUsd": 28.54,
@@ -8354,10 +8354,10 @@ const allGeneratedProducts: Product[] = [
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
-    "/products/rosalie-polka-dot-sundress/front.webp",
-    "/products/rosalie-polka-dot-sundress/back.webp",
-    "/products/rosalie-polka-dot-sundress/left.webp",
-    "/products/rosalie-polka-dot-sundress/right.webp"
+    "/products/rosalie-polka-dot-sundress/front-20261003.webp",
+    "/products/rosalie-polka-dot-sundress/back-20261003.webp",
+    "/products/rosalie-polka-dot-sundress/left-20261003.webp",
+    "/products/rosalie-polka-dot-sundress/right-20261003.webp"
   ],
   "stock": 15,
   "unitCostUsd": 9.52,
@@ -8387,10 +8387,10 @@ const allGeneratedProducts: Product[] = [
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
-    "/products/elara-halter-polka-dot-mini-dress/front.webp",
-    "/products/elara-halter-polka-dot-mini-dress/back.webp",
-    "/products/elara-halter-polka-dot-mini-dress/left.webp",
-    "/products/elara-halter-polka-dot-mini-dress/right.webp"
+    "/products/elara-halter-polka-dot-mini-dress/front-20261003.webp",
+    "/products/elara-halter-polka-dot-mini-dress/back-20261003.webp",
+    "/products/elara-halter-polka-dot-mini-dress/left-20261003.webp",
+    "/products/elara-halter-polka-dot-mini-dress/right-20261003.webp"
   ],
   "stock": 616,
   "unitCostUsd": 33.5,
