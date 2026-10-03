@@ -8088,10 +8088,10 @@ const allGeneratedProducts: Product[] = [
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
-    "/products/celeste-polka-dot-midi-dress/front.webp",
-    "/products/celeste-polka-dot-midi-dress/back.webp",
-    "/products/celeste-polka-dot-midi-dress/left.webp",
-    "/products/celeste-polka-dot-midi-dress/right.webp"
+    "/products/celeste-polka-dot-midi-dress/front-20261003.webp",
+    "/products/celeste-polka-dot-midi-dress/back-20261003.webp",
+    "/products/celeste-polka-dot-midi-dress/left-20261003.webp",
+    "/products/celeste-polka-dot-midi-dress/right-20261003.webp"
   ],
   "stock": 169,
   "unitCostUsd": 42.05,
@@ -8121,10 +8121,10 @@ const allGeneratedProducts: Product[] = [
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
-    "/products/mirelle-halter-polka-dot-maxi-dress/front.webp",
-    "/products/mirelle-halter-polka-dot-maxi-dress/back.webp",
-    "/products/mirelle-halter-polka-dot-maxi-dress/left.webp",
-    "/products/mirelle-halter-polka-dot-maxi-dress/right.webp"
+    "/products/mirelle-halter-polka-dot-maxi-dress/front-20261003.webp",
+    "/products/mirelle-halter-polka-dot-maxi-dress/back-20261003.webp",
+    "/products/mirelle-halter-polka-dot-maxi-dress/left-20261003.webp",
+    "/products/mirelle-halter-polka-dot-maxi-dress/right-20261003.webp"
   ],
   "stock": 48,
   "unitCostUsd": 29.18,
@@ -8154,10 +8154,10 @@ const allGeneratedProducts: Product[] = [
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
-    "/products/aurelia-spotted-maxi-dress/front.webp",
-    "/products/aurelia-spotted-maxi-dress/back.webp",
-    "/products/aurelia-spotted-maxi-dress/left.webp",
-    "/products/aurelia-spotted-maxi-dress/right.webp"
+    "/products/aurelia-spotted-maxi-dress/front-20261003.webp",
+    "/products/aurelia-spotted-maxi-dress/back-20261003.webp",
+    "/products/aurelia-spotted-maxi-dress/left-20261003.webp",
+    "/products/aurelia-spotted-maxi-dress/right-20261003.webp"
   ],
   "stock": 2932,
   "unitCostUsd": 31.15,
@@ -8221,10 +8221,10 @@ const allGeneratedProducts: Product[] = [
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
-    "/products/noelle-polka-dot-mini-dress/front.webp",
-    "/products/noelle-polka-dot-mini-dress/back.webp",
-    "/products/noelle-polka-dot-mini-dress/left.webp",
-    "/products/noelle-polka-dot-mini-dress/right.webp"
+    "/products/noelle-polka-dot-mini-dress/front-20261003.webp",
+    "/products/noelle-polka-dot-mini-dress/back-20261003.webp",
+    "/products/noelle-polka-dot-mini-dress/left-20261003.webp",
+    "/products/noelle-polka-dot-mini-dress/right-20261003.webp"
   ],
   "stock": 10,
   "unitCostUsd": 9.59,
@@ -8254,10 +8254,10 @@ const allGeneratedProducts: Product[] = [
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
-    "/products/amelie-lace-halter-maxi-dress/front.webp",
-    "/products/amelie-lace-halter-maxi-dress/back.webp",
-    "/products/amelie-lace-halter-maxi-dress/left.webp",
-    "/products/amelie-lace-halter-maxi-dress/right.webp"
+    "/products/amelie-lace-halter-maxi-dress/front-20261003.webp",
+    "/products/amelie-lace-halter-maxi-dress/back-20261003.webp",
+    "/products/amelie-lace-halter-maxi-dress/left-20261003.webp",
+    "/products/amelie-lace-halter-maxi-dress/right-20261003.webp"
   ],
   "stock": 29358,
   "unitCostUsd": 31.76,
