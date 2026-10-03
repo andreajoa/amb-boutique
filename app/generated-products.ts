@@ -8398,7 +8398,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "camille-polka-dot-halter-mini-dress",
-  "name": "Camille Polka Dot Halter Mini Dress",
+  "name": "Camille Polka Dot Halter Mini Dress — Black",
   "vendor": "AMB BOUTIQUE",
   "category": "Dresses",
   "price": 48.9,
@@ -8416,7 +8416,7 @@ const allGeneratedProducts: Product[] = [
     "M",
     "L"
   ],
-  "description": "Camille Polka Dot Halter Mini Dress is a fitted black dotted mini with a high halter neckline and clean, streamlined shape.",
+  "description": "Camille in Black is a fitted polka-dot mini dress with a high halter neckline, open back and softly flared hem.",
   "materials": "Lightweight woven fabric with a smooth printed finish.",
   "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
   "images": [
@@ -8426,8 +8426,80 @@ const allGeneratedProducts: Product[] = [
     "/products/camille-polka-dot-halter-mini-dress/right.webp"
   ],
   "stock": 68,
+  "unitCostUsd": 12.41,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809107787633",
+  "sourceColor": "Black"
+},
+{
+  "slug": "camille-polka-dot-halter-mini-dress-white",
+  "name": "Camille Polka Dot Halter Mini Dress — White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 48.9,
+  "badge": "Just In",
+  "sheet": "two",
+  "quadrant": 4,
+  "colors": [
+    "#f7f4ec"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Camille in White is a fitted polka-dot mini dress with a high halter neckline, open back and softly flared hem.",
+  "materials": "Lightweight woven fabric with a smooth printed finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/camille-polka-dot-halter-mini-dress-white/front.webp",
+    "/products/camille-polka-dot-halter-mini-dress-white/back.webp",
+    "/products/camille-polka-dot-halter-mini-dress-white/left.webp",
+    "/products/camille-polka-dot-halter-mini-dress-white/right.webp"
+  ],
+  "stock": 43,
   "unitCostUsd": 12.49,
-  "minimumMarginPercent": 40
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809107787633",
+  "sourceColor": "White"
+},
+{
+  "slug": "camille-polka-dot-halter-mini-dress-red",
+  "name": "Camille Polka Dot Halter Mini Dress — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 48.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d71920"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Camille in Red is a fitted polka-dot mini dress with a high halter neckline, open back and softly flared hem.",
+  "materials": "Lightweight woven fabric with a smooth printed finish.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/camille-polka-dot-halter-mini-dress-red/front.webp",
+    "/products/camille-polka-dot-halter-mini-dress-red/back.webp",
+    "/products/camille-polka-dot-halter-mini-dress-red/left.webp",
+    "/products/camille-polka-dot-halter-mini-dress-red/right.webp"
+  ],
+  "stock": 43,
+  "unitCostUsd": 12.3,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809107787633",
+  "sourceColor": "Red"
 },
 {
   "slug": "juliette-ruffle-polka-dot-blouse",
@@ -8911,6 +8983,8 @@ export const approvedNewProductSlugs = new Set<string>([
   "rosalie-polka-dot-sundress",
   "elara-halter-polka-dot-mini-dress",
   "camille-polka-dot-halter-mini-dress",
+  "camille-polka-dot-halter-mini-dress-white",
+  "camille-polka-dot-halter-mini-dress-red",
   "juliette-ruffle-polka-dot-blouse",
   "vivienne-chiffon-polka-dot-blouse",
   "eloise-bow-polka-dot-blouse",
