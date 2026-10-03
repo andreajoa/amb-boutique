@@ -1,4 +1,12 @@
 import type { Product, ShoeVariant } from "./data";
+import { shoeHeightGalleries } from "./shoe-height-galleries";
+
+export const shoeHeightSlugs: Record<string, Record<string, string>> = {};
+
+export function resolveShoeProductSlug(slug: string, heelHeightCm?: number): string | undefined {
+  if (heelHeightCm === undefined || !shoeHeightSlugs[slug]) return slug;
+  return shoeHeightSlugs[slug][String(heelHeightCm)];
+}
 
 const CARE = "Wipe gently with a soft dry cloth after wear. Keep away from prolonged moisture, direct heat and abrasive surfaces. Store filled and protected to preserve shape.";
 const SYNTHETIC = "Smooth synthetic upper with decorative detailing, synthetic lining and sole. Exact composition follows the product label.";
@@ -31,14 +39,22 @@ function fixed(slug: string, name: string, price: number, color: string, colorNa
   });
 }
 
-function variable(slug: string, name: string, price: number, color: string, colorName: string, variants: ShoeVariant[], weightOz: number, unitCostUsd: number, description: string, _hero: string, _family: number): Product {
-  const sizes = Array.from(new Set(variants.flatMap((variant) => variant.sizes))).sort((a, b) => Number(a) - Number(b));
-  return shell({
-    slug, name, price, badge: "New", colors: [color], colorNames: [colorName], sizes,
-    stock: variants.reduce((sum, variant) => sum + variant.stock, 0), weightOz, unitCostUsd, minimumMarginPercent: 40,
-    description, materials: SYNTHETIC, shoeVariants: variants,
-    images: [`${SHOE_GALLERY_BASE}/${slug}.webp?v=20260811-generated`],
-    gallerySprite: shoeGallery,
+function variable(slug: string, name: string, price: number, color: string, colorName: string, variants: ShoeVariant[], weightOz: number, unitCostUsd: number, description: string, _hero: string, _family: number): Product[] {
+  const heightSlugs = Object.fromEntries(variants.map((variant, index) => [
+    String(variant.heelHeightCm),
+    index === 0 ? slug : `${slug}-${String(variant.heelHeightCm).replace(".", "-")}cm`,
+  ]));
+  for (const heightSlug of Object.values(heightSlugs)) shoeHeightSlugs[heightSlug] = heightSlugs;
+  return variants.map((variant) => {
+    const heightSlug = heightSlugs[String(variant.heelHeightCm)];
+    const images = shoeHeightGalleries[heightSlug];
+    if (!images?.length) throw new Error(`Missing heel-height gallery: ${heightSlug}`);
+    return shell({
+      slug: heightSlug, name: `${name} — ${variant.heelHeightCm} cm`, price, badge: "New",
+      colors: [color], colorNames: [colorName], sizes: variant.sizes, stock: variant.stock,
+      weightOz, unitCostUsd, minimumMarginPercent: 40, materials: SYNTHETIC,
+      heelHeightCm: variant.heelHeightCm, description: `${description} This version has a ${variant.heelHeightCm} cm heel.`, images,
+    });
   });
 }
 
@@ -47,9 +63,9 @@ const crystalSandalDescription = "A crystal-trim block-heel sandal with a slende
 const crystalSlingbackDescription = "A pointed slingback covered in crystal-look embellishment, balancing a refined profile with luminous evening texture.";
 const buckleSlingbackDescription = "A sharp pointed-toe slingback on a 9 cm stiletto heel, finished with a sculptural buckle detail for polished occasion dressing.";
 const bucklePumpDescription = "A pointed 9 cm pump with a refined metal buckle accent and slim stiletto heel, cut for a sleek day-to-evening line.";
-const patentDescription = "A sharply pointed patent-look slingback with a fine heel and elongated line, offered in four heel heights for flexible day-to-evening styling.";
-const glossDescription = "A pointed slingback with a slim heel and clean, elongated profile, available in two heel heights for a precise balance of polish and impact.";
-const bowDescription = "A feminine pointed pump with a sculpted bow detail and slim heel, offered in two heel heights for celebrations, weddings and evening looks.";
+const patentDescription = "A sharply pointed patent-look slingback with a fine heel and elongated line for polished day-to-evening styling.";
+const glossDescription = "A pointed slingback with a slim heel and clean, elongated profile for a precise balance of polish and impact.";
+const bowDescription = "A feminine pointed pump with a sculpted bow detail and slim heel for celebrations, weddings and evening looks.";
 
 const s3343 = ["33","34","35","36","37","38","39","40","41","42","43"];
 const s3346 = ["33","34","35","36","37","38","39","40","41","42","43","44","45","46"];
@@ -70,18 +86,18 @@ export const shoeProducts: Product[] = [
   fixed("onyx-buckle-pump","Onyx Buckle Pump",168,"#171717","Black",["36","37","38","39"],13,23.17,57.32,bucklePumpDescription,SYNTHETIC,"https://ae01.alicdn.com/kf/Sd67d5605437e42508835c41803929a83e.jpg",5,9),
   fixed("rouge-buckle-pump","Rouge Buckle Pump",168,"#b32635","Red",["36","37","38","39","40"],49,23.17,58.70,bucklePumpDescription,SYNTHETIC,"https://ae01.alicdn.com/kf/S9d03454c183b42dda66bd7ae3285d8c8u.jpg",5,9),
   fixed("cognac-buckle-pump","Cognac Buckle Pump",168,"#8a4f35","Cognac",["36","37","39","40"],18,23.17,57.72,bucklePumpDescription,SYNTHETIC,"https://ae01.alicdn.com/kf/Sf2170425fdbe4c269e02bbcc0d58bbe4w.jpg",5,9),
-  variable("aurelia-patent-slingback","Aurelia Patent Slingback",158,"#d6b39e","Nude",[{ heelHeightCm: 6, sizes: s3343, stock: 1070 },{ heelHeightCm: 8, sizes: s3346, stock: 1337 },{ heelHeightCm: 10, sizes: s3346, stock: 1354 },{ heelHeightCm: 12, sizes: s3346, stock: 1370 }],17.64,49.41,patentDescription,"https://ae01.alicdn.com/kf/Sc300939d3fb54bb180e9f3193819285ce.jpg",6),
-  variable("rouge-patent-slingback","Rouge Patent Slingback",158,"#a7192f","Laser Red",[{ heelHeightCm: 6, sizes: s3343, stock: 1087 },{ heelHeightCm: 8, sizes: s3346, stock: 1383 },{ heelHeightCm: 10, sizes: s3346, stock: 1384 },{ heelHeightCm: 12, sizes: s3346, stock: 1383 }],17.64,49.41,patentDescription,"https://ae01.alicdn.com/kf/S039ea985e44449638e96f3091f6c1e38t.jpg",6),
-  variable("onyx-patent-slingback","Onyx Patent Slingback",158,"#171717","Black",[{ heelHeightCm: 6, sizes: s3343, stock: 1077 },{ heelHeightCm: 8, sizes: s3346, stock: 1367 },{ heelHeightCm: 10, sizes: s3346, stock: 1378 },{ heelHeightCm: 12, sizes: s3346, stock: 1383 }],17.64,49.41,patentDescription,"https://ae01.alicdn.com/kf/S8380cd7d53244deb99ac5d0856f1137bV.jpg",6),
-  variable("lucia-gloss-slingback","Lucia Gloss Slingback",228,"#d8b8a4","Nude Gloss",[{ heelHeightCm: 8, sizes: s3441, stock: 7054 },{ heelHeightCm: 10, sizes: s3441, stock: 7054 }],17.64,81.34,glossDescription,"https://ae01.alicdn.com/kf/S2f27ee9d7d284bccadd4484a9871e402J.jpg",7),
-  variable("pearl-gloss-slingback","Pearl Gloss Slingback",228,"#b9b5b0","Pearl Grey",[{ heelHeightCm: 8, sizes: s3441, stock: 7056 },{ heelHeightCm: 10, sizes: s3441, stock: 7055 }],17.64,81.34,glossDescription,"https://ae01.alicdn.com/kf/S5e1553f4e52a4c90baa3b9b0afe6e94fq.jpg",7),
-  variable("noir-matte-slingback","Noir Matte Slingback",228,"#1b1b1b","Black Matte",[{ heelHeightCm: 8, sizes: s3441, stock: 7050 },{ heelHeightCm: 10, sizes: s3441, stock: 7055 }],17.64,81.34,glossDescription,"https://ae01.alicdn.com/kf/Sa5c914c312d843978ca77e11e99d8299w.jpg",7),
-  variable("noir-gloss-slingback","Noir Gloss Slingback",228,"#111111","Black Gloss",[{ heelHeightCm: 8, sizes: s3441, stock: 7052 },{ heelHeightCm: 10, sizes: s3441, stock: 7056 }],17.64,81.34,glossDescription,"https://ae01.alicdn.com/kf/S6abc9c6b02d7485aa7d65b25aeae2228M.jpg",7),
-  variable("soleil-bow-pump","Soleil Bow Pump",98,"#e7cd68","Yellow",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6209 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6195 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/S9554a47074564e75b683ab30762797c8D.jpg",8),
-  variable("pearl-bow-pump","Pearl Bow Pump",98,"#f2eee6","White",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6204 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6151 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/S0a8bc128b9284a8bbd9442b20c09e3e4h.jpg",8),
-  variable("rouge-bow-pump","Rouge Bow Pump",98,"#b32635","Red",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6214 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6183 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/S29b4f55d90b24469abc87f809b0fd13fA.jpg",8),
-  variable("blush-bow-pump","Blush Bow Pump",98,"#e7b7bb","Blush Pink",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6212 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6126 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/S1052fcf646df49cb9ebed06b54d0f3e0s.jpg",8),
-  variable("mist-bow-pump","Mist Bow Pump",98,"#aeb4b6","Grey",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6204 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6180 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/Sd640949b714943058e4ee94b6b963016L.jpg",8),
-  variable("sky-bow-pump","Sky Bow Pump",98,"#b9d5dc","Powder Blue",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6211 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6150 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/Sdfbe9656ac824de1baef6afed7cce5c1V.jpg",8),
-  variable("noir-bow-pump","Noir Bow Pump",98,"#171717","Black",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6209 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6170 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/Sb7bddbb6c0614ef0a5674bb3b52922a2j.jpg",8),
+  ...variable("aurelia-patent-slingback","Aurelia Patent Slingback",158,"#d6b39e","Nude",[{ heelHeightCm: 6, sizes: s3343, stock: 1070 },{ heelHeightCm: 8, sizes: s3346, stock: 1337 },{ heelHeightCm: 10, sizes: s3346, stock: 1354 },{ heelHeightCm: 12, sizes: s3346, stock: 1370 }],17.64,49.41,patentDescription,"https://ae01.alicdn.com/kf/Sc300939d3fb54bb180e9f3193819285ce.jpg",6),
+  ...variable("rouge-patent-slingback","Rouge Patent Slingback",158,"#a7192f","Laser Red",[{ heelHeightCm: 6, sizes: s3343, stock: 1087 },{ heelHeightCm: 8, sizes: s3346, stock: 1383 },{ heelHeightCm: 10, sizes: s3346, stock: 1384 },{ heelHeightCm: 12, sizes: s3346, stock: 1383 }],17.64,49.41,patentDescription,"https://ae01.alicdn.com/kf/S039ea985e44449638e96f3091f6c1e38t.jpg",6),
+  ...variable("onyx-patent-slingback","Onyx Patent Slingback",158,"#171717","Black",[{ heelHeightCm: 6, sizes: s3343, stock: 1077 },{ heelHeightCm: 8, sizes: s3346, stock: 1367 },{ heelHeightCm: 10, sizes: s3346, stock: 1378 },{ heelHeightCm: 12, sizes: s3346, stock: 1383 }],17.64,49.41,patentDescription,"https://ae01.alicdn.com/kf/S8380cd7d53244deb99ac5d0856f1137bV.jpg",6),
+  ...variable("lucia-gloss-slingback","Lucia Gloss Slingback",228,"#d8b8a4","Nude Gloss",[{ heelHeightCm: 8, sizes: s3441, stock: 7054 },{ heelHeightCm: 10, sizes: s3441, stock: 7054 }],17.64,81.34,glossDescription,"https://ae01.alicdn.com/kf/S2f27ee9d7d284bccadd4484a9871e402J.jpg",7),
+  ...variable("pearl-gloss-slingback","Pearl Gloss Slingback",228,"#b9b5b0","Pearl Grey",[{ heelHeightCm: 8, sizes: s3441, stock: 7056 },{ heelHeightCm: 10, sizes: s3441, stock: 7055 }],17.64,81.34,glossDescription,"https://ae01.alicdn.com/kf/S5e1553f4e52a4c90baa3b9b0afe6e94fq.jpg",7),
+  ...variable("noir-matte-slingback","Noir Matte Slingback",228,"#1b1b1b","Black Matte",[{ heelHeightCm: 8, sizes: s3441, stock: 7050 },{ heelHeightCm: 10, sizes: s3441, stock: 7055 }],17.64,81.34,glossDescription,"https://ae01.alicdn.com/kf/Sa5c914c312d843978ca77e11e99d8299w.jpg",7),
+  ...variable("noir-gloss-slingback","Noir Gloss Slingback",228,"#111111","Black Gloss",[{ heelHeightCm: 8, sizes: s3441, stock: 7052 },{ heelHeightCm: 10, sizes: s3441, stock: 7056 }],17.64,81.34,glossDescription,"https://ae01.alicdn.com/kf/S6abc9c6b02d7485aa7d65b25aeae2228M.jpg",7),
+  ...variable("soleil-bow-pump","Soleil Bow Pump",98,"#e7cd68","Yellow",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6209 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6195 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/S9554a47074564e75b683ab30762797c8D.jpg",8),
+  ...variable("pearl-bow-pump","Pearl Bow Pump",98,"#f2eee6","White",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6204 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6151 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/S0a8bc128b9284a8bbd9442b20c09e3e4h.jpg",8),
+  ...variable("rouge-bow-pump","Rouge Bow Pump",98,"#b32635","Red",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6214 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6183 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/S29b4f55d90b24469abc87f809b0fd13fA.jpg",8),
+  ...variable("blush-bow-pump","Blush Bow Pump",98,"#e7b7bb","Blush Pink",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6212 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6126 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/S1052fcf646df49cb9ebed06b54d0f3e0s.jpg",8),
+  ...variable("mist-bow-pump","Mist Bow Pump",98,"#aeb4b6","Grey",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6204 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6180 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/Sd640949b714943058e4ee94b6b963016L.jpg",8),
+  ...variable("sky-bow-pump","Sky Bow Pump",98,"#b9d5dc","Powder Blue",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6211 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6150 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/Sdfbe9656ac824de1baef6afed7cce5c1V.jpg",8),
+  ...variable("noir-bow-pump","Noir Bow Pump",98,"#171717","Black",[{ heelHeightCm: 7.5, sizes: s3440, stock: 6209 },{ heelHeightCm: 10.5, sizes: s3440, stock: 6170 }],21.16,17.65,bowDescription,"https://ae01.alicdn.com/kf/Sb7bddbb6c0614ef0a5674bb3b52922a2j.jpg",8),
 ];

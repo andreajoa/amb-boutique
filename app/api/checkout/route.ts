@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { products } from "../../data";
+import { resolveShoeProductSlug } from "../../shoe-products";
 import { generatedProducts } from "../../generated-products";
 import { convertFromUsd, FIRST_ORDER_CODE, getDiscountState, getShippingQuotes, isMarketCode, markets } from "../../commerce";
 import { bestNonStackingDiscount, protectMargin } from "../../profitability";
@@ -26,12 +27,16 @@ export async function POST(request: NextRequest) {
   try {
     const market = isMarketCode(body.market) ? body.market : "US";
     const normalized = body.items.map((line) => {
-      const product = products.find((item) => item.slug === line.slug);
+      const requestedHeel = line.heelHeightCm === undefined ? undefined : Number(line.heelHeightCm);
+      const resolvedSlug = line.slug ? resolveShoeProductSlug(line.slug, requestedHeel) : undefined;
+      const product = products.find((item) => item.slug === resolvedSlug);
       const quantity = Math.max(1, Math.min(10, Math.floor(Number(line.quantity) || 1)));
       if (!product) throw new Error("One of the selected products is no longer available.");
       if (product.stock === 0) throw new Error(`${product.name} is currently unavailable.`);
 
-      const requestedHeel = line.heelHeightCm === undefined ? undefined : Number(line.heelHeightCm);
+      if (product.heelHeightCm !== undefined && requestedHeel !== undefined && requestedHeel !== product.heelHeightCm) {
+        throw new Error(`Choose an available heel height for ${product.name}.`);
+      }
       const shoeVariant = product.shoeVariants?.length
         ? product.shoeVariants.find((variant) => variant.heelHeightCm === requestedHeel)
         : undefined;

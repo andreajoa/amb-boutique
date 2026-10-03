@@ -1,5 +1,6 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { products } from "../../data";
+import { resolveShoeProductSlug } from "../../shoe-products";
 import { getShippingQuotes } from "../../commerce";
 import { getMerchantAdditionalImages, getMerchantImage } from "../../merchant";
 import ProductDetail from "./product-detail";
@@ -50,6 +51,11 @@ export default async function ProductPage({ params, searchParams }: ProductPageP
 
   const requestedHeel = query.heel === undefined ? undefined : Number(query.heel);
   const initialHeelHeightCm = Number.isFinite(requestedHeel) ? requestedHeel : undefined;
+  const heightSlug = resolveShoeProductSlug(slug, initialHeelHeightCm);
+  if (heightSlug && heightSlug !== slug) {
+    const sizeQuery = query.size ? `?${new URLSearchParams({ size: query.size })}` : "";
+    redirect(`/products/${heightSlug}${sizeQuery}`);
+  }
   const selectedShoeVariant = product.shoeVariants?.find((variant) => variant.heelHeightCm === initialHeelHeightCm);
   const activeStock = selectedShoeVariant?.stock ?? product.stock;
   const pageUrl = `${siteUrl}/products/${product.slug}`;
