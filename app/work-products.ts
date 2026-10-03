@@ -114,7 +114,7 @@ export const workProducts: Product[] = [
     badge: "New", sheet: "one", quadrant: 3, colors: ["#f5f3ee"], colorNames: ["White"], sizes: ["XS","S","M","L"],
     description: "An oblique-shoulder backless maxi dress with slender straps and ruched party-ready draping in crisp white.",
     materials: "Smooth stretch fabric with ruched detailing. Exact fibre composition follows the garment label.", care: "Follow the care label attached to the garment. Wash gently when permitted and air dry.",
-    images: sheet("white-backless-maxi-dress"), gallerySprite: fourViewSprite, stock: 3996, weightOz: 17.64, minimumMarginPercent: 40,
+    images: ["/products/white-backless-maxi-dress/sheet-front-face-20261003.webp"], gallerySprite: fourViewSprite, stock: 3996, weightOz: 17.64, minimumMarginPercent: 40,
   },
   {
     slug: "black-asymmetric-maxi-dress", name: "Black Asymmetric Maxi Dress", vendor: "AMB BOUTIQUE", category: "Dresses", price: 77.56,
