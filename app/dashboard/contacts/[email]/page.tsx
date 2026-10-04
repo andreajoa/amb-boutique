@@ -10,6 +10,8 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {title:"Histórico do contato · AMB",robots:{index:false,follow:false}};
 const date = (value: unknown) => value ? new Date(String(value)).toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo"}) : "Não registrado";
 const titles: Record<string,string> = {open:"Abertura registrada",click:"Clique registrado",engagement_observed:"Interação no histórico anterior",
+  delivered:"Entrega confirmada pelo provedor",sent:"Envio registrado pelo provedor",bounced:"Falha de entrega registrada",
+  complained:"Reclamação de spam registrada",unsubscribed:"Descadastro registrado",provider_event:"Evento registrado pelo provedor",
   store_identity_observed:"Visitante identificado pela loja",
   subscription_owner_confirmed:"Inscrição existente confirmada pelo proprietário",
   suppressed:"Contato bloqueado",source_observed:"Origem atualizada",message_accepted:"Envio aceito pelo provedor",message_unknown:"Envio reservado / resultado incerto",message_queued:"Solicitação na fila Omnisend",store_contacts:"Cadastro da loja atualizado",store_journeys:"Jornada da loja atualizada",store_messages:"Email da loja atualizado",store_events:"Interação na loja"};
