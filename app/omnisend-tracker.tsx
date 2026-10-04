@@ -8,6 +8,8 @@ type ConsentAPI = {
 };
 type OmnisendWindow = Window & {
   omnisend?: { push(value: unknown[]): unknown };
+  __ambOmnisendBrandID?: string;
+  __ambOmnisendScriptURL?: string;
   __omnisendCookieConsent?: { getConsentAPI(options: { wait: boolean }): Promise<ConsentAPI | null> };
 };
 const brandID = "6ac18cebf9e55097b6c81ad9";
@@ -18,7 +20,7 @@ let configured = false;
 
 function permitted() {
   // Private pages and signed recovery/unsubscribe links never load this SDK.
-  if (/^\/(dashboard|api|recover-cart|unsubscribe|checkout)(\/|$)/.test(window.location.pathname)) return false;
+  if (/^\/(dashboard|account|track-order|api|recover-cart|unsubscribe|checkout)(\/|$)/.test(window.location.pathname)) return false;
   if ([...new URLSearchParams(window.location.search).keys()].some(key => /token|email|secret|session|signature/i.test(key))) return false;
   try { return JSON.parse(localStorage.getItem("amb-cookie-consent-v1") || "null")?.value === "all"; }
   catch { return false; }
@@ -54,14 +56,16 @@ function update() {
   const sdk = window as OmnisendWindow;
   if (!configured) {
     sdk.omnisend = sdk.omnisend || [];
-    sdk.omnisend.push(["brandID", brandID]);
+    if (sdk.__ambOmnisendBrandID !== brandID) sdk.omnisend.push(["brandID", brandID]);
+    sdk.__ambOmnisendBrandID = brandID;
     configured = true;
   }
   if (!document.getElementById(scriptID)) {
     const script = document.createElement("script");
     script.id = scriptID;
     script.async = true;
-    script.src = "https://omnisnippet1.com/inshop/launcher-v2.js";
+    const source = "https://omnisnippet1.com/inshop/launcher-v2.js";
+    script.src = sdk.__ambOmnisendScriptURL === source ? sdk.__ambOmnisendScriptURL : source;
     script.addEventListener("load", () => { void attachConsent().catch(() => undefined); }, { once: true });
     script.addEventListener("error", () => { script.remove(); }, { once: true });
     document.body.appendChild(script);
