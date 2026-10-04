@@ -25,6 +25,9 @@ export async function crmSql() {
     sql`CREATE INDEX IF NOT EXISTS amb_prospector_event_contact ON amb_prospector_events(email,observed_at DESC,key)`,
     sql`CREATE TABLE IF NOT EXISTS amb_prospector_sync (
       key text PRIMARY KEY, payload jsonb NOT NULL, updated_at timestamptz NOT NULL DEFAULT now())`,
+    sql`CREATE TABLE IF NOT EXISTS amb_prospector_visitor_identity (
+      visitor_id text PRIMARY KEY, email text NOT NULL,
+      observed_at timestamptz NOT NULL DEFAULT now())`,
   ]).then(() => undefined).catch((error) => { setup = undefined; throw error; });
   await setup;
   return sql;

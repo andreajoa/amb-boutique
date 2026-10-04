@@ -24,6 +24,16 @@ export async function GET(request: NextRequest) {
         WHERE table_schema='public' AND table_name IN ('amb_contacts','amb_analytics_events','amb_email_messages','amb_commerce_journeys') ORDER BY table_name,ordinal_position`;
       return reply({ok:true,version:1,counts:counts[0],schema});
     }
+    if (entity === "events") {
+      // A page view changes last_seen_at, not identity. Advance this watermark
+      // only when the store really identifies a visitor or changes its email.
+      // Old anonymous events are then exported once with explicit evidence.
+      await sql`INSERT INTO amb_prospector_visitor_identity(visitor_id,email)
+        SELECT visitor_id,lower(trim(email)) FROM amb_analytics_visitors
+        WHERE email IS NOT NULL AND trim(email)<>''
+        ON CONFLICT(visitor_id) DO UPDATE SET email=excluded.email,observed_at=now()
+        WHERE amb_prospector_visitor_identity.email IS DISTINCT FROM excluded.email`;
+    }
     // JSON projection accommodates existing schema versions without changing store tables.
     const queries: Record<string, string> = {
       contacts: `SELECT c.id::text AS key, lower(c.email) AS email,
@@ -31,8 +41,13 @@ export async function GET(request: NextRequest) {
         to_jsonb(c) AS payload FROM amb_contacts c`,
       journeys: `SELECT j.id::text AS key,lower(COALESCE(j.email,c.email)) AS email,j.updated_at AS at,
         to_jsonb(j) AS payload FROM amb_commerce_journeys j LEFT JOIN amb_contacts c ON c.id=j.contact_id`,
-      events: `SELECT e.id::text AS key,lower(v.email) AS email,e.occurred_at AS at,
+      events: `SELECT e.id::text AS key,lower(trim(v.email)) AS email,
+        GREATEST(e.occurred_at,i.observed_at) AS at,
+        CASE WHEN i.email=lower(trim(v.email)) THEN jsonb_build_object(
+          'source','amb_analytics_visitors','visitor_id',v.visitor_id,
+          'email',i.email,'observed_at',i.observed_at) ELSE NULL END AS identity,
         to_jsonb(e) AS payload FROM amb_analytics_events e LEFT JOIN amb_analytics_visitors v ON v.visitor_id=e.visitor_id
+        LEFT JOIN amb_prospector_visitor_identity i ON i.visitor_id=e.visitor_id AND i.email=lower(trim(v.email))
         WHERE e.event_type IN ('product_view','add_to_cart','cart_open','checkout_start','checkout_error','newsletter_signup','popup_signup','purchase','click')`,
       messages: `SELECT m.id::text AS key,lower(c.email) AS email,
         GREATEST(m.created_at,(to_jsonb(m)->>'sent_at')::timestamptz,m.delivered_at,m.opened_at,m.clicked_at,m.bounced_at,m.complained_at) AS at,
