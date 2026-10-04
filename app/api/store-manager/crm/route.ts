@@ -82,6 +82,9 @@ export async function POST(request: NextRequest) {
     if (!object(c) || !email(c.email) || typeof c.country!=="string" || c.country.length>50 ||
       typeof c.blocked!=="boolean" || typeof c.eligible!=="boolean" || !Array.isArray(c.reasons) ||
       ![c.sent,c.pending,c.opens,c.clicks,c.legacy_engagement].every(integer)) return reply({ok:false,error:"Invalid contact"},400);
+    if (c.marketing_status!==undefined && c.marketing_status!==null &&
+      !["subscribed","unsubscribed","unconfirmed"].includes(String(c.marketing_status))) return reply({ok:false,error:"Invalid subscription status"},400);
+    if (c.marketing_confirmed_at!==undefined && c.marketing_confirmed_at!==null && !time(c.marketing_confirmed_at)) return reply({ok:false,error:"Invalid subscription confirmation"},400);
   }
   for (const e of events) {
     if (!object(e) || typeof e.key!=="string" || !e.key || e.key.length>600 ||
