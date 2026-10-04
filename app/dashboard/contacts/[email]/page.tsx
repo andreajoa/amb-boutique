@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { dashboardAuthenticated } from "../../auth";
 import { crmSql } from "../../../crm/db";
+import { contactEmailFromRoute } from "../../../crm/identity";
 import styles from "../../dashboard.module.css";
 
 export const dynamic = "force-dynamic";
@@ -13,7 +14,7 @@ const titles: Record<string,string> = {open:"Abertura registrada",click:"Clique 
 
 export default async function ContactPage({params,searchParams}: {params:Promise<{email:string}>;searchParams:Promise<{before?:string;key?:string}>}) {
   if (!await dashboardAuthenticated()) redirect("/dashboard/login");
-  const email=(await params).email.trim().toLowerCase();
+  const email=contactEmailFromRoute((await params).email);
   if (!email || email.length>320) notFound();
   const {before,key=""}=await searchParams;
   const cursor=before && Number.isFinite(Date.parse(before)) ? before : "9999-01-01T00:00:00Z";
@@ -29,14 +30,7 @@ export default async function ContactPage({params,searchParams}: {params:Promise
       AND e.event_type IN ('product_view','add_to_cart','cart_open','checkout_start','checkout_error','newsletter_signup','popup_signup','purchase','click')
       ORDER BY e.occurred_at DESC LIMIT 30`,
   ]);
-  if (!archive.length && !store.length) {
-    console.warn("[DEBUG-amb-crm-profile]", {
-      parameterLength:email.length, encodedSeparator:/%40/i.test(email), literalSeparator:email.includes("@"),
-      archiveArray:Array.isArray(archive), archiveRows:archive.length,
-      storeArray:Array.isArray(store), storeRows:store.length,
-    });
-    notFound();
-  }
+  if (!archive.length && !store.length) notFound();
   const contact=archive[0] || {}, signup=store[0]?.payload || {}, payload=contact.payload || {};
   const blocked=contact.blocked || signup.unsubscribed_at || signup.suppression_reason;
   const reasons=Array.isArray(payload.reasons) ? payload.reasons.map(String) : [];
