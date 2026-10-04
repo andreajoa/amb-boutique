@@ -7,6 +7,7 @@ import { allCampaigns, cartRecoveryCampaigns, checkoutRecoveryCampaigns, newslet
 import { DashboardAutoRefresh } from "./dashboard-auto-refresh";
 import { getDashboardOrders, type DashboardAddress, type DashboardOrder } from "./orders";
 import styles from "./dashboard.module.css";
+import { CrmSummary } from "./crm-summary";
 
 export const metadata: Metadata = { title: "Commerce Intelligence", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
@@ -178,6 +179,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
       <p>{insight(metrics, email, paidOrders)}</p>
     </section>
 
+    <CrmSummary/>
     <OrdersPanel orders={orderResult.orders} error={orderResult.error}/>
 
     <div className={styles.twoColumns}>
