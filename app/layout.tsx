@@ -10,6 +10,7 @@ import { MarketingPopup } from "./marketing-popup";
 import { AnalyticsTracker } from "./analytics-tracker";
 import { GA4EcommerceTracker } from "./ga4-ecommerce-tracker";
 import { AhrefsAnalytics } from "./ahrefs-analytics";
+import { OmnisendTracker } from "./omnisend-tracker";
 import { products, type Product } from "./data";
 import { PremiumInteractions } from "./premium-interactions";
 
@@ -137,6 +138,7 @@ export default function RootLayout({
           <AnalyticsTracker />
           <GA4EcommerceTracker catalog={catalog} />
           <AhrefsAnalytics />
+          <OmnisendTracker />
           <ScrollReveal />
           <PremiumInteractions />
           <CookieConsent />
