@@ -29,7 +29,14 @@ export default async function ContactPage({params,searchParams}: {params:Promise
       AND e.event_type IN ('product_view','add_to_cart','cart_open','checkout_start','checkout_error','newsletter_signup','popup_signup','purchase','click')
       ORDER BY e.occurred_at DESC LIMIT 30`,
   ]);
-  if (!archive.length && !store.length) notFound();
+  if (!archive.length && !store.length) {
+    console.warn("[DEBUG-amb-crm-profile]", {
+      parameterLength:email.length, encodedSeparator:/%40/i.test(email), literalSeparator:email.includes("@"),
+      archiveArray:Array.isArray(archive), archiveRows:archive.length,
+      storeArray:Array.isArray(store), storeRows:store.length,
+    });
+    notFound();
+  }
   const contact=archive[0] || {}, signup=store[0]?.payload || {}, payload=contact.payload || {};
   const blocked=contact.blocked || signup.unsubscribed_at || signup.suppression_reason;
   const reasons=Array.isArray(payload.reasons) ? payload.reasons.map(String) : [];
