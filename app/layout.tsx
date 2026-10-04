@@ -10,7 +10,6 @@ import { MarketingPopup } from "./marketing-popup";
 import { AnalyticsTracker } from "./analytics-tracker";
 import { GA4EcommerceTracker } from "./ga4-ecommerce-tracker";
 import { AhrefsAnalytics } from "./ahrefs-analytics";
-import { OmnisendTracker } from "./omnisend-tracker";
 import { products, type Product } from "./data";
 import { PremiumInteractions } from "./premium-interactions";
 
@@ -132,23 +131,12 @@ export default function RootLayout({
           src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
           strategy="afterInteractive"
         />
-        <Script id="amb-omnisend-brand" strategy="afterInteractive">
-          {`
-            window.omnisend = window.omnisend || [];
-            if (window.__ambOmnisendBrandID !== '6ac18cebf9e55097b6c81ad9') {
-              window.omnisend.push(["brandID", "6ac18cebf9e55097b6c81ad9"]);
-              window.__ambOmnisendBrandID = '6ac18cebf9e55097b6c81ad9';
-            }
-            window.__ambOmnisendScriptURL = 'https://omnisnippet1.com/inshop/launcher-v2.js';
-          `}
-        </Script>
         <StructuredData />
         <StoreProvider catalog={catalog}>
           {children}
           <AnalyticsTracker />
           <GA4EcommerceTracker catalog={catalog} />
           <AhrefsAnalytics />
-          <OmnisendTracker />
           <ScrollReveal />
           <PremiumInteractions />
           <CookieConsent />
