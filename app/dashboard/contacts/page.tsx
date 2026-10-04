@@ -33,7 +33,7 @@ export default async function ContactsPage({searchParams}: {searchParams: Promis
       <div className={styles.tableWrap}><table><thead><tr><th>Contato</th><th>Situação</th><th>Envios AMB</th><th>Aberturas / cliques</th><th>Jornada na loja</th></tr></thead>
         <tbody>{rows.map(row=><tr key={String(row.email)}>
           <td><Link href={`/dashboard/contacts/${encodeURIComponent(String(row.email))}`}>{String(row.email)}</Link><small className={styles.blockSmall}>{String(row.country || row.source || "Origem no arquivo")}</small></td>
-          <td><span className={row.blocked ? styles.statusPending : styles.statusDone}>{row.blocked ? "Bloqueado" : row.email_consent ? "Inscrito na loja" : "Sem inscrição registrada"}</span></td>
+          <td><span className={row.blocked ? styles.statusPending : styles.statusDone}>{row.blocked ? "Bloqueado" : row.email_consent ? "Inscrito na loja" : row.marketing_status==="subscribed" ? "Inscrição confirmada" : "Sem inscrição registrada"}</span></td>
           <td>{count(row.sent)}<small className={styles.blockSmall}>{Number(row.pending)>0 ? `${count(row.pending)} aguardando confirmação` : ""}</small></td>
           <td>{count(row.opens)} / {count(row.clicks)}{Number(row.legacy_engagement)>0 && <small className={styles.blockSmall}>Interação no histórico anterior</small>}</td>
           <td>{Number(row.purchases)>0 ? `${count(row.purchases)} compra(s) confirmada(s)` : Number(row.checkouts)>0 ? "Checkout iniciado" : Number(row.carts)>0 ? "Carrinho registrado" : "Sem jornada identificada"}</td>

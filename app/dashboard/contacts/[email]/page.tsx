@@ -11,6 +11,7 @@ export const metadata: Metadata = {title:"Histórico do contato · AMB",robots:{
 const date = (value: unknown) => value ? new Date(String(value)).toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo"}) : "Não registrado";
 const titles: Record<string,string> = {open:"Abertura registrada",click:"Clique registrado",engagement_observed:"Interação no histórico anterior",
   store_identity_observed:"Visitante identificado pela loja",
+  subscription_owner_confirmed:"Inscrição existente confirmada pelo proprietário",
   suppressed:"Contato bloqueado",source_observed:"Origem atualizada",message_accepted:"Envio aceito pelo provedor",message_unknown:"Envio reservado / resultado incerto",message_queued:"Solicitação na fila Omnisend",store_contacts:"Cadastro da loja atualizado",store_journeys:"Jornada da loja atualizada",store_messages:"Email da loja atualizado",store_events:"Interação na loja"};
 
 export default async function ContactPage({params,searchParams}: {params:Promise<{email:string}>;searchParams:Promise<{before?:string;key?:string}>}) {
@@ -34,14 +35,15 @@ export default async function ContactPage({params,searchParams}: {params:Promise
   if (!archive.length && !store.length) notFound();
   const contact=archive[0] || {}, signup=store[0]?.payload || {}, payload=contact.payload || {};
   const blocked=contact.blocked || signup.unsubscribed_at || signup.suppression_reason;
+  const ownerConfirmed=payload.marketing_status==="subscribed" && payload.marketing_source==="owner-confirmed-existing-subscription";
   const reasons=Array.isArray(payload.reasons) ? payload.reasons.map(String) : [];
   const page=events.slice(0,50), last=page.at(-1);
   const more=new URLSearchParams({before:String(last?.observed_at || ""),key:String(last?.key || "")});
   return <main className={styles.dashboard}>
     <header className={styles.header}><div><p className={styles.kicker}>AMB BOUTIQUE · HISTÓRICO DO CONTATO</p><h1 className={styles.crmEmail}>{email}</h1><p>Registros preservados e sinais vinculados a uma identidade conhecida.</p></div><div className={styles.headerActions}><Link href="/dashboard/contacts">← Contatos</Link></div></header>
-    <section className={styles.statusStrip}><span>{blocked ? "Bloqueado para envio" : "Sem bloqueio registrado"}</span><span>{signup.email_consent && !signup.unsubscribed_at ? "Inscrição na loja registrada" : "Sem inscrição de marketing registrada"}</span><span>{String(contact.country || signup.market || "País não identificado")}</span></section>
+    <section className={styles.statusStrip}><span>{blocked ? "Bloqueado para envio" : "Sem bloqueio registrado"}</span><span>{ownerConfirmed ? "Inscrição confirmada pelo proprietário" : signup.email_consent && !signup.unsubscribed_at ? "Inscrição na loja registrada" : "Sem inscrição de marketing registrada"}</span><span>{String(contact.country || signup.market || "País não identificado")}</span></section>
     <div className={styles.twoColumns}><section className={styles.panel}><p className={styles.kicker}>RELAÇÃO</p><h2>Permissão & bloqueios</h2>
-      <dl className={styles.crmFacts}><dt>Origem na loja</dt><dd>{String(signup.source || "Não registrada")}</dd><dt>Inscrição em</dt><dd>{date(signup.consented_at)}</dd><dt>Descadastro em</dt><dd>{date(signup.unsubscribed_at)}</dd><dt>Motivos de bloqueio</dt><dd>{[...reasons,signup.suppression_reason].filter(Boolean).join(", ") || "Nenhum registrado"}</dd><dt>Primeiro registro no CRM</dt><dd>{date(payload.first_seen)}</dd></dl>
+      <dl className={styles.crmFacts}>{ownerConfirmed && <><dt>Inscrição existente</dt><dd>Confirmada pelo proprietário</dd><dt>Confirmação registrada em</dt><dd>{date(payload.marketing_confirmed_at)}</dd></>}<dt>Origem na loja</dt><dd>{String(signup.source || "Não registrada")}</dd><dt>Inscrição em</dt><dd>{date(signup.consented_at)}</dd><dt>Descadastro em</dt><dd>{date(signup.unsubscribed_at)}</dd><dt>Motivos de bloqueio</dt><dd>{[...reasons,signup.suppression_reason].filter(Boolean).join(", ") || "Nenhum registrado"}</dd><dt>Primeiro registro no CRM</dt><dd>{date(payload.first_seen)}</dd></dl>
       <p className={styles.muted}>Abertura e clique acionam a sequência após o envio inicial aceito. Bloqueios, inscrições e cotas continuam sendo verificados antes de cada envio.</p>
     </section><section className={styles.panel}><p className={styles.kicker}>EMAIL AMB</p><h2>Sinais acumulados</h2><div className={styles.compactStats}>
       {[["Envios aceitos",contact.sent],["Resultado pendente",contact.pending],["Aberturas registradas",contact.opens],["Cliques registrados",contact.clicks]].map(([label,value])=><div key={String(label)}><dt>{String(label)}</dt><dd>{Number(value || 0).toLocaleString("pt-BR")}</dd></div>)}

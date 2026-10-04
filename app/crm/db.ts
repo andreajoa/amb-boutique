@@ -49,7 +49,7 @@ export async function crmSummary() {
 export const segments = [
   ["all", "Todos"], ["engaged", "Interagiram"], ["no-signal", "Sem abertura registrada"],
   ["clicked", "Clicaram"], ["recurring", "Interação recorrente"],
-  ["blocked", "Bloqueados / saíram"], ["subscribed", "Inscritos na loja"],
+  ["blocked", "Bloqueados / saíram"], ["subscribed", "Inscritos"],
   ["cart", "Carrinho"], ["checkout", "Checkout"], ["purchased", "Compraram"],
 ] as const;
 
@@ -57,7 +57,7 @@ const segmentPredicates: Record<string, string> = {
   all: "true", engaged: "(p.opens>0 OR p.clicks>0 OR p.legacy_engagement>0)",
   "no-signal": "p.sent>0 AND p.opens=0 AND p.clicks=0 AND p.legacy_engagement=0",
   clicked: "p.clicks>0", recurring: "p.opens+p.clicks>1", blocked: "(p.blocked OR s.unsubscribed_at IS NOT NULL OR s.suppression_reason IS NOT NULL)",
-  subscribed: "s.email_consent=true AND s.unsubscribed_at IS NULL AND s.suppression_reason IS NULL AND NOT COALESCE(p.blocked,false)",
+  subscribed: "(s.email_consent=true OR p.payload->>'marketing_status'='subscribed') AND s.unsubscribed_at IS NULL AND s.suppression_reason IS NULL AND NOT COALESCE(p.blocked,false)",
   cart: "EXISTS (SELECT 1 FROM amb_commerce_journeys j WHERE lower(j.email)=c.email AND j.status='cart')",
   checkout: "EXISTS (SELECT 1 FROM amb_commerce_journeys j WHERE lower(j.email)=c.email AND j.status='checkout')",
   purchased: "EXISTS (SELECT 1 FROM amb_commerce_journeys j WHERE lower(j.email)=c.email AND j.status='completed' AND j.completed_at IS NOT NULL)",
@@ -71,6 +71,7 @@ export async function listContacts(search: string, segment: string, after: strin
   return sql.query(`WITH identities AS (
       SELECT email FROM amb_prospector_contacts UNION SELECT lower(email) FROM amb_contacts WHERE email IS NOT NULL
     ) SELECT c.email, p.country, p.sent, p.pending, p.opens, p.clicks,p.legacy_engagement,
+      p.payload->>'marketing_status' AS marketing_status,p.payload->>'marketing_source' AS marketing_source,
       COALESCE(p.blocked,false) OR s.unsubscribed_at IS NOT NULL OR s.suppression_reason IS NOT NULL AS blocked,
       s.email_consent,s.source,s.consented_at,s.unsubscribed_at,s.suppression_reason,
       (SELECT count(*) FROM amb_commerce_journeys j WHERE lower(j.email)=c.email AND j.status='completed' AND j.completed_at IS NOT NULL) AS purchases,
