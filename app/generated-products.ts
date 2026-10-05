@@ -9557,6 +9557,158 @@ const allGeneratedProducts: Product[] = [
   "sourceProductId": "3256809742511895",
   "sourceColor": "black-2"
 },
+{
+  "slug": "elowyn-ruched-mesh-maxi-dress-black-print-i",
+  "name": "Elowyn Ruched Mesh Maxi Dress — Noir Ditsy",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 108.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#181818"
+  ],
+  "colorNames": [
+    "Noir Ditsy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A close-fitting patterned mesh maxi dress with a round neckline, long bell sleeves and ruched hips. Wear the outer mesh over the included short slip for a lined finish.",
+  "materials": "Ruched mesh with lining.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/elowyn-ruched-mesh-maxi-dress-black-print-i/front-20261004-v2.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-black-print-i/back-20261004-v2.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-black-print-i/left-20261004-v2.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-black-print-i/right-20261004-v2.webp"
+  ],
+  "stock": 3327,
+  "weightOz": 16.08,
+  "unitCostUsd": 36.28,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809742511895",
+  "sourceColor": "black-1"
+},
+{
+  "slug": "elowyn-ruched-mesh-maxi-dress-black-print-iii",
+  "name": "Elowyn Ruched Mesh Maxi Dress — Noir Scroll",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 108.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#181818"
+  ],
+  "colorNames": [
+    "Noir Scroll"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A close-fitting patterned mesh maxi dress with a round neckline, long bell sleeves and ruched hips. Wear the outer mesh over the included short slip for a lined finish.",
+  "materials": "Ruched mesh with lining.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/elowyn-ruched-mesh-maxi-dress-black-print-iii/front-20261004-v2.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-black-print-iii/back-20261004-v2.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-black-print-iii/left-20261004-v2.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-black-print-iii/right-20261004-v2.webp"
+  ],
+  "stock": 3323,
+  "weightOz": 16.08,
+  "unitCostUsd": 36.28,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809742511895",
+  "sourceColor": "black-3"
+},
+{
+  "slug": "elowyn-ruched-mesh-maxi-dress-ivory-botanical",
+  "name": "Elowyn Ruched Mesh Maxi Dress — Ivory Botanical",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 108.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e6e2d7"
+  ],
+  "colorNames": [
+    "Ivory Botanical"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A close-fitting patterned mesh maxi dress with a round neckline, long bell sleeves and ruched hips. Wear the outer mesh over the included short slip for a lined finish.",
+  "materials": "Ruched mesh with lining.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/elowyn-ruched-mesh-maxi-dress-ivory-botanical/front-20261004.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-ivory-botanical/back-20261004.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-ivory-botanical/left-20261004.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-ivory-botanical/right-20261004.webp"
+  ],
+  "stock": 3329,
+  "weightOz": 16.08,
+  "unitCostUsd": 36.28,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809742511895",
+  "sourceColor": "black white"
+},
+{
+  "slug": "elowyn-ruched-mesh-maxi-dress-forest-floral",
+  "name": "Elowyn Ruched Mesh Maxi Dress — Sage Rose",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 108.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d8ddca"
+  ],
+  "colorNames": [
+    "Sage Rose"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A close-fitting patterned mesh maxi dress with a round neckline, long bell sleeves and ruched hips. Wear the outer mesh over the included short slip for a lined finish.",
+  "materials": "Ruched mesh with lining.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/elowyn-ruched-mesh-maxi-dress-forest-floral/front-20261004.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-forest-floral/back-20261004.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-forest-floral/left-20261004.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-forest-floral/right-20261004.webp"
+  ],
+  "stock": 3329,
+  "weightOz": 16.08,
+  "unitCostUsd": 36.28,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809742511895",
+  "sourceColor": "black flower"
+},
 ];
 
 // The first 81 records are the established catalogue that was live before the
@@ -9754,6 +9906,10 @@ export const approvedNewProductSlugs = new Set<string>([
   "solenne-floral-corset-gown-tangerine",
   "calista-striped-maxi-dress-multicolor",
   "elowyn-ruched-mesh-maxi-dress-black-lace",
+  "elowyn-ruched-mesh-maxi-dress-black-print-i",
+  "elowyn-ruched-mesh-maxi-dress-black-print-iii",
+  "elowyn-ruched-mesh-maxi-dress-ivory-botanical",
+  "elowyn-ruched-mesh-maxi-dress-forest-floral",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(
