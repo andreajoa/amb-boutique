@@ -9084,7 +9084,479 @@ const allGeneratedProducts: Product[] = [
   "minimumMarginPercent": 40,
   "sourceProductId": "3256811995662657",
   "sourceColor": "WHITE"
-}
+},
+{
+  "slug": "orielle-draped-maxi-dress-sky",
+  "name": "Orielle Draped Maxi Dress — Sky",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 101.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#a5d7e2"
+  ],
+  "colorNames": [
+    "Sky"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M"
+  ],
+  "description": "A light-blue maxi dress with a draped cape-like neckline, short sleeves and a gathered waist flowing into a long skirt.",
+  "materials": "Soft mesh with a fluid draped finish.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/orielle-draped-maxi-dress-sky/front-20261004-v2.webp",
+    "/products/orielle-draped-maxi-dress-sky/back-20261004-v2.webp",
+    "/products/orielle-draped-maxi-dress-sky/left-20261004.webp",
+    "/products/orielle-draped-maxi-dress-sky/right-20261004.webp"
+  ],
+  "stock": 1462,
+  "weightOz": 14.11,
+  "unitCostUsd": 33.95,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810010387571",
+  "sourceColor": "Light blue"
+},
+{
+  "slug": "veloria-sequin-gown-gold",
+  "name": "Veloria Sequin Gown \u2014 Gold",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 227.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#dfd0b1"
+  ],
+  "colorNames": [
+    "Gold"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14"
+  ],
+  "description": "A strappy V-neck gown with a close-fitting silhouette, sweeping hem and shimmering wave-pattern embellishment.",
+  "materials": "Sequin-embellished fabric with a contrasting wave pattern.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/veloria-sequin-gown-gold/front-20261004.webp",
+    "/products/veloria-sequin-gown-gold/back-20261004.webp",
+    "/products/veloria-sequin-gown-gold/left-20261004.webp",
+    "/products/veloria-sequin-gown-gold/right-20261004.webp"
+  ],
+  "stock": 1372,
+  "weightOz": 19.4,
+  "unitCostUsd": 75.91,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256804518495457",
+  "sourceColor": "Gold"
+},
+{
+  "slug": "veloria-sequin-gown-wine",
+  "name": "Veloria Sequin Gown \u2014 Wine",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 227.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#67192e"
+  ],
+  "colorNames": [
+    "Wine"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14"
+  ],
+  "description": "A strappy V-neck gown with a close-fitting silhouette, sweeping hem and shimmering wave-pattern embellishment.",
+  "materials": "Sequin-embellished fabric with a contrasting wave pattern.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/veloria-sequin-gown-wine/front-20261004-v3.webp",
+    "/products/veloria-sequin-gown-wine/back-20261004.webp",
+    "/products/veloria-sequin-gown-wine/left-20261004.webp",
+    "/products/veloria-sequin-gown-wine/right-20261004.webp"
+  ],
+  "stock": 1392,
+  "weightOz": 19.4,
+  "unitCostUsd": 75.91,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256804518495457",
+  "sourceColor": "Red"
+},
+{
+  "slug": "veloria-sequin-gown-plum",
+  "name": "Veloria Sequin Gown \u2014 Plum",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 227.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#38213a"
+  ],
+  "colorNames": [
+    "Plum"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14"
+  ],
+  "description": "A strappy V-neck gown with a close-fitting silhouette, sweeping hem and shimmering wave-pattern embellishment.",
+  "materials": "Sequin-embellished fabric with a contrasting wave pattern.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/veloria-sequin-gown-plum/front-20261004-v3.webp",
+    "/products/veloria-sequin-gown-plum/back-20261004.webp",
+    "/products/veloria-sequin-gown-plum/left-20261004.webp",
+    "/products/veloria-sequin-gown-plum/right-20261004.webp"
+  ],
+  "stock": 1390,
+  "weightOz": 19.4,
+  "unitCostUsd": 75.91,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256804518495457",
+  "sourceColor": "PURPLE"
+},
+{
+  "slug": "althea-sculptural-set-ivory",
+  "name": "Althea Sculptural Set \u2014 Ivory",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 169.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f4f0e8"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "An asymmetric statement top paired with full-length wide-leg trousers for a sculptural occasion look.",
+  "materials": "Smooth woven fabric with a softly structured drape.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/althea-sculptural-set-ivory/front-20261004.webp",
+    "/products/althea-sculptural-set-ivory/back-20261004.webp",
+    "/products/althea-sculptural-set-ivory/left-20261004-v2.webp",
+    "/products/althea-sculptural-set-ivory/right-20261004-v2.webp"
+  ],
+  "stock": 2500,
+  "weightOz": 17.64,
+  "unitCostUsd": 56.37,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809487579473",
+  "sourceColor": "02 White"
+},
+{
+  "slug": "althea-sculptural-set-black",
+  "name": "Althea Sculptural Set \u2014 Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 169.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#191919"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "An asymmetric statement top paired with full-length wide-leg trousers for a sculptural occasion look.",
+  "materials": "Smooth woven fabric with a softly structured drape.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/althea-sculptural-set-black/front-20261004.webp",
+    "/products/althea-sculptural-set-black/back-20261004.webp",
+    "/products/althea-sculptural-set-black/left-20261004-v2.webp",
+    "/products/althea-sculptural-set-black/right-20261004-v2.webp"
+  ],
+  "stock": 2500,
+  "weightOz": 17.64,
+  "unitCostUsd": 56.37,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809487579473",
+  "sourceColor": "03 Black"
+},
+{
+  "slug": "valeska-striped-sequin-gown-prismatic",
+  "name": "Valeska Striped Sequin Gown \u2014 Prismatic",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 348.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#755388"
+  ],
+  "colorNames": [
+    "Prismatic"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A sleeveless halter-neck gown with diagonal sequin stripes and a long, fitted silhouette.",
+  "materials": "Sequin-covered fabric arranged in diagonal stripes.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/valeska-striped-sequin-gown-prismatic/front-20261004.webp",
+    "/products/valeska-striped-sequin-gown-prismatic/back-20261004.webp",
+    "/products/valeska-striped-sequin-gown-prismatic/left-20261004.webp",
+    "/products/valeska-striped-sequin-gown-prismatic/right-20261004.webp"
+  ],
+  "stock": 380,
+  "weightOz": 22.93,
+  "unitCostUsd": 116.05,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810374659889",
+  "sourceColor": "Colour 1"
+},
+{
+  "slug": "valeska-striped-sequin-gown-black-gold",
+  "name": "Valeska Striped Sequin Gown \u2014 Black Gold",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 348.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#202020"
+  ],
+  "colorNames": [
+    "Black Gold"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A sleeveless halter-neck gown with diagonal sequin stripes and a long, fitted silhouette.",
+  "materials": "Sequin-covered fabric arranged in diagonal stripes.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/valeska-striped-sequin-gown-black-gold/front-20261004.webp",
+    "/products/valeska-striped-sequin-gown-black-gold/back-20261004.webp",
+    "/products/valeska-striped-sequin-gown-black-gold/left-20261004.webp",
+    "/products/valeska-striped-sequin-gown-black-gold/right-20261004.webp"
+  ],
+  "stock": 393,
+  "weightOz": 22.93,
+  "unitCostUsd": 116.05,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810374659889",
+  "sourceColor": "Colour 2"
+},
+{
+  "slug": "veloria-sequin-gown-black",
+  "name": "Veloria Sequin Gown — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 227.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#191919"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14"
+  ],
+  "description": "A strappy V-neck gown with a close-fitting silhouette, sweeping hem and shimmering wave-pattern embellishment.",
+  "materials": "Sequin-embellished fabric with a contrasting wave pattern.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/veloria-sequin-gown-black/front-20261004-v3.webp",
+    "/products/veloria-sequin-gown-black/back-20261004.webp",
+    "/products/veloria-sequin-gown-black/left-20261004.webp",
+    "/products/veloria-sequin-gown-black/right-20261004.webp"
+  ],
+  "stock": 1386,
+  "weightOz": 19.4,
+  "unitCostUsd": 75.91,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256804518495457",
+  "sourceColor": "black"
+},
+{
+  "slug": "solenne-floral-corset-gown-tangerine",
+  "name": "Solenne Floral Corset Gown — Tangerine",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 301.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e56725"
+  ],
+  "colorNames": [
+    "Tangerine"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "18 W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A strapless satin mini dress with a boned bodice, sculpted rose at the right hip and a flowing side drape that extends into a sweeping train.",
+  "materials": "Smooth occasion fabric with a structured bodice and fluid skirt.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/solenne-floral-corset-gown-tangerine/front-20261004.webp",
+    "/products/solenne-floral-corset-gown-tangerine/back-20261004-v2.webp",
+    "/products/solenne-floral-corset-gown-tangerine/left-20261004-v2.webp",
+    "/products/solenne-floral-corset-gown-tangerine/right-20261004.webp"
+  ],
+  "stock": 1398,
+  "weightOz": 45.86,
+  "unitCostUsd": 100.52,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256812739138528",
+  "sourceColor": "photo color"
+},
+{
+  "slug": "calista-striped-maxi-dress-multicolor",
+  "name": "Calista Striped Midi Dress — Multicolor",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 111.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#ba8397"
+  ],
+  "colorNames": [
+    "Multicolor"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A softly draped cowl neckline, multicolour stripes and an asymmetric tulip midi hem. The fluid neckline can be styled across both shoulders or gently off one shoulder.",
+  "materials": "Fluid printed fabric with a softly draped finish.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/calista-striped-maxi-dress-multicolor/front-20261004.webp",
+    "/products/calista-striped-maxi-dress-multicolor/back-20261004.webp",
+    "/products/calista-striped-maxi-dress-multicolor/left-20261004.webp",
+    "/products/calista-striped-maxi-dress-multicolor/right-20261004.webp"
+  ],
+  "stock": 2917,
+  "weightOz": 12.7,
+  "unitCostUsd": 38.47,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256812046862993",
+  "sourceColor": "Picture color",
+  "sizePrices": {
+    "S": 111.9,
+    "L": 115.9,
+    "M": 115.9
+  }
+},
+{
+  "slug": "elowyn-ruched-mesh-maxi-dress-black-lace",
+  "name": "Elowyn Ruched Mesh Maxi Dress — Black Lace",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 108.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black Lace"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A close-fitting mesh maxi dress with long flared sleeves and gathered detailing.",
+  "materials": "Ruched mesh with lining.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/elowyn-ruched-mesh-maxi-dress-black-lace/front-20261004-v2.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-black-lace/back-20261004-v3.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-black-lace/left-20261004-v2.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-black-lace/right-20261004-v2.webp"
+  ],
+  "stock": 3321,
+  "weightOz": 16.08,
+  "unitCostUsd": 36.28,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809742511895",
+  "sourceColor": "black-2"
+},
 ];
 
 // The first 81 records are the established catalogue that was live before the
@@ -9269,6 +9741,19 @@ export const approvedNewProductSlugs = new Set<string>([
 
   "cressida-pearl-trim-set-ivory",
 
+  "orielle-draped-maxi-dress-sky",
+
+  "veloria-sequin-gown-gold",
+  "veloria-sequin-gown-wine",
+  "veloria-sequin-gown-plum",
+  "althea-sculptural-set-ivory",
+  "althea-sculptural-set-black",
+  "valeska-striped-sequin-gown-prismatic",
+  "valeska-striped-sequin-gown-black-gold",
+  "veloria-sequin-gown-black",
+  "solenne-floral-corset-gown-tangerine",
+  "calista-striped-maxi-dress-multicolor",
+  "elowyn-ruched-mesh-maxi-dress-black-lace",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(

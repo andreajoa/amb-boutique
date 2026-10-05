@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
 
-import { generatedProducts } from "../../../generated-products";
+import { products as catalogProducts } from "../../../data";
 import { storeManagerRequestAuthorized } from "../../../store-manager-auth";
 
 export const runtime = "nodejs";
@@ -15,7 +15,7 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  const products = generatedProducts.flatMap((product) => {
+  const products = catalogProducts.flatMap((product) => {
     const colorNames = Array.isArray(product.colorNames)
       ? product.colorNames.map((value) => String(value || "").trim()).filter(Boolean)
       : [];
