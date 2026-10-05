@@ -1,5 +1,6 @@
 import { notFound, redirect } from "next/navigation";
 import { products } from "../../data";
+import { productPrice } from "../../product-pricing";
 import { resolveShoeProductSlug } from "../../shoe-products";
 import { getShippingQuotes } from "../../commerce";
 import { getMerchantAdditionalImages, getMerchantImage } from "../../merchant";
@@ -58,12 +59,17 @@ export default async function ProductPage({ params, searchParams }: ProductPageP
   }
   const selectedShoeVariant = product.shoeVariants?.find((variant) => variant.heelHeightCm === initialHeelHeightCm);
   const activeStock = selectedShoeVariant?.stock ?? product.stock;
+  const pricingSizes = product.sizes || [];
+  const pricingSize = query.size && pricingSizes.includes(query.size)
+    ? query.size
+    : pricingSizes[Math.min(1, pricingSizes.length - 1)];
+  const selectedPrice = productPrice(product, pricingSize);
   const pageUrl = `${siteUrl}/products/${product.slug}`;
   const merchantPrimary = getMerchantImage(product);
   const productImages = merchantPrimary
     ? [merchantPrimary, ...getMerchantAdditionalImages(product)]
     : [`${siteUrl}/images/product-gallery.webp`];
-  const usShipping = getShippingQuotes("US", product.price, product.weightOz || 12)[0];
+  const usShipping = getShippingQuotes("US", selectedPrice, product.weightOz || 12)[0];
 
   const productJsonLd = {
     "@context": "https://schema.org",
@@ -84,7 +90,7 @@ export default async function ProductPage({ params, searchParams }: ProductPageP
       "@type": "Offer",
       url: pageUrl,
       priceCurrency: "USD",
-      price: product.price.toFixed(2),
+      price: selectedPrice.toFixed(2),
       availability: activeStock === 0 ? "https://schema.org/OutOfStock" : "https://schema.org/InStock",
       itemCondition: "https://schema.org/NewCondition",
       eligibleRegion: servedMarkets,

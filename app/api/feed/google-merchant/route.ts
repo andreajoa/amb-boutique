@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { products } from "../../../data";
+import { productPrice } from "../../../product-pricing";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -76,10 +77,13 @@ export async function GET() {
 
     // Google Merchant Center rejected only Xenia for a missing size value.
     // Keep the existing feed behavior untouched for every other approved product.
-    if (product.slug === XENIA_SLUG && product.sizes?.length) {
+    if ((product.slug === XENIA_SLUG || product.sizePrices) && product.sizes?.length) {
       const groupId = `${id}-group`;
 
       for (const size of product.sizes) {
+        const retailPrice = productPrice(product, size);
+        const variantBasePrice = product.compareAt && product.compareAt > retailPrice ? product.compareAt : retailPrice;
+        const variantSalePrice = product.compareAt && product.compareAt > retailPrice ? retailPrice : undefined;
         const variantId = size === product.sizes[0] ? id : `${id}-size-${sizeToken(size)}`;
         const variantLink = `${link}?size=${encodeURIComponent(size)}`;
 
@@ -89,9 +93,9 @@ export async function GET() {
         items += xml("g:description", description);
         items += xml("g:link", variantLink);
         items += xml("g:image_link", image);
-        items += xml("g:price", `${basePrice.toFixed(2)} ${CURRENCY}`);
-        if (salePrice !== undefined) {
-          items += xml("g:sale_price", `${salePrice.toFixed(2)} ${CURRENCY}`);
+        items += xml("g:price", `${variantBasePrice.toFixed(2)} ${CURRENCY}`);
+        if (variantSalePrice !== undefined) {
+          items += xml("g:sale_price", `${variantSalePrice.toFixed(2)} ${CURRENCY}`);
         }
         items += xml("g:availability", availability);
         items += xml("g:condition", "new");

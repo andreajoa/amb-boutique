@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { products } from "../../data";
+import { productForSize } from "../../product-pricing";
 import { resolveShoeProductSlug } from "../../shoe-products";
 import { generatedProducts } from "../../generated-products";
 import { convertFromUsd, FIRST_ORDER_CODE, getDiscountState, getShippingQuotes, isMarketCode, markets } from "../../commerce";
@@ -44,7 +45,7 @@ export async function POST(request: NextRequest) {
       if (shoeVariant && line.size && !shoeVariant.sizes.includes(line.size)) throw new Error(`Size ${line.size} is not available with the selected heel height for ${product.name}.`);
       if (!shoeVariant && product.sizes?.length && line.size && !product.sizes.includes(line.size)) throw new Error(`Size ${line.size} is not available for ${product.name}.`);
       const selectedHeelHeightCm = shoeVariant?.heelHeightCm ?? product.heelHeightCm;
-      return { line, product, quantity, selectedHeelHeightCm };
+      return { line, product: productForSize(product, line.size), quantity, selectedHeelHeightCm };
     });
     const subtotalUsd = normalized.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
     const packedWeightOz = normalized.reduce((sum, item) => sum + (item.product.weightOz || 12) * item.quantity, 0);

@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Footer, Header, ProductCard, getDirectProductImage, getProductImageStyle } from "../../components";
 import { Product, products } from "../../data";
+import { productPrice } from "../../product-pricing";
 import { useStore } from "../../store-provider";
 import { SizeFinder } from "../../size-finder";
 import { ShoeSizeGuide } from "../../shoe-size-guide";
@@ -43,6 +44,7 @@ export default function ProductDetail({
   const activeStock = activeShoeVariant?.stock ?? product.stock;
 
   const [size, setSize] = useState(startingSize);
+  const selectedPrice = productPrice(product, size);
   const [color, setColor] = useState(colors[0] || defaultColors[0]);
   const [quantity, setQuantity] = useState(1);
   const [activeImage, setActiveImage] = useState<number | null>(null);
@@ -125,7 +127,7 @@ export default function ProductDetail({
         <section className="product-info">
           <p className="product-breadcrumb"><Link href="/collections">Shop</Link> / {isShoe ? <><Link href="/collections/shoes">Shoes</Link>{product.subcategory ? <> / <Link href="/collections/heels">{product.subcategory}</Link></> : null}</> : product.category}</p>
           <h1>{product.name}</h1>
-          <div className="product-price"><span>{formatMoney(product.price)}</span>{product.compareAt && <del>{formatMoney(product.compareAt)}</del>}</div>
+          <div className="product-price"><span>{formatMoney(selectedPrice)}</span>{product.compareAt && <del>{formatMoney(product.compareAt)}</del>}</div>
           <p className="product-intro">{product.description || "An effortless AMB essential designed with a softly structured silhouette and an easy, feminine finish."}</p>
 
           {isShoe && heelOptions.length > 1 && <fieldset className="option-group"><legend><strong>Heel height:</strong> {heelHeightCm} cm</legend><div className="size-options">{heelOptions.map((height) => <button type="button" key={height} className={heelHeightCm === height ? "selected" : ""} onClick={() => selectHeelHeight(height)}>{height} cm</button>)}</div></fieldset>}
@@ -138,7 +140,7 @@ export default function ProductDetail({
 
           <div className="quantity-block"><span>Quantity</span><div><button type="button" onClick={() => setQuantity(Math.max(1, quantity - 1))} aria-label="Decrease quantity">−</button><span>{quantity}</span><button type="button" onClick={() => setQuantity(quantity + 1)} aria-label="Increase quantity">+</button></div></div>
           <p className="stock-line"><i/> {typeof activeStock === "number" && activeStock <= 5 ? `Only ${activeStock} left` : "Available to order"}</p>
-          <button className="add-button" type="button" onClick={addToBag}>Add to Bag · {formatMoney(product.price * quantity)}</button>
+          <button className="add-button" type="button" onClick={addToBag}>Add to Bag · {formatMoney(selectedPrice * quantity)}</button>
           <button className="buy-button" type="button" onClick={() => void buyNow(product, { size, color: color.name, quantity, heelHeightCm: isShoe ? (heelHeightCm ?? product.heelHeightCm) : undefined })}>Buy Now</button>
 
           <div className="secure-box"><strong>Secure checkout</strong><span>Encrypted payment processing · Powered by Stripe</span><PaymentMarks /></div>

@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { productForSize } from "../product-pricing";
 import { products, type Product } from "../data";
 import { getGoogleProductCategory, getMerchantImage, merchantVariantLink } from "../merchant";
 
@@ -89,7 +90,7 @@ function productRow(product: Product): FeedRow | null {
   if (!image) return null;
 
   const selected = representativeSelection(product);
-  const prices = priceFields(product);
+  const prices = priceFields(productForSize(product, selected.size));
   const color = colorName(product);
   const titleParts = [product.name];
   if (color && !product.name.toLowerCase().includes(color.toLowerCase())) titleParts.push(color);

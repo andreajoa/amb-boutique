@@ -9,4 +9,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .vercel
+/output/imagegen/amb-oct04/**/*.png
 *.tsbuildinfo

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Product } from "./data";
+import { productPrice } from "./product-pricing";
 import { getProductImageStyle } from "./components";
 import { createStyleLooks } from "./recommendations";
 import { useStore } from "./store-provider";
@@ -37,7 +38,7 @@ export function StyleMatches({ product, catalog }: { product: Product; catalog: 
       },
     })));
   };
-  const total = look.products.reduce((sum, item) => sum + item.price, 0);
+  const total = look.products.reduce((sum, item) => sum + productPrice(item, selections[item.slug] || sizesFor(item)[0]), 0);
 
   return <section className="style-matches shell" data-reveal>
     <div className="style-title"><span/><div><p>STYLED BY AMB</p><h2>How to Style It</h2></div><span/></div>
@@ -51,7 +52,7 @@ export function StyleMatches({ product, catalog }: { product: Product; catalog: 
             <Link href={`/products/${item.slug}`} className="style-piece-image" aria-label={`View ${item.name}`}>
               <span className={`style-piece-media sheet-${item.sheet} q${item.quadrant}${isSprite ? " sprite-media" : ""}`} style={getProductImageStyle(item, 0)}/>
             </Link>
-          <div><Link href={`/products/${item.slug}`}>{item.name}</Link><span>{formatMoney(item.price)}</span><label><span className="sr-only">Size for {item.name}</span><select value={selections[item.slug] || sizesFor(item)[0]} onChange={(event) => updateSize(item.slug, event.target.value)}>{sizesFor(item).map((size) => <option key={size}>{size}</option>)}</select></label></div>
+          <div><Link href={`/products/${item.slug}`}>{item.name}</Link><span>{formatMoney(productPrice(item, selections[item.slug] || sizesFor(item)[0]))}</span><label><span className="sr-only">Size for {item.name}</span><select value={selections[item.slug] || sizesFor(item)[0]} onChange={(event) => updateSize(item.slug, event.target.value)}>{sizesFor(item).map((size) => <option key={size}>{size}</option>)}</select></label></div>
         </article>;
         })}
       </div>

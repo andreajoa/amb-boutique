@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import type { Product } from "./data";
+import { productForSize, productPrice } from "./product-pricing";
 import { FIRST_ORDER_CODE, formatMarketPrice, getDiscountState, MarketCode, markets, US_FREE_SHIPPING_THRESHOLD_USD } from "./commerce";
 import { CartRewards } from "./cart-rewards";
 import { rankRecommendations } from "./recommendations";
@@ -101,7 +102,15 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
     queueMicrotask(() => {
       try {
         const saved = window.localStorage.getItem(storageKey);
-        if (saved) setCart(JSON.parse(saved));
+        if (saved) {
+          const savedLines = JSON.parse(saved) as CartLine[];
+          setCart(savedLines.flatMap((line) => {
+            const product = catalog.find((item) => item.slug === line.slug);
+            if (!product?.sizePrices) return [line];
+            if (!product.sizes?.includes(line.size)) return [];
+            return [{ ...line, price: productPrice(product, line.size) }];
+          }));
+        }
         const savedMarket = window.localStorage.getItem(marketStorageKey);
         if (savedMarket && savedMarket in markets) setMarket(savedMarket as MarketCode);
         setPromoCodeState(window.localStorage.getItem(promoStorageKey) || "");
@@ -121,7 +130,7 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
       }
       setHydrated(true);
     });
-  }, []);
+  }, [catalog]);
 
   useEffect(() => {
     const handleConsent = (event: Event) => {
@@ -168,7 +177,7 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
   const estimatedTotal = useMemo(() => cart.reduce((sum, line) => {
     const product = catalogBySlug.get(line.slug);
     const requestedPercent = Math.max(discount.percent, welcomePercent, line.offer === "cart-bump" ? 10 : 0);
-    const approvedPercent = product ? protectMargin(product, requestedPercent).approvedPercent : 0;
+    const approvedPercent = product ? protectMargin(productForSize(product, line.size), requestedPercent).approvedPercent : 0;
     return sum + line.price * line.quantity * (1 - approvedPercent / 100);
   }, 0), [cart, catalogBySlug, discount.percent, welcomePercent]);
   const effectiveDiscountUsd = cartTotal - estimatedTotal;
@@ -213,7 +222,7 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
         id,
         slug: product.slug,
         name: product.name,
-        price: product.price,
+        price: productPrice(product, options.size),
         quantity: options.quantity,
         size: options.size,
         color: options.color,
@@ -231,7 +240,7 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
     setCheckoutError("");
     setCartOpen(true);
     entries.forEach(({ product, options }) => {
-      trackEvent("add_to_cart", { slug: product.slug, category: product.category, source: options.offer || "product", valueUsd: product.price * options.quantity });
+      trackEvent("add_to_cart", { slug: product.slug, category: product.category, source: options.offer || "product", valueUsd: productPrice(product, options.size) * options.quantity });
     });
   };
 
@@ -346,7 +355,8 @@ function CartDrawer({ catalog }: { catalog: Product[] }) {
   if (!cartOpen) return null;
   const shippingGap = Math.max(0, US_FREE_SHIPPING_THRESHOLD_USD - cartTotal);
   const cartProducts = cart.map((line) => catalogBySlug.get(line.slug)).filter((product): product is Product => Boolean(product));
-  const upsellCandidate = rankRecommendations(catalog, cart.map((line) => line.slug), preferredCategories, cartProducts)[0];
+  const rankedUpsell = rankRecommendations(catalog, cart.map((line) => line.slug), preferredCategories, cartProducts)[0];
+  const upsellCandidate = rankedUpsell ? productForSize(rankedUpsell, rankedUpsell.sizes?.[0] || "One Size") : undefined;
   const upsellMargin = upsellCandidate ? protectMargin(upsellCandidate, 10) : null;
   const upsell = upsellCandidate && upsellMargin?.costKnown && upsellMargin.approvedPercent > 0 ? upsellCandidate : null;
   return <div className="cart-layer" role="dialog" aria-modal="true" aria-label="Shopping bag" ref={layerRef}>

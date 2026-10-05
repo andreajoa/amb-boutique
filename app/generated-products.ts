@@ -8818,6 +8818,272 @@ const allGeneratedProducts: Product[] = [
   "minimumMarginPercent": 40,
   "sourceProductId": "3256809714237127",
   "sourceColor": "Taupe"
+},
+{
+  "slug": "aurelle-jumpsuit-forest",
+  "name": "Aurelle Ruffle Jumpsuit — Forest",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Playsuits",
+  "price": 123.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#08392f"
+  ],
+  "colorNames": [
+    "Forest"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A one-shoulder jumpsuit with a softly draped bodice, a circular waist detail and a cascading ruffle over full-length wide-leg trousers.",
+  "materials": "Smooth opaque fabric with a fluid drape.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/aurelle-jumpsuit-forest/front-20261004.webp",
+    "/products/aurelle-jumpsuit-forest/back-20261004.webp",
+    "/products/aurelle-jumpsuit-forest/left-20261004.webp",
+    "/products/aurelle-jumpsuit-forest/right-20261004.webp"
+  ],
+  "stock": 499,
+  "weightOz": 36.33,
+  "unitCostUsd": 41.01,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811876607773",
+  "sourceColor": "Dark Green"
+},
+{
+  "slug": "aurelle-jumpsuit-black",
+  "name": "Aurelle Ruffle Jumpsuit — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Playsuits",
+  "price": 123.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A one-shoulder jumpsuit with a softly draped bodice, a circular waist detail and a cascading ruffle over full-length wide-leg trousers.",
+  "materials": "Smooth opaque fabric with a fluid drape.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/aurelle-jumpsuit-black/front-20261004.webp",
+    "/products/aurelle-jumpsuit-black/back-20261004.webp",
+    "/products/aurelle-jumpsuit-black/left-20261004.webp",
+    "/products/aurelle-jumpsuit-black/right-20261004.webp"
+  ],
+  "stock": 499,
+  "weightOz": 36.33,
+  "unitCostUsd": 41.01,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811876607773",
+  "sourceColor": "black"
+},
+{
+  "slug": "aurelle-jumpsuit-ivory",
+  "name": "Aurelle Ruffle Jumpsuit — Ivory",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Playsuits",
+  "price": 123.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f5f2e9"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A one-shoulder jumpsuit with a softly draped bodice, a circular waist detail and a cascading ruffle over full-length wide-leg trousers.",
+  "materials": "Smooth opaque fabric with a fluid drape.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/aurelle-jumpsuit-ivory/front-20261004.webp",
+    "/products/aurelle-jumpsuit-ivory/back-20261004.webp",
+    "/products/aurelle-jumpsuit-ivory/left-20261004.webp",
+    "/products/aurelle-jumpsuit-ivory/right-20261004.webp"
+  ],
+  "stock": 499,
+  "weightOz": 36.33,
+  "unitCostUsd": 41.01,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811876607773",
+  "sourceColor": "White"
+},
+{
+  "slug": "aurelle-jumpsuit-blush",
+  "name": "Aurelle Ruffle Jumpsuit — Blush",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Playsuits",
+  "price": 123.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e0b6be"
+  ],
+  "colorNames": [
+    "Blush"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A one-shoulder jumpsuit with a softly draped bodice, a circular waist detail and a cascading ruffle over full-length wide-leg trousers.",
+  "materials": "Smooth opaque fabric with a fluid drape.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/aurelle-jumpsuit-blush/front-20261004.webp",
+    "/products/aurelle-jumpsuit-blush/back-20261004.webp",
+    "/products/aurelle-jumpsuit-blush/left-20261004.webp",
+    "/products/aurelle-jumpsuit-blush/right-20261004.webp"
+  ],
+  "stock": 500,
+  "weightOz": 36.33,
+  "unitCostUsd": 41.01,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811876607773",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "aurelle-jumpsuit-burgundy",
+  "name": "Aurelle Ruffle Jumpsuit — Burgundy",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Playsuits",
+  "price": 123.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#731e35"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A one-shoulder jumpsuit with a softly draped bodice, a circular waist detail and a cascading ruffle over full-length wide-leg trousers.",
+  "materials": "Smooth opaque fabric with a fluid drape.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/aurelle-jumpsuit-burgundy/front-20261004.webp",
+    "/products/aurelle-jumpsuit-burgundy/back-20261004.webp",
+    "/products/aurelle-jumpsuit-burgundy/left-20261004.webp",
+    "/products/aurelle-jumpsuit-burgundy/right-20261004.webp"
+  ],
+  "stock": 500,
+  "weightOz": 36.33,
+  "unitCostUsd": 41.01,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811876607773",
+  "sourceColor": "Burgundy"
+},
+{
+  "slug": "aurelle-jumpsuit-navy",
+  "name": "Aurelle Ruffle Jumpsuit — Navy",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Playsuits",
+  "price": 123.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1b2d48"
+  ],
+  "colorNames": [
+    "Navy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A one-shoulder jumpsuit with a softly draped bodice, a circular waist detail and a cascading ruffle over full-length wide-leg trousers.",
+  "materials": "Smooth opaque fabric with a fluid drape.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/aurelle-jumpsuit-navy/front-20261004.webp",
+    "/products/aurelle-jumpsuit-navy/back-20261004.webp",
+    "/products/aurelle-jumpsuit-navy/left-20261004.webp",
+    "/products/aurelle-jumpsuit-navy/right-20261004.webp"
+  ],
+  "stock": 499,
+  "weightOz": 36.33,
+  "unitCostUsd": 41.01,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811876607773",
+  "sourceColor": "DEEP BLUE"
+},
+{
+  "slug": "cressida-pearl-trim-set-ivory",
+  "name": "Cressida Pearl-Trim Set — Ivory",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 240.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f5f2e9"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted peak-lapel blazer with pearl-style trim and sheer panels at the shoulders, sleeves and upper back, paired with plain matching full-length trousers.",
+  "materials": "Woven tailoring with sheer panels and pearl-style embellishment.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/cressida-pearl-trim-set-ivory/front-20261004-v2.webp",
+    "/products/cressida-pearl-trim-set-ivory/back-20261004.webp",
+    "/products/cressida-pearl-trim-set-ivory/left-20261004-v2.webp",
+    "/products/cressida-pearl-trim-set-ivory/right-20261004-v2.webp"
+  ],
+  "stock": 985,
+  "weightOz": 52.91,
+  "unitCostUsd": 79.99,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811995662657",
+  "sourceColor": "WHITE"
 }
 ];
 
@@ -8994,6 +9260,15 @@ export const approvedNewProductSlugs = new Set<string>([
   "sabine-ruched-jumpsuit-taupe",
   "sabine-ruched-jumpsuit-fuchsia",
   "sabine-ruched-jumpsuit-champagne",
+  "aurelle-jumpsuit-forest",
+  "aurelle-jumpsuit-black",
+  "aurelle-jumpsuit-ivory",
+  "aurelle-jumpsuit-blush",
+  "aurelle-jumpsuit-burgundy",
+  "aurelle-jumpsuit-navy",
+
+  "cressida-pearl-trim-set-ivory",
+
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(
