@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { products } from "./data";
+import { productForSize } from "./product-pricing";
 import { protectMargin } from "./profitability";
 import { rankRecommendations } from "./recommendations";
 import { useStore } from "./store-provider";
@@ -17,7 +18,8 @@ export function PostPurchaseOffer({ sessionId, purchasedSlugs }: { sessionId: st
   const { buyNow, formatMoney, checkoutError } = useStore();
   const [showDownsell, setShowDownsell] = useState(false);
   const purchased = purchasedSlugs.map((slug) => products.find((product) => product.slug === slug)).filter((product): product is (typeof products)[number] => Boolean(product));
-  const ranked = rankRecommendations(products, purchasedSlugs, [], purchased);
+  const ranked = rankRecommendations(products, purchasedSlugs, [], purchased)
+    .map((product) => productForSize(product, product.sizes?.[0] || "One Size"));
   const primary = ranked.map((product) => ({ product, margin: protectMargin(product, 15) }))
     .find(({ margin }) => margin.costKnown && margin.approvedPercent > 0);
   const downsell = ranked.filter((product) => product.slug !== primary?.product.slug)

@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { productForSize } from "../product-pricing";
 import { products, type Product } from "../data";
 import {
   getGoogleProductCategory,
@@ -84,7 +85,7 @@ function baseRow(product: Product, size?: string, heelHeightCm?: number, inStock
   const image = getMerchantImage(product);
   if (!image) return null;
 
-  const prices = priceFields(product);
+  const prices = priceFields(productForSize(product, size));
   const isVariant = Boolean(size || heelHeightCm !== undefined);
   const options: string[] = [];
   if (size) options.push(`size:${size}`);

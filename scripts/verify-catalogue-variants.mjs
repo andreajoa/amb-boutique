@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import crypto from 'node:crypto';
 import ts from 'typescript';
 import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
@@ -18,7 +19,24 @@ load.extensions['.ts'] = (module, filename) => {
 const { products } = load('../app/data.ts');
 const { resolveShoeProductSlug } = load('../app/shoe-products.ts');
 assert.equal(new Set(products.map(p => p.slug)).size, products.length, 'Duplicate product URLs');
-assert.equal(products.length, 444, 'Unexpected catalogue count after adding 41 colour/heel pages');
+const release = JSON.parse(fs.readFileSync(`${repo}/imports/products-20261004-release.json`, 'utf8'));
+const baseline = JSON.parse(fs.readFileSync(`${repo}/imports/products-pre-oct04-baseline-hashes.json`, 'utf8'));
+const stable = value => Array.isArray(value) ? value.map(stable) : value && typeof value === 'object'
+  ? Object.fromEntries(Object.keys(value).sort().map(key => [key, stable(value[key])])) : value;
+assert.equal(Object.keys(baseline).length, 444, 'Established catalogue baseline changed');
+assert.equal(release.baseProducts, 444);
+assert.equal(products.length, 444 + release.approvedSlugs.length, 'Unexpected catalogue count');
+for (const [slug, digest] of Object.entries(baseline)) {
+  const product = products.find(product => product.slug === slug);
+  assert.ok(product, `Removed established product: ${slug}`);
+  assert.equal(crypto.createHash('sha256').update(JSON.stringify(stable(product))).digest('hex'), digest,
+    `Changed established product: ${slug}`);
+}
+for (const product of products.filter(product => !Object.hasOwn(baseline, product.slug))) {
+  assert.ok(release.approvedSlugs.includes(product.slug), `Unreviewed new product: ${product.slug}`);
+  assert.equal(product.images.length, 4, `Incomplete new gallery: ${product.slug}`);
+  assert.ok(product.stock > 0 && !product.sizes.includes('Custom size'), `Invalid new stock/size: ${product.slug}`);
+}
 for (const p of products) {
   assert.equal(p.colors.length, 1, `Combined colours: ${p.slug}`);
   assert.ok(!p.shoeVariants?.length, `Combined heel heights: ${p.slug}`);

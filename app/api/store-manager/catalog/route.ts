@@ -34,6 +34,10 @@ export async function GET(request: NextRequest) {
       sizes,
       stock: typeof product.stock === "number" ? product.stock : null,
       unitCostUsd: typeof product.unitCostUsd === "number" ? product.unitCostUsd : null,
+      ...(product.sourceProductId && product.sourceColor ? {
+        sourceProductId: product.sourceProductId,
+        sourceColor: product.sourceColor,
+      } : {}),
     }];
   });
 

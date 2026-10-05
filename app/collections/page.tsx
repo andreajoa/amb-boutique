@@ -8,6 +8,7 @@ export default function CollectionsPage() {
     category: product.category,
     subcategory: product.subcategory,
     price: product.price,
+    sizePrices: product.sizePrices,
     compareAt: product.compareAt,
     badge: product.badge,
     sheet: product.sheet,

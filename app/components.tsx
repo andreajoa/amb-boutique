@@ -4,6 +4,7 @@ import type { CSSProperties } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Product } from "./data";
+import { hasPriceRange, productPrice } from "./product-pricing";
 import { MarketCode, marketCodes, markets, US_FREE_SHIPPING_THRESHOLD_USD } from "./commerce";
 import { useStore } from "./store-provider";
 import { NewsletterForm } from "./newsletter-form";
@@ -12,7 +13,7 @@ import { PaymentMarks } from "./payment-marks";
 const SHOE_ATLAS_PRODUCT_COUNT = 27;
 
 export type ProductImageSource = Pick<Product, "images" | "gallerySprite" | "galleryAtlasIndex" | "galleryAtlasCount" | "heelAtlasIndex">;
-export type ProductCardProduct = ProductImageSource & Pick<Product, "slug" | "name" | "price" | "compareAt" | "badge" | "sheet" | "quadrant" | "colors" | "rating">;
+export type ProductCardProduct = ProductImageSource & Pick<Product, "slug" | "name" | "price" | "sizePrices" | "compareAt" | "badge" | "sheet" | "quadrant" | "colors" | "rating">;
 
 export function getDirectProductImage(product: ProductImageSource, view = 0): string | undefined {
   const firstImage = product.images?.[0];
@@ -187,7 +188,7 @@ export function ProductCard({ product, compact = false }: { product: ProductCard
       <div className="product-meta">
         <Link href={`/products/${product.slug}`}>{product.name}</Link>
         <div className="price-row">
-          <span className={product.compareAt ? "sale-price" : ""}>{formatMoney(product.price)}</span>
+          <span className={product.compareAt ? "sale-price" : ""}>{hasPriceRange(product) ? "From " : ""}{formatMoney(productPrice(product))}</span>
           {product.compareAt && <del>{formatMoney(product.compareAt)}</del>}
         </div>
         <div className="swatches" aria-label="Available colors">

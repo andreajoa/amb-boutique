@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { products } from "../../data";
+import { productForSize } from "../../product-pricing";
 import { resolveShoeProductSlug } from "../../shoe-products";
 import { isMarketCode } from "../../commerce";
 import { getAnalyticsSql, jsonForDatabase } from "../../analytics/db";
@@ -33,13 +34,15 @@ export async function POST(request: Request) {
     const resolvedSlug = item.slug ? resolveShoeProductSlug(item.slug, requestedHeel) : undefined;
     const product = products.find((candidate) => candidate.slug === resolvedSlug);
     if (!product) return [];
+    if (product.sizePrices && (!item.size || !product.sizes?.includes(item.size))) return [];
+    const pricedProduct = productForSize(product, item.size);
     const quantity = Math.max(1, Math.min(10, Math.floor(Number(item.quantity) || 1)));
     const sprite = product.gallerySprite && product.images?.length === 1 ? product.gallerySprite : undefined;
     return [{
       id: `${product.slug}:${item.size || "Selected"}:${item.color || "Selected"}:${item.heelHeightCm || "no-heel"}:${item.offer || "standard"}`,
       slug: product.slug,
       name: product.name,
-      price: product.price,
+      price: pricedProduct.price,
       quantity,
       size: (item.size || product.sizes?.[0] || product.shoeVariants?.[0]?.sizes?.[0] || "One Size").slice(0, 40),
       color: (item.color || product.colorNames?.[0] || "Selected").slice(0, 60),

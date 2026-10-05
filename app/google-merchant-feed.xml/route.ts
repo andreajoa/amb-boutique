@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { productForSize } from "../product-pricing";
 import { products, type Product } from "../data";
 import { getShippingQuotes } from "../commerce";
 import {
@@ -93,7 +94,7 @@ ${variantOption("heel height", `${variant.heelHeightCm} cm`)}
       const link = merchantVariantLink(product, size, product.heelHeightCm);
       return `<item>
 <g:id>${xml(variantId(product, size, product.heelHeightCm))}</g:id>
-${commonFields(product, title, link, image, product.stock! > 0 ? "in_stock" : "out_of_stock")}
+${commonFields(productForSize(product, size), title, link, image, product.stock! > 0 ? "in_stock" : "out_of_stock")}
 <g:size>${xml(size)}</g:size>
 <g:size_system>${product.category === "Shoes" ? "EU" : "US"}</g:size_system>
 <g:size_type>regular</g:size_type>

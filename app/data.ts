@@ -17,6 +17,7 @@ export type Product = {
   category: "Dresses" | "Tops" | "Sets" | "Playsuits" | "Skirts" | "Pants" | "Shorts" | "Knitwear" | "Bags" | "Shoes" | "Accessories";
   subcategory?: string;
   price: number;
+  sizePrices?: Record<string, number>;
   compareAt?: number;
   badge?: string;
   sheet: "one" | "two";
