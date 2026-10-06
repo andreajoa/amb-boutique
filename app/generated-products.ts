@@ -10340,6 +10340,1026 @@ const allGeneratedProducts: Product[] = [
     "notice": "Made to order. Please allow approximately 10–30 days for production before dispatch. Delivery time is additional."
   }
 },
+{
+  "slug": "ischia-rope-tote-brown",
+  "name": "Ischia Rope Tote — Brown",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#ab754e"
+  ],
+  "colorNames": [
+    "Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A coiled cotton rope tote with a raised interlocking loop motif, a drawstring fabric liner and long leather shoulder handles.",
+  "materials": "Coiled cotton rope with synthetic leather handles and textile drawstring liner.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/ischia-rope-tote-brown/01.webp?v=20261006",
+    "/editorial/bags/products/ischia-rope-tote-brown/02.webp?v=20261006",
+    "/editorial/bags/products/ischia-rope-tote-brown/03.webp?v=20261006",
+    "/editorial/bags/products/ischia-rope-tote-brown/04.webp?v=20261006"
+  ],
+  "stock": 9998,
+  "weightOz": 22,
+  "unitCostUsd": 25.02,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256812613735728",
+  "sourceColor": "Brown"
+},
+{
+  "slug": "ischia-rope-tote-beige",
+  "name": "Ischia Rope Tote — Beige",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 74.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d3b9a1"
+  ],
+  "colorNames": [
+    "Beige"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A coiled cotton rope tote with a raised interlocking loop motif, a drawstring fabric liner and long leather shoulder handles.",
+  "materials": "Coiled cotton rope with synthetic leather handles and textile drawstring liner.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/ischia-rope-tote-beige/01.webp?v=20261006",
+    "/editorial/bags/products/ischia-rope-tote-beige/02.webp?v=20261006",
+    "/editorial/bags/products/ischia-rope-tote-beige/03.webp?v=20261006",
+    "/editorial/bags/products/ischia-rope-tote-beige/04.webp?v=20261006"
+  ],
+  "stock": 9993,
+  "weightOz": 22,
+  "unitCostUsd": 24.86,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256812613735728",
+  "sourceColor": "Beige"
+},
+{
+  "slug": "roma-studded-hobo-black",
+  "name": "Roma Studded Hobo — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 59.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#161412"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft faux-suede hobo with a wide shoulder strap, finished with rows of polished silver-tone dome studs down the front and along the base.",
+  "materials": "Faux-suede upper with polished metal studs and textile lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/roma-studded-hobo-black/01.webp?v=20261006",
+    "/editorial/bags/products/roma-studded-hobo-black/02.webp?v=20261006",
+    "/editorial/bags/products/roma-studded-hobo-black/03.webp?v=20261006",
+    "/editorial/bags/products/roma-studded-hobo-black/04.webp?v=20261006"
+  ],
+  "stock": 498,
+  "weightOz": 22,
+  "unitCostUsd": 19.8,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810440660351",
+  "sourceColor": "black"
+},
+{
+  "slug": "roma-studded-hobo-burgundy",
+  "name": "Roma Studded Hobo — Burgundy",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 59.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#560d0e"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft faux-suede hobo with a wide shoulder strap, finished with rows of polished silver-tone dome studs down the front and along the base.",
+  "materials": "Faux-suede upper with polished metal studs and textile lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/roma-studded-hobo-burgundy/01.webp?v=20261006",
+    "/editorial/bags/products/roma-studded-hobo-burgundy/02.webp?v=20261006",
+    "/editorial/bags/products/roma-studded-hobo-burgundy/03.webp?v=20261006",
+    "/editorial/bags/products/roma-studded-hobo-burgundy/04.webp?v=20261006"
+  ],
+  "stock": 497,
+  "weightOz": 22,
+  "unitCostUsd": 19.8,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810440660351",
+  "sourceColor": "Burgundy"
+},
+{
+  "slug": "roma-studded-hobo-coffee",
+  "name": "Roma Studded Hobo — Coffee",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 59.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#2c1810"
+  ],
+  "colorNames": [
+    "Coffee"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft faux-suede hobo with a wide shoulder strap, finished with rows of polished silver-tone dome studs down the front and along the base.",
+  "materials": "Faux-suede upper with polished metal studs and textile lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/roma-studded-hobo-coffee/01.webp?v=20261006",
+    "/editorial/bags/products/roma-studded-hobo-coffee/02.webp?v=20261006",
+    "/editorial/bags/products/roma-studded-hobo-coffee/03.webp?v=20261006",
+    "/editorial/bags/products/roma-studded-hobo-coffee/04.webp?v=20261006"
+  ],
+  "stock": 498,
+  "weightOz": 22,
+  "unitCostUsd": 19.8,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810440660351",
+  "sourceColor": "Coffee"
+},
+{
+  "slug": "roma-studded-hobo-brown",
+  "name": "Roma Studded Hobo — Brown",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 59.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#391d10"
+  ],
+  "colorNames": [
+    "Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft faux-suede hobo with a wide shoulder strap, finished with rows of polished silver-tone dome studs down the front and along the base.",
+  "materials": "Faux-suede upper with polished metal studs and textile lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/roma-studded-hobo-brown/01.webp?v=20261006",
+    "/editorial/bags/products/roma-studded-hobo-brown/02.webp?v=20261006",
+    "/editorial/bags/products/roma-studded-hobo-brown/03.webp?v=20261006",
+    "/editorial/bags/products/roma-studded-hobo-brown/04.webp?v=20261006"
+  ],
+  "stock": 499,
+  "weightOz": 22,
+  "unitCostUsd": 19.8,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810440660351",
+  "sourceColor": "Brown"
+},
+{
+  "slug": "capri-woven-pouch-light-brown",
+  "name": "Capri Woven Pouch — Light Brown",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 98.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b77446"
+  ],
+  "colorNames": [
+    "Light Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A rounded pouch bag woven from wide criss-crossing vegan leather strips, with a sculptural triangular top handle and drawstring ties at the sides.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/capri-woven-pouch-light-brown/01.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-light-brown/02.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-light-brown/03.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-light-brown/04.webp?v=20261006"
+  ],
+  "stock": 8,
+  "weightOz": 18,
+  "unitCostUsd": 32.73,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810573247644",
+  "sourceColor": "Light Brown"
+},
+{
+  "slug": "capri-woven-pouch-green",
+  "name": "Capri Woven Pouch — Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 115.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#257957"
+  ],
+  "colorNames": [
+    "Green"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A rounded pouch bag woven from wide criss-crossing vegan leather strips, with a sculptural triangular top handle and drawstring ties at the sides.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/capri-woven-pouch-green/01.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-green/02.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-green/03.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-green/04.webp?v=20261006"
+  ],
+  "stock": 2,
+  "weightOz": 18,
+  "unitCostUsd": 38.42,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810573247644",
+  "sourceColor": "green"
+},
+{
+  "slug": "capri-woven-pouch-gold",
+  "name": "Capri Woven Pouch — Gold",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 98.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#dcb86a"
+  ],
+  "colorNames": [
+    "Gold"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A rounded pouch bag woven from wide criss-crossing vegan leather strips, with a sculptural triangular top handle and drawstring ties at the sides.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/capri-woven-pouch-gold/01.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-gold/02.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-gold/03.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-gold/04.webp?v=20261006"
+  ],
+  "stock": 1,
+  "weightOz": 18,
+  "unitCostUsd": 32.64,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810573247644",
+  "sourceColor": "Gold"
+},
+{
+  "slug": "capri-woven-pouch-silver",
+  "name": "Capri Woven Pouch — Silver",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 111.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b3b0ac"
+  ],
+  "colorNames": [
+    "Silver"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A rounded pouch bag woven from wide criss-crossing vegan leather strips, with a sculptural triangular top handle and drawstring ties at the sides.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/capri-woven-pouch-silver/01.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-silver/02.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-silver/03.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-silver/04.webp?v=20261006"
+  ],
+  "stock": 3,
+  "weightOz": 18,
+  "unitCostUsd": 36.98,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810573247644",
+  "sourceColor": "Silver"
+},
+{
+  "slug": "capri-woven-pouch-white",
+  "name": "Capri Woven Pouch — White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 115.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d2c2af"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A rounded pouch bag woven from wide criss-crossing vegan leather strips, with a sculptural triangular top handle and drawstring ties at the sides.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/capri-woven-pouch-white/01.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-white/02.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-white/03.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-white/04.webp?v=20261006"
+  ],
+  "stock": 5,
+  "weightOz": 18,
+  "unitCostUsd": 38.41,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810573247644",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "capri-woven-pouch-coffee",
+  "name": "Capri Woven Pouch — Coffee",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 99.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#5b3e31"
+  ],
+  "colorNames": [
+    "Coffee"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A rounded pouch bag woven from wide criss-crossing vegan leather strips, with a sculptural triangular top handle and drawstring ties at the sides.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/capri-woven-pouch-coffee/01.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-coffee/02.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-coffee/03.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-coffee/04.webp?v=20261006"
+  ],
+  "stock": 6,
+  "weightOz": 18,
+  "unitCostUsd": 33.07,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810573247644",
+  "sourceColor": "Coffee"
+},
+{
+  "slug": "capri-woven-pouch-black",
+  "name": "Capri Woven Pouch — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 95.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#333331"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A rounded pouch bag woven from wide criss-crossing vegan leather strips, with a sculptural triangular top handle and drawstring ties at the sides.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/capri-woven-pouch-black/01.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-black/02.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-black/03.webp?v=20261006",
+    "/editorial/bags/products/capri-woven-pouch-black/04.webp?v=20261006"
+  ],
+  "stock": 3,
+  "weightOz": 18,
+  "unitCostUsd": 31.92,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810573247644",
+  "sourceColor": "black"
+},
+{
+  "slug": "sorrento-suede-tote-coffee",
+  "name": "Sorrento Suede Tote — Coffee",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 131.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#352013"
+  ],
+  "colorNames": [
+    "Coffee"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A large unstructured tote in soft suede-finish vegan leather with a vertical centre seam and long slim handles. Effortless and roomy.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/sorrento-suede-tote-coffee/01.webp?v=20261006",
+    "/editorial/bags/products/sorrento-suede-tote-coffee/02.webp?v=20261006",
+    "/editorial/bags/products/sorrento-suede-tote-coffee/03.webp?v=20261006",
+    "/editorial/bags/products/sorrento-suede-tote-coffee/04.webp?v=20261006"
+  ],
+  "stock": 792,
+  "weightOz": 26,
+  "unitCostUsd": 43.87,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810209810848",
+  "sourceColor": "Coffee"
+},
+{
+  "slug": "sorrento-suede-tote-dark-blue-gray",
+  "name": "Sorrento Suede Tote — Dark Blue Gray",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 131.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#343226"
+  ],
+  "colorNames": [
+    "Dark Blue Gray"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A large unstructured tote in soft suede-finish vegan leather with a vertical centre seam and long slim handles. Effortless and roomy.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/sorrento-suede-tote-dark-blue-gray/01.webp?v=20261006",
+    "/editorial/bags/products/sorrento-suede-tote-dark-blue-gray/02.webp?v=20261006",
+    "/editorial/bags/products/sorrento-suede-tote-dark-blue-gray/03.webp?v=20261006",
+    "/editorial/bags/products/sorrento-suede-tote-dark-blue-gray/04.webp?v=20261006"
+  ],
+  "stock": 482,
+  "weightOz": 26,
+  "unitCostUsd": 43.87,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810209810848",
+  "sourceColor": "Dark Blue Gray"
+},
+{
+  "slug": "sorrento-suede-tote-khaki-green",
+  "name": "Sorrento Suede Tote — Khaki Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 131.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#a9854e"
+  ],
+  "colorNames": [
+    "Khaki Green"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A large unstructured tote in soft suede-finish vegan leather with a vertical centre seam and long slim handles. Effortless and roomy.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/sorrento-suede-tote-khaki-green/01.webp?v=20261006",
+    "/editorial/bags/products/sorrento-suede-tote-khaki-green/02.webp?v=20261006",
+    "/editorial/bags/products/sorrento-suede-tote-khaki-green/03.webp?v=20261006",
+    "/editorial/bags/products/sorrento-suede-tote-khaki-green/04.webp?v=20261006"
+  ],
+  "stock": 885,
+  "weightOz": 26,
+  "unitCostUsd": 43.87,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810209810848",
+  "sourceColor": "Khaki Green"
+},
+{
+  "slug": "sorrento-suede-tote-burgundy",
+  "name": "Sorrento Suede Tote — Burgundy",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 131.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#622121"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A large unstructured tote in soft suede-finish vegan leather with a vertical centre seam and long slim handles. Effortless and roomy.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/sorrento-suede-tote-burgundy/01.webp?v=20261006",
+    "/editorial/bags/products/sorrento-suede-tote-burgundy/02.webp?v=20261006",
+    "/editorial/bags/products/sorrento-suede-tote-burgundy/03.webp?v=20261006",
+    "/editorial/bags/products/sorrento-suede-tote-burgundy/04.webp?v=20261006"
+  ],
+  "stock": 891,
+  "weightOz": 26,
+  "unitCostUsd": 43.87,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810209810848",
+  "sourceColor": "Burgundy"
+},
+{
+  "slug": "sorrento-suede-tote-coffee-pu",
+  "name": "Sorrento Suede Tote — Smooth Coffee",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 131.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#47382d"
+  ],
+  "colorNames": [
+    "Smooth Coffee"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A large unstructured tote in soft suede-finish vegan leather with a vertical centre seam and long slim handles. Effortless and roomy.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/sorrento-suede-tote-coffee-pu/01.webp?v=20261006",
+    "/editorial/bags/products/sorrento-suede-tote-coffee-pu/02.webp?v=20261006",
+    "/editorial/bags/products/sorrento-suede-tote-coffee-pu/03.webp?v=20261006",
+    "/editorial/bags/products/sorrento-suede-tote-coffee-pu/04.webp?v=20261006"
+  ],
+  "stock": 897,
+  "weightOz": 26,
+  "unitCostUsd": 43.87,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810209810848",
+  "sourceColor": "Coffee PU"
+},
+{
+  "slug": "marlow-suede-bucket-large-green",
+  "name": "Marlow Suede Bucket Large — Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 76.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#5b5830"
+  ],
+  "colorNames": [
+    "Green"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft faux-suede bucket tote with gathered drawstring sides and gold-tone chain straps threaded with black leather.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and gold-tone chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-bucket-large-green/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-large-green/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-large-green/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-large-green/04.webp?v=20261006"
+  ],
+  "stock": 89,
+  "weightOz": 26,
+  "unitCostUsd": 25.52,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809832373560",
+  "sourceColor": "Big Green Bag"
+},
+{
+  "slug": "marlow-suede-bucket-large-beige",
+  "name": "Marlow Suede Bucket Large — Beige",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 76.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#dabea1"
+  ],
+  "colorNames": [
+    "Beige"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft faux-suede bucket tote with gathered drawstring sides and gold-tone chain straps threaded with black leather.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and gold-tone chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-bucket-large-beige/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-large-beige/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-large-beige/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-large-beige/04.webp?v=20261006"
+  ],
+  "stock": 98,
+  "weightOz": 26,
+  "unitCostUsd": 25.52,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809832373560",
+  "sourceColor": "Big Beige Bag"
+},
+{
+  "slug": "marlow-suede-bucket-small-beige",
+  "name": "Marlow Suede Bucket Small — Beige",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 69.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#ceb08c"
+  ],
+  "colorNames": [
+    "Beige"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft faux-suede bucket tote with gathered drawstring sides and gold-tone chain straps threaded with black leather.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and gold-tone chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-bucket-small-beige/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-small-beige/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-small-beige/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-small-beige/04.webp?v=20261006"
+  ],
+  "stock": 98,
+  "weightOz": 26,
+  "unitCostUsd": 23.2,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809832373560",
+  "sourceColor": "Small Beige Bag"
+},
+{
+  "slug": "marlow-suede-bucket-small-black",
+  "name": "Marlow Suede Bucket Small — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 69.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#191715"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft faux-suede bucket tote with gathered drawstring sides and gold-tone chain straps threaded with black leather.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and gold-tone chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-bucket-small-black/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-small-black/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-small-black/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-small-black/04.webp?v=20261006"
+  ],
+  "stock": 98,
+  "weightOz": 26,
+  "unitCostUsd": 23.2,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809832373560",
+  "sourceColor": "Small Black Bag"
+},
+{
+  "slug": "marlow-suede-bucket-large-coffee",
+  "name": "Marlow Suede Bucket Large — Coffee",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 76.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#65362c"
+  ],
+  "colorNames": [
+    "Coffee"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft faux-suede bucket tote with gathered drawstring sides and gold-tone chain straps threaded with black leather.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and gold-tone chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-bucket-large-coffee/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-large-coffee/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-large-coffee/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-large-coffee/04.webp?v=20261006"
+  ],
+  "stock": 100,
+  "weightOz": 26,
+  "unitCostUsd": 25.52,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809832373560",
+  "sourceColor": "Big Coffee Bag"
+},
+{
+  "slug": "marlow-suede-bucket-large-brown",
+  "name": "Marlow Suede Bucket Large — Brown",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 76.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#92512f"
+  ],
+  "colorNames": [
+    "Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft faux-suede bucket tote with gathered drawstring sides and gold-tone chain straps threaded with black leather.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and gold-tone chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-bucket-large-brown/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-large-brown/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-large-brown/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-large-brown/04.webp?v=20261006"
+  ],
+  "stock": 97,
+  "weightOz": 26,
+  "unitCostUsd": 25.52,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809832373560",
+  "sourceColor": "Big Brown Bag"
+},
+{
+  "slug": "marlow-suede-bucket-small-coffee",
+  "name": "Marlow Suede Bucket Small — Coffee",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 69.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#5f352c"
+  ],
+  "colorNames": [
+    "Coffee"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft faux-suede bucket tote with gathered drawstring sides and gold-tone chain straps threaded with black leather.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and gold-tone chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-bucket-small-coffee/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-small-coffee/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-small-coffee/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-small-coffee/04.webp?v=20261006"
+  ],
+  "stock": 100,
+  "weightOz": 26,
+  "unitCostUsd": 23.2,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809832373560",
+  "sourceColor": "Small Coffee Bag"
+},
+{
+  "slug": "marlow-suede-bucket-small-green",
+  "name": "Marlow Suede Bucket Small — Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 69.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#59552b"
+  ],
+  "colorNames": [
+    "Green"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft faux-suede bucket tote with gathered drawstring sides and gold-tone chain straps threaded with black leather.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and gold-tone chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-bucket-small-green/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-small-green/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-small-green/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-small-green/04.webp?v=20261006"
+  ],
+  "stock": 83,
+  "weightOz": 26,
+  "unitCostUsd": 23.2,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809832373560",
+  "sourceColor": "Small Green Bag"
+},
+{
+  "slug": "marlow-suede-bucket-small-brown",
+  "name": "Marlow Suede Bucket Small — Brown",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 69.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#844523"
+  ],
+  "colorNames": [
+    "Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft faux-suede bucket tote with gathered drawstring sides and gold-tone chain straps threaded with black leather.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and gold-tone chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-bucket-small-brown/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-small-brown/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-small-brown/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-small-brown/04.webp?v=20261006"
+  ],
+  "stock": 100,
+  "weightOz": 26,
+  "unitCostUsd": 23.2,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809832373560",
+  "sourceColor": "Small Brown Bag"
+},
+{
+  "slug": "marlow-suede-bucket-large-black",
+  "name": "Marlow Suede Bucket Large — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 76.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#292626"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft faux-suede bucket tote with gathered drawstring sides and gold-tone chain straps threaded with black leather.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and gold-tone chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-bucket-large-black/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-large-black/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-large-black/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-bucket-large-black/04.webp?v=20261006"
+  ],
+  "stock": 96,
+  "weightOz": 26,
+  "unitCostUsd": 25.52,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809832373560",
+  "sourceColor": "Big Black Bag"
+},
+{
+  "slug": "marlow-suede-chain-tote-coffee",
+  "name": "Marlow Suede Chain Tote — Coffee",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 96.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#663e27"
+  ],
+  "colorNames": [
+    "Coffee"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft slouchy faux-suede tote with gathered drawstring sides and antique-brass chain straps threaded with leather, plus a long leather shoulder strap.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and antique-brass chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-chain-tote-coffee/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-coffee/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-coffee/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-coffee/04.webp?v=20261006"
+  ],
+  "stock": 992,
+  "weightOz": 26,
+  "unitCostUsd": 32.18,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809432709699",
+  "sourceColor": "Coffee"
+},
+{
+  "slug": "lucca-bucket-bag-lake-blue",
+  "name": "Lucca Bucket Bag — Lake Blue",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 88.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#304e4f"
+  ],
+  "colorNames": [
+    "Lake Blue"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured bucket bag in pebbled vegan leather with a wide front flap, a framed buckle and a rounded top handle. The detachable strap turns it into an easy shoulder or crossbody bag.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/lucca-bucket-bag-lake-blue/01.webp?v=20261006",
+    "/editorial/bags/products/lucca-bucket-bag-lake-blue/02.webp?v=20261006",
+    "/editorial/bags/products/lucca-bucket-bag-lake-blue/03.webp?v=20261006",
+    "/editorial/bags/products/lucca-bucket-bag-lake-blue/04.webp?v=20261006"
+  ],
+  "stock": 99,
+  "weightOz": 28,
+  "unitCostUsd": 17.78,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256807092777393",
+  "sourceColor": "Lake Blue"
+},
 ];
 
 // The first 81 records are the established catalogue that was live before the
@@ -10556,6 +11576,36 @@ export const approvedNewProductSlugs = new Set<string>([
   "calienne-rhinestone-suit-orange",
   "calienne-rhinestone-suit-blush",
   "elaris-ruffle-gown-butter-yellow",
+  "ischia-rope-tote-brown",
+  "ischia-rope-tote-beige",
+  "roma-studded-hobo-black",
+  "roma-studded-hobo-burgundy",
+  "roma-studded-hobo-coffee",
+  "roma-studded-hobo-brown",
+  "capri-woven-pouch-light-brown",
+  "capri-woven-pouch-green",
+  "capri-woven-pouch-gold",
+  "capri-woven-pouch-silver",
+  "capri-woven-pouch-white",
+  "capri-woven-pouch-coffee",
+  "capri-woven-pouch-black",
+  "sorrento-suede-tote-coffee",
+  "sorrento-suede-tote-dark-blue-gray",
+  "sorrento-suede-tote-khaki-green",
+  "sorrento-suede-tote-burgundy",
+  "sorrento-suede-tote-coffee-pu",
+  "marlow-suede-bucket-large-green",
+  "marlow-suede-bucket-large-beige",
+  "marlow-suede-bucket-small-beige",
+  "marlow-suede-bucket-small-black",
+  "marlow-suede-bucket-large-coffee",
+  "marlow-suede-bucket-large-brown",
+  "marlow-suede-bucket-small-coffee",
+  "marlow-suede-bucket-small-green",
+  "marlow-suede-bucket-small-brown",
+  "marlow-suede-bucket-large-black",
+  "marlow-suede-chain-tote-coffee",
+  "lucca-bucket-bag-lake-blue",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(
