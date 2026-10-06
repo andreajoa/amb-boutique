@@ -12414,6 +12414,312 @@ const allGeneratedProducts: Product[] = [
   "sourceProductId": "3256810396310468",
   "sourceColor": "Black Alligator L"
 },
+{
+  "slug": "cora-saddle-bag-gray",
+  "name": "Cora Saddle Bag — Gray",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 134.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#8f7d71"
+  ],
+  "colorNames": [
+    "Gray"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured shoulder bag with layered wing-shaped flaps, contrast white edge stitching, a short top handle and a wide adjustable strap.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/cora-saddle-bag-gray/01.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-gray/02.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-gray/03.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-gray/04.webp?v=20261006"
+  ],
+  "stock": 9997,
+  "weightOz": 24,
+  "unitCostUsd": 44.76,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256812751525643",
+  "sourceColor": "Gray"
+},
+{
+  "slug": "cora-saddle-bag-coffee",
+  "name": "Cora Saddle Bag — Coffee",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 134.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#694d42"
+  ],
+  "colorNames": [
+    "Coffee"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured shoulder bag with layered wing-shaped flaps, contrast white edge stitching, a short top handle and a wide adjustable strap.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/cora-saddle-bag-coffee/01.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-coffee/02.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-coffee/03.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-coffee/04.webp?v=20261006"
+  ],
+  "stock": 9959,
+  "weightOz": 24,
+  "unitCostUsd": 44.76,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256812751525643",
+  "sourceColor": "coffee color"
+},
+{
+  "slug": "cora-saddle-bag-cognac",
+  "name": "Cora Saddle Bag — Cognac",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 134.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#8a4e39"
+  ],
+  "colorNames": [
+    "Cognac"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured shoulder bag with layered wing-shaped flaps, contrast white edge stitching, a short top handle and a wide adjustable strap.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/cora-saddle-bag-cognac/01.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-cognac/02.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-cognac/03.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-cognac/04.webp?v=20261006"
+  ],
+  "stock": 9980,
+  "weightOz": 24,
+  "unitCostUsd": 44.76,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256812751525643",
+  "sourceColor": "yellowish brown"
+},
+{
+  "slug": "cora-saddle-bag-white",
+  "name": "Cora Saddle Bag — White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 134.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c4b8ab"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured shoulder bag with layered wing-shaped flaps, contrast white edge stitching, a short top handle and a wide adjustable strap.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/cora-saddle-bag-white/01.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-white/02.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-white/03.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-white/04.webp?v=20261006"
+  ],
+  "stock": 9992,
+  "weightOz": 24,
+  "unitCostUsd": 44.76,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256812751525643",
+  "sourceColor": "White"
+},
+{
+  "slug": "cora-saddle-bag-khaki",
+  "name": "Cora Saddle Bag — Khaki",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 134.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#94735c"
+  ],
+  "colorNames": [
+    "Khaki"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured shoulder bag with layered wing-shaped flaps, contrast white edge stitching, a short top handle and a wide adjustable strap.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/cora-saddle-bag-khaki/01.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-khaki/02.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-khaki/03.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-khaki/04.webp?v=20261006"
+  ],
+  "stock": 9973,
+  "weightOz": 24,
+  "unitCostUsd": 44.76,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256812751525643",
+  "sourceColor": "Khaki"
+},
+{
+  "slug": "cora-saddle-bag-red",
+  "name": "Cora Saddle Bag — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 134.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#6a4241"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured shoulder bag with layered wing-shaped flaps, contrast white edge stitching, a short top handle and a wide adjustable strap.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/cora-saddle-bag-red/01.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-red/02.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-red/03.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-red/04.webp?v=20261006"
+  ],
+  "stock": 9979,
+  "weightOz": 24,
+  "unitCostUsd": 44.76,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256812751525643",
+  "sourceColor": "Red"
+},
+{
+  "slug": "amalfi-dumpling-bag-small-brown",
+  "name": "Amalfi Dumpling Bag Small — Brown",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 121.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#81503c"
+  ],
+  "colorNames": [
+    "Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft winged dumpling bag with gently pleated sides, a rounded top handle and a slim front belt with a small gold-tone buckle.",
+  "materials": "Synthetic leather or cotton canvas upper (see colour) with synthetic lining and gold-tone hardware.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/amalfi-dumpling-bag-small-brown/01.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-small-brown/02.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-small-brown/03.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-small-brown/04.webp?v=20261006"
+  ],
+  "stock": 6,
+  "weightOz": 26,
+  "unitCostUsd": 40.51,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810396310468",
+  "sourceColor": "Brown Small"
+},
+{
+  "slug": "amalfi-dumpling-bag-small-green",
+  "name": "Amalfi Dumpling Bag Small — Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 122.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#605d2f"
+  ],
+  "colorNames": [
+    "Green"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft winged dumpling bag with gently pleated sides, a rounded top handle and a slim front belt with a small gold-tone buckle.",
+  "materials": "Synthetic leather or cotton canvas upper (see colour) with synthetic lining and gold-tone hardware.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/amalfi-dumpling-bag-small-green/01.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-small-green/02.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-small-green/03.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-small-green/04.webp?v=20261006"
+  ],
+  "stock": 3,
+  "weightOz": 26,
+  "unitCostUsd": 40.75,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810396310468",
+  "sourceColor": "Green S"
+},
+{
+  "slug": "amalfi-dumpling-bag-small-black",
+  "name": "Amalfi Dumpling Bag Small — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 114.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#121112"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft winged dumpling bag with gently pleated sides, a rounded top handle and a slim front belt with a small gold-tone buckle.",
+  "materials": "Synthetic leather or cotton canvas upper (see colour) with synthetic lining and gold-tone hardware.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/amalfi-dumpling-bag-small-black/01.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-small-black/02.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-small-black/03.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-small-black/04.webp?v=20261006"
+  ],
+  "stock": 4,
+  "weightOz": 26,
+  "unitCostUsd": 38.09,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810396310468",
+  "sourceColor": "Black Small"
+},
 ];
 
 // The first 81 records are the established catalogue that was live before the
@@ -12691,6 +12997,15 @@ export const approvedNewProductSlugs = new Set<string>([
   "amalfi-dumpling-bag-large-burgundy",
   "amalfi-dumpling-bag-large-latte",
   "amalfi-dumpling-bag-large-black-alligator",
+  "cora-saddle-bag-gray",
+  "cora-saddle-bag-coffee",
+  "cora-saddle-bag-cognac",
+  "cora-saddle-bag-white",
+  "cora-saddle-bag-khaki",
+  "cora-saddle-bag-red",
+  "amalfi-dumpling-bag-small-brown",
+  "amalfi-dumpling-bag-small-green",
+  "amalfi-dumpling-bag-small-black",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(
