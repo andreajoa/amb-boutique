@@ -11802,6 +11802,278 @@ const allGeneratedProducts: Product[] = [
   "sourceProductId": "3256811362986360",
   "sourceColor": "black"
 },
+{
+  "slug": "marlow-suede-chain-tote-brown",
+  "name": "Marlow Suede Chain Tote — Brown",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 96.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#644225"
+  ],
+  "colorNames": [
+    "Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft slouchy faux-suede tote with gathered drawstring sides and antique-brass chain straps threaded with leather, plus a long leather shoulder strap.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and antique-brass chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-chain-tote-brown/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-brown/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-brown/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-brown/04.webp?v=20261006"
+  ],
+  "stock": 997,
+  "weightOz": 26,
+  "unitCostUsd": 32.18,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809432709699",
+  "sourceColor": "Brown"
+},
+{
+  "slug": "stella-evening-bag-pink",
+  "name": "Stella Evening Bag — Pink",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 63.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#bd988f"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A small rounded evening bag in fine shimmering glitter fabric, with an arched polished top handle, a crystal ball clasp and a thin chain shoulder strap.",
+  "materials": "Glitter textile over a rigid frame with polished metal hardware and satin lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/stella-evening-bag-pink/01.webp?v=20261006",
+    "/editorial/bags/products/stella-evening-bag-pink/02.webp?v=20261006",
+    "/editorial/bags/products/stella-evening-bag-pink/03.webp?v=20261006",
+    "/editorial/bags/products/stella-evening-bag-pink/04.webp?v=20261006"
+  ],
+  "stock": 9,
+  "weightOz": 10,
+  "unitCostUsd": 10.52,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809734071271",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "stella-evening-bag-black",
+  "name": "Stella Evening Bag — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 60.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#302e2a"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A small rounded evening bag in fine shimmering glitter fabric, with an arched polished top handle, a crystal ball clasp and a thin chain shoulder strap.",
+  "materials": "Glitter textile over a rigid frame with polished metal hardware and satin lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/stella-evening-bag-black/01.webp?v=20261006",
+    "/editorial/bags/products/stella-evening-bag-black/02.webp?v=20261006",
+    "/editorial/bags/products/stella-evening-bag-black/03.webp?v=20261006",
+    "/editorial/bags/products/stella-evening-bag-black/04.webp?v=20261006"
+  ],
+  "stock": 11,
+  "weightOz": 10,
+  "unitCostUsd": 10.01,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809734071271",
+  "sourceColor": "Black"
+},
+{
+  "slug": "stella-evening-bag-silver",
+  "name": "Stella Evening Bag — Silver",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 61.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#afaca6"
+  ],
+  "colorNames": [
+    "Silver"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A small rounded evening bag in fine shimmering glitter fabric, with an arched polished top handle, a crystal ball clasp and a thin chain shoulder strap.",
+  "materials": "Glitter textile over a rigid frame with polished metal hardware and satin lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/stella-evening-bag-silver/01.webp?v=20261006",
+    "/editorial/bags/products/stella-evening-bag-silver/02.webp?v=20261006",
+    "/editorial/bags/products/stella-evening-bag-silver/03.webp?v=20261006",
+    "/editorial/bags/products/stella-evening-bag-silver/04.webp?v=20261006"
+  ],
+  "stock": 7,
+  "weightOz": 10,
+  "unitCostUsd": 10.27,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809734071271",
+  "sourceColor": "Silver"
+},
+{
+  "slug": "lucca-bucket-bag-red",
+  "name": "Lucca Bucket Bag — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#8f141a"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured bucket bag in pebbled vegan leather with a wide front flap, a framed buckle and a rounded top handle. The detachable strap turns it into an easy shoulder or crossbody bag.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/lucca-bucket-bag-red/01.webp?v=20261006",
+    "/editorial/bags/products/lucca-bucket-bag-red/02.webp?v=20261006",
+    "/editorial/bags/products/lucca-bucket-bag-red/03.webp?v=20261006",
+    "/editorial/bags/products/lucca-bucket-bag-red/04.webp?v=20261006"
+  ],
+  "stock": 97,
+  "weightOz": 28,
+  "unitCostUsd": 16.78,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256807092777393",
+  "sourceColor": "Red"
+},
+{
+  "slug": "lucca-bucket-bag-green",
+  "name": "Lucca Bucket Bag — Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 89.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#364c2e"
+  ],
+  "colorNames": [
+    "Green"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured bucket bag in pebbled vegan leather with a wide front flap, a framed buckle and a rounded top handle. The detachable strap turns it into an easy shoulder or crossbody bag.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/lucca-bucket-bag-green/01.webp?v=20261006",
+    "/editorial/bags/products/lucca-bucket-bag-green/02.webp?v=20261006",
+    "/editorial/bags/products/lucca-bucket-bag-green/03.webp?v=20261006",
+    "/editorial/bags/products/lucca-bucket-bag-green/04.webp?v=20261006"
+  ],
+  "stock": 50,
+  "weightOz": 28,
+  "unitCostUsd": 17.86,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256807092777393",
+  "sourceColor": "green"
+},
+{
+  "slug": "amalfi-dumpling-bag-small-white",
+  "name": "Amalfi Dumpling Bag Small — White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 120.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d6c3ab"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft winged dumpling bag with gently pleated sides, a rounded top handle and a slim front belt with a small gold-tone buckle.",
+  "materials": "Synthetic leather or cotton canvas upper (see colour) with synthetic lining and gold-tone hardware.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/amalfi-dumpling-bag-small-white/01.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-small-white/02.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-small-white/03.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-small-white/04.webp?v=20261006"
+  ],
+  "stock": 3,
+  "weightOz": 26,
+  "unitCostUsd": 40.03,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810396310468",
+  "sourceColor": "White Small"
+},
+{
+  "slug": "positano-shoulder-bag-chocolate",
+  "name": "Positano Shoulder Bag — Chocolate",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 218.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#5b3f32"
+  ],
+  "colorNames": [
+    "Chocolate"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft structured shoulder bag in smooth vegan leather with two flap side pockets, a front tab with a gold-tone lock clasp and an adjustable strap.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/positano-shoulder-bag-chocolate/01.webp?v=20261006",
+    "/editorial/bags/products/positano-shoulder-bag-chocolate/02.webp?v=20261006",
+    "/editorial/bags/products/positano-shoulder-bag-chocolate/03.webp?v=20261006",
+    "/editorial/bags/products/positano-shoulder-bag-chocolate/04.webp?v=20261006"
+  ],
+  "stock": 10,
+  "weightOz": 34,
+  "unitCostUsd": 72.72,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811362986360",
+  "sourceColor": "Chocolate"
+},
 ];
 
 // The first 81 records are the established catalogue that was live before the
@@ -12061,6 +12333,14 @@ export const approvedNewProductSlugs = new Set<string>([
   "nuvola-puffer-tote-black",
   "stella-evening-bag-golden",
   "positano-shoulder-bag-black",
+  "marlow-suede-chain-tote-brown",
+  "stella-evening-bag-pink",
+  "stella-evening-bag-black",
+  "stella-evening-bag-silver",
+  "lucca-bucket-bag-red",
+  "lucca-bucket-bag-green",
+  "amalfi-dumpling-bag-small-white",
+  "positano-shoulder-bag-chocolate",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(
