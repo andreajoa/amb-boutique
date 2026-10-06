@@ -68,7 +68,20 @@
     "marlow-suede-bucket-small-brown",
     "marlow-suede-bucket-large-black",
     "marlow-suede-chain-tote-coffee",
-    "lucca-bucket-bag-lake-blue"
+    "lucca-bucket-bag-lake-blue",
+    "marlow-suede-chain-tote-brown-with-black",
+    "marlow-suede-chain-tote-black",
+    "marlow-suede-chain-tote-beige",
+    "nuvola-puffer-tote-brown",
+    "nuvola-puffer-tote-grey",
+    "nuvola-puffer-tote-khaki",
+    "nuvola-puffer-tote-blue",
+    "nuvola-puffer-tote-purple",
+    "nuvola-puffer-tote-white",
+    "nuvola-puffer-tote-pink",
+    "nuvola-puffer-tote-black",
+    "stella-evening-bag-golden",
+    "positano-shoulder-bag-black"
   ],
   "review": "23 previously published galleries preserved. 15 additional generated AMB galleries independently approved by exact selected image hashes; permitted rear/profile approximations follow the current user authorization and recorded source limitations. Local activation only; no deployment performed.",
   "sourceProductIds": [
@@ -89,7 +102,10 @@
     "3256810209810848",
     "3256809832373560",
     "3256809432709699",
-    "3256807092777393"
+    "3256807092777393",
+    "3256807619335773",
+    "3256809734071271",
+    "3256811362986360"
   ],
   "preparedSlugs": [
     "elowyn-ruched-mesh-maxi-dress-rose-floral",
@@ -185,7 +201,20 @@
       "marlow-suede-bucket-small-brown",
       "marlow-suede-bucket-large-black",
       "marlow-suede-chain-tote-coffee",
-      "lucca-bucket-bag-lake-blue"
+      "marlow-suede-chain-tote-brown-with-black",
+      "marlow-suede-chain-tote-black",
+      "marlow-suede-chain-tote-beige",
+      "nuvola-puffer-tote-brown",
+      "nuvola-puffer-tote-grey",
+      "nuvola-puffer-tote-khaki",
+      "nuvola-puffer-tote-blue",
+      "nuvola-puffer-tote-purple",
+      "nuvola-puffer-tote-white",
+      "nuvola-puffer-tote-pink",
+      "nuvola-puffer-tote-black",
+      "stella-evening-bag-golden",
+      "lucca-bucket-bag-lake-blue",
+      "positano-shoulder-bag-black"
     ],
     "review": "AMB bag galleries (front 3/4, back, side, open interior) generated from supplier references; reviewed on contact sheets; background normalised to #F5EFE6."
   }
