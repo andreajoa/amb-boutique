@@ -11360,6 +11360,448 @@ const allGeneratedProducts: Product[] = [
   "sourceProductId": "3256807092777393",
   "sourceColor": "Lake Blue"
 },
+{
+  "slug": "marlow-suede-chain-tote-brown-with-black",
+  "name": "Marlow Suede Chain Tote — Brown & Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 96.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#965c36"
+  ],
+  "colorNames": [
+    "Brown & Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft slouchy faux-suede tote with gathered drawstring sides and antique-brass chain straps threaded with leather, plus a long leather shoulder strap.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and antique-brass chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-chain-tote-brown-with-black/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-brown-with-black/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-brown-with-black/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-brown-with-black/04.webp?v=20261006"
+  ],
+  "stock": 998,
+  "weightOz": 26,
+  "unitCostUsd": 32.18,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809432709699",
+  "sourceColor": "Brown with Black"
+},
+{
+  "slug": "marlow-suede-chain-tote-black",
+  "name": "Marlow Suede Chain Tote — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 96.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#35332f"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft slouchy faux-suede tote with gathered drawstring sides and antique-brass chain straps threaded with leather, plus a long leather shoulder strap.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and antique-brass chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-chain-tote-black/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-black/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-black/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-black/04.webp?v=20261006"
+  ],
+  "stock": 999,
+  "weightOz": 26,
+  "unitCostUsd": 32.18,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809432709699",
+  "sourceColor": "black"
+},
+{
+  "slug": "marlow-suede-chain-tote-beige",
+  "name": "Marlow Suede Chain Tote — Beige",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 96.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c0b29f"
+  ],
+  "colorNames": [
+    "Beige"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft slouchy faux-suede tote with gathered drawstring sides and antique-brass chain straps threaded with leather, plus a long leather shoulder strap.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and antique-brass chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-chain-tote-beige/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-beige/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-beige/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-beige/04.webp?v=20261006"
+  ],
+  "stock": 1000,
+  "weightOz": 26,
+  "unitCostUsd": 32.18,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809432709699",
+  "sourceColor": "Beige"
+},
+{
+  "slug": "nuvola-puffer-tote-brown",
+  "name": "Nuvola Puffer Tote — Brown",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 54.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#9d5830"
+  ],
+  "colorNames": [
+    "Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A light quilted puffer tote in soft matte nylon, padded in a grid of squares with long padded handles and an open top for quick packing.",
+  "materials": "Quilted nylon shell with soft padding and textile lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/nuvola-puffer-tote-brown/01.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-brown/02.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-brown/03.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-brown/04.webp?v=20261006"
+  ],
+  "stock": 4,
+  "weightOz": 18,
+  "unitCostUsd": 18.04,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256807619335773",
+  "sourceColor": "brown"
+},
+{
+  "slug": "nuvola-puffer-tote-grey",
+  "name": "Nuvola Puffer Tote — Grey",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 49.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#9a9a9a"
+  ],
+  "colorNames": [
+    "Grey"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A light quilted puffer tote in soft matte nylon, padded in a grid of squares with long padded handles and an open top for quick packing.",
+  "materials": "Quilted nylon shell with soft padding and textile lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/nuvola-puffer-tote-grey/01.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-grey/02.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-grey/03.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-grey/04.webp?v=20261006"
+  ],
+  "stock": 2,
+  "weightOz": 18,
+  "unitCostUsd": 16.63,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256807619335773",
+  "sourceColor": "grey"
+},
+{
+  "slug": "nuvola-puffer-tote-khaki",
+  "name": "Nuvola Puffer Tote — Khaki",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 53.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c4b593"
+  ],
+  "colorNames": [
+    "Khaki"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A light quilted puffer tote in soft matte nylon, padded in a grid of squares with long padded handles and an open top for quick packing.",
+  "materials": "Quilted nylon shell with soft padding and textile lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/nuvola-puffer-tote-khaki/01.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-khaki/02.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-khaki/03.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-khaki/04.webp?v=20261006"
+  ],
+  "stock": 11,
+  "weightOz": 18,
+  "unitCostUsd": 17.92,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256807619335773",
+  "sourceColor": "khaki"
+},
+{
+  "slug": "nuvola-puffer-tote-blue",
+  "name": "Nuvola Puffer Tote — Blue",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 50.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#acbcc8"
+  ],
+  "colorNames": [
+    "Blue"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A light quilted puffer tote in soft matte nylon, padded in a grid of squares with long padded handles and an open top for quick packing.",
+  "materials": "Quilted nylon shell with soft padding and textile lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/nuvola-puffer-tote-blue/01.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-blue/02.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-blue/03.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-blue/04.webp?v=20261006"
+  ],
+  "stock": 2,
+  "weightOz": 18,
+  "unitCostUsd": 16.67,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256807619335773",
+  "sourceColor": "blue"
+},
+{
+  "slug": "nuvola-puffer-tote-purple",
+  "name": "Nuvola Puffer Tote — Purple",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 50.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c1b3cc"
+  ],
+  "colorNames": [
+    "Purple"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A light quilted puffer tote in soft matte nylon, padded in a grid of squares with long padded handles and an open top for quick packing.",
+  "materials": "Quilted nylon shell with soft padding and textile lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/nuvola-puffer-tote-purple/01.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-purple/02.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-purple/03.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-purple/04.webp?v=20261006"
+  ],
+  "stock": 5,
+  "weightOz": 18,
+  "unitCostUsd": 16.81,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256807619335773",
+  "sourceColor": "purple"
+},
+{
+  "slug": "nuvola-puffer-tote-white",
+  "name": "Nuvola Puffer Tote — White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 55.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#cdc8bf"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A light quilted puffer tote in soft matte nylon, padded in a grid of squares with long padded handles and an open top for quick packing.",
+  "materials": "Quilted nylon shell with soft padding and textile lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/nuvola-puffer-tote-white/01.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-white/02.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-white/03.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-white/04.webp?v=20261006"
+  ],
+  "stock": 10,
+  "weightOz": 18,
+  "unitCostUsd": 18.39,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256807619335773",
+  "sourceColor": "white"
+},
+{
+  "slug": "nuvola-puffer-tote-pink",
+  "name": "Nuvola Puffer Tote — Pink",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 53.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d5aeae"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A light quilted puffer tote in soft matte nylon, padded in a grid of squares with long padded handles and an open top for quick packing.",
+  "materials": "Quilted nylon shell with soft padding and textile lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/nuvola-puffer-tote-pink/01.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-pink/02.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-pink/03.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-pink/04.webp?v=20261006"
+  ],
+  "stock": 3,
+  "weightOz": 18,
+  "unitCostUsd": 17.95,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256807619335773",
+  "sourceColor": "pink"
+},
+{
+  "slug": "nuvola-puffer-tote-black",
+  "name": "Nuvola Puffer Tote — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 52.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#302e30"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A light quilted puffer tote in soft matte nylon, padded in a grid of squares with long padded handles and an open top for quick packing.",
+  "materials": "Quilted nylon shell with soft padding and textile lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/nuvola-puffer-tote-black/01.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-black/02.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-black/03.webp?v=20261006",
+    "/editorial/bags/products/nuvola-puffer-tote-black/04.webp?v=20261006"
+  ],
+  "stock": 6,
+  "weightOz": 18,
+  "unitCostUsd": 17.35,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256807619335773",
+  "sourceColor": "black"
+},
+{
+  "slug": "stella-evening-bag-golden",
+  "name": "Stella Evening Bag — Golden",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 57.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b1977d"
+  ],
+  "colorNames": [
+    "Golden"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A small rounded evening bag in fine shimmering glitter fabric, with an arched polished top handle, a crystal ball clasp and a thin chain shoulder strap.",
+  "materials": "Glitter textile over a rigid frame with polished metal hardware and satin lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/stella-evening-bag-golden/01.webp?v=20261006",
+    "/editorial/bags/products/stella-evening-bag-golden/02.webp?v=20261006",
+    "/editorial/bags/products/stella-evening-bag-golden/03.webp?v=20261006",
+    "/editorial/bags/products/stella-evening-bag-golden/04.webp?v=20261006"
+  ],
+  "stock": 15,
+  "weightOz": 10,
+  "unitCostUsd": 9.59,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809734071271",
+  "sourceColor": "Golden"
+},
+{
+  "slug": "positano-shoulder-bag-black",
+  "name": "Positano Shoulder Bag — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 219.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#323231"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft structured shoulder bag in smooth vegan leather with two flap side pockets, a front tab with a gold-tone lock clasp and an adjustable strap.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/positano-shoulder-bag-black/01.webp?v=20261006",
+    "/editorial/bags/products/positano-shoulder-bag-black/02.webp?v=20261006",
+    "/editorial/bags/products/positano-shoulder-bag-black/03.webp?v=20261006",
+    "/editorial/bags/products/positano-shoulder-bag-black/04.webp?v=20261006"
+  ],
+  "stock": 9,
+  "weightOz": 34,
+  "unitCostUsd": 73.05,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811362986360",
+  "sourceColor": "black"
+},
 ];
 
 // The first 81 records are the established catalogue that was live before the
@@ -11606,6 +12048,19 @@ export const approvedNewProductSlugs = new Set<string>([
   "marlow-suede-bucket-large-black",
   "marlow-suede-chain-tote-coffee",
   "lucca-bucket-bag-lake-blue",
+  "marlow-suede-chain-tote-brown-with-black",
+  "marlow-suede-chain-tote-black",
+  "marlow-suede-chain-tote-beige",
+  "nuvola-puffer-tote-brown",
+  "nuvola-puffer-tote-grey",
+  "nuvola-puffer-tote-khaki",
+  "nuvola-puffer-tote-blue",
+  "nuvola-puffer-tote-purple",
+  "nuvola-puffer-tote-white",
+  "nuvola-puffer-tote-pink",
+  "nuvola-puffer-tote-black",
+  "stella-evening-bag-golden",
+  "positano-shoulder-bag-black",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(
