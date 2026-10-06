@@ -1,6 +1,7 @@
 import { notFound, redirect } from "next/navigation";
 import { products } from "../../data";
 import { productPrice } from "../../product-pricing";
+import { getPreparationNotice } from "../../product-fulfillment";
 import { resolveShoeProductSlug } from "../../shoe-products";
 import { getShippingQuotes } from "../../commerce";
 import { getMerchantAdditionalImages, getMerchantImage } from "../../merchant";
@@ -70,6 +71,7 @@ export default async function ProductPage({ params, searchParams }: ProductPageP
     ? [merchantPrimary, ...getMerchantAdditionalImages(product)]
     : [`${siteUrl}/images/product-gallery.webp`];
   const usShipping = getShippingQuotes("US", selectedPrice, product.weightOz || 12)[0];
+  const preparationNotice = getPreparationNotice(product);
 
   const productJsonLd = {
     "@context": "https://schema.org",
@@ -99,11 +101,11 @@ export default async function ProductPage({ params, searchParams }: ProductPageP
         "@type": "OfferShippingDetails",
         shippingDestination: { "@type": "DefinedRegion", addressCountry: "US" },
         shippingRate: { "@type": "MonetaryAmount", value: usShipping.amountUsd.toFixed(2), currency: "USD" },
-        deliveryTime: {
+        ...(!preparationNotice ? { deliveryTime: {
           "@type": "ShippingDeliveryTime",
           handlingTime: { "@type": "QuantitativeValue", minValue: 1, maxValue: 3, unitCode: "DAY" },
           transitTime: { "@type": "QuantitativeValue", minValue: usShipping.minBusinessDays, maxValue: usShipping.maxBusinessDays, unitCode: "DAY" },
-        },
+        } } : {}),
       },
     },
   };

@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { products } from "../../data";
 import { productForSize } from "../../product-pricing";
+import { getPreparationNotice } from "../../product-fulfillment";
 import { resolveShoeProductSlug } from "../../shoe-products";
 import { generatedProducts } from "../../generated-products";
 import { convertFromUsd, FIRST_ORDER_CODE, getDiscountState, getShippingQuotes, isMarketCode, markets } from "../../commerce";
@@ -45,8 +46,10 @@ export async function POST(request: NextRequest) {
       if (shoeVariant && line.size && !shoeVariant.sizes.includes(line.size)) throw new Error(`Size ${line.size} is not available with the selected heel height for ${product.name}.`);
       if (!shoeVariant && product.sizes?.length && line.size && !product.sizes.includes(line.size)) throw new Error(`Size ${line.size} is not available for ${product.name}.`);
       const selectedHeelHeightCm = shoeVariant?.heelHeightCm ?? product.heelHeightCm;
-      return { line, product: productForSize(product, line.size), quantity, selectedHeelHeightCm };
+      return { line, product: productForSize(product, line.size), quantity, selectedHeelHeightCm, preparationNotice: getPreparationNotice(product) };
     });
+    const preparationNotices = [...new Set(normalized.flatMap((item) => item.preparationNotice ? [item.preparationNotice] : []))];
+    const hasPreparation = preparationNotices.length > 0;
     const subtotalUsd = normalized.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
     const packedWeightOz = normalized.reduce((sum, item) => sum + (item.product.weightOz || 12) * item.quantity, 0);
     if (market !== "US" && packedWeightOz > 64) throw new Error("This international parcel needs a live carrier quote. Please contact AMB BOUTIQUE for delivery assistance.");
@@ -104,6 +107,7 @@ export async function POST(request: NextRequest) {
               `Size ${item.line.size || "Selected"}`,
               `Color ${item.line.color || "Selected"}`,
               heelDescription,
+              item.preparationNotice,
               margin.approvedPercent ? `${margin.approvedPercent}% best eligible AMB offer` : "",
             ].filter(Boolean).join(" · "),
             metadata: {
@@ -113,6 +117,7 @@ export async function POST(request: NextRequest) {
               heel_height_cm: item.selectedHeelHeightCm ? String(item.selectedHeelHeightCm) : "",
               offer: item.line.offer || "standard",
               margin_guard: margin.costKnown ? "verified" : "catalog-cost-pending",
+              ...(item.preparationNotice ? { preparation_notice: item.preparationNotice } : {}),
             },
           },
         },
@@ -124,7 +129,7 @@ export async function POST(request: NextRequest) {
         type: "fixed_amount",
         fixed_amount: { amount: Math.round(convertFromUsd(quote.amountUsd, market) * 100), currency: markets[market].currency.toLowerCase() },
         display_name: quote.label,
-        delivery_estimate: { minimum: { unit: "business_day", value: quote.minBusinessDays }, maximum: { unit: "business_day", value: quote.maxBusinessDays } },
+        ...(!hasPreparation ? { delivery_estimate: { minimum: { unit: "business_day" as const, value: quote.minBusinessDays }, maximum: { unit: "business_day" as const, value: quote.maxBusinessDays } } } : {}),
         metadata: { quote_id: quote.id, source: quote.source },
       },
     }));
@@ -147,7 +152,9 @@ export async function POST(request: NextRequest) {
       return_url: `${origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
       expires_at: Math.floor(Date.now() / 1000) + 60 * 60,
       custom_text: {
-        shipping_address: { message: "Delivery estimates and duties vary by destination. Review the shipping details before completing your order." },
+        shipping_address: { message: hasPreparation
+          ? "This order includes items with additional preparation time before dispatch. Check each item's preparation notice. Delivery time is additional."
+          : "Delivery estimates and duties vary by destination. Review the shipping details before completing your order." },
         submit: { message: "Your payment is encrypted and processed securely by Stripe." },
       },
       metadata: {
@@ -162,6 +169,7 @@ export async function POST(request: NextRequest) {
         requested_discount_percent: String(globalOffer.percent),
         visitor_id: (body.visitorId || "").slice(0, 100),
         order_note: (body.orderNote || "").slice(0, 450),
+        ...(hasPreparation ? { preparation_notice: preparationNotices.join(" ").slice(0, 500) } : {}),
       },
     };
     const session = await stripe.checkout.sessions.create(sessionParams);
@@ -185,6 +193,7 @@ export async function POST(request: NextRequest) {
           priceUsd: item.product.price,
           unitAmount: typeof unitAmountMinor === "number" ? unitAmountMinor / 100 : undefined,
           currency: markets[market].currency,
+          ...(item.preparationNotice ? { preparationNotice: item.preparationNotice } : {}),
         };
       }),
       metadata: { orderType, requestedDiscountPercent: globalOffer.percent },

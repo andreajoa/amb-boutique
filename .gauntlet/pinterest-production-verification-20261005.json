@@ -1,0 +1,27 @@
+{
+  "verifiedAt": "2026-10-06T02:34:24.648Z",
+  "project": "AMB Boutique",
+  "domain": "ambboutique.online",
+  "token": "609dd2d6c2bcaf7c6bb74981abb48c30",
+  "source": "Connected GitHub main layout.tsx + connected Vercel production deployment metadata",
+  "sourceBlobSha": "eeb537d21b7c0c171cdd360d6b6481175f6375e8",
+  "productionCommit": "18c107401d405aec294ff162203fcb3e4c11d96f",
+  "productionDeployment": "dpl_BrfRDCbnkgj44eZCvXNspYRWiaUx",
+  "productionState": "READY",
+  "productionAliases": [
+    "www.ambboutique.online",
+    "amb-boutique.vercel.app",
+    "ambboutique.online",
+    "amb-boutique-andre-almeidas-projects-7fa48c22.vercel.app",
+    "amb-boutique-git-main-andre-almeidas-projects-7fa48c22.vercel.app"
+  ],
+  "readyAt": "2026-10-05T21:34:57.143Z",
+  "pullRequest": "https://github.com/andreajoa/amb-boutique/pull/47",
+  "exactTokenInPublishedSource": true,
+  "publicHtmlFetched": false,
+  "publicHtmlFetchLimitations": "Browser daemon unavailable; shell DNS unavailable; web fetch could not retrieve public URL.",
+  "claimReadyBasedOnPublishedSourceAndReadyDeployment": true,
+  "userNotified": true,
+  "rootDidNotPublishThisDeployment": true,
+  "rootGitHubWriteAttemptsRemainBlocked": true
+}

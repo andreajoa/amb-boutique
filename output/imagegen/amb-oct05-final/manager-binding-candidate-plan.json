@@ -1,0 +1,1991 @@
+{
+  "preparedAt": "2026-10-06T02:08:27.885Z",
+  "status": "LOCAL_PLAN_ONLY_NOT_APPLIED",
+  "existingPublishedProducts": 23,
+  "existingPublishedSkus": 126,
+  "pendingProducts": 15,
+  "pendingStandardSkus": 100,
+  "pendingBridgeProducts": {
+    "elowyn-ruched-mesh-maxi-dress-rose-floral": {
+      "color": "Rose Red",
+      "sourceProductId": "3256809742511895"
+    },
+    "elowyn-ruched-mesh-maxi-dress-leopard": {
+      "color": "Dark Brown",
+      "sourceProductId": "3256809742511895"
+    },
+    "elowyn-ruched-mesh-maxi-dress-black-mesh": {
+      "color": "black",
+      "sourceProductId": "3256809742511895"
+    },
+    "elowyn-ruched-mesh-maxi-dress-fuchsia": {
+      "color": "Fuchsia",
+      "sourceProductId": "3256809742511895"
+    },
+    "elowyn-ruched-mesh-maxi-dress-burgundy": {
+      "color": "Burgundy",
+      "sourceProductId": "3256809742511895"
+    },
+    "elowyn-ruched-mesh-maxi-dress-brown-print": {
+      "color": "brown-1",
+      "sourceProductId": "3256809742511895"
+    },
+    "calienne-rhinestone-suit-taupe": {
+      "color": "as the picture",
+      "sourceProductId": "3256811405926531"
+    },
+    "calienne-rhinestone-suit-blue": {
+      "color": "Blue",
+      "sourceProductId": "3256811405926531"
+    },
+    "calienne-rhinestone-suit-red": {
+      "color": "Red",
+      "sourceProductId": "3256811405926531"
+    },
+    "calienne-rhinestone-suit-grey": {
+      "color": "GRAY",
+      "sourceProductId": "3256811405926531"
+    },
+    "calienne-rhinestone-suit-forest": {
+      "color": "green",
+      "sourceProductId": "3256811405926531"
+    },
+    "calienne-rhinestone-suit-khaki": {
+      "color": "Khaki",
+      "sourceProductId": "3256811405926531"
+    },
+    "calienne-rhinestone-suit-orange": {
+      "color": "Orange",
+      "sourceProductId": "3256811405926531"
+    },
+    "calienne-rhinestone-suit-blush": {
+      "color": "Pink",
+      "sourceProductId": "3256811405926531"
+    },
+    "elaris-ruffle-gown-butter-yellow": {
+      "color": "model color",
+      "sourceProductId": "3256812807042028"
+    }
+  },
+  "variants": [
+    {
+      "sourceSkuId": "12000052611937609",
+      "attributes": {
+        "Size": "XXL",
+        "Color": "Rose Red"
+      },
+      "officialSkuAttrs": "5:4182;14:200211869",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-rose-floral",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Rose Red"
+    },
+    {
+      "sourceSkuId": "12000052611937608",
+      "attributes": {
+        "Size": "XL",
+        "Color": "Rose Red"
+      },
+      "officialSkuAttrs": "5:100014065;14:200211869",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-rose-floral",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Rose Red"
+    },
+    {
+      "sourceSkuId": "12000052611937605",
+      "attributes": {
+        "Size": "S",
+        "Color": "Rose Red"
+      },
+      "officialSkuAttrs": "5:100014064;14:200211869",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 665,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-rose-floral",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Rose Red"
+    },
+    {
+      "sourceSkuId": "12000052611937607",
+      "attributes": {
+        "Size": "L",
+        "Color": "Rose Red"
+      },
+      "officialSkuAttrs": "5:361385;14:200211869",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 665,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-rose-floral",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Rose Red"
+    },
+    {
+      "sourceSkuId": "12000052611937606",
+      "attributes": {
+        "Size": "M",
+        "Color": "Rose Red"
+      },
+      "officialSkuAttrs": "5:361386;14:200211869",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-rose-floral",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Rose Red"
+    },
+    {
+      "sourceSkuId": "12000052611937611",
+      "attributes": {
+        "Size": "M",
+        "Color": "Dark Brown"
+      },
+      "officialSkuAttrs": "5:361386;14:200002985",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-leopard",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Dark Brown"
+    },
+    {
+      "sourceSkuId": "12000052611937610",
+      "attributes": {
+        "Size": "S",
+        "Color": "Dark Brown"
+      },
+      "officialSkuAttrs": "5:100014064;14:200002985",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-leopard",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Dark Brown"
+    },
+    {
+      "sourceSkuId": "12000052611937613",
+      "attributes": {
+        "Size": "XL",
+        "Color": "Dark Brown"
+      },
+      "officialSkuAttrs": "5:100014065;14:200002985",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-leopard",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Dark Brown"
+    },
+    {
+      "sourceSkuId": "12000052611937612",
+      "attributes": {
+        "Size": "L",
+        "Color": "Dark Brown"
+      },
+      "officialSkuAttrs": "5:361385;14:200002985",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-leopard",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Dark Brown"
+    },
+    {
+      "sourceSkuId": "12000052611937614",
+      "attributes": {
+        "Size": "XXL",
+        "Color": "Dark Brown"
+      },
+      "officialSkuAttrs": "5:4182;14:200002985",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-leopard",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Dark Brown"
+    },
+    {
+      "sourceSkuId": "12000052611937615",
+      "attributes": {
+        "Size": "S",
+        "Color": "black"
+      },
+      "officialSkuAttrs": "5:100014064;14:10#black",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-black-mesh",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "black"
+    },
+    {
+      "sourceSkuId": "12000052611937617",
+      "attributes": {
+        "Size": "L",
+        "Color": "black"
+      },
+      "officialSkuAttrs": "5:361385;14:10#black",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-black-mesh",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "black"
+    },
+    {
+      "sourceSkuId": "12000052611937616",
+      "attributes": {
+        "Size": "M",
+        "Color": "black"
+      },
+      "officialSkuAttrs": "5:361386;14:10#black",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 665,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-black-mesh",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "black"
+    },
+    {
+      "sourceSkuId": "12000052611937619",
+      "attributes": {
+        "Size": "XXL",
+        "Color": "black"
+      },
+      "officialSkuAttrs": "5:4182;14:10#black",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-black-mesh",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "black"
+    },
+    {
+      "sourceSkuId": "12000052611937618",
+      "attributes": {
+        "Size": "XL",
+        "Color": "black"
+      },
+      "officialSkuAttrs": "5:100014065;14:10#black",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-black-mesh",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "black"
+    },
+    {
+      "sourceSkuId": "12000052611937601",
+      "attributes": {
+        "Size": "M",
+        "Color": "Fuchsia"
+      },
+      "officialSkuAttrs": "5:361386;14:203008817",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-fuchsia",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Fuchsia"
+    },
+    {
+      "sourceSkuId": "12000052611937600",
+      "attributes": {
+        "Size": "S",
+        "Color": "Fuchsia"
+      },
+      "officialSkuAttrs": "5:100014064;14:203008817",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-fuchsia",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Fuchsia"
+    },
+    {
+      "sourceSkuId": "12000052611937603",
+      "attributes": {
+        "Size": "XL",
+        "Color": "Fuchsia"
+      },
+      "officialSkuAttrs": "5:100014065;14:203008817",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-fuchsia",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Fuchsia"
+    },
+    {
+      "sourceSkuId": "12000052611937602",
+      "attributes": {
+        "Size": "L",
+        "Color": "Fuchsia"
+      },
+      "officialSkuAttrs": "5:361385;14:203008817",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-fuchsia",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Fuchsia"
+    },
+    {
+      "sourceSkuId": "12000052611937604",
+      "attributes": {
+        "Size": "XXL",
+        "Color": "Fuchsia"
+      },
+      "officialSkuAttrs": "5:4182;14:203008817",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-fuchsia",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Fuchsia"
+    },
+    {
+      "sourceSkuId": "12000052611937624",
+      "attributes": {
+        "Size": "XXL",
+        "Color": "Burgundy"
+      },
+      "officialSkuAttrs": "5:4182;14:200002984",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-burgundy",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Burgundy"
+    },
+    {
+      "sourceSkuId": "12000052611937621",
+      "attributes": {
+        "Size": "M",
+        "Color": "Burgundy"
+      },
+      "officialSkuAttrs": "5:361386;14:200002984",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-burgundy",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Burgundy"
+    },
+    {
+      "sourceSkuId": "12000052611937620",
+      "attributes": {
+        "Size": "S",
+        "Color": "Burgundy"
+      },
+      "officialSkuAttrs": "5:100014064;14:200002984",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 665,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-burgundy",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Burgundy"
+    },
+    {
+      "sourceSkuId": "12000052611937623",
+      "attributes": {
+        "Size": "XL",
+        "Color": "Burgundy"
+      },
+      "officialSkuAttrs": "5:100014065;14:200002984",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-burgundy",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Burgundy"
+    },
+    {
+      "sourceSkuId": "12000052611937622",
+      "attributes": {
+        "Size": "L",
+        "Color": "Burgundy"
+      },
+      "officialSkuAttrs": "5:361385;14:200002984",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 664,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-burgundy",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Burgundy"
+    },
+    {
+      "sourceSkuId": "12000051130051061",
+      "attributes": {
+        "Size": "L",
+        "Color": "brown-1"
+      },
+      "officialSkuAttrs": "5:361385;14:1254#brown-1",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 664,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-brown-print",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "brown-1"
+    },
+    {
+      "sourceSkuId": "12000051130051060",
+      "attributes": {
+        "Size": "M",
+        "Color": "brown-1"
+      },
+      "officialSkuAttrs": "5:361386;14:1254#brown-1",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-brown-print",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "brown-1"
+    },
+    {
+      "sourceSkuId": "12000051130051063",
+      "attributes": {
+        "Size": "XXL",
+        "Color": "brown-1"
+      },
+      "officialSkuAttrs": "5:4182;14:1254#brown-1",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-brown-print",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "brown-1"
+    },
+    {
+      "sourceSkuId": "12000051130051062",
+      "attributes": {
+        "Size": "XL",
+        "Color": "brown-1"
+      },
+      "officialSkuAttrs": "5:100014065;14:1254#brown-1",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 666,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-brown-print",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "brown-1"
+    },
+    {
+      "sourceSkuId": "12000051130051059",
+      "attributes": {
+        "Size": "S",
+        "Color": "brown-1"
+      },
+      "officialSkuAttrs": "5:100014064;14:1254#brown-1",
+      "costUsd": "36.28",
+      "itemUsd": "31.46",
+      "freightUsd": "4.82",
+      "salePriceUsd": "108.90",
+      "stock": 665,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elowyn-ruched-mesh-maxi-dress-brown-print",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "brown-1"
+    },
+    {
+      "sourceSkuId": "12000056006918498",
+      "attributes": {
+        "Size": "M",
+        "Color": "as the picture"
+      },
+      "officialSkuAttrs": "5:361386;14:193#as the picture",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 49,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-taupe",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "as the picture"
+    },
+    {
+      "sourceSkuId": "12000056006918503",
+      "attributes": {
+        "Size": "4XL",
+        "Color": "as the picture"
+      },
+      "officialSkuAttrs": "5:200000990;14:193#as the picture",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-taupe",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "as the picture"
+    },
+    {
+      "sourceSkuId": "12000056006918502",
+      "attributes": {
+        "Size": "XXXL",
+        "Color": "as the picture"
+      },
+      "officialSkuAttrs": "5:4183;14:193#as the picture",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-taupe",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "as the picture"
+    },
+    {
+      "sourceSkuId": "12000056006918497",
+      "attributes": {
+        "Size": "S",
+        "Color": "as the picture"
+      },
+      "officialSkuAttrs": "5:100014064;14:193#as the picture",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 48,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-taupe",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "as the picture"
+    },
+    {
+      "sourceSkuId": "12000056006918499",
+      "attributes": {
+        "Size": "L",
+        "Color": "as the picture"
+      },
+      "officialSkuAttrs": "5:361385;14:193#as the picture",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 49,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-taupe",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "as the picture"
+    },
+    {
+      "sourceSkuId": "12000056006918501",
+      "attributes": {
+        "Size": "XXL",
+        "Color": "as the picture"
+      },
+      "officialSkuAttrs": "5:4182;14:193#as the picture",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 41,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-taupe",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "as the picture"
+    },
+    {
+      "sourceSkuId": "12000056006918500",
+      "attributes": {
+        "Size": "XL",
+        "Color": "as the picture"
+      },
+      "officialSkuAttrs": "5:100014065;14:193#as the picture",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-taupe",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "as the picture"
+    },
+    {
+      "sourceSkuId": "12000056006918509",
+      "attributes": {
+        "Size": "XXL",
+        "Color": "Blue"
+      },
+      "officialSkuAttrs": "5:4182;14:173",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-blue",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Blue"
+    },
+    {
+      "sourceSkuId": "12000056006918508",
+      "attributes": {
+        "Size": "XL",
+        "Color": "Blue"
+      },
+      "officialSkuAttrs": "5:100014065;14:173",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-blue",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Blue"
+    },
+    {
+      "sourceSkuId": "12000056006918511",
+      "attributes": {
+        "Size": "4XL",
+        "Color": "Blue"
+      },
+      "officialSkuAttrs": "5:200000990;14:173",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-blue",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Blue"
+    },
+    {
+      "sourceSkuId": "12000056006918510",
+      "attributes": {
+        "Size": "XXXL",
+        "Color": "Blue"
+      },
+      "officialSkuAttrs": "5:4183;14:173",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-blue",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Blue"
+    },
+    {
+      "sourceSkuId": "12000056006918505",
+      "attributes": {
+        "Size": "S",
+        "Color": "Blue"
+      },
+      "officialSkuAttrs": "5:100014064;14:173",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-blue",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Blue"
+    },
+    {
+      "sourceSkuId": "12000056006918507",
+      "attributes": {
+        "Size": "L",
+        "Color": "Blue"
+      },
+      "officialSkuAttrs": "5:361385;14:173",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-blue",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Blue"
+    },
+    {
+      "sourceSkuId": "12000056006918506",
+      "attributes": {
+        "Size": "M",
+        "Color": "Blue"
+      },
+      "officialSkuAttrs": "5:361386;14:173",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-blue",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Blue"
+    },
+    {
+      "sourceSkuId": "12000056006918553",
+      "attributes": {
+        "Size": "S",
+        "Color": "Red"
+      },
+      "officialSkuAttrs": "5:100014064;14:10",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-red",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Red"
+    },
+    {
+      "sourceSkuId": "12000056006918557",
+      "attributes": {
+        "Size": "XXL",
+        "Color": "Red"
+      },
+      "officialSkuAttrs": "5:4182;14:10",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-red",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Red"
+    },
+    {
+      "sourceSkuId": "12000056006918556",
+      "attributes": {
+        "Size": "XL",
+        "Color": "Red"
+      },
+      "officialSkuAttrs": "5:100014065;14:10",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-red",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Red"
+    },
+    {
+      "sourceSkuId": "12000056006918559",
+      "attributes": {
+        "Size": "4XL",
+        "Color": "Red"
+      },
+      "officialSkuAttrs": "5:200000990;14:10",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-red",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Red"
+    },
+    {
+      "sourceSkuId": "12000056006918558",
+      "attributes": {
+        "Size": "XXXL",
+        "Color": "Red"
+      },
+      "officialSkuAttrs": "5:4183;14:10",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-red",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Red"
+    },
+    {
+      "sourceSkuId": "12000056006918555",
+      "attributes": {
+        "Size": "L",
+        "Color": "Red"
+      },
+      "officialSkuAttrs": "5:361385;14:10",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-red",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Red"
+    },
+    {
+      "sourceSkuId": "12000056006918554",
+      "attributes": {
+        "Size": "M",
+        "Color": "Red"
+      },
+      "officialSkuAttrs": "5:361386;14:10",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-red",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Red"
+    },
+    {
+      "sourceSkuId": "12000056006918517",
+      "attributes": {
+        "Size": "XXL",
+        "Color": "GRAY"
+      },
+      "officialSkuAttrs": "5:4182;14:691",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-grey",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "GRAY"
+    },
+    {
+      "sourceSkuId": "12000056006918516",
+      "attributes": {
+        "Size": "XL",
+        "Color": "GRAY"
+      },
+      "officialSkuAttrs": "5:100014065;14:691",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-grey",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "GRAY"
+    },
+    {
+      "sourceSkuId": "12000056006918519",
+      "attributes": {
+        "Size": "4XL",
+        "Color": "GRAY"
+      },
+      "officialSkuAttrs": "5:200000990;14:691",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-grey",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "GRAY"
+    },
+    {
+      "sourceSkuId": "12000056006918518",
+      "attributes": {
+        "Size": "XXXL",
+        "Color": "GRAY"
+      },
+      "officialSkuAttrs": "5:4183;14:691",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-grey",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "GRAY"
+    },
+    {
+      "sourceSkuId": "12000056006918513",
+      "attributes": {
+        "Size": "S",
+        "Color": "GRAY"
+      },
+      "officialSkuAttrs": "5:100014064;14:691",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-grey",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "GRAY"
+    },
+    {
+      "sourceSkuId": "12000056006918515",
+      "attributes": {
+        "Size": "L",
+        "Color": "GRAY"
+      },
+      "officialSkuAttrs": "5:361385;14:691",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-grey",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "GRAY"
+    },
+    {
+      "sourceSkuId": "12000056006918514",
+      "attributes": {
+        "Size": "M",
+        "Color": "GRAY"
+      },
+      "officialSkuAttrs": "5:361386;14:691",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-grey",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "GRAY"
+    },
+    {
+      "sourceSkuId": "12000056006918525",
+      "attributes": {
+        "Size": "XXL",
+        "Color": "green"
+      },
+      "officialSkuAttrs": "5:4182;14:175",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-forest",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "green"
+    },
+    {
+      "sourceSkuId": "12000056006918524",
+      "attributes": {
+        "Size": "XL",
+        "Color": "green"
+      },
+      "officialSkuAttrs": "5:100014065;14:175",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-forest",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "green"
+    },
+    {
+      "sourceSkuId": "12000056006918527",
+      "attributes": {
+        "Size": "4XL",
+        "Color": "green"
+      },
+      "officialSkuAttrs": "5:200000990;14:175",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-forest",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "green"
+    },
+    {
+      "sourceSkuId": "12000056006918526",
+      "attributes": {
+        "Size": "XXXL",
+        "Color": "green"
+      },
+      "officialSkuAttrs": "5:4183;14:175",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-forest",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "green"
+    },
+    {
+      "sourceSkuId": "12000056006918521",
+      "attributes": {
+        "Size": "S",
+        "Color": "green"
+      },
+      "officialSkuAttrs": "5:100014064;14:175",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-forest",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "green"
+    },
+    {
+      "sourceSkuId": "12000056006918523",
+      "attributes": {
+        "Size": "L",
+        "Color": "green"
+      },
+      "officialSkuAttrs": "5:361385;14:175",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-forest",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "green"
+    },
+    {
+      "sourceSkuId": "12000056006918522",
+      "attributes": {
+        "Size": "M",
+        "Color": "green"
+      },
+      "officialSkuAttrs": "5:361386;14:175",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-forest",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "green"
+    },
+    {
+      "sourceSkuId": "12000056006918533",
+      "attributes": {
+        "Size": "XXL",
+        "Color": "Khaki"
+      },
+      "officialSkuAttrs": "5:4182;14:200001438",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-khaki",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Khaki"
+    },
+    {
+      "sourceSkuId": "12000056006918532",
+      "attributes": {
+        "Size": "XL",
+        "Color": "Khaki"
+      },
+      "officialSkuAttrs": "5:100014065;14:200001438",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-khaki",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Khaki"
+    },
+    {
+      "sourceSkuId": "12000056006918535",
+      "attributes": {
+        "Size": "4XL",
+        "Color": "Khaki"
+      },
+      "officialSkuAttrs": "5:200000990;14:200001438",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-khaki",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Khaki"
+    },
+    {
+      "sourceSkuId": "12000056006918534",
+      "attributes": {
+        "Size": "XXXL",
+        "Color": "Khaki"
+      },
+      "officialSkuAttrs": "5:4183;14:200001438",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-khaki",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Khaki"
+    },
+    {
+      "sourceSkuId": "12000056006918529",
+      "attributes": {
+        "Size": "S",
+        "Color": "Khaki"
+      },
+      "officialSkuAttrs": "5:100014064;14:200001438",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-khaki",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Khaki"
+    },
+    {
+      "sourceSkuId": "12000056006918531",
+      "attributes": {
+        "Size": "L",
+        "Color": "Khaki"
+      },
+      "officialSkuAttrs": "5:361385;14:200001438",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-khaki",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Khaki"
+    },
+    {
+      "sourceSkuId": "12000056006918530",
+      "attributes": {
+        "Size": "M",
+        "Color": "Khaki"
+      },
+      "officialSkuAttrs": "5:361386;14:200001438",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-khaki",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Khaki"
+    },
+    {
+      "sourceSkuId": "12000056006918541",
+      "attributes": {
+        "Size": "XXL",
+        "Color": "Orange"
+      },
+      "officialSkuAttrs": "5:4182;14:350852",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-orange",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Orange"
+    },
+    {
+      "sourceSkuId": "12000056006918540",
+      "attributes": {
+        "Size": "XL",
+        "Color": "Orange"
+      },
+      "officialSkuAttrs": "5:100014065;14:350852",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-orange",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Orange"
+    },
+    {
+      "sourceSkuId": "12000056006918543",
+      "attributes": {
+        "Size": "4XL",
+        "Color": "Orange"
+      },
+      "officialSkuAttrs": "5:200000990;14:350852",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-orange",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Orange"
+    },
+    {
+      "sourceSkuId": "12000056006918542",
+      "attributes": {
+        "Size": "XXXL",
+        "Color": "Orange"
+      },
+      "officialSkuAttrs": "5:4183;14:350852",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-orange",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Orange"
+    },
+    {
+      "sourceSkuId": "12000056006918537",
+      "attributes": {
+        "Size": "S",
+        "Color": "Orange"
+      },
+      "officialSkuAttrs": "5:100014064;14:350852",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-orange",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Orange"
+    },
+    {
+      "sourceSkuId": "12000056006918539",
+      "attributes": {
+        "Size": "L",
+        "Color": "Orange"
+      },
+      "officialSkuAttrs": "5:361385;14:350852",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-orange",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Orange"
+    },
+    {
+      "sourceSkuId": "12000056006918538",
+      "attributes": {
+        "Size": "M",
+        "Color": "Orange"
+      },
+      "officialSkuAttrs": "5:361386;14:350852",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-orange",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Orange"
+    },
+    {
+      "sourceSkuId": "12000056006918549",
+      "attributes": {
+        "Size": "XXL",
+        "Color": "Pink"
+      },
+      "officialSkuAttrs": "5:4182;14:1052",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-blush",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Pink"
+    },
+    {
+      "sourceSkuId": "12000056006918548",
+      "attributes": {
+        "Size": "XL",
+        "Color": "Pink"
+      },
+      "officialSkuAttrs": "5:100014065;14:1052",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-blush",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Pink"
+    },
+    {
+      "sourceSkuId": "12000056006918551",
+      "attributes": {
+        "Size": "4XL",
+        "Color": "Pink"
+      },
+      "officialSkuAttrs": "5:200000990;14:1052",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-blush",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Pink"
+    },
+    {
+      "sourceSkuId": "12000056006918550",
+      "attributes": {
+        "Size": "XXXL",
+        "Color": "Pink"
+      },
+      "officialSkuAttrs": "5:4183;14:1052",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-blush",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Pink"
+    },
+    {
+      "sourceSkuId": "12000056006918545",
+      "attributes": {
+        "Size": "S",
+        "Color": "Pink"
+      },
+      "officialSkuAttrs": "5:100014064;14:1052",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-blush",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Pink"
+    },
+    {
+      "sourceSkuId": "12000056006918547",
+      "attributes": {
+        "Size": "L",
+        "Color": "Pink"
+      },
+      "officialSkuAttrs": "5:361385;14:1052",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-blush",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Pink"
+    },
+    {
+      "sourceSkuId": "12000056006918546",
+      "attributes": {
+        "Size": "M",
+        "Color": "Pink"
+      },
+      "officialSkuAttrs": "5:361386;14:1052",
+      "costUsd": "149.24",
+      "itemUsd": "135.74",
+      "freightUsd": "13.5",
+      "salePriceUsd": "447.90",
+      "stock": 50,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "calienne-rhinestone-suit-blush",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Pink"
+    },
+    {
+      "sourceSkuId": "12000059937271934",
+      "attributes": {
+        "Color": "model color",
+        "US Size": "2",
+        "Ships From": "China Mainland"
+      },
+      "officialSkuAttrs": "14:366#model color;200000443:151;200007763:201336100",
+      "costUsd": "109.98",
+      "itemUsd": "82.3",
+      "freightUsd": "27.68",
+      "salePriceUsd": "330.90",
+      "stock": 20,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "sourceProductId": "3256812807042028",
+      "sourceColor": "model color"
+    },
+    {
+      "sourceSkuId": "12000059937271939",
+      "attributes": {
+        "Color": "model color",
+        "US Size": "12",
+        "Ships From": "China Mainland"
+      },
+      "officialSkuAttrs": "14:366#model color;200000443:1663;200007763:201336100",
+      "costUsd": "109.98",
+      "itemUsd": "82.3",
+      "freightUsd": "27.68",
+      "salePriceUsd": "330.90",
+      "stock": 20,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "sourceProductId": "3256812807042028",
+      "sourceColor": "model color"
+    },
+    {
+      "sourceSkuId": "12000059937271938",
+      "attributes": {
+        "Color": "model color",
+        "US Size": "10",
+        "Ships From": "China Mainland"
+      },
+      "officialSkuAttrs": "14:366#model color;200000443:1583;200007763:201336100",
+      "costUsd": "109.98",
+      "itemUsd": "82.3",
+      "freightUsd": "27.68",
+      "salePriceUsd": "330.90",
+      "stock": 20,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "sourceProductId": "3256812807042028",
+      "sourceColor": "model color"
+    },
+    {
+      "sourceSkuId": "12000059937271947",
+      "attributes": {
+        "Color": "model color",
+        "US Size": "26W",
+        "Ships From": "China Mainland"
+      },
+      "officialSkuAttrs": "14:366#model color;200000443:200000950;200007763:201336100",
+      "costUsd": "109.98",
+      "itemUsd": "82.3",
+      "freightUsd": "27.68",
+      "salePriceUsd": "330.90",
+      "stock": 20,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "sourceProductId": "3256812807042028",
+      "sourceColor": "model color"
+    },
+    {
+      "sourceSkuId": "12000059937271946",
+      "attributes": {
+        "Color": "model color",
+        "US Size": "24W",
+        "Ships From": "China Mainland"
+      },
+      "officialSkuAttrs": "14:366#model color;200000443:200000949;200007763:201336100",
+      "costUsd": "109.98",
+      "itemUsd": "82.3",
+      "freightUsd": "27.68",
+      "salePriceUsd": "330.90",
+      "stock": 20,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "sourceProductId": "3256812807042028",
+      "sourceColor": "model color"
+    },
+    {
+      "sourceSkuId": "12000059937271945",
+      "attributes": {
+        "Color": "model color",
+        "US Size": "22W",
+        "Ships From": "China Mainland"
+      },
+      "officialSkuAttrs": "14:366#model color;200000443:200000948;200007763:201336100",
+      "costUsd": "109.98",
+      "itemUsd": "82.3",
+      "freightUsd": "27.68",
+      "salePriceUsd": "330.90",
+      "stock": 20,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "sourceProductId": "3256812807042028",
+      "sourceColor": "model color"
+    },
+    {
+      "sourceSkuId": "12000059937271944",
+      "attributes": {
+        "Color": "model color",
+        "US Size": "20W",
+        "Ships From": "China Mainland"
+      },
+      "officialSkuAttrs": "14:366#model color;200000443:200000947;200007763:201336100",
+      "costUsd": "109.98",
+      "itemUsd": "82.3",
+      "freightUsd": "27.68",
+      "salePriceUsd": "330.90",
+      "stock": 20,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "sourceProductId": "3256812807042028",
+      "sourceColor": "model color"
+    },
+    {
+      "sourceSkuId": "12000059937271943",
+      "attributes": {
+        "Color": "model color",
+        "US Size": "18 W",
+        "Ships From": "China Mainland"
+      },
+      "officialSkuAttrs": "14:366#model color;200000443:200000946;200007763:201336100",
+      "costUsd": "109.98",
+      "itemUsd": "82.3",
+      "freightUsd": "27.68",
+      "salePriceUsd": "330.90",
+      "stock": 20,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "sourceProductId": "3256812807042028",
+      "sourceColor": "model color"
+    },
+    {
+      "sourceSkuId": "12000059937271942",
+      "attributes": {
+        "Color": "model color",
+        "US Size": "16W",
+        "Ships From": "China Mainland"
+      },
+      "officialSkuAttrs": "14:366#model color;200000443:200000945;200007763:201336100",
+      "costUsd": "109.98",
+      "itemUsd": "82.3",
+      "freightUsd": "27.68",
+      "salePriceUsd": "330.90",
+      "stock": 20,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "sourceProductId": "3256812807042028",
+      "sourceColor": "model color"
+    },
+    {
+      "sourceSkuId": "12000059937271941",
+      "attributes": {
+        "Color": "model color",
+        "US Size": "16",
+        "Ships From": "China Mainland"
+      },
+      "officialSkuAttrs": "14:366#model color;200000443:5880;200007763:201336100",
+      "costUsd": "109.98",
+      "itemUsd": "82.3",
+      "freightUsd": "27.68",
+      "salePriceUsd": "330.90",
+      "stock": 20,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "sourceProductId": "3256812807042028",
+      "sourceColor": "model color"
+    },
+    {
+      "sourceSkuId": "12000059937271937",
+      "attributes": {
+        "Color": "model color",
+        "US Size": "8",
+        "Ships From": "China Mainland"
+      },
+      "officialSkuAttrs": "14:366#model color;200000443:699;200007763:201336100",
+      "costUsd": "109.98",
+      "itemUsd": "82.3",
+      "freightUsd": "27.68",
+      "salePriceUsd": "330.90",
+      "stock": 19,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "sourceProductId": "3256812807042028",
+      "sourceColor": "model color"
+    },
+    {
+      "sourceSkuId": "12000059937271936",
+      "attributes": {
+        "Color": "model color",
+        "US Size": "6",
+        "Ships From": "China Mainland"
+      },
+      "officialSkuAttrs": "14:366#model color;200000443:1394;200007763:201336100",
+      "costUsd": "109.98",
+      "itemUsd": "82.3",
+      "freightUsd": "27.68",
+      "salePriceUsd": "330.90",
+      "stock": 20,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "sourceProductId": "3256812807042028",
+      "sourceColor": "model color"
+    },
+    {
+      "sourceSkuId": "12000059937271940",
+      "attributes": {
+        "Color": "model color",
+        "US Size": "14",
+        "Ships From": "China Mainland"
+      },
+      "officialSkuAttrs": "14:366#model color;200000443:200000298;200007763:201336100",
+      "costUsd": "109.98",
+      "itemUsd": "82.3",
+      "freightUsd": "27.68",
+      "salePriceUsd": "330.90",
+      "stock": 20,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "sourceProductId": "3256812807042028",
+      "sourceColor": "model color"
+    },
+    {
+      "sourceSkuId": "12000059937271935",
+      "attributes": {
+        "Color": "model color",
+        "US Size": "4",
+        "Ships From": "China Mainland"
+      },
+      "officialSkuAttrs": "14:366#model color;200000443:153;200007763:201336100",
+      "costUsd": "109.98",
+      "itemUsd": "82.3",
+      "freightUsd": "27.68",
+      "salePriceUsd": "330.90",
+      "stock": 20,
+      "available": true,
+      "provisional": false,
+      "testsPass": true,
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "sourceProductId": "3256812807042028",
+      "sourceColor": "model color"
+    }
+  ],
+  "changedExistingBindings": [],
+  "currentLiveInventoryVerified": false,
+  "sourceAudit": "/Users/andrealmeida/Downloads/Organizados/Projetos/AMB-Boutique/amb-product-batch-2026-10-04/.gauntlet/review-pending-data-20261005.json",
+  "requiredBeforeApplication": "Independent final galleries review; publish15products; complete482-product catalog sync; apply15new bridge products atomically while preserving all234current bindings; verify100native sourceSKUs and purchase start without payment.",
+  "heavyProductMarkets": "Calienne/Elaris retain70.55oz weight and international64oz carrier quote guard."
+}

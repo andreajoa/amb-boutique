@@ -1,0 +1,158 @@
+{
+  "reviewedAt": "2026-10-05T21:16:43.926022+00:00",
+  "scope": "Read-only review and proposal; no application, policy or external changes; no legal advice",
+  "sources": [
+    {
+      "sourceProductId": "3256812807042028",
+      "file": "/Users/andrealmeida/Downloads/Organizados/Projetos/AMB-Boutique/amb-product-evidence-2026-10-04/continuation-20261005-native/3256812807042028-payloads.json",
+      "sha256": "ad4ce0dfcb712a8a58d451a010b1db54f714d9918066bbe4197a42e5dd336669",
+      "supplyType": "Non-Spot",
+      "productionProperty": "7-15 Days",
+      "detailFinding": "Product-wide custom-made notice and production after order10–30days, not limited to Customized Color; conflicts with7–15Days property.",
+      "dayUnitConfirmed": false
+    },
+    {
+      "sourceProductId": "3256811405926531",
+      "file": "/Users/andrealmeida/Downloads/Organizados/Projetos/AMB-Boutique/amb-product-evidence-2026-10-04/continuation-20261005-native/3256811405926531-payloads.json",
+      "sha256": "f682c045a0f5b32fce063ddb155c09ee2c65f2fe6819d2efa062b6c29dc7cac8",
+      "supplyType": "Non-Spot",
+      "productionProperty": null,
+      "detailFinding": "Generic copied DHgate detail says processing3–15workingdays depending on stock/product; Non-Spot. No explicit statement all standard suits are made after order.",
+      "dayUnitConfirmed": true
+    }
+  ],
+  "findings": [
+    {
+      "file": "app/products/[slug]/product-detail.tsx",
+      "line": 142,
+      "finding": "Available to order is compatible with order-taking but omits preparation time; OnlyNleft could imply ready inventory if used for made-to-order."
+    },
+    {
+      "file": "app/products/[slug]/product-detail.tsx",
+      "line": 151,
+      "finding": "Shipping & Returns accordion defers all timing to checkout; no product-specific preparation notice."
+    },
+    {
+      "file": "app/products/[slug]/page.tsx",
+      "line": 104,
+      "finding": "JSON-LD handlingTime fixed1–3DAY for every product, incompatible with these longer preparation windows."
+    },
+    {
+      "file": "app/cart/page.tsx",
+      "line": 20,
+      "finding": "Cart line displays size/color but no preparation notice."
+    },
+    {
+      "file": "app/store-provider.tsx",
+      "line": 372,
+      "finding": "Drawer line displays size/color but no preparation notice."
+    },
+    {
+      "file": "app/checkout/embedded-checkout.tsx",
+      "line": 32,
+      "finding": "Order summary lacks preparation notice; global Delivery from SanDiego line does not address lead time."
+    },
+    {
+      "file": "app/api/checkout/route.ts",
+      "line": 127,
+      "finding": "Stripe shipping_rate delivery_estimate uses carrier/transit12–18businessdays as checkout delivery estimate, excluding production."
+    },
+    {
+      "file": "app/email/commerce-lifecycle.ts",
+      "line": 231,
+      "finding": "Order confirmation derives delivery only from market default, ignoring preparation."
+    },
+    {
+      "file": "app/email/template.ts",
+      "line": 388,
+      "finding": "Automatic confirmation labels12–18businessdays estimated deliverywindow, with no after-dispatch qualifier or preparation notice."
+    },
+    {
+      "file": "app/[page]/page.tsx",
+      "line": 50,
+      "finding": "Shipping policy already distinguishes1–3businessdays for in-stock and product-level made-to-order/preorder disclosure; preserve policy and transit rates."
+    },
+    {
+      "file": "app/[page]/page.tsx",
+      "line": 51,
+      "finding": "AMB allows30day return requests without made-to-order exception; supplier restriction must not overwrite AMB policy."
+    },
+    {
+      "file": "app/api/checkout/route.ts",
+      "line": 52,
+      "finding": "Existing international parcel64oz limit blocks Elaris/Calienne70.55oz in CA/UK/AU/NZ; unrelated to preparation disclosure; retain guard."
+    }
+  ],
+  "proposedOptionalProductField": {
+    "fulfillment": {
+      "kind": "made-to-order | extended-preparation",
+      "notice": "string"
+    }
+  },
+  "proposedPerProductValues": {
+    "elaris-ruffle-gown-butter-yellow": {
+      "kind": "made-to-order",
+      "notice": "Made to order. Please allow approximately 10–30 days for production before dispatch. Delivery time is additional."
+    },
+    "calienne-rhinestone-suit-taupe": {
+      "kind": "extended-preparation",
+      "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+    },
+    "calienne-rhinestone-suit-blue": {
+      "kind": "extended-preparation",
+      "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+    },
+    "calienne-rhinestone-suit-red": {
+      "kind": "extended-preparation",
+      "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+    },
+    "calienne-rhinestone-suit-grey": {
+      "kind": "extended-preparation",
+      "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+    },
+    "calienne-rhinestone-suit-forest": {
+      "kind": "extended-preparation",
+      "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+    },
+    "calienne-rhinestone-suit-khaki": {
+      "kind": "extended-preparation",
+      "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+    },
+    "calienne-rhinestone-suit-orange": {
+      "kind": "extended-preparation",
+      "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+    },
+    "calienne-rhinestone-suit-blush": {
+      "kind": "extended-preparation",
+      "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+    }
+  },
+  "implementation": [
+    "Canonical optional Product.fulfillment; one formatter/helper; no stock/price/SKU changes.",
+    "Render notice above purchase buttons, shipping accordion, cart drawer/page lines, checkout order lines. Derive client notice by current catalog slug, not trusted persisted client text.",
+    "For any cart containing extended preparation, use canonical server notices in Stripe product description/custom_text and omit unsupported total delivery_estimate while preserving charges/services.",
+    "Snapshot server-resolved per-line preparation notice in existing journey JSON and Stripe product metadata for durable order confirmation.",
+    "Conditionally suppress hardcoded JSON-LD deliveryTime for these products until appropriate handling-day semantics are established; never emit default1–3 for them.",
+    "Confirmation renders saved preparation notices and labels existing market window as transit after dispatch. No email sent during validation.",
+    "Audit merchant output handling promises separately; never manufacture availability_date or mark0stock to express production delay."
+  ],
+  "preserve": [
+    "444baseline product records",
+    "23approved products",
+    "100pending standardSKU identities/costs/prices/positive captured stocks",
+    "current AMB30day return-request policy",
+    "shipping charges/free-shipping rules/market transit estimates",
+    "international64oz guard"
+  ],
+  "validationPlan": [
+    "Offline checkout stub captures Stripe params for Elaris-only, Calienne-only, mixed standard+extended, and standard-only; no external requests.",
+    "Browser verify notice before purchase and in bag/checkout summary including restored cart; no actual payment.",
+    "Parse PDPJSONLD: no1–3handling for extended products; default baseline remains.",
+    "Render existing confirmation template locally from saved journey notice; verify preparation + afterdispatch wording; no email send."
+  ],
+  "technicalSources": [
+    "https://schema.org/ShippingDeliveryTime",
+    "https://docs.stripe.com/api/checkout/sessions/create",
+    "https://support.google.com/merchants/answer/6324448?hl=en"
+  ]
+}

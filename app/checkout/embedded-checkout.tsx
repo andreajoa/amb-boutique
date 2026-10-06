@@ -7,7 +7,7 @@ import { useEffect, useMemo, useState } from "react";
 import { getCartLineThumbnail, useStore } from "../store-provider";
 
 export function EmbeddedCheckoutPanel({ publishableKey }: { publishableKey: string }) {
-  const { cart, formatMoney } = useStore();
+  const { cart, formatMoney, getProductPreparationNotice } = useStore();
   const [clientSecret, setClientSecret] = useState("");
   const [ready, setReady] = useState(false);
   const stripePromise = useMemo(() => publishableKey ? loadStripe(publishableKey) : null, [publishableKey]);
@@ -29,7 +29,8 @@ export function EmbeddedCheckoutPanel({ publishableKey }: { publishableKey: stri
       <h2>{cart.length ? `${cart.length} selected style${cart.length === 1 ? "" : "s"}` : "Secure order"}</h2>
       {cart.map((line) => {
         const thumbnail = getCartLineThumbnail(line);
-        return <div className="checkout-mini-line" key={line.id}><div className={`cart-thumb checkout-thumb-media${thumbnail.isSprite ? " sprite-media" : ""}${thumbnail.hasImage ? "" : ` sheet-${line.sheet} q${line.quadrant}`}`} style={thumbnail.style} role="img" aria-label={line.name}/><span><strong>{line.name}</strong><small>{line.size} · {line.color} · Qty {line.quantity}</small></span><b>{formatMoney(line.price * line.quantity)}</b></div>;
+        const preparationNotice = getProductPreparationNotice(line.slug);
+        return <div className="checkout-mini-line" key={line.id}><div className={`cart-thumb checkout-thumb-media${thumbnail.isSprite ? " sprite-media" : ""}${thumbnail.hasImage ? "" : ` sheet-${line.sheet} q${line.quadrant}`}`} style={thumbnail.style} role="img" aria-label={line.name}/><span><strong>{line.name}</strong><small>{line.size} · {line.color} · Qty {line.quantity}</small>{preparationNotice && <small data-preparation-notice>{preparationNotice}</small>}</span><b>{formatMoney(line.price * line.quantity)}</b></div>;
       })}
       <ul><li>Encrypted payment by Stripe</li><li>Delivery from San Diego, California</li><li>30-day return requests</li><li>No automatic post-purchase charges</li></ul>
       <a href="mailto:info@ambboutique.online">Need help? info@ambboutique.online</a>

@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import type { Product } from "./data";
 import { productForSize, productPrice } from "./product-pricing";
+import { getPreparationNotice } from "./product-fulfillment";
 import { FIRST_ORDER_CODE, formatMarketPrice, getDiscountState, MarketCode, markets, US_FREE_SHIPPING_THRESHOLD_USD } from "./commerce";
 import { CartRewards } from "./cart-rewards";
 import { rankRecommendations } from "./recommendations";
@@ -63,6 +64,7 @@ type StoreContextValue = {
   checkout: () => Promise<void>;
   buyNow: (product: Product, options: AddOptions, context?: { parentSessionId?: string }) => Promise<void>;
   checkoutError: string;
+  getProductPreparationNotice: (slug: string) => string | undefined;
 };
 
 const StoreContext = createContext<StoreContextValue | null>(null);
@@ -174,6 +176,7 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
   const discount = getDiscountState(cartTotal);
   const welcomePercent = promoCode.toUpperCase() === FIRST_ORDER_CODE ? 10 : 0;
   const catalogBySlug = useMemo(() => new Map(catalog.map((product) => [product.slug, product])), [catalog]);
+  const getProductPreparationNotice = useCallback((slug: string) => getPreparationNotice(catalogBySlug.get(slug)), [catalogBySlug]);
   const estimatedTotal = useMemo(() => cart.reduce((sum, line) => {
     const product = catalogBySlug.get(line.slug);
     const requestedPercent = Math.max(discount.percent, welcomePercent, line.offer === "cart-bump" ? 10 : 0);
@@ -298,7 +301,7 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
     window.localStorage.removeItem(promoStorageKey);
   }, []);
   const closeCart = useCallback(() => setCartOpen(false), []);
-  const value = { cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, addItem, addItems, updateQuantity, removeItem, clearCart, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart, checkout, buyNow, checkoutError };
+  const value = { cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, addItem, addItems, updateQuantity, removeItem, clearCart, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart, checkout, buyNow, checkoutError, getProductPreparationNotice };
   return <StoreContext.Provider value={value}>{children}<CartDrawer catalog={catalog} /></StoreContext.Provider>;
 }
 
@@ -366,10 +369,11 @@ function CartDrawer({ catalog }: { catalog: Product[] }) {
       {cart.length ? <>
         <div className="cart-lines">{cart.map((line) => {
           const lineProduct = catalogBySlug.get(line.slug);
+          const preparationNotice = getPreparationNotice(lineProduct);
           const thumbnail = getCartLineThumbnail(line, lineProduct);
           return <div className="cart-item" data-product-slug={line.slug} key={line.id}>
           <div className="cart-thumb"><span className={`cart-thumb-media sheet-${line.sheet} q${line.quadrant}${thumbnail.isSprite ? " sprite-media" : ""}`} style={thumbnail.style}/></div>
-          <div><Link href={`/products/${line.slug}${line.heelHeightCm ? `?heel=${line.heelHeightCm}` : ""}`} onClick={closeCart}><strong>{line.name}</strong></Link><span>Size: {line.size}</span><span>Color: {line.color}</span>{line.heelHeightCm ? <span>Heel: {line.heelHeightCm} cm</span> : null}{line.offer && <span className="offer-label">Private cart offer</span>}<div className="mini-quantity"><button onClick={() => updateQuantity(line.id, line.quantity - 1)} aria-label="Decrease">−</button><span>{line.quantity}</span><button onClick={() => updateQuantity(line.id, line.quantity + 1)} aria-label="Increase">+</button></div><button onClick={() => removeItem(line.id)}>Remove</button></div>
+          <div><Link href={`/products/${line.slug}${line.heelHeightCm ? `?heel=${line.heelHeightCm}` : ""}`} onClick={closeCart}><strong>{line.name}</strong></Link><span>Size: {line.size}</span><span>Color: {line.color}</span>{preparationNotice && <span data-preparation-notice>{preparationNotice}</span>}{line.heelHeightCm ? <span>Heel: {line.heelHeightCm} cm</span> : null}{line.offer && <span className="offer-label">Private cart offer</span>}<div className="mini-quantity"><button onClick={() => updateQuantity(line.id, line.quantity - 1)} aria-label="Decrease">−</button><span>{line.quantity}</span><button onClick={() => updateQuantity(line.id, line.quantity + 1)} aria-label="Increase">+</button></div><button onClick={() => removeItem(line.id)}>Remove</button></div>
           <b>{formatMoney(line.price * line.quantity)}</b>
         </div>;
         })}</div>

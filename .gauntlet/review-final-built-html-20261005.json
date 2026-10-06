@@ -1,0 +1,142 @@
+{
+  "status": "BUILT_HOME_HTML_SERIALIZED_CATALOGUE_PASS_RUNTIME_BLOCKED",
+  "builtHomeHtmlSha256": "c5c205927dff6c52df0d3320b62ee3d4525cbb6018ca98863783c5403ee157db",
+  "renderedHydrationCatalogues": 1,
+  "serializedUniqueProducts": 482,
+  "finalCandidateProductsChecked": 15,
+  "selectedGeneratedPathsAndBytesChecked": 60,
+  "configuredNoticesChecked": 9,
+  "normalCalistaSizePriceAndNoNotice": "PASS",
+  "localPinterestMetaExactOnce": true,
+  "token": "609dd2d6c2bcaf7c6bb74981abb48c30",
+  "prerenderManifestRoutes": 42,
+  "staticPdpHtmlFiles": 0,
+  "compiledPdpRouteExists": true,
+  "pdpRenderedNoticeOrJsonLdVerified": false,
+  "browserInteractionsVerified": false,
+  "screenshotsProduced": 0,
+  "networkRequests": 0,
+  "applicationWrites": 0,
+  "rows": [
+    {
+      "slug": "elowyn-ruched-mesh-maxi-dress-rose-floral",
+      "catalogueInBuiltHtml": true,
+      "imagePaths": 4,
+      "price": 108.9,
+      "standardSizes": 5,
+      "preparationNoticeConfigured": false
+    },
+    {
+      "slug": "elowyn-ruched-mesh-maxi-dress-leopard",
+      "catalogueInBuiltHtml": true,
+      "imagePaths": 4,
+      "price": 108.9,
+      "standardSizes": 5,
+      "preparationNoticeConfigured": false
+    },
+    {
+      "slug": "elowyn-ruched-mesh-maxi-dress-black-mesh",
+      "catalogueInBuiltHtml": true,
+      "imagePaths": 4,
+      "price": 108.9,
+      "standardSizes": 5,
+      "preparationNoticeConfigured": false
+    },
+    {
+      "slug": "elowyn-ruched-mesh-maxi-dress-fuchsia",
+      "catalogueInBuiltHtml": true,
+      "imagePaths": 4,
+      "price": 108.9,
+      "standardSizes": 5,
+      "preparationNoticeConfigured": false
+    },
+    {
+      "slug": "elowyn-ruched-mesh-maxi-dress-burgundy",
+      "catalogueInBuiltHtml": true,
+      "imagePaths": 4,
+      "price": 108.9,
+      "standardSizes": 5,
+      "preparationNoticeConfigured": false
+    },
+    {
+      "slug": "elowyn-ruched-mesh-maxi-dress-brown-print",
+      "catalogueInBuiltHtml": true,
+      "imagePaths": 4,
+      "price": 108.9,
+      "standardSizes": 5,
+      "preparationNoticeConfigured": false
+    },
+    {
+      "slug": "calienne-rhinestone-suit-taupe",
+      "catalogueInBuiltHtml": true,
+      "imagePaths": 4,
+      "price": 447.9,
+      "standardSizes": 7,
+      "preparationNoticeConfigured": true
+    },
+    {
+      "slug": "calienne-rhinestone-suit-blue",
+      "catalogueInBuiltHtml": true,
+      "imagePaths": 4,
+      "price": 447.9,
+      "standardSizes": 7,
+      "preparationNoticeConfigured": true
+    },
+    {
+      "slug": "calienne-rhinestone-suit-red",
+      "catalogueInBuiltHtml": true,
+      "imagePaths": 4,
+      "price": 447.9,
+      "standardSizes": 7,
+      "preparationNoticeConfigured": true
+    },
+    {
+      "slug": "calienne-rhinestone-suit-grey",
+      "catalogueInBuiltHtml": true,
+      "imagePaths": 4,
+      "price": 447.9,
+      "standardSizes": 7,
+      "preparationNoticeConfigured": true
+    },
+    {
+      "slug": "calienne-rhinestone-suit-forest",
+      "catalogueInBuiltHtml": true,
+      "imagePaths": 4,
+      "price": 447.9,
+      "standardSizes": 7,
+      "preparationNoticeConfigured": true
+    },
+    {
+      "slug": "calienne-rhinestone-suit-khaki",
+      "catalogueInBuiltHtml": true,
+      "imagePaths": 4,
+      "price": 447.9,
+      "standardSizes": 7,
+      "preparationNoticeConfigured": true
+    },
+    {
+      "slug": "calienne-rhinestone-suit-orange",
+      "catalogueInBuiltHtml": true,
+      "imagePaths": 4,
+      "price": 447.9,
+      "standardSizes": 7,
+      "preparationNoticeConfigured": true
+    },
+    {
+      "slug": "calienne-rhinestone-suit-blush",
+      "catalogueInBuiltHtml": true,
+      "imagePaths": 4,
+      "price": 447.9,
+      "standardSizes": 7,
+      "preparationNoticeConfigured": true
+    },
+    {
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "catalogueInBuiltHtml": true,
+      "imagePaths": 4,
+      "price": 330.9,
+      "standardSizes": 14,
+      "preparationNoticeConfigured": true
+    }
+  ]
+}

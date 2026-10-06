@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Footer, Header, ProductCard, getDirectProductImage, getProductImageStyle } from "../../components";
 import { Product, products } from "../../data";
 import { productPrice } from "../../product-pricing";
+import { getPreparationNotice } from "../../product-fulfillment";
 import { useStore } from "../../store-provider";
 import { SizeFinder } from "../../size-finder";
 import { ShoeSizeGuide } from "../../shoe-size-guide";
@@ -42,6 +43,7 @@ export default function ProductDetail({
   const activeShoeVariant = product.shoeVariants?.find((variant) => variant.heelHeightCm === heelHeightCm);
   const sizes = activeShoeVariant?.sizes?.length ? activeShoeVariant.sizes : product.sizes?.length ? product.sizes : defaultSizes;
   const activeStock = activeShoeVariant?.stock ?? product.stock;
+  const preparationNotice = getPreparationNotice(product);
 
   const [size, setSize] = useState(startingSize);
   const selectedPrice = productPrice(product, size);
@@ -139,7 +141,8 @@ export default function ProductDetail({
           {isShoe ? <div className="shoe-fit-summary"><div><span>Size system</span><strong>AMB numbered sizing</strong></div><div><span>Style</span><strong>{product.subcategory || "Shoes"}</strong></div>{(heelHeightCm ?? product.heelHeightCm) ? <div><span>Heel height</span><strong>{heelHeightCm ?? product.heelHeightCm} cm</strong></div> : null}<div><span>Fit tip</span><strong>Measure foot length first</strong></div></div> : <div className="fit-guide"><span>How it fits</span><div><i/><i/><i className="active"/><i/><i/></div><p><small>Slim fit</small><small>Regular fit</small><small>Oversized</small></p></div>}
 
           <div className="quantity-block"><span>Quantity</span><div><button type="button" onClick={() => setQuantity(Math.max(1, quantity - 1))} aria-label="Decrease quantity">−</button><span>{quantity}</span><button type="button" onClick={() => setQuantity(quantity + 1)} aria-label="Increase quantity">+</button></div></div>
-          <p className="stock-line"><i/> {typeof activeStock === "number" && activeStock <= 5 ? `Only ${activeStock} left` : "Available to order"}</p>
+          <p className="stock-line"><i/> {!preparationNotice && typeof activeStock === "number" && activeStock <= 5 ? `Only ${activeStock} left` : "Available to order"}</p>
+          {preparationNotice && <p className="product-intro" data-preparation-notice>{preparationNotice}</p>}
           <button className="add-button" type="button" onClick={addToBag}>Add to Bag · {formatMoney(selectedPrice * quantity)}</button>
           <button className="buy-button" type="button" onClick={() => void buyNow(product, { size, color: color.name, quantity, heelHeightCm: isShoe ? (heelHeightCm ?? product.heelHeightCm) : undefined })}>Buy Now</button>
 
@@ -148,7 +151,7 @@ export default function ProductDetail({
             <details open><summary>Details</summary><p>{product.materials || "Designed for repeat wear with a timeless silhouette, thoughtful seaming and an easy feel."}</p></details>
             <details><summary>Size & Fit</summary>{isShoe ? <ShoeSizeGuide compact/> : <p>Use the available sizes and garment measurements shown for this product. Our size guide includes US, CA, UK, AU and NZ conversions.</p>}</details>
             <details><summary>Product Care</summary><p>{product.care || "Follow the care label attached to the item to preserve color, shape and finish."}</p></details>
-            <details><summary>Shipping & Returns</summary><p>Delivery estimates and return eligibility adapt to the customer’s market at checkout. <Link href="/shipping">Shipping details</Link> · <Link href="/returns">Return policy</Link></p></details>
+            <details><summary>Shipping & Returns</summary>{preparationNotice && <p>{preparationNotice}</p>}<p>Delivery estimates and return eligibility adapt to the customer’s market at checkout. <Link href="/shipping">Shipping details</Link> · <Link href="/returns">Return policy</Link></p></details>
           </div>
           <div className="product-help"><Link href="/contact">Contact us</Link><span>San Diego, California</span></div>
         </section>

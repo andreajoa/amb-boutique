@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-05",
+  "status": "IMPLEMENTED_SCOPED_TESTS_PASS_INDEPENDENT_RUNTIME_REVIEW_PENDING",
+  "type": "fulfillment?: { kind: made-to-order | extended-preparation; notice: string }",
+  "baselineCommit": "3835c8ce5979941c69c25742a232a3c2d66695a7",
+  "tests": {
+    "productFulfillment": "PASS",
+    "normalCheckoutFiveMarketsBaselineParity": "PASS",
+    "extendedAndMixedFiveBaskets": "PASS",
+    "serverCanonicalNotices": "PASS",
+    "confirmationSavedSnapshotAndMetadataFallback": "PASS",
+    "normalJsonLdAndConfirmationBaselineParity": "PASS",
+    "shippingChargesPricesAndInternational64OzGuard": "PASS",
+    "sizePricing": "PASS",
+    "storeManagerCatalog467Baseline444": "PASS",
+    "catalogVariants": "PASS",
+    "typescript": "PASS",
+    "scopedEslint": "PASS",
+    "reactChecklist": "COMPLETE",
+    "final482Browser": "WAITING_FOR_ROOT_LOCAL_READY"
+  },
+  "externalActions": 0,
+  "commits": 0,
+  "deployments": 0,
+  "productDataWrites": 0,
+  "remaining": ["Root populates nine product configurations", "Final build and independent runtime review"]
+}

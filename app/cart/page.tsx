@@ -6,7 +6,7 @@ import { CartRewards } from "../cart-rewards";
 import { getCartLineThumbnail, useStore } from "../store-provider";
 
 export default function CartPage() {
-  const { cart, cartTotal, estimatedTotal, effectiveDiscountUsd, market, formatMoney, updateQuantity, removeItem, checkout, checkoutError } = useStore();
+  const { cart, cartTotal, estimatedTotal, effectiveDiscountUsd, market, formatMoney, updateQuantity, removeItem, checkout, checkoutError, getProductPreparationNotice } = useStore();
 
   return <main>
     <Header/>
@@ -15,9 +15,10 @@ export default function CartPage() {
       {cart.length ? <div className="cart-page-grid">
         <div className="cart-page-lines">{cart.map((line) => {
           const thumbnail = getCartLineThumbnail(line);
+          const preparationNotice = getProductPreparationNotice(line.slug);
           return <article key={line.id}>
             <div className={`cart-page-image${thumbnail.isSprite ? " sprite-media" : ""}${thumbnail.hasImage ? "" : ` sheet-${line.sheet} q${line.quadrant}`}`} style={thumbnail.style} role="img" aria-label={line.name}/>
-            <div><Link href={`/products/${line.slug}`}><h2>{line.name}</h2></Link><p>Size: {line.size}<br/>Color: {line.color}</p>{line.offer && <span className="offer-label">Private offer</span>}<div className="inline-quantity"><button type="button" onClick={() => updateQuantity(line.id, line.quantity - 1)} aria-label={`Decrease ${line.name} quantity`}>−</button><span>{line.quantity}</span><button type="button" onClick={() => updateQuantity(line.id, line.quantity + 1)} aria-label={`Increase ${line.name} quantity`}>+</button></div><button type="button" className="remove-link" onClick={() => removeItem(line.id)}>Remove</button></div>
+            <div><Link href={`/products/${line.slug}`}><h2>{line.name}</h2></Link><p>Size: {line.size}<br/>Color: {line.color}</p>{preparationNotice && <p data-preparation-notice>{preparationNotice}</p>}{line.offer && <span className="offer-label">Private offer</span>}<div className="inline-quantity"><button type="button" onClick={() => updateQuantity(line.id, line.quantity - 1)} aria-label={`Decrease ${line.name} quantity`}>−</button><span>{line.quantity}</span><button type="button" onClick={() => updateQuantity(line.id, line.quantity + 1)} aria-label={`Increase ${line.name} quantity`}>+</button></div><button type="button" className="remove-link" onClick={() => removeItem(line.id)}>Remove</button></div>
             <strong>{formatMoney(line.price * line.quantity)}</strong>
           </article>;
         })}</div>

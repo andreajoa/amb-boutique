@@ -7,6 +7,7 @@ export type AmbOrderEmailItem = {
   size?: string;
   color?: string;
   unitAmount?: number;
+  preparationNotice?: string;
 };
 
 export type AmbOrderEmailDetails = {
@@ -19,6 +20,7 @@ export type AmbOrderEmailDetails = {
   total: number;
   deliveryMinBusinessDays: number;
   deliveryMaxBusinessDays: number;
+  preparationNotice?: string;
 };
 
 const escapeHtml = (value: string) => value.replace(/[&<>"']/g, (character) => ({
@@ -319,6 +321,7 @@ function renderOrderConfirmationEmail(options: {
   const firstName = options.firstName?.trim();
   const greeting = firstName ? `Thank you, ${escapeHtml(firstName)}.` : "Thank you for your order.";
   const details = options.orderDetails;
+  const hasPreparation = Boolean(details.preparationNotice || details.items.some((item) => item.preparationNotice));
   const currency = details.currency.toUpperCase();
   const reference = options.orderReference
     ? `<p style="margin:12px 0 0;color:#786f67;font-size:11px;letter-spacing:.12em">ORDER ${escapeHtml(options.orderReference)}</p>`
@@ -338,6 +341,7 @@ function renderOrderConfirmationEmail(options: {
       <td style="padding:22px 0;border-top:1px solid #e4ddd4">
         <div style="font-family:Georgia,'Times New Roman',serif;font-size:20px;line-height:1.3">${escapeHtml(item.name)}</div>
         <div style="margin-top:8px;font-size:12px;line-height:1.7;color:#6b655e">${meta}</div>
+        ${item.preparationNotice ? `<div style="margin-top:8px;font-size:12px;line-height:1.7;color:#4e4943">${escapeHtml(item.preparationNotice)}</div>` : ""}
       </td>
       ${amount}
     </tr>`;
@@ -385,7 +389,8 @@ function renderOrderConfirmationEmail(options: {
 
           <div style="background:#f5efe5;padding:22px 24px;margin-bottom:26px">
             <div style="font-size:10px;letter-spacing:.14em;font-weight:700;margin-bottom:8px">DELIVERY</div>
-            <div style="font-size:13px;line-height:1.7;color:#4e4943">Estimated delivery window: <strong>${details.deliveryMinBusinessDays}–${details.deliveryMaxBusinessDays} business days</strong>. Tracking will be sent separately when it becomes available.</div>
+            ${details.preparationNotice && !details.items.some((item) => item.preparationNotice) ? `<p style="font-size:12px;line-height:1.7;color:#4e4943">${escapeHtml(details.preparationNotice)}</p>` : ""}
+            <div style="font-size:13px;line-height:1.7;color:#4e4943">${hasPreparation ? "Estimated transit after preparation and dispatch" : "Estimated delivery window"}: <strong>${details.deliveryMinBusinessDays}–${details.deliveryMaxBusinessDays} business days</strong>. Tracking will be sent separately when it becomes available.</div>
           </div>
 
           <p style="margin:0;font-size:13px;line-height:1.75;color:#6b655e">Need help with your order? Email <a href="mailto:info@ambboutique.online" style="color:#171512">info@ambboutique.online</a>.</p>

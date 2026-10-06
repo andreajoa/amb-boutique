@@ -133,6 +133,7 @@ export async function completeJourney(session: Stripe.Checkout.Session) {
     color?: string;
     unitAmount?: number;
     priceUsd?: number;
+    preparationNotice?: string;
   };
   type JourneyRow = {
     id: number | string;
@@ -247,6 +248,7 @@ export async function completeJourney(session: Stripe.Checkout.Session) {
           size: item.size,
           color: item.color,
           unitAmount,
+          ...(item.preparationNotice ? { preparationNotice: item.preparationNotice } : {}),
         };
       }),
       currency,
@@ -257,6 +259,7 @@ export async function completeJourney(session: Stripe.Checkout.Session) {
       total: (session.amount_total || 0) / 100,
       deliveryMinBusinessDays: delivery.min,
       deliveryMaxBusinessDays: delivery.max,
+      ...(session.metadata?.preparation_notice ? { preparationNotice: session.metadata.preparation_notice } : {}),
     };
 
     await sendAmbEmail({

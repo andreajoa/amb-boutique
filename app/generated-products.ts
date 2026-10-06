@@ -9709,6 +9709,637 @@ const allGeneratedProducts: Product[] = [
   "sourceProductId": "3256809742511895",
   "sourceColor": "black flower"
 },
+{
+  "slug": "elowyn-ruched-mesh-maxi-dress-rose-floral",
+  "name": "Elowyn Ruched Mesh Maxi Dress — Rose Floral",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 108.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#a93652"
+  ],
+  "colorNames": [
+    "Rose Floral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A rose-pink mesh maxi dress with black floral sprigs, a round neckline, long flared sleeves and gathered detailing across the hips. Includes a separate short slip.",
+  "materials": "Ruched mesh with lining.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/elowyn-ruched-mesh-maxi-dress-rose-floral/front-20261005.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-rose-floral/back-20261005-final.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-rose-floral/left-20261005-final.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-rose-floral/right-20261005-final.webp"
+  ],
+  "stock": 3328,
+  "weightOz": 16.08,
+  "unitCostUsd": 36.28,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809742511895",
+  "sourceColor": "Rose Red"
+},
+{
+  "slug": "elowyn-ruched-mesh-maxi-dress-leopard",
+  "name": "Elowyn Ruched Mesh Maxi Dress — Mocha Print",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 108.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#75563d"
+  ],
+  "colorNames": [
+    "Mocha Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A dark-brown mesh maxi dress with intricate black ornamental motifs, a round neckline, long flared sleeves and gathered detailing across the hips. Includes a separate short slip.",
+  "materials": "Ruched mesh with lining.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/elowyn-ruched-mesh-maxi-dress-leopard/front-20261005.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-leopard/back-20261005-final.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-leopard/left-20261005-final.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-leopard/right-20261005-final.webp"
+  ],
+  "stock": 3330,
+  "weightOz": 16.08,
+  "unitCostUsd": 36.28,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809742511895",
+  "sourceColor": "Dark Brown"
+},
+{
+  "slug": "elowyn-ruched-mesh-maxi-dress-black-mesh",
+  "name": "Elowyn Ruched Mesh Maxi Dress — Noir Dots",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 108.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Noir Dots"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A black mesh maxi dress patterned with small ivory dots, a round neckline, long flared sleeves and gathered detailing across the hips. Includes a separate short slip.",
+  "materials": "Ruched mesh with lining.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/elowyn-ruched-mesh-maxi-dress-black-mesh/front-20261005-v2.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-black-mesh/back-20261005-final.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-black-mesh/left-20261005-final.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-black-mesh/right-20261005-final.webp"
+  ],
+  "stock": 3329,
+  "weightOz": 16.08,
+  "unitCostUsd": 36.28,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809742511895",
+  "sourceColor": "black"
+},
+{
+  "slug": "elowyn-ruched-mesh-maxi-dress-fuchsia",
+  "name": "Elowyn Ruched Mesh Maxi Dress — Fuchsia",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 108.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#ce2b80"
+  ],
+  "colorNames": [
+    "Fuchsia"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fuchsia mesh maxi dress with a delicate tonal motif, a round neckline, long flared sleeves and gathered detailing across the hips. Includes a separate short slip.",
+  "materials": "Ruched mesh with lining.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/elowyn-ruched-mesh-maxi-dress-fuchsia/front-20261005.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-fuchsia/back-20261005-final.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-fuchsia/left-20261005-final.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-fuchsia/right-20261005-final.webp"
+  ],
+  "stock": 3330,
+  "weightOz": 16.08,
+  "unitCostUsd": 36.28,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809742511895",
+  "sourceColor": "Fuchsia"
+},
+{
+  "slug": "elowyn-ruched-mesh-maxi-dress-burgundy",
+  "name": "Elowyn Ruched Mesh Maxi Dress — Burgundy Dots",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 108.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#742033"
+  ],
+  "colorNames": [
+    "Burgundy Dots"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A burgundy mesh maxi dress patterned with small black dots, a round neckline, long flared sleeves and gathered detailing across the hips. Includes a separate short slip.",
+  "materials": "Ruched mesh with lining.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/elowyn-ruched-mesh-maxi-dress-burgundy/front-20261005.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-burgundy/back-20261005-final.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-burgundy/left-20261005-final.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-burgundy/right-20261005-final.webp"
+  ],
+  "stock": 3327,
+  "weightOz": 16.08,
+  "unitCostUsd": 36.28,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809742511895",
+  "sourceColor": "Burgundy"
+},
+{
+  "slug": "elowyn-ruched-mesh-maxi-dress-brown-print",
+  "name": "Elowyn Ruched Mesh Maxi Dress — Chocolate Floral",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 108.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#5f4035"
+  ],
+  "colorNames": [
+    "Chocolate Floral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A chocolate-brown mesh maxi dress with small black floral sprigs, a round neckline, long flared sleeves and gathered detailing across the hips. Includes a separate short slip.",
+  "materials": "Ruched mesh with lining.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/elowyn-ruched-mesh-maxi-dress-brown-print/front-20261005.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-brown-print/back-20261005-final.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-brown-print/left-20261005-final.webp",
+    "/products/elowyn-ruched-mesh-maxi-dress-brown-print/right-20261005-final.webp"
+  ],
+  "stock": 3327,
+  "weightOz": 16.08,
+  "unitCostUsd": 36.28,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809742511895",
+  "sourceColor": "brown-1"
+},
+{
+  "slug": "calienne-rhinestone-suit-taupe",
+  "name": "Calienne Rhinestone Suit — Taupe",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 447.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#9f9586"
+  ],
+  "colorNames": [
+    "Taupe"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL",
+    "4XL"
+  ],
+  "description": "A full-length blazer and trouser suit with shimmering rhinestone embellishment and a tailored silhouette.",
+  "materials": "Tailored fabric with rhinestone embellishment.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/calienne-rhinestone-suit-taupe/front-20261005-v2.webp",
+    "/products/calienne-rhinestone-suit-taupe/back-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-taupe/left-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-taupe/right-20261005-final.webp"
+  ],
+  "stock": 337,
+  "weightOz": 70.55,
+  "unitCostUsd": 149.24,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811405926531",
+  "sourceColor": "as the picture",
+  "fulfillment": {
+    "kind": "extended-preparation",
+    "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+  }
+},
+{
+  "slug": "calienne-rhinestone-suit-blue",
+  "name": "Calienne Rhinestone Suit — Blue",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 447.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#0080ff"
+  ],
+  "colorNames": [
+    "Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL",
+    "4XL"
+  ],
+  "description": "A full-length blazer and trouser suit with shimmering rhinestone embellishment and a tailored silhouette.",
+  "materials": "Tailored fabric with rhinestone embellishment.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/calienne-rhinestone-suit-blue/front-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-blue/back-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-blue/left-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-blue/right-20261005-final.webp"
+  ],
+  "stock": 350,
+  "weightOz": 70.55,
+  "unitCostUsd": 149.24,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811405926531",
+  "sourceColor": "Blue",
+  "fulfillment": {
+    "kind": "extended-preparation",
+    "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+  }
+},
+{
+  "slug": "calienne-rhinestone-suit-red",
+  "name": "Calienne Rhinestone Suit — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 447.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#ff0000"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL",
+    "4XL"
+  ],
+  "description": "A full-length blazer and trouser suit with shimmering rhinestone embellishment and a tailored silhouette.",
+  "materials": "Tailored fabric with rhinestone embellishment.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/calienne-rhinestone-suit-red/front-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-red/back-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-red/left-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-red/right-20261005-final.webp"
+  ],
+  "stock": 350,
+  "weightOz": 70.55,
+  "unitCostUsd": 149.24,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811405926531",
+  "sourceColor": "Red",
+  "fulfillment": {
+    "kind": "extended-preparation",
+    "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+  }
+},
+{
+  "slug": "calienne-rhinestone-suit-grey",
+  "name": "Calienne Rhinestone Suit — Grey",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 447.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#999999"
+  ],
+  "colorNames": [
+    "Grey"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL",
+    "4XL"
+  ],
+  "description": "A full-length blazer and trouser suit with shimmering rhinestone embellishment and a tailored silhouette.",
+  "materials": "Tailored fabric with rhinestone embellishment.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/calienne-rhinestone-suit-grey/front-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-grey/back-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-grey/left-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-grey/right-20261005-final.webp"
+  ],
+  "stock": 350,
+  "weightOz": 70.55,
+  "unitCostUsd": 149.24,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811405926531",
+  "sourceColor": "GRAY",
+  "fulfillment": {
+    "kind": "extended-preparation",
+    "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+  }
+},
+{
+  "slug": "calienne-rhinestone-suit-forest",
+  "name": "Calienne Rhinestone Suit — Forest",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 447.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#007000"
+  ],
+  "colorNames": [
+    "Forest"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL",
+    "4XL"
+  ],
+  "description": "A full-length blazer and trouser suit with shimmering rhinestone embellishment and a tailored silhouette.",
+  "materials": "Tailored fabric with rhinestone embellishment.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/calienne-rhinestone-suit-forest/front-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-forest/back-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-forest/left-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-forest/right-20261005-final.webp"
+  ],
+  "stock": 350,
+  "weightOz": 70.55,
+  "unitCostUsd": 149.24,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811405926531",
+  "sourceColor": "green",
+  "fulfillment": {
+    "kind": "extended-preparation",
+    "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+  }
+},
+{
+  "slug": "calienne-rhinestone-suit-khaki",
+  "name": "Calienne Rhinestone Suit — Khaki",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 447.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#dac9b9"
+  ],
+  "colorNames": [
+    "Khaki"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL",
+    "4XL"
+  ],
+  "description": "A full-length blazer and trouser suit with shimmering rhinestone embellishment and a tailored silhouette.",
+  "materials": "Tailored fabric with rhinestone embellishment.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/calienne-rhinestone-suit-khaki/front-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-khaki/back-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-khaki/left-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-khaki/right-20261005-final.webp"
+  ],
+  "stock": 350,
+  "weightOz": 70.55,
+  "unitCostUsd": 149.24,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811405926531",
+  "sourceColor": "Khaki",
+  "fulfillment": {
+    "kind": "extended-preparation",
+    "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+  }
+},
+{
+  "slug": "calienne-rhinestone-suit-orange",
+  "name": "Calienne Rhinestone Suit — Orange",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 447.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#ffa500"
+  ],
+  "colorNames": [
+    "Orange"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL",
+    "4XL"
+  ],
+  "description": "A full-length blazer and trouser suit with shimmering rhinestone embellishment and a tailored silhouette.",
+  "materials": "Tailored fabric with rhinestone embellishment.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/calienne-rhinestone-suit-orange/front-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-orange/back-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-orange/left-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-orange/right-20261005-final.webp"
+  ],
+  "stock": 350,
+  "weightOz": 70.55,
+  "unitCostUsd": 149.24,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811405926531",
+  "sourceColor": "Orange",
+  "fulfillment": {
+    "kind": "extended-preparation",
+    "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+  }
+},
+{
+  "slug": "calienne-rhinestone-suit-blush",
+  "name": "Calienne Rhinestone Suit — Blush",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 447.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#ffc0cb"
+  ],
+  "colorNames": [
+    "Blush"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL",
+    "4XL"
+  ],
+  "description": "A full-length blazer and trouser suit with shimmering rhinestone embellishment and a tailored silhouette.",
+  "materials": "Tailored fabric with rhinestone embellishment.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/calienne-rhinestone-suit-blush/front-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-blush/back-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-blush/left-20261005-final.webp",
+    "/products/calienne-rhinestone-suit-blush/right-20261005-final.webp"
+  ],
+  "stock": 350,
+  "weightOz": 70.55,
+  "unitCostUsd": 149.24,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256811405926531",
+  "sourceColor": "Pink",
+  "fulfillment": {
+    "kind": "extended-preparation",
+    "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+  }
+},
+{
+  "slug": "elaris-ruffle-gown-butter-yellow",
+  "name": "Elaris Ruffle Gown — Butter Yellow",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 330.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e3d495"
+  ],
+  "colorNames": [
+    "Butter Yellow"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "18 W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A strapless butter-yellow gown with a diagonally pleated crossover bodice and wrap waist. The flowing full-length A-line skirt is finished with vertical cascading ruffles.",
+  "materials": "Smooth occasion fabric with a softly structured bodice.",
+  "care": "Follow the care label attached to the garment. Handle delicate fabrics and embellishments with care.",
+  "images": [
+    "/products/elaris-ruffle-gown-butter-yellow/front-20261005.webp",
+    "/products/elaris-ruffle-gown-butter-yellow/back-20261005-final.webp",
+    "/products/elaris-ruffle-gown-butter-yellow/left-20261005-final.webp",
+    "/products/elaris-ruffle-gown-butter-yellow/right-20261005-final.webp"
+  ],
+  "stock": 279,
+  "weightOz": 70.55,
+  "unitCostUsd": 109.98,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256812807042028",
+  "sourceColor": "model color",
+  "fulfillment": {
+    "kind": "made-to-order",
+    "notice": "Made to order. Please allow approximately 10–30 days for production before dispatch. Delivery time is additional."
+  }
+},
 ];
 
 // The first 81 records are the established catalogue that was live before the
@@ -9910,6 +10541,21 @@ export const approvedNewProductSlugs = new Set<string>([
   "elowyn-ruched-mesh-maxi-dress-black-print-iii",
   "elowyn-ruched-mesh-maxi-dress-ivory-botanical",
   "elowyn-ruched-mesh-maxi-dress-forest-floral",
+  "elowyn-ruched-mesh-maxi-dress-rose-floral",
+  "elowyn-ruched-mesh-maxi-dress-leopard",
+  "elowyn-ruched-mesh-maxi-dress-black-mesh",
+  "elowyn-ruched-mesh-maxi-dress-fuchsia",
+  "elowyn-ruched-mesh-maxi-dress-burgundy",
+  "elowyn-ruched-mesh-maxi-dress-brown-print",
+  "calienne-rhinestone-suit-taupe",
+  "calienne-rhinestone-suit-blue",
+  "calienne-rhinestone-suit-red",
+  "calienne-rhinestone-suit-grey",
+  "calienne-rhinestone-suit-forest",
+  "calienne-rhinestone-suit-khaki",
+  "calienne-rhinestone-suit-orange",
+  "calienne-rhinestone-suit-blush",
+  "elaris-ruffle-gown-butter-yellow",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(

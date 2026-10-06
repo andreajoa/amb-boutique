@@ -1,0 +1,630 @@
+{
+  "reviewedAt": "2026-10-06T02:28:47.299Z",
+  "mode": "INDEPENDENT_READ_ONLY_DATA_AND_PROVENANCE",
+  "currentVisible": 482,
+  "candidates": 15,
+  "baselineExactRecords": 444,
+  "previousApprovedExactRecords": 23,
+  "standardSkuChecks": 100,
+  "managerPlannedMappingChecks": 100,
+  "imageHashAndDimensionsChecks": 60,
+  "fulfillmentConfigured": 9,
+  "skuOverlap": 0,
+  "redStock": 350,
+  "stockIsCapturedEvidence": true,
+  "freshSupplierRead": false,
+  "approvalStatus": "60/60 PASS",
+  "applicationWrites": 0,
+  "externalActions": 0,
+  "sourceSnapshots": {
+    "3256809742511895": {
+      "lastCheckedAt": "2026-10-05T00:21:54.443Z",
+      "refreshedAt": "2026-10-05T00:22:10.867Z",
+      "rawPayloadSha256": "827f809bd1e25d07bdaad012f8fde34ee522fccd586a59c5e18bf3c9377cb337"
+    },
+    "3256811405926531": {
+      "lastCheckedAt": "2026-10-05T00:22:36.493Z",
+      "refreshedAt": "2026-10-05T00:22:54.617Z",
+      "rawPayloadSha256": "f682c045a0f5b32fce063ddb155c09ee2c65f2fe6819d2efa062b6c29dc7cac8"
+    },
+    "3256812807042028": {
+      "lastCheckedAt": "2026-10-05T00:08:39.515Z",
+      "refreshedAt": "2026-10-05T00:08:48.852Z",
+      "rawPayloadSha256": "ad4ce0dfcb712a8a58d451a010b1db54f714d9918066bbe4197a42e5dd336669"
+    }
+  },
+  "rows": [
+    {
+      "slug": "elowyn-ruched-mesh-maxi-dress-rose-floral",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Rose Red",
+      "price": 108.9,
+      "unitCostUsd": 36.28,
+      "stock": 3328,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "standardSkus": 5,
+      "fulfillment": null,
+      "visible": true,
+      "images": [
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-rose-floral/front-20261005.webp",
+          "sha256": "31ea314ad932ac8ab4f81d60994274905fdf8105b03cdcc32e9b746e121b8dad"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-rose-floral/back-20261005-final.webp",
+          "sha256": "afbf5bd609c7c9e6b54adff906387b70cc13af395fae8aa0b7a0884011898946"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-rose-floral/left-20261005-final.webp",
+          "sha256": "849fab8725149657b185ff1d2306e89304ec9a635ce293fd743cd3f3f503412a"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-rose-floral/right-20261005-final.webp",
+          "sha256": "6141266b077b633a7b13a1ed87fc9926fdb2ba32bb3093113ae5931b585c5964"
+        }
+      ]
+    },
+    {
+      "slug": "elowyn-ruched-mesh-maxi-dress-leopard",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Dark Brown",
+      "price": 108.9,
+      "unitCostUsd": 36.28,
+      "stock": 3330,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "standardSkus": 5,
+      "fulfillment": null,
+      "visible": true,
+      "images": [
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-leopard/front-20261005.webp",
+          "sha256": "6d45556251e9fbfbd7d196cd5cf89966414c3fc29a6e3762ea9e270757e96da2"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-leopard/back-20261005-final.webp",
+          "sha256": "2111e13a2b9805542cd67c9334c80c678e3e64ca2a5919c917b92a1ec4c5fa31"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-leopard/left-20261005-final.webp",
+          "sha256": "4aa284c8ee2101daa9632ffe58b8557f6f577969af45f4435405a27b77cdc64e"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-leopard/right-20261005-final.webp",
+          "sha256": "bfe1f46a960181b243d9434fd92827275a405d9348da75290f31aa0e0aa1e9de"
+        }
+      ]
+    },
+    {
+      "slug": "elowyn-ruched-mesh-maxi-dress-black-mesh",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "black",
+      "price": 108.9,
+      "unitCostUsd": 36.28,
+      "stock": 3329,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "standardSkus": 5,
+      "fulfillment": null,
+      "visible": true,
+      "images": [
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-black-mesh/front-20261005-v2.webp",
+          "sha256": "fb391d767cd22fd1e0bf5117d468bc3609c5558eab092b8e9c0a33a151760652"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-black-mesh/back-20261005-final.webp",
+          "sha256": "b0113e51677776e24d744b95e52c467f26bdb9a5654f4220ca27eebe9ee99ae7"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-black-mesh/left-20261005-final.webp",
+          "sha256": "b50bc3aad9a80d53a1bf1647fa22a421e9e136ddd37c9fbe4ecd6e3fa3fe4317"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-black-mesh/right-20261005-final.webp",
+          "sha256": "808750128bb5b74f16fe302bf06ea99fdd50ce77ced3de326c21c87cb1502e93"
+        }
+      ]
+    },
+    {
+      "slug": "elowyn-ruched-mesh-maxi-dress-fuchsia",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Fuchsia",
+      "price": 108.9,
+      "unitCostUsd": 36.28,
+      "stock": 3330,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "standardSkus": 5,
+      "fulfillment": null,
+      "visible": true,
+      "images": [
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-fuchsia/front-20261005.webp",
+          "sha256": "4ab5e009f1c4ffc4c1c2b034cd163a34516bbc003172e75c62f48ab759581b61"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-fuchsia/back-20261005-final.webp",
+          "sha256": "c9154b607ce1e6a4ff6d9807d166022fd68970d1c29ef298ad4b6b1c029b41fb"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-fuchsia/left-20261005-final.webp",
+          "sha256": "e1e2a632d2faf2ae9f0c31b1bf75afdf3c068c5d1757a529c252504f7e54d10f"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-fuchsia/right-20261005-final.webp",
+          "sha256": "fca70beb426870c69278989b7d46a1f351f17be7c473e93ab0775fe92bc58a23"
+        }
+      ]
+    },
+    {
+      "slug": "elowyn-ruched-mesh-maxi-dress-burgundy",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "Burgundy",
+      "price": 108.9,
+      "unitCostUsd": 36.28,
+      "stock": 3327,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "standardSkus": 5,
+      "fulfillment": null,
+      "visible": true,
+      "images": [
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-burgundy/front-20261005.webp",
+          "sha256": "a3736446471a3c0b0159af5ea487be0019bafd981ef21873396042ce4846cf52"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-burgundy/back-20261005-final.webp",
+          "sha256": "5a15180bd11c454b24deeed1dc2072d73cd23ba9f520066accb8d35020e91502"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-burgundy/left-20261005-final.webp",
+          "sha256": "e379439a11fb4a536ad4529a77983488c5cc0773e64d24bf3b170492c49f9a7a"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-burgundy/right-20261005-final.webp",
+          "sha256": "b5b68ddf0aaa24c7baa461d2ad0f8c229db271c0c8c3477858f7773f7a206e9f"
+        }
+      ]
+    },
+    {
+      "slug": "elowyn-ruched-mesh-maxi-dress-brown-print",
+      "sourceProductId": "3256809742511895",
+      "sourceColor": "brown-1",
+      "price": 108.9,
+      "unitCostUsd": 36.28,
+      "stock": 3327,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "standardSkus": 5,
+      "fulfillment": null,
+      "visible": true,
+      "images": [
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-brown-print/front-20261005.webp",
+          "sha256": "7ee67a82974786b0520055655f4307149fbf8dcc3ca44a3fe4e871f8c2974e81"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-brown-print/back-20261005-final.webp",
+          "sha256": "8e08e75981bbdbb890629728bec55f73ece676bdfe6ddaa1152d4d5247a08e97"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-brown-print/left-20261005-final.webp",
+          "sha256": "cff134ff5ee69dce8c488abf84344b3b512564de3894b3e32c4fc3eb84830790"
+        },
+        {
+          "image": "/products/elowyn-ruched-mesh-maxi-dress-brown-print/right-20261005-final.webp",
+          "sha256": "f0857bca06ba396e501130d1d0769b4b0503f9cfc8a75c61cc353466f9c3a3f9"
+        }
+      ]
+    },
+    {
+      "slug": "calienne-rhinestone-suit-taupe",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "as the picture",
+      "price": 447.9,
+      "unitCostUsd": 149.24,
+      "stock": 337,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL",
+        "4XL"
+      ],
+      "standardSkus": 7,
+      "fulfillment": {
+        "kind": "extended-preparation",
+        "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+      },
+      "visible": true,
+      "images": [
+        {
+          "image": "/products/calienne-rhinestone-suit-taupe/front-20261005-v2.webp",
+          "sha256": "e06a7518fdb4abc910f7c59d066040ae94f9365775cfca1ad57ed9c173cfbd56"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-taupe/back-20261005-final.webp",
+          "sha256": "281de343f4f35859a951a31544f9ae953421e2c3608620e2d117e14e9be848b9"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-taupe/left-20261005-final.webp",
+          "sha256": "af6e6070e65c382ab5be4930391577b11c389f2aa6b920bab48ad1d729133ea8"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-taupe/right-20261005-final.webp",
+          "sha256": "137813eb200ad570522fc5895f6c016abf62db214ed0d05a6e4fd363b90540e1"
+        }
+      ]
+    },
+    {
+      "slug": "calienne-rhinestone-suit-blue",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Blue",
+      "price": 447.9,
+      "unitCostUsd": 149.24,
+      "stock": 350,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL",
+        "4XL"
+      ],
+      "standardSkus": 7,
+      "fulfillment": {
+        "kind": "extended-preparation",
+        "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+      },
+      "visible": true,
+      "images": [
+        {
+          "image": "/products/calienne-rhinestone-suit-blue/front-20261005-final.webp",
+          "sha256": "914e0d4e2f043d311b62f7e549fe7634583ecdac4363bce7385ecd00b1a35aa6"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-blue/back-20261005-final.webp",
+          "sha256": "eaf87a2c0bec0fc3d3bbdc88f927a674b63a378c501ab49e83bbab035dcf7476"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-blue/left-20261005-final.webp",
+          "sha256": "8c236a4bca39c09894adca685393905de85bc263c90e16e6c07e2de462c72dc9"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-blue/right-20261005-final.webp",
+          "sha256": "aa01f6d3a0d9ea9848eff7427f68737723b4ca9a8edfafcbc99b6980db49aa23"
+        }
+      ]
+    },
+    {
+      "slug": "calienne-rhinestone-suit-red",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Red",
+      "price": 447.9,
+      "unitCostUsd": 149.24,
+      "stock": 350,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL",
+        "4XL"
+      ],
+      "standardSkus": 7,
+      "fulfillment": {
+        "kind": "extended-preparation",
+        "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+      },
+      "visible": true,
+      "images": [
+        {
+          "image": "/products/calienne-rhinestone-suit-red/front-20261005-final.webp",
+          "sha256": "b240ccbb44fd48e4fb1488ee3a57f992f466658594d44674d3f11a428cd26b14"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-red/back-20261005-final.webp",
+          "sha256": "96547b881640ee7d1ee1a0903993e5210d40556a54f32fdc539721db731b65f2"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-red/left-20261005-final.webp",
+          "sha256": "9896d9cb2fdbad7981a44cd30ced2870342d23a70b7050c8de7cab14a3bab3d6"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-red/right-20261005-final.webp",
+          "sha256": "0f255ce22467d61a3a2b414b05ee0cca1f4cb4a010776b91ea47420e26fb7410"
+        }
+      ]
+    },
+    {
+      "slug": "calienne-rhinestone-suit-grey",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "GRAY",
+      "price": 447.9,
+      "unitCostUsd": 149.24,
+      "stock": 350,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL",
+        "4XL"
+      ],
+      "standardSkus": 7,
+      "fulfillment": {
+        "kind": "extended-preparation",
+        "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+      },
+      "visible": true,
+      "images": [
+        {
+          "image": "/products/calienne-rhinestone-suit-grey/front-20261005-final.webp",
+          "sha256": "b26bf9591d3dd66051355d10b57a6a7293dda63f986431636be0ed1c6b25d18a"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-grey/back-20261005-final.webp",
+          "sha256": "b716ddbdb1a09eb6159f2ee104382e50fa3764070903e92f628db55d64898204"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-grey/left-20261005-final.webp",
+          "sha256": "3c3a7adb3362e353c985f71258e16668b723cb55f11960759631381ff4a6815b"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-grey/right-20261005-final.webp",
+          "sha256": "696b23139c0845648a79f0da4c2d24d36f2f569307d4eacfb1395c4539a4e990"
+        }
+      ]
+    },
+    {
+      "slug": "calienne-rhinestone-suit-forest",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "green",
+      "price": 447.9,
+      "unitCostUsd": 149.24,
+      "stock": 350,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL",
+        "4XL"
+      ],
+      "standardSkus": 7,
+      "fulfillment": {
+        "kind": "extended-preparation",
+        "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+      },
+      "visible": true,
+      "images": [
+        {
+          "image": "/products/calienne-rhinestone-suit-forest/front-20261005-final.webp",
+          "sha256": "a28faaf8c6ab06c9f0e5aa034c66c10ce6a95389d53d1288653cad52df8d40a7"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-forest/back-20261005-final.webp",
+          "sha256": "e5659035240348d421ed08e494d2e9c6f7e3944084f9e16a5c6bca388a59d62f"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-forest/left-20261005-final.webp",
+          "sha256": "addf134facfb4b422488357f464be1a1ee459f0e78962456d377703cef8f6196"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-forest/right-20261005-final.webp",
+          "sha256": "74afdead749f94d6025201013c969e844cf0b4b6b3eec99957f692c105104117"
+        }
+      ]
+    },
+    {
+      "slug": "calienne-rhinestone-suit-khaki",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Khaki",
+      "price": 447.9,
+      "unitCostUsd": 149.24,
+      "stock": 350,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL",
+        "4XL"
+      ],
+      "standardSkus": 7,
+      "fulfillment": {
+        "kind": "extended-preparation",
+        "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+      },
+      "visible": true,
+      "images": [
+        {
+          "image": "/products/calienne-rhinestone-suit-khaki/front-20261005-final.webp",
+          "sha256": "ca8f1bb7ce4e6847e2e8e24af5bc9a58ba69d89bf1a000526e18242396439693"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-khaki/back-20261005-final.webp",
+          "sha256": "b8b9dc9ff05bdcf3cdd31f16bab2ef35e35a76955acf320d95095e2d37aa4720"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-khaki/left-20261005-final.webp",
+          "sha256": "4fd13c40ba8c6cf81661551e3e289d77a70a5b2533e7540f8adb44d09701c58d"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-khaki/right-20261005-final.webp",
+          "sha256": "cbaefb88b6595f4471fd1cf714f5f1b58dfe5e63fbb7eb8f965ed18aa872c00d"
+        }
+      ]
+    },
+    {
+      "slug": "calienne-rhinestone-suit-orange",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Orange",
+      "price": 447.9,
+      "unitCostUsd": 149.24,
+      "stock": 350,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL",
+        "4XL"
+      ],
+      "standardSkus": 7,
+      "fulfillment": {
+        "kind": "extended-preparation",
+        "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+      },
+      "visible": true,
+      "images": [
+        {
+          "image": "/products/calienne-rhinestone-suit-orange/front-20261005-final.webp",
+          "sha256": "e19ca90a6bbb28e702f5cbf6e2482cce0b46160b74cdf5cf89227e31eae351b8"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-orange/back-20261005-final.webp",
+          "sha256": "a9a30edfb61ea82de59fd5bfa6d97c01ecd409b92ff7be7f675dcb3e4d50f6b0"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-orange/left-20261005-final.webp",
+          "sha256": "b01d9c3ab4d7067850d38bf3214490b74a6c445cf632652e50409052af2ba667"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-orange/right-20261005-final.webp",
+          "sha256": "fd1e8cbbe4090799a79bb7e32b91655bbaaf4414039f447f25a691d05924a0a6"
+        }
+      ]
+    },
+    {
+      "slug": "calienne-rhinestone-suit-blush",
+      "sourceProductId": "3256811405926531",
+      "sourceColor": "Pink",
+      "price": 447.9,
+      "unitCostUsd": 149.24,
+      "stock": 350,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL",
+        "4XL"
+      ],
+      "standardSkus": 7,
+      "fulfillment": {
+        "kind": "extended-preparation",
+        "notice": "Extended preparation. Please allow approximately 3–15 business days before dispatch. Delivery time is additional."
+      },
+      "visible": true,
+      "images": [
+        {
+          "image": "/products/calienne-rhinestone-suit-blush/front-20261005-final.webp",
+          "sha256": "e9ef21035024943fa3c157f6b83f4ecbcdeb250a2c2acf01fa7b5f65e69483f1"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-blush/back-20261005-final.webp",
+          "sha256": "96831e405813c2d0ed7062b5118f100839cb15faabd79096985c9c894de7d16b"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-blush/left-20261005-final.webp",
+          "sha256": "3076b594a9deb92fd015a4c05f596ea9b828aa84b1f7bb5147438b5fb7bc23e1"
+        },
+        {
+          "image": "/products/calienne-rhinestone-suit-blush/right-20261005-final.webp",
+          "sha256": "84e10b90d108fe685adb24e3226add0617c6c5ddef11424a262847740e4dab16"
+        }
+      ]
+    },
+    {
+      "slug": "elaris-ruffle-gown-butter-yellow",
+      "sourceProductId": "3256812807042028",
+      "sourceColor": "model color",
+      "price": 330.9,
+      "unitCostUsd": 109.98,
+      "stock": 279,
+      "sizes": [
+        "2",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12",
+        "14",
+        "16",
+        "16W",
+        "18 W",
+        "20W",
+        "22W",
+        "24W",
+        "26W"
+      ],
+      "standardSkus": 14,
+      "fulfillment": {
+        "kind": "made-to-order",
+        "notice": "Made to order. Please allow approximately 10–30 days for production before dispatch. Delivery time is additional."
+      },
+      "visible": true,
+      "images": [
+        {
+          "image": "/products/elaris-ruffle-gown-butter-yellow/front-20261005.webp",
+          "sha256": "60f9baa6880406e2676580a07c7b012d797b5b90e480d5a52c7a8e87070a0c95"
+        },
+        {
+          "image": "/products/elaris-ruffle-gown-butter-yellow/back-20261005-final.webp",
+          "sha256": "76d44b1efa75878ad58c724ee64b845b71bee6deb824de95287e8db20b1824a6"
+        },
+        {
+          "image": "/products/elaris-ruffle-gown-butter-yellow/left-20261005-final.webp",
+          "sha256": "df002d5c6c6097e99f4f23a976f0cb17b562caf662d80ca78a4b687cbbfaadd3"
+        },
+        {
+          "image": "/products/elaris-ruffle-gown-butter-yellow/right-20261005-final.webp",
+          "sha256": "6c6cf5175eaadfd006767893295ed0ce93e4c3b478f1430d31fefd4a3833bfad"
+        }
+      ]
+    }
+  ]
+}
