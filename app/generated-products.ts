@@ -12074,6 +12074,346 @@ const allGeneratedProducts: Product[] = [
   "sourceProductId": "3256811362986360",
   "sourceColor": "Chocolate"
 },
+{
+  "slug": "marlow-suede-chain-tote-khaki",
+  "name": "Marlow Suede Chain Tote — Khaki",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 96.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#957452"
+  ],
+  "colorNames": [
+    "Khaki"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft slouchy faux-suede tote with gathered drawstring sides and antique-brass chain straps threaded with leather, plus a long leather shoulder strap.",
+  "materials": "Faux-suede upper with synthetic leather trims, textile lining and antique-brass chain.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/marlow-suede-chain-tote-khaki/01.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-khaki/02.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-khaki/03.webp?v=20261006",
+    "/editorial/bags/products/marlow-suede-chain-tote-khaki/04.webp?v=20261006"
+  ],
+  "stock": 996,
+  "weightOz": 26,
+  "unitCostUsd": 32.18,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809432709699",
+  "sourceColor": "Khaki"
+},
+{
+  "slug": "nuvola-pillow-bag-brown",
+  "name": "Nuvola Pillow Bag — Brown",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 55.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#614036"
+  ],
+  "colorNames": [
+    "Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A plump puffer shoulder bag made of four padded quilted panels, with short padded handles and a zip top.",
+  "materials": "Quilted nylon shell with soft padding and textile lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/nuvola-pillow-bag-brown/01.webp?v=20261006",
+    "/editorial/bags/products/nuvola-pillow-bag-brown/02.webp?v=20261006",
+    "/editorial/bags/products/nuvola-pillow-bag-brown/03.webp?v=20261006",
+    "/editorial/bags/products/nuvola-pillow-bag-brown/04.webp?v=20261006"
+  ],
+  "stock": 1,
+  "weightOz": 18,
+  "unitCostUsd": 18.35,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809361904236",
+  "sourceColor": "Brown"
+},
+{
+  "slug": "nuvola-pillow-bag-pink",
+  "name": "Nuvola Pillow Bag — Pink",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 55.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e2b6ae"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A plump puffer shoulder bag made of four padded quilted panels, with short padded handles and a zip top.",
+  "materials": "Quilted nylon shell with soft padding and textile lining.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/nuvola-pillow-bag-pink/01.webp?v=20261006",
+    "/editorial/bags/products/nuvola-pillow-bag-pink/02.webp?v=20261006",
+    "/editorial/bags/products/nuvola-pillow-bag-pink/03.webp?v=20261006",
+    "/editorial/bags/products/nuvola-pillow-bag-pink/04.webp?v=20261006"
+  ],
+  "stock": 2,
+  "weightOz": 18,
+  "unitCostUsd": 18.47,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256809361904236",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "lucca-bucket-bag-black",
+  "name": "Lucca Bucket Bag — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 86.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#242427"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured bucket bag in pebbled vegan leather with a wide front flap, a framed buckle and a rounded top handle. The detachable strap turns it into an easy shoulder or crossbody bag.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/lucca-bucket-bag-black/01.webp?v=20261006",
+    "/editorial/bags/products/lucca-bucket-bag-black/02.webp?v=20261006",
+    "/editorial/bags/products/lucca-bucket-bag-black/03.webp?v=20261006",
+    "/editorial/bags/products/lucca-bucket-bag-black/04.webp?v=20261006"
+  ],
+  "stock": 54,
+  "weightOz": 28,
+  "unitCostUsd": 17.24,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256807092777393",
+  "sourceColor": "black"
+},
+{
+  "slug": "nero-chain-satchel-black",
+  "name": "Nero Chain Satchel — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 108.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#302f32"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A large structured flap satchel in black vegan leather with a python-embossed centre panel, stitched pleats and chain-trimmed top handles.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/nero-chain-satchel-black/01.webp?v=20261006",
+    "/editorial/bags/products/nero-chain-satchel-black/02.webp?v=20261006",
+    "/editorial/bags/products/nero-chain-satchel-black/03.webp?v=20261006",
+    "/editorial/bags/products/nero-chain-satchel-black/04.webp?v=20261006"
+  ],
+  "stock": 15,
+  "weightOz": 34,
+  "unitCostUsd": 36.15,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256812559255591",
+  "sourceColor": "black"
+},
+{
+  "slug": "cora-saddle-bag-black",
+  "name": "Cora Saddle Bag — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 134.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#2e2c28"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured shoulder bag with layered wing-shaped flaps, contrast white edge stitching, a short top handle and a wide adjustable strap.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/cora-saddle-bag-black/01.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-black/02.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-black/03.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-black/04.webp?v=20261006"
+  ],
+  "stock": 9950,
+  "weightOz": 24,
+  "unitCostUsd": 44.76,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256812751525643",
+  "sourceColor": "Black"
+},
+{
+  "slug": "cora-saddle-bag-brown",
+  "name": "Cora Saddle Bag — Brown",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 134.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b66a43"
+  ],
+  "colorNames": [
+    "Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured shoulder bag with layered wing-shaped flaps, contrast white edge stitching, a short top handle and a wide adjustable strap.",
+  "materials": "Synthetic leather upper with synthetic lining and polished metal hardware. Exact composition follows the product label.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/cora-saddle-bag-brown/01.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-brown/02.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-brown/03.webp?v=20261006",
+    "/editorial/bags/products/cora-saddle-bag-brown/04.webp?v=20261006"
+  ],
+  "stock": 9960,
+  "weightOz": 24,
+  "unitCostUsd": 44.76,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256812751525643",
+  "sourceColor": "Brown"
+},
+{
+  "slug": "amalfi-dumpling-bag-large-burgundy",
+  "name": "Amalfi Dumpling Bag Large — Burgundy",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 165.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#6d282f"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft winged dumpling bag with gently pleated sides, a rounded top handle and a slim front belt with a small gold-tone buckle.",
+  "materials": "Synthetic leather or cotton canvas upper (see colour) with synthetic lining and gold-tone hardware.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/amalfi-dumpling-bag-large-burgundy/01.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-large-burgundy/02.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-large-burgundy/03.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-large-burgundy/04.webp?v=20261006"
+  ],
+  "stock": 5,
+  "weightOz": 26,
+  "unitCostUsd": 55.17,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810396310468",
+  "sourceColor": "Burgundy Large"
+},
+{
+  "slug": "amalfi-dumpling-bag-large-latte",
+  "name": "Amalfi Dumpling Bag Large — Latte",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 158.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b3865b"
+  ],
+  "colorNames": [
+    "Latte"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft winged dumpling bag with gently pleated sides, a rounded top handle and a slim front belt with a small gold-tone buckle.",
+  "materials": "Synthetic leather or cotton canvas upper (see colour) with synthetic lining and gold-tone hardware.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/amalfi-dumpling-bag-large-latte/01.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-large-latte/02.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-large-latte/03.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-large-latte/04.webp?v=20261006"
+  ],
+  "stock": 3,
+  "weightOz": 26,
+  "unitCostUsd": 52.73,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810396310468",
+  "sourceColor": "Latte Large"
+},
+{
+  "slug": "amalfi-dumpling-bag-large-black-alligator",
+  "name": "Amalfi Dumpling Bag Large — Black Croc",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 150.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#272728"
+  ],
+  "colorNames": [
+    "Black Croc"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft winged dumpling bag with gently pleated sides, a rounded top handle and a slim front belt with a small gold-tone buckle.",
+  "materials": "Synthetic leather or cotton canvas upper (see colour) with synthetic lining and gold-tone hardware.",
+  "care": "Wipe clean with a soft damp cloth. Avoid prolonged moisture, direct heat and abrasive surfaces. Store filled to preserve shape.",
+  "images": [
+    "/editorial/bags/products/amalfi-dumpling-bag-large-black-alligator/01.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-large-black-alligator/02.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-large-black-alligator/03.webp?v=20261006",
+    "/editorial/bags/products/amalfi-dumpling-bag-large-black-alligator/04.webp?v=20261006"
+  ],
+  "stock": 2,
+  "weightOz": 26,
+  "unitCostUsd": 50.18,
+  "minimumMarginPercent": 40,
+  "sourceProductId": "3256810396310468",
+  "sourceColor": "Black Alligator L"
+},
 ];
 
 // The first 81 records are the established catalogue that was live before the
@@ -12341,6 +12681,16 @@ export const approvedNewProductSlugs = new Set<string>([
   "lucca-bucket-bag-green",
   "amalfi-dumpling-bag-small-white",
   "positano-shoulder-bag-chocolate",
+  "marlow-suede-chain-tote-khaki",
+  "nuvola-pillow-bag-brown",
+  "nuvola-pillow-bag-pink",
+  "lucca-bucket-bag-black",
+  "nero-chain-satchel-black",
+  "cora-saddle-bag-black",
+  "cora-saddle-bag-brown",
+  "amalfi-dumpling-bag-large-burgundy",
+  "amalfi-dumpling-bag-large-latte",
+  "amalfi-dumpling-bag-large-black-alligator",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(
