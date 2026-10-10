@@ -109,7 +109,7 @@ export default function ProductDetail({
         <section className="product-gallery" aria-label={`${product.name} gallery`}>
           {gallery.map((image, index) => {
             const directImage = image ? getDirectProductImage(product, index) : undefined;
-            return <button type="button" key={`${image || "gallery"}-${index}`} className={`gallery-image gallery-q${index + 1}${directImage ? " has-direct-image" : ""}`} style={image && !directImage ? getProductImageStyle(product, index) : undefined} aria-label={`Open ${product.name} image ${index + 1} of ${gallery.length}`} onClick={(event) => { lightboxReturnFocus.current = event.currentTarget; setActiveImage(index); }} data-track={`product-gallery:${product.slug}:${index + 1}`}>{directImage && <Image src={directImage} alt={`${product.name}, view ${index + 1}`} fill sizes="(max-width: 560px) 88vw, (max-width: 900px) 100vw, 33vw"/>}<span aria-hidden="true">⌕</span></button>;
+            return <button type="button" key={`${image || "gallery"}-${index}`} className={`gallery-image gallery-q${index + 1}${directImage ? " has-direct-image" : ""}`} style={image && !directImage ? getProductImageStyle(product, index) : undefined} aria-label={`Open ${product.name} image ${index + 1} of ${gallery.length}`} onClick={(event) => { lightboxReturnFocus.current = event.currentTarget; setActiveImage(index); }} data-track={`product-gallery:${product.slug}:${index + 1}`}>{directImage && <Image src={directImage} alt={`${product.name}, view ${index + 1}`} fill unoptimized={directImage.startsWith("/editorial/")} sizes="(max-width: 560px) 88vw, (max-width: 900px) 100vw, 33vw"/>}<span aria-hidden="true">⌕</span></button>;
           })}
         </section>
 
@@ -119,7 +119,7 @@ export default function ProductDetail({
             <button type="button" className="product-lightbox-close" onClick={() => setActiveImage(null)} aria-label="Close image viewer" ref={lightboxCloseRef}>×</button>
             <button type="button" className="product-lightbox-arrow previous" onClick={() => setActiveImage((activeImage - 1 + gallery.length) % gallery.length)} aria-label="Previous image">‹</button>
             <div className="product-lightbox-image" style={getDirectProductImage(product, activeImage) ? undefined : getProductImageStyle(product, activeImage)}>
-              {getDirectProductImage(product, activeImage) && <Image src={getDirectProductImage(product, activeImage)!} alt={`${product.name}, enlarged view ${activeImage + 1}`} fill sizes="min(88vw, 900px)" priority/>}
+              {getDirectProductImage(product, activeImage) && <Image src={getDirectProductImage(product, activeImage)!} alt={`${product.name}, enlarged view ${activeImage + 1}`} fill unoptimized={getDirectProductImage(product, activeImage)!.startsWith("/editorial/")} sizes="min(88vw, 900px)" priority/>}
             </div>
             <button type="button" className="product-lightbox-arrow next" onClick={() => setActiveImage((activeImage + 1) % gallery.length)} aria-label="Next image">›</button>
             <p aria-live="polite">{activeImage + 1} / {gallery.length}</p>
