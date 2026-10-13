@@ -282,14 +282,14 @@ function addressLines(address: DashboardAddress | null) {
 }
 
 function OrdersPanel({ orders, error }: { orders: DashboardOrder[]; error: string | null }) {
-  const unfulfilled = orders.filter((order) => order.fulfillmentStatus !== "fulfilled").length;
+  const unfulfilled = orders.filter((order) => !["DELIVERED", "fulfilled"].includes(order.fulfillmentStatus)).length;
   const latest = orders[0];
 
   return <section className={`${styles.panel} ${styles.ordersPanel}`}>
     <PanelTitle eyebrow="ORDERS / FULFILLMENT" title="Paid orders and shipping details"/>
     <div className={styles.orderSummaryGrid}>
       <div><span>Paid orders</span><strong>{orders.length}</strong><small>In the selected dashboard range</small></div>
-      <div><span>Awaiting fulfillment</span><strong>{unfulfilled}</strong><small>Orders not marked fulfilled</small></div>
+      <div><span>Awaiting fulfillment</span><strong>{unfulfilled}</strong><small>Orders not yet delivered</small></div>
       <div><span>Latest sale</span><strong>{latest ? latest.orderReference : "—"}</strong><small>{latest ? orderTime(latest.createdAt) : "No paid sale in this range"}</small></div>
     </div>
     {error ? <p className={styles.orderError}>{error}</p> : null}
@@ -304,7 +304,7 @@ function OrdersPanel({ orders, error }: { orders: DashboardOrder[]; error: strin
           </div>
           <div className={styles.orderSummaryRight}>
             <strong>{money(order.total, order.currency)}</strong>
-            <span className={order.fulfillmentStatus === "fulfilled" ? styles.statusDone : styles.statusPending}>{order.fulfillmentStatus}</span>
+            <span className={["DELIVERED", "fulfilled"].includes(order.fulfillmentStatus) ? styles.statusDone : styles.statusPending}>{order.fulfillmentStatus}</span>
           </div>
         </summary>
         <div className={styles.orderDetailGrid}>

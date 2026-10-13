@@ -2,6 +2,8 @@ import "server-only";
 
 import { createHash, createHmac, timingSafeEqual } from "node:crypto";
 import { getAnalyticsSql, jsonForDatabase } from "./analytics/db";
+import { signAmbFulfillmentPayload } from "./fulfillment-signing";
+import { storeManagerSyncToken } from "./store-manager-auth";
 
 export type AmbTrackingEvent = {
   eventDesc: string;
@@ -294,31 +296,83 @@ export async function trackingLookupByEmailAndReference(email: string, reference
   const normalizedReference = reference.trim();
   if (!normalizedEmail || !normalizedReference) return null;
 
+  // An order must remain trackable even before the first fulfillment sync.
+  // The completed checkout journey is the source of truth for identity;
+  // fulfillment records are optional until the carrier provides updates.
   const rows = await sql`
     SELECT
-      t.session_id,
-      t.fulfillment_status,
+      j.stripe_session_id AS session_id,
+      COALESCE(t.fulfillment_status, 'PROCESSING') AS fulfillment_status,
       t.tracking_code,
       t.latest_event_key,
       t.latest_event_desc,
       t.latest_event_status,
       t.latest_event_address,
       t.latest_event_date,
-      t.timeline,
+      COALESCE(t.timeline, '[]'::jsonb) AS timeline,
       t.shipped_at,
       t.delivered_at,
-      t.updated_at
-    FROM amb_fulfillment_tracking t
-    JOIN amb_commerce_journeys j ON j.stripe_session_id = t.session_id
+      COALESCE(t.updated_at, j.updated_at) AS updated_at
+    FROM amb_commerce_journeys j
+    LEFT JOIN amb_fulfillment_tracking t ON t.session_id = j.stripe_session_id
     WHERE lower(j.email) = ${normalizedEmail}
+      AND j.status = 'completed'
+      AND j.stripe_session_id IS NOT NULL
       AND (
-        t.session_id = ${normalizedReference}
-        OR upper(right(t.session_id, 8)) = upper(${normalizedReference})
-        OR upper(right(t.session_id, 10)) = upper(${normalizedReference})
+        j.stripe_session_id = ${normalizedReference}
+        OR upper(right(j.stripe_session_id, 8)) = upper(${normalizedReference})
+        OR upper(right(j.stripe_session_id, 10)) = upper(${normalizedReference})
       )
-    ORDER BY t.updated_at DESC
+    ORDER BY COALESCE(t.updated_at, j.updated_at) DESC
     LIMIT 1
   ` as AmbTrackingSnapshot[];
 
-  return rows[0] || null;
+  const snapshot = rows[0] || null;
+  if (!snapshot) return null;
+
+  // An authenticated checkout lookup can refresh stale tracking server-side.
+  // Never disclose the connector credentials or trust user-supplied tracking IDs.
+  const age = snapshot.updated_at ? Date.now() - new Date(snapshot.updated_at).getTime() : Infinity;
+  if (age < 15 * 60 * 1000 && snapshot.tracking_code) return snapshot;
+
+  const token = storeManagerSyncToken();
+  const statusPath = "/api/stores/amb-boutique-store/amb/orders/status";
+  const timestamp = String(Date.now());
+  const signature = signAmbFulfillmentPayload(["GET", statusPath, snapshot.session_id, timestamp].join("\n"));
+  if (!token || !signature) return snapshot;
+  try {
+    const managerBase = (process.env.STORE_MANAGER_BASE_URL || "https://aliexpress-store-manager-six.vercel.app").replace(/\/+$/, "");
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 8000);
+    let response: Response;
+    try {
+      response = await fetch(`${managerBase}${statusPath}?session_id=${encodeURIComponent(snapshot.session_id)}`, {
+        headers: {
+          authorization: `Bearer ${token}`,
+          "x-amb-key-id": signature.keyId,
+          "x-amb-signature": signature.signature,
+          "x-amb-timestamp": timestamp,
+        },
+        cache: "no-store",
+        signal: controller.signal,
+      });
+    } finally {
+      clearTimeout(timeout);
+    }
+    if (!response.ok) return snapshot;
+    const manager = await response.json() as ManagerFulfillmentStatus;
+    if (!manager.ok || manager.sessionId !== snapshot.session_id || !Array.isArray(manager.batches)) return snapshot;
+    await saveManagerTrackingStatus(manager);
+    // Retrieve the persisted and sanitized timeline, never present raw provider data.
+    const refreshed = await sql`
+      SELECT session_id, fulfillment_status, tracking_code, latest_event_key,
+        latest_event_desc, latest_event_status, latest_event_address,
+        latest_event_date, timeline, shipped_at, delivered_at, updated_at
+      FROM amb_fulfillment_tracking WHERE session_id = ${snapshot.session_id}
+      LIMIT 1
+    ` as AmbTrackingSnapshot[];
+    return refreshed[0] || snapshot;
+  } catch {
+    return snapshot;
+  }
 }

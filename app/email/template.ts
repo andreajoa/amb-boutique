@@ -216,14 +216,14 @@ function renderWelcomeDiscountEmail(options: {
   <meta name="x-apple-disable-message-reformatting">
   <style>
     @media only screen and (max-width:620px) {
-      .email-shell { width:100% !important; }
+      .email-shell { width:100% !important; max-width:100% !important; margin-left:auto !important; margin-right:auto !important; }
       .mobile-pad { padding-left:24px !important; padding-right:24px !important; }
       .mobile-title { font-size:36px !important; line-height:1.08 !important; }
       .mobile-product { display:block !important; width:100% !important; box-sizing:border-box !important; padding-left:0 !important; padding-right:0 !important; }
       .mobile-stack { display:block !important; width:100% !important; box-sizing:border-box !important; }
       .mobile-stack-pad { padding:28px 24px !important; }
       .mobile-nav a { display:inline-block !important; margin:4px 7px !important; }
-      .mobile-benefit { display:inline-block !important; width:50% !important; box-sizing:border-box !important; }
+      .mobile-benefit { display:block !important; width:100% !important; box-sizing:border-box !important; padding:14px 16px !important; }
     }
   </style>
 </head>
@@ -231,7 +231,7 @@ function renderWelcomeDiscountEmail(options: {
   <div style="display:none;max-height:0;overflow:hidden;opacity:0">Your private 10% welcome code and a considered introduction to AMB BOUTIQUE.</div>
   <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="width:100%;background:#eee6db">
     <tr><td align="center" style="padding:24px 10px">
-      <table class="email-shell" role="presentation" width="720" cellspacing="0" cellpadding="0" style="width:100%;max-width:720px;background:#fffdfa;border:1px solid #ddd2c4">
+      <table class="email-shell" role="presentation" width="100%" cellspacing="0" cellpadding="0" style="width:100%;max-width:720px;background:#fffdfa;border:1px solid #ddd2c4">
         ${emailHeader(campaignKey)}
 
         <tr><td>
@@ -444,13 +444,16 @@ export function renderAmbEmail(campaign: AmbCampaign, options: {
   <meta name="x-apple-disable-message-reformatting">
   <style>
     @media only screen and (max-width:620px) {
-      .email-shell { width:100% !important; }
+      .email-shell { width:100% !important; max-width:100% !important; margin-left:auto !important; margin-right:auto !important; }
       .mobile-pad { padding-left:24px !important; padding-right:24px !important; }
       .mobile-title { font-size:36px !important; line-height:1.08 !important; }
       .mobile-nav a { display:inline-block !important; margin:4px 7px !important; }
-      .mobile-benefit { display:inline-block !important; width:50% !important; box-sizing:border-box !important; }
+      .mobile-benefit { display:block !important; width:100% !important; box-sizing:border-box !important; padding:14px 16px !important; }
       .mobile-button { width:100% !important; }
       .mobile-button a { display:block !important; text-align:center !important; }
+      .mobile-stack { display:block !important; width:100% !important; box-sizing:border-box !important; }
+      .mobile-stack-pad { padding:24px !important; }
+      img { max-width:100% !important; height:auto !important; }
     }
   </style>
 </head>
@@ -458,7 +461,7 @@ export function renderAmbEmail(campaign: AmbCampaign, options: {
   <div style="display:none;max-height:0;overflow:hidden;opacity:0">${escapeHtml(campaign.preview)}</div>
   <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="width:100%;background:#eee6db">
     <tr><td align="center" style="padding:24px 10px">
-      <table class="email-shell" role="presentation" width="720" cellspacing="0" cellpadding="0" style="width:100%;max-width:720px;background:#fffdfa;border:1px solid #ddd2c4">
+      <table class="email-shell" role="presentation" width="100%" cellspacing="0" cellpadding="0" style="width:100%;max-width:720px;background:#fffdfa;border:1px solid #ddd2c4">
         ${emailHeader(campaign.key)}
 
         <tr><td>

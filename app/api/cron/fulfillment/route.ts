@@ -109,7 +109,6 @@ export async function GET(request: NextRequest) {
 
       const saved = await saveManagerTrackingStatus(body);
       const shouldNotify =
-        saved.changed &&
         saved.phase !== "PREPARING" &&
         Boolean(body.trackingCode || saved.latestEvent || body.fulfillmentStatus === "DELIVERED");
 

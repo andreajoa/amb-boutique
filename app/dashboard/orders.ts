@@ -3,6 +3,7 @@ import "server-only";
 import type Stripe from "stripe";
 import { deliveryWindows, type MarketCode } from "../commerce";
 import { getStripe } from "../stripe-server";
+import { getAnalyticsSql } from "../analytics/db";
 
 export type DashboardAddress = {
   name: string | null;
@@ -126,6 +127,22 @@ export async function getDashboardOrders(days: number): Promise<DashboardOrdersR
       session.payment_status === "paid" && session.metadata?.store === "AMB BOUTIQUE"
     );
 
+    const sql = getAnalyticsSql();
+    const trackingStatuses = new Map<string, string>();
+    if (sql && paidSessions.length) {
+      try {
+        const ids = paidSessions.map((session) => session.id);
+        const statuses = await sql`
+          SELECT session_id, fulfillment_status
+          FROM amb_fulfillment_tracking
+          WHERE session_id = ANY(${ids})
+        ` as Array<{session_id: string; fulfillment_status: string}>;
+        for (const item of statuses) trackingStatuses.set(item.session_id, item.fulfillment_status);
+      } catch (error) {
+        console.warn("AMB dashboard tracking status unavailable", error);
+      }
+    }
+
     const orders = await Promise.all(paidSessions.map(async (session) => {
       const lines = await stripe.checkout.sessions.listLineItems(session.id, {
         limit: 100,
@@ -176,7 +193,7 @@ export async function getDashboardOrders(days: number): Promise<DashboardOrdersR
         orderReference: session.id.slice(-10).toUpperCase(),
         createdAt: session.created * 1000,
         paymentStatus: session.payment_status || "unknown",
-        fulfillmentStatus: session.metadata?.fulfillment_status || "unfulfilled",
+        fulfillmentStatus: trackingStatuses.get(session.id) || "PROCESSING",
         market,
         currency,
         subtotal: session.amount_subtotal || 0,
