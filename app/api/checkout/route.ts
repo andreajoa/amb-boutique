@@ -185,6 +185,7 @@ export async function POST(request: NextRequest) {
         return {
           slug: item.product.slug,
           name: item.product.name,
+          image: item.product.images?.[0] || null,
           quantity: item.quantity,
           size: item.line.size || "Selected",
           color: item.line.color || "Selected",

@@ -59,6 +59,8 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
       })
     : "PREPARING";
   const copy = phaseCopy(phase);
+  const headline = latestEvent?.eventDesc?.trim() || copy.title;
+  const statusLabel = phase === "PREPARING" && latestEvent ? "DELIVERY UPDATE" : copy.label;
   const events = snapshot?.timeline?.slice().sort((a,b) => {
     const ta = Date.parse(a.eventDate || "");
     const tb = Date.parse(b.eventDate || "");
@@ -127,10 +129,29 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
 
           {snapshot && (
             <div style={{ display: "grid", gap: 20 }}>
+              {Boolean(snapshot.purchasedItems?.length) && (
+                <section style={{ background: "#fffefc", border: "1px solid #dfd5ca", padding: 28 }}>
+                  <h2 style={{ fontSize: 12, letterSpacing: ".14em", margin: "0 0 20px" }}>ITEMS IN YOUR ORDER</h2>
+                  <div style={{ display: "grid", gap: 18 }}>
+                    {snapshot.purchasedItems?.map((item, i) => (
+                      <div key={i} style={{ display: "flex", gap: 18, alignItems: "center", flexWrap: "wrap" }}>
+                        {item.image ? <img src={item.image} alt={item.name} width={108} height={135} style={{ width: 108, height: 135, objectFit: "contain", background: "#f5efe5" }}/> :
+                          <div style={{ width: 108, height: 135, background: "#f5efe5", display: "grid", placeItems: "center", fontSize: 11, color: "#796d63" }}>Image unavailable</div>}
+                        <div style={{ flex: 1, minWidth: 140, lineHeight: 1.8 }}>
+                          <strong style={{ fontFamily: "Georgia,serif", fontSize: 20 }}>{item.name}</strong>
+                          {item.color && <div>Color: {item.color}</div>}
+                          {item.size && <div>Size: {item.size}</div>}
+                          <div>Quantity: {item.quantity}</div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              )}
               <div style={{ background: "#fffefc", border: "1px solid #dfd5ca", padding: 30 }}>
-                <div style={{ fontSize: 11, letterSpacing: ".16em", fontWeight: 700, color: "#9a755c" }}>{copy.label}</div>
+                <div style={{ fontSize: 11, letterSpacing: ".16em", fontWeight: 700, color: "#9a755c" }}>{statusLabel}</div>
                 <h2 style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: 32, fontWeight: 500, margin: "10px 0 12px" }}>
-                  {copy.title}
+                  {headline}
                 </h2>
                 <div style={{ display: "grid", gap: 6, fontSize: 13, color: "#5c554e" }}>
                   <div>Order reference: <strong>{snapshot.session_id.slice(-10).toUpperCase()}</strong></div>

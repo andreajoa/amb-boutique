@@ -4,6 +4,7 @@ import { createHash, createHmac, timingSafeEqual } from "node:crypto";
 import { getAnalyticsSql, jsonForDatabase } from "./analytics/db";
 import { signAmbFulfillmentPayload } from "./fulfillment-signing";
 import { storeManagerSyncToken } from "./store-manager-auth";
+import { products } from "./data";
 
 export type AmbTrackingEvent = {
   eventDesc: string;
@@ -31,7 +32,9 @@ export type ManagerFulfillmentStatus = {
   checkedAt: string;
 };
 
+export type AmbPurchasedItem = { name: string; image: string | null; size: string | null; color: string | null; quantity: number };
 export type AmbTrackingSnapshot = {
+  purchasedItems?: AmbPurchasedItem[];
   session_id: string;
   fulfillment_status: string;
   tracking_code: string | null;
@@ -330,17 +333,40 @@ export async function trackingLookupByEmailAndReference(email: string, reference
 
   const snapshot = rows[0] || null;
   if (!snapshot) return null;
+  const cartRows = await sql`
+    SELECT cart FROM amb_commerce_journeys
+    WHERE stripe_session_id = ${snapshot.session_id} AND lower(email) = ${normalizedEmail} AND status = 'completed'
+    LIMIT 1
+  ` as Array<{cart: unknown}>;
+  const cart = Array.isArray(cartRows[0]?.cart) ? cartRows[0].cart : [];
+  const purchasedItems: AmbPurchasedItem[] = cart.flatMap((value) => {
+    if (!value || typeof value !== "object" || Array.isArray(value)) return [];
+    const item = value as Record<string, unknown>;
+    const slug = typeof item.slug === "string" ? item.slug : "";
+    const catalogueProduct = products.find((product) => product.slug === slug);
+    const rawImage = typeof item.image === "string" ? item.image : catalogueProduct?.images?.[0];
+    const image = rawImage && ((rawImage.startsWith("/") && !rawImage.startsWith("//")) || rawImage.startsWith("https://")) ? rawImage : null;
+    const quantity = Number(item.quantity);
+    return [{
+      name: typeof item.name === "string" ? item.name : catalogueProduct?.name || "Purchased item",
+      image,
+      color: typeof item.color === "string" ? item.color : null,
+      size: typeof item.size === "string" ? item.size : null,
+      quantity: Number.isFinite(quantity) ? Math.min(99, Math.max(1, quantity)) : 1,
+    }];
+  });
+  const enriched = { ...snapshot, purchasedItems };
 
   // An authenticated checkout lookup can refresh stale tracking server-side.
   // Never disclose the connector credentials or trust user-supplied tracking IDs.
   const age = snapshot.updated_at ? Date.now() - new Date(snapshot.updated_at).getTime() : Infinity;
-  if (age < 15 * 60 * 1000 && snapshot.tracking_code) return snapshot;
+  if (age < 15 * 60 * 1000 && snapshot.tracking_code) return enriched;
 
   const token = storeManagerSyncToken();
   const statusPath = "/api/stores/amb-boutique-store/amb/orders/status";
   const timestamp = String(Date.now());
   const signature = signAmbFulfillmentPayload(["GET", statusPath, snapshot.session_id, timestamp].join("\n"));
-  if (!token || !signature) return snapshot;
+  if (!token || !signature) return enriched;
   try {
     const managerBase = (process.env.STORE_MANAGER_BASE_URL || "https://aliexpress-store-manager-six.vercel.app").replace(/\/+$/, "");
     const controller = new AbortController();
@@ -360,9 +386,9 @@ export async function trackingLookupByEmailAndReference(email: string, reference
     } finally {
       clearTimeout(timeout);
     }
-    if (!response.ok) return snapshot;
+    if (!response.ok) return enriched;
     const manager = await response.json() as ManagerFulfillmentStatus;
-    if (!manager.ok || manager.sessionId !== snapshot.session_id || !Array.isArray(manager.batches)) return snapshot;
+    if (!manager.ok || manager.sessionId !== snapshot.session_id || !Array.isArray(manager.batches)) return enriched;
     await saveManagerTrackingStatus(manager);
     // Retrieve the persisted and sanitized timeline, never present raw provider data.
     const refreshed = await sql`
@@ -372,8 +398,8 @@ export async function trackingLookupByEmailAndReference(email: string, reference
       FROM amb_fulfillment_tracking WHERE session_id = ${snapshot.session_id}
       LIMIT 1
     ` as AmbTrackingSnapshot[];
-    return refreshed[0] || snapshot;
+    return refreshed[0] ? { ...refreshed[0], purchasedItems } : enriched;
   } catch {
-    return snapshot;
+    return enriched;
   }
 }
