@@ -174,32 +174,33 @@ export async function saveManagerTrackingStatus(status: ManagerFulfillmentStatus
   if (!sql) throw new Error("Database unavailable.");
   await ensureFulfillmentTrackingSchema();
 
-  const timeline = cleanTimeline(
-    status.batches.flatMap((batch) => batch.events || []),
-  );
-  // A provider response with no tracking data must never erase previously
-  // verified logistics data or manufacture a new preparation status.
-  if (!status.batches.length || (!status.trackingCode && !timeline.length &&
-      !status.shippedAt && !status.deliveredAt)) {
-    throw new Error("Store Manager returned no verifiable shipment information.");
-  }
-  const latestEvent = timeline.length ? timeline[timeline.length - 1] : null;
-  const eventKey = trackingEventKey({
-    fulfillmentStatus: status.fulfillmentStatus,
-    trackingCode: status.trackingCode,
-    latestEvent,
-  });
-
+  let timeline = cleanTimeline(status.batches.flatMap((batch) => batch.events || []));
   const previous = await sql`
-    SELECT latest_event_key, fulfillment_status, tracking_code
-    FROM amb_fulfillment_tracking
-    WHERE session_id = ${status.sessionId}
-    LIMIT 1
+    SELECT latest_event_key, fulfillment_status, tracking_code, timeline
+    FROM amb_fulfillment_tracking WHERE session_id = ${status.sessionId} LIMIT 1
   ` as Array<{
     latest_event_key: string | null;
     fulfillment_status: string;
     tracking_code: string | null;
+    timeline: AmbTrackingEvent[];
   }>;
+  const old = previous[0];
+  const trackingCode = status.trackingCode || old?.tracking_code || null;
+  if (!status.batches.length || (!trackingCode && !timeline.length &&
+      !status.shippedAt && !status.deliveredAt)) {
+    throw new Error("Store Manager returned no verifiable shipment information.");
+  }
+  // An empty refresh is not evidence that previously observed events vanished.
+  if (!timeline.length && old?.tracking_code === trackingCode && Array.isArray(old.timeline)) {
+    timeline = old.timeline;
+  }
+  const fulfillmentStatus = status.fulfillmentStatus === "ORDERED" &&
+    ["SHIPPED", "DELIVERED"].includes(old?.fulfillment_status || "")
+    ? old!.fulfillment_status : status.fulfillmentStatus;
+  const latestEvent = timeline.length ? timeline[timeline.length - 1] : null;
+  const eventKey = trackingEventKey({
+    fulfillmentStatus, trackingCode, latestEvent,
+  });
 
   await sql`
     INSERT INTO amb_fulfillment_tracking (
@@ -207,7 +208,7 @@ export async function saveManagerTrackingStatus(status: ManagerFulfillmentStatus
       latest_event_desc, latest_event_status, latest_event_address, latest_event_date,
       timeline, shipped_at, delivered_at, checked_at, updated_at
     ) VALUES (
-      ${status.sessionId}, ${status.fulfillmentStatus}, ${status.trackingCode},
+      ${status.sessionId}, ${fulfillmentStatus}, ${trackingCode},
       ${eventKey}, ${latestEvent?.eventDesc || null}, ${latestEvent?.status || null},
       ${latestEvent?.address || null}, ${latestEvent?.eventDate || null},
       ${jsonForDatabase(timeline, 50000)}::jsonb,
@@ -230,15 +231,15 @@ export async function saveManagerTrackingStatus(status: ManagerFulfillmentStatus
 
   const changed = !previous[0] ||
     previous[0].latest_event_key !== eventKey ||
-    previous[0].fulfillment_status !== status.fulfillmentStatus ||
-    previous[0].tracking_code !== status.trackingCode;
+    previous[0].fulfillment_status !== fulfillmentStatus ||
+    previous[0].tracking_code !== trackingCode;
 
   return {
     changed,
     eventKey,
     latestEvent,
     timeline,
-    phase: trackingPhase({ fulfillmentStatus: status.fulfillmentStatus, latestEvent }),
+    phase: trackingPhase({ fulfillmentStatus, latestEvent }),
     previous: previous[0] || null,
   };
 }
