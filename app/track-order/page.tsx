@@ -59,8 +59,11 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
       })
     : "PREPARING";
   const copy = phaseCopy(phase);
-  const headline = latestEvent?.eventDesc?.trim() || copy.title;
-  const statusLabel = phase === "PREPARING" && latestEvent ? "DELIVERY UPDATE" : copy.label;
+  const hasCarrierEvidence = Boolean(snapshot?.tracking_code || snapshot?.timeline?.length || snapshot?.shipped_at);
+  const awaitingUpdate = Boolean(snapshot && !hasCarrierEvidence);
+  const headline = latestEvent?.eventDesc?.trim() ||
+    (awaitingUpdate ? "Delivery status currently unavailable." : copy.title);
+  const statusLabel = awaitingUpdate ? "AWAITING TRACKING UPDATE" : copy.label;
   const events = snapshot?.timeline?.slice().sort((a,b) => {
     const ta = Date.parse(a.eventDate || "");
     const tb = Date.parse(b.eventDate || "");
@@ -165,7 +168,7 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(4,minmax(0,1fr))", gap: 8 }}>
                   {[
                     { label: "Confirmed", reached: true },
-                    { label: "Dispatched", reached: Boolean(snapshot.shipped_at || snapshot.tracking_code || phase !== "PREPARING") },
+                    { label: "Dispatched", reached: Boolean(snapshot.shipped_at || ["SHIPPED", "DELIVERED"].includes(snapshot.fulfillment_status) || ["IN_TRANSIT", "CUSTOMS", "OUT_FOR_DELIVERY", "DELIVERED"].includes(phase)) },
                     { label: "In transit", reached: ["IN_TRANSIT", "CUSTOMS", "OUT_FOR_DELIVERY", "DELIVERED"].includes(phase) },
                     { label: "Delivered", reached: phase === "DELIVERED" },
                   ].map((step) => (
@@ -209,7 +212,7 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
                   </div>
                 ) : (
                   <p style={{ margin: 0, lineHeight: 1.7, color: "#5c554e" }}>
-                    Your order is being prepared. Detailed movement will appear here as soon as the delivery network publishes the first tracking event.
+                    Tracking events are not available from the delivery network right now. Your purchase is confirmed, but we cannot verify its current shipping stage yet. Please check again later or contact our support team.
                   </p>
                 )}
               </div>
