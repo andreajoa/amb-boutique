@@ -114,8 +114,9 @@ export function trackingPhase(input: {
   if (/out for delivery|with courier for delivery|delivery today|courier is delivering/.test(value)) {
     return "OUT_FOR_DELIVERY" as const;
   }
-  if (/customs|clearance|import clearance/.test(value)) return "CUSTOMS" as const;
-  if (input.fulfillmentStatus === "SHIPPED") return "IN_TRANSIT" as const;
+  if (/customs|clearance|import clearance/.test(value) && !/complete|completed|cleared/.test(value)) return "CUSTOMS" as const;
+  if (/in transit|awaiting flight|heading to the destination|arrived at airport|departed|shipped|flight|export customs clearance complete/.test(value)) return "IN_TRANSIT" as const;
+  if (["SHIPPED", "IN_TRANSIT"].includes(input.fulfillmentStatus)) return "IN_TRANSIT" as const;
   return "PREPARING" as const;
 }
 

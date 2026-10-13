@@ -32,6 +32,9 @@ function phaseCopy(phase: string) {
 
 function latestEventFrom(snapshot: Awaited<ReturnType<typeof trackingLookupByToken>>) {
   if (!snapshot?.timeline?.length) return null;
+  const dated = snapshot.timeline.filter((event) => event.eventDate && Number.isFinite(Date.parse(event.eventDate)));
+  if (dated.length) return dated.reduce((latest, event) =>
+    Date.parse(event.eventDate!) > Date.parse(latest.eventDate!) ? event : latest);
   return snapshot.timeline[snapshot.timeline.length - 1] as AmbTrackingEvent;
 }
 
@@ -56,7 +59,11 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
       })
     : "PREPARING";
   const copy = phaseCopy(phase);
-  const events = snapshot?.timeline?.slice().reverse() || [];
+  const events = snapshot?.timeline?.slice().sort((a,b) => {
+    const ta = Date.parse(a.eventDate || "");
+    const tb = Date.parse(b.eventDate || "");
+    return (Number.isFinite(tb) ? tb : 0) - (Number.isFinite(ta) ? ta : 0);
+  }) || [];
 
   return (
     <main>
@@ -156,6 +163,7 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
                 <div style={{ background: "#efe5d9", padding: 26 }}>
                   <div style={{ fontSize: 10, letterSpacing: ".14em", fontWeight: 700, marginBottom: 10 }}>LATEST UPDATE</div>
                   <div style={{ fontSize: 17, fontWeight: 700, lineHeight: 1.45 }}>{latestEvent.eventDesc || latestEvent.status || "Delivery update"}</div>
+                  {latestEvent.status && latestEvent.eventDesc && <div style={{ marginTop: 5, fontSize: 13, color: "#5c554e" }}>{latestEvent.status}</div>}
                   {latestEvent.address && <div style={{ marginTop: 8, color: "#5c554e" }}>{latestEvent.address}</div>}
                   {latestEvent.eventDate && <div style={{ marginTop: 6, fontSize: 12, color: "#756d65" }}>{latestEvent.eventDate}</div>}
                 </div>
