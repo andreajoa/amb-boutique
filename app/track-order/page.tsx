@@ -132,6 +132,26 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
                 </div>
               </div>
 
+              <div style={{ background: "#fffefc", border: "1px solid #dfd5ca", padding: "28px 30px" }}>
+                <div style={{ fontSize: 11, letterSpacing: ".15em", fontWeight: 700, marginBottom: 20 }}>DELIVERY PROGRESS</div>
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(4,minmax(0,1fr))", gap: 8 }}>
+                  {[
+                    { label: "Confirmed", reached: true },
+                    { label: "Dispatched", reached: Boolean(snapshot.shipped_at || snapshot.tracking_code || phase !== "PREPARING") },
+                    { label: "In transit", reached: ["IN_TRANSIT", "CUSTOMS", "OUT_FOR_DELIVERY", "DELIVERED"].includes(phase) },
+                    { label: "Delivered", reached: phase === "DELIVERED" },
+                  ].map((step) => (
+                    <div key={step.label} style={{ minWidth: 0 }}>
+                      <div style={{ height: 5, borderRadius: 8, background: step.reached ? "#9a755c" : "#e8dfd5", marginBottom: 10 }} />
+                      <span style={{ color: step.reached ? "#171512" : "#867e75", fontSize: 11, fontWeight: step.reached ? 700 : 400, overflowWrap: "anywhere" }}>{step.label}</span>
+                    </div>
+                  ))}
+                </div>
+                {snapshot.tracking_code && <p style={{ margin: "18px 0 0", fontSize: 12, color: "#5c554e", overflowWrap: "anywhere" }}>
+                  Tracking number: <strong>{snapshot.tracking_code}</strong>
+                </p>}
+              </div>
+
               {latestEvent && (
                 <div style={{ background: "#efe5d9", padding: 26 }}>
                   <div style={{ fontSize: 10, letterSpacing: ".14em", fontWeight: 700, marginBottom: 10 }}>LATEST UPDATE</div>
@@ -147,9 +167,14 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
                   <div>
                     {events.map((event, index) => (
                       <div key={`${event.eventDate || "event"}-${index}`} style={{ padding: "16px 0", borderTop: index ? "1px solid #e7dfd6" : "none" }}>
-                        <div style={{ fontSize: 14, fontWeight: 700, lineHeight: 1.45 }}>{event.eventDesc || event.status || "Delivery update"}</div>
+                        <div style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
+                          <span aria-hidden="true" style={{ width: 10, height: 10, background: index === 0 ? "#9a755c" : "#d5c9bb", borderRadius: "50%", flexShrink: 0, marginTop: 5 }} />
+                          <div style={{ minWidth: 0, flex: 1 }}>
+                            <div style={{ fontSize: 14, fontWeight: 700, lineHeight: 1.45 }}>{event.eventDesc || event.status || "Delivery update"}</div>
                         {event.address && <div style={{ marginTop: 5, color: "#5c554e", fontSize: 13 }}>{event.address}</div>}
                         {event.eventDate && <div style={{ marginTop: 5, color: "#827a72", fontSize: 12 }}>{event.eventDate}</div>}
+                          </div>
+                        </div>
                       </div>
                     ))}
                   </div>
