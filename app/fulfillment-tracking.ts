@@ -177,6 +177,12 @@ export async function saveManagerTrackingStatus(status: ManagerFulfillmentStatus
   const timeline = cleanTimeline(
     status.batches.flatMap((batch) => batch.events || []),
   );
+  // A provider response with no tracking data must never erase previously
+  // verified logistics data or manufacture a new preparation status.
+  if (!status.batches.length || (!status.trackingCode && !timeline.length &&
+      !status.shippedAt && !status.deliveredAt)) {
+    throw new Error("Store Manager returned no verifiable shipment information.");
+  }
   const latestEvent = timeline.length ? timeline[timeline.length - 1] : null;
   const eventKey = trackingEventKey({
     fulfillmentStatus: status.fulfillmentStatus,
@@ -386,9 +392,15 @@ export async function trackingLookupByEmailAndReference(email: string, reference
     } finally {
       clearTimeout(timeout);
     }
-    if (!response.ok) return enriched;
+    if (!response.ok) {
+      console.error("AMB tracking sync request failed", { httpStatus: response.status, orderReference: snapshot.session_id.slice(-10) });
+      return enriched;
+    }
     const manager = await response.json() as ManagerFulfillmentStatus;
-    if (!manager.ok || manager.sessionId !== snapshot.session_id || !Array.isArray(manager.batches)) return enriched;
+    if (!manager.ok || manager.sessionId !== snapshot.session_id || !Array.isArray(manager.batches)) {
+      console.error("AMB tracking sync response invalid", { orderReference: snapshot.session_id.slice(-10) });
+      return enriched;
+    }
     await saveManagerTrackingStatus(manager);
     // Retrieve the persisted and sanitized timeline, never present raw provider data.
     const refreshed = await sql`
@@ -399,7 +411,11 @@ export async function trackingLookupByEmailAndReference(email: string, reference
       LIMIT 1
     ` as AmbTrackingSnapshot[];
     return refreshed[0] ? { ...refreshed[0], purchasedItems } : enriched;
-  } catch {
+  } catch (error) {
+    console.error("AMB tracking sync failed", {
+      orderReference: snapshot.session_id.slice(-10),
+      error: error instanceof Error ? error.message : "Unknown synchronization error",
+    });
     return enriched;
   }
 }
