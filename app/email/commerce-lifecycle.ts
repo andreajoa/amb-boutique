@@ -3,7 +3,7 @@ import type Stripe from "stripe";
 import { getAnalyticsSql, jsonForDatabase } from "../analytics/db";
 import { deliveryWindows, isMarketCode } from "../commerce";
 import { checkoutRecoveryCampaigns, postPurchaseFollowUpCampaigns } from "./campaigns";
-import { cancelJourneyEmails, scheduleEmailSequence, scheduleRecoverySequence, sendAmbEmail } from "./send";
+import { cancelContactRecoveryEmails, cancelJourneyEmails, purchasedRecently, scheduleEmailSequence, scheduleRecoverySequence, sendAmbEmail } from "./send";
 import { createJourneyToken } from "./journey-token";
 
 type CheckoutRecord = {
@@ -154,6 +154,7 @@ export async function completeJourney(session: Stripe.Checkout.Session) {
 
   const journey = journeys[0];
   if (journey?.id) await cancelJourneyEmails(journey.id);
+  if (email) await cancelContactRecoveryEmails(email);
 
   if (journey?.id && contact?.id) {
     await sql`
@@ -322,7 +323,11 @@ export async function abandonCheckout(session: Stripe.Checkout.Session) {
   ` as Array<{ id: number | string }>;
   const journeyId = journeys[0]?.id;
   const token = journeyId ? createJourneyToken(journeyId) : "";
-  if (email && journeyId && token && contact?.email_consent && !contact.unsubscribed_at) {
+  // U.S. law (CAN-SPAM) allows a reminder to a shopper who typed their email at checkout, as long as every email can
+  // unsubscribe; other markets keep requiring explicit consent. QA sessions on example.com never receive anything.
+  const market = session.metadata?.market || "US";
+  const reachable = Boolean(contact && !contact.unsubscribed_at && (contact.email_consent || market === "US"));
+  if (email && !email.endsWith("@example.com") && journeyId && token && reachable && !await purchasedRecently(email)) {
     await scheduleRecoverySequence({
       campaigns: checkoutRecoveryCampaigns,
       to: email,

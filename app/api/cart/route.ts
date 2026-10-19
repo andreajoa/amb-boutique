@@ -5,7 +5,7 @@ import { resolveShoeProductSlug } from "../../shoe-products";
 import { isMarketCode } from "../../commerce";
 import { getAnalyticsSql, jsonForDatabase } from "../../analytics/db";
 import { cartRecoveryCampaigns } from "../../email/campaigns";
-import { cancelJourneyEmails, scheduleRecoverySequence } from "../../email/send";
+import { cancelJourneyEmails, purchasedRecently, scheduleRecoverySequence } from "../../email/send";
 import { createJourneyToken } from "../../email/journey-token";
 
 type CartItem = {
@@ -99,7 +99,7 @@ export async function POST(request: Request) {
 
   const contact = contacts[0];
   const token = journeyId ? createJourneyToken(journeyId) : "";
-  if (contact && journeyId && token) {
+  if (contact && journeyId && token && !await purchasedRecently(contact.email)) {
     const recoveryUrl = `/recover-cart/${encodeURIComponent(token)}`;
     await scheduleRecoverySequence({
       campaigns: cartRecoveryCampaigns,

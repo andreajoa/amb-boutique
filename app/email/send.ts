@@ -277,3 +277,42 @@ export async function cancelContactEmails(email: string) {
     }
   }
 }
+
+// A purchase ends every reminder about unfinished bags or checkouts for that shopper, on any of their journeys.
+export async function cancelContactRecoveryEmails(email: string) {
+  const sql = getAnalyticsSql();
+  const resend = getResend();
+  if (!sql || !resend) return;
+  const recipientHash = createHash("sha256").update(email.trim().toLowerCase()).digest("hex");
+  const rows = await sql`
+    SELECT id, provider_id FROM amb_email_messages
+    WHERE recipient_hash = ${recipientHash} AND status = 'scheduled' AND provider_id IS NOT NULL
+      AND (campaign_key LIKE 'cart-%' OR campaign_key LIKE 'checkout-%' OR campaign_key = 'payment-recovery')
+  ` as Array<{ id: number; provider_id: string }>;
+  for (const row of rows) {
+    try {
+      const result = await resend.emails.cancel(row.provider_id);
+      if (result.error) {
+        console.error("AMB scheduled email cancellation failed", { providerId: row.provider_id, error: result.error.message });
+        continue;
+      }
+      await sql`UPDATE amb_email_messages SET status = 'cancelled' WHERE id = ${row.id}`;
+    } catch (error) {
+      console.error("AMB scheduled email cancellation failed", { providerId: row.provider_id, error: error instanceof Error ? error.message : "unknown" });
+    }
+  }
+}
+
+// Shoppers who bought recently only receive editorial/promotional email, never "you left something behind".
+export async function purchasedRecently(email: string, days = 30) {
+  const sql = getAnalyticsSql();
+  if (!sql || !email) return false;
+  const rows = await sql`
+    SELECT 1 FROM amb_commerce_journeys
+    WHERE lower(email) = ${email.trim().toLowerCase()} AND status = 'completed'
+      AND COALESCE(completed_at, updated_at) > now() - (${days} * interval '1 day')
+    LIMIT 1
+  ` as Array<unknown>;
+  return rows.length > 0;
+}
+
