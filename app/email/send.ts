@@ -3,7 +3,7 @@ import { createHash, createHmac } from "node:crypto";
 import { Resend } from "resend";
 import type { AmbCampaign } from "./campaigns";
 import { findCampaign } from "./campaigns";
-import { renderAmbEmail, absoluteUrl, type AmbOrderEmailDetails } from "./template";
+import { renderAmbEmail, absoluteUrl, type AmbOrderEmailDetails, type AmbEmailCartItem } from "./template";
 import { getAnalyticsSql, jsonForDatabase } from "../analytics/db";
 import { ambResendApiKey, ambResendFromEmail } from "./resend-config";
 
@@ -120,7 +120,21 @@ export async function sendAmbEmail(options: {
     }
   }
 
+  let cartItems: AmbEmailCartItem[] | undefined;
+  if (sql && options.journeyId && (campaign.type === "cart-recovery" || campaign.type === "checkout-recovery" || campaign.key === "payment-recovery")) {
+    const journey = await sql`SELECT cart FROM amb_commerce_journeys WHERE id = ${options.journeyId} LIMIT 1` as Array<{ cart: unknown }>;
+    const lines = Array.isArray(journey[0]?.cart) ? journey[0].cart as Array<Record<string, unknown>> : [];
+    cartItems = lines.filter((line) => typeof line.slug === "string").map((line) => ({
+      slug: String(line.slug),
+      name: typeof line.name === "string" ? line.name : undefined,
+      size: typeof line.size === "string" ? line.size : undefined,
+      color: typeof line.color === "string" ? line.color : undefined,
+      quantity: Number(line.quantity) || 1,
+    }));
+  }
+
   const html = renderAmbEmail(campaign, {
+    cartItems,
     firstName: options.firstName,
     recoveryUrl: options.recoveryUrl,
     unsubscribeUrl,

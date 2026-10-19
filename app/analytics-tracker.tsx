@@ -150,6 +150,21 @@ export function AnalyticsTracker() {
   }, [enabled]);
 
   useEffect(() => {
+    if (enabled || !pathname || lastPath.current === pathname) return;
+    lastPath.current = pathname;
+    // Without "Accept all" the visit is still counted, anonymously: a per-tab id the cart already needs, no referrer,
+    // no device and no persistent profile, so the funnel reflects every shopper and not only those who accepted.
+    const visitorId = sessionStorage.getItem(visitorSessionKey) || randomId("visitor");
+    sessionStorage.setItem(visitorSessionKey, visitorId);
+    void fetch("/api/events", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      keepalive: true,
+      body: JSON.stringify({ event: "page_view", anonymous: true, visitorId, path: pathname, utm: acquisition(), market: localStorage.getItem("amb-boutique-market-v1") || "US" }),
+    }).catch(() => undefined);
+  }, [enabled, pathname]);
+
+  useEffect(() => {
     if (!enabled || !pathname || lastPath.current === pathname) return;
     lastPath.current = pathname;
     scrollMarks.current.clear();

@@ -1,5 +1,6 @@
 import { FIRST_ORDER_CODE } from "../commerce";
-import type { AmbCampaign } from "./campaigns";
+import { products as catalog, type Product } from "../data";
+import { allCampaigns, type AmbCampaign } from "./campaigns";
 
 export type AmbOrderEmailItem = {
   name: string;
@@ -8,6 +9,14 @@ export type AmbOrderEmailItem = {
   color?: string;
   unitAmount?: number;
   preparationNotice?: string;
+};
+
+export type AmbEmailCartItem = {
+  slug: string;
+  name?: string;
+  size?: string;
+  color?: string;
+  quantity?: number;
 };
 
 export type AmbOrderEmailDetails = {
@@ -56,7 +65,7 @@ function emailHeader(campaignKey: string) {
       <div style="font-size:8px;letter-spacing:.42em;margin-top:4px">BOUTIQUE</div>
     </a>
     <p class="mobile-nav" style="margin:19px 0 0;font-size:10px;line-height:1.9;letter-spacing:.12em">
-      ${links.map(([label, path, content]) => `<a href="${escapeHtml(trackedUrl(path, campaignKey, content))}" style="display:inline-block;color:#fffdfa;text-decoration:none;white-space:nowrap;margin:0 10px">${label}</a>`).join("")}
+      ${links.map(([label, path, content]) => `<a href="${escapeHtml(trackedUrl(path, campaignKey, content))}" style="display:inline-block;color:#fffdfa;text-decoration:none;white-space:nowrap;margin:0 10px">${label}</a>`).join(" ")}
     </p>
   </td></tr>`;
 }
@@ -98,7 +107,7 @@ function emailFooter(campaignKey: string, unsubscribeUrl: string) {
     <div style="font-family:Georgia,'Times New Roman',serif;font-size:27px;letter-spacing:.22em;font-weight:700">AMB</div>
     <div style="font-size:8px;letter-spacing:.42em;margin-top:4px">BOUTIQUE</div>
     <p style="margin:20px 0 4px;font-size:11px;line-height:2.2;letter-spacing:.08em">
-      ${links.map(([label, path, content]) => `<a href="${escapeHtml(trackedUrl(path, campaignKey, content))}" style="color:#fffdfa;text-decoration:none;white-space:nowrap;margin:0 8px">${label}</a>`).join("")}
+      ${links.map(([label, path, content]) => `<a href="${escapeHtml(trackedUrl(path, campaignKey, content))}" style="color:#fffdfa;text-decoration:none;white-space:nowrap;margin:0 8px">${label}</a>`).join(" ")}
     </p>
     <p style="margin:19px 0 21px;font-size:11px;letter-spacing:.12em">
       <a href="${escapeHtml(trackedUrl("https://www.instagram.com/ambb.outique/", campaignKey, "footer-instagram"))}" style="color:#fffdfa;text-decoration:underline;margin:0 10px">INSTAGRAM</a>
@@ -107,34 +116,6 @@ function emailFooter(campaignKey: string, unsubscribeUrl: string) {
     <p style="margin:0;color:#d3cbc3;font-size:11px;line-height:1.8">AMB BOUTIQUE · Operated by Ana Paula Maciel<br><a href="mailto:info@ambboutique.online" style="color:#fffdfa">info@ambboutique.online</a></p>
     <p style="margin:17px auto 0;max-width:560px;color:#aaa19a;font-size:9px;line-height:1.65">Worldwide delivery is available to the United States, Canada, the United Kingdom, Australia and New Zealand. Shipping charges, duties and taxes vary by destination. Prices appear in the currency selected on the website.</p>
     <p style="margin:17px 0 0;color:#aaa19a;font-size:9px;line-height:1.7">You received this email because you subscribed, requested an offer or started an AMB order.<br><a href="${escapeHtml(unsubscribeUrl)}" style="color:#fffdfa;text-decoration:underline">Unsubscribe</a> · <a href="${escapeHtml(trackedUrl("/privacy", campaignKey, "footer-privacy"))}" style="color:#fffdfa">Privacy Policy</a> · <a href="${escapeHtml(trackedUrl("/terms", campaignKey, "footer-terms"))}" style="color:#fffdfa">Terms</a> · <a href="${escapeHtml(trackedUrl("/accessibility", campaignKey, "footer-accessibility"))}" style="color:#fffdfa">Accessibility</a></p>
-  </td></tr>`;
-}
-
-const emailCategories = [
-  { label: "DRESSES", path: "/collections/dresses", image: "/products/brielle-satin-maxi-dress/01.webp" },
-  { label: "TOPS", path: "/collections/tops-blouses", image: "/products/cora-square-neck-top/01.webp" },
-  { label: "ROMPERS", path: "/collections/rompers-playsuits", image: "/products/capri-utility-romper/01.webp" },
-  { label: "PANTS", path: "/collections/pants", image: "/products/palais-flare-trousers/01.webp" },
-  { label: "BAGS", path: "/collections/bags", image: "/editorial/bags/products/portofino-carryall-burgundy/01.webp" },
-  { label: "NEW IN", path: "/collections", image: "/products/selene-satin-maxi-dress/01.webp" },
-];
-
-function categoryGrid(campaignKey: string) {
-  const rows = [emailCategories.slice(0, 3), emailCategories.slice(3, 6)];
-  return `<tr><td class="mobile-pad" style="padding:44px 22px 38px;background:#fffdfa">
-    <p style="margin:0 0 9px;text-align:center;color:#9c6747;font-size:10px;font-weight:700;letter-spacing:.2em">FIND YOUR WAY INTO THE EDIT</p>
-    <h2 style="margin:0 0 26px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-size:34px;line-height:1.15;font-weight:500">Shop by category</h2>
-    <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
-      ${rows.map((row) => `<tr>${row.map((category) => {
-        const url = trackedUrl(category.path, campaignKey, `category-${category.label.toLowerCase().replace(/\s+/g, "-")}`);
-        return `<td width="33.333%" align="center" valign="top" style="width:33.333%;padding:0 5px 18px">
-          <a href="${escapeHtml(url)}" style="color:#1c1a18;text-decoration:none">
-            <img src="${escapeHtml(absoluteUrl(category.image))}" width="210" alt="Shop ${escapeHtml(category.label.toLowerCase())}" style="display:block;width:100%;height:auto;border:0;background:#eee7df">
-            <strong style="display:block;margin-top:11px;font-size:11px;letter-spacing:.1em">${category.label}</strong>
-          </a>
-        </td>`;
-      }).join("")}</tr>`).join("")}
-    </table>
   </td></tr>`;
 }
 
@@ -175,6 +156,99 @@ function confidenceBlock(campaign: AmbCampaign) {
   };
 }
 
+// Pieces an email can show: a real single photo (sprite sheets cannot be cropped in email clients) and not sold out.
+const emailCatalog = catalog.filter((product) => product.images?.[0] && !product.gallerySprite && product.stock !== 0);
+
+const emailThemes: Array<[RegExp, Product["category"][]]> = [
+  [/dress|evening|private/, ["Dresses"]],
+  [/tops/, ["Tops", "Knitwear", "Sets"]],
+  [/bags|gift/, ["Bags", "Accessories", "Shoes"]],
+  [/heels/, ["Shoes"]],
+  [/work|style|look/, ["Pants", "Sets", "Skirts", "Tops", "Dresses"]],
+  [/weekend|summer|spring|australia|canada-day/, ["Sets", "Shorts", "Playsuits", "Skirts", "Dresses"]],
+];
+
+function themedPool(key: string, preferred: Product["category"][] = []) {
+  const categories = preferred.length ? preferred : emailThemes.find(([pattern]) => pattern.test(key))?.[1];
+  const pool = categories ? emailCatalog.filter((product) => categories.includes(product.category)) : [];
+  if (pool.length >= 8) return pool;
+  // Mixed edit: alternate categories so a general email never shows eight near-identical dresses.
+  const byCategory = new Map<string, Product[]>();
+  for (const product of emailCatalog) byCategory.set(product.category, [...(byCategory.get(product.category) || []), product]);
+  const lanes = [...byCategory.values()];
+  const mixed: Product[] = [];
+  for (let index = 0; mixed.length < emailCatalog.length; index += 1) {
+    for (const lane of lanes) if (lane[index]) mixed.push(lane[index]);
+    if (!lanes.some((lane) => lane[index + 1])) break;
+  }
+  return [...pool, ...mixed.filter((product) => !pool.includes(product))];
+}
+
+// Eight different pieces per email. Each campaign starts at its own block of the pool, so a sequence does not keep
+// showing the same products; excluded slugs (the shopper's bag) never appear twice.
+export function emailProductPicks(campaignKey: string, exclude: string[] = [], preferred: Product["category"][] = [], count = 8) {
+  const pool = themedPool(campaignKey, preferred).filter((product) => !exclude.includes(product.slug));
+  if (!pool.length) return [];
+  const position = Math.max(0, allCampaigns.findIndex((campaign) => campaign.key === campaignKey));
+  const start = (position * count) % pool.length;
+  const picks: Product[] = [];
+  for (let offset = 0; picks.length < Math.min(count, pool.length); offset += 1) {
+    const product = pool[(start + offset) % pool.length];
+    if (!picks.includes(product)) picks.push(product);
+  }
+  return picks;
+}
+
+export function emailProductGrid(campaignKey: string, options: {
+  exclude?: string[];
+  preferred?: Product["category"][];
+  eyebrow?: string;
+  headline?: string;
+} = {}) {
+  const picks = emailProductPicks(campaignKey, options.exclude, options.preferred);
+  if (!picks.length) return "";
+  const cell = (product: Product) => {
+    const url = escapeHtml(trackedUrl(`/products/${product.slug}`, campaignKey, `grid-${product.slug}`));
+    return `<td width="50%" align="center" valign="top" style="width:50%;padding:0 6px 26px">
+      <a href="${url}" style="color:#171411;text-decoration:none">
+        <img src="${escapeHtml(absoluteUrl(product.images?.[0] || ""))}" width="300" alt="${escapeHtml(product.name)}" style="display:block;width:100%;height:auto;border:0;background:#f4eee4">
+        <span style="display:block;margin:12px 4px 0;font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.3">${escapeHtml(product.name)}</span>
+      </a>
+      <a href="${url}" style="display:inline-block;margin-top:8px;color:#9c6747;font-size:10px;font-weight:700;letter-spacing:.16em;text-decoration:underline">SHOP NOW</a>
+    </td>`;
+  };
+  const rows = [];
+  for (let index = 0; index < picks.length; index += 2) rows.push(`<tr>${cell(picks[index])}${picks[index + 1] ? cell(picks[index + 1]) : "<td width=\"50%\"></td>"}</tr>`);
+  return `<tr><td style="padding:44px 16px 20px;background:#fffdfa">
+    <p style="margin:0 0 9px;text-align:center;color:#9c6747;font-size:10px;font-weight:700;letter-spacing:.2em">${options.eyebrow || "CHOSEN FOR YOU"}</p>
+    <h2 style="margin:0 0 26px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-size:30px;line-height:1.15;font-weight:500;padding:0 12px">${options.headline || "Pieces we think you’ll love"}</h2>
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0">${rows.join("")}</table>
+  </td></tr>`;
+}
+
+// The piece(s) the shopper left behind, shown first and large: the recovery email sells that exact item.
+function cartBlock(items: AmbEmailCartItem[], ctaUrl: string, ctaLabel: string, campaignKey: string) {
+  const lines = items.slice(0, 3).flatMap((item) => {
+    const product = catalog.find((candidate) => candidate.slug === item.slug);
+    const image = product && !product.gallerySprite ? product.images?.[0] : undefined;
+    if (!product) return [];
+    const productUrl = escapeHtml(trackedUrl(`/products/${product.slug}`, campaignKey, `bag-${product.slug}`));
+    const meta = [item.size ? `Size ${escapeHtml(item.size)}` : "", item.color ? escapeHtml(item.color) : ""].filter(Boolean).join(" · ");
+    return [`<tr><td align="center" style="padding:0 0 24px">
+      ${image ? `<a href="${productUrl}"><img src="${escapeHtml(absoluteUrl(image))}" width="360" alt="${escapeHtml(product.name)}" style="display:block;width:100%;max-width:360px;height:auto;border:0;margin:0 auto;background:#f4eee4"></a>` : ""}
+      <p style="margin:16px 0 4px;font-family:Georgia,'Times New Roman',serif;font-size:24px;line-height:1.25">${escapeHtml(item.name || product.name)}</p>
+      ${meta ? `<p style="margin:0;color:#6d6259;font-size:12px;letter-spacing:.06em">${meta}</p>` : ""}
+    </td></tr>`];
+  });
+  if (!lines.length) return "";
+  return `<tr><td class="mobile-pad" align="center" style="padding:40px 58px 44px;background:#f4eee7;border-top:1px solid #e3dad0;border-bottom:1px solid #e3dad0">
+    <p style="margin:0 0 20px;color:#9c6747;font-size:10px;letter-spacing:.22em;font-weight:700">STILL IN YOUR BAG</p>
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0">${lines.join("")}</table>
+    <table class="mobile-button" role="presentation" cellspacing="0" cellpadding="0" style="margin:4px auto 0"><tr><td bgcolor="#1c1a18" style="background:#1c1a18;border-radius:99px"><a href="${escapeHtml(ctaUrl)}" style="display:inline-block;color:#fffdfa;text-decoration:none;padding:17px 33px;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase">${escapeHtml(ctaLabel)}</a></td></tr></table>
+    <p style="margin:16px 0 0;color:#6d6259;font-size:11px;line-height:1.6">Sizes move quickly. Your bag is saved, but the piece is not reserved.</p>
+  </td></tr>`;
+}
+
 function productCard(product: {
   slug: string;
   name: string;
@@ -188,7 +262,7 @@ function productCard(product: {
       <img src="${escapeHtml(absoluteUrl(product.image))}" width="300" alt="${escapeHtml(product.name)}" style="display:block;width:100%;height:auto;border:0;background:#f4eee4">
       <p style="margin:14px 0 4px;color:#a16845;font-size:9px;font-weight:700;letter-spacing:.17em">${escapeHtml(product.label)}</p>
       <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:19px;line-height:1.3">${escapeHtml(product.name)}</p>
-      <p style="margin:7px 0 0;color:#6d6259;font-size:12px">${escapeHtml(product.price)}</p>
+      ${product.price ? `<p style="margin:7px 0 0;color:#6d6259;font-size:12px">${escapeHtml(product.price)}</p>` : ""}
     </a>
   </td>`;
 }
@@ -249,7 +323,7 @@ function renderWelcomeDiscountEmail(options: {
           <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f4eee4;border:1px solid #ded2c3">
             <tr><td align="center" style="padding:27px 20px">
               <p style="margin:0;color:#8e5e40;font-size:9px;letter-spacing:.22em;font-weight:700">10% OFF YOUR FIRST ELIGIBLE FULL-PRICE ORDER</p>
-              <p style="margin:13px 0 5px;font-family:Georgia,'Times New Roman',serif;font-size:31px;letter-spacing:.08em">${FIRST_ORDER_CODE}</p>
+              <p style="margin:13px 0 5px;font-family:Georgia,'Times New Roman',serif;font-size:26px;letter-spacing:.06em">${FIRST_ORDER_CODE}</p>
               <p style="margin:0;color:#6d6259;font-size:11px;line-height:1.6">Enter the code at checkout. The best eligible discount applies; offers do not stack.</p>
             </td></tr>
           </table>
@@ -274,10 +348,17 @@ function renderWelcomeDiscountEmail(options: {
 
         <tr><td class="mobile-pad" style="padding:48px 42px 26px">
           <p style="margin:0 0 10px;text-align:center;color:#a16845;font-size:10px;letter-spacing:.22em;font-weight:700">BEGIN WITH WHAT YOUR WARDROBE NEEDS</p>
-          <h2 style="margin:0 0 28px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-size:35px;line-height:1.15;font-weight:500">Four pieces. Four easy ways in.</h2>
+          <h2 style="margin:0 0 28px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-size:35px;line-height:1.15;font-weight:500">Eight pieces. Eight easy ways in.</h2>
           <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
             <tr>${productCard(products[0], campaignKey)}${productCard(products[1], campaignKey)}</tr>
             <tr>${productCard(products[2], campaignKey)}${productCard(products[3], campaignKey)}</tr>
+            ${(() => {
+              const more = emailProductPicks(campaignKey, products.map((product) => product.slug), [], 4)
+                .map((product) => ({ slug: product.slug, name: product.name, price: "", image: product.images?.[0] || "", label: product.category.toUpperCase() }));
+              const rows = [];
+              for (let index = 0; index < more.length; index += 2) rows.push(`<tr>${productCard(more[index], campaignKey)}${more[index + 1] ? productCard(more[index + 1], campaignKey) : ""}</tr>`);
+              return rows.join("");
+            })()}
           </table>
         </td></tr>
 
@@ -395,6 +476,7 @@ function renderOrderConfirmationEmail(options: {
 
           <p style="margin:0;font-size:13px;line-height:1.75;color:#6b655e">Need help with your order? Email <a href="mailto:info@ambboutique.online" style="color:#171512">info@ambboutique.online</a>.</p>
         </td></tr>
+        ${emailProductGrid("order-confirmed", { exclude: details.items.flatMap((item) => catalog.find((product) => product.name === item.name)?.slug || []), eyebrow: "COMPLETE THE LOOK", headline: "Pieces that pair beautifully with your order" })}
         <tr><td style="padding:22px 38px;border-top:1px solid #e7dac8;text-align:center;font-size:11px;line-height:1.6;color:#6b655e">
           Thank you for shopping with AMB BOUTIQUE.
         </td></tr>
@@ -410,6 +492,7 @@ export function renderAmbEmail(campaign: AmbCampaign, options: {
   unsubscribeUrl?: string;
   orderReference?: string;
   orderDetails?: AmbOrderEmailDetails;
+  cartItems?: AmbEmailCartItem[];
 } = {}) {
   const firstName = options.firstName?.trim();
   const greeting = firstName ? `Hi ${escapeHtml(firstName)},` : "Hello,";
@@ -428,6 +511,9 @@ export function renderAmbEmail(campaign: AmbCampaign, options: {
   }
 
   const ctaUrl = trackedUrl(options.recoveryUrl || campaign.ctaUrl, campaign.key, "primary-cta");
+  const recovering = campaign.type === "cart-recovery" || campaign.type === "checkout-recovery" || campaign.key === "payment-recovery";
+  const cartSlugs = (options.cartItems || []).map((item) => item.slug);
+  const cartCategories = [...new Set(cartSlugs.flatMap((slug) => catalog.find((product) => product.slug === slug)?.category || []))];
   const hero = campaignHero(campaign);
   const confidence = confidenceBlock(campaign);
   const confidenceUrl = trackedUrl(confidence.path, campaign.key, "confidence-link");
@@ -479,7 +565,11 @@ export function renderAmbEmail(campaign: AmbCampaign, options: {
 
         <tr><td style="padding:17px 20px;background:#b99a82;color:#fffdfa;text-align:center;font-size:10px;line-height:1.7;letter-spacing:.09em">CURATED BY AMB BOUTIQUE &nbsp;·&nbsp; SECURE CHECKOUT &nbsp;·&nbsp; WORLDWIDE DELIVERY</td></tr>
 
-        ${categoryGrid(campaign.key)}
+        ${recovering && options.cartItems?.length ? cartBlock(options.cartItems, ctaUrl, campaign.ctaLabel, campaign.key) : ""}
+
+        ${emailProductGrid(campaign.key, recovering && cartSlugs.length
+          ? { exclude: cartSlugs, preferred: cartCategories, eyebrow: "COMPLETE THE LOOK", headline: "Chosen to go with your pick" }
+          : {})}
 
         <tr><td class="mobile-pad" align="center" style="padding:42px 58px 46px;background:#f4eee7;border-top:1px solid #e3dad0">
           <p style="margin:0 0 10px;color:#9c6747;font-size:10px;letter-spacing:.2em;font-weight:700">${confidence.eyebrow}</p>

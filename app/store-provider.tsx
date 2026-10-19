@@ -187,13 +187,15 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
   const formatMoney = (valueUsd: number) => formatMarketPrice(valueUsd, market);
 
   const trackEvent: StoreContextValue["trackEvent"] = useCallback((event, details = {}) => {
-    if (!consentAllowsPersonalization() || !visitorId) return;
+    if (!visitorId) return;
+    const anonymous = !consentAllowsPersonalization();
     void fetch("/api/events", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       keepalive: true,
       body: JSON.stringify({
         event,
+        anonymous,
         visitorId,
         sessionId: window.sessionStorage.getItem("amb-analytics-session-v1") || undefined,
         path: window.location.pathname,

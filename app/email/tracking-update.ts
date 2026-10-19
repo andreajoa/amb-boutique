@@ -3,6 +3,7 @@ import "server-only";
 import { Resend } from "resend";
 import { ambResendApiKey, ambResendFromEmail } from "./resend-config";
 import { createPublicTrackingToken, type AmbTrackingEvent } from "../fulfillment-tracking";
+import { emailProductGrid } from "./template";
 
 function escapeHtml(value: string) {
   return value
@@ -128,6 +129,7 @@ export async function sendAmbTrackingUpdateEmail(input: {
 
           <p style="margin:0;font-size:12px;line-height:1.7;color:#6b655e">Order reference: ${escapeHtml(orderReference)}<br>We’ll continue monitoring your delivery and send another update when its status changes.</p>
         </td></tr>
+        ${emailProductGrid("order-shipped", { eyebrow: input.phase === "DELIVERED" ? "YOUR NEXT FAVORITE" : "WHILE YOU WAIT", headline: input.phase === "DELIVERED" ? "Pieces to wear with your new favorite" : "A few pieces we think you’ll love" })}
         <tr><td style="padding:22px 38px;border-top:1px solid #e7dac8;text-align:center;font-size:11px;line-height:1.6;color:#6b655e">
           AMB BOUTIQUE · Customer Care<br>
           <a href="mailto:info@ambboutique.online" style="color:#171512">info@ambboutique.online</a>

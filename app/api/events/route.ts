@@ -11,8 +11,12 @@ const allowedEvents = new Set([
   "checkout_start", "checkout_error", "newsletter_signup", "popup_signup", "purchase",
 ]);
 
+// Funnel steps that may be counted without "Accept all" (no identity beyond the tab, see analytics-tracker.tsx).
+const anonymousEvents = new Set(["page_view", "product_view", "add_to_cart", "cart_open", "checkout_start", "checkout_error", "purchase"]);
+
 type EventBody = {
   event?: string;
+  anonymous?: boolean;
   visitorId?: string;
   sessionId?: string;
   market?: unknown;
@@ -54,13 +58,16 @@ export async function POST(request: NextRequest) {
   }
 
   const eventType = body.event;
+  const anonymous = body.anonymous === true;
+  if (anonymous && !anonymousEvents.has(eventType)) return NextResponse.json({ ok: true, skipped: "consent" });
   const visitorId = text(body.visitorId, 100);
   const sessionId = text(body.sessionId, 100) || `session-${visitorId}`;
   const market = isMarketCode(body.market) ? body.market : "US";
   const path = text(body.path, 500) || "/";
-  const place = geo(request);
+  const located = geo(request);
+  const place = anonymous ? { country: located.country, region: null, city: null } : located;
   const utm = typeof body.utm === "object" && body.utm ? body.utm : {};
-  const device = typeof body.device === "object" && body.device ? body.device : {};
+  const device = !anonymous && typeof body.device === "object" && body.device ? body.device : {};
   const metadata = typeof body.metadata === "object" && body.metadata ? body.metadata : {};
   const durationSeconds = Math.round(number(body.durationSeconds, 86400));
   const scrollDepth = Math.round(number(body.scrollDepth, 100));
@@ -73,16 +80,16 @@ export async function POST(request: NextRequest) {
           visitor_id, last_seen_at, market, country, region, city, consent_analytics,
           first_referrer, first_utm, device, ip_hash
         ) VALUES (
-          ${visitorId}, now(), ${market}, ${place.country}, ${place.region}, ${place.city}, true,
-          ${text(body.referrer, 500) || null}, ${jsonForDatabase(utm)}::jsonb,
-          ${jsonForDatabase(device)}::jsonb, ${anonymizedIp(request)}
+          ${visitorId}, now(), ${market}, ${place.country}, ${place.region}, ${place.city}, ${!anonymous},
+          ${anonymous ? null : text(body.referrer, 500) || null}, ${jsonForDatabase(utm)}::jsonb,
+          ${jsonForDatabase(device)}::jsonb, ${anonymous ? null : anonymizedIp(request)}
         )
         ON CONFLICT (visitor_id) DO UPDATE SET
           last_seen_at = now(), market = EXCLUDED.market,
           country = COALESCE(amb_analytics_visitors.country, EXCLUDED.country),
           region = COALESCE(amb_analytics_visitors.region, EXCLUDED.region),
           city = COALESCE(amb_analytics_visitors.city, EXCLUDED.city),
-          consent_analytics = true
+          consent_analytics = amb_analytics_visitors.consent_analytics OR EXCLUDED.consent_analytics
       `;
       await sql`
         INSERT INTO amb_analytics_sessions (
@@ -90,7 +97,7 @@ export async function POST(request: NextRequest) {
           utm_source, utm_medium, utm_campaign, utm_content, utm_term,
           device_type, browser, os, last_activity_at
         ) VALUES (
-          ${sessionId}, ${visitorId}, ${path}, ${path}, ${text(body.referrer, 500) || null},
+          ${sessionId}, ${visitorId}, ${path}, ${path}, ${anonymous ? null : text(body.referrer, 500) || null},
           ${market}, ${place.country}, ${place.region}, ${place.city},
           ${text(utm.source, 160) || null}, ${text(utm.medium, 160) || null},
           ${text(utm.campaign, 160) || null}, ${text(utm.content, 160) || null},
