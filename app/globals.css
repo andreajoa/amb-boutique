@@ -823,7 +823,12 @@ button { cursor: pointer; }
   .story-page { padding-block: 55px 80px; }
   .story-image { height: 440px; }
   .story-body { font-size: 17px; }
-  .cookie-banner { left: 10px; right: 10px; bottom: 10px; flex-direction: column; align-items: stretch; gap: 18px; }
+  /* Compact on phones: the full banner covered the product photo and price on the first visit. Same two choices. */
+  .cookie-banner { left: 8px; right: 8px; bottom: 8px; padding: 12px 14px; flex-direction: column; align-items: stretch; gap: 10px; }
+  .cookie-banner strong { font-size: 16px; }
+  .cookie-banner p { display: none; }
+  .cookie-banner a { margin-left: 10px; white-space: nowrap; }
+  .cookie-banner button { min-height: 36px; }
   .cookie-banner > div:last-child { display: grid; grid-template-columns: 1fr 1fr; }
   .footer-bottom { flex-direction: column; }
   .collection-hero { height: auto; min-height: clamp(290px, 82vw, 340px); padding: 22px 18px; background-position: 23% center; }
