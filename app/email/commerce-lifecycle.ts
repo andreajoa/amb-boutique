@@ -3,7 +3,7 @@ import type Stripe from "stripe";
 import { getAnalyticsSql, jsonForDatabase } from "../analytics/db";
 import { deliveryWindows, isMarketCode } from "../commerce";
 import { checkoutRecoveryCampaigns, postPurchaseFollowUpCampaigns } from "./campaigns";
-import { cancelContactRecoveryEmails, cancelJourneyEmails, purchasedRecently, scheduleEmailSequence, scheduleRecoverySequence, sendAmbEmail } from "./send";
+import { cancelContactRecoveryEmails, cancelJourneyEmails, hasPurchased, scheduleEmailSequence, scheduleRecoverySequence, sendAmbEmail } from "./send";
 import { createJourneyToken } from "./journey-token";
 
 type CheckoutRecord = {
@@ -327,7 +327,7 @@ export async function abandonCheckout(session: Stripe.Checkout.Session) {
   // unsubscribe; other markets keep requiring explicit consent. QA sessions on example.com never receive anything.
   const market = session.metadata?.market || "US";
   const reachable = Boolean(contact && !contact.unsubscribed_at && (contact.email_consent || market === "US"));
-  if (email && !email.endsWith("@example.com") && journeyId && token && reachable && !await purchasedRecently(email)) {
+  if (email && !email.endsWith("@example.com") && journeyId && token && reachable && !await hasPurchased(email)) {
     await scheduleRecoverySequence({
       campaigns: checkoutRecoveryCampaigns,
       to: email,

@@ -303,14 +303,13 @@ export async function cancelContactRecoveryEmails(email: string) {
   }
 }
 
-// Shoppers who bought recently only receive editorial/promotional email, never "you left something behind".
-export async function purchasedRecently(email: string, days = 30) {
+// André (20/10): anyone who has ever bought only receives editorial/promotional email, never "you left something behind".
+export async function hasPurchased(email: string) {
   const sql = getAnalyticsSql();
   if (!sql || !email) return false;
   const rows = await sql`
     SELECT 1 FROM amb_commerce_journeys
     WHERE lower(email) = ${email.trim().toLowerCase()} AND status = 'completed'
-      AND COALESCE(completed_at, updated_at) > now() - (${days} * interval '1 day')
     LIMIT 1
   ` as Array<unknown>;
   return rows.length > 0;
