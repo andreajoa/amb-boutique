@@ -32,9 +32,16 @@ export async function POST(request: NextRequest) {
       const requestedHeel = line.heelHeightCm === undefined ? undefined : Number(line.heelHeightCm);
       const resolvedSlug = line.slug ? resolveShoeProductSlug(line.slug, requestedHeel) : undefined;
       const product = products.find((item) => item.slug === resolvedSlug);
-      const quantity = Math.max(1, Math.min(10, Math.floor(Number(line.quantity) || 1)));
+      const quantity = line.quantity === undefined ? 1 : Number(line.quantity);
       if (!product) throw new Error("One of the selected products is no longer available.");
-      if (product.stock === 0) throw new Error(`${product.name} is currently unavailable.`);
+      if (!Number.isInteger(quantity) || quantity < 1 || quantity > 10) throw new Error(`Choose a quantity between 1 and 10 for ${product.name}.`);
+      if (product.stock !== undefined && product.stock <= 0) throw new Error(`${product.name} is currently unavailable.`);
+      const size = typeof line.size === "string" ? line.size.trim() : "";
+      const color = typeof line.color === "string" ? line.color.trim() : "";
+      if (product.sizes?.length && !size) throw new Error(`Choose an available size for ${product.name}.`);
+      const selectedColor = product.colorNames?.find((name) => name.toLowerCase() === color.toLowerCase());
+      if (product.colorNames?.length && !selectedColor) throw new Error(`Choose an available color for ${product.name}.`);
+      const selectedLine = { ...line, size, color: selectedColor || color };
 
       if (product.heelHeightCm !== undefined && requestedHeel !== undefined && requestedHeel !== product.heelHeightCm) {
         throw new Error(`Choose an available heel height for ${product.name}.`);
@@ -43,11 +50,21 @@ export async function POST(request: NextRequest) {
         ? product.shoeVariants.find((variant) => variant.heelHeightCm === requestedHeel)
         : undefined;
       if (product.shoeVariants?.length && !shoeVariant) throw new Error(`Choose an available heel height for ${product.name}.`);
-      if (shoeVariant && line.size && !shoeVariant.sizes.includes(line.size)) throw new Error(`Size ${line.size} is not available with the selected heel height for ${product.name}.`);
-      if (!shoeVariant && product.sizes?.length && line.size && !product.sizes.includes(line.size)) throw new Error(`Size ${line.size} is not available for ${product.name}.`);
+      if (shoeVariant && !shoeVariant.sizes.includes(size)) throw new Error(`Size ${size} is not available with the selected heel height for ${product.name}.`);
+      if (!shoeVariant && product.sizes?.length && !product.sizes.includes(size)) throw new Error(`Size ${size} is not available for ${product.name}.`);
       const selectedHeelHeightCm = shoeVariant?.heelHeightCm ?? product.heelHeightCm;
-      return { line, product: productForSize(product, line.size), quantity, selectedHeelHeightCm, preparationNotice: getPreparationNotice(product) };
+      return { line: selectedLine, product: productForSize(product, size), quantity, selectedHeelHeightCm, preparationNotice: getPreparationNotice(product), availableStock: shoeVariant?.stock ?? product.stock };
     });
+    // A product can occur on multiple cart lines (sizes, offers, or old carts).
+    // Check their combined quantity before creating a payment session.
+    const quantitiesByProduct = new Map<string, number>();
+    for (const item of normalized) {
+      const quantity = (quantitiesByProduct.get(item.product.slug) || 0) + item.quantity;
+      quantitiesByProduct.set(item.product.slug, quantity);
+      if (item.availableStock !== undefined && quantity > item.availableStock) {
+        throw new Error(`Only ${item.availableStock} of ${item.product.name} are currently available.`);
+      }
+    }
     const preparationNotices = [...new Set(normalized.flatMap((item) => item.preparationNotice ? [item.preparationNotice] : []))];
     const hasPreparation = preparationNotices.length > 0;
     const subtotalUsd = normalized.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
