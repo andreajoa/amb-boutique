@@ -23,6 +23,8 @@ const striped = {
   slug: "size-pricing-test-dress",
   name: "Striped Dress",
   sizes: ["S", "M", "L"],
+  stock: 10,
+  colorNames: ["Ivory"],
   price: 111.9,
   sizePrices: { S: 111.9, M: 115.9, L: 115.9 },
   unitCostUsd: undefined,
@@ -64,7 +66,7 @@ async function checkout(items) {
   return POST({ json: async () => ({ items, market: "US" }), nextUrl: { origin: "https://amb.example" } });
 }
 for (const [size, expectedMinor] of [["S", 11190], ["M", 11590], ["L", 11590]]) {
-  const response = await checkout([{ slug: striped.slug, size, quantity: 2, price: 0.01 }]);
+  const response = await checkout([{ slug: striped.slug, size, color: "Ivory", quantity: 2, price: 0.01 }]);
   assert.equal(response.status, 200);
   const params = sessions.at(-1);
   assert.equal(params.line_items[0].price_data.unit_amount, expectedMinor, "Submitted prices must be ignored");
@@ -75,11 +77,11 @@ for (const [size, expectedMinor] of [["S", 11190], ["M", 11590], ["L", 11590]]) 
 }
 for (const size of [undefined, "XL", "__proto__"]) {
   const count = sessions.length;
-  const response = await checkout([{ slug: striped.slug, size, quantity: 1 }]);
+  const response = await checkout([{ slug: striped.slug, size, color: "Ivory", quantity: 1 }]);
   assert.equal(response.status, 400);
   assert.equal(sessions.length, count, "Invalid or missing size must never reach payment");
 }
-const legacyResponse = await checkout([{ slug: legacy.slug, quantity: 1 }]);
+const legacyResponse = await checkout([{ slug: legacy.slug, size: legacy.sizes?.[0], color: legacy.colorNames?.[0], quantity: 1 }]);
 assert.equal(legacyResponse.status, 200);
 assert.equal(sessions.at(-1).line_items[0].price_data.unit_amount, Math.round(legacy.price * 100));
 console.log(JSON.stringify({ sizePrices: "passed", invalidSelections: "rejected before payment", forgedClientPrice: "ignored", checkoutAndJourneyParity: "passed", legacyBehavior: "preserved", externalActions: 0 }));
