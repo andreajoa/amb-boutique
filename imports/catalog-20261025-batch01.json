@@ -1,0 +1,84 @@
+{
+  "batch": "20261025",
+  "kind": "gallery-and-identity-correction + 2 new",
+  "changes": [
+    {
+      "slug": "sabine-tailored-romper",
+      "colour": "Black",
+      "previousPrice": 98,
+      "newPrice": 105.9
+    },
+    {
+      "slug": "soleil-pleat-romper",
+      "colour": "Black",
+      "previousPrice": 86,
+      "newPrice": 96.9
+    },
+    {
+      "slug": "blaire-pleat-romper",
+      "colour": "Apricot",
+      "previousPrice": 86,
+      "newPrice": 96.9
+    },
+    {
+      "slug": "mira-satin-maxi-dress",
+      "colour": "Blue Ombre",
+      "previousPrice": 118,
+      "newPrice": 118
+    },
+    {
+      "slug": "emerald-satin-maxi-dress",
+      "colour": "Sage Green",
+      "previousPrice": 118,
+      "newPrice": 118
+    },
+    {
+      "slug": "brielle-satin-maxi-dress",
+      "colour": "Pink Tie-Dye",
+      "previousPrice": 118,
+      "newPrice": 118
+    },
+    {
+      "slug": "mocha-satin-maxi-dress",
+      "colour": "Coffee Marble Print",
+      "previousPrice": 118,
+      "newPrice": 118
+    },
+    {
+      "slug": "rosa-satin-maxi-dress",
+      "colour": "Rose Red Floral",
+      "previousPrice": 118,
+      "newPrice": 118
+    },
+    {
+      "slug": "amara-midi-dress",
+      "colour": "Lavender",
+      "previousPrice": 118,
+      "newPrice": 118
+    },
+    {
+      "slug": "colette-midi-dress",
+      "colour": "Sky Blue",
+      "previousPrice": 118,
+      "newPrice": 118
+    },
+    {
+      "slug": "palmira-satin-maxi-dress",
+      "colour": "Black Palm Print",
+      "previousPrice": null,
+      "newPrice": 66.9
+    },
+    {
+      "slug": "portofino-carryall-white",
+      "colour": "White",
+      "previousPrice": null,
+      "newPrice": 85.9
+    },
+    {
+      "slug": "portofino-carryall-brown",
+      "colour": "Brown",
+      "previousPrice": 80.9,
+      "newPrice": 85.9
+    }
+  ]
+}
