@@ -91,5 +91,253 @@ export const octoberSourceLineage: Record<string, { sourceProductId: string; sou
   "portofino-carryall-brown": {
       "sourceProductId": "3256810459789070",
       "sourceColor": "Brown"
+  },
+  "salvia-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "10A"
+  },
+  "laguna-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "9A"
+  },
+  "orquidea-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "11A"
+  },
+  "duna-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "12A"
+  },
+  "azulina-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "13A"
+  },
+  "celeste-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "14A"
+  },
+  "hortensia-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "15A"
+  },
+  "blush-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "16A"
+  },
+  "rosalie-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "17A"
+  },
+  "pop-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "18A"
+  },
+  "delft-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "19A"
+  },
+  "mimosa-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "20A"
+  },
+  "petunia-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "1A"
+  },
+  "jardim-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "2A"
+  },
+  "marina-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "3A"
+  },
+  "girassol-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "5A"
+  },
+  "prado-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "6A"
+  },
+  "aquarela-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "7A"
+  },
+  "peonia-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "8A"
+  },
+  "taupe-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "21A"
+  },
+  "onda-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "22A"
+  },
+  "mosaico-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "23A"
+  },
+  "neve-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "24A"
+  },
+  "boho-vneck-print-midi-dress": {
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "25A"
+  },
+  "kora-tribal-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "17"
+  },
+  "ember-tribal-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "18"
+  },
+  "ivo-tribal-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "19"
+  },
+  "tide-mosaic-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "20"
+  },
+  "nova-galaxy-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "6"
+  },
+  "mali-mudcloth-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "12"
+  },
+  "azul-tile-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "16"
+  },
+  "onyx-tribal-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "11"
+  },
+  "sol-tribal-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "13"
+  },
+  "sienna-chevron-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "14"
+  },
+  "rio-stripe-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "15"
+  },
+  "aurora-galaxy-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "7"
+  },
+  "lumen-galaxy-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "8"
+  },
+  "glyph-mudcloth-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "9"
+  },
+  "kente-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "10"
+  },
+  "stella-galaxy-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "2"
+  },
+  "oceana-galaxy-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "3"
+  },
+  "blaze-galaxy-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "4"
+  },
+  "iris-galaxy-swing-dress": {
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "5"
+  },
+  "denim-block-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000AS"
+  },
+  "slate-block-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000AT"
+  },
+  "sage-block-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000AU"
+  },
+  "rubra-block-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B3"
+  },
+  "noir-grid-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B2"
+  },
+  "iris-rainbow-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-16 colorful"
+  },
+  "onyx-leopard-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-5 leopard print"
+  },
+  "festa-fireworks-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-9 fireworks"
+  },
+  "cacao-zebra-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-10 brown zebra"
+  },
+  "safari-mixed-print-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-21 leopard point"
+  },
+  "domino-stripe-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-22 black and white"
+  },
+  "fronda-tropical-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-19 leaves"
+  },
+  "mosaica-geometric-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-17 diamond shape"
+  },
+  "florenza-bloom-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-18 large flowers"
+  },
+  "noir-leaf-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-8 leaves"
+  },
+  "ash-grid-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B1"
+  },
+  "lavanda-plaid-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B5"
+  },
+  "verde-block-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B6"
+  },
+  "mono-block-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B4"
   }
 };

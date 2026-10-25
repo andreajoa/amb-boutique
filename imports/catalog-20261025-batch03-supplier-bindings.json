@@ -1,0 +1,1399 @@
+{
+  "batch": "20261025",
+  "applied": false,
+  "note": "Proposta de v\u00ednculos por tamanho para o Manager; aplicar no banco s\u00f3 depois da publica\u00e7\u00e3o.",
+  "products": [
+    {
+      "slug": "salvia-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "10A",
+      "sourceSkuIdsBySize": {
+        "M": "12000059354076354",
+        "L": "12000059354076355",
+        "S": "12000059354076353",
+        "XXXL": "12000059354076358",
+        "XL": "12000059354076356",
+        "XXL": "12000059354076357"
+      },
+      "landedCostUsdBySize": {
+        "M": 25.1,
+        "L": 25.1,
+        "S": 25.1,
+        "XXXL": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1
+      },
+      "stockBySize": {
+        "M": 500,
+        "L": 500,
+        "S": 500,
+        "XXXL": 500,
+        "XL": 500,
+        "XXL": 500
+      }
+    },
+    {
+      "slug": "laguna-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "9A",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000059354076352",
+        "S": "12000059354076347",
+        "XL": "12000059354076350",
+        "XXL": "12000059354076351",
+        "M": "12000059354076348",
+        "L": "12000059354076349"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 25.1,
+        "S": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1,
+        "M": 25.1,
+        "L": 25.1
+      },
+      "stockBySize": {
+        "XXXL": 500,
+        "S": 500,
+        "XL": 500,
+        "XXL": 500,
+        "M": 500,
+        "L": 500
+      }
+    },
+    {
+      "slug": "orquidea-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "11A",
+      "sourceSkuIdsBySize": {
+        "S": "12000059354076359",
+        "XL": "12000059354076362",
+        "M": "12000059354076360",
+        "L": "12000059354076361",
+        "XXXL": "12000059354076364",
+        "XXL": "12000059354076363"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.1,
+        "XL": 25.1,
+        "M": 25.1,
+        "L": 25.1,
+        "XXXL": 25.1,
+        "XXL": 25.1
+      },
+      "stockBySize": {
+        "S": 500,
+        "XL": 500,
+        "M": 500,
+        "L": 500,
+        "XXXL": 500,
+        "XXL": 500
+      }
+    },
+    {
+      "slug": "duna-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "12A",
+      "sourceSkuIdsBySize": {
+        "M": "12000059354076366",
+        "L": "12000059354076367",
+        "S": "12000059354076365",
+        "XXXL": "12000059354076370",
+        "XL": "12000059354076368",
+        "XXL": "12000059354076369"
+      },
+      "landedCostUsdBySize": {
+        "M": 25.1,
+        "L": 25.1,
+        "S": 25.1,
+        "XXXL": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1
+      },
+      "stockBySize": {
+        "M": 500,
+        "L": 500,
+        "S": 500,
+        "XXXL": 500,
+        "XL": 500,
+        "XXL": 500
+      }
+    },
+    {
+      "slug": "azulina-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "13A",
+      "sourceSkuIdsBySize": {
+        "S": "12000059354076371",
+        "XL": "12000059354076374",
+        "XXL": "12000059354076375",
+        "M": "12000059354076372",
+        "L": "12000059354076373",
+        "XXXL": "12000059354076376"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1,
+        "M": 25.1,
+        "L": 25.1,
+        "XXXL": 25.1
+      },
+      "stockBySize": {
+        "S": 500,
+        "XL": 500,
+        "XXL": 499,
+        "M": 500,
+        "L": 500,
+        "XXXL": 500
+      }
+    },
+    {
+      "slug": "celeste-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "14A",
+      "sourceSkuIdsBySize": {
+        "M": "12000059354076378",
+        "L": "12000059354076379",
+        "S": "12000059354076377",
+        "XXXL": "12000059354076382",
+        "XL": "12000059354076380",
+        "XXL": "12000059354076381"
+      },
+      "landedCostUsdBySize": {
+        "M": 25.1,
+        "L": 25.1,
+        "S": 25.1,
+        "XXXL": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1
+      },
+      "stockBySize": {
+        "M": 500,
+        "L": 499,
+        "S": 500,
+        "XXXL": 500,
+        "XL": 500,
+        "XXL": 500
+      }
+    },
+    {
+      "slug": "hortensia-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "15A",
+      "sourceSkuIdsBySize": {
+        "S": "12000059354076383",
+        "XL": "12000059354076386",
+        "XXL": "12000059354076387",
+        "M": "12000059354076384",
+        "L": "12000059354076385",
+        "XXXL": "12000059354076388"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1,
+        "M": 25.1,
+        "L": 25.1,
+        "XXXL": 25.1
+      },
+      "stockBySize": {
+        "S": 500,
+        "XL": 500,
+        "XXL": 500,
+        "M": 500,
+        "L": 500,
+        "XXXL": 500
+      }
+    },
+    {
+      "slug": "blush-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "16A",
+      "sourceSkuIdsBySize": {
+        "M": "12000059354076390",
+        "L": "12000059354076391",
+        "S": "12000059354076389",
+        "XXXL": "12000059354076394",
+        "XL": "12000059354076392",
+        "XXL": "12000059354076393"
+      },
+      "landedCostUsdBySize": {
+        "M": 25.1,
+        "L": 25.1,
+        "S": 25.1,
+        "XXXL": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1
+      },
+      "stockBySize": {
+        "M": 500,
+        "L": 500,
+        "S": 500,
+        "XXXL": 500,
+        "XL": 500,
+        "XXL": 500
+      }
+    },
+    {
+      "slug": "rosalie-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "17A",
+      "sourceSkuIdsBySize": {
+        "S": "12000059354076395",
+        "XL": "12000059354076398",
+        "XXL": "12000059354076399",
+        "M": "12000059354076396",
+        "L": "12000059354076397",
+        "XXXL": "12000059354076400"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1,
+        "M": 25.1,
+        "L": 25.1,
+        "XXXL": 25.1
+      },
+      "stockBySize": {
+        "S": 500,
+        "XL": 500,
+        "XXL": 500,
+        "M": 500,
+        "L": 500,
+        "XXXL": 500
+      }
+    },
+    {
+      "slug": "pop-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "18A",
+      "sourceSkuIdsBySize": {
+        "M": "12000059354076402",
+        "L": "12000059354076403",
+        "S": "12000059354076401",
+        "XXXL": "12000059354076406",
+        "XL": "12000059354076404",
+        "XXL": "12000059354076405"
+      },
+      "landedCostUsdBySize": {
+        "M": 25.1,
+        "L": 25.1,
+        "S": 25.1,
+        "XXXL": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1
+      },
+      "stockBySize": {
+        "M": 500,
+        "L": 500,
+        "S": 500,
+        "XXXL": 500,
+        "XL": 500,
+        "XXL": 500
+      }
+    },
+    {
+      "slug": "delft-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "19A",
+      "sourceSkuIdsBySize": {
+        "S": "12000059354076407",
+        "XL": "12000059354076410",
+        "XXL": "12000059354076411",
+        "M": "12000059354076408",
+        "L": "12000059354076409",
+        "XXXL": "12000059354076412"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1,
+        "M": 25.1,
+        "L": 25.1,
+        "XXXL": 25.1
+      },
+      "stockBySize": {
+        "S": 500,
+        "XL": 500,
+        "XXL": 500,
+        "M": 500,
+        "L": 500,
+        "XXXL": 500
+      }
+    },
+    {
+      "slug": "mimosa-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "20A",
+      "sourceSkuIdsBySize": {
+        "M": "12000059354076414",
+        "L": "12000059354076415",
+        "S": "12000059354076413",
+        "XXXL": "12000059354076418",
+        "XL": "12000059354076416",
+        "XXL": "12000059354076417"
+      },
+      "landedCostUsdBySize": {
+        "M": 25.1,
+        "L": 25.1,
+        "S": 25.1,
+        "XXXL": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1
+      },
+      "stockBySize": {
+        "M": 500,
+        "L": 500,
+        "S": 500,
+        "XXXL": 500,
+        "XL": 500,
+        "XXL": 500
+      }
+    },
+    {
+      "slug": "petunia-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "1A",
+      "sourceSkuIdsBySize": {
+        "S": "12000059354076299",
+        "XL": "12000059354076302",
+        "XXL": "12000059354076303",
+        "M": "12000059354076300",
+        "L": "12000059354076301",
+        "XXXL": "12000059354076304"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1,
+        "M": 25.1,
+        "L": 25.1,
+        "XXXL": 25.1
+      },
+      "stockBySize": {
+        "S": 500,
+        "XL": 500,
+        "XXL": 500,
+        "M": 500,
+        "L": 500,
+        "XXXL": 500
+      }
+    },
+    {
+      "slug": "jardim-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "2A",
+      "sourceSkuIdsBySize": {
+        "M": "12000059354076306",
+        "L": "12000059354076307",
+        "S": "12000059354076305",
+        "XXXL": "12000059354076310",
+        "XL": "12000059354076308",
+        "XXL": "12000059354076309"
+      },
+      "landedCostUsdBySize": {
+        "M": 25.1,
+        "L": 25.1,
+        "S": 25.1,
+        "XXXL": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1
+      },
+      "stockBySize": {
+        "M": 500,
+        "L": 500,
+        "S": 500,
+        "XXXL": 500,
+        "XL": 500,
+        "XXL": 500
+      }
+    },
+    {
+      "slug": "marina-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "3A",
+      "sourceSkuIdsBySize": {
+        "S": "12000059354076311",
+        "XL": "12000059354076314",
+        "XXL": "12000059354076315",
+        "M": "12000059354076312",
+        "L": "12000059354076313",
+        "XXXL": "12000059354076316"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1,
+        "M": 25.1,
+        "L": 25.1,
+        "XXXL": 25.1
+      },
+      "stockBySize": {
+        "S": 500,
+        "XL": 500,
+        "XXL": 500,
+        "M": 500,
+        "L": 500,
+        "XXXL": 500
+      }
+    },
+    {
+      "slug": "girassol-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "5A",
+      "sourceSkuIdsBySize": {
+        "S": "12000059354076323",
+        "XL": "12000059354076326",
+        "XXL": "12000059354076327",
+        "M": "12000059354076324",
+        "L": "12000059354076325",
+        "XXXL": "12000059354076328"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1,
+        "M": 25.1,
+        "L": 25.1,
+        "XXXL": 25.1
+      },
+      "stockBySize": {
+        "S": 500,
+        "XL": 500,
+        "XXL": 500,
+        "M": 500,
+        "L": 500,
+        "XXXL": 500
+      }
+    },
+    {
+      "slug": "prado-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "6A",
+      "sourceSkuIdsBySize": {
+        "M": "12000059354076330",
+        "L": "12000059354076331",
+        "S": "12000059354076329",
+        "XXXL": "12000059354076334",
+        "XL": "12000059354076332",
+        "XXL": "12000059354076333"
+      },
+      "landedCostUsdBySize": {
+        "M": 25.1,
+        "L": 25.1,
+        "S": 25.1,
+        "XXXL": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1
+      },
+      "stockBySize": {
+        "M": 500,
+        "L": 500,
+        "S": 500,
+        "XXXL": 500,
+        "XL": 500,
+        "XXL": 500
+      }
+    },
+    {
+      "slug": "aquarela-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "7A",
+      "sourceSkuIdsBySize": {
+        "S": "12000059354076335",
+        "XL": "12000059354076338",
+        "XXL": "12000059354076339",
+        "M": "12000059354076336",
+        "L": "12000059354076337",
+        "XXXL": "12000059354076340"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1,
+        "M": 25.1,
+        "L": 25.1,
+        "XXXL": 25.1
+      },
+      "stockBySize": {
+        "S": 500,
+        "XL": 500,
+        "XXL": 500,
+        "M": 500,
+        "L": 500,
+        "XXXL": 500
+      }
+    },
+    {
+      "slug": "peonia-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "8A",
+      "sourceSkuIdsBySize": {
+        "M": "12000059354076342",
+        "L": "12000059354076343",
+        "S": "12000059354076341",
+        "XXXL": "12000059354076346",
+        "XL": "12000059354076344",
+        "XXL": "12000059354076345"
+      },
+      "landedCostUsdBySize": {
+        "M": 25.1,
+        "L": 25.1,
+        "S": 25.1,
+        "XXXL": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1
+      },
+      "stockBySize": {
+        "M": 500,
+        "L": 500,
+        "S": 500,
+        "XXXL": 500,
+        "XL": 500,
+        "XXL": 500
+      }
+    },
+    {
+      "slug": "taupe-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "21A",
+      "sourceSkuIdsBySize": {
+        "S": "12000059354076419",
+        "XL": "12000059354076422",
+        "XXL": "12000059354076423",
+        "M": "12000059354076420",
+        "L": "12000059354076421",
+        "XXXL": "12000059354076424"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1,
+        "M": 25.1,
+        "L": 25.1,
+        "XXXL": 25.1
+      },
+      "stockBySize": {
+        "S": 500,
+        "XL": 500,
+        "XXL": 500,
+        "M": 500,
+        "L": 500,
+        "XXXL": 500
+      }
+    },
+    {
+      "slug": "onda-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "22A",
+      "sourceSkuIdsBySize": {
+        "M": "12000059354076426",
+        "L": "12000059354076427",
+        "S": "12000059354076425",
+        "XXXL": "12000059354076430",
+        "XL": "12000059354076428",
+        "XXL": "12000059354076429"
+      },
+      "landedCostUsdBySize": {
+        "M": 25.1,
+        "L": 25.1,
+        "S": 25.1,
+        "XXXL": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1
+      },
+      "stockBySize": {
+        "M": 500,
+        "L": 500,
+        "S": 500,
+        "XXXL": 500,
+        "XL": 500,
+        "XXL": 500
+      }
+    },
+    {
+      "slug": "mosaico-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "23A",
+      "sourceSkuIdsBySize": {
+        "S": "12000059354076431",
+        "XL": "12000059354076434",
+        "XXL": "12000059354076435",
+        "M": "12000059354076432",
+        "L": "12000059354076433",
+        "XXXL": "12000059354076436"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1,
+        "M": 25.1,
+        "L": 25.1,
+        "XXXL": 25.1
+      },
+      "stockBySize": {
+        "S": 500,
+        "XL": 500,
+        "XXL": 500,
+        "M": 500,
+        "L": 500,
+        "XXXL": 500
+      }
+    },
+    {
+      "slug": "neve-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "24A",
+      "sourceSkuIdsBySize": {
+        "M": "12000059354076438",
+        "L": "12000059354076439",
+        "S": "12000059354076437",
+        "XXXL": "12000059354076442",
+        "XL": "12000059354076440",
+        "XXL": "12000059354076441"
+      },
+      "landedCostUsdBySize": {
+        "M": 25.1,
+        "L": 25.1,
+        "S": 25.1,
+        "XXXL": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1
+      },
+      "stockBySize": {
+        "M": 500,
+        "L": 500,
+        "S": 500,
+        "XXXL": 499,
+        "XL": 499,
+        "XXL": 499
+      }
+    },
+    {
+      "slug": "boho-vneck-print-midi-dress",
+      "sourceProductId": "3256812599747605",
+      "sourceColor": "25A",
+      "sourceSkuIdsBySize": {
+        "S": "12000059354076443",
+        "XL": "12000059354076446",
+        "XXL": "12000059354076447",
+        "M": "12000059354076444",
+        "L": "12000059354076445",
+        "XXXL": "12000059354076448"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.1,
+        "XL": 25.1,
+        "XXL": 25.1,
+        "M": 25.1,
+        "L": 25.1,
+        "XXXL": 25.1
+      },
+      "stockBySize": {
+        "S": 500,
+        "XL": 500,
+        "XXL": 500,
+        "M": 500,
+        "L": 499,
+        "XXXL": 500
+      }
+    },
+    {
+      "slug": "kora-tribal-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "17",
+      "sourceSkuIdsBySize": {
+        "L": "12000059657986755",
+        "S": "12000059657986754",
+        "M": "12000059657986757",
+        "XXL": "12000059657986756",
+        "XXXL": "12000059657986759",
+        "XL": "12000059657986758"
+      },
+      "landedCostUsdBySize": {
+        "L": 28.98,
+        "S": 28.98,
+        "M": 28.98,
+        "XXL": 28.98,
+        "XXXL": 28.98,
+        "XL": 28.98
+      },
+      "stockBySize": {
+        "L": 1000,
+        "S": 1000,
+        "M": 1000,
+        "XXL": 1000,
+        "XXXL": 1000,
+        "XL": 1000
+      }
+    },
+    {
+      "slug": "ember-tribal-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "18",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000059657986765",
+        "XL": "12000059657986764",
+        "L": "12000059657986761",
+        "S": "12000059657986760",
+        "M": "12000059657986763",
+        "XXL": "12000059657986762"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 28.98,
+        "XL": 28.98,
+        "L": 28.98,
+        "S": 28.98,
+        "M": 28.98,
+        "XXL": 28.98
+      },
+      "stockBySize": {
+        "XXXL": 1000,
+        "XL": 1000,
+        "L": 1000,
+        "S": 1000,
+        "M": 1000,
+        "XXL": 1000
+      }
+    },
+    {
+      "slug": "ivo-tribal-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "19",
+      "sourceSkuIdsBySize": {
+        "L": "12000059657986767",
+        "S": "12000059657986766",
+        "M": "12000059657986769",
+        "XXL": "12000059657986768",
+        "XXXL": "12000059657986771",
+        "XL": "12000059657986770"
+      },
+      "landedCostUsdBySize": {
+        "L": 28.98,
+        "S": 28.98,
+        "M": 28.98,
+        "XXL": 28.98,
+        "XXXL": 28.98,
+        "XL": 28.98
+      },
+      "stockBySize": {
+        "L": 1000,
+        "S": 1000,
+        "M": 1000,
+        "XXL": 1000,
+        "XXXL": 1000,
+        "XL": 1000
+      }
+    },
+    {
+      "slug": "tide-mosaic-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "20",
+      "sourceSkuIdsBySize": {
+        "L": "12000059657986773",
+        "S": "12000059657986772",
+        "M": "12000059657986775",
+        "XXL": "12000059657986774",
+        "XXXL": "12000059657986777",
+        "XL": "12000059657986776"
+      },
+      "landedCostUsdBySize": {
+        "L": 28.98,
+        "S": 28.98,
+        "M": 28.98,
+        "XXL": 28.98,
+        "XXXL": 28.98,
+        "XL": 28.98
+      },
+      "stockBySize": {
+        "L": 1000,
+        "S": 1000,
+        "M": 1000,
+        "XXL": 1000,
+        "XXXL": 1000,
+        "XL": 1000
+      }
+    },
+    {
+      "slug": "nova-galaxy-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "6",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000059657986693",
+        "XL": "12000059657986692",
+        "L": "12000059657986689",
+        "S": "12000059657986688",
+        "M": "12000059657986691",
+        "XXL": "12000059657986690"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 28.98,
+        "XL": 28.98,
+        "L": 28.98,
+        "S": 28.98,
+        "M": 28.98,
+        "XXL": 28.98
+      },
+      "stockBySize": {
+        "XXXL": 1000,
+        "XL": 1000,
+        "L": 1000,
+        "S": 1000,
+        "M": 1000,
+        "XXL": 1000
+      }
+    },
+    {
+      "slug": "mali-mudcloth-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "12",
+      "sourceSkuIdsBySize": {
+        "L": "12000059657986725",
+        "S": "12000059657986724",
+        "M": "12000059657986727",
+        "XXL": "12000059657986726",
+        "XXXL": "12000059657986729",
+        "XL": "12000059657986728"
+      },
+      "landedCostUsdBySize": {
+        "L": 28.98,
+        "S": 28.98,
+        "M": 28.98,
+        "XXL": 28.98,
+        "XXXL": 28.98,
+        "XL": 28.98
+      },
+      "stockBySize": {
+        "L": 1000,
+        "S": 1000,
+        "M": 1000,
+        "XXL": 1000,
+        "XXXL": 1000,
+        "XL": 1000
+      }
+    },
+    {
+      "slug": "azul-tile-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "16",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000059657986753",
+        "XL": "12000059657986752",
+        "L": "12000059657986749",
+        "S": "12000059657986748",
+        "M": "12000059657986751",
+        "XXL": "12000059657986750"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 28.98,
+        "XL": 28.98,
+        "L": 28.98,
+        "S": 28.98,
+        "M": 28.98,
+        "XXL": 28.98
+      },
+      "stockBySize": {
+        "XXXL": 1000,
+        "XL": 1000,
+        "L": 1000,
+        "S": 1000,
+        "M": 1000,
+        "XXL": 1000
+      }
+    },
+    {
+      "slug": "onyx-tribal-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "11",
+      "sourceSkuIdsBySize": {
+        "M": "12000059657986721",
+        "XXL": "12000059657986720",
+        "XXXL": "12000059657986723",
+        "XL": "12000059657986722",
+        "L": "12000059657986719",
+        "S": "12000059657986718"
+      },
+      "landedCostUsdBySize": {
+        "M": 28.98,
+        "XXL": 28.98,
+        "XXXL": 28.98,
+        "XL": 28.98,
+        "L": 28.98,
+        "S": 28.98
+      },
+      "stockBySize": {
+        "M": 1000,
+        "XXL": 1000,
+        "XXXL": 1000,
+        "XL": 1000,
+        "L": 1000,
+        "S": 1000
+      }
+    },
+    {
+      "slug": "sol-tribal-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "13",
+      "sourceSkuIdsBySize": {
+        "M": "12000059657986733",
+        "XXL": "12000059657986732",
+        "XXXL": "12000059657986735",
+        "XL": "12000059657986734",
+        "L": "12000059657986731",
+        "S": "12000059657986730"
+      },
+      "landedCostUsdBySize": {
+        "M": 28.98,
+        "XXL": 28.98,
+        "XXXL": 28.98,
+        "XL": 28.98,
+        "L": 28.98,
+        "S": 28.98
+      },
+      "stockBySize": {
+        "M": 1000,
+        "XXL": 1000,
+        "XXXL": 1000,
+        "XL": 1000,
+        "L": 1000,
+        "S": 1000
+      }
+    },
+    {
+      "slug": "sienna-chevron-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "14",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000059657986741",
+        "XL": "12000059657986740",
+        "L": "12000059657986737",
+        "S": "12000059657986736",
+        "M": "12000059657986739",
+        "XXL": "12000059657986738"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 28.98,
+        "XL": 28.98,
+        "L": 28.98,
+        "S": 28.98,
+        "M": 28.98,
+        "XXL": 28.98
+      },
+      "stockBySize": {
+        "XXXL": 1000,
+        "XL": 1000,
+        "L": 1000,
+        "S": 1000,
+        "M": 1000,
+        "XXL": 1000
+      }
+    },
+    {
+      "slug": "rio-stripe-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "15",
+      "sourceSkuIdsBySize": {
+        "L": "12000059657986743",
+        "S": "12000059657986742",
+        "M": "12000059657986745",
+        "XXL": "12000059657986744",
+        "XXXL": "12000059657986747",
+        "XL": "12000059657986746"
+      },
+      "landedCostUsdBySize": {
+        "L": 28.98,
+        "S": 28.98,
+        "M": 28.98,
+        "XXL": 28.98,
+        "XXXL": 28.98,
+        "XL": 28.98
+      },
+      "stockBySize": {
+        "L": 1000,
+        "S": 1000,
+        "M": 1000,
+        "XXL": 1000,
+        "XXXL": 1000,
+        "XL": 1000
+      }
+    },
+    {
+      "slug": "aurora-galaxy-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "7",
+      "sourceSkuIdsBySize": {
+        "L": "12000059657986695",
+        "S": "12000059657986694",
+        "M": "12000059657986697",
+        "XXL": "12000059657986696",
+        "XXXL": "12000059657986699",
+        "XL": "12000059657986698"
+      },
+      "landedCostUsdBySize": {
+        "L": 28.98,
+        "S": 28.98,
+        "M": 28.98,
+        "XXL": 28.98,
+        "XXXL": 28.98,
+        "XL": 28.98
+      },
+      "stockBySize": {
+        "L": 1000,
+        "S": 1000,
+        "M": 1000,
+        "XXL": 1000,
+        "XXXL": 1000,
+        "XL": 1000
+      }
+    },
+    {
+      "slug": "lumen-galaxy-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "8",
+      "sourceSkuIdsBySize": {
+        "L": "12000059657986701",
+        "S": "12000059657986700",
+        "M": "12000059657986703",
+        "XXL": "12000059657986702",
+        "XXXL": "12000059657986705",
+        "XL": "12000059657986704"
+      },
+      "landedCostUsdBySize": {
+        "L": 28.98,
+        "S": 28.98,
+        "M": 28.98,
+        "XXL": 28.98,
+        "XXXL": 28.98,
+        "XL": 28.98
+      },
+      "stockBySize": {
+        "L": 1000,
+        "S": 1000,
+        "M": 1000,
+        "XXL": 1000,
+        "XXXL": 1000,
+        "XL": 1000
+      }
+    },
+    {
+      "slug": "glyph-mudcloth-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "9",
+      "sourceSkuIdsBySize": {
+        "M": "12000059657986709",
+        "XXL": "12000059657986708",
+        "XXXL": "12000059657986711",
+        "XL": "12000059657986710",
+        "L": "12000059657986707",
+        "S": "12000059657986706"
+      },
+      "landedCostUsdBySize": {
+        "M": 28.98,
+        "XXL": 28.98,
+        "XXXL": 28.98,
+        "XL": 28.98,
+        "L": 28.98,
+        "S": 28.98
+      },
+      "stockBySize": {
+        "M": 1000,
+        "XXL": 1000,
+        "XXXL": 1000,
+        "XL": 1000,
+        "L": 1000,
+        "S": 1000
+      }
+    },
+    {
+      "slug": "kente-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "10",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000059657986717",
+        "XL": "12000059657986716",
+        "L": "12000059657986713",
+        "S": "12000059657986712",
+        "M": "12000059657986715",
+        "XXL": "12000059657986714"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 28.98,
+        "XL": 28.98,
+        "L": 28.98,
+        "S": 28.98,
+        "M": 28.98,
+        "XXL": 28.98
+      },
+      "stockBySize": {
+        "XXXL": 1000,
+        "XL": 1000,
+        "L": 1000,
+        "S": 1000,
+        "M": 1000,
+        "XXL": 1000
+      }
+    },
+    {
+      "slug": "stella-galaxy-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "2",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000059657986669",
+        "XL": "12000059657986668",
+        "L": "12000059657986665",
+        "S": "12000059657986664",
+        "M": "12000059657986667",
+        "XXL": "12000059657986666"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 28.98,
+        "XL": 28.98,
+        "L": 28.98,
+        "S": 28.98,
+        "M": 28.98,
+        "XXL": 28.98
+      },
+      "stockBySize": {
+        "XXXL": 1000,
+        "XL": 1000,
+        "L": 1000,
+        "S": 1000,
+        "M": 1000,
+        "XXL": 1000
+      }
+    },
+    {
+      "slug": "oceana-galaxy-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "3",
+      "sourceSkuIdsBySize": {
+        "L": "12000059657986671",
+        "S": "12000059657986670",
+        "M": "12000059657986673",
+        "XXL": "12000059657986672",
+        "XXXL": "12000059657986675",
+        "XL": "12000059657986674"
+      },
+      "landedCostUsdBySize": {
+        "L": 28.98,
+        "S": 28.98,
+        "M": 28.98,
+        "XXL": 28.98,
+        "XXXL": 28.98,
+        "XL": 28.98
+      },
+      "stockBySize": {
+        "L": 1000,
+        "S": 1000,
+        "M": 1000,
+        "XXL": 1000,
+        "XXXL": 1000,
+        "XL": 1000
+      }
+    },
+    {
+      "slug": "blaze-galaxy-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "4",
+      "sourceSkuIdsBySize": {
+        "L": "12000059657986677",
+        "S": "12000059657986676",
+        "M": "12000059657986679",
+        "XXL": "12000059657986678",
+        "XXXL": "12000059657986681",
+        "XL": "12000059657986680"
+      },
+      "landedCostUsdBySize": {
+        "L": 28.98,
+        "S": 28.98,
+        "M": 28.98,
+        "XXL": 28.98,
+        "XXXL": 28.98,
+        "XL": 28.98
+      },
+      "stockBySize": {
+        "L": 1000,
+        "S": 1000,
+        "M": 1000,
+        "XXL": 1000,
+        "XXXL": 1000,
+        "XL": 1000
+      }
+    },
+    {
+      "slug": "iris-galaxy-swing-dress",
+      "sourceProductId": "3256812704949938",
+      "sourceColor": "5",
+      "sourceSkuIdsBySize": {
+        "M": "12000059657986685",
+        "XXL": "12000059657986684",
+        "XXXL": "12000059657986687",
+        "XL": "12000059657986686",
+        "L": "12000059657986683",
+        "S": "12000059657986682"
+      },
+      "landedCostUsdBySize": {
+        "M": 28.98,
+        "XXL": 28.98,
+        "XXXL": 28.98,
+        "XL": 28.98,
+        "L": 28.98,
+        "S": 28.98
+      },
+      "stockBySize": {
+        "M": 1000,
+        "XXL": 1000,
+        "XXXL": 1000,
+        "XL": 1000,
+        "L": 1000,
+        "S": 1000
+      }
+    },
+    {
+      "slug": "denim-block-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000AS",
+      "sourceSkuIdsBySize": {
+        "XL": "12000058614170604",
+        "XXL": "12000058614170605",
+        "XXXL": "12000058614170606",
+        "S": "12000058614170601",
+        "M": "12000058614170602",
+        "L": "12000058614170603"
+      },
+      "landedCostUsdBySize": {
+        "XL": 13.48,
+        "XXL": 13.14,
+        "XXXL": 13.14,
+        "S": 12.88,
+        "M": 13.08,
+        "L": 12.88
+      },
+      "stockBySize": {
+        "XL": 198,
+        "XXL": 199,
+        "XXXL": 199,
+        "S": 199,
+        "M": 198,
+        "L": 199
+      }
+    },
+    {
+      "slug": "slate-block-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000AT",
+      "sourceSkuIdsBySize": {
+        "S": "12000058614170607",
+        "XXXL": "12000058614170612",
+        "M": "12000058614170608",
+        "L": "12000058614170609",
+        "XL": "12000058614170610",
+        "XXL": "12000058614170611"
+      },
+      "landedCostUsdBySize": {
+        "S": 12.88,
+        "XXXL": 13.14,
+        "M": 12.88,
+        "L": 12.88,
+        "XL": 13.14,
+        "XXL": 13.14
+      },
+      "stockBySize": {
+        "S": 199,
+        "XXXL": 199,
+        "M": 199,
+        "L": 199,
+        "XL": 199,
+        "XXL": 199
+      }
+    },
+    {
+      "slug": "sage-block-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000AU",
+      "sourceSkuIdsBySize": {
+        "XL": "12000058614170616",
+        "XXL": "12000058614170617",
+        "S": "12000058614170613",
+        "M": "12000058614170614",
+        "L": "12000058614170615",
+        "XXXL": "12000058614170618"
+      },
+      "landedCostUsdBySize": {
+        "XL": 13.14,
+        "XXL": 13.14,
+        "S": 12.88,
+        "M": 13.04,
+        "L": 12.88,
+        "XXXL": 13.14
+      },
+      "stockBySize": {
+        "XL": 199,
+        "XXL": 199,
+        "S": 199,
+        "M": 198,
+        "L": 199,
+        "XXXL": 199
+      }
+    },
+    {
+      "slug": "rubra-block-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B3",
+      "sourceSkuIdsBySize": {
+        "M": "12000058614170668",
+        "L": "12000058614170669",
+        "XL": "12000058614170670",
+        "XXL": "12000058614170671",
+        "S": "12000058614170667",
+        "XXXL": "12000058614170672"
+      },
+      "landedCostUsdBySize": {
+        "M": 12.88,
+        "L": 12.88,
+        "XL": 13.14,
+        "XXL": 13.14,
+        "S": 12.84,
+        "XXXL": 13.58
+      },
+      "stockBySize": {
+        "M": 199,
+        "L": 199,
+        "XL": 199,
+        "XXL": 199,
+        "S": 198,
+        "XXXL": 195
+      }
+    },
+    {
+      "slug": "noir-grid-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B2",
+      "sourceSkuIdsBySize": {
+        "XL": "12000058614170664",
+        "XXL": "12000058614170665",
+        "XXXL": "12000058614170666",
+        "S": "12000058614170661",
+        "M": "12000058614170662",
+        "L": "12000058614170663"
+      },
+      "landedCostUsdBySize": {
+        "XL": 13.14,
+        "XXL": 13.14,
+        "XXXL": 13.14,
+        "S": 12.88,
+        "M": 12.88,
+        "L": 12.88
+      },
+      "stockBySize": {
+        "XL": 199,
+        "XXL": 199,
+        "XXXL": 199,
+        "S": 199,
+        "M": 199,
+        "L": 199
+      }
+    }
+  ]
+}

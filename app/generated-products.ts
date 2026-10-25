@@ -5672,7 +5672,7 @@ const allGeneratedProducts: Product[] = [
     "name": "Rio Mosaic Maxi Kaftan",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
-    "price": 68,
+    "price": 82.9,
     "compareAt": 85,
     "sheet": "two",
     "quadrant": 4,
@@ -5696,7 +5696,7 @@ const allGeneratedProducts: Product[] = [
     ],
     "stock": 2500,
     "weightOz": 11.85,
-    "unitCostUsd": 2.08,
+    "unitCostUsd": 27.38,
     "minimumMarginPercent": 40,
     "badge": "Just In"
   },
@@ -5705,7 +5705,7 @@ const allGeneratedProducts: Product[] = [
     "name": "Solara Sunset Maxi Kaftan",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
-    "price": 68,
+    "price": 82.9,
     "compareAt": 85,
     "sheet": "one",
     "quadrant": 1,
@@ -5729,7 +5729,7 @@ const allGeneratedProducts: Product[] = [
     ],
     "stock": 2500,
     "weightOz": 11.85,
-    "unitCostUsd": 2.08,
+    "unitCostUsd": 27.38,
     "minimumMarginPercent": 40,
     "badge": "Just In"
   },
@@ -5738,7 +5738,7 @@ const allGeneratedProducts: Product[] = [
     "name": "Leona Leopard Maxi Kaftan",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
-    "price": 68,
+    "price": 83.9,
     "compareAt": 85,
     "sheet": "two",
     "quadrant": 2,
@@ -5762,7 +5762,7 @@ const allGeneratedProducts: Product[] = [
     ],
     "stock": 2499,
     "weightOz": 11.85,
-    "unitCostUsd": 2.08,
+    "unitCostUsd": 27.68,
     "minimumMarginPercent": 40,
     "badge": "Just In"
   },
@@ -12753,6 +12753,2248 @@ const allGeneratedProducts: Product[] = [
   "stock": 987,
   "unitCostUsd": 28.58,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "salvia-vneck-print-midi-dress",
+  "name": "Salvia V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#cfe0c3"
+  ],
+  "colorNames": [
+    "Sage Wildflower Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Salvia V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Sage Wildflower Print.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/salvia-vneck-print-midi-dress/front-20261025.webp",
+    "/products/salvia-vneck-print-midi-dress/back-20261025.webp",
+    "/products/salvia-vneck-print-midi-dress/left-20261025.webp",
+    "/products/salvia-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "laguna-vneck-print-midi-dress",
+  "name": "Laguna V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#8fa9b8"
+  ],
+  "colorNames": [
+    "Dusty Blue Paisley"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Laguna V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Dusty Blue Paisley.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/laguna-vneck-print-midi-dress/front-20261025.webp",
+    "/products/laguna-vneck-print-midi-dress/back-20261025.webp",
+    "/products/laguna-vneck-print-midi-dress/left-20261025.webp",
+    "/products/laguna-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "orquidea-vneck-print-midi-dress",
+  "name": "Orquidea V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d77bc0"
+  ],
+  "colorNames": [
+    "White & Orchid Floral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Orquidea V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in White & Orchid Floral.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/orquidea-vneck-print-midi-dress/front-20261025.webp",
+    "/products/orquidea-vneck-print-midi-dress/back-20261025.webp",
+    "/products/orquidea-vneck-print-midi-dress/left-20261025.webp",
+    "/products/orquidea-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "duna-vneck-print-midi-dress",
+  "name": "Duna V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c8b8a0"
+  ],
+  "colorNames": [
+    "Sand Botanical Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Duna V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Sand Botanical Print.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/duna-vneck-print-midi-dress/front-20261025.webp",
+    "/products/duna-vneck-print-midi-dress/back-20261025.webp",
+    "/products/duna-vneck-print-midi-dress/left-20261025.webp",
+    "/products/duna-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "azulina-vneck-print-midi-dress",
+  "name": "Azulina V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#8d99d6"
+  ],
+  "colorNames": [
+    "Ivory & Periwinkle Floral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Azulina V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Ivory & Periwinkle Floral.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/azulina-vneck-print-midi-dress/front-20261025.webp",
+    "/products/azulina-vneck-print-midi-dress/back-20261025.webp",
+    "/products/azulina-vneck-print-midi-dress/left-20261025.webp",
+    "/products/azulina-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 2999,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "celeste-vneck-print-midi-dress",
+  "name": "Celeste V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#a9c8e8"
+  ],
+  "colorNames": [
+    "Sky Blue Border Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Celeste V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Sky Blue Border Print.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/celeste-vneck-print-midi-dress/front-20261025.webp",
+    "/products/celeste-vneck-print-midi-dress/back-20261025.webp",
+    "/products/celeste-vneck-print-midi-dress/left-20261025.webp",
+    "/products/celeste-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 2999,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "hortensia-vneck-print-midi-dress",
+  "name": "Hortensia V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#7f97d1"
+  ],
+  "colorNames": [
+    "Blue Hydrangea Floral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Hortensia V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Blue Hydrangea Floral.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/hortensia-vneck-print-midi-dress/front-20261025.webp",
+    "/products/hortensia-vneck-print-midi-dress/back-20261025.webp",
+    "/products/hortensia-vneck-print-midi-dress/left-20261025.webp",
+    "/products/hortensia-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "blush-vneck-print-midi-dress",
+  "name": "Blush V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e9b7c6"
+  ],
+  "colorNames": [
+    "Blush Ditsy Floral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Blush V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Blush Ditsy Floral.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/blush-vneck-print-midi-dress/front-20261025.webp",
+    "/products/blush-vneck-print-midi-dress/back-20261025.webp",
+    "/products/blush-vneck-print-midi-dress/left-20261025.webp",
+    "/products/blush-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "rosalie-vneck-print-midi-dress",
+  "name": "Rosalie V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e8a9c9"
+  ],
+  "colorNames": [
+    "Pink Rose Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Rosalie V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Pink Rose Print.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/rosalie-vneck-print-midi-dress/front-20261025.webp",
+    "/products/rosalie-vneck-print-midi-dress/back-20261025.webp",
+    "/products/rosalie-vneck-print-midi-dress/left-20261025.webp",
+    "/products/rosalie-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "pop-vneck-print-midi-dress",
+  "name": "Pop V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c8242c"
+  ],
+  "colorNames": [
+    "Polka Patchwork Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Pop V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Polka Patchwork Print.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/pop-vneck-print-midi-dress/front-20261025.webp",
+    "/products/pop-vneck-print-midi-dress/back-20261025.webp",
+    "/products/pop-vneck-print-midi-dress/left-20261025.webp",
+    "/products/pop-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "delft-vneck-print-midi-dress",
+  "name": "Delft V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#6f8fb8"
+  ],
+  "colorNames": [
+    "Blue & White Damask"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Delft V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Blue & White Damask.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/delft-vneck-print-midi-dress/front-20261025.webp",
+    "/products/delft-vneck-print-midi-dress/back-20261025.webp",
+    "/products/delft-vneck-print-midi-dress/left-20261025.webp",
+    "/products/delft-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "mimosa-vneck-print-midi-dress",
+  "name": "Mimosa V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e1c64a"
+  ],
+  "colorNames": [
+    "Mustard Daisy Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Mimosa V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Mustard Daisy Print.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/mimosa-vneck-print-midi-dress/front-20261025.webp",
+    "/products/mimosa-vneck-print-midi-dress/back-20261025.webp",
+    "/products/mimosa-vneck-print-midi-dress/left-20261025.webp",
+    "/products/mimosa-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "petunia-vneck-print-midi-dress",
+  "name": "Petunia V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e48aa0"
+  ],
+  "colorNames": [
+    "White Rose Vine Floral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Petunia V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in White Rose Vine Floral.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/petunia-vneck-print-midi-dress/front-20261025.webp",
+    "/products/petunia-vneck-print-midi-dress/back-20261025.webp",
+    "/products/petunia-vneck-print-midi-dress/left-20261025.webp",
+    "/products/petunia-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "jardim-vneck-print-midi-dress",
+  "name": "Jardim V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#efc79a"
+  ],
+  "colorNames": [
+    "Cream Garden Floral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Jardim V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Cream Garden Floral.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/jardim-vneck-print-midi-dress/front-20261025.webp",
+    "/products/jardim-vneck-print-midi-dress/back-20261025.webp",
+    "/products/jardim-vneck-print-midi-dress/left-20261025.webp",
+    "/products/jardim-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "marina-vneck-print-midi-dress",
+  "name": "Marina V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#78a6d6"
+  ],
+  "colorNames": [
+    "Blue Polka Dot"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Marina V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Blue Polka Dot.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/marina-vneck-print-midi-dress/front-20261025.webp",
+    "/products/marina-vneck-print-midi-dress/back-20261025.webp",
+    "/products/marina-vneck-print-midi-dress/left-20261025.webp",
+    "/products/marina-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "girassol-vneck-print-midi-dress",
+  "name": "Girassol V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f0c447"
+  ],
+  "colorNames": [
+    "Yellow Wildflower Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Girassol V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Yellow Wildflower Print.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/girassol-vneck-print-midi-dress/front-20261025.webp",
+    "/products/girassol-vneck-print-midi-dress/back-20261025.webp",
+    "/products/girassol-vneck-print-midi-dress/left-20261025.webp",
+    "/products/girassol-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "prado-vneck-print-midi-dress",
+  "name": "Prado V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c9d7a8"
+  ],
+  "colorNames": [
+    "White Meadow Floral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Prado V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in White Meadow Floral.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/prado-vneck-print-midi-dress/front-20261025.webp",
+    "/products/prado-vneck-print-midi-dress/back-20261025.webp",
+    "/products/prado-vneck-print-midi-dress/left-20261025.webp",
+    "/products/prado-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "aquarela-vneck-print-midi-dress",
+  "name": "Aquarela V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e7a8c8"
+  ],
+  "colorNames": [
+    "Pastel Patchwork Floral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Aquarela V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Pastel Patchwork Floral.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/aquarela-vneck-print-midi-dress/front-20261025.webp",
+    "/products/aquarela-vneck-print-midi-dress/back-20261025.webp",
+    "/products/aquarela-vneck-print-midi-dress/left-20261025.webp",
+    "/products/aquarela-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "peonia-vneck-print-midi-dress",
+  "name": "Peonia V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#a8b78d"
+  ],
+  "colorNames": [
+    "Sage & Pink Peony Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Peonia V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Sage & Pink Peony Print.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/peonia-vneck-print-midi-dress/front-20261025.webp",
+    "/products/peonia-vneck-print-midi-dress/back-20261025.webp",
+    "/products/peonia-vneck-print-midi-dress/left-20261025.webp",
+    "/products/peonia-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "taupe-vneck-print-midi-dress",
+  "name": "Taupe V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#a99a88"
+  ],
+  "colorNames": [
+    "Taupe Ditsy Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Taupe V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Taupe Ditsy Print.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/taupe-vneck-print-midi-dress/front-20261025.webp",
+    "/products/taupe-vneck-print-midi-dress/back-20261025.webp",
+    "/products/taupe-vneck-print-midi-dress/left-20261025.webp",
+    "/products/taupe-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "onda-vneck-print-midi-dress",
+  "name": "Onda V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1c1c1c"
+  ],
+  "colorNames": [
+    "Black & White Swirl"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Onda V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Black & White Swirl.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/onda-vneck-print-midi-dress/front-20261025.webp",
+    "/products/onda-vneck-print-midi-dress/back-20261025.webp",
+    "/products/onda-vneck-print-midi-dress/left-20261025.webp",
+    "/products/onda-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "mosaico-vneck-print-midi-dress",
+  "name": "Mosaico V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#7fd6b3"
+  ],
+  "colorNames": [
+    "Color-Block Art Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Mosaico V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Color-Block Art Print.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/mosaico-vneck-print-midi-dress/front-20261025.webp",
+    "/products/mosaico-vneck-print-midi-dress/back-20261025.webp",
+    "/products/mosaico-vneck-print-midi-dress/left-20261025.webp",
+    "/products/mosaico-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "neve-vneck-print-midi-dress",
+  "name": "Neve V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f1f1ef"
+  ],
+  "colorNames": [
+    "White Blue Ditsy Floral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Neve V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in White Blue Ditsy Floral.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/neve-vneck-print-midi-dress/front-20261025.webp",
+    "/products/neve-vneck-print-midi-dress/back-20261025.webp",
+    "/products/neve-vneck-print-midi-dress/left-20261025.webp",
+    "/products/neve-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 2997,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "boho-vneck-print-midi-dress",
+  "name": "Boho V-Neck Print Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 75.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#9b5aa6"
+  ],
+  "colorNames": [
+    "Purple Paisley Floral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Boho V-Neck Print Midi Dress is a relaxed flowing midi dress in soft printed linen-cotton with a V neckline trimmed in a fine embroidered geometric border, three-quarter sleeves and a gathered empire waist with a matching embroidered band, shown here in Purple Paisley Floral.",
+  "materials": "Lightweight woven cotton-blend fabric with an embroidered geometric trim at the neckline and waist.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/boho-vneck-print-midi-dress/front-20261025.webp",
+    "/products/boho-vneck-print-midi-dress/back-20261025.webp",
+    "/products/boho-vneck-print-midi-dress/left-20261025.webp",
+    "/products/boho-vneck-print-midi-dress/right-20261025.webp"
+  ],
+  "stock": 2999,
+  "unitCostUsd": 25.1,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "kora-tribal-swing-dress",
+  "name": "Kora Tribal Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b8233a"
+  ],
+  "colorNames": [
+    "Red & White Tribal Stripe"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Kora Tribal Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Red & White Tribal Stripe.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/kora-tribal-swing-dress/front-20261025.webp",
+    "/products/kora-tribal-swing-dress/back-20261025.webp",
+    "/products/kora-tribal-swing-dress/left-20261025.webp",
+    "/products/kora-tribal-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "ember-tribal-swing-dress",
+  "name": "Ember Tribal Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#a8331f"
+  ],
+  "colorNames": [
+    "Rust Medallion Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Ember Tribal Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Rust Medallion Print.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/ember-tribal-swing-dress/front-20261025.webp",
+    "/products/ember-tribal-swing-dress/back-20261025.webp",
+    "/products/ember-tribal-swing-dress/left-20261025.webp",
+    "/products/ember-tribal-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "ivo-tribal-swing-dress",
+  "name": "Ivo Tribal Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#2a2a2a"
+  ],
+  "colorNames": [
+    "Black & White Tribal Stripe"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Ivo Tribal Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Black & White Tribal Stripe.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/ivo-tribal-swing-dress/front-20261025.webp",
+    "/products/ivo-tribal-swing-dress/back-20261025.webp",
+    "/products/ivo-tribal-swing-dress/left-20261025.webp",
+    "/products/ivo-tribal-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "tide-mosaic-swing-dress",
+  "name": "Tide Mosaic Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1f6f78"
+  ],
+  "colorNames": [
+    "Teal Mosaic Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Tide Mosaic Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Teal Mosaic Print.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/tide-mosaic-swing-dress/front-20261025.webp",
+    "/products/tide-mosaic-swing-dress/back-20261025.webp",
+    "/products/tide-mosaic-swing-dress/left-20261025.webp",
+    "/products/tide-mosaic-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "nova-galaxy-swing-dress",
+  "name": "Nova Galaxy Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#7a1a2a"
+  ],
+  "colorNames": [
+    "Crimson Starburst Galaxy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Nova Galaxy Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Crimson Starburst Galaxy.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/nova-galaxy-swing-dress/front-20261025.webp",
+    "/products/nova-galaxy-swing-dress/back-20261025.webp",
+    "/products/nova-galaxy-swing-dress/left-20261025.webp",
+    "/products/nova-galaxy-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "mali-mudcloth-swing-dress",
+  "name": "Mali Mudcloth Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#2b2620"
+  ],
+  "colorNames": [
+    "Black & Gold Mudcloth"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Mali Mudcloth Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Black & Gold Mudcloth.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/mali-mudcloth-swing-dress/front-20261025.webp",
+    "/products/mali-mudcloth-swing-dress/back-20261025.webp",
+    "/products/mali-mudcloth-swing-dress/left-20261025.webp",
+    "/products/mali-mudcloth-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "azul-tile-swing-dress",
+  "name": "Azul Tile Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#5d7fc4"
+  ],
+  "colorNames": [
+    "Blue & Coral Tile Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Azul Tile Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Blue & Coral Tile Print.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/azul-tile-swing-dress/front-20261025.webp",
+    "/products/azul-tile-swing-dress/back-20261025.webp",
+    "/products/azul-tile-swing-dress/left-20261025.webp",
+    "/products/azul-tile-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "onyx-tribal-swing-dress",
+  "name": "Onyx Tribal Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#555555"
+  ],
+  "colorNames": [
+    "Grey Tribal Stripe"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Onyx Tribal Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Grey Tribal Stripe.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/onyx-tribal-swing-dress/front-20261025.webp",
+    "/products/onyx-tribal-swing-dress/back-20261025.webp",
+    "/products/onyx-tribal-swing-dress/left-20261025.webp",
+    "/products/onyx-tribal-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "sol-tribal-swing-dress",
+  "name": "Sol Tribal Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c8c22a"
+  ],
+  "colorNames": [
+    "Lime & Gold Geometric"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Sol Tribal Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Lime & Gold Geometric.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/sol-tribal-swing-dress/front-20261025.webp",
+    "/products/sol-tribal-swing-dress/back-20261025.webp",
+    "/products/sol-tribal-swing-dress/left-20261025.webp",
+    "/products/sol-tribal-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "sienna-chevron-swing-dress",
+  "name": "Sienna Chevron Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b24a2c"
+  ],
+  "colorNames": [
+    "Terracotta Chevron"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Sienna Chevron Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Terracotta Chevron.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/sienna-chevron-swing-dress/front-20261025.webp",
+    "/products/sienna-chevron-swing-dress/back-20261025.webp",
+    "/products/sienna-chevron-swing-dress/left-20261025.webp",
+    "/products/sienna-chevron-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "rio-stripe-swing-dress",
+  "name": "Rio Stripe Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#2f7fa0"
+  ],
+  "colorNames": [
+    "Teal & Ochre Stripe"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Rio Stripe Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Teal & Ochre Stripe.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/rio-stripe-swing-dress/front-20261025.webp",
+    "/products/rio-stripe-swing-dress/back-20261025.webp",
+    "/products/rio-stripe-swing-dress/left-20261025.webp",
+    "/products/rio-stripe-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "aurora-galaxy-swing-dress",
+  "name": "Aurora Galaxy Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d6532a"
+  ],
+  "colorNames": [
+    "Rainbow Nebula Galaxy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Aurora Galaxy Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Rainbow Nebula Galaxy.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/aurora-galaxy-swing-dress/front-20261025.webp",
+    "/products/aurora-galaxy-swing-dress/back-20261025.webp",
+    "/products/aurora-galaxy-swing-dress/left-20261025.webp",
+    "/products/aurora-galaxy-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "lumen-galaxy-swing-dress",
+  "name": "Lumen Galaxy Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#7a4cc6"
+  ],
+  "colorNames": [
+    "Violet Nebula Galaxy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Lumen Galaxy Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Violet Nebula Galaxy.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/lumen-galaxy-swing-dress/front-20261025.webp",
+    "/products/lumen-galaxy-swing-dress/back-20261025.webp",
+    "/products/lumen-galaxy-swing-dress/left-20261025.webp",
+    "/products/lumen-galaxy-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "glyph-mudcloth-swing-dress",
+  "name": "Glyph Mudcloth Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1e1e1e"
+  ],
+  "colorNames": [
+    "Black & Cream Glyph Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Glyph Mudcloth Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Black & Cream Glyph Print.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/glyph-mudcloth-swing-dress/front-20261025.webp",
+    "/products/glyph-mudcloth-swing-dress/back-20261025.webp",
+    "/products/glyph-mudcloth-swing-dress/left-20261025.webp",
+    "/products/glyph-mudcloth-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "kente-swing-dress",
+  "name": "Kente Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d9a21c"
+  ],
+  "colorNames": [
+    "Kente Color Block"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Kente Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Kente Color Block.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/kente-swing-dress/front-20261025.webp",
+    "/products/kente-swing-dress/back-20261025.webp",
+    "/products/kente-swing-dress/left-20261025.webp",
+    "/products/kente-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "stella-galaxy-swing-dress",
+  "name": "Stella Galaxy Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#6a3aa8"
+  ],
+  "colorNames": [
+    "Purple & Amber Galaxy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Stella Galaxy Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Purple & Amber Galaxy.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/stella-galaxy-swing-dress/front-20261025.webp",
+    "/products/stella-galaxy-swing-dress/back-20261025.webp",
+    "/products/stella-galaxy-swing-dress/left-20261025.webp",
+    "/products/stella-galaxy-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "oceana-galaxy-swing-dress",
+  "name": "Oceana Galaxy Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1d5aa8"
+  ],
+  "colorNames": [
+    "Deep Blue Galaxy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Oceana Galaxy Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Deep Blue Galaxy.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/oceana-galaxy-swing-dress/front-20261025.webp",
+    "/products/oceana-galaxy-swing-dress/back-20261025.webp",
+    "/products/oceana-galaxy-swing-dress/left-20261025.webp",
+    "/products/oceana-galaxy-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "blaze-galaxy-swing-dress",
+  "name": "Blaze Galaxy Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b22a1f"
+  ],
+  "colorNames": [
+    "Fire Red Galaxy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Blaze Galaxy Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Fire Red Galaxy.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/blaze-galaxy-swing-dress/front-20261025.webp",
+    "/products/blaze-galaxy-swing-dress/back-20261025.webp",
+    "/products/blaze-galaxy-swing-dress/left-20261025.webp",
+    "/products/blaze-galaxy-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "iris-galaxy-swing-dress",
+  "name": "Iris Galaxy Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 87.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#3a2a6a"
+  ],
+  "colorNames": [
+    "Midnight Violet Galaxy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Iris Galaxy Swing Dress is a sleeveless A-line swing mini dress in soft stretch jersey with a round neckline, a relaxed flared body and a hem above the knee, covered in an all-over print, shown here in Midnight Violet Galaxy.",
+  "materials": "Soft stretch jersey with a smooth, breathable hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/iris-galaxy-swing-dress/front-20261025.webp",
+    "/products/iris-galaxy-swing-dress/back-20261025.webp",
+    "/products/iris-galaxy-swing-dress/left-20261025.webp",
+    "/products/iris-galaxy-swing-dress/right-20261025.webp"
+  ],
+  "stock": 6000,
+  "unitCostUsd": 28.98,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "denim-block-maxi-dress",
+  "name": "Denim Block Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 40.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#5b7bb0"
+  ],
+  "colorNames": [
+    "Denim Blue Patchwork"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Denim Block Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Denim Blue Patchwork.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/denim-block-maxi-dress/front-20261025.webp",
+    "/products/denim-block-maxi-dress/back-20261025.webp",
+    "/products/denim-block-maxi-dress/left-20261025.webp",
+    "/products/denim-block-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1192,
+  "unitCostUsd": 13.48,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "slate-block-maxi-dress",
+  "name": "Slate Block Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 39.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#3c3c3c"
+  ],
+  "colorNames": [
+    "Charcoal Patchwork"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Slate Block Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Charcoal Patchwork.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/slate-block-maxi-dress/front-20261025.webp",
+    "/products/slate-block-maxi-dress/back-20261025.webp",
+    "/products/slate-block-maxi-dress/left-20261025.webp",
+    "/products/slate-block-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1194,
+  "unitCostUsd": 13.14,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "sage-block-maxi-dress",
+  "name": "Sage Block Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 39.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#9aae95"
+  ],
+  "colorNames": [
+    "Sage & White Block"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Sage Block Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Sage & White Block.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/sage-block-maxi-dress/front-20261025.webp",
+    "/products/sage-block-maxi-dress/back-20261025.webp",
+    "/products/sage-block-maxi-dress/left-20261025.webp",
+    "/products/sage-block-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1193,
+  "unitCostUsd": 13.14,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "rubra-block-maxi-dress",
+  "name": "Rubra Block Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 40.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c0261f"
+  ],
+  "colorNames": [
+    "Black, White & Red Block"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Rubra Block Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Black, White & Red Block.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/rubra-block-maxi-dress/front-20261025.webp",
+    "/products/rubra-block-maxi-dress/back-20261025.webp",
+    "/products/rubra-block-maxi-dress/left-20261025.webp",
+    "/products/rubra-block-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1189,
+  "unitCostUsd": 13.58,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "noir-grid-maxi-dress",
+  "name": "Noir Grid Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 39.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#151515"
+  ],
+  "colorNames": [
+    "Black & White Grid"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Noir Grid Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Black & White Grid.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/noir-grid-maxi-dress/front-20261025.webp",
+    "/products/noir-grid-maxi-dress/back-20261025.webp",
+    "/products/noir-grid-maxi-dress/left-20261025.webp",
+    "/products/noir-grid-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1194,
+  "unitCostUsd": 13.14,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "iris-rainbow-maxi-kaftan",
+  "name": "Iris Rainbow Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d6487a"
+  ],
+  "colorNames": [
+    "Rainbow Brushstroke"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Iris Rainbow Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Rainbow Brushstroke.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/iris-rainbow-maxi-kaftan/front-20261025.webp",
+    "/products/iris-rainbow-maxi-kaftan/back-20261025.webp",
+    "/products/iris-rainbow-maxi-kaftan/left-20261025.webp",
+    "/products/iris-rainbow-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99999,
+  "unitCostUsd": 27.38,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "onyx-leopard-maxi-kaftan",
+  "name": "Onyx Leopard Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#6e6a63"
+  ],
+  "colorNames": [
+    "Grey Leopard"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Onyx Leopard Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Grey Leopard.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/onyx-leopard-maxi-kaftan/front-20261025.webp",
+    "/products/onyx-leopard-maxi-kaftan/back-20261025.webp",
+    "/products/onyx-leopard-maxi-kaftan/left-20261025.webp",
+    "/products/onyx-leopard-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99998,
+  "unitCostUsd": 27.38,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "festa-fireworks-maxi-kaftan",
+  "name": "Festa Fireworks Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1fa6a0"
+  ],
+  "colorNames": [
+    "Fireworks Print"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Festa Fireworks Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Fireworks Print.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/festa-fireworks-maxi-kaftan/front-20261025.webp",
+    "/products/festa-fireworks-maxi-kaftan/back-20261025.webp",
+    "/products/festa-fireworks-maxi-kaftan/left-20261025.webp",
+    "/products/festa-fireworks-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99999,
+  "unitCostUsd": 27.38,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "cacao-zebra-maxi-kaftan",
+  "name": "Cacao Zebra Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#8a4a22"
+  ],
+  "colorNames": [
+    "Brown Zebra"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Cacao Zebra Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Brown Zebra.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/cacao-zebra-maxi-kaftan/front-20261025.webp",
+    "/products/cacao-zebra-maxi-kaftan/back-20261025.webp",
+    "/products/cacao-zebra-maxi-kaftan/left-20261025.webp",
+    "/products/cacao-zebra-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99998,
+  "unitCostUsd": 27.38,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "safari-mixed-print-maxi-kaftan",
+  "name": "Safari Mixed Print Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b08a55"
+  ],
+  "colorNames": [
+    "Leopard & Zebra Print"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Safari Mixed Print Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Leopard & Zebra Print.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/safari-mixed-print-maxi-kaftan/front-20261025.webp",
+    "/products/safari-mixed-print-maxi-kaftan/back-20261025.webp",
+    "/products/safari-mixed-print-maxi-kaftan/left-20261025.webp",
+    "/products/safari-mixed-print-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99995,
+  "unitCostUsd": 27.37,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "domino-stripe-maxi-kaftan",
+  "name": "Domino Stripe Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#2b2b2b"
+  ],
+  "colorNames": [
+    "Black & White Stripe"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Domino Stripe Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Black & White Stripe.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/domino-stripe-maxi-kaftan/front-20261025.webp",
+    "/products/domino-stripe-maxi-kaftan/back-20261025.webp",
+    "/products/domino-stripe-maxi-kaftan/left-20261025.webp",
+    "/products/domino-stripe-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99996,
+  "unitCostUsd": 27.68,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "fronda-tropical-maxi-kaftan",
+  "name": "Fronda Tropical Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 81.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#2e8a57"
+  ],
+  "colorNames": [
+    "Tropical Leaves"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Fronda Tropical Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Tropical Leaves.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/fronda-tropical-maxi-kaftan/front-20261025.webp",
+    "/products/fronda-tropical-maxi-kaftan/back-20261025.webp",
+    "/products/fronda-tropical-maxi-kaftan/left-20261025.webp",
+    "/products/fronda-tropical-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99993,
+  "unitCostUsd": 27.06,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "mosaica-geometric-maxi-kaftan",
+  "name": "Mosaica Geometric Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c2306f"
+  ],
+  "colorNames": [
+    "Pink Geometric"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Mosaica Geometric Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Pink Geometric.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/mosaica-geometric-maxi-kaftan/front-20261025.webp",
+    "/products/mosaica-geometric-maxi-kaftan/back-20261025.webp",
+    "/products/mosaica-geometric-maxi-kaftan/left-20261025.webp",
+    "/products/mosaica-geometric-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99999,
+  "unitCostUsd": 27.38,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "florenza-bloom-maxi-kaftan",
+  "name": "Florenza Bloom Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#a8462c"
+  ],
+  "colorNames": [
+    "Large Flower Print"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Florenza Bloom Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Large Flower Print.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/florenza-bloom-maxi-kaftan/front-20261025.webp",
+    "/products/florenza-bloom-maxi-kaftan/back-20261025.webp",
+    "/products/florenza-bloom-maxi-kaftan/left-20261025.webp",
+    "/products/florenza-bloom-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99998,
+  "unitCostUsd": 27.38,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "noir-leaf-maxi-kaftan",
+  "name": "Noir Leaf Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1c1c1c"
+  ],
+  "colorNames": [
+    "Black & White Leaf Print"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Noir Leaf Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Black & White Leaf Print.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/noir-leaf-maxi-kaftan/front-20261025.webp",
+    "/products/noir-leaf-maxi-kaftan/back-20261025.webp",
+    "/products/noir-leaf-maxi-kaftan/left-20261025.webp",
+    "/products/noir-leaf-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99998,
+  "unitCostUsd": 27.63,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "ash-grid-maxi-dress",
+  "name": "Ash Grid Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 39.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#8a8a8a"
+  ],
+  "colorNames": [
+    "Grey & White Grid"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Ash Grid Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Grey & White Grid.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/ash-grid-maxi-dress/front-20261025.webp",
+    "/products/ash-grid-maxi-dress/back-20261025.webp",
+    "/products/ash-grid-maxi-dress/left-20261025.webp",
+    "/products/ash-grid-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1194,
+  "unitCostUsd": 13.14,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "lavanda-plaid-maxi-dress",
+  "name": "Lavanda Plaid Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 39.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#9068d0"
+  ],
+  "colorNames": [
+    "Lavender & Blue Plaid"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Lavanda Plaid Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Lavender & Blue Plaid.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/lavanda-plaid-maxi-dress/front-20261025.webp",
+    "/products/lavanda-plaid-maxi-dress/back-20261025.webp",
+    "/products/lavanda-plaid-maxi-dress/left-20261025.webp",
+    "/products/lavanda-plaid-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1194,
+  "unitCostUsd": 13.14,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "verde-block-maxi-dress",
+  "name": "Verde Block Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 39.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#2d6a3a"
+  ],
+  "colorNames": [
+    "Black, White & Green Block"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Verde Block Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Black, White & Green Block.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/verde-block-maxi-dress/front-20261025.webp",
+    "/products/verde-block-maxi-dress/back-20261025.webp",
+    "/products/verde-block-maxi-dress/left-20261025.webp",
+    "/products/verde-block-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1194,
+  "unitCostUsd": 13.14,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "mono-block-maxi-dress",
+  "name": "Mono Block Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 42.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#6a6a6a"
+  ],
+  "colorNames": [
+    "Black, Grey & White Block"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Mono Block Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Black, Grey & White Block.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/mono-block-maxi-dress/front-20261025.webp",
+    "/products/mono-block-maxi-dress/back-20261025.webp",
+    "/products/mono-block-maxi-dress/left-20261025.webp",
+    "/products/mono-block-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1193,
+  "unitCostUsd": 14.21,
+  "minimumMarginPercent": 40
 }
 ];
 
@@ -13042,6 +15284,68 @@ export const approvedNewProductSlugs = new Set<string>([
   "amalfi-dumpling-bag-small-black",
   "palmira-satin-maxi-dress",
   "portofino-carryall-white",
+  "salvia-vneck-print-midi-dress",
+  "laguna-vneck-print-midi-dress",
+  "orquidea-vneck-print-midi-dress",
+  "duna-vneck-print-midi-dress",
+  "azulina-vneck-print-midi-dress",
+  "celeste-vneck-print-midi-dress",
+  "hortensia-vneck-print-midi-dress",
+  "blush-vneck-print-midi-dress",
+  "rosalie-vneck-print-midi-dress",
+  "pop-vneck-print-midi-dress",
+  "delft-vneck-print-midi-dress",
+  "mimosa-vneck-print-midi-dress",
+  "petunia-vneck-print-midi-dress",
+  "jardim-vneck-print-midi-dress",
+  "marina-vneck-print-midi-dress",
+  "girassol-vneck-print-midi-dress",
+  "prado-vneck-print-midi-dress",
+  "aquarela-vneck-print-midi-dress",
+  "peonia-vneck-print-midi-dress",
+  "taupe-vneck-print-midi-dress",
+  "onda-vneck-print-midi-dress",
+  "mosaico-vneck-print-midi-dress",
+  "neve-vneck-print-midi-dress",
+  "boho-vneck-print-midi-dress",
+  "kora-tribal-swing-dress",
+  "ember-tribal-swing-dress",
+  "ivo-tribal-swing-dress",
+  "tide-mosaic-swing-dress",
+  "nova-galaxy-swing-dress",
+  "mali-mudcloth-swing-dress",
+  "azul-tile-swing-dress",
+  "onyx-tribal-swing-dress",
+  "sol-tribal-swing-dress",
+  "sienna-chevron-swing-dress",
+  "rio-stripe-swing-dress",
+  "aurora-galaxy-swing-dress",
+  "lumen-galaxy-swing-dress",
+  "glyph-mudcloth-swing-dress",
+  "kente-swing-dress",
+  "stella-galaxy-swing-dress",
+  "oceana-galaxy-swing-dress",
+  "blaze-galaxy-swing-dress",
+  "iris-galaxy-swing-dress",
+  "denim-block-maxi-dress",
+  "slate-block-maxi-dress",
+  "sage-block-maxi-dress",
+  "rubra-block-maxi-dress",
+  "noir-grid-maxi-dress",
+  "iris-rainbow-maxi-kaftan",
+  "onyx-leopard-maxi-kaftan",
+  "festa-fireworks-maxi-kaftan",
+  "cacao-zebra-maxi-kaftan",
+  "safari-mixed-print-maxi-kaftan",
+  "domino-stripe-maxi-kaftan",
+  "fronda-tropical-maxi-kaftan",
+  "mosaica-geometric-maxi-kaftan",
+  "florenza-bloom-maxi-kaftan",
+  "noir-leaf-maxi-kaftan",
+  "ash-grid-maxi-dress",
+  "lavanda-plaid-maxi-dress",
+  "verde-block-maxi-dress",
+  "mono-block-maxi-dress",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(

@@ -1,0 +1,263 @@
+{
+  "batch": "20261025",
+  "applied": false,
+  "note": "Proposta de v\u00ednculos por tamanho para o Manager; aplicar no banco s\u00f3 depois da publica\u00e7\u00e3o.",
+  "products": [
+    {
+      "slug": "iris-rainbow-maxi-kaftan",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-16 colorful",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245443"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 27.38
+      },
+      "stockBySize": {
+        "One size fits all": 99999
+      }
+    },
+    {
+      "slug": "onyx-leopard-maxi-kaftan",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-5 leopard print",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245444"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 27.38
+      },
+      "stockBySize": {
+        "One size fits all": 99998
+      }
+    },
+    {
+      "slug": "festa-fireworks-maxi-kaftan",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-9 fireworks",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245445"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 27.38
+      },
+      "stockBySize": {
+        "One size fits all": 99999
+      }
+    },
+    {
+      "slug": "cacao-zebra-maxi-kaftan",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-10 brown zebra",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245446"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 27.38
+      },
+      "stockBySize": {
+        "One size fits all": 99998
+      }
+    },
+    {
+      "slug": "safari-mixed-print-maxi-kaftan",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-21 leopard point",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245448"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 27.37
+      },
+      "stockBySize": {
+        "One size fits all": 99995
+      }
+    },
+    {
+      "slug": "domino-stripe-maxi-kaftan",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-22 black and white",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245449"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 27.68
+      },
+      "stockBySize": {
+        "One size fits all": 99996
+      }
+    },
+    {
+      "slug": "fronda-tropical-maxi-kaftan",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-19 leaves",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245450"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 27.06
+      },
+      "stockBySize": {
+        "One size fits all": 99993
+      }
+    },
+    {
+      "slug": "mosaica-geometric-maxi-kaftan",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-17 diamond shape",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245452"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 27.38
+      },
+      "stockBySize": {
+        "One size fits all": 99999
+      }
+    },
+    {
+      "slug": "florenza-bloom-maxi-kaftan",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-18 large flowers",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245453"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 27.38
+      },
+      "stockBySize": {
+        "One size fits all": 99998
+      }
+    },
+    {
+      "slug": "noir-leaf-maxi-kaftan",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-8 leaves",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245454"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 27.63
+      },
+      "stockBySize": {
+        "One size fits all": 99998
+      }
+    },
+    {
+      "slug": "ash-grid-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B1",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000058614170660",
+        "M": "12000058614170656",
+        "L": "12000058614170657",
+        "XL": "12000058614170658",
+        "XXL": "12000058614170659",
+        "S": "12000058614170655"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 13.14,
+        "M": 12.88,
+        "L": 12.88,
+        "XL": 13.14,
+        "XXL": 13.14,
+        "S": 12.88
+      },
+      "stockBySize": {
+        "XXXL": 199,
+        "M": 199,
+        "L": 199,
+        "XL": 199,
+        "XXL": 199,
+        "S": 199
+      }
+    },
+    {
+      "slug": "lavanda-plaid-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B5",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000058614170684",
+        "M": "12000058614170680",
+        "L": "12000058614170681",
+        "XL": "12000058614170682",
+        "XXL": "12000058614170683",
+        "S": "12000058614170679"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 13.14,
+        "M": 12.88,
+        "L": 12.88,
+        "XL": 13.14,
+        "XXL": 13.14,
+        "S": 12.88
+      },
+      "stockBySize": {
+        "XXXL": 199,
+        "M": 199,
+        "L": 199,
+        "XL": 199,
+        "XXL": 199,
+        "S": 199
+      }
+    },
+    {
+      "slug": "verde-block-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B6",
+      "sourceSkuIdsBySize": {
+        "S": "12000058614170685",
+        "M": "12000058614170686",
+        "L": "12000058614170687",
+        "XL": "12000058614170688",
+        "XXL": "12000058614170689",
+        "XXXL": "12000058614170690"
+      },
+      "landedCostUsdBySize": {
+        "S": 12.88,
+        "M": 12.88,
+        "L": 12.88,
+        "XL": 13.14,
+        "XXL": 13.14,
+        "XXXL": 13.14
+      },
+      "stockBySize": {
+        "S": 199,
+        "M": 199,
+        "L": 199,
+        "XL": 199,
+        "XXL": 199,
+        "XXXL": 199
+      }
+    },
+    {
+      "slug": "mono-block-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B4",
+      "sourceSkuIdsBySize": {
+        "XL": "12000058614170676",
+        "XXL": "12000058614170677",
+        "XXXL": "12000058614170678",
+        "S": "12000058614170673",
+        "M": "12000058614170674",
+        "L": "12000058614170675"
+      },
+      "landedCostUsdBySize": {
+        "XL": 13.14,
+        "XXL": 13.14,
+        "XXXL": 14.21,
+        "S": 12.88,
+        "M": 12.88,
+        "L": 12.88
+      },
+      "stockBySize": {
+        "XL": 199,
+        "XXL": 199,
+        "XXXL": 198,
+        "S": 199,
+        "M": 199,
+        "L": 199
+      }
+    }
+  ]
+}
