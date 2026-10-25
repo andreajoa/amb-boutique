@@ -39,5 +39,57 @@ export const octoberSourceLineage: Record<string, { sourceProductId: string; sou
   "celeste-polka-dot-midi-dress": {
     "sourceProductId": "3256808350251270",
     "sourceColor": "as1"
+  },
+  "sabine-tailored-romper": {
+      "sourceProductId": "3256811432198463",
+      "sourceColor": "Black"
+  },
+  "soleil-pleat-romper": {
+      "sourceProductId": "3256812102239928",
+      "sourceColor": "black"
+  },
+  "blaire-pleat-romper": {
+      "sourceProductId": "3256812102239928",
+      "sourceColor": "APRICOT"
+  },
+  "mira-satin-maxi-dress": {
+      "sourceProductId": "3256807236337080",
+      "sourceColor": "Blue"
+  },
+  "emerald-satin-maxi-dress": {
+      "sourceProductId": "3256807236337080",
+      "sourceColor": "green"
+  },
+  "brielle-satin-maxi-dress": {
+      "sourceProductId": "3256807236337080",
+      "sourceColor": "Pink"
+  },
+  "mocha-satin-maxi-dress": {
+      "sourceProductId": "3256807236337080",
+      "sourceColor": "Coffee"
+  },
+  "rosa-satin-maxi-dress": {
+      "sourceProductId": "3256807236337080",
+      "sourceColor": "Rose Red"
+  },
+  "amara-midi-dress": {
+      "sourceProductId": "3256808122208834",
+      "sourceColor": "Purple"
+  },
+  "colette-midi-dress": {
+      "sourceProductId": "3256808122208834",
+      "sourceColor": "Blue"
+  },
+  "palmira-satin-maxi-dress": {
+      "sourceProductId": "3256807236337080",
+      "sourceColor": "Brown"
+  },
+  "portofino-carryall-white": {
+      "sourceProductId": "3256810459789070",
+      "sourceColor": "WHITE"
+  },
+  "portofino-carryall-brown": {
+      "sourceProductId": "3256810459789070",
+      "sourceColor": "Brown"
   }
 };

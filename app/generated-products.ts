@@ -948,7 +948,7 @@ const allGeneratedProducts: Product[] = [
     "name": "Sabine Tailored Romper",
     "vendor": "AMB BOUTIQUE",
     "category": "Playsuits",
-    "price": 98,
+    "price": 105.9,
     "badge": "New",
     "sheet": "one",
     "quadrant": 3,
@@ -965,18 +965,18 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Sabine Tailored Romper is the AMB take on the tailored romper. Crisp tailoring and a waist-defining silhouette balance structure with comfort for an instantly pulled-together look. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Tailored woven fabric with a smooth finish and comfortable structure.",
+    "description": "Sabine Tailored Romper pairs a sharp notched lapel with a deep V and a wide belt closed by a square gold-tone buckle. Tailored short shorts with side pockets keep it polished from city lunches to evening drinks.",
+    "materials": "Smooth woven fabric with a light, structured hand.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/sabine-tailored-romper/01.webp",
-      "/products/sabine-tailored-romper/02.webp",
-      "/products/sabine-tailored-romper/03.webp",
-      "/products/sabine-tailored-romper/04.webp"
+      "/products/sabine-tailored-romper/front-20261025.webp",
+      "/products/sabine-tailored-romper/back-20261025.webp",
+      "/products/sabine-tailored-romper/left-20261025.webp",
+      "/products/sabine-tailored-romper/right-20261025.webp"
     ],
-    "stock": 2494,
+    "stock": 2493,
     "weightOz": 11,
-    "unitCostUsd": 19.3,
+    "unitCostUsd": 35.13,
     "minimumMarginPercent": 40
   },
   {
@@ -1234,46 +1234,10 @@ const allGeneratedProducts: Product[] = [
     "name": "Soleil Pleat Romper",
     "vendor": "AMB BOUTIQUE",
     "category": "Playsuits",
-    "price": 86,
+    "price": 96.9,
     "badge": "New",
     "sheet": "one",
     "quadrant": 3,
-    "colors": [
-      "#e6b68f"
-    ],
-    "colorNames": [
-      "Apricot"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Soleil Pleat Romper is the AMB take on the pleated romper. Soft pleating and a flattering waist give this lightweight one-piece graceful movement from daytime plans to dinner. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Lightweight woven fabric with polished pleating and an easy drape.",
-    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
-    "images": [
-      "/products/soleil-pleat-romper/01.webp",
-      "/products/soleil-pleat-romper/02.webp",
-      "/products/soleil-pleat-romper/03.webp",
-      "/products/soleil-pleat-romper/04.webp"
-    ],
-    "stock": 499993,
-    "weightOz": 10,
-    "unitCostUsd": 15.08,
-    "minimumMarginPercent": 40
-  },
-  {
-    "slug": "blaire-pleat-romper",
-    "name": "Blaire Pleat Romper",
-    "vendor": "AMB BOUTIQUE",
-    "category": "Playsuits",
-    "price": 86,
-    "badge": "New",
-    "sheet": "two",
-    "quadrant": 4,
     "colors": [
       "#171717"
     ],
@@ -1287,18 +1251,54 @@ const allGeneratedProducts: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Blaire Pleat Romper is the AMB take on the pleated romper. Soft pleating and a flattering waist give this lightweight one-piece graceful movement from daytime plans to dinner. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Lightweight woven fabric with polished pleating and an easy drape.",
+    "description": "Soleil Pleat Romper is a black tailored summer one-piece: notched lapel, wrap V neckline, a slim belt and pressed pleated shorts for a clean, confident silhouette.",
+    "materials": "Lightweight woven fabric with crisp pressed pleats.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/blaire-pleat-romper/01.webp",
-      "/products/blaire-pleat-romper/02.webp",
-      "/products/blaire-pleat-romper/03.webp",
-      "/products/blaire-pleat-romper/04.webp"
+      "/products/soleil-pleat-romper/front-20261025.webp",
+      "/products/soleil-pleat-romper/back-20261025.webp",
+      "/products/soleil-pleat-romper/left-20261025.webp",
+      "/products/soleil-pleat-romper/right-20261025.webp"
     ],
-    "stock": 499993,
+    "stock": 499991,
     "weightOz": 10,
-    "unitCostUsd": 15.08,
+    "unitCostUsd": 32.1,
+    "minimumMarginPercent": 40
+  },
+  {
+    "slug": "blaire-pleat-romper",
+    "name": "Blaire Pleat Romper",
+    "vendor": "AMB BOUTIQUE",
+    "category": "Playsuits",
+    "price": 96.9,
+    "badge": "New",
+    "sheet": "two",
+    "quadrant": 4,
+    "colors": [
+      "#e7d3bd"
+    ],
+    "colorNames": [
+      "Apricot"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Blaire Pleat Romper wraps a soft apricot tone into a sleeveless lapel bodice, a slim belted waist and pressed pleated shorts that move with you.",
+    "materials": "Lightweight woven fabric with crisp pressed pleats.",
+    "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+    "images": [
+      "/products/blaire-pleat-romper/front-20261025.webp",
+      "/products/blaire-pleat-romper/back-20261025.webp",
+      "/products/blaire-pleat-romper/left-20261025.webp",
+      "/products/blaire-pleat-romper/right-20261025.webp"
+    ],
+    "stock": 499991,
+    "weightOz": 10,
+    "unitCostUsd": 32.1,
     "minimumMarginPercent": 40
   },
   {
@@ -2151,28 +2151,28 @@ const allGeneratedProducts: Product[] = [
     "sheet": "one",
     "quadrant": 1,
     "colors": [
-      "#315d95"
+      "#a9c9e8"
     ],
     "colorNames": [
-      "Blue"
+      "Sky Blue"
     ],
     "sizes": [
       "S",
       "M",
       "L"
     ],
-    "description": "Colette Midi Dress is the AMB take on the wrap midi dress. A feminine wrap front, statement sleeves and a waist-defining tie create graceful movement and effortless occasion polish. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Airy woven fabric with a softly textured, elegant drape.",
+    "description": "Colette Midi Dress is a sky blue cotton midi with puffed lantern sleeves, a V wrap neckline, a cinched tie waist and a gentle front slit.",
+    "materials": "Breathable cotton with a soft, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/colette-midi-dress/01.webp",
-      "/products/colette-midi-dress/02.webp",
-      "/products/colette-midi-dress/03.webp",
-      "/products/colette-midi-dress/04.webp"
+      "/products/colette-midi-dress/front-20261025.webp",
+      "/products/colette-midi-dress/back-20261025.webp",
+      "/products/colette-midi-dress/left-20261025.webp",
+      "/products/colette-midi-dress/right-20261025.webp"
     ],
     "stock": 29992,
     "weightOz": 14,
-    "unitCostUsd": 24.63,
+    "unitCostUsd": 32.29,
     "minimumMarginPercent": 40
   },
   {
@@ -2185,28 +2185,28 @@ const allGeneratedProducts: Product[] = [
     "sheet": "two",
     "quadrant": 2,
     "colors": [
-      "#9a4c9d"
+      "#c9b3e3"
     ],
     "colorNames": [
-      "Purple"
+      "Lavender"
     ],
     "sizes": [
       "S",
       "M",
       "L"
     ],
-    "description": "Amara Midi Dress is the AMB take on the wrap midi dress. A feminine wrap front, statement sleeves and a waist-defining tie create graceful movement and effortless occasion polish. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Airy woven fabric with a softly textured, elegant drape.",
+    "description": "Amara Midi Dress comes in soft lavender cotton with puffed lantern sleeves, a V wrap neckline and a tie that cinches the waist above a flowing midi skirt with a front slit.",
+    "materials": "Breathable cotton with a soft, natural texture.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/amara-midi-dress/01.webp",
-      "/products/amara-midi-dress/02.webp",
-      "/products/amara-midi-dress/03.webp",
-      "/products/amara-midi-dress/04.webp"
+      "/products/amara-midi-dress/front-20261025.webp",
+      "/products/amara-midi-dress/back-20261025.webp",
+      "/products/amara-midi-dress/left-20261025.webp",
+      "/products/amara-midi-dress/right-20261025.webp"
     ],
     "stock": 29979,
     "weightOz": 14,
-    "unitCostUsd": 24.63,
+    "unitCostUsd": 32.29,
     "minimumMarginPercent": 40
   },
   {
@@ -2640,10 +2640,10 @@ const allGeneratedProducts: Product[] = [
     "sheet": "one",
     "quadrant": 3,
     "colors": [
-      "#315d95"
+      "#2f6fe0"
     ],
     "colorNames": [
-      "Blue"
+      "Blue Ombre"
     ],
     "sizes": [
       "S",
@@ -2653,18 +2653,18 @@ const allGeneratedProducts: Product[] = [
       "XXL",
       "XXXL"
     ],
-    "description": "Mira Satin Maxi Dress is the AMB take on the satin maxi dress. A softly draped neckline, defined waist and floor-skimming satin silhouette bring luminous elegance to every entrance. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth satin-look woven fabric with an elegant liquid sheen.",
+    "description": "Mira Satin Maxi Dress melts cobalt blue into sunset orange across a fluid floor-length skirt, with a draped cowl V neckline, thin straps and a high thigh slit.",
+    "materials": "Silky, fluid satin-finish fabric with a soft drape.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/mira-satin-maxi-dress/01.webp",
-      "/products/mira-satin-maxi-dress/02.webp",
-      "/products/mira-satin-maxi-dress/03.webp",
-      "/products/mira-satin-maxi-dress/04.webp"
+      "/products/mira-satin-maxi-dress/front-20261025.webp",
+      "/products/mira-satin-maxi-dress/back-20261025.webp",
+      "/products/mira-satin-maxi-dress/left-20261025.webp",
+      "/products/mira-satin-maxi-dress/right-20261025.webp"
     ],
     "stock": 5991,
     "weightOz": 13,
-    "unitCostUsd": 9.56,
+    "unitCostUsd": 22.02,
     "minimumMarginPercent": 40
   },
   {
@@ -2677,10 +2677,10 @@ const allGeneratedProducts: Product[] = [
     "sheet": "one",
     "quadrant": 1,
     "colors": [
-      "#54372f"
+      "#7a5a3a"
     ],
     "colorNames": [
-      "Coffee"
+      "Coffee Marble Print"
     ],
     "sizes": [
       "S",
@@ -2690,18 +2690,18 @@ const allGeneratedProducts: Product[] = [
       "XXL",
       "XXXL"
     ],
-    "description": "Mocha Satin Maxi Dress is the AMB take on the satin maxi dress. A softly draped neckline, defined waist and floor-skimming satin silhouette bring luminous elegance to every entrance. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth satin-look woven fabric with an elegant liquid sheen.",
+    "description": "Mocha Satin Maxi Dress swirls coffee, gold and cream into a liquid marble print, with a draped cowl neckline, a fitted waist and a high-slit maxi skirt.",
+    "materials": "Silky, fluid satin-finish fabric with a soft drape.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/mocha-satin-maxi-dress/01.webp",
-      "/products/mocha-satin-maxi-dress/02.webp",
-      "/products/mocha-satin-maxi-dress/03.webp",
-      "/products/mocha-satin-maxi-dress/04.webp"
+      "/products/mocha-satin-maxi-dress/front-20261025.webp",
+      "/products/mocha-satin-maxi-dress/back-20261025.webp",
+      "/products/mocha-satin-maxi-dress/left-20261025.webp",
+      "/products/mocha-satin-maxi-dress/right-20261025.webp"
     ],
-    "stock": 5984,
+    "stock": 5983,
     "weightOz": 13,
-    "unitCostUsd": 9.56,
+    "unitCostUsd": 22.02,
     "minimumMarginPercent": 40
   },
   {
@@ -2751,10 +2751,10 @@ const allGeneratedProducts: Product[] = [
     "sheet": "one",
     "quadrant": 3,
     "colors": [
-      "#d9a0ab"
+      "#e8b7c4"
     ],
     "colorNames": [
-      "Pink"
+      "Pink Tie-Dye"
     ],
     "sizes": [
       "S",
@@ -2764,18 +2764,18 @@ const allGeneratedProducts: Product[] = [
       "XXL",
       "XXXL"
     ],
-    "description": "Brielle Satin Maxi Dress is the AMB take on the satin maxi dress. A softly draped neckline, defined waist and floor-skimming satin silhouette bring luminous elegance to every entrance. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth satin-look woven fabric with an elegant liquid sheen.",
+    "description": "Brielle Satin Maxi Dress blends blush pink and sky blue in a watercolour tie-dye, cut with a draped cowl V neckline, thin straps and a long high-slit skirt.",
+    "materials": "Silky, fluid satin-finish fabric with a soft drape.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/brielle-satin-maxi-dress/01.webp",
-      "/products/brielle-satin-maxi-dress/02.webp",
-      "/products/brielle-satin-maxi-dress/03.webp",
-      "/products/brielle-satin-maxi-dress/04.webp"
+      "/products/brielle-satin-maxi-dress/front-20261025.webp",
+      "/products/brielle-satin-maxi-dress/back-20261025.webp",
+      "/products/brielle-satin-maxi-dress/left-20261025.webp",
+      "/products/brielle-satin-maxi-dress/right-20261025.webp"
     ],
     "stock": 5984,
     "weightOz": 13,
-    "unitCostUsd": 9.56,
+    "unitCostUsd": 22.02,
     "minimumMarginPercent": 40
   },
   {
@@ -2788,10 +2788,10 @@ const allGeneratedProducts: Product[] = [
     "sheet": "two",
     "quadrant": 4,
     "colors": [
-      "#bb314f"
+      "#d8325f"
     ],
     "colorNames": [
-      "Rose Red"
+      "Rose Red Floral"
     ],
     "sizes": [
       "S",
@@ -2801,18 +2801,18 @@ const allGeneratedProducts: Product[] = [
       "XXL",
       "XXXL"
     ],
-    "description": "Rosa Satin Maxi Dress is the AMB take on the satin maxi dress. A softly draped neckline, defined waist and floor-skimming satin silhouette bring luminous elegance to every entrance. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth satin-look woven fabric with an elegant liquid sheen.",
+    "description": "Rosa Satin Maxi Dress bursts with rose red and coral blooms over a fluid floor-length skirt, finished with a draped cowl V neckline, thin straps and a high slit.",
+    "materials": "Silky, fluid satin-finish fabric with a soft drape.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/rosa-satin-maxi-dress/01.webp",
-      "/products/rosa-satin-maxi-dress/02.webp",
-      "/products/rosa-satin-maxi-dress/03.webp",
-      "/products/rosa-satin-maxi-dress/04.webp"
+      "/products/rosa-satin-maxi-dress/front-20261025.webp",
+      "/products/rosa-satin-maxi-dress/back-20261025.webp",
+      "/products/rosa-satin-maxi-dress/left-20261025.webp",
+      "/products/rosa-satin-maxi-dress/right-20261025.webp"
     ],
     "stock": 5988,
     "weightOz": 13,
-    "unitCostUsd": 9.56,
+    "unitCostUsd": 22.02,
     "minimumMarginPercent": 40
   },
   {
@@ -2825,10 +2825,10 @@ const allGeneratedProducts: Product[] = [
     "sheet": "one",
     "quadrant": 1,
     "colors": [
-      "#486851"
+      "#8fb0a0"
     ],
     "colorNames": [
-      "Green"
+      "Sage Green"
     ],
     "sizes": [
       "S",
@@ -2838,18 +2838,18 @@ const allGeneratedProducts: Product[] = [
       "XXL",
       "XXXL"
     ],
-    "description": "Emerald Satin Maxi Dress is the AMB take on the satin maxi dress. A softly draped neckline, defined waist and floor-skimming satin silhouette bring luminous elegance to every entrance. Curated in San Diego for a polished, feminine wardrobe.",
-    "materials": "Smooth satin-look woven fabric with an elegant liquid sheen.",
+    "description": "Emerald Satin Maxi Dress comes in soft sage with a draped cowl V neckline, thin straps, a fitted high waist and a fluid floor-length skirt with a high slit.",
+    "materials": "Silky, fluid satin-finish fabric with a soft drape.",
     "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
     "images": [
-      "/products/emerald-satin-maxi-dress/01.webp",
-      "/products/emerald-satin-maxi-dress/02.webp",
-      "/products/emerald-satin-maxi-dress/03.webp",
-      "/products/emerald-satin-maxi-dress/04.webp"
+      "/products/emerald-satin-maxi-dress/front-20261025.webp",
+      "/products/emerald-satin-maxi-dress/back-20261025.webp",
+      "/products/emerald-satin-maxi-dress/left-20261025.webp",
+      "/products/emerald-satin-maxi-dress/right-20261025.webp"
     ],
-    "stock": 5940,
+    "stock": 5939,
     "weightOz": 13,
-    "unitCostUsd": 9.56,
+    "unitCostUsd": 22.02,
     "minimumMarginPercent": 40
   },
   {
@@ -12686,6 +12686,74 @@ const allGeneratedProducts: Product[] = [
   "sourceProductId": "3256810396310468",
   "sourceColor": "Black Small"
 },
+{
+  "slug": "palmira-satin-maxi-dress",
+  "name": "Palmira Satin Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 66.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1f1d1b"
+  ],
+  "colorNames": [
+    "Black Palm Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Palmira Satin Maxi Dress sets warm sand palm leaves on a deep black ground, with a draped cowl V neckline, delicate straps and a long skirt opening into a high slit.",
+  "materials": "Silky, fluid satin-finish fabric with a soft drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/palmira-satin-maxi-dress/front-20261025.webp",
+    "/products/palmira-satin-maxi-dress/back-20261025.webp",
+    "/products/palmira-satin-maxi-dress/left-20261025.webp",
+    "/products/palmira-satin-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 5992,
+  "unitCostUsd": 22.02,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "portofino-carryall-white",
+  "name": "Portofino Carryall — White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 85.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f2efe9"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "Portofino Carryall — White is a roomy soft tote with folded side wings, long shoulder handles and a gold-tone turn-lock that adds a polished vintage note to an everyday carryall.",
+  "materials": "Soft faux leather with gold-tone hardware.",
+  "care": "Wipe clean with a soft dry cloth. Store stuffed and away from direct sunlight to keep the shape.",
+  "images": [
+    "/editorial/bags/products/portofino-carryall-white/01.webp?v=20261025",
+    "/editorial/bags/products/portofino-carryall-white/02.webp?v=20261025",
+    "/editorial/bags/products/portofino-carryall-white/03.webp?v=20261025",
+    "/editorial/bags/products/portofino-carryall-white/04.webp?v=20261025"
+  ],
+  "stock": 987,
+  "unitCostUsd": 28.58,
+  "minimumMarginPercent": 40
+}
 ];
 
 // The first 81 records are the established catalogue that was live before the
@@ -12972,6 +13040,8 @@ export const approvedNewProductSlugs = new Set<string>([
   "amalfi-dumpling-bag-small-brown",
   "amalfi-dumpling-bag-small-green",
   "amalfi-dumpling-bag-small-black",
+  "palmira-satin-maxi-dress",
+  "portofino-carryall-white",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(

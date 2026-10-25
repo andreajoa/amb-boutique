@@ -15,8 +15,12 @@ const BAG_COPY: Record<string, string> = {
 
 type BagKind = keyof typeof BAG_COPY;
 
+// Galleries redrawn from the supplier SKU photo get a new version so browsers drop the old image.
+const GALLERY_VERSION: Record<string, string> = { "portofino-carryall-brown": "20261025" };
+
 function localGallery(slug: string): string[] {
-  return ["01", "02", "03", "04"].map((view) => `/editorial/bags/products/${slug}/${view}.webp?v=20260811-complete-gallery`);
+  const version = GALLERY_VERSION[slug] ?? "20260811-complete-gallery";
+  return ["01", "02", "03", "04"].map((view) => `/editorial/bags/products/${slug}/${view}.webp?v=${version}`);
 }
 
 function bag(
@@ -71,7 +75,7 @@ const bagProducts: Product[] = [
   bag("florence-mini-backpack-dark-brown", "Florence Mini — Dark Brown", 59, "#4b3328", "Dark Brown", 242, 3.49, 9.11, "backpack"),
   bag("portofino-carryall-light-brown", "Portofino Carryall — Cognac", 85.9, "#b86d3f", "Cognac", 994, 25.29, 24.77, "carryall"),
   bag("florence-mini-backpack-black", "Florence Mini — Black", 59, "#171717", "Black", 113, 3.49, 10.84, "backpack"),
-  bag("portofino-carryall-brown", "Portofino Carryall — Espresso", 80.9, "#4b3028", "Espresso", 4, 25.29, 25.74, "carryall"),
+  bag("portofino-carryall-brown", "Portofino Carryall — Espresso", 85.9, "#4b3028", "Espresso", 13, 25.29, 28.38, "carryall"),
 ];
 
 export const supplementalProducts: Product[] = [...bagProducts, ...workProducts];
