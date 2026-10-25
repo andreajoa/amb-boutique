@@ -283,5 +283,61 @@ export const octoberSourceLineage: Record<string, { sourceProductId: string; sou
   "noir-grid-maxi-dress": {
       "sourceProductId": "3256812329329219",
       "sourceColor": "CL8Q000B2"
+  },
+  "iris-rainbow-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-16 colorful"
+  },
+  "onyx-leopard-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-5 leopard print"
+  },
+  "festa-fireworks-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-9 fireworks"
+  },
+  "cacao-zebra-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-10 brown zebra"
+  },
+  "safari-mixed-print-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-21 leopard point"
+  },
+  "domino-stripe-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-22 black and white"
+  },
+  "fronda-tropical-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-19 leaves"
+  },
+  "mosaica-geometric-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-17 diamond shape"
+  },
+  "florenza-bloom-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-18 large flowers"
+  },
+  "noir-leaf-maxi-kaftan": {
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-8 leaves"
+  },
+  "ash-grid-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B1"
+  },
+  "lavanda-plaid-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B5"
+  },
+  "verde-block-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B6"
+  },
+  "mono-block-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B4"
   }
 };

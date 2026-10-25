@@ -5672,7 +5672,7 @@ const allGeneratedProducts: Product[] = [
     "name": "Rio Mosaic Maxi Kaftan",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
-    "price": 68,
+    "price": 82.9,
     "compareAt": 85,
     "sheet": "two",
     "quadrant": 4,
@@ -5696,7 +5696,7 @@ const allGeneratedProducts: Product[] = [
     ],
     "stock": 2500,
     "weightOz": 11.85,
-    "unitCostUsd": 2.08,
+    "unitCostUsd": 27.38,
     "minimumMarginPercent": 40,
     "badge": "Just In"
   },
@@ -5705,7 +5705,7 @@ const allGeneratedProducts: Product[] = [
     "name": "Solara Sunset Maxi Kaftan",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
-    "price": 68,
+    "price": 82.9,
     "compareAt": 85,
     "sheet": "one",
     "quadrant": 1,
@@ -5729,7 +5729,7 @@ const allGeneratedProducts: Product[] = [
     ],
     "stock": 2500,
     "weightOz": 11.85,
-    "unitCostUsd": 2.08,
+    "unitCostUsd": 27.38,
     "minimumMarginPercent": 40,
     "badge": "Just In"
   },
@@ -5738,7 +5738,7 @@ const allGeneratedProducts: Product[] = [
     "name": "Leona Leopard Maxi Kaftan",
     "vendor": "AMB BOUTIQUE",
     "category": "Dresses",
-    "price": 68,
+    "price": 83.9,
     "compareAt": 85,
     "sheet": "two",
     "quadrant": 2,
@@ -5762,7 +5762,7 @@ const allGeneratedProducts: Product[] = [
     ],
     "stock": 2499,
     "weightOz": 11.85,
-    "unitCostUsd": 2.08,
+    "unitCostUsd": 27.68,
     "minimumMarginPercent": 40,
     "badge": "Just In"
   },
@@ -14528,6 +14528,473 @@ const allGeneratedProducts: Product[] = [
   "stock": 1194,
   "unitCostUsd": 13.14,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "iris-rainbow-maxi-kaftan",
+  "name": "Iris Rainbow Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d6487a"
+  ],
+  "colorNames": [
+    "Rainbow Brushstroke"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Iris Rainbow Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Rainbow Brushstroke.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/iris-rainbow-maxi-kaftan/front-20261025.webp",
+    "/products/iris-rainbow-maxi-kaftan/back-20261025.webp",
+    "/products/iris-rainbow-maxi-kaftan/left-20261025.webp",
+    "/products/iris-rainbow-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99999,
+  "unitCostUsd": 27.38,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "onyx-leopard-maxi-kaftan",
+  "name": "Onyx Leopard Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#6e6a63"
+  ],
+  "colorNames": [
+    "Grey Leopard"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Onyx Leopard Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Grey Leopard.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/onyx-leopard-maxi-kaftan/front-20261025.webp",
+    "/products/onyx-leopard-maxi-kaftan/back-20261025.webp",
+    "/products/onyx-leopard-maxi-kaftan/left-20261025.webp",
+    "/products/onyx-leopard-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99998,
+  "unitCostUsd": 27.38,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "festa-fireworks-maxi-kaftan",
+  "name": "Festa Fireworks Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1fa6a0"
+  ],
+  "colorNames": [
+    "Fireworks Print"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Festa Fireworks Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Fireworks Print.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/festa-fireworks-maxi-kaftan/front-20261025.webp",
+    "/products/festa-fireworks-maxi-kaftan/back-20261025.webp",
+    "/products/festa-fireworks-maxi-kaftan/left-20261025.webp",
+    "/products/festa-fireworks-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99999,
+  "unitCostUsd": 27.38,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "cacao-zebra-maxi-kaftan",
+  "name": "Cacao Zebra Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#8a4a22"
+  ],
+  "colorNames": [
+    "Brown Zebra"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Cacao Zebra Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Brown Zebra.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/cacao-zebra-maxi-kaftan/front-20261025.webp",
+    "/products/cacao-zebra-maxi-kaftan/back-20261025.webp",
+    "/products/cacao-zebra-maxi-kaftan/left-20261025.webp",
+    "/products/cacao-zebra-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99998,
+  "unitCostUsd": 27.38,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "safari-mixed-print-maxi-kaftan",
+  "name": "Safari Mixed Print Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b08a55"
+  ],
+  "colorNames": [
+    "Leopard & Zebra Print"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Safari Mixed Print Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Leopard & Zebra Print.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/safari-mixed-print-maxi-kaftan/front-20261025.webp",
+    "/products/safari-mixed-print-maxi-kaftan/back-20261025.webp",
+    "/products/safari-mixed-print-maxi-kaftan/left-20261025.webp",
+    "/products/safari-mixed-print-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99995,
+  "unitCostUsd": 27.37,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "domino-stripe-maxi-kaftan",
+  "name": "Domino Stripe Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#2b2b2b"
+  ],
+  "colorNames": [
+    "Black & White Stripe"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Domino Stripe Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Black & White Stripe.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/domino-stripe-maxi-kaftan/front-20261025.webp",
+    "/products/domino-stripe-maxi-kaftan/back-20261025.webp",
+    "/products/domino-stripe-maxi-kaftan/left-20261025.webp",
+    "/products/domino-stripe-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99996,
+  "unitCostUsd": 27.68,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "fronda-tropical-maxi-kaftan",
+  "name": "Fronda Tropical Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 81.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#2e8a57"
+  ],
+  "colorNames": [
+    "Tropical Leaves"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Fronda Tropical Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Tropical Leaves.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/fronda-tropical-maxi-kaftan/front-20261025.webp",
+    "/products/fronda-tropical-maxi-kaftan/back-20261025.webp",
+    "/products/fronda-tropical-maxi-kaftan/left-20261025.webp",
+    "/products/fronda-tropical-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99993,
+  "unitCostUsd": 27.06,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "mosaica-geometric-maxi-kaftan",
+  "name": "Mosaica Geometric Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c2306f"
+  ],
+  "colorNames": [
+    "Pink Geometric"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Mosaica Geometric Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Pink Geometric.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/mosaica-geometric-maxi-kaftan/front-20261025.webp",
+    "/products/mosaica-geometric-maxi-kaftan/back-20261025.webp",
+    "/products/mosaica-geometric-maxi-kaftan/left-20261025.webp",
+    "/products/mosaica-geometric-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99999,
+  "unitCostUsd": 27.38,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "florenza-bloom-maxi-kaftan",
+  "name": "Florenza Bloom Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#a8462c"
+  ],
+  "colorNames": [
+    "Large Flower Print"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Florenza Bloom Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Large Flower Print.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/florenza-bloom-maxi-kaftan/front-20261025.webp",
+    "/products/florenza-bloom-maxi-kaftan/back-20261025.webp",
+    "/products/florenza-bloom-maxi-kaftan/left-20261025.webp",
+    "/products/florenza-bloom-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99998,
+  "unitCostUsd": 27.38,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "noir-leaf-maxi-kaftan",
+  "name": "Noir Leaf Maxi Kaftan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1c1c1c"
+  ],
+  "colorNames": [
+    "Black & White Leaf Print"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "Noir Leaf Maxi Kaftan is a loose floor-length kaftan in printed cotton with wide batwing sleeves, a deep V neckline and a relaxed straight body that falls to the ankles, shown here in Black & White Leaf Print.",
+  "materials": "Lightweight printed woven fabric with a soft, airy drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/noir-leaf-maxi-kaftan/front-20261025.webp",
+    "/products/noir-leaf-maxi-kaftan/back-20261025.webp",
+    "/products/noir-leaf-maxi-kaftan/left-20261025.webp",
+    "/products/noir-leaf-maxi-kaftan/right-20261025.webp"
+  ],
+  "stock": 99998,
+  "unitCostUsd": 27.63,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "ash-grid-maxi-dress",
+  "name": "Ash Grid Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 39.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#8a8a8a"
+  ],
+  "colorNames": [
+    "Grey & White Grid"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Ash Grid Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Grey & White Grid.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/ash-grid-maxi-dress/front-20261025.webp",
+    "/products/ash-grid-maxi-dress/back-20261025.webp",
+    "/products/ash-grid-maxi-dress/left-20261025.webp",
+    "/products/ash-grid-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1194,
+  "unitCostUsd": 13.14,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "lavanda-plaid-maxi-dress",
+  "name": "Lavanda Plaid Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 39.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#9068d0"
+  ],
+  "colorNames": [
+    "Lavender & Blue Plaid"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Lavanda Plaid Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Lavender & Blue Plaid.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/lavanda-plaid-maxi-dress/front-20261025.webp",
+    "/products/lavanda-plaid-maxi-dress/back-20261025.webp",
+    "/products/lavanda-plaid-maxi-dress/left-20261025.webp",
+    "/products/lavanda-plaid-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1194,
+  "unitCostUsd": 13.14,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "verde-block-maxi-dress",
+  "name": "Verde Block Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 39.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#2d6a3a"
+  ],
+  "colorNames": [
+    "Black, White & Green Block"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Verde Block Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Black, White & Green Block.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/verde-block-maxi-dress/front-20261025.webp",
+    "/products/verde-block-maxi-dress/back-20261025.webp",
+    "/products/verde-block-maxi-dress/left-20261025.webp",
+    "/products/verde-block-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1194,
+  "unitCostUsd": 13.14,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "mono-block-maxi-dress",
+  "name": "Mono Block Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 42.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#6a6a6a"
+  ],
+  "colorNames": [
+    "Black, Grey & White Block"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Mono Block Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Black, Grey & White Block.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/mono-block-maxi-dress/front-20261025.webp",
+    "/products/mono-block-maxi-dress/back-20261025.webp",
+    "/products/mono-block-maxi-dress/left-20261025.webp",
+    "/products/mono-block-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1193,
+  "unitCostUsd": 14.21,
+  "minimumMarginPercent": 40
 }
 ];
 
@@ -14865,6 +15332,20 @@ export const approvedNewProductSlugs = new Set<string>([
   "sage-block-maxi-dress",
   "rubra-block-maxi-dress",
   "noir-grid-maxi-dress",
+  "iris-rainbow-maxi-kaftan",
+  "onyx-leopard-maxi-kaftan",
+  "festa-fireworks-maxi-kaftan",
+  "cacao-zebra-maxi-kaftan",
+  "safari-mixed-print-maxi-kaftan",
+  "domino-stripe-maxi-kaftan",
+  "fronda-tropical-maxi-kaftan",
+  "mosaica-geometric-maxi-kaftan",
+  "florenza-bloom-maxi-kaftan",
+  "noir-leaf-maxi-kaftan",
+  "ash-grid-maxi-dress",
+  "lavanda-plaid-maxi-dress",
+  "verde-block-maxi-dress",
+  "mono-block-maxi-dress",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(
