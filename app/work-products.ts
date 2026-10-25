@@ -12,14 +12,14 @@ export const workProductOverrideSlugs = new Set([
 
 export const workProducts: Product[] = [
   {
-    slug: "white-crochet-fringe-dress", name: "White Crochet Fringe Dress", vendor: "AMB BOUTIQUE", category: "Dresses", price: 129.78,
+    slug: "white-crochet-fringe-dress", name: "White Crochet Fringe Dress", vendor: "AMB BOUTIQUE", category: "Dresses", price: 134.9,
     badge: "New", sheet: "one", quadrant: 1, colors: ["#f5f3ee"], colorNames: ["White"], sizes: ["S","M","L","XL"],
     description: "A sleeveless open-knit dress with an asymmetric neckline, waist-defining fit and tactile fringe finish for elevated warm-weather dressing.",
     materials: "Open-knit construction with fringe detailing. Exact fibre composition follows the garment label.", care: "Follow the care label attached to the garment. Handle fringe and open-knit areas gently and air dry when permitted.",
     images: sheet("white-crochet-fringe-dress"), gallerySprite: fourViewSprite, stock: 1998, weightOz: 17.64, minimumMarginPercent: 40,
   },
   {
-    slug: "apricot-crochet-fringe-dress", name: "Apricot Crochet Fringe Dress", vendor: "AMB BOUTIQUE", category: "Dresses", price: 129.78,
+    slug: "apricot-crochet-fringe-dress", name: "Apricot Crochet Fringe Dress", vendor: "AMB BOUTIQUE", category: "Dresses", price: 134.9,
     badge: "New", sheet: "two", quadrant: 2, colors: ["#e7c5a3"], colorNames: ["Apricot"], sizes: ["S","M","L","XL"],
     description: "A sleeveless open-knit dress with an asymmetric neckline, waist-defining fit and tactile fringe finish in soft apricot.",
     materials: "Open-knit construction with fringe detailing. Exact fibre composition follows the garment label.", care: "Follow the care label attached to the garment. Handle fringe and open-knit areas gently and air dry when permitted.",
@@ -54,28 +54,28 @@ export const workProducts: Product[] = [
     images: sheet("navy-crinkle-halter-maxi-dress"), gallerySprite: fourViewSprite, stock: 20, weightOz: 13.97, minimumMarginPercent: 40,
   },
   {
-    slug: "champagne-pleated-halter-gown", name: "Champagne Pleated Halter Gown", vendor: "AMB BOUTIQUE", category: "Dresses", price: 242.50,
+    slug: "champagne-pleated-halter-gown", name: "Champagne Pleated Halter Gown", vendor: "AMB BOUTIQUE", category: "Dresses", price: 291.9,
     badge: "New", sheet: "one", quadrant: 3, colors: ["#e5d1a8"], colorNames: ["Champagne"], sizes: ["2","4","6","8","10","12","14","16","16W","18W","20W","22W","24W","26W","Custom Size"],
     description: "A floor-length champagne gown with a plunging halter neckline and finely pleated movement for formal celebrations and evening occasions.",
     materials: "Pleated formal fabric with fluid drape. Exact fibre composition follows the garment label.", care: "Professional or specialist care is recommended. Follow the garment label to preserve pleating.",
     images: sheet("champagne-pleated-halter-gown"), gallerySprite: fourViewSprite, stock: 1487, weightOz: 70.55, minimumMarginPercent: 40,
   },
   {
-    slug: "bronze-brown-halter-gown", name: "Bronze Brown Halter Gown", vendor: "AMB BOUTIQUE", category: "Dresses", price: 243.78,
+    slug: "bronze-brown-halter-gown", name: "Bronze Brown Halter Gown", vendor: "AMB BOUTIQUE", category: "Dresses", price: 338.9,
     badge: "New", sheet: "two", quadrant: 4, colors: ["#8a5b45"], colorNames: ["Brown"], sizes: ["US 2","US 4","US 6","US 8","US 10","US 12","US 14","US 16","US 16W","US 18W","US 20W","US 22W","US 24W","US 26W","Custom Size"],
     description: "A sleeveless halter evening gown with a deep V neckline and full-length formal silhouette in bronze brown.",
     materials: "Formal occasion fabric with fluid drape. Exact fibre composition follows the garment label.", care: "Professional or specialist care is recommended. Follow the garment label for cleaning and storage.",
     images: sheet("bronze-brown-halter-gown"), gallerySprite: fourViewSprite, stock: 15982, weightOz: 42.33, minimumMarginPercent: 40,
   },
   {
-    slug: "ruby-red-halter-gown", name: "Ruby Red Halter Gown", vendor: "AMB BOUTIQUE", category: "Dresses", price: 243.78,
+    slug: "ruby-red-halter-gown", name: "Ruby Red Halter Gown", vendor: "AMB BOUTIQUE", category: "Dresses", price: 338.9,
     badge: "New", sheet: "one", quadrant: 1, colors: ["#a51d2d"], colorNames: ["Red"], sizes: ["US 2","US 4","US 6","US 8","US 10","US 12","US 14","US 16","US 16W","US 18W","US 20W","US 22W","US 24W","US 26W","Custom Size"],
     description: "A sleeveless halter evening gown with a deep V neckline and full-length formal silhouette in saturated ruby red.",
     materials: "Formal occasion fabric with fluid drape. Exact fibre composition follows the garment label.", care: "Professional or specialist care is recommended. Follow the garment label for cleaning and storage.",
     images: sheet("ruby-red-halter-gown"), gallerySprite: fourViewSprite, stock: 15984, weightOz: 42.33, minimumMarginPercent: 40,
   },
   {
-    slug: "black-halter-gown", name: "Black Halter Gown", vendor: "AMB BOUTIQUE", category: "Dresses", price: 243.78,
+    slug: "black-halter-gown", name: "Black Halter Gown", vendor: "AMB BOUTIQUE", category: "Dresses", price: 338.9,
     badge: "New", sheet: "two", quadrant: 2, colors: ["#171717"], colorNames: ["Black"], sizes: ["US 2","US 4","US 6","US 8","US 10","US 12","US 14","US 16","US 16W","US 18W","US 20W","US 22W","US 24W","US 26W","Custom Size"],
     description: "A sleeveless halter evening gown with a deep V neckline and full-length formal silhouette in classic black.",
     materials: "Formal occasion fabric with fluid drape. Exact fibre composition follows the garment label.", care: "Professional or specialist care is recommended. Follow the garment label for cleaning and storage.",
