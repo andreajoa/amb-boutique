@@ -1388,9 +1388,7 @@ const allGeneratedProducts: Product[] = [
       "White"
     ],
     "sizes": [
-      "XS",
-      "S",
-      "M"
+      "XS"
     ],
     "description": "Elle Ribbed Tank is the AMB take on the ribbed tank. A refined ribbed essential designed to layer beautifully, tuck cleanly and anchor countless everyday looks. Curated in San Diego for a polished, feminine wardrobe.",
     "materials": "Soft stretch rib knit with a close, comfortable fit.",
@@ -1401,7 +1399,7 @@ const allGeneratedProducts: Product[] = [
       "/products/elle-ribbed-tank/03.webp",
       "/products/elle-ribbed-tank/04.webp"
     ],
-    "stock": 33,
+    "stock": 10,
     "weightOz": 5,
     "unitCostUsd": 6.27,
     "minimumMarginPercent": 40
@@ -1436,7 +1434,7 @@ const allGeneratedProducts: Product[] = [
       "/products/rue-ribbed-tank/03.webp",
       "/products/rue-ribbed-tank/04.webp"
     ],
-    "stock": 31,
+    "stock": 30,
     "weightOz": 5,
     "unitCostUsd": 6.61,
     "minimumMarginPercent": 40
@@ -1543,7 +1541,7 @@ const allGeneratedProducts: Product[] = [
       "/products/ada-knit-vest/03.webp",
       "/products/ada-knit-vest/04.webp"
     ],
-    "stock": 29,
+    "stock": 51,
     "weightOz": 7,
     "unitCostUsd": 9.97,
     "minimumMarginPercent": 40
@@ -1579,7 +1577,7 @@ const allGeneratedProducts: Product[] = [
       "/products/nola-knit-vest/03.webp",
       "/products/nola-knit-vest/04.webp"
     ],
-    "stock": 46,
+    "stock": 113,
     "weightOz": 7,
     "unitCostUsd": 9.99,
     "minimumMarginPercent": 40
@@ -1757,7 +1755,7 @@ const allGeneratedProducts: Product[] = [
       "/products/etta-rib-tank/03.webp",
       "/products/etta-rib-tank/04.webp"
     ],
-    "stock": 100,
+    "stock": 322,
     "weightOz": 5,
     "unitCostUsd": 7.25,
     "minimumMarginPercent": 40
@@ -1792,7 +1790,7 @@ const allGeneratedProducts: Product[] = [
       "/products/nia-rib-tank/03.webp",
       "/products/nia-rib-tank/04.webp"
     ],
-    "stock": 86,
+    "stock": 154,
     "weightOz": 5,
     "unitCostUsd": 6.89,
     "minimumMarginPercent": 40
@@ -1964,7 +1962,7 @@ const allGeneratedProducts: Product[] = [
       "/products/zoe-square-neck-top/03.webp",
       "/products/zoe-square-neck-top/04.webp"
     ],
-    "stock": 221,
+    "stock": 0,
     "weightOz": 6,
     "unitCostUsd": 4.32,
     "minimumMarginPercent": 40
@@ -1999,7 +1997,7 @@ const allGeneratedProducts: Product[] = [
       "/products/sienna-square-neck-top/03.webp",
       "/products/sienna-square-neck-top/04.webp"
     ],
-    "stock": 217,
+    "stock": 0,
     "weightOz": 6,
     "unitCostUsd": 4.22,
     "minimumMarginPercent": 40

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Product } from "./data";
 import { productPrice } from "./product-pricing";
+import { stockForSize } from "./product-inventory";
 import { getProductImageStyle } from "./components";
 import { createStyleLooks } from "./recommendations";
 import { useStore } from "./store-provider";
@@ -25,9 +26,14 @@ export function StyleMatches({ product, catalog }: { product: Product; catalog: 
   const [selections, setSelections] = useState<Record<string, string>>({});
   const look = looks[active];
   if (!look) return null;
+  const lookAvailable = look.products.every((item) => {
+    const stock = stockForSize(item, selections[item.slug] || sizesFor(item)[0]);
+    return stock === undefined || stock > 0;
+  });
 
   const updateSize = (slug: string, size: string) => setSelections((current) => ({ ...current, [slug]: size }));
   const addLook = () => {
+    if (!lookAvailable) return;
     trackEvent("style_look_add", { slug: product.slug, category: product.category, source: look.title, valueUsd: total });
     addItems(look.products.map((item) => ({
       product: item,
@@ -57,7 +63,7 @@ export function StyleMatches({ product, catalog }: { product: Product; catalog: 
         })}
       </div>
       {looks.length > 1 && <button className="style-arrow next" type="button" onClick={() => setActive((active + 1) % looks.length)} aria-label="Next look">›</button>}
-      <div className="style-look-action"><button type="button" onClick={addLook}>Add the Look · {formatMoney(total)}</button><small>Sizes are selected above. Cart rewards apply automatically when eligible.</small></div>
+      <div className="style-look-action"><button type="button" disabled={!lookAvailable} onClick={addLook}>Add the Look · {formatMoney(total)}</button><small>{lookAvailable ? "Sizes are selected above. Cart rewards apply automatically when eligible." : "This look includes an item that is currently unavailable."}</small></div>
     </div>
     {looks.length > 1 && <div className="style-dots" aria-label="Choose a styled look">{looks.map((item, index) => <button type="button" className={active === index ? "active" : ""} onClick={() => setActive(index)} aria-label={`View ${item.title}`} key={item.title}/>)}</div>}
   </section>;

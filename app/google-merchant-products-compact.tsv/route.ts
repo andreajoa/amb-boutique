@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { productForSize } from "../product-pricing";
+import { stockForSize } from "../product-inventory";
 import { products, type Product } from "../data";
 import { getGoogleProductCategory, getMerchantImage, merchantVariantLink } from "../merchant";
 
@@ -101,7 +102,7 @@ function productRow(product: Product): FeedRow | null {
     description: (product.description || `${product.name} from AMB BOUTIQUE, a women’s fashion boutique based in San Diego, California.`).slice(0, 5000),
     link: merchantVariantLink(product, selected.size, selected.heelHeightCm),
     image_link: image,
-    availability: selected.inStock ? "in_stock" : "out_of_stock",
+    availability: selected.inStock && (stockForSize(product, selected.size || product.sizes?.[0] || "") ?? 0) > 0 ? "in_stock" : "out_of_stock",
     price: prices.price,
     sale_price: prices.sale_price,
     condition: "new",

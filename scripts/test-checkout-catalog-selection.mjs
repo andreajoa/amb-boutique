@@ -18,6 +18,12 @@ cases.push({name:'Valid canonical selection',items:[{slug:p.slug,size:'M',color:
 cases.push({name:'Zero quantity rejected',items:[{slug:p.slug,size:'M',color:'Red Floral',quantity:0}],expected:400});
 cases.push({name:'Fractional quantity rejected',items:[{slug:p.slug,size:'M',color:'Red Floral',quantity:1.5}],expected:400});
 cases.push({name:'Missing color rejected',items:[{slug:p.slug,size:'M',quantity:1}],expected:400});
+cases.push({name:'Reviewed SKU size stock cap',items:[{slug:'ada-knit-vest',size:'L',color:'Khaki',quantity:4}],expected:400});
+cases.push({name:'Reviewed SKU duplicate lines cap',items:[{slug:'ada-knit-vest',size:'L',color:'Khaki',quantity:2},{slug:'ada-knit-vest',size:'L',color:'Khaki',quantity:2}],expected:400});
+cases.push({name:'Different sizes use separate stock',items:[{slug:'ada-knit-vest',size:'L',color:'Khaki',quantity:2},{slug:'ada-knit-vest',size:'M',color:'Khaki',quantity:2}],expected:200});
+cases.push({name:'Piping color has only verified XS',items:[{slug:'elle-ribbed-tank',size:'M',color:'White',quantity:1}],expected:400});
+cases.push({name:'Unavailable supplier color blocked',items:[{slug:'zoe-square-neck-top',size:'S',color:'Blue',quantity:1}],expected:400});
+cases.push({name:'Unconfirmed freight blocks a stocked SKU',items:[{slug:'elle-ribbed-tank',size:'XS',color:'White',quantity:1}],expected:400});
 const results=[];
 for(const c of cases){captured=null;const res=await POST({json:async()=>({items:c.items,market:'US'}),nextUrl:{origin:'https://offline.example'}});results.push({case:c.name,productSlug:p.slug,catalogStock:p.stock,catalogSizes:p.sizes,catalogColors:p.colorNames,request:c.items,expectedStatus:c.expected,actualStatus:res.status,body:await res.json(),stripeFixtureCreated:!!captured,chargedQuantity:captured?.line_items?.[0]?.quantity,chargedDescription:captured?.line_items?.[0]?.price_data?.product_data?.description});}
 for(const result of results){assert.equal(result.actualStatus,result.expectedStatus,result.case);assert.equal(result.stripeFixtureCreated,result.expectedStatus===200,result.case+' payment boundary');}console.log(JSON.stringify({passed:results.length,cases:results.map(r=>({name:r.case,status:r.actualStatus}))}));

@@ -929,4 +929,5 @@ button { cursor: pointer; }
 .contact-success h2{margin:0;font-family:var(--font-cormorant),Georgia,serif;font-size:38px;line-height:1.05;font-weight:500}
 .contact-success>p:not(.contact-success-kicker){max-width:540px;margin:18px 0 28px;color:var(--muted);font-size:14px;line-height:1.75}
 .form-message-error{display:block;margin-top:14px;padding:14px 16px;border:1px solid #d7a69a;background:#fff5f2;color:#7b3428;font-size:12px;line-height:1.6}
+.add-button:disabled,.buy-button:disabled,.quantity-block button:disabled,.style-look-action button:disabled{opacity:.5;cursor:not-allowed}
 @media(max-width:560px){.contact-success{min-height:430px;padding:32px 22px}.contact-success h2{font-size:32px}}

@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Footer, Header, ProductCard, getDirectProductImage, getProductImageStyle } from "../../components";
 import { Product, products } from "../../data";
 import { productPrice } from "../../product-pricing";
+import { stockForSize } from "../../product-inventory";
 import { getPreparationNotice } from "../../product-fulfillment";
 import { useStore } from "../../store-provider";
 import { SizeFinder } from "../../size-finder";
@@ -42,13 +43,16 @@ export default function ProductDetail({
   const [heelHeightCm, setHeelHeightCm] = useState<number | undefined>(initialHeel);
   const activeShoeVariant = product.shoeVariants?.find((variant) => variant.heelHeightCm === heelHeightCm);
   const sizes = activeShoeVariant?.sizes?.length ? activeShoeVariant.sizes : product.sizes?.length ? product.sizes : defaultSizes;
-  const activeStock = activeShoeVariant?.stock ?? product.stock;
   const preparationNotice = getPreparationNotice(product);
 
   const [size, setSize] = useState(startingSize);
+  const activeStock = stockForSize({ slug: product.slug, stock: activeShoeVariant?.stock ?? product.stock }, size);
+  const unavailable = activeStock !== undefined && activeStock <= 0;
   const selectedPrice = productPrice(product, size);
   const [color, setColor] = useState(colors[0] || defaultColors[0]);
   const [quantity, setQuantity] = useState(1);
+  const quantityLimit = Math.min(10, activeStock ?? 10);
+  const purchaseQuantity = Math.max(1, Math.min(quantity, quantityLimit));
   const [activeImage, setActiveImage] = useState<number | null>(null);
   const lightboxRef = useRef<HTMLDivElement>(null);
   const lightboxCloseRef = useRef<HTMLButtonElement>(null);
@@ -99,7 +103,8 @@ export default function ProductDetail({
   }, [gallery.length, lightboxOpen]);
 
   const addToBag = () => {
-    addItem(product, { size, color: color.name, quantity, heelHeightCm: isShoe ? (heelHeightCm ?? product.heelHeightCm) : undefined });
+    if (unavailable) return;
+    addItem(product, { size, color: color.name, quantity: purchaseQuantity, heelHeightCm: isShoe ? (heelHeightCm ?? product.heelHeightCm) : undefined });
   };
 
   return (
@@ -140,11 +145,11 @@ export default function ProductDetail({
 
           {isShoe ? <div className="shoe-fit-summary"><div><span>Size system</span><strong>AMB numbered sizing</strong></div><div><span>Style</span><strong>{product.subcategory || "Shoes"}</strong></div>{(heelHeightCm ?? product.heelHeightCm) ? <div><span>Heel height</span><strong>{heelHeightCm ?? product.heelHeightCm} cm</strong></div> : null}<div><span>Fit tip</span><strong>Measure foot length first</strong></div></div> : <div className="fit-guide"><span>How it fits</span><div><i/><i/><i className="active"/><i/><i/></div><p><small>Slim fit</small><small>Regular fit</small><small>Oversized</small></p></div>}
 
-          <div className="quantity-block"><span>Quantity</span><div><button type="button" onClick={() => setQuantity(Math.max(1, quantity - 1))} aria-label="Decrease quantity">−</button><span>{quantity}</span><button type="button" onClick={() => setQuantity(quantity + 1)} aria-label="Increase quantity">+</button></div></div>
-          <p className="stock-line"><i/> {!preparationNotice && typeof activeStock === "number" && activeStock <= 5 ? `Only ${activeStock} left` : "Available to order"}</p>
+          <div className="quantity-block"><span>Quantity</span><div><button type="button" disabled={unavailable || purchaseQuantity <= 1} onClick={() => setQuantity(Math.max(1, purchaseQuantity - 1))} aria-label="Decrease quantity">−</button><span>{purchaseQuantity}</span><button type="button" disabled={unavailable || purchaseQuantity >= quantityLimit} onClick={() => setQuantity(purchaseQuantity + 1)} aria-label="Increase quantity">+</button></div></div>
+          <p className="stock-line"><i/> {unavailable ? "Currently unavailable" : !preparationNotice && typeof activeStock === "number" && activeStock <= 5 ? `Only ${activeStock} left` : "Available to order"}</p>
           {preparationNotice && <p className="product-intro" data-preparation-notice>{preparationNotice}</p>}
-          <button className="add-button" type="button" onClick={addToBag}>Add to Bag · {formatMoney(selectedPrice * quantity)}</button>
-          <button className="buy-button" type="button" onClick={() => void buyNow(product, { size, color: color.name, quantity, heelHeightCm: isShoe ? (heelHeightCm ?? product.heelHeightCm) : undefined })}>Buy Now</button>
+          <button className="add-button" type="button" disabled={unavailable} onClick={addToBag}>{unavailable ? "Currently unavailable" : `Add to Bag · ${formatMoney(selectedPrice * purchaseQuantity)}`}</button>
+          <button className="buy-button" type="button" disabled={unavailable} onClick={() => void buyNow(product, { size, color: color.name, quantity: purchaseQuantity, heelHeightCm: isShoe ? (heelHeightCm ?? product.heelHeightCm) : undefined })}>Buy Now</button>
 
           <div className="secure-box"><strong>Secure checkout</strong><span>Encrypted payment processing · Powered by Stripe</span><PaymentMarks /></div>
           <div className="product-accordions">
