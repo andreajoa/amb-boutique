@@ -1,0 +1,642 @@
+{
+  "snapshotAt": "2026-10-25T01:27:52.574Z",
+  "inventorySource": "Manager canonical variants; three source families refreshed through official AliExpress connection; ribbed-tank supplier refresh blocked by missing freight cost and retains saved stock.",
+  "products": {
+    "elle-ribbed-tank": {
+      "sourceProductId": "3256807048132393",
+      "sourceColor": "ald002-WHITE",
+      "sourceSkuIdsBySize": {
+        "XS": "12000050576773185"
+      },
+      "stockBySize": {
+        "XS": 10
+      },
+      "before": {
+        "stock": 33,
+        "sizes": [
+          "XS",
+          "S",
+          "M"
+        ]
+      },
+      "after": {
+        "stock": 10,
+        "sizes": [
+          "XS"
+        ]
+      },
+      "galleryProof": "gallery-swap-pair-2.jpg",
+      "supplierLastCheckedAt": "2026-10-02T01:52:42.576Z",
+      "supplierRefresh": {
+        "sourceProductId": "3256807048132393",
+        "http": 500,
+        "ok": false,
+        "error": "Produto importado, mas o frete do fornecedor ainda não pôde ser calculado. O preço final permanece bloqueado até o custo total ser conhecido."
+      },
+      "purchasable": false,
+      "availabilityReason": "SUPPLIER_FREIGHT_UNCONFIRMED",
+      "supplierTimestampSource": "Official refresh response UTC; blocked source retains database timestamp text in GMT"
+    },
+    "rue-ribbed-tank": {
+      "sourceProductId": "3256807048132393",
+      "sourceColor": "ald002-light pink",
+      "sourceSkuIdsBySize": {
+        "L": "12000048290575244",
+        "XS": "12000048290575241",
+        "M": "12000048290575243",
+        "S": "12000048290575242"
+      },
+      "stockBySize": {
+        "L": 7,
+        "XS": 9,
+        "M": 7,
+        "S": 7
+      },
+      "before": {
+        "stock": 31,
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "after": {
+        "stock": 30,
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "galleryProof": "gallery-swap-pair-2.jpg",
+      "supplierLastCheckedAt": "2026-10-02T01:52:42.576Z",
+      "supplierRefresh": {
+        "sourceProductId": "3256807048132393",
+        "http": 500,
+        "ok": false,
+        "error": "Produto importado, mas o frete do fornecedor ainda não pôde ser calculado. O preço final permanece bloqueado até o custo total ser conhecido."
+      },
+      "purchasable": false,
+      "availabilityReason": "SUPPLIER_FREIGHT_UNCONFIRMED",
+      "supplierTimestampSource": "Official refresh response UTC; blocked source retains database timestamp text in GMT"
+    },
+    "ada-knit-vest": {
+      "sourceProductId": "3256812144787790",
+      "sourceColor": "Khaki",
+      "sourceSkuIdsBySize": {
+        "S": "12000058214855419",
+        "L": "12000058214855421",
+        "M": "12000058214855420",
+        "XXL": "12000058214855423",
+        "XL": "12000058214855422"
+      },
+      "stockBySize": {
+        "S": 15,
+        "L": 3,
+        "M": 19,
+        "XXL": 5,
+        "XL": 9
+      },
+      "before": {
+        "stock": 29,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "after": {
+        "stock": 51,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "galleryProof": "gallery-swap-pair-3.jpg",
+      "supplierLastCheckedAt": "2026-10-25T01:26:12.975Z",
+      "supplierRefresh": {
+        "sourceProductId": "3256812144787790",
+        "http": 200,
+        "ok": true,
+        "operationalProvider": "ALIEXPRESS_OPEN_PLATFORM",
+        "refreshedAt": "2026-10-25T01:26:12.975Z",
+        "variants": 30,
+        "mappingNeedsReview": false,
+        "disappearedSkus": [],
+        "warnings": []
+      },
+      "supplierTimestampSource": "Official refresh response UTC; blocked source retains database timestamp text in GMT"
+    },
+    "nola-knit-vest": {
+      "sourceProductId": "3256812144787790",
+      "sourceColor": "Navy Blue",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000058214855428",
+        "M": "12000058214855425",
+        "S": "12000058214855424",
+        "XL": "12000058214855427",
+        "L": "12000058214855426"
+      },
+      "stockBySize": {
+        "XXL": 23,
+        "M": 25,
+        "S": 23,
+        "XL": 20,
+        "L": 22
+      },
+      "before": {
+        "stock": 46,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "after": {
+        "stock": 113,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "galleryProof": "gallery-swap-pair-3.jpg",
+      "supplierLastCheckedAt": "2026-10-25T01:26:12.975Z",
+      "supplierRefresh": {
+        "sourceProductId": "3256812144787790",
+        "http": 200,
+        "ok": true,
+        "operationalProvider": "ALIEXPRESS_OPEN_PLATFORM",
+        "refreshedAt": "2026-10-25T01:26:12.975Z",
+        "variants": 30,
+        "mappingNeedsReview": false,
+        "disappearedSkus": [],
+        "warnings": []
+      },
+      "supplierTimestampSource": "Official refresh response UTC; blocked source retains database timestamp text in GMT"
+    },
+    "etta-rib-tank": {
+      "sourceProductId": "3256812380475814",
+      "sourceColor": "WHITE",
+      "sourceSkuIdsBySize": {
+        "XL": "12000058735108462",
+        "L": "12000058735108461",
+        "M": "12000058735108460",
+        "S": "12000058735108459"
+      },
+      "stockBySize": {
+        "XL": 192,
+        "L": 69,
+        "M": 2,
+        "S": 59
+      },
+      "before": {
+        "stock": 100,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "after": {
+        "stock": 322,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "galleryProof": "gallery-swap-pair-4.jpg",
+      "supplierLastCheckedAt": "2026-10-25T01:26:30.618Z",
+      "supplierRefresh": {
+        "sourceProductId": "3256812380475814",
+        "http": 200,
+        "ok": true,
+        "operationalProvider": "ALIEXPRESS_OPEN_PLATFORM",
+        "refreshedAt": "2026-10-25T01:26:30.618Z",
+        "variants": 12,
+        "mappingNeedsReview": false,
+        "disappearedSkus": [],
+        "warnings": []
+      },
+      "supplierTimestampSource": "Official refresh response UTC; blocked source retains database timestamp text in GMT"
+    },
+    "nia-rib-tank": {
+      "sourceProductId": "3256812380475814",
+      "sourceColor": "grey",
+      "sourceSkuIdsBySize": {
+        "XL": "12000058735108466",
+        "L": "12000058735108465",
+        "M": "12000058735108464",
+        "S": "12000058735108463"
+      },
+      "stockBySize": {
+        "XL": 41,
+        "L": 53,
+        "M": 39,
+        "S": 21
+      },
+      "before": {
+        "stock": 86,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "after": {
+        "stock": 154,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "galleryProof": "gallery-swap-pair-4.jpg",
+      "supplierLastCheckedAt": "2026-10-25T01:26:30.618Z",
+      "supplierRefresh": {
+        "sourceProductId": "3256812380475814",
+        "http": 200,
+        "ok": true,
+        "operationalProvider": "ALIEXPRESS_OPEN_PLATFORM",
+        "refreshedAt": "2026-10-25T01:26:30.618Z",
+        "variants": 12,
+        "mappingNeedsReview": false,
+        "disappearedSkus": [],
+        "warnings": []
+      },
+      "supplierTimestampSource": "Official refresh response UTC; blocked source retains database timestamp text in GMT"
+    },
+    "zoe-square-neck-top": {
+      "sourceProductId": "3256806674905270",
+      "sourceColor": "Blue",
+      "sourceSkuIdsBySize": {
+        "M": "12000059414463071",
+        "L": "12000059414463073",
+        "XS（old）": "12000059414463072",
+        "S": "12000059414463074"
+      },
+      "stockBySize": {
+        "M": 0,
+        "L": 0,
+        "XS（old）": 0,
+        "S": 0
+      },
+      "before": {
+        "stock": 221,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XS（old）"
+        ]
+      },
+      "after": {
+        "stock": 0,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XS（old）"
+        ]
+      },
+      "galleryProof": "gallery-swap-pair-6.jpg",
+      "supplierLastCheckedAt": "2026-10-25T01:26:56.753Z",
+      "supplierRefresh": {
+        "sourceProductId": "3256806674905270",
+        "http": 200,
+        "ok": true,
+        "operationalProvider": "ALIEXPRESS_OPEN_PLATFORM",
+        "refreshedAt": "2026-10-25T01:26:56.753Z",
+        "variants": 39,
+        "mappingNeedsReview": true,
+        "disappearedSkus": [
+          "12000059414463077",
+          "12000059414463078",
+          "12000059414463076",
+          "12000059414463070",
+          "12000059414463071",
+          "12000059414463067",
+          "12000059414463084",
+          "12000059414463072",
+          "12000059414463074",
+          "12000059414463073",
+          "12000059414463069",
+          "12000059414463068",
+          "12000059414463075",
+          "12000059414463085",
+          "12000059414463081",
+          "12000059414463079",
+          "12000059414463080",
+          "12000059414463082",
+          "12000059414463083"
+        ],
+        "warnings": []
+      },
+      "supplierTimestampSource": "Official refresh response UTC; blocked source retains database timestamp text in GMT"
+    },
+    "sienna-square-neck-top": {
+      "sourceProductId": "3256806674905270",
+      "sourceColor": "Orange",
+      "sourceSkuIdsBySize": {
+        "M": "12000059414463075",
+        "L": "12000059414463077",
+        "XS（old）": "12000059414463076",
+        "S": "12000059414463078"
+      },
+      "stockBySize": {
+        "M": 0,
+        "L": 0,
+        "XS（old）": 0,
+        "S": 0
+      },
+      "before": {
+        "stock": 217,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XS（old）"
+        ]
+      },
+      "after": {
+        "stock": 0,
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XS（old）"
+        ]
+      },
+      "galleryProof": "gallery-swap-pair-6.jpg",
+      "supplierLastCheckedAt": "2026-10-25T01:26:56.753Z",
+      "supplierRefresh": {
+        "sourceProductId": "3256806674905270",
+        "http": 200,
+        "ok": true,
+        "operationalProvider": "ALIEXPRESS_OPEN_PLATFORM",
+        "refreshedAt": "2026-10-25T01:26:56.753Z",
+        "variants": 39,
+        "mappingNeedsReview": true,
+        "disappearedSkus": [
+          "12000059414463077",
+          "12000059414463078",
+          "12000059414463076",
+          "12000059414463070",
+          "12000059414463071",
+          "12000059414463067",
+          "12000059414463084",
+          "12000059414463072",
+          "12000059414463074",
+          "12000059414463073",
+          "12000059414463069",
+          "12000059414463068",
+          "12000059414463075",
+          "12000059414463085",
+          "12000059414463081",
+          "12000059414463079",
+          "12000059414463080",
+          "12000059414463082",
+          "12000059414463083"
+        ],
+        "warnings": []
+      },
+      "supplierTimestampSource": "Official refresh response UTC; blocked source retains database timestamp text in GMT"
+    },
+    "indigo-ribbed-tank": {
+      "sourceProductId": "3256807048132393",
+      "sourceColor": "ald002-royal blue",
+      "sourceSkuIdsBySize": {
+        "L": "12000048290575236",
+        "XS": "12000048290575233",
+        "M": "12000048290575235",
+        "S": "12000048290575234"
+      },
+      "stockBySize": {
+        "L": 4,
+        "XS": 9,
+        "M": 6,
+        "S": 7
+      },
+      "before": {
+        "stock": 26,
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "after": {
+        "stock": 26,
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "galleryProof": "first80-comparison-4.jpg",
+      "supplierLastCheckedAt": "2026-10-02T01:52:42.576Z",
+      "supplierRefresh": {
+        "sourceProductId": "3256807048132393",
+        "http": 500,
+        "ok": false,
+        "error": "Produto importado, mas o frete do fornecedor ainda não pôde ser calculado. O preço final permanece bloqueado até o custo total ser conhecido."
+      },
+      "purchasable": false,
+      "availabilityReason": "SUPPLIER_FREIGHT_UNCONFIRMED",
+      "supplierTimestampSource": "Official refresh response UTC; blocked source retains database timestamp text in GMT"
+    },
+    "maren-ribbed-tank": {
+      "sourceProductId": "3256807048132393",
+      "sourceColor": "ald002-light yellow",
+      "sourceSkuIdsBySize": {
+        "L": "12000048290575248",
+        "XS": "12000048290575245",
+        "M": "12000048290575247",
+        "S": "12000048290575246"
+      },
+      "stockBySize": {
+        "L": 7,
+        "XS": 10,
+        "M": 8,
+        "S": 8
+      },
+      "before": {
+        "stock": 33,
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "after": {
+        "stock": 33,
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "galleryProof": "first80-comparison-4.jpg",
+      "supplierLastCheckedAt": "2026-10-02T01:52:42.576Z",
+      "supplierRefresh": {
+        "sourceProductId": "3256807048132393",
+        "http": 500,
+        "ok": false,
+        "error": "Produto importado, mas o frete do fornecedor ainda não pôde ser calculado. O preço final permanece bloqueado até o custo total ser conhecido."
+      },
+      "purchasable": false,
+      "availabilityReason": "SUPPLIER_FREIGHT_UNCONFIRMED",
+      "supplierTimestampSource": "Official refresh response UTC; blocked source retains database timestamp text in GMT"
+    }
+  },
+  "galleryChanges": [
+    {
+      "pathA": "/products/elle-ribbed-tank/01.webp",
+      "pathB": "/products/rue-ribbed-tank/01.webp",
+      "beforeA": "bcec6e6e80a098585f5766ae80e657e20935985ed0689aa960c2e1197482664a",
+      "beforeB": "e2cae20014a8a5a816ee82103bb22a091c41ebc334bcc86f9d8c62b610a8a031",
+      "afterA": "e2cae20014a8a5a816ee82103bb22a091c41ebc334bcc86f9d8c62b610a8a031",
+      "afterB": "bcec6e6e80a098585f5766ae80e657e20935985ed0689aa960c2e1197482664a"
+    },
+    {
+      "pathA": "/products/elle-ribbed-tank/02.webp",
+      "pathB": "/products/rue-ribbed-tank/02.webp",
+      "beforeA": "2c91b02760b09875e0a935557a7ef1825a76e07380a1a60b86f06b1c59bd1e3d",
+      "beforeB": "ef2412c70db804e809c6a630b4e00cc4c7b7ff9ef85fe7f222c1f933699e4452",
+      "afterA": "ef2412c70db804e809c6a630b4e00cc4c7b7ff9ef85fe7f222c1f933699e4452",
+      "afterB": "2c91b02760b09875e0a935557a7ef1825a76e07380a1a60b86f06b1c59bd1e3d"
+    },
+    {
+      "pathA": "/products/elle-ribbed-tank/03.webp",
+      "pathB": "/products/rue-ribbed-tank/03.webp",
+      "beforeA": "a68aa8938ad9d24ea8437ce644921233f7e79db50349c45ef7f76c79272f3c94",
+      "beforeB": "e8bf9e203b72e8d2061ef35b557382fd6af4e6df4ed708e17437c081bb3f96e8",
+      "afterA": "e8bf9e203b72e8d2061ef35b557382fd6af4e6df4ed708e17437c081bb3f96e8",
+      "afterB": "a68aa8938ad9d24ea8437ce644921233f7e79db50349c45ef7f76c79272f3c94"
+    },
+    {
+      "pathA": "/products/elle-ribbed-tank/04.webp",
+      "pathB": "/products/rue-ribbed-tank/04.webp",
+      "beforeA": "8d25bd668ebb5e968339072768ddfab8253bd4711b63a6a07062edb9b94faf7f",
+      "beforeB": "ab639d82f69aeaa36a83408f31650295a3ae2d06fa12be3c5d79f79024405e86",
+      "afterA": "ab639d82f69aeaa36a83408f31650295a3ae2d06fa12be3c5d79f79024405e86",
+      "afterB": "8d25bd668ebb5e968339072768ddfab8253bd4711b63a6a07062edb9b94faf7f"
+    },
+    {
+      "pathA": "/products/ada-knit-vest/01.webp",
+      "pathB": "/products/nola-knit-vest/01.webp",
+      "beforeA": "213f7bfcd863d4cca8f60a92fa582d55b4f91ae242f922ecaefc578df8de158c",
+      "beforeB": "1b3515125232f3e3234d5644234e61694c59841339ee72517f33a4cc4c7d2598",
+      "afterA": "1b3515125232f3e3234d5644234e61694c59841339ee72517f33a4cc4c7d2598",
+      "afterB": "213f7bfcd863d4cca8f60a92fa582d55b4f91ae242f922ecaefc578df8de158c"
+    },
+    {
+      "pathA": "/products/ada-knit-vest/02.webp",
+      "pathB": "/products/nola-knit-vest/02.webp",
+      "beforeA": "7b636f3ef2f271a956e518b8cc2265459459b157a7a41967fd035c56fdfdefc3",
+      "beforeB": "a6f368938975c803afd708bd9e7a4c2090c2b4667847546112cd52b7db2e1ff8",
+      "afterA": "a6f368938975c803afd708bd9e7a4c2090c2b4667847546112cd52b7db2e1ff8",
+      "afterB": "7b636f3ef2f271a956e518b8cc2265459459b157a7a41967fd035c56fdfdefc3"
+    },
+    {
+      "pathA": "/products/ada-knit-vest/03.webp",
+      "pathB": "/products/nola-knit-vest/03.webp",
+      "beforeA": "6aa02ac86a881400752f2ddc9bebc1b8b8db17663fe51276d88f588ddae9c756",
+      "beforeB": "7d9aabb19d3d606398440cc85dca1d9a45224d8910668512e9e4c236f8453242",
+      "afterA": "7d9aabb19d3d606398440cc85dca1d9a45224d8910668512e9e4c236f8453242",
+      "afterB": "6aa02ac86a881400752f2ddc9bebc1b8b8db17663fe51276d88f588ddae9c756"
+    },
+    {
+      "pathA": "/products/ada-knit-vest/04.webp",
+      "pathB": "/products/nola-knit-vest/04.webp",
+      "beforeA": "70c57dedd4e1b196f56f5f4eb7fd34e3da0f7e0640edb9ce1ea5eaafa5f261c3",
+      "beforeB": "728f345f3b8a55115baa1b69b10b96fea8dfcdcf44101f1fc5e19c238a5c7b04",
+      "afterA": "728f345f3b8a55115baa1b69b10b96fea8dfcdcf44101f1fc5e19c238a5c7b04",
+      "afterB": "70c57dedd4e1b196f56f5f4eb7fd34e3da0f7e0640edb9ce1ea5eaafa5f261c3"
+    },
+    {
+      "pathA": "/products/etta-rib-tank/01.webp",
+      "pathB": "/products/nia-rib-tank/01.webp",
+      "beforeA": "543be91590099168bdf594e149585f1479bcf1577766d4398f12d489b50d605c",
+      "beforeB": "c8c8a7d8ab92b5030b5d12eeda7a828809c52e88055a872a88b6bd75b9fa7acc",
+      "afterA": "c8c8a7d8ab92b5030b5d12eeda7a828809c52e88055a872a88b6bd75b9fa7acc",
+      "afterB": "543be91590099168bdf594e149585f1479bcf1577766d4398f12d489b50d605c"
+    },
+    {
+      "pathA": "/products/etta-rib-tank/02.webp",
+      "pathB": "/products/nia-rib-tank/02.webp",
+      "beforeA": "73c81e18c64b8f883b30efc3e097b6a5a6a5a61621729b1e43fa3ad9af2a8a48",
+      "beforeB": "74540abf97b534c4c21345a1e731fd6638dc0e7a4962c850f6a08f2415b8eab5",
+      "afterA": "74540abf97b534c4c21345a1e731fd6638dc0e7a4962c850f6a08f2415b8eab5",
+      "afterB": "73c81e18c64b8f883b30efc3e097b6a5a6a5a61621729b1e43fa3ad9af2a8a48"
+    },
+    {
+      "pathA": "/products/etta-rib-tank/03.webp",
+      "pathB": "/products/nia-rib-tank/03.webp",
+      "beforeA": "7509d6f043a778598a313889bb5a82f4fb1174eaa3e9098da7598c8153049cc4",
+      "beforeB": "c77f943bf3088a52609c032d1bbe690705d07d60fb7dd7f0f9af327ef3dfd28a",
+      "afterA": "c77f943bf3088a52609c032d1bbe690705d07d60fb7dd7f0f9af327ef3dfd28a",
+      "afterB": "7509d6f043a778598a313889bb5a82f4fb1174eaa3e9098da7598c8153049cc4"
+    },
+    {
+      "pathA": "/products/etta-rib-tank/04.webp",
+      "pathB": "/products/nia-rib-tank/04.webp",
+      "beforeA": "5ec8bce6c9572e272d88f8b6b704c374384003654933027d9a70fc63359774d5",
+      "beforeB": "72b54c8b6dbf93ce6cc1607447808a2918ec5c3ae9a0c7b2713a78a009cf2e64",
+      "afterA": "72b54c8b6dbf93ce6cc1607447808a2918ec5c3ae9a0c7b2713a78a009cf2e64",
+      "afterB": "5ec8bce6c9572e272d88f8b6b704c374384003654933027d9a70fc63359774d5"
+    },
+    {
+      "pathA": "/products/zoe-square-neck-top/01.webp",
+      "pathB": "/products/sienna-square-neck-top/01.webp",
+      "beforeA": "e0cc1ab30f19c0211b1b55cb74886041bfddd94203e8d55fbbafa0be7b057de4",
+      "beforeB": "797e6cfb990e5ab8c1f62f7642652ec2b9fe90ceaee64bd6e8c096adfc798041",
+      "afterA": "797e6cfb990e5ab8c1f62f7642652ec2b9fe90ceaee64bd6e8c096adfc798041",
+      "afterB": "e0cc1ab30f19c0211b1b55cb74886041bfddd94203e8d55fbbafa0be7b057de4"
+    },
+    {
+      "pathA": "/products/zoe-square-neck-top/02.webp",
+      "pathB": "/products/sienna-square-neck-top/02.webp",
+      "beforeA": "5e9efb6a007ab03593e7de620836e5fa1af5e934f803ed1b0dfe08b651d520e3",
+      "beforeB": "5314633f064311f5cd4dc21c243fb6e330534b7eabfeca87f65f2b3630010e38",
+      "afterA": "5314633f064311f5cd4dc21c243fb6e330534b7eabfeca87f65f2b3630010e38",
+      "afterB": "5e9efb6a007ab03593e7de620836e5fa1af5e934f803ed1b0dfe08b651d520e3"
+    },
+    {
+      "pathA": "/products/zoe-square-neck-top/03.webp",
+      "pathB": "/products/sienna-square-neck-top/03.webp",
+      "beforeA": "ceee0fa26bb82c0eee4eab83c06dd3cedc6befd9eb07a836773459292ee63f64",
+      "beforeB": "8c4cd6308d84c2e90c2ef4aca0e8277d01914dc9a45097c4fb8bbeb6ae3442b1",
+      "afterA": "8c4cd6308d84c2e90c2ef4aca0e8277d01914dc9a45097c4fb8bbeb6ae3442b1",
+      "afterB": "ceee0fa26bb82c0eee4eab83c06dd3cedc6befd9eb07a836773459292ee63f64"
+    },
+    {
+      "pathA": "/products/zoe-square-neck-top/04.webp",
+      "pathB": "/products/sienna-square-neck-top/04.webp",
+      "beforeA": "4eba554fc2d6976b539cd45984a0d9c30ca8ad99411f8e2ae4923a80571acfd8",
+      "beforeB": "1877a62e7cecd778bb133239d2d10f480ee232cc859e54569afef98e4bb6617a",
+      "afterA": "1877a62e7cecd778bb133239d2d10f480ee232cc859e54569afef98e4bb6617a",
+      "afterB": "4eba554fc2d6976b539cd45984a0d9c30ca8ad99411f8e2ae4923a80571acfd8"
+    }
+  ]
+}

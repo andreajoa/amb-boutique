@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { products } from "../../data";
 import { productForSize } from "../../product-pricing";
+import { stockForSize } from "../../product-inventory";
 import { getPreparationNotice } from "../../product-fulfillment";
 import { resolveShoeProductSlug } from "../../shoe-products";
 import { generatedProducts } from "../../generated-products";
@@ -53,16 +54,25 @@ export async function POST(request: NextRequest) {
       if (shoeVariant && !shoeVariant.sizes.includes(size)) throw new Error(`Size ${size} is not available with the selected heel height for ${product.name}.`);
       if (!shoeVariant && product.sizes?.length && !product.sizes.includes(size)) throw new Error(`Size ${size} is not available for ${product.name}.`);
       const selectedHeelHeightCm = shoeVariant?.heelHeightCm ?? product.heelHeightCm;
-      return { line: selectedLine, product: productForSize(product, size), quantity, selectedHeelHeightCm, preparationNotice: getPreparationNotice(product), availableStock: shoeVariant?.stock ?? product.stock };
+      const availableStock = stockForSize({ slug: product.slug, stock: shoeVariant?.stock ?? product.stock }, size);
+      if (availableStock !== undefined && availableStock <= 0) throw new Error(`${product.name} is currently unavailable.`);
+      return { line: selectedLine, product: productForSize(product, size), quantity, selectedHeelHeightCm, preparationNotice: getPreparationNotice(product), availableStock };
     });
     // A product can occur on multiple cart lines (sizes, offers, or old carts).
     // Check their combined quantity before creating a payment session.
     const quantitiesByProduct = new Map<string, number>();
+    const quantitiesBySelection = new Map<string, number>();
     for (const item of normalized) {
       const quantity = (quantitiesByProduct.get(item.product.slug) || 0) + item.quantity;
       quantitiesByProduct.set(item.product.slug, quantity);
-      if (item.availableStock !== undefined && quantity > item.availableStock) {
-        throw new Error(`Only ${item.availableStock} of ${item.product.name} are currently available.`);
+      if (item.product.stock !== undefined && quantity > item.product.stock) {
+        throw new Error(`Only ${item.product.stock} of ${item.product.name} are currently available.`);
+      }
+      const selection = JSON.stringify([item.product.slug, item.line.size, item.selectedHeelHeightCm]);
+      const sizeQuantity = (quantitiesBySelection.get(selection) || 0) + item.quantity;
+      quantitiesBySelection.set(selection, sizeQuantity);
+      if (item.availableStock !== undefined && sizeQuantity > item.availableStock) {
+        throw new Error(`Only ${item.availableStock} of ${item.product.name} in size ${item.line.size} are currently available.`);
       }
     }
     const preparationNotices = [...new Set(normalized.flatMap((item) => item.preparationNotice ? [item.preparationNotice] : []))];

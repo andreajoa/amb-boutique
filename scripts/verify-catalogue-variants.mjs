@@ -21,6 +21,7 @@ const { resolveShoeProductSlug } = load('../app/shoe-products.ts');
 assert.equal(new Set(products.map(p => p.slug)).size, products.length, 'Duplicate product URLs');
 const release = JSON.parse(fs.readFileSync(`${repo}/imports/products-20261004-release.json`, 'utf8'));
 const baseline = JSON.parse(fs.readFileSync(`${repo}/imports/products-pre-oct04-baseline-hashes.json`, 'utf8'));
+const corrections = JSON.parse(fs.readFileSync(`${repo}/imports/catalog-corrections-20261024.json`, 'utf8'));
 const stable = value => Array.isArray(value) ? value.map(stable) : value && typeof value === 'object'
   ? Object.fromEntries(Object.keys(value).sort().map(key => [key, stable(value[key])])) : value;
 assert.equal(Object.keys(baseline).length, 444, 'Established catalogue baseline changed');
@@ -29,8 +30,18 @@ assert.equal(products.length, 444 + release.approvedSlugs.length, 'Unexpected ca
 for (const [slug, digest] of Object.entries(baseline)) {
   const product = products.find(product => product.slug === slug);
   assert.ok(product, `Removed established product: ${slug}`);
-  assert.equal(crypto.createHash('sha256').update(JSON.stringify(stable(product))).digest('hex'), digest,
+  const correction = corrections.products[slug];
+  if (correction) {
+    assert.deepEqual({ stock: product.stock, sizes: product.sizes }, correction.after, `Reviewed stock/size correction changed: ${slug}`);
+  }
+  const original = correction ? { ...product, ...correction.before } : product;
+  assert.equal(crypto.createHash('sha256').update(JSON.stringify(stable(original))).digest('hex'), digest,
     `Changed established product: ${slug}`);
+}
+for (const row of corrections.galleryChanges) {
+  for (const side of ['A', 'B']) {
+    assert.equal(crypto.createHash('sha256').update(fs.readFileSync(`${repo}/public${row['path'+side]}`)).digest('hex'), row['after'+side], `Reviewed gallery correction changed: ${row['path'+side]}`);
+  }
 }
 for (const product of products.filter(product => !Object.hasOwn(baseline, product.slug))) {
   assert.ok(release.approvedSlugs.includes(product.slug), `Unreviewed new product: ${product.slug}`);
