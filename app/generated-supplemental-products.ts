@@ -57,7 +57,7 @@ function bag(
 // Every customer-facing bag below has four independent AMB-hosted images:
 // front, back, side and open interior. No remote marketplace media is used.
 const bagProducts: Product[] = [
-  bag("portofino-carryall-black", "Portofino Carryall — Black", 79, "#171717", "Black", 2, 25.29, 25.67, "carryall"),
+  bag("portofino-carryall-black", "Portofino Carryall — Black", 85.9, "#171717", "Black", 2, 25.29, 25.67, "carryall"),
   bag("noir-lace-crossbody-black", "Noir Lace Crossbody — Black", 49, "#171717", "Black", 28, 6.31, 6.81, "crossbody"),
   bag("camille-multi-pocket-crossbody-green", "Camille Crossbody — Forest", 59, "#234c3c", "Forest Green", 1, 9.88, 9.86, "crossbody"),
   bag("florence-mini-backpack-apricot", "Florence Mini — Apricot", 59, "#d7b58d", "Apricot", 123, 3.49, 10.78, "backpack"),
@@ -65,13 +65,13 @@ const bagProducts: Product[] = [
   bag("siena-signature-satchel-kangaroo-brown", "Siena Signature — Espresso", 98, "#5b4034", "Espresso", 1, 26.49, 34.12, "satchel"),
   bag("celeste-chain-crossbody-black", "Celeste Chain — Black", 98, "#171717", "Black", 2, 16.4, 29.94, "chain"),
   bag("marina-structured-tote-brown", "Marina Tote — Cognac", 108, "#b86126", "Cognac", 4, 17.88, 32.64, "tote"),
-  bag("portofino-carryall-burgundy", "Portofino Carryall — Burgundy", 79, "#742c3d", "Burgundy", 3, 25.29, 24.07, "carryall"),
+  bag("portofino-carryall-burgundy", "Portofino Carryall — Burgundy", 85.9, "#742c3d", "Burgundy", 3, 25.29, 24.07, "carryall"),
   bag("florence-mini-backpack-pink", "Florence Mini — Pink", 59, "#d9a0ab", "Pink", 145, 3.49, 10.78, "backpack"),
-  bag("portofino-carryall-army-green", "Portofino Carryall — Olive", 79, "#59624a", "Olive", 990, 25.29, 25.68, "carryall"),
+  bag("portofino-carryall-army-green", "Portofino Carryall — Olive", 89.9, "#59624a", "Olive", 990, 25.29, 25.68, "carryall"),
   bag("florence-mini-backpack-dark-brown", "Florence Mini — Dark Brown", 59, "#4b3328", "Dark Brown", 242, 3.49, 9.11, "backpack"),
-  bag("portofino-carryall-light-brown", "Portofino Carryall — Cognac", 79, "#b86d3f", "Cognac", 994, 25.29, 24.77, "carryall"),
+  bag("portofino-carryall-light-brown", "Portofino Carryall — Cognac", 85.9, "#b86d3f", "Cognac", 994, 25.29, 24.77, "carryall"),
   bag("florence-mini-backpack-black", "Florence Mini — Black", 59, "#171717", "Black", 113, 3.49, 10.84, "backpack"),
-  bag("portofino-carryall-brown", "Portofino Carryall — Espresso", 79, "#4b3028", "Espresso", 4, 25.29, 25.74, "carryall"),
+  bag("portofino-carryall-brown", "Portofino Carryall — Espresso", 80.9, "#4b3028", "Espresso", 4, 25.29, 25.74, "carryall"),
 ];
 
 export const supplementalProducts: Product[] = [...bagProducts, ...workProducts];

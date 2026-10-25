@@ -1,0 +1,1546 @@
+{
+  "rule": "price = floor(highest landed cost x 3) + 0.90 (Manager calculateSaleSuggestion/applyPriceEnding); compareAt removed when not above the new price",
+  "pricedAt": "2026-10-25",
+  "products": [
+    {
+      "slug": "alessa-milky-halter-midi-dress",
+      "previousPriceUsd": 72,
+      "newPriceUsd": 73.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "24.44",
+      "previousMarkup": "2.95",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "alessandra-red-tiered-mermaid-gown",
+      "previousPriceUsd": 254.9,
+      "newPriceUsd": 448.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "149.38",
+      "previousMarkup": "1.71",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00"
+    },
+    {
+      "slug": "amalfi-dumpling-bag-large-black-alligator",
+      "previousPriceUsd": 150.9,
+      "newPriceUsd": 160.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "53.58",
+      "previousMarkup": "2.82",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "amalfi-dumpling-bag-large-burgundy",
+      "previousPriceUsd": 165.9,
+      "newPriceUsd": 173.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "57.68",
+      "previousMarkup": "2.88",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "amalfi-dumpling-bag-large-latte",
+      "previousPriceUsd": 158.9,
+      "newPriceUsd": 165.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "55.18",
+      "previousMarkup": "2.88",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "amalfi-dumpling-bag-small-black",
+      "previousPriceUsd": 114.9,
+      "newPriceUsd": 121.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "40.58",
+      "previousMarkup": "2.83",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "amalfi-dumpling-bag-small-brown",
+      "previousPriceUsd": 121.9,
+      "newPriceUsd": 127.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "42.38",
+      "previousMarkup": "2.88",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "amalfi-dumpling-bag-small-green",
+      "previousPriceUsd": 122.9,
+      "newPriceUsd": 127.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "42.58",
+      "previousMarkup": "2.89",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "amalfi-dumpling-bag-small-white",
+      "previousPriceUsd": 120.9,
+      "newPriceUsd": 125.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "41.78",
+      "previousMarkup": "2.89",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "amara-apricot-satin-midi-dress",
+      "previousPriceUsd": 57,
+      "newPriceUsd": 58.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "19.52",
+      "previousMarkup": "2.92",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "anais-trousers",
+      "previousPriceUsd": 62,
+      "newPriceUsd": 146.9,
+      "previousCompareAtUsd": 80,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "48.67",
+      "previousMarkup": "1.27",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "apricot-crochet-fringe-dress",
+      "previousPriceUsd": 129.78,
+      "newPriceUsd": 134.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "44.67",
+      "previousMarkup": "2.91",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "arden-utility-romper",
+      "previousPriceUsd": 98,
+      "newPriceUsd": 146.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "48.80",
+      "previousMarkup": "2.01",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "azura-sky-iris-dress",
+      "previousPriceUsd": 68,
+      "newPriceUsd": 133.9,
+      "previousCompareAtUsd": 85,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "44.59",
+      "previousMarkup": "1.53",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "bellamy-black-satin-midi-dress",
+      "previousPriceUsd": 57,
+      "newPriceUsd": 58.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "19.52",
+      "previousMarkup": "2.92",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "bianca-tailored-romper",
+      "previousPriceUsd": 98,
+      "newPriceUsd": 105.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "35.13",
+      "previousMarkup": "2.79",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "black-halter-gown",
+      "previousPriceUsd": 243.78,
+      "newPriceUsd": 338.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "112.75",
+      "previousMarkup": "2.16",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "briony-sage-halter-midi-dress",
+      "previousPriceUsd": 72,
+      "newPriceUsd": 73.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "24.44",
+      "previousMarkup": "2.95",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "briseis-green-tiered-mermaid-gown",
+      "previousPriceUsd": 254.9,
+      "newPriceUsd": 448.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "149.38",
+      "previousMarkup": "1.71",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00"
+    },
+    {
+      "slug": "bronze-brown-halter-gown",
+      "previousPriceUsd": 243.78,
+      "newPriceUsd": 338.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "112.75",
+      "previousMarkup": "2.16",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "calla-maxi-dress",
+      "previousPriceUsd": 68,
+      "newPriceUsd": 117.9,
+      "previousCompareAtUsd": 85,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "39.22",
+      "previousMarkup": "1.73",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "camelia-blush-iris-dress",
+      "previousPriceUsd": 68,
+      "newPriceUsd": 133.9,
+      "previousCompareAtUsd": 85,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "44.59",
+      "previousMarkup": "1.53",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "camille-tailored-romper",
+      "previousPriceUsd": 98,
+      "newPriceUsd": 105.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "35.13",
+      "previousMarkup": "2.79",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "capri-utility-romper",
+      "previousPriceUsd": 98,
+      "newPriceUsd": 146.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "48.80",
+      "previousMarkup": "2.01",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "capri-woven-pouch-black",
+      "previousPriceUsd": 95.9,
+      "newPriceUsd": 98.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "32.88",
+      "previousMarkup": "2.92",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "capri-woven-pouch-coffee",
+      "previousPriceUsd": 99.9,
+      "newPriceUsd": 102.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "33.98",
+      "previousMarkup": "2.94",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "capri-woven-pouch-gold",
+      "previousPriceUsd": 98.9,
+      "newPriceUsd": 100.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "33.58",
+      "previousMarkup": "2.95",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "capri-woven-pouch-green",
+      "previousPriceUsd": 115.9,
+      "newPriceUsd": 118.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "39.58",
+      "previousMarkup": "2.93",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "capri-woven-pouch-light-brown",
+      "previousPriceUsd": 98.9,
+      "newPriceUsd": 101.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "33.68",
+      "previousMarkup": "2.94",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "capri-woven-pouch-silver",
+      "previousPriceUsd": 111.9,
+      "newPriceUsd": 114.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "38.08",
+      "previousMarkup": "2.94",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "capri-woven-pouch-white",
+      "previousPriceUsd": 115.9,
+      "newPriceUsd": 118.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "39.48",
+      "previousMarkup": "2.94",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "carys-army-green-satin-midi-dress",
+      "previousPriceUsd": 57,
+      "newPriceUsd": 58.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "19.52",
+      "previousMarkup": "2.92",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "celine-pleat-romper",
+      "previousPriceUsd": 86,
+      "newPriceUsd": 96.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "32.10",
+      "previousMarkup": "2.68",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "champagne-pleated-halter-gown",
+      "previousPriceUsd": 242.5,
+      "newPriceUsd": 291.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "97.24",
+      "previousMarkup": "2.49",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "cora-saddle-bag-black",
+      "previousPriceUsd": 134.9,
+      "newPriceUsd": 140.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "46.82",
+      "previousMarkup": "2.88",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "cora-saddle-bag-brown",
+      "previousPriceUsd": 134.9,
+      "newPriceUsd": 140.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "46.82",
+      "previousMarkup": "2.88",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "cora-saddle-bag-coffee",
+      "previousPriceUsd": 134.9,
+      "newPriceUsd": 140.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "46.82",
+      "previousMarkup": "2.88",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "cora-saddle-bag-cognac",
+      "previousPriceUsd": 134.9,
+      "newPriceUsd": 140.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "46.82",
+      "previousMarkup": "2.88",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "cora-saddle-bag-gray",
+      "previousPriceUsd": 134.9,
+      "newPriceUsd": 140.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "46.82",
+      "previousMarkup": "2.88",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "cora-saddle-bag-khaki",
+      "previousPriceUsd": 134.9,
+      "newPriceUsd": 140.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "46.82",
+      "previousMarkup": "2.88",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "cora-saddle-bag-red",
+      "previousPriceUsd": 134.9,
+      "newPriceUsd": 140.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "46.82",
+      "previousMarkup": "2.88",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "cora-saddle-bag-white",
+      "previousPriceUsd": 134.9,
+      "newPriceUsd": 140.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "46.82",
+      "previousMarkup": "2.88",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "coralie-rose-halter-midi-dress",
+      "previousPriceUsd": 72,
+      "newPriceUsd": 73.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "24.44",
+      "previousMarkup": "2.95",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "cordelia-burgundy-tiered-mermaid-gown",
+      "previousPriceUsd": 254.9,
+      "newPriceUsd": 448.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "149.38",
+      "previousMarkup": "1.71",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00"
+    },
+    {
+      "slug": "danika-black-halter-midi-dress",
+      "previousPriceUsd": 72,
+      "newPriceUsd": 73.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "24.44",
+      "previousMarkup": "2.95",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "daria-denim-shorts",
+      "previousPriceUsd": 48,
+      "newPriceUsd": 66.9,
+      "previousCompareAtUsd": 60,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "22.23",
+      "previousMarkup": "2.16",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "davina-navy-satin-midi-dress",
+      "previousPriceUsd": 57,
+      "newPriceUsd": 58.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "19.52",
+      "previousMarkup": "2.92",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "desirae-black-draped-midi-dress",
+      "previousPriceUsd": 191.48,
+      "newPriceUsd": 197.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "65.73",
+      "previousMarkup": "2.91",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "dominique-ivory-tiered-mermaid-gown",
+      "previousPriceUsd": 254.9,
+      "newPriceUsd": 448.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "149.38",
+      "previousMarkup": "1.71",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00"
+    },
+    {
+      "slug": "dune-linen-romper",
+      "previousPriceUsd": 79,
+      "newPriceUsd": 85.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "28.37",
+      "previousMarkup": "2.78",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "eden-maxi-skirt",
+      "previousPriceUsd": 58,
+      "newPriceUsd": 77.9,
+      "previousCompareAtUsd": 75,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "25.88",
+      "previousMarkup": "2.24",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "elara-claret-print-maxi-dress",
+      "previousPriceUsd": 111,
+      "newPriceUsd": 115.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "38.40",
+      "previousMarkup": "2.89",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "elara-denim-shorts",
+      "previousPriceUsd": 48,
+      "newPriceUsd": 66.9,
+      "previousCompareAtUsd": 60,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "22.23",
+      "previousMarkup": "2.16",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "elise-maxi-skirt",
+      "previousPriceUsd": 58,
+      "newPriceUsd": 77.9,
+      "previousCompareAtUsd": 75,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "25.88",
+      "previousMarkup": "2.24",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "elowen-champagne-corset-mermaid-gown",
+      "previousPriceUsd": 263.9,
+      "newPriceUsd": 411.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "137.04",
+      "previousMarkup": "1.93",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00"
+    },
+    {
+      "slug": "elowen-pink-satin-midi-dress",
+      "previousPriceUsd": 57,
+      "newPriceUsd": 58.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "19.52",
+      "previousMarkup": "2.92",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "evora-navy-halter-midi-dress",
+      "previousPriceUsd": 72,
+      "newPriceUsd": 73.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "24.44",
+      "previousMarkup": "2.95",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "fabienne-red-tassel-mini-dress",
+      "previousPriceUsd": 361.9,
+      "newPriceUsd": 467.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "155.74",
+      "previousMarkup": "2.32",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00"
+    },
+    {
+      "slug": "fern-trousers",
+      "previousPriceUsd": 62,
+      "newPriceUsd": 147.9,
+      "previousCompareAtUsd": 80,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "48.99",
+      "previousMarkup": "1.27",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "fiora-sage-satin-midi-dress",
+      "previousPriceUsd": 57,
+      "newPriceUsd": 58.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "19.52",
+      "previousMarkup": "2.92",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "fleur-linen-romper",
+      "previousPriceUsd": 79,
+      "newPriceUsd": 85.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "28.37",
+      "previousMarkup": "2.78",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "flora-pleated-dress",
+      "previousPriceUsd": 68,
+      "newPriceUsd": 133.9,
+      "previousCompareAtUsd": 85,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "44.59",
+      "previousMarkup": "1.53",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "freya-deep-blue-print-maxi-dress",
+      "previousPriceUsd": 111,
+      "newPriceUsd": 115.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "38.40",
+      "previousMarkup": "2.89",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "giselle-rose-satin-midi-dress",
+      "previousPriceUsd": 57,
+      "newPriceUsd": 58.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "19.52",
+      "previousMarkup": "2.92",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "haven-backless-dress",
+      "previousPriceUsd": 68,
+      "newPriceUsd": 84.9,
+      "previousCompareAtUsd": 85,
+      "newCompareAtUsd": 85,
+      "highestLandedCostUsd": "28.18",
+      "previousMarkup": "2.41",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "helena-wine-satin-midi-dress",
+      "previousPriceUsd": 57,
+      "newPriceUsd": 58.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "19.52",
+      "previousMarkup": "2.92",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "honora-red-glitter-mermaid-gown",
+      "previousPriceUsd": 332.9,
+      "newPriceUsd": 527.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "175.96",
+      "previousMarkup": "1.89",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-13-05.571633+00-00/analysis-2026-10-25T03-07-03.168855+00-00"
+    },
+    {
+      "slug": "ilana-blazer",
+      "previousPriceUsd": 68,
+      "newPriceUsd": 114.9,
+      "previousCompareAtUsd": 85,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "38.13",
+      "previousMarkup": "1.78",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "ilaria-pink-sequin-halter-gown",
+      "previousPriceUsd": 383.9,
+      "newPriceUsd": 649.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "216.45",
+      "previousMarkup": "1.77",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-13-05.571633+00-00/analysis-2026-10-25T03-07-03.168855+00-00"
+    },
+    {
+      "slug": "inez-blue-pleated-maxi-dress",
+      "previousPriceUsd": 82.23,
+      "newPriceUsd": 104.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "34.69",
+      "previousMarkup": "2.37",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "isla-linen-romper",
+      "previousPriceUsd": 79,
+      "newPriceUsd": 85.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "28.37",
+      "previousMarkup": "2.78",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "jacinta-navy-sequin-halter-gown",
+      "previousPriceUsd": 383.9,
+      "newPriceUsd": 649.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "216.45",
+      "previousMarkup": "1.77",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-13-05.571633+00-00/analysis-2026-10-25T03-07-03.168855+00-00"
+    },
+    {
+      "slug": "jovina-black-pleated-maxi-dress",
+      "previousPriceUsd": 82.23,
+      "newPriceUsd": 104.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "34.69",
+      "previousMarkup": "2.37",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "kali-backless-dress",
+      "previousPriceUsd": 68,
+      "newPriceUsd": 84.9,
+      "previousCompareAtUsd": 85,
+      "newCompareAtUsd": 85,
+      "highestLandedCostUsd": "28.18",
+      "previousMarkup": "2.41",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "kalina-white-pleated-maxi-dress",
+      "previousPriceUsd": 82.23,
+      "newPriceUsd": 104.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "34.69",
+      "previousMarkup": "2.37",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "kenza-denim-shorts",
+      "previousPriceUsd": 48,
+      "newPriceUsd": 60.9,
+      "previousCompareAtUsd": 60,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "20.28",
+      "previousMarkup": "2.37",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "kira-wide-leg-trousers",
+      "previousPriceUsd": 62,
+      "newPriceUsd": 100.9,
+      "previousCompareAtUsd": 80,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "33.47",
+      "previousMarkup": "1.85",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "loretta-navy-floral-maxi-dress",
+      "previousPriceUsd": 62,
+      "newPriceUsd": 63.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "21.04",
+      "previousMarkup": "2.95",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "luma-utility-romper",
+      "previousPriceUsd": 98,
+      "newPriceUsd": 146.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "48.80",
+      "previousMarkup": "2.01",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "maelle-champagne-satin-midi-dress",
+      "previousPriceUsd": 55.87,
+      "newPriceUsd": 66.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "21.84",
+      "previousMarkup": "2.56",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "margaux-shirt-dress",
+      "previousPriceUsd": 148,
+      "newPriceUsd": 149.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "49.88",
+      "previousMarkup": "2.97",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "mira-wide-leg-trousers",
+      "previousPriceUsd": 62,
+      "newPriceUsd": 100.9,
+      "previousCompareAtUsd": 80,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "33.47",
+      "previousMarkup": "1.85",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "mirella-pink-pleated-midi-dress",
+      "previousPriceUsd": 95.67,
+      "newPriceUsd": 108.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "36.16",
+      "previousMarkup": "2.65",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "monaco-tailored-romper",
+      "previousPriceUsd": 98,
+      "newPriceUsd": 105.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "35.13",
+      "previousMarkup": "2.79",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "nadia-wide-leg-trousers",
+      "previousPriceUsd": 62,
+      "newPriceUsd": 88.9,
+      "previousCompareAtUsd": 80,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "29.53",
+      "previousMarkup": "2.10",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "nell-maxi-dress",
+      "previousPriceUsd": 68,
+      "newPriceUsd": 109.9,
+      "previousCompareAtUsd": 85,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "36.42",
+      "previousMarkup": "1.87",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "nera-linen-romper",
+      "previousPriceUsd": 79,
+      "newPriceUsd": 85.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "28.37",
+      "previousMarkup": "2.78",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "nerina-blue-satin-midi-dress",
+      "previousPriceUsd": 55.87,
+      "newPriceUsd": 66.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "21.94",
+      "previousMarkup": "2.55",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "nero-chain-satchel-black",
+      "previousPriceUsd": 108.9,
+      "newPriceUsd": 111.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "37.08",
+      "previousMarkup": "2.94",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "nico-maxi-dress",
+      "previousPriceUsd": 68,
+      "newPriceUsd": 101.9,
+      "previousCompareAtUsd": 85,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "33.79",
+      "previousMarkup": "2.01",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "noemi-maxi-dress",
+      "previousPriceUsd": 68,
+      "newPriceUsd": 101.9,
+      "previousCompareAtUsd": 85,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "33.79",
+      "previousMarkup": "2.01",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "nola-a-line-dress",
+      "previousPriceUsd": 68,
+      "newPriceUsd": 127.9,
+      "previousCompareAtUsd": 85,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "42.48",
+      "previousMarkup": "1.60",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "novalie-purple-pleated-midi-dress",
+      "previousPriceUsd": 95.67,
+      "newPriceUsd": 108.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "36.16",
+      "previousMarkup": "2.65",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "nuvola-puffer-tote-black",
+      "previousPriceUsd": 52.9,
+      "newPriceUsd": 53.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "17.68",
+      "previousMarkup": "2.99",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "nuvola-puffer-tote-blue",
+      "previousPriceUsd": 50.9,
+      "newPriceUsd": 51.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "17.00",
+      "previousMarkup": "2.99",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "nuvola-puffer-tote-brown",
+      "previousPriceUsd": 54.9,
+      "newPriceUsd": 55.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "18.37",
+      "previousMarkup": "2.99",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "nuvola-puffer-tote-grey",
+      "previousPriceUsd": 49.9,
+      "newPriceUsd": 50.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "16.96",
+      "previousMarkup": "2.94",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "nuvola-puffer-tote-khaki",
+      "previousPriceUsd": 53.9,
+      "newPriceUsd": 54.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "18.25",
+      "previousMarkup": "2.95",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "nuvola-puffer-tote-pink",
+      "previousPriceUsd": 53.9,
+      "newPriceUsd": 54.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "18.28",
+      "previousMarkup": "2.95",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "nuvola-puffer-tote-purple",
+      "previousPriceUsd": 50.9,
+      "newPriceUsd": 51.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "17.14",
+      "previousMarkup": "2.97",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "nuvola-puffer-tote-white",
+      "previousPriceUsd": 55.9,
+      "newPriceUsd": 56.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "18.72",
+      "previousMarkup": "2.99",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "oceane-print-dress",
+      "previousPriceUsd": 68,
+      "newPriceUsd": 87.9,
+      "previousCompareAtUsd": 85,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "28.98",
+      "previousMarkup": "2.35",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "ondine-midi-skirt",
+      "previousPriceUsd": 58,
+      "newPriceUsd": 104.9,
+      "previousCompareAtUsd": 75,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "34.90",
+      "previousMarkup": "1.66",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "oriana-green-satin-midi-dress",
+      "previousPriceUsd": 55.87,
+      "newPriceUsd": 66.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "21.94",
+      "previousMarkup": "2.55",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "ottilie-rose-pleated-midi-dress",
+      "previousPriceUsd": 95.67,
+      "newPriceUsd": 108.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "36.16",
+      "previousMarkup": "2.65",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "palma-linen-romper",
+      "previousPriceUsd": 79,
+      "newPriceUsd": 85.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "28.37",
+      "previousMarkup": "2.78",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "pascale-black-satin-midi-dress",
+      "previousPriceUsd": 55.87,
+      "newPriceUsd": 66.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "22.04",
+      "previousMarkup": "2.53",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "pippa-backless-dress",
+      "previousPriceUsd": 68,
+      "newPriceUsd": 84.9,
+      "previousCompareAtUsd": 85,
+      "newCompareAtUsd": 85,
+      "highestLandedCostUsd": "28.18",
+      "previousMarkup": "2.41",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "portofino-carryall-army-green",
+      "previousPriceUsd": 79,
+      "newPriceUsd": 89.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "29.68",
+      "previousMarkup": "2.66",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "portofino-carryall-black",
+      "previousPriceUsd": 79,
+      "newPriceUsd": 85.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "28.38",
+      "previousMarkup": "2.78",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "portofino-carryall-brown",
+      "previousPriceUsd": 79,
+      "newPriceUsd": 80.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "26.88",
+      "previousMarkup": "2.94",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "portofino-carryall-burgundy",
+      "previousPriceUsd": 79,
+      "newPriceUsd": 85.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "28.48",
+      "previousMarkup": "2.77",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "portofino-carryall-light-brown",
+      "previousPriceUsd": 79,
+      "newPriceUsd": 85.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "28.38",
+      "previousMarkup": "2.78",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "positano-shoulder-bag-black",
+      "previousPriceUsd": 219.9,
+      "newPriceUsd": 224.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "74.88",
+      "previousMarkup": "2.94",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "positano-shoulder-bag-chocolate",
+      "previousPriceUsd": 218.9,
+      "newPriceUsd": 223.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "74.58",
+      "previousMarkup": "2.94",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "primrose-champagne-pleated-midi-dress",
+      "previousPriceUsd": 95.67,
+      "newPriceUsd": 108.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "36.16",
+      "previousMarkup": "2.65",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "ravenna-black-tiered-mermaid-gown",
+      "previousPriceUsd": 254.9,
+      "newPriceUsd": 448.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "149.38",
+      "previousMarkup": "1.71",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00"
+    },
+    {
+      "slug": "renata-black-pleated-midi-dress",
+      "previousPriceUsd": 95.67,
+      "newPriceUsd": 108.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "36.16",
+      "previousMarkup": "2.65",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "roma-studded-hobo-black",
+      "previousPriceUsd": 59.9,
+      "newPriceUsd": 65.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "21.88",
+      "previousMarkup": "2.74",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-13-05.571633+00-00/analysis-2026-10-25T03-07-03.168855+00-00"
+    },
+    {
+      "slug": "roma-studded-hobo-brown",
+      "previousPriceUsd": 59.9,
+      "newPriceUsd": 65.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "21.88",
+      "previousMarkup": "2.74",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-13-05.571633+00-00/analysis-2026-10-25T03-07-03.168855+00-00"
+    },
+    {
+      "slug": "roma-studded-hobo-burgundy",
+      "previousPriceUsd": 59.9,
+      "newPriceUsd": 65.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "21.88",
+      "previousMarkup": "2.74",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-13-05.571633+00-00/analysis-2026-10-25T03-07-03.168855+00-00"
+    },
+    {
+      "slug": "roma-studded-hobo-coffee",
+      "previousPriceUsd": 59.9,
+      "newPriceUsd": 65.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "21.88",
+      "previousMarkup": "2.74",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-13-05.571633+00-00/analysis-2026-10-25T03-07-03.168855+00-00"
+    },
+    {
+      "slug": "ruby-red-halter-gown",
+      "previousPriceUsd": 243.78,
+      "newPriceUsd": 338.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "112.75",
+      "previousMarkup": "2.16",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "sabine-gray-tiered-mermaid-gown",
+      "previousPriceUsd": 254.9,
+      "newPriceUsd": 448.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "149.38",
+      "previousMarkup": "1.71",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00"
+    },
+    {
+      "slug": "saskia-blue-pleated-midi-dress",
+      "previousPriceUsd": 95.67,
+      "newPriceUsd": 108.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "36.16",
+      "previousMarkup": "2.65",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "sol-denim-shorts",
+      "previousPriceUsd": 48,
+      "newPriceUsd": 66.9,
+      "previousCompareAtUsd": 60,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "22.23",
+      "previousMarkup": "2.16",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "stella-tailored-shorts",
+      "previousPriceUsd": 48,
+      "newPriceUsd": 269.9,
+      "previousCompareAtUsd": 60,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "89.73",
+      "previousMarkup": "0.53",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "talia-wide-leg-trousers",
+      "previousPriceUsd": 62,
+      "newPriceUsd": 100.9,
+      "previousCompareAtUsd": 80,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "33.47",
+      "previousMarkup": "1.85",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "tallulah-purple-tiered-mermaid-gown",
+      "previousPriceUsd": 254.9,
+      "newPriceUsd": 448.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "149.38",
+      "previousMarkup": "1.71",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00"
+    },
+    {
+      "slug": "tatiana-brick-red-pleated-midi-dress",
+      "previousPriceUsd": 95.67,
+      "newPriceUsd": 108.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "36.16",
+      "previousMarkup": "2.65",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "ulla-maxi-skirt",
+      "previousPriceUsd": 58,
+      "newPriceUsd": 74.9,
+      "previousCompareAtUsd": 75,
+      "newCompareAtUsd": 75,
+      "highestLandedCostUsd": "24.76",
+      "previousMarkup": "2.34",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "umbria-sky-blue-tiered-mermaid-gown",
+      "previousPriceUsd": 254.9,
+      "newPriceUsd": 448.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "149.38",
+      "previousMarkup": "1.71",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00"
+    },
+    {
+      "slug": "unity-wide-leg-trousers",
+      "previousPriceUsd": 62,
+      "newPriceUsd": 100.9,
+      "previousCompareAtUsd": 80,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "33.47",
+      "previousMarkup": "1.85",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "valencia-brown-pleated-midi-dress",
+      "previousPriceUsd": 95.67,
+      "newPriceUsd": 108.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "36.16",
+      "previousMarkup": "2.65",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "valencia-tailored-romper",
+      "previousPriceUsd": 98,
+      "newPriceUsd": 105.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "35.13",
+      "previousMarkup": "2.79",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "valentina-wide-leg-trousers",
+      "previousPriceUsd": 62,
+      "newPriceUsd": 88.9,
+      "previousCompareAtUsd": 80,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "29.53",
+      "previousMarkup": "2.10",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "valeria-pink-tiered-mermaid-gown",
+      "previousPriceUsd": 254.9,
+      "newPriceUsd": 448.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "149.38",
+      "previousMarkup": "1.71",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00"
+    },
+    {
+      "slug": "vela-ivory-tailored-set",
+      "previousPriceUsd": 62,
+      "newPriceUsd": 142.9,
+      "previousCompareAtUsd": 80,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "47.35",
+      "previousMarkup": "1.31",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "venus-trousers",
+      "previousPriceUsd": 62,
+      "newPriceUsd": 142.9,
+      "previousCompareAtUsd": 80,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "47.35",
+      "previousMarkup": "1.31",
+      "costEvidence": "pilot"
+    },
+    {
+      "slug": "vera-tailored-romper",
+      "previousPriceUsd": 98,
+      "newPriceUsd": 105.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "35.13",
+      "previousMarkup": "2.79",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "vita-maxi-skirt",
+      "previousPriceUsd": 58,
+      "newPriceUsd": 77.9,
+      "previousCompareAtUsd": 75,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "25.88",
+      "previousMarkup": "2.24",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "white-crochet-fringe-dress",
+      "previousPriceUsd": 129.78,
+      "newPriceUsd": 134.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "44.67",
+      "previousMarkup": "2.91",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "winona-gray-pleated-midi-dress",
+      "previousPriceUsd": 95.67,
+      "newPriceUsd": 108.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "36.16",
+      "previousMarkup": "2.65",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    },
+    {
+      "slug": "winter-print-dress",
+      "previousPriceUsd": 68,
+      "newPriceUsd": 75.9,
+      "previousCompareAtUsd": 85,
+      "newCompareAtUsd": 85,
+      "highestLandedCostUsd": "25.10",
+      "previousMarkup": "2.71",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "wisteria-blue-tiered-mermaid-gown",
+      "previousPriceUsd": 254.9,
+      "newPriceUsd": 448.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "149.38",
+      "previousMarkup": "1.71",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00"
+    },
+    {
+      "slug": "wisteria-denim-shorts",
+      "previousPriceUsd": 48,
+      "newPriceUsd": 61.9,
+      "previousCompareAtUsd": 60,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "20.32",
+      "previousMarkup": "2.36",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "wren-maxi-dress",
+      "previousPriceUsd": 68,
+      "newPriceUsd": 120.9,
+      "previousCompareAtUsd": 85,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "39.98",
+      "previousMarkup": "1.70",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00"
+    },
+    {
+      "slug": "xenia-navy-tiered-mermaid-gown",
+      "previousPriceUsd": 254.9,
+      "newPriceUsd": 448.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "149.38",
+      "previousMarkup": "1.71",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00"
+    },
+    {
+      "slug": "ximena-maxi-skirt",
+      "previousPriceUsd": 58,
+      "newPriceUsd": 74.9,
+      "previousCompareAtUsd": 75,
+      "newCompareAtUsd": 75,
+      "highestLandedCostUsd": "24.76",
+      "previousMarkup": "2.34",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "xyla-wide-leg-trousers",
+      "previousPriceUsd": 62,
+      "newPriceUsd": 100.9,
+      "previousCompareAtUsd": 80,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "33.47",
+      "previousMarkup": "1.85",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "yvette-yellow-tiered-mermaid-gown",
+      "previousPriceUsd": 254.9,
+      "newPriceUsd": 448.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "149.38",
+      "previousMarkup": "1.71",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00"
+    },
+    {
+      "slug": "zahara-champagne-tiered-mermaid-gown",
+      "previousPriceUsd": 254.9,
+      "newPriceUsd": 448.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "149.38",
+      "previousMarkup": "1.71",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00"
+    },
+    {
+      "slug": "zelda-maxi-skirt",
+      "previousPriceUsd": 58,
+      "newPriceUsd": 74.9,
+      "previousCompareAtUsd": 75,
+      "newCompareAtUsd": 75,
+      "highestLandedCostUsd": "24.76",
+      "previousMarkup": "2.34",
+      "costEvidence": "price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00"
+    },
+    {
+      "slug": "zosia-green-pleated-midi-dress",
+      "previousPriceUsd": 95.67,
+      "newPriceUsd": 108.9,
+      "previousCompareAtUsd": null,
+      "newCompareAtUsd": null,
+      "highestLandedCostUsd": "36.16",
+      "previousMarkup": "2.65",
+      "costEvidence": "price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00"
+    }
+  ]
+}

@@ -24,7 +24,7 @@ const care = "Follow the care label attached to the garment. To preserve color, 
 const dressFamilies: DressFamily[] = [
   {
     sourceId: "3256809150429466",
-    price: 72,
+    price: 73.9,
     sizes: ["S", "M", "L", "XL"],
     weightKg: 0.35,
     silhouette: "a sleek off-shoulder midi dress with a sculpted halter neckline, a close waist and a fluid party-ready skirt",
@@ -39,7 +39,7 @@ const dressFamilies: DressFamily[] = [
   },
   {
     sourceId: "3256809718928902",
-    price: 57,
+    price: 58.9,
     sizes: ["S", "M", "L", "XL", "XXL", "XXXL"],
     weightKg: 0.42,
     silhouette: "a satin midi dress with a high draped halter neckline, exposed shoulders, a softly blouson bodice, defined waist and bias-cut skirt",
@@ -57,7 +57,7 @@ const dressFamilies: DressFamily[] = [
   },
   {
     sourceId: "3256811903141552",
-    price: 82.23,
+    price: 104.9,
     sizes: ["S", "M", "L", "XL", "XXL", "XXXL"],
     weightKg: 0.4,
     silhouette: "a short-sleeve maxi dress with a softly pleated bodice, cinched waist and a sweeping A-line skirt",
@@ -70,7 +70,7 @@ const dressFamilies: DressFamily[] = [
   },
   {
     sourceId: "3256812188604862",
-    price: 62,
+    price: 63.9,
     sizes: ["S", "M", "L", "XL"],
     weightKg: 0.308,
     silhouette: "a sleeveless V-neck floral maxi dress with a shaped waist and an easy full skirt for summer occasions",
@@ -81,7 +81,7 @@ const dressFamilies: DressFamily[] = [
   },
   {
     sourceId: "3256808609985190",
-    price: 55.87,
+    price: 66.9,
     sizes: ["XS", "S", "M", "L"],
     weightKg: 0.313,
     silhouette: "a polished satin midi dress with a V neckline, short sleeves, a fitted waist and an elegant day-to-evening line",
@@ -133,7 +133,7 @@ const dressFamilies: DressFamily[] = [
   },
   {
     sourceId: "3256811840642569",
-    price: 95.67,
+    price: 108.9,
     sizes: ["S", "M", "L", "XL"],
     weightKg: 0.5,
     silhouette: "a sleeveless V-neck midi dress with soft pleating, a relaxed bodice, shaped waist and concealed back zip",
@@ -166,7 +166,7 @@ const dressFamilies: DressFamily[] = [
   },
   {
     sourceId: "3256811355796552",
-    price: 191.48,
+    price: 197.9,
     sizes: ["S", "M", "L"],
     weightKg: 0.649,
     silhouette: "a sleeveless black midi dress with an open back, sculptural draping and polished gold-tone accents for dinner and cocktail occasions",
@@ -177,7 +177,7 @@ const dressFamilies: DressFamily[] = [
   },
   {
     sourceId: "3256808016808441",
-    price: 111,
+    price: 115.9,
     sizes: ["XS", "S", "M", "L", "XL"],
     weightKg: 0.5,
     silhouette: "a sleeveless printed V-neck maxi dress with a fitted waist and a full skirt designed for statement summer dressing",

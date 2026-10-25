@@ -143,7 +143,7 @@ const dressFamilies: DressFamily[] = [
   },
   {
     sourceId: "3256812468373035",
-    price: 263.9,
+    price: 411.9,
     sizes: ["2", "4", "6", "8", "10", "12", "14", "14W", "16", "16W", "18W"],
     weightKg: 1.5,
     silhouette:
@@ -163,7 +163,7 @@ const dressFamilies: DressFamily[] = [
   },
   {
     sourceId: "3256812245890987",
-    price: 361.9,
+    price: 467.9,
     sizes: ["2", "4", "6", "8", "10", "12", "14", "16", "16W", "18W", "20W", "22W"],
     weightKg: 1,
     silhouette:
@@ -183,7 +183,7 @@ const dressFamilies: DressFamily[] = [
   },
   {
     sourceId: "3256812744901666",
-    price: 254.9,
+    price: 448.9,
     sizes: ["2", "4", "6", "8", "10", "12", "14", "16", "16W", "18W", "20W", "22W", "24W", "26W"],
     weightKg: 1.5,
     silhouette:
@@ -307,7 +307,7 @@ const dressFamilies: DressFamily[] = [
   },
   {
     sourceId: "3256810249343548",
-    price: 332.9,
+    price: 527.9,
     sizes: ["2", "4", "6", "8", "10", "12", "14", "14W", "16", "16W", "18", "18W"],
     weightKg: 1.5,
     silhouette:
@@ -327,7 +327,7 @@ const dressFamilies: DressFamily[] = [
   },
   {
     sourceId: "3256809424749127",
-    price: 383.9,
+    price: 649.9,
     sizes: ["2", "4", "6", "8", "10", "12", "14", "14W", "16", "16W", "18W", "20W", "22W"],
     weightKg: 2,
     silhouette:
