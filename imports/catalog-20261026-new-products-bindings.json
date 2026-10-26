@@ -29,6 +29,228 @@
       "minimumMultiplier": 3,
       "priceEnding": ".90 rounded upward",
       "supplierId": "cmvli9mmj001g06jyhj9f0qah"
+    },
+    {
+      "slug": "mosaico-swing-midi-dress",
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ267942511",
+      "sourceSkuIdsBySize": {
+        "S": "12000059102734353",
+        "M": "12000059102734354",
+        "L": "12000059102734355",
+        "XL": "12000059102734356",
+        "XXL": "12000059102734357",
+        "XXXL": "12000059102734358"
+      },
+      "stockBySize": {
+        "S": 199,
+        "M": 199,
+        "L": 199,
+        "XL": 198,
+        "XXL": 198,
+        "XXXL": 197
+      },
+      "landedCostUsdBySize": {
+        "S": 12.56,
+        "M": 13.69,
+        "L": 13.69,
+        "XL": 13.69,
+        "XXL": 13.69,
+        "XXXL": 13.69
+      },
+      "retailPriceUsd": 41.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmt63llsu00cx04jnm4a5997m",
+      "verifiedAtUtc": "2026-10-26T15:19:33.509Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "fio-dourado-swing-midi-dress",
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ267942515",
+      "sourceSkuIdsBySize": {
+        "S": "12000059102734377",
+        "M": "12000059102734378",
+        "L": "12000059102734379",
+        "XL": "12000059102734380",
+        "XXL": "12000059102734381",
+        "XXXL": "12000059102734382"
+      },
+      "stockBySize": {
+        "S": 199,
+        "M": 199,
+        "L": 198,
+        "XL": 199,
+        "XXL": 199,
+        "XXXL": 198
+      },
+      "landedCostUsdBySize": {
+        "S": 12.56,
+        "M": 13.69,
+        "L": 13.69,
+        "XL": 13.69,
+        "XXL": 13.69,
+        "XXXL": 13.69
+      },
+      "retailPriceUsd": 41.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmt63llsu00cx04jnm4a5997m",
+      "verifiedAtUtc": "2026-10-26T15:19:33.509Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "tartan-swing-midi-dress",
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794251",
+      "sourceSkuIdsBySize": {
+        "S": "12000059102734293",
+        "M": "12000059102734294",
+        "L": "12000059102734295",
+        "XL": "12000059102734296",
+        "XXL": "12000059102734297",
+        "XXXL": "12000059102734298"
+      },
+      "stockBySize": {
+        "S": 199,
+        "M": 199,
+        "L": 199,
+        "XL": 198,
+        "XXL": 197,
+        "XXXL": 198
+      },
+      "landedCostUsdBySize": {
+        "S": 12.56,
+        "M": 13.69,
+        "L": 13.69,
+        "XL": 13.69,
+        "XXL": 13.69,
+        "XXXL": 13.69
+      },
+      "retailPriceUsd": 41.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmt63llsu00cx04jnm4a5997m",
+      "verifiedAtUtc": "2026-10-26T15:19:33.509Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "mostarda-velvet-cowl-dress",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "26",
+      "sourceSkuIdsBySize": {
+        "S": "12000053436872121",
+        "M": "12000053436872122",
+        "L": "12000053436872123",
+        "XL": "12000053436872124",
+        "XXL": "12000053436872125",
+        "XXXL": "12000053436872126"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 66,
+        "L": 65,
+        "XL": 65,
+        "XXL": 66,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-26T15:19:34.196Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "nevoa-velvet-cowl-dress",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "08",
+      "sourceSkuIdsBySize": {
+        "S": "12000053435360214",
+        "M": "12000053435360215",
+        "L": "12000053435360216",
+        "XL": "12000053435360217",
+        "XXL": "12000053435360218",
+        "XXXL": "12000053435360219"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 66,
+        "L": 66,
+        "XL": 64,
+        "XXL": 66,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-26T15:19:34.196Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "ameixa-velvet-cowl-dress",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "09",
+      "sourceSkuIdsBySize": {
+        "S": "12000053435360220",
+        "M": "12000053435360221",
+        "L": "12000053435360222",
+        "XL": "12000053435360223",
+        "XXL": "12000053435360224",
+        "XXXL": "12000053435360225"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 66,
+        "L": 65,
+        "XL": 65,
+        "XXL": 66,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-26T15:19:34.196Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }

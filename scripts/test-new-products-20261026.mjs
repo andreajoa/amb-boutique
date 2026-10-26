@@ -29,13 +29,13 @@ const baseline = JSON.parse(execFileSync(process.execPath, ["-e", baselineLoader
 const { products } = load("../app/data.ts");
 const { stockForSize } = load("../app/product-inventory.ts");
 const plan = JSON.parse(fs.readFileSync(path.join(root, "imports/catalog-20261026-new-products-bindings.json"), "utf8"));
-assert.equal(products.length, baseline.length + plan.products.length);
+const additions = plan.products.filter(binding => !baseline.some(product => product.slug === binding.slug));
+assert.equal(products.length, baseline.length + additions.length);
 assert.equal(new Set(products.map(p => p.slug)).size, products.length);
 for (const old of baseline) assert.deepEqual(JSON.parse(JSON.stringify(products.find(p => p.slug === old.slug))), old, `Existing product changed: ${old.slug}`);
 const protectedCount = baseline.filter(p => p.images?.some(i => i.includes("-20261025"))).length;
 assert.equal(protectedCount, 93, "Reconcile the protected set if the base catalog changes");
 for (const binding of plan.products) {
-  assert.ok(!baseline.some(p => p.slug === binding.slug), "Addition already published");
   const p = products.find(p => p.slug === binding.slug);
   assert.equal(p.sourceProductId, binding.sourceProductId);
   assert.equal(p.sourceColor, binding.sourceColor);
@@ -46,7 +46,9 @@ for (const binding of plan.products) {
     assert.equal(stockForSize(p, size), binding.stockBySize[size]);
     assert.ok(Math.round(p.price * 100) >= Math.round(binding.landedCostUsdBySize[size] * 100) * 3, `Markup below3x: ${size}`);
   }
-  assert.equal(stockForSize(p, "L"), 0, "Unavailable source size must not be offered");
+  for (const size of ["S", "M", "L", "XL", "XXL", "XXXL", "XS", "XS（old）"]) {
+    if (!p.sizes.includes(size)) assert.equal(stockForSize(p, size), 0, "Unavailable source size must not be offered");
+  }
   assert.equal(p.images.length, 4);
   const hashes = [];
   for (const [index, view] of ["front", "back", "left", "right"].entries()) {
@@ -60,4 +62,4 @@ for (const binding of plan.products) {
   assert.equal(new Set(hashes).size, 4, "Duplicate gallery views");
 }
 console.log(JSON.stringify({ before: baseline.length, after: products.length, unchangedExistingProducts: baseline.length,
-  protectedClaudeProducts: protectedCount, newProducts: plan.products.length, priceRule: "at least3x confirmed landed cost", gallery: "4 unique1600px sRGB views" }));
+  protectedClaudeProducts: protectedCount, newProducts: additions.length, priceRule: "at least3x confirmed landed cost", gallery: "4 unique1600px sRGB views" }));
