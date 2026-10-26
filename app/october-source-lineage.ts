@@ -419,5 +419,6 @@ export const octoberSourceLineage: Record<string, { sourceProductId: string; sou
   "mocha-brush-swing-midi-dress": {
       "sourceProductId": "3256812510653544",
       "sourceColor": "MBWXLYQ267942512"
-  }
+  },
+  "fiorenza-sequin-bodice-maxi-dress-green": {"sourceProductId": "3256803434858469", "sourceColor": "Green"}
 };

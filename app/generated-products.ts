@@ -15734,6 +15734,40 @@ const allGeneratedProducts: Product[] = [
   "stock": 1191,
   "unitCostUsd": 13.69,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "fiorenza-sequin-bodice-maxi-dress-green",
+  "name": "Fiorenza Sequin Bodice Maxi Dress — Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Maxi Dresses",
+  "price": 85.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#09664e"
+  ],
+  "colorNames": [
+    "Green"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "XS（old）"
+  ],
+  "description": "A sequin V-neck bodice, fine shoulder straps and crossed open-back straps meet a narrow waist and a flowing layered maxi skirt with a side slit. Shown in deep green.",
+  "materials": "Sequin-embellished bodice and lightweight layered skirt. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Handle the sequin embellishment gently and store away from abrasive surfaces.",
+  "images": [
+    "/products/fiorenza-sequin-bodice-maxi-dress-green/front-20261026.webp",
+    "/products/fiorenza-sequin-bodice-maxi-dress-green/back-20261026.webp",
+    "/products/fiorenza-sequin-bodice-maxi-dress-green/left-20261026.webp",
+    "/products/fiorenza-sequin-bodice-maxi-dress-green/right-20261026.webp"
+  ],
+  "stock": 29,
+  "unitCostUsd": 28.55,
+  "minimumMarginPercent": 40
 }
 ];
 
@@ -15742,6 +15776,7 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "fiorenza-sequin-bodice-maxi-dress-green",
   ...august2026ProductSlugs,
   ...september2026ProductSlugs,
   "calla-maxi-dress",

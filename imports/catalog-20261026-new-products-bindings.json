@@ -1,0 +1,34 @@
+{
+  "batch": "20261026-new-products",
+  "kind": "Approved new-product release binding plan; verify application after publication",
+  "statusAtCreation": "NOT_APPLIED",
+  "verifiedAtUtc": "2026-10-26T04:19:23.069Z",
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "fiorenza-sequin-bodice-maxi-dress-green",
+      "sourceProductId": "3256803434858469",
+      "sourceColor": "Green",
+      "sourceSkuIdsBySize": {
+        "S": "12000026528747661",
+        "M": "12000026528747662",
+        "XS（old）": "12000028425709487"
+      },
+      "stockBySize": {
+        "S": 6,
+        "M": 7,
+        "XS（old）": 16
+      },
+      "landedCostUsdBySize": {
+        "S": 28.55,
+        "M": 28.55,
+        "XS（old）": 28.55
+      },
+      "retailPriceUsd": 85.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvli9mmj001g06jyhj9f0qah"
+    }
+  ]
+}
