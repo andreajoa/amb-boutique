@@ -13005,8 +13005,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/hortensia-vneck-print-midi-dress/front-20261025.webp",
     "/products/hortensia-vneck-print-midi-dress/back-20261025.webp",
-    "/products/hortensia-vneck-print-midi-dress/left-20261025.webp",
-    "/products/hortensia-vneck-print-midi-dress/right-20261025.webp"
+    "/products/hortensia-vneck-print-midi-dress/left-20261026.webp",
+    "/products/hortensia-vneck-print-midi-dress/right-20261026.webp"
   ],
   "stock": 3000,
   "unitCostUsd": 25.1,
@@ -13338,8 +13338,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/girassol-vneck-print-midi-dress/front-20261025.webp",
     "/products/girassol-vneck-print-midi-dress/back-20261025.webp",
-    "/products/girassol-vneck-print-midi-dress/left-20261025.webp",
-    "/products/girassol-vneck-print-midi-dress/right-20261025.webp"
+    "/products/girassol-vneck-print-midi-dress/left-20261026.webp",
+    "/products/girassol-vneck-print-midi-dress/right-20261026.webp"
   ],
   "stock": 3000,
   "unitCostUsd": 25.1,
@@ -14152,8 +14152,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/glyph-mudcloth-swing-dress/front-20261025.webp",
     "/products/glyph-mudcloth-swing-dress/back-20261025.webp",
-    "/products/glyph-mudcloth-swing-dress/left-20261025.webp",
-    "/products/glyph-mudcloth-swing-dress/right-20261025.webp"
+    "/products/glyph-mudcloth-swing-dress/left-20261026.webp",
+    "/products/glyph-mudcloth-swing-dress/right-20261026.webp"
   ],
   "stock": 6000,
   "unitCostUsd": 28.98,
@@ -14337,8 +14337,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/iris-galaxy-swing-dress/front-20261025.webp",
     "/products/iris-galaxy-swing-dress/back-20261025.webp",
-    "/products/iris-galaxy-swing-dress/left-20261025.webp",
-    "/products/iris-galaxy-swing-dress/right-20261025.webp"
+    "/products/iris-galaxy-swing-dress/left-20261026.webp",
+    "/products/iris-galaxy-swing-dress/right-20261026.webp"
   ],
   "stock": 6000,
   "unitCostUsd": 28.98,
@@ -14553,8 +14553,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/iris-rainbow-maxi-kaftan/front-20261025.webp",
     "/products/iris-rainbow-maxi-kaftan/back-20261025.webp",
-    "/products/iris-rainbow-maxi-kaftan/left-20261025.webp",
-    "/products/iris-rainbow-maxi-kaftan/right-20261025.webp"
+    "/products/iris-rainbow-maxi-kaftan/left-20261026.webp",
+    "/products/iris-rainbow-maxi-kaftan/right-20261026.webp"
   ],
   "stock": 99999,
   "unitCostUsd": 27.38,
@@ -14617,8 +14617,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/festa-fireworks-maxi-kaftan/front-20261025.webp",
     "/products/festa-fireworks-maxi-kaftan/back-20261025.webp",
-    "/products/festa-fireworks-maxi-kaftan/left-20261025.webp",
-    "/products/festa-fireworks-maxi-kaftan/right-20261025.webp"
+    "/products/festa-fireworks-maxi-kaftan/left-20261026.webp",
+    "/products/festa-fireworks-maxi-kaftan/right-20261026.webp"
   ],
   "stock": 99999,
   "unitCostUsd": 27.38,
@@ -14745,8 +14745,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/fronda-tropical-maxi-kaftan/front-20261025.webp",
     "/products/fronda-tropical-maxi-kaftan/back-20261025.webp",
-    "/products/fronda-tropical-maxi-kaftan/left-20261025.webp",
-    "/products/fronda-tropical-maxi-kaftan/right-20261025.webp"
+    "/products/fronda-tropical-maxi-kaftan/left-20261026.webp",
+    "/products/fronda-tropical-maxi-kaftan/right-20261026.webp"
   ],
   "stock": 99993,
   "unitCostUsd": 27.06,
@@ -14809,8 +14809,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/florenza-bloom-maxi-kaftan/front-20261025.webp",
     "/products/florenza-bloom-maxi-kaftan/back-20261025.webp",
-    "/products/florenza-bloom-maxi-kaftan/left-20261025.webp",
-    "/products/florenza-bloom-maxi-kaftan/right-20261025.webp"
+    "/products/florenza-bloom-maxi-kaftan/left-20261026.webp",
+    "/products/florenza-bloom-maxi-kaftan/right-20261026.webp"
   ],
   "stock": 99998,
   "unitCostUsd": 27.38,
@@ -15062,8 +15062,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/graphite-block-maxi-dress/front-20261025.webp",
     "/products/graphite-block-maxi-dress/back-20261025.webp",
-    "/products/graphite-block-maxi-dress/left-20261025.webp",
-    "/products/graphite-block-maxi-dress/right-20261025.webp"
+    "/products/graphite-block-maxi-dress/left-20261026.webp",
+    "/products/graphite-block-maxi-dress/right-20261026.webp"
   ],
   "stock": 1194,
   "unitCostUsd": 13.14,
@@ -15173,8 +15173,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/indigo-brush-maxi-dress/front-20261025.webp",
     "/products/indigo-brush-maxi-dress/back-20261025.webp",
-    "/products/indigo-brush-maxi-dress/left-20261025.webp",
-    "/products/indigo-brush-maxi-dress/right-20261025.webp"
+    "/products/indigo-brush-maxi-dress/left-20261026.webp",
+    "/products/indigo-brush-maxi-dress/right-20261026.webp"
   ],
   "stock": 1192,
   "unitCostUsd": 13.84,
