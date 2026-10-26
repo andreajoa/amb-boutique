@@ -2659,8 +2659,8 @@ const allGeneratedProducts: Product[] = [
     "images": [
       "/products/mira-satin-maxi-dress/front-20261025.webp",
       "/products/mira-satin-maxi-dress/back-20261025.webp",
-      "/products/mira-satin-maxi-dress/left-20261025.webp",
-      "/products/mira-satin-maxi-dress/right-20261025.webp"
+      "/products/mira-satin-maxi-dress/left-20261026.webp",
+      "/products/mira-satin-maxi-dress/right-20261026.webp"
     ],
     "stock": 5991,
     "weightOz": 13,
@@ -2696,8 +2696,8 @@ const allGeneratedProducts: Product[] = [
     "images": [
       "/products/mocha-satin-maxi-dress/front-20261025.webp",
       "/products/mocha-satin-maxi-dress/back-20261025.webp",
-      "/products/mocha-satin-maxi-dress/left-20261025.webp",
-      "/products/mocha-satin-maxi-dress/right-20261025.webp"
+      "/products/mocha-satin-maxi-dress/left-20261026.webp",
+      "/products/mocha-satin-maxi-dress/right-20261026.webp"
     ],
     "stock": 5983,
     "weightOz": 13,
@@ -13190,8 +13190,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/mimosa-vneck-print-midi-dress/front-20261025.webp",
     "/products/mimosa-vneck-print-midi-dress/back-20261025.webp",
-    "/products/mimosa-vneck-print-midi-dress/left-20261025.webp",
-    "/products/mimosa-vneck-print-midi-dress/right-20261025.webp"
+    "/products/mimosa-vneck-print-midi-dress/left-20261026.webp",
+    "/products/mimosa-vneck-print-midi-dress/right-20261026.webp"
   ],
   "stock": 3000,
   "unitCostUsd": 25.1,
@@ -13301,8 +13301,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/marina-vneck-print-midi-dress/front-20261025.webp",
     "/products/marina-vneck-print-midi-dress/back-20261025.webp",
-    "/products/marina-vneck-print-midi-dress/left-20261025.webp",
-    "/products/marina-vneck-print-midi-dress/right-20261025.webp"
+    "/products/marina-vneck-print-midi-dress/left-20261026.webp",
+    "/products/marina-vneck-print-midi-dress/right-20261026.webp"
   ],
   "stock": 3000,
   "unitCostUsd": 25.1,
@@ -13560,8 +13560,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/mosaico-vneck-print-midi-dress/front-20261025.webp",
     "/products/mosaico-vneck-print-midi-dress/back-20261025.webp",
-    "/products/mosaico-vneck-print-midi-dress/left-20261025.webp",
-    "/products/mosaico-vneck-print-midi-dress/right-20261025.webp"
+    "/products/mosaico-vneck-print-midi-dress/left-20261026.webp",
+    "/products/mosaico-vneck-print-midi-dress/right-20261026.webp"
   ],
   "stock": 3000,
   "unitCostUsd": 25.1,
@@ -13856,8 +13856,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/mali-mudcloth-swing-dress/front-20261025.webp",
     "/products/mali-mudcloth-swing-dress/back-20261025.webp",
-    "/products/mali-mudcloth-swing-dress/left-20261025.webp",
-    "/products/mali-mudcloth-swing-dress/right-20261025.webp"
+    "/products/mali-mudcloth-swing-dress/left-20261026.webp",
+    "/products/mali-mudcloth-swing-dress/right-20261026.webp"
   ],
   "stock": 6000,
   "unitCostUsd": 28.98,
@@ -14777,8 +14777,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/mosaica-geometric-maxi-kaftan/front-20261025.webp",
     "/products/mosaica-geometric-maxi-kaftan/back-20261025.webp",
-    "/products/mosaica-geometric-maxi-kaftan/left-20261025.webp",
-    "/products/mosaica-geometric-maxi-kaftan/right-20261025.webp"
+    "/products/mosaica-geometric-maxi-kaftan/left-20261026.webp",
+    "/products/mosaica-geometric-maxi-kaftan/right-20261026.webp"
   ],
   "stock": 99999,
   "unitCostUsd": 27.38,
@@ -14989,8 +14989,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/mono-block-maxi-dress/front-20261025.webp",
     "/products/mono-block-maxi-dress/back-20261025.webp",
-    "/products/mono-block-maxi-dress/left-20261025.webp",
-    "/products/mono-block-maxi-dress/right-20261025.webp"
+    "/products/mono-block-maxi-dress/left-20261026.webp",
+    "/products/mono-block-maxi-dress/right-20261026.webp"
   ],
   "stock": 1193,
   "unitCostUsd": 14.21,
@@ -15728,8 +15728,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/mocha-brush-swing-midi-dress/front-20261025.webp",
     "/products/mocha-brush-swing-midi-dress/back-20261025.webp",
-    "/products/mocha-brush-swing-midi-dress/left-20261025.webp",
-    "/products/mocha-brush-swing-midi-dress/right-20261025.webp"
+    "/products/mocha-brush-swing-midi-dress/left-20261026.webp",
+    "/products/mocha-brush-swing-midi-dress/right-20261026.webp"
   ],
   "stock": 1191,
   "unitCostUsd": 13.69,
