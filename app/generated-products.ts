@@ -16062,6 +16062,107 @@ const allGeneratedProducts: Product[] = [
   "stock": 68,
   "unitCostUsd": 28.55,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "fiorenza-sequin-bodice-maxi-dress-pink",
+  "name": "Fiorenza Sequin Bodice Maxi Dress — Pink",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Maxi Dresses",
+  "price": 85.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#dc98aa"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XS（old）"
+  ],
+  "description": "A sequin V-neck bodice, fine shoulder straps and crossed open-back straps meet a narrow waist and a flowing layered maxi skirt with a side slit. Shown in pink.",
+  "materials": "Sequin-embellished bodice and lightweight layered skirt. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Handle the sequin embellishment gently and store away from abrasive surfaces.",
+  "images": [
+    "/products/fiorenza-sequin-bodice-maxi-dress-pink/front-20261026.webp",
+    "/products/fiorenza-sequin-bodice-maxi-dress-pink/back-20261026.webp",
+    "/products/fiorenza-sequin-bodice-maxi-dress-pink/left-20261026.webp",
+    "/products/fiorenza-sequin-bodice-maxi-dress-pink/right-20261026.webp"
+  ],
+  "stock": 106,
+  "unitCostUsd": 28.55,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "fiorenza-sequin-bodice-maxi-dress-red",
+  "name": "Fiorenza Sequin Bodice Maxi Dress — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Maxi Dresses",
+  "price": 85.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b72531"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "XS（old）"
+  ],
+  "description": "A sequin V-neck bodice, fine shoulder straps and crossed open-back straps meet a narrow waist and a flowing layered maxi skirt with a side slit. Shown in red.",
+  "materials": "Sequin-embellished bodice and lightweight layered skirt. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Handle the sequin embellishment gently and store away from abrasive surfaces.",
+  "images": [
+    "/products/fiorenza-sequin-bodice-maxi-dress-red/front-20261026.webp",
+    "/products/fiorenza-sequin-bodice-maxi-dress-red/back-20261026.webp",
+    "/products/fiorenza-sequin-bodice-maxi-dress-red/left-20261026.webp",
+    "/products/fiorenza-sequin-bodice-maxi-dress-red/right-20261026.webp"
+  ],
+  "stock": 40,
+  "unitCostUsd": 28.55,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "fiorenza-sequin-bodice-maxi-dress-wine-red",
+  "name": "Fiorenza Sequin Bodice Maxi Dress — Wine Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Maxi Dresses",
+  "price": 85.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#692234"
+  ],
+  "colorNames": [
+    "Wine Red"
+  ],
+  "sizes": [
+    "L",
+    "XL"
+  ],
+  "description": "A sequin V-neck bodice, fine shoulder straps and crossed open-back straps meet a narrow waist and a flowing layered maxi skirt with a side slit. Shown in wine red.",
+  "materials": "Sequin-embellished bodice and lightweight layered skirt. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Handle the sequin embellishment gently and store away from abrasive surfaces.",
+  "images": [
+    "/products/fiorenza-sequin-bodice-maxi-dress-wine-red/front-20261026.webp",
+    "/products/fiorenza-sequin-bodice-maxi-dress-wine-red/back-20261026.webp",
+    "/products/fiorenza-sequin-bodice-maxi-dress-wine-red/left-20261026.webp",
+    "/products/fiorenza-sequin-bodice-maxi-dress-wine-red/right-20261026.webp"
+  ],
+  "stock": 32,
+  "unitCostUsd": 28.55,
+  "minimumMarginPercent": 40
 }
 ];
 
@@ -16070,6 +16171,9 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "fiorenza-sequin-bodice-maxi-dress-wine-red",
+  "fiorenza-sequin-bodice-maxi-dress-red",
+  "fiorenza-sequin-bodice-maxi-dress-pink",
   "fiorenza-sequin-bodice-maxi-dress-dark-blue",
   "fiorenza-sequin-bodice-maxi-dress-black",
   "mostarda-velvet-cowl-dress",
