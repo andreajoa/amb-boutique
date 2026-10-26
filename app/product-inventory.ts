@@ -1,6 +1,10 @@
 import corrections from "../imports/catalog-corrections-20261024.json";
+import additions from "../imports/catalog-20261026-new-products-bindings.json";
 
-const reviewed = corrections.products as Record<string, { stockBySize: Record<string, number>; purchasable?: boolean }>;
+const reviewed = {
+  ...corrections.products,
+  ...Object.fromEntries(additions.products.map((product) => [product.slug, { stockBySize: product.stockBySize }])),
+} as Record<string, { stockBySize: Record<string, number>; purchasable?: boolean }>;
 
 /** Conservative size caps from the reviewed supplier SKU snapshot. */
 export function stockForSize(product: { slug: string; stock?: number }, size: string) {
