@@ -426,5 +426,6 @@ export const octoberSourceLineage: Record<string, { sourceProductId: string; sou
   "tartan-swing-midi-dress": {"sourceProductId": "3256812510653544", "sourceColor": "MBWXLYQ26794251"},
   "mostarda-velvet-cowl-dress": {"sourceProductId": "3256810207199601", "sourceColor": "26"},
   "nevoa-velvet-cowl-dress": {"sourceProductId": "3256810207199601", "sourceColor": "08"},
-  "ameixa-velvet-cowl-dress": {"sourceProductId": "3256810207199601", "sourceColor": "09"}
+  "ameixa-velvet-cowl-dress": {"sourceProductId": "3256810207199601", "sourceColor": "09"},
+  "fiorenza-sequin-bodice-maxi-dress-black": {"sourceProductId": "3256803434858469", "sourceColor": "Black"}
 };
