@@ -12820,8 +12820,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/laguna-vneck-print-midi-dress/front-20261025.webp",
     "/products/laguna-vneck-print-midi-dress/back-20261025.webp",
-    "/products/laguna-vneck-print-midi-dress/left-20261025.webp",
-    "/products/laguna-vneck-print-midi-dress/right-20261025.webp"
+    "/products/laguna-vneck-print-midi-dress/left-20261026.webp",
+    "/products/laguna-vneck-print-midi-dress/right-20261026.webp"
   ],
   "stock": 3000,
   "unitCostUsd": 25.1,
@@ -13264,8 +13264,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/jardim-vneck-print-midi-dress/front-20261025.webp",
     "/products/jardim-vneck-print-midi-dress/back-20261025.webp",
-    "/products/jardim-vneck-print-midi-dress/left-20261025.webp",
-    "/products/jardim-vneck-print-midi-dress/right-20261025.webp"
+    "/products/jardim-vneck-print-midi-dress/left-20261026.webp",
+    "/products/jardim-vneck-print-midi-dress/right-20261026.webp"
   ],
   "stock": 3000,
   "unitCostUsd": 25.1,
@@ -13671,8 +13671,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/kora-tribal-swing-dress/front-20261025.webp",
     "/products/kora-tribal-swing-dress/back-20261025.webp",
-    "/products/kora-tribal-swing-dress/left-20261025.webp",
-    "/products/kora-tribal-swing-dress/right-20261025.webp"
+    "/products/kora-tribal-swing-dress/left-20261026.webp",
+    "/products/kora-tribal-swing-dress/right-20261026.webp"
   ],
   "stock": 6000,
   "unitCostUsd": 28.98,
@@ -13745,8 +13745,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/ivo-tribal-swing-dress/front-20261025.webp",
     "/products/ivo-tribal-swing-dress/back-20261025.webp",
-    "/products/ivo-tribal-swing-dress/left-20261025.webp",
-    "/products/ivo-tribal-swing-dress/right-20261025.webp"
+    "/products/ivo-tribal-swing-dress/left-20261026.webp",
+    "/products/ivo-tribal-swing-dress/right-20261026.webp"
   ],
   "stock": 6000,
   "unitCostUsd": 28.98,
@@ -14115,8 +14115,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/lumen-galaxy-swing-dress/front-20261025.webp",
     "/products/lumen-galaxy-swing-dress/back-20261025.webp",
-    "/products/lumen-galaxy-swing-dress/left-20261025.webp",
-    "/products/lumen-galaxy-swing-dress/right-20261025.webp"
+    "/products/lumen-galaxy-swing-dress/left-20261026.webp",
+    "/products/lumen-galaxy-swing-dress/right-20261026.webp"
   ],
   "stock": 6000,
   "unitCostUsd": 28.98,
@@ -14189,8 +14189,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/kente-swing-dress/front-20261025.webp",
     "/products/kente-swing-dress/back-20261025.webp",
-    "/products/kente-swing-dress/left-20261025.webp",
-    "/products/kente-swing-dress/right-20261025.webp"
+    "/products/kente-swing-dress/left-20261026.webp",
+    "/products/kente-swing-dress/right-20261026.webp"
   ],
   "stock": 6000,
   "unitCostUsd": 28.98,
@@ -14915,8 +14915,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/lavanda-plaid-maxi-dress/front-20261025.webp",
     "/products/lavanda-plaid-maxi-dress/back-20261025.webp",
-    "/products/lavanda-plaid-maxi-dress/left-20261025.webp",
-    "/products/lavanda-plaid-maxi-dress/right-20261025.webp"
+    "/products/lavanda-plaid-maxi-dress/left-20261026.webp",
+    "/products/lavanda-plaid-maxi-dress/right-20261026.webp"
   ],
   "stock": 1194,
   "unitCostUsd": 13.14,
@@ -15099,8 +15099,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/lagoa-block-maxi-dress/front-20261025.webp",
     "/products/lagoa-block-maxi-dress/back-20261025.webp",
-    "/products/lagoa-block-maxi-dress/left-20261025.webp",
-    "/products/lagoa-block-maxi-dress/right-20261025.webp"
+    "/products/lagoa-block-maxi-dress/left-20261026.webp",
+    "/products/lagoa-block-maxi-dress/right-20261026.webp"
   ],
   "stock": 1194,
   "unitCostUsd": 13.14,
@@ -15432,8 +15432,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/jade-marble-swing-midi-dress/front-20261025.webp",
     "/products/jade-marble-swing-midi-dress/back-20261025.webp",
-    "/products/jade-marble-swing-midi-dress/left-20261025.webp",
-    "/products/jade-marble-swing-midi-dress/right-20261025.webp"
+    "/products/jade-marble-swing-midi-dress/left-20261026.webp",
+    "/products/jade-marble-swing-midi-dress/right-20261026.webp"
   ],
   "stock": 1192,
   "unitCostUsd": 13.69,
