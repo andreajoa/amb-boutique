@@ -31,6 +31,9 @@ cases.push({name:'New Fiorenza native XS label cannot be silently replaced',item
 for (const [slug,color] of [['mosaico-swing-midi-dress','Teal & Olive Geometric'],['fio-dourado-swing-midi-dress','Black & Gold Line'],['tartan-swing-midi-dress','Red Tartan Plaid']]) {
   cases.push({name:slug+' uses canonical price despite client tampering',items:[{slug,size:'S',color,quantity:1,price:0.01}],expected:200,expectedUnitAmount:4190});
 }
+for (const [slug,color] of [['mostarda-velvet-cowl-dress','Mustard'],['nevoa-velvet-cowl-dress','Dusty Blue'],['ameixa-velvet-cowl-dress','Plum']]) {
+  cases.push({name:slug+' uses canonical price despite client tampering',items:[{slug,size:'S',color,quantity:1,price:0.01}],expected:200,expectedUnitAmount:8390});
+}
 const results=[];
 for(const c of cases){captured=null;const res=await POST({json:async()=>({items:c.items,market:'US'}),nextUrl:{origin:'https://offline.example'}});results.push({case:c.name,productSlug:p.slug,catalogStock:p.stock,catalogSizes:p.sizes,catalogColors:p.colorNames,request:c.items,expectedStatus:c.expected,expectedUnitAmount:c.expectedUnitAmount,actualStatus:res.status,body:await res.json(),stripeFixtureCreated:!!captured,chargedUnitAmount:captured?.line_items?.[0]?.price_data?.unit_amount,chargedQuantity:captured?.line_items?.[0]?.quantity,chargedDescription:captured?.line_items?.[0]?.price_data?.product_data?.description});}
 for(const result of results){assert.equal(result.actualStatus,result.expectedStatus,result.case);if(result.expectedUnitAmount)assert.equal(result.chargedUnitAmount,result.expectedUnitAmount,result.case+' canonical price');assert.equal(result.stripeFixtureCreated,result.expectedStatus===200,result.case+' payment boundary');}console.log(JSON.stringify({passed:results.length,cases:results.map(r=>({name:r.case,status:r.actualStatus}))}));

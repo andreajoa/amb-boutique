@@ -15879,6 +15879,117 @@ const allGeneratedProducts: Product[] = [
   "stock": 1190,
   "unitCostUsd": 13.69,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "mostarda-velvet-cowl-dress",
+  "name": "Mostarda Velvet Cowl Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c9932a"
+  ],
+  "colorNames": [
+    "Mustard"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a soft draped cowl neckline, velvet-look body and long sheer sleeves with gold-tone dots and cuffs. Shown in mustard.",
+  "materials": "Velvet-look body and sheer dotted sleeves. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/mostarda-velvet-cowl-dress/front-20261026.webp",
+    "/products/mostarda-velvet-cowl-dress/back-20261026.webp",
+    "/products/mostarda-velvet-cowl-dress/left-20261026.webp",
+    "/products/mostarda-velvet-cowl-dress/right-20261026.webp"
+  ],
+  "stock": 394,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "nevoa-velvet-cowl-dress",
+  "name": "Nevoa Velvet Cowl Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#8aa4bc"
+  ],
+  "colorNames": [
+    "Dusty Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a soft draped cowl neckline, long opaque sleeves and a relaxed velvet-look A-line body. Shown in dusty blue.",
+  "materials": "Soft velvet-look fabric with an opaque finish. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/nevoa-velvet-cowl-dress/front-20261026.webp",
+    "/products/nevoa-velvet-cowl-dress/back-20261026.webp",
+    "/products/nevoa-velvet-cowl-dress/left-20261026.webp",
+    "/products/nevoa-velvet-cowl-dress/right-20261026.webp"
+  ],
+  "stock": 394,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "ameixa-velvet-cowl-dress",
+  "name": "Ameixa Velvet Cowl Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#6a2a4a"
+  ],
+  "colorNames": [
+    "Plum"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a soft draped cowl neckline, long opaque sleeves and a relaxed velvet-look A-line body. Shown in plum.",
+  "materials": "Soft velvet-look fabric with an opaque finish. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/ameixa-velvet-cowl-dress/front-20261026.webp",
+    "/products/ameixa-velvet-cowl-dress/back-20261026.webp",
+    "/products/ameixa-velvet-cowl-dress/left-20261026.webp",
+    "/products/ameixa-velvet-cowl-dress/right-20261026.webp"
+  ],
+  "stock": 394,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
 }
 ];
 
@@ -15887,6 +15998,10 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "mostarda-velvet-cowl-dress",
+  "nevoa-velvet-cowl-dress",
+  "ameixa-velvet-cowl-dress",
+
   "mosaico-swing-midi-dress",
   "fio-dourado-swing-midi-dress",
   "tartan-swing-midi-dress",
