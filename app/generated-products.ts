@@ -15768,6 +15768,117 @@ const allGeneratedProducts: Product[] = [
   "stock": 29,
   "unitCostUsd": 28.55,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "mosaico-swing-midi-dress",
+  "name": "Mosaico Swing Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Midi Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#4fa6a8"
+  ],
+  "colorNames": [
+    "Teal & Olive Geometric"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless round-neck midi dress with a fitted bodice, defined waist and full A-line swing skirt. Shown in teal & olive geometric.",
+  "materials": "Smooth fabric with an all-over print. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/mosaico-swing-midi-dress/front-20261026.webp",
+    "/products/mosaico-swing-midi-dress/back-20261026.webp",
+    "/products/mosaico-swing-midi-dress/left-20261026.webp",
+    "/products/mosaico-swing-midi-dress/right-20261026.webp"
+  ],
+  "stock": 1190,
+  "unitCostUsd": 13.69,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "fio-dourado-swing-midi-dress",
+  "name": "Fio Dourado Swing Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Midi Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#141414"
+  ],
+  "colorNames": [
+    "Black & Gold Line"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless round-neck midi dress with a fitted bodice, defined waist and full A-line swing skirt. Shown in black & gold line.",
+  "materials": "Smooth fabric with an all-over print. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/fio-dourado-swing-midi-dress/front-20261026.webp",
+    "/products/fio-dourado-swing-midi-dress/back-20261026.webp",
+    "/products/fio-dourado-swing-midi-dress/left-20261026.webp",
+    "/products/fio-dourado-swing-midi-dress/right-20261026.webp"
+  ],
+  "stock": 1192,
+  "unitCostUsd": 13.69,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "tartan-swing-midi-dress",
+  "name": "Tartan Swing Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Midi Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b8202a"
+  ],
+  "colorNames": [
+    "Red Tartan Plaid"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless round-neck midi dress with a fitted bodice, defined waist and full A-line swing skirt. Shown in red tartan plaid.",
+  "materials": "Smooth fabric with an all-over print. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/tartan-swing-midi-dress/front-20261026.webp",
+    "/products/tartan-swing-midi-dress/back-20261026.webp",
+    "/products/tartan-swing-midi-dress/left-20261026.webp",
+    "/products/tartan-swing-midi-dress/right-20261026.webp"
+  ],
+  "stock": 1190,
+  "unitCostUsd": 13.69,
+  "minimumMarginPercent": 40
 }
 ];
 
@@ -15776,6 +15887,10 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "mosaico-swing-midi-dress",
+  "fio-dourado-swing-midi-dress",
+  "tartan-swing-midi-dress",
+
   "fiorenza-sequin-bodice-maxi-dress-green",
   ...august2026ProductSlugs,
   ...september2026ProductSlugs,
