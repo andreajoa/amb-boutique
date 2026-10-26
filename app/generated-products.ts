@@ -16026,6 +16026,42 @@ const allGeneratedProducts: Product[] = [
   "stock": 521,
   "unitCostUsd": 28.55,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "fiorenza-sequin-bodice-maxi-dress-dark-blue",
+  "name": "Fiorenza Sequin Bodice Maxi Dress — Dark Blue",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Maxi Dresses",
+  "price": 85.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#14234d"
+  ],
+  "colorNames": [
+    "Dark Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XS（old）"
+  ],
+  "description": "A sequin V-neck bodice, fine shoulder straps and crossed open-back straps meet a narrow waist and a flowing layered maxi skirt with a side slit. Shown in dark blue.",
+  "materials": "Sequin-embellished bodice and lightweight layered skirt. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Handle the sequin embellishment gently and store away from abrasive surfaces.",
+  "images": [
+    "/products/fiorenza-sequin-bodice-maxi-dress-dark-blue/front-20261026.webp",
+    "/products/fiorenza-sequin-bodice-maxi-dress-dark-blue/back-20261026.webp",
+    "/products/fiorenza-sequin-bodice-maxi-dress-dark-blue/left-20261026.webp",
+    "/products/fiorenza-sequin-bodice-maxi-dress-dark-blue/right-20261026.webp"
+  ],
+  "stock": 68,
+  "unitCostUsd": 28.55,
+  "minimumMarginPercent": 40
 }
 ];
 
@@ -16034,6 +16070,7 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "fiorenza-sequin-bodice-maxi-dress-dark-blue",
   "fiorenza-sequin-bodice-maxi-dress-black",
   "mostarda-velvet-cowl-dress",
   "nevoa-velvet-cowl-dress",

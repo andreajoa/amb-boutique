@@ -285,6 +285,40 @@
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
+    },
+    {
+      "slug": "fiorenza-sequin-bodice-maxi-dress-dark-blue",
+      "sourceProductId": "3256803434858469",
+      "sourceColor": "Dark Blue",
+      "sourceSkuIdsBySize": {
+        "S": "12000035398305240",
+        "M": "12000035398305241",
+        "L": "12000035398305242",
+        "XL": "12000035398305243",
+        "XS（old）": "12000035398305239"
+      },
+      "stockBySize": {
+        "S": 14,
+        "M": 10,
+        "L": 30,
+        "XL": 4,
+        "XS（old）": 10
+      },
+      "landedCostUsdBySize": {
+        "S": 28.55,
+        "M": 28.55,
+        "L": 28.55,
+        "XL": 28.55,
+        "XS（old）": 28.55
+      },
+      "retailPriceUsd": 85.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvli9mmj001g06jyhj9f0qah",
+      "verifiedAtUtc": "2026-10-26T20:26:20.045Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }
