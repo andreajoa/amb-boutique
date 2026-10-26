@@ -319,6 +319,87 @@
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
+    },
+    {
+      "slug": "fiorenza-sequin-bodice-maxi-dress-pink",
+      "sourceProductId": "3256803434858469",
+      "sourceColor": "Pink",
+      "sourceSkuIdsBySize": {
+        "S": "12000028425709491",
+        "M": "12000028425709492",
+        "L": "12000028425709493",
+        "XL": "12000028425709494",
+        "XS（old）": "12000028425709490"
+      },
+      "stockBySize": {
+        "S": 20,
+        "M": 34,
+        "L": 12,
+        "XL": 30,
+        "XS（old）": 10
+      },
+      "landedCostUsdBySize": {
+        "S": 28.55,
+        "M": 28.55,
+        "L": 28.55,
+        "XL": 28.55,
+        "XS（old）": 28.55
+      },
+      "retailPriceUsd": 85.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvli9mmj001g06jyhj9f0qah",
+      "verifiedAtUtc": "2026-10-26T20:45:41.015Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "fiorenza-sequin-bodice-maxi-dress-red",
+      "sourceProductId": "3256803434858469",
+      "sourceColor": "Red",
+      "sourceSkuIdsBySize": {
+        "XS（old）": "12000028425709488"
+      },
+      "stockBySize": {
+        "XS（old）": 40
+      },
+      "landedCostUsdBySize": {
+        "XS（old）": 28.55
+      },
+      "retailPriceUsd": 85.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvli9mmj001g06jyhj9f0qah",
+      "verifiedAtUtc": "2026-10-26T20:45:41.015Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "fiorenza-sequin-bodice-maxi-dress-wine-red",
+      "sourceProductId": "3256803434858469",
+      "sourceColor": "Wine Red",
+      "sourceSkuIdsBySize": {
+        "L": "12000028425709498",
+        "XL": "12000028425709499"
+      },
+      "stockBySize": {
+        "L": 12,
+        "XL": 20
+      },
+      "landedCostUsdBySize": {
+        "L": 28.55,
+        "XL": 28.55
+      },
+      "retailPriceUsd": 85.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvli9mmj001g06jyhj9f0qah",
+      "verifiedAtUtc": "2026-10-26T20:45:41.015Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }
