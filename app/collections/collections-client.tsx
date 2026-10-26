@@ -10,6 +10,7 @@ export type CollectionProduct = ProductCardProduct & {
   category: Product["category"];
   subcategory?: string;
   available: boolean;
+  arrivalRank?: number;
 };
 
 const PAGE_SIZE = 24;
@@ -29,13 +30,20 @@ const categories = [
   { value: "Accessories", label: "Accessories" },
 ] as const;
 
-export function CollectionsClient({ products }: { products: CollectionProduct[] }) {
+type CollectionSort = "featured" | "newest" | "low" | "high" | "name";
+
+export function CollectionsClient({ products, initialNewOnly = false, initialSort = "featured", title = "Shop All" }: {
+  products: CollectionProduct[];
+  initialNewOnly?: boolean;
+  initialSort?: CollectionSort;
+  title?: string;
+}) {
   const highestPrice = useMemo(() => Math.max(0, Math.ceil(Math.max(...products.map((product) => product.price), 0) / 10) * 10), [products]);
   const [category, setCategory] = useState<string>("All");
-  const [sort, setSort] = useState("featured");
+  const [sort, setSort] = useState<CollectionSort>(initialSort);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [inStockOnly, setInStockOnly] = useState(false);
-  const [newOnly, setNewOnly] = useState(false);
+  const [newOnly, setNewOnly] = useState(initialNewOnly);
   const [saleOnly, setSaleOnly] = useState(false);
   const [maxPrice, setMaxPrice] = useState(highestPrice);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -52,6 +60,7 @@ export function CollectionsClient({ products }: { products: CollectionProduct[] 
       const matchesSale = !saleOnly || Boolean(product.compareAt && product.compareAt > product.price);
       return matchesCategory && matchesStock && matchesNew && matchesSale && product.price <= maxPrice;
     });
+    if (sort === "newest") selected.sort((a, b) => (b.arrivalRank ?? 0) - (a.arrivalRank ?? 0));
     if (sort === "low") selected.sort((a, b) => a.price - b.price);
     if (sort === "high") selected.sort((a, b) => b.price - a.price);
     if (sort === "name") selected.sort((a, b) => a.name.localeCompare(b.name));
@@ -59,7 +68,7 @@ export function CollectionsClient({ products }: { products: CollectionProduct[] 
   }, [category, inStockOnly, maxPrice, newOnly, products, saleOnly, sort]);
 
   const visibleProducts = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
-  const activeFilterCount = Number(inStockOnly) + Number(newOnly) + Number(saleOnly) + Number(maxPrice < highestPrice);
+  const activeFilterCount = Number(inStockOnly) + Number(newOnly && !initialNewOnly) + Number(saleOnly) + Number(maxPrice < highestPrice);
 
   useLayoutEffect(() => {
     const grid = gridRef.current;
@@ -92,7 +101,7 @@ export function CollectionsClient({ products }: { products: CollectionProduct[] 
   const clearFilters = () => {
     setCategory("All");
     setInStockOnly(false);
-    setNewOnly(false);
+    setNewOnly(initialNewOnly);
     setSaleOnly(false);
     setMaxPrice(highestPrice);
     setVisibleCount(PAGE_SIZE);
@@ -101,7 +110,7 @@ export function CollectionsClient({ products }: { products: CollectionProduct[] 
   return (
     <main>
       <Header />
-      <section className="collection-hero"><div><p>THE AMB EDIT</p><h1>Shop All</h1><span>Easy silhouettes, polished layers and finishing touches curated for modern life.</span></div></section>
+      <section className="collection-hero"><div><p>THE AMB EDIT</p><h1>{title}</h1><span>Easy silhouettes, polished layers and finishing touches curated for modern life.</span></div></section>
       <nav className="collection-tabs" aria-label="Product categories">
         {categories.map((item) => <button type="button" key={item.value} className={category === item.value ? "active" : ""} aria-pressed={category === item.value} onClick={() => selectCategory(item.value)} data-track={`collection-category:${item.value}`}>{item.label}</button>)}
       </nav>
@@ -111,11 +120,11 @@ export function CollectionsClient({ products }: { products: CollectionProduct[] 
           <p aria-live="polite"><strong>{filtered.length}</strong> {filtered.length === 1 ? "piece" : "pieces"}</p>
           <div>
             <button type="button" className={`filter-button${activeFilterCount ? " active" : ""}`} onClick={() => setFiltersOpen((open) => !open)} aria-expanded={filtersOpen} aria-controls="collection-filters" data-track="collection-filter-toggle">Filter{activeFilterCount ? ` (${activeFilterCount})` : ""} <span aria-hidden="true">☷</span></button>
-            <label className="sort-select"><span className="sr-only">Sort products</span><select value={sort} onChange={(event) => { setSort(event.target.value); setVisibleCount(PAGE_SIZE); }} data-track="collection-sort"><option value="featured">Sort by: Featured</option><option value="low">Price: Low to High</option><option value="high">Price: High to Low</option><option value="name">Name: A–Z</option></select></label>
+            <label className="sort-select"><span className="sr-only">Sort products</span><select value={sort} onChange={(event) => { setSort(event.target.value as CollectionSort); setVisibleCount(PAGE_SIZE); }} data-track="collection-sort"><option value="featured">Sort by: Featured</option><option value="newest">Newest arrivals</option><option value="low">Price: Low to High</option><option value="high">Price: High to Low</option><option value="name">Name: A–Z</option></select></label>
           </div>
         </div>
 
-        {filtersOpen && <div className="filter-panel" id="collection-filters"><div><strong>Category</strong>{categories.map((item) => <label key={item.value}><input type="radio" name="category" checked={category === item.value} onChange={() => selectCategory(item.value)}/>{item.label}</label>)}</div><div><strong>Availability</strong><label><input type="checkbox" checked={inStockOnly} onChange={(event) => { setInStockOnly(event.target.checked); setVisibleCount(PAGE_SIZE); }}/> In stock</label><label><input type="checkbox" checked={newOnly} onChange={(event) => { setNewOnly(event.target.checked); setVisibleCount(PAGE_SIZE); }}/> New arrivals</label><label><input type="checkbox" checked={saleOnly} onChange={(event) => { setSaleOnly(event.target.checked); setVisibleCount(PAGE_SIZE); }}/> On sale</label></div><div><strong>Price</strong><span>Up to {formatMoney(maxPrice)}</span><input aria-label="Maximum price" type="range" min="0" max={highestPrice} step="5" value={maxPrice} onChange={(event) => { setMaxPrice(Number(event.target.value)); setVisibleCount(PAGE_SIZE); }}/><span className="filter-price-limit">Maximum {formatMoney(highestPrice)}</span></div><button type="button" onClick={clearFilters}>Clear filters</button></div>}
+        {filtersOpen && <div className="filter-panel" id="collection-filters"><div><strong>Category</strong>{categories.map((item) => <label key={item.value}><input type="radio" name="category" checked={category === item.value} onChange={() => selectCategory(item.value)}/>{item.label}</label>)}</div><div><strong>Availability</strong><label><input type="checkbox" checked={inStockOnly} onChange={(event) => { setInStockOnly(event.target.checked); setVisibleCount(PAGE_SIZE); }}/> In stock</label><label><input type="checkbox" disabled={initialNewOnly} checked={newOnly} onChange={(event) => { setNewOnly(event.target.checked); setVisibleCount(PAGE_SIZE); }}/> New arrivals</label><label><input type="checkbox" checked={saleOnly} onChange={(event) => { setSaleOnly(event.target.checked); setVisibleCount(PAGE_SIZE); }}/> On sale</label></div><div><strong>Price</strong><span>Up to {formatMoney(maxPrice)}</span><input aria-label="Maximum price" type="range" min="0" max={highestPrice} step="5" value={maxPrice} onChange={(event) => { setMaxPrice(Number(event.target.value)); setVisibleCount(PAGE_SIZE); }}/><span className="filter-price-limit">Maximum {formatMoney(highestPrice)}</span></div><button type="button" onClick={clearFilters}>Clear filters</button></div>}
 
         {visibleProducts.length ? <div className="product-grid filterable-grid" ref={gridRef}>{visibleProducts.map((product) => <ProductCard key={product.slug} product={product} />)}</div> : <div className="collection-empty" role="status"><h2>No pieces match these filters.</h2><p>Clear the filters to return to the complete AMB edit.</p><button type="button" className="button dark" onClick={clearFilters}>Clear filters</button></div>}
         <p className="results-count">Showing {visibleProducts.length} of {filtered.length} matching pieces.</p>
