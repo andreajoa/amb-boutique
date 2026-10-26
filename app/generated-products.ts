@@ -14995,6 +14995,745 @@ const allGeneratedProducts: Product[] = [
   "stock": 1193,
   "unitCostUsd": 14.21,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "terra-block-maxi-dress",
+  "name": "Terra Block Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 39.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d0582a"
+  ],
+  "colorNames": [
+    "Orange & Grey Block"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Terra Block Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Orange & Grey Block.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/terra-block-maxi-dress/front-20261025.webp",
+    "/products/terra-block-maxi-dress/back-20261025.webp",
+    "/products/terra-block-maxi-dress/left-20261025.webp",
+    "/products/terra-block-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1194,
+  "unitCostUsd": 13.14,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "graphite-block-maxi-dress",
+  "name": "Graphite Block Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 39.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#4a4f55"
+  ],
+  "colorNames": [
+    "Graphite & White Block"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Graphite Block Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Graphite & White Block.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/graphite-block-maxi-dress/front-20261025.webp",
+    "/products/graphite-block-maxi-dress/back-20261025.webp",
+    "/products/graphite-block-maxi-dress/left-20261025.webp",
+    "/products/graphite-block-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1194,
+  "unitCostUsd": 13.14,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "lagoa-block-maxi-dress",
+  "name": "Lagoa Block Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 39.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#2aa6d0"
+  ],
+  "colorNames": [
+    "Turquoise & Black Block"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Lagoa Block Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Turquoise & Black Block.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/lagoa-block-maxi-dress/front-20261025.webp",
+    "/products/lagoa-block-maxi-dress/back-20261025.webp",
+    "/products/lagoa-block-maxi-dress/left-20261025.webp",
+    "/products/lagoa-block-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1194,
+  "unitCostUsd": 13.14,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "carmim-block-maxi-dress",
+  "name": "Carmim Block Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 39.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#a8141c"
+  ],
+  "colorNames": [
+    "Red & Black Block"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Carmim Block Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Red & Black Block.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/carmim-block-maxi-dress/front-20261025.webp",
+    "/products/carmim-block-maxi-dress/back-20261025.webp",
+    "/products/carmim-block-maxi-dress/left-20261025.webp",
+    "/products/carmim-block-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1192,
+  "unitCostUsd": 13.14,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "indigo-brush-maxi-dress",
+  "name": "Indigo Brush Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1f2f5a"
+  ],
+  "colorNames": [
+    "Navy & White Brushstroke"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Indigo Brush Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Navy & White Brushstroke.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/indigo-brush-maxi-dress/front-20261025.webp",
+    "/products/indigo-brush-maxi-dress/back-20261025.webp",
+    "/products/indigo-brush-maxi-dress/left-20261025.webp",
+    "/products/indigo-brush-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1192,
+  "unitCostUsd": 13.84,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "caramel-block-maxi-dress",
+  "name": "Caramel Block Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c49a72"
+  ],
+  "colorNames": [
+    "Caramel & Black Block"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Caramel Block Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Caramel & Black Block.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/caramel-block-maxi-dress/front-20261025.webp",
+    "/products/caramel-block-maxi-dress/back-20261025.webp",
+    "/products/caramel-block-maxi-dress/left-20261025.webp",
+    "/products/caramel-block-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1189,
+  "unitCostUsd": 13.84,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "cobre-arc-maxi-dress",
+  "name": "Cobre Arc Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 40.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b4683c"
+  ],
+  "colorNames": [
+    "Copper & Cream Arc Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Cobre Arc Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Copper & Cream Arc Print.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/cobre-arc-maxi-dress/front-20261025.webp",
+    "/products/cobre-arc-maxi-dress/back-20261025.webp",
+    "/products/cobre-arc-maxi-dress/left-20261025.webp",
+    "/products/cobre-arc-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1193,
+  "unitCostUsd": 13.58,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "pedra-patch-maxi-dress",
+  "name": "Pedra Patch Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 39.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#7d7d78"
+  ],
+  "colorNames": [
+    "Grey Stone Patchwork"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Pedra Patch Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Grey Stone Patchwork.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/pedra-patch-maxi-dress/front-20261025.webp",
+    "/products/pedra-patch-maxi-dress/back-20261025.webp",
+    "/products/pedra-patch-maxi-dress/left-20261025.webp",
+    "/products/pedra-patch-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1194,
+  "unitCostUsd": 13.14,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "linea-stripe-maxi-dress",
+  "name": "Linea Stripe Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 39.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d8d8d8"
+  ],
+  "colorNames": [
+    "White & Grey Stripe Mix"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Linea Stripe Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in White & Grey Stripe Mix.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/linea-stripe-maxi-dress/front-20261025.webp",
+    "/products/linea-stripe-maxi-dress/back-20261025.webp",
+    "/products/linea-stripe-maxi-dress/left-20261025.webp",
+    "/products/linea-stripe-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1193,
+  "unitCostUsd": 13.14,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "duo-stripe-maxi-dress",
+  "name": "Duo Stripe Maxi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 42.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#202020"
+  ],
+  "colorNames": [
+    "Black & White Split Stripe"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Duo Stripe Maxi Dress is a sleeveless scoop-neck maxi dress in soft stretch jersey with a fitted bodice and a long flowing A-line skirt to the ankles, covered in a bold abstract colour-block print, shown here in Black & White Split Stripe.",
+  "materials": "Soft stretch jersey with a smooth, fluid drape.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/duo-stripe-maxi-dress/front-20261025.webp",
+    "/products/duo-stripe-maxi-dress/back-20261025.webp",
+    "/products/duo-stripe-maxi-dress/left-20261025.webp",
+    "/products/duo-stripe-maxi-dress/right-20261025.webp"
+  ],
+  "stock": 1193,
+  "unitCostUsd": 14.18,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "bruma-swing-midi-dress",
+  "name": "Bruma Swing Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#5f86b8"
+  ],
+  "colorNames": [
+    "Blue Wave Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Bruma Swing Midi Dress is a sleeveless round-neck fit-and-flare midi dress in smooth stretch fabric with a fitted bodice and a full swing skirt below the knee, covered in an all-over print, shown here in Blue Wave Print.",
+  "materials": "Smooth stretch fabric with a soft, lightly structured hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/bruma-swing-midi-dress/front-20261025.webp",
+    "/products/bruma-swing-midi-dress/back-20261025.webp",
+    "/products/bruma-swing-midi-dress/left-20261025.webp",
+    "/products/bruma-swing-midi-dress/right-20261025.webp"
+  ],
+  "stock": 1193,
+  "unitCostUsd": 13.69,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "jade-marble-swing-midi-dress",
+  "name": "Jade Marble Swing Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#5fa89a"
+  ],
+  "colorNames": [
+    "Jade Marble Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Jade Marble Swing Midi Dress is a sleeveless round-neck fit-and-flare midi dress in smooth stretch fabric with a fitted bodice and a full swing skirt below the knee, covered in an all-over print, shown here in Jade Marble Print.",
+  "materials": "Smooth stretch fabric with a soft, lightly structured hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/jade-marble-swing-midi-dress/front-20261025.webp",
+    "/products/jade-marble-swing-midi-dress/back-20261025.webp",
+    "/products/jade-marble-swing-midi-dress/left-20261025.webp",
+    "/products/jade-marble-swing-midi-dress/right-20261025.webp"
+  ],
+  "stock": 1192,
+  "unitCostUsd": 13.69,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "prisma-swirl-swing-midi-dress",
+  "name": "Prisma Swirl Swing Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d23f8f"
+  ],
+  "colorNames": [
+    "Neon Swirl Print"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Prisma Swirl Swing Midi Dress is a sleeveless round-neck fit-and-flare midi dress in smooth stretch fabric with a fitted bodice and a full swing skirt below the knee, covered in an all-over print, shown here in Neon Swirl Print.",
+  "materials": "Smooth stretch fabric with a soft, lightly structured hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/prisma-swirl-swing-midi-dress/front-20261025.webp",
+    "/products/prisma-swirl-swing-midi-dress/back-20261025.webp",
+    "/products/prisma-swirl-swing-midi-dress/left-20261025.webp",
+    "/products/prisma-swirl-swing-midi-dress/right-20261025.webp"
+  ],
+  "stock": 1192,
+  "unitCostUsd": 13.69,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "cosmo-swirl-swing-midi-dress",
+  "name": "Cosmo Swirl Swing Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#2a3fc0"
+  ],
+  "colorNames": [
+    "Electric Blue Swirl"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Cosmo Swirl Swing Midi Dress is a sleeveless round-neck fit-and-flare midi dress in smooth stretch fabric with a fitted bodice and a full swing skirt below the knee, covered in an all-over print, shown here in Electric Blue Swirl.",
+  "materials": "Smooth stretch fabric with a soft, lightly structured hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/cosmo-swirl-swing-midi-dress/front-20261025.webp",
+    "/products/cosmo-swirl-swing-midi-dress/back-20261025.webp",
+    "/products/cosmo-swirl-swing-midi-dress/left-20261025.webp",
+    "/products/cosmo-swirl-swing-midi-dress/right-20261025.webp"
+  ],
+  "stock": 1192,
+  "unitCostUsd": 13.69,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "tela-patch-swing-midi-dress",
+  "name": "Tela Patch Swing Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1f3f45"
+  ],
+  "colorNames": [
+    "Teal & Sand Patchwork"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Tela Patch Swing Midi Dress is a sleeveless round-neck fit-and-flare midi dress in smooth stretch fabric with a fitted bodice and a full swing skirt below the knee, covered in an all-over print, shown here in Teal & Sand Patchwork.",
+  "materials": "Smooth stretch fabric with a soft, lightly structured hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/tela-patch-swing-midi-dress/front-20261025.webp",
+    "/products/tela-patch-swing-midi-dress/back-20261025.webp",
+    "/products/tela-patch-swing-midi-dress/left-20261025.webp",
+    "/products/tela-patch-swing-midi-dress/right-20261025.webp"
+  ],
+  "stock": 1193,
+  "unitCostUsd": 13.69,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "ponto-swing-midi-dress",
+  "name": "Ponto Swing Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#2050c0"
+  ],
+  "colorNames": [
+    "Cobalt & Black Dot"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Ponto Swing Midi Dress is a sleeveless round-neck fit-and-flare midi dress in smooth stretch fabric with a fitted bodice and a full swing skirt below the knee, covered in an all-over print, shown here in Cobalt & Black Dot.",
+  "materials": "Smooth stretch fabric with a soft, lightly structured hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/ponto-swing-midi-dress/front-20261025.webp",
+    "/products/ponto-swing-midi-dress/back-20261025.webp",
+    "/products/ponto-swing-midi-dress/left-20261025.webp",
+    "/products/ponto-swing-midi-dress/right-20261025.webp"
+  ],
+  "stock": 1194,
+  "unitCostUsd": 13.69,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "rose-grid-swing-midi-dress",
+  "name": "Rosé Grid Swing Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c88a92"
+  ],
+  "colorNames": [
+    "Rose & Black Grid"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Rosé Grid Swing Midi Dress is a sleeveless round-neck fit-and-flare midi dress in smooth stretch fabric with a fitted bodice and a full swing skirt below the knee, covered in an all-over print, shown here in Rose & Black Grid.",
+  "materials": "Smooth stretch fabric with a soft, lightly structured hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/rose-grid-swing-midi-dress/front-20261025.webp",
+    "/products/rose-grid-swing-midi-dress/back-20261025.webp",
+    "/products/rose-grid-swing-midi-dress/left-20261025.webp",
+    "/products/rose-grid-swing-midi-dress/right-20261025.webp"
+  ],
+  "stock": 1192,
+  "unitCostUsd": 13.69,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "bronze-line-swing-midi-dress",
+  "name": "Bronze Line Swing Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#2a2420"
+  ],
+  "colorNames": [
+    "Black & Tan Stripe"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Bronze Line Swing Midi Dress is a sleeveless round-neck fit-and-flare midi dress in smooth stretch fabric with a fitted bodice and a full swing skirt below the knee, covered in an all-over print, shown here in Black & Tan Stripe.",
+  "materials": "Smooth stretch fabric with a soft, lightly structured hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/bronze-line-swing-midi-dress/front-20261025.webp",
+    "/products/bronze-line-swing-midi-dress/back-20261025.webp",
+    "/products/bronze-line-swing-midi-dress/left-20261025.webp",
+    "/products/bronze-line-swing-midi-dress/right-20261025.webp"
+  ],
+  "stock": 1193,
+  "unitCostUsd": 13.69,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "contraste-swing-midi-dress",
+  "name": "Contraste Swing Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#9e1a1a"
+  ],
+  "colorNames": [
+    "Red, Black & White Abstract"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Contraste Swing Midi Dress is a sleeveless round-neck fit-and-flare midi dress in smooth stretch fabric with a fitted bodice and a full swing skirt below the knee, covered in an all-over print, shown here in Red, Black & White Abstract.",
+  "materials": "Smooth stretch fabric with a soft, lightly structured hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/contraste-swing-midi-dress/front-20261025.webp",
+    "/products/contraste-swing-midi-dress/back-20261025.webp",
+    "/products/contraste-swing-midi-dress/left-20261025.webp",
+    "/products/contraste-swing-midi-dress/right-20261025.webp"
+  ],
+  "stock": 1191,
+  "unitCostUsd": 13.69,
+  "minimumMarginPercent": 40
+},
+
+{
+  "slug": "mocha-brush-swing-midi-dress",
+  "name": "Mocha Brush Swing Midi Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#a87e62"
+  ],
+  "colorNames": [
+    "Mocha & Black Brushstroke"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "Mocha Brush Swing Midi Dress is a sleeveless round-neck fit-and-flare midi dress in smooth stretch fabric with a fitted bodice and a full swing skirt below the knee, covered in an all-over print, shown here in Mocha & Black Brushstroke.",
+  "materials": "Smooth stretch fabric with a soft, lightly structured hand.",
+  "care": "Follow the care label attached to the garment. To preserve color and shape, use a cold gentle cycle when permitted and air dry.",
+  "images": [
+    "/products/mocha-brush-swing-midi-dress/front-20261025.webp",
+    "/products/mocha-brush-swing-midi-dress/back-20261025.webp",
+    "/products/mocha-brush-swing-midi-dress/left-20261025.webp",
+    "/products/mocha-brush-swing-midi-dress/right-20261025.webp"
+  ],
+  "stock": 1191,
+  "unitCostUsd": 13.69,
+  "minimumMarginPercent": 40
 }
 ];
 
@@ -15346,6 +16085,26 @@ export const approvedNewProductSlugs = new Set<string>([
   "lavanda-plaid-maxi-dress",
   "verde-block-maxi-dress",
   "mono-block-maxi-dress",
+  "terra-block-maxi-dress",
+  "graphite-block-maxi-dress",
+  "lagoa-block-maxi-dress",
+  "carmim-block-maxi-dress",
+  "indigo-brush-maxi-dress",
+  "caramel-block-maxi-dress",
+  "cobre-arc-maxi-dress",
+  "pedra-patch-maxi-dress",
+  "linea-stripe-maxi-dress",
+  "duo-stripe-maxi-dress",
+  "bruma-swing-midi-dress",
+  "jade-marble-swing-midi-dress",
+  "prisma-swirl-swing-midi-dress",
+  "cosmo-swirl-swing-midi-dress",
+  "tela-patch-swing-midi-dress",
+  "ponto-swing-midi-dress",
+  "rose-grid-swing-midi-dress",
+  "bronze-line-swing-midi-dress",
+  "contraste-swing-midi-dress",
+  "mocha-brush-swing-midi-dress",
 ]);
 
 export const generatedProducts: Product[] = allGeneratedProducts.filter(
