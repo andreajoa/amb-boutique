@@ -1,0 +1,587 @@
+{
+  "batch": "20261025",
+  "applied": false,
+  "note": "Proposta de v\u00ednculos por tamanho para o Manager; aplicar no banco s\u00f3 depois da publica\u00e7\u00e3o.",
+  "products": [
+    {
+      "slug": "terra-block-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000AX",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000058614170636",
+        "M": "12000058614170632",
+        "L": "12000058614170633",
+        "XL": "12000058614170634",
+        "XXL": "12000058614170635",
+        "S": "12000058614170631"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 13.14,
+        "M": 12.88,
+        "L": 12.88,
+        "XL": 13.14,
+        "XXL": 13.14,
+        "S": 12.88
+      },
+      "stockBySize": {
+        "XXXL": 199,
+        "M": 199,
+        "L": 199,
+        "XL": 199,
+        "XXL": 199,
+        "S": 199
+      }
+    },
+    {
+      "slug": "graphite-block-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000AY",
+      "sourceSkuIdsBySize": {
+        "S": "12000058614170637",
+        "M": "12000058614170638",
+        "L": "12000058614170639",
+        "XL": "12000058614170640",
+        "XXL": "12000058614170641",
+        "XXXL": "12000058614170642"
+      },
+      "landedCostUsdBySize": {
+        "S": 12.88,
+        "M": 12.88,
+        "L": 12.88,
+        "XL": 13.14,
+        "XXL": 13.14,
+        "XXXL": 13.14
+      },
+      "stockBySize": {
+        "S": 199,
+        "M": 199,
+        "L": 199,
+        "XL": 199,
+        "XXL": 199,
+        "XXXL": 199
+      }
+    },
+    {
+      "slug": "lagoa-block-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000AW",
+      "sourceSkuIdsBySize": {
+        "XL": "12000058614170628",
+        "XXL": "12000058614170629",
+        "XXXL": "12000058614170630",
+        "S": "12000058614170625",
+        "M": "12000058614170626",
+        "L": "12000058614170627"
+      },
+      "landedCostUsdBySize": {
+        "XL": 13.14,
+        "XXL": 13.14,
+        "XXXL": 13.14,
+        "S": 12.88,
+        "M": 12.88,
+        "L": 12.88
+      },
+      "stockBySize": {
+        "XL": 199,
+        "XXL": 199,
+        "XXXL": 199,
+        "S": 199,
+        "M": 199,
+        "L": 199
+      }
+    },
+    {
+      "slug": "carmim-block-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000AV",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000058614170624",
+        "M": "12000058614170620",
+        "L": "12000058614170621",
+        "XL": "12000058614170622",
+        "XXL": "12000058614170623",
+        "S": "12000058614170619"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 13.14,
+        "M": 12.88,
+        "L": 12.98,
+        "XL": 13.14,
+        "XXL": 13.14,
+        "S": 12.88
+      },
+      "stockBySize": {
+        "XXXL": 199,
+        "M": 199,
+        "L": 198,
+        "XL": 199,
+        "XXL": 198,
+        "S": 199
+      }
+    },
+    {
+      "slug": "indigo-brush-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B0",
+      "sourceSkuIdsBySize": {
+        "XL": "12000058614170652",
+        "XXL": "12000058614170653",
+        "XXXL": "12000058614170654",
+        "S": "12000058614170649",
+        "M": "12000058614170650",
+        "L": "12000058614170651"
+      },
+      "landedCostUsdBySize": {
+        "XL": 13.14,
+        "XXL": 13.14,
+        "XXXL": 13.84,
+        "S": 12.74,
+        "M": 12.88,
+        "L": 12.88
+      },
+      "stockBySize": {
+        "XL": 199,
+        "XXL": 199,
+        "XXXL": 198,
+        "S": 198,
+        "M": 199,
+        "L": 199
+      }
+    },
+    {
+      "slug": "caramel-block-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000BB",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000058614170720",
+        "M": "12000058614170716",
+        "L": "12000058614170717",
+        "XL": "12000058614170718",
+        "XXL": "12000058614170719",
+        "S": "12000058614170715"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 13.84,
+        "M": 12.78,
+        "L": 12.88,
+        "XL": 13.14,
+        "XXL": 13.74,
+        "S": 12.88
+      },
+      "stockBySize": {
+        "XXXL": 198,
+        "M": 197,
+        "L": 199,
+        "XL": 199,
+        "XXL": 197,
+        "S": 199
+      }
+    },
+    {
+      "slug": "cobre-arc-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B8",
+      "sourceSkuIdsBySize": {
+        "XL": "12000058614170700",
+        "XXL": "12000058614170701",
+        "XXXL": "12000058614170702",
+        "S": "12000058614170697",
+        "M": "12000058614170698",
+        "L": "12000058614170699"
+      },
+      "landedCostUsdBySize": {
+        "XL": 13.58,
+        "XXL": 13.14,
+        "XXXL": 13.14,
+        "S": 12.88,
+        "M": 12.88,
+        "L": 12.88
+      },
+      "stockBySize": {
+        "XL": 198,
+        "XXL": 199,
+        "XXXL": 199,
+        "S": 199,
+        "M": 199,
+        "L": 199
+      }
+    },
+    {
+      "slug": "pedra-patch-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B9",
+      "sourceSkuIdsBySize": {
+        "S": "12000058614170703",
+        "XXXL": "12000058614170708",
+        "M": "12000058614170704",
+        "L": "12000058614170705",
+        "XL": "12000058614170706",
+        "XXL": "12000058614170707"
+      },
+      "landedCostUsdBySize": {
+        "S": 12.88,
+        "XXXL": 13.14,
+        "M": 12.88,
+        "L": 12.88,
+        "XL": 13.14,
+        "XXL": 13.14
+      },
+      "stockBySize": {
+        "S": 199,
+        "XXXL": 199,
+        "M": 199,
+        "L": 199,
+        "XL": 199,
+        "XXL": 199
+      }
+    },
+    {
+      "slug": "linea-stripe-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B7",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000058614170696",
+        "M": "12000058614170692",
+        "L": "12000058614170693",
+        "XL": "12000058614170694",
+        "XXL": "12000058614170695",
+        "S": "12000058614170691"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 13.14,
+        "M": 12.64,
+        "L": 12.88,
+        "XL": 13.14,
+        "XXL": 13.14,
+        "S": 12.88
+      },
+      "stockBySize": {
+        "XXXL": 199,
+        "M": 198,
+        "L": 199,
+        "XL": 199,
+        "XXL": 199,
+        "S": 199
+      }
+    },
+    {
+      "slug": "duo-stripe-maxi-dress",
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000BA",
+      "sourceSkuIdsBySize": {
+        "XL": "12000058614170712",
+        "XXL": "12000058614170713",
+        "XXXL": "12000058614170714",
+        "S": "12000058614170709",
+        "M": "12000058614170710",
+        "L": "12000058614170711"
+      },
+      "landedCostUsdBySize": {
+        "XL": 13.14,
+        "XXL": 13.14,
+        "XXXL": 14.18,
+        "S": 12.88,
+        "M": 12.88,
+        "L": 12.88
+      },
+      "stockBySize": {
+        "XL": 199,
+        "XXL": 199,
+        "XXXL": 198,
+        "S": 199,
+        "M": 199,
+        "L": 199
+      }
+    },
+    {
+      "slug": "bruma-swing-midi-dress",
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794252",
+      "sourceSkuIdsBySize": {
+        "L": "12000059102734301",
+        "XXL": "12000059102734303",
+        "XL": "12000059102734302",
+        "XXXL": "12000059102734304",
+        "M": "12000059102734300",
+        "S": "12000059102734299"
+      },
+      "landedCostUsdBySize": {
+        "L": 13.69,
+        "XXL": 13.69,
+        "XL": 13.69,
+        "XXXL": 13.69,
+        "M": 13.69,
+        "S": 12.56
+      },
+      "stockBySize": {
+        "L": 199,
+        "XXL": 199,
+        "XL": 199,
+        "XXXL": 199,
+        "M": 199,
+        "S": 198
+      }
+    },
+    {
+      "slug": "jade-marble-swing-midi-dress",
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794255",
+      "sourceSkuIdsBySize": {
+        "S": "12000059102734317",
+        "L": "12000059102734319",
+        "M": "12000059102734318",
+        "XXL": "12000059102734321",
+        "XL": "12000059102734320",
+        "XXXL": "12000059102734322"
+      },
+      "landedCostUsdBySize": {
+        "S": 12.56,
+        "L": 13.69,
+        "M": 13.69,
+        "XXL": 13.69,
+        "XL": 13.69,
+        "XXXL": 13.69
+      },
+      "stockBySize": {
+        "S": 199,
+        "L": 198,
+        "M": 199,
+        "XXL": 199,
+        "XL": 198,
+        "XXXL": 199
+      }
+    },
+    {
+      "slug": "prisma-swirl-swing-midi-dress",
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794254",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000059102734316",
+        "L": "12000059102734313",
+        "M": "12000059102734312",
+        "XXL": "12000059102734315",
+        "XL": "12000059102734314",
+        "S": "12000059102734311"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 13.69,
+        "L": 13.69,
+        "M": 13.69,
+        "XXL": 13.69,
+        "XL": 13.69,
+        "S": 12.56
+      },
+      "stockBySize": {
+        "XXXL": 198,
+        "L": 199,
+        "M": 199,
+        "XXL": 198,
+        "XL": 199,
+        "S": 199
+      }
+    },
+    {
+      "slug": "cosmo-swirl-swing-midi-dress",
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794253",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000059102734309",
+        "XL": "12000059102734308",
+        "XXXL": "12000059102734310",
+        "S": "12000059102734305",
+        "L": "12000059102734307",
+        "M": "12000059102734306"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 13.69,
+        "XL": 13.69,
+        "XXXL": 13.69,
+        "S": 12.56,
+        "L": 13.69,
+        "M": 13.69
+      },
+      "stockBySize": {
+        "XXL": 199,
+        "XL": 199,
+        "XXXL": 198,
+        "S": 199,
+        "L": 198,
+        "M": 199
+      }
+    },
+    {
+      "slug": "tela-patch-swing-midi-dress",
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794257",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000059102734333",
+        "XL": "12000059102734332",
+        "XXXL": "12000059102734334",
+        "S": "12000059102734329",
+        "L": "12000059102734331",
+        "M": "12000059102734330"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 13.69,
+        "XL": 13.69,
+        "XXXL": 13.69,
+        "S": 12.56,
+        "L": 13.69,
+        "M": 13.69
+      },
+      "stockBySize": {
+        "XXL": 199,
+        "XL": 198,
+        "XXXL": 199,
+        "S": 199,
+        "L": 199,
+        "M": 199
+      }
+    },
+    {
+      "slug": "ponto-swing-midi-dress",
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794258",
+      "sourceSkuIdsBySize": {
+        "S": "12000059102734335",
+        "XXXL": "12000059102734340",
+        "L": "12000059102734337",
+        "M": "12000059102734336",
+        "XXL": "12000059102734339",
+        "XL": "12000059102734338"
+      },
+      "landedCostUsdBySize": {
+        "S": 12.56,
+        "XXXL": 13.69,
+        "L": 13.69,
+        "M": 13.69,
+        "XXL": 13.69,
+        "XL": 13.69
+      },
+      "stockBySize": {
+        "S": 199,
+        "XXXL": 199,
+        "L": 199,
+        "M": 199,
+        "XXL": 199,
+        "XL": 199
+      }
+    },
+    {
+      "slug": "rose-grid-swing-midi-dress",
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794256",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000059102734328",
+        "L": "12000059102734325",
+        "M": "12000059102734324",
+        "XXL": "12000059102734327",
+        "XL": "12000059102734326",
+        "S": "12000059102734323"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 13.69,
+        "L": 13.69,
+        "M": 13.69,
+        "XXL": 13.69,
+        "XL": 13.69,
+        "S": 12.56
+      },
+      "stockBySize": {
+        "XXXL": 199,
+        "L": 199,
+        "M": 198,
+        "XXL": 198,
+        "XL": 199,
+        "S": 199
+      }
+    },
+    {
+      "slug": "bronze-line-swing-midi-dress",
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ267942510",
+      "sourceSkuIdsBySize": {
+        "L": "12000059102734349",
+        "M": "12000059102734348",
+        "XXL": "12000059102734351",
+        "XL": "12000059102734350",
+        "S": "12000059102734347",
+        "XXXL": "12000059102734352"
+      },
+      "landedCostUsdBySize": {
+        "L": 13.69,
+        "M": 13.69,
+        "XXL": 13.69,
+        "XL": 13.69,
+        "S": 12.56,
+        "XXXL": 13.69
+      },
+      "stockBySize": {
+        "L": 198,
+        "M": 199,
+        "XXL": 199,
+        "XL": 199,
+        "S": 199,
+        "XXXL": 199
+      }
+    },
+    {
+      "slug": "contraste-swing-midi-dress",
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ267942513",
+      "sourceSkuIdsBySize": {
+        "S": "12000059102734365",
+        "L": "12000059102734367",
+        "M": "12000059102734366",
+        "XXL": "12000059102734369",
+        "XL": "12000059102734368",
+        "XXXL": "12000059102734370"
+      },
+      "landedCostUsdBySize": {
+        "S": 12.56,
+        "L": 13.69,
+        "M": 13.69,
+        "XXL": 13.69,
+        "XL": 13.69,
+        "XXXL": 13.69
+      },
+      "stockBySize": {
+        "S": 198,
+        "L": 199,
+        "M": 199,
+        "XXL": 198,
+        "XL": 199,
+        "XXXL": 198
+      }
+    },
+    {
+      "slug": "mocha-brush-swing-midi-dress",
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ267942512",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000059102734364",
+        "L": "12000059102734361",
+        "M": "12000059102734360",
+        "XXL": "12000059102734363",
+        "XL": "12000059102734362",
+        "S": "12000059102734359"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 13.69,
+        "L": 13.69,
+        "M": 13.69,
+        "XXL": 13.69,
+        "XL": 13.69,
+        "S": 12.56
+      },
+      "stockBySize": {
+        "XXXL": 199,
+        "L": 199,
+        "M": 197,
+        "XXL": 198,
+        "XL": 199,
+        "S": 199
+      }
+    }
+  ]
+}

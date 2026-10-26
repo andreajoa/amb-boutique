@@ -339,5 +339,85 @@ export const octoberSourceLineage: Record<string, { sourceProductId: string; sou
   "mono-block-maxi-dress": {
       "sourceProductId": "3256812329329219",
       "sourceColor": "CL8Q000B4"
+  },
+  "terra-block-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000AX"
+  },
+  "graphite-block-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000AY"
+  },
+  "lagoa-block-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000AW"
+  },
+  "carmim-block-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000AV"
+  },
+  "indigo-brush-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B0"
+  },
+  "caramel-block-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000BB"
+  },
+  "cobre-arc-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B8"
+  },
+  "pedra-patch-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B9"
+  },
+  "linea-stripe-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000B7"
+  },
+  "duo-stripe-maxi-dress": {
+      "sourceProductId": "3256812329329219",
+      "sourceColor": "CL8Q000BA"
+  },
+  "bruma-swing-midi-dress": {
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794252"
+  },
+  "jade-marble-swing-midi-dress": {
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794255"
+  },
+  "prisma-swirl-swing-midi-dress": {
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794254"
+  },
+  "cosmo-swirl-swing-midi-dress": {
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794253"
+  },
+  "tela-patch-swing-midi-dress": {
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794257"
+  },
+  "ponto-swing-midi-dress": {
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794258"
+  },
+  "rose-grid-swing-midi-dress": {
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794256"
+  },
+  "bronze-line-swing-midi-dress": {
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ267942510"
+  },
+  "contraste-swing-midi-dress": {
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ267942513"
+  },
+  "mocha-brush-swing-midi-dress": {
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ267942512"
   }
 };
