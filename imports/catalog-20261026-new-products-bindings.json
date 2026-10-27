@@ -548,6 +548,154 @@
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
+    },
+    {
+      "slug": "evelisse-cowl-neck-velvet-mini-dress-champagne-style-05",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "05",
+      "sourceSkuIdsBySize": {
+        "S": "12000053435360196",
+        "M": "12000053435360197",
+        "L": "12000053435360198",
+        "XL": "12000053435360199",
+        "XXL": "12000053435360200",
+        "XXXL": "12000053435360201"
+      },
+      "stockBySize": {
+        "S": 65,
+        "M": 65,
+        "L": 65,
+        "XL": 64,
+        "XXL": 64,
+        "XXXL": 65
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-27T02:01:27.369Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "elowyn-embellished-sleeve-mini-dress-pink-style-14",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "14",
+      "sourceSkuIdsBySize": {
+        "S": "12000053435360250",
+        "M": "12000053435360251",
+        "L": "12000053435360252",
+        "XL": "12000053435360253",
+        "XXL": "12000053435360254",
+        "XXXL": "12000053435360255"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 66,
+        "L": 65,
+        "XL": 66,
+        "XXL": 66,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-27T02:01:27.369Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "elowyn-embellished-sleeve-mini-dress-burgundy-style-30",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "30",
+      "sourceSkuIdsBySize": {
+        "S": "12000053436872145",
+        "M": "12000053436872146",
+        "L": "12000053436872147",
+        "XL": "12000053436872148",
+        "XXL": "12000053436872149",
+        "XXXL": "12000053436872150"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 66,
+        "L": 66,
+        "XL": 66,
+        "XXL": 65,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-27T02:01:27.369Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "elowyn-embellished-sleeve-mini-dress-charcoal-style-13",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "13",
+      "sourceSkuIdsBySize": {
+        "S": "12000053435360244",
+        "M": "12000053435360245",
+        "L": "12000053435360246",
+        "XL": "12000053435360247",
+        "XXL": "12000053435360248",
+        "XXXL": "12000053435360249"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 66,
+        "L": 66,
+        "XL": 66,
+        "XXL": 66,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-27T02:01:27.369Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }
