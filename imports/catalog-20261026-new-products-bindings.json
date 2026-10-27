@@ -696,6 +696,228 @@
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
+    },
+    {
+      "slug": "elowyn-embellished-sleeve-mini-dress-emerald-style-31",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "31",
+      "sourceSkuIdsBySize": {
+        "S": "12000053436872151",
+        "M": "12000053436872152",
+        "L": "12000053436872153",
+        "XL": "12000053436872154",
+        "XXL": "12000053436872155",
+        "XXXL": "12000053436872156"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 66,
+        "L": 66,
+        "XL": 66,
+        "XXL": 66,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-27T02:17:15.888Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "elowyn-embellished-sleeve-mini-dress-black-style-29",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "29",
+      "sourceSkuIdsBySize": {
+        "S": "12000053436872139",
+        "M": "12000053436872140",
+        "L": "12000053436872141",
+        "XL": "12000053436872142",
+        "XXL": "12000053436872143",
+        "XXXL": "12000053436872144"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 66,
+        "L": 66,
+        "XL": 66,
+        "XXL": 66,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-27T02:17:15.888Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "elowyn-embellished-sleeve-mini-dress-royal-blue-style-12",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "12",
+      "sourceSkuIdsBySize": {
+        "S": "12000053435360238",
+        "M": "12000053435360239",
+        "L": "12000053435360240",
+        "XL": "12000053435360241",
+        "XXL": "12000053435360242",
+        "XXXL": "12000053435360243"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 66,
+        "L": 65,
+        "XL": 66,
+        "XXL": 65,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-27T02:17:15.888Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "elowyn-embellished-sleeve-mini-dress-red-style-11",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "11",
+      "sourceSkuIdsBySize": {
+        "S": "12000053435360232",
+        "M": "12000053435360233",
+        "L": "12000053435360234",
+        "XL": "12000053435360235",
+        "XXL": "12000053435360236",
+        "XXXL": "12000053435360237"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 64,
+        "L": 66,
+        "XL": 65,
+        "XXL": 66,
+        "XXXL": 65
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-27T02:17:15.888Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "elowyn-embellished-sleeve-mini-dress-navy-style-28",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "28",
+      "sourceSkuIdsBySize": {
+        "S": "12000053436872133",
+        "M": "12000053436872134",
+        "L": "12000053436872135",
+        "XL": "12000053436872136",
+        "XXL": "12000053436872137",
+        "XXXL": "12000053436872138"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 66,
+        "L": 66,
+        "XL": 66,
+        "XXL": 66,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-27T02:17:15.888Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "elowyn-embellished-sleeve-mini-dress-gold-style-10",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "10",
+      "sourceSkuIdsBySize": {
+        "S": "12000053435360226",
+        "M": "12000053435360227",
+        "L": "12000053435360228",
+        "XL": "12000053435360229",
+        "XXL": "12000053435360230",
+        "XXXL": "12000053435360231"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 65,
+        "L": 65,
+        "XL": 66,
+        "XXL": 65,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-27T02:17:15.888Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }
