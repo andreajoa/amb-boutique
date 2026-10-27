@@ -400,6 +400,154 @@
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
+    },
+    {
+      "slug": "evelisse-cowl-neck-velvet-mini-dress-emerald-style-07",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "07",
+      "sourceSkuIdsBySize": {
+        "S": "12000053435360208",
+        "M": "12000053435360209",
+        "L": "12000053435360210",
+        "XL": "12000053435360211",
+        "XXL": "12000053435360212",
+        "XXXL": "12000053435360213"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 66,
+        "L": 66,
+        "XL": 66,
+        "XXL": 66,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-26T21:18:13.182Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "evelisse-cowl-neck-velvet-mini-dress-royal-blue-style-06",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "06",
+      "sourceSkuIdsBySize": {
+        "S": "12000053435360202",
+        "M": "12000053435360203",
+        "L": "12000053435360204",
+        "XL": "12000053435360205",
+        "XXL": "12000053435360206",
+        "XXXL": "12000053435360207"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 66,
+        "L": 65,
+        "XL": 66,
+        "XXL": 66,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-26T21:18:13.182Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "evelisse-cowl-neck-velvet-mini-dress-burgundy-style-23",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "23",
+      "sourceSkuIdsBySize": {
+        "S": "12000052263105396",
+        "M": "12000052263105397",
+        "L": "12000052263105398",
+        "XL": "12000052263105399",
+        "XXL": "12000052263105400",
+        "XXXL": "12000052263105401"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 66,
+        "L": 65,
+        "XL": 66,
+        "XXL": 66,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 26.08,
+        "M": 26.08,
+        "L": 26.08,
+        "XL": 26.08,
+        "XXL": 26.08,
+        "XXXL": 26.08
+      },
+      "retailPriceUsd": 78.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-26T21:18:13.182Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "evelisse-cowl-neck-velvet-mini-dress-black-style-22",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "22",
+      "sourceSkuIdsBySize": {
+        "S": "12000052263105378",
+        "M": "12000052263105379",
+        "L": "12000052263105380",
+        "XL": "12000052263105381",
+        "XXL": "12000052263105382",
+        "XXXL": "12000052263105383"
+      },
+      "stockBySize": {
+        "S": 64,
+        "M": 66,
+        "L": 66,
+        "XL": 65,
+        "XXL": 66,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 24.75,
+        "M": 26.08,
+        "L": 26.08,
+        "XL": 26.08,
+        "XXL": 26.08,
+        "XXXL": 26.08
+      },
+      "retailPriceUsd": 78.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-26T21:18:13.182Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }

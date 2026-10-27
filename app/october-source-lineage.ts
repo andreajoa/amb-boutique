@@ -431,5 +431,9 @@ export const octoberSourceLineage: Record<string, { sourceProductId: string; sou
   "fiorenza-sequin-bodice-maxi-dress-dark-blue": {"sourceProductId": "3256803434858469", "sourceColor": "Dark Blue"},
   "fiorenza-sequin-bodice-maxi-dress-pink": {"sourceProductId": "3256803434858469", "sourceColor": "Pink"},
   "fiorenza-sequin-bodice-maxi-dress-red": {"sourceProductId": "3256803434858469", "sourceColor": "Red"},
-  "fiorenza-sequin-bodice-maxi-dress-wine-red": {"sourceProductId": "3256803434858469", "sourceColor": "Wine Red"}
+  "fiorenza-sequin-bodice-maxi-dress-wine-red": {"sourceProductId": "3256803434858469", "sourceColor": "Wine Red"},
+  "evelisse-cowl-neck-velvet-mini-dress-emerald-style-07": {"sourceProductId": "3256810207199601", "sourceColor": "07"},
+  "evelisse-cowl-neck-velvet-mini-dress-royal-blue-style-06": {"sourceProductId": "3256810207199601", "sourceColor": "06"},
+  "evelisse-cowl-neck-velvet-mini-dress-burgundy-style-23": {"sourceProductId": "3256810207199601", "sourceColor": "23"},
+  "evelisse-cowl-neck-velvet-mini-dress-black-style-22": {"sourceProductId": "3256810207199601", "sourceColor": "22"}
 };
