@@ -1270,6 +1270,149 @@
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
+    },
+    {
+      "slug": "rosaline-rosette-corset-mini-dress-yellow",
+      "sourceProductId": "3256807496697128",
+      "sourceColor": "YELLOW",
+      "sourceSkuIdsBySize": {
+        "L": "12000047640712760"
+      },
+      "stockBySize": {
+        "L": 3
+      },
+      "landedCostUsdBySize": {
+        "L": 69.98
+      },
+      "retailPriceUsd": 210.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvlij4h1001s06kxxudmao9u",
+      "verifiedAtUtc": "2026-10-27T19:03:50.634Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "rosaline-rosette-corset-mini-dress-black",
+      "sourceProductId": "3256807496697128",
+      "sourceColor": "black",
+      "sourceSkuIdsBySize": {
+        "S": "12000045728961196",
+        "M": "12000045728961197",
+        "L": "12000045728961198"
+      },
+      "stockBySize": {
+        "S": 1,
+        "M": 3,
+        "L": 7
+      },
+      "landedCostUsdBySize": {
+        "S": 69.98,
+        "M": 69.98,
+        "L": 69.98
+      },
+      "retailPriceUsd": 210.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvlij4h1001s06kxxudmao9u",
+      "verifiedAtUtc": "2026-10-27T19:03:50.634Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "rosaline-rosette-corset-mini-dress-red-high-end-fabric",
+      "sourceProductId": "3256807496697128",
+      "sourceColor": "Red High-end Fabric",
+      "sourceSkuIdsBySize": {
+        "S": "12000041809943741",
+        "M": "12000041809943742",
+        "L": "12000041809943743",
+        "XL": "12000051148249724"
+      },
+      "stockBySize": {
+        "S": 5,
+        "M": 1,
+        "L": 5,
+        "XL": 3
+      },
+      "landedCostUsdBySize": {
+        "S": 69.98,
+        "M": 69.98,
+        "L": 69.98,
+        "XL": 69.98
+      },
+      "retailPriceUsd": 210.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvlij4h1001s06kxxudmao9u",
+      "verifiedAtUtc": "2026-10-27T19:03:50.634Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "rosaline-rosette-corset-mini-dress-hot-pink",
+      "sourceProductId": "3256807496697128",
+      "sourceColor": "Hot pink",
+      "sourceSkuIdsBySize": {
+        "XS": "12000043175465931",
+        "S": "12000043175465932",
+        "M": "12000043175465933",
+        "L": "12000043175465934"
+      },
+      "stockBySize": {
+        "XS": 15,
+        "S": 15,
+        "M": 23,
+        "L": 25
+      },
+      "landedCostUsdBySize": {
+        "XS": 69.98,
+        "S": 69.98,
+        "M": 69.98,
+        "L": 69.98
+      },
+      "retailPriceUsd": 210.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvlij4h1001s06kxxudmao9u",
+      "verifiedAtUtc": "2026-10-27T19:03:50.634Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "rosaline-rosette-corset-mini-dress-red-bandage-fabric",
+      "sourceProductId": "3256807496697128",
+      "sourceColor": "Red Bandage Fabric",
+      "sourceSkuIdsBySize": {
+        "XS": "12000051140914038",
+        "S": "12000051140914039",
+        "M": "12000051140914040",
+        "L": "12000051140914041"
+      },
+      "stockBySize": {
+        "XS": 18,
+        "S": 30,
+        "M": 28,
+        "L": 31
+      },
+      "landedCostUsdBySize": {
+        "XS": 67.98,
+        "S": 67.98,
+        "M": 67.98,
+        "L": 67.98
+      },
+      "retailPriceUsd": 204.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvlij4h1001s06kxxudmao9u",
+      "verifiedAtUtc": "2026-10-27T19:03:50.634Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }

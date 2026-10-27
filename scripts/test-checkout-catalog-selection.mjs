@@ -80,6 +80,19 @@ cases.push({name:'Odessa does not inherit unavailable XXXL',items:[{slug:'odessa
 cases.push({name:'Vionelle rejects unavailable XS',items:[{slug:'vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19',size:'XS',color:'Black',quantity:1}],expected:400});
 cases.push({name:'Odessa welcome offer preserves 3x retail',items:[{slug:'odessa-polka-dot-halter-swing-dress-white',size:'S',color:'White & Black',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,expectedUnitAmount:8990});
 cases.push({name:'Odessa cart rewards preserve 3x retail',items:[{slug:'odessa-polka-dot-halter-swing-dress-blue',size:'S',color:'Blue',quantity:2}],expected:200,expectedUnitAmount:8990});
+for (const [suffix,color,size,amount] of [
+  ['yellow','Yellow','L',21090],['black','Black','S',21090],
+  ['red-high-end-fabric','Red Smooth','S',21090],['hot-pink','Hot Pink','XS',21090],
+  ['red-bandage-fabric','Red Ribbed','XS',20490],
+]) {
+  const slug='rosaline-rosette-corset-mini-dress-'+suffix;
+  cases.push({name:slug+' charges the confirmed 3x canonical price',items:[{slug,size,color,quantity:1,price:0.01}],expected:200,expectedUnitAmount:amount});
+}
+cases.push({name:'Yellow Rosaline omits unavailable M',items:[{slug:'rosaline-rosette-corset-mini-dress-yellow',size:'M',color:'Yellow',quantity:1}],expected:400});
+cases.push({name:'Black Rosaline enforces its one-unit S cap',items:[{slug:'rosaline-rosette-corset-mini-dress-black',size:'S',color:'Black',quantity:2}],expected:400});
+cases.push({name:'Red Smooth Rosaline caps the newly confirmed S at five units',items:[{slug:'rosaline-rosette-corset-mini-dress-red-high-end-fabric',size:'S',color:'Red Smooth',quantity:6}],expected:400});
+cases.push({name:'Rosaline welcome offer preserves its 3x selling price',items:[{slug:'rosaline-rosette-corset-mini-dress-red-bandage-fabric',size:'XS',color:'Red Ribbed',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,expectedUnitAmount:20490});
+cases.push({name:'Rosaline cart rewards preserve its 3x selling price',items:[{slug:'rosaline-rosette-corset-mini-dress-hot-pink',size:'XS',color:'Hot Pink',quantity:2}],expected:200,expectedUnitAmount:21090});
 const results=[];
 for(const c of cases){captured=null;const res=await POST({json:async()=>({items:c.items,market:'US',promotionCode:c.promotionCode}),nextUrl:{origin:'https://offline.example'}});results.push({case:c.name,productSlug:p.slug,catalogStock:p.stock,catalogSizes:p.sizes,catalogColors:p.colorNames,request:c.items,expectedStatus:c.expected,expectedUnitAmount:c.expectedUnitAmount,actualStatus:res.status,body:await res.json(),stripeFixtureCreated:!!captured,chargedUnitAmount:captured?.line_items?.[0]?.price_data?.unit_amount,chargedQuantity:captured?.line_items?.[0]?.quantity,chargedDescription:captured?.line_items?.[0]?.price_data?.product_data?.description});}
 for(const result of results){assert.equal(result.actualStatus,result.expectedStatus,result.case);if(result.expectedUnitAmount)assert.equal(result.chargedUnitAmount,result.expectedUnitAmount,result.case+' canonical price');assert.equal(result.stripeFixtureCreated,result.expectedStatus===200,result.case+' payment boundary');}console.log(JSON.stringify({passed:results.length,cases:results.map(r=>({name:r.case,status:r.actualStatus}))}));
