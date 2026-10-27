@@ -7,6 +7,7 @@ import { Product } from "./data";
 import { hasPriceRange, productPrice } from "./product-pricing";
 import { MarketCode, marketCodes, markets, US_FREE_SHIPPING_THRESHOLD_USD } from "./commerce";
 import { useStore } from "./store-provider";
+import { useSavedItems } from "./saved-items";
 import { NewsletterForm } from "./newsletter-form";
 import { PaymentMarks } from "./payment-marks";
 
@@ -108,6 +109,11 @@ function Icon({ name }: { name: "search" | "user" | "bag" }) {
   return <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>;
 }
 
+function SavedLink() {
+  const { saved } = useSavedItems();
+  return <Link href="/saved" aria-label={`Saved pieces${saved.length ? ` (${saved.length})` : ""}`} className="bag-button saved-link"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg>{saved.length > 0 && <span>{saved.length}</span>}</Link>;
+}
+
 function SocialIcon({ name }: { name: "instagram" | "tiktok" }) {
   if (name === "instagram") return <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.25"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></svg>;
   return <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M15.5 3c.4 2.5 1.8 4 4.5 4.2v3.1c-1.7 0-3.2-.5-4.5-1.4v6.2a6.1 6.1 0 1 1-5.3-6v3.2a3 3 0 1 0 2.1 2.8V3h3.2Z" fill="currentColor" stroke="none"/></svg>;
@@ -150,6 +156,7 @@ export function Header() {
           <div className="header-actions">
             <Link href="/search" aria-label="Search"><Icon name="search" /></Link>
             <Link href="/account" aria-label="Account"><Icon name="user" /></Link>
+            <SavedLink />
             <button aria-label="Shopping bag" className="bag-button" onClick={openCart}><Icon name="bag" /><span>{cartCount}</span></button>
           </div>
         </div>
