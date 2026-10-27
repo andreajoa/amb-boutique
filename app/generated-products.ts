@@ -16163,6 +16163,154 @@ const allGeneratedProducts: Product[] = [
   "stock": 32,
   "unitCostUsd": 28.55,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "evelisse-cowl-neck-velvet-mini-dress-emerald-style-07",
+  "name": "Evelisse Cowl Neck Velvet Mini Dress — Emerald",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#07583d"
+  ],
+  "colorNames": [
+    "Emerald"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a soft draped cowl neckline, long opaque sleeves and a relaxed velvet-look A-line body. Shown in emerald.",
+  "materials": "Soft velvet-look fabric with an opaque finish. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/evelisse-cowl-neck-velvet-mini-dress-emerald-style-07/front-20261026.webp",
+    "/products/evelisse-cowl-neck-velvet-mini-dress-emerald-style-07/back-20261026.webp",
+    "/products/evelisse-cowl-neck-velvet-mini-dress-emerald-style-07/left-20261026.webp",
+    "/products/evelisse-cowl-neck-velvet-mini-dress-emerald-style-07/right-20261026.webp"
+  ],
+  "stock": 396,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "evelisse-cowl-neck-velvet-mini-dress-royal-blue-style-06",
+  "name": "Evelisse Cowl Neck Velvet Mini Dress — Royal Blue",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#153bb3"
+  ],
+  "colorNames": [
+    "Royal Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a soft draped cowl neckline, long opaque sleeves and a relaxed velvet-look A-line body. Shown in royal blue.",
+  "materials": "Soft velvet-look fabric with an opaque finish. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/evelisse-cowl-neck-velvet-mini-dress-royal-blue-style-06/front-20261026.webp",
+    "/products/evelisse-cowl-neck-velvet-mini-dress-royal-blue-style-06/back-20261026.webp",
+    "/products/evelisse-cowl-neck-velvet-mini-dress-royal-blue-style-06/left-20261026.webp",
+    "/products/evelisse-cowl-neck-velvet-mini-dress-royal-blue-style-06/right-20261026.webp"
+  ],
+  "stock": 395,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "evelisse-cowl-neck-velvet-mini-dress-burgundy-style-23",
+  "name": "Evelisse Cowl Neck Velvet Mini Dress — Burgundy",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 78.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#80182c"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a soft draped cowl neckline, long opaque sleeves and a relaxed velvet-look A-line body. Shown in burgundy.",
+  "materials": "Soft velvet-look fabric with an opaque finish. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/evelisse-cowl-neck-velvet-mini-dress-burgundy-style-23/front-20261026.webp",
+    "/products/evelisse-cowl-neck-velvet-mini-dress-burgundy-style-23/back-20261026.webp",
+    "/products/evelisse-cowl-neck-velvet-mini-dress-burgundy-style-23/left-20261026.webp",
+    "/products/evelisse-cowl-neck-velvet-mini-dress-burgundy-style-23/right-20261026.webp"
+  ],
+  "stock": 395,
+  "unitCostUsd": 26.08,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "evelisse-cowl-neck-velvet-mini-dress-black-style-22",
+  "name": "Evelisse Cowl Neck Velvet Mini Dress — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 78.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a soft draped cowl neckline, long opaque sleeves and a relaxed velvet-look A-line body. Shown in black.",
+  "materials": "Soft velvet-look fabric with an opaque finish. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/evelisse-cowl-neck-velvet-mini-dress-black-style-22/front-20261026.webp",
+    "/products/evelisse-cowl-neck-velvet-mini-dress-black-style-22/back-20261026.webp",
+    "/products/evelisse-cowl-neck-velvet-mini-dress-black-style-22/left-20261026.webp",
+    "/products/evelisse-cowl-neck-velvet-mini-dress-black-style-22/right-20261026.webp"
+  ],
+  "stock": 393,
+  "unitCostUsd": 26.08,
+  "minimumMarginPercent": 40
 }
 ];
 
@@ -16171,6 +16319,10 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "evelisse-cowl-neck-velvet-mini-dress-emerald-style-07",
+  "evelisse-cowl-neck-velvet-mini-dress-royal-blue-style-06",
+  "evelisse-cowl-neck-velvet-mini-dress-burgundy-style-23",
+  "evelisse-cowl-neck-velvet-mini-dress-black-style-22",
   "fiorenza-sequin-bodice-maxi-dress-wine-red",
   "fiorenza-sequin-bodice-maxi-dress-red",
   "fiorenza-sequin-bodice-maxi-dress-pink",

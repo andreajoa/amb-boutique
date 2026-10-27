@@ -47,6 +47,11 @@ cases.push({name:'Wine Red L uses canonical price',items:[{slug:'fiorenza-sequin
 cases.push({name:'Wine Red unavailable M is blocked',items:[{slug:'fiorenza-sequin-bodice-maxi-dress-wine-red',size:'M',color:'Wine Red',quantity:1}],expected:400});
 cases.push({name:'Wine Red L respects twelve-unit cap',items:[{slug:'fiorenza-sequin-bodice-maxi-dress-wine-red',size:'L',color:'Wine Red',quantity:13}],expected:400});
 cases.push({name:'Pink M respects thirty-four-unit cap',items:[{slug:'fiorenza-sequin-bodice-maxi-dress-pink',size:'M',color:'Pink',quantity:35}],expected:400});
+for (const [suffix,color,amount] of [['emerald-style-07','Emerald',8390],['royal-blue-style-06','Royal Blue',8390],['burgundy-style-23','Burgundy',7890],['black-style-22','Black',7890]]) {
+  const slug='evelisse-cowl-neck-velvet-mini-dress-'+suffix;
+  cases.push({name:slug+' charges confirmed catalog price despite client tampering',items:[{slug,size:'S',color,quantity:1,price:0.01}],expected:200,expectedUnitAmount:amount});
+  cases.push({name:slug+' rejects unavailable XS',items:[{slug,size:'XS',color,quantity:1}],expected:400});
+}
 const results=[];
 for(const c of cases){captured=null;const res=await POST({json:async()=>({items:c.items,market:'US'}),nextUrl:{origin:'https://offline.example'}});results.push({case:c.name,productSlug:p.slug,catalogStock:p.stock,catalogSizes:p.sizes,catalogColors:p.colorNames,request:c.items,expectedStatus:c.expected,expectedUnitAmount:c.expectedUnitAmount,actualStatus:res.status,body:await res.json(),stripeFixtureCreated:!!captured,chargedUnitAmount:captured?.line_items?.[0]?.price_data?.unit_amount,chargedQuantity:captured?.line_items?.[0]?.quantity,chargedDescription:captured?.line_items?.[0]?.price_data?.product_data?.description});}
 for(const result of results){assert.equal(result.actualStatus,result.expectedStatus,result.case);if(result.expectedUnitAmount)assert.equal(result.chargedUnitAmount,result.expectedUnitAmount,result.case+' canonical price');assert.equal(result.stripeFixtureCreated,result.expectedStatus===200,result.case+' payment boundary');}console.log(JSON.stringify({passed:results.length,cases:results.map(r=>({name:r.case,status:r.actualStatus}))}));
