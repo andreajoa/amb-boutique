@@ -12715,8 +12715,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/palmira-satin-maxi-dress/front-20261025.webp",
     "/products/palmira-satin-maxi-dress/back-20261025.webp",
-    "/products/palmira-satin-maxi-dress/left-20261025.webp",
-    "/products/palmira-satin-maxi-dress/right-20261025.webp"
+    "/products/palmira-satin-maxi-dress/left-20261026.webp",
+    "/products/palmira-satin-maxi-dress/right-20261026.webp"
   ],
   "stock": 5992,
   "unitCostUsd": 22.02,
@@ -12857,8 +12857,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/orquidea-vneck-print-midi-dress/front-20261025.webp",
     "/products/orquidea-vneck-print-midi-dress/back-20261025.webp",
-    "/products/orquidea-vneck-print-midi-dress/left-20261025.webp",
-    "/products/orquidea-vneck-print-midi-dress/right-20261025.webp"
+    "/products/orquidea-vneck-print-midi-dress/left-20261026.webp",
+    "/products/orquidea-vneck-print-midi-dress/right-20261026.webp"
   ],
   "stock": 3000,
   "unitCostUsd": 25.1,
@@ -13819,8 +13819,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/nova-galaxy-swing-dress/front-20261025.webp",
     "/products/nova-galaxy-swing-dress/back-20261025.webp",
-    "/products/nova-galaxy-swing-dress/left-20261025.webp",
-    "/products/nova-galaxy-swing-dress/right-20261025.webp"
+    "/products/nova-galaxy-swing-dress/left-20261026.webp",
+    "/products/nova-galaxy-swing-dress/right-20261026.webp"
   ],
   "stock": 6000,
   "unitCostUsd": 28.98,
@@ -14263,8 +14263,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/oceana-galaxy-swing-dress/front-20261025.webp",
     "/products/oceana-galaxy-swing-dress/back-20261025.webp",
-    "/products/oceana-galaxy-swing-dress/left-20261025.webp",
-    "/products/oceana-galaxy-swing-dress/right-20261025.webp"
+    "/products/oceana-galaxy-swing-dress/left-20261026.webp",
+    "/products/oceana-galaxy-swing-dress/right-20261026.webp"
   ],
   "stock": 6000,
   "unitCostUsd": 28.98,
@@ -14522,8 +14522,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/noir-grid-maxi-dress/front-20261025.webp",
     "/products/noir-grid-maxi-dress/back-20261025.webp",
-    "/products/noir-grid-maxi-dress/left-20261025.webp",
-    "/products/noir-grid-maxi-dress/right-20261025.webp"
+    "/products/noir-grid-maxi-dress/left-20261026.webp",
+    "/products/noir-grid-maxi-dress/right-20261026.webp"
   ],
   "stock": 1194,
   "unitCostUsd": 13.14,
@@ -14841,8 +14841,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/noir-leaf-maxi-kaftan/front-20261025.webp",
     "/products/noir-leaf-maxi-kaftan/back-20261025.webp",
-    "/products/noir-leaf-maxi-kaftan/left-20261025.webp",
-    "/products/noir-leaf-maxi-kaftan/right-20261025.webp"
+    "/products/noir-leaf-maxi-kaftan/left-20261026.webp",
+    "/products/noir-leaf-maxi-kaftan/right-20261026.webp"
   ],
   "stock": 99998,
   "unitCostUsd": 27.63,
