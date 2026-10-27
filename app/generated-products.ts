@@ -16681,6 +16681,370 @@ const allGeneratedProducts: Product[] = [
   "stock": 393,
   "unitCostUsd": 27.81,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "odessa-polka-dot-halter-swing-dress-blue",
+  "name": "Odessa Polka Dot Halter Swing Dress — Blue",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Midi Dresses",
+  "price": 89.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#163bc2"
+  ],
+  "colorNames": [
+    "Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A sleeveless swing dress with a plain blue bodice, a flared skirt and front neck bow with white polka dots, and a narrow white waist belt with a rectangular buckle.",
+  "materials": "Smooth woven-look fabric with a solid bodice and polka-dot skirt and neck bow. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/odessa-polka-dot-halter-swing-dress-blue/front-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-blue/back-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-blue/left-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-blue/right-20261026.webp"
+  ],
+  "stock": 491,
+  "unitCostUsd": 29.95,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "odessa-polka-dot-halter-swing-dress-green",
+  "name": "Odessa Polka Dot Halter Swing Dress — Teal Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Midi Dresses",
+  "price": 89.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#178a87"
+  ],
+  "colorNames": [
+    "Teal Green"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A sleeveless swing dress with a plain teal green bodice, a flared skirt and front neck bow with white polka dots, and a narrow white waist belt with a rectangular buckle.",
+  "materials": "Smooth woven-look fabric with a solid bodice and polka-dot skirt and neck bow. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/odessa-polka-dot-halter-swing-dress-green/front-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-green/back-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-green/left-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-green/right-20261026.webp"
+  ],
+  "stock": 493,
+  "unitCostUsd": 29.95,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "odessa-polka-dot-halter-swing-dress-red",
+  "name": "Odessa Polka Dot Halter Swing Dress — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Midi Dresses",
+  "price": 89.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c51c37"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A sleeveless swing dress with a plain red bodice, a flared skirt and front neck bow with white polka dots, and a narrow white waist belt with a rectangular buckle.",
+  "materials": "Smooth woven-look fabric with a solid bodice and polka-dot skirt and neck bow. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/odessa-polka-dot-halter-swing-dress-red/front-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-red/back-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-red/left-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-red/right-20261026.webp"
+  ],
+  "stock": 480,
+  "unitCostUsd": 29.95,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "odessa-polka-dot-halter-swing-dress-black",
+  "name": "Odessa Polka Dot Halter Swing Dress — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Midi Dresses",
+  "price": 89.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A sleeveless swing dress with a plain black bodice, a flared skirt and front neck bow with white polka dots, and a narrow white waist belt with a rectangular buckle.",
+  "materials": "Smooth woven-look fabric with a solid bodice and polka-dot skirt and neck bow. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/odessa-polka-dot-halter-swing-dress-black/front-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-black/back-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-black/left-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-black/right-20261026.webp"
+  ],
+  "stock": 484,
+  "unitCostUsd": 29.95,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "odessa-polka-dot-halter-swing-dress-white",
+  "name": "Odessa Polka Dot Halter Swing Dress — White & Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Midi Dresses",
+  "price": 89.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f2f0ec"
+  ],
+  "colorNames": [
+    "White & Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A sleeveless swing dress with a plain black bodice, a white skirt and front neck bow with black polka dots, and a narrow white waist belt with a rectangular buckle.",
+  "materials": "Smooth woven-look fabric with a solid bodice and polka-dot skirt and neck bow. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/odessa-polka-dot-halter-swing-dress-white/front-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-white/back-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-white/left-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-white/right-20261026.webp"
+  ],
+  "stock": 495,
+  "unitCostUsd": 29.95,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "odessa-polka-dot-halter-swing-dress-lavender",
+  "name": "Odessa Polka Dot Halter Swing Dress — Lavender",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Midi Dresses",
+  "price": 89.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#aa7dca"
+  ],
+  "colorNames": [
+    "Lavender"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A sleeveless swing dress with a plain lavender bodice, a flared skirt and front neck bow with white polka dots, and a narrow white waist belt with a rectangular buckle.",
+  "materials": "Smooth woven-look fabric with a solid bodice and polka-dot skirt and neck bow. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/odessa-polka-dot-halter-swing-dress-lavender/front-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-lavender/back-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-lavender/left-20261026.webp",
+    "/products/odessa-polka-dot-halter-swing-dress-lavender/right-20261026.webp"
+  ],
+  "stock": 494,
+  "unitCostUsd": 29.95,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19",
+  "name": "Vionelle Lace Sleeve Mini Dress — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A mini dress with a softly draped neckline, a plain opaque body, fitted floral-lace sleeves and cuffs, and a translucent floral-lace band near the hem. Shown in black.",
+  "materials": "Plain opaque body with floral-lace sleeves, cuffs and hem insert. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19/front-20261026.webp",
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19/back-20261026.webp",
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19/left-20261026.webp",
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19/right-20261026.webp"
+  ],
+  "stock": 393,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "vionelle-lace-sleeve-asymmetric-mini-dress-plum-style-18",
+  "name": "Vionelle Lace Sleeve Mini Dress — Plum",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#6b294b"
+  ],
+  "colorNames": [
+    "Plum"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A mini dress with a softly draped neckline, a plain opaque body, fitted floral-lace sleeves and cuffs, and a translucent floral-lace band near the hem. Shown in plum.",
+  "materials": "Plain opaque body with floral-lace sleeves, cuffs and hem insert. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-plum-style-18/front-20261026.webp",
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-plum-style-18/back-20261026.webp",
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-plum-style-18/left-20261026.webp",
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-plum-style-18/right-20261026.webp"
+  ],
+  "stock": 396,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17",
+  "name": "Vionelle Lace Sleeve Mini Dress — Burgundy",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#7e1e32"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A mini dress with a softly draped neckline, a plain opaque body, fitted floral-lace sleeves and cuffs, and a translucent floral-lace band near the hem. Shown in burgundy.",
+  "materials": "Plain opaque body with floral-lace sleeves, cuffs and hem insert. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17/front-20261026.webp",
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17/back-20261026.webp",
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17/left-20261026.webp",
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17/right-20261026.webp"
+  ],
+  "stock": 392,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "vionelle-lace-sleeve-asymmetric-mini-dress-emerald-style-16",
+  "name": "Vionelle Lace Sleeve Mini Dress — Emerald",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#086548"
+  ],
+  "colorNames": [
+    "Emerald"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A mini dress with a softly draped neckline, a plain opaque body, fitted floral-lace sleeves and cuffs, and a translucent floral-lace band near the hem. Shown in emerald.",
+  "materials": "Plain opaque body with floral-lace sleeves, cuffs and hem insert. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-emerald-style-16/front-20261026.webp",
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-emerald-style-16/back-20261026.webp",
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-emerald-style-16/left-20261026.webp",
+    "/products/vionelle-lace-sleeve-asymmetric-mini-dress-emerald-style-16/right-20261026.webp"
+  ],
+  "stock": 396,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
 }
 ];
 
@@ -16689,6 +17053,17 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "odessa-polka-dot-halter-swing-dress-blue",
+  "odessa-polka-dot-halter-swing-dress-green",
+  "odessa-polka-dot-halter-swing-dress-red",
+  "odessa-polka-dot-halter-swing-dress-black",
+  "odessa-polka-dot-halter-swing-dress-white",
+  "odessa-polka-dot-halter-swing-dress-lavender",
+  "vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19",
+  "vionelle-lace-sleeve-asymmetric-mini-dress-plum-style-18",
+  "vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17",
+  "vionelle-lace-sleeve-asymmetric-mini-dress-emerald-style-16",
+
   "elowyn-embellished-sleeve-mini-dress-emerald-style-31",
   "elowyn-embellished-sleeve-mini-dress-black-style-29",
   "elowyn-embellished-sleeve-mini-dress-royal-blue-style-12",

@@ -445,5 +445,15 @@ export const octoberSourceLineage: Record<string, { sourceProductId: string; sou
   "elowyn-embellished-sleeve-mini-dress-royal-blue-style-12": {"sourceProductId": "3256810207199601", "sourceColor": "12"},
   "elowyn-embellished-sleeve-mini-dress-red-style-11": {"sourceProductId": "3256810207199601", "sourceColor": "11"},
   "elowyn-embellished-sleeve-mini-dress-navy-style-28": {"sourceProductId": "3256810207199601", "sourceColor": "28"},
-  "elowyn-embellished-sleeve-mini-dress-gold-style-10": {"sourceProductId": "3256810207199601", "sourceColor": "10"}
+  "elowyn-embellished-sleeve-mini-dress-gold-style-10": {"sourceProductId": "3256810207199601", "sourceColor": "10"},
+  "odessa-polka-dot-halter-swing-dress-blue": {"sourceProductId": "3256810033253722", "sourceColor": "Blue"},
+  "odessa-polka-dot-halter-swing-dress-green": {"sourceProductId": "3256810033253722", "sourceColor": "green"},
+  "odessa-polka-dot-halter-swing-dress-red": {"sourceProductId": "3256810033253722", "sourceColor": "Red"},
+  "odessa-polka-dot-halter-swing-dress-black": {"sourceProductId": "3256810033253722", "sourceColor": "black"},
+  "odessa-polka-dot-halter-swing-dress-white": {"sourceProductId": "3256810033253722", "sourceColor": "WHITE"},
+  "odessa-polka-dot-halter-swing-dress-lavender": {"sourceProductId": "3256810033253722", "sourceColor": "Lavender"},
+  "vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19": {"sourceProductId": "3256810207199601", "sourceColor": "19"},
+  "vionelle-lace-sleeve-asymmetric-mini-dress-plum-style-18": {"sourceProductId": "3256810207199601", "sourceColor": "18"},
+  "vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17": {"sourceProductId": "3256810207199601", "sourceColor": "17"},
+  "vionelle-lace-sleeve-asymmetric-mini-dress-emerald-style-16": {"sourceProductId": "3256810207199601", "sourceColor": "16"}
 };
