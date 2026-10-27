@@ -931,3 +931,15 @@ button { cursor: pointer; }
 .form-message-error{display:block;margin-top:14px;padding:14px 16px;border:1px solid #d7a69a;background:#fff5f2;color:#7b3428;font-size:12px;line-height:1.6}
 .add-button:disabled,.buy-button:disabled,.quantity-block button:disabled,.style-look-action button:disabled{opacity:.5;cursor:not-allowed}
 @media(max-width:560px){.contact-success{min-height:430px;padding:32px 22px}.contact-success h2{font-size:32px}}
+
+/* Saved pieces (favorites) */
+.product-title-row { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 8px 16px; }
+.product-title-row h1 { flex: 1 1 260px; min-width: 0; margin-right: auto; }
+.save-button { display: inline-flex; align-items: center; gap: 6px; flex: none; margin-top: 6px; padding: 8px 14px; border: 1px solid currentColor; border-radius: 99px; background: transparent; color: inherit; font: inherit; font-size: 13px; letter-spacing: .04em; cursor: pointer; }
+.save-button svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.6; }
+.save-button.saved svg { fill: currentColor; }
+.saved-link svg { fill: none; stroke: currentColor; stroke-width: 1.5; }
+.saved-empty { text-align: center; max-width: 520px; margin: 24px auto 0; line-height: 1.6; }
+.trust-line { display: block; margin: 10px 0; font-size: 12px; line-height: 1.55; }
+.trust-line small { display: block; margin-top: 2px; font-size: 11px; color: var(--muted, #6f6a64); }
+.trust-line a { text-decoration: underline; text-underline-offset: 2px; }

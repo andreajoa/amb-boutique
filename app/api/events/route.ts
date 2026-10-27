@@ -8,7 +8,7 @@ export const runtime = "nodejs";
 const allowedEvents = new Set([
   "session_start", "session_end", "page_view", "click", "scroll_depth", "heartbeat",
   "product_view", "size_guide_open", "add_to_cart", "cart_open", "style_look_add",
-  "checkout_start", "checkout_error", "newsletter_signup", "popup_signup", "purchase",
+  "checkout_start", "checkout_error", "newsletter_signup", "popup_signup", "purchase", "save_item",
 ]);
 
 // Funnel steps that may be counted without "Accept all" (no identity beyond the tab, see analytics-tracker.tsx).

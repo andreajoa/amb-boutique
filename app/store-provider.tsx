@@ -34,7 +34,7 @@ export type CartLine = {
 
 type AddOptions = { size: string; color: string; quantity: number; heelHeightCm?: number; offer?: OfferType };
 type AddEntry = { product: Product; options: AddOptions };
-type BehaviorEvent = "product_view" | "size_guide_open" | "add_to_cart" | "cart_open" | "style_look_add" | "checkout_start" | "checkout_error";
+type BehaviorEvent = "product_view" | "size_guide_open" | "add_to_cart" | "cart_open" | "style_look_add" | "checkout_start" | "checkout_error" | "save_item";
 
 type StoreContextValue = {
   cart: CartLine[];
