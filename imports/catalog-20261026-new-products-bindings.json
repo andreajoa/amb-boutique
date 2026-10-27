@@ -918,6 +918,358 @@
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
+    },
+    {
+      "slug": "odessa-polka-dot-halter-swing-dress-blue",
+      "sourceProductId": "3256810033253722",
+      "sourceColor": "Blue",
+      "sourceSkuIdsBySize": {
+        "S": "12000051656294216",
+        "M": "12000051656294217",
+        "L": "12000051656294218",
+        "XL": "12000051656294219",
+        "XXL": "12000051656294220"
+      },
+      "stockBySize": {
+        "S": 98,
+        "M": 97,
+        "L": 98,
+        "XL": 98,
+        "XXL": 100
+      },
+      "landedCostUsdBySize": {
+        "S": 29.95,
+        "M": 29.95,
+        "L": 29.95,
+        "XL": 29.95,
+        "XXL": 29.95
+      },
+      "retailPriceUsd": 89.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljsb5z00fr06idmla7ng0s",
+      "verifiedAtUtc": "2026-10-27T14:06:38.969Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "odessa-polka-dot-halter-swing-dress-green",
+      "sourceProductId": "3256810033253722",
+      "sourceColor": "green",
+      "sourceSkuIdsBySize": {
+        "S": "12000051656294221",
+        "M": "12000051656294222",
+        "L": "12000051656294223",
+        "XL": "12000051656294224",
+        "XXL": "12000051656294225"
+      },
+      "stockBySize": {
+        "S": 98,
+        "M": 98,
+        "L": 99,
+        "XL": 98,
+        "XXL": 100
+      },
+      "landedCostUsdBySize": {
+        "S": 29.95,
+        "M": 29.95,
+        "L": 29.95,
+        "XL": 29.95,
+        "XXL": 29.95
+      },
+      "retailPriceUsd": 89.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljsb5z00fr06idmla7ng0s",
+      "verifiedAtUtc": "2026-10-27T14:06:38.969Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "odessa-polka-dot-halter-swing-dress-red",
+      "sourceProductId": "3256810033253722",
+      "sourceColor": "Red",
+      "sourceSkuIdsBySize": {
+        "S": "12000051656294206",
+        "M": "12000051656294207",
+        "L": "12000051656294208",
+        "XL": "12000051656294209",
+        "XXL": "12000051656294210"
+      },
+      "stockBySize": {
+        "S": 87,
+        "M": 96,
+        "L": 99,
+        "XL": 98,
+        "XXL": 100
+      },
+      "landedCostUsdBySize": {
+        "S": 29.95,
+        "M": 29.95,
+        "L": 29.95,
+        "XL": 29.95,
+        "XXL": 29.95
+      },
+      "retailPriceUsd": 89.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljsb5z00fr06idmla7ng0s",
+      "verifiedAtUtc": "2026-10-27T14:06:38.969Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "odessa-polka-dot-halter-swing-dress-black",
+      "sourceProductId": "3256810033253722",
+      "sourceColor": "black",
+      "sourceSkuIdsBySize": {
+        "S": "12000051656294226",
+        "M": "12000051656294227",
+        "L": "12000051656294228",
+        "XL": "12000051656294229",
+        "XXL": "12000051656294230"
+      },
+      "stockBySize": {
+        "S": 95,
+        "M": 97,
+        "L": 99,
+        "XL": 95,
+        "XXL": 98
+      },
+      "landedCostUsdBySize": {
+        "S": 29.95,
+        "M": 29.95,
+        "L": 29.95,
+        "XL": 29.95,
+        "XXL": 29.95
+      },
+      "retailPriceUsd": 89.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljsb5z00fr06idmla7ng0s",
+      "verifiedAtUtc": "2026-10-27T14:06:38.969Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "odessa-polka-dot-halter-swing-dress-white",
+      "sourceProductId": "3256810033253722",
+      "sourceColor": "WHITE",
+      "sourceSkuIdsBySize": {
+        "S": "12000051656294231",
+        "M": "12000051656294232",
+        "L": "12000051656294233",
+        "XL": "12000051656294234",
+        "XXL": "12000051656294235"
+      },
+      "stockBySize": {
+        "S": 99,
+        "M": 99,
+        "L": 100,
+        "XL": 99,
+        "XXL": 98
+      },
+      "landedCostUsdBySize": {
+        "S": 29.95,
+        "M": 29.95,
+        "L": 29.95,
+        "XL": 29.95,
+        "XXL": 29.95
+      },
+      "retailPriceUsd": 89.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljsb5z00fr06idmla7ng0s",
+      "verifiedAtUtc": "2026-10-27T14:06:38.969Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "odessa-polka-dot-halter-swing-dress-lavender",
+      "sourceProductId": "3256810033253722",
+      "sourceColor": "Lavender",
+      "sourceSkuIdsBySize": {
+        "S": "12000051656294211",
+        "M": "12000051656294212",
+        "L": "12000051656294213",
+        "XL": "12000051656294214",
+        "XXL": "12000051656294215"
+      },
+      "stockBySize": {
+        "S": 97,
+        "M": 98,
+        "L": 100,
+        "XL": 100,
+        "XXL": 99
+      },
+      "landedCostUsdBySize": {
+        "S": 29.95,
+        "M": 29.95,
+        "L": 29.95,
+        "XL": 29.95,
+        "XXL": 29.95
+      },
+      "retailPriceUsd": 89.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljsb5z00fr06idmla7ng0s",
+      "verifiedAtUtc": "2026-10-27T14:06:38.969Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "19",
+      "sourceSkuIdsBySize": {
+        "S": "12000053435360280",
+        "M": "12000053435360281",
+        "L": "12000053435360282",
+        "XL": "12000053435360283",
+        "XXL": "12000053435360284",
+        "XXXL": "12000053435360285"
+      },
+      "stockBySize": {
+        "S": 65,
+        "M": 65,
+        "L": 65,
+        "XL": 66,
+        "XXL": 66,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-27T14:07:06.916Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "vionelle-lace-sleeve-asymmetric-mini-dress-plum-style-18",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "18",
+      "sourceSkuIdsBySize": {
+        "S": "12000053435360274",
+        "M": "12000053435360275",
+        "L": "12000053435360276",
+        "XL": "12000053435360277",
+        "XXL": "12000053435360278",
+        "XXXL": "12000053435360279"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 66,
+        "L": 66,
+        "XL": 66,
+        "XXL": 66,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-27T14:07:06.916Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "17",
+      "sourceSkuIdsBySize": {
+        "S": "12000053435360268",
+        "M": "12000053435360269",
+        "L": "12000053435360270",
+        "XL": "12000053435360271",
+        "XXL": "12000053435360272",
+        "XXXL": "12000053435360273"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 65,
+        "L": 64,
+        "XL": 66,
+        "XXL": 65,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-27T14:07:06.916Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "vionelle-lace-sleeve-asymmetric-mini-dress-emerald-style-16",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "16",
+      "sourceSkuIdsBySize": {
+        "S": "12000053435360262",
+        "M": "12000053435360263",
+        "L": "12000053435360264",
+        "XL": "12000053435360265",
+        "XXL": "12000053435360266",
+        "XXXL": "12000053435360267"
+      },
+      "stockBySize": {
+        "S": 66,
+        "M": 66,
+        "L": 66,
+        "XL": 66,
+        "XXL": 66,
+        "XXXL": 66
+      },
+      "landedCostUsdBySize": {
+        "S": 27.81,
+        "M": 27.81,
+        "L": 27.81,
+        "XL": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "retailPriceUsd": 83.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "verifiedAtUtc": "2026-10-27T14:07:06.916Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }

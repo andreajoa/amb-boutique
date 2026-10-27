@@ -68,6 +68,18 @@ for (const [suffix,color] of [['emerald-style-31','Emerald'],['black-style-29','
 cases.push({name:'Red Elowyn M cannot exceed its 64 units',items:[{slug:'elowyn-embellished-sleeve-mini-dress-red-style-11',size:'M',color:'Red',quantity:65}],expected:400});
 cases.push({name:'Welcome offer preserves the new Fiorenza 3x selling price',items:[{slug:'fiorenza-sequin-bodice-maxi-dress-green',size:'S',color:'Green',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,expectedUnitAmount:8590});
 cases.push({name:'Cart rewards preserve the new Elowyn 3x selling price',items:[{slug:'elowyn-embellished-sleeve-mini-dress-red-style-11',size:'M',color:'Red',quantity:2}],expected:200,expectedUnitAmount:8390});
+for (const [suffix,color] of [['blue','Blue'],['green','Teal Green'],['red','Red'],['black','Black'],['white','White & Black'],['lavender','Lavender']]) {
+  const slug='odessa-polka-dot-halter-swing-dress-'+suffix;
+  cases.push({name:slug+' uses the confirmed native XXL price',items:[{slug,size:'XXL',color,quantity:1,price:0.01}],expected:200,expectedUnitAmount:8990});
+}
+for (const [suffix,color] of [['black-style-19','Black'],['plum-style-18','Plum'],['burgundy-style-17','Burgundy'],['emerald-style-16','Emerald']]) {
+  const slug='vionelle-lace-sleeve-asymmetric-mini-dress-'+suffix;
+  cases.push({name:slug+' uses the confirmed native XXXL price',items:[{slug,size:'XXXL',color,quantity:1,price:0.01}],expected:200,expectedUnitAmount:8390});
+}
+cases.push({name:'Odessa does not inherit unavailable XXXL',items:[{slug:'odessa-polka-dot-halter-swing-dress-blue',size:'XXXL',color:'Blue',quantity:1}],expected:400});
+cases.push({name:'Vionelle rejects unavailable XS',items:[{slug:'vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19',size:'XS',color:'Black',quantity:1}],expected:400});
+cases.push({name:'Odessa welcome offer preserves 3x retail',items:[{slug:'odessa-polka-dot-halter-swing-dress-white',size:'S',color:'White & Black',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,expectedUnitAmount:8990});
+cases.push({name:'Odessa cart rewards preserve 3x retail',items:[{slug:'odessa-polka-dot-halter-swing-dress-blue',size:'S',color:'Blue',quantity:2}],expected:200,expectedUnitAmount:8990});
 const results=[];
 for(const c of cases){captured=null;const res=await POST({json:async()=>({items:c.items,market:'US',promotionCode:c.promotionCode}),nextUrl:{origin:'https://offline.example'}});results.push({case:c.name,productSlug:p.slug,catalogStock:p.stock,catalogSizes:p.sizes,catalogColors:p.colorNames,request:c.items,expectedStatus:c.expected,expectedUnitAmount:c.expectedUnitAmount,actualStatus:res.status,body:await res.json(),stripeFixtureCreated:!!captured,chargedUnitAmount:captured?.line_items?.[0]?.price_data?.unit_amount,chargedQuantity:captured?.line_items?.[0]?.quantity,chargedDescription:captured?.line_items?.[0]?.price_data?.product_data?.description});}
 for(const result of results){assert.equal(result.actualStatus,result.expectedStatus,result.case);if(result.expectedUnitAmount)assert.equal(result.chargedUnitAmount,result.expectedUnitAmount,result.case+' canonical price');assert.equal(result.stripeFixtureCreated,result.expectedStatus===200,result.case+' payment boundary');}console.log(JSON.stringify({passed:results.length,cases:results.map(r=>({name:r.case,status:r.actualStatus}))}));
