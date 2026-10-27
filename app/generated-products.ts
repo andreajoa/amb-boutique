@@ -16459,6 +16459,228 @@ const allGeneratedProducts: Product[] = [
   "stock": 396,
   "unitCostUsd": 27.81,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "elowyn-embellished-sleeve-mini-dress-emerald-style-31",
+  "name": "Elowyn Embellished Sleeve Mini Dress — Emerald",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#07583d"
+  ],
+  "colorNames": [
+    "Emerald"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a draped cowl neckline, a relaxed velvet-look body and long sheer sleeves with fine scattered dots and matching cuffs. Shown in emerald.",
+  "materials": "Velvet-look body and sheer dotted sleeves. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/elowyn-embellished-sleeve-mini-dress-emerald-style-31/front-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-emerald-style-31/back-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-emerald-style-31/left-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-emerald-style-31/right-20261026.webp"
+  ],
+  "stock": 396,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "elowyn-embellished-sleeve-mini-dress-black-style-29",
+  "name": "Elowyn Embellished Sleeve Mini Dress — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a draped cowl neckline, a relaxed velvet-look body and long sheer sleeves with fine scattered dots and matching cuffs. Shown in black.",
+  "materials": "Velvet-look body and sheer dotted sleeves. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/elowyn-embellished-sleeve-mini-dress-black-style-29/front-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-black-style-29/back-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-black-style-29/left-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-black-style-29/right-20261026.webp"
+  ],
+  "stock": 396,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "elowyn-embellished-sleeve-mini-dress-royal-blue-style-12",
+  "name": "Elowyn Embellished Sleeve Mini Dress — Royal Blue",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#153bb3"
+  ],
+  "colorNames": [
+    "Royal Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a draped cowl neckline, a relaxed velvet-look body and long densely sequin-embellished sleeves gathered into matching cuffs. Shown in royal blue.",
+  "materials": "Velvet-look body and densely sequin-embellished sleeves. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/elowyn-embellished-sleeve-mini-dress-royal-blue-style-12/front-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-royal-blue-style-12/back-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-royal-blue-style-12/left-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-royal-blue-style-12/right-20261026.webp"
+  ],
+  "stock": 394,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "elowyn-embellished-sleeve-mini-dress-red-style-11",
+  "name": "Elowyn Embellished Sleeve Mini Dress — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#aa1630"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a draped cowl neckline, a relaxed velvet-look body and long densely sequin-embellished sleeves gathered into matching cuffs. Shown in red.",
+  "materials": "Velvet-look body and densely sequin-embellished sleeves. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/elowyn-embellished-sleeve-mini-dress-red-style-11/front-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-red-style-11/back-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-red-style-11/left-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-red-style-11/right-20261026.webp"
+  ],
+  "stock": 392,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "elowyn-embellished-sleeve-mini-dress-navy-style-28",
+  "name": "Elowyn Embellished Sleeve Mini Dress — Navy",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#16213e"
+  ],
+  "colorNames": [
+    "Navy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a draped cowl neckline, a relaxed velvet-look body and long sheer sleeves with fine scattered dots and matching cuffs. Shown in navy.",
+  "materials": "Velvet-look body and sheer dotted sleeves. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/elowyn-embellished-sleeve-mini-dress-navy-style-28/front-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-navy-style-28/back-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-navy-style-28/left-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-navy-style-28/right-20261026.webp"
+  ],
+  "stock": 396,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "elowyn-embellished-sleeve-mini-dress-gold-style-10",
+  "name": "Elowyn Embellished Sleeve Mini Dress — Gold",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#bb8b30"
+  ],
+  "colorNames": [
+    "Gold"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a draped cowl neckline, a relaxed velvet-look body and long densely sequin-embellished sleeves gathered into matching cuffs. Shown in gold.",
+  "materials": "Velvet-look body and densely sequin-embellished sleeves. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/elowyn-embellished-sleeve-mini-dress-gold-style-10/front-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-gold-style-10/back-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-gold-style-10/left-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-gold-style-10/right-20261026.webp"
+  ],
+  "stock": 393,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
 }
 ];
 
@@ -16467,6 +16689,13 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "elowyn-embellished-sleeve-mini-dress-emerald-style-31",
+  "elowyn-embellished-sleeve-mini-dress-black-style-29",
+  "elowyn-embellished-sleeve-mini-dress-royal-blue-style-12",
+  "elowyn-embellished-sleeve-mini-dress-red-style-11",
+  "elowyn-embellished-sleeve-mini-dress-navy-style-28",
+  "elowyn-embellished-sleeve-mini-dress-gold-style-10",
+
   "evelisse-cowl-neck-velvet-mini-dress-champagne-style-05",
   "elowyn-embellished-sleeve-mini-dress-pink-style-14",
   "elowyn-embellished-sleeve-mini-dress-burgundy-style-30",

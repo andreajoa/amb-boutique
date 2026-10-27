@@ -439,5 +439,11 @@ export const octoberSourceLineage: Record<string, { sourceProductId: string; sou
   "evelisse-cowl-neck-velvet-mini-dress-champagne-style-05": {"sourceProductId": "3256810207199601", "sourceColor": "05"},
   "elowyn-embellished-sleeve-mini-dress-pink-style-14": {"sourceProductId": "3256810207199601", "sourceColor": "14"},
   "elowyn-embellished-sleeve-mini-dress-burgundy-style-30": {"sourceProductId": "3256810207199601", "sourceColor": "30"},
-  "elowyn-embellished-sleeve-mini-dress-charcoal-style-13": {"sourceProductId": "3256810207199601", "sourceColor": "13"}
+  "elowyn-embellished-sleeve-mini-dress-charcoal-style-13": {"sourceProductId": "3256810207199601", "sourceColor": "13"},
+  "elowyn-embellished-sleeve-mini-dress-emerald-style-31": {"sourceProductId": "3256810207199601", "sourceColor": "31"},
+  "elowyn-embellished-sleeve-mini-dress-black-style-29": {"sourceProductId": "3256810207199601", "sourceColor": "29"},
+  "elowyn-embellished-sleeve-mini-dress-royal-blue-style-12": {"sourceProductId": "3256810207199601", "sourceColor": "12"},
+  "elowyn-embellished-sleeve-mini-dress-red-style-11": {"sourceProductId": "3256810207199601", "sourceColor": "11"},
+  "elowyn-embellished-sleeve-mini-dress-navy-style-28": {"sourceProductId": "3256810207199601", "sourceColor": "28"},
+  "elowyn-embellished-sleeve-mini-dress-gold-style-10": {"sourceProductId": "3256810207199601", "sourceColor": "10"}
 };

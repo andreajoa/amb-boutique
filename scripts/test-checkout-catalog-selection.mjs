@@ -61,6 +61,11 @@ for (const [slug,color] of [
   cases.push({name:slug+' uses confirmed canonical price',items:[{slug,size:'XXXL',color,quantity:1,price:0.01}],expected:200,expectedUnitAmount:8390});
 }
 cases.push({name:'Champagne velvet rejects unavailable XS',items:[{slug:'evelisse-cowl-neck-velvet-mini-dress-champagne-style-05',size:'XS',color:'Champagne',quantity:1}],expected:400});
+for (const [suffix,color] of [['emerald-style-31','Emerald'],['black-style-29','Black'],['royal-blue-style-12','Royal Blue'],['red-style-11','Red'],['navy-style-28','Navy'],['gold-style-10','Gold']]) {
+  const slug='elowyn-embellished-sleeve-mini-dress-'+suffix;
+  cases.push({name:slug+' charges the canonical 3x retail price',items:[{slug,size:'S',color,quantity:1,price:0.01}],expected:200,expectedUnitAmount:8390});
+}
+cases.push({name:'Red Elowyn M cannot exceed its 64 units',items:[{slug:'elowyn-embellished-sleeve-mini-dress-red-style-11',size:'M',color:'Red',quantity:65}],expected:400});
 const results=[];
 for(const c of cases){captured=null;const res=await POST({json:async()=>({items:c.items,market:'US'}),nextUrl:{origin:'https://offline.example'}});results.push({case:c.name,productSlug:p.slug,catalogStock:p.stock,catalogSizes:p.sizes,catalogColors:p.colorNames,request:c.items,expectedStatus:c.expected,expectedUnitAmount:c.expectedUnitAmount,actualStatus:res.status,body:await res.json(),stripeFixtureCreated:!!captured,chargedUnitAmount:captured?.line_items?.[0]?.price_data?.unit_amount,chargedQuantity:captured?.line_items?.[0]?.quantity,chargedDescription:captured?.line_items?.[0]?.price_data?.product_data?.description});}
 for(const result of results){assert.equal(result.actualStatus,result.expectedStatus,result.case);if(result.expectedUnitAmount)assert.equal(result.chargedUnitAmount,result.expectedUnitAmount,result.case+' canonical price');assert.equal(result.stripeFixtureCreated,result.expectedStatus===200,result.case+' payment boundary');}console.log(JSON.stringify({passed:results.length,cases:results.map(r=>({name:r.case,status:r.actualStatus}))}));
