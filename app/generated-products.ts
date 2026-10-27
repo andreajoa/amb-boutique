@@ -16311,6 +16311,154 @@ const allGeneratedProducts: Product[] = [
   "stock": 393,
   "unitCostUsd": 26.08,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "evelisse-cowl-neck-velvet-mini-dress-champagne-style-05",
+  "name": "Evelisse Cowl Neck Velvet Mini Dress — Champagne",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c49c62"
+  ],
+  "colorNames": [
+    "Champagne"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a soft draped cowl neckline, long opaque sleeves and a relaxed velvet-look body. Shown in champagne.",
+  "materials": "Soft velvet-look fabric with an opaque finish. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/evelisse-cowl-neck-velvet-mini-dress-champagne-style-05/front-20261026.webp",
+    "/products/evelisse-cowl-neck-velvet-mini-dress-champagne-style-05/back-20261026.webp",
+    "/products/evelisse-cowl-neck-velvet-mini-dress-champagne-style-05/left-20261026.webp",
+    "/products/evelisse-cowl-neck-velvet-mini-dress-champagne-style-05/right-20261026.webp"
+  ],
+  "stock": 388,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "elowyn-embellished-sleeve-mini-dress-pink-style-14",
+  "name": "Elowyn Embellished Sleeve Mini Dress — Pink",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c17c98"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a draped cowl neckline, a relaxed velvet-look body and long pink sequin-embellished sleeves gathered into matching cuffs. Shown in pink.",
+  "materials": "Velvet-look body and densely embellished sleeves with a pink sequin finish. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/elowyn-embellished-sleeve-mini-dress-pink-style-14/front-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-pink-style-14/back-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-pink-style-14/left-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-pink-style-14/right-20261026.webp"
+  ],
+  "stock": 395,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "elowyn-embellished-sleeve-mini-dress-burgundy-style-30",
+  "name": "Elowyn Embellished Sleeve Mini Dress — Burgundy",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#781a30"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a draped cowl neckline, a relaxed velvet-look body and long sheer burgundy sleeves with fine gold-tone dots and matching cuffs. Shown in burgundy.",
+  "materials": "Velvet-look body and sheer dotted sleeves. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/elowyn-embellished-sleeve-mini-dress-burgundy-style-30/front-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-burgundy-style-30/back-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-burgundy-style-30/left-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-burgundy-style-30/right-20261026.webp"
+  ],
+  "stock": 395,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "elowyn-embellished-sleeve-mini-dress-charcoal-style-13",
+  "name": "Elowyn Embellished Sleeve Mini Dress — Charcoal",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#333538"
+  ],
+  "colorNames": [
+    "Charcoal"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An above-knee dress with a draped cowl neckline, a relaxed velvet-look body and long dark textured embellished sleeves gathered into matching cuffs. Shown in charcoal.",
+  "materials": "Velvet-look body with densely textured embellished sleeves. Exact composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/elowyn-embellished-sleeve-mini-dress-charcoal-style-13/front-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-charcoal-style-13/back-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-charcoal-style-13/left-20261026.webp",
+    "/products/elowyn-embellished-sleeve-mini-dress-charcoal-style-13/right-20261026.webp"
+  ],
+  "stock": 396,
+  "unitCostUsd": 27.81,
+  "minimumMarginPercent": 40
 }
 ];
 
@@ -16319,6 +16467,10 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "evelisse-cowl-neck-velvet-mini-dress-champagne-style-05",
+  "elowyn-embellished-sleeve-mini-dress-pink-style-14",
+  "elowyn-embellished-sleeve-mini-dress-burgundy-style-30",
+  "elowyn-embellished-sleeve-mini-dress-charcoal-style-13",
   "evelisse-cowl-neck-velvet-mini-dress-emerald-style-07",
   "evelisse-cowl-neck-velvet-mini-dress-royal-blue-style-06",
   "evelisse-cowl-neck-velvet-mini-dress-burgundy-style-23",

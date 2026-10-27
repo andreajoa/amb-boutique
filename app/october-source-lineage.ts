@@ -435,5 +435,9 @@ export const octoberSourceLineage: Record<string, { sourceProductId: string; sou
   "evelisse-cowl-neck-velvet-mini-dress-emerald-style-07": {"sourceProductId": "3256810207199601", "sourceColor": "07"},
   "evelisse-cowl-neck-velvet-mini-dress-royal-blue-style-06": {"sourceProductId": "3256810207199601", "sourceColor": "06"},
   "evelisse-cowl-neck-velvet-mini-dress-burgundy-style-23": {"sourceProductId": "3256810207199601", "sourceColor": "23"},
-  "evelisse-cowl-neck-velvet-mini-dress-black-style-22": {"sourceProductId": "3256810207199601", "sourceColor": "22"}
+  "evelisse-cowl-neck-velvet-mini-dress-black-style-22": {"sourceProductId": "3256810207199601", "sourceColor": "22"},
+  "evelisse-cowl-neck-velvet-mini-dress-champagne-style-05": {"sourceProductId": "3256810207199601", "sourceColor": "05"},
+  "elowyn-embellished-sleeve-mini-dress-pink-style-14": {"sourceProductId": "3256810207199601", "sourceColor": "14"},
+  "elowyn-embellished-sleeve-mini-dress-burgundy-style-30": {"sourceProductId": "3256810207199601", "sourceColor": "30"},
+  "elowyn-embellished-sleeve-mini-dress-charcoal-style-13": {"sourceProductId": "3256810207199601", "sourceColor": "13"}
 };
