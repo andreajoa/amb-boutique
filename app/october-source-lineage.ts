@@ -455,5 +455,10 @@ export const octoberSourceLineage: Record<string, { sourceProductId: string; sou
   "vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19": {"sourceProductId": "3256810207199601", "sourceColor": "19"},
   "vionelle-lace-sleeve-asymmetric-mini-dress-plum-style-18": {"sourceProductId": "3256810207199601", "sourceColor": "18"},
   "vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17": {"sourceProductId": "3256810207199601", "sourceColor": "17"},
-  "vionelle-lace-sleeve-asymmetric-mini-dress-emerald-style-16": {"sourceProductId": "3256810207199601", "sourceColor": "16"}
+  "vionelle-lace-sleeve-asymmetric-mini-dress-emerald-style-16": {"sourceProductId": "3256810207199601", "sourceColor": "16"},
+  "rosaline-rosette-corset-mini-dress-yellow": {"sourceProductId":"3256807496697128","sourceColor":"YELLOW"},
+  "rosaline-rosette-corset-mini-dress-black": {"sourceProductId":"3256807496697128","sourceColor":"black"},
+  "rosaline-rosette-corset-mini-dress-red-high-end-fabric": {"sourceProductId":"3256807496697128","sourceColor":"Red High-end Fabric"},
+  "rosaline-rosette-corset-mini-dress-hot-pink": {"sourceProductId":"3256807496697128","sourceColor":"Hot pink"},
+  "rosaline-rosette-corset-mini-dress-red-bandage-fabric": {"sourceProductId":"3256807496697128","sourceColor":"Red Bandage Fabric"}
 };

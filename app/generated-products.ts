@@ -17045,6 +17045,177 @@ const allGeneratedProducts: Product[] = [
   "stock": 396,
   "unitCostUsd": 27.81,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "rosaline-rosette-corset-mini-dress-yellow",
+  "name": "Rosaline Rosette Corset Mini Dress — Yellow",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 210.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#ecd75d"
+  ],
+  "colorNames": [
+    "Yellow"
+  ],
+  "sizes": [
+    "L"
+  ],
+  "description": "A strapless mini dress with shaped cups, a fitted corset-style silhouette and rosette detailing at the hips. Shown in yellow with structured seam detailing.",
+  "materials": "Structured fabric with rosette appliqués. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/rosaline-rosette-corset-mini-dress-yellow/front-20261026.webp",
+    "/products/rosaline-rosette-corset-mini-dress-yellow/back-20261026.webp",
+    "/products/rosaline-rosette-corset-mini-dress-yellow/left-20261026.webp",
+    "/products/rosaline-rosette-corset-mini-dress-yellow/right-20261026.webp"
+  ],
+  "stock": 3,
+  "unitCostUsd": 69.98,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "rosaline-rosette-corset-mini-dress-black",
+  "name": "Rosaline Rosette Corset Mini Dress — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 210.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A strapless mini dress with a straight neckline, a fitted corset-style silhouette and rosette detailing at the hips. Shown in black with structured seam detailing.",
+  "materials": "Structured fabric with rosette appliqués. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/rosaline-rosette-corset-mini-dress-black/front-20261026.webp",
+    "/products/rosaline-rosette-corset-mini-dress-black/back-20261026.webp",
+    "/products/rosaline-rosette-corset-mini-dress-black/left-20261026.webp",
+    "/products/rosaline-rosette-corset-mini-dress-black/right-20261026.webp"
+  ],
+  "stock": 11,
+  "unitCostUsd": 69.98,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "rosaline-rosette-corset-mini-dress-red-high-end-fabric",
+  "name": "Rosaline Rosette Corset Mini Dress — Red Smooth",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 210.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c3263a"
+  ],
+  "colorNames": [
+    "Red Smooth"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A strapless mini dress with shaped cups, a fitted corset-style silhouette and rosette detailing at the hips. Shown in red smooth with a smooth-looking surface and subtle corset seam detailing.",
+  "materials": "Structured fabric with rosette appliqués. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/rosaline-rosette-corset-mini-dress-red-high-end-fabric/front-20261026.webp",
+    "/products/rosaline-rosette-corset-mini-dress-red-high-end-fabric/back-20261026.webp",
+    "/products/rosaline-rosette-corset-mini-dress-red-high-end-fabric/left-20261026.webp",
+    "/products/rosaline-rosette-corset-mini-dress-red-high-end-fabric/right-20261026.webp"
+  ],
+  "stock": 14,
+  "unitCostUsd": 69.98,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "rosaline-rosette-corset-mini-dress-hot-pink",
+  "name": "Rosaline Rosette Corset Mini Dress — Hot Pink",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 210.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#ed3589"
+  ],
+  "colorNames": [
+    "Hot Pink"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A strapless mini dress with shaped cups, a fitted corset-style silhouette and rosette detailing at the hips. Shown in hot pink with structured seam detailing.",
+  "materials": "Structured fabric with rosette appliqués. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/rosaline-rosette-corset-mini-dress-hot-pink/front-20261026.webp",
+    "/products/rosaline-rosette-corset-mini-dress-hot-pink/back-20261026.webp",
+    "/products/rosaline-rosette-corset-mini-dress-hot-pink/left-20261026.webp",
+    "/products/rosaline-rosette-corset-mini-dress-hot-pink/right-20261026.webp"
+  ],
+  "stock": 78,
+  "unitCostUsd": 69.98,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "rosaline-rosette-corset-mini-dress-red-bandage-fabric",
+  "name": "Rosaline Rosette Corset Mini Dress — Red Ribbed",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 204.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c22e3c"
+  ],
+  "colorNames": [
+    "Red Ribbed"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A strapless mini dress with shaped cups, a fitted corset-style silhouette and rosette detailing at the hips. Shown in red ribbed with pronounced raised cup and vertical seam detailing.",
+  "materials": "Structured fabric with rosette appliqués. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/rosaline-rosette-corset-mini-dress-red-bandage-fabric/front-20261026.webp",
+    "/products/rosaline-rosette-corset-mini-dress-red-bandage-fabric/back-20261026.webp",
+    "/products/rosaline-rosette-corset-mini-dress-red-bandage-fabric/left-20261026.webp",
+    "/products/rosaline-rosette-corset-mini-dress-red-bandage-fabric/right-20261026.webp"
+  ],
+  "stock": 107,
+  "unitCostUsd": 67.98,
+  "minimumMarginPercent": 40
 }
 ];
 
@@ -17053,6 +17224,12 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "rosaline-rosette-corset-mini-dress-yellow",
+  "rosaline-rosette-corset-mini-dress-black",
+  "rosaline-rosette-corset-mini-dress-red-high-end-fabric",
+  "rosaline-rosette-corset-mini-dress-hot-pink",
+  "rosaline-rosette-corset-mini-dress-red-bandage-fabric",
+
   "odessa-polka-dot-halter-swing-dress-blue",
   "odessa-polka-dot-halter-swing-dress-green",
   "odessa-polka-dot-halter-swing-dress-red",

@@ -1,25 +1,15 @@
-# Final local batch prepared; publication blocked
+# Current catalogue release — Rosaline five (2026-10-27)
 
-All38 October4 colour products approved and active LOCAL, catalogue482=444established+38batch. Production remains467=444+23;15newproducts and100standardSKU Managerbindings NOT deployed/applied.
+Prepared locally: 677 products, preserving all 672 production catalogue objects and the 93 products reserved for Claude. Production last confirmed: 672 products, 402 operational bridge bindings, 36 new products completed. The five Rosaline products remain pending production verification and binding application.
 
-Final15galleries:60new generated selected images, four true views each,1600×1600WebP exported to sRGB. Independent gallery_review approved60exact SHA-256. No visual MAJOR/BLOCKER; minor tight vertical margins, garments intact. Hidden-angle reconstructions expressly authorized; not physically verified.
+Independent gallery review accepted 20 distinct original images and all 20 technical exports (1600 × 1600, sRGB ICC, WebP quality 92); all ten profiles face opposite frame edges. Back lacing is documented as a family-reference inference. Red Smooth and Red Ribbed are observed commercial options, without fiber-composition or superior-quality claims.
 
-Independent data audit PASS:482 local products,444baseline full hashes +23prior full/economic hashes unchanged,100native standardSKU identities/costs/prices/stock/attributes,60public image hashes,9preparation notices. CalienneRed350captured units; current live stock not freshly verified. Existing126active batchSKUs disjoint from100pending.
+Official Rosaline quote: 2026-10-27T19:03:50.634Z, US/USD, item plus confirmed freight, 25 exact native SKUs. Release offers all 16 positive SKUs with 213 units capped at the minimum of canonical, supplier and official quoted stock. Four products sell at $210.90 (maximum landed cost $69.98); Red Ribbed sells at $204.90 (cost $67.98). Prices are at least 3 times confirmed landed cost. Zero-stock sizes are omitted.
 
-Verification: final Next.js build541 +TypeScript PASS, scopedlint PASS, catalogue482 PASS, Managercatalogue482 auth/source-preservation PASS, sizepricing/invalid/forged selections PASS, canonical fulfillment extended/mixed baskets +normal5market baseline parity +JSON-LD +confirmation snapshots PASS offline. Merchantfeeds emit no incompatible handling/transit promises. No real payment/order/email/repricing performed.
+Separate bounded inventory maintenance changed only two previously unbound new SKUs: Rosaline Red High-end Fabric/S to 5 and Asteria green/XL to 7. A serializable full-row CAS transaction, private backup and independent post-commit SELECT verified all other fields, source siblings, mappings, 402 bridge bindings and protected identities unchanged. No order, payment or global supplier refresh was performed.
 
-BLOCKER: external publication and Managerbinding application. Root GitHub create_branch/update_file rejected by automatic approval: approval required but approval_policy=never. No15product deployment. Read-only GitHub main confirms touched baseline application blobs unchanged except already-published Pinterestlayout.
+Validation: catalogue preservation and four-view tests pass; all 83 real checkout-handler cases pass with external network and payment providers mocked; production build passes (738 routes). Scoped lint covers the changed catalogue/lineage/test files. Full repository lint has two existing errors in unchanged product-reviews.tsx and track-order/page.tsx; these belong to the incoming baseline and were not modified by this release.
 
-Runtime limitation: local production server failed listen EPERM127.0.0.1:3048; browserdaemon unavailable. PDPs require runtime (searchParams), so no PDP HTML render/browser/interactions/screenshots PASS is claimed. Remaining bag/cart/checkout/purchase-start verification needs localserving or deployedpreview, withoutpayment.
+Reviewed plan SHA-256: ffca74b87be3468b867d5b637bc46f0588981e59af99b70e7971abeda574b940. Operational binder is SELECT-only by default; application requires matching plan hash, fresh production proof and official quote, per-SKU active mapping/inventory guards, whole-store CAS and readback preserving all prior bindings.
 
-Pinterest separately reached production via PR47,commit18c107401d405aec294ff162203fcb3e4c11d96f,READY deploymentdpl_BrfRDCbnkgj44eZCvXNspYRWiaUx with bothdomainaliases. Exact token in deployed main source; local layout matches deployed blob and finalbuilt homepagehead contains exactlyone tag. User notified Claim my website ready based on source/deployment evidence, explicitly disclosing direct publicHTMLfetch unavailable. Accountclaim not performed.
-
-Resume: do NOT regenerate60approved images or reprice253SKUs. Publish reviewed localcommit whenGitHubwrites available; preserve Pinteresttag; verify15live pages/60assets and444+23preservation; sync482Managercatalogue, apply15bridge mappings/100standardSKUs atomically preserving currentbindings, refresh native inventory, verify purchase-start/fulfillment withoutpayment. Preserve70.55oz weights and international64oz carrier-quote guard.
-
-# Historical production release — before final local preparation
-
-READY WITH MINOR ITEMS para os23 produtos publicados; lote completo38 ainda incompleto por15 referências ausentes. BLOCKER0/MAJOR0 no escopo liberado; MINOR2 preexistentes no checkout (drawer aberto e largura aparente Stripe).
-
-Catálogo467 =444 registros anteriores inalterados +23 aprovados. Galerias92/92 verificadas em produção; fonte/estoque/preço126/126 SKU conferidos; bindings23/23; bindings anteriores152/152 preservados. Build526, TypeScript, lint pertinente, testes/API/checkout e revisão independente desktop/mobile passaram. Produçãodpl_CvTPfWMgkDZrgJNyyq4SunDCuZon, commitf61a50c6c030ff153704cfaa66fbd2230ca1f147.
-
-Checkout real de produção Calista S abre Stripe/entrega/pagamento sem dados pessoais ou pagamento submetido. Uma sessão não paga de teste. Manager scan normal completo467; não é declaração de CI amplo100%. Referências pendentes detalhadas no handoff.
+Remaining release gates: exact merged deployment READY; five public pages and 20 matching asset hashes, feed and sitemap; guarded bridge application and independent post-publication SELECT. Increment progress only after these pass. Known global missing-product total remains uncertified; do not confuse the bounded list of 64 candidates with a complete global reconciliation.
