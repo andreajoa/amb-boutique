@@ -30,7 +30,8 @@ function Stars({ rating }: { rating: number }) {
 export function ProductReviews({ product }: { product: Product }) {
   const [data, setData] = useState<ReviewResponse>(emptyData);
   const [loading, setLoading] = useState(true);
-  const [formOpen, setFormOpen] = useState(false);
+  // Post-delivery review e-mails link to #write-review so a real buyer lands on the open form.
+  const [formOpen, setFormOpen] = useState(() => typeof window !== "undefined" && window.location.hash === "#write-review");
   const [name, setName] = useState("");
   const [rating, setRating] = useState(5);
   const [review, setReview] = useState("");
@@ -76,7 +77,34 @@ export function ProductReviews({ product }: { product: Product }) {
     }
   }
 
-  return <section className={styles.section} aria-labelledby={`reviews-${product.slug}`}>
+  const reviewForm = () => <div className={styles.formWrap}>
+        <div className={styles.productRef}>
+          <div className={styles.productThumb} style={productStyle}>{directImage && <Image src={directImage} alt="" fill sizes="72px"/>}</div>
+          <div><span>You are reviewing</span><strong>{product.name}</strong></div>
+        </div>
+        <form className={styles.form} onSubmit={submitReview}>
+          <div className={`${styles.field} ${styles.honeypot}`} aria-hidden="true"><label htmlFor={`company-${product.slug}`}>Company</label><input id={`company-${product.slug}`} value={company} onChange={(event) => setCompany(event.target.value)} tabIndex={-1} autoComplete="off"/></div>
+          <div className={styles.field}><label htmlFor={`review-name-${product.slug}`}>Your name</label><input id={`review-name-${product.slug}`} value={name} onChange={(event) => setName(event.target.value)} minLength={2} maxLength={80} required autoComplete="name"/></div>
+          <div><span className={styles.ratingLabel}>Your rating</span><div className={styles.ratingButtons} role="group" aria-label="Star rating">{[1,2,3,4,5].map((value) => <button type="button" key={value} className={value <= rating ? styles.active : ""} onClick={() => setRating(value)} aria-label={`${value} ${value === 1 ? "star" : "stars"}`}>★</button>)}</div></div>
+          <div className={styles.field}><label htmlFor={`review-body-${product.slug}`}>Your review</label><textarea id={`review-body-${product.slug}`} value={review} onChange={(event) => setReview(event.target.value)} minLength={10} maxLength={2000} required placeholder="Tell us what you loved, how it fit, or anything another shopper should know."/></div>
+          {error && <p className={`${styles.notice} ${styles.error}`} role="alert">{error}</p>}
+          <p className={styles.notice}>Reviews are checked before publication to keep this space useful and trustworthy.</p>
+          <div className={styles.actions}><button type="submit" disabled={submitting}>{submitting ? "Submitting…" : "Submit review"}</button><button type="button" className={styles.secondary} onClick={() => setFormOpen(false)} disabled={submitting}>Cancel</button></div>
+        </form>
+      </div>;
+
+  // Never show empty stars or a "0 reviews" block: until the first approved review exists,
+  // only a discreet invitation (and the form, when opened) is rendered.
+  if (loading) return null;
+  if (!data.count) return <section className={styles.section} id="write-review" aria-label={`Review ${product.name}`}>
+    <div className={styles.inner}>
+      {!formOpen && !success && <p className={styles.notice}>Bought this piece? <button type="button" className={styles.secondary} onClick={() => { setSuccess(false); setFormOpen(true); }}>Write a review</button></p>}
+      {formOpen && reviewForm()}
+      {success && <p className={styles.success} role="status"><strong>Thank you.</strong> Your review was received and will appear here after it is approved.</p>}
+    </div>
+  </section>;
+
+  return <section className={styles.section} id="write-review" aria-labelledby={`reviews-${product.slug}`}>
     <div className={styles.inner}>
       <div className={styles.heading}>
         <div>
@@ -103,21 +131,7 @@ export function ProductReviews({ product }: { product: Product }) {
         </article>)}</div>
       </>}
 
-      {formOpen && <div className={styles.formWrap}>
-        <div className={styles.productRef}>
-          <div className={styles.productThumb} style={productStyle}>{directImage && <Image src={directImage} alt="" fill sizes="72px"/>}</div>
-          <div><span>You are reviewing</span><strong>{product.name}</strong></div>
-        </div>
-        <form className={styles.form} onSubmit={submitReview}>
-          <div className={`${styles.field} ${styles.honeypot}`} aria-hidden="true"><label htmlFor={`company-${product.slug}`}>Company</label><input id={`company-${product.slug}`} value={company} onChange={(event) => setCompany(event.target.value)} tabIndex={-1} autoComplete="off"/></div>
-          <div className={styles.field}><label htmlFor={`review-name-${product.slug}`}>Your name</label><input id={`review-name-${product.slug}`} value={name} onChange={(event) => setName(event.target.value)} minLength={2} maxLength={80} required autoComplete="name"/></div>
-          <div><span className={styles.ratingLabel}>Your rating</span><div className={styles.ratingButtons} role="group" aria-label="Star rating">{[1,2,3,4,5].map((value) => <button type="button" key={value} className={value <= rating ? styles.active : ""} onClick={() => setRating(value)} aria-label={`${value} ${value === 1 ? "star" : "stars"}`}>★</button>)}</div></div>
-          <div className={styles.field}><label htmlFor={`review-body-${product.slug}`}>Your review</label><textarea id={`review-body-${product.slug}`} value={review} onChange={(event) => setReview(event.target.value)} minLength={10} maxLength={2000} required placeholder="Tell us what you loved, how it fit, or anything another shopper should know."/></div>
-          {error && <p className={`${styles.notice} ${styles.error}`} role="alert">{error}</p>}
-          <p className={styles.notice}>Reviews are checked before publication to keep this space useful and trustworthy.</p>
-          <div className={styles.actions}><button type="submit" disabled={submitting}>{submitting ? "Submitting…" : "Submit review"}</button><button type="button" className={styles.secondary} onClick={() => setFormOpen(false)} disabled={submitting}>Cancel</button></div>
-        </form>
-      </div>}
+      {formOpen && reviewForm()}
 
       {success && <p className={styles.success} role="status"><strong>Thank you.</strong> Your review was received and will appear here after it is approved.</p>}
     </div>

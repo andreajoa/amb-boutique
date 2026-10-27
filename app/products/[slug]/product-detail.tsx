@@ -15,6 +15,7 @@ import { createCompleteLook } from "../../recommendations";
 import { StyleMatches } from "../../style-matches";
 import { ProductReviews } from "../../product-reviews";
 import { PaymentMarks } from "../../payment-marks";
+import { deliveryWindows, markets } from "../../commerce";
 
 const defaultSizes = ["2", "4", "6", "8", "10", "12"];
 const defaultColors = [
@@ -57,7 +58,10 @@ export default function ProductDetail({
   const lightboxRef = useRef<HTMLDivElement>(null);
   const lightboxCloseRef = useRef<HTMLButtonElement>(null);
   const lightboxReturnFocus = useRef<HTMLElement | null>(null);
-  const { addItem, buyNow, formatMoney, preferredCategories, recordProductView } = useStore();
+  const { addItem, buyNow, formatMoney, preferredCategories, recordProductView, market } = useStore();
+  const delivery = deliveryWindows[market] || deliveryWindows.US;
+  // Same figures as /shipping: processing first, then the carrier window for the shopper's market.
+  const deliveryLine = `${preparationNotice ? "" : "Ships in 1–3 business days · "}Arrives in about ${delivery.min}–${delivery.max} business days to ${markets[market]?.country || "the United States"}`;
   const completeLook = useMemo(() => createCompleteLook(product, products, preferredCategories), [product, preferredCategories]);
 
   const spriteCount = product.gallerySprite ? product.gallerySprite.columns * product.gallerySprite.rows : 0;
@@ -148,6 +152,7 @@ export default function ProductDetail({
           <div className="quantity-block"><span>Quantity</span><div><button type="button" disabled={unavailable || purchaseQuantity <= 1} onClick={() => setQuantity(Math.max(1, purchaseQuantity - 1))} aria-label="Decrease quantity">−</button><span>{purchaseQuantity}</span><button type="button" disabled={unavailable || purchaseQuantity >= quantityLimit} onClick={() => setQuantity(purchaseQuantity + 1)} aria-label="Increase quantity">+</button></div></div>
           <p className="stock-line"><i/> {unavailable ? "Currently unavailable" : !preparationNotice && typeof activeStock === "number" && activeStock <= 5 ? `Only ${activeStock} left` : "Available to order"}</p>
           {preparationNotice && <p className="product-intro" data-preparation-notice>{preparationNotice}</p>}
+          <p className="stock-line" data-delivery-estimate>{deliveryLine}<br/><small>Estimate after dispatch, not a guarantee · <Link href="/shipping">Shipping details</Link></small></p>
           <button className="add-button" type="button" disabled={unavailable} onClick={addToBag}>{unavailable ? "Currently unavailable" : `Add to Bag · ${formatMoney(selectedPrice * purchaseQuantity)}`}</button>
           <button className="buy-button" type="button" disabled={unavailable} onClick={() => void buyNow(product, { size, color: color.name, quantity: purchaseQuantity, heelHeightCm: isShoe ? (heelHeightCm ?? product.heelHeightCm) : undefined })}>Buy Now</button>
 
@@ -156,8 +161,9 @@ export default function ProductDetail({
             <details open><summary>Details</summary><p>{product.materials || "Designed for repeat wear with a timeless silhouette, thoughtful seaming and an easy feel."}</p></details>
             <details><summary>Size & Fit</summary>{isShoe ? <ShoeSizeGuide compact/> : <p>Use the available sizes and garment measurements shown for this product. Our size guide includes US, CA, UK, AU and NZ conversions.</p>}</details>
             <details><summary>Product Care</summary><p>{product.care || "Follow the care label attached to the item to preserve color, shape and finish."}</p></details>
-            <details><summary>Shipping & Returns</summary>{preparationNotice && <p>{preparationNotice}</p>}<p>Delivery estimates and return eligibility adapt to the customer’s market at checkout. <Link href="/shipping">Shipping details</Link> · <Link href="/returns">Return policy</Link></p></details>
+            <details><summary>Shipping & Returns</summary>{preparationNotice && <p>{preparationNotice}</p>}<p>In-stock orders are prepared within 1–3 business days. Estimated delivery after dispatch: United States and Canada 12–18 business days · United Kingdom 10–21 · Australia and New Zealand 12–21. Estimates, not guarantees. <Link href="/shipping">Shipping details</Link> · <Link href="/returns">Return policy</Link></p></details>
           </div>
+          <p className="stock-line" data-ask-us>Questions about fit or shipping? DM us on Instagram <a href="https://www.instagram.com/ambb.outique/" target="_blank" rel="noopener noreferrer">@ambb.outique</a> or email <a href="mailto:info@ambboutique.online">info@ambboutique.online</a></p>
           <div className="product-help"><Link href="/contact">Contact us</Link><span>San Diego, California</span></div>
         </section>
       </div>
