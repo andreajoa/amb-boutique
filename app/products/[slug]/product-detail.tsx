@@ -153,6 +153,7 @@ export default function ProductDetail({
           <p className="stock-line"><i/> {unavailable ? "Currently unavailable" : !preparationNotice && typeof activeStock === "number" && activeStock <= 5 ? `Only ${activeStock} left` : "Available to order"}</p>
           {preparationNotice && <p className="product-intro" data-preparation-notice>{preparationNotice}</p>}
           <p className="stock-line" data-delivery-estimate>{deliveryLine}<br/><small>Estimate after dispatch, not a guarantee · <Link href="/shipping">Shipping details</Link></small></p>
+          <p className="stock-line" data-returns>30-day returns · unworn, with original tags · <Link href="/returns">See return policy</Link></p>
           <button className="add-button" type="button" disabled={unavailable} onClick={addToBag}>{unavailable ? "Currently unavailable" : `Add to Bag · ${formatMoney(selectedPrice * purchaseQuantity)}`}</button>
           <button className="buy-button" type="button" disabled={unavailable} onClick={() => void buyNow(product, { size, color: color.name, quantity: purchaseQuantity, heelHeightCm: isShoe ? (heelHeightCm ?? product.heelHeightCm) : undefined })}>Buy Now</button>
 
