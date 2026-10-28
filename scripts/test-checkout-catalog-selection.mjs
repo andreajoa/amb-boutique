@@ -10,7 +10,7 @@ let captured;
 stub('/app/stripe-server.ts',{getStripe:()=>({checkout:{sessions:{create:async params=>{captured=params;return {id:'cs_fixture_only',client_secret:'fixture-not-a-real-secret'}}}}})});
 stub('/app/email/commerce-lifecycle.ts',{recordCheckoutJourney:async()=>{}});
 globalThis.fetch=async()=>{throw new Error('External requests forbidden in critic audit')};
-const {products}=load(root+'/app/data.ts');const {POST}=load(root+'/app/api/checkout/route.ts');
+const {products}=load(root+'/app/data.ts');const {POST}=load(root+'/app/api/checkout/route.ts');const {protectMargin,bestNonStackingDiscount}=load(root+'/app/profitability.ts');const {getDiscountState}=load(root+'/app/commerce.ts');
 const p=products.find(p=>p.slug==='celeste-floral-midi-dress-red');assert.equal(p.stock,1);
 const cases=[{name:'Quantity exceeds stock',items:[{slug:p.slug,size:'M',color:'Red Floral',quantity:10}],expected:400},{name:'Missing size',items:[{slug:p.slug,color:'Red Floral',quantity:1}],expected:400},{name:'Incorrect color',items:[{slug:p.slug,size:'M',color:'Nonexistent Color',quantity:1}],expected:400}];
 cases.push({name:'Aggregate duplicate lines exceed stock',items:[{slug:p.slug,size:'M',color:'Red Floral',quantity:1},{slug:p.slug,size:'M',color:'Red Floral',quantity:1}],expected:400});
@@ -66,8 +66,8 @@ for (const [suffix,color] of [['emerald-style-31','Emerald'],['black-style-29','
   cases.push({name:slug+' charges the canonical 3x retail price',items:[{slug,size:'S',color,quantity:1,price:0.01}],expected:200,expectedUnitAmount:8390});
 }
 cases.push({name:'Red Elowyn M cannot exceed its 64 units',items:[{slug:'elowyn-embellished-sleeve-mini-dress-red-style-11',size:'M',color:'Red',quantity:65}],expected:400});
-cases.push({name:'Welcome offer preserves the new Fiorenza 3x selling price',items:[{slug:'fiorenza-sequin-bodice-maxi-dress-green',size:'S',color:'Green',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,expectedUnitAmount:8590});
-cases.push({name:'Cart rewards preserve the new Elowyn 3x selling price',items:[{slug:'elowyn-embellished-sleeve-mini-dress-red-style-11',size:'M',color:'Red',quantity:2}],expected:200,expectedUnitAmount:8390});
+cases.push({name:'Welcome offer discounts Fiorenza 3x selling price',items:[{slug:'fiorenza-sequin-bodice-maxi-dress-green',size:'S',color:'Green',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,listUnitAmount:8590});
+cases.push({name:'Cart rewards discounts Elowyn 3x selling price',items:[{slug:'elowyn-embellished-sleeve-mini-dress-red-style-11',size:'M',color:'Red',quantity:2}],expected:200,listUnitAmount:8390});
 for (const [suffix,color] of [['blue','Blue'],['green','Teal Green'],['red','Red'],['black','Black'],['white','White & Black'],['lavender','Lavender']]) {
   const slug='odessa-polka-dot-halter-swing-dress-'+suffix;
   cases.push({name:slug+' uses the confirmed native XXL price',items:[{slug,size:'XXL',color,quantity:1,price:0.01}],expected:200,expectedUnitAmount:8990});
@@ -78,8 +78,8 @@ for (const [suffix,color] of [['black-style-19','Black'],['plum-style-18','Plum'
 }
 cases.push({name:'Odessa does not inherit unavailable XXXL',items:[{slug:'odessa-polka-dot-halter-swing-dress-blue',size:'XXXL',color:'Blue',quantity:1}],expected:400});
 cases.push({name:'Vionelle rejects unavailable XS',items:[{slug:'vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19',size:'XS',color:'Black',quantity:1}],expected:400});
-cases.push({name:'Odessa welcome offer preserves 3x retail',items:[{slug:'odessa-polka-dot-halter-swing-dress-white',size:'S',color:'White & Black',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,expectedUnitAmount:8990});
-cases.push({name:'Odessa cart rewards preserve 3x retail',items:[{slug:'odessa-polka-dot-halter-swing-dress-blue',size:'S',color:'Blue',quantity:2}],expected:200,expectedUnitAmount:8990});
+cases.push({name:'Odessa welcome offer discounts 3x retail',items:[{slug:'odessa-polka-dot-halter-swing-dress-white',size:'S',color:'White & Black',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,listUnitAmount:8990});
+cases.push({name:'Odessa cart rewards discounts 3x retail',items:[{slug:'odessa-polka-dot-halter-swing-dress-blue',size:'S',color:'Blue',quantity:2}],expected:200,listUnitAmount:8990});
 for (const [suffix,color,size,amount] of [
   ['yellow','Yellow','L',21090],['black','Black','S',21090],
   ['red-high-end-fabric','Red Smooth','S',21090],['hot-pink','Hot Pink','XS',21090],
@@ -91,8 +91,8 @@ for (const [suffix,color,size,amount] of [
 cases.push({name:'Yellow Rosaline omits unavailable M',items:[{slug:'rosaline-rosette-corset-mini-dress-yellow',size:'M',color:'Yellow',quantity:1}],expected:400});
 cases.push({name:'Black Rosaline enforces its one-unit S cap',items:[{slug:'rosaline-rosette-corset-mini-dress-black',size:'S',color:'Black',quantity:2}],expected:400});
 cases.push({name:'Red Smooth Rosaline caps the newly confirmed S at five units',items:[{slug:'rosaline-rosette-corset-mini-dress-red-high-end-fabric',size:'S',color:'Red Smooth',quantity:6}],expected:400});
-cases.push({name:'Rosaline welcome offer preserves its 3x selling price',items:[{slug:'rosaline-rosette-corset-mini-dress-red-bandage-fabric',size:'XS',color:'Red Ribbed',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,expectedUnitAmount:20490});
-cases.push({name:'Rosaline cart rewards preserve its 3x selling price',items:[{slug:'rosaline-rosette-corset-mini-dress-hot-pink',size:'XS',color:'Hot Pink',quantity:2}],expected:200,expectedUnitAmount:21090});
+cases.push({name:'Rosaline welcome offer discounts 3x selling price',items:[{slug:'rosaline-rosette-corset-mini-dress-red-bandage-fabric',size:'XS',color:'Red Ribbed',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,listUnitAmount:20490});
+cases.push({name:'Rosaline cart rewards discounts 3x selling price',items:[{slug:'rosaline-rosette-corset-mini-dress-hot-pink',size:'XS',color:'Hot Pink',quantity:2}],expected:200,listUnitAmount:21090});
 for (const [slug,color,size,amount] of [
   ['arlena-cutout-halter-maxi-dress-black','Black','XS',16990],
   ['arlena-cutout-halter-maxi-dress-coffee','Coffee','L',16990],
@@ -106,12 +106,12 @@ cases.push({name:'Verdelle Green omits non-native XL',items:[{slug:'verdelle-lac
 cases.push({name:'Held Arlena Red cannot be purchased',items:[{slug:'arlena-cutout-halter-maxi-dress-red',size:'S',color:'Red',quantity:1}],expected:400});
 cases.push({name:'Held Khaki gown cannot be purchased',items:[{slug:'verdelle-lace-bodice-pleated-gown-khaki',size:'S',color:'Khaki',quantity:1}],expected:400});
 cases.push({name:'Coffee XS cannot exceed its thirty-three unit cap',items:[{slug:'arlena-cutout-halter-maxi-dress-coffee',size:'XS',color:'Coffee',quantity:34}],expected:400});
-cases.push({name:'Verdelle welcome offer preserves 3x cost pricing',items:[{slug:'verdelle-lace-bodice-pleated-gown-green',size:'S',color:'Green',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,expectedUnitAmount:18890});
-cases.push({name:'Arlena cart rewards preserve 3x cost pricing',items:[{slug:'arlena-cutout-halter-maxi-dress-coffee',size:'XS',color:'Coffee',quantity:2}],expected:200,expectedUnitAmount:16990});
+cases.push({name:'Verdelle welcome offer discounts 3x cost pricing',items:[{slug:'verdelle-lace-bodice-pleated-gown-green',size:'S',color:'Green',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,listUnitAmount:18890});
+cases.push({name:'Arlena cart rewards discounts 3x cost pricing',items:[{slug:'arlena-cutout-halter-maxi-dress-coffee',size:'XS',color:'Coffee',quantity:2}],expected:200,listUnitAmount:16990});
 cases.push({name:'Noctelle Black uses confirmed 3x cost price',items:[{slug:'noctelle-strapless-corset-midi-dress-black',size:'XS',color:'Black',quantity:1,price:0.01}],expected:200,expectedUnitAmount:13290});
 cases.push({name:'Noctelle does not invent native XL',items:[{slug:'noctelle-strapless-corset-midi-dress-black',size:'XL',color:'Black',quantity:1}],expected:400});
 cases.push({name:'Noctelle Red held for missing garment reference cannot be purchased',items:[{slug:'noctelle-strapless-corset-midi-dress-red',size:'S',color:'Red',quantity:1}],expected:400});
-cases.push({name:'Noctelle welcome offer preserves 3x retail',items:[{slug:'noctelle-strapless-corset-midi-dress-black',size:'S',color:'Black',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,expectedUnitAmount:13290});
+cases.push({name:'Noctelle welcome offer discounts 3x retail',items:[{slug:'noctelle-strapless-corset-midi-dress-black',size:'S',color:'Black',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,listUnitAmount:13290});
 for (const [slug,color,size,amount] of [
   ['mirabelle-bow-strap-floral-gown-red','Red','XS',11190],
   ['bellora-slit-slip-maxi-dress-red','Red','S',3390],
@@ -134,13 +134,35 @@ cases.push({name:'Asteria newly synced XL cannot exceed seven',items:[{slug:'ast
 cases.push({name:'Asteria unavailable L is blocked even when cached stock is positive',items:[{slug:'asteria-star-print-tulle-mini-dress-green',size:'L',color:'Green',quantity:5}],expected:400});
 cases.push({name:'Bellora Black M cannot exceed seventeen',items:[{slug:'bellora-slit-slip-maxi-dress-black',size:'M',color:'Black',quantity:18}],expected:400});
 cases.push({name:'Caldera S cannot exceed four',items:[{slug:'caldera-graphic-stripe-mini-dress-black',size:'S',color:'Black',quantity:5}],expected:400});
-cases.push({name:'Cerelia welcome offer preserves 3x selling price',items:[{slug:'cerelia-lace-corset-mini-dress-gray',size:'XS（old）',color:'Gray',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,expectedUnitAmount:13290});
-cases.push({name:'Bellora cart rewards preserve 3x selling price',items:[{slug:'bellora-slit-slip-maxi-dress-red',size:'S',color:'Red',quantity:2}],expected:200,expectedUnitAmount:3390});
+cases.push({name:'Cerelia welcome offer discounts 3x selling price',items:[{slug:'cerelia-lace-corset-mini-dress-gray',size:'XS（old）',color:'Gray',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,listUnitAmount:13290});
+cases.push({name:'Bellora cart rewards discounts 3x selling price',items:[{slug:'bellora-slit-slip-maxi-dress-red',size:'S',color:'Red',quantity:2}],expected:200,listUnitAmount:3390});
 cases.push({name:'Fresh official zero Asteria L cannot be purchased',items:[{slug:'asteria-star-print-tulle-mini-dress-green',size:'L',color:'Green',quantity:1}],expected:400});
 cases.push({name:'Fresh Asteria M cap is three',items:[{slug:'asteria-star-print-tulle-mini-dress-green',size:'M',color:'Green',quantity:4}],expected:400});
 cases.push({name:'Published Ameixa L refreshed cap is sixty-four',items:[10, 10, 10, 10, 10, 10, 5].map(quantity=>({slug:'ameixa-velvet-cowl-dress',size:'L',color:'Plum',quantity})),expected:400,expectedErrorIncludes:['Only 64 of','in size L are']});
 cases.push({name:'Published Evelisse Champagne XXL refreshed cap is sixty-three',items:[10, 10, 10, 10, 10, 10, 4].map(quantity=>({slug:'evelisse-cowl-neck-velvet-mini-dress-champagne-style-05',size:'XXL',color:'Champagne',quantity})),expected:400,expectedErrorIncludes:['Only 63 of','in size XXL are']});
 cases.push({name:'Published Vionelle Burgundy XXL refreshed cap is sixty-four',items:[10, 10, 10, 10, 10, 10, 5].map(quantity=>({slug:'vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17',size:'XXL',color:'Burgundy',quantity})),expected:400,expectedErrorIncludes:['Only 64 of','in size XXL are']});
+
+// Preço canônico (3x) menos o melhor desconto elegível do momento, travado na margem mínima.
+function offerPrice(name, listCents) {
+  const c = cases.find(x => x.name === name);
+  const product = products.find(x => x.slug === c.items[0].slug);
+  const unit = listCents / 100, quantity = c.items.reduce((sum, item) => sum + item.quantity, 0);
+  const offer = bestNonStackingDiscount(getDiscountState(unit * quantity, Date.now(), c.promotionCode).percent, c.promotionCode);
+  const margin = protectMargin({ ...product, price: unit }, offer.percent);
+  return Math.max(50, Math.round(unit * (1 - margin.approvedPercent / 100) * 100));
+}
 const results=[];
 for(const c of cases){captured=null;const res=await POST({json:async()=>({items:c.items,market:'US',promotionCode:c.promotionCode}),nextUrl:{origin:'https://offline.example'}});results.push({case:c.name,productSlug:p.slug,catalogStock:p.stock,catalogSizes:p.sizes,catalogColors:p.colorNames,request:c.items,expectedStatus:c.expected,expectedUnitAmount:c.expectedUnitAmount,expectedErrorIncludes:c.expectedErrorIncludes,actualStatus:res.status,body:await res.json(),stripeFixtureCreated:!!captured,chargedUnitAmount:captured?.line_items?.[0]?.price_data?.unit_amount,chargedQuantity:captured?.line_items?.[0]?.quantity,chargedDescription:captured?.line_items?.[0]?.price_data?.product_data?.description});}
-for(const result of results){for(const phrase of result.expectedErrorIncludes||[])assert.ok(result.body.error?.includes(phrase),result.case+' exact stock guard: '+JSON.stringify(result.body));assert.equal(result.actualStatus,result.expectedStatus,result.case);if(result.expectedUnitAmount)assert.equal(result.chargedUnitAmount,result.expectedUnitAmount,result.case+' canonical price');assert.equal(result.stripeFixtureCreated,result.expectedStatus===200,result.case+' payment boundary');}console.log(JSON.stringify({passed:results.length,cases:results.map(r=>({name:r.case,status:r.actualStatus}))}));
+for(const result of results){for(const phrase of result.expectedErrorIncludes||[])assert.ok(result.body.error?.includes(phrase),result.case+' exact stock guard: '+JSON.stringify(result.body));assert.equal(result.actualStatus,result.expectedStatus,result.case);if(result.expectedUnitAmount)assert.equal(result.chargedUnitAmount,offerPrice(result.case,result.expectedUnitAmount),result.case+' canonical price');assert.equal(result.stripeFixtureCreated,result.expectedStatus===200,result.case+' payment boundary');}console.log(JSON.stringify({passed:results.length,cases:results.map(r=>({name:r.case,status:r.actualStatus}))}));
+// Ofertas: o checkout aplica o melhor desconto (sem acumular) e nunca passa da margem mínima do produto.
+for (const c of cases.filter(c => c.listUnitAmount)) {
+  const result = results.find(r => r.case === c.name);
+  const product = products.find(x => x.slug === c.items[0].slug);
+  const quantity = c.items.reduce((sum, item) => sum + item.quantity, 0);
+  const offer = bestNonStackingDiscount(getDiscountState(product.price * quantity, Date.now(), c.promotionCode).percent, c.promotionCode);
+  const margin = protectMargin(product, offer.percent);
+  assert.ok(margin.costKnown, c.name + ': cost known');
+  assert.equal(result.chargedUnitAmount, Math.max(50, Math.round(product.price * (1 - margin.approvedPercent / 100) * 100)), c.name + ' discounted price');
+  if (offer.percent) assert.ok(margin.approvedPercent > 0, c.name + ': offer applied');
+  assert.ok(margin.marginPercent >= (product.minimumMarginPercent ?? 30) - 0.01, c.name + ': margin floor');
+}

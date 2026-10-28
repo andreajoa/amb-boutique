@@ -81,12 +81,13 @@ export async function POST(request: NextRequest) {
     const packedWeightOz = normalized.reduce((sum, item) => sum + (item.product.weightOz || 12) * item.quantity, 0);
     if (market !== "US" && packedWeightOz > 64) throw new Error("This international parcel needs a live carrier quote. Please contact AMB BOUTIQUE for delivery assistance.");
 
-    const reward = getDiscountState(subtotalUsd);
     const promoCode = body.promotionCode?.trim().toUpperCase();
+    const reward = getDiscountState(subtotalUsd, Date.now(), promoCode);
     const globalOffer = bestNonStackingDiscount(reward.percent, promoCode === FIRST_ORDER_CODE ? promoCode : undefined);
-    const complimentaryShippingCostUsd = market === "US" && getShippingQuotes(market, subtotalUsd, packedWeightOz)[0].amountUsd === 0
-      ? packedWeightOz <= 16 ? 11.95 : packedWeightOz <= 32 ? 17.65 : 22.45
-      : 0;
+    // Frete grátis vira custo da loja: entra na trava de margem do desconto.
+    const complimentaryShippingCostUsd = getShippingQuotes(market, subtotalUsd, packedWeightOz)[0].amountUsd !== 0 ? 0
+      : market === "US" ? packedWeightOz <= 16 ? 11.95 : packedWeightOz <= 32 ? 17.65 : 22.45
+      : getShippingQuotes(market, subtotalUsd, packedWeightOz, 0)[0].amountUsd;
     const totalUnits = normalized.reduce((sum, item) => sum + item.quantity, 0);
 
     const cartBumps = normalized.filter((item) => item.line.offer === "cart-bump");

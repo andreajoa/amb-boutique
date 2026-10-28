@@ -1,6 +1,9 @@
 import type { Product } from "./data";
+import costEvidence from "../imports/cost-evidence.json";
 
-export type ProductEconomics = Pick<Product, "unitCostUsd" | "inboundFreightUsd" | "dutyUsd" | "packagingUsd" | "minimumMarginPercent">;
+export type ProductEconomics = Pick<Product, "unitCostUsd" | "inboundFreightUsd" | "dutyUsd" | "packagingUsd" | "minimumMarginPercent"> & { slug?: string };
+
+const provenCost: Record<string, { landedCostUsd: number }> = costEvidence.products;
 
 export type ProfitCheck = {
   costKnown: boolean;
@@ -17,9 +20,14 @@ const PAYMENT_FIXED_FEE_USD = 0.3;
 const DEFAULT_MINIMUM_MARGIN_PERCENT = 30;
 
 export function landedCost(product: ProductEconomics) {
-  const costs = [product.unitCostUsd, product.inboundFreightUsd, product.dutyUsd, product.packagingUsd];
-  if (!costs.every((value) => typeof value === "number" && Number.isFinite(value))) return null;
-  return costs.reduce<number>((total, value) => total + (value ?? 0), 0);
+  // Só há custo quando uma fonte datada o comprova (imports/cost-evidence.json: produto + frete EUA).
+  // Vale o maior entre a prova e o cadastro, para um custo antigo nunca liberar desconto demais.
+  const proven = product.slug ? provenCost[product.slug]?.landedCostUsd : undefined;
+  if (typeof proven !== "number") return null;
+  const unit = typeof product.unitCostUsd === "number" && Number.isFinite(product.unitCostUsd) ? Math.max(product.unitCostUsd, proven) : proven;
+  const extras = [product.inboundFreightUsd, product.dutyUsd, product.packagingUsd];
+  if (extras.some((value) => value !== undefined && !Number.isFinite(value))) return null;
+  return extras.reduce<number>((total, value) => total + (value ?? 0), unit);
 }
 
 /** Caps a promotion so the order preserves its configured contribution margin. */
