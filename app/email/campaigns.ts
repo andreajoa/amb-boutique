@@ -13,6 +13,7 @@ export type AmbCampaign = {
   ctaLabel: string;
   ctaUrl: string;
   delayHours?: number;
+  sendOn?: string; // data em Nova York (AAAA-MM-DD) para e-mails da temporada
 };
 
 export const cartRecoveryCampaigns: AmbCampaign[] = [
@@ -86,7 +87,16 @@ export const newsletterCampaigns: AmbCampaign[] = [
   ctaLabel, ctaUrl, market: market as AmbCampaign["market"],
 }));
 
+// Black Friday 2026 (Sala do Conselho 28/10): mesma oferta do checkout; mandados pelo cron no dia, a todos os contatos com consentimento.
+export const holidayCampaigns: AmbCampaign[] = [
+  { key:"holiday-vip", type:"newsletter", sendOn:"2026-11-19", market:"ALL", name:"Black Friday early access", subjectA:"Your early access starts today: AMBVIP", preview:"One day before everyone else: 20% off the Holiday edit.", eyebrow:"EARLY ACCESS", headline:"Your early access starts today.", body:"Enter AMBVIP in your bag today for 20% off our regular prices on every piece in the Holiday edit, and 25% off orders over $200. US orders placed by November 27 arrive before Christmas, or we refund your order. 30-day returns.", ctaLabel:"Shop with AMBVIP", ctaUrl:"/holiday" },
+  { key:"holiday-open", type:"newsletter", sendOn:"2026-11-20", market:"ALL", name:"Black Friday opens", subjectA:"Black Friday is open: 20% off the Holiday edit", preview:"20% off every piece in the Holiday edit, 25% over $200.", eyebrow:"BLACK FRIDAY · NOV 20–30", headline:"20% off the Holiday edit.", body:"From today to Cyber Monday: 20% off our regular prices on every piece in the Holiday edit, and 25% off orders over $200, applied automatically at checkout. US orders placed by November 27 arrive before Christmas, or we refund your order.", ctaLabel:"Shop the Holiday edit", ctaUrl:"/holiday" },
+  { key:"holiday-bf", type:"newsletter", sendOn:"2026-11-27", market:"ALL", name:"Black Friday", subjectA:"It's Black Friday, and the last day for Christmas delivery", preview:"Order today for US delivery before Christmas.", eyebrow:"BLACK FRIDAY", headline:"It's Black Friday.", body:"20% off our regular prices on every piece in the Holiday edit, 25% off orders over $200. Today is the last day to order for US delivery before Christmas, with our refund guarantee.", ctaLabel:"Shop the Holiday edit", ctaUrl:"/holiday" },
+  { key:"holiday-cyber", type:"newsletter", sendOn:"2026-11-30", market:"ALL", name:"Cyber Monday", subjectA:"Cyber Monday: last day of 20% off", preview:"The Black Friday pricing ends tonight.", eyebrow:"CYBER MONDAY", headline:"Last day of 20% off.", body:"20% off our regular prices on the Holiday edit, and 25% off orders over $200, end tonight at midnight, New York time. 30-day returns.", ctaLabel:"Shop the Holiday edit", ctaUrl:"/holiday" },
+];
+
 export const allCampaigns = [
+  ...holidayCampaigns,
   ...lifecycleCampaigns,
   ...cartRecoveryCampaigns,
   ...checkoutRecoveryCampaigns,

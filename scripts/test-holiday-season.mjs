@@ -60,4 +60,14 @@ for (const phase of ['preview', 'black-friday', 'gifts', 'new-year']) {
   }
 }
 assert.ok(['Bags', 'Accessories'].includes(holidayProducts(products, 'gifts')[0].category));
+// e-mails da loja: datas dentro da oferta e o mesmo texto de desconto do checkout
+const { holidayCampaigns } = load('../app/email/campaigns.ts');
+assert.deepEqual(holidayCampaigns.map(c => c.sendOn), ['2026-11-19', '2026-11-20', '2026-11-27', '2026-11-30']);
+for (const c of holidayCampaigns) {
+  const day = ny(c.sendOn, 10);
+  assert.ok(day >= BLACK_FRIDAY.vipStart && day < BLACK_FRIDAY.end, c.key);
+  assert.match(c.body, /20% off our regular prices/);
+  assert.equal(c.ctaUrl, '/holiday');
+}
+assert.match(holidayCampaigns[0].body, new RegExp(BLACK_FRIDAY.vipCode));
 console.log('holiday season ok');
