@@ -971,8 +971,8 @@ const allGeneratedProducts: Product[] = [
     "images": [
       "/products/sabine-tailored-romper/front-20261025.webp",
       "/products/sabine-tailored-romper/back-20261025.webp",
-      "/products/sabine-tailored-romper/left-20261025.webp",
-      "/products/sabine-tailored-romper/right-20261025.webp"
+      "/products/sabine-tailored-romper/left-20261026.webp",
+      "/products/sabine-tailored-romper/right-20261026.webp"
     ],
     "stock": 2493,
     "weightOz": 11,
@@ -1257,8 +1257,8 @@ const allGeneratedProducts: Product[] = [
     "images": [
       "/products/soleil-pleat-romper/front-20261025.webp",
       "/products/soleil-pleat-romper/back-20261025.webp",
-      "/products/soleil-pleat-romper/left-20261025.webp",
-      "/products/soleil-pleat-romper/right-20261025.webp"
+      "/products/soleil-pleat-romper/left-20261026.webp",
+      "/products/soleil-pleat-romper/right-20261026.webp"
     ],
     "stock": 499991,
     "weightOz": 10,
@@ -13079,8 +13079,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/rosalie-vneck-print-midi-dress/front-20261025.webp",
     "/products/rosalie-vneck-print-midi-dress/back-20261025.webp",
-    "/products/rosalie-vneck-print-midi-dress/left-20261025.webp",
-    "/products/rosalie-vneck-print-midi-dress/right-20261025.webp"
+    "/products/rosalie-vneck-print-midi-dress/left-20261026.webp",
+    "/products/rosalie-vneck-print-midi-dress/right-20261026.webp"
   ],
   "stock": 3000,
   "unitCostUsd": 25.1,
@@ -13116,8 +13116,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/pop-vneck-print-midi-dress/front-20261025.webp",
     "/products/pop-vneck-print-midi-dress/back-20261025.webp",
-    "/products/pop-vneck-print-midi-dress/left-20261025.webp",
-    "/products/pop-vneck-print-midi-dress/right-20261025.webp"
+    "/products/pop-vneck-print-midi-dress/left-20261026.webp",
+    "/products/pop-vneck-print-midi-dress/right-20261026.webp"
   ],
   "stock": 3000,
   "unitCostUsd": 25.1,
@@ -13782,8 +13782,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/tide-mosaic-swing-dress/front-20261025.webp",
     "/products/tide-mosaic-swing-dress/back-20261025.webp",
-    "/products/tide-mosaic-swing-dress/left-20261025.webp",
-    "/products/tide-mosaic-swing-dress/right-20261025.webp"
+    "/products/tide-mosaic-swing-dress/left-20261026.webp",
+    "/products/tide-mosaic-swing-dress/right-20261026.webp"
   ],
   "stock": 6000,
   "unitCostUsd": 28.98,
@@ -13967,8 +13967,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/sol-tribal-swing-dress/front-20261025.webp",
     "/products/sol-tribal-swing-dress/back-20261025.webp",
-    "/products/sol-tribal-swing-dress/left-20261025.webp",
-    "/products/sol-tribal-swing-dress/right-20261025.webp"
+    "/products/sol-tribal-swing-dress/left-20261026.webp",
+    "/products/sol-tribal-swing-dress/right-20261026.webp"
   ],
   "stock": 6000,
   "unitCostUsd": 28.98,
@@ -14004,8 +14004,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/sienna-chevron-swing-dress/front-20261025.webp",
     "/products/sienna-chevron-swing-dress/back-20261025.webp",
-    "/products/sienna-chevron-swing-dress/left-20261025.webp",
-    "/products/sienna-chevron-swing-dress/right-20261025.webp"
+    "/products/sienna-chevron-swing-dress/left-20261026.webp",
+    "/products/sienna-chevron-swing-dress/right-20261026.webp"
   ],
   "stock": 6000,
   "unitCostUsd": 28.98,
@@ -14226,8 +14226,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/stella-galaxy-swing-dress/front-20261025.webp",
     "/products/stella-galaxy-swing-dress/back-20261025.webp",
-    "/products/stella-galaxy-swing-dress/left-20261025.webp",
-    "/products/stella-galaxy-swing-dress/right-20261025.webp"
+    "/products/stella-galaxy-swing-dress/left-20261026.webp",
+    "/products/stella-galaxy-swing-dress/right-20261026.webp"
   ],
   "stock": 6000,
   "unitCostUsd": 28.98,
@@ -14411,8 +14411,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/slate-block-maxi-dress/front-20261025.webp",
     "/products/slate-block-maxi-dress/back-20261025.webp",
-    "/products/slate-block-maxi-dress/left-20261025.webp",
-    "/products/slate-block-maxi-dress/right-20261025.webp"
+    "/products/slate-block-maxi-dress/left-20261026.webp",
+    "/products/slate-block-maxi-dress/right-20261026.webp"
   ],
   "stock": 1194,
   "unitCostUsd": 13.14,
@@ -14448,8 +14448,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/sage-block-maxi-dress/front-20261025.webp",
     "/products/sage-block-maxi-dress/back-20261025.webp",
-    "/products/sage-block-maxi-dress/left-20261025.webp",
-    "/products/sage-block-maxi-dress/right-20261025.webp"
+    "/products/sage-block-maxi-dress/left-20261026.webp",
+    "/products/sage-block-maxi-dress/right-20261026.webp"
   ],
   "stock": 1193,
   "unitCostUsd": 13.14,
@@ -14485,8 +14485,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/rubra-block-maxi-dress/front-20261025.webp",
     "/products/rubra-block-maxi-dress/back-20261025.webp",
-    "/products/rubra-block-maxi-dress/left-20261025.webp",
-    "/products/rubra-block-maxi-dress/right-20261025.webp"
+    "/products/rubra-block-maxi-dress/left-20261026.webp",
+    "/products/rubra-block-maxi-dress/right-20261026.webp"
   ],
   "stock": 1189,
   "unitCostUsd": 13.58,
@@ -14681,8 +14681,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/safari-mixed-print-maxi-kaftan/front-20261025.webp",
     "/products/safari-mixed-print-maxi-kaftan/back-20261025.webp",
-    "/products/safari-mixed-print-maxi-kaftan/left-20261025.webp",
-    "/products/safari-mixed-print-maxi-kaftan/right-20261025.webp"
+    "/products/safari-mixed-print-maxi-kaftan/left-20261026.webp",
+    "/products/safari-mixed-print-maxi-kaftan/right-20261026.webp"
   ],
   "stock": 99995,
   "unitCostUsd": 27.37,
@@ -14952,8 +14952,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/verde-block-maxi-dress/front-20261025.webp",
     "/products/verde-block-maxi-dress/back-20261025.webp",
-    "/products/verde-block-maxi-dress/left-20261025.webp",
-    "/products/verde-block-maxi-dress/right-20261025.webp"
+    "/products/verde-block-maxi-dress/left-20261026.webp",
+    "/products/verde-block-maxi-dress/right-20261026.webp"
   ],
   "stock": 1194,
   "unitCostUsd": 13.14,
@@ -15025,8 +15025,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/terra-block-maxi-dress/front-20261025.webp",
     "/products/terra-block-maxi-dress/back-20261025.webp",
-    "/products/terra-block-maxi-dress/left-20261025.webp",
-    "/products/terra-block-maxi-dress/right-20261025.webp"
+    "/products/terra-block-maxi-dress/left-20261026.webp",
+    "/products/terra-block-maxi-dress/right-20261026.webp"
   ],
   "stock": 1194,
   "unitCostUsd": 13.14,
@@ -15469,8 +15469,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/prisma-swirl-swing-midi-dress/front-20261025.webp",
     "/products/prisma-swirl-swing-midi-dress/back-20261025.webp",
-    "/products/prisma-swirl-swing-midi-dress/left-20261025.webp",
-    "/products/prisma-swirl-swing-midi-dress/right-20261025.webp"
+    "/products/prisma-swirl-swing-midi-dress/left-20261026.webp",
+    "/products/prisma-swirl-swing-midi-dress/right-20261026.webp"
   ],
   "stock": 1192,
   "unitCostUsd": 13.69,
@@ -15543,8 +15543,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/tela-patch-swing-midi-dress/front-20261025.webp",
     "/products/tela-patch-swing-midi-dress/back-20261025.webp",
-    "/products/tela-patch-swing-midi-dress/left-20261025.webp",
-    "/products/tela-patch-swing-midi-dress/right-20261025.webp"
+    "/products/tela-patch-swing-midi-dress/left-20261026.webp",
+    "/products/tela-patch-swing-midi-dress/right-20261026.webp"
   ],
   "stock": 1193,
   "unitCostUsd": 13.69,
@@ -15617,8 +15617,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/rose-grid-swing-midi-dress/front-20261025.webp",
     "/products/rose-grid-swing-midi-dress/back-20261025.webp",
-    "/products/rose-grid-swing-midi-dress/left-20261025.webp",
-    "/products/rose-grid-swing-midi-dress/right-20261025.webp"
+    "/products/rose-grid-swing-midi-dress/left-20261026.webp",
+    "/products/rose-grid-swing-midi-dress/right-20261026.webp"
   ],
   "stock": 1192,
   "unitCostUsd": 13.69,
