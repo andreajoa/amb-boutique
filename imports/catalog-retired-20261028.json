@@ -1,0 +1,11 @@
+{
+  "retiredAt": "2026-10-28",
+  "reason": "Same skirt listed twice (two regional IDs of one supplier model) and Sabine colours the supplier does not sell. Each URL redirects (308) to the page that stays.",
+  "redirects": {
+    "flor-maxi-skirt": "tamsin-maxi-skirt",
+    "petra-maxi-skirt": "thea-maxi-skirt",
+    "sabine-ruched-jumpsuit-champagne": "sabine-ruched-jumpsuit",
+    "sabine-ruched-jumpsuit-fuchsia": "sabine-ruched-jumpsuit",
+    "sabine-ruched-jumpsuit-taupe": "sabine-ruched-jumpsuit"
+  }
+}

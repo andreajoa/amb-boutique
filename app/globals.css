@@ -290,6 +290,7 @@ button { cursor: pointer; }
 .collection-hero { height: 390px; display: flex; align-items: center; justify-content: center; text-align: center; color: white; background: linear-gradient(rgba(20,12,8,.18),rgba(20,12,8,.42)), url('/images/collection-banner.webp') center/cover; }
 .collection-hero h1 { font: 500 67px/1 var(--font-cormorant); margin: 10px 0; }
 .collection-hero span { display: block; max-width: 620px; line-height: 1.7; }
+.collection-notice { margin-top: 22px; padding: 14px 18px; text-align: center; font-size: 13px; letter-spacing: .04em; border: 1px solid rgba(0,0,0,.12); }
 .collection-tabs { height: 72px; display: flex; justify-content: center; align-items: center; gap: 34px; background: var(--cream); overflow-x: auto; padding: 0 20px; }
 .collection-tabs button { border: 0; background: transparent; white-space: nowrap; padding: 8px 0; font-size: 11px; }
 .collection-tabs button.active { border-bottom: 1px solid; }

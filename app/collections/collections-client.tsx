@@ -32,11 +32,14 @@ const categories = [
 
 type CollectionSort = "featured" | "newest" | "low" | "high" | "name";
 
-export function CollectionsClient({ products, initialNewOnly = false, initialSort = "featured", title = "Shop All" }: {
+export function CollectionsClient({ products, initialNewOnly = false, initialSort = "featured", title = "Shop All", eyebrow = "THE AMB EDIT", subtitle = "Easy silhouettes, polished layers and finishing touches curated for modern life.", notice }: {
   products: CollectionProduct[];
   initialNewOnly?: boolean;
   initialSort?: CollectionSort;
   title?: string;
+  eyebrow?: string;
+  subtitle?: string;
+  notice?: string;
 }) {
   const highestPrice = useMemo(() => Math.max(0, Math.ceil(Math.max(...products.map((product) => product.price), 0) / 10) * 10), [products]);
   const [category, setCategory] = useState<string>("All");
@@ -110,7 +113,8 @@ export function CollectionsClient({ products, initialNewOnly = false, initialSor
   return (
     <main>
       <Header />
-      <section className="collection-hero"><div><p>THE AMB EDIT</p><h1>{title}</h1><span>Easy silhouettes, polished layers and finishing touches curated for modern life.</span></div></section>
+      <section className="collection-hero"><div><p>{eyebrow}</p><h1>{title}</h1><span>{subtitle}</span></div></section>
+      {notice && <p className="collection-notice shell" role="note">{notice}</p>}
       <nav className="collection-tabs" aria-label="Product categories">
         {categories.map((item) => <button type="button" key={item.value} className={category === item.value ? "active" : ""} aria-pressed={category === item.value} onClick={() => selectCategory(item.value)} data-track={`collection-category:${item.value}`}>{item.label}</button>)}
       </nav>
