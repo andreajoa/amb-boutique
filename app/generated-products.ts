@@ -2807,8 +2807,8 @@ const allGeneratedProducts: Product[] = [
     "images": [
       "/products/rosa-satin-maxi-dress/front-20261025.webp",
       "/products/rosa-satin-maxi-dress/back-20261025.webp",
-      "/products/rosa-satin-maxi-dress/left-20261025.webp",
-      "/products/rosa-satin-maxi-dress/right-20261025.webp"
+      "/products/rosa-satin-maxi-dress/left-20261026.webp",
+      "/products/rosa-satin-maxi-dress/right-20261026.webp"
     ],
     "stock": 5988,
     "weightOz": 13,
@@ -13227,8 +13227,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/petunia-vneck-print-midi-dress/front-20261025.webp",
     "/products/petunia-vneck-print-midi-dress/back-20261025.webp",
-    "/products/petunia-vneck-print-midi-dress/left-20261025.webp",
-    "/products/petunia-vneck-print-midi-dress/right-20261025.webp"
+    "/products/petunia-vneck-print-midi-dress/left-20261026.webp",
+    "/products/petunia-vneck-print-midi-dress/right-20261026.webp"
   ],
   "stock": 3000,
   "unitCostUsd": 25.1,
@@ -13375,8 +13375,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/prado-vneck-print-midi-dress/front-20261025.webp",
     "/products/prado-vneck-print-midi-dress/back-20261025.webp",
-    "/products/prado-vneck-print-midi-dress/left-20261025.webp",
-    "/products/prado-vneck-print-midi-dress/right-20261025.webp"
+    "/products/prado-vneck-print-midi-dress/left-20261026.webp",
+    "/products/prado-vneck-print-midi-dress/right-20261026.webp"
   ],
   "stock": 3000,
   "unitCostUsd": 25.1,
@@ -13449,8 +13449,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/peonia-vneck-print-midi-dress/front-20261025.webp",
     "/products/peonia-vneck-print-midi-dress/back-20261025.webp",
-    "/products/peonia-vneck-print-midi-dress/left-20261025.webp",
-    "/products/peonia-vneck-print-midi-dress/right-20261025.webp"
+    "/products/peonia-vneck-print-midi-dress/left-20261026.webp",
+    "/products/peonia-vneck-print-midi-dress/right-20261026.webp"
   ],
   "stock": 3000,
   "unitCostUsd": 25.1,
@@ -14041,8 +14041,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/rio-stripe-swing-dress/front-20261025.webp",
     "/products/rio-stripe-swing-dress/back-20261025.webp",
-    "/products/rio-stripe-swing-dress/left-20261025.webp",
-    "/products/rio-stripe-swing-dress/right-20261025.webp"
+    "/products/rio-stripe-swing-dress/left-20261026.webp",
+    "/products/rio-stripe-swing-dress/right-20261026.webp"
   ],
   "stock": 6000,
   "unitCostUsd": 28.98,
@@ -15580,8 +15580,8 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/ponto-swing-midi-dress/front-20261025.webp",
     "/products/ponto-swing-midi-dress/back-20261025.webp",
-    "/products/ponto-swing-midi-dress/left-20261025.webp",
-    "/products/ponto-swing-midi-dress/right-20261025.webp"
+    "/products/ponto-swing-midi-dress/left-20261026.webp",
+    "/products/ponto-swing-midi-dress/right-20261026.webp"
   ],
   "stock": 1194,
   "unitCostUsd": 13.69,
