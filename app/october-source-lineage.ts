@@ -464,5 +464,13 @@ export const octoberSourceLineage: Record<string, { sourceProductId: string; sou
   "arlena-cutout-halter-maxi-dress-black": {"sourceProductId":"3256809935768825","sourceColor":"black"},
   "arlena-cutout-halter-maxi-dress-coffee": {"sourceProductId":"3256809935768825","sourceColor":"Coffee"},
   "verdelle-lace-bodice-pleated-gown-green": {"sourceProductId":"3256810227568413","sourceColor":"green"},
-  "noctelle-strapless-corset-midi-dress-black": {"sourceProductId":"3256806100288235","sourceColor":"black"}
+  "noctelle-strapless-corset-midi-dress-black": {"sourceProductId":"3256806100288235","sourceColor":"black"},
+  "mirabelle-bow-strap-floral-gown-red": {"sourceProductId":"3256808027641525","sourceColor":"red"},
+  "bellora-slit-slip-maxi-dress-red": {"sourceProductId":"3256805032384742","sourceColor":"Red"},
+  "bellora-slit-slip-maxi-dress-black": {"sourceProductId":"3256805032384742","sourceColor":"black"},
+  "cerelia-lace-corset-mini-dress-gray": {"sourceProductId":"3256806080098736","sourceColor":"GRAY"},
+  "asteria-star-print-tulle-mini-dress-green": {"sourceProductId":"3256810199360372","sourceColor":"green"},
+  "caldera-graphic-stripe-mini-dress-black": {"sourceProductId":"3256810292871239","sourceColor":"black"},
+  "hollis-festive-knit-sweater-dress-white": {"sourceProductId":"3256809195416092","sourceColor":"White"},
+  "hollis-festive-knit-sweater-dress-red": {"sourceProductId":"3256809195416092","sourceColor":"Red"}
 };

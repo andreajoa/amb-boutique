@@ -15987,7 +15987,7 @@ const allGeneratedProducts: Product[] = [
     "/products/ameixa-velvet-cowl-dress/left-20261026.webp",
     "/products/ameixa-velvet-cowl-dress/right-20261026.webp"
   ],
-  "stock": 394,
+  "stock": 393,
   "unitCostUsd": 27.81,
   "minimumMarginPercent": 40
 },
@@ -16345,7 +16345,7 @@ const allGeneratedProducts: Product[] = [
     "/products/evelisse-cowl-neck-velvet-mini-dress-champagne-style-05/left-20261026.webp",
     "/products/evelisse-cowl-neck-velvet-mini-dress-champagne-style-05/right-20261026.webp"
   ],
-  "stock": 388,
+  "stock": 387,
   "unitCostUsd": 27.81,
   "minimumMarginPercent": 40
 },
@@ -17005,7 +17005,7 @@ const allGeneratedProducts: Product[] = [
     "/products/vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17/left-20261026.webp",
     "/products/vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17/right-20261026.webp"
   ],
-  "stock": 392,
+  "stock": 391,
   "unitCostUsd": 27.81,
   "minimumMarginPercent": 40
 },
@@ -17355,6 +17355,285 @@ const allGeneratedProducts: Product[] = [
   "stock": 1431,
   "unitCostUsd": 43.97,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "mirabelle-bow-strap-floral-gown-red",
+  "name": "Mirabelle Bow Strap Floral Gown — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Maxi Dresses",
+  "price": 111.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b72739"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A red floral lace-look maxi dress with bow-tied shoulder straps, a fitted silhouette and a long softly shaped skirt.",
+  "materials": "Floral lace-look overlay with bow shoulder details. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/mirabelle-bow-strap-floral-gown-red/front-20261026.webp",
+    "/products/mirabelle-bow-strap-floral-gown-red/back-20261026.webp",
+    "/products/mirabelle-bow-strap-floral-gown-red/left-20261026.webp",
+    "/products/mirabelle-bow-strap-floral-gown-red/right-20261026.webp"
+  ],
+  "stock": 1096,
+  "unitCostUsd": 37.29,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "bellora-slit-slip-maxi-dress-red",
+  "name": "Bellora Slit Slip Maxi Dress — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Maxi Dresses",
+  "price": 33.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b72739"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A slip-style maxi dress with thin shoulder straps, a softly shaped neckline and a long skirt slit. Shown in red.",
+  "materials": "Smooth-look fabric with slip-style straps and a long slit. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/bellora-slit-slip-maxi-dress-red/front-20261026.webp",
+    "/products/bellora-slit-slip-maxi-dress-red/back-20261026.webp",
+    "/products/bellora-slit-slip-maxi-dress-red/left-20261026.webp",
+    "/products/bellora-slit-slip-maxi-dress-red/right-20261026.webp"
+  ],
+  "stock": 100,
+  "unitCostUsd": 11.21,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "bellora-slit-slip-maxi-dress-black",
+  "name": "Bellora Slit Slip Maxi Dress — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Maxi Dresses",
+  "price": 34.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A slip-style maxi dress with thin shoulder straps, a softly shaped neckline and a long skirt slit. Shown in black.",
+  "materials": "Smooth-look fabric with slip-style straps and a long slit. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/bellora-slit-slip-maxi-dress-black/front-20261026.webp",
+    "/products/bellora-slit-slip-maxi-dress-black/back-20261026.webp",
+    "/products/bellora-slit-slip-maxi-dress-black/left-20261026.webp",
+    "/products/bellora-slit-slip-maxi-dress-black/right-20261026.webp"
+  ],
+  "stock": 65,
+  "unitCostUsd": 11.44,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "cerelia-lace-corset-mini-dress-gray",
+  "name": "Cerelia Lace Corset Mini Dress — Gray",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 132.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b9b8bc"
+  ],
+  "colorNames": [
+    "Gray"
+  ],
+  "sizes": [
+    "XS（old）",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A strapless gray floral lace-look mini dress with a fitted corset-style bodice, narrow vertical seams, a ruched skirt and a single draped lace sash at the left hip.",
+  "materials": "Lace-look overlay with vertical corset-style seams and a ruched skirt. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/cerelia-lace-corset-mini-dress-gray/front-20261026.webp",
+    "/products/cerelia-lace-corset-mini-dress-gray/back-20261026.webp",
+    "/products/cerelia-lace-corset-mini-dress-gray/left-20261026.webp",
+    "/products/cerelia-lace-corset-mini-dress-gray/right-20261026.webp"
+  ],
+  "stock": 20,
+  "unitCostUsd": 44.14,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "asteria-star-print-tulle-mini-dress-green",
+  "name": "Asteria Star Print Tulle Mini Dress — Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 53.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#6e895e"
+  ],
+  "colorNames": [
+    "Green"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "XL",
+    "XXL"
+  ],
+  "description": "A green mini dress with thin shoulder straps, decorative rosettes and a tiered tulle-look skirt with scattered star motifs.",
+  "materials": "Tulle-look overlay with star motifs and a tiered skirt. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/asteria-star-print-tulle-mini-dress-green/front-20261026.webp",
+    "/products/asteria-star-print-tulle-mini-dress-green/back-20261026.webp",
+    "/products/asteria-star-print-tulle-mini-dress-green/left-20261026.webp",
+    "/products/asteria-star-print-tulle-mini-dress-green/right-20261026.webp"
+  ],
+  "stock": 20,
+  "unitCostUsd": 17.72,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "caldera-graphic-stripe-mini-dress-black",
+  "name": "Caldera Graphic Stripe Mini Dress — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 135.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A mini dress with shoulder straps, a fitted silhouette and a contrasting graphic pattern. Shown in black.",
+  "materials": "Fabric with a contrasting graphic print. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/caldera-graphic-stripe-mini-dress-black/front-20261026.webp",
+    "/products/caldera-graphic-stripe-mini-dress-black/back-20261026.webp",
+    "/products/caldera-graphic-stripe-mini-dress-black/left-20261026.webp",
+    "/products/caldera-graphic-stripe-mini-dress-black/right-20261026.webp"
+  ],
+  "stock": 40,
+  "unitCostUsd": 45.05,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "hollis-festive-knit-sweater-dress-white",
+  "name": "Hollis Festive Knit Sweater Dress — White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 68.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f5f0e9"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A knit-look sweater dress with long sleeves, a fitted silhouette and festive patterned bands. Shown in white.",
+  "materials": "Knit-look fabric with festive patterned bands. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/hollis-festive-knit-sweater-dress-white/front-20261026.webp",
+    "/products/hollis-festive-knit-sweater-dress-white/back-20261026.webp",
+    "/products/hollis-festive-knit-sweater-dress-white/left-20261026.webp",
+    "/products/hollis-festive-knit-sweater-dress-white/right-20261026.webp"
+  ],
+  "stock": 120,
+  "unitCostUsd": 22.75,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "hollis-festive-knit-sweater-dress-red",
+  "name": "Hollis Festive Knit Sweater Dress — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 68.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b72739"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A knit-look sweater dress with long sleeves, a fitted silhouette and festive patterned bands. Shown in red.",
+  "materials": "Knit-look fabric with festive patterned bands. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/hollis-festive-knit-sweater-dress-red/front-20261026.webp",
+    "/products/hollis-festive-knit-sweater-dress-red/back-20261026.webp",
+    "/products/hollis-festive-knit-sweater-dress-red/left-20261026.webp",
+    "/products/hollis-festive-knit-sweater-dress-red/right-20261026.webp"
+  ],
+  "stock": 183,
+  "unitCostUsd": 22.75,
+  "minimumMarginPercent": 40
 }
 ];
 
@@ -17363,6 +17642,15 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "mirabelle-bow-strap-floral-gown-red",
+  "bellora-slit-slip-maxi-dress-red",
+  "bellora-slit-slip-maxi-dress-black",
+  "cerelia-lace-corset-mini-dress-gray",
+  "asteria-star-print-tulle-mini-dress-green",
+  "caldera-graphic-stripe-mini-dress-black",
+  "hollis-festive-knit-sweater-dress-white",
+  "hollis-festive-knit-sweater-dress-red",
+
   "noctelle-strapless-corset-midi-dress-black",
 
   "arlena-cutout-halter-maxi-dress-black",

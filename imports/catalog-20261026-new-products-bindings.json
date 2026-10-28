@@ -230,7 +230,7 @@
       "stockBySize": {
         "S": 66,
         "M": 66,
-        "L": 65,
+        "L": 64,
         "XL": 65,
         "XXL": 66,
         "XXXL": 66
@@ -566,7 +566,7 @@
         "M": 65,
         "L": 65,
         "XL": 64,
-        "XXL": 64,
+        "XXL": 63,
         "XXXL": 65
       },
       "landedCostUsdBySize": {
@@ -1214,7 +1214,7 @@
         "M": 65,
         "L": 64,
         "XL": 66,
-        "XXL": 65,
+        "XXL": 64,
         "XXXL": 66
       },
       "landedCostUsdBySize": {
@@ -1531,6 +1531,251 @@
       "priceEnding": ".90 rounded upward",
       "supplierId": "cmvlisgr8006e06kx1sma01ru",
       "verifiedAtUtc": "2026-10-28T00:07:55.614Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "mirabelle-bow-strap-floral-gown-red",
+      "sourceProductId": "3256808027641525",
+      "sourceColor": "red",
+      "sourceSkuIdsBySize": {
+        "XS": "12000044259922153",
+        "S": "12000044259922154",
+        "M": "12000044259922155",
+        "L": "12000044259922156"
+      },
+      "stockBySize": {
+        "XS": 280,
+        "S": 275,
+        "M": 272,
+        "L": 269
+      },
+      "landedCostUsdBySize": {
+        "XS": 37.29,
+        "S": 37.29,
+        "M": 37.29,
+        "L": 37.29
+      },
+      "retailPriceUsd": 111.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvliu83u007606kxvlzw8004",
+      "verifiedAtUtc": "2026-10-28T14:22:28.716Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "bellora-slit-slip-maxi-dress-red",
+      "sourceProductId": "3256805032384742",
+      "sourceColor": "Red",
+      "sourceSkuIdsBySize": {
+        "S": "12000032230170481",
+        "M": "12000032230170482",
+        "L": "12000032230170483"
+      },
+      "stockBySize": {
+        "S": 45,
+        "M": 17,
+        "L": 38
+      },
+      "landedCostUsdBySize": {
+        "S": 11.21,
+        "M": 10.38,
+        "L": 11.08
+      },
+      "retailPriceUsd": 33.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljhv67000d06id4fdpgwc0",
+      "verifiedAtUtc": "2026-10-28T14:22:31.257Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "bellora-slit-slip-maxi-dress-black",
+      "sourceProductId": "3256805032384742",
+      "sourceColor": "black",
+      "sourceSkuIdsBySize": {
+        "S": "12000032230170478",
+        "M": "12000032230170479",
+        "L": "12000032230170480"
+      },
+      "stockBySize": {
+        "S": 33,
+        "M": 17,
+        "L": 15
+      },
+      "landedCostUsdBySize": {
+        "S": 10.44,
+        "M": 10.44,
+        "L": 11.44
+      },
+      "retailPriceUsd": 34.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljhv67000d06id4fdpgwc0",
+      "verifiedAtUtc": "2026-10-28T14:22:31.257Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "cerelia-lace-corset-mini-dress-gray",
+      "sourceProductId": "3256806080098736",
+      "sourceColor": "GRAY",
+      "sourceSkuIdsBySize": {
+        "XS（old）": "12000057411362865",
+        "S": "12000057411362861",
+        "M": "12000057411362862",
+        "L": "12000057411362863"
+      },
+      "stockBySize": {
+        "XS（old）": 5,
+        "S": 5,
+        "M": 5,
+        "L": 5
+      },
+      "landedCostUsdBySize": {
+        "XS（old）": 44.14,
+        "S": 44.14,
+        "M": 44.14,
+        "L": 44.14
+      },
+      "retailPriceUsd": 132.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljq6a900db06id0ziu8vbh",
+      "verifiedAtUtc": "2026-10-28T14:22:34.309Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "asteria-star-print-tulle-mini-dress-green",
+      "sourceProductId": "3256810199360372",
+      "sourceColor": "green",
+      "sourceSkuIdsBySize": {
+        "S": "12000052229554708",
+        "M": "12000052229554709",
+        "XL": "12000052229554711",
+        "XXL": "12000052229554712"
+      },
+      "stockBySize": {
+        "S": 6,
+        "M": 3,
+        "XL": 7,
+        "XXL": 4
+      },
+      "landedCostUsdBySize": {
+        "S": 17.72,
+        "M": 17.72,
+        "XL": 17.72,
+        "XXL": 17.72
+      },
+      "retailPriceUsd": 53.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvlju11a00hs06idswtawgqy",
+      "verifiedAtUtc": "2026-10-28T14:22:30.742Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "caldera-graphic-stripe-mini-dress-black",
+      "sourceProductId": "3256810292871239",
+      "sourceColor": "black",
+      "sourceSkuIdsBySize": {
+        "XS": "12000052542062351",
+        "S": "12000052542062352",
+        "M": "12000052542062353",
+        "L": "12000052542062354",
+        "XL": "12000052542062355"
+      },
+      "stockBySize": {
+        "XS": 8,
+        "S": 4,
+        "M": 10,
+        "L": 9,
+        "XL": 9
+      },
+      "landedCostUsdBySize": {
+        "XS": 45.05,
+        "S": 45.05,
+        "M": 45.05,
+        "L": 45.05,
+        "XL": 45.05
+      },
+      "retailPriceUsd": 135.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljwxn100jw06idzakiva2o",
+      "verifiedAtUtc": "2026-10-28T14:22:30.634Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "hollis-festive-knit-sweater-dress-white",
+      "sourceProductId": "3256809195416092",
+      "sourceColor": "White",
+      "sourceSkuIdsBySize": {
+        "S": "12000048931914675",
+        "M": "12000048931914676",
+        "L": "12000048931914677",
+        "XL": "12000048931914678"
+      },
+      "stockBySize": {
+        "S": 30,
+        "M": 30,
+        "L": 30,
+        "XL": 30
+      },
+      "landedCostUsdBySize": {
+        "S": 22.75,
+        "M": 22.75,
+        "L": 22.75,
+        "XL": 22.75
+      },
+      "retailPriceUsd": 68.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljyh8600km06id4yirap67",
+      "verifiedAtUtc": "2026-10-28T14:22:30.911Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "hollis-festive-knit-sweater-dress-red",
+      "sourceProductId": "3256809195416092",
+      "sourceColor": "Red",
+      "sourceSkuIdsBySize": {
+        "S": "12000048931914680",
+        "M": "12000048931914681",
+        "L": "12000048931914682",
+        "XL": "12000048931914683"
+      },
+      "stockBySize": {
+        "S": 41,
+        "M": 47,
+        "L": 47,
+        "XL": 48
+      },
+      "landedCostUsdBySize": {
+        "S": 20.85,
+        "M": 22.75,
+        "L": 22.75,
+        "XL": 22.75
+      },
+      "retailPriceUsd": 68.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvljyh8600km06id4yirap67",
+      "verifiedAtUtc": "2026-10-28T14:22:30.911Z",
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"

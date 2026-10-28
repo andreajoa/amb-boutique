@@ -1,0 +1,45 @@
+{
+  "scope": "Only three stock caps on our previously published new products; no protected Claude product",
+  "auditSha256": "6cc7eaaf0857fe5fbcf1482a408f9495b8e2362a1e7f2d439d40a104f41b76ac",
+  "changes": [
+    {
+      "slug": "ameixa-velvet-cowl-dress",
+      "size": "L",
+      "sourceProductId": "3256810207199601",
+      "sourceSkuId": "12000053435360222",
+      "stockBefore": 65,
+      "stockAfter": 64,
+      "productStockBefore": 394,
+      "productStockAfter": 393,
+      "verifiedAtUtc": "2026-10-28T14:24:43.956Z",
+      "quoteFile": "velvet-all53-readonly-20261028at1415.json",
+      "quoteSha256": "eb03d6efe081ce6a442404bdeafa37d80962e1e9c3674ce60e6ef359d0a7b07a"
+    },
+    {
+      "slug": "evelisse-cowl-neck-velvet-mini-dress-champagne-style-05",
+      "size": "XXL",
+      "sourceProductId": "3256810207199601",
+      "sourceSkuId": "12000053435360200",
+      "stockBefore": 64,
+      "stockAfter": 63,
+      "productStockBefore": 388,
+      "productStockAfter": 387,
+      "verifiedAtUtc": "2026-10-28T14:24:43.956Z",
+      "quoteFile": "velvet-all53-readonly-20261028at1415.json",
+      "quoteSha256": "eb03d6efe081ce6a442404bdeafa37d80962e1e9c3674ce60e6ef359d0a7b07a"
+    },
+    {
+      "slug": "vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17",
+      "size": "XXL",
+      "sourceProductId": "3256810207199601",
+      "sourceSkuId": "12000053435360272",
+      "stockBefore": 65,
+      "stockAfter": 64,
+      "productStockBefore": 392,
+      "productStockAfter": 391,
+      "verifiedAtUtc": "2026-10-28T14:24:43.956Z",
+      "quoteFile": "velvet-all53-readonly-20261028at1415.json",
+      "quoteSha256": "eb03d6efe081ce6a442404bdeafa37d80962e1e9c3674ce60e6ef359d0a7b07a"
+    }
+  ]
+}
