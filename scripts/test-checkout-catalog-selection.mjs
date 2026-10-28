@@ -112,6 +112,35 @@ cases.push({name:'Noctelle Black uses confirmed 3x cost price',items:[{slug:'noc
 cases.push({name:'Noctelle does not invent native XL',items:[{slug:'noctelle-strapless-corset-midi-dress-black',size:'XL',color:'Black',quantity:1}],expected:400});
 cases.push({name:'Noctelle Red held for missing garment reference cannot be purchased',items:[{slug:'noctelle-strapless-corset-midi-dress-red',size:'S',color:'Red',quantity:1}],expected:400});
 cases.push({name:'Noctelle welcome offer preserves 3x retail',items:[{slug:'noctelle-strapless-corset-midi-dress-black',size:'S',color:'Black',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,expectedUnitAmount:13290});
+for (const [slug,color,size,amount] of [
+  ['mirabelle-bow-strap-floral-gown-red','Red','XS',11190],
+  ['bellora-slit-slip-maxi-dress-red','Red','S',3390],
+  ['bellora-slit-slip-maxi-dress-black','Black','M',3490],
+  ['cerelia-lace-corset-mini-dress-gray','Gray','XS（old）',13290],
+  ['asteria-star-print-tulle-mini-dress-green','Green','XL',5390],
+  ['caldera-graphic-stripe-mini-dress-black','Black','XS',13590],
+  ['hollis-festive-knit-sweater-dress-white','White','L',6890],
+  ['hollis-festive-knit-sweater-dress-red','Red','M',6890],
+]) {
+  cases.push({name:slug+' preserves the confirmed 3x price despite client tampering',items:[{slug,size,color,quantity:1,price:0.01}],expected:200,expectedUnitAmount:amount});
+}
+for (const [slug,color] of [['sorelia-draped-halter-mini-dress-red','Red'],['cerelia-lace-corset-mini-dress-white','White'],['cerelia-lace-corset-mini-dress-black','Black'],['cerelia-lace-corset-mini-dress-red','Red']]) {
+  cases.push({name:slug+' remains held and cannot be purchased',items:[{slug,size:'S',color,quantity:1}],expected:400});
+}
+cases.push({name:'Cerelia literal native XS old is not plain XS',items:[{slug:'cerelia-lace-corset-mini-dress-gray',size:'XS',color:'Gray',quantity:1}],expected:400});
+cases.push({name:'Cerelia official zero XL is omitted',items:[{slug:'cerelia-lace-corset-mini-dress-gray',size:'XL',color:'Gray',quantity:1}],expected:400});
+cases.push({name:'Cerelia duplicate native XS old lines share the five-unit cap',items:[{slug:'cerelia-lace-corset-mini-dress-gray',size:'XS（old）',color:'Gray',quantity:3},{slug:'cerelia-lace-corset-mini-dress-gray',size:'XS（old）',color:'Gray',quantity:3}],expected:400});
+cases.push({name:'Asteria newly synced XL cannot exceed seven',items:[{slug:'asteria-star-print-tulle-mini-dress-green',size:'XL',color:'Green',quantity:8}],expected:400});
+cases.push({name:'Asteria unavailable L is blocked even when cached stock is positive',items:[{slug:'asteria-star-print-tulle-mini-dress-green',size:'L',color:'Green',quantity:5}],expected:400});
+cases.push({name:'Bellora Black M cannot exceed seventeen',items:[{slug:'bellora-slit-slip-maxi-dress-black',size:'M',color:'Black',quantity:18}],expected:400});
+cases.push({name:'Caldera S cannot exceed four',items:[{slug:'caldera-graphic-stripe-mini-dress-black',size:'S',color:'Black',quantity:5}],expected:400});
+cases.push({name:'Cerelia welcome offer preserves 3x selling price',items:[{slug:'cerelia-lace-corset-mini-dress-gray',size:'XS（old）',color:'Gray',quantity:1}],promotionCode:'AMBWELCOME10',expected:200,expectedUnitAmount:13290});
+cases.push({name:'Bellora cart rewards preserve 3x selling price',items:[{slug:'bellora-slit-slip-maxi-dress-red',size:'S',color:'Red',quantity:2}],expected:200,expectedUnitAmount:3390});
+cases.push({name:'Fresh official zero Asteria L cannot be purchased',items:[{slug:'asteria-star-print-tulle-mini-dress-green',size:'L',color:'Green',quantity:1}],expected:400});
+cases.push({name:'Fresh Asteria M cap is three',items:[{slug:'asteria-star-print-tulle-mini-dress-green',size:'M',color:'Green',quantity:4}],expected:400});
+cases.push({name:'Published Ameixa L refreshed cap is sixty-four',items:[10, 10, 10, 10, 10, 10, 5].map(quantity=>({slug:'ameixa-velvet-cowl-dress',size:'L',color:'Plum',quantity})),expected:400,expectedErrorIncludes:['Only 64 of','in size L are']});
+cases.push({name:'Published Evelisse Champagne XXL refreshed cap is sixty-three',items:[10, 10, 10, 10, 10, 10, 4].map(quantity=>({slug:'evelisse-cowl-neck-velvet-mini-dress-champagne-style-05',size:'XXL',color:'Champagne',quantity})),expected:400,expectedErrorIncludes:['Only 63 of','in size XXL are']});
+cases.push({name:'Published Vionelle Burgundy XXL refreshed cap is sixty-four',items:[10, 10, 10, 10, 10, 10, 5].map(quantity=>({slug:'vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17',size:'XXL',color:'Burgundy',quantity})),expected:400,expectedErrorIncludes:['Only 64 of','in size XXL are']});
 const results=[];
-for(const c of cases){captured=null;const res=await POST({json:async()=>({items:c.items,market:'US',promotionCode:c.promotionCode}),nextUrl:{origin:'https://offline.example'}});results.push({case:c.name,productSlug:p.slug,catalogStock:p.stock,catalogSizes:p.sizes,catalogColors:p.colorNames,request:c.items,expectedStatus:c.expected,expectedUnitAmount:c.expectedUnitAmount,actualStatus:res.status,body:await res.json(),stripeFixtureCreated:!!captured,chargedUnitAmount:captured?.line_items?.[0]?.price_data?.unit_amount,chargedQuantity:captured?.line_items?.[0]?.quantity,chargedDescription:captured?.line_items?.[0]?.price_data?.product_data?.description});}
-for(const result of results){assert.equal(result.actualStatus,result.expectedStatus,result.case);if(result.expectedUnitAmount)assert.equal(result.chargedUnitAmount,result.expectedUnitAmount,result.case+' canonical price');assert.equal(result.stripeFixtureCreated,result.expectedStatus===200,result.case+' payment boundary');}console.log(JSON.stringify({passed:results.length,cases:results.map(r=>({name:r.case,status:r.actualStatus}))}));
+for(const c of cases){captured=null;const res=await POST({json:async()=>({items:c.items,market:'US',promotionCode:c.promotionCode}),nextUrl:{origin:'https://offline.example'}});results.push({case:c.name,productSlug:p.slug,catalogStock:p.stock,catalogSizes:p.sizes,catalogColors:p.colorNames,request:c.items,expectedStatus:c.expected,expectedUnitAmount:c.expectedUnitAmount,expectedErrorIncludes:c.expectedErrorIncludes,actualStatus:res.status,body:await res.json(),stripeFixtureCreated:!!captured,chargedUnitAmount:captured?.line_items?.[0]?.price_data?.unit_amount,chargedQuantity:captured?.line_items?.[0]?.quantity,chargedDescription:captured?.line_items?.[0]?.price_data?.product_data?.description});}
+for(const result of results){for(const phrase of result.expectedErrorIncludes||[])assert.ok(result.body.error?.includes(phrase),result.case+' exact stock guard: '+JSON.stringify(result.body));assert.equal(result.actualStatus,result.expectedStatus,result.case);if(result.expectedUnitAmount)assert.equal(result.chargedUnitAmount,result.expectedUnitAmount,result.case+' canonical price');assert.equal(result.stripeFixtureCreated,result.expectedStatus===200,result.case+' payment boundary');}console.log(JSON.stringify({passed:results.length,cases:results.map(r=>({name:r.case,status:r.actualStatus}))}));

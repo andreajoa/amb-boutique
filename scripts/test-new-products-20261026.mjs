@@ -32,9 +32,40 @@ const plan = JSON.parse(fs.readFileSync(path.join(root, "imports/catalog-2026102
 const additions = plan.products.filter(binding => !baseline.some(product => product.slug === binding.slug));
 assert.equal(products.length, baseline.length + additions.length);
 assert.equal(new Set(products.map(p => p.slug)).size, products.length);
-for (const old of baseline) assert.deepEqual(JSON.parse(JSON.stringify(products.find(p => p.slug === old.slug))), old, `Existing product changed: ${old.slug}`);
-const protectedCount = baseline.filter(p => p.images?.some(i => i.includes("-20261025"))).length;
+const protectedSlugs = new Set(baseline.filter(p => p.images?.some(i => i.includes("-20261025"))).map(p => p.slug));
+const protectedCount = protectedSlugs.size;
 assert.equal(protectedCount, 93, "Reconcile the protected set if the base catalog changes");
+const refresh = JSON.parse(fs.readFileSync(path.join(root, "imports/catalog-20261028-stock-cap-refresh.json"), "utf8"));
+assert.deepEqual(refresh.changes.map(c => [c.slug,c.size,c.sourceSkuId,c.stockBefore,c.stockAfter]), [
+  ["ameixa-velvet-cowl-dress","L","12000053435360222",65,64],
+  ["evelisse-cowl-neck-velvet-mini-dress-champagne-style-05","XXL","12000053435360200",64,63],
+  ["vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17","XXL","12000053435360272",65,64],
+]);
+const baselinePlan = JSON.parse(execFileSync("git", ["show", `${process.env.AMB_CATALOG_BASE_REF || "origin/main"}:imports/catalog-20261026-new-products-bindings.json`], { cwd:root, encoding:"utf8" }));
+let refreshedExisting = 0;
+for (const old of baseline) {
+  const change = refresh.changes.find(c => c.slug === old.slug);
+  let expected = old;
+  if (change) {
+    assert.ok(!protectedSlugs.has(old.slug), "A protected Claude product cannot receive this refresh");
+    assert.equal(change.productStockBefore-change.productStockAfter, change.stockBefore-change.stockAfter);
+    const previous = baselinePlan.products.find(p => p.slug === old.slug);
+    assert.ok(previous);assert.equal(previous.sourceSkuIdsBySize[change.size],change.sourceSkuId);
+    if (old.stock === change.productStockBefore) {
+      assert.equal(previous.stockBySize[change.size],change.stockBefore);
+      expected = {...old, stock:change.productStockAfter};refreshedExisting++;
+    } else {
+      assert.equal(old.stock,change.productStockAfter);
+      assert.equal(previous.stockBySize[change.size],change.stockAfter);
+    }
+  }
+  assert.deepEqual(JSON.parse(JSON.stringify(products.find(p => p.slug === old.slug))), expected, `Unapproved existing product change: ${old.slug}`);
+}
+for (const previous of baselinePlan.products) {
+  const change = refresh.changes.find(c => c.slug === previous.slug);
+  const expected = change ? {...previous, stockBySize:{...previous.stockBySize,[change.size]:change.stockAfter}} : previous;
+  assert.deepEqual(plan.products.find(p => p.slug === previous.slug),expected,`Existing binding changed beyond reviewed stock cap: ${previous.slug}`);
+}
 for (const binding of plan.products) {
   const p = products.find(p => p.slug === binding.slug);
   assert.equal(p.sourceProductId, binding.sourceProductId);
@@ -61,5 +92,5 @@ for (const binding of plan.products) {
   }
   assert.equal(new Set(hashes).size, 4, "Duplicate gallery views");
 }
-console.log(JSON.stringify({ before: baseline.length, after: products.length, unchangedExistingProducts: baseline.length,
+console.log(JSON.stringify({ before: baseline.length, after: products.length, unchangedExistingProducts: baseline.length-refreshedExisting, existingStockCapsRefreshed:refreshedExisting,
   protectedClaudeProducts: protectedCount, newProducts: additions.length, priceRule: "at least3x confirmed landed cost", gallery: "4 unique1600px sRGB views" }));
