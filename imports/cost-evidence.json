@@ -633,6 +633,10 @@
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
   },
+  "lumielle-sequin-slip-mini-dress-silver": {
+   "landedCostUsd": 14.28,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
   "maelle-champagne-satin-midi-dress": {
    "landedCostUsd": 21.84,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"

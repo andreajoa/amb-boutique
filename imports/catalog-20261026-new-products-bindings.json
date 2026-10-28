@@ -1779,6 +1779,31 @@
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
+    },
+    {
+      "slug": "lumielle-sequin-slip-mini-dress-silver",
+      "sourceProductId": "1005005737836133",
+      "sourceColor": "WHITE",
+      "sourceSkuIdsBySize": {
+        "S": "12000034182362851",
+        "M": "12000034182362852"
+      },
+      "stockBySize": {
+        "S": 3,
+        "M": 4
+      },
+      "landedCostUsdBySize": {
+        "S": 14.28,
+        "M": 13.88
+      },
+      "retailPriceUsd": 42.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvsnhbnj000a08jtwh0uqnfu",
+      "verifiedAtUtc": "2026-10-28T21:55:46.360Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }

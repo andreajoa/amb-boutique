@@ -40,7 +40,10 @@ export function protectMargin(product: Product, requestedPercent: number, shippi
   if (cost === null) return { costKnown: false, requestedPercent: requested, approvedPercent: 0, landedCostUsd: null, floorPriceUsd: null, contributionUsd: null, marginPercent: null };
 
   const minimumMargin = Math.max(0, Math.min(70, product.minimumMarginPercent ?? DEFAULT_MINIMUM_MARGIN_PERCENT)) / 100;
-  const floorPrice = (cost + shippingSubsidyUsd + PAYMENT_FIXED_FEE_USD) / (1 - PAYMENT_FEE_RATE - minimumMargin);
+  const marginFloor = (cost + shippingSubsidyUsd + PAYMENT_FIXED_FEE_USD) / (1 - PAYMENT_FEE_RATE - minimumMargin);
+  const multiplier = product.minimumCostMultiplier;
+  const costFloor = typeof multiplier === "number" && Number.isFinite(multiplier) && multiplier >= 1 ? cost * multiplier : 0;
+  const floorPrice = Math.max(marginFloor, costFloor);
   const maximumPercent = Math.max(0, Math.min(25, (1 - floorPrice / product.price) * 100));
   const approved = Math.min(requested, Math.floor(maximumPercent * 100) / 100);
   const salePrice = product.price * (1 - approved / 100);
