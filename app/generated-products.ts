@@ -17216,6 +17216,145 @@ const allGeneratedProducts: Product[] = [
   "stock": 107,
   "unitCostUsd": 67.98,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "arlena-cutout-halter-maxi-dress-black",
+  "name": "Arlena Cutout Halter Maxi Dress — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Maxi Dresses",
+  "price": 169.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted halter maxi dress with a scalloped neckline, four small leaf-shaped cutouts beneath the opaque bodice, a defined waist seam and a long straight skirt. Shown in black.",
+  "materials": "Smooth structured-looking fabric with scalloped edging. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/arlena-cutout-halter-maxi-dress-black/front-20261026.webp",
+    "/products/arlena-cutout-halter-maxi-dress-black/back-20261026.webp",
+    "/products/arlena-cutout-halter-maxi-dress-black/left-20261026.webp",
+    "/products/arlena-cutout-halter-maxi-dress-black/right-20261026.webp"
+  ],
+  "stock": 242,
+  "unitCostUsd": 56.41,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "arlena-cutout-halter-maxi-dress-coffee",
+  "name": "Arlena Cutout Halter Maxi Dress — Coffee",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Maxi Dresses",
+  "price": 169.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#654435"
+  ],
+  "colorNames": [
+    "Coffee"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted halter maxi dress with a scalloped neckline, four small leaf-shaped cutouts beneath the opaque bodice, a defined waist seam and a long straight skirt. Shown in coffee.",
+  "materials": "Smooth structured-looking fabric with scalloped edging. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/arlena-cutout-halter-maxi-dress-coffee/front-20261026.webp",
+    "/products/arlena-cutout-halter-maxi-dress-coffee/back-20261026.webp",
+    "/products/arlena-cutout-halter-maxi-dress-coffee/left-20261026.webp",
+    "/products/arlena-cutout-halter-maxi-dress-coffee/right-20261026.webp"
+  ],
+  "stock": 135,
+  "unitCostUsd": 56.41,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "verdelle-lace-bodice-pleated-gown-green",
+  "name": "Verdelle Lace Bodice Pleated Gown — Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Maxi Dresses",
+  "price": 188.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#74834a"
+  ],
+  "colorNames": [
+    "Green"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A green halter gown with a floral lace-look corset-style bodice, shaped cups and a long finely pleated skirt. The halter ties at the nape and the back has central corset lacing.",
+  "materials": "Floral lace-look bodice with opaque front coverage and a finely pleated skirt. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/verdelle-lace-bodice-pleated-gown-green/front-20261026.webp",
+    "/products/verdelle-lace-bodice-pleated-gown-green/back-20261026.webp",
+    "/products/verdelle-lace-bodice-pleated-gown-green/left-20261026.webp",
+    "/products/verdelle-lace-bodice-pleated-gown-green/right-20261026.webp"
+  ],
+  "stock": 2624,
+  "unitCostUsd": 62.85,
+  "minimumMarginPercent": 40
+},
+{
+  "slug": "noctelle-strapless-corset-midi-dress-black",
+  "name": "Noctelle Strapless Corset Midi Dress — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Midi Dresses",
+  "price": 132.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#171717"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A black strapless midi dress with pointed cup corners and a V-shaped neckline, a fitted corset-style bodice with vertical seams and a full A-line skirt with broad pleats.",
+  "materials": "Structured-looking bodice with a full pleated skirt and a subtle sheen. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/noctelle-strapless-corset-midi-dress-black/front-20261026.webp",
+    "/products/noctelle-strapless-corset-midi-dress-black/back-20261026.webp",
+    "/products/noctelle-strapless-corset-midi-dress-black/left-20261026.webp",
+    "/products/noctelle-strapless-corset-midi-dress-black/right-20261026.webp"
+  ],
+  "stock": 1431,
+  "unitCostUsd": 43.97,
+  "minimumMarginPercent": 40
 }
 ];
 
@@ -17224,6 +17363,12 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "noctelle-strapless-corset-midi-dress-black",
+
+  "arlena-cutout-halter-maxi-dress-black",
+  "arlena-cutout-halter-maxi-dress-coffee",
+  "verdelle-lace-bodice-pleated-gown-green",
+
   "rosaline-rosette-corset-mini-dress-yellow",
   "rosaline-rosette-corset-mini-dress-black",
   "rosaline-rosette-corset-mini-dress-red-high-end-fabric",

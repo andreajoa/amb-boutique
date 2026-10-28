@@ -460,5 +460,9 @@ export const octoberSourceLineage: Record<string, { sourceProductId: string; sou
   "rosaline-rosette-corset-mini-dress-black": {"sourceProductId":"3256807496697128","sourceColor":"black"},
   "rosaline-rosette-corset-mini-dress-red-high-end-fabric": {"sourceProductId":"3256807496697128","sourceColor":"Red High-end Fabric"},
   "rosaline-rosette-corset-mini-dress-hot-pink": {"sourceProductId":"3256807496697128","sourceColor":"Hot pink"},
-  "rosaline-rosette-corset-mini-dress-red-bandage-fabric": {"sourceProductId":"3256807496697128","sourceColor":"Red Bandage Fabric"}
+  "rosaline-rosette-corset-mini-dress-red-bandage-fabric": {"sourceProductId":"3256807496697128","sourceColor":"Red Bandage Fabric"},
+  "arlena-cutout-halter-maxi-dress-black": {"sourceProductId":"3256809935768825","sourceColor":"black"},
+  "arlena-cutout-halter-maxi-dress-coffee": {"sourceProductId":"3256809935768825","sourceColor":"Coffee"},
+  "verdelle-lace-bodice-pleated-gown-green": {"sourceProductId":"3256810227568413","sourceColor":"green"},
+  "noctelle-strapless-corset-midi-dress-black": {"sourceProductId":"3256806100288235","sourceColor":"black"}
 };

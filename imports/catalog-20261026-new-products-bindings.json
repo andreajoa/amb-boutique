@@ -1413,6 +1413,127 @@
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
+    },
+    {
+      "slug": "arlena-cutout-halter-maxi-dress-black",
+      "sourceProductId": "3256809935768825",
+      "sourceColor": "black",
+      "sourceSkuIdsBySize": {
+        "XS": "12000051299966964",
+        "S": "12000051299966965",
+        "M": "12000051299966966",
+        "L": "12000051299966967"
+      },
+      "stockBySize": {
+        "XS": 64,
+        "S": 54,
+        "M": 57,
+        "L": 67
+      },
+      "landedCostUsdBySize": {
+        "XS": 56.41,
+        "S": 56.41,
+        "M": 56.41,
+        "L": 56.41
+      },
+      "retailPriceUsd": 169.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvliq1sr005a06kxp1y8qt6o",
+      "verifiedAtUtc": "2026-10-28T00:07:28.585Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "arlena-cutout-halter-maxi-dress-coffee",
+      "sourceProductId": "3256809935768825",
+      "sourceColor": "Coffee",
+      "sourceSkuIdsBySize": {
+        "XS": "12000051217284849",
+        "S": "12000051217284851",
+        "M": "12000051217284853",
+        "L": "12000051217284855"
+      },
+      "stockBySize": {
+        "XS": 33,
+        "S": 35,
+        "M": 33,
+        "L": 34
+      },
+      "landedCostUsdBySize": {
+        "XS": 56.41,
+        "S": 56.41,
+        "M": 56.41,
+        "L": 56.41
+      },
+      "retailPriceUsd": 169.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvliq1sr005a06kxp1y8qt6o",
+      "verifiedAtUtc": "2026-10-28T00:07:28.585Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "verdelle-lace-bodice-pleated-gown-green",
+      "sourceProductId": "3256810227568413",
+      "sourceColor": "green",
+      "sourceSkuIdsBySize": {
+        "S": "12000052328125392",
+        "M": "12000052328125393",
+        "L": "12000052328125394"
+      },
+      "stockBySize": {
+        "S": 857,
+        "M": 782,
+        "L": 985
+      },
+      "landedCostUsdBySize": {
+        "S": 60.22,
+        "M": 62.85,
+        "L": 62.85
+      },
+      "retailPriceUsd": 188.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvlilhzu004e06kxi32y9g9o",
+      "verifiedAtUtc": "2026-10-28T00:07:29.585Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "noctelle-strapless-corset-midi-dress-black",
+      "sourceProductId": "3256806100288235",
+      "sourceColor": "black",
+      "sourceSkuIdsBySize": {
+        "XS": "12000050338769944",
+        "S": "12000036616211826",
+        "M": "12000036616211827",
+        "L": "12000036616211828"
+      },
+      "stockBySize": {
+        "XS": 352,
+        "S": 338,
+        "M": 368,
+        "L": 373
+      },
+      "landedCostUsdBySize": {
+        "XS": 43.97,
+        "S": 43.97,
+        "M": 43.97,
+        "L": 43.97
+      },
+      "retailPriceUsd": 132.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvlisgr8006e06kx1sma01ru",
+      "verifiedAtUtc": "2026-10-28T00:07:55.614Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }
