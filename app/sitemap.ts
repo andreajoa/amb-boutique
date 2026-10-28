@@ -18,12 +18,12 @@ function indexableImages(images?: string[]) {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticPages = ["", "/collections", "/about", "/contact", "/faq", "/shipping", "/returns", "/privacy", "/terms", "/cookies", "/accessibility", "/size-guide", "/journal", "/sale"];
+  const staticPages = ["", "/collections", "/about", "/contact", "/faq", "/shipping", "/returns", "/privacy", "/terms", "/cookies", "/accessibility", "/size-guide", "/journal", "/sale", "/holiday"];
 
   return [
     ...staticPages.map((path) => ({
       url: `${base}${path}`,
-      lastModified: path === "" || path === "/collections" || path === "/sale" ? catalogueModified : siteModified,
+      lastModified: path === "" || path === "/collections" || path === "/sale" || path === "/holiday" ? catalogueModified : siteModified,
       changeFrequency: path === "" ? "daily" as const : "monthly" as const,
       priority: path === "" ? 1 : path === "/collections" ? .9 : .6,
       ...(path === "" ? { images: [

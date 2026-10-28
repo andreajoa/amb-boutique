@@ -22,12 +22,19 @@ assert.equal(new Set(products.map(p => p.slug)).size, products.length, 'Duplicat
 const release = JSON.parse(fs.readFileSync(`${repo}/imports/products-20261004-release.json`, 'utf8'));
 const baseline = JSON.parse(fs.readFileSync(`${repo}/imports/products-pre-oct04-baseline-hashes.json`, 'utf8'));
 const corrections = JSON.parse(fs.readFileSync(`${repo}/imports/catalog-corrections-20261024.json`, 'utf8'));
+const retired = JSON.parse(fs.readFileSync(`${repo}/imports/catalog-retired-20261028.json`, 'utf8')).redirects;
 const stable = value => Array.isArray(value) ? value.map(stable) : value && typeof value === 'object'
   ? Object.fromEntries(Object.keys(value).sort().map(key => [key, stable(value[key])])) : value;
 assert.equal(Object.keys(baseline).length, 444, 'Established catalogue baseline changed');
 assert.equal(release.baseProducts, 444);
-assert.equal(products.length, 444 + release.approvedSlugs.length, 'Unexpected catalogue count');
+assert.equal(products.length, 444 + release.approvedSlugs.length - Object.keys(retired).length, 'Unexpected catalogue count');
+for (const [slug, target] of Object.entries(retired)) {
+  assert.ok(baseline[slug], `Retired product is not established: ${slug}`);
+  assert.ok(!products.some(product => product.slug === slug), `Retired product still listed: ${slug}`);
+  assert.ok(products.some(product => product.slug === target), `Redirect target missing: ${target}`);
+}
 for (const [slug, digest] of Object.entries(baseline)) {
+  if (retired[slug]) continue;
   const product = products.find(product => product.slug === slug);
   assert.ok(product, `Removed established product: ${slug}`);
   const correction = corrections.products[slug];
