@@ -16,5 +16,5 @@ export const metadata: Metadata = {
 export default function HolidayPage() {
   const phase = holidayPhase();
   const copy = holidayCopy(phase);
-  return <CollectionsClient products={toCollectionProducts(holidayProducts(products, phase))} title={copy.title} eyebrow={copy.eyebrow} subtitle={copy.subtitle} notice={copy.notice} />;
+  return <CollectionsClient products={toCollectionProducts(holidayProducts(products, phase))} title={copy.title} eyebrow={copy.eyebrow} subtitle={copy.subtitle} notice={copy.notice} signup={copy.signup} />;
 }

@@ -1,23 +1,21 @@
 import type { Product } from "../data";
-import { deliveryWindows, discountTiers, FIRST_ORDER_CODE, FIRST_ORDER_DISCOUNT_PERCENT } from "../commerce";
+import { BLACK_FRIDAY, BLACK_FRIDAY_INTL_FREE_SHIPPING, blackFridayTiers, christmasOrderCutoff, discountTiers, FIRST_ORDER_CODE, FIRST_ORDER_DISCOUNT_PERCENT } from "../commerce";
+import { protectMargin } from "../profitability";
 
 export type HolidayPhase = "preview" | "black-friday" | "gifts" | "new-year" | "after";
 
 // Datas em Nova York (a loja vende para os EUA). Black Friday 27/11, Cyber Monday 30/11.
-const YEAR = 2026;
-const at = (month: number, day: number) => Date.UTC(YEAR, month - 1, day, 5); // 00:00 em NY (EST)
-const BLACK_FRIDAY_START = at(11, 20);
-const GIFTS_START = at(12, 1);
-const NEW_YEAR_START = at(12, 9);
-const AFTER = Date.UTC(YEAR + 1, 0, 1, 5);
+const GIFTS_START = BLACK_FRIDAY.end;
+const NEW_YEAR_START = Date.UTC(2026, 11, 9, 5);
+const AFTER = Date.UTC(2027, 0, 1, 5);
 
-const US_MAX_DAYS = deliveryWindows.US.max;
-// Último dia de pedido com entrega nos EUA até 24/12 no prazo máximo.
-const christmasCutoff = new Date(Date.UTC(YEAR, 11, 24 - US_MAX_DAYS, 5));
-const cutoffLabel = christmasCutoff.toLocaleDateString("en-US", { month: "long", day: "numeric", timeZone: "America/New_York" });
+// Prazo de Natal nos EUA: entrega em dias úteis (12–18), por isso o corte cai antes de dezembro.
+const cutoff = christmasOrderCutoff("US");
+const cutoffEndsAt = cutoff.getTime() + 29 * 3600 * 1000; // fim do dia em NY
+const cutoffLabel = cutoff.toLocaleDateString("en-US", { month: "long", day: "numeric", timeZone: "UTC" });
 
 export function holidayPhase(now = Date.now()): HolidayPhase {
-  if (now < BLACK_FRIDAY_START) return "preview";
+  if (now < BLACK_FRIDAY.start) return "preview";
   if (now < GIFTS_START) return "black-friday";
   if (now < NEW_YEAR_START) return "gifts";
   if (now < AFTER) return "new-year";
@@ -25,33 +23,41 @@ export function holidayPhase(now = Date.now()): HolidayPhase {
 }
 
 export function christmasDeliveryOpen(now = Date.now()) {
-  return now < christmasCutoff.getTime() + 24 * 3600 * 1000;
+  return now < cutoffEndsAt;
 }
 
+const [bfAll, bfHigh] = blackFridayTiers;
+const bfOffer = `${bfAll.percent}% off our regular prices on every piece in this edit, ${bfHigh.percent}% off orders over $${bfHigh.threshold}`;
 const topTier = discountTiers.at(-1)!;
-const spendOffer = `Spend $${discountTiers[0].threshold} and save ${discountTiers[0].percent}%, up to ${topTier.percent}% off at $${topTier.threshold}`;
+const spendOffer = `Every piece here: spend $${discountTiers[0].threshold} and save ${discountTiers[0].percent}%, up to ${topTier.percent}% off at $${topTier.threshold}`;
+const RETURNS = "30-day returns";
 
 export function holidayCopy(phase: HolidayPhase, now = Date.now()) {
   const christmas = christmasDeliveryOpen(now)
-    ? `Order by ${cutoffLabel} for US delivery before Christmas.`
-    : "Christmas delivery cut-off has passed for most pieces; gift them for the New Year.";
+    ? `US orders placed by ${cutoffLabel} arrive before Christmas, or we refund your order.`
+    : "The Christmas delivery cut-off has passed; pieces ordered now arrive for New Year's.";
   switch (phase) {
     case "preview":
-      return { eyebrow: "THE HOLIDAY EDIT", title: "Holiday Season", subtitle: "Black Friday week opens November 20. Dinner dresses, gift-ready bags and New Year's Eve looks, curated in one place.", notice: `${spendOffer}. New here? Use ${FIRST_ORDER_CODE} for ${FIRST_ORDER_DISCOUNT_PERCENT}% off your first order.` };
+      return { eyebrow: "THE HOLIDAY EDIT", title: "Holiday Season", subtitle: `Black Friday opens November 20: ${bfOffer}. Join the list for 24-hour early access on November 19.`, notice: `${christmas} ${RETURNS}. New here? Use ${FIRST_ORDER_CODE} for ${FIRST_ORDER_DISCOUNT_PERCENT}% off your first order.`, signup: true };
     case "black-friday":
-      return { eyebrow: "BLACK FRIDAY WEEK", title: "Black Friday", subtitle: "November 20 to Cyber Monday, November 30. Our most-loved pieces for the season ahead.", notice: `${spendOffer}. ${christmas}` };
+      return { eyebrow: "BLACK FRIDAY · NOV 20–30", title: "Black Friday", subtitle: `${bfOffer}. Free shipping to Canada, the UK, Australia and New Zealand over $${BLACK_FRIDAY_INTL_FREE_SHIPPING.thresholdUsd} for most parcels. Applied automatically at checkout.`, notice: `${christmas} ${RETURNS}.`, signup: false };
     case "gifts":
-      return { eyebrow: "THE GIFT GUIDE", title: "Gifts She'll Keep", subtitle: "Bags, accessories and easy pieces chosen to be given.", notice: christmas };
+      return { eyebrow: "THE GIFT GUIDE", title: "Gifts She'll Keep", subtitle: "Bags, accessories and easy pieces chosen to be given.", notice: `${christmas} ${RETURNS}. ${spendOffer}.`, signup: false };
     case "new-year":
-      return { eyebrow: "NEW YEAR'S EVE", title: "Your New Year's Eve Look", subtitle: "Evening dresses, satin and statement pieces for the last night of the year.", notice: `${spendOffer}.` };
+      return { eyebrow: "NEW YEAR'S EVE", title: "Your New Year's Eve Look", subtitle: "Evening dresses, satin and statement pieces for the last night of the year.", notice: `${spendOffer}. ${RETURNS}.`, signup: false };
     default:
-      return { eyebrow: "THE AMB EDIT", title: "The Winter Edit", subtitle: "Fresh pieces for the new season.", notice: undefined };
+      return { eyebrow: "THE AMB EDIT", title: "The Winter Edit", subtitle: "Fresh pieces for the new season.", notice: undefined, signup: false };
   }
 }
 
 const EVENING = /satin|gown|maxi|velvet|sequin|slit|cowl|corset|halter|mesh/i;
 
-// Ordem por fase: o mesmo endereço muda o destaque, sem esconder o resto da loja.
+/** Só peças em estoque que aceitam o desconto máximo da Black Friday: a promessa da página vale para todas. */
+export function holidayEligible(product: Product) {
+  return typeof product.stock === "number" && product.stock > 0 && protectMargin(product, bfHigh.percent).approvedPercent >= bfHigh.percent;
+}
+
+// Ordem por fase: o mesmo endereço muda o destaque.
 export function holidayProducts(all: Product[], phase: HolidayPhase): Product[] {
   const score = (p: Product) => {
     if (phase === "gifts") return p.category === "Bags" || p.category === "Accessories" ? 2 : p.category === "Knitwear" ? 1 : 0;
@@ -59,7 +65,7 @@ export function holidayProducts(all: Product[], phase: HolidayPhase): Product[] 
     return p.category === "Dresses" ? 2 : p.category === "Bags" || p.category === "Sets" ? 1 : 0;
   };
   return all
-    .filter((p) => typeof p.stock === "number" && p.stock > 0)
+    .filter(holidayEligible)
     .map((p, i) => ({ p, i, s: score(p) }))
     .filter(({ s }) => s > 0)
     .sort((a, b) => b.s - a.s || a.i - b.i)

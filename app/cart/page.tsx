@@ -6,7 +6,7 @@ import { CartRewards } from "../cart-rewards";
 import { getCartLineThumbnail, useStore } from "../store-provider";
 
 export default function CartPage() {
-  const { cart, cartTotal, estimatedTotal, effectiveDiscountUsd, market, formatMoney, updateQuantity, removeItem, checkout, checkoutError, getProductPreparationNotice } = useStore();
+  const { cart, cartTotal, estimatedTotal, effectiveDiscountUsd, market, promoCode, formatMoney, updateQuantity, removeItem, checkout, checkoutError, getProductPreparationNotice } = useStore();
 
   return <main>
     <Header/>
@@ -22,7 +22,7 @@ export default function CartPage() {
             <strong>{formatMoney(line.price * line.quantity)}</strong>
           </article>;
         })}</div>
-        <aside className="order-summary"><h2>Order Summary</h2><CartRewards subtotalUsd={cartTotal} market={market}/><p><span>Subtotal</span><strong>{formatMoney(cartTotal)}</strong></p>{effectiveDiscountUsd > 0 && <p className="discount-line"><span>Best eligible offer</span><strong>−{formatMoney(effectiveDiscountUsd)}</strong></p>}<p className="summary-total"><span>Estimated total</span><strong>{formatMoney(estimatedTotal)}</strong></p><p><span>Shipping</span><span>Calculated at checkout</span></p><p><span>Estimated taxes</span><span>Calculated at checkout</span></p><button type="button" className="checkout-button" onClick={checkout}>Secure Checkout</button>{checkoutError && <p className="form-message error" role="alert">{checkoutError}</p>}<small>Secure payments · 30-day return requests</small></aside>
+        <aside className="order-summary"><h2>Order Summary</h2><CartRewards subtotalUsd={cartTotal} market={market} promoCode={promoCode}/><p><span>Subtotal</span><strong>{formatMoney(cartTotal)}</strong></p>{effectiveDiscountUsd > 0 && <p className="discount-line"><span>Best eligible offer</span><strong>−{formatMoney(effectiveDiscountUsd)}</strong></p>}<p className="summary-total"><span>Estimated total</span><strong>{formatMoney(estimatedTotal)}</strong></p><p><span>Shipping</span><span>Calculated at checkout</span></p><p><span>Estimated taxes</span><span>Calculated at checkout</span></p><button type="button" className="checkout-button" onClick={checkout}>Secure Checkout</button>{checkoutError && <p className="form-message error" role="alert">{checkoutError}</p>}<small>Secure payments · 30-day return requests</small></aside>
       </div> : <div className="empty-cart page-empty"><h2>Your bag is waiting.</h2><p>Explore the newest AMB silhouettes and finishing touches.</p><Link href="/collections" className="button dark">Shop New Arrivals</Link></div>}
     </section>
     <Footer/>

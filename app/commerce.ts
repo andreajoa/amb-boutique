@@ -32,6 +32,26 @@ export const discountTiers = [
   { threshold: 500, percent: 25 },
 ] as const;
 
+// Black Friday 2026 (Sala do Conselho 28/10): 20% em tudo e 25% acima de US$200 sobre o preço atual,
+// sem acumular. Horário de Nova York; a lista recebe AMBVIP para 24 h de acesso antecipado.
+const ny = (month: number, day: number) => Date.UTC(2026, month - 1, day, 5);
+export const BLACK_FRIDAY = { vipStart: ny(11, 19), start: ny(11, 20), end: ny(12, 1), vipCode: "AMBVIP" } as const;
+export const blackFridayTiers = [
+  { threshold: 0, percent: 20 },
+  { threshold: 200, percent: 25 },
+] as const;
+// Frete internacional grátis acima de US$200 só na Black Friday e só até este custo de envio.
+export const BLACK_FRIDAY_INTL_FREE_SHIPPING = { thresholdUsd: 200, capUsd: 50 } as const;
+
+export function isBlackFriday(now = Date.now(), promotionCode?: string) {
+  if (now >= BLACK_FRIDAY.start && now < BLACK_FRIDAY.end) return true;
+  return now >= BLACK_FRIDAY.vipStart && now < BLACK_FRIDAY.end && promotionCode?.trim().toUpperCase() === BLACK_FRIDAY.vipCode;
+}
+
+export function activeDiscountTiers(now = Date.now(), promotionCode?: string): ReadonlyArray<{ threshold: number; percent: number }> {
+  return isBlackFriday(now, promotionCode) ? blackFridayTiers : discountTiers;
+}
+
 export const US_FREE_SHIPPING_THRESHOLD_USD = 99;
 export const FIRST_ORDER_CODE = "AMBWELCOME10";
 export const FIRST_ORDER_DISCOUNT_PERCENT = 10;
@@ -92,7 +112,7 @@ const internationalRetailBands: Record<Exclude<MarketCode, "US">, Array<{ maxOz:
  * are known. International complimentary delivery is deliberately disabled
  * until landed margin can be verified.
  */
-export function getShippingQuotes(market: MarketCode, subtotalUsd: number, packedWeightOz: number): ShippingQuote[] {
+export function getShippingQuotes(market: MarketCode, subtotalUsd: number, packedWeightOz: number, now = Date.now()): ShippingQuote[] {
   if (market === "US") {
     const standard = subtotalUsd >= US_FREE_SHIPPING_THRESHOLD_USD ? 0 : packedWeightOz <= 16 ? 9.95 : packedWeightOz <= 32 ? 13.95 : 17.95;
     return [
@@ -103,14 +123,16 @@ export function getShippingQuotes(market: MarketCode, subtotalUsd: number, packe
   const band = internationalRetailBands[market].find((item) => packedWeightOz <= item.maxOz);
   const amountUsd = band?.amountUsd ?? internationalRetailBands[market].at(-1)!.amountUsd;
   const deliveryWindow = deliveryWindows[market];
+  const free = now >= BLACK_FRIDAY.start && now < BLACK_FRIDAY.end && packedWeightOz <= 64
+    && subtotalUsd >= BLACK_FRIDAY_INTL_FREE_SHIPPING.thresholdUsd && amountUsd <= BLACK_FRIDAY_INTL_FREE_SHIPPING.capUsd;
   const detail = packedWeightOz > 64
     ? "Preview only · live carrier rate required for parcels over 4 lb"
     : `Estimated ${deliveryWindow.min}–${deliveryWindow.max} business days`;
   return [{
     id: `${market.toLowerCase()}-tracked`,
-    label: `Tracked delivery to ${markets[market].country}`,
+    label: `${free ? "Complimentary tracked" : "Tracked"} delivery to ${markets[market].country}`,
     detail,
-    amountUsd,
+    amountUsd: free ? 0 : amountUsd,
     minBusinessDays: deliveryWindow.min,
     maxBusinessDays: deliveryWindow.max,
     source: "usps-retail-preview",
@@ -135,9 +157,10 @@ export function formatMarketPrice(valueUsd: number, market: MarketCode) {
   }).format(convertFromUsd(valueUsd, market));
 }
 
-export function getDiscountState(subtotalUsd: number) {
-  const earned = [...discountTiers].reverse().find((tier) => subtotalUsd >= tier.threshold);
-  const next = discountTiers.find((tier) => subtotalUsd < tier.threshold);
+export function getDiscountState(subtotalUsd: number, now = Date.now(), promotionCode?: string) {
+  const tiers = activeDiscountTiers(now, promotionCode);
+  const earned = [...tiers].reverse().find((tier) => subtotalUsd >= tier.threshold);
+  const next = tiers.find((tier) => subtotalUsd < tier.threshold);
   const percent = earned?.percent || 0;
   const rate = percent / 100;
   const discountUsd = subtotalUsd * rate;
@@ -149,6 +172,31 @@ export function getDiscountState(subtotalUsd: number) {
     totalUsd: subtotalUsd - discountUsd,
     next,
     amountToNextUsd: next ? Math.max(0, next.threshold - subtotalUsd) : 0,
-    progress: Math.min(100, (subtotalUsd / discountTiers.at(-1)!.threshold) * 100),
+    progress: Math.min(100, (subtotalUsd / tiers.at(-1)!.threshold) * 100),
+    tiers,
+    blackFriday: tiers === blackFridayTiers,
   };
+}
+
+const usHolidays2026 = new Set(["2026-11-26", "2026-12-25"]);
+function isBusinessDay(date: Date) {
+  const day = date.getUTCDay();
+  return day !== 0 && day !== 6 && !usHolidays2026.has(date.toISOString().slice(0, 10));
+}
+
+const ORDER_PREPARATION_BUSINESS_DAYS = 1;
+
+/** Último dia de pedido cujo prazo máximo + 1 dia útil de preparo termina até 24/12 (folga da garantia de Natal). */
+export function christmasOrderCutoff(market: MarketCode = "US") {
+  const deliverBy = Date.UTC(2026, 11, 24);
+  for (let order = deliverBy; ; order -= 86400000) {
+    let date = order, counted = 0;
+    while (counted < deliveryWindows[market].max + ORDER_PREPARATION_BUSINESS_DAYS) {
+      date += 86400000;
+      if (isBusinessDay(new Date(date))) counted++;
+    }
+    if (date > deliverBy) continue;
+    while (!isBusinessDay(new Date(order))) order -= 86400000; // prometer só até um dia útil
+    return new Date(order);
+  }
 }

@@ -1,0 +1,1161 @@
+{
+ "generatedBy": "scripts/build-cost-evidence.mjs",
+ "products": {
+  "alessa-milky-halter-midi-dress": {
+   "landedCostUsd": 24.44,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "alessandra-red-tiered-mermaid-gown": {
+   "landedCostUsd": 149.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
+  },
+  "amalfi-dumpling-bag-large-black-alligator": {
+   "landedCostUsd": 53.58,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "amalfi-dumpling-bag-large-burgundy": {
+   "landedCostUsd": 57.68,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "amalfi-dumpling-bag-large-latte": {
+   "landedCostUsd": 55.18,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "amalfi-dumpling-bag-small-black": {
+   "landedCostUsd": 40.58,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "amalfi-dumpling-bag-small-brown": {
+   "landedCostUsd": 42.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "amalfi-dumpling-bag-small-green": {
+   "landedCostUsd": 42.58,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "amalfi-dumpling-bag-small-white": {
+   "landedCostUsd": 41.78,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "amara-apricot-satin-midi-dress": {
+   "landedCostUsd": 19.52,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "ameixa-velvet-cowl-dress": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "anais-trousers": {
+   "landedCostUsd": 48.67,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "apricot-crochet-fringe-dress": {
+   "landedCostUsd": 44.67,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "aquarela-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "arden-utility-romper": {
+   "landedCostUsd": 48.8,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "arlena-cutout-halter-maxi-dress-black": {
+   "landedCostUsd": 56.41,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "arlena-cutout-halter-maxi-dress-coffee": {
+   "landedCostUsd": 56.41,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "ash-grid-maxi-dress": {
+   "landedCostUsd": 13.14,
+   "source": "catalog-20261025-batch03b-supplier-bindings.json"
+  },
+  "asteria-star-print-tulle-mini-dress-green": {
+   "landedCostUsd": 17.72,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "aurora-galaxy-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "azul-tile-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "azulina-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "azura-sky-iris-dress": {
+   "landedCostUsd": 44.59,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "bellamy-black-satin-midi-dress": {
+   "landedCostUsd": 19.52,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "bellora-slit-slip-maxi-dress-black": {
+   "landedCostUsd": 11.44,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "bellora-slit-slip-maxi-dress-red": {
+   "landedCostUsd": 11.21,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "bianca-tailored-romper": {
+   "landedCostUsd": 35.13,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "black-halter-gown": {
+   "landedCostUsd": 112.75,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "blaze-galaxy-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "blush-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "boho-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "briony-sage-halter-midi-dress": {
+   "landedCostUsd": 24.44,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "briseis-green-tiered-mermaid-gown": {
+   "landedCostUsd": 149.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
+  },
+  "bronze-brown-halter-gown": {
+   "landedCostUsd": 112.75,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "bronze-line-swing-midi-dress": {
+   "landedCostUsd": 13.69,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "bruma-swing-midi-dress": {
+   "landedCostUsd": 13.69,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "cacao-zebra-maxi-kaftan": {
+   "landedCostUsd": 27.38,
+   "source": "catalog-20261025-batch03b-supplier-bindings.json"
+  },
+  "caldera-graphic-stripe-mini-dress-black": {
+   "landedCostUsd": 45.05,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "calla-maxi-dress": {
+   "landedCostUsd": 39.22,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "camelia-blush-iris-dress": {
+   "landedCostUsd": 44.59,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "camille-tailored-romper": {
+   "landedCostUsd": 35.13,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "capri-utility-romper": {
+   "landedCostUsd": 48.8,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "capri-woven-pouch-black": {
+   "landedCostUsd": 32.88,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "capri-woven-pouch-coffee": {
+   "landedCostUsd": 33.98,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "capri-woven-pouch-gold": {
+   "landedCostUsd": 33.58,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "capri-woven-pouch-green": {
+   "landedCostUsd": 39.58,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "capri-woven-pouch-light-brown": {
+   "landedCostUsd": 33.68,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "capri-woven-pouch-silver": {
+   "landedCostUsd": 38.08,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "capri-woven-pouch-white": {
+   "landedCostUsd": 39.48,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "caramel-block-maxi-dress": {
+   "landedCostUsd": 13.84,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "carmim-block-maxi-dress": {
+   "landedCostUsd": 13.14,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "carys-army-green-satin-midi-dress": {
+   "landedCostUsd": 19.52,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "celeste-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "celine-pleat-romper": {
+   "landedCostUsd": 32.1,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "cerelia-lace-corset-mini-dress-gray": {
+   "landedCostUsd": 44.14,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "champagne-pleated-halter-gown": {
+   "landedCostUsd": 97.24,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "cobre-arc-maxi-dress": {
+   "landedCostUsd": 13.58,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "contraste-swing-midi-dress": {
+   "landedCostUsd": 13.69,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "cora-saddle-bag-black": {
+   "landedCostUsd": 46.82,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "cora-saddle-bag-brown": {
+   "landedCostUsd": 46.82,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "cora-saddle-bag-coffee": {
+   "landedCostUsd": 46.82,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "cora-saddle-bag-cognac": {
+   "landedCostUsd": 46.82,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "cora-saddle-bag-gray": {
+   "landedCostUsd": 46.82,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "cora-saddle-bag-khaki": {
+   "landedCostUsd": 46.82,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "cora-saddle-bag-red": {
+   "landedCostUsd": 46.82,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "cora-saddle-bag-white": {
+   "landedCostUsd": 46.82,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "coralie-rose-halter-midi-dress": {
+   "landedCostUsd": 24.44,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "cordelia-burgundy-tiered-mermaid-gown": {
+   "landedCostUsd": 149.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
+  },
+  "cosmo-swirl-swing-midi-dress": {
+   "landedCostUsd": 13.69,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "danika-black-halter-midi-dress": {
+   "landedCostUsd": 24.44,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "daria-denim-shorts": {
+   "landedCostUsd": 22.23,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "davina-navy-satin-midi-dress": {
+   "landedCostUsd": 19.52,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "delft-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "denim-block-maxi-dress": {
+   "landedCostUsd": 13.48,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "desirae-black-draped-midi-dress": {
+   "landedCostUsd": 65.73,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "dominique-ivory-tiered-mermaid-gown": {
+   "landedCostUsd": 149.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
+  },
+  "domino-stripe-maxi-kaftan": {
+   "landedCostUsd": 27.68,
+   "source": "catalog-20261025-batch03b-supplier-bindings.json"
+  },
+  "duna-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "dune-linen-romper": {
+   "landedCostUsd": 28.37,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "duo-stripe-maxi-dress": {
+   "landedCostUsd": 14.18,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "eden-maxi-skirt": {
+   "landedCostUsd": 25.88,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "elara-claret-print-maxi-dress": {
+   "landedCostUsd": 38.4,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "elara-denim-shorts": {
+   "landedCostUsd": 22.23,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "elise-maxi-skirt": {
+   "landedCostUsd": 25.88,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "elowen-champagne-corset-mermaid-gown": {
+   "landedCostUsd": 137.04,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
+  },
+  "elowen-pink-satin-midi-dress": {
+   "landedCostUsd": 19.52,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "elowyn-embellished-sleeve-mini-dress-black-style-29": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "elowyn-embellished-sleeve-mini-dress-burgundy-style-30": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "elowyn-embellished-sleeve-mini-dress-charcoal-style-13": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "elowyn-embellished-sleeve-mini-dress-emerald-style-31": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "elowyn-embellished-sleeve-mini-dress-gold-style-10": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "elowyn-embellished-sleeve-mini-dress-navy-style-28": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "elowyn-embellished-sleeve-mini-dress-pink-style-14": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "elowyn-embellished-sleeve-mini-dress-red-style-11": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "elowyn-embellished-sleeve-mini-dress-royal-blue-style-12": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "ember-tribal-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "evelisse-cowl-neck-velvet-mini-dress-black-style-22": {
+   "landedCostUsd": 26.08,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "evelisse-cowl-neck-velvet-mini-dress-burgundy-style-23": {
+   "landedCostUsd": 26.08,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "evelisse-cowl-neck-velvet-mini-dress-champagne-style-05": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "evelisse-cowl-neck-velvet-mini-dress-emerald-style-07": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "evelisse-cowl-neck-velvet-mini-dress-royal-blue-style-06": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "evora-navy-halter-midi-dress": {
+   "landedCostUsd": 24.44,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "fabienne-red-tassel-mini-dress": {
+   "landedCostUsd": 155.74,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
+  },
+  "fern-trousers": {
+   "landedCostUsd": 48.99,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "festa-fireworks-maxi-kaftan": {
+   "landedCostUsd": 27.38,
+   "source": "catalog-20261025-batch03b-supplier-bindings.json"
+  },
+  "fio-dourado-swing-midi-dress": {
+   "landedCostUsd": 13.69,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "fiora-sage-satin-midi-dress": {
+   "landedCostUsd": 19.52,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "fiorenza-sequin-bodice-maxi-dress-black": {
+   "landedCostUsd": 28.55,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "fiorenza-sequin-bodice-maxi-dress-dark-blue": {
+   "landedCostUsd": 28.55,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "fiorenza-sequin-bodice-maxi-dress-green": {
+   "landedCostUsd": 28.55,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "fiorenza-sequin-bodice-maxi-dress-pink": {
+   "landedCostUsd": 28.55,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "fiorenza-sequin-bodice-maxi-dress-red": {
+   "landedCostUsd": 28.55,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "fiorenza-sequin-bodice-maxi-dress-wine-red": {
+   "landedCostUsd": 28.55,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "fleur-linen-romper": {
+   "landedCostUsd": 28.37,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "flora-pleated-dress": {
+   "landedCostUsd": 44.59,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "florenza-bloom-maxi-kaftan": {
+   "landedCostUsd": 27.38,
+   "source": "catalog-20261025-batch03b-supplier-bindings.json"
+  },
+  "freya-deep-blue-print-maxi-dress": {
+   "landedCostUsd": 38.4,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "fronda-tropical-maxi-kaftan": {
+   "landedCostUsd": 27.06,
+   "source": "catalog-20261025-batch03b-supplier-bindings.json"
+  },
+  "girassol-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "giselle-rose-satin-midi-dress": {
+   "landedCostUsd": 19.52,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "glyph-mudcloth-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "graphite-block-maxi-dress": {
+   "landedCostUsd": 13.14,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "haven-backless-dress": {
+   "landedCostUsd": 28.18,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "helena-wine-satin-midi-dress": {
+   "landedCostUsd": 19.52,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "hollis-festive-knit-sweater-dress-red": {
+   "landedCostUsd": 22.75,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "hollis-festive-knit-sweater-dress-white": {
+   "landedCostUsd": 22.75,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "honora-red-glitter-mermaid-gown": {
+   "landedCostUsd": 175.96,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-13-05.571633+00-00/analysis-2026-10-25T03-07-03.168855+00-00)"
+  },
+  "hortensia-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "ilana-blazer": {
+   "landedCostUsd": 38.13,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "ilaria-pink-sequin-halter-gown": {
+   "landedCostUsd": 216.45,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-13-05.571633+00-00/analysis-2026-10-25T03-07-03.168855+00-00)"
+  },
+  "indigo-brush-maxi-dress": {
+   "landedCostUsd": 13.84,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "inez-blue-pleated-maxi-dress": {
+   "landedCostUsd": 34.69,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "iris-galaxy-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "iris-rainbow-maxi-kaftan": {
+   "landedCostUsd": 27.38,
+   "source": "catalog-20261025-batch03b-supplier-bindings.json"
+  },
+  "isla-linen-romper": {
+   "landedCostUsd": 28.37,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "ivo-tribal-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "jacinta-navy-sequin-halter-gown": {
+   "landedCostUsd": 216.45,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-13-05.571633+00-00/analysis-2026-10-25T03-07-03.168855+00-00)"
+  },
+  "jade-marble-swing-midi-dress": {
+   "landedCostUsd": 13.69,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "jardim-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "jovina-black-pleated-maxi-dress": {
+   "landedCostUsd": 34.69,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "kali-backless-dress": {
+   "landedCostUsd": 28.18,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "kalina-white-pleated-maxi-dress": {
+   "landedCostUsd": 34.69,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "kente-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "kenza-denim-shorts": {
+   "landedCostUsd": 20.28,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "kira-wide-leg-trousers": {
+   "landedCostUsd": 33.47,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "kora-tribal-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "lagoa-block-maxi-dress": {
+   "landedCostUsd": 13.14,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "laguna-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "lavanda-plaid-maxi-dress": {
+   "landedCostUsd": 13.14,
+   "source": "catalog-20261025-batch03b-supplier-bindings.json"
+  },
+  "linea-stripe-maxi-dress": {
+   "landedCostUsd": 13.14,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "loretta-navy-floral-maxi-dress": {
+   "landedCostUsd": 21.04,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "luma-utility-romper": {
+   "landedCostUsd": 48.8,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "lumen-galaxy-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "maelle-champagne-satin-midi-dress": {
+   "landedCostUsd": 21.84,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "mali-mudcloth-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "margaux-shirt-dress": {
+   "landedCostUsd": 49.88,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "marina-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "mimosa-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "mira-wide-leg-trousers": {
+   "landedCostUsd": 33.47,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "mirabelle-bow-strap-floral-gown-red": {
+   "landedCostUsd": 37.29,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "mirella-pink-pleated-midi-dress": {
+   "landedCostUsd": 36.16,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "mocha-brush-swing-midi-dress": {
+   "landedCostUsd": 13.69,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "monaco-tailored-romper": {
+   "landedCostUsd": 35.13,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "mono-block-maxi-dress": {
+   "landedCostUsd": 14.21,
+   "source": "catalog-20261025-batch03b-supplier-bindings.json"
+  },
+  "mosaica-geometric-maxi-kaftan": {
+   "landedCostUsd": 27.38,
+   "source": "catalog-20261025-batch03b-supplier-bindings.json"
+  },
+  "mosaico-swing-midi-dress": {
+   "landedCostUsd": 13.69,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "mosaico-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "mostarda-velvet-cowl-dress": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "nadia-wide-leg-trousers": {
+   "landedCostUsd": 29.53,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "nell-maxi-dress": {
+   "landedCostUsd": 36.42,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "nera-linen-romper": {
+   "landedCostUsd": 28.37,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "nerina-blue-satin-midi-dress": {
+   "landedCostUsd": 21.94,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "nero-chain-satchel-black": {
+   "landedCostUsd": 37.08,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "neve-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "nevoa-velvet-cowl-dress": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "nico-maxi-dress": {
+   "landedCostUsd": 33.79,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "noctelle-strapless-corset-midi-dress-black": {
+   "landedCostUsd": 43.97,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "noemi-maxi-dress": {
+   "landedCostUsd": 33.79,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "noir-grid-maxi-dress": {
+   "landedCostUsd": 13.14,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "noir-leaf-maxi-kaftan": {
+   "landedCostUsd": 27.63,
+   "source": "catalog-20261025-batch03b-supplier-bindings.json"
+  },
+  "nola-a-line-dress": {
+   "landedCostUsd": 42.48,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "nova-galaxy-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "novalie-purple-pleated-midi-dress": {
+   "landedCostUsd": 36.16,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "nuvola-puffer-tote-black": {
+   "landedCostUsd": 17.68,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "nuvola-puffer-tote-blue": {
+   "landedCostUsd": 17,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "nuvola-puffer-tote-brown": {
+   "landedCostUsd": 18.37,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "nuvola-puffer-tote-grey": {
+   "landedCostUsd": 16.96,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "nuvola-puffer-tote-khaki": {
+   "landedCostUsd": 18.25,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "nuvola-puffer-tote-pink": {
+   "landedCostUsd": 18.28,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "nuvola-puffer-tote-purple": {
+   "landedCostUsd": 17.14,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "nuvola-puffer-tote-white": {
+   "landedCostUsd": 18.72,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "oceana-galaxy-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "oceane-print-dress": {
+   "landedCostUsd": 28.98,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "odessa-polka-dot-halter-swing-dress-black": {
+   "landedCostUsd": 29.95,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "odessa-polka-dot-halter-swing-dress-blue": {
+   "landedCostUsd": 29.95,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "odessa-polka-dot-halter-swing-dress-green": {
+   "landedCostUsd": 29.95,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "odessa-polka-dot-halter-swing-dress-lavender": {
+   "landedCostUsd": 29.95,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "odessa-polka-dot-halter-swing-dress-red": {
+   "landedCostUsd": 29.95,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "odessa-polka-dot-halter-swing-dress-white": {
+   "landedCostUsd": 29.95,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "onda-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "ondine-midi-skirt": {
+   "landedCostUsd": 34.9,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "onyx-leopard-maxi-kaftan": {
+   "landedCostUsd": 27.38,
+   "source": "catalog-20261025-batch03b-supplier-bindings.json"
+  },
+  "onyx-tribal-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "oriana-green-satin-midi-dress": {
+   "landedCostUsd": 21.94,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "orquidea-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "ottilie-rose-pleated-midi-dress": {
+   "landedCostUsd": 36.16,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "palma-linen-romper": {
+   "landedCostUsd": 28.37,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "pascale-black-satin-midi-dress": {
+   "landedCostUsd": 22.04,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "pedra-patch-maxi-dress": {
+   "landedCostUsd": 13.14,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "peonia-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "petunia-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "pippa-backless-dress": {
+   "landedCostUsd": 28.18,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "ponto-swing-midi-dress": {
+   "landedCostUsd": 13.69,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "pop-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "portofino-carryall-army-green": {
+   "landedCostUsd": 29.68,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "portofino-carryall-black": {
+   "landedCostUsd": 28.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "portofino-carryall-brown": {
+   "landedCostUsd": 26.88,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "portofino-carryall-burgundy": {
+   "landedCostUsd": 28.48,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "portofino-carryall-light-brown": {
+   "landedCostUsd": 28.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "positano-shoulder-bag-black": {
+   "landedCostUsd": 74.88,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "positano-shoulder-bag-chocolate": {
+   "landedCostUsd": 74.58,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "prado-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "primrose-champagne-pleated-midi-dress": {
+   "landedCostUsd": 36.16,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "prisma-swirl-swing-midi-dress": {
+   "landedCostUsd": 13.69,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "ravenna-black-tiered-mermaid-gown": {
+   "landedCostUsd": 149.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
+  },
+  "renata-black-pleated-midi-dress": {
+   "landedCostUsd": 36.16,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "rio-stripe-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "roma-studded-hobo-black": {
+   "landedCostUsd": 21.88,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-13-05.571633+00-00/analysis-2026-10-25T03-07-03.168855+00-00)"
+  },
+  "roma-studded-hobo-brown": {
+   "landedCostUsd": 21.88,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-13-05.571633+00-00/analysis-2026-10-25T03-07-03.168855+00-00)"
+  },
+  "roma-studded-hobo-burgundy": {
+   "landedCostUsd": 21.88,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-13-05.571633+00-00/analysis-2026-10-25T03-07-03.168855+00-00)"
+  },
+  "roma-studded-hobo-coffee": {
+   "landedCostUsd": 21.88,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-13-05.571633+00-00/analysis-2026-10-25T03-07-03.168855+00-00)"
+  },
+  "rosalie-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "rosaline-rosette-corset-mini-dress-black": {
+   "landedCostUsd": 69.98,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "rosaline-rosette-corset-mini-dress-hot-pink": {
+   "landedCostUsd": 69.98,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "rosaline-rosette-corset-mini-dress-red-bandage-fabric": {
+   "landedCostUsd": 67.98,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "rosaline-rosette-corset-mini-dress-red-high-end-fabric": {
+   "landedCostUsd": 69.98,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "rosaline-rosette-corset-mini-dress-yellow": {
+   "landedCostUsd": 69.98,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "rose-grid-swing-midi-dress": {
+   "landedCostUsd": 13.69,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "rubra-block-maxi-dress": {
+   "landedCostUsd": 13.58,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "ruby-red-halter-gown": {
+   "landedCostUsd": 112.75,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "sabine-gray-tiered-mermaid-gown": {
+   "landedCostUsd": 149.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
+  },
+  "safari-mixed-print-maxi-kaftan": {
+   "landedCostUsd": 27.37,
+   "source": "catalog-20261025-batch03b-supplier-bindings.json"
+  },
+  "sage-block-maxi-dress": {
+   "landedCostUsd": 13.14,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "salvia-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "saskia-blue-pleated-midi-dress": {
+   "landedCostUsd": 36.16,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "sienna-chevron-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "slate-block-maxi-dress": {
+   "landedCostUsd": 13.14,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "sol-denim-shorts": {
+   "landedCostUsd": 22.23,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "sol-tribal-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "stella-galaxy-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "stella-tailored-shorts": {
+   "landedCostUsd": 89.73,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "talia-wide-leg-trousers": {
+   "landedCostUsd": 33.47,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "tallulah-purple-tiered-mermaid-gown": {
+   "landedCostUsd": 149.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
+  },
+  "tartan-swing-midi-dress": {
+   "landedCostUsd": 13.69,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "tatiana-brick-red-pleated-midi-dress": {
+   "landedCostUsd": 36.16,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "taupe-vneck-print-midi-dress": {
+   "landedCostUsd": 25.1,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "tela-patch-swing-midi-dress": {
+   "landedCostUsd": 13.69,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "terra-block-maxi-dress": {
+   "landedCostUsd": 13.14,
+   "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "tide-mosaic-swing-dress": {
+   "landedCostUsd": 28.98,
+   "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "ulla-maxi-skirt": {
+   "landedCostUsd": 24.76,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "umbria-sky-blue-tiered-mermaid-gown": {
+   "landedCostUsd": 149.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
+  },
+  "unity-wide-leg-trousers": {
+   "landedCostUsd": 33.47,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "valencia-brown-pleated-midi-dress": {
+   "landedCostUsd": 36.16,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "valencia-tailored-romper": {
+   "landedCostUsd": 35.13,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "valentina-wide-leg-trousers": {
+   "landedCostUsd": 29.53,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "valeria-pink-tiered-mermaid-gown": {
+   "landedCostUsd": 149.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
+  },
+  "vela-ivory-tailored-set": {
+   "landedCostUsd": 47.35,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "venus-trousers": {
+   "landedCostUsd": 47.35,
+   "source": "markup-3x-20261025 (pilot)"
+  },
+  "vera-tailored-romper": {
+   "landedCostUsd": 35.13,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "verde-block-maxi-dress": {
+   "landedCostUsd": 13.14,
+   "source": "catalog-20261025-batch03b-supplier-bindings.json"
+  },
+  "verdelle-lace-bodice-pleated-gown-green": {
+   "landedCostUsd": 62.85,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "vionelle-lace-sleeve-asymmetric-mini-dress-emerald-style-16": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "vionelle-lace-sleeve-asymmetric-mini-dress-plum-style-18": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "vita-maxi-skirt": {
+   "landedCostUsd": 25.88,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "white-crochet-fringe-dress": {
+   "landedCostUsd": 44.67,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "winona-gray-pleated-midi-dress": {
+   "landedCostUsd": 36.16,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "winter-print-dress": {
+   "landedCostUsd": 25.1,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "wisteria-blue-tiered-mermaid-gown": {
+   "landedCostUsd": 149.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
+  },
+  "wisteria-denim-shorts": {
+   "landedCostUsd": 20.32,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "wren-maxi-dress": {
+   "landedCostUsd": 39.98,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "xenia-navy-tiered-mermaid-gown": {
+   "landedCostUsd": 149.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
+  },
+  "ximena-maxi-skirt": {
+   "landedCostUsd": 24.76,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "xyla-wide-leg-trousers": {
+   "landedCostUsd": 33.47,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "yvette-yellow-tiered-mermaid-gown": {
+   "landedCostUsd": 149.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
+  },
+  "zahara-champagne-tiered-mermaid-gown": {
+   "landedCostUsd": 149.38,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
+  },
+  "zelda-maxi-skirt": {
+   "landedCostUsd": 24.76,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "zosia-green-pleated-midi-dress": {
+   "landedCostUsd": 36.16,
+   "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  }
+ }
+}
