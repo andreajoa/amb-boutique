@@ -2659,7 +2659,7 @@ const allGeneratedProducts: Product[] = [
     "images": [
       "/products/mira-satin-maxi-dress/front-20261025.webp",
       "/products/mira-satin-maxi-dress/back-20261025.webp",
-      "/products/mira-satin-maxi-dress/left-20261026.webp",
+      "/products/mira-satin-maxi-dress/left-20261028.webp",
       "/products/mira-satin-maxi-dress/right-20261026.webp"
     ],
     "stock": 5991,
@@ -14713,7 +14713,7 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/domino-stripe-maxi-kaftan/front-20261025.webp",
     "/products/domino-stripe-maxi-kaftan/back-20261025.webp",
-    "/products/domino-stripe-maxi-kaftan/left-20261026.webp",
+    "/products/domino-stripe-maxi-kaftan/left-20261028.webp",
     "/products/domino-stripe-maxi-kaftan/right-20261026.webp"
   ],
   "stock": 99996,
@@ -14777,7 +14777,7 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/mosaica-geometric-maxi-kaftan/front-20261025.webp",
     "/products/mosaica-geometric-maxi-kaftan/back-20261025.webp",
-    "/products/mosaica-geometric-maxi-kaftan/left-20261026.webp",
+    "/products/mosaica-geometric-maxi-kaftan/left-20261028.webp",
     "/products/mosaica-geometric-maxi-kaftan/right-20261026.webp"
   ],
   "stock": 99999,
@@ -14915,7 +14915,7 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/lavanda-plaid-maxi-dress/front-20261025.webp",
     "/products/lavanda-plaid-maxi-dress/back-20261025.webp",
-    "/products/lavanda-plaid-maxi-dress/left-20261026.webp",
+    "/products/lavanda-plaid-maxi-dress/left-20261028.webp",
     "/products/lavanda-plaid-maxi-dress/right-20261026.webp"
   ],
   "stock": 1194,
@@ -15432,7 +15432,7 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/jade-marble-swing-midi-dress/front-20261025.webp",
     "/products/jade-marble-swing-midi-dress/back-20261025.webp",
-    "/products/jade-marble-swing-midi-dress/left-20261026.webp",
+    "/products/jade-marble-swing-midi-dress/left-20261028.webp",
     "/products/jade-marble-swing-midi-dress/right-20261026.webp"
   ],
   "stock": 1192,
@@ -15506,7 +15506,7 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/cosmo-swirl-swing-midi-dress/front-20261025.webp",
     "/products/cosmo-swirl-swing-midi-dress/back-20261025.webp",
-    "/products/cosmo-swirl-swing-midi-dress/left-20261026.webp",
+    "/products/cosmo-swirl-swing-midi-dress/left-20261028.webp",
     "/products/cosmo-swirl-swing-midi-dress/right-20261026.webp"
   ],
   "stock": 1192,
@@ -15691,7 +15691,7 @@ const allGeneratedProducts: Product[] = [
   "images": [
     "/products/contraste-swing-midi-dress/front-20261025.webp",
     "/products/contraste-swing-midi-dress/back-20261025.webp",
-    "/products/contraste-swing-midi-dress/left-20261026.webp",
+    "/products/contraste-swing-midi-dress/left-20261028.webp",
     "/products/contraste-swing-midi-dress/right-20261026.webp"
   ],
   "stock": 1191,
