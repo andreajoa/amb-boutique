@@ -41,6 +41,10 @@
    "landedCostUsd": 19.52,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
   },
+  "amara-midi-dress": {
+   "landedCostUsd": 32.29,
+   "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256808122208834|purple, 2026-10-25T03:01:56.897Z) · identidade confirmada"
+  },
   "ameixa-velvet-cowl-dress": {
    "landedCostUsd": 27.81,
    "source": "catalog-20261026-new-products-bindings.json"
@@ -113,6 +117,10 @@
    "landedCostUsd": 112.75,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
   },
+  "blaire-pleat-romper": {
+   "landedCostUsd": 32.1,
+   "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256812102239928|black, 2026-10-25T03:00:56.750Z) · identidade confirmada"
+  },
   "blaze-galaxy-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -124,6 +132,10 @@
   "boho-vneck-print-midi-dress": {
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "brielle-satin-maxi-dress": {
+   "landedCostUsd": 22.02,
+   "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256807236337080|pink, 2026-10-25T03:03:42.321Z) · identidade confirmada"
   },
   "briony-sage-halter-midi-dress": {
    "landedCostUsd": 24.44,
@@ -228,6 +240,10 @@
   "cobre-arc-maxi-dress": {
    "landedCostUsd": 13.58,
    "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "colette-midi-dress": {
+   "landedCostUsd": 32.29,
+   "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256808122208834|blue, 2026-10-25T03:01:56.897Z) · identidade confirmada"
   },
   "contraste-swing-midi-dress": {
    "landedCostUsd": 13.69,
@@ -384,6 +400,10 @@
   "ember-tribal-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "emerald-satin-maxi-dress": {
+   "landedCostUsd": 22.02,
+   "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256807236337080|green, 2026-10-25T03:03:42.321Z) · identidade confirmada"
   },
   "evelisse-cowl-neck-velvet-mini-dress-black-style-22": {
    "landedCostUsd": 26.08,
@@ -633,6 +653,10 @@
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
   },
+  "mira-satin-maxi-dress": {
+   "landedCostUsd": 22.02,
+   "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256807236337080|blue, 2026-10-25T03:03:42.321Z) · identidade confirmada"
+  },
   "mira-wide-leg-trousers": {
    "landedCostUsd": 33.47,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
@@ -648,6 +672,10 @@
   "mocha-brush-swing-midi-dress": {
    "landedCostUsd": 13.69,
    "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "mocha-satin-maxi-dress": {
+   "landedCostUsd": 22.02,
+   "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256807236337080|coffee, 2026-10-25T03:03:42.321Z) · identidade confirmada"
   },
   "monaco-tailored-romper": {
    "landedCostUsd": 35.13,
@@ -925,6 +953,10 @@
    "landedCostUsd": 21.88,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-13-05.571633+00-00/analysis-2026-10-25T03-07-03.168855+00-00)"
   },
+  "rosa-satin-maxi-dress": {
+   "landedCostUsd": 22.02,
+   "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256807236337080|rosered, 2026-10-25T03:03:42.321Z) · identidade confirmada"
+  },
   "rosalie-vneck-print-midi-dress": {
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -965,6 +997,10 @@
    "landedCostUsd": 149.38,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
   },
+  "sabine-tailored-romper": {
+   "landedCostUsd": 35.13,
+   "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256811432198463|black, 2026-10-25T03:00:01.514Z) · identidade confirmada"
+  },
   "safari-mixed-print-maxi-kaftan": {
    "landedCostUsd": 27.37,
    "source": "catalog-20261025-batch03b-supplier-bindings.json"
@@ -996,6 +1032,10 @@
   "sol-tribal-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "soleil-pleat-romper": {
+   "landedCostUsd": 32.1,
+   "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256812102239928|apricot, 2026-10-25T03:00:56.750Z) · identidade confirmada"
   },
   "stella-galaxy-swing-dress": {
    "landedCostUsd": 28.98,

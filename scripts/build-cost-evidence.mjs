@@ -13,6 +13,10 @@ for (const file of fs.readdirSync(dir).filter((f) => /bindings\.json$/.test(f)).
   const data = JSON.parse(fs.readFileSync(new URL(file, dir)));
   for (const p of data.products || data) add(p.slug, Math.max(...Object.values(p.landedCostUsdBySize || {}).map(Number)), file);
 }
+// Páginas extras comprovadas por arquivo datado (custo do fornecedor ligado à página pelo mapa do Codex ou pelo Manager).
+for (const file of fs.readdirSync(dir).filter((f) => /^cost-evidence-extra-.*\.json$/.test(f)).sort()) {
+  for (const [slug, row] of Object.entries(JSON.parse(fs.readFileSync(new URL(file, dir))))) add(slug, Number(row.landedCostUsd), `${file}: ${row.source}`);
+}
 const sorted = Object.fromEntries(Object.keys(evidence).sort().map((k) => [k, evidence[k]]));
 fs.writeFileSync(new URL('cost-evidence.json', dir), JSON.stringify({ generatedBy: 'scripts/build-cost-evidence.mjs', products: sorted }, null, 1) + '\n');
 console.log('páginas com custo comprovado:', Object.keys(sorted).length);
