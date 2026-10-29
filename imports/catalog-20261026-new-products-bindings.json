@@ -1894,6 +1894,43 @@
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
+    },
+    {
+      "slug": "rubina-angular-swing-dress",
+      "sourceProductId": "3256812510653544",
+      "sourceColor": "MBWXLYQ26794259",
+      "sourceSkuIdsBySize": {
+        "S": "12000059102734341",
+        "M": "12000059102734342",
+        "L": "12000059102734343",
+        "XL": "12000059102734344",
+        "XXL": "12000059102734345",
+        "XXXL": "12000059102734346"
+      },
+      "stockBySize": {
+        "S": 199,
+        "M": 199,
+        "L": 199,
+        "XL": 199,
+        "XXL": 198,
+        "XXXL": 199
+      },
+      "landedCostUsdBySize": {
+        "S": 12.57,
+        "M": 13.7,
+        "L": 13.7,
+        "XL": 13.7,
+        "XXL": 13.7,
+        "XXXL": 13.7
+      },
+      "retailPriceUsd": 41.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmt63llsu00cx04jnm4a5997m",
+      "verifiedAtUtc": "2026-10-29T15:23:30.152Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }

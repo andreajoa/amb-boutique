@@ -17775,6 +17775,46 @@ const allGeneratedProducts: Product[] = [
   "unitCostUsd": 43.97,
   "minimumMarginPercent": 40,
   "minimumCostMultiplier": 3
+},
+{
+  "slug": "rubina-angular-swing-dress",
+  "name": "Rubina Angular Swing Dress",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Swing Dresses",
+  "price": 41.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b51d31"
+  ],
+  "colorNames": [
+    "Red / White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A red and white angular-print swing dress with a round neckline, broad sleeveless shoulders and a relaxed A-line silhouette.",
+  "materials": "Smooth printed fabric with large angular motifs. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/rubina-angular-swing-dress/front-20261029.webp",
+    "/products/rubina-angular-swing-dress/back-20261029.webp",
+    "/products/rubina-angular-swing-dress/left-20261029.webp",
+    "/products/rubina-angular-swing-dress/right-20261029.webp"
+  ],
+  "stock": 1193,
+  "unitCostUsd": 13.7,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812510653544",
+  "sourceColor": "MBWXLYQ26794259"
 }
 ];
 
@@ -17783,6 +17823,7 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "rubina-angular-swing-dress",
   "noctelle-strapless-corset-dress-red",
   "verdelle-contrast-corset-top-khaki",
   "arlena-cutout-halter-maxi-dress-red",
