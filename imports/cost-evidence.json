@@ -997,6 +997,10 @@
    "landedCostUsd": 13.69,
    "source": "catalog-20261025-batch04-supplier-bindings.json"
   },
+  "rubina-angular-swing-dress": {
+   "landedCostUsd": 13.7,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
   "rubra-block-maxi-dress": {
    "landedCostUsd": 13.58,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
