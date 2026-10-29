@@ -38,6 +38,8 @@ export type Product = {
   dutyUsd?: number;
   packagingUsd?: number;
   minimumMarginPercent?: number;
+  /** Optional sale-price floor, expressed as a multiple of confirmed landed cost. */
+  minimumCostMultiplier?: number;
   sourceProductId?: string;
   sourceColor?: string;
   complementarySlugs?: string[];

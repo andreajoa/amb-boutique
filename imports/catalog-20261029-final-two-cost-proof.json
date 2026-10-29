@@ -1,0 +1,641 @@
+{
+  "at": "2026-10-29T02:43:12.160Z",
+  "scope": "Only two new additions",
+  "planSha256": "32f0eebfafc95b02bafc040d2a9ca65d640f8a0fabdd493c0e87b17878cec061",
+  "products": {
+    "lumielle-sequin-slip-mini-dress-silver": {
+      "response": {
+        "status": "done",
+        "http": 200,
+        "body": {
+          "ok": true,
+          "dryRun": true,
+          "persisted": false,
+          "supplierId": "cmvsnhbnj000a08jtwh0uqnfu",
+          "sourceProductId": "1005005737836133",
+          "requestedProductId": "1005005737836133",
+          "resolvedProductId": "1005005737836133",
+          "operationalProvider": "ALIEXPRESS_OPEN_PLATFORM",
+          "warnings": [],
+          "refreshedAt": "2026-10-29T02:43:10.713Z",
+          "variants": 2,
+          "quotedSkus": [
+            {
+              "sourceSkuId": "12000034182362852",
+              "name": "Color: WHITE · Size: M",
+              "attributes": {
+                "Color": "WHITE",
+                "Size": "M"
+              },
+              "imageUrl": null,
+              "orderSkuAttr": "5:361386;14:29",
+              "stock": 4,
+              "available": true,
+              "itemPrice": 11.89,
+              "itemCurrency": "USD",
+              "itemCostInCostCurrency": 11.89,
+              "freightCostInCostCurrency": 1.99,
+              "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+              "landedCost": 13.88,
+              "costCurrency": "USD",
+              "countryCode": "US",
+              "verifiedAt": "2026-10-29T02:43:10.713Z",
+              "minimumRetail3x": 41.64,
+              "suggestedRetail3x90": 41.9
+            },
+            {
+              "sourceSkuId": "12000034182362851",
+              "name": "Color: WHITE · Size: S",
+              "attributes": {
+                "Color": "WHITE",
+                "Size": "S"
+              },
+              "imageUrl": null,
+              "orderSkuAttr": "5:100014064;14:29",
+              "stock": 3,
+              "available": true,
+              "itemPrice": 12.29,
+              "itemCurrency": "USD",
+              "itemCostInCostCurrency": 12.29,
+              "freightCostInCostCurrency": 1.99,
+              "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+              "landedCost": 14.28,
+              "costCurrency": "USD",
+              "countryCode": "US",
+              "verifiedAt": "2026-10-29T02:43:10.713Z",
+              "minimumRetail3x": 42.84,
+              "suggestedRetail3x90": 42.9
+            }
+          ],
+          "costSnapshot": {
+            "status": "COMPLETE",
+            "basis": "ITEM_PLUS_FREIGHT",
+            "scope": "ONE_UNIT_COUNTRY_BASELINE",
+            "includes": [
+              "ITEM_PRICE",
+              "ALIEXPRESS_FREIGHT"
+            ],
+            "countryCode": "US",
+            "sendGoodsCountryCode": "CN",
+            "quantity": 1,
+            "itemCurrency": "USD",
+            "costCurrency": "USD",
+            "itemFxRateToCostCurrency": null,
+            "freight": {
+              "status": "AVAILABLE",
+              "selectedServiceName": "CAINIAO_FULFILLMENT_STD",
+              "estimatedDeliveryTime": null,
+              "originalAmount": 1.99,
+              "originalCurrency": "USD",
+              "amountInCostCurrency": 1.99,
+              "costCurrency": "USD",
+              "quoteCount": 2,
+              "quotes": [],
+              "error": null
+            },
+            "calculatedAt": "2026-10-29T02:43:10.713Z",
+            "perSku": [
+              {
+                "skuId": "12000034182362852",
+                "itemPrice": 11.89,
+                "itemCurrency": "USD",
+                "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+                "freightAmountInCostCurrency": 1.99,
+                "landedCost": 13.88,
+                "costCurrency": "USD"
+              },
+              {
+                "skuId": "12000034182362851",
+                "itemPrice": 12.29,
+                "itemCurrency": "USD",
+                "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+                "freightAmountInCostCurrency": 1.99,
+                "landedCost": 14.28,
+                "costCurrency": "USD"
+              }
+            ]
+          },
+          "suggestedMapping": {
+            "readyForAutomaticConfirmation": true,
+            "suggestions": [
+              {
+                "canonicalVariantId": "cmvsnhb4w000708jtld5sv79w",
+                "canonicalVariantName": "Size: M · Color: WHITE",
+                "selected": {
+                  "canonicalVariantId": "cmvsnhb4w000708jtld5sv79w",
+                  "supplierVariantId": "supplier-12000034182362852",
+                  "supplierSourceSkuId": "12000034182362852",
+                  "confidence": 1,
+                  "status": "exact",
+                  "reasons": [
+                    "Cor correspondente",
+                    "Atributos fortemente correspondentes"
+                  ]
+                },
+                "alternatives": [
+                  {
+                    "canonicalVariantId": "cmvsnhb4w000708jtld5sv79w",
+                    "supplierVariantId": "supplier-12000034182362852",
+                    "supplierSourceSkuId": "12000034182362852",
+                    "confidence": 1,
+                    "status": "exact",
+                    "reasons": [
+                      "Cor correspondente",
+                      "Atributos fortemente correspondentes"
+                    ]
+                  },
+                  {
+                    "canonicalVariantId": "cmvsnhb4w000708jtld5sv79w",
+                    "supplierVariantId": "supplier-12000034182362851",
+                    "supplierSourceSkuId": "12000034182362851",
+                    "confidence": 0.78,
+                    "status": "review",
+                    "reasons": [
+                      "Cor correspondente"
+                    ]
+                  }
+                ],
+                "requiresReview": false,
+                "blocker": null
+              },
+              {
+                "canonicalVariantId": "cmvsnhb4w000908jt0h56tz3g",
+                "canonicalVariantName": "Size: S · Color: WHITE",
+                "selected": {
+                  "canonicalVariantId": "cmvsnhb4w000908jt0h56tz3g",
+                  "supplierVariantId": "supplier-12000034182362851",
+                  "supplierSourceSkuId": "12000034182362851",
+                  "confidence": 1,
+                  "status": "exact",
+                  "reasons": [
+                    "Cor correspondente",
+                    "Atributos fortemente correspondentes"
+                  ]
+                },
+                "alternatives": [
+                  {
+                    "canonicalVariantId": "cmvsnhb4w000908jt0h56tz3g",
+                    "supplierVariantId": "supplier-12000034182362851",
+                    "supplierSourceSkuId": "12000034182362851",
+                    "confidence": 1,
+                    "status": "exact",
+                    "reasons": [
+                      "Cor correspondente",
+                      "Atributos fortemente correspondentes"
+                    ]
+                  },
+                  {
+                    "canonicalVariantId": "cmvsnhb4w000908jt0h56tz3g",
+                    "supplierVariantId": "supplier-12000034182362852",
+                    "supplierSourceSkuId": "12000034182362852",
+                    "confidence": 0.78,
+                    "status": "review",
+                    "reasons": [
+                      "Cor correspondente"
+                    ]
+                  }
+                ],
+                "requiresReview": false,
+                "blocker": null
+              }
+            ],
+            "unmatchedCanonicalVariantIds": [],
+            "ambiguousCanonicalVariantIds": []
+          }
+        },
+        "finishedAt": "2026-10-29T02:42:48.813Z"
+      },
+      "sha256": "cf4351e7aba9493873ca46b3ef70d79649b0f926c5a7476e6d04172e8f378782",
+      "file": "lumielle-selected-official-quote-20261029.json"
+    },
+    "arlena-cutout-halter-maxi-dress-red": {
+      "response": {
+        "status": "done",
+        "http": 200,
+        "body": {
+          "ok": true,
+          "dryRun": true,
+          "persisted": false,
+          "supplierId": "cmvliq1sr005a06kxp1y8qt6o",
+          "sourceProductId": "3256809935768825",
+          "requestedProductId": "3256809935768825",
+          "resolvedProductId": "3256809935768825",
+          "operationalProvider": "ALIEXPRESS_OPEN_PLATFORM",
+          "warnings": [],
+          "refreshedAt": "2026-10-29T02:43:12.160Z",
+          "variants": 4,
+          "quotedSkus": [
+            {
+              "sourceSkuId": "12000051217284854",
+              "name": "Color: Red · Size: M",
+              "attributes": {
+                "Color": "Red",
+                "Size": "M"
+              },
+              "imageUrl": null,
+              "orderSkuAttr": "5:361386;14:10",
+              "stock": 60,
+              "available": true,
+              "itemPrice": 56.41,
+              "itemCurrency": "USD",
+              "itemCostInCostCurrency": 56.41,
+              "freightCostInCostCurrency": 0,
+              "freightServiceName": "YUNEXPRESS_STANDARD",
+              "landedCost": 56.41,
+              "costCurrency": "USD",
+              "countryCode": "US",
+              "verifiedAt": "2026-10-29T02:43:12.160Z",
+              "minimumRetail3x": 169.23,
+              "suggestedRetail3x90": 169.9
+            },
+            {
+              "sourceSkuId": "12000051217284852",
+              "name": "Color: Red · Size: S",
+              "attributes": {
+                "Color": "Red",
+                "Size": "S"
+              },
+              "imageUrl": null,
+              "orderSkuAttr": "5:100014064;14:10",
+              "stock": 55,
+              "available": true,
+              "itemPrice": 56.41,
+              "itemCurrency": "USD",
+              "itemCostInCostCurrency": 56.41,
+              "freightCostInCostCurrency": 0,
+              "freightServiceName": "YUNEXPRESS_STANDARD",
+              "landedCost": 56.41,
+              "costCurrency": "USD",
+              "countryCode": "US",
+              "verifiedAt": "2026-10-29T02:43:12.160Z",
+              "minimumRetail3x": 169.23,
+              "suggestedRetail3x90": 169.9
+            },
+            {
+              "sourceSkuId": "12000051217284850",
+              "name": "Color: Red · Size: XS",
+              "attributes": {
+                "Color": "Red",
+                "Size": "XS"
+              },
+              "imageUrl": null,
+              "orderSkuAttr": "5:872;14:10",
+              "stock": 54,
+              "available": true,
+              "itemPrice": 56.41,
+              "itemCurrency": "USD",
+              "itemCostInCostCurrency": 56.41,
+              "freightCostInCostCurrency": 0,
+              "freightServiceName": "YUNEXPRESS_STANDARD",
+              "landedCost": 56.41,
+              "costCurrency": "USD",
+              "countryCode": "US",
+              "verifiedAt": "2026-10-29T02:43:12.160Z",
+              "minimumRetail3x": 169.23,
+              "suggestedRetail3x90": 169.9
+            },
+            {
+              "sourceSkuId": "12000051217284856",
+              "name": "Color: Red · Size: L",
+              "attributes": {
+                "Color": "Red",
+                "Size": "L"
+              },
+              "imageUrl": null,
+              "orderSkuAttr": "5:361385;14:10",
+              "stock": 57,
+              "available": true,
+              "itemPrice": 56.41,
+              "itemCurrency": "USD",
+              "itemCostInCostCurrency": 56.41,
+              "freightCostInCostCurrency": 0,
+              "freightServiceName": "YUNEXPRESS_STANDARD",
+              "landedCost": 56.41,
+              "costCurrency": "USD",
+              "countryCode": "US",
+              "verifiedAt": "2026-10-29T02:43:12.160Z",
+              "minimumRetail3x": 169.23,
+              "suggestedRetail3x90": 169.9
+            }
+          ],
+          "costSnapshot": {
+            "status": "COMPLETE",
+            "basis": "ITEM_PLUS_FREIGHT",
+            "scope": "ONE_UNIT_COUNTRY_BASELINE",
+            "includes": [
+              "ITEM_PRICE",
+              "ALIEXPRESS_FREIGHT"
+            ],
+            "countryCode": "US",
+            "sendGoodsCountryCode": "CN",
+            "quantity": 1,
+            "itemCurrency": "USD",
+            "costCurrency": "USD",
+            "itemFxRateToCostCurrency": null,
+            "freight": {
+              "status": "AVAILABLE",
+              "selectedServiceName": "YUNEXPRESS_STANDARD",
+              "estimatedDeliveryTime": "15days",
+              "originalAmount": 0,
+              "originalCurrency": "USD",
+              "amountInCostCurrency": 0,
+              "costCurrency": "USD",
+              "quoteCount": 4,
+              "quotes": [],
+              "error": null
+            },
+            "calculatedAt": "2026-10-29T02:43:12.160Z",
+            "perSku": [
+              {
+                "skuId": "12000051217284854",
+                "itemPrice": 56.41,
+                "itemCurrency": "USD",
+                "freightServiceName": "YUNEXPRESS_STANDARD",
+                "freightAmountInCostCurrency": 0,
+                "landedCost": 56.41,
+                "costCurrency": "USD"
+              },
+              {
+                "skuId": "12000051217284852",
+                "itemPrice": 56.41,
+                "itemCurrency": "USD",
+                "freightServiceName": "YUNEXPRESS_STANDARD",
+                "freightAmountInCostCurrency": 0,
+                "landedCost": 56.41,
+                "costCurrency": "USD"
+              },
+              {
+                "skuId": "12000051217284850",
+                "itemPrice": 56.41,
+                "itemCurrency": "USD",
+                "freightServiceName": "YUNEXPRESS_STANDARD",
+                "freightAmountInCostCurrency": 0,
+                "landedCost": 56.41,
+                "costCurrency": "USD"
+              },
+              {
+                "skuId": "12000051217284856",
+                "itemPrice": 56.41,
+                "itemCurrency": "USD",
+                "freightServiceName": "YUNEXPRESS_STANDARD",
+                "freightAmountInCostCurrency": 0,
+                "landedCost": 56.41,
+                "costCurrency": "USD"
+              }
+            ]
+          },
+          "suggestedMapping": {
+            "readyForAutomaticConfirmation": true,
+            "suggestions": [
+              {
+                "canonicalVariantId": "cmvliq1cl005206kxr1cdsg1r",
+                "canonicalVariantName": "Size: S · Color: Red",
+                "selected": {
+                  "canonicalVariantId": "cmvliq1cl005206kxr1cdsg1r",
+                  "supplierVariantId": "supplier-12000051217284852",
+                  "supplierSourceSkuId": "12000051217284852",
+                  "confidence": 1,
+                  "status": "exact",
+                  "reasons": [
+                    "Cor correspondente",
+                    "Atributos fortemente correspondentes"
+                  ]
+                },
+                "alternatives": [
+                  {
+                    "canonicalVariantId": "cmvliq1cl005206kxr1cdsg1r",
+                    "supplierVariantId": "supplier-12000051217284852",
+                    "supplierSourceSkuId": "12000051217284852",
+                    "confidence": 1,
+                    "status": "exact",
+                    "reasons": [
+                      "Cor correspondente",
+                      "Atributos fortemente correspondentes"
+                    ]
+                  },
+                  {
+                    "canonicalVariantId": "cmvliq1cl005206kxr1cdsg1r",
+                    "supplierVariantId": "supplier-12000051217284854",
+                    "supplierSourceSkuId": "12000051217284854",
+                    "confidence": 0.78,
+                    "status": "review",
+                    "reasons": [
+                      "Cor correspondente"
+                    ]
+                  },
+                  {
+                    "canonicalVariantId": "cmvliq1cl005206kxr1cdsg1r",
+                    "supplierVariantId": "supplier-12000051217284850",
+                    "supplierSourceSkuId": "12000051217284850",
+                    "confidence": 0.78,
+                    "status": "review",
+                    "reasons": [
+                      "Cor correspondente"
+                    ]
+                  },
+                  {
+                    "canonicalVariantId": "cmvliq1cl005206kxr1cdsg1r",
+                    "supplierVariantId": "supplier-12000051217284856",
+                    "supplierSourceSkuId": "12000051217284856",
+                    "confidence": 0.78,
+                    "status": "review",
+                    "reasons": [
+                      "Cor correspondente"
+                    ]
+                  }
+                ],
+                "requiresReview": false,
+                "blocker": null
+              },
+              {
+                "canonicalVariantId": "cmvliq1cl005606kxqsh6krzx",
+                "canonicalVariantName": "Size: XS · Color: Red",
+                "selected": {
+                  "canonicalVariantId": "cmvliq1cl005606kxqsh6krzx",
+                  "supplierVariantId": "supplier-12000051217284850",
+                  "supplierSourceSkuId": "12000051217284850",
+                  "confidence": 1,
+                  "status": "exact",
+                  "reasons": [
+                    "Cor correspondente",
+                    "Atributos fortemente correspondentes"
+                  ]
+                },
+                "alternatives": [
+                  {
+                    "canonicalVariantId": "cmvliq1cl005606kxqsh6krzx",
+                    "supplierVariantId": "supplier-12000051217284850",
+                    "supplierSourceSkuId": "12000051217284850",
+                    "confidence": 1,
+                    "status": "exact",
+                    "reasons": [
+                      "Cor correspondente",
+                      "Atributos fortemente correspondentes"
+                    ]
+                  },
+                  {
+                    "canonicalVariantId": "cmvliq1cl005606kxqsh6krzx",
+                    "supplierVariantId": "supplier-12000051217284854",
+                    "supplierSourceSkuId": "12000051217284854",
+                    "confidence": 0.78,
+                    "status": "review",
+                    "reasons": [
+                      "Cor correspondente"
+                    ]
+                  },
+                  {
+                    "canonicalVariantId": "cmvliq1cl005606kxqsh6krzx",
+                    "supplierVariantId": "supplier-12000051217284852",
+                    "supplierSourceSkuId": "12000051217284852",
+                    "confidence": 0.78,
+                    "status": "review",
+                    "reasons": [
+                      "Cor correspondente"
+                    ]
+                  },
+                  {
+                    "canonicalVariantId": "cmvliq1cl005606kxqsh6krzx",
+                    "supplierVariantId": "supplier-12000051217284856",
+                    "supplierSourceSkuId": "12000051217284856",
+                    "confidence": 0.78,
+                    "status": "review",
+                    "reasons": [
+                      "Cor correspondente"
+                    ]
+                  }
+                ],
+                "requiresReview": false,
+                "blocker": null
+              },
+              {
+                "canonicalVariantId": "cmvliq1cl004y06kx9p5k8973",
+                "canonicalVariantName": "Size: M · Color: Red",
+                "selected": {
+                  "canonicalVariantId": "cmvliq1cl004y06kx9p5k8973",
+                  "supplierVariantId": "supplier-12000051217284854",
+                  "supplierSourceSkuId": "12000051217284854",
+                  "confidence": 1,
+                  "status": "exact",
+                  "reasons": [
+                    "Cor correspondente",
+                    "Atributos fortemente correspondentes"
+                  ]
+                },
+                "alternatives": [
+                  {
+                    "canonicalVariantId": "cmvliq1cl004y06kx9p5k8973",
+                    "supplierVariantId": "supplier-12000051217284854",
+                    "supplierSourceSkuId": "12000051217284854",
+                    "confidence": 1,
+                    "status": "exact",
+                    "reasons": [
+                      "Cor correspondente",
+                      "Atributos fortemente correspondentes"
+                    ]
+                  },
+                  {
+                    "canonicalVariantId": "cmvliq1cl004y06kx9p5k8973",
+                    "supplierVariantId": "supplier-12000051217284852",
+                    "supplierSourceSkuId": "12000051217284852",
+                    "confidence": 0.78,
+                    "status": "review",
+                    "reasons": [
+                      "Cor correspondente"
+                    ]
+                  },
+                  {
+                    "canonicalVariantId": "cmvliq1cl004y06kx9p5k8973",
+                    "supplierVariantId": "supplier-12000051217284850",
+                    "supplierSourceSkuId": "12000051217284850",
+                    "confidence": 0.78,
+                    "status": "review",
+                    "reasons": [
+                      "Cor correspondente"
+                    ]
+                  },
+                  {
+                    "canonicalVariantId": "cmvliq1cl004y06kx9p5k8973",
+                    "supplierVariantId": "supplier-12000051217284856",
+                    "supplierSourceSkuId": "12000051217284856",
+                    "confidence": 0.78,
+                    "status": "review",
+                    "reasons": [
+                      "Cor correspondente"
+                    ]
+                  }
+                ],
+                "requiresReview": false,
+                "blocker": null
+              },
+              {
+                "canonicalVariantId": "cmvliq1cl005906kxf9wipsnh",
+                "canonicalVariantName": "Size: L · Color: Red",
+                "selected": {
+                  "canonicalVariantId": "cmvliq1cl005906kxf9wipsnh",
+                  "supplierVariantId": "supplier-12000051217284856",
+                  "supplierSourceSkuId": "12000051217284856",
+                  "confidence": 1,
+                  "status": "exact",
+                  "reasons": [
+                    "Cor correspondente",
+                    "Atributos fortemente correspondentes"
+                  ]
+                },
+                "alternatives": [
+                  {
+                    "canonicalVariantId": "cmvliq1cl005906kxf9wipsnh",
+                    "supplierVariantId": "supplier-12000051217284856",
+                    "supplierSourceSkuId": "12000051217284856",
+                    "confidence": 1,
+                    "status": "exact",
+                    "reasons": [
+                      "Cor correspondente",
+                      "Atributos fortemente correspondentes"
+                    ]
+                  },
+                  {
+                    "canonicalVariantId": "cmvliq1cl005906kxf9wipsnh",
+                    "supplierVariantId": "supplier-12000051217284854",
+                    "supplierSourceSkuId": "12000051217284854",
+                    "confidence": 0.78,
+                    "status": "review",
+                    "reasons": [
+                      "Cor correspondente"
+                    ]
+                  },
+                  {
+                    "canonicalVariantId": "cmvliq1cl005906kxf9wipsnh",
+                    "supplierVariantId": "supplier-12000051217284852",
+                    "supplierSourceSkuId": "12000051217284852",
+                    "confidence": 0.78,
+                    "status": "review",
+                    "reasons": [
+                      "Cor correspondente"
+                    ]
+                  },
+                  {
+                    "canonicalVariantId": "cmvliq1cl005906kxf9wipsnh",
+                    "supplierVariantId": "supplier-12000051217284850",
+                    "supplierSourceSkuId": "12000051217284850",
+                    "confidence": 0.78,
+                    "status": "review",
+                    "reasons": [
+                      "Cor correspondente"
+                    ]
+                  }
+                ],
+                "requiresReview": false,
+                "blocker": null
+              }
+            ],
+            "unmatchedCanonicalVariantIds": [],
+            "ambiguousCanonicalVariantIds": []
+          }
+        },
+        "finishedAt": "2026-10-29T02:42:50.309Z"
+      },
+      "sha256": "940086442e189226a9814ec3b3a137a7fac1310bcd4adee4e64d70be6d867c08",
+      "file": "arlena-red-selected-official-quote-20261029.json"
+    }
+  }
+}

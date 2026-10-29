@@ -17634,6 +17634,76 @@ const allGeneratedProducts: Product[] = [
   "stock": 183,
   "unitCostUsd": 22.75,
   "minimumMarginPercent": 40
+},
+{
+  "slug": "lumielle-sequin-slip-mini-dress-silver",
+  "name": "Lumielle Sequin Slip Mini Dress — Silver",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 42.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c5c6c8"
+  ],
+  "colorNames": [
+    "Silver"
+  ],
+  "sizes": [
+    "S",
+    "M"
+  ],
+  "description": "A silver sequin mini slip dress with thin shoulder straps, V-shaped front and back necklines and a relaxed straight silhouette.",
+  "materials": "Reflective sequin-look finish with narrow shoulder straps. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/lumielle-sequin-slip-mini-dress-silver/front-20261028.webp",
+    "/products/lumielle-sequin-slip-mini-dress-silver/back-20261028.webp",
+    "/products/lumielle-sequin-slip-mini-dress-silver/left-20261028.webp",
+    "/products/lumielle-sequin-slip-mini-dress-silver/right-20261028.webp"
+  ],
+  "stock": 7,
+  "unitCostUsd": 14.28,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3
+},
+{
+  "slug": "arlena-cutout-halter-maxi-dress-red",
+  "name": "Arlena Cutout Halter Maxi Dress — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Maxi Dresses",
+  "price": 169.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b72739"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A red halter maxi dress with sculpted front cutout details, a fitted silhouette and a long straight skirt.",
+  "materials": "Smooth-look fabric with sculpted cutout detailing. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/arlena-cutout-halter-maxi-dress-red/front-20261028.webp",
+    "/products/arlena-cutout-halter-maxi-dress-red/back-20261028.webp",
+    "/products/arlena-cutout-halter-maxi-dress-red/left-20261028.webp",
+    "/products/arlena-cutout-halter-maxi-dress-red/right-20261028.webp"
+  ],
+  "stock": 226,
+  "unitCostUsd": 56.41,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3
 }
 ];
 
@@ -17642,6 +17712,8 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "arlena-cutout-halter-maxi-dress-red",
+  "lumielle-sequin-slip-mini-dress-silver",
   "mirabelle-bow-strap-floral-gown-red",
   "bellora-slit-slip-maxi-dress-red",
   "bellora-slit-slip-maxi-dress-black",
