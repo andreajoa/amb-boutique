@@ -17704,6 +17704,41 @@ const allGeneratedProducts: Product[] = [
   "unitCostUsd": 56.41,
   "minimumMarginPercent": 40,
   "minimumCostMultiplier": 3
+},
+{
+  "slug": "verdelle-contrast-corset-top-khaki",
+  "name": "Verdelle Contrast Corset Top \u2014 Khaki",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "subcategory": "Corset Tops",
+  "price": 88.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c5b69a"
+  ],
+  "colorNames": [
+    "Khaki"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A khaki corset top with brown contrast cup trim, narrow shoulder straps, structured vertical panels and a pointed front hem.",
+  "materials": "Structured woven-look finish with contrast cup trim. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/verdelle-contrast-corset-top-khaki/front-20261029.webp",
+    "/products/verdelle-contrast-corset-top-khaki/back-20261029.webp",
+    "/products/verdelle-contrast-corset-top-khaki/left-20261029.webp",
+    "/products/verdelle-contrast-corset-top-khaki/right-20261029.webp"
+  ],
+  "stock": 2990,
+  "unitCostUsd": 29.46,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3
 }
 ];
 
@@ -17712,6 +17747,7 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "verdelle-contrast-corset-top-khaki",
   "arlena-cutout-halter-maxi-dress-red",
   "lumielle-sequin-slip-mini-dress-silver",
   "mirabelle-bow-strap-floral-gown-red",
