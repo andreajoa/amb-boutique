@@ -1835,6 +1835,34 @@
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
+    },
+    {
+      "slug": "verdelle-contrast-corset-top-khaki",
+      "sourceProductId": "3256810227568413",
+      "sourceColor": "Khaki",
+      "sourceSkuIdsBySize": {
+        "S": "12000055813671064",
+        "M": "12000055813671065",
+        "L": "12000055813671063"
+      },
+      "stockBySize": {
+        "S": 993,
+        "M": 998,
+        "L": 999
+      },
+      "landedCostUsdBySize": {
+        "S": 29.46,
+        "M": 29.46,
+        "L": 29.46
+      },
+      "retailPriceUsd": 88.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvlilhzu004e06kxi32y9g9o",
+      "verifiedAtUtc": "2026-10-29T04:20:40.206Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }
