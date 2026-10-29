@@ -1800,7 +1800,38 @@
       "minimumMultiplier": 3,
       "priceEnding": ".90 rounded upward",
       "supplierId": "cmvsnhbnj000a08jtwh0uqnfu",
-      "verifiedAtUtc": "2026-10-28T21:55:46.360Z",
+      "verifiedAtUtc": "2026-10-29T02:43:10.713Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "arlena-cutout-halter-maxi-dress-red",
+      "sourceProductId": "3256809935768825",
+      "sourceColor": "Red",
+      "sourceSkuIdsBySize": {
+        "XS": "12000051217284850",
+        "S": "12000051217284852",
+        "M": "12000051217284854",
+        "L": "12000051217284856"
+      },
+      "stockBySize": {
+        "XS": 54,
+        "S": 55,
+        "M": 60,
+        "L": 57
+      },
+      "landedCostUsdBySize": {
+        "XS": 56.41,
+        "S": 56.41,
+        "M": 56.41,
+        "L": 56.41
+      },
+      "retailPriceUsd": 169.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvliq1sr005a06kxp1y8qt6o",
+      "verifiedAtUtc": "2026-10-29T02:43:12.160Z",
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"

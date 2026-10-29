@@ -1,0 +1,668 @@
+{
+  "slug": "arlena-cutout-halter-maxi-dress-red",
+  "sourceProductId": "3256809935768825",
+  "officialQuote": {
+    "status": "done",
+    "http": 200,
+    "body": {
+      "ok": true,
+      "dryRun": true,
+      "persisted": false,
+      "supplierId": "cmvliq1sr005a06kxp1y8qt6o",
+      "sourceProductId": "3256809935768825",
+      "requestedProductId": "3256809935768825",
+      "resolvedProductId": "3256809935768825",
+      "operationalProvider": "ALIEXPRESS_OPEN_PLATFORM",
+      "warnings": [],
+      "refreshedAt": "2026-10-28T22:11:23.499Z",
+      "variants": 4,
+      "quotedSkus": [
+        {
+          "sourceSkuId": "12000051217284854",
+          "name": "Color: Red · Size: M",
+          "attributes": {
+            "Color": "Red",
+            "Size": "M"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361386;14:10",
+          "stock": 60,
+          "available": true,
+          "itemPrice": 56.41,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 56.41,
+          "freightCostInCostCurrency": 0,
+          "freightServiceName": "YUNEXPRESS_STANDARD",
+          "landedCost": 56.41,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-10-28T22:11:23.499Z",
+          "minimumRetail3x": 169.23,
+          "suggestedRetail3x90": 169.9
+        },
+        {
+          "sourceSkuId": "12000051217284852",
+          "name": "Color: Red · Size: S",
+          "attributes": {
+            "Color": "Red",
+            "Size": "S"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:100014064;14:10",
+          "stock": 55,
+          "available": true,
+          "itemPrice": 56.41,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 56.41,
+          "freightCostInCostCurrency": 0,
+          "freightServiceName": "YUNEXPRESS_STANDARD",
+          "landedCost": 56.41,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-10-28T22:11:23.499Z",
+          "minimumRetail3x": 169.23,
+          "suggestedRetail3x90": 169.9
+        },
+        {
+          "sourceSkuId": "12000051217284850",
+          "name": "Color: Red · Size: XS",
+          "attributes": {
+            "Color": "Red",
+            "Size": "XS"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:872;14:10",
+          "stock": 54,
+          "available": true,
+          "itemPrice": 56.41,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 56.41,
+          "freightCostInCostCurrency": 0,
+          "freightServiceName": "YUNEXPRESS_STANDARD",
+          "landedCost": 56.41,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-10-28T22:11:23.499Z",
+          "minimumRetail3x": 169.23,
+          "suggestedRetail3x90": 169.9
+        },
+        {
+          "sourceSkuId": "12000051217284856",
+          "name": "Color: Red · Size: L",
+          "attributes": {
+            "Color": "Red",
+            "Size": "L"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361385;14:10",
+          "stock": 57,
+          "available": true,
+          "itemPrice": 56.41,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 56.41,
+          "freightCostInCostCurrency": 0,
+          "freightServiceName": "YUNEXPRESS_STANDARD",
+          "landedCost": 56.41,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-10-28T22:11:23.499Z",
+          "minimumRetail3x": 169.23,
+          "suggestedRetail3x90": 169.9
+        }
+      ],
+      "costSnapshot": {
+        "status": "COMPLETE",
+        "basis": "ITEM_PLUS_FREIGHT",
+        "scope": "ONE_UNIT_COUNTRY_BASELINE",
+        "includes": [
+          "ITEM_PRICE",
+          "ALIEXPRESS_FREIGHT"
+        ],
+        "countryCode": "US",
+        "sendGoodsCountryCode": "CN",
+        "quantity": 1,
+        "itemCurrency": "USD",
+        "costCurrency": "USD",
+        "itemFxRateToCostCurrency": null,
+        "freight": {
+          "status": "AVAILABLE",
+          "selectedServiceName": "YUNEXPRESS_STANDARD",
+          "estimatedDeliveryTime": "15days",
+          "originalAmount": 0,
+          "originalCurrency": "USD",
+          "amountInCostCurrency": 0,
+          "costCurrency": "USD",
+          "quoteCount": 4,
+          "quotes": [],
+          "error": null
+        },
+        "calculatedAt": "2026-10-28T22:11:23.499Z",
+        "perSku": [
+          {
+            "skuId": "12000051217284854",
+            "itemPrice": 56.41,
+            "itemCurrency": "USD",
+            "freightServiceName": "YUNEXPRESS_STANDARD",
+            "freightAmountInCostCurrency": 0,
+            "landedCost": 56.41,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000051217284852",
+            "itemPrice": 56.41,
+            "itemCurrency": "USD",
+            "freightServiceName": "YUNEXPRESS_STANDARD",
+            "freightAmountInCostCurrency": 0,
+            "landedCost": 56.41,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000051217284850",
+            "itemPrice": 56.41,
+            "itemCurrency": "USD",
+            "freightServiceName": "YUNEXPRESS_STANDARD",
+            "freightAmountInCostCurrency": 0,
+            "landedCost": 56.41,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000051217284856",
+            "itemPrice": 56.41,
+            "itemCurrency": "USD",
+            "freightServiceName": "YUNEXPRESS_STANDARD",
+            "freightAmountInCostCurrency": 0,
+            "landedCost": 56.41,
+            "costCurrency": "USD"
+          }
+        ]
+      },
+      "suggestedMapping": {
+        "readyForAutomaticConfirmation": true,
+        "suggestions": [
+          {
+            "canonicalVariantId": "cmvliq1cl005206kxr1cdsg1r",
+            "canonicalVariantName": "Size: S · Color: Red",
+            "selected": {
+              "canonicalVariantId": "cmvliq1cl005206kxr1cdsg1r",
+              "supplierVariantId": "supplier-12000051217284852",
+              "supplierSourceSkuId": "12000051217284852",
+              "confidence": 1,
+              "status": "exact",
+              "reasons": [
+                "Cor correspondente",
+                "Atributos fortemente correspondentes"
+              ]
+            },
+            "alternatives": [
+              {
+                "canonicalVariantId": "cmvliq1cl005206kxr1cdsg1r",
+                "supplierVariantId": "supplier-12000051217284852",
+                "supplierSourceSkuId": "12000051217284852",
+                "confidence": 1,
+                "status": "exact",
+                "reasons": [
+                  "Cor correspondente",
+                  "Atributos fortemente correspondentes"
+                ]
+              },
+              {
+                "canonicalVariantId": "cmvliq1cl005206kxr1cdsg1r",
+                "supplierVariantId": "supplier-12000051217284854",
+                "supplierSourceSkuId": "12000051217284854",
+                "confidence": 0.78,
+                "status": "review",
+                "reasons": [
+                  "Cor correspondente"
+                ]
+              },
+              {
+                "canonicalVariantId": "cmvliq1cl005206kxr1cdsg1r",
+                "supplierVariantId": "supplier-12000051217284850",
+                "supplierSourceSkuId": "12000051217284850",
+                "confidence": 0.78,
+                "status": "review",
+                "reasons": [
+                  "Cor correspondente"
+                ]
+              },
+              {
+                "canonicalVariantId": "cmvliq1cl005206kxr1cdsg1r",
+                "supplierVariantId": "supplier-12000051217284856",
+                "supplierSourceSkuId": "12000051217284856",
+                "confidence": 0.78,
+                "status": "review",
+                "reasons": [
+                  "Cor correspondente"
+                ]
+              }
+            ],
+            "requiresReview": false,
+            "blocker": null
+          },
+          {
+            "canonicalVariantId": "cmvliq1cl005606kxqsh6krzx",
+            "canonicalVariantName": "Size: XS · Color: Red",
+            "selected": {
+              "canonicalVariantId": "cmvliq1cl005606kxqsh6krzx",
+              "supplierVariantId": "supplier-12000051217284850",
+              "supplierSourceSkuId": "12000051217284850",
+              "confidence": 1,
+              "status": "exact",
+              "reasons": [
+                "Cor correspondente",
+                "Atributos fortemente correspondentes"
+              ]
+            },
+            "alternatives": [
+              {
+                "canonicalVariantId": "cmvliq1cl005606kxqsh6krzx",
+                "supplierVariantId": "supplier-12000051217284850",
+                "supplierSourceSkuId": "12000051217284850",
+                "confidence": 1,
+                "status": "exact",
+                "reasons": [
+                  "Cor correspondente",
+                  "Atributos fortemente correspondentes"
+                ]
+              },
+              {
+                "canonicalVariantId": "cmvliq1cl005606kxqsh6krzx",
+                "supplierVariantId": "supplier-12000051217284854",
+                "supplierSourceSkuId": "12000051217284854",
+                "confidence": 0.78,
+                "status": "review",
+                "reasons": [
+                  "Cor correspondente"
+                ]
+              },
+              {
+                "canonicalVariantId": "cmvliq1cl005606kxqsh6krzx",
+                "supplierVariantId": "supplier-12000051217284852",
+                "supplierSourceSkuId": "12000051217284852",
+                "confidence": 0.78,
+                "status": "review",
+                "reasons": [
+                  "Cor correspondente"
+                ]
+              },
+              {
+                "canonicalVariantId": "cmvliq1cl005606kxqsh6krzx",
+                "supplierVariantId": "supplier-12000051217284856",
+                "supplierSourceSkuId": "12000051217284856",
+                "confidence": 0.78,
+                "status": "review",
+                "reasons": [
+                  "Cor correspondente"
+                ]
+              }
+            ],
+            "requiresReview": false,
+            "blocker": null
+          },
+          {
+            "canonicalVariantId": "cmvliq1cl004y06kx9p5k8973",
+            "canonicalVariantName": "Size: M · Color: Red",
+            "selected": {
+              "canonicalVariantId": "cmvliq1cl004y06kx9p5k8973",
+              "supplierVariantId": "supplier-12000051217284854",
+              "supplierSourceSkuId": "12000051217284854",
+              "confidence": 1,
+              "status": "exact",
+              "reasons": [
+                "Cor correspondente",
+                "Atributos fortemente correspondentes"
+              ]
+            },
+            "alternatives": [
+              {
+                "canonicalVariantId": "cmvliq1cl004y06kx9p5k8973",
+                "supplierVariantId": "supplier-12000051217284854",
+                "supplierSourceSkuId": "12000051217284854",
+                "confidence": 1,
+                "status": "exact",
+                "reasons": [
+                  "Cor correspondente",
+                  "Atributos fortemente correspondentes"
+                ]
+              },
+              {
+                "canonicalVariantId": "cmvliq1cl004y06kx9p5k8973",
+                "supplierVariantId": "supplier-12000051217284852",
+                "supplierSourceSkuId": "12000051217284852",
+                "confidence": 0.78,
+                "status": "review",
+                "reasons": [
+                  "Cor correspondente"
+                ]
+              },
+              {
+                "canonicalVariantId": "cmvliq1cl004y06kx9p5k8973",
+                "supplierVariantId": "supplier-12000051217284850",
+                "supplierSourceSkuId": "12000051217284850",
+                "confidence": 0.78,
+                "status": "review",
+                "reasons": [
+                  "Cor correspondente"
+                ]
+              },
+              {
+                "canonicalVariantId": "cmvliq1cl004y06kx9p5k8973",
+                "supplierVariantId": "supplier-12000051217284856",
+                "supplierSourceSkuId": "12000051217284856",
+                "confidence": 0.78,
+                "status": "review",
+                "reasons": [
+                  "Cor correspondente"
+                ]
+              }
+            ],
+            "requiresReview": false,
+            "blocker": null
+          },
+          {
+            "canonicalVariantId": "cmvliq1cl005906kxf9wipsnh",
+            "canonicalVariantName": "Size: L · Color: Red",
+            "selected": {
+              "canonicalVariantId": "cmvliq1cl005906kxf9wipsnh",
+              "supplierVariantId": "supplier-12000051217284856",
+              "supplierSourceSkuId": "12000051217284856",
+              "confidence": 1,
+              "status": "exact",
+              "reasons": [
+                "Cor correspondente",
+                "Atributos fortemente correspondentes"
+              ]
+            },
+            "alternatives": [
+              {
+                "canonicalVariantId": "cmvliq1cl005906kxf9wipsnh",
+                "supplierVariantId": "supplier-12000051217284856",
+                "supplierSourceSkuId": "12000051217284856",
+                "confidence": 1,
+                "status": "exact",
+                "reasons": [
+                  "Cor correspondente",
+                  "Atributos fortemente correspondentes"
+                ]
+              },
+              {
+                "canonicalVariantId": "cmvliq1cl005906kxf9wipsnh",
+                "supplierVariantId": "supplier-12000051217284854",
+                "supplierSourceSkuId": "12000051217284854",
+                "confidence": 0.78,
+                "status": "review",
+                "reasons": [
+                  "Cor correspondente"
+                ]
+              },
+              {
+                "canonicalVariantId": "cmvliq1cl005906kxf9wipsnh",
+                "supplierVariantId": "supplier-12000051217284852",
+                "supplierSourceSkuId": "12000051217284852",
+                "confidence": 0.78,
+                "status": "review",
+                "reasons": [
+                  "Cor correspondente"
+                ]
+              },
+              {
+                "canonicalVariantId": "cmvliq1cl005906kxf9wipsnh",
+                "supplierVariantId": "supplier-12000051217284850",
+                "supplierSourceSkuId": "12000051217284850",
+                "confidence": 0.78,
+                "status": "review",
+                "reasons": [
+                  "Cor correspondente"
+                ]
+              }
+            ],
+            "requiresReview": false,
+            "blocker": null
+          }
+        ],
+        "unmatchedCanonicalVariantIds": [],
+        "ambiguousCanonicalVariantIds": []
+      }
+    },
+    "finishedAt": "2026-10-28T22:11:07.723Z"
+  },
+  "gallery": {
+    "at": "2026-10-29T02:36:14.507Z",
+    "slug": "arlena-cutout-halter-maxi-dress-red",
+    "sourceProductId": "3256809935768825",
+    "sourceColor": "Red",
+    "sourceVideo": {
+      "url": "https://video.aliexpress-media.com/play/5000354026415.mp4",
+      "path": "/Users/andrealmeida/AMB-catalog-remaining-20261026/output/catalog-20261026/held-seven-current-originals-20261028/3256809935768825/original-032.mp4",
+      "index": 32,
+      "sourceFields": [
+        "videos"
+      ],
+      "capturedAt": "2026-10-28T22:01:28.138Z",
+      "discoveredAt": "2026-10-28T22:03:48.851455+00:00",
+      "httpStatus": 200,
+      "sha256": "e3e07aa51f4cf6e020dcedb5470c28b2a439738cf9e822b2fb831c799dc9b472",
+      "bytes": 8783535
+    },
+    "sourceVideoSha256": "e3e07aa51f4cf6e020dcedb5470c28b2a439738cf9e822b2fb831c799dc9b472",
+    "sourceVideoNativeDimensions": [
+      720,
+      1280
+    ],
+    "officialPreview": {
+      "path": "/Users/andrealmeida/AMB-catalog-remaining-20261026/output/catalog-20261026/held-seven-current-originals-20261028/current-official-previews-20261028T220147Z.json",
+      "sha256": "08a5343638008649a5a4bda2a82ce1505d622cf194cbe048cae4c8e7da2de958",
+      "capturedAt": "2026-10-28T22:01:28.138Z",
+      "readOnly": true,
+      "persisted": false
+    },
+    "nativeSkuEvidence": [
+      {
+        "sku_id": "12000051217284854",
+        "sku_attr": "5:361386;14:10",
+        "sku_price": "80.59",
+        "currency_code": "USD",
+        "offer_sale_price": "56.41",
+        "sku_available_stock": 60,
+        "properties": [
+          {
+            "sku_property_id": 14,
+            "property_value_id": 10,
+            "sku_property_name": "Color",
+            "sku_property_value": "Red",
+            "imageUrl": "https://ae01.alicdn.com/kf/Sbd6de51ac4e743649a7b3c2874e21023y.jpg"
+          },
+          {
+            "sku_property_id": 5,
+            "property_value_id": 361386,
+            "sku_property_name": "Size",
+            "sku_property_value": "M",
+            "imageUrl": null
+          }
+        ]
+      },
+      {
+        "sku_id": "12000051217284852",
+        "sku_attr": "5:100014064;14:10",
+        "sku_price": "80.59",
+        "currency_code": "USD",
+        "offer_sale_price": "56.41",
+        "sku_available_stock": 55,
+        "properties": [
+          {
+            "sku_property_id": 14,
+            "property_value_id": 10,
+            "sku_property_name": "Color",
+            "sku_property_value": "Red",
+            "imageUrl": "https://ae01.alicdn.com/kf/Sbd6de51ac4e743649a7b3c2874e21023y.jpg"
+          },
+          {
+            "sku_property_id": 5,
+            "property_value_id": 100014064,
+            "sku_property_name": "Size",
+            "sku_property_value": "S",
+            "imageUrl": null
+          }
+        ]
+      },
+      {
+        "sku_id": "12000051217284850",
+        "sku_attr": "5:872;14:10",
+        "sku_price": "80.59",
+        "currency_code": "USD",
+        "offer_sale_price": "56.41",
+        "sku_available_stock": 54,
+        "properties": [
+          {
+            "sku_property_id": 14,
+            "property_value_id": 10,
+            "sku_property_name": "Color",
+            "sku_property_value": "Red",
+            "imageUrl": "https://ae01.alicdn.com/kf/Sbd6de51ac4e743649a7b3c2874e21023y.jpg"
+          },
+          {
+            "sku_property_id": 5,
+            "property_value_id": 872,
+            "sku_property_name": "Size",
+            "sku_property_value": "XS",
+            "imageUrl": null
+          }
+        ]
+      },
+      {
+        "sku_id": "12000051217284856",
+        "sku_attr": "5:361385;14:10",
+        "sku_price": "80.59",
+        "currency_code": "USD",
+        "offer_sale_price": "56.41",
+        "sku_available_stock": 57,
+        "properties": [
+          {
+            "sku_property_id": 14,
+            "property_value_id": 10,
+            "sku_property_name": "Color",
+            "sku_property_value": "Red",
+            "imageUrl": "https://ae01.alicdn.com/kf/Sbd6de51ac4e743649a7b3c2874e21023y.jpg"
+          },
+          {
+            "sku_property_id": 5,
+            "property_value_id": 361385,
+            "sku_property_name": "Size",
+            "sku_property_value": "L",
+            "imageUrl": null
+          }
+        ]
+      }
+    ],
+    "independentCritic": {
+      "agent": "catalog_release_critic",
+      "acceptedFrames": {
+        "front": 1,
+        "back": 11,
+        "left": 6,
+        "right": 37.3
+      },
+      "rightApprovedPngSha256": "320dc24c5b50a00bab987b6320d606aa0b69c0ad4311d55d72103cee80d63bd3",
+      "criterion": "Photographic near90 profile with full garment and actual opposed side; not mathematically orthogonal",
+      "rejectedRightFrames": [
+        37.2,
+        14
+      ],
+      "scope": "Gallery-only acceptance; no publication or data approval"
+    },
+    "parameters": {
+      "width": 1600,
+      "height": 2400,
+      "fit": "contain",
+      "background": "white side padding only",
+      "contentDimensions": [
+        1350,
+        2400
+      ],
+      "colorspace": "srgb",
+      "embeddedProfile": "sRGB",
+      "quality": 92,
+      "effort": 6
+    },
+    "operations": "Decode original video frames toPNG, preserve PNGs, Sharp technical resizecontain and encoding only. No crop, semantic fill, recolor, flip, generation or model mix.",
+    "assets": [
+      {
+        "view": "front",
+        "timestampSeconds": 1,
+        "sourceFrame": "/Users/andrealmeida/AMB-catalog-remaining-20261026/output/catalog-20261026/held-seven-current-originals-20261028/3256809935768825/four-view-candidates/front-original.png",
+        "preservedOriginal": "/Users/andrealmeida/AMB-catalog-remaining-20261026/output/catalog-20261026/arlena-red-native-gallery-20261028/front-original.png",
+        "rawPngSha256": "c844b293827a79f20a29577c50554103ef0a32b09d873e8cd263afef7c68105a",
+        "nativeWidth": 720,
+        "nativeHeight": 1280,
+        "target": "/Users/andrealmeida/AMB-lumielle-silver-20261028/public/products/arlena-cutout-halter-maxi-dress-red/front-20261028.webp",
+        "webpSha256": "3c322bc1b9a28514b29c07817a28a86b8eb7be1c55a84706ea4e7bede6a541a4",
+        "width": 1600,
+        "height": 2400,
+        "space": "srgb",
+        "iccBytes": 480,
+        "bytes": 53492,
+        "angleDisclosure": "Original photographic view"
+      },
+      {
+        "view": "back",
+        "timestampSeconds": 11,
+        "sourceFrame": "/Users/andrealmeida/AMB-catalog-remaining-20261026/output/catalog-20261026/held-seven-current-originals-20261028/3256809935768825/four-view-candidates/back-original.png",
+        "preservedOriginal": "/Users/andrealmeida/AMB-catalog-remaining-20261026/output/catalog-20261026/arlena-red-native-gallery-20261028/back-original.png",
+        "rawPngSha256": "a2d38c3f351b87e8f4bc434aa312bc22241b4fbb96c81fe08db2fbf840680730",
+        "nativeWidth": 720,
+        "nativeHeight": 1280,
+        "target": "/Users/andrealmeida/AMB-lumielle-silver-20261028/public/products/arlena-cutout-halter-maxi-dress-red/back-20261028.webp",
+        "webpSha256": "ead3ea56d019b09fcee27baa2d865261651c902031bcabad4e62b5139d68c57c",
+        "width": 1600,
+        "height": 2400,
+        "space": "srgb",
+        "iccBytes": 480,
+        "bytes": 52162,
+        "angleDisclosure": "Original photographic view"
+      },
+      {
+        "view": "left",
+        "timestampSeconds": 6,
+        "sourceFrame": "/Users/andrealmeida/AMB-catalog-remaining-20261026/output/catalog-20261026/held-seven-current-originals-20261028/3256809935768825/four-view-candidates/left-original.png",
+        "preservedOriginal": "/Users/andrealmeida/AMB-catalog-remaining-20261026/output/catalog-20261026/arlena-red-native-gallery-20261028/left-original.png",
+        "rawPngSha256": "f30e0f25ddaea9ba0cad88f6a8aaebcb96e985966615a44fcc6537e176bfd5da",
+        "nativeWidth": 720,
+        "nativeHeight": 1280,
+        "target": "/Users/andrealmeida/AMB-lumielle-silver-20261028/public/products/arlena-cutout-halter-maxi-dress-red/left-20261028.webp",
+        "webpSha256": "fad9f2a1efd9aaae1131706a6c3145a26dbe95b16778307775dd4cd703a4e686",
+        "width": 1600,
+        "height": 2400,
+        "space": "srgb",
+        "iccBytes": 480,
+        "bytes": 60006,
+        "angleDisclosure": "Original photographic view"
+      },
+      {
+        "view": "right",
+        "timestampSeconds": 37.3,
+        "sourceFrame": "/Users/andrealmeida/AMB-catalog-remaining-20261026/output/catalog-20261026/held-seven-current-originals-20261028/3256809935768825/four-view-candidates/right-candidate-37.3.png",
+        "preservedOriginal": "/Users/andrealmeida/AMB-catalog-remaining-20261026/output/catalog-20261026/arlena-red-native-gallery-20261028/right-original.png",
+        "rawPngSha256": "320dc24c5b50a00bab987b6320d606aa0b69c0ad4311d55d72103cee80d63bd3",
+        "nativeWidth": 720,
+        "nativeHeight": 1280,
+        "target": "/Users/andrealmeida/AMB-lumielle-silver-20261028/public/products/arlena-cutout-halter-maxi-dress-red/right-20261028.webp",
+        "webpSha256": "207900c3128c17707c878006a72aded183ab8015e91fd22fb3ebb07338b5b88e",
+        "width": 1600,
+        "height": 2400,
+        "space": "srgb",
+        "iccBytes": 480,
+        "bytes": 57662,
+        "angleDisclosure": "Photographic near90 profile; not mathematically orthogonal. Full halter and hem visible; actual opposed right side."
+      }
+    ],
+    "originalsPreserved": true,
+    "exported": 4,
+    "published": 0,
+    "limitations": [
+      "Native720x1280 video frames enlarged without new native detail.",
+      "Right is a photographic near-profile, not exactly orthogonal90degrees.",
+      "Mannequin and original supplier background retained."
+    ]
+  },
+  "minimumSaleCostMultiplier": 3
+}
