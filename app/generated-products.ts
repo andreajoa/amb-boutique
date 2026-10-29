@@ -17739,6 +17739,42 @@ const allGeneratedProducts: Product[] = [
   "unitCostUsd": 29.46,
   "minimumMarginPercent": 40,
   "minimumCostMultiplier": 3
+},
+{
+  "slug": "noctelle-strapless-corset-dress-red",
+  "name": "Noctelle Strapless Corset Dress — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Corset Dresses",
+  "price": 132.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#af142b"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A red strapless dress with an angular cup neckline, structured fitted bodice, defined waist and a long, full A-line skirt.",
+  "materials": "Smooth-look fabric with structured bodice panels and a full skirt. Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment. Use a gentle wash and air dry when permitted by the label.",
+  "images": [
+    "/products/noctelle-strapless-corset-dress-red/front-20261029.webp",
+    "/products/noctelle-strapless-corset-dress-red/back-20261029.webp",
+    "/products/noctelle-strapless-corset-dress-red/left-20261029.webp",
+    "/products/noctelle-strapless-corset-dress-red/right-20261029.webp"
+  ],
+  "stock": 1562,
+  "unitCostUsd": 43.97,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3
 }
 ];
 
@@ -17747,6 +17783,7 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "noctelle-strapless-corset-dress-red",
   "verdelle-contrast-corset-top-khaki",
   "arlena-cutout-halter-maxi-dress-red",
   "lumielle-sequin-slip-mini-dress-silver",

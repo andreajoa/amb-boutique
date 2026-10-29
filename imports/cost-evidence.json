@@ -741,6 +741,10 @@
    "landedCostUsd": 33.79,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
   },
+  "noctelle-strapless-corset-dress-red": {
+   "landedCostUsd": 43.97,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
   "noctelle-strapless-corset-midi-dress-black": {
    "landedCostUsd": 43.97,
    "source": "catalog-20261026-new-products-bindings.json"

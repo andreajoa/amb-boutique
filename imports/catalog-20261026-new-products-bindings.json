@@ -1863,6 +1863,37 @@
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
+    },
+    {
+      "slug": "noctelle-strapless-corset-dress-red",
+      "sourceProductId": "3256806100288235",
+      "sourceColor": "Red",
+      "sourceSkuIdsBySize": {
+        "XS": "12000050338769945",
+        "S": "12000037962243128",
+        "M": "12000037962243129",
+        "L": "12000037962243130"
+      },
+      "stockBySize": {
+        "XS": 389,
+        "S": 390,
+        "M": 388,
+        "L": 395
+      },
+      "landedCostUsdBySize": {
+        "XS": 43.97,
+        "S": 43.97,
+        "M": 43.97,
+        "L": 43.97
+      },
+      "retailPriceUsd": 132.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvlisgr8006e06kx1sma01ru",
+      "verifiedAtUtc": "2026-10-29T04:45:28.155Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }
