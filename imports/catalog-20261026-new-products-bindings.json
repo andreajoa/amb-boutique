@@ -1931,6 +1931,371 @@
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
+    },
+    {
+      "slug": "amara-layered-mesh-skirt-apricot",
+      "sourceProductId": "3256808764754635",
+      "sourceColor": "Apricot",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000047331685117"
+      },
+      "stockBySize": {
+        "One Size": 38
+      },
+      "landedCostUsdBySize": {
+        "One Size": 33.61
+      },
+      "retailPriceUsd": 100.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmt64dcoy01es04jnan3l1tgi",
+      "verifiedAtUtc": "2026-10-29T21:20:42.954Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "amara-layered-mesh-skirt-green",
+      "sourceProductId": "3256808764754635",
+      "sourceColor": "Green",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000047331685116"
+      },
+      "stockBySize": {
+        "One Size": 184
+      },
+      "landedCostUsdBySize": {
+        "One Size": 34.91
+      },
+      "retailPriceUsd": 104.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmt64dcoy01es04jnan3l1tgi",
+      "verifiedAtUtc": "2026-10-29T21:20:42.954Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "marisol-striped-wide-leg-jumpsuit-light-brown",
+      "sourceProductId": "3256812581688557",
+      "sourceColor": "01 Light Brown",
+      "sourceSkuIdsBySize": {
+        "XS": "12000059283807478",
+        "S": "12000059283807472",
+        "M": "12000059283807473",
+        "L": "12000059283807474",
+        "XL": "12000059283807475",
+        "XXL": "12000059283807476",
+        "XXXL": "12000059283807477"
+      },
+      "stockBySize": {
+        "XS": 888,
+        "S": 888,
+        "M": 887,
+        "L": 888,
+        "XL": 888,
+        "XXL": 888,
+        "XXXL": 887
+      },
+      "landedCostUsdBySize": {
+        "XS": 22.62,
+        "S": 22.62,
+        "M": 22.62,
+        "L": 22.62,
+        "XL": 22.62,
+        "XXL": 22.62,
+        "XXXL": 22.62
+      },
+      "retailPriceUsd": 67.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmt64ie1801hp04jnprbt2f0y",
+      "verifiedAtUtc": "2026-10-29T21:20:52.612Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "marisol-striped-wide-leg-jumpsuit-light-blue",
+      "sourceProductId": "3256812581688557",
+      "sourceColor": "02 Light Blue",
+      "sourceSkuIdsBySize": {
+        "XS": "12000059283807485",
+        "S": "12000059283807479",
+        "M": "12000059283807480",
+        "L": "12000059283807481",
+        "XL": "12000059283807482",
+        "XXL": "12000059283807483",
+        "XXXL": "12000059283807484"
+      },
+      "stockBySize": {
+        "XS": 888,
+        "S": 887,
+        "M": 887,
+        "L": 888,
+        "XL": 888,
+        "XXL": 888,
+        "XXXL": 888
+      },
+      "landedCostUsdBySize": {
+        "XS": 22.62,
+        "S": 22.62,
+        "M": 22.62,
+        "L": 22.62,
+        "XL": 22.62,
+        "XXL": 22.62,
+        "XXXL": 22.62
+      },
+      "retailPriceUsd": 67.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmt64ie1801hp04jnprbt2f0y",
+      "verifiedAtUtc": "2026-10-29T21:20:52.612Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "marisol-striped-wide-leg-jumpsuit-pink",
+      "sourceProductId": "3256812581688557",
+      "sourceColor": "04 Pink",
+      "sourceSkuIdsBySize": {
+        "XS": "12000059283807499",
+        "S": "12000059283807493",
+        "M": "12000059283807494",
+        "L": "12000059283807495",
+        "XL": "12000059283807496",
+        "XXL": "12000059283807497",
+        "XXXL": "12000059283807498"
+      },
+      "stockBySize": {
+        "XS": 888,
+        "S": 887,
+        "M": 888,
+        "L": 888,
+        "XL": 888,
+        "XXL": 888,
+        "XXXL": 888
+      },
+      "landedCostUsdBySize": {
+        "XS": 22.62,
+        "S": 22.62,
+        "M": 22.62,
+        "L": 22.62,
+        "XL": 22.62,
+        "XXL": 22.62,
+        "XXXL": 22.62
+      },
+      "retailPriceUsd": 67.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmt64ie1801hp04jnprbt2f0y",
+      "verifiedAtUtc": "2026-10-29T21:20:52.612Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "marisol-striped-wide-leg-jumpsuit-light-green",
+      "sourceProductId": "3256812581688557",
+      "sourceColor": "Light Green",
+      "sourceSkuIdsBySize": {
+        "XS": "12000059283807506",
+        "S": "12000059283807500",
+        "M": "12000059283807501",
+        "L": "12000059283807502",
+        "XL": "12000059283807503",
+        "XXL": "12000059283807504",
+        "XXXL": "12000059283807505"
+      },
+      "stockBySize": {
+        "XS": 888,
+        "S": 888,
+        "M": 888,
+        "L": 887,
+        "XL": 888,
+        "XXL": 888,
+        "XXXL": 887
+      },
+      "landedCostUsdBySize": {
+        "XS": 22.62,
+        "S": 22.62,
+        "M": 22.62,
+        "L": 22.62,
+        "XL": 22.62,
+        "XXL": 22.62,
+        "XXXL": 22.62
+      },
+      "retailPriceUsd": 67.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmt64ie1801hp04jnprbt2f0y",
+      "verifiedAtUtc": "2026-10-29T21:20:52.612Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "marisol-striped-wide-leg-jumpsuit-royal-blue",
+      "sourceProductId": "3256812581688557",
+      "sourceColor": "ROYAL BLUE",
+      "sourceSkuIdsBySize": {
+        "XS": "12000059283807513",
+        "S": "12000059283807507",
+        "M": "12000059283807508",
+        "L": "12000059283807509",
+        "XL": "12000059283807510",
+        "XXL": "12000059283807511",
+        "XXXL": "12000059283807512"
+      },
+      "stockBySize": {
+        "XS": 888,
+        "S": 888,
+        "M": 888,
+        "L": 888,
+        "XL": 888,
+        "XXL": 888,
+        "XXXL": 888
+      },
+      "landedCostUsdBySize": {
+        "XS": 22.62,
+        "S": 22.62,
+        "M": 22.62,
+        "L": 22.62,
+        "XL": 22.62,
+        "XXL": 22.62,
+        "XXXL": 22.62
+      },
+      "retailPriceUsd": 67.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmt64ie1801hp04jnprbt2f0y",
+      "verifiedAtUtc": "2026-10-29T21:20:52.612Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "paloma-tie-side-halter-mini-dress-dark-blue",
+      "sourceProductId": "3256806932704131",
+      "sourceColor": "dark blue",
+      "sourceSkuIdsBySize": {
+        "S": "12000039466024151",
+        "L": "12000039466024153",
+        "XL": "12000039466024154"
+      },
+      "stockBySize": {
+        "S": 1,
+        "L": 1,
+        "XL": 2
+      },
+      "landedCostUsdBySize": {
+        "S": 15.71,
+        "L": 15.98,
+        "XL": 16.88
+      },
+      "retailPriceUsd": 50.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmuqi4knr00gz04lecfxst21o",
+      "verifiedAtUtc": "2026-10-29T21:20:46.358Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "paloma-tie-side-halter-mini-dress-pink",
+      "sourceProductId": "3256806932704131",
+      "sourceColor": "pink",
+      "sourceSkuIdsBySize": {
+        "S": "12000039466024156",
+        "M": "12000039466024157",
+        "L": "12000039466024158",
+        "XL": "12000039466024159",
+        "XXL": "12000039466024160"
+      },
+      "stockBySize": {
+        "S": 2,
+        "M": 1,
+        "L": 2,
+        "XL": 3,
+        "XXL": 3
+      },
+      "landedCostUsdBySize": {
+        "S": 15.94,
+        "M": 15.84,
+        "L": 16.32,
+        "XL": 16.78,
+        "XXL": 17.04
+      },
+      "retailPriceUsd": 51.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmuqi4knr00gz04lecfxst21o",
+      "verifiedAtUtc": "2026-10-29T21:20:46.358Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "paloma-tie-side-halter-mini-dress-red",
+      "sourceProductId": "3256806932704131",
+      "sourceColor": "red",
+      "sourceSkuIdsBySize": {
+        "M": "12000044575831748",
+        "L": "12000044575831749",
+        "XL": "12000044575831750",
+        "XXL": "12000044575831751"
+      },
+      "stockBySize": {
+        "M": 3,
+        "L": 1,
+        "XL": 2,
+        "XXL": 1
+      },
+      "landedCostUsdBySize": {
+        "M": 15.94,
+        "L": 16.32,
+        "XL": 16.48,
+        "XXL": 16.54
+      },
+      "retailPriceUsd": 49.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmuqi4knr00gz04lecfxst21o",
+      "verifiedAtUtc": "2026-10-29T21:20:46.358Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "paloma-tie-side-halter-mini-dress-green",
+      "sourceProductId": "3256806932704131",
+      "sourceColor": "green",
+      "sourceSkuIdsBySize": {
+        "L": "12000039466024168",
+        "XL": "12000039466024169",
+        "XXL": "12000039466024170"
+      },
+      "stockBySize": {
+        "L": 2,
+        "XL": 1,
+        "XXL": 2
+      },
+      "landedCostUsdBySize": {
+        "L": 16.24,
+        "XL": 16.54,
+        "XXL": 17.28
+      },
+      "retailPriceUsd": 51.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmuqi4knr00gz04lecfxst21o",
+      "verifiedAtUtc": "2026-10-29T21:20:46.358Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }
