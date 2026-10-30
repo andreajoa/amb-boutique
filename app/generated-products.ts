@@ -18241,6 +18241,189 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256806932704131",
   "sourceColor": "green"
+},
+{
+  "slug": "liora-twist-back-knit-tank-black",
+  "name": "Liora Twist-Back Knit Tank — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "subcategory": "Knit Tanks",
+  "price": 34.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#20221f"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fine-knit tank with broad shoulder straps, a soft scoop neckline and a deep V back finished with a twisted knit detail.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/liora-twist-back-knit-tank-black/front-20261029.webp",
+    "/products/liora-twist-back-knit-tank-black/back-20261029.webp",
+    "/products/liora-twist-back-knit-tank-black/left-20261029.webp",
+    "/products/liora-twist-back-knit-tank-black/right-20261029.webp"
+  ],
+  "stock": 625,
+  "unitCostUsd": 11.48,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811871148479",
+  "sourceColor": "black"
+},
+{
+  "slug": "liora-twist-back-knit-tank-ivory",
+  "name": "Liora Twist-Back Knit Tank — Ivory",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "subcategory": "Knit Tanks",
+  "price": 33.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e5dcc4"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fine-knit tank with broad shoulder straps, a soft scoop neckline and a deep V back finished with a twisted knit detail.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/liora-twist-back-knit-tank-ivory/front-20261029.webp",
+    "/products/liora-twist-back-knit-tank-ivory/back-20261029.webp",
+    "/products/liora-twist-back-knit-tank-ivory/left-20261029.webp",
+    "/products/liora-twist-back-knit-tank-ivory/right-20261029.webp"
+  ],
+  "stock": 422,
+  "unitCostUsd": 11.24,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811871148479",
+  "sourceColor": "Ivory"
+},
+{
+  "slug": "liora-twist-back-knit-tank-khaki",
+  "name": "Liora Twist-Back Knit Tank — Khaki",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "subcategory": "Knit Tanks",
+  "price": 34.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b9a084"
+  ],
+  "colorNames": [
+    "Khaki"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fine-knit tank with broad shoulder straps, a soft scoop neckline and a deep V back finished with a twisted knit detail.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/liora-twist-back-knit-tank-khaki/front-20261029.webp",
+    "/products/liora-twist-back-knit-tank-khaki/back-20261029.webp",
+    "/products/liora-twist-back-knit-tank-khaki/left-20261029.webp",
+    "/products/liora-twist-back-knit-tank-khaki/right-20261029.webp"
+  ],
+  "stock": 625,
+  "unitCostUsd": 11.32,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811871148479",
+  "sourceColor": "Khaki"
+},
+{
+  "slug": "isadora-gathered-v-neck-midi-dress-white",
+  "name": "Isadora Gathered V-Neck Midi Dress — White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Midi Dresses",
+  "price": 34.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e7e3d1"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "3XL",
+    "4XL"
+  ],
+  "description": "A flowing midi dress with a V neckline, gathered shoulders, long full sleeves with gathered cuffs and a softly gathered high-waist skirt.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/isadora-gathered-v-neck-midi-dress-white/front-20261029.webp",
+    "/products/isadora-gathered-v-neck-midi-dress-white/back-20261029.webp",
+    "/products/isadora-gathered-v-neck-midi-dress-white/left-20261029.webp",
+    "/products/isadora-gathered-v-neck-midi-dress-white/right-20261029.webp"
+  ],
+  "stock": 26,
+  "unitCostUsd": 11.38,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810384374361",
+  "sourceColor": "White"
+},
+{
+  "slug": "isadora-gathered-v-neck-midi-dress-terracotta",
+  "name": "Isadora Gathered V-Neck Midi Dress — Terracotta",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Midi Dresses",
+  "price": 34.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#af4d25"
+  ],
+  "colorNames": [
+    "Terracotta"
+  ],
+  "sizes": [
+    "4XL",
+    "5XL"
+  ],
+  "description": "A flowing midi dress with a V neckline, gathered shoulders, long full sleeves with gathered cuffs and a softly gathered high-waist skirt.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/isadora-gathered-v-neck-midi-dress-terracotta/front-20261029.webp",
+    "/products/isadora-gathered-v-neck-midi-dress-terracotta/back-20261029.webp",
+    "/products/isadora-gathered-v-neck-midi-dress-terracotta/left-20261029.webp",
+    "/products/isadora-gathered-v-neck-midi-dress-terracotta/right-20261029.webp"
+  ],
+  "stock": 58,
+  "unitCostUsd": 11.54,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810384374361",
+  "sourceColor": "Lightbrown"
 }
 ];
 
@@ -18249,6 +18432,12 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "liora-twist-back-knit-tank-black",
+  "liora-twist-back-knit-tank-ivory",
+  "liora-twist-back-knit-tank-khaki",
+  "isadora-gathered-v-neck-midi-dress-white",
+  "isadora-gathered-v-neck-midi-dress-terracotta",
+
   "amara-layered-mesh-skirt-apricot",
   "amara-layered-mesh-skirt-green",
   "marisol-striped-wide-leg-jumpsuit-light-brown",

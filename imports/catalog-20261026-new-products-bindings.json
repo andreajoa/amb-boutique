@@ -2296,6 +2296,140 @@
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
+    },
+    {
+      "slug": "liora-twist-back-knit-tank-black",
+      "sourceProductId": "3256811871148479",
+      "sourceColor": "black",
+      "sourceSkuIdsBySize": {
+        "S": "12000057414074548",
+        "M": "12000057414074549",
+        "L": "12000057414074550"
+      },
+      "stockBySize": {
+        "S": 208,
+        "M": 211,
+        "L": 206
+      },
+      "landedCostUsdBySize": {
+        "S": 10.98,
+        "M": 11.48,
+        "L": 11.32
+      },
+      "retailPriceUsd": 34.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "ambsp-9ce98d7d1e1ec975eff601843997f935",
+      "verifiedAtUtc": "2026-10-30T02:34:00.241Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "liora-twist-back-knit-tank-ivory",
+      "sourceProductId": "3256811871148479",
+      "sourceColor": "Ivory",
+      "sourceSkuIdsBySize": {
+        "S": "12000057414074551",
+        "M": "12000057414074552",
+        "L": "12000057414074553"
+      },
+      "stockBySize": {
+        "S": 4,
+        "M": 211,
+        "L": 207
+      },
+      "landedCostUsdBySize": {
+        "S": 10.81,
+        "M": 11.04,
+        "L": 11.24
+      },
+      "retailPriceUsd": 33.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "ambsp-9ce98d7d1e1ec975eff601843997f935",
+      "verifiedAtUtc": "2026-10-30T02:34:00.241Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "liora-twist-back-knit-tank-khaki",
+      "sourceProductId": "3256811871148479",
+      "sourceColor": "Khaki",
+      "sourceSkuIdsBySize": {
+        "S": "12000057414074554",
+        "M": "12000057414074555",
+        "L": "12000057414074556"
+      },
+      "stockBySize": {
+        "S": 204,
+        "M": 210,
+        "L": 211
+      },
+      "landedCostUsdBySize": {
+        "S": 10.74,
+        "M": 11.32,
+        "L": 11.08
+      },
+      "retailPriceUsd": 34.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "ambsp-9ce98d7d1e1ec975eff601843997f935",
+      "verifiedAtUtc": "2026-10-30T02:34:00.241Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "isadora-gathered-v-neck-midi-dress-white",
+      "sourceProductId": "3256810384374361",
+      "sourceColor": "White",
+      "sourceSkuIdsBySize": {
+        "3XL": "12000052854046782",
+        "4XL": "12000052854046783"
+      },
+      "stockBySize": {
+        "3XL": 14,
+        "4XL": 12
+      },
+      "landedCostUsdBySize": {
+        "3XL": 11.38,
+        "4XL": 11.04
+      },
+      "retailPriceUsd": 34.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "ambsp-179ed3cc2490a899f679e969a9b4caad",
+      "verifiedAtUtc": "2026-10-30T02:33:55.445Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "isadora-gathered-v-neck-midi-dress-terracotta",
+      "sourceProductId": "3256810384374361",
+      "sourceColor": "Lightbrown",
+      "sourceSkuIdsBySize": {
+        "4XL": "12000052854046787",
+        "5XL": "12000052854046788"
+      },
+      "stockBySize": {
+        "4XL": 33,
+        "5XL": 25
+      },
+      "landedCostUsdBySize": {
+        "4XL": 11.54,
+        "5XL": 10.84
+      },
+      "retailPriceUsd": 34.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "ambsp-179ed3cc2490a899f679e969a9b4caad",
+      "verifiedAtUtc": "2026-10-30T02:33:55.445Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }
