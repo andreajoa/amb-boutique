@@ -17815,6 +17815,432 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256812510653544",
   "sourceColor": "MBWXLYQ26794259"
+},
+{
+  "slug": "amara-layered-mesh-skirt-apricot",
+  "name": "Amara Layered Mesh Skirt — Apricot",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Skirts",
+  "subcategory": "Layered Skirts",
+  "price": 100.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e7ddc4"
+  ],
+  "colorNames": [
+    "Apricot"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "An airy layered mesh skirt with a gathered elastic waistband, overlapping handkerchief panels and an irregular pointed hem.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/amara-layered-mesh-skirt-apricot/front-20261029.webp",
+    "/products/amara-layered-mesh-skirt-apricot/back-20261029.webp",
+    "/products/amara-layered-mesh-skirt-apricot/left-20261029.webp",
+    "/products/amara-layered-mesh-skirt-apricot/right-20261029.webp"
+  ],
+  "stock": 38,
+  "unitCostUsd": 33.61,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808764754635",
+  "sourceColor": "Apricot"
+},
+{
+  "slug": "amara-layered-mesh-skirt-green",
+  "name": "Amara Layered Mesh Skirt — Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Skirts",
+  "subcategory": "Layered Skirts",
+  "price": 104.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b8c6a8"
+  ],
+  "colorNames": [
+    "Green"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "An airy layered mesh skirt with a gathered elastic waistband, overlapping handkerchief panels and an irregular pointed hem.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/amara-layered-mesh-skirt-green/front-20261029.webp",
+    "/products/amara-layered-mesh-skirt-green/back-20261029.webp",
+    "/products/amara-layered-mesh-skirt-green/left-20261029.webp",
+    "/products/amara-layered-mesh-skirt-green/right-20261029.webp"
+  ],
+  "stock": 184,
+  "unitCostUsd": 34.91,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808764754635",
+  "sourceColor": "Green"
+},
+{
+  "slug": "marisol-striped-wide-leg-jumpsuit-light-brown",
+  "name": "Marisol Off-Shoulder Wide-Leg Jumpsuit — Light Brown",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Playsuits",
+  "subcategory": "Jumpsuits",
+  "price": 67.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#ab927b"
+  ],
+  "colorNames": [
+    "Light Brown"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A relaxed striped jumpsuit with an elastic off-shoulder neckline, puffed three-quarter sleeves and two wide, open legs.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/marisol-striped-wide-leg-jumpsuit-light-brown/front-20261029.webp",
+    "/products/marisol-striped-wide-leg-jumpsuit-light-brown/back-20261029.webp",
+    "/products/marisol-striped-wide-leg-jumpsuit-light-brown/left-20261029.webp",
+    "/products/marisol-striped-wide-leg-jumpsuit-light-brown/right-20261029.webp"
+  ],
+  "stock": 6214,
+  "unitCostUsd": 22.62,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812581688557",
+  "sourceColor": "01 Light Brown"
+},
+{
+  "slug": "marisol-striped-wide-leg-jumpsuit-light-blue",
+  "name": "Marisol Off-Shoulder Wide-Leg Jumpsuit — Light Blue",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Playsuits",
+  "subcategory": "Jumpsuits",
+  "price": 67.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#9dabb2"
+  ],
+  "colorNames": [
+    "Light Blue"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A relaxed striped jumpsuit with an elastic off-shoulder neckline, puffed three-quarter sleeves and two wide, open legs.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/marisol-striped-wide-leg-jumpsuit-light-blue/front-20261029.webp",
+    "/products/marisol-striped-wide-leg-jumpsuit-light-blue/back-20261029.webp",
+    "/products/marisol-striped-wide-leg-jumpsuit-light-blue/left-20261029.webp",
+    "/products/marisol-striped-wide-leg-jumpsuit-light-blue/right-20261029.webp"
+  ],
+  "stock": 6214,
+  "unitCostUsd": 22.62,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812581688557",
+  "sourceColor": "02 Light Blue"
+},
+{
+  "slug": "marisol-striped-wide-leg-jumpsuit-pink",
+  "name": "Marisol Off-Shoulder Wide-Leg Jumpsuit — Pink",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Playsuits",
+  "subcategory": "Jumpsuits",
+  "price": 67.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c69b9f"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A relaxed striped jumpsuit with an elastic off-shoulder neckline, puffed three-quarter sleeves and two wide, open legs.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/marisol-striped-wide-leg-jumpsuit-pink/front-20261029.webp",
+    "/products/marisol-striped-wide-leg-jumpsuit-pink/back-20261029.webp",
+    "/products/marisol-striped-wide-leg-jumpsuit-pink/left-20261029.webp",
+    "/products/marisol-striped-wide-leg-jumpsuit-pink/right-20261029.webp"
+  ],
+  "stock": 6215,
+  "unitCostUsd": 22.62,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812581688557",
+  "sourceColor": "04 Pink"
+},
+{
+  "slug": "marisol-striped-wide-leg-jumpsuit-light-green",
+  "name": "Marisol Off-Shoulder Wide-Leg Jumpsuit — Light Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Playsuits",
+  "subcategory": "Jumpsuits",
+  "price": 67.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#97a99b"
+  ],
+  "colorNames": [
+    "Light Green"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A relaxed striped jumpsuit with an elastic off-shoulder neckline, puffed three-quarter sleeves and two wide, open legs.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/marisol-striped-wide-leg-jumpsuit-light-green/front-20261029.webp",
+    "/products/marisol-striped-wide-leg-jumpsuit-light-green/back-20261029.webp",
+    "/products/marisol-striped-wide-leg-jumpsuit-light-green/left-20261029.webp",
+    "/products/marisol-striped-wide-leg-jumpsuit-light-green/right-20261029.webp"
+  ],
+  "stock": 6214,
+  "unitCostUsd": 22.62,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812581688557",
+  "sourceColor": "Light Green"
+},
+{
+  "slug": "marisol-striped-wide-leg-jumpsuit-royal-blue",
+  "name": "Marisol Off-Shoulder Wide-Leg Jumpsuit — Royal Blue",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Playsuits",
+  "subcategory": "Jumpsuits",
+  "price": 67.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#688094"
+  ],
+  "colorNames": [
+    "Royal Blue"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A relaxed striped jumpsuit with an elastic off-shoulder neckline, puffed three-quarter sleeves and two wide, open legs.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/marisol-striped-wide-leg-jumpsuit-royal-blue/front-20261029.webp",
+    "/products/marisol-striped-wide-leg-jumpsuit-royal-blue/back-20261029.webp",
+    "/products/marisol-striped-wide-leg-jumpsuit-royal-blue/left-20261029.webp",
+    "/products/marisol-striped-wide-leg-jumpsuit-royal-blue/right-20261029.webp"
+  ],
+  "stock": 6216,
+  "unitCostUsd": 22.62,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812581688557",
+  "sourceColor": "ROYAL BLUE"
+},
+{
+  "slug": "paloma-tie-side-halter-mini-dress-dark-blue",
+  "name": "Paloma Tie-Side Halter Mini Dress — Dark Blue",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 50.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#243752"
+  ],
+  "colorNames": [
+    "Dark Blue"
+  ],
+  "sizes": [
+    "S",
+    "L",
+    "XL"
+  ],
+  "description": "A patterned halter mini dress with a gathered neckline, a fitted silhouette and a diagonal waist drape tied at one side.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/paloma-tie-side-halter-mini-dress-dark-blue/front-20261029.webp",
+    "/products/paloma-tie-side-halter-mini-dress-dark-blue/back-20261029.webp",
+    "/products/paloma-tie-side-halter-mini-dress-dark-blue/left-20261029.webp",
+    "/products/paloma-tie-side-halter-mini-dress-dark-blue/right-20261029.webp"
+  ],
+  "stock": 4,
+  "unitCostUsd": 16.88,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806932704131",
+  "sourceColor": "dark blue"
+},
+{
+  "slug": "paloma-tie-side-halter-mini-dress-pink",
+  "name": "Paloma Tie-Side Halter Mini Dress — Pink",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 51.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d87494"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A patterned halter mini dress with a gathered neckline, a fitted silhouette and a diagonal waist drape tied at one side.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/paloma-tie-side-halter-mini-dress-pink/front-20261029.webp",
+    "/products/paloma-tie-side-halter-mini-dress-pink/back-20261029.webp",
+    "/products/paloma-tie-side-halter-mini-dress-pink/left-20261029.webp",
+    "/products/paloma-tie-side-halter-mini-dress-pink/right-20261029.webp"
+  ],
+  "stock": 11,
+  "unitCostUsd": 17.04,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806932704131",
+  "sourceColor": "pink"
+},
+{
+  "slug": "paloma-tie-side-halter-mini-dress-red",
+  "name": "Paloma Tie-Side Halter Mini Dress — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 49.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#be2436"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A patterned halter mini dress with a gathered neckline, a fitted silhouette and a diagonal waist drape tied at one side.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/paloma-tie-side-halter-mini-dress-red/front-20261029.webp",
+    "/products/paloma-tie-side-halter-mini-dress-red/back-20261029.webp",
+    "/products/paloma-tie-side-halter-mini-dress-red/left-20261029.webp",
+    "/products/paloma-tie-side-halter-mini-dress-red/right-20261029.webp"
+  ],
+  "stock": 7,
+  "unitCostUsd": 16.54,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806932704131",
+  "sourceColor": "red"
+},
+{
+  "slug": "paloma-tie-side-halter-mini-dress-green",
+  "name": "Paloma Tie-Side Halter Mini Dress — Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 51.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#559d65"
+  ],
+  "colorNames": [
+    "Green"
+  ],
+  "sizes": [
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A patterned halter mini dress with a gathered neckline, a fitted silhouette and a diagonal waist drape tied at one side.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/paloma-tie-side-halter-mini-dress-green/front-20261029.webp",
+    "/products/paloma-tie-side-halter-mini-dress-green/back-20261029.webp",
+    "/products/paloma-tie-side-halter-mini-dress-green/left-20261029.webp",
+    "/products/paloma-tie-side-halter-mini-dress-green/right-20261029.webp"
+  ],
+  "stock": 5,
+  "unitCostUsd": 17.28,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806932704131",
+  "sourceColor": "green"
 }
 ];
 
@@ -17823,6 +18249,18 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "amara-layered-mesh-skirt-apricot",
+  "amara-layered-mesh-skirt-green",
+  "marisol-striped-wide-leg-jumpsuit-light-brown",
+  "marisol-striped-wide-leg-jumpsuit-light-blue",
+  "marisol-striped-wide-leg-jumpsuit-pink",
+  "marisol-striped-wide-leg-jumpsuit-light-green",
+  "marisol-striped-wide-leg-jumpsuit-royal-blue",
+  "paloma-tie-side-halter-mini-dress-dark-blue",
+  "paloma-tie-side-halter-mini-dress-pink",
+  "paloma-tie-side-halter-mini-dress-red",
+  "paloma-tie-side-halter-mini-dress-green",
+
   "rubina-angular-swing-dress",
   "noctelle-strapless-corset-dress-red",
   "verdelle-contrast-corset-top-khaki",

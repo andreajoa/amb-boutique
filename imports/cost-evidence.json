@@ -41,6 +41,14 @@
    "landedCostUsd": 19.52,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
   },
+  "amara-layered-mesh-skirt-apricot": {
+   "landedCostUsd": 33.61,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "amara-layered-mesh-skirt-green": {
+   "landedCostUsd": 34.91,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
   "amara-midi-dress": {
    "landedCostUsd": 32.29,
    "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256808122208834|purple, 2026-10-25T03:01:56.897Z) · identidade confirmada"
@@ -657,6 +665,26 @@
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
   },
+  "marisol-striped-wide-leg-jumpsuit-light-blue": {
+   "landedCostUsd": 22.62,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "marisol-striped-wide-leg-jumpsuit-light-brown": {
+   "landedCostUsd": 22.62,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "marisol-striped-wide-leg-jumpsuit-light-green": {
+   "landedCostUsd": 22.62,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "marisol-striped-wide-leg-jumpsuit-pink": {
+   "landedCostUsd": 22.62,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "marisol-striped-wide-leg-jumpsuit-royal-blue": {
+   "landedCostUsd": 22.62,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
   "mimosa-vneck-print-midi-dress": {
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -868,6 +896,22 @@
   "palma-linen-romper": {
    "landedCostUsd": 28.37,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "paloma-tie-side-halter-mini-dress-dark-blue": {
+   "landedCostUsd": 16.88,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "paloma-tie-side-halter-mini-dress-green": {
+   "landedCostUsd": 17.28,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "paloma-tie-side-halter-mini-dress-pink": {
+   "landedCostUsd": 17.04,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "paloma-tie-side-halter-mini-dress-red": {
+   "landedCostUsd": 16.54,
+   "source": "catalog-20261026-new-products-bindings.json"
   },
   "pascale-black-satin-midi-dress": {
    "landedCostUsd": 22.04,
