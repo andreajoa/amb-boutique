@@ -9089,7 +9089,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "veloria-sequin-gown-gold",
-  "name": "Veloria Sequin Gown \u2014 Gold",
+  "name": "Veloria Sequin Gown — Gold",
   "vendor": "AMB BOUTIQUE",
   "category": "Dresses",
   "price": 227.9,
@@ -9129,7 +9129,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "veloria-sequin-gown-wine",
-  "name": "Veloria Sequin Gown \u2014 Wine",
+  "name": "Veloria Sequin Gown — Wine",
   "vendor": "AMB BOUTIQUE",
   "category": "Dresses",
   "price": 227.9,
@@ -9169,7 +9169,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "veloria-sequin-gown-plum",
-  "name": "Veloria Sequin Gown \u2014 Plum",
+  "name": "Veloria Sequin Gown — Plum",
   "vendor": "AMB BOUTIQUE",
   "category": "Dresses",
   "price": 227.9,
@@ -9209,7 +9209,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "althea-sculptural-set-ivory",
-  "name": "Althea Sculptural Set \u2014 Ivory",
+  "name": "Althea Sculptural Set — Ivory",
   "vendor": "AMB BOUTIQUE",
   "category": "Sets",
   "price": 169.9,
@@ -9247,7 +9247,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "althea-sculptural-set-black",
-  "name": "Althea Sculptural Set \u2014 Black",
+  "name": "Althea Sculptural Set — Black",
   "vendor": "AMB BOUTIQUE",
   "category": "Sets",
   "price": 169.9,
@@ -9285,7 +9285,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "valeska-striped-sequin-gown-prismatic",
-  "name": "Valeska Striped Sequin Gown \u2014 Prismatic",
+  "name": "Valeska Striped Sequin Gown — Prismatic",
   "vendor": "AMB BOUTIQUE",
   "category": "Dresses",
   "price": 348.9,
@@ -9322,7 +9322,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "valeska-striped-sequin-gown-black-gold",
-  "name": "Valeska Striped Sequin Gown \u2014 Black Gold",
+  "name": "Valeska Striped Sequin Gown — Black Gold",
   "vendor": "AMB BOUTIQUE",
   "category": "Dresses",
   "price": 348.9,
@@ -17707,7 +17707,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "verdelle-contrast-corset-top-khaki",
-  "name": "Verdelle Contrast Corset Top \u2014 Khaki",
+  "name": "Verdelle Contrast Corset Top — Khaki",
   "vendor": "AMB BOUTIQUE",
   "category": "Tops",
   "subcategory": "Corset Tops",
@@ -18272,8 +18272,8 @@ const allGeneratedProducts: Product[] = [
     "/products/liora-twist-back-knit-tank-black/left-20261029.webp",
     "/products/liora-twist-back-knit-tank-black/right-20261029.webp"
   ],
-  "stock": 625,
-  "unitCostUsd": 11.48,
+  "stock": 624,
+  "unitCostUsd": 11.44,
   "minimumMarginPercent": 40,
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256811871148479",
@@ -18309,7 +18309,7 @@ const allGeneratedProducts: Product[] = [
     "/products/liora-twist-back-knit-tank-ivory/left-20261029.webp",
     "/products/liora-twist-back-knit-tank-ivory/right-20261029.webp"
   ],
-  "stock": 422,
+  "stock": 417,
   "unitCostUsd": 11.24,
   "minimumMarginPercent": 40,
   "minimumCostMultiplier": 3,
@@ -18346,7 +18346,7 @@ const allGeneratedProducts: Product[] = [
     "/products/liora-twist-back-knit-tank-khaki/left-20261029.webp",
     "/products/liora-twist-back-knit-tank-khaki/right-20261029.webp"
   ],
-  "stock": 625,
+  "stock": 621,
   "unitCostUsd": 11.32,
   "minimumMarginPercent": 40,
   "minimumCostMultiplier": 3,
@@ -18383,7 +18383,7 @@ const allGeneratedProducts: Product[] = [
     "/products/isadora-gathered-v-neck-midi-dress-white/right-20261029.webp"
   ],
   "stock": 26,
-  "unitCostUsd": 11.38,
+  "unitCostUsd": 11.58,
   "minimumMarginPercent": 40,
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256810384374361",
@@ -18395,7 +18395,7 @@ const allGeneratedProducts: Product[] = [
   "vendor": "AMB BOUTIQUE",
   "category": "Dresses",
   "subcategory": "Midi Dresses",
-  "price": 34.9,
+  "price": 35.9,
   "badge": "Just In",
   "sheet": "one",
   "quadrant": 1,
@@ -18419,7 +18419,7 @@ const allGeneratedProducts: Product[] = [
     "/products/isadora-gathered-v-neck-midi-dress-terracotta/right-20261029.webp"
   ],
   "stock": 58,
-  "unitCostUsd": 11.54,
+  "unitCostUsd": 11.74,
   "minimumMarginPercent": 40,
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256810384374361",

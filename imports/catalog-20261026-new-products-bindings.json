@@ -13,17 +13,17 @@
       "sourceSkuIdsBySize": {
         "S": "12000026528747661",
         "M": "12000026528747662",
-        "XS（old）": "12000028425709487"
+        "XS\uff08old\uff09": "12000028425709487"
       },
       "stockBySize": {
         "S": 6,
         "M": 7,
-        "XS（old）": 16
+        "XS\uff08old\uff09": 16
       },
       "landedCostUsdBySize": {
         "S": 28.55,
         "M": 28.55,
-        "XS（old）": 28.55
+        "XS\uff08old\uff09": 28.55
       },
       "retailPriceUsd": 85.9,
       "minimumMultiplier": 3,
@@ -261,21 +261,21 @@
         "M": "12000026528747658",
         "L": "12000026528747659",
         "XL": "12000026528747660",
-        "XS（old）": "12000028425709486"
+        "XS\uff08old\uff09": "12000028425709486"
       },
       "stockBySize": {
         "S": 495,
         "M": 12,
         "L": 6,
         "XL": 4,
-        "XS（old）": 4
+        "XS\uff08old\uff09": 4
       },
       "landedCostUsdBySize": {
         "S": 28.55,
         "M": 28.55,
         "L": 28.55,
         "XL": 28.55,
-        "XS（old）": 28.55
+        "XS\uff08old\uff09": 28.55
       },
       "retailPriceUsd": 85.9,
       "minimumMultiplier": 3,
@@ -295,21 +295,21 @@
         "M": "12000035398305241",
         "L": "12000035398305242",
         "XL": "12000035398305243",
-        "XS（old）": "12000035398305239"
+        "XS\uff08old\uff09": "12000035398305239"
       },
       "stockBySize": {
         "S": 14,
         "M": 10,
         "L": 30,
         "XL": 4,
-        "XS（old）": 10
+        "XS\uff08old\uff09": 10
       },
       "landedCostUsdBySize": {
         "S": 28.55,
         "M": 28.55,
         "L": 28.55,
         "XL": 28.55,
-        "XS（old）": 28.55
+        "XS\uff08old\uff09": 28.55
       },
       "retailPriceUsd": 85.9,
       "minimumMultiplier": 3,
@@ -329,21 +329,21 @@
         "M": "12000028425709492",
         "L": "12000028425709493",
         "XL": "12000028425709494",
-        "XS（old）": "12000028425709490"
+        "XS\uff08old\uff09": "12000028425709490"
       },
       "stockBySize": {
         "S": 20,
         "M": 34,
         "L": 12,
         "XL": 30,
-        "XS（old）": 10
+        "XS\uff08old\uff09": 10
       },
       "landedCostUsdBySize": {
         "S": 28.55,
         "M": 28.55,
         "L": 28.55,
         "XL": 28.55,
-        "XS（old）": 28.55
+        "XS\uff08old\uff09": 28.55
       },
       "retailPriceUsd": 85.9,
       "minimumMultiplier": 3,
@@ -359,13 +359,13 @@
       "sourceProductId": "3256803434858469",
       "sourceColor": "Red",
       "sourceSkuIdsBySize": {
-        "XS（old）": "12000028425709488"
+        "XS\uff08old\uff09": "12000028425709488"
       },
       "stockBySize": {
-        "XS（old）": 40
+        "XS\uff08old\uff09": 40
       },
       "landedCostUsdBySize": {
-        "XS（old）": 28.55
+        "XS\uff08old\uff09": 28.55
       },
       "retailPriceUsd": 85.9,
       "minimumMultiplier": 3,
@@ -1627,19 +1627,19 @@
       "sourceProductId": "3256806080098736",
       "sourceColor": "GRAY",
       "sourceSkuIdsBySize": {
-        "XS（old）": "12000057411362865",
+        "XS\uff08old\uff09": "12000057411362865",
         "S": "12000057411362861",
         "M": "12000057411362862",
         "L": "12000057411362863"
       },
       "stockBySize": {
-        "XS（old）": 5,
+        "XS\uff08old\uff09": 5,
         "S": 5,
         "M": 5,
         "L": 5
       },
       "landedCostUsdBySize": {
-        "XS（old）": 44.14,
+        "XS\uff08old\uff09": 44.14,
         "S": 44.14,
         "M": 44.14,
         "L": 44.14
@@ -2307,20 +2307,20 @@
         "L": "12000057414074550"
       },
       "stockBySize": {
-        "S": 208,
+        "S": 207,
         "M": 211,
         "L": 206
       },
       "landedCostUsdBySize": {
-        "S": 10.98,
-        "M": 11.48,
+        "S": 10.94,
+        "M": 11.44,
         "L": 11.32
       },
       "retailPriceUsd": 34.9,
       "minimumMultiplier": 3,
       "priceEnding": ".90 rounded upward",
       "supplierId": "ambsp-9ce98d7d1e1ec975eff601843997f935",
-      "verifiedAtUtc": "2026-10-30T02:34:00.241Z",
+      "verifiedAtUtc": "2026-11-12T02:21:54.466Z",
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
@@ -2335,20 +2335,20 @@
         "L": "12000057414074553"
       },
       "stockBySize": {
-        "S": 4,
-        "M": 211,
-        "L": 207
+        "S": 3,
+        "M": 209,
+        "L": 205
       },
       "landedCostUsdBySize": {
-        "S": 10.81,
-        "M": 11.04,
+        "S": 10.78,
+        "M": 11.01,
         "L": 11.24
       },
       "retailPriceUsd": 33.9,
       "minimumMultiplier": 3,
       "priceEnding": ".90 rounded upward",
       "supplierId": "ambsp-9ce98d7d1e1ec975eff601843997f935",
-      "verifiedAtUtc": "2026-10-30T02:34:00.241Z",
+      "verifiedAtUtc": "2026-11-12T02:21:54.466Z",
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
@@ -2364,19 +2364,19 @@
       },
       "stockBySize": {
         "S": 204,
-        "M": 210,
-        "L": 211
+        "M": 208,
+        "L": 209
       },
       "landedCostUsdBySize": {
-        "S": 10.74,
+        "S": 10.68,
         "M": 11.32,
-        "L": 11.08
+        "L": 11.04
       },
       "retailPriceUsd": 34.9,
       "minimumMultiplier": 3,
       "priceEnding": ".90 rounded upward",
       "supplierId": "ambsp-9ce98d7d1e1ec975eff601843997f935",
-      "verifiedAtUtc": "2026-10-30T02:34:00.241Z",
+      "verifiedAtUtc": "2026-11-12T02:21:54.466Z",
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
@@ -2394,14 +2394,14 @@
         "4XL": 12
       },
       "landedCostUsdBySize": {
-        "3XL": 11.38,
-        "4XL": 11.04
+        "3XL": 11.58,
+        "4XL": 11.18
       },
       "retailPriceUsd": 34.9,
       "minimumMultiplier": 3,
       "priceEnding": ".90 rounded upward",
       "supplierId": "ambsp-179ed3cc2490a899f679e969a9b4caad",
-      "verifiedAtUtc": "2026-10-30T02:33:55.445Z",
+      "verifiedAtUtc": "2026-11-12T02:21:49.885Z",
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
@@ -2419,14 +2419,14 @@
         "5XL": 25
       },
       "landedCostUsdBySize": {
-        "4XL": 11.54,
-        "5XL": 10.84
+        "4XL": 11.74,
+        "5XL": 10.98
       },
-      "retailPriceUsd": 34.9,
+      "retailPriceUsd": 35.9,
       "minimumMultiplier": 3,
       "priceEnding": ".90 rounded upward",
       "supplierId": "ambsp-179ed3cc2490a899f679e969a9b4caad",
-      "verifiedAtUtc": "2026-10-30T02:33:55.445Z",
+      "verifiedAtUtc": "2026-11-12T02:21:49.885Z",
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
