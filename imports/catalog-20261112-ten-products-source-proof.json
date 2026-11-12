@@ -1,0 +1,1482 @@
+{
+  "capturedAt": "2026-11-12T15:19:22.205Z",
+  "purpose": "Official readonly US/USD evidence for five Nerelle products and refreshed Liora/Isadora per-size costs",
+  "quotes": [
+    {
+      "ok": true,
+      "dryRun": true,
+      "persisted": false,
+      "supplierId": "cmvr79qxh003s08l9eatt3wwz",
+      "sourceProductId": "3256803997860484",
+      "requestedProductId": "3256803997860484",
+      "resolvedProductId": "3256803997860484",
+      "operationalProvider": "ALIEXPRESS_OPEN_PLATFORM",
+      "refreshedAt": "2026-11-12T15:19:22.205Z",
+      "variants": 25,
+      "quotedSkus": [
+        {
+          "sourceSkuId": "12000028313744179",
+          "name": "Color: Pink \u00b7 Size: S",
+          "attributes": {
+            "Color": "Pink",
+            "Size": "S"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:100014064;14:1052",
+          "stock": 5,
+          "available": true,
+          "itemPrice": 5.93,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 5.93,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 7.92,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 23.76,
+          "suggestedRetail3x90": 23.9
+        },
+        {
+          "sourceSkuId": "12000028313744178",
+          "name": "Color: WHITE \u00b7 Size: XXL",
+          "attributes": {
+            "Color": "WHITE",
+            "Size": "XXL"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:4182;14:29",
+          "stock": 3,
+          "available": true,
+          "itemPrice": 6.67,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.67,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.66,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 25.98,
+          "suggestedRetail3x90": 26.9
+        },
+        {
+          "sourceSkuId": "12000028313744177",
+          "name": "Color: WHITE \u00b7 Size: XL",
+          "attributes": {
+            "Color": "WHITE",
+            "Size": "XL"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:100014065;14:29",
+          "stock": 5,
+          "available": true,
+          "itemPrice": 6.27,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.27,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.26,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 24.78,
+          "suggestedRetail3x90": 24.9
+        },
+        {
+          "sourceSkuId": "12000028313744176",
+          "name": "Color: WHITE \u00b7 Size: L",
+          "attributes": {
+            "Color": "WHITE",
+            "Size": "L"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361385;14:29",
+          "stock": 5,
+          "available": true,
+          "itemPrice": 6.08,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.08,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.07,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 24.21,
+          "suggestedRetail3x90": 24.9
+        },
+        {
+          "sourceSkuId": "12000028313744183",
+          "name": "Color: Pink \u00b7 Size: XXL",
+          "attributes": {
+            "Color": "Pink",
+            "Size": "XXL"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:4182;14:1052",
+          "stock": 5,
+          "available": true,
+          "itemPrice": 6.52,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.52,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.51,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 25.53,
+          "suggestedRetail3x90": 25.9
+        },
+        {
+          "sourceSkuId": "12000028313744182",
+          "name": "Color: Pink \u00b7 Size: XL",
+          "attributes": {
+            "Color": "Pink",
+            "Size": "XL"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:100014065;14:1052",
+          "stock": 2,
+          "available": true,
+          "itemPrice": 6.47,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.47,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.46,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 25.38,
+          "suggestedRetail3x90": 25.9
+        },
+        {
+          "sourceSkuId": "12000028313744181",
+          "name": "Color: Pink \u00b7 Size: L",
+          "attributes": {
+            "Color": "Pink",
+            "Size": "L"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361385;14:1052",
+          "stock": 5,
+          "available": true,
+          "itemPrice": 6.18,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.18,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.17,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 24.51,
+          "suggestedRetail3x90": 24.9
+        },
+        {
+          "sourceSkuId": "12000028313744180",
+          "name": "Color: Pink \u00b7 Size: M",
+          "attributes": {
+            "Color": "Pink",
+            "Size": "M"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361386;14:1052",
+          "stock": 3,
+          "available": true,
+          "itemPrice": 6.08,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.08,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.07,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 24.21,
+          "suggestedRetail3x90": 24.9
+        },
+        {
+          "sourceSkuId": "12000028313744191",
+          "name": "Color: Red \u00b7 Size: L",
+          "attributes": {
+            "Color": "Red",
+            "Size": "L"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361385;14:10",
+          "stock": 5,
+          "available": true,
+          "itemPrice": 6.42,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.42,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.41,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 25.23,
+          "suggestedRetail3x90": 25.9
+        },
+        {
+          "sourceSkuId": "12000028313744190",
+          "name": "Color: Red \u00b7 Size: M",
+          "attributes": {
+            "Color": "Red",
+            "Size": "M"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361386;14:10",
+          "stock": 5,
+          "available": true,
+          "itemPrice": 6.03,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.03,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.02,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 24.06,
+          "suggestedRetail3x90": 24.9
+        },
+        {
+          "sourceSkuId": "12000028313744189",
+          "name": "Color: Red \u00b7 Size: S",
+          "attributes": {
+            "Color": "Red",
+            "Size": "S"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:100014064;14:10",
+          "stock": 3,
+          "available": true,
+          "itemPrice": 5.67,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 5.67,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 7.66,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 22.98,
+          "suggestedRetail3x90": 23.9
+        },
+        {
+          "sourceSkuId": "12000028313744175",
+          "name": "Color: WHITE \u00b7 Size: M",
+          "attributes": {
+            "Color": "WHITE",
+            "Size": "M"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361386;14:29",
+          "stock": 1,
+          "available": true,
+          "itemPrice": 5.93,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 5.93,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 7.92,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 23.76,
+          "suggestedRetail3x90": 23.9
+        },
+        {
+          "sourceSkuId": "12000028313744174",
+          "name": "Color: WHITE \u00b7 Size: S",
+          "attributes": {
+            "Color": "WHITE",
+            "Size": "S"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:100014064;14:29",
+          "stock": 5,
+          "available": true,
+          "itemPrice": 5.9,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 5.9,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 7.89,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 23.67,
+          "suggestedRetail3x90": 23.9
+        },
+        {
+          "sourceSkuId": "12000028313744211",
+          "name": "Color: Blue \u00b7 Size: L",
+          "attributes": {
+            "Color": "Blue",
+            "Size": "L"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361385;14:173",
+          "stock": 4,
+          "available": true,
+          "itemPrice": 6.46,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.46,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.45,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 25.35,
+          "suggestedRetail3x90": 25.9
+        },
+        {
+          "sourceSkuId": "12000028313744210",
+          "name": "Color: Blue \u00b7 Size: M",
+          "attributes": {
+            "Color": "Blue",
+            "Size": "M"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361386;14:173",
+          "stock": 5,
+          "available": true,
+          "itemPrice": 6.27,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.27,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.26,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 24.78,
+          "suggestedRetail3x90": 24.9
+        },
+        {
+          "sourceSkuId": "12000028313744209",
+          "name": "Color: Blue \u00b7 Size: S",
+          "attributes": {
+            "Color": "Blue",
+            "Size": "S"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:100014064;14:173",
+          "stock": 5,
+          "available": true,
+          "itemPrice": 6.44,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.44,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.43,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 25.29,
+          "suggestedRetail3x90": 25.9
+        },
+        {
+          "sourceSkuId": "12000028313744208",
+          "name": "Color: black \u00b7 Size: XXL",
+          "attributes": {
+            "Color": "black",
+            "Size": "XXL"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:4182;14:193",
+          "stock": 3,
+          "available": true,
+          "itemPrice": 7.09,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 7.09,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 9.08,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 27.24,
+          "suggestedRetail3x90": 27.9
+        },
+        {
+          "sourceSkuId": "12000028313744213",
+          "name": "Color: Blue \u00b7 Size: XXL",
+          "attributes": {
+            "Color": "Blue",
+            "Size": "XXL"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:4182;14:173",
+          "stock": 1,
+          "available": true,
+          "itemPrice": 6.21,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.21,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.2,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 24.6,
+          "suggestedRetail3x90": 24.9
+        },
+        {
+          "sourceSkuId": "12000028313744212",
+          "name": "Color: Blue \u00b7 Size: XL",
+          "attributes": {
+            "Color": "Blue",
+            "Size": "XL"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:100014065;14:173",
+          "stock": 5,
+          "available": true,
+          "itemPrice": 6.61,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.61,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.6,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 25.8,
+          "suggestedRetail3x90": 25.9
+        },
+        {
+          "sourceSkuId": "12000028313744193",
+          "name": "Color: Red \u00b7 Size: XXL",
+          "attributes": {
+            "Color": "Red",
+            "Size": "XXL"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:4182;14:10",
+          "stock": 4,
+          "available": true,
+          "itemPrice": 6.42,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.42,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.41,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 25.23,
+          "suggestedRetail3x90": 25.9
+        },
+        {
+          "sourceSkuId": "12000028313744192",
+          "name": "Color: Red \u00b7 Size: XL",
+          "attributes": {
+            "Color": "Red",
+            "Size": "XL"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:100014065;14:10",
+          "stock": 3,
+          "available": true,
+          "itemPrice": 6.18,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.18,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.17,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 24.51,
+          "suggestedRetail3x90": 24.9
+        },
+        {
+          "sourceSkuId": "12000028313744207",
+          "name": "Color: black \u00b7 Size: XL",
+          "attributes": {
+            "Color": "black",
+            "Size": "XL"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:100014065;14:193",
+          "stock": 2,
+          "available": true,
+          "itemPrice": 6.34,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.34,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.33,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 24.99,
+          "suggestedRetail3x90": 25.9
+        },
+        {
+          "sourceSkuId": "12000028313744206",
+          "name": "Color: black \u00b7 Size: L",
+          "attributes": {
+            "Color": "black",
+            "Size": "L"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361385;14:193",
+          "stock": 3,
+          "available": true,
+          "itemPrice": 6.06,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.06,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.05,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 24.15,
+          "suggestedRetail3x90": 24.9
+        },
+        {
+          "sourceSkuId": "12000028313744205",
+          "name": "Color: black \u00b7 Size: M",
+          "attributes": {
+            "Color": "black",
+            "Size": "M"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361386;14:193",
+          "stock": 1,
+          "available": true,
+          "itemPrice": 6.1,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.1,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.09,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 24.27,
+          "suggestedRetail3x90": 24.9
+        },
+        {
+          "sourceSkuId": "12000028313744204",
+          "name": "Color: black \u00b7 Size: S",
+          "attributes": {
+            "Color": "black",
+            "Size": "S"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:100014064;14:193",
+          "stock": 5,
+          "available": true,
+          "itemPrice": 6.16,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 6.16,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 8.15,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:19:22.205Z",
+          "minimumRetail3x": 24.45,
+          "suggestedRetail3x90": 24.9
+        }
+      ],
+      "costSnapshot": {
+        "status": "COMPLETE",
+        "basis": "ITEM_PLUS_FREIGHT",
+        "scope": "ONE_UNIT_COUNTRY_BASELINE",
+        "includes": [
+          "ITEM_PRICE",
+          "ALIEXPRESS_FREIGHT"
+        ],
+        "countryCode": "US",
+        "sendGoodsCountryCode": "CN",
+        "quantity": 1,
+        "itemCurrency": "USD",
+        "costCurrency": "USD",
+        "itemFxRateToCostCurrency": null,
+        "freight": {
+          "status": "AVAILABLE",
+          "selectedServiceName": "CAINIAO_FULFILLMENT_STD",
+          "estimatedDeliveryTime": null,
+          "originalAmount": 1.99,
+          "originalCurrency": "USD",
+          "amountInCostCurrency": 1.99,
+          "costCurrency": "USD",
+          "quoteCount": 25,
+          "quotes": [],
+          "error": null
+        },
+        "calculatedAt": "2026-11-12T15:19:22.205Z",
+        "perSku": [
+          {
+            "skuId": "12000028313744179",
+            "itemPrice": 5.93,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 7.92,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744178",
+            "itemPrice": 6.67,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.66,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744177",
+            "itemPrice": 6.27,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.26,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744176",
+            "itemPrice": 6.08,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.07,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744183",
+            "itemPrice": 6.52,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.51,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744182",
+            "itemPrice": 6.47,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.46,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744181",
+            "itemPrice": 6.18,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.17,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744180",
+            "itemPrice": 6.08,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.07,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744191",
+            "itemPrice": 6.42,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.41,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744190",
+            "itemPrice": 6.03,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.02,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744189",
+            "itemPrice": 5.67,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 7.66,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744175",
+            "itemPrice": 5.93,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 7.92,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744174",
+            "itemPrice": 5.9,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 7.89,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744211",
+            "itemPrice": 6.46,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.45,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744210",
+            "itemPrice": 6.27,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.26,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744209",
+            "itemPrice": 6.44,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.43,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744208",
+            "itemPrice": 7.09,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 9.08,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744213",
+            "itemPrice": 6.21,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.2,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744212",
+            "itemPrice": 6.61,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.6,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744193",
+            "itemPrice": 6.42,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.41,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744192",
+            "itemPrice": 6.18,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.17,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744207",
+            "itemPrice": 6.34,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.33,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744206",
+            "itemPrice": 6.06,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.05,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744205",
+            "itemPrice": 6.1,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.09,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000028313744204",
+            "itemPrice": 6.16,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 8.15,
+            "costCurrency": "USD"
+          }
+        ]
+      }
+    },
+    {
+      "ok": true,
+      "dryRun": true,
+      "persisted": false,
+      "supplierId": "ambsp-9ce98d7d1e1ec975eff601843997f935",
+      "sourceProductId": "3256811871148479",
+      "requestedProductId": "3256811871148479",
+      "resolvedProductId": "3256811871148479",
+      "operationalProvider": "ALIEXPRESS_OPEN_PLATFORM",
+      "refreshedAt": "2026-11-12T15:22:31.701Z",
+      "variants": 9,
+      "quotedSkus": [
+        {
+          "sourceSkuId": "12000057414074548",
+          "name": "Color: black \u00b7 Size: S",
+          "attributes": {
+            "Color": "black",
+            "Size": "S"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:100014064;14:193",
+          "stock": 207,
+          "available": true,
+          "itemPrice": 8.99,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 8.99,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 10.98,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:22:31.701Z",
+          "minimumRetail3x": 32.94,
+          "suggestedRetail3x90": 33.9
+        },
+        {
+          "sourceSkuId": "12000057414074549",
+          "name": "Color: black \u00b7 Size: M",
+          "attributes": {
+            "Color": "black",
+            "Size": "M"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361386;14:193",
+          "stock": 211,
+          "available": true,
+          "itemPrice": 9.45,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 9.45,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 11.44,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:22:31.701Z",
+          "minimumRetail3x": 34.32,
+          "suggestedRetail3x90": 34.9
+        },
+        {
+          "sourceSkuId": "12000057414074550",
+          "name": "Color: black \u00b7 Size: L",
+          "attributes": {
+            "Color": "black",
+            "Size": "L"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361385;14:193",
+          "stock": 206,
+          "available": true,
+          "itemPrice": 9.33,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 9.33,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 11.32,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:22:31.701Z",
+          "minimumRetail3x": 33.96,
+          "suggestedRetail3x90": 34.9
+        },
+        {
+          "sourceSkuId": "12000057414074551",
+          "name": "Color: Ivory \u00b7 Size: S",
+          "attributes": {
+            "Color": "Ivory",
+            "Size": "S"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:100014064;14:200002130",
+          "stock": 3,
+          "available": true,
+          "itemPrice": 8.79,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 8.79,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 10.78,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:22:31.701Z",
+          "minimumRetail3x": 32.34,
+          "suggestedRetail3x90": 32.9
+        },
+        {
+          "sourceSkuId": "12000057414074556",
+          "name": "Color: Khaki \u00b7 Size: L",
+          "attributes": {
+            "Color": "Khaki",
+            "Size": "L"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361385;14:200001438",
+          "stock": 209,
+          "available": true,
+          "itemPrice": 9.05,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 9.05,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 11.04,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:22:31.701Z",
+          "minimumRetail3x": 33.12,
+          "suggestedRetail3x90": 33.9
+        },
+        {
+          "sourceSkuId": "12000057414074552",
+          "name": "Color: Ivory \u00b7 Size: M",
+          "attributes": {
+            "Color": "Ivory",
+            "Size": "M"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361386;14:200002130",
+          "stock": 209,
+          "available": true,
+          "itemPrice": 9.05,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 9.05,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 11.04,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:22:31.701Z",
+          "minimumRetail3x": 33.12,
+          "suggestedRetail3x90": 33.9
+        },
+        {
+          "sourceSkuId": "12000057414074553",
+          "name": "Color: Ivory \u00b7 Size: L",
+          "attributes": {
+            "Color": "Ivory",
+            "Size": "L"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361385;14:200002130",
+          "stock": 205,
+          "available": true,
+          "itemPrice": 9.25,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 9.25,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 11.24,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:22:31.701Z",
+          "minimumRetail3x": 33.72,
+          "suggestedRetail3x90": 33.9
+        },
+        {
+          "sourceSkuId": "12000057414074554",
+          "name": "Color: Khaki \u00b7 Size: S",
+          "attributes": {
+            "Color": "Khaki",
+            "Size": "S"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:100014064;14:200001438",
+          "stock": 204,
+          "available": true,
+          "itemPrice": 8.72,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 8.72,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 10.71,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:22:31.701Z",
+          "minimumRetail3x": 32.13,
+          "suggestedRetail3x90": 32.9
+        },
+        {
+          "sourceSkuId": "12000057414074555",
+          "name": "Color: Khaki \u00b7 Size: M",
+          "attributes": {
+            "Color": "Khaki",
+            "Size": "M"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:361386;14:200001438",
+          "stock": 208,
+          "available": true,
+          "itemPrice": 9.33,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 9.33,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 11.32,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:22:31.701Z",
+          "minimumRetail3x": 33.96,
+          "suggestedRetail3x90": 34.9
+        }
+      ],
+      "costSnapshot": {
+        "status": "COMPLETE",
+        "basis": "ITEM_PLUS_FREIGHT",
+        "scope": "ONE_UNIT_COUNTRY_BASELINE",
+        "includes": [
+          "ITEM_PRICE",
+          "ALIEXPRESS_FREIGHT"
+        ],
+        "countryCode": "US",
+        "sendGoodsCountryCode": "CN",
+        "quantity": 1,
+        "itemCurrency": "USD",
+        "costCurrency": "USD",
+        "itemFxRateToCostCurrency": null,
+        "freight": {
+          "status": "AVAILABLE",
+          "selectedServiceName": "CAINIAO_FULFILLMENT_STD",
+          "estimatedDeliveryTime": null,
+          "originalAmount": 1.99,
+          "originalCurrency": "USD",
+          "amountInCostCurrency": 1.99,
+          "costCurrency": "USD",
+          "quoteCount": 9,
+          "quotes": [],
+          "error": null
+        },
+        "calculatedAt": "2026-11-12T15:22:31.701Z",
+        "perSku": [
+          {
+            "skuId": "12000057414074548",
+            "itemPrice": 8.99,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 10.98,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000057414074549",
+            "itemPrice": 9.45,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 11.44,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000057414074550",
+            "itemPrice": 9.33,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 11.32,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000057414074551",
+            "itemPrice": 8.79,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 10.78,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000057414074556",
+            "itemPrice": 9.05,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 11.04,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000057414074552",
+            "itemPrice": 9.05,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 11.04,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000057414074553",
+            "itemPrice": 9.25,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 11.24,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000057414074554",
+            "itemPrice": 8.72,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 10.71,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000057414074555",
+            "itemPrice": 9.33,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 11.32,
+            "costCurrency": "USD"
+          }
+        ]
+      }
+    },
+    {
+      "ok": true,
+      "dryRun": true,
+      "persisted": false,
+      "supplierId": "ambsp-179ed3cc2490a899f679e969a9b4caad",
+      "sourceProductId": "3256810384374361",
+      "requestedProductId": "3256810384374361",
+      "resolvedProductId": "3256810384374361",
+      "operationalProvider": "ALIEXPRESS_OPEN_PLATFORM",
+      "refreshedAt": "2026-11-12T15:22:29.243Z",
+      "variants": 4,
+      "quotedSkus": [
+        {
+          "sourceSkuId": "12000052854046787",
+          "name": "Color: Lightbrown \u00b7 Size: 4XL",
+          "attributes": {
+            "Color": "Lightbrown",
+            "Size": "4XL"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:200000990;14:350852#Lightbrown",
+          "stock": 33,
+          "available": true,
+          "itemPrice": 9.75,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 9.75,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 11.74,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:22:29.243Z",
+          "minimumRetail3x": 35.22,
+          "suggestedRetail3x90": 35.9
+        },
+        {
+          "sourceSkuId": "12000052854046788",
+          "name": "Color: Lightbrown \u00b7 Size: 5XL",
+          "attributes": {
+            "Color": "Lightbrown",
+            "Size": "5XL"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:200000991;14:350852#Lightbrown",
+          "stock": 25,
+          "available": true,
+          "itemPrice": 9.02,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 9.02,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 11.01,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:22:29.243Z",
+          "minimumRetail3x": 33.03,
+          "suggestedRetail3x90": 33.9
+        },
+        {
+          "sourceSkuId": "12000052854046782",
+          "name": "Color: White \u00b7 Size: 3XL",
+          "attributes": {
+            "Color": "White",
+            "Size": "3XL"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:115781;14:771#White",
+          "stock": 14,
+          "available": true,
+          "itemPrice": 9.59,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 9.59,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 11.58,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:22:29.243Z",
+          "minimumRetail3x": 34.74,
+          "suggestedRetail3x90": 34.9
+        },
+        {
+          "sourceSkuId": "12000052854046783",
+          "name": "Color: White \u00b7 Size: 4XL",
+          "attributes": {
+            "Color": "White",
+            "Size": "4XL"
+          },
+          "imageUrl": null,
+          "orderSkuAttr": "5:200000990;14:771#White",
+          "stock": 12,
+          "available": true,
+          "itemPrice": 9.25,
+          "itemCurrency": "USD",
+          "itemCostInCostCurrency": 9.25,
+          "freightCostInCostCurrency": 1.99,
+          "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+          "landedCost": 11.24,
+          "costCurrency": "USD",
+          "countryCode": "US",
+          "verifiedAt": "2026-11-12T15:22:29.243Z",
+          "minimumRetail3x": 33.72,
+          "suggestedRetail3x90": 33.9
+        }
+      ],
+      "costSnapshot": {
+        "status": "COMPLETE",
+        "basis": "ITEM_PLUS_FREIGHT",
+        "scope": "ONE_UNIT_COUNTRY_BASELINE",
+        "includes": [
+          "ITEM_PRICE",
+          "ALIEXPRESS_FREIGHT"
+        ],
+        "countryCode": "US",
+        "sendGoodsCountryCode": "CN",
+        "quantity": 1,
+        "itemCurrency": "USD",
+        "costCurrency": "USD",
+        "itemFxRateToCostCurrency": null,
+        "freight": {
+          "status": "AVAILABLE",
+          "selectedServiceName": "CAINIAO_FULFILLMENT_STD",
+          "estimatedDeliveryTime": "13days",
+          "originalAmount": 1.99,
+          "originalCurrency": "USD",
+          "amountInCostCurrency": 1.99,
+          "costCurrency": "USD",
+          "quoteCount": 4,
+          "quotes": [],
+          "error": null
+        },
+        "calculatedAt": "2026-11-12T15:22:29.243Z",
+        "perSku": [
+          {
+            "skuId": "12000052854046787",
+            "itemPrice": 9.75,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 11.74,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000052854046788",
+            "itemPrice": 9.02,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 11.01,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000052854046782",
+            "itemPrice": 9.59,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 11.58,
+            "costCurrency": "USD"
+          },
+          {
+            "skuId": "12000052854046783",
+            "itemPrice": 9.25,
+            "itemCurrency": "USD",
+            "freightServiceName": "CAINIAO_FULFILLMENT_STD",
+            "freightAmountInCostCurrency": 1.99,
+            "landedCost": 11.24,
+            "costCurrency": "USD"
+          }
+        ]
+      }
+    }
+  ],
+  "nerelleImageHashes": [
+    {
+      "slug": "nerelle-sleeveless-swing-mini-dress-black",
+      "views": [
+        {
+          "view": "front",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-black/front-20261112.webp",
+          "sha256": "0de6a2584a519d0de0ed09836861a3c58e00ddd0885801bb7924c03ddd1338ba"
+        },
+        {
+          "view": "back",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-black/back-20261112.webp",
+          "sha256": "612171e8dc824eb00be4b0af007c796217d7ae3cb11fffc6ddf66154727a4221"
+        },
+        {
+          "view": "left",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-black/left-20261112.webp",
+          "sha256": "3afc09f8b9eb6df2f6e5a33388d5066debac6a008b7e5df991df489122e8b8df"
+        },
+        {
+          "view": "right",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-black/right-20261112.webp",
+          "sha256": "6b937f22c6eec2b090acfa2ad49b8f6e31cb4f4b57716f4f0531d23816e3d8a4"
+        }
+      ]
+    },
+    {
+      "slug": "nerelle-sleeveless-swing-mini-dress-white",
+      "views": [
+        {
+          "view": "front",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-white/front-20261112.webp",
+          "sha256": "42364430bee2fde639b00300ffa23b9a2ee8da9a9abb21ab408d2cdbecc62a83"
+        },
+        {
+          "view": "back",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-white/back-20261112.webp",
+          "sha256": "c5c346c037171145685059bea1decd54e2359ba7ab436d854e3b21e85c8c9267"
+        },
+        {
+          "view": "left",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-white/left-20261112.webp",
+          "sha256": "f0b5ebf50c88abcac4e5cf2babeee46f785056a43287cb08e4edfd1da42d644a"
+        },
+        {
+          "view": "right",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-white/right-20261112.webp",
+          "sha256": "2d39e7dd97b008d63d825b596f0eb13a28026c860eebe9c08ff5e7d881b3ea8f"
+        }
+      ]
+    },
+    {
+      "slug": "nerelle-sleeveless-swing-mini-dress-royal-blue",
+      "views": [
+        {
+          "view": "front",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-royal-blue/front-20261112.webp",
+          "sha256": "48751e92b4e2f4cd8b57895119d01b34a5a0f910c0011c42c5ab11ac5ebe5652"
+        },
+        {
+          "view": "back",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-royal-blue/back-20261112.webp",
+          "sha256": "f50f4d936691cc2498684482d79a03097e42d0f3db8c6691bfec38808c3d1847"
+        },
+        {
+          "view": "left",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-royal-blue/left-20261112.webp",
+          "sha256": "b5079d42e8556d5123f35a6643f12cb73864ead7d5e5f6905ed68208c714bc81"
+        },
+        {
+          "view": "right",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-royal-blue/right-20261112.webp",
+          "sha256": "1adda7e2952960f2cbd7067a9277c0cf19591c54ca04de5a2f08539b326ebd05"
+        }
+      ]
+    },
+    {
+      "slug": "nerelle-sleeveless-swing-mini-dress-pink",
+      "views": [
+        {
+          "view": "front",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-pink/front-20261112.webp",
+          "sha256": "b04bcf5f765622d5404ad3f462258441a31cc9fba08c7003940b44465c72092a"
+        },
+        {
+          "view": "back",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-pink/back-20261112.webp",
+          "sha256": "08db52c064ee8da5bfc6233ad5b4e0f9c7222de4159e7ea683fcc7f3bb597c2b"
+        },
+        {
+          "view": "left",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-pink/left-20261112.webp",
+          "sha256": "d73a37563f7f4e02c84c2f66a694f3d243dd82f037fe8f560aad396b8611f901"
+        },
+        {
+          "view": "right",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-pink/right-20261112.webp",
+          "sha256": "60efc2efe2433e5b443cf52106cb7b6397de017eb7e1aff33f58dbc9c04eca5d"
+        }
+      ]
+    },
+    {
+      "slug": "nerelle-sleeveless-swing-mini-dress-red",
+      "views": [
+        {
+          "view": "front",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-red/front-20261112.webp",
+          "sha256": "cd2c16ef7673872211176141ffe68c92476fc21fbb0c7a87ca593ef441223ae2"
+        },
+        {
+          "view": "back",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-red/back-20261112.webp",
+          "sha256": "1c902cdc490e41e63f14cee3bc79ec86f81929dd4f45d601f23f5b53e9f95a85"
+        },
+        {
+          "view": "left",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-red/left-20261112.webp",
+          "sha256": "02acf351fca9e492bf6585daa63887ca90b8ae2b26185e54092fbdd9b8c0e7d7"
+        },
+        {
+          "view": "right",
+          "path": "/products/nerelle-sleeveless-swing-mini-dress-red/right-20261112.webp",
+          "sha256": "4955730f9353f2122cd2e8f0adcbc0f3f702d8d43be56dd653bdfe1463eb20a5"
+        }
+      ]
+    }
+  ],
+  "rearImageConstruction": "Conservative plain back inferred from known front; no added closures or decoration."
+}

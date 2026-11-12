@@ -2312,7 +2312,7 @@
         "L": 206
       },
       "landedCostUsdBySize": {
-        "S": 10.94,
+        "S": 10.98,
         "M": 11.44,
         "L": 11.32
       },
@@ -2320,7 +2320,7 @@
       "minimumMultiplier": 3,
       "priceEnding": ".90 rounded upward",
       "supplierId": "ambsp-9ce98d7d1e1ec975eff601843997f935",
-      "verifiedAtUtc": "2026-11-12T02:21:54.466Z",
+      "verifiedAtUtc": "2026-11-12T15:22:31.701Z",
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
@@ -2341,14 +2341,14 @@
       },
       "landedCostUsdBySize": {
         "S": 10.78,
-        "M": 11.01,
+        "M": 11.04,
         "L": 11.24
       },
       "retailPriceUsd": 33.9,
       "minimumMultiplier": 3,
       "priceEnding": ".90 rounded upward",
       "supplierId": "ambsp-9ce98d7d1e1ec975eff601843997f935",
-      "verifiedAtUtc": "2026-11-12T02:21:54.466Z",
+      "verifiedAtUtc": "2026-11-12T15:22:31.701Z",
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
@@ -2368,7 +2368,7 @@
         "L": 209
       },
       "landedCostUsdBySize": {
-        "S": 10.68,
+        "S": 10.71,
         "M": 11.32,
         "L": 11.04
       },
@@ -2376,7 +2376,7 @@
       "minimumMultiplier": 3,
       "priceEnding": ".90 rounded upward",
       "supplierId": "ambsp-9ce98d7d1e1ec975eff601843997f935",
-      "verifiedAtUtc": "2026-11-12T02:21:54.466Z",
+      "verifiedAtUtc": "2026-11-12T15:22:31.701Z",
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
@@ -2395,13 +2395,13 @@
       },
       "landedCostUsdBySize": {
         "3XL": 11.58,
-        "4XL": 11.18
+        "4XL": 11.24
       },
       "retailPriceUsd": 34.9,
       "minimumMultiplier": 3,
       "priceEnding": ".90 rounded upward",
       "supplierId": "ambsp-179ed3cc2490a899f679e969a9b4caad",
-      "verifiedAtUtc": "2026-11-12T02:21:49.885Z",
+      "verifiedAtUtc": "2026-11-12T15:22:29.243Z",
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
@@ -2420,13 +2420,183 @@
       },
       "landedCostUsdBySize": {
         "4XL": 11.74,
-        "5XL": 10.98
+        "5XL": 11.01
       },
       "retailPriceUsd": 35.9,
       "minimumMultiplier": 3,
       "priceEnding": ".90 rounded upward",
       "supplierId": "ambsp-179ed3cc2490a899f679e969a9b4caad",
-      "verifiedAtUtc": "2026-11-12T02:21:49.885Z",
+      "verifiedAtUtc": "2026-11-12T15:22:29.243Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "nerelle-sleeveless-swing-mini-dress-black",
+      "sourceProductId": "3256803997860484",
+      "sourceColor": "black",
+      "sourceSkuIdsBySize": {
+        "S": "12000028313744204",
+        "M": "12000028313744205",
+        "L": "12000028313744206",
+        "XL": "12000028313744207",
+        "XXL": "12000028313744208"
+      },
+      "stockBySize": {
+        "S": 5,
+        "M": 1,
+        "L": 3,
+        "XL": 2,
+        "XXL": 1
+      },
+      "landedCostUsdBySize": {
+        "S": 8.15,
+        "M": 8.09,
+        "L": 8.05,
+        "XL": 8.33,
+        "XXL": 9.08
+      },
+      "retailPriceUsd": 27.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvr79qxh003s08l9eatt3wwz",
+      "verifiedAtUtc": "2026-11-12T15:19:22.205Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "nerelle-sleeveless-swing-mini-dress-white",
+      "sourceProductId": "3256803997860484",
+      "sourceColor": "WHITE",
+      "sourceSkuIdsBySize": {
+        "S": "12000028313744174",
+        "M": "12000028313744175",
+        "L": "12000028313744176",
+        "XL": "12000028313744177",
+        "XXL": "12000028313744178"
+      },
+      "stockBySize": {
+        "S": 5,
+        "M": 1,
+        "L": 5,
+        "XL": 5,
+        "XXL": 3
+      },
+      "landedCostUsdBySize": {
+        "S": 7.89,
+        "M": 7.92,
+        "L": 8.07,
+        "XL": 8.26,
+        "XXL": 8.66
+      },
+      "retailPriceUsd": 26.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvr79qxh003s08l9eatt3wwz",
+      "verifiedAtUtc": "2026-11-12T15:19:22.205Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "nerelle-sleeveless-swing-mini-dress-royal-blue",
+      "sourceProductId": "3256803997860484",
+      "sourceColor": "Blue",
+      "sourceSkuIdsBySize": {
+        "S": "12000028313744209",
+        "M": "12000028313744210",
+        "L": "12000028313744211",
+        "XL": "12000028313744212",
+        "XXL": "12000028313744213"
+      },
+      "stockBySize": {
+        "S": 5,
+        "M": 5,
+        "L": 4,
+        "XL": 5,
+        "XXL": 1
+      },
+      "landedCostUsdBySize": {
+        "S": 8.43,
+        "M": 8.26,
+        "L": 8.45,
+        "XL": 8.6,
+        "XXL": 8.2
+      },
+      "retailPriceUsd": 25.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvr79qxh003s08l9eatt3wwz",
+      "verifiedAtUtc": "2026-11-12T15:19:22.205Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "nerelle-sleeveless-swing-mini-dress-pink",
+      "sourceProductId": "3256803997860484",
+      "sourceColor": "Pink",
+      "sourceSkuIdsBySize": {
+        "S": "12000028313744179",
+        "M": "12000028313744180",
+        "L": "12000028313744181",
+        "XL": "12000028313744182",
+        "XXL": "12000028313744183"
+      },
+      "stockBySize": {
+        "S": 5,
+        "M": 3,
+        "L": 5,
+        "XL": 2,
+        "XXL": 5
+      },
+      "landedCostUsdBySize": {
+        "S": 7.92,
+        "M": 8.07,
+        "L": 8.17,
+        "XL": 8.46,
+        "XXL": 8.51
+      },
+      "retailPriceUsd": 25.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvr79qxh003s08l9eatt3wwz",
+      "verifiedAtUtc": "2026-11-12T15:19:22.205Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "nerelle-sleeveless-swing-mini-dress-red",
+      "sourceProductId": "3256803997860484",
+      "sourceColor": "Red",
+      "sourceSkuIdsBySize": {
+        "S": "12000028313744189",
+        "M": "12000028313744190",
+        "L": "12000028313744191",
+        "XL": "12000028313744192",
+        "XXL": "12000028313744193"
+      },
+      "stockBySize": {
+        "S": 3,
+        "M": 5,
+        "L": 3,
+        "XL": 3,
+        "XXL": 4
+      },
+      "landedCostUsdBySize": {
+        "S": 7.66,
+        "M": 8.02,
+        "L": 8.41,
+        "XL": 8.17,
+        "XXL": 8.41
+      },
+      "retailPriceUsd": 25.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvr79qxh003s08l9eatt3wwz",
+      "verifiedAtUtc": "2026-11-12T15:19:22.205Z",
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
