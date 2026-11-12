@@ -18424,6 +18424,201 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256810384374361",
   "sourceColor": "Lightbrown"
+},
+{
+  "slug": "nerelle-sleeveless-swing-mini-dress-black",
+  "name": "Nerelle Sleeveless Swing Mini Dress — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 27.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#222222"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed sleeveless mini dress with a round neckline, a softly flared swing silhouette and discreet side pockets. An easy pull-on style for everyday wear.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/nerelle-sleeveless-swing-mini-dress-black/front-20261112.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-black/back-20261112.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-black/left-20261112.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-black/right-20261112.webp"
+  ],
+  "stock": 12,
+  "unitCostUsd": 9.08,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256803997860484",
+  "sourceColor": "black"
+},
+{
+  "slug": "nerelle-sleeveless-swing-mini-dress-white",
+  "name": "Nerelle Sleeveless Swing Mini Dress — White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 26.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f3f2ee"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed sleeveless mini dress with a round neckline, a softly flared swing silhouette and discreet side pockets. An easy pull-on style for everyday wear.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/nerelle-sleeveless-swing-mini-dress-white/front-20261112.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-white/back-20261112.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-white/left-20261112.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-white/right-20261112.webp"
+  ],
+  "stock": 19,
+  "unitCostUsd": 8.66,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256803997860484",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "nerelle-sleeveless-swing-mini-dress-royal-blue",
+  "name": "Nerelle Sleeveless Swing Mini Dress — Royal Blue",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 25.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#222596"
+  ],
+  "colorNames": [
+    "Royal Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed sleeveless mini dress with a round neckline, a softly flared swing silhouette and discreet side pockets. An easy pull-on style for everyday wear.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/nerelle-sleeveless-swing-mini-dress-royal-blue/front-20261112.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-royal-blue/back-20261112.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-royal-blue/left-20261112.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-royal-blue/right-20261112.webp"
+  ],
+  "stock": 20,
+  "unitCostUsd": 8.6,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256803997860484",
+  "sourceColor": "Blue"
+},
+{
+  "slug": "nerelle-sleeveless-swing-mini-dress-pink",
+  "name": "Nerelle Sleeveless Swing Mini Dress — Pink",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 25.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d984a5"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed sleeveless mini dress with a round neckline, a softly flared swing silhouette and discreet side pockets. An easy pull-on style for everyday wear.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/nerelle-sleeveless-swing-mini-dress-pink/front-20261112.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-pink/back-20261112.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-pink/left-20261112.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-pink/right-20261112.webp"
+  ],
+  "stock": 20,
+  "unitCostUsd": 8.51,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256803997860484",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "nerelle-sleeveless-swing-mini-dress-red",
+  "name": "Nerelle Sleeveless Swing Mini Dress — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 25.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#bb0808"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed sleeveless mini dress with a round neckline, a softly flared swing silhouette and discreet side pockets. An easy pull-on style for everyday wear.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/nerelle-sleeveless-swing-mini-dress-red/front-20261112.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-red/back-20261112.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-red/left-20261112.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-red/right-20261112.webp"
+  ],
+  "stock": 18,
+  "unitCostUsd": 8.41,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256803997860484",
+  "sourceColor": "Red"
 }
 ];
 
@@ -18432,6 +18627,12 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "nerelle-sleeveless-swing-mini-dress-black",
+  "nerelle-sleeveless-swing-mini-dress-white",
+  "nerelle-sleeveless-swing-mini-dress-royal-blue",
+  "nerelle-sleeveless-swing-mini-dress-pink",
+  "nerelle-sleeveless-swing-mini-dress-red",
+
   "liora-twist-back-knit-tank-black",
   "liora-twist-back-knit-tank-ivory",
   "liora-twist-back-knit-tank-khaki",
