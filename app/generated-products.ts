@@ -9089,7 +9089,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "veloria-sequin-gown-gold",
-  "name": "Veloria Sequin Gown \u2014 Gold",
+  "name": "Veloria Sequin Gown — Gold",
   "vendor": "AMB BOUTIQUE",
   "category": "Dresses",
   "price": 227.9,
@@ -9129,7 +9129,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "veloria-sequin-gown-wine",
-  "name": "Veloria Sequin Gown \u2014 Wine",
+  "name": "Veloria Sequin Gown — Wine",
   "vendor": "AMB BOUTIQUE",
   "category": "Dresses",
   "price": 227.9,
@@ -9169,7 +9169,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "veloria-sequin-gown-plum",
-  "name": "Veloria Sequin Gown \u2014 Plum",
+  "name": "Veloria Sequin Gown — Plum",
   "vendor": "AMB BOUTIQUE",
   "category": "Dresses",
   "price": 227.9,
@@ -9209,7 +9209,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "althea-sculptural-set-ivory",
-  "name": "Althea Sculptural Set \u2014 Ivory",
+  "name": "Althea Sculptural Set — Ivory",
   "vendor": "AMB BOUTIQUE",
   "category": "Sets",
   "price": 169.9,
@@ -9247,7 +9247,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "althea-sculptural-set-black",
-  "name": "Althea Sculptural Set \u2014 Black",
+  "name": "Althea Sculptural Set — Black",
   "vendor": "AMB BOUTIQUE",
   "category": "Sets",
   "price": 169.9,
@@ -9285,7 +9285,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "valeska-striped-sequin-gown-prismatic",
-  "name": "Valeska Striped Sequin Gown \u2014 Prismatic",
+  "name": "Valeska Striped Sequin Gown — Prismatic",
   "vendor": "AMB BOUTIQUE",
   "category": "Dresses",
   "price": 348.9,
@@ -9322,7 +9322,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "valeska-striped-sequin-gown-black-gold",
-  "name": "Valeska Striped Sequin Gown \u2014 Black Gold",
+  "name": "Valeska Striped Sequin Gown — Black Gold",
   "vendor": "AMB BOUTIQUE",
   "category": "Dresses",
   "price": 348.9,
@@ -17707,7 +17707,7 @@ const allGeneratedProducts: Product[] = [
 },
 {
   "slug": "verdelle-contrast-corset-top-khaki",
-  "name": "Verdelle Contrast Corset Top \u2014 Khaki",
+  "name": "Verdelle Contrast Corset Top — Khaki",
   "vendor": "AMB BOUTIQUE",
   "category": "Tops",
   "subcategory": "Corset Tops",
@@ -18241,6 +18241,189 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256806932704131",
   "sourceColor": "green"
+},
+{
+  "slug": "liora-twist-back-knit-tank-black",
+  "name": "Liora Twist-Back Knit Tank — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "subcategory": "Knit Tanks",
+  "price": 34.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#20221f"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fine-knit tank with broad shoulder straps, a soft scoop neckline and a deep V back finished with a twisted knit detail.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/liora-twist-back-knit-tank-black/front-20261029.webp",
+    "/products/liora-twist-back-knit-tank-black/back-20261029.webp",
+    "/products/liora-twist-back-knit-tank-black/left-20261029.webp",
+    "/products/liora-twist-back-knit-tank-black/right-20261029.webp"
+  ],
+  "stock": 624,
+  "unitCostUsd": 11.44,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811871148479",
+  "sourceColor": "black"
+},
+{
+  "slug": "liora-twist-back-knit-tank-ivory",
+  "name": "Liora Twist-Back Knit Tank — Ivory",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "subcategory": "Knit Tanks",
+  "price": 33.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e5dcc4"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fine-knit tank with broad shoulder straps, a soft scoop neckline and a deep V back finished with a twisted knit detail.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/liora-twist-back-knit-tank-ivory/front-20261029.webp",
+    "/products/liora-twist-back-knit-tank-ivory/back-20261029.webp",
+    "/products/liora-twist-back-knit-tank-ivory/left-20261029.webp",
+    "/products/liora-twist-back-knit-tank-ivory/right-20261029.webp"
+  ],
+  "stock": 417,
+  "unitCostUsd": 11.24,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811871148479",
+  "sourceColor": "Ivory"
+},
+{
+  "slug": "liora-twist-back-knit-tank-khaki",
+  "name": "Liora Twist-Back Knit Tank — Khaki",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "subcategory": "Knit Tanks",
+  "price": 34.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b9a084"
+  ],
+  "colorNames": [
+    "Khaki"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fine-knit tank with broad shoulder straps, a soft scoop neckline and a deep V back finished with a twisted knit detail.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/liora-twist-back-knit-tank-khaki/front-20261029.webp",
+    "/products/liora-twist-back-knit-tank-khaki/back-20261029.webp",
+    "/products/liora-twist-back-knit-tank-khaki/left-20261029.webp",
+    "/products/liora-twist-back-knit-tank-khaki/right-20261029.webp"
+  ],
+  "stock": 621,
+  "unitCostUsd": 11.32,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811871148479",
+  "sourceColor": "Khaki"
+},
+{
+  "slug": "isadora-gathered-v-neck-midi-dress-white",
+  "name": "Isadora Gathered V-Neck Midi Dress — White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Midi Dresses",
+  "price": 34.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e7e3d1"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "3XL",
+    "4XL"
+  ],
+  "description": "A flowing midi dress with a V neckline, gathered shoulders, long full sleeves with gathered cuffs and a softly gathered high-waist skirt.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/isadora-gathered-v-neck-midi-dress-white/front-20261029.webp",
+    "/products/isadora-gathered-v-neck-midi-dress-white/back-20261029.webp",
+    "/products/isadora-gathered-v-neck-midi-dress-white/left-20261029.webp",
+    "/products/isadora-gathered-v-neck-midi-dress-white/right-20261029.webp"
+  ],
+  "stock": 26,
+  "unitCostUsd": 11.58,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810384374361",
+  "sourceColor": "White"
+},
+{
+  "slug": "isadora-gathered-v-neck-midi-dress-terracotta",
+  "name": "Isadora Gathered V-Neck Midi Dress — Terracotta",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Midi Dresses",
+  "price": 35.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#af4d25"
+  ],
+  "colorNames": [
+    "Terracotta"
+  ],
+  "sizes": [
+    "4XL",
+    "5XL"
+  ],
+  "description": "A flowing midi dress with a V neckline, gathered shoulders, long full sleeves with gathered cuffs and a softly gathered high-waist skirt.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/isadora-gathered-v-neck-midi-dress-terracotta/front-20261029.webp",
+    "/products/isadora-gathered-v-neck-midi-dress-terracotta/back-20261029.webp",
+    "/products/isadora-gathered-v-neck-midi-dress-terracotta/left-20261029.webp",
+    "/products/isadora-gathered-v-neck-midi-dress-terracotta/right-20261029.webp"
+  ],
+  "stock": 58,
+  "unitCostUsd": 11.74,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810384374361",
+  "sourceColor": "Lightbrown"
 }
 ];
 
@@ -18249,6 +18432,12 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "liora-twist-back-knit-tank-black",
+  "liora-twist-back-knit-tank-ivory",
+  "liora-twist-back-knit-tank-khaki",
+  "isadora-gathered-v-neck-midi-dress-white",
+  "isadora-gathered-v-neck-midi-dress-terracotta",
+
   "amara-layered-mesh-skirt-apricot",
   "amara-layered-mesh-skirt-green",
   "marisol-striped-wide-leg-jumpsuit-light-brown",
