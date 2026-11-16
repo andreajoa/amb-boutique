@@ -2600,6 +2600,142 @@
       "quoteMode": "official read-only selected-SKU quote",
       "quoteCountry": "US",
       "quoteCurrency": "USD"
+    },
+    {
+      "slug": "nerelle-sleeveless-swing-mini-dress-chestnut-brown",
+      "sourceProductId": "3256803997860484",
+      "sourceColor": "Champagne",
+      "sourceSkuIdsBySize": {
+        "S": "12000028313744214",
+        "M": "12000028313744215",
+        "L": "12000028313744216",
+        "XL": "12000028313744217",
+        "XXL": "12000028313744218"
+      },
+      "stockBySize": {
+        "S": 5,
+        "M": 5,
+        "L": 1,
+        "XL": 4,
+        "XXL": 2
+      },
+      "landedCostUsdBySize": {
+        "S": 8.26,
+        "M": 8.05,
+        "L": 8.4,
+        "XL": 8.43,
+        "XXL": 8.37
+      },
+      "retailPriceUsd": 25.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvr79qxh003s08l9eatt3wwz",
+      "verifiedAtUtc": "2026-11-16T00:12:12.728Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "nerelle-sleeveless-swing-mini-dress-gray",
+      "sourceProductId": "3256803997860484",
+      "sourceColor": "GRAY",
+      "sourceSkuIdsBySize": {
+        "S": "12000028313744194",
+        "M": "12000028313744195",
+        "L": "12000028313744196",
+        "XL": "12000028313744197",
+        "XXL": "12000028313744198"
+      },
+      "stockBySize": {
+        "S": 4,
+        "M": 5,
+        "L": 1,
+        "XL": 2,
+        "XXL": 3
+      },
+      "landedCostUsdBySize": {
+        "S": 8.08,
+        "M": 8.32,
+        "L": 8.22,
+        "XL": 8.43,
+        "XXL": 8.66
+      },
+      "retailPriceUsd": 26.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvr79qxh003s08l9eatt3wwz",
+      "verifiedAtUtc": "2026-11-16T00:12:12.728Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "nerelle-sleeveless-swing-mini-dress-yellow",
+      "sourceProductId": "3256803997860484",
+      "sourceColor": "YELLOW",
+      "sourceSkuIdsBySize": {
+        "S": "12000028313744184",
+        "M": "12000028313744185",
+        "L": "12000028313744186",
+        "XL": "12000028313744187",
+        "XXL": "12000028313744188"
+      },
+      "stockBySize": {
+        "S": 5,
+        "M": 5,
+        "L": 5,
+        "XL": 4,
+        "XXL": 5
+      },
+      "landedCostUsdBySize": {
+        "S": 8.03,
+        "M": 8.03,
+        "L": 7.95,
+        "XL": 8.07,
+        "XXL": 8.17
+      },
+      "retailPriceUsd": 24.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvr79qxh003s08l9eatt3wwz",
+      "verifiedAtUtc": "2026-11-16T00:12:12.728Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
+    },
+    {
+      "slug": "nerelle-sleeveless-swing-mini-dress-army-green",
+      "sourceProductId": "3256803997860484",
+      "sourceColor": "army green",
+      "sourceSkuIdsBySize": {
+        "S": "12000028313744199",
+        "M": "12000028313744200",
+        "L": "12000028313744201",
+        "XL": "12000028313744202",
+        "XXL": "12000028313744203"
+      },
+      "stockBySize": {
+        "S": 3,
+        "M": 1,
+        "L": 5,
+        "XL": 2,
+        "XXL": 1
+      },
+      "landedCostUsdBySize": {
+        "S": 8.02,
+        "M": 7.89,
+        "L": 8.15,
+        "XL": 8.07,
+        "XXL": 8.45
+      },
+      "retailPriceUsd": 25.9,
+      "minimumMultiplier": 3,
+      "priceEnding": ".90 rounded upward",
+      "supplierId": "cmvr79qxh003s08l9eatt3wwz",
+      "verifiedAtUtc": "2026-11-16T00:12:12.728Z",
+      "quoteMode": "official read-only selected-SKU quote",
+      "quoteCountry": "US",
+      "quoteCurrency": "USD"
     }
   ]
 }
