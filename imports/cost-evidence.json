@@ -769,8 +769,20 @@
    "landedCostUsd": 28.37,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
   },
+  "nerelle-sleeveless-swing-mini-dress-army-green": {
+   "landedCostUsd": 8.45,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
   "nerelle-sleeveless-swing-mini-dress-black": {
    "landedCostUsd": 9.08,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "nerelle-sleeveless-swing-mini-dress-chestnut-brown": {
+   "landedCostUsd": 8.43,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "nerelle-sleeveless-swing-mini-dress-gray": {
+   "landedCostUsd": 8.66,
    "source": "catalog-20261026-new-products-bindings.json"
   },
   "nerelle-sleeveless-swing-mini-dress-pink": {
@@ -787,6 +799,10 @@
   },
   "nerelle-sleeveless-swing-mini-dress-white": {
    "landedCostUsd": 8.66,
+   "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "nerelle-sleeveless-swing-mini-dress-yellow": {
+   "landedCostUsd": 8.17,
    "source": "catalog-20261026-new-products-bindings.json"
   },
   "nerina-blue-satin-midi-dress": {

@@ -18619,6 +18619,162 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256803997860484",
   "sourceColor": "Red"
+},
+{
+  "slug": "nerelle-sleeveless-swing-mini-dress-chestnut-brown",
+  "name": "Nerelle Sleeveless Swing Mini Dress — Chestnut Brown",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 25.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#91502c"
+  ],
+  "colorNames": [
+    "Chestnut Brown"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed sleeveless mini dress with a round neckline, a softly flared swing silhouette and discreet side pockets. An easy pull-on style for everyday wear.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/nerelle-sleeveless-swing-mini-dress-chestnut-brown/front-20261115.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-chestnut-brown/back-20261115.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-chestnut-brown/left-20261115.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-chestnut-brown/right-20261115.webp"
+  ],
+  "stock": 17,
+  "unitCostUsd": 8.43,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256803997860484",
+  "sourceColor": "Champagne"
+},
+{
+  "slug": "nerelle-sleeveless-swing-mini-dress-gray",
+  "name": "Nerelle Sleeveless Swing Mini Dress — Gray",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 26.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#85888a"
+  ],
+  "colorNames": [
+    "Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed sleeveless mini dress with a round neckline, a softly flared swing silhouette and discreet side pockets. An easy pull-on style for everyday wear.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/nerelle-sleeveless-swing-mini-dress-gray/front-20261115.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-gray/back-20261115.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-gray/left-20261115.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-gray/right-20261115.webp"
+  ],
+  "stock": 15,
+  "unitCostUsd": 8.66,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256803997860484",
+  "sourceColor": "GRAY"
+},
+{
+  "slug": "nerelle-sleeveless-swing-mini-dress-yellow",
+  "name": "Nerelle Sleeveless Swing Mini Dress — Yellow",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 24.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#ffda00"
+  ],
+  "colorNames": [
+    "Yellow"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed sleeveless mini dress with a round neckline, a softly flared swing silhouette and discreet side pockets. An easy pull-on style for everyday wear.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/nerelle-sleeveless-swing-mini-dress-yellow/front-20261115.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-yellow/back-20261115.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-yellow/left-20261115.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-yellow/right-20261115.webp"
+  ],
+  "stock": 24,
+  "unitCostUsd": 8.17,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256803997860484",
+  "sourceColor": "YELLOW"
+},
+{
+  "slug": "nerelle-sleeveless-swing-mini-dress-army-green",
+  "name": "Nerelle Sleeveless Swing Mini Dress — Army Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "subcategory": "Mini Dresses",
+  "price": 25.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#596d32"
+  ],
+  "colorNames": [
+    "Army Green"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed sleeveless mini dress with a round neckline, a softly flared swing silhouette and discreet side pockets. An easy pull-on style for everyday wear.",
+  "materials": "Exact fiber composition follows the garment label.",
+  "care": "Follow the care label attached to the garment.",
+  "images": [
+    "/products/nerelle-sleeveless-swing-mini-dress-army-green/front-20261115.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-army-green/back-20261115.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-army-green/left-20261115.webp",
+    "/products/nerelle-sleeveless-swing-mini-dress-army-green/right-20261115.webp"
+  ],
+  "stock": 12,
+  "unitCostUsd": 8.45,
+  "minimumMarginPercent": 40,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256803997860484",
+  "sourceColor": "army green"
 }
 ];
 
@@ -18627,6 +18783,11 @@ const allGeneratedProducts: Product[] = [
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 export const approvedNewProductSlugs = new Set<string>([
+  "nerelle-sleeveless-swing-mini-dress-chestnut-brown",
+  "nerelle-sleeveless-swing-mini-dress-gray",
+  "nerelle-sleeveless-swing-mini-dress-yellow",
+  "nerelle-sleeveless-swing-mini-dress-army-green",
+
   "nerelle-sleeveless-swing-mini-dress-black",
   "nerelle-sleeveless-swing-mini-dress-white",
   "nerelle-sleeveless-swing-mini-dress-royal-blue",

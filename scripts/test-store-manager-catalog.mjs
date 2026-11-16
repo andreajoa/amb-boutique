@@ -35,7 +35,9 @@ try {
   const baseline = JSON.parse(fs.readFileSync(new URL("../imports/products-pre-oct04-baseline-hashes.json", import.meta.url), "utf8"));
   const release = JSON.parse(fs.readFileSync(new URL("../imports/products-20261004-release.json", import.meta.url), "utf8"));
   const retired = JSON.parse(fs.readFileSync(new URL("../imports/catalog-retired-20261028.json", import.meta.url), "utf8")).redirects;
-  const expectedSlugs = [...Object.keys(baseline), ...release.approvedSlugs].filter(slug => !retired[slug]).sort();
+  const { approvedNewProductSlugs } = load("../app/generated-products.ts");
+  const expectedSlugs = [...new Set([...Object.keys(baseline), ...release.approvedSlugs, ...approvedNewProductSlugs])]
+    .filter(slug => !retired[slug]).sort();
   assert.deepEqual(body.products.map(product => product.slug).sort(), expectedSlugs,
     "Catalog must include every published family, shoe and colour module, and no hidden drafts");
   const { products } = load("../app/data.ts");
