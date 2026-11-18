@@ -171,7 +171,8 @@ export async function POST(request: NextRequest) {
       ui_mode: "embedded_page",
       line_items: lineItems,
       shipping_options: shippingOptions,
-      billing_address_collection: "required",
+      // 17/11/2026: "auto" — a Stripe pede o endereço de cobrança só quando o banco exige (era obrigatório e repetia o de entrega).
+      billing_address_collection: "auto",
       shipping_address_collection: { allowed_countries: [stripeCountry[market]] },
       ...(customer ? { customer } : { customer_creation: "always" as const }),
       phone_number_collection: { enabled: true },
@@ -179,6 +180,8 @@ export async function POST(request: NextRequest) {
       redirect_on_completion: "always",
       return_url: `${origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
       expires_at: Math.floor(Date.now() / 1000) + 60 * 60,
+      // 17/11/2026: link nativo de recuperação (recria o carrinho por 30 dias) para a sequência de abandono.
+      after_expiration: { recovery: { enabled: true } },
       custom_text: {
         shipping_address: { message: hasPreparation
           ? "This order includes items with additional preparation time before dispatch. Check each item's preparation notice. Delivery time is additional."
