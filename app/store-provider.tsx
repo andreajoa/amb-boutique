@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type CSSProperties, type FormEvent } from "react";
 import type { Product } from "./data";
 import { productForSize, productPrice } from "./product-pricing";
 import { getPreparationNotice } from "./product-fulfillment";
@@ -330,6 +330,39 @@ export function getCartLineThumbnail(line: CartLine, product?: Product): { style
   };
 }
 
+// 17/11/2026: e-mail no carrinho, ANTES do checkout. 48 de 50 checkouts abandonados não tinham e-mail, então a
+// recuperação não tinha para quem mandar. Opcional, com consentimento explícito; aplica o código de primeira compra.
+function CartSaveBag() {
+  const { market, promoCode, setPromoCode, visitorId } = useStore();
+  const [state, setState] = useState<"idle" | "sending" | "done" | "error">("idle");
+  const [message, setMessage] = useState("");
+  // A sacola só abre depois de interação no navegador, então ler o storage na inicialização é seguro.
+  const [hidden] = useState(() => { try { return Boolean(window.localStorage.getItem("amb-bag-saved")); } catch { return false; } });
+  if (hidden || promoCode.toUpperCase() === FIRST_ORDER_CODE) return null;
+  async function save(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    if (!data.get("emailConsent")) { setState("error"); setMessage("Tick the box so we can email your bag and code."); return; }
+    setState("sending");
+    try {
+      const response = await fetch("/api/newsletter", { method: "POST", headers: { "content-type": "application/json" },
+        body: JSON.stringify({ email: data.get("email"), emailConsent: true, market, visitorId, source: "cart-save" }) });
+      const result = await response.json();
+      if (!response.ok) throw new Error(result.error);
+      setPromoCode(result.code || FIRST_ORDER_CODE);
+      try { window.localStorage.setItem("amb-bag-saved", new Date().toISOString()); } catch { /* sem storage */ }
+      setState("done"); setMessage(`Bag saved. ${FIRST_ORDER_CODE} (10% off your first order) is applied.`);
+    } catch (error) { setState("error"); setMessage(error instanceof Error ? error.message : "Please try again."); }
+  }
+  if (state === "done") return <p className="form-message" aria-live="polite">{message}</p>;
+  return <form className="promo-entry" onSubmit={save}>
+    <label htmlFor="cart-save-email">Save your bag + 10% off your first order</label>
+    <div><input id="cart-save-email" name="email" type="email" autoComplete="email" required placeholder="you@example.com"/><button type="submit" disabled={state === "sending"}>{state === "sending" ? "Saving…" : "Save"}</button></div>
+    <label className="consent-check"><input name="emailConsent" type="checkbox"/> <span>Email me my bag and AMB offers. Unsubscribe anytime.</span></label>
+    {state === "error" && <p className="form-message error" role="alert">{message}</p>}
+  </form>;
+}
+
 function CartDrawer({ catalog }: { catalog: Product[] }) {
   const { cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, preferredCategories, formatMoney, effectiveDiscountUsd, setPromoCode, setOrderNote, addItem, closeCart, removeItem, updateQuantity, checkout, checkoutError } = useStore();
   const layerRef = useRef<HTMLDivElement>(null);
@@ -385,6 +418,7 @@ function CartDrawer({ catalog }: { catalog: Product[] }) {
         <div className="promo-entry"><label htmlFor="cart-code">Offer code</label><div><input id="cart-code" value={promoCode} onChange={(event) => setPromoCode(event.target.value)} placeholder="Enter code"/><button type="button">{promoCode ? "Applied" : "Apply"}</button></div>{promoCode && <small>{promoCode} is ready. The single best eligible discount will be used.</small>}</div>
         <label className="order-note">Add a note to your order<textarea rows={2} onChange={(event) => setOrderNote(event.target.value)}/></label>
         <div className="cart-totals"><p><span>Subtotal</span><strong>{formatMoney(cartTotal)}</strong></p>{effectiveDiscountUsd > 0 && <p className="discount-line"><span>Best eligible offer</span><strong>−{formatMoney(effectiveDiscountUsd)}</strong></p>}<p><span>Estimated total</span><strong>{formatMoney(estimatedTotal)}</strong></p><p><span>Shipping</span><span>Calculated at checkout</span></p></div>
+        <CartSaveBag />
         <Link className="view-bag" href="/cart" onClick={closeCart}>View Bag</Link>
         <button className="checkout-button" type="button" onClick={checkout}>Secure Checkout</button>
         {checkoutError && <p className="form-message error" role="alert">{checkoutError}</p>}

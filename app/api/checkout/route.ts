@@ -11,6 +11,7 @@ import { bestNonStackingDiscount, protectMargin } from "../../profitability";
 import { rankRecommendations } from "../../recommendations";
 import { getStripe } from "../../stripe-server";
 import { recordCheckoutJourney } from "../../email/commerce-lifecycle";
+import { getAnalyticsSql } from "../../analytics/db";
 
 export const runtime = "nodejs";
 
@@ -203,6 +204,17 @@ export async function POST(request: NextRequest) {
         ...(hasPreparation ? { preparation_notice: preparationNotices.join(" ").slice(0, 500) } : {}),
       },
     };
+    // 17/11/2026: quem já deu o e-mail (pop-up, newsletter ou "salvar sacola") chega com ele preenchido no checkout.
+    // Um campo a menos, e se desistir a recuperação tem para onde mandar (48 de 50 abandonos não tinham e-mail).
+    if (!customer && body.visitorId) {
+      const visitorSql = getAnalyticsSql();
+      const known = visitorSql ? await visitorSql`
+        SELECT email FROM amb_analytics_visitors
+        WHERE visitor_id = ${body.visitorId.slice(0, 100)} AND email IS NOT NULL LIMIT 1
+      `.catch(() => []) as Array<{ email: string | null }> : [];
+      const knownEmail = known[0]?.email?.trim().toLowerCase();
+      if (knownEmail && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(knownEmail)) sessionParams.customer_email = knownEmail;
+    }
     const session = await stripe.checkout.sessions.create(sessionParams);
     if (!session.client_secret) throw new Error("Secure checkout could not be initialized.");
     await recordCheckoutJourney({
