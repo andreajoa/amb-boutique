@@ -53,9 +53,36 @@ function cryptoSafeEqual(left: string, right: string) {
   return mismatch === 0;
 }
 
+// 17/11/2026: a tabela não existia no banco de produção (criada à mão no passado e perdida) → "relation
+// amb_email_campaigns does not exist" e NENHUM e-mail automático saiu (amb_email_messages com 0 linhas):
+// boas-vindas, recuperação de carrinho/checkout e pós-compra. Agora é criada aqui, como os outros módulos fazem.
+let campaignsTableReady: Promise<unknown> | null = null;
+function ensureCampaignsTable(sql: NonNullable<ReturnType<typeof getAnalyticsSql>>) {
+  campaignsTableReady ??= sql`
+    CREATE TABLE IF NOT EXISTS amb_email_campaigns (
+      id bigserial PRIMARY KEY,
+      campaign_key text NOT NULL UNIQUE,
+      campaign_type text NOT NULL,
+      sequence_step integer,
+      name text NOT NULL,
+      market text NOT NULL DEFAULT 'ALL',
+      subject_a text NOT NULL,
+      subject_b text,
+      preview_text text,
+      template_key text,
+      send_rule jsonb NOT NULL DEFAULT '{}'::jsonb,
+      content jsonb NOT NULL DEFAULT '{}'::jsonb,
+      created_at timestamptz NOT NULL DEFAULT now(),
+      updated_at timestamptz NOT NULL DEFAULT now()
+    )
+  `.catch((error: unknown) => { campaignsTableReady = null; throw error; });
+  return campaignsTableReady;
+}
+
 async function ensureCampaign(campaign: AmbCampaign) {
   const sql = getAnalyticsSql();
   if (!sql) return;
+  await ensureCampaignsTable(sql);
   await sql`
     INSERT INTO amb_email_campaigns (
       campaign_key, campaign_type, sequence_step, name, market, subject_a, subject_b,
