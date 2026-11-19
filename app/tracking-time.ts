@@ -5,8 +5,10 @@
 
 const LEGACY_CHINA_TIME = /^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})(?::(\d{2}))?$/;
 
-export function trackingEventIso(value: string | null | undefined) {
-  const raw = (value || "").trim();
+export function trackingEventIso(value: string | Date | null | undefined) {
+  // Postgres timestamp columns arrive as Date objects; carrier dates as text.
+  if (value instanceof Date) return Number.isFinite(value.getTime()) ? value.toISOString() : null;
+  const raw = String(value ?? "").trim();
   if (!raw) return null;
   const legacy = raw.match(LEGACY_CHINA_TIME);
   const parsed = legacy
@@ -15,7 +17,7 @@ export function trackingEventIso(value: string | null | undefined) {
   return Number.isFinite(parsed) ? new Date(parsed).toISOString() : null;
 }
 
-export function trackingEventTime(value: string | null | undefined) {
+export function trackingEventTime(value: string | Date | null | undefined) {
   const iso = trackingEventIso(value);
   return iso ? Date.parse(iso) : Number.NaN;
 }
