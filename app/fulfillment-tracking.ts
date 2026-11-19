@@ -86,10 +86,14 @@ export function verifyPublicTrackingToken(token: string) {
   }
 }
 
+// Customers only ever see AMB Boutique: no marketplace, supplier or
+// marketplace-carrier names in anything shown on the page or in e-mails.
 export function customerSafeTrackingText(value: string | null | undefined) {
   return (value || "")
-    .replace(/aliexpress/gi, "AMB Boutique")
-    .replace(/cainiao/gi, "delivery network")
+    .replace(/a\s*l\s*i\s*[-\s]?\s*e\s*x\s*p\s*r\s*e\s*s\s*s/gi, "AMB Boutique")
+    .replace(/\b(?:alibaba|taobao|tmall)\b/gi, "AMB Boutique")
+    .replace(/\bcainiao\b/gi, "delivery network")
+    .replace(/\bgo\s?fast\b/gi, "AMB Boutique Delivery")
     .replace(/myshuee\s*store/gi, "delivery partner")
     .replace(/\s+/g, " ")
     .trim();
@@ -470,28 +474,16 @@ async function restoreOrderForLookup(email: string, reference: string) {
   return null;
 }
 
-export async function trackingLookupByEmailAndReference(email: string, reference: string) {
+async function purchasedItemsFor(sessionId: string, email: string): Promise<AmbPurchasedItem[]> {
   const sql = getAnalyticsSql();
-  if (!sql) return null;
-  await ensureFulfillmentTrackingSchema();
-
-  const normalizedEmail = email.trim().toLowerCase();
-  const normalizedReference = reference.trim();
-  if (!normalizedEmail.includes("@") || normalizedReference.length < 8 || normalizedReference.length > 120) return null;
-
-  let snapshot = await findTrackingSnapshot(normalizedEmail, normalizedReference);
-  if (!snapshot) {
-    const restoredSessionId = await restoreOrderForLookup(normalizedEmail, normalizedReference);
-    if (restoredSessionId) snapshot = await findTrackingSnapshot(normalizedEmail, restoredSessionId);
-  }
-  if (!snapshot) return null;
+  if (!sql) return [];
   const cartRows = await sql`
     SELECT cart FROM amb_commerce_journeys
-    WHERE stripe_session_id = ${snapshot.session_id} AND lower(email) = ${normalizedEmail} AND status = 'completed'
+    WHERE stripe_session_id = ${sessionId} AND lower(email) = ${email} AND status = 'completed'
     LIMIT 1
   ` as Array<{cart: unknown}>;
   const cart = Array.isArray(cartRows[0]?.cart) ? cartRows[0].cart : [];
-  const purchasedItems: AmbPurchasedItem[] = cart.flatMap((value) => {
+  return cart.flatMap((value) => {
     if (!value || typeof value !== "object" || Array.isArray(value)) return [];
     const item = value as Record<string, unknown>;
     const slug = typeof item.slug === "string" ? item.slug : "";
@@ -507,6 +499,34 @@ export async function trackingLookupByEmailAndReference(email: string, reference
       quantity: Number.isFinite(quantity) ? Math.min(99, Math.max(1, quantity)) : 1,
     }];
   });
+}
+
+// What the tracking page shows for this order right now, read from the store
+// database only (the caller has just synchronised it with the Store Manager).
+export async function trackingSnapshotForSession(sessionId: string, email: string) {
+  const normalizedEmail = email.trim().toLowerCase();
+  await ensureFulfillmentTrackingSchema();
+  const snapshot = await findTrackingSnapshot(normalizedEmail, sessionId);
+  if (!snapshot) return null;
+  return { ...snapshot, purchasedItems: await purchasedItemsFor(snapshot.session_id, normalizedEmail) };
+}
+
+export async function trackingLookupByEmailAndReference(email: string, reference: string) {
+  const sql = getAnalyticsSql();
+  if (!sql) return null;
+  await ensureFulfillmentTrackingSchema();
+
+  const normalizedEmail = email.trim().toLowerCase();
+  const normalizedReference = reference.trim();
+  if (!normalizedEmail.includes("@") || normalizedReference.length < 8 || normalizedReference.length > 120) return null;
+
+  let snapshot = await findTrackingSnapshot(normalizedEmail, normalizedReference);
+  if (!snapshot) {
+    const restoredSessionId = await restoreOrderForLookup(normalizedEmail, normalizedReference);
+    if (restoredSessionId) snapshot = await findTrackingSnapshot(normalizedEmail, restoredSessionId);
+  }
+  if (!snapshot) return null;
+  const purchasedItems = await purchasedItemsFor(snapshot.session_id, normalizedEmail);
   const enriched = { ...snapshot, purchasedItems };
 
   // An authenticated checkout lookup can refresh stale tracking server-side.

@@ -88,6 +88,17 @@ export const products: Product[] = [
   ...octoberColorProducts,
 ];
 
+// Supplier identity is internal. It stays readable on the server (Store Manager
+// catalog route, catalogue scripts) but is non-enumerable, so it never reaches
+// the browser: React Server Component props, spreads and JSON skip it.
+for (const product of products) {
+  for (const key of ["sourceProductId", "sourceColor"] as const) {
+    if (Object.prototype.hasOwnProperty.call(product, key)) {
+      Object.defineProperty(product, key, { value: product[key], enumerable: false, writable: true, configurable: true });
+    }
+  }
+}
+
 type CategoryPage = {
   slug: string;
   name: Product["category"];

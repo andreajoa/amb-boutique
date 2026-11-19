@@ -8,6 +8,7 @@ import {
   releaseTrackingNotification,
   reserveTrackingNotification,
   saveManagerTrackingStatus,
+  trackingSnapshotForSession,
   type ManagerFulfillmentStatus,
 } from "../../../fulfillment-tracking";
 import { sendAmbTrackingUpdateEmail } from "../../../email/tracking-update";
@@ -126,15 +127,14 @@ export async function GET(request: NextRequest) {
 
         if (reserved) {
           try {
+            // The e-mail is rendered from the same snapshot the tracking page shows.
+            const snapshot = await trackingSnapshotForSession(sessionId, order.email);
+            if (!snapshot) throw new Error("Tracking snapshot unavailable for e-mail.");
             const sent = await sendAmbTrackingUpdateEmail({
-              to: order.email,
+              to: order.email.trim().toLowerCase(),
               firstName: order.first_name,
-              sessionId,
-              phase: saved.phase,
-              trackingCode: body.trackingCode,
-              latestEvent: saved.latestEvent,
-              timeline: saved.timeline,
               market: order.market,
+              snapshot,
             });
             await completeTrackingNotification({
               sessionId,

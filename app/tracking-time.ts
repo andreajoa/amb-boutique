@@ -40,16 +40,20 @@ export function formatTrackingInstant(
 ) {
   const date = new Date(iso);
   if (!Number.isFinite(date.getTime())) return "";
-  return new Intl.DateTimeFormat("en-US", options.dateOnly
-    ? { weekday: "short", month: "short", day: "numeric", year: "numeric", timeZone: options.timeZone }
-    : {
-        weekday: "short",
-        month: "short",
-        day: "numeric",
-        hour: "2-digit",
-        minute: "2-digit",
-        hour12: false,
-        timeZone: options.timeZone,
-        timeZoneName: options.showZone ? "short" : undefined,
-      }).format(date);
+  // Built from parts so the server (e-mail) and every browser print the same
+  // text: "Thu, Nov 19, 04:56" / "Tue, Dec 8, 2026".
+  const parts = Object.fromEntries(new Intl.DateTimeFormat("en-US", {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+    timeZone: options.timeZone,
+    timeZoneName: options.showZone ? "short" : undefined,
+  }).formatToParts(date).map((part) => [part.type, part.value]));
+  const day = `${parts.weekday}, ${parts.month} ${parts.day}`;
+  if (options.dateOnly) return `${day}, ${parts.year}`;
+  return `${day}, ${parts.hour}:${parts.minute}${options.showZone && parts.timeZoneName ? ` ${parts.timeZoneName}` : ""}`;
 }
