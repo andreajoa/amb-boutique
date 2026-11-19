@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { Footer, Header } from "../components";
 import {
+  latestTrackingEvent,
   trackingLookupByEmailAndReference,
   trackingLookupByToken,
   trackingPhase,
-  type AmbTrackingEvent,
 } from "../fulfillment-tracking";
+import { trackingEventIso, trackingEventTime } from "../tracking-time";
+import { LocalTime } from "./local-time";
 
 export const metadata: Metadata = {
   title: "Track Your Order",
@@ -27,15 +29,14 @@ function phaseCopy(phase: string) {
   if (phase === "OUT_FOR_DELIVERY") return { label: "OUT FOR DELIVERY", title: "Your order is arriving soon." };
   if (phase === "CUSTOMS") return { label: "DELIVERY UPDATE", title: "Your order is moving through the delivery network." };
   if (phase === "IN_TRANSIT") return { label: "IN TRANSIT", title: "Your order is on the way." };
+  if (phase === "SHIPPED") return { label: "SHIPPED", title: "Your order has shipped." };
   return { label: "PREPARING", title: "We’re preparing your order." };
 }
 
-function latestEventFrom(snapshot: Awaited<ReturnType<typeof trackingLookupByToken>>) {
-  if (!snapshot?.timeline?.length) return null;
-  const dated = snapshot.timeline.filter((event) => event.eventDate && Number.isFinite(Date.parse(event.eventDate)));
-  if (dated.length) return dated.reduce((latest, event) =>
-    Date.parse(event.eventDate!) > Date.parse(latest.eventDate!) ? event : latest);
-  return snapshot.timeline[snapshot.timeline.length - 1] as AmbTrackingEvent;
+function EventTime({ value }: { value: string | null }) {
+  const iso = trackingEventIso(value);
+  if (iso) return <LocalTime iso={iso} />;
+  return value ? <>{value}</> : null;
 }
 
 export default async function TrackOrderPage({ searchParams }: PageProps) {
@@ -51,22 +52,28 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
       : null;
 
   const attempted = Boolean(token || (email && order));
-  const latestEvent = latestEventFrom(snapshot);
+  const latestEvent = latestTrackingEvent(snapshot?.timeline);
   const phase = snapshot
     ? trackingPhase({
         fulfillmentStatus: snapshot.fulfillment_status,
         latestEvent,
+        timeline: snapshot.timeline,
       })
     : "PREPARING";
   const copy = phaseCopy(phase);
   const hasCarrierEvidence = Boolean(snapshot?.tracking_code || snapshot?.timeline?.length || snapshot?.shipped_at);
   const awaitingUpdate = Boolean(snapshot && !hasCarrierEvidence);
-  const headline = latestEvent?.eventDesc?.trim() ||
+  // Same order as the AliExpress tracking page: milestone name first
+  // ("Collected by carrier"), then the carrier sentence and its time.
+  const headline = latestEvent?.status?.trim() || latestEvent?.eventDesc?.trim() ||
     (awaitingUpdate ? "Delivery status currently unavailable." : copy.title);
+  const latestDetail = latestEvent?.eventDesc?.trim() && latestEvent.eventDesc.trim() !== headline
+    ? latestEvent.eventDesc.trim() : "";
   const statusLabel = awaitingUpdate ? "AWAITING TRACKING UPDATE" : copy.label;
+  const estimatedDelivery = phase !== "DELIVERED" ? trackingEventIso(snapshot?.estimated_delivery_at) : null;
   const events = snapshot?.timeline?.slice().sort((a,b) => {
-    const ta = Date.parse(a.eventDate || "");
-    const tb = Date.parse(b.eventDate || "");
+    const ta = trackingEventTime(a.eventDate);
+    const tb = trackingEventTime(b.eventDate);
     return (Number.isFinite(tb) ? tb : 0) - (Number.isFinite(ta) ? ta : 0);
   }) || [];
 
@@ -156,6 +163,18 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
                 <h2 style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: 32, fontWeight: 500, margin: "10px 0 12px" }}>
                   {headline}
                 </h2>
+                {latestEvent && (latestDetail || latestEvent.eventDate) && (
+                  <p style={{ margin: "0 0 16px", lineHeight: 1.6, color: "#3f3a35" }}>
+                    {latestDetail}
+                    {latestDetail && latestEvent.eventDate ? " · " : ""}
+                    {latestEvent.eventDate && <span style={{ color: "#756d65", fontSize: 13 }}><EventTime value={latestEvent.eventDate} /></span>}
+                  </p>
+                )}
+                {estimatedDelivery && (
+                  <p style={{ margin: "0 0 16px", fontSize: 14, color: "#171512" }}>
+                    Estimated delivery: <strong>by <LocalTime iso={estimatedDelivery} dateOnly /></strong>
+                  </p>
+                )}
                 <div style={{ display: "grid", gap: 6, fontSize: 13, color: "#5c554e" }}>
                   <div>Order reference: <strong>{snapshot.session_id.slice(-10).toUpperCase()}</strong></div>
                   {snapshot.tracking_code && <div>Tracking code: <strong>{snapshot.tracking_code}</strong></div>}
@@ -168,7 +187,7 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(4,minmax(0,1fr))", gap: 8 }}>
                   {[
                     { label: "Confirmed", reached: true },
-                    { label: "Dispatched", reached: Boolean(snapshot.shipped_at || ["SHIPPED", "DELIVERED"].includes(snapshot.fulfillment_status) || ["IN_TRANSIT", "CUSTOMS", "OUT_FOR_DELIVERY", "DELIVERED"].includes(phase)) },
+                    { label: "Dispatched", reached: Boolean(snapshot.shipped_at || ["SHIPPED", "DELIVERED"].includes(snapshot.fulfillment_status) || ["SHIPPED", "IN_TRANSIT", "CUSTOMS", "OUT_FOR_DELIVERY", "DELIVERED"].includes(phase)) },
                     { label: "In transit", reached: ["IN_TRANSIT", "CUSTOMS", "OUT_FOR_DELIVERY", "DELIVERED"].includes(phase) },
                     { label: "Delivered", reached: phase === "DELIVERED" },
                   ].map((step) => (
@@ -183,16 +202,6 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
                 </p>}
               </div>
 
-              {latestEvent && (
-                <div style={{ background: "#efe5d9", padding: 26 }}>
-                  <div style={{ fontSize: 10, letterSpacing: ".14em", fontWeight: 700, marginBottom: 10 }}>LATEST UPDATE</div>
-                  <div style={{ fontSize: 17, fontWeight: 700, lineHeight: 1.45 }}>{latestEvent.eventDesc || latestEvent.status || "Delivery update"}</div>
-                  {latestEvent.status && latestEvent.eventDesc && <div style={{ marginTop: 5, fontSize: 13, color: "#5c554e" }}>{latestEvent.status}</div>}
-                  {latestEvent.address && <div style={{ marginTop: 8, color: "#5c554e" }}>{latestEvent.address}</div>}
-                  {latestEvent.eventDate && <div style={{ marginTop: 6, fontSize: 12, color: "#756d65" }}>{latestEvent.eventDate}</div>}
-                </div>
-              )}
-
               <div style={{ background: "#fffefc", border: "1px solid #dfd5ca", padding: 30 }}>
                 <div style={{ fontSize: 11, letterSpacing: ".16em", fontWeight: 700, marginBottom: 18 }}>DELIVERY JOURNEY</div>
                 {events.length ? (
@@ -202,9 +211,12 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
                         <div style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
                           <span aria-hidden="true" style={{ width: 10, height: 10, background: index === 0 ? "#9a755c" : "#d5c9bb", borderRadius: "50%", flexShrink: 0, marginTop: 5 }} />
                           <div style={{ minWidth: 0, flex: 1 }}>
+                            {event.status && event.status !== event.eventDesc && (
+                              <div style={{ fontSize: 10, letterSpacing: ".12em", fontWeight: 700, color: "#9a755c", marginBottom: 4, textTransform: "uppercase" }}>{event.status}</div>
+                            )}
                             <div style={{ fontSize: 14, fontWeight: 700, lineHeight: 1.45 }}>{event.eventDesc || event.status || "Delivery update"}</div>
-                        {event.address && <div style={{ marginTop: 5, color: "#5c554e", fontSize: 13 }}>{event.address}</div>}
-                        {event.eventDate && <div style={{ marginTop: 5, color: "#827a72", fontSize: 12 }}>{event.eventDate}</div>}
+                            {event.address && <div style={{ marginTop: 5, color: "#5c554e", fontSize: 13 }}>{event.address}</div>}
+                            {event.eventDate && <div style={{ marginTop: 5, color: "#827a72", fontSize: 12 }}><EventTime value={event.eventDate} /></div>}
                           </div>
                         </div>
                       </div>

@@ -43,6 +43,7 @@ export async function GET(request: NextRequest) {
     SELECT
       j.stripe_session_id,
       j.email,
+      j.market,
       c.first_name
     FROM amb_commerce_journeys j
     LEFT JOIN amb_contacts c ON c.id = j.contact_id
@@ -57,6 +58,7 @@ export async function GET(request: NextRequest) {
   ` as Array<{
     stripe_session_id: string;
     email: string;
+    market: string | null;
     first_name: string | null;
   }>;
 
@@ -132,6 +134,7 @@ export async function GET(request: NextRequest) {
               trackingCode: body.trackingCode,
               latestEvent: saved.latestEvent,
               timeline: saved.timeline,
+              market: order.market,
             });
             await completeTrackingNotification({
               sessionId,

@@ -4,6 +4,7 @@ import { Resend } from "resend";
 import { ambResendApiKey, ambResendFromEmail } from "./resend-config";
 import { createPublicTrackingToken, type AmbTrackingEvent } from "../fulfillment-tracking";
 import { emailProductGrid } from "./template";
+import { formatTrackingInstant, marketTimeZone, trackingEventIso } from "../tracking-time";
 
 function escapeHtml(value: string) {
   return value
@@ -44,6 +45,14 @@ function copyForPhase(phase: string) {
       body: "Your package has a new customs or clearance update. We’ll continue watching it for you and keep you informed.",
     };
   }
+  if (phase === "SHIPPED") {
+    return {
+      subject: "Your AMB order has shipped",
+      eyebrow: "SHIPPED",
+      headline: "Your AMB order is on its way.",
+      body: "Your package has been handed to the delivery network. We’ll follow it for you and send an update as it moves.",
+    };
+  }
   return {
     subject: "Your AMB order has a new delivery update",
     eyebrow: "ORDER IN TRANSIT",
@@ -60,6 +69,7 @@ export async function sendAmbTrackingUpdateEmail(input: {
   trackingCode: string | null;
   latestEvent: AmbTrackingEvent | null;
   timeline: AmbTrackingEvent[];
+  market?: string | null;
 }) {
   const apiKey = ambResendApiKey();
   if (!apiKey) throw new Error("AMB Resend is not configured.");
@@ -77,7 +87,12 @@ export async function sendAmbTrackingUpdateEmail(input: {
   const latest = input.latestEvent;
   const latestDescription = latest?.eventDesc || latest?.status || "Your order has a new delivery update.";
   const latestLocation = latest?.address || "";
-  const latestDate = latest?.eventDate || "";
+  const timeZone = marketTimeZone(input.market);
+  const eventTime = (value: string | null | undefined) => {
+    const iso = trackingEventIso(value);
+    return iso ? formatTrackingInstant(iso, { timeZone, showZone: true }) : value || "";
+  };
+  const latestDate = eventTime(latest?.eventDate);
 
   const recent = input.timeline.slice(-4).reverse();
   const timelineHtml = recent.length
@@ -86,7 +101,7 @@ export async function sendAmbTrackingUpdateEmail(input: {
         <td style="padding:12px 0;border-top:1px solid #e7dfd6;vertical-align:top">
           <div style="font-size:12px;font-weight:700;color:#171512">${escapeHtml(event.eventDesc || event.status || "Delivery update")}</div>
           ${event.address ? `<div style="margin-top:4px;font-size:12px;color:#6b655e">${escapeHtml(event.address)}</div>` : ""}
-          ${event.eventDate ? `<div style="margin-top:4px;font-size:11px;color:#8b8279">${escapeHtml(event.eventDate)}</div>` : ""}
+          ${event.eventDate ? `<div style="margin-top:4px;font-size:11px;color:#8b8279">${escapeHtml(eventTime(event.eventDate))}</div>` : ""}
         </td>
       </tr>`).join("")
     : "";
