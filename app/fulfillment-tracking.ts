@@ -204,7 +204,7 @@ async function createFulfillmentTrackingSchema() {
 
   await sql`
     ALTER TABLE amb_fulfillment_tracking
-    ADD COLUMN IF NOT EXISTS estimated_delivery_at TIMESTAMPTZ
+    ADD COLUMN IF NOT EXISTS estimated_delivery_at TEXT
   `;
 }
 
