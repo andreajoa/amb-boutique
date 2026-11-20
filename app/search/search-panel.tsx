@@ -3,9 +3,10 @@
 import Link from "next/link";
 import { FormEvent, useState } from "react";
 import { ProductCard } from "../components";
-import { products } from "../data";
+import { useStore } from "../store-provider";
 
 export function SearchPanel({ initialQuery = "" }: { initialQuery?: string }) {
+  const { catalog: products } = useStore();
   const [query, setQuery] = useState(initialQuery);
   const [searched, setSearched] = useState(Boolean(initialQuery));
   const results = query.trim() ? products.filter((product) => `${product.name} ${product.category}`.toLowerCase().includes(query.trim().toLowerCase())) : [];

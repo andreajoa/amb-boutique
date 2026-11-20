@@ -2,34 +2,33 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { products } from "./data";
+import type { Product } from "./data";
 import { productForSize } from "./product-pricing";
-import { protectMargin } from "./profitability";
+import { approvedOfferPercent } from "./offer-ceiling";
 import { rankRecommendations } from "./recommendations";
 import { useStore } from "./store-provider";
 
-type EligibleOffer = { product: (typeof products)[number]; approvedPercent: number };
+type EligibleOffer = { product: Product; approvedPercent: number };
 
 function percentage(value: number) {
   return value.toFixed(value % 1 ? 1 : 0);
 }
 
 export function PostPurchaseOffer({ sessionId, purchasedSlugs }: { sessionId: string; purchasedSlugs: string[] }) {
-  const { buyNow, formatMoney, checkoutError } = useStore();
+  const { buyNow, formatMoney, checkoutError, catalog: products } = useStore();
   const [showDownsell, setShowDownsell] = useState(false);
-  const purchased = purchasedSlugs.map((slug) => products.find((product) => product.slug === slug)).filter((product): product is (typeof products)[number] => Boolean(product));
+  const purchased = purchasedSlugs.map((slug) => products.find((product) => product.slug === slug)).filter((product): product is Product => Boolean(product));
   const ranked = rankRecommendations(products, purchasedSlugs, [], purchased)
     .map((product) => productForSize(product, product.sizes?.[0] || "One Size"));
-  const primary = ranked.map((product) => ({ product, margin: protectMargin(product, 15) }))
-    .find(({ margin }) => margin.costKnown && margin.approvedPercent > 0);
+  // approved > 0 already implies a verified cost (unknown cost => ceiling 0).
+  const primary = ranked.map((product) => ({ product, approvedPercent: approvedOfferPercent(product, 15) }))
+    .find(({ approvedPercent }) => approvedPercent > 0);
   const downsell = ranked.filter((product) => product.slug !== primary?.product.slug)
-    .map((product) => ({ product, margin: protectMargin(product, 10) }))
-    .filter(({ margin }) => margin.costKnown && margin.approvedPercent > 0)
+    .map((product) => ({ product, approvedPercent: approvedOfferPercent(product, 10) }))
+    .filter(({ approvedPercent }) => approvedPercent > 0)
     .sort((a, b) => a.product.price - b.product.price)[0];
 
-  const active: EligibleOffer | null = showDownsell
-    ? downsell ? { product: downsell.product, approvedPercent: downsell.margin.approvedPercent } : null
-    : primary ? { product: primary.product, approvedPercent: primary.margin.approvedPercent } : null;
+  const active: EligibleOffer | null = showDownsell ? downsell || null : primary || null;
   if (!active) return null;
 
   const privatePrice = active.product.price * (1 - active.approvedPercent / 100);

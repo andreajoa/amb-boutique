@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Footer, Header, ProductCard, getDirectProductImage, getProductImageStyle } from "../../components";
-import { Product, products } from "../../data";
+import type { Product } from "../../data";
 import { productPrice } from "../../product-pricing";
 import { stockForSize } from "../../product-inventory";
 import { getPreparationNotice } from "../../product-fulfillment";
@@ -59,11 +59,11 @@ export default function ProductDetail({
   const lightboxRef = useRef<HTMLDivElement>(null);
   const lightboxCloseRef = useRef<HTMLButtonElement>(null);
   const lightboxReturnFocus = useRef<HTMLElement | null>(null);
-  const { addItem, buyNow, formatMoney, preferredCategories, recordProductView, market } = useStore();
+  const { addItem, buyNow, formatMoney, preferredCategories, recordProductView, market, catalog: products } = useStore();
   const delivery = deliveryWindows[market] || deliveryWindows.US;
   // Same figures as /shipping: processing first, then the carrier window for the shopper's market.
   const deliveryLine = `${preparationNotice ? "" : "Ships in 1–3 business days · "}Arrives in about ${delivery.min}–${delivery.max} business days to ${markets[market]?.country || "the United States"}`;
-  const completeLook = useMemo(() => createCompleteLook(product, products, preferredCategories), [product, preferredCategories]);
+  const completeLook = useMemo(() => createCompleteLook(product, products, preferredCategories), [product, products, preferredCategories]);
 
   const spriteCount = product.gallerySprite ? product.gallerySprite.columns * product.gallerySprite.rows : 0;
   const gallery = product.gallerySprite && product.images?.length === 1

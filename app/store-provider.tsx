@@ -9,7 +9,7 @@ import { getPreparationNotice } from "./product-fulfillment";
 import { FIRST_ORDER_CODE, formatMarketPrice, getDiscountState, MarketCode, markets, US_FREE_SHIPPING_THRESHOLD_USD } from "./commerce";
 import { CartRewards } from "./cart-rewards";
 import { rankRecommendations } from "./recommendations";
-import { protectMargin } from "./profitability";
+import { approvedOfferPercent } from "./offer-ceiling";
 
 type OfferType = "cart-bump" | "post-purchase";
 
@@ -37,6 +37,8 @@ type AddEntry = { product: Product; options: AddOptions };
 type BehaviorEvent = "product_view" | "size_guide_open" | "add_to_cart" | "cart_open" | "style_look_add" | "checkout_start" | "checkout_error" | "save_item";
 
 type StoreContextValue = {
+  /** Browser-safe catalogue from the layout: no costs or supplier identity. */
+  catalog: Product[];
   cart: CartLine[];
   cartCount: number;
   cartTotal: number;
@@ -180,7 +182,7 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
   const estimatedTotal = useMemo(() => cart.reduce((sum, line) => {
     const product = catalogBySlug.get(line.slug);
     const requestedPercent = Math.max(discount.percent, welcomePercent, line.offer === "cart-bump" ? 10 : 0);
-    const approvedPercent = product ? protectMargin(productForSize(product, line.size), requestedPercent).approvedPercent : 0;
+    const approvedPercent = product ? approvedOfferPercent(productForSize(product, line.size), requestedPercent) : 0;
     return sum + line.price * line.quantity * (1 - approvedPercent / 100);
   }, 0), [cart, catalogBySlug, discount.percent, welcomePercent]);
   const effectiveDiscountUsd = cartTotal - estimatedTotal;
@@ -303,7 +305,7 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
     window.localStorage.removeItem(promoStorageKey);
   }, []);
   const closeCart = useCallback(() => setCartOpen(false), []);
-  const value = { cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, addItem, addItems, updateQuantity, removeItem, clearCart, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart, checkout, buyNow, checkoutError, getProductPreparationNotice };
+  const value = { catalog, cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, addItem, addItems, updateQuantity, removeItem, clearCart, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart, checkout, buyNow, checkoutError, getProductPreparationNotice };
   return <StoreContext.Provider value={value}>{children}<CartDrawer catalog={catalog} /></StoreContext.Provider>;
 }
 
@@ -395,8 +397,9 @@ function CartDrawer({ catalog }: { catalog: Product[] }) {
   const cartProducts = cart.map((line) => catalogBySlug.get(line.slug)).filter((product): product is Product => Boolean(product));
   const rankedUpsell = rankRecommendations(catalog, cart.map((line) => line.slug), preferredCategories, cartProducts)[0];
   const upsellCandidate = rankedUpsell ? productForSize(rankedUpsell, rankedUpsell.sizes?.[0] || "One Size") : undefined;
-  const upsellMargin = upsellCandidate ? protectMargin(upsellCandidate, 10) : null;
-  const upsell = upsellCandidate && upsellMargin?.costKnown && upsellMargin.approvedPercent > 0 ? upsellCandidate : null;
+  // approved > 0 already implies a verified cost (unknown cost => ceiling 0).
+  const upsellPercent = upsellCandidate ? approvedOfferPercent(upsellCandidate, 10) : 0;
+  const upsell = upsellCandidate && upsellPercent > 0 ? upsellCandidate : null;
   return <div className="cart-layer" role="dialog" aria-modal="true" aria-label="Shopping bag" ref={layerRef}>
     <button className="cart-backdrop" aria-label="Close shopping bag" onClick={closeCart}/>
     <aside className="cart-drawer">
@@ -413,7 +416,7 @@ function CartDrawer({ catalog }: { catalog: Product[] }) {
         </div>;
         })}</div>
         <CartRewards subtotalUsd={cartTotal} market={market} promoCode={promoCode} />
-        {upsell && upsellMargin && <div className="cart-upsell"><p>ONE-TIME CART OFFER</p><strong>Complete the look and save {upsellMargin.approvedPercent.toFixed(upsellMargin.approvedPercent % 1 ? 1 : 0)}%</strong><div><div className={`upsell-thumb sheet-${upsell.sheet} q${upsell.quadrant}`} style={upsell.images?.[0] ? { backgroundImage: `url(${upsell.images[0]})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundColor: "#f5efe5" } : undefined}/><span><strong>{upsell.name}</strong><small><del>{formatMoney(upsell.price)}</del> {formatMoney(upsell.price * (1 - upsellMargin.approvedPercent / 100))}</small></span><button type="button" onClick={() => addItem(upsell, { size: upsell.shoeVariants?.[0]?.sizes?.[0] || upsell.sizes?.[0] || "One Size", color: upsell.colorNames?.[0] || "Selected", heelHeightCm: upsell.shoeVariants?.[0]?.heelHeightCm || upsell.heelHeightCm, quantity: 1, offer: "cart-bump" })}>Add offer</button></div><small>Margin verified. Discounts never stack; the best eligible offer wins.</small></div>}
+        {upsell && upsellPercent > 0 && <div className="cart-upsell"><p>ONE-TIME CART OFFER</p><strong>Complete the look and save {upsellPercent.toFixed(upsellPercent % 1 ? 1 : 0)}%</strong><div><div className={`upsell-thumb sheet-${upsell.sheet} q${upsell.quadrant}`} style={upsell.images?.[0] ? { backgroundImage: `url(${upsell.images[0]})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundColor: "#f5efe5" } : undefined}/><span><strong>{upsell.name}</strong><small><del>{formatMoney(upsell.price)}</del> {formatMoney(upsell.price * (1 - upsellPercent / 100))}</small></span><button type="button" onClick={() => addItem(upsell, { size: upsell.shoeVariants?.[0]?.sizes?.[0] || upsell.sizes?.[0] || "One Size", color: upsell.colorNames?.[0] || "Selected", heelHeightCm: upsell.shoeVariants?.[0]?.heelHeightCm || upsell.heelHeightCm, quantity: 1, offer: "cart-bump" })}>Add offer</button></div><small>Margin verified. Discounts never stack; the best eligible offer wins.</small></div>}
         <div className="shipping-progress"><span>{market === "US" ? (shippingGap ? `You’re ${formatMoney(shippingGap)} away from complimentary U.S. shipping.` : "You’ve unlocked complimentary U.S. shipping.") : `Tracked delivery to ${markets[market].country} is calculated at checkout.`}</span>{market === "US" && <i><b style={{ width: `${Math.min(100, (cartTotal / US_FREE_SHIPPING_THRESHOLD_USD) * 100)}%` }}/></i>}</div>
         <div className="promo-entry"><label htmlFor="cart-code">Offer code</label><div><input id="cart-code" value={promoCode} onChange={(event) => setPromoCode(event.target.value)} placeholder="Enter code"/><button type="button">{promoCode ? "Applied" : "Apply"}</button></div>{promoCode && <small>{promoCode} is ready. The single best eligible discount will be used.</small>}</div>
         <label className="order-note">Add a note to your order<textarea rows={2} onChange={(event) => setOrderNote(event.target.value)}/></label>
