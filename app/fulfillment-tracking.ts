@@ -221,6 +221,26 @@ function cleanTimeline(events: AmbTrackingEvent[]) {
   }));
 }
 
+// The AliExpress tracking-page feed names every milestone ("Collected by
+// carrier"); the legacy logistics feed never does (empty status). When the page
+// feed fails for a moment the Store Manager falls back to the legacy one, and its
+// wording ("Package PickedUp") must not replace what the customer already sees.
+export function isAliExpressPageFeed(events: AmbTrackingEvent[]) {
+  return events.some((event) => Boolean(event.status?.trim()));
+}
+
+export function chooseTrackingTimeline(input: {
+  incoming: AmbTrackingEvent[];
+  previous: AmbTrackingEvent[] | null;
+}) {
+  const previous = input.previous || [];
+  // An empty refresh is not evidence that previously observed events vanished.
+  if (!input.incoming.length && previous.length) return previous;
+  // A legacy-feed refresh never overwrites a timeline from the page feed.
+  if (input.incoming.length && !isAliExpressPageFeed(input.incoming) && isAliExpressPageFeed(previous)) return previous;
+  return input.incoming;
+}
+
 export async function saveManagerTrackingStatus(status: ManagerFulfillmentStatus) {
   const sql = getAnalyticsSql();
   if (!sql) throw new Error("Database unavailable.");
@@ -242,10 +262,10 @@ export async function saveManagerTrackingStatus(status: ManagerFulfillmentStatus
       !status.shippedAt && !status.deliveredAt)) {
     throw new Error("Store Manager returned no verifiable shipment information.");
   }
-  // An empty refresh is not evidence that previously observed events vanished.
-  if (!timeline.length && old?.tracking_code === trackingCode && Array.isArray(old.timeline)) {
-    timeline = old.timeline;
-  }
+  timeline = chooseTrackingTimeline({
+    incoming: timeline,
+    previous: old?.tracking_code === trackingCode && Array.isArray(old?.timeline) ? old.timeline : null,
+  });
   const fulfillmentStatus = status.fulfillmentStatus === "ORDERED" &&
     ["SHIPPED", "DELIVERED"].includes(old?.fulfillment_status || "")
     ? old!.fulfillment_status : status.fulfillmentStatus;
