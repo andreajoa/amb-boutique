@@ -1,10 +1,8 @@
-import corrections from "../imports/catalog-corrections-20261024.json";
-import additions from "../imports/catalog-20261026-new-products-bindings.json";
+// Browser-safe: only stock per size and the purchasable flag. Generated from the
+// reviewed supplier snapshots by scripts/build-reviewed-stock.mjs (prebuild).
+import reviewedStock from "../imports/reviewed-stock.json";
 
-const reviewed = {
-  ...corrections.products,
-  ...Object.fromEntries(additions.products.map((product) => [product.slug, { stockBySize: product.stockBySize }])),
-} as Record<string, { stockBySize: Record<string, number>; purchasable?: boolean }>;
+const reviewed = reviewedStock as Record<string, { stockBySize: Record<string, number>; purchasable?: boolean }>;
 
 /** Conservative size caps from the reviewed supplier SKU snapshot. */
 export function stockForSize(product: { slug: string; stock?: number }, size: string) {

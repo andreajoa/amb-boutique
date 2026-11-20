@@ -11,6 +11,7 @@ import { AnalyticsTracker } from "./analytics-tracker";
 import { GA4EcommerceTracker } from "./ga4-ecommerce-tracker";
 import { AhrefsAnalytics } from "./ahrefs-analytics";
 import { products, type Product } from "./data";
+import { offerCeilingsFor } from "./profitability";
 import { PremiumInteractions } from "./premium-interactions";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ambboutique.online";
@@ -28,6 +29,8 @@ function getStoreCatalog(): Product[] {
     delete storeProduct.stripePriceId;
     delete storeProduct.vendor;
     delete storeProduct.weightOz;
+    // The cart applies offers from these ceilings; costs never leave the server.
+    storeProduct.offerCeilingByPrice = offerCeilingsFor(product);
     return storeProduct;
   });
 }

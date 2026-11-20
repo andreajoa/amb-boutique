@@ -16,7 +16,7 @@ load.extensions['.ts'] = (module, filename) => {
   module._compile(outputText, filename);
 };
 
-const { products } = load('../app/data.ts');
+const { products, productRecord } = load('../app/data.ts');
 const { resolveShoeProductSlug } = load('../app/shoe-products.ts');
 assert.equal(new Set(products.map(p => p.slug)).size, products.length, 'Duplicate product URLs');
 const release = JSON.parse(fs.readFileSync(`${repo}/imports/products-20261004-release.json`, 'utf8'));
@@ -41,7 +41,7 @@ for (const [slug, digest] of Object.entries(baseline)) {
   if (correction) {
     assert.deepEqual({ stock: product.stock, sizes: product.sizes }, correction.after, `Reviewed stock/size correction changed: ${slug}`);
   }
-  const original = correction ? { ...product, ...correction.before } : product;
+  const original = correction ? { ...productRecord(product), ...correction.before } : productRecord(product);
   assert.equal(crypto.createHash('sha256').update(JSON.stringify(stable(original))).digest('hex'), digest,
     `Changed established product: ${slug}`);
 }

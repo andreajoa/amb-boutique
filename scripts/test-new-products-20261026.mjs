@@ -22,11 +22,11 @@ global.fetch=()=>{throw Error('Network forbidden in catalog comparison')};
 require.extensions['.ts']=(m,f)=>{const relative=path.relative(root,f).split(path.sep).join('/');
  const source=cp.execFileSync('git',['show',ref+':'+relative],{encoding:'utf8'});
  m._compile(ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText,f)};
-process.stdout.write(JSON.stringify(require('./app/data.ts').products));`;
+const d=require('./app/data.ts');process.stdout.write(JSON.stringify(d.productRecord?d.products.map(d.productRecord):d.products));`;
 const baseline = JSON.parse(execFileSync(process.execPath, ["-e", baselineLoader], {
   cwd: root, env: process.env, maxBuffer: 16 * 1024 * 1024, encoding: "utf8",
 }));
-const { products } = load("../app/data.ts");
+const { products, productRecord } = load("../app/data.ts");
 const { stockForSize } = load("../app/product-inventory.ts");
 const plan = JSON.parse(fs.readFileSync(path.join(root, "imports/catalog-20261026-new-products-bindings.json"), "utf8"));
 const additions = plan.products.filter(binding => !baseline.some(product => product.slug === binding.slug));
@@ -59,7 +59,7 @@ for (const old of baseline) {
       assert.equal(previous.stockBySize[change.size],change.stockAfter);
     }
   }
-  assert.deepEqual(JSON.parse(JSON.stringify(products.find(p => p.slug === old.slug))), expected, `Unapproved existing product change: ${old.slug}`);
+  assert.deepEqual(JSON.parse(JSON.stringify(productRecord(products.find(p => p.slug === old.slug)))), expected, `Unapproved existing product change: ${old.slug}`);
 }
 for (const previous of baselinePlan.products) {
   const change = refresh.changes.find(c => c.slug === previous.slug);

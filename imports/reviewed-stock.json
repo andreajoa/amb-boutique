@@ -1,0 +1,803 @@
+{
+ "elle-ribbed-tank": {
+  "stockBySize": {
+   "XS": 10
+  },
+  "purchasable": false
+ },
+ "rue-ribbed-tank": {
+  "stockBySize": {
+   "L": 7,
+   "XS": 9,
+   "M": 7,
+   "S": 7
+  },
+  "purchasable": false
+ },
+ "ada-knit-vest": {
+  "stockBySize": {
+   "S": 15,
+   "L": 3,
+   "M": 19,
+   "XXL": 5,
+   "XL": 9
+  }
+ },
+ "nola-knit-vest": {
+  "stockBySize": {
+   "XXL": 23,
+   "M": 25,
+   "S": 23,
+   "XL": 20,
+   "L": 22
+  }
+ },
+ "etta-rib-tank": {
+  "stockBySize": {
+   "XL": 192,
+   "L": 69,
+   "M": 2,
+   "S": 59
+  }
+ },
+ "nia-rib-tank": {
+  "stockBySize": {
+   "XL": 41,
+   "L": 53,
+   "M": 39,
+   "S": 21
+  }
+ },
+ "zoe-square-neck-top": {
+  "stockBySize": {
+   "M": 0,
+   "L": 0,
+   "XS（old）": 0,
+   "S": 0
+  }
+ },
+ "sienna-square-neck-top": {
+  "stockBySize": {
+   "M": 0,
+   "L": 0,
+   "XS（old）": 0,
+   "S": 0
+  }
+ },
+ "indigo-ribbed-tank": {
+  "stockBySize": {
+   "L": 4,
+   "XS": 9,
+   "M": 6,
+   "S": 7
+  },
+  "purchasable": false
+ },
+ "maren-ribbed-tank": {
+  "stockBySize": {
+   "L": 7,
+   "XS": 10,
+   "M": 8,
+   "S": 8
+  },
+  "purchasable": false
+ },
+ "fiorenza-sequin-bodice-maxi-dress-green": {
+  "stockBySize": {
+   "S": 6,
+   "M": 7,
+   "XS（old）": 16
+  }
+ },
+ "mosaico-swing-midi-dress": {
+  "stockBySize": {
+   "S": 199,
+   "M": 199,
+   "L": 199,
+   "XL": 198,
+   "XXL": 198,
+   "XXXL": 197
+  }
+ },
+ "fio-dourado-swing-midi-dress": {
+  "stockBySize": {
+   "S": 199,
+   "M": 199,
+   "L": 198,
+   "XL": 199,
+   "XXL": 199,
+   "XXXL": 198
+  }
+ },
+ "tartan-swing-midi-dress": {
+  "stockBySize": {
+   "S": 199,
+   "M": 199,
+   "L": 199,
+   "XL": 198,
+   "XXL": 197,
+   "XXXL": 198
+  }
+ },
+ "mostarda-velvet-cowl-dress": {
+  "stockBySize": {
+   "S": 66,
+   "M": 66,
+   "L": 65,
+   "XL": 65,
+   "XXL": 66,
+   "XXXL": 66
+  }
+ },
+ "nevoa-velvet-cowl-dress": {
+  "stockBySize": {
+   "S": 66,
+   "M": 66,
+   "L": 66,
+   "XL": 64,
+   "XXL": 66,
+   "XXXL": 66
+  }
+ },
+ "ameixa-velvet-cowl-dress": {
+  "stockBySize": {
+   "S": 66,
+   "M": 66,
+   "L": 64,
+   "XL": 65,
+   "XXL": 66,
+   "XXXL": 66
+  }
+ },
+ "fiorenza-sequin-bodice-maxi-dress-black": {
+  "stockBySize": {
+   "S": 495,
+   "M": 12,
+   "L": 6,
+   "XL": 4,
+   "XS（old）": 4
+  }
+ },
+ "fiorenza-sequin-bodice-maxi-dress-dark-blue": {
+  "stockBySize": {
+   "S": 14,
+   "M": 10,
+   "L": 30,
+   "XL": 4,
+   "XS（old）": 10
+  }
+ },
+ "fiorenza-sequin-bodice-maxi-dress-pink": {
+  "stockBySize": {
+   "S": 20,
+   "M": 34,
+   "L": 12,
+   "XL": 30,
+   "XS（old）": 10
+  }
+ },
+ "fiorenza-sequin-bodice-maxi-dress-red": {
+  "stockBySize": {
+   "XS（old）": 40
+  }
+ },
+ "fiorenza-sequin-bodice-maxi-dress-wine-red": {
+  "stockBySize": {
+   "L": 12,
+   "XL": 20
+  }
+ },
+ "evelisse-cowl-neck-velvet-mini-dress-emerald-style-07": {
+  "stockBySize": {
+   "S": 66,
+   "M": 66,
+   "L": 66,
+   "XL": 66,
+   "XXL": 66,
+   "XXXL": 66
+  }
+ },
+ "evelisse-cowl-neck-velvet-mini-dress-royal-blue-style-06": {
+  "stockBySize": {
+   "S": 66,
+   "M": 66,
+   "L": 65,
+   "XL": 66,
+   "XXL": 66,
+   "XXXL": 66
+  }
+ },
+ "evelisse-cowl-neck-velvet-mini-dress-burgundy-style-23": {
+  "stockBySize": {
+   "S": 66,
+   "M": 66,
+   "L": 65,
+   "XL": 66,
+   "XXL": 66,
+   "XXXL": 66
+  }
+ },
+ "evelisse-cowl-neck-velvet-mini-dress-black-style-22": {
+  "stockBySize": {
+   "S": 64,
+   "M": 66,
+   "L": 66,
+   "XL": 65,
+   "XXL": 66,
+   "XXXL": 66
+  }
+ },
+ "evelisse-cowl-neck-velvet-mini-dress-champagne-style-05": {
+  "stockBySize": {
+   "S": 65,
+   "M": 65,
+   "L": 65,
+   "XL": 64,
+   "XXL": 63,
+   "XXXL": 65
+  }
+ },
+ "elowyn-embellished-sleeve-mini-dress-pink-style-14": {
+  "stockBySize": {
+   "S": 66,
+   "M": 66,
+   "L": 65,
+   "XL": 66,
+   "XXL": 66,
+   "XXXL": 66
+  }
+ },
+ "elowyn-embellished-sleeve-mini-dress-burgundy-style-30": {
+  "stockBySize": {
+   "S": 66,
+   "M": 66,
+   "L": 66,
+   "XL": 66,
+   "XXL": 65,
+   "XXXL": 66
+  }
+ },
+ "elowyn-embellished-sleeve-mini-dress-charcoal-style-13": {
+  "stockBySize": {
+   "S": 66,
+   "M": 66,
+   "L": 66,
+   "XL": 66,
+   "XXL": 66,
+   "XXXL": 66
+  }
+ },
+ "elowyn-embellished-sleeve-mini-dress-emerald-style-31": {
+  "stockBySize": {
+   "S": 66,
+   "M": 66,
+   "L": 66,
+   "XL": 66,
+   "XXL": 66,
+   "XXXL": 66
+  }
+ },
+ "elowyn-embellished-sleeve-mini-dress-black-style-29": {
+  "stockBySize": {
+   "S": 66,
+   "M": 66,
+   "L": 66,
+   "XL": 66,
+   "XXL": 66,
+   "XXXL": 66
+  }
+ },
+ "elowyn-embellished-sleeve-mini-dress-royal-blue-style-12": {
+  "stockBySize": {
+   "S": 66,
+   "M": 66,
+   "L": 65,
+   "XL": 66,
+   "XXL": 65,
+   "XXXL": 66
+  }
+ },
+ "elowyn-embellished-sleeve-mini-dress-red-style-11": {
+  "stockBySize": {
+   "S": 66,
+   "M": 64,
+   "L": 66,
+   "XL": 65,
+   "XXL": 66,
+   "XXXL": 65
+  }
+ },
+ "elowyn-embellished-sleeve-mini-dress-navy-style-28": {
+  "stockBySize": {
+   "S": 66,
+   "M": 66,
+   "L": 66,
+   "XL": 66,
+   "XXL": 66,
+   "XXXL": 66
+  }
+ },
+ "elowyn-embellished-sleeve-mini-dress-gold-style-10": {
+  "stockBySize": {
+   "S": 66,
+   "M": 65,
+   "L": 65,
+   "XL": 66,
+   "XXL": 65,
+   "XXXL": 66
+  }
+ },
+ "odessa-polka-dot-halter-swing-dress-blue": {
+  "stockBySize": {
+   "S": 98,
+   "M": 97,
+   "L": 98,
+   "XL": 98,
+   "XXL": 100
+  }
+ },
+ "odessa-polka-dot-halter-swing-dress-green": {
+  "stockBySize": {
+   "S": 98,
+   "M": 98,
+   "L": 99,
+   "XL": 98,
+   "XXL": 100
+  }
+ },
+ "odessa-polka-dot-halter-swing-dress-red": {
+  "stockBySize": {
+   "S": 87,
+   "M": 96,
+   "L": 99,
+   "XL": 98,
+   "XXL": 100
+  }
+ },
+ "odessa-polka-dot-halter-swing-dress-black": {
+  "stockBySize": {
+   "S": 95,
+   "M": 97,
+   "L": 99,
+   "XL": 95,
+   "XXL": 98
+  }
+ },
+ "odessa-polka-dot-halter-swing-dress-white": {
+  "stockBySize": {
+   "S": 99,
+   "M": 99,
+   "L": 100,
+   "XL": 99,
+   "XXL": 98
+  }
+ },
+ "odessa-polka-dot-halter-swing-dress-lavender": {
+  "stockBySize": {
+   "S": 97,
+   "M": 98,
+   "L": 100,
+   "XL": 100,
+   "XXL": 99
+  }
+ },
+ "vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19": {
+  "stockBySize": {
+   "S": 65,
+   "M": 65,
+   "L": 65,
+   "XL": 66,
+   "XXL": 66,
+   "XXXL": 66
+  }
+ },
+ "vionelle-lace-sleeve-asymmetric-mini-dress-plum-style-18": {
+  "stockBySize": {
+   "S": 66,
+   "M": 66,
+   "L": 66,
+   "XL": 66,
+   "XXL": 66,
+   "XXXL": 66
+  }
+ },
+ "vionelle-lace-sleeve-asymmetric-mini-dress-burgundy-style-17": {
+  "stockBySize": {
+   "S": 66,
+   "M": 65,
+   "L": 64,
+   "XL": 66,
+   "XXL": 64,
+   "XXXL": 66
+  }
+ },
+ "vionelle-lace-sleeve-asymmetric-mini-dress-emerald-style-16": {
+  "stockBySize": {
+   "S": 66,
+   "M": 66,
+   "L": 66,
+   "XL": 66,
+   "XXL": 66,
+   "XXXL": 66
+  }
+ },
+ "rosaline-rosette-corset-mini-dress-yellow": {
+  "stockBySize": {
+   "L": 3
+  }
+ },
+ "rosaline-rosette-corset-mini-dress-black": {
+  "stockBySize": {
+   "S": 1,
+   "M": 3,
+   "L": 7
+  }
+ },
+ "rosaline-rosette-corset-mini-dress-red-high-end-fabric": {
+  "stockBySize": {
+   "S": 5,
+   "M": 1,
+   "L": 5,
+   "XL": 3
+  }
+ },
+ "rosaline-rosette-corset-mini-dress-hot-pink": {
+  "stockBySize": {
+   "XS": 15,
+   "S": 15,
+   "M": 23,
+   "L": 25
+  }
+ },
+ "rosaline-rosette-corset-mini-dress-red-bandage-fabric": {
+  "stockBySize": {
+   "XS": 18,
+   "S": 30,
+   "M": 28,
+   "L": 31
+  }
+ },
+ "arlena-cutout-halter-maxi-dress-black": {
+  "stockBySize": {
+   "XS": 64,
+   "S": 54,
+   "M": 57,
+   "L": 67
+  }
+ },
+ "arlena-cutout-halter-maxi-dress-coffee": {
+  "stockBySize": {
+   "XS": 33,
+   "S": 35,
+   "M": 33,
+   "L": 34
+  }
+ },
+ "verdelle-lace-bodice-pleated-gown-green": {
+  "stockBySize": {
+   "S": 857,
+   "M": 782,
+   "L": 985
+  }
+ },
+ "noctelle-strapless-corset-midi-dress-black": {
+  "stockBySize": {
+   "XS": 352,
+   "S": 338,
+   "M": 368,
+   "L": 373
+  }
+ },
+ "mirabelle-bow-strap-floral-gown-red": {
+  "stockBySize": {
+   "XS": 280,
+   "S": 275,
+   "M": 272,
+   "L": 269
+  }
+ },
+ "bellora-slit-slip-maxi-dress-red": {
+  "stockBySize": {
+   "S": 45,
+   "M": 17,
+   "L": 38
+  }
+ },
+ "bellora-slit-slip-maxi-dress-black": {
+  "stockBySize": {
+   "S": 33,
+   "M": 17,
+   "L": 15
+  }
+ },
+ "cerelia-lace-corset-mini-dress-gray": {
+  "stockBySize": {
+   "XS（old）": 5,
+   "S": 5,
+   "M": 5,
+   "L": 5
+  }
+ },
+ "asteria-star-print-tulle-mini-dress-green": {
+  "stockBySize": {
+   "S": 6,
+   "M": 3,
+   "XL": 7,
+   "XXL": 4
+  }
+ },
+ "caldera-graphic-stripe-mini-dress-black": {
+  "stockBySize": {
+   "XS": 8,
+   "S": 4,
+   "M": 10,
+   "L": 9,
+   "XL": 9
+  }
+ },
+ "hollis-festive-knit-sweater-dress-white": {
+  "stockBySize": {
+   "S": 30,
+   "M": 30,
+   "L": 30,
+   "XL": 30
+  }
+ },
+ "hollis-festive-knit-sweater-dress-red": {
+  "stockBySize": {
+   "S": 41,
+   "M": 47,
+   "L": 47,
+   "XL": 48
+  }
+ },
+ "lumielle-sequin-slip-mini-dress-silver": {
+  "stockBySize": {
+   "S": 3,
+   "M": 4
+  }
+ },
+ "arlena-cutout-halter-maxi-dress-red": {
+  "stockBySize": {
+   "XS": 54,
+   "S": 55,
+   "M": 60,
+   "L": 57
+  }
+ },
+ "verdelle-contrast-corset-top-khaki": {
+  "stockBySize": {
+   "S": 993,
+   "M": 998,
+   "L": 999
+  }
+ },
+ "noctelle-strapless-corset-dress-red": {
+  "stockBySize": {
+   "XS": 389,
+   "S": 390,
+   "M": 388,
+   "L": 395
+  }
+ },
+ "rubina-angular-swing-dress": {
+  "stockBySize": {
+   "S": 199,
+   "M": 199,
+   "L": 199,
+   "XL": 199,
+   "XXL": 198,
+   "XXXL": 199
+  }
+ },
+ "amara-layered-mesh-skirt-apricot": {
+  "stockBySize": {
+   "One Size": 38
+  }
+ },
+ "amara-layered-mesh-skirt-green": {
+  "stockBySize": {
+   "One Size": 184
+  }
+ },
+ "marisol-striped-wide-leg-jumpsuit-light-brown": {
+  "stockBySize": {
+   "XS": 888,
+   "S": 888,
+   "M": 887,
+   "L": 888,
+   "XL": 888,
+   "XXL": 888,
+   "XXXL": 887
+  }
+ },
+ "marisol-striped-wide-leg-jumpsuit-light-blue": {
+  "stockBySize": {
+   "XS": 888,
+   "S": 887,
+   "M": 887,
+   "L": 888,
+   "XL": 888,
+   "XXL": 888,
+   "XXXL": 888
+  }
+ },
+ "marisol-striped-wide-leg-jumpsuit-pink": {
+  "stockBySize": {
+   "XS": 888,
+   "S": 887,
+   "M": 888,
+   "L": 888,
+   "XL": 888,
+   "XXL": 888,
+   "XXXL": 888
+  }
+ },
+ "marisol-striped-wide-leg-jumpsuit-light-green": {
+  "stockBySize": {
+   "XS": 888,
+   "S": 888,
+   "M": 888,
+   "L": 887,
+   "XL": 888,
+   "XXL": 888,
+   "XXXL": 887
+  }
+ },
+ "marisol-striped-wide-leg-jumpsuit-royal-blue": {
+  "stockBySize": {
+   "XS": 888,
+   "S": 888,
+   "M": 888,
+   "L": 888,
+   "XL": 888,
+   "XXL": 888,
+   "XXXL": 888
+  }
+ },
+ "paloma-tie-side-halter-mini-dress-dark-blue": {
+  "stockBySize": {
+   "S": 1,
+   "L": 1,
+   "XL": 2
+  }
+ },
+ "paloma-tie-side-halter-mini-dress-pink": {
+  "stockBySize": {
+   "S": 2,
+   "M": 1,
+   "L": 2,
+   "XL": 3,
+   "XXL": 3
+  }
+ },
+ "paloma-tie-side-halter-mini-dress-red": {
+  "stockBySize": {
+   "M": 3,
+   "L": 1,
+   "XL": 2,
+   "XXL": 1
+  }
+ },
+ "paloma-tie-side-halter-mini-dress-green": {
+  "stockBySize": {
+   "L": 2,
+   "XL": 1,
+   "XXL": 2
+  }
+ },
+ "liora-twist-back-knit-tank-black": {
+  "stockBySize": {
+   "S": 207,
+   "M": 211,
+   "L": 206
+  }
+ },
+ "liora-twist-back-knit-tank-ivory": {
+  "stockBySize": {
+   "S": 3,
+   "M": 209,
+   "L": 205
+  }
+ },
+ "liora-twist-back-knit-tank-khaki": {
+  "stockBySize": {
+   "S": 204,
+   "M": 208,
+   "L": 209
+  }
+ },
+ "isadora-gathered-v-neck-midi-dress-white": {
+  "stockBySize": {
+   "3XL": 14,
+   "4XL": 12
+  }
+ },
+ "isadora-gathered-v-neck-midi-dress-terracotta": {
+  "stockBySize": {
+   "4XL": 33,
+   "5XL": 25
+  }
+ },
+ "nerelle-sleeveless-swing-mini-dress-black": {
+  "stockBySize": {
+   "S": 5,
+   "M": 1,
+   "L": 3,
+   "XL": 2,
+   "XXL": 1
+  }
+ },
+ "nerelle-sleeveless-swing-mini-dress-white": {
+  "stockBySize": {
+   "S": 5,
+   "M": 1,
+   "L": 5,
+   "XL": 5,
+   "XXL": 3
+  }
+ },
+ "nerelle-sleeveless-swing-mini-dress-royal-blue": {
+  "stockBySize": {
+   "S": 5,
+   "M": 5,
+   "L": 4,
+   "XL": 5,
+   "XXL": 1
+  }
+ },
+ "nerelle-sleeveless-swing-mini-dress-pink": {
+  "stockBySize": {
+   "S": 5,
+   "M": 3,
+   "L": 5,
+   "XL": 2,
+   "XXL": 5
+  }
+ },
+ "nerelle-sleeveless-swing-mini-dress-red": {
+  "stockBySize": {
+   "S": 3,
+   "M": 5,
+   "L": 3,
+   "XL": 3,
+   "XXL": 4
+  }
+ },
+ "nerelle-sleeveless-swing-mini-dress-chestnut-brown": {
+  "stockBySize": {
+   "S": 5,
+   "M": 5,
+   "L": 1,
+   "XL": 4,
+   "XXL": 2
+  }
+ },
+ "nerelle-sleeveless-swing-mini-dress-gray": {
+  "stockBySize": {
+   "S": 4,
+   "M": 5,
+   "L": 1,
+   "XL": 2,
+   "XXL": 3
+  }
+ },
+ "nerelle-sleeveless-swing-mini-dress-yellow": {
+  "stockBySize": {
+   "S": 5,
+   "M": 5,
+   "L": 5,
+   "XL": 4,
+   "XXL": 5
+  }
+ },
+ "nerelle-sleeveless-swing-mini-dress-army-green": {
+  "stockBySize": {
+   "S": 3,
+   "M": 1,
+   "L": 5,
+   "XL": 2,
+   "XXL": 1
+  }
+ }
+}

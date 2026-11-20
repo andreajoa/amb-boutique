@@ -2,11 +2,12 @@
 
 import Link from "next/link";
 import { Footer, Header, ProductCard } from "../components";
-import { products } from "../data";
+import { useStore } from "../store-provider";
 import { useSavedItems } from "../saved-items";
 
 export default function SavedPage() {
   const { saved } = useSavedItems();
+  const { catalog: products } = useStore();
   const items = saved.map((slug) => products.find((product) => product.slug === slug)).filter((product) => product !== undefined);
   return <main>
     <Header />

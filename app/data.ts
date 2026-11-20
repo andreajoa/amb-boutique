@@ -52,6 +52,8 @@ export type Product = {
   gallerySprite?: { columns: number; rows: number; viewWidth: number; viewHeight: number };
   galleryAtlasIndex?: number;
   galleryAtlasCount?: number;
+  /** Browser-safe discount ceiling (percent) per price in cents; never the cost. */
+  offerCeilingByPrice?: Record<string, number>;
 };
 
 const placeholderProducts: Product[] = [
@@ -87,6 +89,34 @@ export const products: Product[] = [
   ...supplementalProducts.filter((product) => !establishedSlugs.has(product.slug)),
   ...octoberColorProducts,
 ];
+
+// Supplier identity and product economics are internal. They stay readable on
+// the server (checkout margin guard, Store Manager catalog route, catalogue
+// scripts) but are non-enumerable, so they never reach the browser: React Server
+// Component props, spreads and JSON all skip them.
+const INTERNAL_PRODUCT_FIELDS = [
+  "sourceProductId", "sourceColor",
+  "unitCostUsd", "inboundFreightUsd", "dutyUsd", "packagingUsd",
+  "minimumMarginPercent", "minimumCostMultiplier",
+] as const;
+for (const product of products) {
+  for (const key of INTERNAL_PRODUCT_FIELDS) {
+    if (Object.prototype.hasOwnProperty.call(product, key)) {
+      Object.defineProperty(product, key, { value: product[key], enumerable: false, writable: true, configurable: true });
+    }
+  }
+}
+
+/** The complete record, internal fields included (server code and catalogue scripts only). */
+export function productRecord(product: Product): Product {
+  const record: Product = { ...product };
+  for (const key of INTERNAL_PRODUCT_FIELDS) {
+    if (Object.prototype.hasOwnProperty.call(product, key)) {
+      (record as Record<string, unknown>)[key] = product[key];
+    }
+  }
+  return record;
+}
 
 type CategoryPage = {
   slug: string;

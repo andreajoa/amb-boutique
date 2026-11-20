@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Footer, Header } from "../components";
 import {
-  latestTrackingEvent,
   trackingLookupByEmailAndReference,
   trackingLookupByToken,
-  trackingPhase,
 } from "../fulfillment-tracking";
-import { trackingEventIso, trackingEventTime } from "../tracking-time";
+import { trackingEventIso } from "../tracking-time";
+import { buildTrackingView } from "../tracking-view";
 import { LocalTime } from "./local-time";
 
 export const metadata: Metadata = {
@@ -23,15 +23,6 @@ type PageProps = {
     order?: string;
   }>;
 };
-
-function phaseCopy(phase: string) {
-  if (phase === "DELIVERED") return { label: "DELIVERED", title: "Your order has arrived." };
-  if (phase === "OUT_FOR_DELIVERY") return { label: "OUT FOR DELIVERY", title: "Your order is arriving soon." };
-  if (phase === "CUSTOMS") return { label: "DELIVERY UPDATE", title: "Your order is moving through the delivery network." };
-  if (phase === "IN_TRANSIT") return { label: "IN TRANSIT", title: "Your order is on the way." };
-  if (phase === "SHIPPED") return { label: "SHIPPED", title: "Your order has shipped." };
-  return { label: "PREPARING", title: "We’re preparing your order." };
-}
 
 function EventTime({ value }: { value: string | null }) {
   const iso = trackingEventIso(value);
@@ -52,30 +43,7 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
       : null;
 
   const attempted = Boolean(token || (email && order));
-  const latestEvent = latestTrackingEvent(snapshot?.timeline);
-  const phase = snapshot
-    ? trackingPhase({
-        fulfillmentStatus: snapshot.fulfillment_status,
-        latestEvent,
-        timeline: snapshot.timeline,
-      })
-    : "PREPARING";
-  const copy = phaseCopy(phase);
-  const hasCarrierEvidence = Boolean(snapshot?.tracking_code || snapshot?.timeline?.length || snapshot?.shipped_at);
-  const awaitingUpdate = Boolean(snapshot && !hasCarrierEvidence);
-  // Same order as the AliExpress tracking page: milestone name first
-  // ("Collected by carrier"), then the carrier sentence and its time.
-  const headline = latestEvent?.status?.trim() || latestEvent?.eventDesc?.trim() ||
-    (awaitingUpdate ? "Delivery status currently unavailable." : copy.title);
-  const latestDetail = latestEvent?.eventDesc?.trim() && latestEvent.eventDesc.trim() !== headline
-    ? latestEvent.eventDesc.trim() : "";
-  const statusLabel = awaitingUpdate ? "AWAITING TRACKING UPDATE" : copy.label;
-  const estimatedDelivery = phase !== "DELIVERED" ? trackingEventIso(snapshot?.estimated_delivery_at) : null;
-  const events = snapshot?.timeline?.slice().sort((a,b) => {
-    const ta = trackingEventTime(a.eventDate);
-    const tb = trackingEventTime(b.eventDate);
-    return (Number.isFinite(tb) ? tb : 0) - (Number.isFinite(ta) ? ta : 0);
-  }) || [];
+  const view = snapshot ? buildTrackingView(snapshot) : null;
 
   return (
     <main>
@@ -133,17 +101,17 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
               <p style={{ lineHeight: 1.7, color: "#5c554e" }}>
                 Check the order reference and the email used during checkout. If you still need help, contact info@ambboutique.online.
               </p>
-              <a href="/track-order" style={{ color: "#171512", fontWeight: 700 }}>Try again</a>
+              <Link href="/track-order" style={{ color: "#171512", fontWeight: 700 }}>Try again</Link>
             </div>
           )}
 
-          {snapshot && (
+          {snapshot && view && (
             <div style={{ display: "grid", gap: 20 }}>
-              {Boolean(snapshot.purchasedItems?.length) && (
+              {Boolean(view.items.length) && (
                 <section style={{ background: "#fffefc", border: "1px solid #dfd5ca", padding: 28 }}>
                   <h2 style={{ fontSize: 12, letterSpacing: ".14em", margin: "0 0 20px" }}>ITEMS IN YOUR ORDER</h2>
                   <div style={{ display: "grid", gap: 18 }}>
-                    {snapshot.purchasedItems?.map((item, i) => (
+                    {view.items.map((item, i) => (
                       <div key={i} style={{ display: "flex", gap: 18, alignItems: "center", flexWrap: "wrap" }}>
                         {item.image ? <img src={item.image} alt={item.name} width={108} height={135} style={{ width: 108, height: 135, objectFit: "contain", background: "#f5efe5" }}/> :
                           <div style={{ width: 108, height: 135, background: "#f5efe5", display: "grid", placeItems: "center", fontSize: 11, color: "#796d63" }}>Image unavailable</div>}
@@ -159,54 +127,49 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
                 </section>
               )}
               <div style={{ background: "#fffefc", border: "1px solid #dfd5ca", padding: 30 }}>
-                <div style={{ fontSize: 11, letterSpacing: ".16em", fontWeight: 700, color: "#9a755c" }}>{statusLabel}</div>
+                <div style={{ fontSize: 11, letterSpacing: ".16em", fontWeight: 700, color: "#9a755c" }}>{view.statusLabel}</div>
                 <h2 style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: 32, fontWeight: 500, margin: "10px 0 12px" }}>
-                  {headline}
+                  {view.headline}
                 </h2>
-                {latestEvent && (latestDetail || latestEvent.eventDate) && (
+                {view.latestEvent && (view.latestDetail || view.latestEvent.eventDate) && (
                   <p style={{ margin: "0 0 16px", lineHeight: 1.6, color: "#3f3a35" }}>
-                    {latestDetail}
-                    {latestDetail && latestEvent.eventDate ? " · " : ""}
-                    {latestEvent.eventDate && <span style={{ color: "#756d65", fontSize: 13 }}><EventTime value={latestEvent.eventDate} /></span>}
+                    {view.latestDetail}
+                    {view.latestDetail && view.latestEvent.eventDate ? " · " : ""}
+                    {view.latestEvent.eventDate && <span style={{ color: "#756d65", fontSize: 13 }}><EventTime value={view.latestEvent.eventDate} /></span>}
                   </p>
                 )}
-                {estimatedDelivery && (
+                {view.estimatedDelivery && (
                   <p style={{ margin: "0 0 16px", fontSize: 14, color: "#171512" }}>
-                    Estimated delivery: <strong>by <LocalTime iso={estimatedDelivery} dateOnly /></strong>
+                    Estimated delivery: <strong>by <LocalTime iso={view.estimatedDelivery} dateOnly /></strong>
                   </p>
                 )}
                 <div style={{ display: "grid", gap: 6, fontSize: 13, color: "#5c554e" }}>
-                  <div>Order reference: <strong>{snapshot.session_id.slice(-10).toUpperCase()}</strong></div>
-                  {snapshot.tracking_code && <div>Tracking code: <strong>{snapshot.tracking_code}</strong></div>}
-                  <div>Delivery service: <strong>AMB Boutique Delivery</strong></div>
+                  <div>Order reference: <strong>{view.orderReference}</strong></div>
+                  {view.trackingCode && <div>Tracking code: <strong>{view.trackingCode}</strong></div>}
+                  <div>Delivery service: <strong>{view.deliveryService}</strong></div>
                 </div>
               </div>
 
               <div style={{ background: "#fffefc", border: "1px solid #dfd5ca", padding: "28px 30px" }}>
                 <div style={{ fontSize: 11, letterSpacing: ".15em", fontWeight: 700, marginBottom: 20 }}>DELIVERY PROGRESS</div>
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(4,minmax(0,1fr))", gap: 8 }}>
-                  {[
-                    { label: "Confirmed", reached: true },
-                    { label: "Dispatched", reached: Boolean(snapshot.shipped_at || ["SHIPPED", "DELIVERED"].includes(snapshot.fulfillment_status) || ["SHIPPED", "IN_TRANSIT", "CUSTOMS", "OUT_FOR_DELIVERY", "DELIVERED"].includes(phase)) },
-                    { label: "In transit", reached: ["IN_TRANSIT", "CUSTOMS", "OUT_FOR_DELIVERY", "DELIVERED"].includes(phase) },
-                    { label: "Delivered", reached: phase === "DELIVERED" },
-                  ].map((step) => (
+                  {view.progress.map((step) => (
                     <div key={step.label} style={{ minWidth: 0 }}>
                       <div style={{ height: 5, borderRadius: 8, background: step.reached ? "#9a755c" : "#e8dfd5", marginBottom: 10 }} />
                       <span style={{ color: step.reached ? "#171512" : "#867e75", fontSize: 11, fontWeight: step.reached ? 700 : 400, overflowWrap: "anywhere" }}>{step.label}</span>
                     </div>
                   ))}
                 </div>
-                {snapshot.tracking_code && <p style={{ margin: "18px 0 0", fontSize: 12, color: "#5c554e", overflowWrap: "anywhere" }}>
-                  Tracking number: <strong>{snapshot.tracking_code}</strong>
+                {view.trackingCode && <p style={{ margin: "18px 0 0", fontSize: 12, color: "#5c554e", overflowWrap: "anywhere" }}>
+                  Tracking number: <strong>{view.trackingCode}</strong>
                 </p>}
               </div>
 
               <div style={{ background: "#fffefc", border: "1px solid #dfd5ca", padding: 30 }}>
                 <div style={{ fontSize: 11, letterSpacing: ".16em", fontWeight: 700, marginBottom: 18 }}>DELIVERY JOURNEY</div>
-                {events.length ? (
+                {view.events.length ? (
                   <div>
-                    {events.map((event, index) => (
+                    {view.events.map((event, index) => (
                       <div key={`${event.eventDate || "event"}-${index}`} style={{ padding: "16px 0", borderTop: index ? "1px solid #e7dfd6" : "none" }}>
                         <div style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
                           <span aria-hidden="true" style={{ width: 10, height: 10, background: index === 0 ? "#9a755c" : "#d5c9bb", borderRadius: "50%", flexShrink: 0, marginTop: 5 }} />
