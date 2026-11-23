@@ -12,6 +12,7 @@ import {
   type ManagerFulfillmentStatus,
 } from "../../../fulfillment-tracking";
 import { sendAmbTrackingUpdateEmail } from "../../../email/tracking-update";
+import { syncDeliveryWindowsFromManager } from "../../../product-delivery";
 import { storeManagerSyncToken } from "../../../store-manager-auth";
 import { signAmbFulfillmentPayload } from "../../../fulfillment-signing";
 
@@ -169,6 +170,15 @@ export async function GET(request: NextRequest) {
     }
   }
 
+  const deliverySync = await syncDeliveryWindowsFromManager().catch((error) => ({
+    ok: false,
+    reason: error instanceof Error ? error.message : "Delivery sync failed",
+    syncedProducts: 0,
+    syncedRows: 0,
+    removedRows: 0,
+    timestamp: new Date().toISOString(),
+  }));
+
   return NextResponse.json({
     ok: true,
     checked: results.length,
@@ -176,6 +186,7 @@ export async function GET(request: NextRequest) {
     notified: results.filter((item) => item.notified === true).length,
     failed: results.filter((item) => item.ok === false).length,
     results,
+    deliverySync,
     timestamp: new Date().toISOString(),
   }, {
     headers: { "Cache-Control": "no-store" },

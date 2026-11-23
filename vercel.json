@@ -6,6 +6,10 @@
       "schedule": "0 9 * * *"
     },
     {
+      "path": "/api/cron/delivery-sync",
+      "schedule": "0 */6 * * *"
+    },
+    {
       "path": "/api/cron/email-journeys",
       "schedule": "0 15 * * *"
     }

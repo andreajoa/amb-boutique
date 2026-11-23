@@ -3,6 +3,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { dashboardAuthenticated } from "./auth";
 import { getAnalyticsSql } from "../analytics/db";
+import { getDeliverySyncStatus } from "../product-delivery";
 import { allCampaigns, cartRecoveryCampaigns, checkoutRecoveryCampaigns, newsletterCampaigns } from "../email/campaigns";
 import { DashboardAutoRefresh } from "./dashboard-auto-refresh";
 import { getDashboardOrders, type DashboardAddress, type DashboardOrder } from "./orders";
@@ -42,6 +43,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
   if (!sql) return <main className={styles.dashboard}><Setup/></main>;
 
   const ordersPromise = getDashboardOrders(days);
+  const deliverySyncPromise = getDeliverySyncStatus();
   const [metricsRows, funnelRows, sourceRows, countryRows, productRows, emailRows, emailCampaignRows, journeyRows, recentRows] = await Promise.all([
     sql`
       SELECT
@@ -136,7 +138,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
       ORDER BY last_activity_at DESC LIMIT 12
     `,
   ]) as Array<Array<Row>>;
-  const orderResult = await ordersPromise;
+  const [orderResult, deliverySyncStatus] = await Promise.all([ordersPromise, deliverySyncPromise]);
 
   const metrics = metricsRows[0] || {};
   const paidOrders = orderResult.orders.length;
@@ -162,6 +164,10 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
       <span>{n(metrics.visitors)} consented visitors</span>
       <span>{allCampaigns.length} email journeys drafted</span>
       <span>Range: last {days} days</span>
+      <span>
+        Dynamic delivery: {deliverySyncStatus.syncedProducts} products ·{" "}
+        <a href="/dashboard/delivery-sync" target="_blank" rel="noopener noreferrer">Sync now</a>
+      </span>
       <DashboardAutoRefresh/>
     </section>
 

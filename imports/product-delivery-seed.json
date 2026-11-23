@@ -1,0 +1,37 @@
+{
+  "arlena-cutout-halter-maxi-dress-red": {
+    "US": {
+      "minDays": 15,
+      "maxDays": 15,
+      "source": "supplier-quote"
+    }
+  },
+  "orlena-lace-balloon-sleeve-mini-dress-beige": {
+    "US": {
+      "minDays": 15,
+      "maxDays": 15,
+      "source": "supplier-quote"
+    }
+  },
+  "orlena-lace-balloon-sleeve-mini-dress-black": {
+    "US": {
+      "minDays": 15,
+      "maxDays": 15,
+      "source": "supplier-quote"
+    }
+  },
+  "orlena-lace-balloon-sleeve-mini-dress-coffee": {
+    "US": {
+      "minDays": 15,
+      "maxDays": 15,
+      "source": "supplier-quote"
+    }
+  },
+  "orlena-lace-balloon-sleeve-mini-dress-white": {
+    "US": {
+      "minDays": 15,
+      "maxDays": 15,
+      "source": "supplier-quote"
+    }
+  }
+}
