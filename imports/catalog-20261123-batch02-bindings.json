@@ -3,6 +3,58 @@
   "currency": "USD",
   "products": [
     {
+      "slug": "auralie-open-back-sequin-mini-dress-ice-blue",
+      "sourceProductId": "3256812526151445",
+      "sourceColor": "Gold",
+      "supplierId": "cmsyoolrp000y04kyth5a1r4k",
+      "sourceSkuIdsBySize": {
+        "S": "12000059506065667",
+        "L": "12000059506065679",
+        "M": "12000059506065677"
+      },
+      "landedCostUsdBySize": {
+        "S": 42.11,
+        "L": 42.11,
+        "M": 42.11
+      },
+      "stockBySize": {
+        "S": 999,
+        "L": 999,
+        "M": 999
+      },
+      "retailPriceUsd": 126.9,
+      "verifiedAtUtc": "2026-11-23T16:01:37.212Z"
+    },
+    {
+      "slug": "vespera-tailored-vest-trouser-set-pink",
+      "sourceProductId": "1005010684411318",
+      "sourceColor": "Pink",
+      "supplierId": "cmsxzxvoz001g04ib3by681io",
+      "sourceSkuIdsBySize": {
+        "L": "12000053184203286",
+        "XL": "12000053184203287",
+        "S": "12000053184203284",
+        "M": "12000053184203285",
+        "XXL": "12000053184203288"
+      },
+      "landedCostUsdBySize": {
+        "L": 33.12,
+        "XL": 33.12,
+        "S": 33.12,
+        "M": 33.12,
+        "XXL": 33.12
+      },
+      "stockBySize": {
+        "L": 997,
+        "XL": 998,
+        "S": 999,
+        "M": 999,
+        "XXL": 999
+      },
+      "retailPriceUsd": 99.9,
+      "verifiedAtUtc": "2026-11-23T16:03:05.884Z"
+    },
+    {
       "slug": "sorelle-draped-halter-maxi-dress-taupe",
       "sourceProductId": "3256812502949887",
       "sourceColor": "Khaki",
@@ -24,6 +76,212 @@
       },
       "retailPriceUsd": 77.9,
       "verifiedAtUtc": "2026-11-23T16:01:22.123Z"
+    },
+    {
+      "slug": "loretta-cold-shoulder-midi-dress-purple",
+      "sourceProductId": "3256806664357699",
+      "sourceColor": "purple",
+      "supplierId": "cmsyp28ar005304jlwh43ww1f",
+      "sourceSkuIdsBySize": {
+        "S": "12000038511808607",
+        "XXL": "12000038511808611",
+        "XL": "12000038511808610",
+        "L": "12000038511808609",
+        "M": "12000038511808608",
+        "XXXL": "12000038511808612"
+      },
+      "landedCostUsdBySize": {
+        "S": 22.51,
+        "XXL": 22.51,
+        "XL": 22.51,
+        "L": 22.51,
+        "M": 22.51,
+        "XXXL": 22.51
+      },
+      "stockBySize": {
+        "S": 999,
+        "XXL": 999,
+        "XL": 997,
+        "L": 999,
+        "M": 998,
+        "XXXL": 999
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-23T16:06:59.667Z"
+    },
+    {
+      "slug": "auralie-open-back-sequin-mini-dress-violet",
+      "sourceProductId": "3256812526151445",
+      "sourceColor": "Dark Grey",
+      "supplierId": "cmsyoolrp000y04kyth5a1r4k",
+      "sourceSkuIdsBySize": {
+        "L": "12000059506065680",
+        "M": "12000059506065669",
+        "S": "12000059506065678"
+      },
+      "landedCostUsdBySize": {
+        "L": 42.11,
+        "M": 42.11,
+        "S": 42.11
+      },
+      "stockBySize": {
+        "L": 999,
+        "M": 999,
+        "S": 999
+      },
+      "retailPriceUsd": 126.9,
+      "verifiedAtUtc": "2026-11-23T16:01:37.212Z"
+    },
+    {
+      "slug": "vespera-tailored-vest-trouser-set-sand",
+      "sourceProductId": "1005010684411318",
+      "sourceColor": "Khaki",
+      "supplierId": "cmsxzxvoz001g04ib3by681io",
+      "sourceSkuIdsBySize": {
+        "S": "12000053184203279",
+        "XL": "12000053184203282",
+        "XXL": "12000053184203283",
+        "M": "12000053184203280",
+        "L": "12000053184203281"
+      },
+      "landedCostUsdBySize": {
+        "S": 33.12,
+        "XL": 33.12,
+        "XXL": 33.12,
+        "M": 33.12,
+        "L": 33.12
+      },
+      "stockBySize": {
+        "S": 999,
+        "XL": 999,
+        "XXL": 999,
+        "M": 999,
+        "L": 999
+      },
+      "retailPriceUsd": 99.9,
+      "verifiedAtUtc": "2026-11-23T16:03:05.884Z"
+    },
+    {
+      "slug": "vespera-tailored-vest-trouser-set-scarlet",
+      "sourceProductId": "1005010684411318",
+      "sourceColor": "Red",
+      "supplierId": "cmsxzxvoz001g04ib3by681io",
+      "sourceSkuIdsBySize": {
+        "M": "12000053184203290",
+        "L": "12000053184203291",
+        "S": "12000053184203289",
+        "XL": "12000053184203292",
+        "XXL": "12000053184203293"
+      },
+      "landedCostUsdBySize": {
+        "M": 33.12,
+        "L": 33.12,
+        "S": 33.12,
+        "XL": 33.12,
+        "XXL": 33.12
+      },
+      "stockBySize": {
+        "M": 999,
+        "L": 996,
+        "S": 999,
+        "XL": 999,
+        "XXL": 998
+      },
+      "retailPriceUsd": 99.9,
+      "verifiedAtUtc": "2026-11-23T16:03:05.884Z"
+    },
+    {
+      "slug": "vespera-tailored-vest-trouser-set-sky-blue",
+      "sourceProductId": "1005010684411318",
+      "sourceColor": "SKY BLUE",
+      "supplierId": "cmsxzxvoz001g04ib3by681io",
+      "sourceSkuIdsBySize": {
+        "S": "12000053184203294",
+        "M": "12000053184203295",
+        "XXL": "12000053184203298",
+        "L": "12000053184203296",
+        "XL": "12000053184203297"
+      },
+      "landedCostUsdBySize": {
+        "S": 33.12,
+        "M": 33.12,
+        "XXL": 33.12,
+        "L": 33.12,
+        "XL": 33.12
+      },
+      "stockBySize": {
+        "S": 999,
+        "M": 999,
+        "XXL": 999,
+        "L": 999,
+        "XL": 998
+      },
+      "retailPriceUsd": 99.9,
+      "verifiedAtUtc": "2026-11-23T16:03:05.884Z"
+    },
+    {
+      "slug": "loretta-cold-shoulder-midi-dress-red",
+      "sourceProductId": "3256806664357699",
+      "sourceColor": "red",
+      "supplierId": "cmsyp28ar005304jlwh43ww1f",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000038511808618",
+        "XXL": "12000038511808617",
+        "XL": "12000038511808616",
+        "L": "12000038511808615",
+        "M": "12000038511808614",
+        "S": "12000038511808613"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 22.51,
+        "XXL": 22.51,
+        "XL": 22.51,
+        "L": 22.51,
+        "M": 22.51,
+        "S": 22.51
+      },
+      "stockBySize": {
+        "XXXL": 999,
+        "XXL": 998,
+        "XL": 998,
+        "L": 998,
+        "M": 998,
+        "S": 997
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-23T16:06:59.667Z"
+    },
+    {
+      "slug": "loretta-cold-shoulder-midi-dress-royal-blue",
+      "sourceProductId": "3256806664357699",
+      "sourceColor": "blue",
+      "supplierId": "cmsyp28ar005304jlwh43ww1f",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000038511808600",
+        "S": "12000038511808595",
+        "XXL": "12000038511808599",
+        "XL": "12000038511808598",
+        "L": "12000038511808597",
+        "M": "12000038511808596"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 22.51,
+        "S": 22.51,
+        "XXL": 22.51,
+        "XL": 22.51,
+        "L": 22.51,
+        "M": 22.51
+      },
+      "stockBySize": {
+        "XXXL": 999,
+        "S": 999,
+        "XXL": 999,
+        "XL": 999,
+        "L": 998,
+        "M": 998
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-23T16:06:59.667Z"
     }
   ]
 }

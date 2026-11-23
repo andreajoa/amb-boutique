@@ -20639,6 +20639,338 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256812502949887",
   "sourceColor": "Khaki"
+},
+{
+  "slug": "auralie-open-back-sequin-mini-dress-ice-blue",
+  "name": "Auralie Open-Back Sequin Mini Dress — Ice Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#84c6d8"
+  ],
+  "colorNames": [
+    "Ice Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A sleeveless mini dress covered in overlapping disc sequins with a high front neckline, a low scoop back and a relaxed skirt.",
+  "materials": "Fabric with oversized disc sequins. Follow the care label.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/auralie-open-back-sequin-mini-dress-ice-blue/front.webp",
+    "/products/auralie-open-back-sequin-mini-dress-ice-blue/back.webp",
+    "/products/auralie-open-back-sequin-mini-dress-ice-blue/left.webp",
+    "/products/auralie-open-back-sequin-mini-dress-ice-blue/right.webp"
+  ],
+  "stock": 2997,
+  "unitCostUsd": 42.11,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812526151445",
+  "sourceColor": "Gold"
+},
+{
+  "slug": "vespera-tailored-vest-trouser-set-pink",
+  "name": "Vespera Tailored Vest and Trouser Set — Pink",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 99.9,
+  "colors": [
+    "#dd85b3"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A sleeveless notched-lapel vest with a button front and angled hem, paired with matching full-length wide-leg trousers.",
+  "materials": "Tailored fabric. See the garment label for fiber and care details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/vespera-tailored-vest-trouser-set-pink/front.webp",
+    "/products/vespera-tailored-vest-trouser-set-pink/back.webp",
+    "/products/vespera-tailored-vest-trouser-set-pink/left.webp",
+    "/products/vespera-tailored-vest-trouser-set-pink/right.webp"
+  ],
+  "stock": 4992,
+  "unitCostUsd": 33.12,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005010684411318",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "loretta-cold-shoulder-midi-dress-purple",
+  "name": "Loretta Cold-Shoulder Midi Dress — Purple",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#633098"
+  ],
+  "colorNames": [
+    "Purple"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted midi dress with a high collar, exposed shoulders, draped sleeve panels and a gathered sheath silhouette.",
+  "materials": "Smooth draped fabric. See the garment label for fiber and care details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/loretta-cold-shoulder-midi-dress-purple/front.webp",
+    "/products/loretta-cold-shoulder-midi-dress-purple/back.webp",
+    "/products/loretta-cold-shoulder-midi-dress-purple/left.webp",
+    "/products/loretta-cold-shoulder-midi-dress-purple/right.webp"
+  ],
+  "stock": 5991,
+  "unitCostUsd": 22.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806664357699",
+  "sourceColor": "purple"
+},
+{
+  "slug": "auralie-open-back-sequin-mini-dress-violet",
+  "name": "Auralie Open-Back Sequin Mini Dress — Violet",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#552580"
+  ],
+  "colorNames": [
+    "Violet"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A sleeveless mini dress covered in overlapping disc sequins with a high front neckline, a low scoop back and a relaxed skirt.",
+  "materials": "Fabric with oversized disc sequins. Follow the care label.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/auralie-open-back-sequin-mini-dress-violet/front.webp",
+    "/products/auralie-open-back-sequin-mini-dress-violet/back.webp",
+    "/products/auralie-open-back-sequin-mini-dress-violet/left.webp",
+    "/products/auralie-open-back-sequin-mini-dress-violet/right.webp"
+  ],
+  "stock": 2997,
+  "unitCostUsd": 42.11,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812526151445",
+  "sourceColor": "Dark Grey"
+},
+{
+  "slug": "vespera-tailored-vest-trouser-set-sand",
+  "name": "Vespera Tailored Vest and Trouser Set — Sand",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 99.9,
+  "colors": [
+    "#ac9471"
+  ],
+  "colorNames": [
+    "Sand"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A sleeveless notched-lapel vest with a button front and angled hem, paired with matching full-length wide-leg trousers.",
+  "materials": "Tailored fabric. See the garment label for fiber and care details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/vespera-tailored-vest-trouser-set-sand/front.webp",
+    "/products/vespera-tailored-vest-trouser-set-sand/back.webp",
+    "/products/vespera-tailored-vest-trouser-set-sand/left.webp",
+    "/products/vespera-tailored-vest-trouser-set-sand/right.webp"
+  ],
+  "stock": 4995,
+  "unitCostUsd": 33.12,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005010684411318",
+  "sourceColor": "Khaki"
+},
+{
+  "slug": "vespera-tailored-vest-trouser-set-scarlet",
+  "name": "Vespera Tailored Vest and Trouser Set — Scarlet",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 99.9,
+  "colors": [
+    "#bf332a"
+  ],
+  "colorNames": [
+    "Scarlet"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A sleeveless notched-lapel vest with a button front and angled hem, paired with matching full-length wide-leg trousers.",
+  "materials": "Tailored fabric. See the garment label for fiber and care details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/vespera-tailored-vest-trouser-set-scarlet/front.webp",
+    "/products/vespera-tailored-vest-trouser-set-scarlet/back.webp",
+    "/products/vespera-tailored-vest-trouser-set-scarlet/left.webp",
+    "/products/vespera-tailored-vest-trouser-set-scarlet/right.webp"
+  ],
+  "stock": 4991,
+  "unitCostUsd": 33.12,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005010684411318",
+  "sourceColor": "Red"
+},
+{
+  "slug": "vespera-tailored-vest-trouser-set-sky-blue",
+  "name": "Vespera Tailored Vest and Trouser Set — Sky Blue",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 99.9,
+  "colors": [
+    "#86a8dc"
+  ],
+  "colorNames": [
+    "Sky Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A sleeveless notched-lapel vest with a button front and angled hem, paired with matching full-length wide-leg trousers.",
+  "materials": "Tailored fabric. See the garment label for fiber and care details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/vespera-tailored-vest-trouser-set-sky-blue/front.webp",
+    "/products/vespera-tailored-vest-trouser-set-sky-blue/back.webp",
+    "/products/vespera-tailored-vest-trouser-set-sky-blue/left.webp",
+    "/products/vespera-tailored-vest-trouser-set-sky-blue/right.webp"
+  ],
+  "stock": 4994,
+  "unitCostUsd": 33.12,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005010684411318",
+  "sourceColor": "SKY BLUE"
+},
+{
+  "slug": "loretta-cold-shoulder-midi-dress-red",
+  "name": "Loretta Cold-Shoulder Midi Dress — Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#b5202b"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted midi dress with a high collar, exposed shoulders, draped sleeve panels and a gathered sheath silhouette.",
+  "materials": "Smooth draped fabric. See the garment label for fiber and care details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/loretta-cold-shoulder-midi-dress-red/front.webp",
+    "/products/loretta-cold-shoulder-midi-dress-red/back.webp",
+    "/products/loretta-cold-shoulder-midi-dress-red/left.webp",
+    "/products/loretta-cold-shoulder-midi-dress-red/right.webp"
+  ],
+  "stock": 5988,
+  "unitCostUsd": 22.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806664357699",
+  "sourceColor": "red"
+},
+{
+  "slug": "loretta-cold-shoulder-midi-dress-royal-blue",
+  "name": "Loretta Cold-Shoulder Midi Dress — Royal Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#203aaf"
+  ],
+  "colorNames": [
+    "Royal Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted midi dress with a high collar, exposed shoulders, draped sleeve panels and a gathered sheath silhouette.",
+  "materials": "Smooth draped fabric. See the garment label for fiber and care details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/loretta-cold-shoulder-midi-dress-royal-blue/front.webp",
+    "/products/loretta-cold-shoulder-midi-dress-royal-blue/back.webp",
+    "/products/loretta-cold-shoulder-midi-dress-royal-blue/left.webp",
+    "/products/loretta-cold-shoulder-midi-dress-royal-blue/right.webp"
+  ],
+  "stock": 5992,
+  "unitCostUsd": 22.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806664357699",
+  "sourceColor": "blue"
 }
 ];
 
@@ -20648,7 +20980,16 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "auralie-open-back-sequin-mini-dress-ice-blue",
+  "vespera-tailored-vest-trouser-set-pink",
   "sorelle-draped-halter-maxi-dress-taupe",
+  "loretta-cold-shoulder-midi-dress-purple",
+  "auralie-open-back-sequin-mini-dress-violet",
+  "vespera-tailored-vest-trouser-set-sand",
+  "vespera-tailored-vest-trouser-set-scarlet",
+  "vespera-tailored-vest-trouser-set-sky-blue",
+  "loretta-cold-shoulder-midi-dress-red",
+  "loretta-cold-shoulder-midi-dress-royal-blue",
 
   "aster-eyelet-two-piece-set-beige",
   "virelle-woven-crossbody-bag-black",
