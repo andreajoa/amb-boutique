@@ -2589,3 +2589,34 @@ button { cursor: pointer; }
     display: none;
   }
 }
+
+
+/* Bag Interior Showcase & 5-view Product Gallery Layout */
+.product-gallery.count-5 .gallery-image:last-child {
+  grid-column: 1 / -1;
+  aspect-ratio: 16 / 10;
+}
+
+.gallery-view-badge {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  z-index: 3;
+  padding: 6px 10px;
+  background: rgba(255, 254, 252, 0.94);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  font-style: normal;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+@media (max-width: 560px) {
+  .product-gallery.count-5 .gallery-image:last-child {
+    grid-column: auto;
+    aspect-ratio: 1 / 1;
+  }
+}

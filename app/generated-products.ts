@@ -20997,7 +20997,8 @@ const allGeneratedProducts: Product[] = [
     "/products/portofino-carryall-coffee/front.webp",
     "/products/portofino-carryall-coffee/back.webp",
     "/products/portofino-carryall-coffee/left.webp",
-    "/products/portofino-carryall-coffee/right.webp"
+    "/products/portofino-carryall-coffee/right.webp",
+    "/products/portofino-carryall-coffee/inside.webp"
   ],
   "stock": 22,
   "unitCostUsd": 26.88,

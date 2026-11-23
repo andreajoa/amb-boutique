@@ -132,10 +132,16 @@ export default function ProductDetail({
     <main>
       <Header />
       <div className="product-layout shell" data-reveal>
-        <section className="product-gallery" aria-label={`${product.name} gallery`}>
+        <section className={`product-gallery${gallery.length === 5 ? " count-5" : ""}`} aria-label={`${product.name} gallery`}>
           {gallery.map((image, index) => {
             const directImage = image ? getDirectProductImage(product, index) : undefined;
-            return <button type="button" key={`${image || "gallery"}-${index}`} className={`gallery-image gallery-q${index + 1}${directImage ? " has-direct-image" : ""}`} style={image && !directImage ? getProductImageStyle(product, index) : undefined} aria-label={`Open ${product.name} image ${index + 1} of ${gallery.length}`} onClick={(event) => { lightboxReturnFocus.current = event.currentTarget; setActiveImage(index); }} data-track={`product-gallery:${product.slug}:${index + 1}`}>{directImage && <Image src={directImage} alt={`${product.name}, view ${index + 1}`} fill unoptimized={directImage.startsWith("/editorial/")} sizes="(max-width: 560px) 88vw, (max-width: 900px) 100vw, 33vw"/>}<span aria-hidden="true">⌕</span></button>;
+            const isBagInterior = product.category === "Bags" && Boolean(
+              directImage && (
+                /\/inside[^/]*\.webp$/i.test(directImage) ||
+                (/\/editorial\/bags\/products\/.+\/04\.webp$/i.test(directImage) && index === 3)
+              ),
+            );
+            return <button type="button" key={`${image || "gallery"}-${index}`} className={`gallery-image gallery-q${Math.min(4, index + 1)}${directImage ? " has-direct-image" : ""}${isBagInterior ? " is-bag-interior" : ""}`} style={image && !directImage ? getProductImageStyle(product, index) : undefined} aria-label={isBagInterior ? `Open ${product.name} inside view (${index + 1} of ${gallery.length})` : `Open ${product.name} image ${index + 1} of ${gallery.length}`} onClick={(event) => { lightboxReturnFocus.current = event.currentTarget; setActiveImage(index); }} data-track={`product-gallery:${product.slug}:${index + 1}`}>{directImage && <Image src={directImage} alt={isBagInterior ? `${product.name}, inside view` : `${product.name}, view ${index + 1}`} fill unoptimized={directImage.startsWith("/editorial/")} sizes={gallery.length === 5 && index === 4 ? "(max-width: 900px) 100vw, 66vw" : "(max-width: 560px) 88vw, (max-width: 900px) 100vw, 33vw"}/>}{isBagInterior && <em className="gallery-view-badge">Inside View</em>}<span aria-hidden="true">⌕</span></button>;
           })}
         </section>
 

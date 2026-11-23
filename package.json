@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/build-reviewed-stock.mjs && node scripts/verify-cost-evidence.mjs",
+    "prebuild": "node scripts/build-reviewed-stock.mjs && node scripts/verify-cost-evidence.mjs && node scripts/build-editorial-looks.mjs && node scripts/verify-bag-interiors.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
