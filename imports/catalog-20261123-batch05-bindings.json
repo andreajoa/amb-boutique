@@ -1,0 +1,323 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "maerith-cable-knit-slit-midi-dress-cream",
+      "sourceProductId": "3256806055973737",
+      "sourceColor": "creamy-white",
+      "supplierId": "cmwtpedj3018y0jln78hljirg",
+      "sourceSkuIdsBySize": {
+        "M": "12000036434428527",
+        "S": "12000036434428526",
+        "XL": "12000036434428529",
+        "L": "12000036434428528",
+        "XXL": "12000036434428530"
+      },
+      "landedCostUsdBySize": {
+        "M": 49.78,
+        "S": 49.18,
+        "XL": 51.58,
+        "L": 50.68,
+        "XXL": 55.18
+      },
+      "stockBySize": {
+        "M": 50,
+        "S": 48,
+        "XL": 48,
+        "L": 50,
+        "XXL": 50
+      },
+      "retailPriceUsd": 165.9,
+      "verifiedAtUtc": "2026-11-23T21:00:13.669Z"
+    },
+    {
+      "slug": "kinelle-ribbed-polo-maxi-dress-olive",
+      "sourceProductId": "3256806481654545",
+      "sourceColor": "army green",
+      "supplierId": "cmwtolnq600l70jlnxorxe9w4",
+      "sourceSkuIdsBySize": {
+        "S": "12000037970367257",
+        "L": "12000037970367259",
+        "M": "12000037970367258",
+        "XXL": "12000037970367261",
+        "XL": "12000037970367260"
+      },
+      "landedCostUsdBySize": {
+        "S": 17.68,
+        "L": 18.04,
+        "M": 17.94,
+        "XXL": 19.38,
+        "XL": 18.14
+      },
+      "stockBySize": {
+        "S": 25,
+        "L": 23,
+        "M": 20,
+        "XXL": 27,
+        "XL": 22
+      },
+      "retailPriceUsd": 58.9,
+      "verifiedAtUtc": "2026-11-23T21:00:43.523Z"
+    },
+    {
+      "slug": "zelisse-chevron-knit-mini-dress-pink",
+      "sourceProductId": "3256804168483021",
+      "sourceColor": "Pink",
+      "supplierId": "cmwto8n0b00cg0jln92wqebok",
+      "sourceSkuIdsBySize": {
+        "XL": "12000032267214681",
+        "L": "12000032267214680",
+        "XXXL": "12000032267214683",
+        "XXL": "12000032267214682",
+        "5XL": "12000032267214685",
+        "4XL": "12000032267214684",
+        "M": "12000032267214679",
+        "S": "12000032267214678"
+      },
+      "landedCostUsdBySize": {
+        "XL": 20.85,
+        "L": 20.85,
+        "XXXL": 20.85,
+        "XXL": 20.85,
+        "5XL": 20.85,
+        "4XL": 20.85,
+        "M": 20.85,
+        "S": 20.85
+      },
+      "stockBySize": {
+        "XL": 8,
+        "L": 2,
+        "XXXL": 4,
+        "XXL": 6,
+        "5XL": 5,
+        "4XL": 9,
+        "M": 8,
+        "S": 6
+      },
+      "retailPriceUsd": 62.9,
+      "verifiedAtUtc": "2026-11-23T20:59:31.838Z"
+    },
+    {
+      "slug": "rovelle-turtleneck-sweater-midi-dress-dark-green",
+      "sourceProductId": "3256806046586241",
+      "sourceColor": "Dark Green",
+      "supplierId": "cmwtpjnis01m90jln35px5c9x",
+      "sourceSkuIdsBySize": {
+        "XS（old）": "12000036392545466",
+        "S": "12000036392545467",
+        "XL": "12000036392545470",
+        "XXL": "12000036392545471",
+        "M": "12000036392545468",
+        "L": "12000036392545469"
+      },
+      "landedCostUsdBySize": {
+        "XS（old）": 30.93,
+        "S": 30.93,
+        "XL": 30.93,
+        "XXL": 30.93,
+        "M": 30.93,
+        "L": 30.93
+      },
+      "stockBySize": {
+        "XS（old）": 99,
+        "S": 95,
+        "XL": 93,
+        "XXL": 90,
+        "M": 94,
+        "L": 94
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T20:59:56.765Z"
+    },
+    {
+      "slug": "kinelle-ribbed-polo-maxi-dress-black",
+      "sourceProductId": "3256806481654545",
+      "sourceColor": "black",
+      "supplierId": "cmwtolnq600l70jlnxorxe9w4",
+      "sourceSkuIdsBySize": {
+        "S": "12000037970367237",
+        "L": "12000037970367239",
+        "M": "12000037970367238",
+        "XXL": "12000037970367241",
+        "XL": "12000037970367240"
+      },
+      "landedCostUsdBySize": {
+        "S": 18.32,
+        "L": 18.38,
+        "M": 18.74,
+        "XXL": 18.58,
+        "XL": 18.58
+      },
+      "stockBySize": {
+        "S": 30,
+        "L": 29,
+        "M": 32,
+        "XXL": 30,
+        "XL": 32
+      },
+      "retailPriceUsd": 56.9,
+      "verifiedAtUtc": "2026-11-23T21:00:43.523Z"
+    },
+    {
+      "slug": "rovelle-turtleneck-sweater-midi-dress-cream",
+      "sourceProductId": "3256806046586241",
+      "sourceColor": "creamy-white",
+      "supplierId": "cmwtpjnis01m90jln35px5c9x",
+      "sourceSkuIdsBySize": {
+        "XS（old）": "12000036392545442",
+        "S": "12000036392545443",
+        "XL": "12000036392545446",
+        "XXL": "12000036392545447",
+        "M": "12000036392545444",
+        "L": "12000036392545445"
+      },
+      "landedCostUsdBySize": {
+        "XS（old）": 30.93,
+        "S": 30.93,
+        "XL": 30.93,
+        "XXL": 30.93,
+        "M": 30.93,
+        "L": 30.93
+      },
+      "stockBySize": {
+        "XS（old）": 99,
+        "S": 94,
+        "XL": 94,
+        "XXL": 89,
+        "M": 95,
+        "L": 97
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T20:59:56.765Z"
+    },
+    {
+      "slug": "zelisse-chevron-knit-mini-dress-orange",
+      "sourceProductId": "3256804168483021",
+      "sourceColor": "Orange",
+      "supplierId": "cmwto8n0b00cg0jln92wqebok",
+      "sourceSkuIdsBySize": {
+        "M": "12000032267214687",
+        "S": "12000032267214686",
+        "XL": "12000032267214689",
+        "L": "12000032267214688",
+        "XXXL": "12000032267214691",
+        "XXL": "12000032267214690",
+        "5XL": "12000032267214693",
+        "4XL": "12000032267214692"
+      },
+      "landedCostUsdBySize": {
+        "M": 20.85,
+        "S": 20.85,
+        "XL": 20.85,
+        "L": 20.85,
+        "XXXL": 20.85,
+        "XXL": 20.85,
+        "5XL": 20.85,
+        "4XL": 20.85
+      },
+      "stockBySize": {
+        "M": 196,
+        "S": 204,
+        "XL": 202,
+        "L": 193,
+        "XXXL": 200,
+        "XXL": 202,
+        "5XL": 207,
+        "4XL": 206
+      },
+      "retailPriceUsd": 62.9,
+      "verifiedAtUtc": "2026-11-23T20:59:31.838Z"
+    },
+    {
+      "slug": "kinelle-ribbed-polo-maxi-dress-rust",
+      "sourceProductId": "3256806481654545",
+      "sourceColor": "ORANGE RED",
+      "supplierId": "cmwtolnq600l70jlnxorxe9w4",
+      "sourceSkuIdsBySize": {
+        "L": "12000037970367249",
+        "M": "12000037970367248",
+        "XXL": "12000037970367251",
+        "XL": "12000037970367250",
+        "S": "12000037970367247"
+      },
+      "landedCostUsdBySize": {
+        "L": 18.11,
+        "M": 18.48,
+        "XXL": 18.18,
+        "XL": 18.44,
+        "S": 18.32
+      },
+      "stockBySize": {
+        "L": 30,
+        "M": 24,
+        "XXL": 30,
+        "XL": 36,
+        "S": 36
+      },
+      "retailPriceUsd": 55.9,
+      "verifiedAtUtc": "2026-11-23T21:00:43.523Z"
+    },
+    {
+      "slug": "rovelle-turtleneck-sweater-midi-dress-black",
+      "sourceProductId": "3256806046586241",
+      "sourceColor": "black",
+      "supplierId": "cmwtpjnis01m90jln35px5c9x",
+      "sourceSkuIdsBySize": {
+        "XS（old）": "12000036392545454",
+        "S": "12000036392545455",
+        "XL": "12000036392545458",
+        "XXL": "12000036392545459",
+        "M": "12000036392545456",
+        "L": "12000036392545457"
+      },
+      "landedCostUsdBySize": {
+        "XS（old）": 30.93,
+        "S": 30.93,
+        "XL": 30.93,
+        "XXL": 30.93,
+        "M": 30.93,
+        "L": 30.93
+      },
+      "stockBySize": {
+        "XS（old）": 100,
+        "S": 97,
+        "XL": 96,
+        "XXL": 83,
+        "M": 94,
+        "L": 93
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T20:59:56.765Z"
+    },
+    {
+      "slug": "kinelle-ribbed-polo-maxi-dress-gray",
+      "sourceProductId": "3256806481654545",
+      "sourceColor": "GRAY",
+      "supplierId": "cmwtolnq600l70jlnxorxe9w4",
+      "sourceSkuIdsBySize": {
+        "M": "12000037970367243",
+        "S": "12000037970367242",
+        "XL": "12000037970367245",
+        "L": "12000037970367244",
+        "XXL": "12000037970367246"
+      },
+      "landedCostUsdBySize": {
+        "M": 17.64,
+        "S": 18.28,
+        "XL": 18.44,
+        "L": 18.04,
+        "XXL": 18.35
+      },
+      "stockBySize": {
+        "M": 21,
+        "S": 26,
+        "XL": 30,
+        "L": 18,
+        "XXL": 29
+      },
+      "retailPriceUsd": 55.9,
+      "verifiedAtUtc": "2026-11-23T21:00:43.523Z"
+    }
+  ]
+}
