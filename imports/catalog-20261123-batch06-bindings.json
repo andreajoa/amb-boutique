@@ -1,0 +1,287 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "sylvane-half-zip-flared-midi-dress-petrol-blue",
+      "sourceProductId": "3256813095426606",
+      "sourceColor": "Blue",
+      "supplierId": "cmwtoeb2l00gv0jln4lerj3xh",
+      "sourceSkuIdsBySize": {
+        "XL": "12000060725839164",
+        "L": "12000060725839163",
+        "M": "12000060725839162",
+        "S": "12000060725839161"
+      },
+      "landedCostUsdBySize": {
+        "XL": 13.32,
+        "L": 13.08,
+        "M": 12.88,
+        "S": 12.74
+      },
+      "stockBySize": {
+        "XL": 2,
+        "L": 3,
+        "M": 5,
+        "S": 2
+      },
+      "retailPriceUsd": 40.9,
+      "verifiedAtUtc": "2026-11-23T21:05:09.165Z"
+    },
+    {
+      "slug": "caldelle-half-zip-slit-midi-dress-coffee",
+      "sourceProductId": "3256812989236582",
+      "sourceColor": "Coffee",
+      "supplierId": "cmwtpi6e501j90jln1wjbkms9",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000060496844349",
+        "XL": "12000060496844348",
+        "S": "12000060496844345",
+        "L": "12000060496844347",
+        "M": "12000060496844346"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 33.88,
+        "XL": 33.78,
+        "S": 33.38,
+        "L": 33.68,
+        "M": 32.88
+      },
+      "stockBySize": {
+        "XXL": 100,
+        "XL": 99,
+        "S": 100,
+        "L": 100,
+        "M": 99
+      },
+      "retailPriceUsd": 101.9,
+      "verifiedAtUtc": "2026-11-23T21:04:54.284Z"
+    },
+    {
+      "slug": "sylvane-half-zip-flared-midi-dress-burgundy",
+      "sourceProductId": "3256813095426606",
+      "sourceColor": "Burgundy",
+      "supplierId": "cmwtoeb2l00gv0jln4lerj3xh",
+      "sourceSkuIdsBySize": {
+        "L": "12000060725839167",
+        "M": "12000060725839166",
+        "S": "12000060725839165",
+        "XL": "12000060725839168"
+      },
+      "landedCostUsdBySize": {
+        "L": 13.84,
+        "M": 13.24,
+        "S": 13.14,
+        "XL": 13.98
+      },
+      "stockBySize": {
+        "L": 4,
+        "M": 5,
+        "S": 6,
+        "XL": 3
+      },
+      "retailPriceUsd": 42.9,
+      "verifiedAtUtc": "2026-11-23T21:05:09.165Z"
+    },
+    {
+      "slug": "caldelle-half-zip-slit-midi-dress-white",
+      "sourceProductId": "3256812989236582",
+      "sourceColor": "WHITE",
+      "supplierId": "cmwtpi6e501j90jln1wjbkms9",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000060496844364",
+        "M": "12000060496844361",
+        "S": "12000060496844360",
+        "XL": "12000060496844363",
+        "L": "12000060496844362"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 33.88,
+        "M": 33.58,
+        "S": 31.08,
+        "XL": 33.78,
+        "L": 33.68
+      },
+      "stockBySize": {
+        "XXL": 100,
+        "M": 100,
+        "S": 99,
+        "XL": 100,
+        "L": 100
+      },
+      "retailPriceUsd": 101.9,
+      "verifiedAtUtc": "2026-11-23T21:04:54.284Z"
+    },
+    {
+      "slug": "caldelle-half-zip-slit-midi-dress-black",
+      "sourceProductId": "3256812989236582",
+      "sourceColor": "black",
+      "supplierId": "cmwtpi6e501j90jln1wjbkms9",
+      "sourceSkuIdsBySize": {
+        "XL": "12000060496844333",
+        "L": "12000060496844332",
+        "XXL": "12000060496844334",
+        "M": "12000060496844331",
+        "S": "12000060496844330"
+      },
+      "landedCostUsdBySize": {
+        "XL": 33.68,
+        "L": 33.28,
+        "XXL": 33.88,
+        "M": 33.58,
+        "S": 32.58
+      },
+      "stockBySize": {
+        "XL": 99,
+        "L": 98,
+        "XXL": 99,
+        "M": 100,
+        "S": 98
+      },
+      "retailPriceUsd": 101.9,
+      "verifiedAtUtc": "2026-11-23T21:04:54.284Z"
+    },
+    {
+      "slug": "caldelle-half-zip-slit-midi-dress-navy",
+      "sourceProductId": "3256812989236582",
+      "sourceColor": "Navy Blue",
+      "supplierId": "cmwtpi6e501j90jln1wjbkms9",
+      "sourceSkuIdsBySize": {
+        "S": "12000060496844335",
+        "L": "12000060496844337",
+        "M": "12000060496844336",
+        "XXL": "12000060496844339",
+        "XL": "12000060496844338"
+      },
+      "landedCostUsdBySize": {
+        "S": 32.58,
+        "L": 33.68,
+        "M": 33.58,
+        "XXL": 33.88,
+        "XL": 33.78
+      },
+      "stockBySize": {
+        "S": 99,
+        "L": 100,
+        "M": 100,
+        "XXL": 99,
+        "XL": 99
+      },
+      "retailPriceUsd": 101.9,
+      "verifiedAtUtc": "2026-11-23T21:04:54.284Z"
+    },
+    {
+      "slug": "caldelle-half-zip-slit-midi-dress-gray",
+      "sourceProductId": "3256812989236582",
+      "sourceColor": "GRAY",
+      "supplierId": "cmwtpi6e501j90jln1wjbkms9",
+      "sourceSkuIdsBySize": {
+        "M": "12000060496844341",
+        "S": "12000060496844340",
+        "XL": "12000060496844343",
+        "L": "12000060496844342",
+        "XXL": "12000060496844344"
+      },
+      "landedCostUsdBySize": {
+        "M": 32.88,
+        "S": 32.38,
+        "XL": 33.48,
+        "L": 33.18,
+        "XXL": 33.48
+      },
+      "stockBySize": {
+        "M": 98,
+        "S": 98,
+        "XL": 99,
+        "L": 99,
+        "XXL": 98
+      },
+      "retailPriceUsd": 100.9,
+      "verifiedAtUtc": "2026-11-23T21:04:54.284Z"
+    },
+    {
+      "slug": "caldelle-half-zip-slit-midi-dress-amber",
+      "sourceProductId": "3256812989236582",
+      "sourceColor": "Chocolate",
+      "supplierId": "cmwtpi6e501j90jln1wjbkms9",
+      "sourceSkuIdsBySize": {
+        "M": "12000060496844351",
+        "S": "12000060496844350",
+        "XL": "12000060496844353",
+        "L": "12000060496844352",
+        "XXL": "12000060496844354"
+      },
+      "landedCostUsdBySize": {
+        "M": 33.58,
+        "S": 33.38,
+        "XL": 33.78,
+        "L": 33.68,
+        "XXL": 33.88
+      },
+      "stockBySize": {
+        "M": 100,
+        "S": 100,
+        "XL": 100,
+        "L": 100,
+        "XXL": 100
+      },
+      "retailPriceUsd": 101.9,
+      "verifiedAtUtc": "2026-11-23T21:04:54.284Z"
+    },
+    {
+      "slug": "caldelle-half-zip-slit-midi-dress-wine",
+      "sourceProductId": "3256812989236582",
+      "sourceColor": "Deep Red",
+      "supplierId": "cmwtpi6e501j90jln1wjbkms9",
+      "sourceSkuIdsBySize": {
+        "L": "12000060496844357",
+        "M": "12000060496844356",
+        "XXL": "12000060496844359",
+        "XL": "12000060496844358",
+        "S": "12000060496844355"
+      },
+      "landedCostUsdBySize": {
+        "L": 31.48,
+        "M": 33.58,
+        "XXL": 33.58,
+        "XL": 33.78,
+        "S": 32.48
+      },
+      "stockBySize": {
+        "L": 99,
+        "M": 100,
+        "XXL": 98,
+        "XL": 100,
+        "S": 99
+      },
+      "retailPriceUsd": 101.9,
+      "verifiedAtUtc": "2026-11-23T21:10:06.030Z"
+    },
+    {
+      "slug": "sylvane-half-zip-flared-midi-dress-black",
+      "sourceProductId": "3256813095426606",
+      "sourceColor": "black",
+      "supplierId": "cmwtoeb2l00gv0jln4lerj3xh",
+      "sourceSkuIdsBySize": {
+        "XL": "12000060725839160",
+        "L": "12000060725839159",
+        "M": "12000060725839158",
+        "S": "12000060725839157"
+      },
+      "landedCostUsdBySize": {
+        "XL": 14.14,
+        "L": 13.88,
+        "M": 13.28,
+        "S": 13.64
+      },
+      "stockBySize": {
+        "XL": 3,
+        "L": 4,
+        "M": 5,
+        "S": 5
+      },
+      "retailPriceUsd": 42.9,
+      "verifiedAtUtc": "2026-11-23T21:05:09.165Z"
+    }
+  ]
+}
