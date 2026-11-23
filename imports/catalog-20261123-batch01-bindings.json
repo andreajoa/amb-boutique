@@ -1,0 +1,1171 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "virelle-woven-crossbody-bag-black",
+      "sourceProductId": "3256806033190638",
+      "sourceColor": "black",
+      "supplierId": "cmuw4b8es00a004l2e68vywlt",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036333926891"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 27.53
+      },
+      "stockBySize": {
+        "One Size": 987
+      },
+      "retailPriceUsd": 82.9,
+      "verifiedAtUtc": "2026-11-23T15:29:44.635Z"
+    },
+    {
+      "slug": "virelle-woven-crossbody-bag-emerald-green",
+      "sourceProductId": "3256806033190638",
+      "sourceColor": "green",
+      "supplierId": "cmuw4b8es00a004l2e68vywlt",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036333926890"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 27.66
+      },
+      "stockBySize": {
+        "One Size": 989
+      },
+      "retailPriceUsd": 83.9,
+      "verifiedAtUtc": "2026-11-23T15:29:44.635Z"
+    },
+    {
+      "slug": "virelle-woven-crossbody-bag-butter-yellow",
+      "sourceProductId": "3256806033190638",
+      "sourceColor": "YELLOW",
+      "supplierId": "cmuw4b8es00a004l2e68vywlt",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036333926889"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 30.77
+      },
+      "stockBySize": {
+        "One Size": 990
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T15:29:44.635Z"
+    },
+    {
+      "slug": "virelle-woven-crossbody-bag-white",
+      "sourceProductId": "3256806033190638",
+      "sourceColor": "WHITE",
+      "supplierId": "cmuw4b8es00a004l2e68vywlt",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036333926888"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 28.42
+      },
+      "stockBySize": {
+        "One Size": 990
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T15:29:44.635Z"
+    },
+    {
+      "slug": "virelle-woven-crossbody-bag-mint",
+      "sourceProductId": "3256806033190638",
+      "sourceColor": "army green",
+      "supplierId": "cmuw4b8es00a004l2e68vywlt",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036333926895"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 27.31
+      },
+      "stockBySize": {
+        "One Size": 990
+      },
+      "retailPriceUsd": 82.9,
+      "verifiedAtUtc": "2026-11-23T15:29:44.635Z"
+    },
+    {
+      "slug": "virelle-woven-crossbody-bag-cream",
+      "sourceProductId": "3256806033190638",
+      "sourceColor": "SKY BLUE",
+      "supplierId": "cmuw4b8es00a004l2e68vywlt",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036333926894"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 27.78
+      },
+      "stockBySize": {
+        "One Size": 987
+      },
+      "retailPriceUsd": 83.9,
+      "verifiedAtUtc": "2026-11-23T15:29:44.635Z"
+    },
+    {
+      "slug": "virelle-woven-crossbody-bag-lavender",
+      "sourceProductId": "3256806033190638",
+      "sourceColor": "Lavender",
+      "supplierId": "cmuw4b8es00a004l2e68vywlt",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036333926893"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 30.77
+      },
+      "stockBySize": {
+        "One Size": 990
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T15:29:44.635Z"
+    },
+    {
+      "slug": "virelle-woven-crossbody-bag-lime",
+      "sourceProductId": "3256806033190638",
+      "sourceColor": "light green",
+      "supplierId": "cmuw4b8es00a004l2e68vywlt",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036333926892"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 27.48
+      },
+      "stockBySize": {
+        "One Size": 990
+      },
+      "retailPriceUsd": 82.9,
+      "verifiedAtUtc": "2026-11-23T15:29:44.635Z"
+    },
+    {
+      "slug": "virelle-woven-crossbody-bag-chocolate",
+      "sourceProductId": "3256806033190638",
+      "sourceColor": "Brown",
+      "supplierId": "cmuw4b8es00a004l2e68vywlt",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036333926899"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 27.03
+      },
+      "stockBySize": {
+        "One Size": 2
+      },
+      "retailPriceUsd": 81.9,
+      "verifiedAtUtc": "2026-11-23T15:29:44.635Z"
+    },
+    {
+      "slug": "virelle-woven-crossbody-bag-purple",
+      "sourceProductId": "3256806033190638",
+      "sourceColor": "PURPLE",
+      "supplierId": "cmuw4b8es00a004l2e68vywlt",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036333926898"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 27.42
+      },
+      "stockBySize": {
+        "One Size": 990
+      },
+      "retailPriceUsd": 82.9,
+      "verifiedAtUtc": "2026-11-23T15:29:44.635Z"
+    },
+    {
+      "slug": "virelle-woven-crossbody-bag-berry-rose",
+      "sourceProductId": "3256806033190638",
+      "sourceColor": "Red",
+      "supplierId": "cmuw4b8es00a004l2e68vywlt",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036333926897"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 27.34
+      },
+      "stockBySize": {
+        "One Size": 990
+      },
+      "retailPriceUsd": 82.9,
+      "verifiedAtUtc": "2026-11-23T15:29:44.635Z"
+    },
+    {
+      "slug": "virelle-woven-crossbody-bag-terracotta",
+      "sourceProductId": "3256806033190638",
+      "sourceColor": "Orange",
+      "supplierId": "cmuw4b8es00a004l2e68vywlt",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036333926896"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 27.29
+      },
+      "stockBySize": {
+        "One Size": 990
+      },
+      "retailPriceUsd": 81.9,
+      "verifiedAtUtc": "2026-11-23T15:29:44.635Z"
+    },
+    {
+      "slug": "virelle-woven-crossbody-bag-pale-sage",
+      "sourceProductId": "3256806033190638",
+      "sourceColor": "Ivory",
+      "supplierId": "cmuw4b8es00a004l2e68vywlt",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036333926901"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 27.42
+      },
+      "stockBySize": {
+        "One Size": 990
+      },
+      "retailPriceUsd": 82.9,
+      "verifiedAtUtc": "2026-11-23T15:29:44.635Z"
+    },
+    {
+      "slug": "virelle-woven-crossbody-bag-jade-green",
+      "sourceProductId": "3256806033190638",
+      "sourceColor": "Blue",
+      "supplierId": "cmuw4b8es00a004l2e68vywlt",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036333926900"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 27.08
+      },
+      "stockBySize": {
+        "One Size": 990
+      },
+      "retailPriceUsd": 81.9,
+      "verifiedAtUtc": "2026-11-23T15:29:44.635Z"
+    },
+    {
+      "slug": "serenella-ruffle-corset-three-piece-set-pink",
+      "sourceProductId": "3256808412523178",
+      "sourceColor": "Pink",
+      "supplierId": "cmsyozkdj001304jlpzxjzmm1",
+      "sourceSkuIdsBySize": {
+        "L": "12000045893151628",
+        "M": "12000045893151627",
+        "S": "12000045893151626",
+        "XS": "12000045893151625"
+      },
+      "landedCostUsdBySize": {
+        "L": 85.21,
+        "M": 85.21,
+        "S": 85.21,
+        "XS": 85.21
+      },
+      "stockBySize": {
+        "L": 995,
+        "M": 989,
+        "S": 993,
+        "XS": 989
+      },
+      "retailPriceUsd": 255.9,
+      "verifiedAtUtc": "2026-11-23T15:29:56.319Z"
+    },
+    {
+      "slug": "serenella-ruffle-corset-three-piece-set-mint",
+      "sourceProductId": "3256808412523178",
+      "sourceColor": "Mint",
+      "supplierId": "cmsyozkdj001304jlpzxjzmm1",
+      "sourceSkuIdsBySize": {
+        "L": "12000045893151624",
+        "M": "12000045893151623",
+        "S": "12000045893151622",
+        "XS": "12000045893151621"
+      },
+      "landedCostUsdBySize": {
+        "L": 85.21,
+        "M": 85.21,
+        "S": 85.21,
+        "XS": 85.21
+      },
+      "stockBySize": {
+        "L": 997,
+        "M": 992,
+        "S": 990,
+        "XS": 993
+      },
+      "retailPriceUsd": 255.9,
+      "verifiedAtUtc": "2026-11-23T15:29:56.319Z"
+    },
+    {
+      "slug": "serenella-ruffle-corset-three-piece-set-white",
+      "sourceProductId": "3256808412523178",
+      "sourceColor": "WHITE",
+      "supplierId": "cmsyozkdj001304jlpzxjzmm1",
+      "sourceSkuIdsBySize": {
+        "XS": "12000046969522832",
+        "S": "12000046969522833",
+        "M": "12000046969522834",
+        "L": "12000046969522835"
+      },
+      "landedCostUsdBySize": {
+        "XS": 85.21,
+        "S": 85.21,
+        "M": 85.21,
+        "L": 85.21
+      },
+      "stockBySize": {
+        "XS": 994,
+        "S": 989,
+        "M": 995,
+        "L": 994
+      },
+      "retailPriceUsd": 255.9,
+      "verifiedAtUtc": "2026-11-23T15:29:56.319Z"
+    },
+    {
+      "slug": "serenella-ruffle-corset-three-piece-set-beige",
+      "sourceProductId": "3256808412523178",
+      "sourceColor": "Beige",
+      "supplierId": "cmsyozkdj001304jlpzxjzmm1",
+      "sourceSkuIdsBySize": {
+        "XS": "12000050269985880",
+        "S": "12000050269985881",
+        "M": "12000050269985882",
+        "L": "12000050269985883"
+      },
+      "landedCostUsdBySize": {
+        "XS": 85.21,
+        "S": 85.21,
+        "M": 85.21,
+        "L": 85.21
+      },
+      "stockBySize": {
+        "XS": 983,
+        "S": 977,
+        "M": 990,
+        "L": 994
+      },
+      "retailPriceUsd": 255.9,
+      "verifiedAtUtc": "2026-11-23T15:29:56.319Z"
+    },
+    {
+      "slug": "serenella-ruffle-corset-three-piece-set-burgundy",
+      "sourceProductId": "3256808412523178",
+      "sourceColor": "Burgundy",
+      "supplierId": "cmsyozkdj001304jlpzxjzmm1",
+      "sourceSkuIdsBySize": {
+        "XS": "12000051185970906",
+        "S": "12000051185970907",
+        "M": "12000051185970908",
+        "L": "12000051185970909"
+      },
+      "landedCostUsdBySize": {
+        "XS": 85.21,
+        "S": 85.21,
+        "M": 85.21,
+        "L": 85.21
+      },
+      "stockBySize": {
+        "XS": 996,
+        "S": 993,
+        "M": 998,
+        "L": 995
+      },
+      "retailPriceUsd": 255.9,
+      "verifiedAtUtc": "2026-11-23T15:29:56.319Z"
+    },
+    {
+      "slug": "serenella-ruffle-corset-three-piece-set-black",
+      "sourceProductId": "3256808412523178",
+      "sourceColor": "black",
+      "supplierId": "cmsyozkdj001304jlpzxjzmm1",
+      "sourceSkuIdsBySize": {
+        "XS": "12000046969522828",
+        "S": "12000046969522829",
+        "M": "12000046969522830",
+        "L": "12000046969522831"
+      },
+      "landedCostUsdBySize": {
+        "XS": 85.21,
+        "S": 85.21,
+        "M": 85.21,
+        "L": 85.21
+      },
+      "stockBySize": {
+        "XS": 996,
+        "S": 991,
+        "M": 998,
+        "L": 996
+      },
+      "retailPriceUsd": 255.9,
+      "verifiedAtUtc": "2026-11-23T15:29:56.319Z"
+    },
+    {
+      "slug": "aster-eyelet-two-piece-set-beige",
+      "sourceProductId": "3256809092356301",
+      "sourceColor": "Beige",
+      "supplierId": "cmt60u53t00mw04ifydyycpxj",
+      "sourceSkuIdsBySize": {
+        "L": "12000048651666938",
+        "XL": "12000048651666939",
+        "S": "12000048651666936",
+        "M": "12000048651666937",
+        "XXL": "12000048651666940",
+        "XXXL": "12000048651666941"
+      },
+      "landedCostUsdBySize": {
+        "L": 40.21,
+        "XL": 40.21,
+        "S": 40.21,
+        "M": 40.21,
+        "XXL": 40.21,
+        "XXXL": 40.21
+      },
+      "stockBySize": {
+        "L": 988,
+        "XL": 998,
+        "S": 995,
+        "M": 993,
+        "XXL": 999,
+        "XXXL": 998
+      },
+      "retailPriceUsd": 120.9,
+      "verifiedAtUtc": "2026-11-23T15:29:34.523Z"
+    },
+    {
+      "slug": "aster-eyelet-two-piece-set-sky-blue",
+      "sourceProductId": "3256809092356301",
+      "sourceColor": "SKY BLUE",
+      "supplierId": "cmt60u53t00mw04ifydyycpxj",
+      "sourceSkuIdsBySize": {
+        "S": "12000048651666942",
+        "M": "12000048651666943",
+        "XXL": "12000048651666946",
+        "XXXL": "12000048651666947",
+        "L": "12000048651666944",
+        "XL": "12000048651666945"
+      },
+      "landedCostUsdBySize": {
+        "S": 40.21,
+        "M": 40.21,
+        "XXL": 40.21,
+        "XXXL": 40.21,
+        "L": 40.21,
+        "XL": 40.21
+      },
+      "stockBySize": {
+        "S": 995,
+        "M": 994,
+        "XXL": 999,
+        "XXXL": 999,
+        "L": 996,
+        "XL": 999
+      },
+      "retailPriceUsd": 120.9,
+      "verifiedAtUtc": "2026-11-23T15:29:34.523Z"
+    },
+    {
+      "slug": "aster-eyelet-two-piece-set-green",
+      "sourceProductId": "3256809092356301",
+      "sourceColor": "green",
+      "supplierId": "cmt60u53t00mw04ifydyycpxj",
+      "sourceSkuIdsBySize": {
+        "L": "12000048651666962",
+        "XL": "12000048651666963",
+        "S": "12000048651666960",
+        "M": "12000048651666961",
+        "XXL": "12000048651666964",
+        "XXXL": "12000048651666965"
+      },
+      "landedCostUsdBySize": {
+        "L": 40.21,
+        "XL": 40.21,
+        "S": 40.21,
+        "M": 40.21,
+        "XXL": 40.21,
+        "XXXL": 40.21
+      },
+      "stockBySize": {
+        "L": 1000,
+        "XL": 1000,
+        "S": 999,
+        "M": 1000,
+        "XXL": 1000,
+        "XXXL": 1000
+      },
+      "retailPriceUsd": 120.9,
+      "verifiedAtUtc": "2026-11-23T15:29:34.523Z"
+    },
+    {
+      "slug": "aster-eyelet-two-piece-set-white",
+      "sourceProductId": "3256809092356301",
+      "sourceColor": "WHITE",
+      "supplierId": "cmt60u53t00mw04ifydyycpxj",
+      "sourceSkuIdsBySize": {
+        "S": "12000048651666954",
+        "M": "12000048651666955",
+        "XXL": "12000048651666958",
+        "XXXL": "12000048651666959",
+        "L": "12000048651666956",
+        "XL": "12000048651666957"
+      },
+      "landedCostUsdBySize": {
+        "S": 40.21,
+        "M": 40.21,
+        "XXL": 40.21,
+        "XXXL": 40.21,
+        "L": 40.21,
+        "XL": 40.21
+      },
+      "stockBySize": {
+        "S": 996,
+        "M": 995,
+        "XXL": 998,
+        "XXXL": 998,
+        "L": 995,
+        "XL": 997
+      },
+      "retailPriceUsd": 120.9,
+      "verifiedAtUtc": "2026-11-23T15:29:34.523Z"
+    },
+    {
+      "slug": "aveline-printed-blouse-blue-abstract",
+      "sourceProductId": "3256812056559691",
+      "sourceColor": "Blue",
+      "supplierId": "cmuqhn03h001x04le3ltv1yrc",
+      "sourceSkuIdsBySize": {
+        "L": "12000057842667432",
+        "XL": "12000057842667433",
+        "XXL": "12000057842667434",
+        "S": "12000057842667430",
+        "M": "12000057842667431"
+      },
+      "landedCostUsdBySize": {
+        "L": 7.68,
+        "XL": 7.84,
+        "XXL": 7.94,
+        "S": 7.94,
+        "M": 7.64
+      },
+      "stockBySize": {
+        "L": 496,
+        "XL": 494,
+        "XXL": 497,
+        "S": 499,
+        "M": 492
+      },
+      "retailPriceUsd": 23.9,
+      "verifiedAtUtc": "2026-11-23T15:30:11.997Z"
+    },
+    {
+      "slug": "aveline-printed-blouse-black-leopard",
+      "sourceProductId": "3256812056559691",
+      "sourceColor": "black",
+      "supplierId": "cmuqhn03h001x04le3ltv1yrc",
+      "sourceSkuIdsBySize": {
+        "S": "12000057842667435",
+        "M": "12000057842667436",
+        "L": "12000057842667437",
+        "XL": "12000057842667438",
+        "XXL": "12000057842667439"
+      },
+      "landedCostUsdBySize": {
+        "S": 7.64,
+        "M": 7.68,
+        "L": 7.78,
+        "XL": 7.88,
+        "XXL": 7.84
+      },
+      "stockBySize": {
+        "S": 498,
+        "M": 494,
+        "L": 492,
+        "XL": 493,
+        "XXL": 497
+      },
+      "retailPriceUsd": 23.9,
+      "verifiedAtUtc": "2026-11-23T15:30:11.997Z"
+    },
+    {
+      "slug": "aveline-printed-blouse-cream-spot",
+      "sourceProductId": "3256812056559691",
+      "sourceColor": "Beige",
+      "supplierId": "cmuqhn03h001x04le3ltv1yrc",
+      "sourceSkuIdsBySize": {
+        "S": "12000057842667425",
+        "M": "12000057842667426",
+        "L": "12000057842667427",
+        "XL": "12000057842667428",
+        "XXL": "12000057842667429"
+      },
+      "landedCostUsdBySize": {
+        "S": 7.78,
+        "M": 7.68,
+        "L": 7.78,
+        "XL": 7.84,
+        "XXL": 7.94
+      },
+      "stockBySize": {
+        "S": 494,
+        "M": 491,
+        "L": 484,
+        "XL": 485,
+        "XXL": 495
+      },
+      "retailPriceUsd": 23.9,
+      "verifiedAtUtc": "2026-11-23T15:30:11.997Z"
+    },
+    {
+      "slug": "aveline-printed-blouse-brown-leopard",
+      "sourceProductId": "3256812056559691",
+      "sourceColor": "Light Brown",
+      "supplierId": "cmuqhn03h001x04le3ltv1yrc",
+      "sourceSkuIdsBySize": {
+        "XL": "12000057842667448",
+        "XXL": "12000057842667449",
+        "S": "12000057842667445",
+        "M": "12000057842667446",
+        "L": "12000057842667447"
+      },
+      "landedCostUsdBySize": {
+        "XL": 7.94,
+        "XXL": 7.98,
+        "S": 7.32,
+        "M": 7.68,
+        "L": 7.84
+      },
+      "stockBySize": {
+        "XL": 497,
+        "XXL": 499,
+        "S": 500,
+        "M": 497,
+        "L": 497
+      },
+      "retailPriceUsd": 24.9,
+      "verifiedAtUtc": "2026-11-23T15:30:11.997Z"
+    },
+    {
+      "slug": "aveline-printed-blouse-white-spot",
+      "sourceProductId": "3256812056559691",
+      "sourceColor": "WHITE",
+      "supplierId": "cmuqhn03h001x04le3ltv1yrc",
+      "sourceSkuIdsBySize": {
+        "S": "12000057842667440",
+        "M": "12000057842667441",
+        "L": "12000057842667442",
+        "XL": "12000057842667443",
+        "XXL": "12000057842667444"
+      },
+      "landedCostUsdBySize": {
+        "S": 7.68,
+        "M": 7.68,
+        "L": 7.78,
+        "XL": 7.78,
+        "XXL": 7.94
+      },
+      "stockBySize": {
+        "S": 498,
+        "M": 496,
+        "L": 498,
+        "XL": 495,
+        "XXL": 498
+      },
+      "retailPriceUsd": 23.9,
+      "verifiedAtUtc": "2026-11-23T15:30:11.997Z"
+    },
+    {
+      "slug": "orlena-lace-balloon-sleeve-mini-dress-white",
+      "sourceProductId": "3256812955486529",
+      "sourceColor": "WHITE",
+      "supplierId": "cmwhrxxyb00640jmct2m9sfx7",
+      "sourceSkuIdsBySize": {
+        "M": "12000060349859368",
+        "L": "12000060349859369",
+        "XL": "12000060349859370",
+        "XXL": "12000060349859371",
+        "S": "12000060349859367"
+      },
+      "landedCostUsdBySize": {
+        "M": 30.19,
+        "L": 30.19,
+        "XL": 30.19,
+        "XXL": 30.19,
+        "S": 30.19
+      },
+      "stockBySize": {
+        "M": 798,
+        "L": 800,
+        "XL": 800,
+        "XXL": 800,
+        "S": 800
+      },
+      "retailPriceUsd": 90.9,
+      "verifiedAtUtc": "2026-11-23T15:30:24.125Z"
+    },
+    {
+      "slug": "orlena-lace-balloon-sleeve-mini-dress-black",
+      "sourceProductId": "3256812955486529",
+      "sourceColor": "black",
+      "supplierId": "cmwhrxxyb00640jmct2m9sfx7",
+      "sourceSkuIdsBySize": {
+        "S": "12000060349859362",
+        "M": "12000060349859363",
+        "L": "12000060349859364",
+        "XL": "12000060349859365",
+        "XXL": "12000060349859366"
+      },
+      "landedCostUsdBySize": {
+        "S": 30.19,
+        "M": 30.19,
+        "L": 30.19,
+        "XL": 30.19,
+        "XXL": 30.19
+      },
+      "stockBySize": {
+        "S": 799,
+        "M": 798,
+        "L": 800,
+        "XL": 798,
+        "XXL": 796
+      },
+      "retailPriceUsd": 90.9,
+      "verifiedAtUtc": "2026-11-23T15:30:24.125Z"
+    },
+    {
+      "slug": "cerelia-lace-corset-mini-dress-white",
+      "sourceProductId": "3256806080098736",
+      "sourceColor": "WHITE",
+      "supplierId": "cmvljq6a900db06id0ziu8vbh",
+      "sourceSkuIdsBySize": {
+        "L": "12000037441485476",
+        "M": "12000037441485475",
+        "S": "12000037441485474",
+        "XS（old）": "12000037441485473"
+      },
+      "landedCostUsdBySize": {
+        "L": 40.99,
+        "M": 40.99,
+        "S": 40.99,
+        "XS（old）": 40.99
+      },
+      "stockBySize": {
+        "L": 27,
+        "M": 12,
+        "S": 16,
+        "XS（old）": 22
+      },
+      "retailPriceUsd": 123.9,
+      "verifiedAtUtc": "2026-11-23T15:30:33.392Z"
+    },
+    {
+      "slug": "cerelia-lace-corset-mini-dress-black",
+      "sourceProductId": "3256806080098736",
+      "sourceColor": "black",
+      "supplierId": "cmvljq6a900db06id0ziu8vbh",
+      "sourceSkuIdsBySize": {
+        "XL": "12000043348874369",
+        "L": "12000037441485468",
+        "M": "12000037441485467",
+        "S": "12000037441485466",
+        "XS（old）": "12000037441485465"
+      },
+      "landedCostUsdBySize": {
+        "XL": 40.99,
+        "L": 40.99,
+        "M": 40.99,
+        "S": 40.99,
+        "XS（old）": 40.99
+      },
+      "stockBySize": {
+        "XL": 7,
+        "L": 19,
+        "M": 40,
+        "S": 15,
+        "XS（old）": 18
+      },
+      "retailPriceUsd": 123.9,
+      "verifiedAtUtc": "2026-11-23T15:30:33.392Z"
+    },
+    {
+      "slug": "cerelia-lace-corset-mini-dress-red",
+      "sourceProductId": "3256806080098736",
+      "sourceColor": "Red",
+      "supplierId": "cmvljq6a900db06id0ziu8vbh",
+      "sourceSkuIdsBySize": {
+        "XS（old）": "12000036532932887",
+        "S": "12000036532932888",
+        "M": "12000036532932889",
+        "L": "12000036532932890"
+      },
+      "landedCostUsdBySize": {
+        "XS（old）": 40.99,
+        "S": 40.99,
+        "M": 40.99,
+        "L": 40.99
+      },
+      "stockBySize": {
+        "XS（old）": 12,
+        "S": 28,
+        "M": 20,
+        "L": 23
+      },
+      "retailPriceUsd": 123.9,
+      "verifiedAtUtc": "2026-11-23T15:30:33.392Z"
+    },
+    {
+      "slug": "pavelle-polka-dot-trouser-set-ivory-and-tan",
+      "sourceProductId": "3256812158349763",
+      "sourceColor": "WHITE",
+      "supplierId": "cmt62k7qg001r04kwhx4ptcj7",
+      "sourceSkuIdsBySize": {
+        "S": "12000058147756409",
+        "L": "12000058147756411",
+        "M": "12000058147756410",
+        "XXL": "12000058147756413",
+        "XL": "12000058147756412",
+        "XXXL": "12000058147756414"
+      },
+      "landedCostUsdBySize": {
+        "S": 29.51,
+        "L": 29.51,
+        "M": 29.51,
+        "XXL": 29.51,
+        "XL": 29.51,
+        "XXXL": 29.51
+      },
+      "stockBySize": {
+        "S": 888,
+        "L": 888,
+        "M": 888,
+        "XXL": 888,
+        "XL": 888,
+        "XXXL": 888
+      },
+      "retailPriceUsd": 88.9,
+      "verifiedAtUtc": "2026-11-23T15:30:43.946Z"
+    },
+    {
+      "slug": "pavelle-polka-dot-trouser-set-pink-and-lime",
+      "sourceProductId": "3256812158349763",
+      "sourceColor": "MULTI",
+      "supplierId": "cmt62k7qg001r04kwhx4ptcj7",
+      "sourceSkuIdsBySize": {
+        "S": "12000058147756415",
+        "L": "12000058147756417",
+        "M": "12000058147756416",
+        "XXL": "12000058147756419",
+        "XL": "12000058147756418",
+        "XXXL": "12000058147756420"
+      },
+      "landedCostUsdBySize": {
+        "S": 29.51,
+        "L": 29.51,
+        "M": 29.51,
+        "XXL": 29.51,
+        "XL": 29.51,
+        "XXXL": 29.51
+      },
+      "stockBySize": {
+        "S": 888,
+        "L": 888,
+        "M": 888,
+        "XXL": 888,
+        "XL": 888,
+        "XXXL": 888
+      },
+      "retailPriceUsd": 88.9,
+      "verifiedAtUtc": "2026-11-23T15:30:43.946Z"
+    },
+    {
+      "slug": "pavelle-polka-dot-trouser-set-caramel-and-white",
+      "sourceProductId": "3256812158349763",
+      "sourceColor": "Light Brown",
+      "supplierId": "cmt62k7qg001r04kwhx4ptcj7",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000058147756425",
+        "XL": "12000058147756424",
+        "XXXL": "12000058147756426",
+        "S": "12000058147756421",
+        "L": "12000058147756423",
+        "M": "12000058147756422"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 29.51,
+        "XL": 29.51,
+        "XXXL": 29.51,
+        "S": 29.51,
+        "L": 29.51,
+        "M": 29.51
+      },
+      "stockBySize": {
+        "XXL": 888,
+        "XL": 888,
+        "XXXL": 888,
+        "S": 888,
+        "L": 888,
+        "M": 888
+      },
+      "retailPriceUsd": 88.9,
+      "verifiedAtUtc": "2026-11-23T15:30:43.946Z"
+    },
+    {
+      "slug": "olive-gingham-maxi-skirt-pink",
+      "sourceProductId": "3256811917798791",
+      "sourceColor": "Pink",
+      "supplierId": "cmt64bbvp01df04jnmbul8szi",
+      "sourceSkuIdsBySize": {
+        "S": "12000057535410141",
+        "L": "12000057535410143",
+        "M": "12000057535410142",
+        "XXL": "12000057535410145",
+        "XL": "12000057535410144",
+        "XXXL": "12000057535410146"
+      },
+      "landedCostUsdBySize": {
+        "S": 15.18,
+        "L": 15.18,
+        "M": 15.18,
+        "XXL": 15.18,
+        "XL": 15.18,
+        "XXXL": 15.18
+      },
+      "stockBySize": {
+        "S": 999,
+        "L": 999,
+        "M": 999,
+        "XXL": 999,
+        "XL": 999,
+        "XXXL": 999
+      },
+      "retailPriceUsd": 45.9,
+      "verifiedAtUtc": "2026-11-23T15:30:51.653Z"
+    },
+    {
+      "slug": "olive-gingham-maxi-skirt-blue",
+      "sourceProductId": "3256811917798791",
+      "sourceColor": "Light Blue",
+      "supplierId": "cmt64bbvp01df04jnmbul8szi",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000057535410152",
+        "S": "12000057535410147",
+        "L": "12000057535410149",
+        "M": "12000057535410148",
+        "XXL": "12000057535410151",
+        "XL": "12000057535410150"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 15.18,
+        "S": 15.18,
+        "L": 15.18,
+        "M": 15.18,
+        "XXL": 15.18,
+        "XL": 15.18
+      },
+      "stockBySize": {
+        "XXXL": 999,
+        "S": 999,
+        "L": 999,
+        "M": 999,
+        "XXL": 999,
+        "XL": 999
+      },
+      "retailPriceUsd": 45.9,
+      "verifiedAtUtc": "2026-11-23T15:30:51.653Z"
+    },
+    {
+      "slug": "marena-frayed-hem-denim-shorts-red",
+      "sourceProductId": "3256811554452854",
+      "sourceColor": "Red",
+      "supplierId": "cmt60ejsj00dk04ifuuf9rkp7",
+      "sourceSkuIdsBySize": {
+        "M": "12000056405007996",
+        "S": "12000056405007997",
+        "XL": "12000056405007984",
+        "L": "12000056405007988",
+        "XXL": "12000056405007979"
+      },
+      "landedCostUsdBySize": {
+        "M": 23.63,
+        "S": 23.6,
+        "XL": 24.02,
+        "L": 24.31,
+        "XXL": 24.11
+      },
+      "stockBySize": {
+        "M": 100,
+        "S": 100,
+        "XL": 100,
+        "L": 100,
+        "XXL": 100
+      },
+      "retailPriceUsd": 73.9,
+      "verifiedAtUtc": "2026-11-23T15:30:58.884Z"
+    },
+    {
+      "slug": "solenne-printed-beach-cover-up-cocoa-stripe",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-7 stripes",
+      "supplierId": "cmt60vy0c00pf04ifrvidjsgj",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245455"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 33.48
+      },
+      "stockBySize": {
+        "One size fits all": 99996
+      },
+      "retailPriceUsd": 100.9,
+      "verifiedAtUtc": "2026-11-23T15:33:12.027Z"
+    },
+    {
+      "slug": "solenne-printed-beach-cover-up-jade-abstract",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-14 abstract",
+      "supplierId": "cmt60vy0c00pf04ifrvidjsgj",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245457"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 33.54
+      },
+      "stockBySize": {
+        "One size fits all": 99997
+      },
+      "retailPriceUsd": 100.9,
+      "verifiedAtUtc": "2026-11-23T15:33:12.027Z"
+    },
+    {
+      "slug": "solenne-printed-beach-cover-up-tropical-leaves",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-12 black background leaves",
+      "supplierId": "cmt60vy0c00pf04ifrvidjsgj",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245460"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 33.18
+      },
+      "stockBySize": {
+        "One size fits all": 99999
+      },
+      "retailPriceUsd": 99.9,
+      "verifiedAtUtc": "2026-11-23T15:33:12.027Z"
+    },
+    {
+      "slug": "solenne-printed-beach-cover-up-midnight-floral",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069 flowers",
+      "supplierId": "cmt60vy0c00pf04ifrvidjsgj",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245466"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 33.02
+      },
+      "stockBySize": {
+        "One size fits all": 99997
+      },
+      "retailPriceUsd": 99.9,
+      "verifiedAtUtc": "2026-11-23T15:33:12.027Z"
+    },
+    {
+      "slug": "solenne-printed-beach-cover-up-indigo-mosaic",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-2 bow tie",
+      "supplierId": "cmt60vy0c00pf04ifrvidjsgj",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245464"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 33.66
+      },
+      "stockBySize": {
+        "One size fits all": 99997
+      },
+      "retailPriceUsd": 101.9,
+      "verifiedAtUtc": "2026-11-23T15:33:12.027Z"
+    },
+    {
+      "slug": "solenne-printed-beach-cover-up-umber-zebra",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-4 zebra",
+      "supplierId": "cmt60vy0c00pf04ifrvidjsgj",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245462"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 33.44
+      },
+      "stockBySize": {
+        "One size fits all": 99982
+      },
+      "retailPriceUsd": 100.9,
+      "verifiedAtUtc": "2026-11-23T15:33:12.027Z"
+    },
+    {
+      "slug": "solenne-printed-beach-cover-up-tropical-leopard",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-11 large leopard print",
+      "supplierId": "cmt60vy0c00pf04ifrvidjsgj",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245458"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 32.72
+      },
+      "stockBySize": {
+        "One size fits all": 99997
+      },
+      "retailPriceUsd": 98.9,
+      "verifiedAtUtc": "2026-11-23T15:33:12.027Z"
+    },
+    {
+      "slug": "solenne-printed-beach-cover-up-coral-stripe",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-13 orange",
+      "supplierId": "cmt60vy0c00pf04ifrvidjsgj",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245456"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 33.34
+      },
+      "stockBySize": {
+        "One size fits all": 99997
+      },
+      "retailPriceUsd": 100.9,
+      "verifiedAtUtc": "2026-11-23T15:33:12.027Z"
+    },
+    {
+      "slug": "solenne-printed-beach-cover-up-bright-abstract",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-3 color",
+      "supplierId": "cmt60vy0c00pf04ifrvidjsgj",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245463"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 33.54
+      },
+      "stockBySize": {
+        "One size fits all": 99998
+      },
+      "retailPriceUsd": 100.9,
+      "verifiedAtUtc": "2026-11-23T15:33:12.027Z"
+    },
+    {
+      "slug": "solenne-printed-beach-cover-up-black-and-sand",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-6 khaki black",
+      "supplierId": "cmt60vy0c00pf04ifrvidjsgj",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245461"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 32.96
+      },
+      "stockBySize": {
+        "One size fits all": 99994
+      },
+      "retailPriceUsd": 98.9,
+      "verifiedAtUtc": "2026-11-23T15:33:12.027Z"
+    }
+  ]
+}
