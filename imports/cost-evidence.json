@@ -161,6 +161,14 @@
    "landedCostUsd": 7.94,
    "source": "catalog-20261123-batch01-bindings.json"
   },
+  "avelis-ribbed-blouson-mini-dress-black": {
+   "landedCostUsd": 27.18,
+   "source": "catalog-20261123-batch10-bindings.json"
+  },
+  "avelis-ribbed-blouson-mini-dress-heather-gray": {
+   "landedCostUsd": 27.08,
+   "source": "catalog-20261123-batch10-bindings.json"
+  },
   "azul-tile-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -589,6 +597,14 @@
    "landedCostUsd": 13.98,
    "source": "catalog-20261123-batch09-bindings.json"
   },
+  "elvarie-ribbed-skater-mini-dress-caramel": {
+   "landedCostUsd": 15.14,
+   "source": "catalog-20261123-batch10-bindings.json"
+  },
+  "elvarie-ribbed-skater-mini-dress-chocolate": {
+   "landedCostUsd": 13.88,
+   "source": "catalog-20261123-batch10-bindings.json"
+  },
   "elvarie-ribbed-skater-mini-dress-cream": {
    "landedCostUsd": 14.28,
    "source": "catalog-20261123-batch09-bindings.json"
@@ -597,9 +613,21 @@
    "landedCostUsd": 14.32,
    "source": "catalog-20261123-batch09-bindings.json"
   },
+  "elvarie-ribbed-skater-mini-dress-navy": {
+   "landedCostUsd": 14.28,
+   "source": "catalog-20261123-batch10-bindings.json"
+  },
+  "elvarie-ribbed-skater-mini-dress-olive": {
+   "landedCostUsd": 14.21,
+   "source": "catalog-20261123-batch10-bindings.json"
+  },
   "elvarie-ribbed-skater-mini-dress-red": {
    "landedCostUsd": 14.64,
    "source": "catalog-20261123-batch09-bindings.json"
+  },
+  "elvarie-ribbed-skater-mini-dress-royal-blue": {
+   "landedCostUsd": 14.54,
+   "source": "catalog-20261123-batch10-bindings.json"
   },
   "elvarie-ribbed-skater-mini-dress-slate-blue": {
    "landedCostUsd": 14.64,
@@ -1208,6 +1236,18 @@
   "odeline-waterfall-panel-maxi-dress-red": {
    "landedCostUsd": 39.5,
    "source": "catalog-20261123-batch04-bindings.json"
+  },
+  "odelise-tulip-hem-sweater-dress-black": {
+   "landedCostUsd": 39.78,
+   "source": "catalog-20261123-batch10-bindings.json"
+  },
+  "odelise-tulip-hem-sweater-dress-heather-gray": {
+   "landedCostUsd": 39.78,
+   "source": "catalog-20261123-batch10-bindings.json"
+  },
+  "odelise-tulip-hem-sweater-dress-olive": {
+   "landedCostUsd": 39.78,
+   "source": "catalog-20261123-batch10-bindings.json"
   },
   "odessa-polka-dot-halter-swing-dress-black": {
    "landedCostUsd": 29.95,

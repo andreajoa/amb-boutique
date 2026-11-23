@@ -1,0 +1,281 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "odelise-tulip-hem-sweater-dress-heather-gray",
+      "sourceProductId": "3256809553835259",
+      "sourceColor": "GRAY",
+      "supplierId": "cmwtob6kc00fn0jlnz0yqiwyg",
+      "sourceSkuIdsBySize": {
+        "XL": "12000050006603267",
+        "L": "12000050006603266",
+        "M": "12000050006603265",
+        "S": "12000050006603264"
+      },
+      "landedCostUsdBySize": {
+        "XL": 39.78,
+        "L": 39.78,
+        "M": 39.78,
+        "S": 39.78
+      },
+      "stockBySize": {
+        "XL": 479,
+        "L": 481,
+        "M": 484,
+        "S": 492
+      },
+      "retailPriceUsd": 119.9,
+      "verifiedAtUtc": "2026-11-23T21:03:17.492Z"
+    },
+    {
+      "slug": "avelis-ribbed-blouson-mini-dress-black",
+      "sourceProductId": "3256809234187157",
+      "sourceColor": "2361-Black",
+      "supplierId": "cmwtonb8a00n10jlnjv6vovjg",
+      "sourceSkuIdsBySize": {
+        "XL": "12000049041332736",
+        "S": "12000049041332733",
+        "M": "12000049041332734",
+        "L": "12000049041332735"
+      },
+      "landedCostUsdBySize": {
+        "XL": 27.08,
+        "S": 24.78,
+        "M": 25.48,
+        "L": 27.18
+      },
+      "stockBySize": {
+        "XL": 31,
+        "S": 133,
+        "M": 101,
+        "L": 37
+      },
+      "retailPriceUsd": 81.9,
+      "verifiedAtUtc": "2026-11-23T21:08:51.775Z"
+    },
+    {
+      "slug": "elvarie-ribbed-skater-mini-dress-caramel",
+      "sourceProductId": "1005007812198049",
+      "sourceColor": "caramel",
+      "supplierId": "cmwtnt9mq002j0jlnx5ats093",
+      "sourceSkuIdsBySize": {
+        "M": "12000052641064175",
+        "S": "12000052641064174",
+        "XL": "12000052641064177",
+        "L": "12000052641064176",
+        "XXL": "12000052641064178"
+      },
+      "landedCostUsdBySize": {
+        "M": 13.48,
+        "S": 13.32,
+        "XL": 15.14,
+        "L": 13.78,
+        "XXL": 14.18
+      },
+      "stockBySize": {
+        "M": 197,
+        "S": 197,
+        "XL": 200,
+        "L": 198,
+        "XXL": 197
+      },
+      "retailPriceUsd": 45.9,
+      "verifiedAtUtc": "2026-11-23T21:06:50.706Z"
+    },
+    {
+      "slug": "odelise-tulip-hem-sweater-dress-olive",
+      "sourceProductId": "3256809553835259",
+      "sourceColor": "army green",
+      "supplierId": "cmwtob6kc00fn0jlnz0yqiwyg",
+      "sourceSkuIdsBySize": {
+        "XL": "12000050006603271",
+        "L": "12000050006603270",
+        "M": "12000050006603269",
+        "S": "12000050006603268"
+      },
+      "landedCostUsdBySize": {
+        "XL": 39.78,
+        "L": 39.78,
+        "M": 39.78,
+        "S": 39.78
+      },
+      "stockBySize": {
+        "XL": 471,
+        "L": 492,
+        "M": 483,
+        "S": 493
+      },
+      "retailPriceUsd": 119.9,
+      "verifiedAtUtc": "2026-11-23T21:03:17.492Z"
+    },
+    {
+      "slug": "avelis-ribbed-blouson-mini-dress-heather-gray",
+      "sourceProductId": "3256809234187157",
+      "sourceColor": "2361-Grey",
+      "supplierId": "cmwtonb8a00n10jlnjv6vovjg",
+      "sourceSkuIdsBySize": {
+        "XL": "12000049041332740",
+        "S": "12000049041332737",
+        "M": "12000049041332738",
+        "L": "12000049041332739"
+      },
+      "landedCostUsdBySize": {
+        "XL": 27.08,
+        "S": 25.88,
+        "M": 25.88,
+        "L": 26.88
+      },
+      "stockBySize": {
+        "XL": 21,
+        "S": 1,
+        "M": 1,
+        "L": 19
+      },
+      "retailPriceUsd": 81.9,
+      "verifiedAtUtc": "2026-11-23T21:08:51.775Z"
+    },
+    {
+      "slug": "elvarie-ribbed-skater-mini-dress-royal-blue",
+      "sourceProductId": "1005007812198049",
+      "sourceColor": "Royal Blue",
+      "supplierId": "cmwtnt9mq002j0jlnx5ats093",
+      "sourceSkuIdsBySize": {
+        "M": "12000051173295939",
+        "S": "12000051173295938",
+        "XL": "12000051173295941",
+        "L": "12000051173295940",
+        "XXL": "12000051173295942"
+      },
+      "landedCostUsdBySize": {
+        "M": 13.84,
+        "S": 13.64,
+        "XL": 14.38,
+        "L": 14.04,
+        "XXL": 14.54
+      },
+      "stockBySize": {
+        "M": 195,
+        "S": 196,
+        "XL": 200,
+        "L": 194,
+        "XXL": 197
+      },
+      "retailPriceUsd": 43.9,
+      "verifiedAtUtc": "2026-11-23T21:06:50.706Z"
+    },
+    {
+      "slug": "odelise-tulip-hem-sweater-dress-black",
+      "sourceProductId": "3256809553835259",
+      "sourceColor": "black",
+      "supplierId": "cmwtob6kc00fn0jlnz0yqiwyg",
+      "sourceSkuIdsBySize": {
+        "XL": "12000050006603263",
+        "L": "12000050006603262",
+        "M": "12000050006603261",
+        "S": "12000050006603260"
+      },
+      "landedCostUsdBySize": {
+        "XL": 39.78,
+        "L": 39.78,
+        "M": 39.78,
+        "S": 39.78
+      },
+      "stockBySize": {
+        "XL": 495,
+        "L": 493,
+        "M": 496,
+        "S": 497
+      },
+      "retailPriceUsd": 119.9,
+      "verifiedAtUtc": "2026-11-23T21:03:17.492Z"
+    },
+    {
+      "slug": "elvarie-ribbed-skater-mini-dress-olive",
+      "sourceProductId": "1005007812198049",
+      "sourceColor": "Military green",
+      "supplierId": "cmwtnt9mq002j0jlnx5ats093",
+      "sourceSkuIdsBySize": {
+        "M": "12000051173295929",
+        "S": "12000051173295928",
+        "XL": "12000051173295931",
+        "L": "12000051173295930",
+        "XXL": "12000051173295932"
+      },
+      "landedCostUsdBySize": {
+        "M": 13.64,
+        "S": 13.54,
+        "XL": 14.21,
+        "L": 13.88,
+        "XXL": 13.14
+      },
+      "stockBySize": {
+        "M": 193,
+        "S": 197,
+        "XL": 198,
+        "L": 199,
+        "XXL": 194
+      },
+      "retailPriceUsd": 42.9,
+      "verifiedAtUtc": "2026-11-23T21:06:50.706Z"
+    },
+    {
+      "slug": "elvarie-ribbed-skater-mini-dress-chocolate",
+      "sourceProductId": "1005007812198049",
+      "sourceColor": "chocolate",
+      "supplierId": "cmwtnt9mq002j0jlnx5ats093",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000052641064173",
+        "XL": "12000052641064172",
+        "S": "12000052641064169",
+        "L": "12000052641064171",
+        "M": "12000052641064170"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 13.88,
+        "XL": 13.58,
+        "S": 13.04,
+        "L": 13.35,
+        "M": 13.21
+      },
+      "stockBySize": {
+        "XXL": 189,
+        "XL": 198,
+        "S": 196,
+        "L": 193,
+        "M": 194
+      },
+      "retailPriceUsd": 41.9,
+      "verifiedAtUtc": "2026-11-23T21:06:50.706Z"
+    },
+    {
+      "slug": "elvarie-ribbed-skater-mini-dress-navy",
+      "sourceProductId": "1005007812198049",
+      "sourceColor": "navy blue",
+      "supplierId": "cmwtnt9mq002j0jlnx5ats093",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000051904610374",
+        "L": "12000051904610372",
+        "XL": "12000051904610373",
+        "S": "12000051904610370",
+        "M": "12000051904610371"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 14.28,
+        "L": 13.84,
+        "XL": 14.04,
+        "S": 13.44,
+        "M": 13.44
+      },
+      "stockBySize": {
+        "XXL": 197,
+        "L": 188,
+        "XL": 195,
+        "S": 195,
+        "M": 192
+      },
+      "retailPriceUsd": 42.9,
+      "verifiedAtUtc": "2026-11-23T21:06:50.706Z"
+    }
+  ]
+}
