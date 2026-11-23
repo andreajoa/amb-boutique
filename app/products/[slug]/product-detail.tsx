@@ -9,8 +9,10 @@ import { productPrice } from "../../product-pricing";
 import { stockForSize } from "../../product-inventory";
 import { getPreparationNotice } from "../../product-fulfillment";
 import { useStore } from "../../store-provider";
-import { SizeFinder } from "../../size-finder";
+import { SizeFinder, type SizeFinderTab } from "../../size-finder";
 import { ShoeSizeGuide } from "../../shoe-size-guide";
+import { estimateDeliveryWindow, recommendSizeForProduct } from "../../fit-engine";
+import { useFitProfile } from "../../fit-profile";
 import { createCompleteLook } from "../../recommendations";
 import { StyleMatches } from "../../style-matches";
 import { ProductReviews } from "../../product-reviews";
@@ -60,9 +62,23 @@ export default function ProductDetail({
   const lightboxCloseRef = useRef<HTMLButtonElement>(null);
   const lightboxReturnFocus = useRef<HTMLElement | null>(null);
   const { addItem, buyNow, formatMoney, preferredCategories, recordProductView, market, catalog: products } = useStore();
+  const { profile: fitProfile } = useFitProfile();
+  const [fitModalTab, setFitModalTab] = useState<SizeFinderTab>("profile");
+  const [fitModalOpen, setFitModalOpen] = useState(false);
+  const [eventDate, setEventDate] = useState("");
+  const [showDateCheck, setShowDateCheck] = useState(false);
+  const [nowMs] = useState(() => Date.now());
   const delivery = deliveryWindows[market] || deliveryWindows.US;
+  const deliveryEstimate = useMemo(
+    () => estimateDeliveryWindow(market, { nowMs, preparationNotice, eventDateIso: eventDate || undefined }),
+    [market, nowMs, preparationNotice, eventDate],
+  );
+  const fitRecommendation = useMemo(
+    () => (!isShoe && fitProfile ? recommendSizeForProduct({ ...product, sizes }, fitProfile) : null),
+    [isShoe, fitProfile, product, sizes],
+  );
   // Same figures as /shipping: processing first, then the carrier window for the shopper's market.
-  const deliveryLine = `${preparationNotice ? "" : "Ships in 1–3 business days · "}Arrives in about ${delivery.min}–${delivery.max} business days to ${markets[market]?.country || "the United States"}`;
+  const deliveryLine = `Order today → estimated arrival ${deliveryEstimate.rangeLabel} (${delivery.min}–${delivery.max} business days to ${markets[market]?.country || "the United States"})`;
   const completeLook = useMemo(() => createCompleteLook(product, products, preferredCategories), [product, products, preferredCategories]);
 
   const spriteCount = product.gallerySprite ? product.gallerySprite.columns * product.gallerySprite.rows : 0;
@@ -144,7 +160,77 @@ export default function ProductDetail({
 
           {isShoe && heelOptions.length > 1 && <fieldset className="option-group"><legend><strong>Heel height:</strong> {heelHeightCm} cm</legend><div className="size-options">{heelOptions.map((height) => <button type="button" key={height} className={heelHeightCm === height ? "selected" : ""} onClick={() => selectHeelHeight(height)}>{height} cm</button>)}</div></fieldset>}
 
-          <fieldset className="option-group"><legend><strong>{isShoe ? "AMB Size" : "Size"}:</strong> {size}</legend><div className="size-options">{sizes.map((item) => <button type="button" key={item} className={size === item ? "selected" : ""} onClick={() => setSize(item)}>{item}</button>)}</div><div className="size-help-links">{isShoe ? <Link className="shoe-size-link" href="/size-guide#shoes">Shoe Size Guide</Link> : <SizeFinder product={product} sizes={sizes} onSelect={setSize}/>}</div></fieldset>
+          <fieldset className="option-group">
+            <legend><strong>{isShoe ? "AMB Size" : "Size"}:</strong> {size}</legend>
+            <div className="size-options">
+              {sizes.map((item) => {
+                const isRecommended = Boolean(fitRecommendation?.supported && !fitRecommendation.isOneSize && fitRecommendation.recommendedSize === item);
+                return (
+                  <button
+                    type="button"
+                    key={item}
+                    className={`${size === item ? "selected" : ""}${isRecommended ? " recommended" : ""}`}
+                    onClick={() => setSize(item)}
+                  >
+                    {item}
+                    {isRecommended && <em className="size-rec-dot" aria-label="Recommended for your fit">★</em>}
+                  </button>
+                );
+              })}
+            </div>
+            <div className="size-help-links">
+              {isShoe ? (
+                <Link className="shoe-size-link" href="/size-guide#shoes">Shoe Size Guide</Link>
+              ) : (
+                <SizeFinder
+                  product={product}
+                  sizes={sizes}
+                  onSelect={setSize}
+                  externalOpen={fitModalOpen}
+                  onExternalClose={() => setFitModalOpen(false)}
+                  activeTab={fitModalTab}
+                  onTabChange={setFitModalTab}
+                  hideTrigger
+                />
+              )}
+            </div>
+          </fieldset>
+
+          {!isShoe && (
+            <div className="pdp-fit-banner" aria-live="polite">
+              {fitRecommendation?.supported ? (
+                <>
+                  <div className="pdp-fit-banner-copy">
+                    <span className="pdp-fit-kicker">YOUR PERSONAL FIT MATCH</span>
+                    <strong>{fitRecommendation.headline}</strong>
+                    <small>{fitRecommendation.hemline.note}</small>
+                  </div>
+                  <div className="pdp-fit-banner-actions">
+                    {!fitRecommendation.isOneSize && size !== fitRecommendation.recommendedSize && sizes.includes(fitRecommendation.recommendedSize) && (
+                      <button type="button" className="pdp-fit-apply" onClick={() => setSize(fitRecommendation.recommendedSize)}>
+                        Apply {fitRecommendation.recommendedSize}
+                      </button>
+                    )}
+                    <button type="button" className="text-link" onClick={() => { setFitModalTab("profile"); setFitModalOpen(true); }}>Adjust Fit</button>
+                    <button type="button" className="text-link" onClick={() => { setFitModalTab("proportion"); setFitModalOpen(true); }}>Length Preview</button>
+                    <button type="button" className="text-link" onClick={() => { setFitModalTab("mirror"); setFitModalOpen(true); }}>Color Mirror</button>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="pdp-fit-banner-copy">
+                    <span className="pdp-fit-kicker">DYNAMIC FIT &amp; STYLE ADVISOR</span>
+                    <strong>Find your exact size in 20 seconds — no tape needed</strong>
+                    <small>Get your recommended size, hemline preview for your height &amp; private local color mirror.</small>
+                  </div>
+                  <div className="pdp-fit-banner-actions">
+                    <button type="button" className="pdp-fit-apply" onClick={() => { setFitModalTab("profile"); setFitModalOpen(true); }}>Find My Size</button>
+                    <button type="button" className="text-link" onClick={() => { setFitModalTab("mirror"); setFitModalOpen(true); }}>Color Mirror</button>
+                  </div>
+                </>
+              )}
+            </div>
+          )}
 
           <fieldset className="option-group"><legend><strong>Color:</strong> {color.name}</legend><div className="color-options">{colors.map((item) => <button type="button" key={item.name} className={color.name === item.name ? "selected" : ""} onClick={() => setColor(item)} aria-label={item.name}><span style={{ backgroundColor: item.value }}/></button>)}</div></fieldset>
 
@@ -153,7 +239,29 @@ export default function ProductDetail({
           <div className="quantity-block"><span>Quantity</span><div><button type="button" disabled={unavailable || purchaseQuantity <= 1} onClick={() => setQuantity(Math.max(1, purchaseQuantity - 1))} aria-label="Decrease quantity">−</button><span>{purchaseQuantity}</span><button type="button" disabled={unavailable || purchaseQuantity >= quantityLimit} onClick={() => setQuantity(purchaseQuantity + 1)} aria-label="Increase quantity">+</button></div></div>
           <p className="stock-line"><i/> {unavailable ? "Currently unavailable" : !preparationNotice && typeof activeStock === "number" && activeStock <= 5 ? `Only ${activeStock} left` : "Available to order"}</p>
           {preparationNotice && <p className="product-intro" data-preparation-notice>{preparationNotice}</p>}
-          <p className="trust-line" data-delivery-estimate>{deliveryLine}<br/><small>Estimate after dispatch, not a guarantee · <Link href="/shipping">Shipping details</Link></small></p>
+          <div className="trust-line pdp-delivery-box" data-delivery-estimate>
+            <p>{deliveryLine}</p>
+            <small>
+              {preparationNotice ? "Extended preparation applies · " : "Ships in 1–3 business days · "}Estimate after dispatch, not a guarantee · <Link href="/shipping">Shipping details</Link>
+              {" · "}
+              <button type="button" className="pdp-date-toggle" onClick={() => setShowDateCheck((prev) => !prev)}>
+                {showDateCheck ? "Hide date check" : "Need it for a specific date?"}
+              </button>
+            </small>
+            {showDateCheck && (
+              <div className="pdp-date-checker">
+                <label>
+                  <span>Your event date</span>
+                  <input type="date" value={eventDate} onChange={(e) => setEventDate(e.target.value)} />
+                </label>
+                {deliveryEstimate.eventLabel && (
+                  <strong className={`pdp-date-status is-${deliveryEstimate.eventStatus || "on-time"}`}>
+                    {deliveryEstimate.eventLabel}
+                  </strong>
+                )}
+              </div>
+            )}
+          </div>
           <p className="trust-line" data-returns>30-day returns · unworn, with original tags · <Link href="/returns">See return policy</Link></p>
           <button className="add-button" type="button" disabled={unavailable} onClick={addToBag}>{unavailable ? "Currently unavailable" : `Add to Bag · ${formatMoney(selectedPrice * purchaseQuantity)}`}</button>
           <button className="buy-button" type="button" disabled={unavailable} onClick={() => void buyNow(product, { size, color: color.name, quantity: purchaseQuantity, heelHeightCm: isShoe ? (heelHeightCm ?? product.heelHeightCm) : undefined })}>Buy Now</button>

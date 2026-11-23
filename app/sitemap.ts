@@ -18,7 +18,7 @@ function indexableImages(images?: string[]) {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticPages = ["", "/collections", "/about", "/contact", "/faq", "/shipping", "/returns", "/privacy", "/terms", "/cookies", "/accessibility", "/size-guide", "/journal", "/sale", "/holiday"];
+  const staticPages = ["", "/collections", "/fit-finder", "/about", "/contact", "/faq", "/shipping", "/returns", "/privacy", "/terms", "/cookies", "/accessibility", "/size-guide", "/journal", "/sale", "/holiday"];
 
   return [
     ...staticPages.map((path) => ({
