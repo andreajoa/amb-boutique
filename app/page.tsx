@@ -7,6 +7,7 @@ import { HeroCarousel } from "./hero-carousel";
 import { PersonalizedProducts } from "./personalized-products";
 import { EditorialStackMotion } from "./editorial-stack-motion";
 import { EditorialHorizontal, type EditorialLook } from "./editorial-horizontal";
+import { DressingRoom, type DressingRoomLook } from "./dressing-room";
 import { storefrontNewArrivals, storefrontReadyProducts } from "./storefront-products";
 
 const collections = [
@@ -29,6 +30,16 @@ export default function Home() {
     return product?.images?.[0] ? [{ slug, name: product.name, image: product.images[0], eyebrow, copy } satisfies EditorialLook] : [];
   });
   const featureProduct = bySlug("calla-maxi-dress");
+  const dressingRoomSpec = [
+    ["prado-vneck-print-midi-dress", "01", "Morning Light", "9:30 AM · SAN DIEGO", "Airy white meadow botanical midi with a flattering V-neckline and breezy three-quarter sleeves.", "/editorial/dressing-room/look-01.webp"],
+    ["evelisse-cowl-neck-velvet-mini-dress-emerald-style-07", "02", "Holiday Afternoon", "3:00 PM · LA JOLLA", "Plush emerald velvet with a softly draped cowl neckline and effortless movement above the knee.", "/editorial/dressing-room/look-02.webp"],
+    ["evelisse-cowl-neck-velvet-mini-dress-burgundy-style-23", "03", "Golden Hour", "6:30 PM · COCKTAIL", "Deep burgundy velvet cut to catch warm evening light with understated seasonal polish.", "/editorial/dressing-room/look-03.webp"],
+    ["fio-dourado-swing-midi-dress", "04", "After Dark", "8:30 PM · EVENING", "Architectural black-and-gold sleeveless midi with a fluid flared skirt made for dinner plans.", "/editorial/dressing-room/look-04.webp"],
+  ] as const;
+  const dressingRoomLooks: DressingRoomLook[] = dressingRoomSpec.flatMap(([slug, chapter, moment, timeLabel, note, bedroomImage]) => {
+    const product = bySlug(slug) || products.find((item) => item.slug === slug);
+    return product ? [{ chapter, moment, timeLabel, note, bedroomImage, product }] : [];
+  });
 
   return (
     <main>
@@ -41,6 +52,8 @@ export default function Home() {
       </section>
 
       <section className="statement-strip" data-reveal><p className="rotating-copy" aria-label="New season, new perspective, confidence and expression"><span>New season, new</span><span className="rotating-window" aria-hidden="true"><span className="rotating-track"><span>perspective.</span><span>confidence.</span><span>expression.</span><span>perspective.</span></span></span></p><span>Curated in San Diego · Designed for wherever life takes you.</span><Link href="/collections">Discover the Edit</Link></section>
+
+      {dressingRoomLooks.length > 0 && <DressingRoom looks={dressingRoomLooks} />}
 
       <section className="section shell" data-reveal>
         <div className="section-heading"><div><p>CURATED FOR YOU</p><h2>Your AMB Edit</h2></div><Link href="/collections">View all</Link></div>
