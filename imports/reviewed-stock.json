@@ -1259,5 +1259,96 @@
    "L": 998,
    "M": 998
   }
+ },
+ "portofino-carryall-coffee": {
+  "stockBySize": {
+   "Large(Max Length>50cm)": 22
+  }
+ },
+ "vespera-tailored-vest-trouser-set-black": {
+  "stockBySize": {
+   "S": 999,
+   "M": 999,
+   "XXL": 999,
+   "L": 999,
+   "XL": 999
+  }
+ },
+ "auralie-open-back-sequin-mini-dress-lime": {
+  "stockBySize": {
+   "M": 999,
+   "L": 999,
+   "S": 999
+  }
+ },
+ "loretta-cold-shoulder-midi-dress-burnt-orange": {
+  "stockBySize": {
+   "L": 999,
+   "M": 998,
+   "S": 999,
+   "XXXL": 999,
+   "XXL": 999,
+   "XL": 997
+  }
+ },
+ "loretta-cold-shoulder-midi-dress-forest-green": {
+  "stockBySize": {
+   "XXXL": 999,
+   "XXL": 999,
+   "XL": 998,
+   "L": 998,
+   "M": 999,
+   "S": 999
+  }
+ },
+ "loretta-cold-shoulder-midi-dress-fuchsia": {
+  "stockBySize": {
+   "XXXL": 999,
+   "S": 999,
+   "XXL": 999,
+   "XL": 998,
+   "L": 999,
+   "M": 998
+  }
+ },
+ "loretta-cold-shoulder-midi-dress-indigo": {
+  "stockBySize": {
+   "L": 997,
+   "M": 998,
+   "S": 999,
+   "XXXL": 999,
+   "XXL": 999,
+   "XL": 999
+  }
+ },
+ "loretta-cold-shoulder-midi-dress-pink": {
+  "stockBySize": {
+   "XXXL": 998,
+   "XXL": 999,
+   "XL": 998,
+   "L": 999,
+   "M": 999,
+   "S": 996
+  }
+ },
+ "loretta-cold-shoulder-midi-dress-white": {
+  "stockBySize": {
+   "XXXL": 997,
+   "S": 991,
+   "XXL": 998,
+   "XL": 994,
+   "L": 996,
+   "M": 990
+  }
+ },
+ "loretta-cold-shoulder-midi-dress-wine": {
+  "stockBySize": {
+   "L": 999,
+   "M": 998,
+   "S": 998,
+   "XXXL": 998,
+   "XXL": 999,
+   "XL": 998
+  }
  }
 }

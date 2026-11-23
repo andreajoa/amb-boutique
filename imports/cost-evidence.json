@@ -113,6 +113,10 @@
    "landedCostUsd": 42.11,
    "source": "catalog-20261123-batch02-bindings.json"
   },
+  "auralie-open-back-sequin-mini-dress-lime": {
+   "landedCostUsd": 42.11,
+   "source": "catalog-20261123-batch03-bindings.json"
+  },
   "auralie-open-back-sequin-mini-dress-violet": {
    "landedCostUsd": 42.11,
    "source": "catalog-20261123-batch02-bindings.json"
@@ -709,6 +713,26 @@
    "landedCostUsd": 11.32,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "loretta-cold-shoulder-midi-dress-burnt-orange": {
+   "landedCostUsd": 22.51,
+   "source": "catalog-20261123-batch03-bindings.json"
+  },
+  "loretta-cold-shoulder-midi-dress-forest-green": {
+   "landedCostUsd": 22.51,
+   "source": "catalog-20261123-batch03-bindings.json"
+  },
+  "loretta-cold-shoulder-midi-dress-fuchsia": {
+   "landedCostUsd": 22.51,
+   "source": "catalog-20261123-batch03-bindings.json"
+  },
+  "loretta-cold-shoulder-midi-dress-indigo": {
+   "landedCostUsd": 22.51,
+   "source": "catalog-20261123-batch03-bindings.json"
+  },
+  "loretta-cold-shoulder-midi-dress-pink": {
+   "landedCostUsd": 22.51,
+   "source": "catalog-20261123-batch03-bindings.json"
+  },
   "loretta-cold-shoulder-midi-dress-purple": {
    "landedCostUsd": 22.51,
    "source": "catalog-20261123-batch02-bindings.json"
@@ -720,6 +744,14 @@
   "loretta-cold-shoulder-midi-dress-royal-blue": {
    "landedCostUsd": 22.51,
    "source": "catalog-20261123-batch02-bindings.json"
+  },
+  "loretta-cold-shoulder-midi-dress-white": {
+   "landedCostUsd": 22.51,
+   "source": "catalog-20261123-batch03-bindings.json"
+  },
+  "loretta-cold-shoulder-midi-dress-wine": {
+   "landedCostUsd": 22.51,
+   "source": "catalog-20261123-batch03-bindings.json"
   },
   "loretta-navy-floral-maxi-dress": {
    "landedCostUsd": 21.04,
@@ -1121,6 +1153,10 @@
    "landedCostUsd": 28.48,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
   },
+  "portofino-carryall-coffee": {
+   "landedCostUsd": 26.88,
+   "source": "catalog-20261123-batch03-bindings.json"
+  },
   "portofino-carryall-light-brown": {
    "landedCostUsd": 28.38,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
@@ -1420,6 +1456,10 @@
   "verdelle-lace-bodice-pleated-gown-green": {
    "landedCostUsd": 62.85,
    "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "vespera-tailored-vest-trouser-set-black": {
+   "landedCostUsd": 33.12,
+   "source": "catalog-20261123-batch03-bindings.json"
   },
   "vespera-tailored-vest-trouser-set-pink": {
    "landedCostUsd": 33.12,
