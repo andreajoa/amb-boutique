@@ -1523,5 +1523,92 @@
    "L": 18,
    "XXL": 29
   }
+ },
+ "sylvane-half-zip-flared-midi-dress-petrol-blue": {
+  "stockBySize": {
+   "XL": 2,
+   "L": 3,
+   "M": 5,
+   "S": 2
+  }
+ },
+ "caldelle-half-zip-slit-midi-dress-coffee": {
+  "stockBySize": {
+   "XXL": 100,
+   "XL": 99,
+   "S": 100,
+   "L": 100,
+   "M": 99
+  }
+ },
+ "sylvane-half-zip-flared-midi-dress-burgundy": {
+  "stockBySize": {
+   "L": 4,
+   "M": 5,
+   "S": 6,
+   "XL": 3
+  }
+ },
+ "caldelle-half-zip-slit-midi-dress-white": {
+  "stockBySize": {
+   "XXL": 100,
+   "M": 100,
+   "S": 99,
+   "XL": 100,
+   "L": 100
+  }
+ },
+ "caldelle-half-zip-slit-midi-dress-black": {
+  "stockBySize": {
+   "XL": 99,
+   "L": 98,
+   "XXL": 99,
+   "M": 100,
+   "S": 98
+  }
+ },
+ "caldelle-half-zip-slit-midi-dress-navy": {
+  "stockBySize": {
+   "S": 99,
+   "L": 100,
+   "M": 100,
+   "XXL": 99,
+   "XL": 99
+  }
+ },
+ "caldelle-half-zip-slit-midi-dress-gray": {
+  "stockBySize": {
+   "M": 98,
+   "S": 98,
+   "XL": 99,
+   "L": 99,
+   "XXL": 98
+  }
+ },
+ "caldelle-half-zip-slit-midi-dress-amber": {
+  "stockBySize": {
+   "M": 100,
+   "S": 100,
+   "XL": 100,
+   "L": 100,
+   "XXL": 100
+  }
+ },
+ "caldelle-half-zip-slit-midi-dress-wine": {
+  "stockBySize": {
+   "L": 99,
+   "M": 100,
+   "XXL": 98,
+   "XL": 100,
+   "S": 99
+  }
+ },
+ "sylvane-half-zip-flared-midi-dress-black": {
+  "stockBySize": {
+   "XL": 3,
+   "L": 4,
+   "M": 5,
+   "S": 5
+  }
  }
 }

@@ -22076,6 +22076,373 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256806481654545",
   "sourceColor": "GRAY"
+},
+{
+  "slug": "sylvane-half-zip-flared-midi-dress-petrol-blue",
+  "name": "Sylvane Half-Zip Flared Midi Dress — Petrol Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 40.9,
+  "colors": [
+    "#285669"
+  ],
+  "colorNames": [
+    "Petrol Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A fitted knit midi dress with a half-zip collar, flared cuffs and a flared hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/sylvane-half-zip-flared-midi-dress-petrol-blue/front.webp",
+    "/products/sylvane-half-zip-flared-midi-dress-petrol-blue/back.webp",
+    "/products/sylvane-half-zip-flared-midi-dress-petrol-blue/left.webp",
+    "/products/sylvane-half-zip-flared-midi-dress-petrol-blue/right.webp"
+  ],
+  "stock": 12,
+  "unitCostUsd": 13.32,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813095426606",
+  "sourceColor": "Blue"
+},
+{
+  "slug": "caldelle-half-zip-slit-midi-dress-coffee",
+  "name": "Caldelle Half-Zip Slit Midi Dress — Coffee",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 101.9,
+  "colors": [
+    "#4d3123"
+  ],
+  "colorNames": [
+    "Coffee"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted knit midi dress with a half-zip neckline, long balloon sleeves and a slit at the front.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/caldelle-half-zip-slit-midi-dress-coffee/front.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-coffee/back.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-coffee/left.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-coffee/right.webp"
+  ],
+  "stock": 498,
+  "unitCostUsd": 33.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812989236582",
+  "sourceColor": "Coffee"
+},
+{
+  "slug": "sylvane-half-zip-flared-midi-dress-burgundy",
+  "name": "Sylvane Half-Zip Flared Midi Dress — Burgundy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 42.9,
+  "colors": [
+    "#932835"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A fitted knit midi dress with a half-zip collar, flared cuffs and a flared hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/sylvane-half-zip-flared-midi-dress-burgundy/front.webp",
+    "/products/sylvane-half-zip-flared-midi-dress-burgundy/back.webp",
+    "/products/sylvane-half-zip-flared-midi-dress-burgundy/left.webp",
+    "/products/sylvane-half-zip-flared-midi-dress-burgundy/right.webp"
+  ],
+  "stock": 18,
+  "unitCostUsd": 13.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813095426606",
+  "sourceColor": "Burgundy"
+},
+{
+  "slug": "caldelle-half-zip-slit-midi-dress-white",
+  "name": "Caldelle Half-Zip Slit Midi Dress — White",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 101.9,
+  "colors": [
+    "#f3f0e6"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted knit midi dress with a half-zip neckline, long balloon sleeves and a slit at the front.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/caldelle-half-zip-slit-midi-dress-white/front.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-white/back.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-white/left.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-white/right.webp"
+  ],
+  "stock": 499,
+  "unitCostUsd": 33.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812989236582",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "caldelle-half-zip-slit-midi-dress-black",
+  "name": "Caldelle Half-Zip Slit Midi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 101.9,
+  "colors": [
+    "#1d1c20"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted knit midi dress with a half-zip neckline, long balloon sleeves and a slit at the front.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/caldelle-half-zip-slit-midi-dress-black/front.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-black/back.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-black/left.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-black/right.webp"
+  ],
+  "stock": 494,
+  "unitCostUsd": 33.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812989236582",
+  "sourceColor": "black"
+},
+{
+  "slug": "caldelle-half-zip-slit-midi-dress-navy",
+  "name": "Caldelle Half-Zip Slit Midi Dress — Navy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 101.9,
+  "colors": [
+    "#1c2b47"
+  ],
+  "colorNames": [
+    "Navy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted knit midi dress with a half-zip neckline, long balloon sleeves and a slit at the front.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/caldelle-half-zip-slit-midi-dress-navy/front.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-navy/back.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-navy/left.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-navy/right.webp"
+  ],
+  "stock": 497,
+  "unitCostUsd": 33.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812989236582",
+  "sourceColor": "Navy Blue"
+},
+{
+  "slug": "caldelle-half-zip-slit-midi-dress-gray",
+  "name": "Caldelle Half-Zip Slit Midi Dress — Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 100.9,
+  "colors": [
+    "#595b5d"
+  ],
+  "colorNames": [
+    "Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted knit midi dress with a half-zip neckline, long balloon sleeves and a slit at the front.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/caldelle-half-zip-slit-midi-dress-gray/front.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-gray/back.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-gray/left.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-gray/right.webp"
+  ],
+  "stock": 492,
+  "unitCostUsd": 33.48,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812989236582",
+  "sourceColor": "GRAY"
+},
+{
+  "slug": "caldelle-half-zip-slit-midi-dress-amber",
+  "name": "Caldelle Half-Zip Slit Midi Dress — Amber",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 101.9,
+  "colors": [
+    "#b66b32"
+  ],
+  "colorNames": [
+    "Amber"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted knit midi dress with a half-zip neckline, long balloon sleeves and a slit at the front.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/caldelle-half-zip-slit-midi-dress-amber/front.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-amber/back.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-amber/left.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-amber/right.webp"
+  ],
+  "stock": 500,
+  "unitCostUsd": 33.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812989236582",
+  "sourceColor": "Chocolate"
+},
+{
+  "slug": "caldelle-half-zip-slit-midi-dress-wine",
+  "name": "Caldelle Half-Zip Slit Midi Dress — Wine",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 101.9,
+  "colors": [
+    "#682b37"
+  ],
+  "colorNames": [
+    "Wine"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted knit midi dress with a half-zip neckline, long balloon sleeves and a slit at the front.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/caldelle-half-zip-slit-midi-dress-wine/front.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-wine/back.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-wine/left.webp",
+    "/products/caldelle-half-zip-slit-midi-dress-wine/right.webp"
+  ],
+  "stock": 496,
+  "unitCostUsd": 33.78,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812989236582",
+  "sourceColor": "Deep Red"
+},
+{
+  "slug": "sylvane-half-zip-flared-midi-dress-black",
+  "name": "Sylvane Half-Zip Flared Midi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 42.9,
+  "colors": [
+    "#1d1c20"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A fitted knit midi dress with a half-zip collar, flared cuffs and a flared hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/sylvane-half-zip-flared-midi-dress-black/front.webp",
+    "/products/sylvane-half-zip-flared-midi-dress-black/back.webp",
+    "/products/sylvane-half-zip-flared-midi-dress-black/left.webp",
+    "/products/sylvane-half-zip-flared-midi-dress-black/right.webp"
+  ],
+  "stock": 17,
+  "unitCostUsd": 14.14,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813095426606",
+  "sourceColor": "black"
 }
 ];
 
@@ -22085,6 +22452,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "sylvane-half-zip-flared-midi-dress-petrol-blue",
+  "caldelle-half-zip-slit-midi-dress-coffee",
+  "sylvane-half-zip-flared-midi-dress-burgundy",
+  "caldelle-half-zip-slit-midi-dress-white",
+  "caldelle-half-zip-slit-midi-dress-black",
+  "caldelle-half-zip-slit-midi-dress-navy",
+  "caldelle-half-zip-slit-midi-dress-gray",
+  "caldelle-half-zip-slit-midi-dress-amber",
+  "caldelle-half-zip-slit-midi-dress-wine",
+  "sylvane-half-zip-flared-midi-dress-black",
+
   "maerith-cable-knit-slit-midi-dress-cream",
   "kinelle-ribbed-polo-maxi-dress-olive",
   "zelisse-chevron-knit-mini-dress-pink",
