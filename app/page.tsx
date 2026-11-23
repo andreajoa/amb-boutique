@@ -9,6 +9,7 @@ import { EditorialStackMotion } from "./editorial-stack-motion";
 import { EditorialHorizontal, type EditorialLook } from "./editorial-horizontal";
 import { DressingRoom, type DressingRoomLook } from "./dressing-room";
 import { storefrontNewArrivals, storefrontReadyProducts } from "./storefront-products";
+import editorialFourLooks from "../imports/editorial-four-looks.json";
 
 const collections = [
   { title: "Dresses", subtitle: "Made for every plan", image: "category-one q1", href: "/collections/dresses" },
@@ -19,15 +20,12 @@ const collections = [
 export default function Home() {
   const finishingTouches = products.filter((product) => product.category === "Bags" || product.category === "Shoes").slice(0, 4);
   const bySlug = (slug: string) => storefrontReadyProducts.find((product) => product.slug === slug);
-  const editorialCopy = [
-    ["calla-maxi-dress", "AFTER DARK", "A graceful black silhouette with movement made for luminous evenings."],
-    ["mira-wide-leg-trousers", "THE SOFT STATEMENT", "Modern tailoring in pink, designed to work beautifully together or apart."],
-    ["xyla-wide-leg-trousers", "CONFIDENT COLOR", "A vivid red two-piece that turns clean lines into an effortless statement."],
-    ["ivy-wide-leg-trousers", "SUNLIT EASE", "Airy eyelet texture and a relaxed shape for polished warm-weather dressing."],
-  ] as const;
-  const editorialLooks = editorialCopy.flatMap(([slug, eyebrow, copy]) => {
-    const product = bySlug(slug);
-    return product?.images?.[0] ? [{ slug, name: product.name, image: product.images[0], eyebrow, copy } satisfies EditorialLook] : [];
+  const editorialLooks: EditorialLook[] = editorialFourLooks.looks.flatMap((entry) => {
+    const product = bySlug(entry.slug) || products.find((item) => item.slug === entry.slug);
+    const image = product?.images?.[0] || entry.image;
+    return product && image
+      ? [{ slug: product.slug, name: product.name, image, eyebrow: entry.eyebrow, copy: entry.copy } satisfies EditorialLook]
+      : [];
   });
   const featureProduct = bySlug("calla-maxi-dress");
   const dressingRoomSpec = [

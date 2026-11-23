@@ -1,0 +1,63 @@
+{
+  "note": "Verified human-model vs mannequin overrides for the homepage 'Four looks. One point of view.' section. New future products not listed here are automatically classified by scripts/build-editorial-looks.mjs using sharp facial-head contrast detection (excluding headless mannequins).",
+  "mannequin": [
+    "vespera-tailored-vest-trouser-set-black",
+    "vespera-tailored-vest-trouser-set-pink",
+    "vespera-tailored-vest-trouser-set-sand",
+    "vespera-tailored-vest-trouser-set-scarlet",
+    "vespera-tailored-vest-trouser-set-sky-blue",
+    "auralie-open-back-sequin-mini-dress-lime",
+    "auralie-open-back-sequin-mini-dress-ice-blue",
+    "auralie-open-back-sequin-mini-dress-violet",
+    "loretta-cold-shoulder-midi-dress-burnt-orange",
+    "loretta-cold-shoulder-midi-dress-forest-green",
+    "loretta-cold-shoulder-midi-dress-fuchsia",
+    "loretta-cold-shoulder-midi-dress-indigo",
+    "loretta-cold-shoulder-midi-dress-pink",
+    "loretta-cold-shoulder-midi-dress-white",
+    "loretta-cold-shoulder-midi-dress-wine",
+    "loretta-cold-shoulder-midi-dress-purple",
+    "loretta-cold-shoulder-midi-dress-red",
+    "loretta-cold-shoulder-midi-dress-royal-blue",
+    "sorelle-draped-halter-maxi-dress-taupe",
+    "orlena-lace-balloon-sleeve-mini-dress-black",
+    "serenella-ruffle-corset-three-piece-set-pink",
+    "cerelia-lace-corset-mini-dress-white",
+    "marena-frayed-hem-denim-shorts-red",
+    "nerelle-sleeveless-swing-mini-dress-chestnut-brown"
+  ],
+  "model": [
+    "aster-eyelet-two-piece-set-beige",
+    "solenne-printed-beach-cover-up-indigo-mosaic",
+    "aveline-printed-blouse-blue-abstract",
+    "pavelle-polka-dot-trouser-set-ivory-and-tan",
+    "olive-gingham-maxi-skirt-pink",
+    "calla-maxi-dress",
+    "margaux-shirt-dress",
+    "mira-wide-leg-trousers",
+    "xyla-wide-leg-trousers",
+    "ivy-wide-leg-trousers"
+  ],
+  "curatedCopy": {
+    "aster-eyelet-two-piece-set-beige": {
+      "eyebrow": "SUNLIT TEXTURE",
+      "copy": "Delicate floral eyelet tailored into a sculpted sleeveless vest and sweeping wide-leg trouser set."
+    },
+    "solenne-printed-beach-cover-up-indigo-mosaic": {
+      "eyebrow": "RESORT ESCAPE",
+      "copy": "Fluid indigo mosaic prints and sweeping draped sleeves designed for effortless coastal movement."
+    },
+    "aveline-printed-blouse-blue-abstract": {
+      "eyebrow": "MODERN STATEMENT",
+      "copy": "An expressive abstract print cut with soft drape and tailored cuffs for polished day-to-evening dressing."
+    },
+    "pavelle-polka-dot-trouser-set-ivory-and-tan": {
+      "eyebrow": "EFFORTLESS POLISH",
+      "copy": "An asymmetric one-shoulder top paired with fluid wide-leg trousers in warm ivory and sand polka dots."
+    },
+    "calla-maxi-dress": {
+      "eyebrow": "AFTER DARK",
+      "copy": "A graceful black silhouette with movement made for luminous evenings."
+    }
+  }
+}

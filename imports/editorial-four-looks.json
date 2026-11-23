@@ -1,0 +1,45 @@
+{
+  "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
+  "looks": [
+    {
+      "slug": "aster-eyelet-two-piece-set-beige",
+      "name": "Aster Eyelet Two-Piece Set — Beige",
+      "image": "/products/aster-eyelet-two-piece-set-beige/front.webp",
+      "eyebrow": "SUNLIT TEXTURE",
+      "copy": "Delicate floral eyelet tailored into a sculpted sleeveless vest and sweeping wide-leg trouser set.",
+      "category": "Sets",
+      "arrivalRank": 836,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "solenne-printed-beach-cover-up-indigo-mosaic",
+      "name": "Solenne Printed Beach Cover-Up — Indigo Mosaic",
+      "image": "/products/solenne-printed-beach-cover-up-indigo-mosaic/front.webp",
+      "eyebrow": "RESORT ESCAPE",
+      "copy": "Fluid indigo mosaic prints and sweeping draped sleeves designed for effortless coastal movement.",
+      "category": "Dresses",
+      "arrivalRank": 833,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "aveline-printed-blouse-blue-abstract",
+      "name": "Aveline Printed Blouse — Blue Abstract",
+      "image": "/products/aveline-printed-blouse-blue-abstract/front.webp",
+      "eyebrow": "MODERN STATEMENT",
+      "copy": "An expressive abstract print cut with soft drape and tailored cuffs for polished day-to-evening dressing.",
+      "category": "Tops",
+      "arrivalRank": 810,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "pavelle-polka-dot-trouser-set-ivory-and-tan",
+      "name": "Pavelle Polka Dot Trouser Set — Ivory and Tan",
+      "image": "/products/pavelle-polka-dot-trouser-set-ivory-and-tan/front.webp",
+      "eyebrow": "EFFORTLESS POLISH",
+      "copy": "An asymmetric one-shoulder top paired with fluid wide-leg trousers in warm ivory and sand polka dots.",
+      "category": "Sets",
+      "arrivalRank": 801,
+      "classification": "verified-model"
+    }
+  ]
+}

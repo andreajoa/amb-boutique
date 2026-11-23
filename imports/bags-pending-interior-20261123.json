@@ -1,0 +1,19 @@
+{
+  "note": "Frozen pending list for the 14 virelle-woven-crossbody-bag-* colorways awaiting open-interior studio generation (blocked by transient image-generator HTTP 503 on 2026-11-23). NEVER add new slugs here — every new bag MUST include /products/<slug>/inside.webp before build.",
+  "pendingSlugs": [
+    "virelle-woven-crossbody-bag-black",
+    "virelle-woven-crossbody-bag-emerald-green",
+    "virelle-woven-crossbody-bag-butter-yellow",
+    "virelle-woven-crossbody-bag-white",
+    "virelle-woven-crossbody-bag-mint",
+    "virelle-woven-crossbody-bag-cream",
+    "virelle-woven-crossbody-bag-lavender",
+    "virelle-woven-crossbody-bag-lime",
+    "virelle-woven-crossbody-bag-chocolate",
+    "virelle-woven-crossbody-bag-purple",
+    "virelle-woven-crossbody-bag-berry-rose",
+    "virelle-woven-crossbody-bag-terracotta",
+    "virelle-woven-crossbody-bag-pale-sage",
+    "virelle-woven-crossbody-bag-jade-green"
+  ]
+}
