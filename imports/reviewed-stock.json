@@ -1810,5 +1810,85 @@
    "L": 999,
    "S": 997
   }
+ },
+ "elvarie-ribbed-skater-mini-dress-slate-blue": {
+  "stockBySize": {
+   "XL": 200,
+   "XXL": 200,
+   "S": 198,
+   "M": 194,
+   "L": 198
+  }
+ },
+ "delyne-side-tie-wrap-knit-dress-ivory": {
+  "stockBySize": {
+   "One size fits all": 1949
+  }
+ },
+ "nerisse-button-collar-sweater-dress-green": {
+  "stockBySize": {
+   "XL": 996,
+   "XXL": 995,
+   "M": 996,
+   "L": 991,
+   "S": 996,
+   "XXXL": 994
+  }
+ },
+ "elvarie-ribbed-skater-mini-dress-cream": {
+  "stockBySize": {
+   "S": 2,
+   "L": 197,
+   "M": 188,
+   "XXL": 196,
+   "XL": 197
+  }
+ },
+ "delyne-side-tie-wrap-knit-dress-black": {
+  "stockBySize": {
+   "One size fits all": 1899
+  }
+ },
+ "elvarie-ribbed-skater-mini-dress-red": {
+  "stockBySize": {
+   "XXL": 187,
+   "S": 184,
+   "M": 191,
+   "L": 189,
+   "XL": 184
+  }
+ },
+ "nerisse-button-collar-sweater-dress-coffee": {
+  "stockBySize": {
+   "XXXL": 993,
+   "XL": 993,
+   "XXL": 995,
+   "M": 996,
+   "L": 992,
+   "S": 995
+  }
+ },
+ "elvarie-ribbed-skater-mini-dress-gray": {
+  "stockBySize": {
+   "S": 197,
+   "L": 197,
+   "M": 191,
+   "XXL": 198,
+   "XL": 198
+  }
+ },
+ "delyne-side-tie-wrap-knit-dress-gray": {
+  "stockBySize": {
+   "One size fits all": 1875
+  }
+ },
+ "elvarie-ribbed-skater-mini-dress-black": {
+  "stockBySize": {
+   "M": 9,
+   "S": 178,
+   "XXL": 5,
+   "XL": 11,
+   "L": 4
+  }
  }
 }

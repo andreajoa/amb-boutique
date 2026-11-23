@@ -23203,6 +23203,366 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256809079176849",
   "sourceColor": "Lotus root color"
+},
+{
+  "slug": "elvarie-ribbed-skater-mini-dress-slate-blue",
+  "name": "Elvarie Ribbed Skater Mini Dress — Slate Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 44.9,
+  "colors": [
+    "#587580"
+  ],
+  "colorNames": [
+    "Slate Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A ribbed knit mini dress with a mock neckline, long fitted sleeves and a softly flared skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/elvarie-ribbed-skater-mini-dress-slate-blue/front.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-slate-blue/back.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-slate-blue/left.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-slate-blue/right.webp"
+  ],
+  "stock": 990,
+  "unitCostUsd": 14.64,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007812198049",
+  "sourceColor": "blue"
+},
+{
+  "slug": "delyne-side-tie-wrap-knit-dress-ivory",
+  "name": "Delyne Side-Tie Wrap Knit Dress — Ivory",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 128.9,
+  "colors": [
+    "#e6ddc5"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "A fitted knit dress with long sleeves, a crossover V-neck and a side drawstring at the waist.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/delyne-side-tie-wrap-knit-dress-ivory/front.webp",
+    "/products/delyne-side-tie-wrap-knit-dress-ivory/back.webp",
+    "/products/delyne-side-tie-wrap-knit-dress-ivory/left.webp",
+    "/products/delyne-side-tie-wrap-knit-dress-ivory/right.webp"
+  ],
+  "stock": 1949,
+  "unitCostUsd": 42.76,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809335756695",
+  "sourceColor": "Apricot"
+},
+{
+  "slug": "nerisse-button-collar-sweater-dress-green",
+  "name": "Nerisse Button-Collar Sweater Dress — Green",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 124.9,
+  "colors": [
+    "#247348"
+  ],
+  "colorNames": [
+    "Green"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A relaxed sweater dress with a stand collar, short button placket and ribbed cuffs and hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/nerisse-button-collar-sweater-dress-green/front.webp",
+    "/products/nerisse-button-collar-sweater-dress-green/back.webp",
+    "/products/nerisse-button-collar-sweater-dress-green/left.webp",
+    "/products/nerisse-button-collar-sweater-dress-green/right.webp"
+  ],
+  "stock": 5968,
+  "unitCostUsd": 41.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810290975471",
+  "sourceColor": "green"
+},
+{
+  "slug": "elvarie-ribbed-skater-mini-dress-cream",
+  "name": "Elvarie Ribbed Skater Mini Dress — Cream",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 42.9,
+  "colors": [
+    "#e2ccb1"
+  ],
+  "colorNames": [
+    "Cream"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A ribbed knit mini dress with a mock neckline, long fitted sleeves and a softly flared skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/elvarie-ribbed-skater-mini-dress-cream/front.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-cream/back.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-cream/left.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-cream/right.webp"
+  ],
+  "stock": 780,
+  "unitCostUsd": 14.28,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007812198049",
+  "sourceColor": "off white"
+},
+{
+  "slug": "delyne-side-tie-wrap-knit-dress-black",
+  "name": "Delyne Side-Tie Wrap Knit Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 129.9,
+  "colors": [
+    "#242124"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "A fitted knit dress with long sleeves, a crossover V-neck and a side drawstring at the waist.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/delyne-side-tie-wrap-knit-dress-black/front.webp",
+    "/products/delyne-side-tie-wrap-knit-dress-black/back.webp",
+    "/products/delyne-side-tie-wrap-knit-dress-black/left.webp",
+    "/products/delyne-side-tie-wrap-knit-dress-black/right.webp"
+  ],
+  "stock": 1899,
+  "unitCostUsd": 43.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809335756695",
+  "sourceColor": "Black"
+},
+{
+  "slug": "elvarie-ribbed-skater-mini-dress-red",
+  "name": "Elvarie Ribbed Skater Mini Dress — Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 44.9,
+  "colors": [
+    "#8d1230"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A ribbed knit mini dress with a mock neckline, long fitted sleeves and a softly flared skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/elvarie-ribbed-skater-mini-dress-red/front.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-red/back.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-red/left.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-red/right.webp"
+  ],
+  "stock": 935,
+  "unitCostUsd": 14.64,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007812198049",
+  "sourceColor": "red"
+},
+{
+  "slug": "nerisse-button-collar-sweater-dress-coffee",
+  "name": "Nerisse Button-Collar Sweater Dress — Coffee",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 124.9,
+  "colors": [
+    "#8a5830"
+  ],
+  "colorNames": [
+    "Coffee"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A relaxed sweater dress with a stand collar, short button placket and ribbed cuffs and hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/nerisse-button-collar-sweater-dress-coffee/front.webp",
+    "/products/nerisse-button-collar-sweater-dress-coffee/back.webp",
+    "/products/nerisse-button-collar-sweater-dress-coffee/left.webp",
+    "/products/nerisse-button-collar-sweater-dress-coffee/right.webp"
+  ],
+  "stock": 5964,
+  "unitCostUsd": 41.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810290975471",
+  "sourceColor": "Coffee"
+},
+{
+  "slug": "elvarie-ribbed-skater-mini-dress-gray",
+  "name": "Elvarie Ribbed Skater Mini Dress — Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 43.9,
+  "colors": [
+    "#a1a29d"
+  ],
+  "colorNames": [
+    "Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A ribbed knit mini dress with a mock neckline, long fitted sleeves and a softly flared skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/elvarie-ribbed-skater-mini-dress-gray/front.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-gray/back.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-gray/left.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-gray/right.webp"
+  ],
+  "stock": 981,
+  "unitCostUsd": 14.32,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007812198049",
+  "sourceColor": "grey"
+},
+{
+  "slug": "delyne-side-tie-wrap-knit-dress-gray",
+  "name": "Delyne Side-Tie Wrap Knit Dress — Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 129.9,
+  "colors": [
+    "#777571"
+  ],
+  "colorNames": [
+    "Gray"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "A fitted knit dress with long sleeves, a crossover V-neck and a side drawstring at the waist.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/delyne-side-tie-wrap-knit-dress-gray/front.webp",
+    "/products/delyne-side-tie-wrap-knit-dress-gray/back.webp",
+    "/products/delyne-side-tie-wrap-knit-dress-gray/left.webp",
+    "/products/delyne-side-tie-wrap-knit-dress-gray/right.webp"
+  ],
+  "stock": 1875,
+  "unitCostUsd": 43.04,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809335756695",
+  "sourceColor": "Grey"
+},
+{
+  "slug": "elvarie-ribbed-skater-mini-dress-black",
+  "name": "Elvarie Ribbed Skater Mini Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 42.9,
+  "colors": [
+    "#21201f"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A ribbed knit mini dress with a mock neckline, long fitted sleeves and a softly flared skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/elvarie-ribbed-skater-mini-dress-black/front.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-black/back.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-black/left.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-black/right.webp"
+  ],
+  "stock": 207,
+  "unitCostUsd": 13.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007812198049",
+  "sourceColor": "Black"
 }
 ];
 
@@ -23212,6 +23572,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "elvarie-ribbed-skater-mini-dress-slate-blue",
+  "delyne-side-tie-wrap-knit-dress-ivory",
+  "nerisse-button-collar-sweater-dress-green",
+  "elvarie-ribbed-skater-mini-dress-cream",
+  "delyne-side-tie-wrap-knit-dress-black",
+  "elvarie-ribbed-skater-mini-dress-red",
+  "nerisse-button-collar-sweater-dress-coffee",
+  "elvarie-ribbed-skater-mini-dress-gray",
+  "delyne-side-tie-wrap-knit-dress-gray",
+  "elvarie-ribbed-skater-mini-dress-black",
+
   "nerisse-button-collar-sweater-dress-oatmeal",
   "civenne-ribbed-turtleneck-mini-dress-brick-red",
   "nerisse-button-collar-sweater-dress-black",

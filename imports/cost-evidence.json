@@ -485,6 +485,18 @@
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
   },
+  "delyne-side-tie-wrap-knit-dress-black": {
+   "landedCostUsd": 43.18,
+   "source": "catalog-20261123-batch09-bindings.json"
+  },
+  "delyne-side-tie-wrap-knit-dress-gray": {
+   "landedCostUsd": 43.04,
+   "source": "catalog-20261123-batch09-bindings.json"
+  },
+  "delyne-side-tie-wrap-knit-dress-ivory": {
+   "landedCostUsd": 42.76,
+   "source": "catalog-20261123-batch09-bindings.json"
+  },
   "denim-block-maxi-dress": {
    "landedCostUsd": 13.48,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -572,6 +584,26 @@
   "elowyn-embellished-sleeve-mini-dress-royal-blue-style-12": {
    "landedCostUsd": 27.81,
    "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "elvarie-ribbed-skater-mini-dress-black": {
+   "landedCostUsd": 13.98,
+   "source": "catalog-20261123-batch09-bindings.json"
+  },
+  "elvarie-ribbed-skater-mini-dress-cream": {
+   "landedCostUsd": 14.28,
+   "source": "catalog-20261123-batch09-bindings.json"
+  },
+  "elvarie-ribbed-skater-mini-dress-gray": {
+   "landedCostUsd": 14.32,
+   "source": "catalog-20261123-batch09-bindings.json"
+  },
+  "elvarie-ribbed-skater-mini-dress-red": {
+   "landedCostUsd": 14.64,
+   "source": "catalog-20261123-batch09-bindings.json"
+  },
+  "elvarie-ribbed-skater-mini-dress-slate-blue": {
+   "landedCostUsd": 14.64,
+   "source": "catalog-20261123-batch09-bindings.json"
   },
   "ember-tribal-swing-dress": {
    "landedCostUsd": 28.98,
@@ -1049,9 +1081,17 @@
    "landedCostUsd": 36.01,
    "source": "catalog-20261123-batch08-bindings.json"
   },
+  "nerisse-button-collar-sweater-dress-coffee": {
+   "landedCostUsd": 41.34,
+   "source": "catalog-20261123-batch09-bindings.json"
+  },
   "nerisse-button-collar-sweater-dress-gold": {
    "landedCostUsd": 36.01,
    "source": "catalog-20261123-batch08-bindings.json"
+  },
+  "nerisse-button-collar-sweater-dress-green": {
+   "landedCostUsd": 41.34,
+   "source": "catalog-20261123-batch09-bindings.json"
   },
   "nerisse-button-collar-sweater-dress-oatmeal": {
    "landedCostUsd": 36.01,

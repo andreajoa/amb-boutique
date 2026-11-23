@@ -1,0 +1,266 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "elvarie-ribbed-skater-mini-dress-slate-blue",
+      "sourceProductId": "1005007812198049",
+      "sourceColor": "blue",
+      "supplierId": "cmwtnt9mq002j0jlnx5ats093",
+      "sourceSkuIdsBySize": {
+        "XL": "12000048642364616",
+        "XXL": "12000048642364617",
+        "S": "12000048642364613",
+        "M": "12000048642364614",
+        "L": "12000048642364615"
+      },
+      "landedCostUsdBySize": {
+        "XL": 14.38,
+        "XXL": 14.64,
+        "S": 13.68,
+        "M": 13.88,
+        "L": 14.08
+      },
+      "stockBySize": {
+        "XL": 200,
+        "XXL": 200,
+        "S": 198,
+        "M": 194,
+        "L": 198
+      },
+      "retailPriceUsd": 44.9,
+      "verifiedAtUtc": "2026-11-23T21:06:50.706Z"
+    },
+    {
+      "slug": "delyne-side-tie-wrap-knit-dress-ivory",
+      "sourceProductId": "3256809335756695",
+      "sourceColor": "Apricot",
+      "supplierId": "cmwtohhs400ht0jln9rbyrkl3",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049356960451"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 42.76
+      },
+      "stockBySize": {
+        "One size fits all": 1949
+      },
+      "retailPriceUsd": 128.9,
+      "verifiedAtUtc": "2026-11-23T21:11:35.994Z"
+    },
+    {
+      "slug": "nerisse-button-collar-sweater-dress-green",
+      "sourceProductId": "3256810290975471",
+      "sourceColor": "green",
+      "supplierId": "cmwto045g008k0jlnw8nybaow",
+      "sourceSkuIdsBySize": {
+        "XL": "12000052536889406",
+        "XXL": "12000052536889407",
+        "M": "12000052536889404",
+        "L": "12000052536889405",
+        "S": "12000052536889403",
+        "XXXL": "12000052536889408"
+      },
+      "landedCostUsdBySize": {
+        "XL": 41.34,
+        "XXL": 41.34,
+        "M": 41.34,
+        "L": 41.34,
+        "S": 41.34,
+        "XXXL": 41.34
+      },
+      "stockBySize": {
+        "XL": 996,
+        "XXL": 995,
+        "M": 996,
+        "L": 991,
+        "S": 996,
+        "XXXL": 994
+      },
+      "retailPriceUsd": 124.9,
+      "verifiedAtUtc": "2026-11-23T21:04:26.991Z"
+    },
+    {
+      "slug": "elvarie-ribbed-skater-mini-dress-cream",
+      "sourceProductId": "1005007812198049",
+      "sourceColor": "off white",
+      "supplierId": "cmwtnt9mq002j0jlnx5ats093",
+      "sourceSkuIdsBySize": {
+        "S": "12000051173295933",
+        "L": "12000051173295935",
+        "M": "12000051173295934",
+        "XXL": "12000051173295937",
+        "XL": "12000051173295936"
+      },
+      "landedCostUsdBySize": {
+        "S": 13.04,
+        "L": 13.54,
+        "M": 13.18,
+        "XXL": 13.88,
+        "XL": 14.28
+      },
+      "stockBySize": {
+        "S": 2,
+        "L": 197,
+        "M": 188,
+        "XXL": 196,
+        "XL": 197
+      },
+      "retailPriceUsd": 42.9,
+      "verifiedAtUtc": "2026-11-23T21:06:50.706Z"
+    },
+    {
+      "slug": "delyne-side-tie-wrap-knit-dress-black",
+      "sourceProductId": "3256809335756695",
+      "sourceColor": "Black",
+      "supplierId": "cmwtohhs400ht0jln9rbyrkl3",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049356960450"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 43.18
+      },
+      "stockBySize": {
+        "One size fits all": 1899
+      },
+      "retailPriceUsd": 129.9,
+      "verifiedAtUtc": "2026-11-23T21:11:35.994Z"
+    },
+    {
+      "slug": "elvarie-ribbed-skater-mini-dress-red",
+      "sourceProductId": "1005007812198049",
+      "sourceColor": "red",
+      "supplierId": "cmwtnt9mq002j0jlnx5ats093",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000048642364612",
+        "S": "12000048642364608",
+        "M": "12000048642364609",
+        "L": "12000048642364610",
+        "XL": "12000048642364611"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 14.64,
+        "S": 13.68,
+        "M": 13.58,
+        "L": 14.04,
+        "XL": 14.18
+      },
+      "stockBySize": {
+        "XXL": 187,
+        "S": 184,
+        "M": 191,
+        "L": 189,
+        "XL": 184
+      },
+      "retailPriceUsd": 44.9,
+      "verifiedAtUtc": "2026-11-23T21:06:50.706Z"
+    },
+    {
+      "slug": "nerisse-button-collar-sweater-dress-coffee",
+      "sourceProductId": "3256810290975471",
+      "sourceColor": "Coffee",
+      "supplierId": "cmwto045g008k0jlnw8nybaow",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000052536889438",
+        "XL": "12000052536889436",
+        "XXL": "12000052536889437",
+        "M": "12000052536889434",
+        "L": "12000052536889435",
+        "S": "12000052536889433"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 41.34,
+        "XL": 41.34,
+        "XXL": 41.34,
+        "M": 41.34,
+        "L": 41.34,
+        "S": 41.34
+      },
+      "stockBySize": {
+        "XXXL": 993,
+        "XL": 993,
+        "XXL": 995,
+        "M": 996,
+        "L": 992,
+        "S": 995
+      },
+      "retailPriceUsd": 124.9,
+      "verifiedAtUtc": "2026-11-23T21:04:26.991Z"
+    },
+    {
+      "slug": "elvarie-ribbed-skater-mini-dress-gray",
+      "sourceProductId": "1005007812198049",
+      "sourceColor": "grey",
+      "supplierId": "cmwtnt9mq002j0jlnx5ats093",
+      "sourceSkuIdsBySize": {
+        "S": "12000051173295923",
+        "L": "12000051173295925",
+        "M": "12000051173295924",
+        "XXL": "12000051173295927",
+        "XL": "12000051173295926"
+      },
+      "landedCostUsdBySize": {
+        "S": 13.11,
+        "L": 13.88,
+        "M": 13.68,
+        "XXL": 14.32,
+        "XL": 14.11
+      },
+      "stockBySize": {
+        "S": 197,
+        "L": 197,
+        "M": 191,
+        "XXL": 198,
+        "XL": 198
+      },
+      "retailPriceUsd": 43.9,
+      "verifiedAtUtc": "2026-11-23T21:06:50.706Z"
+    },
+    {
+      "slug": "delyne-side-tie-wrap-knit-dress-gray",
+      "sourceProductId": "3256809335756695",
+      "sourceColor": "Grey",
+      "supplierId": "cmwtohhs400ht0jln9rbyrkl3",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049356960449"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 43.04
+      },
+      "stockBySize": {
+        "One size fits all": 1875
+      },
+      "retailPriceUsd": 129.9,
+      "verifiedAtUtc": "2026-11-23T21:11:35.994Z"
+    },
+    {
+      "slug": "elvarie-ribbed-skater-mini-dress-black",
+      "sourceProductId": "1005007812198049",
+      "sourceColor": "Black",
+      "supplierId": "cmwtnt9mq002j0jlnx5ats093",
+      "sourceSkuIdsBySize": {
+        "M": "12000042287677899",
+        "S": "12000042287677898",
+        "XXL": "12000042287677902",
+        "XL": "12000042287677901",
+        "L": "12000042287677900"
+      },
+      "landedCostUsdBySize": {
+        "M": 12.54,
+        "S": 13.58,
+        "XXL": 13.98,
+        "XL": 13.61,
+        "L": 13.32
+      },
+      "stockBySize": {
+        "M": 9,
+        "S": 178,
+        "XXL": 5,
+        "XL": 11,
+        "L": 4
+      },
+      "retailPriceUsd": 42.9,
+      "verifiedAtUtc": "2026-11-23T21:06:50.706Z"
+    }
+  ]
+}
