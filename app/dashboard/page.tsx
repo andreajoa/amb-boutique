@@ -164,9 +164,9 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
       <span>{n(metrics.visitors)} consented visitors</span>
       <span>{allCampaigns.length} email journeys drafted</span>
       <span>Range: last {days} days</span>
-      <span>
-        Dynamic delivery: {deliverySyncStatus.syncedProducts} products ·{" "}
-        <a href="/dashboard/delivery-sync" target="_blank" rel="noopener noreferrer">Sync now</a>
+      <span className={styles.syncStatus}>
+        Dynamic delivery: {deliverySyncStatus.syncedProducts} products
+        <a className={styles.syncNowLink} href="/dashboard/delivery-sync" target="_blank" rel="noopener noreferrer">Sync now</a>
       </span>
       <DashboardAutoRefresh/>
     </section>

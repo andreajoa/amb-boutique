@@ -128,6 +128,12 @@ for (const forbidden of ["aliexpress", "yunexpress", "cainiao", "seller", "cost"
   assert.ok(!seedText.includes(forbidden), `Seed leaked forbidden token: ${forbidden}`);
 }
 
+// 8. Instant sync route exposes rate-limited POST without trusting caller input
+const routeSrc = fs.readFileSync(path.resolve("app/api/delivery-windows/route.ts"), "utf8");
+assert.match(routeSrc, /export async function POST\(\)/, "POST /api/delivery-windows must ignore request body");
+assert.match(routeSrc, /POST_SYNC_COOLDOWN_MS/, "POST /api/delivery-windows must enforce rate-limit cooldown");
+assert.match(routeSrc, /syncDeliveryWindowsFromManager\(/, "POST /api/delivery-windows must pull from Store Manager server-side");
+
 console.log(JSON.stringify({
   ok: true,
   fast5: { range: fast5.rangeLabel, label: fast5.windowLabel, isFast: fast5.isFast },
