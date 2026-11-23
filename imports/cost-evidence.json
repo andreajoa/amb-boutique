@@ -697,6 +697,22 @@
    "landedCostUsd": 20.28,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
   },
+  "kinelle-ribbed-polo-maxi-dress-black": {
+   "landedCostUsd": 18.74,
+   "source": "catalog-20261123-batch05-bindings.json"
+  },
+  "kinelle-ribbed-polo-maxi-dress-gray": {
+   "landedCostUsd": 18.44,
+   "source": "catalog-20261123-batch05-bindings.json"
+  },
+  "kinelle-ribbed-polo-maxi-dress-olive": {
+   "landedCostUsd": 19.38,
+   "source": "catalog-20261123-batch05-bindings.json"
+  },
+  "kinelle-ribbed-polo-maxi-dress-rust": {
+   "landedCostUsd": 18.48,
+   "source": "catalog-20261123-batch05-bindings.json"
+  },
   "kira-wide-leg-trousers": {
    "landedCostUsd": 33.47,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
@@ -792,6 +808,10 @@
   "maelle-champagne-satin-midi-dress": {
    "landedCostUsd": 21.84,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "maerith-cable-knit-slit-midi-dress-cream": {
+   "landedCostUsd": 55.18,
+   "source": "catalog-20261123-batch05-bindings.json"
   },
   "mali-mudcloth-swing-dress": {
    "landedCostUsd": 28.98,
@@ -1281,6 +1301,18 @@
    "landedCostUsd": 13.69,
    "source": "catalog-20261025-batch04-supplier-bindings.json"
   },
+  "rovelle-turtleneck-sweater-midi-dress-black": {
+   "landedCostUsd": 30.93,
+   "source": "catalog-20261123-batch05-bindings.json"
+  },
+  "rovelle-turtleneck-sweater-midi-dress-cream": {
+   "landedCostUsd": 30.93,
+   "source": "catalog-20261123-batch05-bindings.json"
+  },
+  "rovelle-turtleneck-sweater-midi-dress-dark-green": {
+   "landedCostUsd": 30.93,
+   "source": "catalog-20261123-batch05-bindings.json"
+  },
   "rubina-angular-swing-dress": {
    "landedCostUsd": 13.7,
    "source": "catalog-20261026-new-products-bindings.json"
@@ -1640,6 +1672,14 @@
   "zelda-maxi-skirt": {
    "landedCostUsd": 24.76,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "zelisse-chevron-knit-mini-dress-orange": {
+   "landedCostUsd": 20.85,
+   "source": "catalog-20261123-batch05-bindings.json"
+  },
+  "zelisse-chevron-knit-mini-dress-pink": {
+   "landedCostUsd": 20.85,
+   "source": "catalog-20261123-batch05-bindings.json"
   },
   "zosia-green-pleated-midi-dress": {
    "landedCostUsd": 36.16,

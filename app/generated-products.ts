@@ -21697,6 +21697,385 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256810431555865",
   "sourceColor": "WHITE"
+},
+{
+  "slug": "maerith-cable-knit-slit-midi-dress-cream",
+  "name": "Maerith Cable Knit Slit Midi Dress — Cream",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 165.9,
+  "colors": [
+    "#e8e0d0"
+  ],
+  "colorNames": [
+    "Cream"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A cable-knit midi dress with a standing neckline, voluminous sleeves and an angled opening at the hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/maerith-cable-knit-slit-midi-dress-cream/front.webp",
+    "/products/maerith-cable-knit-slit-midi-dress-cream/back.webp",
+    "/products/maerith-cable-knit-slit-midi-dress-cream/left.webp",
+    "/products/maerith-cable-knit-slit-midi-dress-cream/right.webp"
+  ],
+  "stock": 246,
+  "unitCostUsd": 55.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806055973737",
+  "sourceColor": "creamy-white"
+},
+{
+  "slug": "kinelle-ribbed-polo-maxi-dress-olive",
+  "name": "Kinelle Ribbed Polo Maxi Dress — Olive",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 58.9,
+  "colors": [
+    "#5c6247"
+  ],
+  "colorNames": [
+    "Olive"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted ribbed maxi dress with a polo collar, an open V neckline, long sleeves and a single side slit.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/kinelle-ribbed-polo-maxi-dress-olive/front.webp",
+    "/products/kinelle-ribbed-polo-maxi-dress-olive/back.webp",
+    "/products/kinelle-ribbed-polo-maxi-dress-olive/left.webp",
+    "/products/kinelle-ribbed-polo-maxi-dress-olive/right.webp"
+  ],
+  "stock": 117,
+  "unitCostUsd": 19.38,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806481654545",
+  "sourceColor": "army green"
+},
+{
+  "slug": "zelisse-chevron-knit-mini-dress-pink",
+  "name": "Zelisse Chevron Knit Mini Dress — Pink",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 62.9,
+  "colors": [
+    "#df167d"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL",
+    "4XL",
+    "5XL"
+  ],
+  "description": "A fitted long-sleeve knit mini dress with a crew neckline and bold chevrons across the chest, sleeves and hips.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/zelisse-chevron-knit-mini-dress-pink/front.webp",
+    "/products/zelisse-chevron-knit-mini-dress-pink/back.webp",
+    "/products/zelisse-chevron-knit-mini-dress-pink/left.webp",
+    "/products/zelisse-chevron-knit-mini-dress-pink/right.webp"
+  ],
+  "stock": 48,
+  "unitCostUsd": 20.85,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256804168483021",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "rovelle-turtleneck-sweater-midi-dress-dark-green",
+  "name": "Rovelle Turtleneck Sweater Midi Dress — Dark Green",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#244831"
+  ],
+  "colorNames": [
+    "Dark Green"
+  ],
+  "sizes": [
+    "XS（old）",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed knit midi dress with a folded turtleneck, dropped shoulders and ribbed cuffs.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rovelle-turtleneck-sweater-midi-dress-dark-green/front.webp",
+    "/products/rovelle-turtleneck-sweater-midi-dress-dark-green/back.webp",
+    "/products/rovelle-turtleneck-sweater-midi-dress-dark-green/left.webp",
+    "/products/rovelle-turtleneck-sweater-midi-dress-dark-green/right.webp"
+  ],
+  "stock": 565,
+  "unitCostUsd": 30.93,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806046586241",
+  "sourceColor": "Dark Green"
+},
+{
+  "slug": "kinelle-ribbed-polo-maxi-dress-black",
+  "name": "Kinelle Ribbed Polo Maxi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 56.9,
+  "colors": [
+    "#1d1c1b"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted ribbed maxi dress with a polo collar, an open V neckline, long sleeves and a single side slit.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/kinelle-ribbed-polo-maxi-dress-black/front.webp",
+    "/products/kinelle-ribbed-polo-maxi-dress-black/back.webp",
+    "/products/kinelle-ribbed-polo-maxi-dress-black/left.webp",
+    "/products/kinelle-ribbed-polo-maxi-dress-black/right.webp"
+  ],
+  "stock": 153,
+  "unitCostUsd": 18.74,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806481654545",
+  "sourceColor": "black"
+},
+{
+  "slug": "rovelle-turtleneck-sweater-midi-dress-cream",
+  "name": "Rovelle Turtleneck Sweater Midi Dress — Cream",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#e6d3b1"
+  ],
+  "colorNames": [
+    "Cream"
+  ],
+  "sizes": [
+    "XS（old）",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed knit midi dress with a folded turtleneck, dropped shoulders and ribbed cuffs.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rovelle-turtleneck-sweater-midi-dress-cream/front.webp",
+    "/products/rovelle-turtleneck-sweater-midi-dress-cream/back.webp",
+    "/products/rovelle-turtleneck-sweater-midi-dress-cream/left.webp",
+    "/products/rovelle-turtleneck-sweater-midi-dress-cream/right.webp"
+  ],
+  "stock": 568,
+  "unitCostUsd": 30.93,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806046586241",
+  "sourceColor": "creamy-white"
+},
+{
+  "slug": "zelisse-chevron-knit-mini-dress-orange",
+  "name": "Zelisse Chevron Knit Mini Dress — Orange",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 62.9,
+  "colors": [
+    "#f2781f"
+  ],
+  "colorNames": [
+    "Orange"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL",
+    "4XL",
+    "5XL"
+  ],
+  "description": "A fitted long-sleeve knit mini dress with a crew neckline and bold chevrons across the chest, sleeves and hips.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/zelisse-chevron-knit-mini-dress-orange/front.webp",
+    "/products/zelisse-chevron-knit-mini-dress-orange/back.webp",
+    "/products/zelisse-chevron-knit-mini-dress-orange/left.webp",
+    "/products/zelisse-chevron-knit-mini-dress-orange/right.webp"
+  ],
+  "stock": 1610,
+  "unitCostUsd": 20.85,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256804168483021",
+  "sourceColor": "Orange"
+},
+{
+  "slug": "kinelle-ribbed-polo-maxi-dress-rust",
+  "name": "Kinelle Ribbed Polo Maxi Dress — Rust",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 55.9,
+  "colors": [
+    "#af541f"
+  ],
+  "colorNames": [
+    "Rust"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted ribbed maxi dress with a polo collar, an open V neckline, long sleeves and a single side slit.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/kinelle-ribbed-polo-maxi-dress-rust/front.webp",
+    "/products/kinelle-ribbed-polo-maxi-dress-rust/back.webp",
+    "/products/kinelle-ribbed-polo-maxi-dress-rust/left.webp",
+    "/products/kinelle-ribbed-polo-maxi-dress-rust/right.webp"
+  ],
+  "stock": 156,
+  "unitCostUsd": 18.48,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806481654545",
+  "sourceColor": "ORANGE RED"
+},
+{
+  "slug": "rovelle-turtleneck-sweater-midi-dress-black",
+  "name": "Rovelle Turtleneck Sweater Midi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#1c1c1d"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "XS（old）",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed knit midi dress with a folded turtleneck, dropped shoulders and ribbed cuffs.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rovelle-turtleneck-sweater-midi-dress-black/front.webp",
+    "/products/rovelle-turtleneck-sweater-midi-dress-black/back.webp",
+    "/products/rovelle-turtleneck-sweater-midi-dress-black/left.webp",
+    "/products/rovelle-turtleneck-sweater-midi-dress-black/right.webp"
+  ],
+  "stock": 563,
+  "unitCostUsd": 30.93,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806046586241",
+  "sourceColor": "black"
+},
+{
+  "slug": "kinelle-ribbed-polo-maxi-dress-gray",
+  "name": "Kinelle Ribbed Polo Maxi Dress — Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 55.9,
+  "colors": [
+    "#a9a9a8"
+  ],
+  "colorNames": [
+    "Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted ribbed maxi dress with a polo collar, an open V neckline, long sleeves and a single side slit.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/kinelle-ribbed-polo-maxi-dress-gray/front.webp",
+    "/products/kinelle-ribbed-polo-maxi-dress-gray/back.webp",
+    "/products/kinelle-ribbed-polo-maxi-dress-gray/left.webp",
+    "/products/kinelle-ribbed-polo-maxi-dress-gray/right.webp"
+  ],
+  "stock": 124,
+  "unitCostUsd": 18.44,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806481654545",
+  "sourceColor": "GRAY"
 }
 ];
 
@@ -21706,6 +22085,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "maerith-cable-knit-slit-midi-dress-cream",
+  "kinelle-ribbed-polo-maxi-dress-olive",
+  "zelisse-chevron-knit-mini-dress-pink",
+  "rovelle-turtleneck-sweater-midi-dress-dark-green",
+  "kinelle-ribbed-polo-maxi-dress-black",
+  "rovelle-turtleneck-sweater-midi-dress-cream",
+  "zelisse-chevron-knit-mini-dress-orange",
+  "kinelle-ribbed-polo-maxi-dress-rust",
+  "rovelle-turtleneck-sweater-midi-dress-black",
+  "kinelle-ribbed-polo-maxi-dress-gray",
+
   "iris-blue-pleated-maxi-dress",
   "alina-draped-sheath-dress-blue",
   "odeline-waterfall-panel-maxi-dress-butter-yellow",

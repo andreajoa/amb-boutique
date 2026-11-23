@@ -1424,5 +1424,104 @@
    "S": 10594,
    "M": 10595
   }
+ },
+ "maerith-cable-knit-slit-midi-dress-cream": {
+  "stockBySize": {
+   "M": 50,
+   "S": 48,
+   "XL": 48,
+   "L": 50,
+   "XXL": 50
+  }
+ },
+ "kinelle-ribbed-polo-maxi-dress-olive": {
+  "stockBySize": {
+   "S": 25,
+   "L": 23,
+   "M": 20,
+   "XXL": 27,
+   "XL": 22
+  }
+ },
+ "zelisse-chevron-knit-mini-dress-pink": {
+  "stockBySize": {
+   "XL": 8,
+   "L": 2,
+   "XXXL": 4,
+   "XXL": 6,
+   "5XL": 5,
+   "4XL": 9,
+   "M": 8,
+   "S": 6
+  }
+ },
+ "rovelle-turtleneck-sweater-midi-dress-dark-green": {
+  "stockBySize": {
+   "XS（old）": 99,
+   "S": 95,
+   "XL": 93,
+   "XXL": 90,
+   "M": 94,
+   "L": 94
+  }
+ },
+ "kinelle-ribbed-polo-maxi-dress-black": {
+  "stockBySize": {
+   "S": 30,
+   "L": 29,
+   "M": 32,
+   "XXL": 30,
+   "XL": 32
+  }
+ },
+ "rovelle-turtleneck-sweater-midi-dress-cream": {
+  "stockBySize": {
+   "XS（old）": 99,
+   "S": 94,
+   "XL": 94,
+   "XXL": 89,
+   "M": 95,
+   "L": 97
+  }
+ },
+ "zelisse-chevron-knit-mini-dress-orange": {
+  "stockBySize": {
+   "M": 196,
+   "S": 204,
+   "XL": 202,
+   "L": 193,
+   "XXXL": 200,
+   "XXL": 202,
+   "5XL": 207,
+   "4XL": 206
+  }
+ },
+ "kinelle-ribbed-polo-maxi-dress-rust": {
+  "stockBySize": {
+   "L": 30,
+   "M": 24,
+   "XXL": 30,
+   "XL": 36,
+   "S": 36
+  }
+ },
+ "rovelle-turtleneck-sweater-midi-dress-black": {
+  "stockBySize": {
+   "XS（old）": 100,
+   "S": 97,
+   "XL": 96,
+   "XXL": 83,
+   "M": 94,
+   "L": 93
+  }
+ },
+ "kinelle-ribbed-polo-maxi-dress-gray": {
+  "stockBySize": {
+   "M": 21,
+   "S": 26,
+   "XL": 30,
+   "L": 18,
+   "XXL": 29
+  }
  }
 }
