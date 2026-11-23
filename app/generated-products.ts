@@ -19106,7 +19106,8 @@ const allGeneratedProducts: Product[] = [
     "/products/virelle-woven-crossbody-bag-lime/front.webp",
     "/products/virelle-woven-crossbody-bag-lime/back.webp",
     "/products/virelle-woven-crossbody-bag-lime/left.webp",
-    "/products/virelle-woven-crossbody-bag-lime/right.webp"
+    "/products/virelle-woven-crossbody-bag-lime/right.webp",
+    "/products/virelle-woven-crossbody-bag-lime/inside.webp"
   ],
   "stock": 990,
   "unitCostUsd": 27.48,
@@ -23928,6 +23929,359 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "1005007812198049",
   "sourceColor": "navy blue"
+},
+{
+  "slug": "marielle-cardigan-and-skirt-set-heather-gray",
+  "name": "Marielle Cardigan and Skirt Set — Heather Gray",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 132.9,
+  "colors": [
+    "#767479"
+  ],
+  "colorNames": [
+    "Heather Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A matching knit two-piece set with a cropped button-front cardigan and a high-waisted A-line mini skirt. Both pieces are included.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/marielle-cardigan-and-skirt-set-heather-gray/front.webp",
+    "/products/marielle-cardigan-and-skirt-set-heather-gray/back.webp",
+    "/products/marielle-cardigan-and-skirt-set-heather-gray/left.webp",
+    "/products/marielle-cardigan-and-skirt-set-heather-gray/right.webp"
+  ],
+  "stock": 2962,
+  "unitCostUsd": 43.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808098729582",
+  "sourceColor": "grey suit"
+},
+{
+  "slug": "marielle-button-front-knit-cardigan-espresso",
+  "name": "Marielle Button-Front Knit Cardigan — Espresso",
+  "category": "Knitwear",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#4b3834"
+  ],
+  "colorNames": [
+    "Espresso"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A cropped crew-neck knit cardigan with long sleeves, gold-tone buttons and two front patch pockets. This listing includes the cardigan only.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/marielle-button-front-knit-cardigan-espresso/front.webp",
+    "/products/marielle-button-front-knit-cardigan-espresso/back.webp",
+    "/products/marielle-button-front-knit-cardigan-espresso/left.webp",
+    "/products/marielle-button-front-knit-cardigan-espresso/right.webp"
+  ],
+  "stock": 2975,
+  "unitCostUsd": 30.82,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808098729582",
+  "sourceColor": "dark brown top"
+},
+{
+  "slug": "marielle-a-line-knit-mini-skirt-wine",
+  "name": "Marielle A-Line Knit Mini Skirt — Wine",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#641d35"
+  ],
+  "colorNames": [
+    "Wine"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A short A-line knit skirt with a broad waistband and a clean hem. This listing includes the skirt only.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/marielle-a-line-knit-mini-skirt-wine/front.webp",
+    "/products/marielle-a-line-knit-mini-skirt-wine/back.webp",
+    "/products/marielle-a-line-knit-mini-skirt-wine/left.webp",
+    "/products/marielle-a-line-knit-mini-skirt-wine/right.webp"
+  ],
+  "stock": 2997,
+  "unitCostUsd": 22.58,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808098729582",
+  "sourceColor": "wine red skirt"
+},
+{
+  "slug": "rovelle-turtleneck-sweater-midi-dress-caramel",
+  "name": "Rovelle Turtleneck Sweater Midi Dress — Caramel",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#9b653e"
+  ],
+  "colorNames": [
+    "Caramel"
+  ],
+  "sizes": [
+    "XS（old）",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed knit midi dress with a folded turtleneck, dropped shoulders and ribbed cuffs.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rovelle-turtleneck-sweater-midi-dress-caramel/front.webp",
+    "/products/rovelle-turtleneck-sweater-midi-dress-caramel/back.webp",
+    "/products/rovelle-turtleneck-sweater-midi-dress-caramel/left.webp",
+    "/products/rovelle-turtleneck-sweater-midi-dress-caramel/right.webp"
+  ],
+  "stock": 555,
+  "unitCostUsd": 30.93,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806046586241",
+  "sourceColor": "Caramel"
+},
+{
+  "slug": "marielle-cardigan-and-skirt-set-espresso",
+  "name": "Marielle Cardigan and Skirt Set — Espresso",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 132.9,
+  "colors": [
+    "#4b3834"
+  ],
+  "colorNames": [
+    "Espresso"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A matching knit two-piece set with a cropped button-front cardigan and a high-waisted A-line mini skirt. Both pieces are included.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/marielle-cardigan-and-skirt-set-espresso/front.webp",
+    "/products/marielle-cardigan-and-skirt-set-espresso/back.webp",
+    "/products/marielle-cardigan-and-skirt-set-espresso/left.webp",
+    "/products/marielle-cardigan-and-skirt-set-espresso/right.webp"
+  ],
+  "stock": 2627,
+  "unitCostUsd": 43.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808098729582",
+  "sourceColor": "dark brown suit"
+},
+{
+  "slug": "marielle-a-line-knit-mini-skirt-heather-gray",
+  "name": "Marielle A-Line Knit Mini Skirt — Heather Gray",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#767479"
+  ],
+  "colorNames": [
+    "Heather Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A short A-line knit skirt with a broad waistband and a clean hem. This listing includes the skirt only.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/marielle-a-line-knit-mini-skirt-heather-gray/front.webp",
+    "/products/marielle-a-line-knit-mini-skirt-heather-gray/back.webp",
+    "/products/marielle-a-line-knit-mini-skirt-heather-gray/left.webp",
+    "/products/marielle-a-line-knit-mini-skirt-heather-gray/right.webp"
+  ],
+  "stock": 2997,
+  "unitCostUsd": 22.58,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808098729582",
+  "sourceColor": "grey skirt"
+},
+{
+  "slug": "marielle-button-front-knit-cardigan-wine",
+  "name": "Marielle Button-Front Knit Cardigan — Wine",
+  "category": "Knitwear",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#641d35"
+  ],
+  "colorNames": [
+    "Wine"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A cropped crew-neck knit cardigan with long sleeves, gold-tone buttons and two front patch pockets. This listing includes the cardigan only.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/marielle-button-front-knit-cardigan-wine/front.webp",
+    "/products/marielle-button-front-knit-cardigan-wine/back.webp",
+    "/products/marielle-button-front-knit-cardigan-wine/left.webp",
+    "/products/marielle-button-front-knit-cardigan-wine/right.webp"
+  ],
+  "stock": 2993,
+  "unitCostUsd": 30.82,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808098729582",
+  "sourceColor": "wine red top"
+},
+{
+  "slug": "marielle-a-line-knit-mini-skirt-espresso",
+  "name": "Marielle A-Line Knit Mini Skirt — Espresso",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#4b3834"
+  ],
+  "colorNames": [
+    "Espresso"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A short A-line knit skirt with a broad waistband and a clean hem. This listing includes the skirt only.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/marielle-a-line-knit-mini-skirt-espresso/front.webp",
+    "/products/marielle-a-line-knit-mini-skirt-espresso/back.webp",
+    "/products/marielle-a-line-knit-mini-skirt-espresso/left.webp",
+    "/products/marielle-a-line-knit-mini-skirt-espresso/right.webp"
+  ],
+  "stock": 2977,
+  "unitCostUsd": 22.58,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808098729582",
+  "sourceColor": "dark brown skirt"
+},
+{
+  "slug": "marielle-cardigan-and-skirt-set-wine",
+  "name": "Marielle Cardigan and Skirt Set — Wine",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 132.9,
+  "colors": [
+    "#641d35"
+  ],
+  "colorNames": [
+    "Wine"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A matching knit two-piece set with a cropped button-front cardigan and a high-waisted A-line mini skirt. Both pieces are included.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/marielle-cardigan-and-skirt-set-wine/front.webp",
+    "/products/marielle-cardigan-and-skirt-set-wine/back.webp",
+    "/products/marielle-cardigan-and-skirt-set-wine/left.webp",
+    "/products/marielle-cardigan-and-skirt-set-wine/right.webp"
+  ],
+  "stock": 2920,
+  "unitCostUsd": 43.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808098729582",
+  "sourceColor": "wine red suit"
+},
+{
+  "slug": "marielle-button-front-knit-cardigan-heather-gray",
+  "name": "Marielle Button-Front Knit Cardigan — Heather Gray",
+  "category": "Knitwear",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#767479"
+  ],
+  "colorNames": [
+    "Heather Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A cropped crew-neck knit cardigan with long sleeves, gold-tone buttons and two front patch pockets. This listing includes the cardigan only.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/marielle-button-front-knit-cardigan-heather-gray/front.webp",
+    "/products/marielle-button-front-knit-cardigan-heather-gray/back.webp",
+    "/products/marielle-button-front-knit-cardigan-heather-gray/left.webp",
+    "/products/marielle-button-front-knit-cardigan-heather-gray/right.webp"
+  ],
+  "stock": 2999,
+  "unitCostUsd": 30.82,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808098729582",
+  "sourceColor": "grey top"
 }
 ];
 
@@ -23937,6 +24291,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "marielle-cardigan-and-skirt-set-heather-gray",
+  "marielle-button-front-knit-cardigan-espresso",
+  "marielle-a-line-knit-mini-skirt-wine",
+  "rovelle-turtleneck-sweater-midi-dress-caramel",
+  "marielle-cardigan-and-skirt-set-espresso",
+  "marielle-a-line-knit-mini-skirt-heather-gray",
+  "marielle-button-front-knit-cardigan-wine",
+  "marielle-a-line-knit-mini-skirt-espresso",
+  "marielle-cardigan-and-skirt-set-wine",
+  "marielle-button-front-knit-cardigan-heather-gray",
+
   "odelise-tulip-hem-sweater-dress-heather-gray",
   "avelis-ribbed-blouson-mini-dress-black",
   "elvarie-ribbed-skater-mini-dress-caramel",

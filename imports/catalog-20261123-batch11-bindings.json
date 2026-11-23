@@ -1,0 +1,245 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "marielle-cardigan-and-skirt-set-heather-gray",
+      "sourceProductId": "3256808098729582",
+      "sourceColor": "grey suit",
+      "supplierId": "cmwtpnj0y01ow0jlnuflo0dkx",
+      "sourceSkuIdsBySize": {
+        "S": "12000045758518661",
+        "L": "12000045758518663",
+        "M": "12000045758518662"
+      },
+      "landedCostUsdBySize": {
+        "S": 43.98,
+        "L": 43.98,
+        "M": 43.98
+      },
+      "stockBySize": {
+        "S": 978,
+        "L": 995,
+        "M": 989
+      },
+      "retailPriceUsd": 132.9,
+      "verifiedAtUtc": "2026-11-23T21:08:41.533Z"
+    },
+    {
+      "slug": "marielle-button-front-knit-cardigan-espresso",
+      "sourceProductId": "3256808098729582",
+      "sourceColor": "dark brown top",
+      "supplierId": "cmwtpnj0y01ow0jlnuflo0dkx",
+      "sourceSkuIdsBySize": {
+        "L": "12000044478047934",
+        "M": "12000044478047933",
+        "S": "12000044478047932"
+      },
+      "landedCostUsdBySize": {
+        "L": 30.82,
+        "M": 30.82,
+        "S": 30.82
+      },
+      "stockBySize": {
+        "L": 994,
+        "M": 989,
+        "S": 992
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T21:08:41.533Z"
+    },
+    {
+      "slug": "marielle-a-line-knit-mini-skirt-wine",
+      "sourceProductId": "3256808098729582",
+      "sourceColor": "wine red skirt",
+      "supplierId": "cmwtpnj0y01ow0jlnuflo0dkx",
+      "sourceSkuIdsBySize": {
+        "S": "12000045758518649",
+        "L": "12000045758518651",
+        "M": "12000045758518650"
+      },
+      "landedCostUsdBySize": {
+        "S": 22.58,
+        "L": 22.58,
+        "M": 22.58
+      },
+      "stockBySize": {
+        "S": 999,
+        "L": 999,
+        "M": 999
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-23T21:08:41.533Z"
+    },
+    {
+      "slug": "rovelle-turtleneck-sweater-midi-dress-caramel",
+      "sourceProductId": "3256806046586241",
+      "sourceColor": "Caramel",
+      "supplierId": "cmwtpjnis01m90jln35px5c9x",
+      "sourceSkuIdsBySize": {
+        "M": "12000036392545450",
+        "L": "12000036392545451",
+        "XS（old）": "12000036392545448",
+        "S": "12000036392545449",
+        "XL": "12000036392545452",
+        "XXL": "12000036392545453"
+      },
+      "landedCostUsdBySize": {
+        "M": 30.93,
+        "L": 30.93,
+        "XS（old）": 30.93,
+        "S": 30.93,
+        "XL": 30.93,
+        "XXL": 30.93
+      },
+      "stockBySize": {
+        "M": 93,
+        "L": 92,
+        "XS（old）": 97,
+        "S": 93,
+        "XL": 92,
+        "XXL": 88
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T21:07:41.706Z"
+    },
+    {
+      "slug": "marielle-cardigan-and-skirt-set-espresso",
+      "sourceProductId": "3256808098729582",
+      "sourceColor": "dark brown suit",
+      "supplierId": "cmwtpnj0y01ow0jlnuflo0dkx",
+      "sourceSkuIdsBySize": {
+        "L": "12000044478047940",
+        "M": "12000044478047939",
+        "S": "12000044478047938"
+      },
+      "landedCostUsdBySize": {
+        "L": 43.98,
+        "M": 43.98,
+        "S": 43.98
+      },
+      "stockBySize": {
+        "L": 931,
+        "M": 830,
+        "S": 866
+      },
+      "retailPriceUsd": 132.9,
+      "verifiedAtUtc": "2026-11-23T21:08:41.533Z"
+    },
+    {
+      "slug": "marielle-a-line-knit-mini-skirt-heather-gray",
+      "sourceProductId": "3256808098729582",
+      "sourceColor": "grey skirt",
+      "supplierId": "cmwtpnj0y01ow0jlnuflo0dkx",
+      "sourceSkuIdsBySize": {
+        "M": "12000045758518659",
+        "S": "12000045758518658",
+        "L": "12000045758518660"
+      },
+      "landedCostUsdBySize": {
+        "M": 22.58,
+        "S": 22.58,
+        "L": 22.58
+      },
+      "stockBySize": {
+        "M": 998,
+        "S": 1000,
+        "L": 999
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-23T21:08:41.533Z"
+    },
+    {
+      "slug": "marielle-button-front-knit-cardigan-wine",
+      "sourceProductId": "3256808098729582",
+      "sourceColor": "wine red top",
+      "supplierId": "cmwtpnj0y01ow0jlnuflo0dkx",
+      "sourceSkuIdsBySize": {
+        "L": "12000045758518648",
+        "M": "12000045758518647",
+        "S": "12000045758518646"
+      },
+      "landedCostUsdBySize": {
+        "L": 30.82,
+        "M": 30.82,
+        "S": 30.82
+      },
+      "stockBySize": {
+        "L": 997,
+        "M": 997,
+        "S": 999
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T21:08:41.533Z"
+    },
+    {
+      "slug": "marielle-a-line-knit-mini-skirt-espresso",
+      "sourceProductId": "3256808098729582",
+      "sourceColor": "dark brown skirt",
+      "supplierId": "cmwtpnj0y01ow0jlnuflo0dkx",
+      "sourceSkuIdsBySize": {
+        "S": "12000044478047935",
+        "L": "12000044478047937",
+        "M": "12000044478047936"
+      },
+      "landedCostUsdBySize": {
+        "S": 22.58,
+        "L": 22.58,
+        "M": 22.58
+      },
+      "stockBySize": {
+        "S": 994,
+        "L": 996,
+        "M": 987
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-23T21:08:41.533Z"
+    },
+    {
+      "slug": "marielle-cardigan-and-skirt-set-wine",
+      "sourceProductId": "3256808098729582",
+      "sourceColor": "wine red suit",
+      "supplierId": "cmwtpnj0y01ow0jlnuflo0dkx",
+      "sourceSkuIdsBySize": {
+        "M": "12000045758518653",
+        "S": "12000045758518652",
+        "L": "12000045758518654"
+      },
+      "landedCostUsdBySize": {
+        "M": 43.98,
+        "S": 43.98,
+        "L": 43.98
+      },
+      "stockBySize": {
+        "M": 969,
+        "S": 971,
+        "L": 980
+      },
+      "retailPriceUsd": 132.9,
+      "verifiedAtUtc": "2026-11-23T21:08:41.533Z"
+    },
+    {
+      "slug": "marielle-button-front-knit-cardigan-heather-gray",
+      "sourceProductId": "3256808098729582",
+      "sourceColor": "grey top",
+      "supplierId": "cmwtpnj0y01ow0jlnuflo0dkx",
+      "sourceSkuIdsBySize": {
+        "S": "12000045758518655",
+        "L": "12000045758518657",
+        "M": "12000045758518656"
+      },
+      "landedCostUsdBySize": {
+        "S": 30.82,
+        "L": 30.82,
+        "M": 30.82
+      },
+      "stockBySize": {
+        "S": 999,
+        "L": 1000,
+        "M": 1000
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T21:08:41.533Z"
+    }
+  ]
+}

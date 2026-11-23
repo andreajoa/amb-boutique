@@ -1975,5 +1975,78 @@
    "S": 195,
    "M": 192
   }
+ },
+ "marielle-cardigan-and-skirt-set-heather-gray": {
+  "stockBySize": {
+   "S": 978,
+   "L": 995,
+   "M": 989
+  }
+ },
+ "marielle-button-front-knit-cardigan-espresso": {
+  "stockBySize": {
+   "L": 994,
+   "M": 989,
+   "S": 992
+  }
+ },
+ "marielle-a-line-knit-mini-skirt-wine": {
+  "stockBySize": {
+   "S": 999,
+   "L": 999,
+   "M": 999
+  }
+ },
+ "rovelle-turtleneck-sweater-midi-dress-caramel": {
+  "stockBySize": {
+   "M": 93,
+   "L": 92,
+   "XS（old）": 97,
+   "S": 93,
+   "XL": 92,
+   "XXL": 88
+  }
+ },
+ "marielle-cardigan-and-skirt-set-espresso": {
+  "stockBySize": {
+   "L": 931,
+   "M": 830,
+   "S": 866
+  }
+ },
+ "marielle-a-line-knit-mini-skirt-heather-gray": {
+  "stockBySize": {
+   "M": 998,
+   "S": 1000,
+   "L": 999
+  }
+ },
+ "marielle-button-front-knit-cardigan-wine": {
+  "stockBySize": {
+   "L": 997,
+   "M": 997,
+   "S": 999
+  }
+ },
+ "marielle-a-line-knit-mini-skirt-espresso": {
+  "stockBySize": {
+   "S": 994,
+   "L": 996,
+   "M": 987
+  }
+ },
+ "marielle-cardigan-and-skirt-set-wine": {
+  "stockBySize": {
+   "M": 969,
+   "S": 971,
+   "L": 980
+  }
+ },
+ "marielle-button-front-knit-cardigan-heather-gray": {
+  "stockBySize": {
+   "S": 999,
+   "L": 1000,
+   "M": 1000
+  }
  }
 }
