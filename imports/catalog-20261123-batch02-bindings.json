@@ -1,0 +1,29 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "sorelle-draped-halter-maxi-dress-taupe",
+      "sourceProductId": "3256812502949887",
+      "sourceColor": "Khaki",
+      "supplierId": "cmt64tbac01mr04jnv23aj3q0",
+      "sourceSkuIdsBySize": {
+        "M": "12000059084996912",
+        "L": "12000059084996913",
+        "S": "12000059084996911"
+      },
+      "landedCostUsdBySize": {
+        "M": 25.75,
+        "L": 25.75,
+        "S": 25.75
+      },
+      "stockBySize": {
+        "M": 9997,
+        "L": 9999,
+        "S": 9994
+      },
+      "retailPriceUsd": 77.9,
+      "verifiedAtUtc": "2026-11-23T16:01:22.123Z"
+    }
+  ]
+}

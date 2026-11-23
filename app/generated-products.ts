@@ -20604,6 +20604,41 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256809475159376",
   "sourceColor": "Dn0069-6 khaki black"
+},
+{
+  "slug": "sorelle-draped-halter-maxi-dress-taupe",
+  "name": "Sorelle Draped Halter Maxi Dress — Taupe",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 77.9,
+  "colors": [
+    "#9f8a71"
+  ],
+  "colorNames": [
+    "Taupe"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A floor-length halter dress with a narrow crossband, open bodice and waist, and a fluid skirt gathered at the center.",
+  "materials": "Smooth draped fabric. Refer to the garment label for fiber composition.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/sorelle-draped-halter-maxi-dress-taupe/front.webp",
+    "/products/sorelle-draped-halter-maxi-dress-taupe/back.webp",
+    "/products/sorelle-draped-halter-maxi-dress-taupe/left.webp",
+    "/products/sorelle-draped-halter-maxi-dress-taupe/right.webp"
+  ],
+  "stock": 29990,
+  "unitCostUsd": 25.75,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812502949887",
+  "sourceColor": "Khaki"
 }
 ];
 
@@ -20613,6 +20648,8 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "sorelle-draped-halter-maxi-dress-taupe",
+
   "aster-eyelet-two-piece-set-beige",
   "virelle-woven-crossbody-bag-black",
   "orlena-lace-balloon-sleeve-mini-dress-black",

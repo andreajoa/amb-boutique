@@ -1172,5 +1172,12 @@
   "stockBySize": {
    "One size fits all": 99994
   }
+ },
+ "sorelle-draped-halter-maxi-dress-taupe": {
+  "stockBySize": {
+   "M": 9997,
+   "L": 9999,
+   "S": 9994
+  }
  }
 }

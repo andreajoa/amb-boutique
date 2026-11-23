@@ -1305,6 +1305,10 @@
    "landedCostUsd": 33.44,
    "source": "catalog-20261123-batch01-bindings.json"
   },
+  "sorelle-draped-halter-maxi-dress-taupe": {
+   "landedCostUsd": 25.75,
+   "source": "catalog-20261123-batch02-bindings.json"
+  },
   "stella-galaxy-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
