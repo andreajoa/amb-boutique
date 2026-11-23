@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { isBlackFriday } from "./commerce";
 
 const slides = [
   {
@@ -46,6 +47,7 @@ const slides = [
 export function HeroCarousel() {
   const [active, setActive] = useState(0);
   const [paused, setPaused] = useState(false);
+  const blackFriday = isBlackFriday();
 
   useEffect(() => {
     if (paused || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -85,8 +87,10 @@ export function HeroCarousel() {
               <h1>{slide.title}</h1>
               <span>{slide.copy}</span>
               <div className="hero-actions">
-                <Link className="button light" href="/collections/new-in">Shop New Arrivals</Link>
-                <Link className="button ghost" href="/collections">Explore the Edit</Link>
+                {blackFriday
+                  ? <Link className="button light" href="/holiday" suppressHydrationWarning>Shop Black Friday · 20–25% Off</Link>
+                  : <Link className="button light" href="/collections/new-in">Shop New Arrivals</Link>}
+                <Link className="button ghost" href={blackFriday ? "/collections/new-in" : "/collections"} suppressHydrationWarning>{blackFriday ? "Shop New Arrivals" : "Explore the Edit"}</Link>
               </div>
             </div>
           </div>
