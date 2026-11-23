@@ -23563,6 +23563,371 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "1005007812198049",
   "sourceColor": "Black"
+},
+{
+  "slug": "odelise-tulip-hem-sweater-dress-heather-gray",
+  "name": "Odelise Tulip-Hem Sweater Dress — Heather Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 119.9,
+  "colors": [
+    "#77777a"
+  ],
+  "colorNames": [
+    "Heather Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A relaxed sweater dress with a round neckline, long sleeves and overlapping curved panels at the front hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/odelise-tulip-hem-sweater-dress-heather-gray/front.webp",
+    "/products/odelise-tulip-hem-sweater-dress-heather-gray/back.webp",
+    "/products/odelise-tulip-hem-sweater-dress-heather-gray/left.webp",
+    "/products/odelise-tulip-hem-sweater-dress-heather-gray/right.webp"
+  ],
+  "stock": 1936,
+  "unitCostUsd": 39.78,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809553835259",
+  "sourceColor": "GRAY"
+},
+{
+  "slug": "avelis-ribbed-blouson-mini-dress-black",
+  "name": "Avelis Ribbed Blouson Mini Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 81.9,
+  "colors": [
+    "#202020"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A ribbed mock-neck mini dress with a blouson bodice, long sleeves and a fitted high-waist skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/avelis-ribbed-blouson-mini-dress-black/front.webp",
+    "/products/avelis-ribbed-blouson-mini-dress-black/back.webp",
+    "/products/avelis-ribbed-blouson-mini-dress-black/left.webp",
+    "/products/avelis-ribbed-blouson-mini-dress-black/right.webp"
+  ],
+  "stock": 302,
+  "unitCostUsd": 27.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809234187157",
+  "sourceColor": "2361-Black"
+},
+{
+  "slug": "elvarie-ribbed-skater-mini-dress-caramel",
+  "name": "Elvarie Ribbed Skater Mini Dress — Caramel",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 45.9,
+  "colors": [
+    "#ad5e37"
+  ],
+  "colorNames": [
+    "Caramel"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A ribbed knit mini dress with a mock neckline, long fitted sleeves and a softly flared skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/elvarie-ribbed-skater-mini-dress-caramel/front.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-caramel/back.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-caramel/left.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-caramel/right.webp"
+  ],
+  "stock": 989,
+  "unitCostUsd": 15.14,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007812198049",
+  "sourceColor": "caramel"
+},
+{
+  "slug": "odelise-tulip-hem-sweater-dress-olive",
+  "name": "Odelise Tulip-Hem Sweater Dress — Olive",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 119.9,
+  "colors": [
+    "#4f543b"
+  ],
+  "colorNames": [
+    "Olive"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A relaxed sweater dress with a round neckline, long sleeves and overlapping curved panels at the front hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/odelise-tulip-hem-sweater-dress-olive/front.webp",
+    "/products/odelise-tulip-hem-sweater-dress-olive/back.webp",
+    "/products/odelise-tulip-hem-sweater-dress-olive/left.webp",
+    "/products/odelise-tulip-hem-sweater-dress-olive/right.webp"
+  ],
+  "stock": 1939,
+  "unitCostUsd": 39.78,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809553835259",
+  "sourceColor": "army green"
+},
+{
+  "slug": "avelis-ribbed-blouson-mini-dress-heather-gray",
+  "name": "Avelis Ribbed Blouson Mini Dress — Heather Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 81.9,
+  "colors": [
+    "#b4b3b4"
+  ],
+  "colorNames": [
+    "Heather Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A ribbed mock-neck mini dress with a blouson bodice, long sleeves and a fitted high-waist skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/avelis-ribbed-blouson-mini-dress-heather-gray/front.webp",
+    "/products/avelis-ribbed-blouson-mini-dress-heather-gray/back.webp",
+    "/products/avelis-ribbed-blouson-mini-dress-heather-gray/left.webp",
+    "/products/avelis-ribbed-blouson-mini-dress-heather-gray/right.webp"
+  ],
+  "stock": 42,
+  "unitCostUsd": 27.08,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809234187157",
+  "sourceColor": "2361-Grey"
+},
+{
+  "slug": "elvarie-ribbed-skater-mini-dress-royal-blue",
+  "name": "Elvarie Ribbed Skater Mini Dress — Royal Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 43.9,
+  "colors": [
+    "#17486c"
+  ],
+  "colorNames": [
+    "Royal Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A ribbed knit mini dress with a mock neckline, long fitted sleeves and a softly flared skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/elvarie-ribbed-skater-mini-dress-royal-blue/front.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-royal-blue/back.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-royal-blue/left.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-royal-blue/right.webp"
+  ],
+  "stock": 982,
+  "unitCostUsd": 14.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007812198049",
+  "sourceColor": "Royal Blue"
+},
+{
+  "slug": "odelise-tulip-hem-sweater-dress-black",
+  "name": "Odelise Tulip-Hem Sweater Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 119.9,
+  "colors": [
+    "#20201c"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A relaxed sweater dress with a round neckline, long sleeves and overlapping curved panels at the front hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/odelise-tulip-hem-sweater-dress-black/front.webp",
+    "/products/odelise-tulip-hem-sweater-dress-black/back.webp",
+    "/products/odelise-tulip-hem-sweater-dress-black/left.webp",
+    "/products/odelise-tulip-hem-sweater-dress-black/right.webp"
+  ],
+  "stock": 1981,
+  "unitCostUsd": 39.78,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809553835259",
+  "sourceColor": "black"
+},
+{
+  "slug": "elvarie-ribbed-skater-mini-dress-olive",
+  "name": "Elvarie Ribbed Skater Mini Dress — Olive",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 42.9,
+  "colors": [
+    "#5a5544"
+  ],
+  "colorNames": [
+    "Olive"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A ribbed knit mini dress with a mock neckline, long fitted sleeves and a softly flared skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/elvarie-ribbed-skater-mini-dress-olive/front.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-olive/back.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-olive/left.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-olive/right.webp"
+  ],
+  "stock": 981,
+  "unitCostUsd": 14.21,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007812198049",
+  "sourceColor": "Military green"
+},
+{
+  "slug": "elvarie-ribbed-skater-mini-dress-chocolate",
+  "name": "Elvarie Ribbed Skater Mini Dress — Chocolate",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 41.9,
+  "colors": [
+    "#6a3d2b"
+  ],
+  "colorNames": [
+    "Chocolate"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A ribbed knit mini dress with a mock neckline, long fitted sleeves and a softly flared skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/elvarie-ribbed-skater-mini-dress-chocolate/front.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-chocolate/back.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-chocolate/left.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-chocolate/right.webp"
+  ],
+  "stock": 970,
+  "unitCostUsd": 13.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007812198049",
+  "sourceColor": "chocolate"
+},
+{
+  "slug": "elvarie-ribbed-skater-mini-dress-navy",
+  "name": "Elvarie Ribbed Skater Mini Dress — Navy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 42.9,
+  "colors": [
+    "#20294f"
+  ],
+  "colorNames": [
+    "Navy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A ribbed knit mini dress with a mock neckline, long fitted sleeves and a softly flared skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/elvarie-ribbed-skater-mini-dress-navy/front.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-navy/back.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-navy/left.webp",
+    "/products/elvarie-ribbed-skater-mini-dress-navy/right.webp"
+  ],
+  "stock": 967,
+  "unitCostUsd": 14.28,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007812198049",
+  "sourceColor": "navy blue"
 }
 ];
 
@@ -23572,6 +23937,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "odelise-tulip-hem-sweater-dress-heather-gray",
+  "avelis-ribbed-blouson-mini-dress-black",
+  "elvarie-ribbed-skater-mini-dress-caramel",
+  "odelise-tulip-hem-sweater-dress-olive",
+  "avelis-ribbed-blouson-mini-dress-heather-gray",
+  "elvarie-ribbed-skater-mini-dress-royal-blue",
+  "odelise-tulip-hem-sweater-dress-black",
+  "elvarie-ribbed-skater-mini-dress-olive",
+  "elvarie-ribbed-skater-mini-dress-chocolate",
+  "elvarie-ribbed-skater-mini-dress-navy",
+
   "elvarie-ribbed-skater-mini-dress-slate-blue",
   "delyne-side-tie-wrap-knit-dress-ivory",
   "nerisse-button-collar-sweater-dress-green",

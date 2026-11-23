@@ -1890,5 +1890,90 @@
    "XL": 11,
    "L": 4
   }
+ },
+ "odelise-tulip-hem-sweater-dress-heather-gray": {
+  "stockBySize": {
+   "XL": 479,
+   "L": 481,
+   "M": 484,
+   "S": 492
+  }
+ },
+ "avelis-ribbed-blouson-mini-dress-black": {
+  "stockBySize": {
+   "XL": 31,
+   "S": 133,
+   "M": 101,
+   "L": 37
+  }
+ },
+ "elvarie-ribbed-skater-mini-dress-caramel": {
+  "stockBySize": {
+   "M": 197,
+   "S": 197,
+   "XL": 200,
+   "L": 198,
+   "XXL": 197
+  }
+ },
+ "odelise-tulip-hem-sweater-dress-olive": {
+  "stockBySize": {
+   "XL": 471,
+   "L": 492,
+   "M": 483,
+   "S": 493
+  }
+ },
+ "avelis-ribbed-blouson-mini-dress-heather-gray": {
+  "stockBySize": {
+   "XL": 21,
+   "S": 1,
+   "M": 1,
+   "L": 19
+  }
+ },
+ "elvarie-ribbed-skater-mini-dress-royal-blue": {
+  "stockBySize": {
+   "M": 195,
+   "S": 196,
+   "XL": 200,
+   "L": 194,
+   "XXL": 197
+  }
+ },
+ "odelise-tulip-hem-sweater-dress-black": {
+  "stockBySize": {
+   "XL": 495,
+   "L": 493,
+   "M": 496,
+   "S": 497
+  }
+ },
+ "elvarie-ribbed-skater-mini-dress-olive": {
+  "stockBySize": {
+   "M": 193,
+   "S": 197,
+   "XL": 198,
+   "L": 199,
+   "XXL": 194
+  }
+ },
+ "elvarie-ribbed-skater-mini-dress-chocolate": {
+  "stockBySize": {
+   "XXL": 189,
+   "XL": 198,
+   "S": 196,
+   "L": 193,
+   "M": 194
+  }
+ },
+ "elvarie-ribbed-skater-mini-dress-navy": {
+  "stockBySize": {
+   "XXL": 197,
+   "L": 188,
+   "XL": 195,
+   "S": 195,
+   "M": 192
+  }
  }
 }
