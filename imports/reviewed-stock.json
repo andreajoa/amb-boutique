@@ -1710,5 +1710,105 @@
    "XXXL": 999,
    "S": 997
   }
+ },
+ "nerisse-button-collar-sweater-dress-oatmeal": {
+  "stockBySize": {
+   "S": 799,
+   "M": 799,
+   "XXL": 798,
+   "XXXL": 797,
+   "L": 797,
+   "XL": 799
+  }
+ },
+ "civenne-ribbed-turtleneck-mini-dress-brick-red": {
+  "stockBySize": {
+   "XXXL": 999,
+   "S": 998,
+   "XL": 999,
+   "XXL": 999,
+   "M": 998,
+   "L": 999
+  }
+ },
+ "nerisse-button-collar-sweater-dress-black": {
+  "stockBySize": {
+   "XXL": 798,
+   "XXXL": 798,
+   "L": 795,
+   "XL": 797,
+   "S": 796,
+   "M": 796
+  }
+ },
+ "civenne-ribbed-turtleneck-mini-dress-forest-green": {
+  "stockBySize": {
+   "XL": 999,
+   "XXL": 999,
+   "M": 998,
+   "L": 998,
+   "XXXL": 999,
+   "S": 998
+  }
+ },
+ "nerisse-button-collar-sweater-dress-red": {
+  "stockBySize": {
+   "L": 797,
+   "XL": 799,
+   "S": 798,
+   "M": 797,
+   "XXL": 797,
+   "XXXL": 799
+  }
+ },
+ "civenne-ribbed-turtleneck-mini-dress-off-white": {
+  "stockBySize": {
+   "XL": 998,
+   "XXL": 999,
+   "M": 999,
+   "L": 999,
+   "XXXL": 999,
+   "S": 999
+  }
+ },
+ "nerisse-button-collar-sweater-dress-gold": {
+  "stockBySize": {
+   "XXL": 799,
+   "XXXL": 798,
+   "L": 798,
+   "XL": 800,
+   "S": 800,
+   "M": 798
+  }
+ },
+ "civenne-ribbed-turtleneck-mini-dress-light-gray": {
+  "stockBySize": {
+   "M": 999,
+   "L": 999,
+   "S": 999,
+   "XXXL": 999,
+   "XL": 999,
+   "XXL": 999
+  }
+ },
+ "nerisse-button-collar-sweater-dress-pumpkin": {
+  "stockBySize": {
+   "XXL": 796,
+   "XXXL": 797,
+   "L": 795,
+   "XL": 796,
+   "S": 792,
+   "M": 794
+  }
+ },
+ "civenne-ribbed-turtleneck-mini-dress-stone": {
+  "stockBySize": {
+   "XXXL": 999,
+   "XL": 999,
+   "XXL": 999,
+   "M": 998,
+   "L": 999,
+   "S": 997
+  }
  }
 }

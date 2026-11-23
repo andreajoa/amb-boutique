@@ -361,6 +361,10 @@
    "landedCostUsd": 28.51,
    "source": "catalog-20261123-batch07-bindings.json"
   },
+  "civenne-ribbed-turtleneck-mini-dress-brick-red": {
+   "landedCostUsd": 28.51,
+   "source": "catalog-20261123-batch08-bindings.json"
+  },
   "civenne-ribbed-turtleneck-mini-dress-burgundy": {
    "landedCostUsd": 28.51,
    "source": "catalog-20261123-batch07-bindings.json"
@@ -377,6 +381,18 @@
    "landedCostUsd": 28.51,
    "source": "catalog-20261123-batch07-bindings.json"
   },
+  "civenne-ribbed-turtleneck-mini-dress-forest-green": {
+   "landedCostUsd": 28.51,
+   "source": "catalog-20261123-batch08-bindings.json"
+  },
+  "civenne-ribbed-turtleneck-mini-dress-light-gray": {
+   "landedCostUsd": 28.51,
+   "source": "catalog-20261123-batch08-bindings.json"
+  },
+  "civenne-ribbed-turtleneck-mini-dress-off-white": {
+   "landedCostUsd": 28.51,
+   "source": "catalog-20261123-batch08-bindings.json"
+  },
   "civenne-ribbed-turtleneck-mini-dress-olive": {
    "landedCostUsd": 28.51,
    "source": "catalog-20261123-batch07-bindings.json"
@@ -384,6 +400,10 @@
   "civenne-ribbed-turtleneck-mini-dress-orange": {
    "landedCostUsd": 28.51,
    "source": "catalog-20261123-batch07-bindings.json"
+  },
+  "civenne-ribbed-turtleneck-mini-dress-stone": {
+   "landedCostUsd": 28.51,
+   "source": "catalog-20261123-batch08-bindings.json"
   },
   "civenne-ribbed-turtleneck-mini-dress-taupe": {
    "landedCostUsd": 28.51,
@@ -1024,6 +1044,26 @@
   "nerina-blue-satin-midi-dress": {
    "landedCostUsd": 21.94,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "nerisse-button-collar-sweater-dress-black": {
+   "landedCostUsd": 36.01,
+   "source": "catalog-20261123-batch08-bindings.json"
+  },
+  "nerisse-button-collar-sweater-dress-gold": {
+   "landedCostUsd": 36.01,
+   "source": "catalog-20261123-batch08-bindings.json"
+  },
+  "nerisse-button-collar-sweater-dress-oatmeal": {
+   "landedCostUsd": 36.01,
+   "source": "catalog-20261123-batch08-bindings.json"
+  },
+  "nerisse-button-collar-sweater-dress-pumpkin": {
+   "landedCostUsd": 36.01,
+   "source": "catalog-20261123-batch08-bindings.json"
+  },
+  "nerisse-button-collar-sweater-dress-red": {
+   "landedCostUsd": 36.01,
+   "source": "catalog-20261123-batch08-bindings.json"
   },
   "nero-chain-satchel-black": {
    "landedCostUsd": 37.08,
