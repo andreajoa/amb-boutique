@@ -80,7 +80,7 @@ export default async function TrackOrderPage({ searchParams }: PageProps) {
                   type="text"
                   required
                   defaultValue={order}
-                  placeholder="Example: 3VTGBXIJUB"
+                  placeholder="Example: AMB1234567"
                   style={{ border: "1px solid #cfc4b8", background: "#fff", padding: "13px 14px", fontSize: 14, textTransform: "uppercase" }}
                 />
               </label>

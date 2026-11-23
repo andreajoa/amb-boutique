@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type CSSProperties, type FormEvent } from "react";
 import type { Product } from "./data";
 import { productForSize, productPrice } from "./product-pricing";
@@ -12,6 +12,14 @@ import { rankRecommendations } from "./recommendations";
 import { approvedOfferPercent } from "./offer-ceiling";
 
 type OfferType = "cart-bump" | "post-purchase";
+export type CartLineOffer = { approvedPercent: number; discountedLineUsd: number; excluded: boolean };
+type ServerCartQuote = {
+  key: string;
+  effectiveDiscountUsd: number;
+  estimatedTotalUsd: number;
+  hasIneligibleItems: boolean;
+  lines: Record<string, CartLineOffer>;
+};
 
 export type CartLine = {
   id: string;
@@ -54,6 +62,8 @@ type StoreContextValue = {
   formatMoney: (valueUsd: number) => string;
   discount: ReturnType<typeof getDiscountState>;
   effectiveDiscountUsd: number;
+  lineOffers: Record<string, CartLineOffer>;
+  hasIneligibleOfferItems: boolean;
   addItem: (product: Product, options: AddOptions) => void;
   addItems: (entries: AddEntry[]) => void;
   updateQuantity: (id: string, quantity: number) => void;
@@ -91,6 +101,7 @@ export function useStore() {
 }
 
 export function StoreProvider({ children, catalog }: { children: React.ReactNode; catalog: Product[] }) {
+  const pathname = usePathname();
   const router = useRouter();
   const [cart, setCart] = useState<CartLine[]>([]);
   const [cartOpen, setCartOpen] = useState(false);
@@ -101,6 +112,8 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
   const [preferredCategories, setPreferredCategories] = useState<string[]>([]);
   const [checkoutError, setCheckoutError] = useState("");
   const [hydrated, setHydrated] = useState(false);
+  const [serverQuote, setServerQuote] = useState<ServerCartQuote | null>(null);
+  const [renderNow] = useState(() => Date.now());
 
   useEffect(() => {
     queueMicrotask(() => {
@@ -171,21 +184,87 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
     }, 1200);
     return () => window.clearTimeout(timer);
   }, [cart, hydrated, market, visitorId]);
-  useEffect(() => { document.body.style.overflow = cartOpen ? "hidden" : ""; return () => { document.body.style.overflow = ""; }; }, [cartOpen]);
+  const drawerOpen = cartOpen && pathname !== "/checkout";
+  useEffect(() => { document.body.style.overflow = drawerOpen ? "hidden" : ""; return () => { document.body.style.overflow = ""; }; }, [drawerOpen]);
 
   const cartCount = cart.reduce((sum, line) => sum + line.quantity, 0);
   const cartTotal = cart.reduce((sum, line) => sum + line.price * line.quantity, 0);
-  const discount = getDiscountState(cartTotal, Date.now(), promoCode);
+  const discount = getDiscountState(cartTotal, renderNow, promoCode);
   const welcomePercent = promoCode.toUpperCase() === FIRST_ORDER_CODE ? 10 : 0;
   const catalogBySlug = useMemo(() => new Map(catalog.map((product) => [product.slug, product])), [catalog]);
   const getProductPreparationNotice = useCallback((slug: string) => getPreparationNotice(catalogBySlug.get(slug)), [catalogBySlug]);
-  const estimatedTotal = useMemo(() => cart.reduce((sum, line) => {
-    const product = catalogBySlug.get(line.slug);
-    const requestedPercent = Math.max(discount.percent, welcomePercent, line.offer === "cart-bump" ? 10 : 0);
-    const approvedPercent = product ? approvedOfferPercent(productForSize(product, line.size), requestedPercent) : 0;
-    return sum + line.price * line.quantity * (1 - approvedPercent / 100);
-  }, 0), [cart, catalogBySlug, discount.percent, welcomePercent]);
-  const effectiveDiscountUsd = cartTotal - estimatedTotal;
+  const quoteKey = useMemo(
+    () => JSON.stringify({
+      market,
+      promotionCode: promoCode.trim().toUpperCase(),
+      items: cart.map(({ id, slug, quantity, size, heelHeightCm, offer }) => ({ id, slug, quantity, size, heelHeightCm, offer })),
+    }),
+    [cart, market, promoCode],
+  );
+
+  useEffect(() => {
+    if (!hydrated || !cart.length) return;
+    const controller = new AbortController();
+    const timer = window.setTimeout(() => {
+      void fetch("/api/cart/quote", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        signal: controller.signal,
+        body: quoteKey,
+      })
+        .then((response) => (response.ok ? response.json() : null))
+        .then((data: Omit<ServerCartQuote, "key"> | null) => {
+          if (!data || typeof data.estimatedTotalUsd !== "number") return;
+          setServerQuote({
+            key: quoteKey,
+            effectiveDiscountUsd: data.effectiveDiscountUsd,
+            estimatedTotalUsd: data.estimatedTotalUsd,
+            hasIneligibleItems: Boolean(data.hasIneligibleItems),
+            lines: data.lines || {},
+          });
+        })
+        .catch(() => undefined);
+    }, 180);
+    return () => {
+      window.clearTimeout(timer);
+      controller.abort();
+    };
+  }, [cart.length, hydrated, quoteKey]);
+
+  const optimisticPricing = useMemo(() => {
+    const lines: Record<string, CartLineOffer> = {};
+    let total = 0;
+    let hasIneligible = false;
+    for (const line of cart) {
+      const product = catalogBySlug.get(line.slug);
+      const requestedPercent = Math.max(discount.percent, welcomePercent, line.offer === "cart-bump" ? 10 : 0);
+      let approvedPercent = 0;
+      if (product) {
+        try {
+          approvedPercent = approvedOfferPercent(productForSize(product, line.size), requestedPercent);
+        } catch {
+          approvedPercent = 0;
+        }
+      }
+      const discountedLineUsd = line.price * line.quantity * (1 - approvedPercent / 100);
+      const excluded = requestedPercent > 0 && approvedPercent === 0;
+      if (excluded) hasIneligible = true;
+      lines[line.id] = { approvedPercent, discountedLineUsd, excluded };
+      total += discountedLineUsd;
+    }
+    return {
+      estimatedTotal: total,
+      effectiveDiscountUsd: Math.max(0, cartTotal - total),
+      lineOffers: lines,
+      hasIneligibleOfferItems: hasIneligible,
+    };
+  }, [cart, cartTotal, catalogBySlug, discount.percent, welcomePercent]);
+
+  const activeServerQuote = cart.length && serverQuote?.key === quoteKey ? serverQuote : null;
+  const estimatedTotal = activeServerQuote ? activeServerQuote.estimatedTotalUsd : optimisticPricing.estimatedTotal;
+  const effectiveDiscountUsd = activeServerQuote ? activeServerQuote.effectiveDiscountUsd : optimisticPricing.effectiveDiscountUsd;
+  const lineOffers = activeServerQuote ? activeServerQuote.lines : optimisticPricing.lineOffers;
+  const hasIneligibleOfferItems = activeServerQuote ? activeServerQuote.hasIneligibleItems : optimisticPricing.hasIneligibleOfferItems;
   const formatMoney = (valueUsd: number) => formatMarketPrice(valueUsd, market);
 
   const trackEvent: StoreContextValue["trackEvent"] = useCallback((event, details = {}) => {
@@ -283,6 +362,7 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
       if (!response.ok || !result.clientSecret) throw new Error(result.error || "Checkout is not available yet.");
       window.sessionStorage.setItem("amb-stripe-client-secret", result.clientSecret);
       window.sessionStorage.setItem("amb-stripe-session-id", result.sessionId || "");
+      setCartOpen(false);
       router.push("/checkout");
     } catch (error) {
       setCheckoutError(error instanceof Error ? error.message : "Checkout is not available yet.");
@@ -305,7 +385,7 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
     window.localStorage.removeItem(promoStorageKey);
   }, []);
   const closeCart = useCallback(() => setCartOpen(false), []);
-  const value = { catalog, cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, addItem, addItems, updateQuantity, removeItem, clearCart, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart, checkout, buyNow, checkoutError, getProductPreparationNotice };
+  const value = { catalog, cart, cartCount, cartTotal, estimatedTotal, cartOpen: drawerOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, lineOffers, hasIneligibleOfferItems, addItem, addItems, updateQuantity, removeItem, clearCart, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart, checkout, buyNow, checkoutError, getProductPreparationNotice };
   return <StoreContext.Provider value={value}>{children}<CartDrawer catalog={catalog} /></StoreContext.Provider>;
 }
 
@@ -366,7 +446,7 @@ function CartSaveBag() {
 }
 
 function CartDrawer({ catalog }: { catalog: Product[] }) {
-  const { cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, preferredCategories, formatMoney, effectiveDiscountUsd, setPromoCode, setOrderNote, addItem, closeCart, removeItem, updateQuantity, checkout, checkoutError } = useStore();
+  const { cart, cartCount, cartTotal, estimatedTotal, cartOpen, market, promoCode, preferredCategories, formatMoney, discount, effectiveDiscountUsd, lineOffers, hasIneligibleOfferItems, setPromoCode, setOrderNote, addItem, closeCart, removeItem, updateQuantity, checkout, checkoutError } = useStore();
   const layerRef = useRef<HTMLDivElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
   const catalogBySlug = useMemo(() => new Map(catalog.map((product) => [product.slug, product])), [catalog]);
@@ -409,9 +489,10 @@ function CartDrawer({ catalog }: { catalog: Product[] }) {
           const lineProduct = catalogBySlug.get(line.slug);
           const preparationNotice = getPreparationNotice(lineProduct);
           const thumbnail = getCartLineThumbnail(line, lineProduct);
+          const lineOffer = lineOffers[line.id];
           return <div className="cart-item" data-product-slug={line.slug} key={line.id}>
           <div className="cart-thumb"><span className={`cart-thumb-media sheet-${line.sheet} q${line.quadrant}${thumbnail.isSprite ? " sprite-media" : ""}`} style={thumbnail.style}/></div>
-          <div><Link href={`/products/${line.slug}${line.heelHeightCm ? `?heel=${line.heelHeightCm}` : ""}`} onClick={closeCart}><strong>{line.name}</strong></Link><span>Size: {line.size}</span><span>Color: {line.color}</span>{preparationNotice && <span data-preparation-notice>{preparationNotice}</span>}{line.heelHeightCm ? <span>Heel: {line.heelHeightCm} cm</span> : null}{line.offer && <span className="offer-label">Private cart offer</span>}<div className="mini-quantity"><button onClick={() => updateQuantity(line.id, line.quantity - 1)} aria-label="Decrease">−</button><span>{line.quantity}</span><button onClick={() => updateQuantity(line.id, line.quantity + 1)} aria-label="Increase">+</button></div><button onClick={() => removeItem(line.id)}>Remove</button></div>
+          <div><Link href={`/products/${line.slug}${line.heelHeightCm ? `?heel=${line.heelHeightCm}` : ""}`} onClick={closeCart}><strong>{line.name}</strong></Link><span>Size: {line.size}</span><span>Color: {line.color}</span>{preparationNotice && <span data-preparation-notice>{preparationNotice}</span>}{line.heelHeightCm ? <span>Heel: {line.heelHeightCm} cm</span> : null}{line.offer && <span className="offer-label">Private cart offer</span>}{lineOffer?.excluded && <span className="offer-excluded">Excluded from automatic offers</span>}<div className="mini-quantity"><button onClick={() => updateQuantity(line.id, line.quantity - 1)} aria-label="Decrease">−</button><span>{line.quantity}</span><button onClick={() => updateQuantity(line.id, line.quantity + 1)} aria-label="Increase">+</button></div><button onClick={() => removeItem(line.id)}>Remove</button></div>
           <b>{formatMoney(line.price * line.quantity)}</b>
         </div>;
         })}</div>
@@ -420,7 +501,7 @@ function CartDrawer({ catalog }: { catalog: Product[] }) {
         <div className="shipping-progress"><span>{market === "US" ? (shippingGap ? `You’re ${formatMoney(shippingGap)} away from complimentary U.S. shipping.` : "You’ve unlocked complimentary U.S. shipping.") : `Tracked delivery to ${markets[market].country} is calculated at checkout.`}</span>{market === "US" && <i><b style={{ width: `${Math.min(100, (cartTotal / US_FREE_SHIPPING_THRESHOLD_USD) * 100)}%` }}/></i>}</div>
         <div className="promo-entry"><label htmlFor="cart-code">Offer code</label><div><input id="cart-code" value={promoCode} onChange={(event) => setPromoCode(event.target.value)} placeholder="Enter code"/><button type="button">{promoCode ? "Applied" : "Apply"}</button></div>{promoCode && <small>{promoCode} is ready. The single best eligible discount will be used.</small>}</div>
         <label className="order-note">Add a note to your order<textarea rows={2} onChange={(event) => setOrderNote(event.target.value)}/></label>
-        <div className="cart-totals"><p><span>Subtotal</span><strong>{formatMoney(cartTotal)}</strong></p>{effectiveDiscountUsd > 0 && <p className="discount-line"><span>Best eligible offer</span><strong>−{formatMoney(effectiveDiscountUsd)}</strong></p>}<p><span>Estimated total</span><strong>{formatMoney(estimatedTotal)}</strong></p><p><span>Shipping</span><span>Calculated at checkout</span></p></div>
+        <div className="cart-totals"><p><span>Subtotal</span><strong>{formatMoney(cartTotal)}</strong></p>{effectiveDiscountUsd > 0 && <p className="discount-line"><span>Best eligible offer</span><strong>−{formatMoney(effectiveDiscountUsd)}</strong></p>}<p><span>Estimated total</span><strong>{formatMoney(estimatedTotal)}</strong></p><p><span>Shipping</span><span>Calculated at checkout</span></p>{hasIneligibleOfferItems && <p className="offer-excluded-note"><span>Some items in your bag are excluded from automatic offers. <Link href="/holiday" onClick={closeCart}>Shop eligible {discount.blackFriday ? "Black Friday" : "Holiday"} pieces</Link>.</span></p>}</div>
         <CartSaveBag />
         <Link className="view-bag" href="/cart" onClick={closeCart}>View Bag</Link>
         <button className="checkout-button" type="button" onClick={checkout}>Secure Checkout</button>

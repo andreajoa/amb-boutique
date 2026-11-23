@@ -6,8 +6,8 @@ import { stockForSize } from "../../product-inventory";
 import { getPreparationNotice } from "../../product-fulfillment";
 import { resolveShoeProductSlug } from "../../shoe-products";
 import { generatedProducts } from "../../generated-products";
-import { convertFromUsd, FIRST_ORDER_CODE, getDiscountState, getShippingQuotes, isMarketCode, markets } from "../../commerce";
-import { bestNonStackingDiscount, protectMargin } from "../../profitability";
+import { convertFromUsd, isMarketCode, markets } from "../../commerce";
+import { calculateCartOfferPricing } from "../../checkout-pricing";
 import { rankRecommendations } from "../../recommendations";
 import { getStripe } from "../../stripe-server";
 import { recordCheckoutJourney } from "../../email/commerce-lifecycle";
@@ -78,18 +78,17 @@ export async function POST(request: NextRequest) {
     }
     const preparationNotices = [...new Set(normalized.flatMap((item) => item.preparationNotice ? [item.preparationNotice] : []))];
     const hasPreparation = preparationNotices.length > 0;
-    const subtotalUsd = normalized.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
-    const packedWeightOz = normalized.reduce((sum, item) => sum + (item.product.weightOz || 12) * item.quantity, 0);
+    const pricing = calculateCartOfferPricing(
+      normalized.map((item) => ({
+        product: item.product,
+        quantity: item.quantity,
+        offer: item.line.offer,
+      })),
+      market,
+      body.promotionCode,
+    );
+    const { subtotalUsd, packedWeightOz, globalOffer, shippingQuotes } = pricing;
     if (market !== "US" && packedWeightOz > 64) throw new Error("This international parcel needs a live carrier quote. Please contact AMB BOUTIQUE for delivery assistance.");
-
-    const promoCode = body.promotionCode?.trim().toUpperCase();
-    const reward = getDiscountState(subtotalUsd, Date.now(), promoCode);
-    const globalOffer = bestNonStackingDiscount(reward.percent, promoCode === FIRST_ORDER_CODE ? promoCode : undefined);
-    // Frete grátis vira custo da loja: entra na trava de margem do desconto.
-    const complimentaryShippingCostUsd = getShippingQuotes(market, subtotalUsd, packedWeightOz)[0].amountUsd !== 0 ? 0
-      : market === "US" ? packedWeightOz <= 16 ? 11.95 : packedWeightOz <= 32 ? 17.65 : 22.45
-      : getShippingQuotes(market, subtotalUsd, packedWeightOz, 0)[0].amountUsd;
-    const totalUnits = normalized.reduce((sum, item) => sum + item.quantity, 0);
 
     const cartBumps = normalized.filter((item) => item.line.offer === "cart-bump");
     if (cartBumps.length) {
@@ -120,16 +119,15 @@ export async function POST(request: NextRequest) {
       if (!allowed) throw new Error("That item is not an eligible match for this order.");
     }
 
-    const lineItems: Stripe.Checkout.SessionCreateParams.LineItem[] = normalized.map((item) => {
-      const requestedPercent = item.line.offer === "post-purchase" ? 15 : Math.max(globalOffer.percent, item.line.offer === "cart-bump" ? 10 : 0);
-      const margin = protectMargin(item.product, requestedPercent, complimentaryShippingCostUsd / totalUnits);
-      const discountedUnitUsd = item.product.price * (1 - margin.approvedPercent / 100);
+    const lineItems: Stripe.Checkout.SessionCreateParams.LineItem[] = normalized.map((item, index) => {
+      const linePricing = pricing.lines[index];
+      const margin = linePricing.margin;
       const heelDescription = item.selectedHeelHeightCm ? `Heel ${item.selectedHeelHeightCm} cm` : "";
       return {
         quantity: item.quantity,
         price_data: {
           currency: markets[market].currency.toLowerCase(),
-          unit_amount: Math.max(50, Math.round(convertFromUsd(discountedUnitUsd, market) * 100)),
+          unit_amount: linePricing.unitAmountMinor,
           product_data: {
             name: item.product.name,
             description: [
@@ -153,7 +151,7 @@ export async function POST(request: NextRequest) {
       };
     });
 
-    const shippingOptions: Stripe.Checkout.SessionCreateParams.ShippingOption[] = getShippingQuotes(market, subtotalUsd, packedWeightOz).map((quote) => ({
+    const shippingOptions: Stripe.Checkout.SessionCreateParams.ShippingOption[] = shippingQuotes.map((quote) => ({
       shipping_rate_data: {
         type: "fixed_amount",
         fixed_amount: { amount: Math.round(convertFromUsd(quote.amountUsd, market) * 100), currency: markets[market].currency.toLowerCase() },

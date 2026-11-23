@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Product } from "./data";
 import { hasPriceRange, productPrice } from "./product-pricing";
-import { MarketCode, marketCodes, markets, US_FREE_SHIPPING_THRESHOLD_USD } from "./commerce";
+import { isBlackFriday, MarketCode, marketCodes, markets, US_FREE_SHIPPING_THRESHOLD_USD } from "./commerce";
 import { useStore } from "./store-provider";
 import { useSavedItems } from "./saved-items";
 import { NewsletterForm } from "./newsletter-form";
@@ -121,6 +121,8 @@ function SocialIcon({ name }: { name: "instagram" | "tiktok" }) {
 
 export function Header() {
   const { openCart, cartCount, market, setMarket, formatMoney } = useStore();
+  const blackFriday = isBlackFriday();
+  const holidayLabel = blackFriday ? "Black Friday" : "Holiday Edit";
   return (
     <>
       <div className="announcement">
@@ -128,7 +130,13 @@ export function Header() {
           <a href="https://www.instagram.com/ambb.outique/" target="_blank" rel="noopener noreferrer" aria-label="AMB Boutique on Instagram"><SocialIcon name="instagram" /></a>
           <a href="https://www.tiktok.com/@ambb.outique" target="_blank" rel="noopener noreferrer" aria-label="AMB Boutique on TikTok"><SocialIcon name="tiktok" /></a>
         </div>
-        <p>{market === "US" ? `COMPLIMENTARY U.S. SHIPPING ON ORDERS ${formatMoney(US_FREE_SHIPPING_THRESHOLD_USD)}+` : `NOW SHOPPING FOR ${markets[market].country.toUpperCase()}`}</p>
+        <p suppressHydrationWarning>
+          {blackFriday
+            ? <Link className="announcement-link" href="/holiday">BLACK FRIDAY · 20% OFF · 25% OFF $200+ · SHOP THE EDIT</Link>
+            : market === "US"
+              ? `COMPLIMENTARY U.S. SHIPPING ON ORDERS ${formatMoney(US_FREE_SHIPPING_THRESHOLD_USD)}+`
+              : `NOW SHOPPING FOR ${markets[market].country.toUpperCase()}`}
+        </p>
         <label className="market"><span aria-hidden="true">{markets[market].flag}</span><select aria-label="Market and currency" value={market} onChange={(event) => setMarket(event.target.value as MarketCode)}>{marketCodes.map((code) => <option value={code} key={code}>{markets[code].currency} {code === "UK" ? "£" : "$"}</option>)}</select></label>
       </div>
       <header className="site-header">
@@ -137,6 +145,7 @@ export function Header() {
             <summary aria-label="Open menu">☰</summary>
             <div>
               <Link href="/">Home</Link>
+              <Link className="sale-nav" href="/holiday" suppressHydrationWarning>{holidayLabel}</Link>
               <Link href="/collections/new-in">New In</Link>
               <Link href="/collections/dresses">Dresses</Link>
               <Link href="/collections/tops-blouses">Tops & Blouses</Link>
@@ -162,6 +171,7 @@ export function Header() {
         </div>
         <nav className="desktop-nav" aria-label="Main navigation">
           <Link href="/">Home</Link>
+          <Link className="sale-nav" href="/holiday" suppressHydrationWarning>{holidayLabel}</Link>
           <Link href="/collections/new-in">New In</Link>
           <Link href="/collections/dresses">Dresses</Link>
           <Link href="/collections/tops-blouses">Tops & Blouses</Link>
