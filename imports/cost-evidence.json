@@ -9,6 +9,22 @@
    "landedCostUsd": 149.38,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
   },
+  "alina-draped-sheath-dress-black": {
+   "landedCostUsd": 22.9,
+   "source": "catalog-20261123-batch04-bindings.json"
+  },
+  "alina-draped-sheath-dress-blue": {
+   "landedCostUsd": 22.9,
+   "source": "catalog-20261123-batch04-bindings.json"
+  },
+  "alina-draped-sheath-dress-dusty-pink": {
+   "landedCostUsd": 22.9,
+   "source": "catalog-20261123-batch04-bindings.json"
+  },
+  "alina-draped-sheath-dress-green": {
+   "landedCostUsd": 22.9,
+   "source": "catalog-20261123-batch04-bindings.json"
+  },
   "amalfi-dumpling-bag-large-black-alligator": {
    "landedCostUsd": 53.58,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
@@ -621,6 +637,10 @@
    "landedCostUsd": 34.69,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
   },
+  "iris-blue-pleated-maxi-dress": {
+   "landedCostUsd": 44.21,
+   "source": "catalog-20261123-batch04-bindings.json"
+  },
   "iris-galaxy-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -825,6 +845,10 @@
    "landedCostUsd": 37.29,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "mirelda-lattice-trim-shirt-dress-black": {
+   "landedCostUsd": 30.85,
+   "source": "catalog-20261123-batch04-bindings.json"
+  },
   "mirella-pink-pleated-midi-dress": {
    "landedCostUsd": 36.16,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
@@ -1000,6 +1024,22 @@
   "oceane-print-dress": {
    "landedCostUsd": 28.98,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "odeline-waterfall-panel-maxi-dress-black": {
+   "landedCostUsd": 39.5,
+   "source": "catalog-20261123-batch04-bindings.json"
+  },
+  "odeline-waterfall-panel-maxi-dress-butter-yellow": {
+   "landedCostUsd": 39.5,
+   "source": "catalog-20261123-batch04-bindings.json"
+  },
+  "odeline-waterfall-panel-maxi-dress-ivory": {
+   "landedCostUsd": 39.5,
+   "source": "catalog-20261123-batch04-bindings.json"
+  },
+  "odeline-waterfall-panel-maxi-dress-red": {
+   "landedCostUsd": 39.5,
+   "source": "catalog-20261123-batch04-bindings.json"
   },
   "odessa-polka-dot-halter-swing-dress-black": {
    "landedCostUsd": 29.95,

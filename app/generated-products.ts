@@ -21342,6 +21342,360 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256806664357699",
   "sourceColor": "Wine-red"
+},
+{
+  "slug": "iris-blue-pleated-maxi-dress",
+  "name": "Iris Blue Pleated Maxi Dress",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 132.9,
+  "colors": [
+    "#e6e7db"
+  ],
+  "colorNames": [
+    "White and Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A square-neck maxi dress with blue iris flowers, a fitted bodice and a long pleated skirt.",
+  "materials": "Refer to the product care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/iris-blue-pleated-maxi-dress/front.webp",
+    "/products/iris-blue-pleated-maxi-dress/back.webp",
+    "/products/iris-blue-pleated-maxi-dress/left.webp",
+    "/products/iris-blue-pleated-maxi-dress/right.webp"
+  ],
+  "stock": 2476,
+  "unitCostUsd": 44.21,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005009147140629",
+  "sourceColor": "White Blue"
+},
+{
+  "slug": "alina-draped-sheath-dress-blue",
+  "name": "Alina Draped Sheath Dress — Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 68.9,
+  "colors": [
+    "#4e6d8e"
+  ],
+  "colorNames": [
+    "Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A sleeveless knee-length sheath with a round neckline, an angled front drape and a long sash at the hip.",
+  "materials": "Refer to the product care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/alina-draped-sheath-dress-blue/front.webp",
+    "/products/alina-draped-sheath-dress-blue/back.webp",
+    "/products/alina-draped-sheath-dress-blue/left.webp",
+    "/products/alina-draped-sheath-dress-blue/right.webp"
+  ],
+  "stock": 3996,
+  "unitCostUsd": 22.9,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811440513727",
+  "sourceColor": "Blue"
+},
+{
+  "slug": "odeline-waterfall-panel-maxi-dress-butter-yellow",
+  "name": "Odeline Waterfall Panel Maxi Dress — Butter Yellow",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 118.9,
+  "colors": [
+    "#eac85d"
+  ],
+  "colorNames": [
+    "Butter Yellow"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted high-neck maxi dress with an asymmetric side drape that falls into a softly gathered hem.",
+  "materials": "Refer to the product care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/odeline-waterfall-panel-maxi-dress-butter-yellow/front.webp",
+    "/products/odeline-waterfall-panel-maxi-dress-butter-yellow/back.webp",
+    "/products/odeline-waterfall-panel-maxi-dress-butter-yellow/left.webp",
+    "/products/odeline-waterfall-panel-maxi-dress-butter-yellow/right.webp"
+  ],
+  "stock": 31770,
+  "unitCostUsd": 39.5,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810431555865",
+  "sourceColor": "YELLOW"
+},
+{
+  "slug": "mirelda-lattice-trim-shirt-dress-black",
+  "name": "Mirelda Lattice-Trim Shirt Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#181818"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A relaxed black shirt dress with a button front and open square lattice trim at the sleeves and hem.",
+  "materials": "Refer to the product care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/mirelda-lattice-trim-shirt-dress-black/front.webp",
+    "/products/mirelda-lattice-trim-shirt-dress-black/back.webp",
+    "/products/mirelda-lattice-trim-shirt-dress-black/left.webp",
+    "/products/mirelda-lattice-trim-shirt-dress-black/right.webp"
+  ],
+  "stock": 1490,
+  "unitCostUsd": 30.85,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811647624561",
+  "sourceColor": "black"
+},
+{
+  "slug": "alina-draped-sheath-dress-black",
+  "name": "Alina Draped Sheath Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 68.9,
+  "colors": [
+    "#1a1a1b"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A sleeveless knee-length sheath with a round neckline, an angled front drape and a long sash at the hip.",
+  "materials": "Refer to the product care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/alina-draped-sheath-dress-black/front.webp",
+    "/products/alina-draped-sheath-dress-black/back.webp",
+    "/products/alina-draped-sheath-dress-black/left.webp",
+    "/products/alina-draped-sheath-dress-black/right.webp"
+  ],
+  "stock": 3996,
+  "unitCostUsd": 22.9,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811440513727",
+  "sourceColor": "black"
+},
+{
+  "slug": "alina-draped-sheath-dress-dusty-pink",
+  "name": "Alina Draped Sheath Dress — Dusty Pink",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 68.9,
+  "colors": [
+    "#c28e8f"
+  ],
+  "colorNames": [
+    "Dusty Pink"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A sleeveless knee-length sheath with a round neckline, an angled drape and a hanging sash at the hip.",
+  "materials": "Refer to the product care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/alina-draped-sheath-dress-dusty-pink/front.webp",
+    "/products/alina-draped-sheath-dress-dusty-pink/back.webp",
+    "/products/alina-draped-sheath-dress-dusty-pink/left.webp",
+    "/products/alina-draped-sheath-dress-dusty-pink/right.webp"
+  ],
+  "stock": 3996,
+  "unitCostUsd": 22.9,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811440513727",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "alina-draped-sheath-dress-green",
+  "name": "Alina Draped Sheath Dress — Green",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 68.9,
+  "colors": [
+    "#23864d"
+  ],
+  "colorNames": [
+    "Green"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A sleeveless knee-length sheath with a round neckline, an angled drape and a hanging sash at the hip.",
+  "materials": "Refer to the product care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/alina-draped-sheath-dress-green/front.webp",
+    "/products/alina-draped-sheath-dress-green/back.webp",
+    "/products/alina-draped-sheath-dress-green/left.webp",
+    "/products/alina-draped-sheath-dress-green/right.webp"
+  ],
+  "stock": 3996,
+  "unitCostUsd": 22.9,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811440513727",
+  "sourceColor": "green"
+},
+{
+  "slug": "odeline-waterfall-panel-maxi-dress-black",
+  "name": "Odeline Waterfall Panel Maxi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 118.9,
+  "colors": [
+    "#1e1f21"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted high-neck maxi dress with an asymmetric side drape that falls into a softly gathered hem.",
+  "materials": "Refer to the product care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/odeline-waterfall-panel-maxi-dress-black/front.webp",
+    "/products/odeline-waterfall-panel-maxi-dress-black/back.webp",
+    "/products/odeline-waterfall-panel-maxi-dress-black/left.webp",
+    "/products/odeline-waterfall-panel-maxi-dress-black/right.webp"
+  ],
+  "stock": 31772,
+  "unitCostUsd": 39.5,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810431555865",
+  "sourceColor": "black"
+},
+{
+  "slug": "odeline-waterfall-panel-maxi-dress-red",
+  "name": "Odeline Waterfall Panel Maxi Dress — Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 118.9,
+  "colors": [
+    "#a42138"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted high-neck maxi dress with an asymmetric side drape that falls into a softly gathered hem.",
+  "materials": "Refer to the product care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/odeline-waterfall-panel-maxi-dress-red/front.webp",
+    "/products/odeline-waterfall-panel-maxi-dress-red/back.webp",
+    "/products/odeline-waterfall-panel-maxi-dress-red/left.webp",
+    "/products/odeline-waterfall-panel-maxi-dress-red/right.webp"
+  ],
+  "stock": 31784,
+  "unitCostUsd": 39.5,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810431555865",
+  "sourceColor": "Red"
+},
+{
+  "slug": "odeline-waterfall-panel-maxi-dress-ivory",
+  "name": "Odeline Waterfall Panel Maxi Dress — Ivory",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 118.9,
+  "colors": [
+    "#efe9dc"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted high-neck maxi dress with an asymmetric side drape that falls into a softly gathered hem.",
+  "materials": "Refer to the product care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/odeline-waterfall-panel-maxi-dress-ivory/front.webp",
+    "/products/odeline-waterfall-panel-maxi-dress-ivory/back.webp",
+    "/products/odeline-waterfall-panel-maxi-dress-ivory/left.webp",
+    "/products/odeline-waterfall-panel-maxi-dress-ivory/right.webp"
+  ],
+  "stock": 31787,
+  "unitCostUsd": 39.5,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810431555865",
+  "sourceColor": "WHITE"
 }
 ];
 
@@ -21351,6 +21705,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "iris-blue-pleated-maxi-dress",
+  "alina-draped-sheath-dress-blue",
+  "odeline-waterfall-panel-maxi-dress-butter-yellow",
+  "mirelda-lattice-trim-shirt-dress-black",
+  "alina-draped-sheath-dress-black",
+  "alina-draped-sheath-dress-dusty-pink",
+  "alina-draped-sheath-dress-green",
+  "odeline-waterfall-panel-maxi-dress-black",
+  "odeline-waterfall-panel-maxi-dress-red",
+  "odeline-waterfall-panel-maxi-dress-ivory",
+
   "portofino-carryall-coffee",
   "vespera-tailored-vest-trouser-set-black",
   "auralie-open-back-sequin-mini-dress-lime",
