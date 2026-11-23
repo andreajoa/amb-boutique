@@ -1,0 +1,248 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "iris-blue-pleated-maxi-dress",
+      "sourceProductId": "1005009147140629",
+      "sourceColor": "White Blue",
+      "supplierId": "cmsy06r2r007104ib3zghy9b2",
+      "sourceSkuIdsBySize": {
+        "XL": "12000048090402671",
+        "L": "12000048090402670",
+        "M": "12000048090402669",
+        "S": "12000048090402668",
+        "XXL": "12000048090402672"
+      },
+      "landedCostUsdBySize": {
+        "XL": 44.21,
+        "L": 44.21,
+        "M": 44.21,
+        "S": 44.21,
+        "XXL": 44.21
+      },
+      "stockBySize": {
+        "XL": 496,
+        "L": 496,
+        "M": 496,
+        "S": 489,
+        "XXL": 499
+      },
+      "retailPriceUsd": 132.9,
+      "verifiedAtUtc": "2026-11-23T16:18:43.509Z"
+    },
+    {
+      "slug": "alina-draped-sheath-dress-blue",
+      "sourceProductId": "3256811440513727",
+      "sourceColor": "Blue",
+      "supplierId": "cmt655mf301v604jnkzgt9bt5",
+      "sourceSkuIdsBySize": {
+        "L": "12000056093878180",
+        "XL": "12000056093878181",
+        "S": "12000056093878178",
+        "M": "12000056093878179"
+      },
+      "landedCostUsdBySize": {
+        "L": 22.9,
+        "XL": 22.9,
+        "S": 22.9,
+        "M": 22.9
+      },
+      "stockBySize": {
+        "L": 999,
+        "XL": 999,
+        "S": 999,
+        "M": 999
+      },
+      "retailPriceUsd": 68.9,
+      "verifiedAtUtc": "2026-11-23T16:20:58.999Z"
+    },
+    {
+      "slug": "odeline-waterfall-panel-maxi-dress-butter-yellow",
+      "sourceProductId": "3256810431555865",
+      "sourceColor": "YELLOW",
+      "supplierId": "cmwhri1e6001d0jmcffn8dh3s",
+      "sourceSkuIdsBySize": {
+        "M": "12000052986759080",
+        "L": "12000052986759084",
+        "S": "12000052986759076"
+      },
+      "landedCostUsdBySize": {
+        "M": 39.5,
+        "L": 39.5,
+        "S": 39.5
+      },
+      "stockBySize": {
+        "M": 10592,
+        "L": 10589,
+        "S": 10589
+      },
+      "retailPriceUsd": 118.9,
+      "verifiedAtUtc": "2026-11-23T16:19:55.121Z"
+    },
+    {
+      "slug": "mirelda-lattice-trim-shirt-dress-black",
+      "sourceProductId": "3256811647624561",
+      "sourceColor": "black",
+      "supplierId": "cmwhrdzv5000r0jmcoibqc0i3",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000056739014501"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 30.85
+      },
+      "stockBySize": {
+        "One Size": 1490
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T16:22:23.150Z"
+    },
+    {
+      "slug": "alina-draped-sheath-dress-black",
+      "sourceProductId": "3256811440513727",
+      "sourceColor": "black",
+      "supplierId": "cmt655mf301v604jnkzgt9bt5",
+      "sourceSkuIdsBySize": {
+        "S": "12000056093878174",
+        "M": "12000056093878175",
+        "L": "12000056093878176",
+        "XL": "12000056093878177"
+      },
+      "landedCostUsdBySize": {
+        "S": 22.9,
+        "M": 22.9,
+        "L": 22.9,
+        "XL": 22.9
+      },
+      "stockBySize": {
+        "S": 999,
+        "M": 999,
+        "L": 999,
+        "XL": 999
+      },
+      "retailPriceUsd": 68.9,
+      "verifiedAtUtc": "2026-11-23T16:20:58.999Z"
+    },
+    {
+      "slug": "alina-draped-sheath-dress-dusty-pink",
+      "sourceProductId": "3256811440513727",
+      "sourceColor": "Pink",
+      "supplierId": "cmt655mf301v604jnkzgt9bt5",
+      "sourceSkuIdsBySize": {
+        "L": "12000056093878188",
+        "XL": "12000056093878189",
+        "S": "12000056093878186",
+        "M": "12000056093878187"
+      },
+      "landedCostUsdBySize": {
+        "L": 22.9,
+        "XL": 22.9,
+        "S": 22.9,
+        "M": 22.9
+      },
+      "stockBySize": {
+        "L": 999,
+        "XL": 999,
+        "S": 999,
+        "M": 999
+      },
+      "retailPriceUsd": 68.9,
+      "verifiedAtUtc": "2026-11-23T16:20:58.999Z"
+    },
+    {
+      "slug": "alina-draped-sheath-dress-green",
+      "sourceProductId": "3256811440513727",
+      "sourceColor": "green",
+      "supplierId": "cmt655mf301v604jnkzgt9bt5",
+      "sourceSkuIdsBySize": {
+        "S": "12000056093878182",
+        "M": "12000056093878183",
+        "L": "12000056093878184",
+        "XL": "12000056093878185"
+      },
+      "landedCostUsdBySize": {
+        "S": 22.9,
+        "M": 22.9,
+        "L": 22.9,
+        "XL": 22.9
+      },
+      "stockBySize": {
+        "S": 999,
+        "M": 999,
+        "L": 999,
+        "XL": 999
+      },
+      "retailPriceUsd": 68.9,
+      "verifiedAtUtc": "2026-11-23T16:20:58.999Z"
+    },
+    {
+      "slug": "odeline-waterfall-panel-maxi-dress-black",
+      "sourceProductId": "3256810431555865",
+      "sourceColor": "black",
+      "supplierId": "cmwhri1e6001d0jmcffn8dh3s",
+      "sourceSkuIdsBySize": {
+        "L": "12000052986759081",
+        "S": "12000052986759073",
+        "M": "12000052986759077"
+      },
+      "landedCostUsdBySize": {
+        "L": 39.5,
+        "S": 39.5,
+        "M": 39.5
+      },
+      "stockBySize": {
+        "L": 10594,
+        "S": 10588,
+        "M": 10590
+      },
+      "retailPriceUsd": 118.9,
+      "verifiedAtUtc": "2026-11-23T16:19:55.121Z"
+    },
+    {
+      "slug": "odeline-waterfall-panel-maxi-dress-red",
+      "sourceProductId": "3256810431555865",
+      "sourceColor": "Red",
+      "supplierId": "cmwhri1e6001d0jmcffn8dh3s",
+      "sourceSkuIdsBySize": {
+        "L": "12000052986759082",
+        "S": "12000052986759074",
+        "M": "12000052986759078"
+      },
+      "landedCostUsdBySize": {
+        "L": 39.5,
+        "S": 39.5,
+        "M": 39.5
+      },
+      "stockBySize": {
+        "L": 10594,
+        "S": 10595,
+        "M": 10595
+      },
+      "retailPriceUsd": 118.9,
+      "verifiedAtUtc": "2026-11-23T16:19:55.121Z"
+    },
+    {
+      "slug": "odeline-waterfall-panel-maxi-dress-ivory",
+      "sourceProductId": "3256810431555865",
+      "sourceColor": "WHITE",
+      "supplierId": "cmwhri1e6001d0jmcffn8dh3s",
+      "sourceSkuIdsBySize": {
+        "L": "12000052986759083",
+        "S": "12000052986759075",
+        "M": "12000052986759079"
+      },
+      "landedCostUsdBySize": {
+        "L": 39.5,
+        "S": 39.5,
+        "M": 39.5
+      },
+      "stockBySize": {
+        "L": 10598,
+        "S": 10594,
+        "M": 10595
+      },
+      "retailPriceUsd": 118.9,
+      "verifiedAtUtc": "2026-11-23T16:19:55.121Z"
+    }
+  ]
+}

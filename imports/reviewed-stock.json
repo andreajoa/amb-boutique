@@ -1350,5 +1350,79 @@
    "XXL": 999,
    "XL": 998
   }
+ },
+ "iris-blue-pleated-maxi-dress": {
+  "stockBySize": {
+   "XL": 496,
+   "L": 496,
+   "M": 496,
+   "S": 489,
+   "XXL": 499
+  }
+ },
+ "alina-draped-sheath-dress-blue": {
+  "stockBySize": {
+   "L": 999,
+   "XL": 999,
+   "S": 999,
+   "M": 999
+  }
+ },
+ "odeline-waterfall-panel-maxi-dress-butter-yellow": {
+  "stockBySize": {
+   "M": 10592,
+   "L": 10589,
+   "S": 10589
+  }
+ },
+ "mirelda-lattice-trim-shirt-dress-black": {
+  "stockBySize": {
+   "One Size": 1490
+  }
+ },
+ "alina-draped-sheath-dress-black": {
+  "stockBySize": {
+   "S": 999,
+   "M": 999,
+   "L": 999,
+   "XL": 999
+  }
+ },
+ "alina-draped-sheath-dress-dusty-pink": {
+  "stockBySize": {
+   "L": 999,
+   "XL": 999,
+   "S": 999,
+   "M": 999
+  }
+ },
+ "alina-draped-sheath-dress-green": {
+  "stockBySize": {
+   "S": 999,
+   "M": 999,
+   "L": 999,
+   "XL": 999
+  }
+ },
+ "odeline-waterfall-panel-maxi-dress-black": {
+  "stockBySize": {
+   "L": 10594,
+   "S": 10588,
+   "M": 10590
+  }
+ },
+ "odeline-waterfall-panel-maxi-dress-red": {
+  "stockBySize": {
+   "L": 10594,
+   "S": 10595,
+   "M": 10595
+  }
+ },
+ "odeline-waterfall-panel-maxi-dress-ivory": {
+  "stockBySize": {
+   "L": 10598,
+   "S": 10594,
+   "M": 10595
+  }
  }
 }
