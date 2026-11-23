@@ -12,6 +12,7 @@ export type CollectionProduct = ProductCardProduct & {
   subcategory?: string;
   available: boolean;
   arrivalRank?: number;
+  newArrival?: boolean;
 };
 
 const PAGE_SIZE = 24;
@@ -61,7 +62,7 @@ export function CollectionsClient({ products, initialNewOnly = false, initialSor
       const matchesCategory = category === "All"
         || (category === "Heels" ? product.category === "Shoes" && product.subcategory === "Heels" : product.category === category);
       const matchesStock = !inStockOnly || product.available;
-      const matchesNew = !newOnly || /^(new|just in)$/i.test(product.badge || "");
+      const matchesNew = !newOnly || (product.newArrival ?? /^(new|just in)$/i.test(product.badge || ""));
       const matchesSale = !saleOnly || Boolean(product.compareAt && product.compareAt > product.price);
       return matchesCategory && matchesStock && matchesNew && matchesSale && product.price <= maxPrice;
     });

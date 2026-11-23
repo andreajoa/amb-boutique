@@ -85,7 +85,7 @@ export function HeroCarousel() {
               <h1>{slide.title}</h1>
               <span>{slide.copy}</span>
               <div className="hero-actions">
-                <Link className="button light" href="/collections">Shop New Arrivals</Link>
+                <Link className="button light" href="/collections/new-in">Shop New Arrivals</Link>
                 <Link className="button ghost" href="/collections">Explore the Edit</Link>
               </div>
             </div>

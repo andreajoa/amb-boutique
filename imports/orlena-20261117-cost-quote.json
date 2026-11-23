@@ -1,0 +1,1055 @@
+{
+  "http": 200,
+  "body": {
+    "ok": true,
+    "dryRun": true,
+    "persisted": false,
+    "supplierId": "cmwhrxxyb00640jmct2m9sfx7",
+    "sourceProductId": "3256812955486529",
+    "requestedProductId": "3256812955486529",
+    "resolvedProductId": "3256812955486529",
+    "operationalProvider": "ALIEXPRESS_OPEN_PLATFORM",
+    "warnings": [],
+    "refreshedAt": "2026-11-23T15:16:34.807Z",
+    "variants": 10,
+    "quotedSkus": [
+      {
+        "sourceSkuId": "12000060349859357",
+        "name": "Color: Beige · Size: S",
+        "attributes": {
+          "Color": "Beige",
+          "Size": "S"
+        },
+        "imageUrl": null,
+        "orderSkuAttr": "5:100014064;14:771",
+        "stock": 798,
+        "available": true,
+        "itemPrice": 12.79,
+        "itemCurrency": "USD",
+        "itemCostInCostCurrency": 12.79,
+        "freightCostInCostCurrency": 17.4,
+        "freightServiceName": "YUNEXPRESS_STANDARD",
+        "landedCost": 30.19,
+        "costCurrency": "USD",
+        "countryCode": "US",
+        "verifiedAt": "2026-11-23T15:16:34.807Z",
+        "minimumRetail3x": 90.57,
+        "suggestedRetail3x90": 90.9
+      },
+      {
+        "sourceSkuId": "12000060349859358",
+        "name": "Color: Beige · Size: M",
+        "attributes": {
+          "Color": "Beige",
+          "Size": "M"
+        },
+        "imageUrl": null,
+        "orderSkuAttr": "5:361386;14:771",
+        "stock": 800,
+        "available": true,
+        "itemPrice": 12.79,
+        "itemCurrency": "USD",
+        "itemCostInCostCurrency": 12.79,
+        "freightCostInCostCurrency": 17.4,
+        "freightServiceName": "YUNEXPRESS_STANDARD",
+        "landedCost": 30.19,
+        "costCurrency": "USD",
+        "countryCode": "US",
+        "verifiedAt": "2026-11-23T15:16:34.807Z",
+        "minimumRetail3x": 90.57,
+        "suggestedRetail3x90": 90.9
+      },
+      {
+        "sourceSkuId": "12000060349859359",
+        "name": "Color: Beige · Size: L",
+        "attributes": {
+          "Color": "Beige",
+          "Size": "L"
+        },
+        "imageUrl": null,
+        "orderSkuAttr": "5:361385;14:771",
+        "stock": 798,
+        "available": true,
+        "itemPrice": 12.79,
+        "itemCurrency": "USD",
+        "itemCostInCostCurrency": 12.79,
+        "freightCostInCostCurrency": 17.4,
+        "freightServiceName": "YUNEXPRESS_STANDARD",
+        "landedCost": 30.19,
+        "costCurrency": "USD",
+        "countryCode": "US",
+        "verifiedAt": "2026-11-23T15:16:34.807Z",
+        "minimumRetail3x": 90.57,
+        "suggestedRetail3x90": 90.9
+      },
+      {
+        "sourceSkuId": "12000060349859376",
+        "name": "Color: Coffee · Size: XXL",
+        "attributes": {
+          "Color": "Coffee",
+          "Size": "XXL"
+        },
+        "imageUrl": null,
+        "orderSkuAttr": "5:4182;14:933",
+        "stock": 797,
+        "available": true,
+        "itemPrice": 12.79,
+        "itemCurrency": "USD",
+        "itemCostInCostCurrency": 12.79,
+        "freightCostInCostCurrency": 17.4,
+        "freightServiceName": "YUNEXPRESS_STANDARD",
+        "landedCost": 30.19,
+        "costCurrency": "USD",
+        "countryCode": "US",
+        "verifiedAt": "2026-11-23T15:16:34.807Z",
+        "minimumRetail3x": 90.57,
+        "suggestedRetail3x90": 90.9
+      },
+      {
+        "sourceSkuId": "12000060349859372",
+        "name": "Color: Coffee · Size: S",
+        "attributes": {
+          "Color": "Coffee",
+          "Size": "S"
+        },
+        "imageUrl": null,
+        "orderSkuAttr": "5:100014064;14:933",
+        "stock": 799,
+        "available": true,
+        "itemPrice": 12.79,
+        "itemCurrency": "USD",
+        "itemCostInCostCurrency": 12.79,
+        "freightCostInCostCurrency": 17.4,
+        "freightServiceName": "YUNEXPRESS_STANDARD",
+        "landedCost": 30.19,
+        "costCurrency": "USD",
+        "countryCode": "US",
+        "verifiedAt": "2026-11-23T15:16:34.807Z",
+        "minimumRetail3x": 90.57,
+        "suggestedRetail3x90": 90.9
+      },
+      {
+        "sourceSkuId": "12000060349859373",
+        "name": "Color: Coffee · Size: M",
+        "attributes": {
+          "Color": "Coffee",
+          "Size": "M"
+        },
+        "imageUrl": null,
+        "orderSkuAttr": "5:361386;14:933",
+        "stock": 796,
+        "available": true,
+        "itemPrice": 12.79,
+        "itemCurrency": "USD",
+        "itemCostInCostCurrency": 12.79,
+        "freightCostInCostCurrency": 17.4,
+        "freightServiceName": "YUNEXPRESS_STANDARD",
+        "landedCost": 30.19,
+        "costCurrency": "USD",
+        "countryCode": "US",
+        "verifiedAt": "2026-11-23T15:16:34.807Z",
+        "minimumRetail3x": 90.57,
+        "suggestedRetail3x90": 90.9
+      },
+      {
+        "sourceSkuId": "12000060349859374",
+        "name": "Color: Coffee · Size: L",
+        "attributes": {
+          "Color": "Coffee",
+          "Size": "L"
+        },
+        "imageUrl": null,
+        "orderSkuAttr": "5:361385;14:933",
+        "stock": 797,
+        "available": true,
+        "itemPrice": 12.79,
+        "itemCurrency": "USD",
+        "itemCostInCostCurrency": 12.79,
+        "freightCostInCostCurrency": 17.4,
+        "freightServiceName": "YUNEXPRESS_STANDARD",
+        "landedCost": 30.19,
+        "costCurrency": "USD",
+        "countryCode": "US",
+        "verifiedAt": "2026-11-23T15:16:34.807Z",
+        "minimumRetail3x": 90.57,
+        "suggestedRetail3x90": 90.9
+      },
+      {
+        "sourceSkuId": "12000060349859375",
+        "name": "Color: Coffee · Size: XL",
+        "attributes": {
+          "Color": "Coffee",
+          "Size": "XL"
+        },
+        "imageUrl": null,
+        "orderSkuAttr": "5:100014065;14:933",
+        "stock": 797,
+        "available": true,
+        "itemPrice": 12.79,
+        "itemCurrency": "USD",
+        "itemCostInCostCurrency": 12.79,
+        "freightCostInCostCurrency": 17.4,
+        "freightServiceName": "YUNEXPRESS_STANDARD",
+        "landedCost": 30.19,
+        "costCurrency": "USD",
+        "countryCode": "US",
+        "verifiedAt": "2026-11-23T15:16:34.807Z",
+        "minimumRetail3x": 90.57,
+        "suggestedRetail3x90": 90.9
+      },
+      {
+        "sourceSkuId": "12000060349859360",
+        "name": "Color: Beige · Size: XL",
+        "attributes": {
+          "Color": "Beige",
+          "Size": "XL"
+        },
+        "imageUrl": null,
+        "orderSkuAttr": "5:100014065;14:771",
+        "stock": 799,
+        "available": true,
+        "itemPrice": 12.79,
+        "itemCurrency": "USD",
+        "itemCostInCostCurrency": 12.79,
+        "freightCostInCostCurrency": 17.4,
+        "freightServiceName": "YUNEXPRESS_STANDARD",
+        "landedCost": 30.19,
+        "costCurrency": "USD",
+        "countryCode": "US",
+        "verifiedAt": "2026-11-23T15:16:34.807Z",
+        "minimumRetail3x": 90.57,
+        "suggestedRetail3x90": 90.9
+      },
+      {
+        "sourceSkuId": "12000060349859361",
+        "name": "Color: Beige · Size: XXL",
+        "attributes": {
+          "Color": "Beige",
+          "Size": "XXL"
+        },
+        "imageUrl": null,
+        "orderSkuAttr": "5:4182;14:771",
+        "stock": 796,
+        "available": true,
+        "itemPrice": 12.79,
+        "itemCurrency": "USD",
+        "itemCostInCostCurrency": 12.79,
+        "freightCostInCostCurrency": 17.4,
+        "freightServiceName": "YUNEXPRESS_STANDARD",
+        "landedCost": 30.19,
+        "costCurrency": "USD",
+        "countryCode": "US",
+        "verifiedAt": "2026-11-23T15:16:34.807Z",
+        "minimumRetail3x": 90.57,
+        "suggestedRetail3x90": 90.9
+      }
+    ],
+    "costSnapshot": {
+      "status": "COMPLETE",
+      "basis": "ITEM_PLUS_FREIGHT",
+      "scope": "ONE_UNIT_COUNTRY_BASELINE",
+      "includes": [
+        "ITEM_PRICE",
+        "ALIEXPRESS_FREIGHT"
+      ],
+      "countryCode": "US",
+      "sendGoodsCountryCode": "CN",
+      "quantity": 1,
+      "itemCurrency": "USD",
+      "costCurrency": "USD",
+      "itemFxRateToCostCurrency": null,
+      "freight": {
+        "status": "AVAILABLE",
+        "selectedServiceName": "YUNEXPRESS_STANDARD",
+        "estimatedDeliveryTime": "15days",
+        "originalAmount": 17.4,
+        "originalCurrency": "USD",
+        "amountInCostCurrency": 17.4,
+        "costCurrency": "USD",
+        "quoteCount": 10,
+        "quotes": [],
+        "error": null
+      },
+      "calculatedAt": "2026-11-23T15:16:34.807Z",
+      "perSku": [
+        {
+          "skuId": "12000060349859357",
+          "itemPrice": 12.79,
+          "itemCurrency": "USD",
+          "freightServiceName": "YUNEXPRESS_STANDARD",
+          "freightAmountInCostCurrency": 17.4,
+          "landedCost": 30.19,
+          "costCurrency": "USD"
+        },
+        {
+          "skuId": "12000060349859358",
+          "itemPrice": 12.79,
+          "itemCurrency": "USD",
+          "freightServiceName": "YUNEXPRESS_STANDARD",
+          "freightAmountInCostCurrency": 17.4,
+          "landedCost": 30.19,
+          "costCurrency": "USD"
+        },
+        {
+          "skuId": "12000060349859359",
+          "itemPrice": 12.79,
+          "itemCurrency": "USD",
+          "freightServiceName": "YUNEXPRESS_STANDARD",
+          "freightAmountInCostCurrency": 17.4,
+          "landedCost": 30.19,
+          "costCurrency": "USD"
+        },
+        {
+          "skuId": "12000060349859376",
+          "itemPrice": 12.79,
+          "itemCurrency": "USD",
+          "freightServiceName": "YUNEXPRESS_STANDARD",
+          "freightAmountInCostCurrency": 17.4,
+          "landedCost": 30.19,
+          "costCurrency": "USD"
+        },
+        {
+          "skuId": "12000060349859372",
+          "itemPrice": 12.79,
+          "itemCurrency": "USD",
+          "freightServiceName": "YUNEXPRESS_STANDARD",
+          "freightAmountInCostCurrency": 17.4,
+          "landedCost": 30.19,
+          "costCurrency": "USD"
+        },
+        {
+          "skuId": "12000060349859373",
+          "itemPrice": 12.79,
+          "itemCurrency": "USD",
+          "freightServiceName": "YUNEXPRESS_STANDARD",
+          "freightAmountInCostCurrency": 17.4,
+          "landedCost": 30.19,
+          "costCurrency": "USD"
+        },
+        {
+          "skuId": "12000060349859374",
+          "itemPrice": 12.79,
+          "itemCurrency": "USD",
+          "freightServiceName": "YUNEXPRESS_STANDARD",
+          "freightAmountInCostCurrency": 17.4,
+          "landedCost": 30.19,
+          "costCurrency": "USD"
+        },
+        {
+          "skuId": "12000060349859375",
+          "itemPrice": 12.79,
+          "itemCurrency": "USD",
+          "freightServiceName": "YUNEXPRESS_STANDARD",
+          "freightAmountInCostCurrency": 17.4,
+          "landedCost": 30.19,
+          "costCurrency": "USD"
+        },
+        {
+          "skuId": "12000060349859360",
+          "itemPrice": 12.79,
+          "itemCurrency": "USD",
+          "freightServiceName": "YUNEXPRESS_STANDARD",
+          "freightAmountInCostCurrency": 17.4,
+          "landedCost": 30.19,
+          "costCurrency": "USD"
+        },
+        {
+          "skuId": "12000060349859361",
+          "itemPrice": 12.79,
+          "itemCurrency": "USD",
+          "freightServiceName": "YUNEXPRESS_STANDARD",
+          "freightAmountInCostCurrency": 17.4,
+          "landedCost": 30.19,
+          "costCurrency": "USD"
+        }
+      ]
+    },
+    "suggestedMapping": {
+      "readyForAutomaticConfirmation": true,
+      "suggestions": [
+        {
+          "canonicalVariantId": "cmwhrxxdb005k0jmcolpjilwf",
+          "canonicalVariantName": "Size: S · Color: Beige",
+          "selected": {
+            "canonicalVariantId": "cmwhrxxdb005k0jmcolpjilwf",
+            "supplierVariantId": "supplier-12000060349859357",
+            "supplierSourceSkuId": "12000060349859357",
+            "confidence": 1,
+            "status": "exact",
+            "reasons": [
+              "Atributos fortemente correspondentes"
+            ]
+          },
+          "alternatives": [
+            {
+              "canonicalVariantId": "cmwhrxxdb005k0jmcolpjilwf",
+              "supplierVariantId": "supplier-12000060349859357",
+              "supplierSourceSkuId": "12000060349859357",
+              "confidence": 1,
+              "status": "exact",
+              "reasons": [
+                "Atributos fortemente correspondentes"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005k0jmcolpjilwf",
+              "supplierVariantId": "supplier-12000060349859358",
+              "supplierSourceSkuId": "12000060349859358",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005k0jmcolpjilwf",
+              "supplierVariantId": "supplier-12000060349859359",
+              "supplierSourceSkuId": "12000060349859359",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005k0jmcolpjilwf",
+              "supplierVariantId": "supplier-12000060349859372",
+              "supplierSourceSkuId": "12000060349859372",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005k0jmcolpjilwf",
+              "supplierVariantId": "supplier-12000060349859360",
+              "supplierSourceSkuId": "12000060349859360",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            }
+          ],
+          "requiresReview": false,
+          "blocker": null
+        },
+        {
+          "canonicalVariantId": "cmwhrxxdb005l0jmca1om9vqk",
+          "canonicalVariantName": "Size: M · Color: Beige",
+          "selected": {
+            "canonicalVariantId": "cmwhrxxdb005l0jmca1om9vqk",
+            "supplierVariantId": "supplier-12000060349859358",
+            "supplierSourceSkuId": "12000060349859358",
+            "confidence": 1,
+            "status": "exact",
+            "reasons": [
+              "Atributos fortemente correspondentes"
+            ]
+          },
+          "alternatives": [
+            {
+              "canonicalVariantId": "cmwhrxxdb005l0jmca1om9vqk",
+              "supplierVariantId": "supplier-12000060349859358",
+              "supplierSourceSkuId": "12000060349859358",
+              "confidence": 1,
+              "status": "exact",
+              "reasons": [
+                "Atributos fortemente correspondentes"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005l0jmca1om9vqk",
+              "supplierVariantId": "supplier-12000060349859357",
+              "supplierSourceSkuId": "12000060349859357",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005l0jmca1om9vqk",
+              "supplierVariantId": "supplier-12000060349859359",
+              "supplierSourceSkuId": "12000060349859359",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005l0jmca1om9vqk",
+              "supplierVariantId": "supplier-12000060349859373",
+              "supplierSourceSkuId": "12000060349859373",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005l0jmca1om9vqk",
+              "supplierVariantId": "supplier-12000060349859360",
+              "supplierSourceSkuId": "12000060349859360",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            }
+          ],
+          "requiresReview": false,
+          "blocker": null
+        },
+        {
+          "canonicalVariantId": "cmwhrxxdb005m0jmcx9iwogd0",
+          "canonicalVariantName": "Size: L · Color: Beige",
+          "selected": {
+            "canonicalVariantId": "cmwhrxxdb005m0jmcx9iwogd0",
+            "supplierVariantId": "supplier-12000060349859359",
+            "supplierSourceSkuId": "12000060349859359",
+            "confidence": 1,
+            "status": "exact",
+            "reasons": [
+              "Atributos fortemente correspondentes"
+            ]
+          },
+          "alternatives": [
+            {
+              "canonicalVariantId": "cmwhrxxdb005m0jmcx9iwogd0",
+              "supplierVariantId": "supplier-12000060349859359",
+              "supplierSourceSkuId": "12000060349859359",
+              "confidence": 1,
+              "status": "exact",
+              "reasons": [
+                "Atributos fortemente correspondentes"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005m0jmcx9iwogd0",
+              "supplierVariantId": "supplier-12000060349859357",
+              "supplierSourceSkuId": "12000060349859357",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005m0jmcx9iwogd0",
+              "supplierVariantId": "supplier-12000060349859358",
+              "supplierSourceSkuId": "12000060349859358",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005m0jmcx9iwogd0",
+              "supplierVariantId": "supplier-12000060349859374",
+              "supplierSourceSkuId": "12000060349859374",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005m0jmcx9iwogd0",
+              "supplierVariantId": "supplier-12000060349859360",
+              "supplierSourceSkuId": "12000060349859360",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            }
+          ],
+          "requiresReview": false,
+          "blocker": null
+        },
+        {
+          "canonicalVariantId": "cmwhrxxdb005n0jmcaadpmcr2",
+          "canonicalVariantName": "Size: XXL · Color: Coffee",
+          "selected": {
+            "canonicalVariantId": "cmwhrxxdb005n0jmcaadpmcr2",
+            "supplierVariantId": "supplier-12000060349859376",
+            "supplierSourceSkuId": "12000060349859376",
+            "confidence": 1,
+            "status": "exact",
+            "reasons": [
+              "Atributos fortemente correspondentes"
+            ]
+          },
+          "alternatives": [
+            {
+              "canonicalVariantId": "cmwhrxxdb005n0jmcaadpmcr2",
+              "supplierVariantId": "supplier-12000060349859376",
+              "supplierSourceSkuId": "12000060349859376",
+              "confidence": 1,
+              "status": "exact",
+              "reasons": [
+                "Atributos fortemente correspondentes"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005n0jmcaadpmcr2",
+              "supplierVariantId": "supplier-12000060349859372",
+              "supplierSourceSkuId": "12000060349859372",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005n0jmcaadpmcr2",
+              "supplierVariantId": "supplier-12000060349859373",
+              "supplierSourceSkuId": "12000060349859373",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005n0jmcaadpmcr2",
+              "supplierVariantId": "supplier-12000060349859374",
+              "supplierSourceSkuId": "12000060349859374",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005n0jmcaadpmcr2",
+              "supplierVariantId": "supplier-12000060349859375",
+              "supplierSourceSkuId": "12000060349859375",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            }
+          ],
+          "requiresReview": false,
+          "blocker": null
+        },
+        {
+          "canonicalVariantId": "cmwhrxxdb005s0jmcsmyv2h29",
+          "canonicalVariantName": "Size: S · Color: Coffee",
+          "selected": {
+            "canonicalVariantId": "cmwhrxxdb005s0jmcsmyv2h29",
+            "supplierVariantId": "supplier-12000060349859372",
+            "supplierSourceSkuId": "12000060349859372",
+            "confidence": 1,
+            "status": "exact",
+            "reasons": [
+              "Atributos fortemente correspondentes"
+            ]
+          },
+          "alternatives": [
+            {
+              "canonicalVariantId": "cmwhrxxdb005s0jmcsmyv2h29",
+              "supplierVariantId": "supplier-12000060349859372",
+              "supplierSourceSkuId": "12000060349859372",
+              "confidence": 1,
+              "status": "exact",
+              "reasons": [
+                "Atributos fortemente correspondentes"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005s0jmcsmyv2h29",
+              "supplierVariantId": "supplier-12000060349859357",
+              "supplierSourceSkuId": "12000060349859357",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005s0jmcsmyv2h29",
+              "supplierVariantId": "supplier-12000060349859376",
+              "supplierSourceSkuId": "12000060349859376",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005s0jmcsmyv2h29",
+              "supplierVariantId": "supplier-12000060349859373",
+              "supplierSourceSkuId": "12000060349859373",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005s0jmcsmyv2h29",
+              "supplierVariantId": "supplier-12000060349859374",
+              "supplierSourceSkuId": "12000060349859374",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            }
+          ],
+          "requiresReview": false,
+          "blocker": null
+        },
+        {
+          "canonicalVariantId": "cmwhrxxdb005t0jmctn04qc0g",
+          "canonicalVariantName": "Size: M · Color: Coffee",
+          "selected": {
+            "canonicalVariantId": "cmwhrxxdb005t0jmctn04qc0g",
+            "supplierVariantId": "supplier-12000060349859373",
+            "supplierSourceSkuId": "12000060349859373",
+            "confidence": 1,
+            "status": "exact",
+            "reasons": [
+              "Atributos fortemente correspondentes"
+            ]
+          },
+          "alternatives": [
+            {
+              "canonicalVariantId": "cmwhrxxdb005t0jmctn04qc0g",
+              "supplierVariantId": "supplier-12000060349859373",
+              "supplierSourceSkuId": "12000060349859373",
+              "confidence": 1,
+              "status": "exact",
+              "reasons": [
+                "Atributos fortemente correspondentes"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005t0jmctn04qc0g",
+              "supplierVariantId": "supplier-12000060349859358",
+              "supplierSourceSkuId": "12000060349859358",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005t0jmctn04qc0g",
+              "supplierVariantId": "supplier-12000060349859376",
+              "supplierSourceSkuId": "12000060349859376",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005t0jmctn04qc0g",
+              "supplierVariantId": "supplier-12000060349859372",
+              "supplierSourceSkuId": "12000060349859372",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005t0jmctn04qc0g",
+              "supplierVariantId": "supplier-12000060349859374",
+              "supplierSourceSkuId": "12000060349859374",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            }
+          ],
+          "requiresReview": false,
+          "blocker": null
+        },
+        {
+          "canonicalVariantId": "cmwhrxxdb005u0jmcew9t6kbo",
+          "canonicalVariantName": "Size: L · Color: Coffee",
+          "selected": {
+            "canonicalVariantId": "cmwhrxxdb005u0jmcew9t6kbo",
+            "supplierVariantId": "supplier-12000060349859374",
+            "supplierSourceSkuId": "12000060349859374",
+            "confidence": 1,
+            "status": "exact",
+            "reasons": [
+              "Atributos fortemente correspondentes"
+            ]
+          },
+          "alternatives": [
+            {
+              "canonicalVariantId": "cmwhrxxdb005u0jmcew9t6kbo",
+              "supplierVariantId": "supplier-12000060349859374",
+              "supplierSourceSkuId": "12000060349859374",
+              "confidence": 1,
+              "status": "exact",
+              "reasons": [
+                "Atributos fortemente correspondentes"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005u0jmcew9t6kbo",
+              "supplierVariantId": "supplier-12000060349859359",
+              "supplierSourceSkuId": "12000060349859359",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005u0jmcew9t6kbo",
+              "supplierVariantId": "supplier-12000060349859376",
+              "supplierSourceSkuId": "12000060349859376",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005u0jmcew9t6kbo",
+              "supplierVariantId": "supplier-12000060349859372",
+              "supplierSourceSkuId": "12000060349859372",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005u0jmcew9t6kbo",
+              "supplierVariantId": "supplier-12000060349859373",
+              "supplierSourceSkuId": "12000060349859373",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            }
+          ],
+          "requiresReview": false,
+          "blocker": null
+        },
+        {
+          "canonicalVariantId": "cmwhrxxdb005v0jmcv0y76my4",
+          "canonicalVariantName": "Size: XL · Color: Coffee",
+          "selected": {
+            "canonicalVariantId": "cmwhrxxdb005v0jmcv0y76my4",
+            "supplierVariantId": "supplier-12000060349859375",
+            "supplierSourceSkuId": "12000060349859375",
+            "confidence": 1,
+            "status": "exact",
+            "reasons": [
+              "Atributos fortemente correspondentes"
+            ]
+          },
+          "alternatives": [
+            {
+              "canonicalVariantId": "cmwhrxxdb005v0jmcv0y76my4",
+              "supplierVariantId": "supplier-12000060349859375",
+              "supplierSourceSkuId": "12000060349859375",
+              "confidence": 1,
+              "status": "exact",
+              "reasons": [
+                "Atributos fortemente correspondentes"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005v0jmcv0y76my4",
+              "supplierVariantId": "supplier-12000060349859376",
+              "supplierSourceSkuId": "12000060349859376",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005v0jmcv0y76my4",
+              "supplierVariantId": "supplier-12000060349859372",
+              "supplierSourceSkuId": "12000060349859372",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005v0jmcv0y76my4",
+              "supplierVariantId": "supplier-12000060349859373",
+              "supplierSourceSkuId": "12000060349859373",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005v0jmcv0y76my4",
+              "supplierVariantId": "supplier-12000060349859374",
+              "supplierSourceSkuId": "12000060349859374",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            }
+          ],
+          "requiresReview": false,
+          "blocker": null
+        },
+        {
+          "canonicalVariantId": "cmwhrxxdb005w0jmcq9l6fw9r",
+          "canonicalVariantName": "Size: XL · Color: Beige",
+          "selected": {
+            "canonicalVariantId": "cmwhrxxdb005w0jmcq9l6fw9r",
+            "supplierVariantId": "supplier-12000060349859360",
+            "supplierSourceSkuId": "12000060349859360",
+            "confidence": 1,
+            "status": "exact",
+            "reasons": [
+              "Atributos fortemente correspondentes"
+            ]
+          },
+          "alternatives": [
+            {
+              "canonicalVariantId": "cmwhrxxdb005w0jmcq9l6fw9r",
+              "supplierVariantId": "supplier-12000060349859360",
+              "supplierSourceSkuId": "12000060349859360",
+              "confidence": 1,
+              "status": "exact",
+              "reasons": [
+                "Atributos fortemente correspondentes"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005w0jmcq9l6fw9r",
+              "supplierVariantId": "supplier-12000060349859357",
+              "supplierSourceSkuId": "12000060349859357",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005w0jmcq9l6fw9r",
+              "supplierVariantId": "supplier-12000060349859358",
+              "supplierSourceSkuId": "12000060349859358",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005w0jmcq9l6fw9r",
+              "supplierVariantId": "supplier-12000060349859359",
+              "supplierSourceSkuId": "12000060349859359",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005w0jmcq9l6fw9r",
+              "supplierVariantId": "supplier-12000060349859375",
+              "supplierSourceSkuId": "12000060349859375",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            }
+          ],
+          "requiresReview": false,
+          "blocker": null
+        },
+        {
+          "canonicalVariantId": "cmwhrxxdb005x0jmccjsslgsq",
+          "canonicalVariantName": "Size: XXL · Color: Beige",
+          "selected": {
+            "canonicalVariantId": "cmwhrxxdb005x0jmccjsslgsq",
+            "supplierVariantId": "supplier-12000060349859361",
+            "supplierSourceSkuId": "12000060349859361",
+            "confidence": 1,
+            "status": "exact",
+            "reasons": [
+              "Atributos fortemente correspondentes"
+            ]
+          },
+          "alternatives": [
+            {
+              "canonicalVariantId": "cmwhrxxdb005x0jmccjsslgsq",
+              "supplierVariantId": "supplier-12000060349859361",
+              "supplierSourceSkuId": "12000060349859361",
+              "confidence": 1,
+              "status": "exact",
+              "reasons": [
+                "Atributos fortemente correspondentes"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005x0jmccjsslgsq",
+              "supplierVariantId": "supplier-12000060349859357",
+              "supplierSourceSkuId": "12000060349859357",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005x0jmccjsslgsq",
+              "supplierVariantId": "supplier-12000060349859358",
+              "supplierSourceSkuId": "12000060349859358",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005x0jmccjsslgsq",
+              "supplierVariantId": "supplier-12000060349859359",
+              "supplierSourceSkuId": "12000060349859359",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            },
+            {
+              "canonicalVariantId": "cmwhrxxdb005x0jmccjsslgsq",
+              "supplierVariantId": "supplier-12000060349859376",
+              "supplierSourceSkuId": "12000060349859376",
+              "confidence": 0.6,
+              "status": "unsafe",
+              "reasons": [
+                "Similaridade textual parcial"
+              ]
+            }
+          ],
+          "requiresReview": false,
+          "blocker": null
+        }
+      ],
+      "unmatchedCanonicalVariantIds": [],
+      "ambiguousCanonicalVariantIds": []
+    }
+  }
+}

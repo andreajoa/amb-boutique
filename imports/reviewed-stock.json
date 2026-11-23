@@ -799,5 +799,23 @@
    "XL": 2,
    "XXL": 1
   }
+ },
+ "orlena-lace-balloon-sleeve-mini-dress-beige": {
+  "stockBySize": {
+   "S": 798,
+   "M": 800,
+   "L": 798,
+   "XL": 799,
+   "XXL": 796
+  }
+ },
+ "orlena-lace-balloon-sleeve-mini-dress-coffee": {
+  "stockBySize": {
+   "XXL": 797,
+   "S": 799,
+   "M": 796,
+   "L": 797,
+   "XL": 797
+  }
  }
 }

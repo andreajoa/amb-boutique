@@ -1,0 +1,64 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "orlena-lace-balloon-sleeve-mini-dress-beige",
+      "sourceProductId": "3256812955486529",
+      "supplierId": "cmwhrxxyb00640jmct2m9sfx7",
+      "sourceColor": "Beige",
+      "sourceSkuIdsBySize": {
+        "S": "12000060349859357",
+        "M": "12000060349859358",
+        "L": "12000060349859359",
+        "XL": "12000060349859360",
+        "XXL": "12000060349859361"
+      },
+      "stockBySize": {
+        "S": 798,
+        "M": 800,
+        "L": 798,
+        "XL": 799,
+        "XXL": 796
+      },
+      "landedCostUsdBySize": {
+        "S": 30.19,
+        "M": 30.19,
+        "L": 30.19,
+        "XL": 30.19,
+        "XXL": 30.19
+      },
+      "retailPriceUsd": 90.9,
+      "verifiedAtUtc": "2026-11-23T15:16:34.807Z"
+    },
+    {
+      "slug": "orlena-lace-balloon-sleeve-mini-dress-coffee",
+      "sourceProductId": "3256812955486529",
+      "supplierId": "cmwhrxxyb00640jmct2m9sfx7",
+      "sourceColor": "Coffee",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000060349859376",
+        "S": "12000060349859372",
+        "M": "12000060349859373",
+        "L": "12000060349859374",
+        "XL": "12000060349859375"
+      },
+      "stockBySize": {
+        "XXL": 797,
+        "S": 799,
+        "M": 796,
+        "L": 797,
+        "XL": 797
+      },
+      "landedCostUsdBySize": {
+        "XXL": 30.19,
+        "S": 30.19,
+        "M": 30.19,
+        "L": 30.19,
+        "XL": 30.19
+      },
+      "retailPriceUsd": 90.9,
+      "verifiedAtUtc": "2026-11-23T15:16:34.807Z"
+    }
+  ]
+}

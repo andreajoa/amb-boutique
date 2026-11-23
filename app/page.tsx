@@ -7,7 +7,7 @@ import { HeroCarousel } from "./hero-carousel";
 import { PersonalizedProducts } from "./personalized-products";
 import { EditorialStackMotion } from "./editorial-stack-motion";
 import { EditorialHorizontal, type EditorialLook } from "./editorial-horizontal";
-import { storefrontReadyProducts } from "./storefront-products";
+import { storefrontNewArrivals, storefrontReadyProducts } from "./storefront-products";
 
 const collections = [
   { title: "Dresses", subtitle: "Made for every plan", image: "category-one q1", href: "/collections/dresses" },
@@ -35,6 +35,11 @@ export default function Home() {
       <Header />
       <HeroCarousel />
 
+      <section className="section shell" aria-labelledby="home-new-in">
+        <div className="section-heading"><h2 id="home-new-in">New In</h2><Link href="/collections/new-in">View all new arrivals</Link></div>
+        <div className="product-row">{storefrontNewArrivals.slice(0, 4).map((p) => <ProductCard key={p.slug} product={p} compact />)}</div>
+      </section>
+
       <section className="statement-strip" data-reveal><p className="rotating-copy" aria-label="New season, new perspective, confidence and expression"><span>New season, new</span><span className="rotating-window" aria-hidden="true"><span className="rotating-track"><span>perspective.</span><span>confidence.</span><span>expression.</span><span>perspective.</span></span></span></p><span>Curated in San Diego · Designed for wherever life takes you.</span><Link href="/collections">Discover the Edit</Link></section>
 
       <section className="section shell" data-reveal>
@@ -51,11 +56,6 @@ export default function Home() {
       </section>
 
       <EditorialHorizontal looks={editorialLooks} />
-
-      <section className="section shell" data-reveal>
-        <div className="section-heading centered"><div><p>FRESHLY CURATED</p><h2>Just Arrived</h2></div></div>
-        <div className="product-row">{storefrontReadyProducts.slice(0, 4).map((p) => <ProductCard key={p.slug} product={p} compact />)}</div>
-      </section>
 
       {finishingTouches.length > 0 && <section className="section shell" data-reveal>
         <div className="section-heading"><div><p>THE FINISHING TOUCH</p><h2>Bags & Heels</h2></div><div><Link href="/collections/bags">Shop Bags</Link>&nbsp;&nbsp;·&nbsp;&nbsp;<Link href="/collections/heels">Shop Heels</Link></div></div>
