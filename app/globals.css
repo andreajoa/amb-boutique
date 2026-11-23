@@ -1401,6 +1401,30 @@ button { cursor: pointer; }
   font-weight: 600;
 }
 
+.pdp-fast-badge {
+  display: inline-block;
+  margin-bottom: 6px;
+  padding: 3px 9px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #2d5a3d;
+  background: #edf3ee;
+  border: 1px solid #c9dccd;
+}
+
+.fit-fast-chip {
+  margin: 0 0 10px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.fit-fast-chip.is-fast {
+  color: #2d5a3d;
+  font-weight: 600;
+}
+
 .pdp-date-toggle {
   border: 0;
   background: transparent;

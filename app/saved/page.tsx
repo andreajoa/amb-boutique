@@ -13,7 +13,7 @@ import { useStore } from "../store-provider";
 
 export default function SavedPage() {
   const { saved, toggle } = useSavedItems();
-  const { catalog: products, market, formatMoney, addItem } = useStore();
+  const { catalog: products, market, formatMoney, addItem, getProductDeliveryWindow } = useStore();
   const { profile } = useFitProfile();
 
   const items = useMemo(
@@ -101,7 +101,11 @@ export default function SavedPage() {
                 const img = getDirectProductImage(product, 0);
                 const rec = recommendSizeForProduct(product, activeProfile);
                 const prep = getPreparationNotice(product);
-                const delivery = estimateDeliveryWindow(market, { nowMs, preparationNotice: prep });
+                const delivery = estimateDeliveryWindow(market, {
+                  nowMs,
+                  preparationNotice: prep,
+                  supplierWindow: getProductDeliveryWindow(product.slug),
+                });
                 const displaySize = rec.recommendedSize;
                 const price = productPrice(product, displaySize);
 
@@ -134,7 +138,7 @@ export default function SavedPage() {
                       </div>
                       <div>
                         <dt>Est. Arrival</dt>
-                        <dd>{delivery.shortRangeLabel}</dd>
+                        <dd>{delivery.isFast ? `Faster Delivery · ${delivery.shortRangeLabel}` : delivery.shortRangeLabel}</dd>
                       </div>
                     </dl>
                     <div className="compare-actions">

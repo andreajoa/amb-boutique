@@ -46,7 +46,7 @@ const COLOR_OPTIONS: ReadonlyArray<{ key: ColorPreference; label: string; swatch
 ];
 
 export function FitFinderClient() {
-  const { catalog, market, formatMoney, addItem, trackEvent } = useStore();
+  const { catalog, market, formatMoney, addItem, trackEvent, getProductDeliveryWindow } = useStore();
   const { profile: savedProfile, saveProfile } = useFitProfile();
 
   const [heightCm, setHeightCm] = useState<number>(() => savedProfile?.heightCm ?? DEFAULT_FIT_PROFILE.heightCm);
@@ -275,6 +275,7 @@ export function FitFinderClient() {
                 nowMs,
                 preparationNotice: prepNotice,
                 eventDateIso: eventDate || undefined,
+                supplierWindow: getProductDeliveryWindow(product.slug),
               });
 
               return (
@@ -312,11 +313,15 @@ export function FitFinderClient() {
                       ))}
                     </ul>
 
-                    {eventDate && pieceDelivery.eventLabel && (
+                    {eventDate && pieceDelivery.eventLabel ? (
                       <p className={`fit-piece-arrival is-${pieceDelivery.eventStatus || "on-time"}`}>
                         {pieceDelivery.eventLabel}
                       </p>
-                    )}
+                    ) : pieceDelivery.isSupplierLinked ? (
+                      <p className={`fit-fast-chip${pieceDelivery.isFast ? " is-fast" : ""}`}>
+                        {pieceDelivery.isFast ? "Faster Delivery · " : ""}Est. arrival {pieceDelivery.shortRangeLabel}
+                      </p>
+                    ) : null}
 
                     <div className="fit-match-actions">
                       <button

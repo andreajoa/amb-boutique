@@ -1,5 +1,6 @@
-import { deliveryWindows, markets, type MarketCode } from "./commerce";
+import { markets, type MarketCode } from "./commerce";
 import type { Product } from "./data";
+import { resolveCustomerDeliveryWindow, type SupplierDeliveryWindow } from "./product-delivery-shared";
 import { stockForSize } from "./product-inventory";
 
 export type FitMode = "quick" | "measurements";
@@ -112,6 +113,12 @@ export type DeliveryDateEstimate = {
   country: string;
   minBusinessDays: number;
   maxBusinessDays: number;
+  prepMinDays: number;
+  prepMaxDays: number;
+  unit: "calendar" | "business";
+  windowLabel: string;
+  isSupplierLinked: boolean;
+  isFast: boolean;
   minDateIso: string;
   maxDateIso: string;
   rangeLabel: string;
@@ -605,6 +612,13 @@ function addBusinessDaysUtc(startMs: number, businessDays: number): Date {
   return cursor;
 }
 
+function addCalendarDaysUtc(startMs: number, calendarDays: number): Date {
+  const cursor = new Date(startMs);
+  cursor.setUTCHours(12, 0, 0, 0);
+  cursor.setUTCDate(cursor.getUTCDate() + Math.max(0, Math.round(calendarDays)));
+  return cursor;
+}
+
 function formatCalendarDate(date: Date, includeMonth = true): string {
   return date.toLocaleDateString("en-US", {
     ...(includeMonth ? { month: "short" } : {}),
@@ -615,20 +629,37 @@ function formatCalendarDate(date: Date, includeMonth = true): string {
 
 export function estimateDeliveryWindow(
   market: MarketCode,
-  options?: { nowMs?: number; preparationNotice?: string; eventDateIso?: string },
+  options?: {
+    nowMs?: number;
+    preparationNotice?: string;
+    eventDateIso?: string;
+    supplierWindow?: SupplierDeliveryWindow | null;
+  },
 ): DeliveryDateEstimate {
   const nowMs = options?.nowMs ?? Date.now();
-  const win = deliveryWindows[market] || deliveryWindows.US;
+  const resolved = resolveCustomerDeliveryWindow(market, options?.supplierWindow);
   const country = markets[market]?.country || "United States";
 
-  // Standard dispatch prep is 1-3 business days; extended preparation adds conservative buffer
+  // Standard order preparation includes the 5-day processing buffer; extended prep overrides if longer
   const prepText = options?.preparationNotice || "";
   const extraPrepMatch = prepText.match(/(\d+)\s*(?:to|–|-)\s*(\d+)\s*business days/i);
-  const prepMin = extraPrepMatch ? Number(extraPrepMatch[1]) : prepText ? 5 : 1;
-  const prepMax = extraPrepMatch ? Number(extraPrepMatch[2]) : prepText ? 8 : 3;
+  const prepMin = extraPrepMatch ? Math.max(resolved.prepMin, Number(extraPrepMatch[1])) : prepText ? Math.max(resolved.prepMin, 5) : resolved.prepMin;
+  const prepMax = extraPrepMatch ? Math.max(resolved.prepMax, Number(extraPrepMatch[2])) : prepText ? Math.max(resolved.prepMax, 8) : resolved.prepMax;
 
-  const minDate = addBusinessDaysUtc(nowMs, prepMin + win.min);
-  const maxDate = addBusinessDaysUtc(nowMs, prepMax + win.max);
+  let minDate: Date;
+  let maxDate: Date;
+  if (resolved.unit === "calendar") {
+    const minAfterPrep = prepText ? addBusinessDaysUtc(nowMs, prepMin) : addCalendarDaysUtc(nowMs, prepMin);
+    const maxAfterPrep = prepText ? addBusinessDaysUtc(nowMs, prepMax) : addCalendarDaysUtc(nowMs, prepMax);
+    minDate = addCalendarDaysUtc(minAfterPrep.getTime(), resolved.transitMin);
+    maxDate = addCalendarDaysUtc(maxAfterPrep.getTime(), resolved.transitMax);
+  } else {
+    const minAfterPrep = prepText ? addBusinessDaysUtc(nowMs, prepMin) : addCalendarDaysUtc(nowMs, prepMin);
+    const maxAfterPrep = prepText ? addBusinessDaysUtc(nowMs, prepMax) : addCalendarDaysUtc(nowMs, prepMax);
+    minDate = addBusinessDaysUtc(minAfterPrep.getTime(), resolved.transitMin);
+    maxDate = addBusinessDaysUtc(maxAfterPrep.getTime(), resolved.transitMax);
+  }
+
   const sameMonth = minDate.getUTCMonth() === maxDate.getUTCMonth();
 
   const rangeLabel = `${formatCalendarDate(minDate, true)} – ${formatCalendarDate(maxDate, !sameMonth)}`;
@@ -639,8 +670,14 @@ export function estimateDeliveryWindow(
   const result: DeliveryDateEstimate = {
     market,
     country,
-    minBusinessDays: win.min,
-    maxBusinessDays: win.max,
+    minBusinessDays: resolved.transitMin,
+    maxBusinessDays: resolved.transitMax,
+    prepMinDays: prepMin,
+    prepMaxDays: prepMax,
+    unit: resolved.unit,
+    windowLabel: resolved.windowLabel,
+    isSupplierLinked: resolved.isSupplierLinked,
+    isFast: resolved.isFast && !prepText,
     minDateIso: minDate.toISOString().slice(0, 10),
     maxDateIso: maxDate.toISOString().slice(0, 10),
     rangeLabel,
@@ -667,7 +704,9 @@ export function estimateDeliveryWindow(
         result.eventLabel = `Tight for ${eventLabelShort} — estimated ${rangeLabel} (carrier timing varies)`;
       } else {
         result.eventStatus = "too-soon";
-        result.eventLabel = `Likely arrives after ${eventLabelShort} — allow ${win.min}–${win.max} business days after dispatch`;
+        result.eventLabel = resolved.isSupplierLinked
+          ? `Likely arrives after ${eventLabelShort} — allow ${resolved.windowLabel} total delivery`
+          : `Likely arrives after ${eventLabelShort} — allow ${resolved.windowLabel} after dispatch`;
       }
     }
   }

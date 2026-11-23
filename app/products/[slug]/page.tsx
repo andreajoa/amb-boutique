@@ -3,11 +3,15 @@ import { products } from "../../data";
 import { productPrice } from "../../product-pricing";
 import { stockForSize } from "../../product-inventory";
 import { getPreparationNotice } from "../../product-fulfillment";
+import { getProductDeliveryWindows } from "../../product-delivery";
+import { resolveCustomerDeliveryWindow } from "../../product-delivery-shared";
 import { resolveShoeProductSlug } from "../../shoe-products";
 import { getShippingQuotes } from "../../commerce";
 import { getMerchantAdditionalImages, getMerchantImage } from "../../merchant";
 import ProductDetail from "./product-detail";
 import type { Metadata } from "next";
+
+export const revalidate = 1800;
 
 const siteUrl = "https://ambboutique.online";
 const servedMarkets = ["US", "CA", "GB", "AU", "NZ"];
@@ -73,6 +77,8 @@ export default async function ProductPage({ params, searchParams }: ProductPageP
     : [`${siteUrl}/images/product-gallery.webp`];
   const usShipping = getShippingQuotes("US", selectedPrice, product.weightOz || 12)[0];
   const preparationNotice = getPreparationNotice(product);
+  const initialDeliveryWindows = await getProductDeliveryWindows(product.slug);
+  const usResolvedDelivery = resolveCustomerDeliveryWindow("US", initialDeliveryWindows?.US);
 
   const productJsonLd = {
     "@context": "https://schema.org",
@@ -104,8 +110,8 @@ export default async function ProductPage({ params, searchParams }: ProductPageP
         shippingRate: { "@type": "MonetaryAmount", value: usShipping.amountUsd.toFixed(2), currency: "USD" },
         ...(!preparationNotice ? { deliveryTime: {
           "@type": "ShippingDeliveryTime",
-          handlingTime: { "@type": "QuantitativeValue", minValue: 1, maxValue: 3, unitCode: "DAY" },
-          transitTime: { "@type": "QuantitativeValue", minValue: usShipping.minBusinessDays, maxValue: usShipping.maxBusinessDays, unitCode: "DAY" },
+          handlingTime: { "@type": "QuantitativeValue", minValue: usResolvedDelivery.prepMin, maxValue: usResolvedDelivery.prepMax, unitCode: "DAY" },
+          transitTime: { "@type": "QuantitativeValue", minValue: usResolvedDelivery.transitMin, maxValue: usResolvedDelivery.transitMax, unitCode: "DAY" },
         } } : {}),
       },
     },
@@ -124,7 +130,12 @@ export default async function ProductPage({ params, searchParams }: ProductPageP
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}/>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}/>
-    <ProductDetail product={product} initialSize={query.size} initialHeelHeightCm={initialHeelHeightCm} />
+    <ProductDetail
+      product={product}
+      initialSize={query.size}
+      initialHeelHeightCm={initialHeelHeightCm}
+      initialDeliveryWindows={initialDeliveryWindows}
+    />
   </>;
 }
 

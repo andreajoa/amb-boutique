@@ -6,6 +6,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import type { Product } from "./data";
 import { productForSize, productPrice } from "./product-pricing";
 import { getPreparationNotice } from "./product-fulfillment";
+import { sanitizeDeliveryWindowsMap, type DeliveryWindowsMap, type SupplierDeliveryWindow } from "./product-delivery-shared";
 import { FIRST_ORDER_CODE, formatMarketPrice, getDiscountState, MarketCode, markets, US_FREE_SHIPPING_THRESHOLD_USD } from "./commerce";
 import { CartRewards } from "./cart-rewards";
 import { rankRecommendations } from "./recommendations";
@@ -77,6 +78,7 @@ type StoreContextValue = {
   buyNow: (product: Product, options: AddOptions, context?: { parentSessionId?: string }) => Promise<void>;
   checkoutError: string;
   getProductPreparationNotice: (slug: string) => string | undefined;
+  getProductDeliveryWindow: (slug: string, marketOverride?: MarketCode) => SupplierDeliveryWindow | undefined;
 };
 
 const StoreContext = createContext<StoreContextValue | null>(null);
@@ -113,6 +115,7 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
   const [checkoutError, setCheckoutError] = useState("");
   const [hydrated, setHydrated] = useState(false);
   const [serverQuote, setServerQuote] = useState<ServerCartQuote | null>(null);
+  const [deliveryWindowsBySlug, setDeliveryWindowsBySlug] = useState<DeliveryWindowsMap>({});
   const [renderNow] = useState(() => Date.now());
 
   useEffect(() => {
@@ -193,6 +196,22 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
   const welcomePercent = promoCode.toUpperCase() === FIRST_ORDER_CODE ? 10 : 0;
   const catalogBySlug = useMemo(() => new Map(catalog.map((product) => [product.slug, product])), [catalog]);
   const getProductPreparationNotice = useCallback((slug: string) => getPreparationNotice(catalogBySlug.get(slug)), [catalogBySlug]);
+  const getProductDeliveryWindow = useCallback(
+    (slug: string, marketOverride?: MarketCode) => deliveryWindowsBySlug[slug]?.[marketOverride || market],
+    [deliveryWindowsBySlug, market],
+  );
+
+  useEffect(() => {
+    const controller = new AbortController();
+    void fetch("/api/delivery-windows", { signal: controller.signal })
+      .then((response) => (response.ok ? response.json() : null))
+      .then((data: { ok?: boolean; windows?: unknown } | null) => {
+        if (!data?.ok || !data.windows) return;
+        setDeliveryWindowsBySlug(sanitizeDeliveryWindowsMap(data.windows));
+      })
+      .catch(() => undefined);
+    return () => controller.abort();
+  }, []);
   const quoteKey = useMemo(
     () => JSON.stringify({
       market,
@@ -385,7 +404,7 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
     window.localStorage.removeItem(promoStorageKey);
   }, []);
   const closeCart = useCallback(() => setCartOpen(false), []);
-  const value = { catalog, cart, cartCount, cartTotal, estimatedTotal, cartOpen: drawerOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, lineOffers, hasIneligibleOfferItems, addItem, addItems, updateQuantity, removeItem, clearCart, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart, checkout, buyNow, checkoutError, getProductPreparationNotice };
+  const value = { catalog, cart, cartCount, cartTotal, estimatedTotal, cartOpen: drawerOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, lineOffers, hasIneligibleOfferItems, addItem, addItems, updateQuantity, removeItem, clearCart, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart, checkout, buyNow, checkoutError, getProductPreparationNotice, getProductDeliveryWindow };
   return <StoreContext.Provider value={value}>{children}<CartDrawer catalog={catalog} /></StoreContext.Provider>;
 }
 
