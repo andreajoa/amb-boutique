@@ -1,14 +1,12 @@
-import release from "../../imports/products-20261004-release.json";
 import type { Product } from "../data";
+import { arrivalRank, isNewArrival } from "../storefront-products";
 import type { CollectionProduct } from "./collections-client";
-
-// Publication order, independent of later image or catalogue repairs.
-const arrivalRanks = new Map(release.approvedSlugs.map((slug, index) => [slug, index + 1]));
 
 export function toCollectionProducts(selectedProducts: Product[]): CollectionProduct[] {
   return selectedProducts.map((product) => ({
     slug: product.slug,
-    arrivalRank: arrivalRanks.get(product.slug),
+    arrivalRank: arrivalRank(product.slug),
+    newArrival: isNewArrival(product),
     name: product.name,
     category: product.category,
     subcategory: product.subcategory,

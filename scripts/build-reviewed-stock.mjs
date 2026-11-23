@@ -8,6 +8,7 @@ const root = new URL("..", import.meta.url);
 const read = (path) => JSON.parse(fs.readFileSync(new URL(path, root), "utf8"));
 const corrections = read("imports/catalog-corrections-20261024.json");
 const additions = read("imports/catalog-20261026-new-products-bindings.json");
+const orlena = read("imports/catalog-20261117-orlena-bindings.json");
 
 // Same precedence as before: corrections first, then additions replace by slug.
 const reviewed = {};
@@ -17,7 +18,7 @@ for (const [slug, entry] of Object.entries(corrections.products)) {
     ...(entry.purchasable !== undefined ? { purchasable: entry.purchasable } : {}),
   };
 }
-for (const product of additions.products) reviewed[product.slug] = { stockBySize: product.stockBySize };
+for (const product of [...additions.products, ...orlena.products]) reviewed[product.slug] = { stockBySize: product.stockBySize };
 
 const output = `${JSON.stringify(reviewed, null, 1)}\n`;
 const target = new URL("imports/reviewed-stock.json", root);

@@ -18775,6 +18775,80 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256803997860484",
   "sourceColor": "army green"
+},
+{
+  "slug": "orlena-lace-balloon-sleeve-mini-dress-beige",
+  "name": "Orlena Lace Balloon Sleeve Mini Dress \u2014 Beige",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 90.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#dcc8a8"
+  ],
+  "colorNames": [
+    "Beige"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A loose floral lace mini dress with a high round neck, balloon sleeves and a curved satin-look hem band. A small back keyhole closes at the neckline. Sheer lace; separate underlayers may be needed and are not included.",
+  "materials": "Floral lace mesh with smooth trim.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/orlena-lace-balloon-sleeve-mini-dress-beige/front.webp",
+    "/products/orlena-lace-balloon-sleeve-mini-dress-beige/back.webp",
+    "/products/orlena-lace-balloon-sleeve-mini-dress-beige/left.webp",
+    "/products/orlena-lace-balloon-sleeve-mini-dress-beige/right.webp"
+  ],
+  "stock": 3991,
+  "unitCostUsd": 30.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812955486529",
+  "sourceColor": "Beige"
+},
+{
+  "slug": "orlena-lace-balloon-sleeve-mini-dress-coffee",
+  "name": "Orlena Lace Balloon Sleeve Mini Dress \u2014 Coffee",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 90.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#824d35"
+  ],
+  "colorNames": [
+    "Coffee"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A loose floral lace mini dress with a high round neck, balloon sleeves and a curved satin-look hem band. A small back keyhole closes at the neckline. Sheer lace; separate underlayers may be needed and are not included.",
+  "materials": "Floral lace mesh with smooth trim.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/orlena-lace-balloon-sleeve-mini-dress-coffee/front.webp",
+    "/products/orlena-lace-balloon-sleeve-mini-dress-coffee/back.webp",
+    "/products/orlena-lace-balloon-sleeve-mini-dress-coffee/left.webp",
+    "/products/orlena-lace-balloon-sleeve-mini-dress-coffee/right.webp"
+  ],
+  "stock": 3986,
+  "unitCostUsd": 30.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812955486529",
+  "sourceColor": "Coffee"
 }
 ];
 
@@ -18782,7 +18856,11 @@ const allGeneratedProducts: Product[] = [
 // 2026-08-23 import. Keep every one of them available. Products from the new
 // import are exposed only after their four-view gallery passes visual QA.
 const ESTABLISHED_CATALOGUE_COUNT = 81;
+// Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "orlena-lace-balloon-sleeve-mini-dress-beige",
+  "orlena-lace-balloon-sleeve-mini-dress-coffee",
+
   "nerelle-sleeveless-swing-mini-dress-chestnut-brown",
   "nerelle-sleeveless-swing-mini-dress-gray",
   "nerelle-sleeveless-swing-mini-dress-yellow",

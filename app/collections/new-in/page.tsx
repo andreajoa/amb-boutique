@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { products } from "../../data";
+import { isNewArrival } from "../../storefront-products";
 import { CollectionsClient } from "../collections-client";
 import { toCollectionProducts } from "../collection-products";
 
@@ -10,8 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default function NewInPage() {
-  const arrivals = toCollectionProducts(products.filter((product) => /^(new|just in)$/i.test(product.badge || "")))
-    .sort((a, b) => (b.arrivalRank ?? 0) - (a.arrivalRank ?? 0));
+  const arrivals = toCollectionProducts(products.filter(isNewArrival));
 
   return <CollectionsClient products={arrivals} initialNewOnly initialSort="newest" title="New In"/>;
 }
