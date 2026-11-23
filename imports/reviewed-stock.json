@@ -1610,5 +1610,105 @@
    "M": 5,
    "S": 5
   }
+ },
+ "civenne-ribbed-turtleneck-mini-dress-teal": {
+  "stockBySize": {
+   "XXXL": 999,
+   "S": 999,
+   "XL": 999,
+   "XXL": 999,
+   "M": 999,
+   "L": 998
+  }
+ },
+ "civenne-ribbed-turtleneck-mini-dress-burgundy": {
+  "stockBySize": {
+   "XXXL": 999,
+   "XL": 998,
+   "XXL": 999,
+   "M": 998,
+   "L": 999,
+   "S": 998
+  }
+ },
+ "civenne-ribbed-turtleneck-mini-dress-taupe": {
+  "stockBySize": {
+   "S": 999,
+   "XL": 999,
+   "XXL": 999,
+   "M": 998,
+   "L": 999,
+   "XXXL": 999
+  }
+ },
+ "civenne-ribbed-turtleneck-mini-dress-olive": {
+  "stockBySize": {
+   "XL": 999,
+   "XXL": 999,
+   "M": 999,
+   "L": 998,
+   "XXXL": 998,
+   "S": 999
+  }
+ },
+ "civenne-ribbed-turtleneck-mini-dress-camel": {
+  "stockBySize": {
+   "XXXL": 999,
+   "XL": 999,
+   "XXL": 999,
+   "M": 998,
+   "L": 999,
+   "S": 998
+  }
+ },
+ "civenne-ribbed-turtleneck-mini-dress-dusty-pink": {
+  "stockBySize": {
+   "M": 999,
+   "L": 998,
+   "S": 998,
+   "XXXL": 999,
+   "XL": 999,
+   "XXL": 999
+  }
+ },
+ "civenne-ribbed-turtleneck-mini-dress-charcoal": {
+  "stockBySize": {
+   "M": 999,
+   "L": 997,
+   "S": 999,
+   "XXXL": 998,
+   "XL": 999,
+   "XXL": 999
+  }
+ },
+ "civenne-ribbed-turtleneck-mini-dress-orange": {
+  "stockBySize": {
+   "XXXL": 999,
+   "S": 999,
+   "XL": 998,
+   "XXL": 999,
+   "M": 998,
+   "L": 997
+  }
+ },
+ "civenne-ribbed-turtleneck-mini-dress-blue": {
+  "stockBySize": {
+   "XXXL": 999,
+   "XL": 999,
+   "XXL": 999,
+   "M": 998,
+   "L": 996,
+   "S": 998
+  }
+ },
+ "civenne-ribbed-turtleneck-mini-dress-black": {
+  "stockBySize": {
+   "XL": 999,
+   "XXL": 998,
+   "M": 997,
+   "L": 999,
+   "XXXL": 999,
+   "S": 997
+  }
  }
 }

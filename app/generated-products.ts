@@ -22443,6 +22443,386 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256813095426606",
   "sourceColor": "black"
+},
+{
+  "slug": "civenne-ribbed-turtleneck-mini-dress-teal",
+  "name": "Civenne Ribbed Turtleneck Mini Dress — Teal",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#416773"
+  ],
+  "colorNames": [
+    "Teal"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed sweater dress with a folded turtleneck and a straight mini hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/civenne-ribbed-turtleneck-mini-dress-teal/front.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-teal/back.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-teal/left.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-teal/right.webp"
+  ],
+  "stock": 5993,
+  "unitCostUsd": 28.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809079176849",
+  "sourceColor": "DEEP BLUE"
+},
+{
+  "slug": "civenne-ribbed-turtleneck-mini-dress-burgundy",
+  "name": "Civenne Ribbed Turtleneck Mini Dress — Burgundy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#6f2735"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed sweater dress with a folded turtleneck and a straight mini hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/civenne-ribbed-turtleneck-mini-dress-burgundy/front.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-burgundy/back.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-burgundy/left.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-burgundy/right.webp"
+  ],
+  "stock": 5991,
+  "unitCostUsd": 28.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809079176849",
+  "sourceColor": "Burgundy"
+},
+{
+  "slug": "civenne-ribbed-turtleneck-mini-dress-taupe",
+  "name": "Civenne Ribbed Turtleneck Mini Dress — Taupe",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#786154"
+  ],
+  "colorNames": [
+    "Taupe"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed sweater dress with a folded turtleneck and a straight mini hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/civenne-ribbed-turtleneck-mini-dress-taupe/front.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-taupe/back.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-taupe/left.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-taupe/right.webp"
+  ],
+  "stock": 5993,
+  "unitCostUsd": 28.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809079176849",
+  "sourceColor": "Brown"
+},
+{
+  "slug": "civenne-ribbed-turtleneck-mini-dress-olive",
+  "name": "Civenne Ribbed Turtleneck Mini Dress — Olive",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#535a3d"
+  ],
+  "colorNames": [
+    "Olive"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed sweater dress with a folded turtleneck and a straight mini hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/civenne-ribbed-turtleneck-mini-dress-olive/front.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-olive/back.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-olive/left.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-olive/right.webp"
+  ],
+  "stock": 5992,
+  "unitCostUsd": 28.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809079176849",
+  "sourceColor": "army green"
+},
+{
+  "slug": "civenne-ribbed-turtleneck-mini-dress-camel",
+  "name": "Civenne Ribbed Turtleneck Mini Dress — Camel",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#a7864f"
+  ],
+  "colorNames": [
+    "Camel"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed sweater dress with a folded turtleneck and a straight mini hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/civenne-ribbed-turtleneck-mini-dress-camel/front.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-camel/back.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-camel/left.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-camel/right.webp"
+  ],
+  "stock": 5992,
+  "unitCostUsd": 28.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809079176849",
+  "sourceColor": "Khaki"
+},
+{
+  "slug": "civenne-ribbed-turtleneck-mini-dress-dusty-pink",
+  "name": "Civenne Ribbed Turtleneck Mini Dress — Dusty Pink",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#b4928f"
+  ],
+  "colorNames": [
+    "Dusty Pink"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed sweater dress with a folded turtleneck and a straight mini hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/civenne-ribbed-turtleneck-mini-dress-dusty-pink/front.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-dusty-pink/back.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-dusty-pink/left.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-dusty-pink/right.webp"
+  ],
+  "stock": 5992,
+  "unitCostUsd": 28.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809079176849",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "civenne-ribbed-turtleneck-mini-dress-charcoal",
+  "name": "Civenne Ribbed Turtleneck Mini Dress — Charcoal",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#4f4b49"
+  ],
+  "colorNames": [
+    "Charcoal"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed sweater dress with a folded turtleneck and a straight mini hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/civenne-ribbed-turtleneck-mini-dress-charcoal/front.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-charcoal/back.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-charcoal/left.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-charcoal/right.webp"
+  ],
+  "stock": 5991,
+  "unitCostUsd": 28.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809079176849",
+  "sourceColor": "GRAY"
+},
+{
+  "slug": "civenne-ribbed-turtleneck-mini-dress-orange",
+  "name": "Civenne Ribbed Turtleneck Mini Dress — Orange",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#bb532a"
+  ],
+  "colorNames": [
+    "Orange"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed sweater dress with a folded turtleneck and a straight mini hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/civenne-ribbed-turtleneck-mini-dress-orange/front.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-orange/back.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-orange/left.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-orange/right.webp"
+  ],
+  "stock": 5990,
+  "unitCostUsd": 28.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809079176849",
+  "sourceColor": "Orange"
+},
+{
+  "slug": "civenne-ribbed-turtleneck-mini-dress-blue",
+  "name": "Civenne Ribbed Turtleneck Mini Dress — Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#455881"
+  ],
+  "colorNames": [
+    "Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed sweater dress with a folded turtleneck and a straight mini hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/civenne-ribbed-turtleneck-mini-dress-blue/front.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-blue/back.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-blue/left.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-blue/right.webp"
+  ],
+  "stock": 5989,
+  "unitCostUsd": 28.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809079176849",
+  "sourceColor": "Blue"
+},
+{
+  "slug": "civenne-ribbed-turtleneck-mini-dress-black",
+  "name": "Civenne Ribbed Turtleneck Mini Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#272727"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed sweater dress with a folded turtleneck and a straight mini hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/civenne-ribbed-turtleneck-mini-dress-black/front.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-black/back.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-black/left.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-black/right.webp"
+  ],
+  "stock": 5989,
+  "unitCostUsd": 28.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809079176849",
+  "sourceColor": "black"
 }
 ];
 
@@ -22452,6 +22832,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "civenne-ribbed-turtleneck-mini-dress-teal",
+  "civenne-ribbed-turtleneck-mini-dress-burgundy",
+  "civenne-ribbed-turtleneck-mini-dress-taupe",
+  "civenne-ribbed-turtleneck-mini-dress-olive",
+  "civenne-ribbed-turtleneck-mini-dress-camel",
+  "civenne-ribbed-turtleneck-mini-dress-dusty-pink",
+  "civenne-ribbed-turtleneck-mini-dress-charcoal",
+  "civenne-ribbed-turtleneck-mini-dress-orange",
+  "civenne-ribbed-turtleneck-mini-dress-blue",
+  "civenne-ribbed-turtleneck-mini-dress-black",
+
   "sylvane-half-zip-flared-midi-dress-petrol-blue",
   "caldelle-half-zip-slit-midi-dress-coffee",
   "sylvane-half-zip-flared-midi-dress-burgundy",

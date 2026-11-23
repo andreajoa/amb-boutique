@@ -1,0 +1,326 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "civenne-ribbed-turtleneck-mini-dress-teal",
+      "sourceProductId": "3256809079176849",
+      "sourceColor": "DEEP BLUE",
+      "supplierId": "cmwtpg5mf01d20jln4nsid66z",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000048538429296",
+        "S": "12000048538429291",
+        "XL": "12000048538429294",
+        "XXL": "12000048538429295",
+        "M": "12000048538429292",
+        "L": "12000048538429293"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 28.51,
+        "S": 28.51,
+        "XL": 28.51,
+        "XXL": 28.51,
+        "M": 28.51,
+        "L": 28.51
+      },
+      "stockBySize": {
+        "XXXL": 999,
+        "S": 999,
+        "XL": 999,
+        "XXL": 999,
+        "M": 999,
+        "L": 998
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T21:02:33.009Z"
+    },
+    {
+      "slug": "civenne-ribbed-turtleneck-mini-dress-burgundy",
+      "sourceProductId": "3256809079176849",
+      "sourceColor": "Burgundy",
+      "supplierId": "cmwtpg5mf01d20jln4nsid66z",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000048538429290",
+        "XL": "12000048538429288",
+        "XXL": "12000048538429289",
+        "M": "12000048538429286",
+        "L": "12000048538429287",
+        "S": "12000048538429285"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 28.51,
+        "XL": 28.51,
+        "XXL": 28.51,
+        "M": 28.51,
+        "L": 28.51,
+        "S": 28.51
+      },
+      "stockBySize": {
+        "XXXL": 999,
+        "XL": 998,
+        "XXL": 999,
+        "M": 998,
+        "L": 999,
+        "S": 998
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T21:02:33.009Z"
+    },
+    {
+      "slug": "civenne-ribbed-turtleneck-mini-dress-taupe",
+      "sourceProductId": "3256809079176849",
+      "sourceColor": "Brown",
+      "supplierId": "cmwtpg5mf01d20jln4nsid66z",
+      "sourceSkuIdsBySize": {
+        "S": "12000048538429243",
+        "XL": "12000048538429246",
+        "XXL": "12000048538429247",
+        "M": "12000048538429244",
+        "L": "12000048538429245",
+        "XXXL": "12000048538429248"
+      },
+      "landedCostUsdBySize": {
+        "S": 28.51,
+        "XL": 28.51,
+        "XXL": 28.51,
+        "M": 28.51,
+        "L": 28.51,
+        "XXXL": 28.51
+      },
+      "stockBySize": {
+        "S": 999,
+        "XL": 999,
+        "XXL": 999,
+        "M": 998,
+        "L": 999,
+        "XXXL": 999
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T21:02:33.009Z"
+    },
+    {
+      "slug": "civenne-ribbed-turtleneck-mini-dress-olive",
+      "sourceProductId": "3256809079176849",
+      "sourceColor": "army green",
+      "supplierId": "cmwtpg5mf01d20jln4nsid66z",
+      "sourceSkuIdsBySize": {
+        "XL": "12000048538429258",
+        "XXL": "12000048538429259",
+        "M": "12000048538429256",
+        "L": "12000048538429257",
+        "XXXL": "12000048538429260",
+        "S": "12000048538429255"
+      },
+      "landedCostUsdBySize": {
+        "XL": 28.51,
+        "XXL": 28.51,
+        "M": 28.51,
+        "L": 28.51,
+        "XXXL": 28.51,
+        "S": 28.51
+      },
+      "stockBySize": {
+        "XL": 999,
+        "XXL": 999,
+        "M": 999,
+        "L": 998,
+        "XXXL": 998,
+        "S": 999
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T21:02:33.009Z"
+    },
+    {
+      "slug": "civenne-ribbed-turtleneck-mini-dress-camel",
+      "sourceProductId": "3256809079176849",
+      "sourceColor": "Khaki",
+      "supplierId": "cmwtpg5mf01d20jln4nsid66z",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000048538429266",
+        "XL": "12000048538429264",
+        "XXL": "12000048538429265",
+        "M": "12000048538429262",
+        "L": "12000048538429263",
+        "S": "12000048538429261"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 28.51,
+        "XL": 28.51,
+        "XXL": 28.51,
+        "M": 28.51,
+        "L": 28.51,
+        "S": 28.51
+      },
+      "stockBySize": {
+        "XXXL": 999,
+        "XL": 999,
+        "XXL": 999,
+        "M": 998,
+        "L": 999,
+        "S": 998
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T21:02:33.009Z"
+    },
+    {
+      "slug": "civenne-ribbed-turtleneck-mini-dress-dusty-pink",
+      "sourceProductId": "3256809079176849",
+      "sourceColor": "Pink",
+      "supplierId": "cmwtpg5mf01d20jln4nsid66z",
+      "sourceSkuIdsBySize": {
+        "M": "12000048538429274",
+        "L": "12000048538429275",
+        "S": "12000048538429273",
+        "XXXL": "12000048538429278",
+        "XL": "12000048538429276",
+        "XXL": "12000048538429277"
+      },
+      "landedCostUsdBySize": {
+        "M": 28.51,
+        "L": 28.51,
+        "S": 28.51,
+        "XXXL": 28.51,
+        "XL": 28.51,
+        "XXL": 28.51
+      },
+      "stockBySize": {
+        "M": 999,
+        "L": 998,
+        "S": 998,
+        "XXXL": 999,
+        "XL": 999,
+        "XXL": 999
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T21:02:33.009Z"
+    },
+    {
+      "slug": "civenne-ribbed-turtleneck-mini-dress-charcoal",
+      "sourceProductId": "3256809079176849",
+      "sourceColor": "GRAY",
+      "supplierId": "cmwtpg5mf01d20jln4nsid66z",
+      "sourceSkuIdsBySize": {
+        "M": "12000048538429250",
+        "L": "12000048538429251",
+        "S": "12000048538429249",
+        "XXXL": "12000048538429254",
+        "XL": "12000048538429252",
+        "XXL": "12000048538429253"
+      },
+      "landedCostUsdBySize": {
+        "M": 28.51,
+        "L": 28.51,
+        "S": 28.51,
+        "XXXL": 28.51,
+        "XL": 28.51,
+        "XXL": 28.51
+      },
+      "stockBySize": {
+        "M": 999,
+        "L": 997,
+        "S": 999,
+        "XXXL": 998,
+        "XL": 999,
+        "XXL": 999
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T21:02:33.009Z"
+    },
+    {
+      "slug": "civenne-ribbed-turtleneck-mini-dress-orange",
+      "sourceProductId": "3256809079176849",
+      "sourceColor": "Orange",
+      "supplierId": "cmwtpg5mf01d20jln4nsid66z",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000048538429272",
+        "S": "12000048538429267",
+        "XL": "12000048538429270",
+        "XXL": "12000048538429271",
+        "M": "12000048538429268",
+        "L": "12000048538429269"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 28.51,
+        "S": 28.51,
+        "XL": 28.51,
+        "XXL": 28.51,
+        "M": 28.51,
+        "L": 28.51
+      },
+      "stockBySize": {
+        "XXXL": 999,
+        "S": 999,
+        "XL": 998,
+        "XXL": 999,
+        "M": 998,
+        "L": 997
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T21:02:33.009Z"
+    },
+    {
+      "slug": "civenne-ribbed-turtleneck-mini-dress-blue",
+      "sourceProductId": "3256809079176849",
+      "sourceColor": "Blue",
+      "supplierId": "cmwtpg5mf01d20jln4nsid66z",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000048538429242",
+        "XL": "12000048538429240",
+        "XXL": "12000048538429241",
+        "M": "12000048538429238",
+        "L": "12000048538429239",
+        "S": "12000048538429237"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 28.51,
+        "XL": 28.51,
+        "XXL": 28.51,
+        "M": 28.51,
+        "L": 28.51,
+        "S": 28.51
+      },
+      "stockBySize": {
+        "XXXL": 999,
+        "XL": 999,
+        "XXL": 999,
+        "M": 998,
+        "L": 996,
+        "S": 998
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T21:02:33.009Z"
+    },
+    {
+      "slug": "civenne-ribbed-turtleneck-mini-dress-black",
+      "sourceProductId": "3256809079176849",
+      "sourceColor": "black",
+      "supplierId": "cmwtpg5mf01d20jln4nsid66z",
+      "sourceSkuIdsBySize": {
+        "XL": "12000048538429234",
+        "XXL": "12000048538429235",
+        "M": "12000048538429232",
+        "L": "12000048538429233",
+        "XXXL": "12000048538429236",
+        "S": "12000048538429231"
+      },
+      "landedCostUsdBySize": {
+        "XL": 28.51,
+        "XXL": 28.51,
+        "M": 28.51,
+        "L": 28.51,
+        "XXXL": 28.51,
+        "S": 28.51
+      },
+      "stockBySize": {
+        "XL": 999,
+        "XXL": 998,
+        "M": 997,
+        "L": 999,
+        "XXXL": 999,
+        "S": 997
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T21:02:33.009Z"
+    }
+  ]
+}
