@@ -973,6 +973,42 @@
    "landedCostUsd": 49.88,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
   },
+  "marielle-a-line-knit-mini-skirt-espresso": {
+   "landedCostUsd": 22.58,
+   "source": "catalog-20261123-batch11-bindings.json"
+  },
+  "marielle-a-line-knit-mini-skirt-heather-gray": {
+   "landedCostUsd": 22.58,
+   "source": "catalog-20261123-batch11-bindings.json"
+  },
+  "marielle-a-line-knit-mini-skirt-wine": {
+   "landedCostUsd": 22.58,
+   "source": "catalog-20261123-batch11-bindings.json"
+  },
+  "marielle-button-front-knit-cardigan-espresso": {
+   "landedCostUsd": 30.82,
+   "source": "catalog-20261123-batch11-bindings.json"
+  },
+  "marielle-button-front-knit-cardigan-heather-gray": {
+   "landedCostUsd": 30.82,
+   "source": "catalog-20261123-batch11-bindings.json"
+  },
+  "marielle-button-front-knit-cardigan-wine": {
+   "landedCostUsd": 30.82,
+   "source": "catalog-20261123-batch11-bindings.json"
+  },
+  "marielle-cardigan-and-skirt-set-espresso": {
+   "landedCostUsd": 43.98,
+   "source": "catalog-20261123-batch11-bindings.json"
+  },
+  "marielle-cardigan-and-skirt-set-heather-gray": {
+   "landedCostUsd": 43.98,
+   "source": "catalog-20261123-batch11-bindings.json"
+  },
+  "marielle-cardigan-and-skirt-set-wine": {
+   "landedCostUsd": 43.98,
+   "source": "catalog-20261123-batch11-bindings.json"
+  },
   "marina-vneck-print-midi-dress": {
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -1492,6 +1528,10 @@
   "rovelle-turtleneck-sweater-midi-dress-black": {
    "landedCostUsd": 30.93,
    "source": "catalog-20261123-batch05-bindings.json"
+  },
+  "rovelle-turtleneck-sweater-midi-dress-caramel": {
+   "landedCostUsd": 30.93,
+   "source": "catalog-20261123-batch11-bindings.json"
   },
   "rovelle-turtleneck-sweater-midi-dress-cream": {
    "landedCostUsd": 30.93,
