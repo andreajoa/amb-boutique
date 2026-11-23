@@ -89,6 +89,22 @@
    "landedCostUsd": 13.14,
    "source": "catalog-20261025-batch03b-supplier-bindings.json"
   },
+  "aster-eyelet-two-piece-set-beige": {
+   "landedCostUsd": 40.21,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "aster-eyelet-two-piece-set-green": {
+   "landedCostUsd": 40.21,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "aster-eyelet-two-piece-set-sky-blue": {
+   "landedCostUsd": 40.21,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "aster-eyelet-two-piece-set-white": {
+   "landedCostUsd": 40.21,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
   "asteria-star-print-tulle-mini-dress-green": {
    "landedCostUsd": 17.72,
    "source": "catalog-20261026-new-products-bindings.json"
@@ -96,6 +112,26 @@
   "aurora-galaxy-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "aveline-printed-blouse-black-leopard": {
+   "landedCostUsd": 7.88,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "aveline-printed-blouse-blue-abstract": {
+   "landedCostUsd": 7.94,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "aveline-printed-blouse-brown-leopard": {
+   "landedCostUsd": 7.98,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "aveline-printed-blouse-cream-spot": {
+   "landedCostUsd": 7.94,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "aveline-printed-blouse-white-spot": {
+   "landedCostUsd": 7.94,
+   "source": "catalog-20261123-batch01-bindings.json"
   },
   "azul-tile-swing-dress": {
    "landedCostUsd": 28.98,
@@ -241,9 +277,21 @@
    "landedCostUsd": 32.1,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
   },
+  "cerelia-lace-corset-mini-dress-black": {
+   "landedCostUsd": 40.99,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
   "cerelia-lace-corset-mini-dress-gray": {
    "landedCostUsd": 44.14,
    "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "cerelia-lace-corset-mini-dress-red": {
+   "landedCostUsd": 40.99,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "cerelia-lace-corset-mini-dress-white": {
+   "landedCostUsd": 40.99,
+   "source": "catalog-20261123-batch01-bindings.json"
   },
   "champagne-pleated-halter-gown": {
    "landedCostUsd": 97.24,
@@ -677,6 +725,10 @@
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
   },
+  "marena-frayed-hem-denim-shorts-red": {
+   "landedCostUsd": 24.31,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
   "margaux-shirt-dress": {
    "landedCostUsd": 49.88,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
@@ -921,6 +973,14 @@
    "landedCostUsd": 29.95,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "olive-gingham-maxi-skirt-blue": {
+   "landedCostUsd": 15.18,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "olive-gingham-maxi-skirt-pink": {
+   "landedCostUsd": 15.18,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
   "onda-vneck-print-midi-dress": {
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -945,9 +1005,17 @@
    "landedCostUsd": 30.19,
    "source": "catalog-20261117-orlena-bindings.json"
   },
+  "orlena-lace-balloon-sleeve-mini-dress-black": {
+   "landedCostUsd": 30.19,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
   "orlena-lace-balloon-sleeve-mini-dress-coffee": {
    "landedCostUsd": 30.19,
    "source": "catalog-20261117-orlena-bindings.json"
+  },
+  "orlena-lace-balloon-sleeve-mini-dress-white": {
+   "landedCostUsd": 30.19,
+   "source": "catalog-20261123-batch01-bindings.json"
   },
   "orquidea-vneck-print-midi-dress": {
    "landedCostUsd": 25.1,
@@ -980,6 +1048,18 @@
   "pascale-black-satin-midi-dress": {
    "landedCostUsd": 22.04,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "pavelle-polka-dot-trouser-set-caramel-and-white": {
+   "landedCostUsd": 29.51,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "pavelle-polka-dot-trouser-set-ivory-and-tan": {
+   "landedCostUsd": 29.51,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "pavelle-polka-dot-trouser-set-pink-and-lime": {
+   "landedCostUsd": 29.51,
+   "source": "catalog-20261123-batch01-bindings.json"
   },
   "pedra-patch-maxi-dress": {
    "landedCostUsd": 13.14,
@@ -1141,6 +1221,30 @@
    "landedCostUsd": 36.16,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
   },
+  "serenella-ruffle-corset-three-piece-set-beige": {
+   "landedCostUsd": 85.21,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "serenella-ruffle-corset-three-piece-set-black": {
+   "landedCostUsd": 85.21,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "serenella-ruffle-corset-three-piece-set-burgundy": {
+   "landedCostUsd": 85.21,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "serenella-ruffle-corset-three-piece-set-mint": {
+   "landedCostUsd": 85.21,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "serenella-ruffle-corset-three-piece-set-pink": {
+   "landedCostUsd": 85.21,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "serenella-ruffle-corset-three-piece-set-white": {
+   "landedCostUsd": 85.21,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
   "sienna-chevron-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -1160,6 +1264,46 @@
   "soleil-pleat-romper": {
    "landedCostUsd": 32.1,
    "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256812102239928|apricot, 2026-10-25T03:00:56.750Z) · identidade confirmada"
+  },
+  "solenne-printed-beach-cover-up-black-and-sand": {
+   "landedCostUsd": 32.96,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "solenne-printed-beach-cover-up-bright-abstract": {
+   "landedCostUsd": 33.54,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "solenne-printed-beach-cover-up-cocoa-stripe": {
+   "landedCostUsd": 33.48,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "solenne-printed-beach-cover-up-coral-stripe": {
+   "landedCostUsd": 33.34,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "solenne-printed-beach-cover-up-indigo-mosaic": {
+   "landedCostUsd": 33.66,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "solenne-printed-beach-cover-up-jade-abstract": {
+   "landedCostUsd": 33.54,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "solenne-printed-beach-cover-up-midnight-floral": {
+   "landedCostUsd": 33.02,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "solenne-printed-beach-cover-up-tropical-leaves": {
+   "landedCostUsd": 33.18,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "solenne-printed-beach-cover-up-tropical-leopard": {
+   "landedCostUsd": 32.72,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "solenne-printed-beach-cover-up-umber-zebra": {
+   "landedCostUsd": 33.44,
+   "source": "catalog-20261123-batch01-bindings.json"
   },
   "stella-galaxy-swing-dress": {
    "landedCostUsd": 28.98,
@@ -1268,6 +1412,62 @@
   "vionelle-lace-sleeve-asymmetric-mini-dress-plum-style-18": {
    "landedCostUsd": 27.81,
    "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "virelle-woven-crossbody-bag-berry-rose": {
+   "landedCostUsd": 27.34,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "virelle-woven-crossbody-bag-black": {
+   "landedCostUsd": 27.53,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "virelle-woven-crossbody-bag-butter-yellow": {
+   "landedCostUsd": 30.77,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "virelle-woven-crossbody-bag-chocolate": {
+   "landedCostUsd": 27.03,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "virelle-woven-crossbody-bag-cream": {
+   "landedCostUsd": 27.78,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "virelle-woven-crossbody-bag-emerald-green": {
+   "landedCostUsd": 27.66,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "virelle-woven-crossbody-bag-jade-green": {
+   "landedCostUsd": 27.08,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "virelle-woven-crossbody-bag-lavender": {
+   "landedCostUsd": 30.77,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "virelle-woven-crossbody-bag-lime": {
+   "landedCostUsd": 27.48,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "virelle-woven-crossbody-bag-mint": {
+   "landedCostUsd": 27.31,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "virelle-woven-crossbody-bag-pale-sage": {
+   "landedCostUsd": 27.42,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "virelle-woven-crossbody-bag-purple": {
+   "landedCostUsd": 27.42,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "virelle-woven-crossbody-bag-terracotta": {
+   "landedCostUsd": 27.29,
+   "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "virelle-woven-crossbody-bag-white": {
+   "landedCostUsd": 28.42,
+   "source": "catalog-20261123-batch01-bindings.json"
   },
   "vita-maxi-skirt": {
    "landedCostUsd": 25.88,

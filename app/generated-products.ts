@@ -18849,6 +18849,1761 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256812955486529",
   "sourceColor": "Coffee"
+},
+{
+  "slug": "virelle-woven-crossbody-bag-black",
+  "name": "Virelle Woven Crossbody Bag — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#202020"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact woven crossbody bag with a flap and adjustable strap. Broad interlaced strips give the rectangular silhouette its texture.",
+  "materials": "Woven synthetic PU.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/virelle-woven-crossbody-bag-black/front.webp",
+    "/products/virelle-woven-crossbody-bag-black/back.webp",
+    "/products/virelle-woven-crossbody-bag-black/left.webp",
+    "/products/virelle-woven-crossbody-bag-black/right.webp"
+  ],
+  "stock": 987,
+  "unitCostUsd": 27.53,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806033190638",
+  "sourceColor": "black"
+},
+{
+  "slug": "virelle-woven-crossbody-bag-emerald-green",
+  "name": "Virelle Woven Crossbody Bag — Emerald Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#209d72"
+  ],
+  "colorNames": [
+    "Emerald Green"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact woven crossbody bag with a flap and adjustable strap. Broad interlaced strips give the rectangular silhouette its texture.",
+  "materials": "Woven synthetic PU.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/virelle-woven-crossbody-bag-emerald-green/front.webp",
+    "/products/virelle-woven-crossbody-bag-emerald-green/back.webp",
+    "/products/virelle-woven-crossbody-bag-emerald-green/left.webp",
+    "/products/virelle-woven-crossbody-bag-emerald-green/right.webp"
+  ],
+  "stock": 989,
+  "unitCostUsd": 27.66,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806033190638",
+  "sourceColor": "green"
+},
+{
+  "slug": "virelle-woven-crossbody-bag-butter-yellow",
+  "name": "Virelle Woven Crossbody Bag — Butter Yellow",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 92.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#eedb8c"
+  ],
+  "colorNames": [
+    "Butter Yellow"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact woven crossbody bag with a flap and adjustable strap. Broad interlaced strips give the rectangular silhouette its texture.",
+  "materials": "Woven synthetic PU.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/virelle-woven-crossbody-bag-butter-yellow/front.webp",
+    "/products/virelle-woven-crossbody-bag-butter-yellow/back.webp",
+    "/products/virelle-woven-crossbody-bag-butter-yellow/left.webp",
+    "/products/virelle-woven-crossbody-bag-butter-yellow/right.webp"
+  ],
+  "stock": 990,
+  "unitCostUsd": 30.77,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806033190638",
+  "sourceColor": "YELLOW"
+},
+{
+  "slug": "virelle-woven-crossbody-bag-white",
+  "name": "Virelle Woven Crossbody Bag — White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 85.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f4f2ed"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact woven crossbody bag with a flap and adjustable strap. Broad interlaced strips give the rectangular silhouette its texture.",
+  "materials": "Woven synthetic PU.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/virelle-woven-crossbody-bag-white/front.webp",
+    "/products/virelle-woven-crossbody-bag-white/back.webp",
+    "/products/virelle-woven-crossbody-bag-white/left.webp",
+    "/products/virelle-woven-crossbody-bag-white/right.webp"
+  ],
+  "stock": 990,
+  "unitCostUsd": 28.42,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806033190638",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "virelle-woven-crossbody-bag-mint",
+  "name": "Virelle Woven Crossbody Bag — Mint",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b7cfad"
+  ],
+  "colorNames": [
+    "Mint"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact woven crossbody bag with a flap and adjustable strap. Broad interlaced strips give the rectangular silhouette its texture.",
+  "materials": "Woven synthetic PU.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/virelle-woven-crossbody-bag-mint/front.webp",
+    "/products/virelle-woven-crossbody-bag-mint/back.webp",
+    "/products/virelle-woven-crossbody-bag-mint/left.webp",
+    "/products/virelle-woven-crossbody-bag-mint/right.webp"
+  ],
+  "stock": 990,
+  "unitCostUsd": 27.31,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806033190638",
+  "sourceColor": "army green"
+},
+{
+  "slug": "virelle-woven-crossbody-bag-cream",
+  "name": "Virelle Woven Crossbody Bag — Cream",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 83.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e7dcc0"
+  ],
+  "colorNames": [
+    "Cream"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact woven crossbody bag with a flap and adjustable strap. Broad interlaced strips give the rectangular silhouette its texture.",
+  "materials": "Woven synthetic PU.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/virelle-woven-crossbody-bag-cream/front.webp",
+    "/products/virelle-woven-crossbody-bag-cream/back.webp",
+    "/products/virelle-woven-crossbody-bag-cream/left.webp",
+    "/products/virelle-woven-crossbody-bag-cream/right.webp"
+  ],
+  "stock": 987,
+  "unitCostUsd": 27.78,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806033190638",
+  "sourceColor": "SKY BLUE"
+},
+{
+  "slug": "virelle-woven-crossbody-bag-lavender",
+  "name": "Virelle Woven Crossbody Bag — Lavender",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 92.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c8a9ce"
+  ],
+  "colorNames": [
+    "Lavender"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact woven crossbody bag with a flap and adjustable strap. Broad interlaced strips give the rectangular silhouette its texture.",
+  "materials": "Woven synthetic PU.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/virelle-woven-crossbody-bag-lavender/front.webp",
+    "/products/virelle-woven-crossbody-bag-lavender/back.webp",
+    "/products/virelle-woven-crossbody-bag-lavender/left.webp",
+    "/products/virelle-woven-crossbody-bag-lavender/right.webp"
+  ],
+  "stock": 990,
+  "unitCostUsd": 30.77,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806033190638",
+  "sourceColor": "Lavender"
+},
+{
+  "slug": "virelle-woven-crossbody-bag-lime",
+  "name": "Virelle Woven Crossbody Bag — Lime",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b4ca59"
+  ],
+  "colorNames": [
+    "Lime"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact woven crossbody bag with a flap and adjustable strap. Broad interlaced strips give the rectangular silhouette its texture.",
+  "materials": "Woven synthetic PU.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/virelle-woven-crossbody-bag-lime/front.webp",
+    "/products/virelle-woven-crossbody-bag-lime/back.webp",
+    "/products/virelle-woven-crossbody-bag-lime/left.webp",
+    "/products/virelle-woven-crossbody-bag-lime/right.webp"
+  ],
+  "stock": 990,
+  "unitCostUsd": 27.48,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806033190638",
+  "sourceColor": "light green"
+},
+{
+  "slug": "virelle-woven-crossbody-bag-chocolate",
+  "name": "Virelle Woven Crossbody Bag — Chocolate",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 81.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#5c3429"
+  ],
+  "colorNames": [
+    "Chocolate"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact woven crossbody bag with a flap and adjustable strap. Broad interlaced strips give the rectangular silhouette its texture.",
+  "materials": "Woven synthetic PU.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/virelle-woven-crossbody-bag-chocolate/front.webp",
+    "/products/virelle-woven-crossbody-bag-chocolate/back.webp",
+    "/products/virelle-woven-crossbody-bag-chocolate/left.webp",
+    "/products/virelle-woven-crossbody-bag-chocolate/right.webp"
+  ],
+  "stock": 2,
+  "unitCostUsd": 27.03,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806033190638",
+  "sourceColor": "Brown"
+},
+{
+  "slug": "virelle-woven-crossbody-bag-purple",
+  "name": "Virelle Woven Crossbody Bag — Purple",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#874096"
+  ],
+  "colorNames": [
+    "Purple"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact woven crossbody bag with a flap and adjustable strap. Broad interlaced strips give the rectangular silhouette its texture.",
+  "materials": "Woven synthetic PU.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/virelle-woven-crossbody-bag-purple/front.webp",
+    "/products/virelle-woven-crossbody-bag-purple/back.webp",
+    "/products/virelle-woven-crossbody-bag-purple/left.webp",
+    "/products/virelle-woven-crossbody-bag-purple/right.webp"
+  ],
+  "stock": 990,
+  "unitCostUsd": 27.42,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806033190638",
+  "sourceColor": "PURPLE"
+},
+{
+  "slug": "virelle-woven-crossbody-bag-berry-rose",
+  "name": "Virelle Woven Crossbody Bag — Berry Rose",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c85175"
+  ],
+  "colorNames": [
+    "Berry Rose"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact woven crossbody bag with a flap and adjustable strap. Broad interlaced strips give the rectangular silhouette its texture.",
+  "materials": "Woven synthetic PU.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/virelle-woven-crossbody-bag-berry-rose/front.webp",
+    "/products/virelle-woven-crossbody-bag-berry-rose/back.webp",
+    "/products/virelle-woven-crossbody-bag-berry-rose/left.webp",
+    "/products/virelle-woven-crossbody-bag-berry-rose/right.webp"
+  ],
+  "stock": 990,
+  "unitCostUsd": 27.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806033190638",
+  "sourceColor": "Red"
+},
+{
+  "slug": "virelle-woven-crossbody-bag-terracotta",
+  "name": "Virelle Woven Crossbody Bag — Terracotta",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 81.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#ce835d"
+  ],
+  "colorNames": [
+    "Terracotta"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact woven crossbody bag with a flap and adjustable strap. Broad interlaced strips give the rectangular silhouette its texture.",
+  "materials": "Woven synthetic PU.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/virelle-woven-crossbody-bag-terracotta/front.webp",
+    "/products/virelle-woven-crossbody-bag-terracotta/back.webp",
+    "/products/virelle-woven-crossbody-bag-terracotta/left.webp",
+    "/products/virelle-woven-crossbody-bag-terracotta/right.webp"
+  ],
+  "stock": 990,
+  "unitCostUsd": 27.29,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806033190638",
+  "sourceColor": "Orange"
+},
+{
+  "slug": "virelle-woven-crossbody-bag-pale-sage",
+  "name": "Virelle Woven Crossbody Bag — Pale Sage",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 82.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c1d1b1"
+  ],
+  "colorNames": [
+    "Pale Sage"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact woven crossbody bag with a flap and adjustable strap. Broad interlaced strips give the rectangular silhouette its texture.",
+  "materials": "Woven synthetic PU.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/virelle-woven-crossbody-bag-pale-sage/front.webp",
+    "/products/virelle-woven-crossbody-bag-pale-sage/back.webp",
+    "/products/virelle-woven-crossbody-bag-pale-sage/left.webp",
+    "/products/virelle-woven-crossbody-bag-pale-sage/right.webp"
+  ],
+  "stock": 990,
+  "unitCostUsd": 27.42,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806033190638",
+  "sourceColor": "Ivory"
+},
+{
+  "slug": "virelle-woven-crossbody-bag-jade-green",
+  "name": "Virelle Woven Crossbody Bag — Jade Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Bags",
+  "price": 81.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#68ac97"
+  ],
+  "colorNames": [
+    "Jade Green"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact woven crossbody bag with a flap and adjustable strap. Broad interlaced strips give the rectangular silhouette its texture.",
+  "materials": "Woven synthetic PU.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/virelle-woven-crossbody-bag-jade-green/front.webp",
+    "/products/virelle-woven-crossbody-bag-jade-green/back.webp",
+    "/products/virelle-woven-crossbody-bag-jade-green/left.webp",
+    "/products/virelle-woven-crossbody-bag-jade-green/right.webp"
+  ],
+  "stock": 990,
+  "unitCostUsd": 27.08,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806033190638",
+  "sourceColor": "Blue"
+},
+{
+  "slug": "serenella-ruffle-corset-three-piece-set-pink",
+  "name": "Serenella Ruffle Corset Three Piece Set — Pink",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 255.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e6afba"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A three-piece set combining a ruffled dress, lace-up corset top and matching shorts. Flowing asymmetric panels create a layered silhouette.",
+  "materials": "Refer to the supplied garment labels for fibre composition.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/serenella-ruffle-corset-three-piece-set-pink/front.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-pink/back.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-pink/left.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-pink/right.webp"
+  ],
+  "stock": 3966,
+  "unitCostUsd": 85.21,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808412523178",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "serenella-ruffle-corset-three-piece-set-mint",
+  "name": "Serenella Ruffle Corset Three Piece Set — Mint",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 255.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b1d3c5"
+  ],
+  "colorNames": [
+    "Mint"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A three-piece set combining a ruffled dress, lace-up corset top and matching shorts. Flowing asymmetric panels create a layered silhouette.",
+  "materials": "Refer to the supplied garment labels for fibre composition.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/serenella-ruffle-corset-three-piece-set-mint/front.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-mint/back.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-mint/left.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-mint/right.webp"
+  ],
+  "stock": 3972,
+  "unitCostUsd": 85.21,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808412523178",
+  "sourceColor": "Mint"
+},
+{
+  "slug": "serenella-ruffle-corset-three-piece-set-white",
+  "name": "Serenella Ruffle Corset Three Piece Set — White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 255.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f4f3ef"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A three-piece set combining a ruffled dress, lace-up corset top and matching shorts. Flowing asymmetric panels create a layered silhouette.",
+  "materials": "Refer to the supplied garment labels for fibre composition.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/serenella-ruffle-corset-three-piece-set-white/front.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-white/back.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-white/left.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-white/right.webp"
+  ],
+  "stock": 3972,
+  "unitCostUsd": 85.21,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808412523178",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "serenella-ruffle-corset-three-piece-set-beige",
+  "name": "Serenella Ruffle Corset Three Piece Set — Beige",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 255.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#dcc8a8"
+  ],
+  "colorNames": [
+    "Beige"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A three-piece set combining a ruffled dress, lace-up corset top and matching shorts. Flowing asymmetric panels create a layered silhouette.",
+  "materials": "Refer to the supplied garment labels for fibre composition.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/serenella-ruffle-corset-three-piece-set-beige/front.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-beige/back.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-beige/left.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-beige/right.webp"
+  ],
+  "stock": 3944,
+  "unitCostUsd": 85.21,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808412523178",
+  "sourceColor": "Beige"
+},
+{
+  "slug": "serenella-ruffle-corset-three-piece-set-burgundy",
+  "name": "Serenella Ruffle Corset Three Piece Set — Burgundy",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 255.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#722d3d"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A three-piece set combining a ruffled dress, lace-up corset top and matching shorts. Flowing asymmetric panels create a layered silhouette.",
+  "materials": "Refer to the supplied garment labels for fibre composition.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/serenella-ruffle-corset-three-piece-set-burgundy/front.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-burgundy/back.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-burgundy/left.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-burgundy/right.webp"
+  ],
+  "stock": 3982,
+  "unitCostUsd": 85.21,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808412523178",
+  "sourceColor": "Burgundy"
+},
+{
+  "slug": "serenella-ruffle-corset-three-piece-set-black",
+  "name": "Serenella Ruffle Corset Three Piece Set — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 255.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1d1d1d"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A three-piece set combining a ruffled dress, lace-up corset top and matching shorts. Flowing asymmetric panels create a layered silhouette.",
+  "materials": "Refer to the supplied garment labels for fibre composition.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/serenella-ruffle-corset-three-piece-set-black/front.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-black/back.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-black/left.webp",
+    "/products/serenella-ruffle-corset-three-piece-set-black/right.webp"
+  ],
+  "stock": 3981,
+  "unitCostUsd": 85.21,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808412523178",
+  "sourceColor": "black"
+},
+{
+  "slug": "aster-eyelet-two-piece-set-beige",
+  "name": "Aster Eyelet Two-Piece Set — Beige",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 120.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#dcc8a8"
+  ],
+  "colorNames": [
+    "Beige"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A matching floral eyelet set with a sleeveless collared button-front top and full-length wide-leg trousers. Scalloped edges finish the top and trouser hems.",
+  "materials": "Floral eyelet fabric.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/aster-eyelet-two-piece-set-beige/front.webp",
+    "/products/aster-eyelet-two-piece-set-beige/back.webp",
+    "/products/aster-eyelet-two-piece-set-beige/left.webp",
+    "/products/aster-eyelet-two-piece-set-beige/right.webp"
+  ],
+  "stock": 5971,
+  "unitCostUsd": 40.21,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809092356301",
+  "sourceColor": "Beige"
+},
+{
+  "slug": "aster-eyelet-two-piece-set-sky-blue",
+  "name": "Aster Eyelet Two-Piece Set — Sky Blue",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 120.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#add9e8"
+  ],
+  "colorNames": [
+    "Sky Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A matching floral eyelet set with a sleeveless collared button-front top and full-length wide-leg trousers. Scalloped edges finish the top and trouser hems.",
+  "materials": "Floral eyelet fabric.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/aster-eyelet-two-piece-set-sky-blue/front.webp",
+    "/products/aster-eyelet-two-piece-set-sky-blue/back.webp",
+    "/products/aster-eyelet-two-piece-set-sky-blue/left.webp",
+    "/products/aster-eyelet-two-piece-set-sky-blue/right.webp"
+  ],
+  "stock": 5982,
+  "unitCostUsd": 40.21,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809092356301",
+  "sourceColor": "SKY BLUE"
+},
+{
+  "slug": "aster-eyelet-two-piece-set-green",
+  "name": "Aster Eyelet Two-Piece Set — Green",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 120.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#b2de99"
+  ],
+  "colorNames": [
+    "Green"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A matching floral eyelet set with a sleeveless collared button-front top and full-length wide-leg trousers. Scalloped edges finish the top and trouser hems.",
+  "materials": "Floral eyelet fabric.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/aster-eyelet-two-piece-set-green/front.webp",
+    "/products/aster-eyelet-two-piece-set-green/back.webp",
+    "/products/aster-eyelet-two-piece-set-green/left.webp",
+    "/products/aster-eyelet-two-piece-set-green/right.webp"
+  ],
+  "stock": 5999,
+  "unitCostUsd": 40.21,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809092356301",
+  "sourceColor": "green"
+},
+{
+  "slug": "aster-eyelet-two-piece-set-white",
+  "name": "Aster Eyelet Two-Piece Set — White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "price": 120.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f4f3ef"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A matching floral eyelet set with a sleeveless collared button-front top and full-length wide-leg trousers. Scalloped edges finish the top and trouser hems.",
+  "materials": "Floral eyelet fabric.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/aster-eyelet-two-piece-set-white/front.webp",
+    "/products/aster-eyelet-two-piece-set-white/back.webp",
+    "/products/aster-eyelet-two-piece-set-white/left.webp",
+    "/products/aster-eyelet-two-piece-set-white/right.webp"
+  ],
+  "stock": 5979,
+  "unitCostUsd": 40.21,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809092356301",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "aveline-printed-blouse-blue-abstract",
+  "name": "Aveline Printed Blouse — Blue Abstract",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "price": 23.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#8591b9"
+  ],
+  "colorNames": [
+    "Blue Abstract"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A printed blouse with a V neckline, front placket and long gathered sleeves with cuffs. A loose silhouette showcases the contrasting print.",
+  "materials": "Printed fabric; refer to the garment label for composition.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/aveline-printed-blouse-blue-abstract/front.webp",
+    "/products/aveline-printed-blouse-blue-abstract/back.webp",
+    "/products/aveline-printed-blouse-blue-abstract/left.webp",
+    "/products/aveline-printed-blouse-blue-abstract/right.webp"
+  ],
+  "stock": 2478,
+  "unitCostUsd": 7.94,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812056559691",
+  "sourceColor": "Blue"
+},
+{
+  "slug": "aveline-printed-blouse-black-leopard",
+  "name": "Aveline Printed Blouse — Black Leopard",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "price": 23.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#272421"
+  ],
+  "colorNames": [
+    "Black Leopard"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A printed blouse with a V neckline, front placket and long gathered sleeves with cuffs. A loose silhouette showcases the contrasting print.",
+  "materials": "Printed fabric; refer to the garment label for composition.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/aveline-printed-blouse-black-leopard/front.webp",
+    "/products/aveline-printed-blouse-black-leopard/back.webp",
+    "/products/aveline-printed-blouse-black-leopard/left.webp",
+    "/products/aveline-printed-blouse-black-leopard/right.webp"
+  ],
+  "stock": 2474,
+  "unitCostUsd": 7.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812056559691",
+  "sourceColor": "black"
+},
+{
+  "slug": "aveline-printed-blouse-cream-spot",
+  "name": "Aveline Printed Blouse — Cream Spot",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "price": 23.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e7dcc5"
+  ],
+  "colorNames": [
+    "Cream Spot"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A printed blouse with a V neckline, front placket and long gathered sleeves with cuffs. A loose silhouette showcases the contrasting print.",
+  "materials": "Printed fabric; refer to the garment label for composition.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/aveline-printed-blouse-cream-spot/front.webp",
+    "/products/aveline-printed-blouse-cream-spot/back.webp",
+    "/products/aveline-printed-blouse-cream-spot/left.webp",
+    "/products/aveline-printed-blouse-cream-spot/right.webp"
+  ],
+  "stock": 2449,
+  "unitCostUsd": 7.94,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812056559691",
+  "sourceColor": "Beige"
+},
+{
+  "slug": "aveline-printed-blouse-brown-leopard",
+  "name": "Aveline Printed Blouse — Brown Leopard",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "price": 24.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#9c7254"
+  ],
+  "colorNames": [
+    "Brown Leopard"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A printed blouse with a V neckline, front placket and long gathered sleeves with cuffs. A loose silhouette showcases the contrasting print.",
+  "materials": "Printed fabric; refer to the garment label for composition.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/aveline-printed-blouse-brown-leopard/front.webp",
+    "/products/aveline-printed-blouse-brown-leopard/back.webp",
+    "/products/aveline-printed-blouse-brown-leopard/left.webp",
+    "/products/aveline-printed-blouse-brown-leopard/right.webp"
+  ],
+  "stock": 2490,
+  "unitCostUsd": 7.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812056559691",
+  "sourceColor": "Light Brown"
+},
+{
+  "slug": "aveline-printed-blouse-white-spot",
+  "name": "Aveline Printed Blouse — White Spot",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Tops",
+  "price": 23.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f1eee8"
+  ],
+  "colorNames": [
+    "White Spot"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A printed blouse with a V neckline, front placket and long gathered sleeves with cuffs. A loose silhouette showcases the contrasting print.",
+  "materials": "Printed fabric; refer to the garment label for composition.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/aveline-printed-blouse-white-spot/front.webp",
+    "/products/aveline-printed-blouse-white-spot/back.webp",
+    "/products/aveline-printed-blouse-white-spot/left.webp",
+    "/products/aveline-printed-blouse-white-spot/right.webp"
+  ],
+  "stock": 2485,
+  "unitCostUsd": 7.94,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812056559691",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "orlena-lace-balloon-sleeve-mini-dress-white",
+  "name": "Orlena Lace Balloon Sleeve Mini Dress — White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 90.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f4f3ef"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A loose floral lace mini dress with a high round neck, balloon sleeves and a curved satin-look hem band. A small back keyhole closes at the neckline. Sheer lace; separate underlayers may be needed and are not included.",
+  "materials": "Floral lace mesh with smooth trim.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/orlena-lace-balloon-sleeve-mini-dress-white/front.webp",
+    "/products/orlena-lace-balloon-sleeve-mini-dress-white/back.webp",
+    "/products/orlena-lace-balloon-sleeve-mini-dress-white/left.webp",
+    "/products/orlena-lace-balloon-sleeve-mini-dress-white/right.webp"
+  ],
+  "stock": 3998,
+  "unitCostUsd": 30.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812955486529",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "orlena-lace-balloon-sleeve-mini-dress-black",
+  "name": "Orlena Lace Balloon Sleeve Mini Dress — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 90.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1d1d1d"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A loose floral lace mini dress with a high round neck, balloon sleeves and a curved satin-look hem band. A small back keyhole closes at the neckline. Sheer lace; separate underlayers may be needed and are not included.",
+  "materials": "Floral lace mesh with smooth trim.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/orlena-lace-balloon-sleeve-mini-dress-black/front.webp",
+    "/products/orlena-lace-balloon-sleeve-mini-dress-black/back.webp",
+    "/products/orlena-lace-balloon-sleeve-mini-dress-black/left.webp",
+    "/products/orlena-lace-balloon-sleeve-mini-dress-black/right.webp"
+  ],
+  "stock": 3991,
+  "unitCostUsd": 30.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812955486529",
+  "sourceColor": "black"
+},
+{
+  "slug": "cerelia-lace-corset-mini-dress-white",
+  "name": "Cerelia Lace Corset Mini Dress — White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 123.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#f4f3ef"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "XS（old）",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A strapless floral lace mini dress with structured corset seams, a ruched skirt and a draped side sash. Sheer lace panels retain their translucent finish.",
+  "materials": "Floral lace and mesh.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/cerelia-lace-corset-mini-dress-white/front.webp",
+    "/products/cerelia-lace-corset-mini-dress-white/back.webp",
+    "/products/cerelia-lace-corset-mini-dress-white/left.webp",
+    "/products/cerelia-lace-corset-mini-dress-white/right.webp"
+  ],
+  "stock": 77,
+  "unitCostUsd": 40.99,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806080098736",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "cerelia-lace-corset-mini-dress-black",
+  "name": "Cerelia Lace Corset Mini Dress — Black",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 123.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1d1d1d"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "XS（old）",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A strapless floral lace mini dress with structured corset seams, a ruched skirt and a draped side sash. Sheer lace panels retain their translucent finish.",
+  "materials": "Floral lace and mesh.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/cerelia-lace-corset-mini-dress-black/front.webp",
+    "/products/cerelia-lace-corset-mini-dress-black/back.webp",
+    "/products/cerelia-lace-corset-mini-dress-black/left.webp",
+    "/products/cerelia-lace-corset-mini-dress-black/right.webp"
+  ],
+  "stock": 99,
+  "unitCostUsd": 40.99,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806080098736",
+  "sourceColor": "black"
+},
+{
+  "slug": "cerelia-lace-corset-mini-dress-red",
+  "name": "Cerelia Lace Corset Mini Dress — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "price": 123.9,
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#a5222e"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "XS（old）",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A strapless floral lace mini dress with structured corset seams, a ruched skirt and a draped side sash. Sheer lace panels retain their translucent finish.",
+  "materials": "Floral lace and mesh.",
+  "care": "Follow the care instructions on the product label.",
+  "images": [
+    "/products/cerelia-lace-corset-mini-dress-red/front.webp",
+    "/products/cerelia-lace-corset-mini-dress-red/back.webp",
+    "/products/cerelia-lace-corset-mini-dress-red/left.webp",
+    "/products/cerelia-lace-corset-mini-dress-red/right.webp"
+  ],
+  "stock": 83,
+  "unitCostUsd": 40.99,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806080098736",
+  "sourceColor": "Red"
+},
+{
+  "slug": "pavelle-polka-dot-trouser-set-ivory-and-tan",
+  "name": "Pavelle Polka Dot Trouser Set — Ivory and Tan",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d4b991"
+  ],
+  "colorNames": [
+    "Ivory and Tan"
+  ],
+  "description": "An asymmetric one-shoulder top and wide-leg trousers in a coordinated polka-dot print.",
+  "materials": "Printed fabric. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/pavelle-polka-dot-trouser-set-ivory-and-tan/front.webp",
+    "/products/pavelle-polka-dot-trouser-set-ivory-and-tan/back.webp",
+    "/products/pavelle-polka-dot-trouser-set-ivory-and-tan/left.webp",
+    "/products/pavelle-polka-dot-trouser-set-ivory-and-tan/right.webp"
+  ],
+  "price": 88.9,
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "stock": 5328,
+  "unitCostUsd": 29.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812158349763",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "pavelle-polka-dot-trouser-set-pink-and-lime",
+  "name": "Pavelle Polka Dot Trouser Set — Pink and Lime",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#d792ac"
+  ],
+  "colorNames": [
+    "Pink and Lime"
+  ],
+  "description": "An asymmetric one-shoulder top and wide-leg trousers in a coordinated polka-dot print.",
+  "materials": "Printed fabric. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/pavelle-polka-dot-trouser-set-pink-and-lime/front.webp",
+    "/products/pavelle-polka-dot-trouser-set-pink-and-lime/back.webp",
+    "/products/pavelle-polka-dot-trouser-set-pink-and-lime/left.webp",
+    "/products/pavelle-polka-dot-trouser-set-pink-and-lime/right.webp"
+  ],
+  "price": 88.9,
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "stock": 5328,
+  "unitCostUsd": 29.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812158349763",
+  "sourceColor": "MULTI"
+},
+{
+  "slug": "pavelle-polka-dot-trouser-set-caramel-and-white",
+  "name": "Pavelle Polka Dot Trouser Set — Caramel and White",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Sets",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#a9704d"
+  ],
+  "colorNames": [
+    "Caramel and White"
+  ],
+  "description": "An asymmetric one-shoulder top and wide-leg trousers in a coordinated polka-dot print.",
+  "materials": "Printed fabric. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/pavelle-polka-dot-trouser-set-caramel-and-white/front.webp",
+    "/products/pavelle-polka-dot-trouser-set-caramel-and-white/back.webp",
+    "/products/pavelle-polka-dot-trouser-set-caramel-and-white/left.webp",
+    "/products/pavelle-polka-dot-trouser-set-caramel-and-white/right.webp"
+  ],
+  "price": 88.9,
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "stock": 5328,
+  "unitCostUsd": 29.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812158349763",
+  "sourceColor": "Light Brown"
+},
+{
+  "slug": "olive-gingham-maxi-skirt-pink",
+  "name": "Olive Gingham Maxi Skirt — Pink",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Skirts",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#dca3b5"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "description": "A gingham skirt with a defined waistband and a flared full-length hem.",
+  "materials": "Gingham fabric. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/olive-gingham-maxi-skirt-pink/front.webp",
+    "/products/olive-gingham-maxi-skirt-pink/back.webp",
+    "/products/olive-gingham-maxi-skirt-pink/left.webp",
+    "/products/olive-gingham-maxi-skirt-pink/right.webp"
+  ],
+  "price": 45.9,
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "stock": 5994,
+  "unitCostUsd": 15.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811917798791",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "olive-gingham-maxi-skirt-blue",
+  "name": "Olive Gingham Maxi Skirt — Blue",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Skirts",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#85a7c6"
+  ],
+  "colorNames": [
+    "Blue"
+  ],
+  "description": "A gingham skirt with a defined waistband and a flared full-length hem.",
+  "materials": "Gingham fabric. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/olive-gingham-maxi-skirt-blue/front.webp",
+    "/products/olive-gingham-maxi-skirt-blue/back.webp",
+    "/products/olive-gingham-maxi-skirt-blue/left.webp",
+    "/products/olive-gingham-maxi-skirt-blue/right.webp"
+  ],
+  "price": 45.9,
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "stock": 5994,
+  "unitCostUsd": 15.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811917798791",
+  "sourceColor": "Light Blue"
+},
+{
+  "slug": "marena-frayed-hem-denim-shorts-red",
+  "name": "Marena Frayed Hem Denim Shorts — Red",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Shorts",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#c62330"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "description": "Fitted denim shorts with a button front, belt loops, front pockets and frayed hems.",
+  "materials": "Denim. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marena-frayed-hem-denim-shorts-red/front.webp",
+    "/products/marena-frayed-hem-denim-shorts-red/back.webp",
+    "/products/marena-frayed-hem-denim-shorts-red/left.webp",
+    "/products/marena-frayed-hem-denim-shorts-red/right.webp"
+  ],
+  "price": 73.9,
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "stock": 500,
+  "unitCostUsd": 24.31,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811554452854",
+  "sourceColor": "Red"
+},
+{
+  "slug": "solenne-printed-beach-cover-up-cocoa-stripe",
+  "name": "Solenne Printed Beach Cover-Up — Cocoa Stripe",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#98674b"
+  ],
+  "colorNames": [
+    "Cocoa Stripe"
+  ],
+  "description": "An airy, loose-cut maxi cover-up with a flowing hem, wide draped sleeves and a statement print.",
+  "materials": "Printed fabric. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solenne-printed-beach-cover-up-cocoa-stripe/front.webp",
+    "/products/solenne-printed-beach-cover-up-cocoa-stripe/back.webp",
+    "/products/solenne-printed-beach-cover-up-cocoa-stripe/left.webp",
+    "/products/solenne-printed-beach-cover-up-cocoa-stripe/right.webp"
+  ],
+  "price": 100.9,
+  "sizes": [
+    "One size fits all"
+  ],
+  "stock": 99996,
+  "unitCostUsd": 33.48,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809475159376",
+  "sourceColor": "Dn0069-7 stripes"
+},
+{
+  "slug": "solenne-printed-beach-cover-up-jade-abstract",
+  "name": "Solenne Printed Beach Cover-Up — Jade Abstract",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#6dab8b"
+  ],
+  "colorNames": [
+    "Jade Abstract"
+  ],
+  "description": "An airy, loose-cut maxi cover-up with a flowing hem, wide draped sleeves and a statement print.",
+  "materials": "Printed fabric. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solenne-printed-beach-cover-up-jade-abstract/front.webp",
+    "/products/solenne-printed-beach-cover-up-jade-abstract/back.webp",
+    "/products/solenne-printed-beach-cover-up-jade-abstract/left.webp",
+    "/products/solenne-printed-beach-cover-up-jade-abstract/right.webp"
+  ],
+  "price": 100.9,
+  "sizes": [
+    "One size fits all"
+  ],
+  "stock": 99997,
+  "unitCostUsd": 33.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809475159376",
+  "sourceColor": "Dn0069-14 abstract"
+},
+{
+  "slug": "solenne-printed-beach-cover-up-tropical-leaves",
+  "name": "Solenne Printed Beach Cover-Up — Tropical Leaves",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#1d5e55"
+  ],
+  "colorNames": [
+    "Tropical Leaves"
+  ],
+  "description": "An airy, loose-cut maxi cover-up with a flowing hem, wide draped sleeves and a statement print.",
+  "materials": "Printed fabric. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solenne-printed-beach-cover-up-tropical-leaves/front.webp",
+    "/products/solenne-printed-beach-cover-up-tropical-leaves/back.webp",
+    "/products/solenne-printed-beach-cover-up-tropical-leaves/left.webp",
+    "/products/solenne-printed-beach-cover-up-tropical-leaves/right.webp"
+  ],
+  "price": 99.9,
+  "sizes": [
+    "One size fits all"
+  ],
+  "stock": 99999,
+  "unitCostUsd": 33.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809475159376",
+  "sourceColor": "Dn0069-12 black background leaves"
+},
+{
+  "slug": "solenne-printed-beach-cover-up-midnight-floral",
+  "name": "Solenne Printed Beach Cover-Up — Midnight Floral",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#24304d"
+  ],
+  "colorNames": [
+    "Midnight Floral"
+  ],
+  "description": "An airy, loose-cut maxi cover-up with a flowing hem, wide draped sleeves and a statement print.",
+  "materials": "Printed fabric. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solenne-printed-beach-cover-up-midnight-floral/front.webp",
+    "/products/solenne-printed-beach-cover-up-midnight-floral/back.webp",
+    "/products/solenne-printed-beach-cover-up-midnight-floral/left.webp",
+    "/products/solenne-printed-beach-cover-up-midnight-floral/right.webp"
+  ],
+  "price": 99.9,
+  "sizes": [
+    "One size fits all"
+  ],
+  "stock": 99997,
+  "unitCostUsd": 33.02,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809475159376",
+  "sourceColor": "Dn0069 flowers"
+},
+{
+  "slug": "solenne-printed-beach-cover-up-indigo-mosaic",
+  "name": "Solenne Printed Beach Cover-Up — Indigo Mosaic",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#34476f"
+  ],
+  "colorNames": [
+    "Indigo Mosaic"
+  ],
+  "description": "An airy, loose-cut maxi cover-up with a flowing hem, wide draped sleeves and a statement print.",
+  "materials": "Printed fabric. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solenne-printed-beach-cover-up-indigo-mosaic/front.webp",
+    "/products/solenne-printed-beach-cover-up-indigo-mosaic/back.webp",
+    "/products/solenne-printed-beach-cover-up-indigo-mosaic/left.webp",
+    "/products/solenne-printed-beach-cover-up-indigo-mosaic/right.webp"
+  ],
+  "price": 101.9,
+  "sizes": [
+    "One size fits all"
+  ],
+  "stock": 99997,
+  "unitCostUsd": 33.66,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809475159376",
+  "sourceColor": "Dn0069-2 bow tie"
+},
+{
+  "slug": "solenne-printed-beach-cover-up-umber-zebra",
+  "name": "Solenne Printed Beach Cover-Up — Umber Zebra",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#82522f"
+  ],
+  "colorNames": [
+    "Umber Zebra"
+  ],
+  "description": "An airy, loose-cut maxi cover-up with a flowing hem, wide draped sleeves and a statement print.",
+  "materials": "Printed fabric. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solenne-printed-beach-cover-up-umber-zebra/front.webp",
+    "/products/solenne-printed-beach-cover-up-umber-zebra/back.webp",
+    "/products/solenne-printed-beach-cover-up-umber-zebra/left.webp",
+    "/products/solenne-printed-beach-cover-up-umber-zebra/right.webp"
+  ],
+  "price": 100.9,
+  "sizes": [
+    "One size fits all"
+  ],
+  "stock": 99982,
+  "unitCostUsd": 33.44,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809475159376",
+  "sourceColor": "Dn0069-4 zebra"
+},
+{
+  "slug": "solenne-printed-beach-cover-up-tropical-leopard",
+  "name": "Solenne Printed Beach Cover-Up — Tropical Leopard",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#988045"
+  ],
+  "colorNames": [
+    "Tropical Leopard"
+  ],
+  "description": "An airy, loose-cut maxi cover-up with a flowing hem, wide draped sleeves and a statement print.",
+  "materials": "Printed fabric. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solenne-printed-beach-cover-up-tropical-leopard/front.webp",
+    "/products/solenne-printed-beach-cover-up-tropical-leopard/back.webp",
+    "/products/solenne-printed-beach-cover-up-tropical-leopard/left.webp",
+    "/products/solenne-printed-beach-cover-up-tropical-leopard/right.webp"
+  ],
+  "price": 98.9,
+  "sizes": [
+    "One size fits all"
+  ],
+  "stock": 99997,
+  "unitCostUsd": 32.72,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809475159376",
+  "sourceColor": "Dn0069-11 large leopard print"
+},
+{
+  "slug": "solenne-printed-beach-cover-up-coral-stripe",
+  "name": "Solenne Printed Beach Cover-Up — Coral Stripe",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#e07055"
+  ],
+  "colorNames": [
+    "Coral Stripe"
+  ],
+  "description": "An airy, loose-cut maxi cover-up with a flowing hem, wide draped sleeves and a statement print.",
+  "materials": "Printed fabric. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solenne-printed-beach-cover-up-coral-stripe/front.webp",
+    "/products/solenne-printed-beach-cover-up-coral-stripe/back.webp",
+    "/products/solenne-printed-beach-cover-up-coral-stripe/left.webp",
+    "/products/solenne-printed-beach-cover-up-coral-stripe/right.webp"
+  ],
+  "price": 100.9,
+  "sizes": [
+    "One size fits all"
+  ],
+  "stock": 99997,
+  "unitCostUsd": 33.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809475159376",
+  "sourceColor": "Dn0069-13 orange"
+},
+{
+  "slug": "solenne-printed-beach-cover-up-bright-abstract",
+  "name": "Solenne Printed Beach Cover-Up — Bright Abstract",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#db5336"
+  ],
+  "colorNames": [
+    "Bright Abstract"
+  ],
+  "description": "An airy, loose-cut maxi cover-up with a flowing hem, wide draped sleeves and a statement print.",
+  "materials": "Printed fabric. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solenne-printed-beach-cover-up-bright-abstract/front.webp",
+    "/products/solenne-printed-beach-cover-up-bright-abstract/back.webp",
+    "/products/solenne-printed-beach-cover-up-bright-abstract/left.webp",
+    "/products/solenne-printed-beach-cover-up-bright-abstract/right.webp"
+  ],
+  "price": 100.9,
+  "sizes": [
+    "One size fits all"
+  ],
+  "stock": 99998,
+  "unitCostUsd": 33.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809475159376",
+  "sourceColor": "Dn0069-3 color"
+},
+{
+  "slug": "solenne-printed-beach-cover-up-black-and-sand",
+  "name": "Solenne Printed Beach Cover-Up — Black and Sand",
+  "vendor": "AMB BOUTIQUE",
+  "category": "Dresses",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "colors": [
+    "#38332d"
+  ],
+  "colorNames": [
+    "Black and Sand"
+  ],
+  "description": "An airy, loose-cut maxi cover-up with a flowing hem, wide draped sleeves and a statement print.",
+  "materials": "Printed fabric. See the care label for fiber details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solenne-printed-beach-cover-up-black-and-sand/front.webp",
+    "/products/solenne-printed-beach-cover-up-black-and-sand/back.webp",
+    "/products/solenne-printed-beach-cover-up-black-and-sand/left.webp",
+    "/products/solenne-printed-beach-cover-up-black-and-sand/right.webp"
+  ],
+  "price": 98.9,
+  "sizes": [
+    "One size fits all"
+  ],
+  "stock": 99994,
+  "unitCostUsd": 32.96,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809475159376",
+  "sourceColor": "Dn0069-6 khaki black"
 }
 ];
 
@@ -18858,6 +20613,57 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "aster-eyelet-two-piece-set-beige",
+  "virelle-woven-crossbody-bag-black",
+  "orlena-lace-balloon-sleeve-mini-dress-black",
+  "solenne-printed-beach-cover-up-indigo-mosaic",
+  "virelle-woven-crossbody-bag-emerald-green",
+  "virelle-woven-crossbody-bag-butter-yellow",
+  "virelle-woven-crossbody-bag-white",
+  "virelle-woven-crossbody-bag-mint",
+  "virelle-woven-crossbody-bag-cream",
+  "virelle-woven-crossbody-bag-lavender",
+  "virelle-woven-crossbody-bag-lime",
+  "virelle-woven-crossbody-bag-chocolate",
+  "virelle-woven-crossbody-bag-purple",
+  "virelle-woven-crossbody-bag-berry-rose",
+  "virelle-woven-crossbody-bag-terracotta",
+  "virelle-woven-crossbody-bag-pale-sage",
+  "virelle-woven-crossbody-bag-jade-green",
+  "serenella-ruffle-corset-three-piece-set-pink",
+  "serenella-ruffle-corset-three-piece-set-mint",
+  "serenella-ruffle-corset-three-piece-set-white",
+  "serenella-ruffle-corset-three-piece-set-beige",
+  "serenella-ruffle-corset-three-piece-set-burgundy",
+  "serenella-ruffle-corset-three-piece-set-black",
+  "aster-eyelet-two-piece-set-sky-blue",
+  "aster-eyelet-two-piece-set-green",
+  "aster-eyelet-two-piece-set-white",
+  "aveline-printed-blouse-blue-abstract",
+  "aveline-printed-blouse-black-leopard",
+  "aveline-printed-blouse-cream-spot",
+  "aveline-printed-blouse-brown-leopard",
+  "aveline-printed-blouse-white-spot",
+  "orlena-lace-balloon-sleeve-mini-dress-white",
+  "cerelia-lace-corset-mini-dress-white",
+  "cerelia-lace-corset-mini-dress-black",
+  "cerelia-lace-corset-mini-dress-red",
+  "pavelle-polka-dot-trouser-set-ivory-and-tan",
+  "pavelle-polka-dot-trouser-set-pink-and-lime",
+  "pavelle-polka-dot-trouser-set-caramel-and-white",
+  "olive-gingham-maxi-skirt-pink",
+  "olive-gingham-maxi-skirt-blue",
+  "marena-frayed-hem-denim-shorts-red",
+  "solenne-printed-beach-cover-up-cocoa-stripe",
+  "solenne-printed-beach-cover-up-jade-abstract",
+  "solenne-printed-beach-cover-up-tropical-leaves",
+  "solenne-printed-beach-cover-up-midnight-floral",
+  "solenne-printed-beach-cover-up-umber-zebra",
+  "solenne-printed-beach-cover-up-tropical-leopard",
+  "solenne-printed-beach-cover-up-coral-stripe",
+  "solenne-printed-beach-cover-up-bright-abstract",
+  "solenne-printed-beach-cover-up-black-and-sand",
+
   "orlena-lace-balloon-sleeve-mini-dress-beige",
   "orlena-lace-balloon-sleeve-mini-dress-coffee",
 
