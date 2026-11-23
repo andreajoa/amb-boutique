@@ -134,6 +134,10 @@ assert.match(routeSrc, /export async function POST\(\)/, "POST /api/delivery-win
 assert.match(routeSrc, /POST_SYNC_COOLDOWN_MS/, "POST /api/delivery-windows must enforce rate-limit cooldown");
 assert.match(routeSrc, /syncDeliveryWindowsFromManager\(/, "POST /api/delivery-windows must pull from Store Manager server-side");
 
+// 9. Delivery sync persists via bulk jsonb_to_recordset (avoids N sequential Neon round-trips / 502 timeouts)
+const deliveryStoreSrc = fs.readFileSync(path.resolve("app/product-delivery.ts"), "utf8");
+assert.match(deliveryStoreSrc, /jsonb_to_recordset/, "syncDeliveryWindowsFromManager must use bulk SQL upsert/prune");
+
 console.log(JSON.stringify({
   ok: true,
   fast5: { range: fast5.rangeLabel, label: fast5.windowLabel, isFast: fast5.isFast },

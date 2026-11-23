@@ -125,8 +125,14 @@ export async function syncDeliveryWindowsFromManager(): Promise<DeliverySyncResu
   const rawProducts = body.products;
   await ensureProductDeliverySchema();
 
-  const validKeys = new Set<string>();
-  let syncedRows = 0;
+  const upsertRows: Array<{
+    slug: string;
+    market: MarketCode;
+    min_days: number;
+    max_days: number;
+    source: string;
+    source_updated_at: string | null;
+  }> = [];
 
   for (const [slug, marketMap] of Object.entries(sanitized)) {
     const rawEntry = rawProducts[slug];
@@ -136,35 +142,63 @@ export async function syncDeliveryWindowsFromManager(): Promise<DeliverySyncResu
         ? new Date(sourceUpdatedRaw).toISOString()
         : null;
 
-      await sql`
-        INSERT INTO amb_product_delivery_windows (slug, market, min_days, max_days, source, source_updated_at, synced_at)
-        VALUES (${slug}, ${market}, ${win.minDays}, ${win.maxDays}, ${win.source || "supplier-quote"}, ${sourceUpdatedAt}, now())
-        ON CONFLICT (slug, market) DO UPDATE SET
-          min_days = EXCLUDED.min_days,
-          max_days = EXCLUDED.max_days,
-          source = EXCLUDED.source,
-          source_updated_at = EXCLUDED.source_updated_at,
-          synced_at = now()
-      `;
-      validKeys.add(`${slug}:${market}`);
-      syncedRows++;
+      upsertRows.push({
+        slug,
+        market,
+        min_days: win.minDays,
+        max_days: win.maxDays,
+        source: win.source || "supplier-quote",
+        source_updated_at: sourceUpdatedAt,
+      });
     }
   }
 
-  // Prune stale rows only when Store Manager confirmed linked products exist
+  // Bulk upsert in chunks of 500 via jsonb_to_recordset (500+ rows in 1-2 SQL round-trips instead of N sequential queries)
+  const UPSERT_CHUNK_SIZE = 500;
+  for (let i = 0; i < upsertRows.length; i += UPSERT_CHUNK_SIZE) {
+    const chunkJson = JSON.stringify(upsertRows.slice(i, i + UPSERT_CHUNK_SIZE));
+    await sql`
+      INSERT INTO amb_product_delivery_windows (slug, market, min_days, max_days, source, source_updated_at, synced_at)
+      SELECT t.slug, t.market, t.min_days, t.max_days, t.source, t.source_updated_at, now()
+      FROM jsonb_to_recordset(${chunkJson}::jsonb) AS t(
+        slug text,
+        market text,
+        min_days integer,
+        max_days integer,
+        source text,
+        source_updated_at timestamptz
+      )
+      ON CONFLICT (slug, market) DO UPDATE SET
+        min_days = EXCLUDED.min_days,
+        max_days = EXCLUDED.max_days,
+        source = EXCLUDED.source,
+        source_updated_at = EXCLUDED.source_updated_at,
+        synced_at = now()
+    `;
+  }
+  const syncedRows = upsertRows.length;
+
+  // Bulk prune stale rows in a single SQL statement only when Store Manager confirmed linked products exist
   let removedRows = 0;
   if ((body.linkedCount ?? 0) > 0) {
-    const existingRows = await sql`
-      SELECT slug, market FROM amb_product_delivery_windows
-    ` as Array<{ slug: string; market: string }>;
-    for (const row of existingRows) {
-      if (!validKeys.has(`${row.slug}:${row.market}`)) {
-        await sql`
-          DELETE FROM amb_product_delivery_windows
-          WHERE slug = ${row.slug} AND market = ${row.market}
-        `;
-        removedRows++;
-      }
+    if (upsertRows.length > 0) {
+      const validKeysJson = JSON.stringify(upsertRows.map((row) => ({ slug: row.slug, market: row.market })));
+      const deleted = await sql`
+        DELETE FROM amb_product_delivery_windows d
+        WHERE NOT EXISTS (
+          SELECT 1
+          FROM jsonb_to_recordset(${validKeysJson}::jsonb) AS k(slug text, market text)
+          WHERE k.slug = d.slug AND k.market = d.market
+        )
+        RETURNING d.slug
+      ` as Array<{ slug: string }>;
+      removedRows = deleted.length;
+    } else {
+      const deleted = await sql`
+        DELETE FROM amb_product_delivery_windows
+        RETURNING slug
+      ` as Array<{ slug: string }>;
+      removedRows = deleted.length;
     }
   }
 
