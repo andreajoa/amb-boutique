@@ -20971,6 +20971,377 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256806664357699",
   "sourceColor": "blue"
+},
+{
+  "slug": "portofino-carryall-coffee",
+  "name": "Portofino Carryall — Coffee",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 80.9,
+  "colors": [
+    "#54372f"
+  ],
+  "colorNames": [
+    "Coffee"
+  ],
+  "sizes": [
+    "Large(Max Length>50cm)"
+  ],
+  "description": "A soft flared shoulder tote with long straps, a center seam and a small gold-tone front turn-lock.",
+  "materials": "Smooth leather-look finish with gold-tone hardware.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/portofino-carryall-coffee/front.webp",
+    "/products/portofino-carryall-coffee/back.webp",
+    "/products/portofino-carryall-coffee/left.webp",
+    "/products/portofino-carryall-coffee/right.webp"
+  ],
+  "stock": 22,
+  "unitCostUsd": 26.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810459789070",
+  "sourceColor": "Coffee"
+},
+{
+  "slug": "vespera-tailored-vest-trouser-set-black",
+  "name": "Vespera Tailored Vest and Trouser Set — Black",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 99.9,
+  "colors": [
+    "#1b1b1b"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A sleeveless notched-lapel vest with a button front and angled hem, paired with matching full-length wide-leg trousers.",
+  "materials": "Tailored fabric. See the garment label for fiber and care details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/vespera-tailored-vest-trouser-set-black/front.webp",
+    "/products/vespera-tailored-vest-trouser-set-black/back.webp",
+    "/products/vespera-tailored-vest-trouser-set-black/left.webp",
+    "/products/vespera-tailored-vest-trouser-set-black/right.webp"
+  ],
+  "stock": 4995,
+  "unitCostUsd": 33.12,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005010684411318",
+  "sourceColor": "black"
+},
+{
+  "slug": "auralie-open-back-sequin-mini-dress-lime",
+  "name": "Auralie Open-Back Sequin Mini Dress — Lime",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#b5c824"
+  ],
+  "colorNames": [
+    "Lime"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A sleeveless mini dress covered in overlapping disc sequins with a high front neckline, a low scoop back and a relaxed skirt.",
+  "materials": "Fabric with oversized disc sequins. Follow the care label.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/auralie-open-back-sequin-mini-dress-lime/front.webp",
+    "/products/auralie-open-back-sequin-mini-dress-lime/back.webp",
+    "/products/auralie-open-back-sequin-mini-dress-lime/left.webp",
+    "/products/auralie-open-back-sequin-mini-dress-lime/right.webp"
+  ],
+  "stock": 2997,
+  "unitCostUsd": 42.11,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812526151445",
+  "sourceColor": "GRAY"
+},
+{
+  "slug": "loretta-cold-shoulder-midi-dress-burnt-orange",
+  "name": "Loretta Cold-Shoulder Midi Dress — Burnt Orange",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#bb511e"
+  ],
+  "colorNames": [
+    "Burnt Orange"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted midi dress with a high collar, exposed shoulders, draped sleeve panels and a gathered sheath silhouette.",
+  "materials": "Smooth draped fabric. See the garment label for fiber and care details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/loretta-cold-shoulder-midi-dress-burnt-orange/front.webp",
+    "/products/loretta-cold-shoulder-midi-dress-burnt-orange/back.webp",
+    "/products/loretta-cold-shoulder-midi-dress-burnt-orange/left.webp",
+    "/products/loretta-cold-shoulder-midi-dress-burnt-orange/right.webp"
+  ],
+  "stock": 5991,
+  "unitCostUsd": 22.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806664357699",
+  "sourceColor": "orange"
+},
+{
+  "slug": "loretta-cold-shoulder-midi-dress-forest-green",
+  "name": "Loretta Cold-Shoulder Midi Dress — Forest Green",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#2d5237"
+  ],
+  "colorNames": [
+    "Forest Green"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted midi dress with a high collar, exposed shoulders, draped sleeve panels and a gathered sheath silhouette.",
+  "materials": "Smooth draped fabric. See the garment label for fiber and care details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/loretta-cold-shoulder-midi-dress-forest-green/front.webp",
+    "/products/loretta-cold-shoulder-midi-dress-forest-green/back.webp",
+    "/products/loretta-cold-shoulder-midi-dress-forest-green/left.webp",
+    "/products/loretta-cold-shoulder-midi-dress-forest-green/right.webp"
+  ],
+  "stock": 5992,
+  "unitCostUsd": 22.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806664357699",
+  "sourceColor": "Dark-green"
+},
+{
+  "slug": "loretta-cold-shoulder-midi-dress-fuchsia",
+  "name": "Loretta Cold-Shoulder Midi Dress — Fuchsia",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#cf157a"
+  ],
+  "colorNames": [
+    "Fuchsia"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted midi dress with a high collar, exposed shoulders, draped sleeve panels and a gathered sheath silhouette.",
+  "materials": "Smooth draped fabric. See the garment label for fiber and care details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/loretta-cold-shoulder-midi-dress-fuchsia/front.webp",
+    "/products/loretta-cold-shoulder-midi-dress-fuchsia/back.webp",
+    "/products/loretta-cold-shoulder-midi-dress-fuchsia/left.webp",
+    "/products/loretta-cold-shoulder-midi-dress-fuchsia/right.webp"
+  ],
+  "stock": 5992,
+  "unitCostUsd": 22.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806664357699",
+  "sourceColor": "Rose-red"
+},
+{
+  "slug": "loretta-cold-shoulder-midi-dress-indigo",
+  "name": "Loretta Cold-Shoulder Midi Dress — Indigo",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#312969"
+  ],
+  "colorNames": [
+    "Indigo"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted midi dress with a high collar, exposed shoulders, draped sleeve panels and a gathered sheath silhouette.",
+  "materials": "Smooth draped fabric. See the garment label for fiber and care details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/loretta-cold-shoulder-midi-dress-indigo/front.webp",
+    "/products/loretta-cold-shoulder-midi-dress-indigo/back.webp",
+    "/products/loretta-cold-shoulder-midi-dress-indigo/left.webp",
+    "/products/loretta-cold-shoulder-midi-dress-indigo/right.webp"
+  ],
+  "stock": 5991,
+  "unitCostUsd": 22.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806664357699",
+  "sourceColor": "Dark-blue"
+},
+{
+  "slug": "loretta-cold-shoulder-midi-dress-pink",
+  "name": "Loretta Cold-Shoulder Midi Dress — Pink",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#cc709d"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted midi dress with a high collar, exposed shoulders, draped sleeve panels and a gathered sheath silhouette.",
+  "materials": "Smooth draped fabric. See the garment label for fiber and care details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/loretta-cold-shoulder-midi-dress-pink/front.webp",
+    "/products/loretta-cold-shoulder-midi-dress-pink/back.webp",
+    "/products/loretta-cold-shoulder-midi-dress-pink/left.webp",
+    "/products/loretta-cold-shoulder-midi-dress-pink/right.webp"
+  ],
+  "stock": 5989,
+  "unitCostUsd": 22.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806664357699",
+  "sourceColor": "pink"
+},
+{
+  "slug": "loretta-cold-shoulder-midi-dress-white",
+  "name": "Loretta Cold-Shoulder Midi Dress — White",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#eeece7"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted midi dress with a high collar, exposed shoulders, draped sleeve panels and a gathered sheath silhouette.",
+  "materials": "Smooth draped fabric. See the garment label for fiber and care details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/loretta-cold-shoulder-midi-dress-white/front.webp",
+    "/products/loretta-cold-shoulder-midi-dress-white/back.webp",
+    "/products/loretta-cold-shoulder-midi-dress-white/left.webp",
+    "/products/loretta-cold-shoulder-midi-dress-white/right.webp"
+  ],
+  "stock": 5966,
+  "unitCostUsd": 22.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806664357699",
+  "sourceColor": "white"
+},
+{
+  "slug": "loretta-cold-shoulder-midi-dress-wine",
+  "name": "Loretta Cold-Shoulder Midi Dress — Wine",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#792730"
+  ],
+  "colorNames": [
+    "Wine"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted midi dress with a high collar, exposed shoulders, draped sleeve panels and a gathered sheath silhouette.",
+  "materials": "Smooth draped fabric. See the garment label for fiber and care details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/loretta-cold-shoulder-midi-dress-wine/front.webp",
+    "/products/loretta-cold-shoulder-midi-dress-wine/back.webp",
+    "/products/loretta-cold-shoulder-midi-dress-wine/left.webp",
+    "/products/loretta-cold-shoulder-midi-dress-wine/right.webp"
+  ],
+  "stock": 5990,
+  "unitCostUsd": 22.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806664357699",
+  "sourceColor": "Wine-red"
 }
 ];
 
@@ -20980,6 +21351,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "portofino-carryall-coffee",
+  "vespera-tailored-vest-trouser-set-black",
+  "auralie-open-back-sequin-mini-dress-lime",
+  "loretta-cold-shoulder-midi-dress-burnt-orange",
+  "loretta-cold-shoulder-midi-dress-forest-green",
+  "loretta-cold-shoulder-midi-dress-fuchsia",
+  "loretta-cold-shoulder-midi-dress-indigo",
+  "loretta-cold-shoulder-midi-dress-pink",
+  "loretta-cold-shoulder-midi-dress-white",
+  "loretta-cold-shoulder-midi-dress-wine",
+
   "auralie-open-back-sequin-mini-dress-ice-blue",
   "vespera-tailored-vest-trouser-set-pink",
   "sorelle-draped-halter-maxi-dress-taupe",

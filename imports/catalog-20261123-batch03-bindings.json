@@ -1,0 +1,299 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "portofino-carryall-coffee",
+      "sourceProductId": "3256810459789070",
+      "sourceColor": "Coffee",
+      "supplierId": "ambsp-80f88e974aefcf1488ad3ee5ff26636e",
+      "sourceSkuIdsBySize": {
+        "Large(Max Length>50cm)": "12000053083128761"
+      },
+      "landedCostUsdBySize": {
+        "Large(Max Length>50cm)": 26.88
+      },
+      "stockBySize": {
+        "Large(Max Length>50cm)": 22
+      },
+      "retailPriceUsd": 80.9,
+      "verifiedAtUtc": "2026-11-23T16:02:02.262Z"
+    },
+    {
+      "slug": "vespera-tailored-vest-trouser-set-black",
+      "sourceProductId": "1005010684411318",
+      "sourceColor": "black",
+      "supplierId": "cmsxzxvoz001g04ib3by681io",
+      "sourceSkuIdsBySize": {
+        "S": "12000053184203274",
+        "M": "12000053184203275",
+        "XXL": "12000053184203278",
+        "L": "12000053184203276",
+        "XL": "12000053184203277"
+      },
+      "landedCostUsdBySize": {
+        "S": 33.12,
+        "M": 33.12,
+        "XXL": 33.12,
+        "L": 33.12,
+        "XL": 33.12
+      },
+      "stockBySize": {
+        "S": 999,
+        "M": 999,
+        "XXL": 999,
+        "L": 999,
+        "XL": 999
+      },
+      "retailPriceUsd": 99.9,
+      "verifiedAtUtc": "2026-11-23T16:03:05.884Z"
+    },
+    {
+      "slug": "auralie-open-back-sequin-mini-dress-lime",
+      "sourceProductId": "3256812526151445",
+      "sourceColor": "GRAY",
+      "supplierId": "cmsyoolrp000y04kyth5a1r4k",
+      "sourceSkuIdsBySize": {
+        "M": "12000059506065681",
+        "L": "12000059506065664",
+        "S": "12000059506065670"
+      },
+      "landedCostUsdBySize": {
+        "M": 42.11,
+        "L": 42.11,
+        "S": 42.11
+      },
+      "stockBySize": {
+        "M": 999,
+        "L": 999,
+        "S": 999
+      },
+      "retailPriceUsd": 126.9,
+      "verifiedAtUtc": "2026-11-23T16:01:37.212Z"
+    },
+    {
+      "slug": "loretta-cold-shoulder-midi-dress-burnt-orange",
+      "sourceProductId": "3256806664357699",
+      "sourceColor": "orange",
+      "supplierId": "cmsyp28ar005304jlwh43ww1f",
+      "sourceSkuIdsBySize": {
+        "L": "12000038511808603",
+        "M": "12000038511808602",
+        "S": "12000038511808601",
+        "XXXL": "12000038511808606",
+        "XXL": "12000038511808605",
+        "XL": "12000038511808604"
+      },
+      "landedCostUsdBySize": {
+        "L": 22.51,
+        "M": 22.51,
+        "S": 22.51,
+        "XXXL": 22.51,
+        "XXL": 22.51,
+        "XL": 22.51
+      },
+      "stockBySize": {
+        "L": 999,
+        "M": 998,
+        "S": 999,
+        "XXXL": 999,
+        "XXL": 999,
+        "XL": 997
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-23T16:06:59.667Z"
+    },
+    {
+      "slug": "loretta-cold-shoulder-midi-dress-forest-green",
+      "sourceProductId": "3256806664357699",
+      "sourceColor": "Dark-green",
+      "supplierId": "cmsyp28ar005304jlwh43ww1f",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000038511808642",
+        "XXL": "12000038511808641",
+        "XL": "12000038511808640",
+        "L": "12000038511808639",
+        "M": "12000038511808638",
+        "S": "12000038511808637"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 22.51,
+        "XXL": 22.51,
+        "XL": 22.51,
+        "L": 22.51,
+        "M": 22.51,
+        "S": 22.51
+      },
+      "stockBySize": {
+        "XXXL": 999,
+        "XXL": 999,
+        "XL": 998,
+        "L": 998,
+        "M": 999,
+        "S": 999
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-23T16:06:59.667Z"
+    },
+    {
+      "slug": "loretta-cold-shoulder-midi-dress-fuchsia",
+      "sourceProductId": "3256806664357699",
+      "sourceColor": "Rose-red",
+      "supplierId": "cmsyp28ar005304jlwh43ww1f",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000038511808648",
+        "S": "12000038511808643",
+        "XXL": "12000038511808647",
+        "XL": "12000038511808646",
+        "L": "12000038511808645",
+        "M": "12000038511808644"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 22.51,
+        "S": 22.51,
+        "XXL": 22.51,
+        "XL": 22.51,
+        "L": 22.51,
+        "M": 22.51
+      },
+      "stockBySize": {
+        "XXXL": 999,
+        "S": 999,
+        "XXL": 999,
+        "XL": 998,
+        "L": 999,
+        "M": 998
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-23T16:06:59.667Z"
+    },
+    {
+      "slug": "loretta-cold-shoulder-midi-dress-indigo",
+      "sourceProductId": "3256806664357699",
+      "sourceColor": "Dark-blue",
+      "supplierId": "cmsyp28ar005304jlwh43ww1f",
+      "sourceSkuIdsBySize": {
+        "L": "12000038511808627",
+        "M": "12000038511808626",
+        "S": "12000038511808625",
+        "XXXL": "12000038511808630",
+        "XXL": "12000038511808629",
+        "XL": "12000038511808628"
+      },
+      "landedCostUsdBySize": {
+        "L": 22.51,
+        "M": 22.51,
+        "S": 22.51,
+        "XXXL": 22.51,
+        "XXL": 22.51,
+        "XL": 22.51
+      },
+      "stockBySize": {
+        "L": 997,
+        "M": 998,
+        "S": 999,
+        "XXXL": 999,
+        "XXL": 999,
+        "XL": 999
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-23T16:06:59.667Z"
+    },
+    {
+      "slug": "loretta-cold-shoulder-midi-dress-pink",
+      "sourceProductId": "3256806664357699",
+      "sourceColor": "pink",
+      "supplierId": "cmsyp28ar005304jlwh43ww1f",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000038511808594",
+        "XXL": "12000038511808593",
+        "XL": "12000038511808592",
+        "L": "12000038511808591",
+        "M": "12000038511808590",
+        "S": "12000038511808589"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 22.51,
+        "XXL": 22.51,
+        "XL": 22.51,
+        "L": 22.51,
+        "M": 22.51,
+        "S": 22.51
+      },
+      "stockBySize": {
+        "XXXL": 998,
+        "XXL": 999,
+        "XL": 998,
+        "L": 999,
+        "M": 999,
+        "S": 996
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-23T16:06:59.667Z"
+    },
+    {
+      "slug": "loretta-cold-shoulder-midi-dress-white",
+      "sourceProductId": "3256806664357699",
+      "sourceColor": "white",
+      "supplierId": "cmsyp28ar005304jlwh43ww1f",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000038511808624",
+        "S": "12000038511808619",
+        "XXL": "12000038511808623",
+        "XL": "12000038511808622",
+        "L": "12000038511808621",
+        "M": "12000038511808620"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 22.51,
+        "S": 22.51,
+        "XXL": 22.51,
+        "XL": 22.51,
+        "L": 22.51,
+        "M": 22.51
+      },
+      "stockBySize": {
+        "XXXL": 997,
+        "S": 991,
+        "XXL": 998,
+        "XL": 994,
+        "L": 996,
+        "M": 990
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-23T16:06:59.667Z"
+    },
+    {
+      "slug": "loretta-cold-shoulder-midi-dress-wine",
+      "sourceProductId": "3256806664357699",
+      "sourceColor": "Wine-red",
+      "supplierId": "cmsyp28ar005304jlwh43ww1f",
+      "sourceSkuIdsBySize": {
+        "L": "12000038511808651",
+        "M": "12000038511808650",
+        "S": "12000038511808649",
+        "XXXL": "12000038511808654",
+        "XXL": "12000038511808653",
+        "XL": "12000038511808652"
+      },
+      "landedCostUsdBySize": {
+        "L": 22.51,
+        "M": 22.51,
+        "S": 22.51,
+        "XXXL": 22.51,
+        "XXL": 22.51,
+        "XL": 22.51
+      },
+      "stockBySize": {
+        "L": 999,
+        "M": 998,
+        "S": 998,
+        "XXXL": 998,
+        "XXL": 999,
+        "XL": 998
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-23T16:06:59.667Z"
+    }
+  ]
+}
