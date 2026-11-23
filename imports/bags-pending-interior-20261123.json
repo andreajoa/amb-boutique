@@ -1,5 +1,5 @@
 {
-  "note": "Frozen pending list for the 14 virelle-woven-crossbody-bag-* colorways awaiting open-interior studio generation (blocked by transient image-generator HTTP 503 on 2026-11-23). NEVER add new slugs here — every new bag MUST include /products/<slug>/inside.webp before build.",
+  "note": "The 14 Virelle colorways are awaiting a verified interior reference for the exact model. New bags require an inside view at /products/<slug>/inside.webp before publication.",
   "pendingSlugs": [
     "virelle-woven-crossbody-bag-black",
     "virelle-woven-crossbody-bag-emerald-green",
