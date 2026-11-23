@@ -1172,5 +1172,92 @@
   "stockBySize": {
    "One size fits all": 99994
   }
+ },
+ "auralie-open-back-sequin-mini-dress-ice-blue": {
+  "stockBySize": {
+   "S": 999,
+   "L": 999,
+   "M": 999
+  }
+ },
+ "vespera-tailored-vest-trouser-set-pink": {
+  "stockBySize": {
+   "L": 997,
+   "XL": 998,
+   "S": 999,
+   "M": 999,
+   "XXL": 999
+  }
+ },
+ "sorelle-draped-halter-maxi-dress-taupe": {
+  "stockBySize": {
+   "M": 9997,
+   "L": 9999,
+   "S": 9994
+  }
+ },
+ "loretta-cold-shoulder-midi-dress-purple": {
+  "stockBySize": {
+   "S": 999,
+   "XXL": 999,
+   "XL": 997,
+   "L": 999,
+   "M": 998,
+   "XXXL": 999
+  }
+ },
+ "auralie-open-back-sequin-mini-dress-violet": {
+  "stockBySize": {
+   "L": 999,
+   "M": 999,
+   "S": 999
+  }
+ },
+ "vespera-tailored-vest-trouser-set-sand": {
+  "stockBySize": {
+   "S": 999,
+   "XL": 999,
+   "XXL": 999,
+   "M": 999,
+   "L": 999
+  }
+ },
+ "vespera-tailored-vest-trouser-set-scarlet": {
+  "stockBySize": {
+   "M": 999,
+   "L": 996,
+   "S": 999,
+   "XL": 999,
+   "XXL": 998
+  }
+ },
+ "vespera-tailored-vest-trouser-set-sky-blue": {
+  "stockBySize": {
+   "S": 999,
+   "M": 999,
+   "XXL": 999,
+   "L": 999,
+   "XL": 998
+  }
+ },
+ "loretta-cold-shoulder-midi-dress-red": {
+  "stockBySize": {
+   "XXXL": 999,
+   "XXL": 998,
+   "XL": 998,
+   "L": 998,
+   "M": 998,
+   "S": 997
+  }
+ },
+ "loretta-cold-shoulder-midi-dress-royal-blue": {
+  "stockBySize": {
+   "XXXL": 999,
+   "S": 999,
+   "XXL": 999,
+   "XL": 999,
+   "L": 998,
+   "M": 998
+  }
  }
 }

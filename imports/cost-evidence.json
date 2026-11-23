@@ -109,6 +109,14 @@
    "landedCostUsd": 17.72,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "auralie-open-back-sequin-mini-dress-ice-blue": {
+   "landedCostUsd": 42.11,
+   "source": "catalog-20261123-batch02-bindings.json"
+  },
+  "auralie-open-back-sequin-mini-dress-violet": {
+   "landedCostUsd": 42.11,
+   "source": "catalog-20261123-batch02-bindings.json"
+  },
   "aurora-galaxy-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -700,6 +708,18 @@
   "liora-twist-back-knit-tank-khaki": {
    "landedCostUsd": 11.32,
    "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "loretta-cold-shoulder-midi-dress-purple": {
+   "landedCostUsd": 22.51,
+   "source": "catalog-20261123-batch02-bindings.json"
+  },
+  "loretta-cold-shoulder-midi-dress-red": {
+   "landedCostUsd": 22.51,
+   "source": "catalog-20261123-batch02-bindings.json"
+  },
+  "loretta-cold-shoulder-midi-dress-royal-blue": {
+   "landedCostUsd": 22.51,
+   "source": "catalog-20261123-batch02-bindings.json"
   },
   "loretta-navy-floral-maxi-dress": {
    "landedCostUsd": 21.04,
@@ -1305,6 +1325,10 @@
    "landedCostUsd": 33.44,
    "source": "catalog-20261123-batch01-bindings.json"
   },
+  "sorelle-draped-halter-maxi-dress-taupe": {
+   "landedCostUsd": 25.75,
+   "source": "catalog-20261123-batch02-bindings.json"
+  },
   "stella-galaxy-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -1396,6 +1420,22 @@
   "verdelle-lace-bodice-pleated-gown-green": {
    "landedCostUsd": 62.85,
    "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "vespera-tailored-vest-trouser-set-pink": {
+   "landedCostUsd": 33.12,
+   "source": "catalog-20261123-batch02-bindings.json"
+  },
+  "vespera-tailored-vest-trouser-set-sand": {
+   "landedCostUsd": 33.12,
+   "source": "catalog-20261123-batch02-bindings.json"
+  },
+  "vespera-tailored-vest-trouser-set-scarlet": {
+   "landedCostUsd": 33.12,
+   "source": "catalog-20261123-batch02-bindings.json"
+  },
+  "vespera-tailored-vest-trouser-set-sky-blue": {
+   "landedCostUsd": 33.12,
+   "source": "catalog-20261123-batch02-bindings.json"
   },
   "vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19": {
    "landedCostUsd": 27.81,
