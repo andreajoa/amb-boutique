@@ -22823,6 +22823,386 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256809079176849",
   "sourceColor": "black"
+},
+{
+  "slug": "nerisse-button-collar-sweater-dress-oatmeal",
+  "name": "Nerisse Button-Collar Sweater Dress — Oatmeal",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 108.9,
+  "colors": [
+    "#baac97"
+  ],
+  "colorNames": [
+    "Oatmeal"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A relaxed sweater dress with a stand collar, short button placket and ribbed cuffs and hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/nerisse-button-collar-sweater-dress-oatmeal/front.webp",
+    "/products/nerisse-button-collar-sweater-dress-oatmeal/back.webp",
+    "/products/nerisse-button-collar-sweater-dress-oatmeal/left.webp",
+    "/products/nerisse-button-collar-sweater-dress-oatmeal/right.webp"
+  ],
+  "stock": 4789,
+  "unitCostUsd": 36.01,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810246689450",
+  "sourceColor": "Khaki"
+},
+{
+  "slug": "civenne-ribbed-turtleneck-mini-dress-brick-red",
+  "name": "Civenne Ribbed Turtleneck Mini Dress — Brick Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#993b27"
+  ],
+  "colorNames": [
+    "Brick Red"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed sweater dress with a folded turtleneck and a straight mini hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/civenne-ribbed-turtleneck-mini-dress-brick-red/front.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-brick-red/back.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-brick-red/left.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-brick-red/right.webp"
+  ],
+  "stock": 5992,
+  "unitCostUsd": 28.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809079176849",
+  "sourceColor": "Claret"
+},
+{
+  "slug": "nerisse-button-collar-sweater-dress-black",
+  "name": "Nerisse Button-Collar Sweater Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 108.9,
+  "colors": [
+    "#252225"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A relaxed sweater dress with a stand collar, short button placket and ribbed cuffs and hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/nerisse-button-collar-sweater-dress-black/front.webp",
+    "/products/nerisse-button-collar-sweater-dress-black/back.webp",
+    "/products/nerisse-button-collar-sweater-dress-black/left.webp",
+    "/products/nerisse-button-collar-sweater-dress-black/right.webp"
+  ],
+  "stock": 4780,
+  "unitCostUsd": 36.01,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810246689450",
+  "sourceColor": "black"
+},
+{
+  "slug": "civenne-ribbed-turtleneck-mini-dress-forest-green",
+  "name": "Civenne Ribbed Turtleneck Mini Dress — Forest Green",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#3d4634"
+  ],
+  "colorNames": [
+    "Forest Green"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed sweater dress with a folded turtleneck and a straight mini hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/civenne-ribbed-turtleneck-mini-dress-forest-green/front.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-forest-green/back.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-forest-green/left.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-forest-green/right.webp"
+  ],
+  "stock": 5991,
+  "unitCostUsd": 28.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809079176849",
+  "sourceColor": "Dark Green"
+},
+{
+  "slug": "nerisse-button-collar-sweater-dress-red",
+  "name": "Nerisse Button-Collar Sweater Dress — Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 108.9,
+  "colors": [
+    "#ad1726"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A relaxed sweater dress with a stand collar, short button placket and ribbed cuffs and hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/nerisse-button-collar-sweater-dress-red/front.webp",
+    "/products/nerisse-button-collar-sweater-dress-red/back.webp",
+    "/products/nerisse-button-collar-sweater-dress-red/left.webp",
+    "/products/nerisse-button-collar-sweater-dress-red/right.webp"
+  ],
+  "stock": 4787,
+  "unitCostUsd": 36.01,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810246689450",
+  "sourceColor": "Red"
+},
+{
+  "slug": "civenne-ribbed-turtleneck-mini-dress-off-white",
+  "name": "Civenne Ribbed Turtleneck Mini Dress — Off White",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#e4e0df"
+  ],
+  "colorNames": [
+    "Off White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed sweater dress with a folded turtleneck and a straight mini hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/civenne-ribbed-turtleneck-mini-dress-off-white/front.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-off-white/back.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-off-white/left.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-off-white/right.webp"
+  ],
+  "stock": 5993,
+  "unitCostUsd": 28.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809079176849",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "nerisse-button-collar-sweater-dress-gold",
+  "name": "Nerisse Button-Collar Sweater Dress — Gold",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 108.9,
+  "colors": [
+    "#d2b027"
+  ],
+  "colorNames": [
+    "Gold"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A relaxed sweater dress with a stand collar, short button placket and ribbed cuffs and hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/nerisse-button-collar-sweater-dress-gold/front.webp",
+    "/products/nerisse-button-collar-sweater-dress-gold/back.webp",
+    "/products/nerisse-button-collar-sweater-dress-gold/left.webp",
+    "/products/nerisse-button-collar-sweater-dress-gold/right.webp"
+  ],
+  "stock": 4793,
+  "unitCostUsd": 36.01,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810246689450",
+  "sourceColor": "YELLOW"
+},
+{
+  "slug": "civenne-ribbed-turtleneck-mini-dress-light-gray",
+  "name": "Civenne Ribbed Turtleneck Mini Dress — Light Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#b6b6ba"
+  ],
+  "colorNames": [
+    "Light Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed sweater dress with a folded turtleneck and a straight mini hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/civenne-ribbed-turtleneck-mini-dress-light-gray/front.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-light-gray/back.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-light-gray/left.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-light-gray/right.webp"
+  ],
+  "stock": 5994,
+  "unitCostUsd": 28.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809079176849",
+  "sourceColor": "Light Grey"
+},
+{
+  "slug": "nerisse-button-collar-sweater-dress-pumpkin",
+  "name": "Nerisse Button-Collar Sweater Dress — Pumpkin",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 108.9,
+  "colors": [
+    "#d3641b"
+  ],
+  "colorNames": [
+    "Pumpkin"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A relaxed sweater dress with a stand collar, short button placket and ribbed cuffs and hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/nerisse-button-collar-sweater-dress-pumpkin/front.webp",
+    "/products/nerisse-button-collar-sweater-dress-pumpkin/back.webp",
+    "/products/nerisse-button-collar-sweater-dress-pumpkin/left.webp",
+    "/products/nerisse-button-collar-sweater-dress-pumpkin/right.webp"
+  ],
+  "stock": 4770,
+  "unitCostUsd": 36.01,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810246689450",
+  "sourceColor": "ORANGE RED"
+},
+{
+  "slug": "civenne-ribbed-turtleneck-mini-dress-stone",
+  "name": "Civenne Ribbed Turtleneck Mini Dress — Stone",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#b6ab93"
+  ],
+  "colorNames": [
+    "Stone"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed sweater dress with a folded turtleneck and a straight mini hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/civenne-ribbed-turtleneck-mini-dress-stone/front.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-stone/back.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-stone/left.webp",
+    "/products/civenne-ribbed-turtleneck-mini-dress-stone/right.webp"
+  ],
+  "stock": 5991,
+  "unitCostUsd": 28.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809079176849",
+  "sourceColor": "Lotus root color"
 }
 ];
 
@@ -22832,6 +23212,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "nerisse-button-collar-sweater-dress-oatmeal",
+  "civenne-ribbed-turtleneck-mini-dress-brick-red",
+  "nerisse-button-collar-sweater-dress-black",
+  "civenne-ribbed-turtleneck-mini-dress-forest-green",
+  "nerisse-button-collar-sweater-dress-red",
+  "civenne-ribbed-turtleneck-mini-dress-off-white",
+  "nerisse-button-collar-sweater-dress-gold",
+  "civenne-ribbed-turtleneck-mini-dress-light-gray",
+  "nerisse-button-collar-sweater-dress-pumpkin",
+  "civenne-ribbed-turtleneck-mini-dress-stone",
+
   "civenne-ribbed-turtleneck-mini-dress-teal",
   "civenne-ribbed-turtleneck-mini-dress-burgundy",
   "civenne-ribbed-turtleneck-mini-dress-taupe",

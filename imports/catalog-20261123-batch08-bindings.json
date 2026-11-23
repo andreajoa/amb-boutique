@@ -1,0 +1,326 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "nerisse-button-collar-sweater-dress-oatmeal",
+      "sourceProductId": "3256810246689450",
+      "sourceColor": "Khaki",
+      "supplierId": "cmwtormyy00q30jlnpe5kl2of",
+      "sourceSkuIdsBySize": {
+        "S": "12000052389587630",
+        "M": "12000052389587631",
+        "XXL": "12000052389587634",
+        "XXXL": "12000052389587635",
+        "L": "12000052389587632",
+        "XL": "12000052389587633"
+      },
+      "landedCostUsdBySize": {
+        "S": 36.01,
+        "M": 36.01,
+        "XXL": 36.01,
+        "XXXL": 36.01,
+        "L": 36.01,
+        "XL": 36.01
+      },
+      "stockBySize": {
+        "S": 799,
+        "M": 799,
+        "XXL": 798,
+        "XXXL": 797,
+        "L": 797,
+        "XL": 799
+      },
+      "retailPriceUsd": 108.9,
+      "verifiedAtUtc": "2026-11-23T21:04:03.560Z"
+    },
+    {
+      "slug": "civenne-ribbed-turtleneck-mini-dress-brick-red",
+      "sourceProductId": "3256809079176849",
+      "sourceColor": "Claret",
+      "supplierId": "cmwtpg5mf01d20jln4nsid66z",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000048538429320",
+        "S": "12000048538429315",
+        "XL": "12000048538429318",
+        "XXL": "12000048538429319",
+        "M": "12000048538429316",
+        "L": "12000048538429317"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 28.51,
+        "S": 28.51,
+        "XL": 28.51,
+        "XXL": 28.51,
+        "M": 28.51,
+        "L": 28.51
+      },
+      "stockBySize": {
+        "XXXL": 999,
+        "S": 998,
+        "XL": 999,
+        "XXL": 999,
+        "M": 998,
+        "L": 999
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T21:02:33.009Z"
+    },
+    {
+      "slug": "nerisse-button-collar-sweater-dress-black",
+      "sourceProductId": "3256810246689450",
+      "sourceColor": "black",
+      "supplierId": "cmwtormyy00q30jlnpe5kl2of",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000052389587628",
+        "XXXL": "12000052389587629",
+        "L": "12000052389587626",
+        "XL": "12000052389587627",
+        "S": "12000052389587624",
+        "M": "12000052389587625"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 36.01,
+        "XXXL": 36.01,
+        "L": 36.01,
+        "XL": 36.01,
+        "S": 35.21,
+        "M": 36.01
+      },
+      "stockBySize": {
+        "XXL": 798,
+        "XXXL": 798,
+        "L": 795,
+        "XL": 797,
+        "S": 796,
+        "M": 796
+      },
+      "retailPriceUsd": 108.9,
+      "verifiedAtUtc": "2026-11-23T21:04:03.560Z"
+    },
+    {
+      "slug": "civenne-ribbed-turtleneck-mini-dress-forest-green",
+      "sourceProductId": "3256809079176849",
+      "sourceColor": "Dark Green",
+      "supplierId": "cmwtpg5mf01d20jln4nsid66z",
+      "sourceSkuIdsBySize": {
+        "XL": "12000048538429306",
+        "XXL": "12000048538429307",
+        "M": "12000048538429304",
+        "L": "12000048538429305",
+        "XXXL": "12000048538429308",
+        "S": "12000048538429303"
+      },
+      "landedCostUsdBySize": {
+        "XL": 28.51,
+        "XXL": 28.51,
+        "M": 28.51,
+        "L": 28.51,
+        "XXXL": 28.51,
+        "S": 28.51
+      },
+      "stockBySize": {
+        "XL": 999,
+        "XXL": 999,
+        "M": 998,
+        "L": 998,
+        "XXXL": 999,
+        "S": 998
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T21:02:33.009Z"
+    },
+    {
+      "slug": "nerisse-button-collar-sweater-dress-red",
+      "sourceProductId": "3256810246689450",
+      "sourceColor": "Red",
+      "supplierId": "cmwtormyy00q30jlnpe5kl2of",
+      "sourceSkuIdsBySize": {
+        "L": "12000052389587638",
+        "XL": "12000052389587639",
+        "S": "12000052389587636",
+        "M": "12000052389587637",
+        "XXL": "12000052389587640",
+        "XXXL": "12000052389587641"
+      },
+      "landedCostUsdBySize": {
+        "L": 36.01,
+        "XL": 36.01,
+        "S": 36.01,
+        "M": 36.01,
+        "XXL": 36.01,
+        "XXXL": 36.01
+      },
+      "stockBySize": {
+        "L": 797,
+        "XL": 799,
+        "S": 798,
+        "M": 797,
+        "XXL": 797,
+        "XXXL": 799
+      },
+      "retailPriceUsd": 108.9,
+      "verifiedAtUtc": "2026-11-23T21:04:03.560Z"
+    },
+    {
+      "slug": "civenne-ribbed-turtleneck-mini-dress-off-white",
+      "sourceProductId": "3256809079176849",
+      "sourceColor": "WHITE",
+      "supplierId": "cmwtpg5mf01d20jln4nsid66z",
+      "sourceSkuIdsBySize": {
+        "XL": "12000048538429282",
+        "XXL": "12000048538429283",
+        "M": "12000048538429280",
+        "L": "12000048538429281",
+        "XXXL": "12000048538429284",
+        "S": "12000048538429279"
+      },
+      "landedCostUsdBySize": {
+        "XL": 28.51,
+        "XXL": 28.51,
+        "M": 28.51,
+        "L": 28.51,
+        "XXXL": 28.51,
+        "S": 28.51
+      },
+      "stockBySize": {
+        "XL": 998,
+        "XXL": 999,
+        "M": 999,
+        "L": 999,
+        "XXXL": 999,
+        "S": 999
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T21:02:33.009Z"
+    },
+    {
+      "slug": "nerisse-button-collar-sweater-dress-gold",
+      "sourceProductId": "3256810246689450",
+      "sourceColor": "YELLOW",
+      "supplierId": "cmwtormyy00q30jlnpe5kl2of",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000052389587646",
+        "XXXL": "12000052389587647",
+        "L": "12000052389587644",
+        "XL": "12000052389587645",
+        "S": "12000052389587642",
+        "M": "12000052389587643"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 36.01,
+        "XXXL": 36.01,
+        "L": 36.01,
+        "XL": 36.01,
+        "S": 36.01,
+        "M": 36.01
+      },
+      "stockBySize": {
+        "XXL": 799,
+        "XXXL": 798,
+        "L": 798,
+        "XL": 800,
+        "S": 800,
+        "M": 798
+      },
+      "retailPriceUsd": 108.9,
+      "verifiedAtUtc": "2026-11-23T21:04:03.560Z"
+    },
+    {
+      "slug": "civenne-ribbed-turtleneck-mini-dress-light-gray",
+      "sourceProductId": "3256809079176849",
+      "sourceColor": "Light Grey",
+      "supplierId": "cmwtpg5mf01d20jln4nsid66z",
+      "sourceSkuIdsBySize": {
+        "M": "12000048538429298",
+        "L": "12000048538429299",
+        "S": "12000048538429297",
+        "XXXL": "12000048538429302",
+        "XL": "12000048538429300",
+        "XXL": "12000048538429301"
+      },
+      "landedCostUsdBySize": {
+        "M": 28.51,
+        "L": 28.51,
+        "S": 28.51,
+        "XXXL": 28.51,
+        "XL": 28.51,
+        "XXL": 28.51
+      },
+      "stockBySize": {
+        "M": 999,
+        "L": 999,
+        "S": 999,
+        "XXXL": 999,
+        "XL": 999,
+        "XXL": 999
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T21:02:33.009Z"
+    },
+    {
+      "slug": "nerisse-button-collar-sweater-dress-pumpkin",
+      "sourceProductId": "3256810246689450",
+      "sourceColor": "ORANGE RED",
+      "supplierId": "cmwtormyy00q30jlnpe5kl2of",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000052389587652",
+        "XXXL": "12000052389587653",
+        "L": "12000052389587650",
+        "XL": "12000052389587651",
+        "S": "12000052389587648",
+        "M": "12000052389587649"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 36.01,
+        "XXXL": 36.01,
+        "L": 36.01,
+        "XL": 36.01,
+        "S": 36.01,
+        "M": 36.01
+      },
+      "stockBySize": {
+        "XXL": 796,
+        "XXXL": 797,
+        "L": 795,
+        "XL": 796,
+        "S": 792,
+        "M": 794
+      },
+      "retailPriceUsd": 108.9,
+      "verifiedAtUtc": "2026-11-23T21:04:03.560Z"
+    },
+    {
+      "slug": "civenne-ribbed-turtleneck-mini-dress-stone",
+      "sourceProductId": "3256809079176849",
+      "sourceColor": "Lotus root color",
+      "supplierId": "cmwtpg5mf01d20jln4nsid66z",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000048538429314",
+        "XL": "12000048538429312",
+        "XXL": "12000048538429313",
+        "M": "12000048538429310",
+        "L": "12000048538429311",
+        "S": "12000048538429309"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 28.51,
+        "XL": 28.51,
+        "XXL": 28.51,
+        "M": 28.51,
+        "L": 28.51,
+        "S": 28.51
+      },
+      "stockBySize": {
+        "XXXL": 999,
+        "XL": 999,
+        "XXL": 999,
+        "M": 998,
+        "L": 999,
+        "S": 997
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-23T21:02:33.009Z"
+    }
+  ]
+}
