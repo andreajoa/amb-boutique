@@ -225,9 +225,21 @@
    "landedCostUsd": 15.94,
    "source": "catalog-20261123-batch25-bindings.json"
   },
+  "beloria-swirl-print-maxi-dress-ink-sweep": {
+   "landedCostUsd": 15.94,
+   "source": "catalog-20261123-batch26-bindings.json"
+  },
+  "beloria-swirl-print-maxi-dress-monochrome-geometric": {
+   "landedCostUsd": 15.94,
+   "source": "catalog-20261123-batch26-bindings.json"
+  },
   "beloria-swirl-print-maxi-dress-ochre-mosaic": {
    "landedCostUsd": 15.94,
    "source": "catalog-20261123-batch25-bindings.json"
+  },
+  "beloria-swirl-print-maxi-dress-pink-dot": {
+   "landedCostUsd": 15.94,
+   "source": "catalog-20261123-batch26-bindings.json"
   },
   "bianca-tailored-romper": {
    "landedCostUsd": 35.13,
@@ -1273,6 +1285,10 @@
    "landedCostUsd": 24.96,
    "source": "catalog-20261123-batch25-bindings.json"
   },
+  "mariselle-ornamental-kaftan-maxi-dress-camel": {
+   "landedCostUsd": 24.96,
+   "source": "catalog-20261123-batch26-bindings.json"
+  },
   "marisol-striped-wide-leg-jumpsuit-light-blue": {
    "landedCostUsd": 22.62,
    "source": "catalog-20261026-new-products-bindings.json"
@@ -1853,6 +1869,10 @@
    "landedCostUsd": 24.38,
    "source": "catalog-20261123-batch24-bindings.json"
   },
+  "renova-notched-denim-cutoffs-black": {
+   "landedCostUsd": 24.62,
+   "source": "catalog-20261123-batch26-bindings.json"
+  },
   "renova-notched-denim-cutoffs-hot-pink": {
    "landedCostUsd": 24.09,
    "source": "catalog-20261123-batch24-bindings.json"
@@ -1953,6 +1973,18 @@
    "landedCostUsd": 23.78,
    "source": "catalog-20261123-batch22-bindings.json"
   },
+  "rovella-cuffed-denim-shorts-black": {
+   "landedCostUsd": 16.4,
+   "source": "catalog-20261123-batch26-bindings.json"
+  },
+  "rovella-cuffed-denim-shorts-dark-wash": {
+   "landedCostUsd": 18.78,
+   "source": "catalog-20261123-batch26-bindings.json"
+  },
+  "rovella-cuffed-denim-shorts-medium-wash": {
+   "landedCostUsd": 16.97,
+   "source": "catalog-20261123-batch26-bindings.json"
+  },
   "rovelle-turtleneck-sweater-midi-dress-black": {
    "landedCostUsd": 30.93,
    "source": "catalog-20261123-batch05-bindings.json"
@@ -2024,6 +2056,10 @@
   "selorie-contrast-trim-tunic-midi-dress-ivory-with-black-trim": {
    "landedCostUsd": 8.48,
    "source": "catalog-20261123-batch21-bindings.json"
+  },
+  "seravelle-open-back-cowl-maxi-dress-black": {
+   "landedCostUsd": 46.2,
+   "source": "catalog-20261123-batch26-bindings.json"
   },
   "seravelle-open-back-cowl-maxi-dress-rust": {
    "landedCostUsd": 46.2,
@@ -2288,6 +2324,10 @@
   "verdelle-lace-bodice-pleated-gown-green": {
    "landedCostUsd": 62.85,
    "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "verelle-keyhole-halter-maxi-dress-butter-yellow": {
+   "landedCostUsd": 25.75,
+   "source": "catalog-20261123-batch26-bindings.json"
   },
   "verelle-keyhole-halter-maxi-dress-olive": {
    "landedCostUsd": 25.75,

@@ -3136,5 +3136,94 @@
    "M": 100,
    "XXL": 100
   }
+ },
+ "mariselle-ornamental-kaftan-maxi-dress-camel": {
+  "stockBySize": {
+   "S": 999,
+   "XL": 998,
+   "M": 999,
+   "L": 999
+  }
+ },
+ "verelle-keyhole-halter-maxi-dress-butter-yellow": {
+  "stockBySize": {
+   "S": 9996,
+   "M": 9998,
+   "L": 9999
+  }
+ },
+ "seravelle-open-back-cowl-maxi-dress-black": {
+  "stockBySize": {
+   "S": 495,
+   "XS": 499,
+   "L": 500,
+   "M": 499
+  }
+ },
+ "beloria-swirl-print-maxi-dress-ink-sweep": {
+  "stockBySize": {
+   "XXXL": 100,
+   "S": 100,
+   "XXL": 100,
+   "XL": 99,
+   "L": 100,
+   "M": 100
+  }
+ },
+ "beloria-swirl-print-maxi-dress-pink-dot": {
+  "stockBySize": {
+   "XXXL": 100,
+   "XXL": 100,
+   "XL": 100,
+   "L": 100,
+   "M": 100,
+   "S": 100
+  }
+ },
+ "beloria-swirl-print-maxi-dress-monochrome-geometric": {
+  "stockBySize": {
+   "XXXL": 100,
+   "S": 100,
+   "XXL": 100,
+   "XL": 100,
+   "L": 100,
+   "M": 100
+  }
+ },
+ "renova-notched-denim-cutoffs-black": {
+  "stockBySize": {
+   "S": 100,
+   "M": 100,
+   "XL": 100,
+   "XXL": 100,
+   "L": 100
+  }
+ },
+ "rovella-cuffed-denim-shorts-dark-wash": {
+  "stockBySize": {
+   "XL": 85,
+   "XXL": 77,
+   "S": 90,
+   "L": 59,
+   "M": 1
+  }
+ },
+ "rovella-cuffed-denim-shorts-medium-wash": {
+  "stockBySize": {
+   "XXL": 1,
+   "L": 90,
+   "XL": 87,
+   "M": 80,
+   "S": 82
+  }
+ },
+ "rovella-cuffed-denim-shorts-black": {
+  "stockBySize": {
+   "XL": 2,
+   "XXL": 89,
+   "S": 92,
+   "L": 91,
+   "M": 88
+  }
  }
 }
