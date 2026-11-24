@@ -1,0 +1,293 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "mariselle-ornamental-kaftan-maxi-dress-camel",
+      "sourceProductId": "3256808101521519",
+      "sourceColor": "camel",
+      "supplierId": "cmt63u8ct00pq04jnkscze5kh",
+      "sourceSkuIdsBySize": {
+        "S": "12000044487466791",
+        "XL": "12000044487466794",
+        "M": "12000044487466792",
+        "L": "12000044487466793"
+      },
+      "landedCostUsdBySize": {
+        "S": 24.96,
+        "XL": 24.96,
+        "M": 24.96,
+        "L": 24.96
+      },
+      "stockBySize": {
+        "S": 999,
+        "XL": 998,
+        "M": 999,
+        "L": 999
+      },
+      "retailPriceUsd": 74.9,
+      "verifiedAtUtc": "2026-11-24T16:05:51.202Z"
+    },
+    {
+      "slug": "verelle-keyhole-halter-maxi-dress-butter-yellow",
+      "sourceProductId": "3256812502949887",
+      "sourceColor": "Yellow",
+      "supplierId": "cmt64tbac01mr04jnv23aj3q0",
+      "sourceSkuIdsBySize": {
+        "S": "12000059084996917",
+        "M": "12000059084996918",
+        "L": "12000059084996919"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.75,
+        "M": 25.75,
+        "L": 25.75
+      },
+      "stockBySize": {
+        "S": 9996,
+        "M": 9998,
+        "L": 9999
+      },
+      "retailPriceUsd": 77.9,
+      "verifiedAtUtc": "2026-11-24T16:04:27.438Z"
+    },
+    {
+      "slug": "seravelle-open-back-cowl-maxi-dress-black",
+      "sourceProductId": "3256812045142943",
+      "sourceColor": "02 Black",
+      "supplierId": "cmwhrm980002y0jmcaahklibd",
+      "sourceSkuIdsBySize": {
+        "S": "12000057836092613",
+        "XS": "12000057836092612",
+        "L": "12000057836092615",
+        "M": "12000057836092614"
+      },
+      "landedCostUsdBySize": {
+        "S": 46.2,
+        "XS": 46.2,
+        "L": 46.2,
+        "M": 46.2
+      },
+      "stockBySize": {
+        "S": 495,
+        "XS": 499,
+        "L": 500,
+        "M": 499
+      },
+      "retailPriceUsd": 138.9,
+      "verifiedAtUtc": "2026-11-24T16:05:32.511Z"
+    },
+    {
+      "slug": "beloria-swirl-print-maxi-dress-ink-sweep",
+      "sourceProductId": "3256809943426273",
+      "sourceColor": "Ro10",
+      "supplierId": "cmt63npw700jn04jnhafbubse",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000051244697064",
+        "S": "12000051244697059",
+        "XXL": "12000051244697063",
+        "XL": "12000051244697062",
+        "L": "12000051244697061",
+        "M": "12000051244697060"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 15.94,
+        "S": 15.94,
+        "XXL": 15.94,
+        "XL": 15.94,
+        "L": 15.94,
+        "M": 15.94
+      },
+      "stockBySize": {
+        "XXXL": 100,
+        "S": 100,
+        "XXL": 100,
+        "XL": 99,
+        "L": 100,
+        "M": 100
+      },
+      "retailPriceUsd": 47.9,
+      "verifiedAtUtc": "2026-11-24T16:03:12.689Z"
+    },
+    {
+      "slug": "beloria-swirl-print-maxi-dress-pink-dot",
+      "sourceProductId": "3256809943426273",
+      "sourceColor": "Ro9",
+      "supplierId": "cmt63npw700jn04jnhafbubse",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000051244697058",
+        "XXL": "12000051244697057",
+        "XL": "12000051244697056",
+        "L": "12000051244697055",
+        "M": "12000051244697054",
+        "S": "12000051244697053"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 15.94,
+        "XXL": 15.94,
+        "XL": 15.94,
+        "L": 15.94,
+        "M": 15.94,
+        "S": 14.78
+      },
+      "stockBySize": {
+        "XXXL": 100,
+        "XXL": 100,
+        "XL": 100,
+        "L": 100,
+        "M": 100,
+        "S": 100
+      },
+      "retailPriceUsd": 47.9,
+      "verifiedAtUtc": "2026-11-24T16:03:12.689Z"
+    },
+    {
+      "slug": "beloria-swirl-print-maxi-dress-monochrome-geometric",
+      "sourceProductId": "3256809943426273",
+      "sourceColor": "Ro1",
+      "supplierId": "cmt63npw700jn04jnhafbubse",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000051244697016",
+        "S": "12000051244697011",
+        "XXL": "12000051244697015",
+        "XL": "12000051244697014",
+        "L": "12000051244697013",
+        "M": "12000051244697012"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 15.94,
+        "S": 15.94,
+        "XXL": 15.94,
+        "XL": 15.94,
+        "L": 15.94,
+        "M": 15.94
+      },
+      "stockBySize": {
+        "XXXL": 100,
+        "S": 100,
+        "XXL": 100,
+        "XL": 100,
+        "L": 100,
+        "M": 100
+      },
+      "retailPriceUsd": 47.9,
+      "verifiedAtUtc": "2026-11-24T16:03:12.689Z"
+    },
+    {
+      "slug": "renova-notched-denim-cutoffs-black",
+      "sourceProductId": "3256811554452854",
+      "sourceColor": "Black",
+      "supplierId": "cmt60ejsj00dk04ifuuf9rkp7",
+      "sourceSkuIdsBySize": {
+        "S": "12000056405007994",
+        "M": "12000056405007999",
+        "XL": "12000056405007978",
+        "XXL": "12000056405007972",
+        "L": "12000056405007974"
+      },
+      "landedCostUsdBySize": {
+        "S": 23.69,
+        "M": 23.6,
+        "XL": 24.11,
+        "XXL": 24.62,
+        "L": 24.39
+      },
+      "stockBySize": {
+        "S": 100,
+        "M": 100,
+        "XL": 100,
+        "XXL": 100,
+        "L": 100
+      },
+      "retailPriceUsd": 73.9,
+      "verifiedAtUtc": "2026-11-24T16:03:59.629Z"
+    },
+    {
+      "slug": "rovella-cuffed-denim-shorts-dark-wash",
+      "sourceProductId": "3256807055224637",
+      "sourceColor": "Dark Blue",
+      "supplierId": "cmt607cf5006u04ifehlfillh",
+      "sourceSkuIdsBySize": {
+        "XL": "12000039922412732",
+        "XXL": "12000039922412733",
+        "S": "12000039922412730",
+        "L": "12000039922412731",
+        "M": "12000039922412729"
+      },
+      "landedCostUsdBySize": {
+        "XL": 18.78,
+        "XXL": 16.73,
+        "S": 15.74,
+        "L": 16.06,
+        "M": 15.88
+      },
+      "stockBySize": {
+        "XL": 85,
+        "XXL": 77,
+        "S": 90,
+        "L": 59,
+        "M": 1
+      },
+      "retailPriceUsd": 56.9,
+      "verifiedAtUtc": "2026-11-24T16:05:42.516Z"
+    },
+    {
+      "slug": "rovella-cuffed-denim-shorts-medium-wash",
+      "sourceProductId": "3256807055224637",
+      "sourceColor": "Light Blue",
+      "supplierId": "cmt607cf5006u04ifehlfillh",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000039922412738",
+        "L": "12000039922412736",
+        "XL": "12000039922412737",
+        "M": "12000039922412734",
+        "S": "12000039922412735"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 10.34,
+        "L": 16.97,
+        "XL": 14.88,
+        "M": 16.22,
+        "S": 15.6
+      },
+      "stockBySize": {
+        "XXL": 1,
+        "L": 90,
+        "XL": 87,
+        "M": 80,
+        "S": 82
+      },
+      "retailPriceUsd": 51.9,
+      "verifiedAtUtc": "2026-11-24T16:05:42.516Z"
+    },
+    {
+      "slug": "rovella-cuffed-denim-shorts-black",
+      "sourceProductId": "3256807055224637",
+      "sourceColor": "Black",
+      "supplierId": "cmt607cf5006u04ifehlfillh",
+      "sourceSkuIdsBySize": {
+        "XL": "12000039922412742",
+        "XXL": "12000039922412743",
+        "S": "12000039922412740",
+        "L": "12000039922412741",
+        "M": "12000039922412739"
+      },
+      "landedCostUsdBySize": {
+        "XL": 10.41,
+        "XXL": 10.4,
+        "S": 16.15,
+        "L": 16.4,
+        "M": 15.73
+      },
+      "stockBySize": {
+        "XL": 2,
+        "XXL": 89,
+        "S": 92,
+        "L": 91,
+        "M": 88
+      },
+      "retailPriceUsd": 49.9,
+      "verifiedAtUtc": "2026-11-24T16:05:42.516Z"
+    }
+  ]
+}

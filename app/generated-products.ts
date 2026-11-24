@@ -29294,6 +29294,375 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256811554452854",
   "sourceColor": "White"
+},
+{
+  "slug": "mariselle-ornamental-kaftan-maxi-dress-camel",
+  "name": "Mariselle Ornamental Kaftan Maxi Dress — Camel",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 74.9,
+  "colors": [
+    "#B8946D"
+  ],
+  "colorNames": [
+    "Camel and Cream"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A V-neck maxi dress with loose sleeves, a defined waist and ornamental print panels.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/mariselle-ornamental-kaftan-maxi-dress-camel/front.webp",
+    "/products/mariselle-ornamental-kaftan-maxi-dress-camel/back.webp",
+    "/products/mariselle-ornamental-kaftan-maxi-dress-camel/left.webp",
+    "/products/mariselle-ornamental-kaftan-maxi-dress-camel/right.webp"
+  ],
+  "stock": 3995,
+  "unitCostUsd": 24.96,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808101521519",
+  "sourceColor": "camel"
+},
+{
+  "slug": "verelle-keyhole-halter-maxi-dress-butter-yellow",
+  "name": "Verelle Keyhole Halter Maxi Dress — Butter Yellow",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 77.9,
+  "colors": [
+    "#EAD78D"
+  ],
+  "colorNames": [
+    "Butter Yellow"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A floor-length halter dress with a long front keyhole, gathered twist waist and side cutouts.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/verelle-keyhole-halter-maxi-dress-butter-yellow/front.webp",
+    "/products/verelle-keyhole-halter-maxi-dress-butter-yellow/back.webp",
+    "/products/verelle-keyhole-halter-maxi-dress-butter-yellow/left.webp",
+    "/products/verelle-keyhole-halter-maxi-dress-butter-yellow/right.webp"
+  ],
+  "stock": 29993,
+  "unitCostUsd": 25.75,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812502949887",
+  "sourceColor": "Yellow"
+},
+{
+  "slug": "seravelle-open-back-cowl-maxi-dress-black",
+  "name": "Seravelle Open-Back Cowl Maxi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 138.9,
+  "colors": [
+    "#201F20"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A sleeveless black column dress with a high neckline and draped open back.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/seravelle-open-back-cowl-maxi-dress-black/front.webp",
+    "/products/seravelle-open-back-cowl-maxi-dress-black/back.webp",
+    "/products/seravelle-open-back-cowl-maxi-dress-black/left.webp",
+    "/products/seravelle-open-back-cowl-maxi-dress-black/right.webp"
+  ],
+  "stock": 1993,
+  "unitCostUsd": 46.2,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812045142943",
+  "sourceColor": "02 Black"
+},
+{
+  "slug": "beloria-swirl-print-maxi-dress-ink-sweep",
+  "name": "Beloria Swirl Print Maxi Dress — Ink Sweep",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 47.9,
+  "colors": [
+    "#DDDDDA"
+  ],
+  "colorNames": [
+    "Black, Gray and White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless maxi dress patterned with sweeping black and gray brushstrokes against a white ground.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/beloria-swirl-print-maxi-dress-ink-sweep/front.webp",
+    "/products/beloria-swirl-print-maxi-dress-ink-sweep/back.webp",
+    "/products/beloria-swirl-print-maxi-dress-ink-sweep/left.webp",
+    "/products/beloria-swirl-print-maxi-dress-ink-sweep/right.webp"
+  ],
+  "stock": 599,
+  "unitCostUsd": 15.94,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809943426273",
+  "sourceColor": "Ro10"
+},
+{
+  "slug": "beloria-swirl-print-maxi-dress-pink-dot",
+  "name": "Beloria Swirl Print Maxi Dress — Pink Dot",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 47.9,
+  "colors": [
+    "#E84D99"
+  ],
+  "colorNames": [
+    "Pink and White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless maxi dress patterned with pink dots in different scales across a white ground.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/beloria-swirl-print-maxi-dress-pink-dot/front.webp",
+    "/products/beloria-swirl-print-maxi-dress-pink-dot/back.webp",
+    "/products/beloria-swirl-print-maxi-dress-pink-dot/left.webp",
+    "/products/beloria-swirl-print-maxi-dress-pink-dot/right.webp"
+  ],
+  "stock": 600,
+  "unitCostUsd": 15.94,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809943426273",
+  "sourceColor": "Ro9"
+},
+{
+  "slug": "beloria-swirl-print-maxi-dress-monochrome-geometric",
+  "name": "Beloria Swirl Print Maxi Dress — Monochrome Geometric",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 47.9,
+  "colors": [
+    "#242322"
+  ],
+  "colorNames": [
+    "Black and Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless maxi dress with bold geometric circles, diagonal stripes and dotted panels.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/beloria-swirl-print-maxi-dress-monochrome-geometric/front.webp",
+    "/products/beloria-swirl-print-maxi-dress-monochrome-geometric/back.webp",
+    "/products/beloria-swirl-print-maxi-dress-monochrome-geometric/left.webp",
+    "/products/beloria-swirl-print-maxi-dress-monochrome-geometric/right.webp"
+  ],
+  "stock": 600,
+  "unitCostUsd": 15.94,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809943426273",
+  "sourceColor": "Ro1"
+},
+{
+  "slug": "renova-notched-denim-cutoffs-black",
+  "name": "Renova Notched Denim Cutoffs — Black",
+  "category": "Shorts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 73.9,
+  "colors": [
+    "#202020"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "Black denim cutoffs with a lightly frayed hem and a short notch at each side.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/renova-notched-denim-cutoffs-black/front.webp",
+    "/products/renova-notched-denim-cutoffs-black/back.webp",
+    "/products/renova-notched-denim-cutoffs-black/left.webp",
+    "/products/renova-notched-denim-cutoffs-black/right.webp"
+  ],
+  "stock": 500,
+  "unitCostUsd": 24.62,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811554452854",
+  "sourceColor": "Black"
+},
+{
+  "slug": "rovella-cuffed-denim-shorts-dark-wash",
+  "name": "Rovella Cuffed Denim Shorts — Dark Wash",
+  "category": "Shorts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 56.9,
+  "colors": [
+    "#305579"
+  ],
+  "colorNames": [
+    "Dark Wash"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "Dark-wash denim shorts with turned-up hems, classic pockets and light distressing.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rovella-cuffed-denim-shorts-dark-wash/front.webp",
+    "/products/rovella-cuffed-denim-shorts-dark-wash/back.webp",
+    "/products/rovella-cuffed-denim-shorts-dark-wash/left.webp",
+    "/products/rovella-cuffed-denim-shorts-dark-wash/right.webp"
+  ],
+  "stock": 312,
+  "unitCostUsd": 18.78,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807055224637",
+  "sourceColor": "Dark Blue"
+},
+{
+  "slug": "rovella-cuffed-denim-shorts-medium-wash",
+  "name": "Rovella Cuffed Denim Shorts — Medium Wash",
+  "category": "Shorts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 51.9,
+  "colors": [
+    "#4D7BA5"
+  ],
+  "colorNames": [
+    "Medium Wash"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "Medium-wash denim shorts with turned-up hems, classic pockets and light distressing.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rovella-cuffed-denim-shorts-medium-wash/front.webp",
+    "/products/rovella-cuffed-denim-shorts-medium-wash/back.webp",
+    "/products/rovella-cuffed-denim-shorts-medium-wash/left.webp",
+    "/products/rovella-cuffed-denim-shorts-medium-wash/right.webp"
+  ],
+  "stock": 340,
+  "unitCostUsd": 16.97,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807055224637",
+  "sourceColor": "Light Blue"
+},
+{
+  "slug": "rovella-cuffed-denim-shorts-black",
+  "name": "Rovella Cuffed Denim Shorts — Black",
+  "category": "Shorts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 49.9,
+  "colors": [
+    "#252628"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "Black denim shorts with turned-up hems, classic pockets and light distressing.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rovella-cuffed-denim-shorts-black/front.webp",
+    "/products/rovella-cuffed-denim-shorts-black/back.webp",
+    "/products/rovella-cuffed-denim-shorts-black/left.webp",
+    "/products/rovella-cuffed-denim-shorts-black/right.webp"
+  ],
+  "stock": 362,
+  "unitCostUsd": 16.4,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807055224637",
+  "sourceColor": "Black"
 }
 ];
 
@@ -29303,6 +29672,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "mariselle-ornamental-kaftan-maxi-dress-camel",
+  "verelle-keyhole-halter-maxi-dress-butter-yellow",
+  "seravelle-open-back-cowl-maxi-dress-black",
+  "beloria-swirl-print-maxi-dress-ink-sweep",
+  "beloria-swirl-print-maxi-dress-pink-dot",
+  "beloria-swirl-print-maxi-dress-monochrome-geometric",
+  "renova-notched-denim-cutoffs-black",
+  "rovella-cuffed-denim-shorts-dark-wash",
+  "rovella-cuffed-denim-shorts-medium-wash",
+  "rovella-cuffed-denim-shorts-black",
+
   "seravelle-open-back-cowl-maxi-dress-rust",
   "oriana-eyelet-wide-leg-trouser-set-buttercream",
   "merovia-contrast-spot-mini-shirtdress-ivory-red",
