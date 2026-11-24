@@ -31146,7 +31146,7 @@ const allGeneratedProducts: Product[] = [
   "sizes": [
     "One Size"
   ],
-  "description": "A black crossbody with a zip-top main compartment, stitched front panels and a detachable shoulder strap. The interior photo shows the layout of the same model in burgundy.",
+  "description": "A black crossbody with a zip-top main compartment, stitched front panels and a detachable shoulder strap. The exterior color in the inside view was adjusted to show the Black finish.",
   "materials": "See the product label for material details.",
   "care": "Follow the product care label.",
   "images": [
@@ -31154,7 +31154,7 @@ const allGeneratedProducts: Product[] = [
     "/products/ravelle-single-compartment-crossbody-bag-black/back.webp",
     "/products/ravelle-single-compartment-crossbody-bag-black/left.webp",
     "/products/ravelle-single-compartment-crossbody-bag-black/right.webp",
-    "/products/ravelle-single-compartment-crossbody-bag-black/inside.webp"
+    "/products/ravelle-single-compartment-crossbody-bag-black/inside-black.webp"
   ],
   "stock": 3,
   "unitCostUsd": 12.98,
