@@ -1,0 +1,23 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "ravelle-single-compartment-crossbody-bag-black",
+      "sourceProductId": "3256805030578196",
+      "sourceColor": "1 Layer Black",
+      "supplierId": "cmuw4iuft00ji04l2pm8zl6dk",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000039238054732"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 12.98
+      },
+      "stockBySize": {
+        "One Size": 3
+      },
+      "retailPriceUsd": 39.9,
+      "verifiedAtUtc": "2026-11-24T21:43:44.562Z"
+    }
+  ]
+}

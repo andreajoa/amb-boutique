@@ -31127,6 +31127,40 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256808281141298",
   "sourceColor": "chang07"
+},
+{
+  "slug": "ravelle-single-compartment-crossbody-bag-black",
+  "name": "Ravelle Single-Compartment Crossbody Bag — Black",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 39.9,
+  "colors": [
+    "#202021"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A black crossbody with a zip-top main compartment, stitched front panels and a detachable shoulder strap. The interior photo shows the layout of the same model in burgundy.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/ravelle-single-compartment-crossbody-bag-black/front.webp",
+    "/products/ravelle-single-compartment-crossbody-bag-black/back.webp",
+    "/products/ravelle-single-compartment-crossbody-bag-black/left.webp",
+    "/products/ravelle-single-compartment-crossbody-bag-black/right.webp",
+    "/products/ravelle-single-compartment-crossbody-bag-black/inside.webp"
+  ],
+  "stock": 3,
+  "unitCostUsd": 12.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805030578196",
+  "sourceColor": "1 Layer Black"
 }
 ];
 
@@ -31136,6 +31170,8 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "ravelle-single-compartment-crossbody-bag-black",
+
   "aleria-draped-cold-shoulder-midi-dress-black",
   "amarelle-draped-halter-top-scarlet",
   "lorielle-ruffled-corset-three-piece-set-espresso",
