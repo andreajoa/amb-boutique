@@ -28566,6 +28566,371 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "1005009466201567",
   "sourceColor": "Image Color"
+},
+{
+  "slug": "mareselle-fringe-crochet-maxi-dress-buttercream",
+  "name": "Mareselle Fringe Crochet Maxi Dress — Buttercream",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 130.9,
+  "colors": [
+    "#E9D9A5"
+  ],
+  "colorNames": [
+    "Buttercream"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A one-shoulder crochet maxi dress in buttercream with a curved waist cutout and long tonal fringe.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/mareselle-fringe-crochet-maxi-dress-buttercream/front.webp",
+    "/products/mareselle-fringe-crochet-maxi-dress-buttercream/back.webp",
+    "/products/mareselle-fringe-crochet-maxi-dress-buttercream/left.webp",
+    "/products/mareselle-fringe-crochet-maxi-dress-buttercream/right.webp"
+  ],
+  "stock": 2000,
+  "unitCostUsd": 43.5,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811556273927",
+  "sourceColor": "05 Camel"
+},
+{
+  "slug": "orvella-knotted-halter-maxi-dress-black",
+  "name": "Orvella Knotted Halter Maxi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 77.9,
+  "colors": [
+    "#1C1B1D"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A black floor-length halter dress with a plunging front, an open back and soft gathers drawn into a knot at the front waist.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/orvella-knotted-halter-maxi-dress-black/front.webp",
+    "/products/orvella-knotted-halter-maxi-dress-black/back.webp",
+    "/products/orvella-knotted-halter-maxi-dress-black/left.webp",
+    "/products/orvella-knotted-halter-maxi-dress-black/right.webp"
+  ],
+  "stock": 29988,
+  "unitCostUsd": 25.75,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812502949887",
+  "sourceColor": "Black"
+},
+{
+  "slug": "faurelle-off-shoulder-spot-mini-dress-olive",
+  "name": "Faurelle Off-Shoulder Spot Mini Dress — Olive",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 84.9,
+  "colors": [
+    "#62623D"
+  ],
+  "colorNames": [
+    "Olive Spot"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "An olive printed mini dress with an off-the-shoulder neckline, gathered cuffs and wide balloon sleeves.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/faurelle-off-shoulder-spot-mini-dress-olive/front.webp",
+    "/products/faurelle-off-shoulder-spot-mini-dress-olive/back.webp",
+    "/products/faurelle-off-shoulder-spot-mini-dress-olive/left.webp",
+    "/products/faurelle-off-shoulder-spot-mini-dress-olive/right.webp"
+  ],
+  "stock": 96,
+  "unitCostUsd": 28.03,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812161186060",
+  "sourceColor": "Green"
+},
+{
+  "slug": "merovia-draped-tiger-mini-dress-tan-black",
+  "name": "Merovia Draped Tiger Mini Dress — Tan and Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 109.9,
+  "colors": [
+    "#A28B6B"
+  ],
+  "colorNames": [
+    "Tan and Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A long-sleeve mini dress with a deep V-neck, tiger stripes and a long draped sash at one hip.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/merovia-draped-tiger-mini-dress-tan-black/front.webp",
+    "/products/merovia-draped-tiger-mini-dress-tan-black/back.webp",
+    "/products/merovia-draped-tiger-mini-dress-tan-black/left.webp",
+    "/products/merovia-draped-tiger-mini-dress-tan-black/right.webp"
+  ],
+  "stock": 255,
+  "unitCostUsd": 36.43,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812214668261",
+  "sourceColor": "05 dress"
+},
+{
+  "slug": "beloria-daisy-print-maxi-dress-black-white",
+  "name": "Beloria Daisy Print Maxi Dress — Black and White",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 47.9,
+  "colors": [
+    "#262327"
+  ],
+  "colorNames": [
+    "Black, White and Marigold"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless A-line maxi dress patterned with large white daisies and small geometric motifs against black bands.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/beloria-daisy-print-maxi-dress-black-white/front.webp",
+    "/products/beloria-daisy-print-maxi-dress-black-white/back.webp",
+    "/products/beloria-daisy-print-maxi-dress-black-white/left.webp",
+    "/products/beloria-daisy-print-maxi-dress-black-white/right.webp"
+  ],
+  "stock": 600,
+  "unitCostUsd": 15.94,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809943426273",
+  "sourceColor": "Ro2"
+},
+{
+  "slug": "vionelle-trimmed-velvet-midi-dress-black",
+  "name": "Vionelle Trimmed Velvet Midi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 154.9,
+  "colors": [
+    "#151417"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A black velvet midi dress with a high neckline, long sleeves and deep burgundy trim at the cuffs and hem.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/vionelle-trimmed-velvet-midi-dress-black/front.webp",
+    "/products/vionelle-trimmed-velvet-midi-dress-black/back.webp",
+    "/products/vionelle-trimmed-velvet-midi-dress-black/left.webp",
+    "/products/vionelle-trimmed-velvet-midi-dress-black/right.webp"
+  ],
+  "stock": 2463,
+  "unitCostUsd": 51.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810473743480",
+  "sourceColor": "01 Black"
+},
+{
+  "slug": "vilora-ribbed-camisole-four-pack-multi",
+  "name": "Vilora Ribbed Camisole Four-Pack — Multi",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#8EA6BD"
+  ],
+  "colorNames": [
+    "Black, White, Gray and Sky Blue"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A pack of four ribbed crop camisoles in black, white, gray and sky blue. Each has thin straps and a soft scoop neckline.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/vilora-ribbed-camisole-four-pack-multi/front.webp",
+    "/products/vilora-ribbed-camisole-four-pack-multi/back.webp",
+    "/products/vilora-ribbed-camisole-four-pack-multi/left.webp",
+    "/products/vilora-ribbed-camisole-four-pack-multi/right.webp"
+  ],
+  "stock": 248,
+  "unitCostUsd": 22.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812511502800",
+  "sourceColor": "MULTI"
+},
+{
+  "slug": "renova-notched-denim-cutoffs-hot-pink",
+  "name": "Renova Notched Denim Cutoffs — Hot Pink",
+  "category": "Pants",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 72.9,
+  "colors": [
+    "#E45894"
+  ],
+  "colorNames": [
+    "Hot Pink"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "Mid-rise cutoffs with a classic jean pocket layout, small side notches and frayed edges in hot pink denim.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/renova-notched-denim-cutoffs-hot-pink/front.webp",
+    "/products/renova-notched-denim-cutoffs-hot-pink/back.webp",
+    "/products/renova-notched-denim-cutoffs-hot-pink/left.webp",
+    "/products/renova-notched-denim-cutoffs-hot-pink/right.webp"
+  ],
+  "stock": 500,
+  "unitCostUsd": 24.09,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811554452854",
+  "sourceColor": "Hot Pink"
+},
+{
+  "slug": "renova-notched-denim-cutoffs-lemon",
+  "name": "Renova Notched Denim Cutoffs — Lemon",
+  "category": "Pants",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 72.9,
+  "colors": [
+    "#EED970"
+  ],
+  "colorNames": [
+    "Lemon"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "Lemon-yellow denim cutoffs with classic pockets, side notches and a softly frayed hem.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/renova-notched-denim-cutoffs-lemon/front.webp",
+    "/products/renova-notched-denim-cutoffs-lemon/back.webp",
+    "/products/renova-notched-denim-cutoffs-lemon/left.webp",
+    "/products/renova-notched-denim-cutoffs-lemon/right.webp"
+  ],
+  "stock": 500,
+  "unitCostUsd": 24.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811554452854",
+  "sourceColor": "Yellow"
+},
+{
+  "slug": "renova-notched-denim-cutoffs-aqua",
+  "name": "Renova Notched Denim Cutoffs — Aqua",
+  "category": "Pants",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 73.9,
+  "colors": [
+    "#A3C8CE"
+  ],
+  "colorNames": [
+    "Aqua"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "Aqua denim cutoffs with a mid-rise waist, classic pockets and notched frayed hems.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/renova-notched-denim-cutoffs-aqua/front.webp",
+    "/products/renova-notched-denim-cutoffs-aqua/back.webp",
+    "/products/renova-notched-denim-cutoffs-aqua/left.webp",
+    "/products/renova-notched-denim-cutoffs-aqua/right.webp"
+  ],
+  "stock": 400,
+  "unitCostUsd": 24.38,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811554452854",
+  "sourceColor": "Sky Blue"
 }
 ];
 
@@ -28575,6 +28940,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "mareselle-fringe-crochet-maxi-dress-buttercream",
+  "orvella-knotted-halter-maxi-dress-black",
+  "faurelle-off-shoulder-spot-mini-dress-olive",
+  "merovia-draped-tiger-mini-dress-tan-black",
+  "beloria-daisy-print-maxi-dress-black-white",
+  "vionelle-trimmed-velvet-midi-dress-black",
+  "vilora-ribbed-camisole-four-pack-multi",
+  "renova-notched-denim-cutoffs-hot-pink",
+  "renova-notched-denim-cutoffs-lemon",
+  "renova-notched-denim-cutoffs-aqua",
+
   "mareselle-fringe-crochet-maxi-dress-orange",
   "vionelle-trimmed-velvet-midi-dress-burgundy",
   "lissora-medallion-lace-skirt-set-apricot",

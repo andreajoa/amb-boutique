@@ -1,0 +1,281 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "mareselle-fringe-crochet-maxi-dress-buttercream",
+      "sourceProductId": "3256811556273927",
+      "sourceColor": "05 Camel",
+      "supplierId": "cmtahn6q9000r04l41koe7s38",
+      "sourceSkuIdsBySize": {
+        "S": "12000056414228141",
+        "M": "12000056414228142",
+        "L": "12000056414228143",
+        "XL": "12000056414228144"
+      },
+      "landedCostUsdBySize": {
+        "S": 43.5,
+        "M": 43.5,
+        "L": 43.5,
+        "XL": 43.5
+      },
+      "stockBySize": {
+        "S": 500,
+        "M": 500,
+        "L": 500,
+        "XL": 500
+      },
+      "retailPriceUsd": 130.9,
+      "verifiedAtUtc": "2026-11-24T16:03:28.325Z"
+    },
+    {
+      "slug": "orvella-knotted-halter-maxi-dress-black",
+      "sourceProductId": "3256812502949887",
+      "sourceColor": "Black",
+      "supplierId": "cmt64tbac01mr04jnv23aj3q0",
+      "sourceSkuIdsBySize": {
+        "S": "12000059084996905",
+        "M": "12000059084996906",
+        "L": "12000059084996907"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.75,
+        "M": 25.75,
+        "L": 25.75
+      },
+      "stockBySize": {
+        "S": 9997,
+        "M": 9993,
+        "L": 9998
+      },
+      "retailPriceUsd": 77.9,
+      "verifiedAtUtc": "2026-11-24T16:04:27.438Z"
+    },
+    {
+      "slug": "faurelle-off-shoulder-spot-mini-dress-olive",
+      "sourceProductId": "3256812161186060",
+      "sourceColor": "Green",
+      "supplierId": "cmwhs1bmr007i0jmcfqb9iyxy",
+      "sourceSkuIdsBySize": {
+        "L": "12000058154222246",
+        "XL": "12000058154222247",
+        "S": "12000058154222244",
+        "M": "12000058154222245",
+        "XXL": "12000058154222248"
+      },
+      "landedCostUsdBySize": {
+        "L": 28.03,
+        "XL": 28.03,
+        "S": 26.97,
+        "M": 28.03,
+        "XXL": 28.03
+      },
+      "stockBySize": {
+        "L": 17,
+        "XL": 19,
+        "S": 20,
+        "M": 20,
+        "XXL": 20
+      },
+      "retailPriceUsd": 84.9,
+      "verifiedAtUtc": "2026-11-24T16:04:58.472Z"
+    },
+    {
+      "slug": "merovia-draped-tiger-mini-dress-tan-black",
+      "sourceProductId": "3256812214668261",
+      "sourceColor": "05 dress",
+      "supplierId": "cmt62slfg005904kwt14m2uma",
+      "sourceSkuIdsBySize": {
+        "M": "12000059457114062",
+        "L": "12000059457114063",
+        "S": "12000059457114068"
+      },
+      "landedCostUsdBySize": {
+        "M": 36.43,
+        "L": 36.43,
+        "S": 36.43
+      },
+      "stockBySize": {
+        "M": 88,
+        "L": 91,
+        "S": 76
+      },
+      "retailPriceUsd": 109.9,
+      "verifiedAtUtc": "2026-11-24T16:03:35.563Z"
+    },
+    {
+      "slug": "beloria-daisy-print-maxi-dress-black-white",
+      "sourceProductId": "3256809943426273",
+      "sourceColor": "Ro2",
+      "supplierId": "cmt63npw700jn04jnhafbubse",
+      "sourceSkuIdsBySize": {
+        "L": "12000051244697019",
+        "M": "12000051244697018",
+        "S": "12000051244697017",
+        "XXXL": "12000051244697022",
+        "XXL": "12000051244697021",
+        "XL": "12000051244697020"
+      },
+      "landedCostUsdBySize": {
+        "L": 15.94,
+        "M": 15.94,
+        "S": 15.94,
+        "XXXL": 15.94,
+        "XXL": 15.94,
+        "XL": 15.94
+      },
+      "stockBySize": {
+        "L": 100,
+        "M": 100,
+        "S": 100,
+        "XXXL": 100,
+        "XXL": 100,
+        "XL": 100
+      },
+      "retailPriceUsd": 47.9,
+      "verifiedAtUtc": "2026-11-24T16:03:12.689Z"
+    },
+    {
+      "slug": "vionelle-trimmed-velvet-midi-dress-black",
+      "sourceProductId": "3256810473743480",
+      "sourceColor": "01 Black",
+      "supplierId": "cmwhser1d00df0jmcoofj14w7",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000053105861430",
+        "XL": "12000053105861429",
+        "L": "12000053105861428",
+        "M": "12000053105861427",
+        "S": "12000053105861426"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 51.54,
+        "XL": 51.54,
+        "L": 51.54,
+        "M": 51.54,
+        "S": 51.54
+      },
+      "stockBySize": {
+        "XXL": 493,
+        "XL": 495,
+        "L": 490,
+        "M": 494,
+        "S": 491
+      },
+      "retailPriceUsd": 154.9,
+      "verifiedAtUtc": "2026-11-24T16:03:21.808Z"
+    },
+    {
+      "slug": "vilora-ribbed-camisole-four-pack-multi",
+      "sourceProductId": "3256812511502800",
+      "sourceColor": "MULTI",
+      "supplierId": "cmt5zw4hx003m04if2xu9l8tm",
+      "sourceSkuIdsBySize": {
+        "XS": "12000059206905453",
+        "S": "12000059206905454",
+        "M": "12000059206905455",
+        "L": "12000059206905456",
+        "XL": "12000059206905457"
+      },
+      "landedCostUsdBySize": {
+        "XS": 21.94,
+        "S": 22.08,
+        "M": 22.04,
+        "L": 22.32,
+        "XL": 22.54
+      },
+      "stockBySize": {
+        "XS": 50,
+        "S": 50,
+        "M": 49,
+        "L": 50,
+        "XL": 49
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-24T16:06:09.242Z"
+    },
+    {
+      "slug": "renova-notched-denim-cutoffs-hot-pink",
+      "sourceProductId": "3256811554452854",
+      "sourceColor": "Hot Pink",
+      "supplierId": "cmt60ejsj00dk04ifuuf9rkp7",
+      "sourceSkuIdsBySize": {
+        "S": "12000056405008000",
+        "M": "12000056405007995",
+        "L": "12000056405007991",
+        "XXL": "12000056405007981",
+        "XL": "12000056405007983"
+      },
+      "landedCostUsdBySize": {
+        "S": 23.73,
+        "M": 23.97,
+        "L": 23.78,
+        "XXL": 24.09,
+        "XL": 24.02
+      },
+      "stockBySize": {
+        "S": 100,
+        "M": 100,
+        "L": 100,
+        "XXL": 100,
+        "XL": 100
+      },
+      "retailPriceUsd": 72.9,
+      "verifiedAtUtc": "2026-11-24T16:03:59.629Z"
+    },
+    {
+      "slug": "renova-notched-denim-cutoffs-lemon",
+      "sourceProductId": "3256811554452854",
+      "sourceColor": "Yellow",
+      "supplierId": "cmt60ejsj00dk04ifuuf9rkp7",
+      "sourceSkuIdsBySize": {
+        "M": "12000056405007993",
+        "S": "12000056405007998",
+        "L": "12000056405007990",
+        "XXL": "12000056405007977",
+        "XL": "12000056405007982"
+      },
+      "landedCostUsdBySize": {
+        "M": 23.69,
+        "S": 23.37,
+        "L": 23.81,
+        "XXL": 24.18,
+        "XL": 24.07
+      },
+      "stockBySize": {
+        "M": 100,
+        "S": 100,
+        "L": 100,
+        "XXL": 100,
+        "XL": 100
+      },
+      "retailPriceUsd": 72.9,
+      "verifiedAtUtc": "2026-11-24T16:03:59.629Z"
+    },
+    {
+      "slug": "renova-notched-denim-cutoffs-aqua",
+      "sourceProductId": "3256811554452854",
+      "sourceColor": "Sky Blue",
+      "supplierId": "cmt60ejsj00dk04ifuuf9rkp7",
+      "sourceSkuIdsBySize": {
+        "L": "12000056405007992",
+        "M": "12000056405007985",
+        "XL": "12000056405007976",
+        "XXL": "12000056405007980"
+      },
+      "landedCostUsdBySize": {
+        "L": 23.78,
+        "M": 24.02,
+        "XL": 24.38,
+        "XXL": 24.11
+      },
+      "stockBySize": {
+        "L": 100,
+        "M": 100,
+        "XL": 100,
+        "XXL": 100
+      },
+      "retailPriceUsd": 73.9,
+      "verifiedAtUtc": "2026-11-24T16:03:59.629Z"
+    }
+  ]
+}
