@@ -1,0 +1,32 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "vireya-ruffle-hem-romper-blush-pink",
+      "sourceProductId": "3256811464084073",
+      "sourceColor": "Pink",
+      "supplierId": "ambsp-c812fa72d69c08b33ac2b7b4401fe5d9",
+      "sourceSkuIdsBySize": {
+        "XL": "12000056150447190",
+        "S": "12000056150447189",
+        "M": "12000056150447188",
+        "L": "12000056150447187"
+      },
+      "landedCostUsdBySize": {
+        "XL": 28.87,
+        "S": 27.97,
+        "M": 28.23,
+        "L": 28.5
+      },
+      "stockBySize": {
+        "XL": 98,
+        "S": 99,
+        "M": 97,
+        "L": 99
+      },
+      "retailPriceUsd": 86.9,
+      "verifiedAtUtc": "2026-11-24T23:08:06.184Z"
+    }
+  ]
+}
