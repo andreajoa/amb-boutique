@@ -2730,5 +2730,79 @@
    "S": 986,
    "M": 983
   }
+ },
+ "eldrienne-paisley-chiffon-mini-dress-navy-paisley": {
+  "stockBySize": {
+   "S": 494,
+   "XS": 498,
+   "XXL": 487,
+   "XL": 490,
+   "L": 488,
+   "M": 490
+  }
+ },
+ "selorie-contrast-trim-tunic-midi-dress-ivory-with-black-trim": {
+  "stockBySize": {
+   "4XL": 50,
+   "3XL": 50,
+   "5XL": 50,
+   "2XL": 49,
+   "1XL": 48
+  }
+ },
+ "cassienne-draped-halter-mini-dress-scarlet": {
+  "stockBySize": {
+   "M": 48,
+   "S": 16,
+   "L": 89
+  }
+ },
+ "liorenne-clear-strap-racerback-tank-black": {
+  "stockBySize": {
+   "S": 744,
+   "M": 897
+  }
+ },
+ "alvielle-floral-bell-sleeve-mini-dress-ivory-floral": {
+  "stockBySize": {
+   "XXL": 10,
+   "L": 7,
+   "XL": 7,
+   "S": 13,
+   "M": 6
+  }
+ },
+ "rosvienne-split-hem-button-maxi-skirt-black": {
+  "stockBySize": {
+   "XXL": 897,
+   "XL": 899,
+   "L": 898,
+   "M": 900,
+   "S": 900
+  }
+ },
+ "liorenne-clear-strap-racerback-tank-charcoal": {
+  "stockBySize": {
+   "S": 150,
+   "M": 158
+  }
+ },
+ "liorenne-clear-strap-racerback-tank-heather-gray": {
+  "stockBySize": {
+   "M": 157,
+   "S": 118
+  }
+ },
+ "liorenne-clear-strap-racerback-tank-hot-pink": {
+  "stockBySize": {
+   "S": 182,
+   "M": 179
+  }
+ },
+ "liorenne-clear-strap-racerback-tank-white": {
+  "stockBySize": {
+   "M": 645,
+   "S": 618
+  }
  }
 }

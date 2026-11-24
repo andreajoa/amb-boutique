@@ -27488,6 +27488,360 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256808381822257",
   "sourceColor": "WHITE"
+},
+{
+  "slug": "eldrienne-paisley-chiffon-mini-dress-navy-paisley",
+  "name": "Eldrienne Paisley Chiffon Mini Dress — Navy Paisley",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 111.9,
+  "colors": [
+    "#243745"
+  ],
+  "colorNames": [
+    "Navy Paisley"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A printed chiffon mini dress with a high neckline, balloon sleeves and an asymmetric hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/eldrienne-paisley-chiffon-mini-dress-navy-paisley/front.webp",
+    "/products/eldrienne-paisley-chiffon-mini-dress-navy-paisley/back.webp",
+    "/products/eldrienne-paisley-chiffon-mini-dress-navy-paisley/left.webp",
+    "/products/eldrienne-paisley-chiffon-mini-dress-navy-paisley/right.webp"
+  ],
+  "stock": 2947,
+  "unitCostUsd": 37.12,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812128304727",
+  "sourceColor": "Navy"
+},
+{
+  "slug": "selorie-contrast-trim-tunic-midi-dress-ivory-with-black-trim",
+  "name": "Selorie Contrast-Trim Tunic Midi Dress — Ivory with Black Trim",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 25.9,
+  "colors": [
+    "#eeeae1"
+  ],
+  "colorNames": [
+    "Ivory with Black Trim"
+  ],
+  "sizes": [
+    "3XL",
+    "2XL",
+    "1XL",
+    "4XL",
+    "5XL"
+  ],
+  "description": "A relaxed ivory midi dress with a split neckline, three-quarter sleeves, side slits and narrow black trim.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/selorie-contrast-trim-tunic-midi-dress-ivory-with-black-trim/front.webp",
+    "/products/selorie-contrast-trim-tunic-midi-dress-ivory-with-black-trim/back.webp",
+    "/products/selorie-contrast-trim-tunic-midi-dress-ivory-with-black-trim/left.webp",
+    "/products/selorie-contrast-trim-tunic-midi-dress-ivory-with-black-trim/right.webp"
+  ],
+  "stock": 247,
+  "unitCostUsd": 8.48,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812573671978",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "cassienne-draped-halter-mini-dress-scarlet",
+  "name": "Cassienne Draped Halter Mini Dress — Scarlet",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 46.9,
+  "colors": [
+    "#c32630"
+  ],
+  "colorNames": [
+    "Scarlet"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A scarlet halter mini dress with a deep neckline, open back and a softly draped gathered skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/cassienne-draped-halter-mini-dress-scarlet/front.webp",
+    "/products/cassienne-draped-halter-mini-dress-scarlet/back.webp",
+    "/products/cassienne-draped-halter-mini-dress-scarlet/left.webp",
+    "/products/cassienne-draped-halter-mini-dress-scarlet/right.webp"
+  ],
+  "stock": 153,
+  "unitCostUsd": 15.44,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809988960670",
+  "sourceColor": "Red"
+},
+{
+  "slug": "liorenne-clear-strap-racerback-tank-black",
+  "name": "Liorenne Clear-Strap Racerback Tank — Black",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 51.9,
+  "colors": [
+    "#242427"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M"
+  ],
+  "description": "A fitted ribbed top with a scoop neckline, clear shoulder straps and a racerback panel.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/liorenne-clear-strap-racerback-tank-black/front.webp",
+    "/products/liorenne-clear-strap-racerback-tank-black/back.webp",
+    "/products/liorenne-clear-strap-racerback-tank-black/left.webp",
+    "/products/liorenne-clear-strap-racerback-tank-black/right.webp"
+  ],
+  "stock": 1641,
+  "unitCostUsd": 17.11,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805402756695",
+  "sourceColor": "black"
+},
+{
+  "slug": "alvielle-floral-bell-sleeve-mini-dress-ivory-floral",
+  "name": "Alvielle Floral Bell-Sleeve Mini Dress — Ivory Floral",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 106.9,
+  "colors": [
+    "#ddcdba"
+  ],
+  "colorNames": [
+    "Ivory Floral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A loose floral mini dress with a round neckline, three-quarter bell sleeves and a bordered ruffle hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/alvielle-floral-bell-sleeve-mini-dress-ivory-floral/front.webp",
+    "/products/alvielle-floral-bell-sleeve-mini-dress-ivory-floral/back.webp",
+    "/products/alvielle-floral-bell-sleeve-mini-dress-ivory-floral/left.webp",
+    "/products/alvielle-floral-bell-sleeve-mini-dress-ivory-floral/right.webp"
+  ],
+  "stock": 43,
+  "unitCostUsd": 35.43,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811971247451",
+  "sourceColor": "Beige"
+},
+{
+  "slug": "rosvienne-split-hem-button-maxi-skirt-black",
+  "name": "Rosvienne Split-Hem Button Maxi Skirt — Black",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 71.9,
+  "colors": [
+    "#252525"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A flowing high-rise skirt with a front button row and a split hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rosvienne-split-hem-button-maxi-skirt-black/front.webp",
+    "/products/rosvienne-split-hem-button-maxi-skirt-black/back.webp",
+    "/products/rosvienne-split-hem-button-maxi-skirt-black/left.webp",
+    "/products/rosvienne-split-hem-button-maxi-skirt-black/right.webp"
+  ],
+  "stock": 4494,
+  "unitCostUsd": 23.78,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808210812742",
+  "sourceColor": "black"
+},
+{
+  "slug": "liorenne-clear-strap-racerback-tank-charcoal",
+  "name": "Liorenne Clear-Strap Racerback Tank — Charcoal",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 51.9,
+  "colors": [
+    "#616068"
+  ],
+  "colorNames": [
+    "Charcoal"
+  ],
+  "sizes": [
+    "S",
+    "M"
+  ],
+  "description": "A fitted ribbed top with a scoop neckline, clear shoulder straps and a racerback panel.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/liorenne-clear-strap-racerback-tank-charcoal/front.webp",
+    "/products/liorenne-clear-strap-racerback-tank-charcoal/back.webp",
+    "/products/liorenne-clear-strap-racerback-tank-charcoal/left.webp",
+    "/products/liorenne-clear-strap-racerback-tank-charcoal/right.webp"
+  ],
+  "stock": 308,
+  "unitCostUsd": 17.11,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805402756695",
+  "sourceColor": "Dark Gray"
+},
+{
+  "slug": "liorenne-clear-strap-racerback-tank-heather-gray",
+  "name": "Liorenne Clear-Strap Racerback Tank — Heather Gray",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 51.9,
+  "colors": [
+    "#c3c5c3"
+  ],
+  "colorNames": [
+    "Heather Gray"
+  ],
+  "sizes": [
+    "S",
+    "M"
+  ],
+  "description": "A fitted ribbed top with a scoop neckline, clear shoulder straps and a racerback panel.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/liorenne-clear-strap-racerback-tank-heather-gray/front.webp",
+    "/products/liorenne-clear-strap-racerback-tank-heather-gray/back.webp",
+    "/products/liorenne-clear-strap-racerback-tank-heather-gray/left.webp",
+    "/products/liorenne-clear-strap-racerback-tank-heather-gray/right.webp"
+  ],
+  "stock": 275,
+  "unitCostUsd": 17.11,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805402756695",
+  "sourceColor": "Light Grey"
+},
+{
+  "slug": "liorenne-clear-strap-racerback-tank-hot-pink",
+  "name": "Liorenne Clear-Strap Racerback Tank — Hot Pink",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 51.9,
+  "colors": [
+    "#d6386d"
+  ],
+  "colorNames": [
+    "Hot Pink"
+  ],
+  "sizes": [
+    "S",
+    "M"
+  ],
+  "description": "A fitted ribbed top with a scoop neckline, clear shoulder straps and a racerback panel.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/liorenne-clear-strap-racerback-tank-hot-pink/front.webp",
+    "/products/liorenne-clear-strap-racerback-tank-hot-pink/back.webp",
+    "/products/liorenne-clear-strap-racerback-tank-hot-pink/left.webp",
+    "/products/liorenne-clear-strap-racerback-tank-hot-pink/right.webp"
+  ],
+  "stock": 361,
+  "unitCostUsd": 17.11,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805402756695",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "liorenne-clear-strap-racerback-tank-white",
+  "name": "Liorenne Clear-Strap Racerback Tank — White",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 51.9,
+  "colors": [
+    "#f0efed"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M"
+  ],
+  "description": "A fitted ribbed top with a scoop neckline, clear shoulder straps and a racerback panel.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/liorenne-clear-strap-racerback-tank-white/front.webp",
+    "/products/liorenne-clear-strap-racerback-tank-white/back.webp",
+    "/products/liorenne-clear-strap-racerback-tank-white/left.webp",
+    "/products/liorenne-clear-strap-racerback-tank-white/right.webp"
+  ],
+  "stock": 1263,
+  "unitCostUsd": 17.11,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805402756695",
+  "sourceColor": "wHITE"
 }
 ];
 
@@ -27497,6 +27851,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "eldrienne-paisley-chiffon-mini-dress-navy-paisley",
+  "selorie-contrast-trim-tunic-midi-dress-ivory-with-black-trim",
+  "cassienne-draped-halter-mini-dress-scarlet",
+  "liorenne-clear-strap-racerback-tank-black",
+  "alvielle-floral-bell-sleeve-mini-dress-ivory-floral",
+  "rosvienne-split-hem-button-maxi-skirt-black",
+  "liorenne-clear-strap-racerback-tank-charcoal",
+  "liorenne-clear-strap-racerback-tank-heather-gray",
+  "liorenne-clear-strap-racerback-tank-hot-pink",
+  "liorenne-clear-strap-racerback-tank-white",
+
   "valenna-contrast-trim-button-dress-navy",
   "melrisa-ruched-high-neck-maxi-dress-terracotta",
   "tavienne-layered-mesh-midi-skirt-dusty-rose",
