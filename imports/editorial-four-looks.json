@@ -2,43 +2,43 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
-      "slug": "mareselle-fringe-crochet-maxi-dress-buttercream",
-      "name": "Mareselle Fringe Crochet Maxi Dress — Buttercream",
-      "image": "/products/mareselle-fringe-crochet-maxi-dress-buttercream/front.webp",
+      "slug": "seravelle-open-back-cowl-maxi-dress-rust",
+      "name": "Seravelle Open-Back Cowl Maxi Dress — Rust",
+      "image": "/products/seravelle-open-back-cowl-maxi-dress-rust/front.webp",
       "eyebrow": "NEW ARRIVAL",
-      "copy": "A one-shoulder crochet maxi dress in buttercream with a curved waist cutout and long tonal fringe.",
+      "copy": "A long sleeveless dress with a high neckline and a low cowl draped across the open back.",
       "category": "Dresses",
-      "arrivalRank": 1066,
+      "arrivalRank": 1076,
       "classification": "verified-model"
     },
     {
-      "slug": "orvella-knotted-halter-maxi-dress-black",
-      "name": "Orvella Knotted Halter Maxi Dress — Black",
-      "image": "/products/orvella-knotted-halter-maxi-dress-black/front.webp",
+      "slug": "oriana-eyelet-wide-leg-trouser-set-buttercream",
+      "name": "Oriana Eyelet Wide-Leg Trouser Set — Buttercream",
+      "image": "/products/oriana-eyelet-wide-leg-trouser-set-buttercream/front.webp",
+      "eyebrow": "SUNLIT EASE",
+      "copy": "A coordinated buttercream set with a sleeveless floral eyelet crop top and long wide-leg trousers.",
+      "category": "Sets",
+      "arrivalRank": 1075,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "merovia-contrast-spot-mini-shirtdress-ivory-red",
+      "name": "Merovia Contrast Spot Mini Shirtdress — Ivory and Red",
+      "image": "/products/merovia-contrast-spot-mini-shirtdress-ivory-red/front.webp",
       "eyebrow": "AFTER DARK",
-      "copy": "A black floor-length halter dress with a plunging front, an open back and soft gathers drawn into a knot at the front waist.",
+      "copy": "A collared long-sleeve mini shirtdress with bold black spots and a contrasting red spotted drape across the hips.",
       "category": "Dresses",
-      "arrivalRank": 1065,
+      "arrivalRank": 1074,
       "classification": "verified-model"
     },
     {
-      "slug": "faurelle-off-shoulder-spot-mini-dress-olive",
-      "name": "Faurelle Off-Shoulder Spot Mini Dress — Olive",
-      "image": "/products/faurelle-off-shoulder-spot-mini-dress-olive/front.webp",
-      "eyebrow": "CONFIDENT COLOR",
-      "copy": "An olive printed mini dress with an off-the-shoulder neckline, gathered cuffs and wide balloon sleeves.",
+      "slug": "celavie-cutout-mermaid-maxi-dress-coral",
+      "name": "Celavie Cutout Mermaid Maxi Dress — Coral",
+      "image": "/products/celavie-cutout-mermaid-maxi-dress-coral/front.webp",
+      "eyebrow": "SAN DIEGO EDIT",
+      "copy": "A coral sleeveless maxi dress with a high neckline, small waist cutouts, an open back and a flared hem.",
       "category": "Dresses",
-      "arrivalRank": 1064,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "merovia-draped-tiger-mini-dress-tan-black",
-      "name": "Merovia Draped Tiger Mini Dress — Tan and Black",
-      "image": "/products/merovia-draped-tiger-mini-dress-tan-black/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A long-sleeve mini dress with a deep V-neck, tiger stripes and a long draped sash at one hip.",
-      "category": "Dresses",
-      "arrivalRank": 1063,
+      "arrivalRank": 1073,
       "classification": "verified-model"
     }
   ]

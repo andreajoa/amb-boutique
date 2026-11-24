@@ -28931,6 +28931,369 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256811554452854",
   "sourceColor": "Sky Blue"
+},
+{
+  "slug": "seravelle-open-back-cowl-maxi-dress-rust",
+  "name": "Seravelle Open-Back Cowl Maxi Dress — Rust",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 138.9,
+  "colors": [
+    "#A36444"
+  ],
+  "colorNames": [
+    "Rust"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A long sleeveless dress with a high neckline and a low cowl draped across the open back.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/seravelle-open-back-cowl-maxi-dress-rust/front.webp",
+    "/products/seravelle-open-back-cowl-maxi-dress-rust/back.webp",
+    "/products/seravelle-open-back-cowl-maxi-dress-rust/left.webp",
+    "/products/seravelle-open-back-cowl-maxi-dress-rust/right.webp"
+  ],
+  "stock": 1996,
+  "unitCostUsd": 46.2,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812045142943",
+  "sourceColor": "01 Brown"
+},
+{
+  "slug": "oriana-eyelet-wide-leg-trouser-set-buttercream",
+  "name": "Oriana Eyelet Wide-Leg Trouser Set — Buttercream",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 146.9,
+  "colors": [
+    "#E7D2A7"
+  ],
+  "colorNames": [
+    "Buttercream"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A coordinated buttercream set with a sleeveless floral eyelet crop top and long wide-leg trousers.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/oriana-eyelet-wide-leg-trouser-set-buttercream/front.webp",
+    "/products/oriana-eyelet-wide-leg-trouser-set-buttercream/back.webp",
+    "/products/oriana-eyelet-wide-leg-trouser-set-buttercream/left.webp",
+    "/products/oriana-eyelet-wide-leg-trouser-set-buttercream/right.webp"
+  ],
+  "stock": 297,
+  "unitCostUsd": 48.78,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812231822972",
+  "sourceColor": "yellow set"
+},
+{
+  "slug": "merovia-contrast-spot-mini-shirtdress-ivory-red",
+  "name": "Merovia Contrast Spot Mini Shirtdress — Ivory and Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 97.9,
+  "colors": [
+    "#E2D3B8"
+  ],
+  "colorNames": [
+    "Ivory, Red and Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A collared long-sleeve mini shirtdress with bold black spots and a contrasting red spotted drape across the hips.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/merovia-contrast-spot-mini-shirtdress-ivory-red/front.webp",
+    "/products/merovia-contrast-spot-mini-shirtdress-ivory-red/back.webp",
+    "/products/merovia-contrast-spot-mini-shirtdress-ivory-red/left.webp",
+    "/products/merovia-contrast-spot-mini-shirtdress-ivory-red/right.webp"
+  ],
+  "stock": 267,
+  "unitCostUsd": 32.49,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812214668261",
+  "sourceColor": "04 shirtdress"
+},
+{
+  "slug": "celavie-cutout-mermaid-maxi-dress-coral",
+  "name": "Celavie Cutout Mermaid Maxi Dress — Coral",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 101.9,
+  "colors": [
+    "#D67156"
+  ],
+  "colorNames": [
+    "Coral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A coral sleeveless maxi dress with a high neckline, small waist cutouts, an open back and a flared hem.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/celavie-cutout-mermaid-maxi-dress-coral/front.webp",
+    "/products/celavie-cutout-mermaid-maxi-dress-coral/back.webp",
+    "/products/celavie-cutout-mermaid-maxi-dress-coral/left.webp",
+    "/products/celavie-cutout-mermaid-maxi-dress-coral/right.webp"
+  ],
+  "stock": 3000,
+  "unitCostUsd": 33.79,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812532382912",
+  "sourceColor": "orange"
+},
+{
+  "slug": "mariselle-ornamental-kaftan-maxi-dress-blue",
+  "name": "Mariselle Ornamental Kaftan Maxi Dress — Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 74.9,
+  "colors": [
+    "#4B6683"
+  ],
+  "colorNames": [
+    "Blue and Cream"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A V-neck maxi dress with loose sleeves, a defined waist and ornamental print panels.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/mariselle-ornamental-kaftan-maxi-dress-blue/front.webp",
+    "/products/mariselle-ornamental-kaftan-maxi-dress-blue/back.webp",
+    "/products/mariselle-ornamental-kaftan-maxi-dress-blue/left.webp",
+    "/products/mariselle-ornamental-kaftan-maxi-dress-blue/right.webp"
+  ],
+  "stock": 3994,
+  "unitCostUsd": 24.96,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808101521519",
+  "sourceColor": "dark blue"
+},
+{
+  "slug": "verelle-keyhole-halter-maxi-dress-olive",
+  "name": "Verelle Keyhole Halter Maxi Dress — Olive",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 77.9,
+  "colors": [
+    "#4D4C34"
+  ],
+  "colorNames": [
+    "Olive"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A floor-length halter dress with a long front keyhole, gathered twist waist and side cutouts.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/verelle-keyhole-halter-maxi-dress-olive/front.webp",
+    "/products/verelle-keyhole-halter-maxi-dress-olive/back.webp",
+    "/products/verelle-keyhole-halter-maxi-dress-olive/left.webp",
+    "/products/verelle-keyhole-halter-maxi-dress-olive/right.webp"
+  ],
+  "stock": 29988,
+  "unitCostUsd": 25.75,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812502949887",
+  "sourceColor": "Green"
+},
+{
+  "slug": "beloria-swirl-print-maxi-dress-ochre-mosaic",
+  "name": "Beloria Swirl Print Maxi Dress — Ochre Mosaic",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 47.9,
+  "colors": [
+    "#A5733A"
+  ],
+  "colorNames": [
+    "Ochre Mosaic"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless A-line maxi dress with circular motifs in warm ochre, dark green and brick red.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/beloria-swirl-print-maxi-dress-ochre-mosaic/front.webp",
+    "/products/beloria-swirl-print-maxi-dress-ochre-mosaic/back.webp",
+    "/products/beloria-swirl-print-maxi-dress-ochre-mosaic/left.webp",
+    "/products/beloria-swirl-print-maxi-dress-ochre-mosaic/right.webp"
+  ],
+  "stock": 600,
+  "unitCostUsd": 15.94,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809943426273",
+  "sourceColor": "Ro6"
+},
+{
+  "slug": "beloria-swirl-print-maxi-dress-floral-spray",
+  "name": "Beloria Swirl Print Maxi Dress — Floral Spray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 47.9,
+  "colors": [
+    "#282526"
+  ],
+  "colorNames": [
+    "Black Floral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A loose sleeveless black maxi dress with a diagonal spray of pink, gold and white flowers.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/beloria-swirl-print-maxi-dress-floral-spray/front.webp",
+    "/products/beloria-swirl-print-maxi-dress-floral-spray/back.webp",
+    "/products/beloria-swirl-print-maxi-dress-floral-spray/left.webp",
+    "/products/beloria-swirl-print-maxi-dress-floral-spray/right.webp"
+  ],
+  "stock": 600,
+  "unitCostUsd": 15.94,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809943426273",
+  "sourceColor": "Ro4"
+},
+{
+  "slug": "danora-distressed-denim-cutoffs-light-wash",
+  "name": "Danora Distressed Denim Cutoffs — Light Wash",
+  "category": "Shorts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 81.9,
+  "colors": [
+    "#94ADC1"
+  ],
+  "colorNames": [
+    "Light Wash"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "Light-wash denim cutoffs with distressed front panels, belt loops and a raw frayed hem.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/danora-distressed-denim-cutoffs-light-wash/front.webp",
+    "/products/danora-distressed-denim-cutoffs-light-wash/back.webp",
+    "/products/danora-distressed-denim-cutoffs-light-wash/left.webp",
+    "/products/danora-distressed-denim-cutoffs-light-wash/right.webp"
+  ],
+  "stock": 512,
+  "unitCostUsd": 27.08,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809295478521",
+  "sourceColor": "Light Blue"
+},
+{
+  "slug": "renova-notched-denim-cutoffs-white",
+  "name": "Renova Notched Denim Cutoffs — White",
+  "category": "Shorts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 73.9,
+  "colors": [
+    "#F4F2ED"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "White denim cutoffs with a short side notch and a lightly frayed hem.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/renova-notched-denim-cutoffs-white/front.webp",
+    "/products/renova-notched-denim-cutoffs-white/back.webp",
+    "/products/renova-notched-denim-cutoffs-white/left.webp",
+    "/products/renova-notched-denim-cutoffs-white/right.webp"
+  ],
+  "stock": 500,
+  "unitCostUsd": 24.56,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811554452854",
+  "sourceColor": "White"
 }
 ];
 
@@ -28940,6 +29303,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "seravelle-open-back-cowl-maxi-dress-rust",
+  "oriana-eyelet-wide-leg-trouser-set-buttercream",
+  "merovia-contrast-spot-mini-shirtdress-ivory-red",
+  "celavie-cutout-mermaid-maxi-dress-coral",
+  "mariselle-ornamental-kaftan-maxi-dress-blue",
+  "verelle-keyhole-halter-maxi-dress-olive",
+  "beloria-swirl-print-maxi-dress-ochre-mosaic",
+  "beloria-swirl-print-maxi-dress-floral-spray",
+  "danora-distressed-denim-cutoffs-light-wash",
+  "renova-notched-denim-cutoffs-white",
+
   "mareselle-fringe-crochet-maxi-dress-buttercream",
   "orvella-knotted-halter-maxi-dress-black",
   "faurelle-off-shoulder-spot-mini-dress-olive",

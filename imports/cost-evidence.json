@@ -221,6 +221,14 @@
    "landedCostUsd": 15.94,
    "source": "catalog-20261123-batch23-bindings.json"
   },
+  "beloria-swirl-print-maxi-dress-floral-spray": {
+   "landedCostUsd": 15.94,
+   "source": "catalog-20261123-batch25-bindings.json"
+  },
+  "beloria-swirl-print-maxi-dress-ochre-mosaic": {
+   "landedCostUsd": 15.94,
+   "source": "catalog-20261123-batch25-bindings.json"
+  },
   "bianca-tailored-romper": {
    "landedCostUsd": 35.13,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
@@ -368,6 +376,10 @@
   "cassienne-draped-halter-mini-dress-scarlet": {
    "landedCostUsd": 15.44,
    "source": "catalog-20261123-batch21-bindings.json"
+  },
+  "celavie-cutout-mermaid-maxi-dress-coral": {
+   "landedCostUsd": 33.79,
+   "source": "catalog-20261123-batch25-bindings.json"
   },
   "celenne-lantern-sleeve-knit-dress-apricot": {
    "landedCostUsd": 35.25,
@@ -540,6 +552,10 @@
   "danika-black-halter-midi-dress": {
    "landedCostUsd": 24.44,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "danora-distressed-denim-cutoffs-light-wash": {
+   "landedCostUsd": 27.08,
+   "source": "catalog-20261123-batch25-bindings.json"
   },
   "daria-denim-shorts": {
    "landedCostUsd": 22.23,
@@ -1253,6 +1269,10 @@
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
   },
+  "mariselle-ornamental-kaftan-maxi-dress-blue": {
+   "landedCostUsd": 24.96,
+   "source": "catalog-20261123-batch25-bindings.json"
+  },
   "marisol-striped-wide-leg-jumpsuit-light-blue": {
    "landedCostUsd": 22.62,
    "source": "catalog-20261026-new-products-bindings.json"
@@ -1288,6 +1308,10 @@
   "melrisa-ruched-high-neck-maxi-dress-terracotta": {
    "landedCostUsd": 49,
    "source": "catalog-20261123-batch20-bindings.json"
+  },
+  "merovia-contrast-spot-mini-shirtdress-ivory-red": {
+   "landedCostUsd": 32.49,
+   "source": "catalog-20261123-batch25-bindings.json"
   },
   "merovia-draped-spot-mini-skirt-wine": {
    "landedCostUsd": 27.73,
@@ -1657,6 +1681,10 @@
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
   },
+  "oriana-eyelet-wide-leg-trouser-set-buttercream": {
+   "landedCostUsd": 48.78,
+   "source": "catalog-20261123-batch25-bindings.json"
+  },
   "oriana-green-satin-midi-dress": {
    "landedCostUsd": 21.94,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
@@ -1833,6 +1861,10 @@
    "landedCostUsd": 24.18,
    "source": "catalog-20261123-batch24-bindings.json"
   },
+  "renova-notched-denim-cutoffs-white": {
+   "landedCostUsd": 24.56,
+   "source": "catalog-20261123-batch25-bindings.json"
+  },
   "rio-stripe-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -1992,6 +2024,10 @@
   "selorie-contrast-trim-tunic-midi-dress-ivory-with-black-trim": {
    "landedCostUsd": 8.48,
    "source": "catalog-20261123-batch21-bindings.json"
+  },
+  "seravelle-open-back-cowl-maxi-dress-rust": {
+   "landedCostUsd": 46.2,
+   "source": "catalog-20261123-batch25-bindings.json"
   },
   "serenella-ruffle-corset-three-piece-set-beige": {
    "landedCostUsd": 85.21,
@@ -2252,6 +2288,10 @@
   "verdelle-lace-bodice-pleated-gown-green": {
    "landedCostUsd": 62.85,
    "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "verelle-keyhole-halter-maxi-dress-olive": {
+   "landedCostUsd": 25.75,
+   "source": "catalog-20261123-batch25-bindings.json"
   },
   "vespera-tailored-vest-trouser-set-black": {
    "landedCostUsd": 33.12,
