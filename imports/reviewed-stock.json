@@ -3394,5 +3394,87 @@
   "stockBySize": {
    "One Size": 91991
   }
+ },
+ "esmerelle-mock-neck-draped-maxi-dress-white": {
+  "stockBySize": {
+   "L": 92,
+   "M": 92,
+   "S": 70
+  }
+ },
+ "olivienne-beaded-drape-halter-maxi-dress-olive": {
+  "stockBySize": {
+   "L": 486,
+   "M": 478,
+   "S": 398
+  }
+ },
+ "celesse-gathered-v-neck-kaftan-champagne": {
+  "stockBySize": {
+   "One Size": 92
+  }
+ },
+ "velora-batwing-kimono-cover-up-taupe": {
+  "stockBySize": {
+   "One Size": 490
+  }
+ },
+ "amarelle-wide-leg-trousers-scarlet": {
+  "stockBySize": {
+   "S": 4,
+   "M": 9,
+   "XS": 7,
+   "L": 4
+  }
+ },
+ "karissa-geometric-print-maxi-dress-teal-gold": {
+  "stockBySize": {
+   "XXXL": 999,
+   "S": 998,
+   "M": 998,
+   "L": 995,
+   "XL": 998,
+   "XXL": 999
+  }
+ },
+ "karissa-geometric-print-maxi-dress-sapphire-coral": {
+  "stockBySize": {
+   "S": 999,
+   "M": 998,
+   "L": 997,
+   "XL": 998,
+   "XXL": 999,
+   "XXXL": 999
+  }
+ },
+ "karissa-geometric-print-maxi-dress-charcoal-ivory": {
+  "stockBySize": {
+   "XL": 999,
+   "XXL": 999,
+   "XXXL": 999,
+   "S": 999,
+   "M": 999,
+   "L": 999
+  }
+ },
+ "karissa-geometric-print-maxi-dress-rust-plum": {
+  "stockBySize": {
+   "S": 999,
+   "M": 999,
+   "L": 999,
+   "XL": 999,
+   "XXL": 999,
+   "XXXL": 998
+  }
+ },
+ "karissa-geometric-print-maxi-dress-olive-rust": {
+  "stockBySize": {
+   "S": 999,
+   "M": 999,
+   "L": 998,
+   "XL": 997,
+   "XXL": 998,
+   "XXXL": 999
+  }
  }
 }

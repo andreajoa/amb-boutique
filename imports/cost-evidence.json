@@ -77,6 +77,10 @@
    "landedCostUsd": 32.29,
    "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256808122208834|purple, 2026-10-25T03:01:56.897Z) · identidade confirmada"
   },
+  "amarelle-wide-leg-trousers-scarlet": {
+   "landedCostUsd": 16.04,
+   "source": "catalog-20261123-batch29-bindings.json"
+  },
   "ameixa-velvet-cowl-dress": {
    "landedCostUsd": 27.81,
    "source": "catalog-20261026-new-products-bindings.json"
@@ -424,6 +428,10 @@
   "celenne-lantern-sleeve-knit-dress-raspberry": {
    "landedCostUsd": 35.25,
    "source": "catalog-20261123-batch15-bindings.json"
+  },
+  "celesse-gathered-v-neck-kaftan-champagne": {
+   "landedCostUsd": 25.78,
+   "source": "catalog-20261123-batch29-bindings.json"
   },
   "celeste-vneck-print-midi-dress": {
    "landedCostUsd": 25.1,
@@ -789,6 +797,10 @@
    "landedCostUsd": 22.02,
    "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256807236337080|green, 2026-10-25T03:03:42.321Z) · identidade confirmada"
   },
+  "esmerelle-mock-neck-draped-maxi-dress-white": {
+   "landedCostUsd": 20.33,
+   "source": "catalog-20261123-batch29-bindings.json"
+  },
   "evania-diamond-cable-turtleneck-dress-black": {
    "landedCostUsd": 33.83,
    "source": "catalog-20261123-batch15-bindings.json"
@@ -1024,6 +1036,26 @@
   "kalina-white-pleated-maxi-dress": {
    "landedCostUsd": 34.69,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "karissa-geometric-print-maxi-dress-charcoal-ivory": {
+   "landedCostUsd": 15.23,
+   "source": "catalog-20261123-batch29-bindings.json"
+  },
+  "karissa-geometric-print-maxi-dress-olive-rust": {
+   "landedCostUsd": 15.23,
+   "source": "catalog-20261123-batch29-bindings.json"
+  },
+  "karissa-geometric-print-maxi-dress-rust-plum": {
+   "landedCostUsd": 15.23,
+   "source": "catalog-20261123-batch29-bindings.json"
+  },
+  "karissa-geometric-print-maxi-dress-sapphire-coral": {
+   "landedCostUsd": 15.23,
+   "source": "catalog-20261123-batch29-bindings.json"
+  },
+  "karissa-geometric-print-maxi-dress-teal-gold": {
+   "landedCostUsd": 15.23,
+   "source": "catalog-20261123-batch29-bindings.json"
   },
   "kente-swing-dress": {
    "landedCostUsd": 28.98,
@@ -1737,6 +1769,10 @@
    "landedCostUsd": 15.18,
    "source": "catalog-20261123-batch01-bindings.json"
   },
+  "olivienne-beaded-drape-halter-maxi-dress-olive": {
+   "landedCostUsd": 38.25,
+   "source": "catalog-20261123-batch29-bindings.json"
+  },
   "onda-vneck-print-midi-dress": {
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -2380,6 +2416,10 @@
   "velora-batwing-kimono-cover-up-black": {
    "landedCostUsd": 33.61,
    "source": "catalog-20261123-batch28-bindings.json"
+  },
+  "velora-batwing-kimono-cover-up-taupe": {
+   "landedCostUsd": 33.61,
+   "source": "catalog-20261123-batch29-bindings.json"
   },
   "venus-trousers": {
    "landedCostUsd": 47.35,
