@@ -2221,5 +2221,90 @@
    "L": 50,
    "M": 50
   }
+ },
+ "rivella-two-buckle-knit-dress-deep-blue": {
+  "stockBySize": {
+   "M": 999,
+   "S": 999,
+   "XXXL": 998,
+   "XXL": 998,
+   "XL": 999,
+   "L": 998
+  }
+ },
+ "camille-multi-pocket-crossbody-black": {
+  "stockBySize": {
+   "23x17x11cm": 7
+  }
+ },
+ "lurene-belted-turtleneck-knit-dress-white": {
+  "stockBySize": {
+   "One Size": 196
+  }
+ },
+ "rivella-two-buckle-knit-dress-claret": {
+  "stockBySize": {
+   "XL": 664,
+   "L": 661,
+   "XXXL": 662,
+   "XXL": 662,
+   "M": 665,
+   "S": 665
+  }
+ },
+ "rivella-two-buckle-knit-dress-heather-gray": {
+  "stockBySize": {
+   "M": 659,
+   "S": 666,
+   "XL": 661,
+   "L": 664,
+   "XXXL": 659,
+   "XXL": 661
+  }
+ },
+ "rivella-two-buckle-knit-dress-forest": {
+  "stockBySize": {
+   "M": 663,
+   "S": 666,
+   "XL": 665,
+   "L": 665,
+   "XXXL": 665,
+   "XXL": 663
+  }
+ },
+ "lurene-belted-turtleneck-knit-dress-black": {
+  "stockBySize": {
+   "One Size": 197
+  }
+ },
+ "rivella-two-buckle-knit-dress-taupe": {
+  "stockBySize": {
+   "M": 663,
+   "S": 666,
+   "XL": 664,
+   "L": 664,
+   "XXXL": 664,
+   "XXL": 664
+  }
+ },
+ "rivella-two-buckle-knit-dress-raspberry": {
+  "stockBySize": {
+   "M": 665,
+   "S": 666,
+   "XL": 661,
+   "L": 665,
+   "XXXL": 662,
+   "XXL": 666
+  }
+ },
+ "rivella-two-buckle-knit-dress-mustard": {
+  "stockBySize": {
+   "M": 664,
+   "S": 666,
+   "XL": 663,
+   "L": 665,
+   "XXXL": 663,
+   "XXL": 664
+  }
  }
 }
