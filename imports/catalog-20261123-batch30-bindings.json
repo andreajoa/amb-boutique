@@ -1,0 +1,299 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "aleria-draped-cold-shoulder-midi-dress-black",
+      "sourceProductId": "3256806664357699",
+      "sourceColor": "black",
+      "supplierId": "cmsyp28ar005304jlwh43ww1f",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000038511808635",
+        "XL": "12000038511808634",
+        "L": "12000038511808633",
+        "M": "12000038511808632",
+        "XXXL": "12000038511808636",
+        "S": "12000038511808631"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 22.57,
+        "XL": 22.57,
+        "L": 22.57,
+        "M": 22.57,
+        "XXXL": 22.57,
+        "S": 22.57
+      },
+      "stockBySize": {
+        "XXL": 997,
+        "XL": 996,
+        "L": 998,
+        "M": 995,
+        "XXXL": 999,
+        "S": 999
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-24T18:12:58.242Z"
+    },
+    {
+      "slug": "amarelle-draped-halter-top-scarlet",
+      "sourceProductId": "3256812221598829",
+      "sourceColor": "top",
+      "supplierId": "cmvr6yczm000f08l9be4ohmwx",
+      "sourceSkuIdsBySize": {
+        "S": "12000058294475514",
+        "M": "12000058294475515",
+        "XS": "12000058294475513",
+        "L": "12000058294475516"
+      },
+      "landedCostUsdBySize": {
+        "S": 9.78,
+        "M": 9.78,
+        "XS": 9.78,
+        "L": 9.88
+      },
+      "stockBySize": {
+        "S": 3,
+        "M": 5,
+        "XS": 6,
+        "L": 5
+      },
+      "retailPriceUsd": 29.9,
+      "verifiedAtUtc": "2026-11-24T17:36:00.301Z"
+    },
+    {
+      "slug": "lorielle-ruffled-corset-three-piece-set-espresso",
+      "sourceProductId": "3256808412523178",
+      "sourceColor": "Coffee",
+      "supplierId": "cmsyozkdj001304jlpzxjzmm1",
+      "sourceSkuIdsBySize": {
+        "S": "12000059101191583",
+        "XS": "12000059101191582",
+        "L": "12000059101191585",
+        "M": "12000059101191584"
+      },
+      "landedCostUsdBySize": {
+        "S": 85.21,
+        "XS": 85.21,
+        "L": 85.21,
+        "M": 85.21
+      },
+      "stockBySize": {
+        "S": 999,
+        "XS": 999,
+        "L": 999,
+        "M": 999
+      },
+      "retailPriceUsd": 255.9,
+      "verifiedAtUtc": "2026-11-24T18:13:06.492Z"
+    },
+    {
+      "slug": "marielle-diagonal-stripe-cover-up-set-mauve",
+      "sourceProductId": "3256810213097293",
+      "sourceColor": "BH25857K11",
+      "supplierId": "cmvr6tr14000708l0a78gk9my",
+      "sourceSkuIdsBySize": {
+        "L": "12000052282224192",
+        "S": "12000052282224190",
+        "M": "12000052282224191"
+      },
+      "landedCostUsdBySize": {
+        "L": 27.42,
+        "S": 27.42,
+        "M": 27.42
+      },
+      "stockBySize": {
+        "L": 944,
+        "S": 881,
+        "M": 904
+      },
+      "retailPriceUsd": 82.9,
+      "verifiedAtUtc": "2026-11-24T18:13:18.458Z"
+    },
+    {
+      "slug": "lorielle-ruffled-corset-three-piece-set-powder-blue",
+      "sourceProductId": "3256808412523178",
+      "sourceColor": "Light Blue",
+      "supplierId": "cmsyozkdj001304jlpzxjzmm1",
+      "sourceSkuIdsBySize": {
+        "M": "12000051185970904",
+        "L": "12000051185970905",
+        "XS": "12000051185970902",
+        "S": "12000051185970903"
+      },
+      "landedCostUsdBySize": {
+        "M": 85.21,
+        "L": 85.21,
+        "XS": 85.21,
+        "S": 85.21
+      },
+      "stockBySize": {
+        "M": 995,
+        "L": 999,
+        "XS": 998,
+        "S": 994
+      },
+      "retailPriceUsd": 255.9,
+      "verifiedAtUtc": "2026-11-24T18:13:06.492Z"
+    },
+    {
+      "slug": "karissa-geometric-print-maxi-dress-chartreuse-olive",
+      "sourceProductId": "3256808281141298",
+      "sourceColor": "chang00",
+      "supplierId": "cmt62zxhc001v04l44whc3h82",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000045267695224",
+        "S": "12000045267695219",
+        "M": "12000045267695220",
+        "L": "12000045267695221",
+        "XL": "12000045267695222",
+        "XXL": "12000045267695223"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 15.23,
+        "S": 15.23,
+        "M": 15.23,
+        "L": 15.23,
+        "XL": 15.23,
+        "XXL": 15.23
+      },
+      "stockBySize": {
+        "XXXL": 995,
+        "S": 999,
+        "M": 996,
+        "L": 998,
+        "XL": 997,
+        "XXL": 998
+      },
+      "retailPriceUsd": 45.9,
+      "verifiedAtUtc": "2026-11-24T17:34:27.114Z"
+    },
+    {
+      "slug": "karissa-geometric-print-maxi-dress-scarlet-ochre",
+      "sourceProductId": "3256808281141298",
+      "sourceColor": "chang02",
+      "supplierId": "cmt62zxhc001v04l44whc3h82",
+      "sourceSkuIdsBySize": {
+        "M": "12000045267695232",
+        "L": "12000045267695233",
+        "XL": "12000045267695234",
+        "XXL": "12000045267695235",
+        "XXXL": "12000045267695236",
+        "S": "12000045267695231"
+      },
+      "landedCostUsdBySize": {
+        "M": 15.23,
+        "L": 15.23,
+        "XL": 15.23,
+        "XXL": 15.23,
+        "XXXL": 15.23,
+        "S": 15.23
+      },
+      "stockBySize": {
+        "M": 999,
+        "L": 997,
+        "XL": 998,
+        "XXL": 999,
+        "XXXL": 999,
+        "S": 999
+      },
+      "retailPriceUsd": 45.9,
+      "verifiedAtUtc": "2026-11-24T17:34:27.114Z"
+    },
+    {
+      "slug": "karissa-geometric-print-maxi-dress-jade-citrus",
+      "sourceProductId": "3256808281141298",
+      "sourceColor": "chang05",
+      "supplierId": "cmt62zxhc001v04l44whc3h82",
+      "sourceSkuIdsBySize": {
+        "S": "12000045267695249",
+        "M": "12000045267695250",
+        "L": "12000045267695251",
+        "XL": "12000045267695252",
+        "XXL": "12000045267695253",
+        "XXXL": "12000045267695254"
+      },
+      "landedCostUsdBySize": {
+        "S": 15.23,
+        "M": 15.23,
+        "L": 15.23,
+        "XL": 15.23,
+        "XXL": 15.23,
+        "XXXL": 15.23
+      },
+      "stockBySize": {
+        "S": 998,
+        "M": 996,
+        "L": 993,
+        "XL": 997,
+        "XXL": 998,
+        "XXXL": 998
+      },
+      "retailPriceUsd": 45.9,
+      "verifiedAtUtc": "2026-11-24T17:34:27.114Z"
+    },
+    {
+      "slug": "karissa-geometric-print-maxi-dress-bronze-walnut",
+      "sourceProductId": "3256808281141298",
+      "sourceColor": "chang06",
+      "supplierId": "cmt62zxhc001v04l44whc3h82",
+      "sourceSkuIdsBySize": {
+        "M": "12000045267695256",
+        "L": "12000045267695257",
+        "XL": "12000045267695258",
+        "XXL": "12000045267695259",
+        "XXXL": "12000045267695260",
+        "S": "12000045267695255"
+      },
+      "landedCostUsdBySize": {
+        "M": 15.23,
+        "L": 15.23,
+        "XL": 15.23,
+        "XXL": 15.23,
+        "XXXL": 15.23,
+        "S": 15.23
+      },
+      "stockBySize": {
+        "M": 998,
+        "L": 996,
+        "XL": 998,
+        "XXL": 998,
+        "XXXL": 999,
+        "S": 999
+      },
+      "retailPriceUsd": 45.9,
+      "verifiedAtUtc": "2026-11-24T17:34:27.114Z"
+    },
+    {
+      "slug": "karissa-geometric-print-maxi-dress-ink-ivory",
+      "sourceProductId": "3256808281141298",
+      "sourceColor": "chang07",
+      "supplierId": "cmt62zxhc001v04l44whc3h82",
+      "sourceSkuIdsBySize": {
+        "XL": "12000045267695264",
+        "XXL": "12000045267695265",
+        "XXXL": "12000045267695266",
+        "S": "12000045267695261",
+        "M": "12000045267695262",
+        "L": "12000045267695263"
+      },
+      "landedCostUsdBySize": {
+        "XL": 15.23,
+        "XXL": 15.23,
+        "XXXL": 15.23,
+        "S": 13.36,
+        "M": 15.23,
+        "L": 15.23
+      },
+      "stockBySize": {
+        "XL": 996,
+        "XXL": 996,
+        "XXXL": 998,
+        "S": 995,
+        "M": 998,
+        "L": 995
+      },
+      "retailPriceUsd": 45.9,
+      "verifiedAtUtc": "2026-11-24T17:34:27.114Z"
+    }
+  ]
+}
