@@ -25,6 +25,10 @@
    "landedCostUsd": 22.9,
    "source": "catalog-20261123-batch04-bindings.json"
   },
+  "alvielle-floral-bell-sleeve-mini-dress-ivory-floral": {
+   "landedCostUsd": 35.43,
+   "source": "catalog-20261123-batch21-bindings.json"
+  },
   "amalfi-dumpling-bag-large-black-alligator": {
    "landedCostUsd": 53.58,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
@@ -353,6 +357,10 @@
    "landedCostUsd": 19.52,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
   },
+  "cassienne-draped-halter-mini-dress-scarlet": {
+   "landedCostUsd": 15.44,
+   "source": "catalog-20261123-batch21-bindings.json"
+  },
   "celenne-lantern-sleeve-knit-dress-apricot": {
    "landedCostUsd": 35.25,
    "source": "catalog-20261123-batch16-bindings.json"
@@ -600,6 +608,10 @@
   "elara-denim-shorts": {
    "landedCostUsd": 22.23,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "eldrienne-paisley-chiffon-mini-dress-navy-paisley": {
+   "landedCostUsd": 37.12,
+   "source": "catalog-20261123-batch21-bindings.json"
   },
   "elise-maxi-skirt": {
    "landedCostUsd": 25.88,
@@ -976,6 +988,26 @@
   "liora-twist-back-knit-tank-khaki": {
    "landedCostUsd": 11.32,
    "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "liorenne-clear-strap-racerback-tank-black": {
+   "landedCostUsd": 17.11,
+   "source": "catalog-20261123-batch21-bindings.json"
+  },
+  "liorenne-clear-strap-racerback-tank-charcoal": {
+   "landedCostUsd": 17.11,
+   "source": "catalog-20261123-batch21-bindings.json"
+  },
+  "liorenne-clear-strap-racerback-tank-heather-gray": {
+   "landedCostUsd": 17.11,
+   "source": "catalog-20261123-batch21-bindings.json"
+  },
+  "liorenne-clear-strap-racerback-tank-hot-pink": {
+   "landedCostUsd": 17.11,
+   "source": "catalog-20261123-batch21-bindings.json"
+  },
+  "liorenne-clear-strap-racerback-tank-white": {
+   "landedCostUsd": 17.11,
+   "source": "catalog-20261123-batch21-bindings.json"
   },
   "lisette-textured-button-front-cardigan-crimson-mix": {
    "landedCostUsd": 33.91,
@@ -1797,6 +1829,10 @@
    "landedCostUsd": 13.69,
    "source": "catalog-20261025-batch04-supplier-bindings.json"
   },
+  "rosvienne-split-hem-button-maxi-skirt-black": {
+   "landedCostUsd": 23.78,
+   "source": "catalog-20261123-batch21-bindings.json"
+  },
   "rovelle-turtleneck-sweater-midi-dress-black": {
    "landedCostUsd": 30.93,
    "source": "catalog-20261123-batch05-bindings.json"
@@ -1860,6 +1896,10 @@
   "saskia-blue-pleated-midi-dress": {
    "landedCostUsd": 36.16,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "selorie-contrast-trim-tunic-midi-dress-ivory-with-black-trim": {
+   "landedCostUsd": 8.48,
+   "source": "catalog-20261123-batch21-bindings.json"
   },
   "serenella-ruffle-corset-three-piece-set-beige": {
    "landedCostUsd": 85.21,
