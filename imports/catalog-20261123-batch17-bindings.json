@@ -1,0 +1,188 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "kinelle-ribbed-polo-maxi-dress-mist-blue",
+      "sourceProductId": "3256806481654545",
+      "sourceColor": "SKY BLUE",
+      "supplierId": "cmwtolnq600l70jlnxorxe9w4",
+      "sourceSkuIdsBySize": {
+        "M": "12000037970367253",
+        "S": "12000037970367252",
+        "XL": "12000037970367255",
+        "L": "12000037970367254",
+        "XXL": "12000037970367256"
+      },
+      "landedCostUsdBySize": {
+        "M": 17.58,
+        "S": 17.48,
+        "XL": 17.81,
+        "L": 17.88,
+        "XXL": 18.24
+      },
+      "stockBySize": {
+        "M": 38,
+        "S": 27,
+        "XL": 28,
+        "L": 33,
+        "XXL": 31
+      },
+      "retailPriceUsd": 54.9,
+      "verifiedAtUtc": "2026-11-24T02:12:37.967Z"
+    },
+    {
+      "slug": "lurene-belted-turtleneck-knit-dress-warm-ivory",
+      "sourceProductId": "3256802700278618",
+      "sourceColor": "beige",
+      "supplierId": "cmwtp9ela013c0jlnvh9ncie9",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000030569185647"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 28.79
+      },
+      "stockBySize": {
+        "One Size": 199
+      },
+      "retailPriceUsd": 86.9,
+      "verifiedAtUtc": "2026-11-24T02:12:31.308Z"
+    },
+    {
+      "slug": "lurene-belted-turtleneck-knit-dress-periwinkle",
+      "sourceProductId": "3256802700278618",
+      "sourceColor": "blue",
+      "supplierId": "cmwtp9ela013c0jlnvh9ncie9",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000035204314016"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 28.85
+      },
+      "stockBySize": {
+        "One Size": 199
+      },
+      "retailPriceUsd": 86.9,
+      "verifiedAtUtc": "2026-11-24T02:12:31.308Z"
+    },
+    {
+      "slug": "lurene-belted-turtleneck-knit-dress-chestnut",
+      "sourceProductId": "3256802700278618",
+      "sourceColor": "Brown",
+      "supplierId": "cmwtp9ela013c0jlnvh9ncie9",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000030569185649"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 28.76
+      },
+      "stockBySize": {
+        "One Size": 200
+      },
+      "retailPriceUsd": 86.9,
+      "verifiedAtUtc": "2026-11-24T02:12:31.308Z"
+    },
+    {
+      "slug": "lurene-belted-turtleneck-knit-dress-mushroom-taupe",
+      "sourceProductId": "3256802700278618",
+      "sourceColor": "Camel",
+      "supplierId": "cmwtp9ela013c0jlnvh9ncie9",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000022624693671"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 28.86
+      },
+      "stockBySize": {
+        "One Size": 198
+      },
+      "retailPriceUsd": 86.9,
+      "verifiedAtUtc": "2026-11-24T02:12:31.308Z"
+    },
+    {
+      "slug": "lurene-belted-turtleneck-knit-dress-cobalt",
+      "sourceProductId": "3256802700278618",
+      "sourceColor": "Dark Blue",
+      "supplierId": "cmwtp9ela013c0jlnvh9ncie9",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000030569185640"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 28.86
+      },
+      "stockBySize": {
+        "One Size": 199
+      },
+      "retailPriceUsd": 86.9,
+      "verifiedAtUtc": "2026-11-24T02:12:31.308Z"
+    },
+    {
+      "slug": "lurene-belted-turtleneck-knit-dress-heather-gray",
+      "sourceProductId": "3256802700278618",
+      "sourceColor": "gray",
+      "supplierId": "cmwtp9ela013c0jlnvh9ncie9",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000030569185642"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 28.84
+      },
+      "stockBySize": {
+        "One Size": 200
+      },
+      "retailPriceUsd": 86.9,
+      "verifiedAtUtc": "2026-11-24T02:12:31.308Z"
+    },
+    {
+      "slug": "lurene-belted-turtleneck-knit-dress-deep-teal",
+      "sourceProductId": "3256802700278618",
+      "sourceColor": "green",
+      "supplierId": "cmwtp9ela013c0jlnvh9ncie9",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000030569185643"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 28.69
+      },
+      "stockBySize": {
+        "One Size": 200
+      },
+      "retailPriceUsd": 86.9,
+      "verifiedAtUtc": "2026-11-24T02:12:31.308Z"
+    },
+    {
+      "slug": "lurene-belted-turtleneck-knit-dress-fuchsia",
+      "sourceProductId": "3256802700278618",
+      "sourceColor": "rose",
+      "supplierId": "cmwtp9ela013c0jlnvh9ncie9",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000030569185648"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 28.84
+      },
+      "stockBySize": {
+        "One Size": 200
+      },
+      "retailPriceUsd": 86.9,
+      "verifiedAtUtc": "2026-11-24T02:12:31.308Z"
+    },
+    {
+      "slug": "lurene-belted-turtleneck-knit-dress-wine-red",
+      "sourceProductId": "3256802700278618",
+      "sourceColor": "wine",
+      "supplierId": "cmwtp9ela013c0jlnvh9ncie9",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000030569185646"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 28.91
+      },
+      "stockBySize": {
+        "One Size": 199
+      },
+      "retailPriceUsd": 86.9,
+      "verifiedAtUtc": "2026-11-24T02:12:31.308Z"
+    }
+  ]
+}

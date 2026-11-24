@@ -26076,6 +26076,340 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256807177059495",
   "sourceColor": "YELLOW"
+},
+{
+  "slug": "kinelle-ribbed-polo-maxi-dress-mist-blue",
+  "name": "Kinelle Ribbed Polo Maxi Dress — Mist Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 54.9,
+  "colors": [
+    "#82a9bb"
+  ],
+  "colorNames": [
+    "Mist Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted ribbed maxi dress with a polo collar, an open V neckline, long sleeves and a single side slit.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/kinelle-ribbed-polo-maxi-dress-mist-blue/front.webp",
+    "/products/kinelle-ribbed-polo-maxi-dress-mist-blue/back.webp",
+    "/products/kinelle-ribbed-polo-maxi-dress-mist-blue/left.webp",
+    "/products/kinelle-ribbed-polo-maxi-dress-mist-blue/right.webp"
+  ],
+  "stock": 157,
+  "unitCostUsd": 18.24,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806481654545",
+  "sourceColor": "SKY BLUE"
+},
+{
+  "slug": "lurene-belted-turtleneck-knit-dress-warm-ivory",
+  "name": "Lurene Belted Turtleneck Knit Dress — Warm Ivory",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 86.9,
+  "colors": [
+    "#e3d9ca"
+  ],
+  "colorNames": [
+    "Warm Ivory"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A fitted ribbed knit dress with a folded turtleneck, long sleeves and a separate rectangular-buckle belt. A black belt contrasts with the warm ivory knit.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lurene-belted-turtleneck-knit-dress-warm-ivory/front.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-warm-ivory/back.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-warm-ivory/left.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-warm-ivory/right.webp"
+  ],
+  "stock": 199,
+  "unitCostUsd": 28.79,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802700278618",
+  "sourceColor": "beige"
+},
+{
+  "slug": "lurene-belted-turtleneck-knit-dress-periwinkle",
+  "name": "Lurene Belted Turtleneck Knit Dress — Periwinkle",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 86.9,
+  "colors": [
+    "#929fd1"
+  ],
+  "colorNames": [
+    "Periwinkle"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A fitted ribbed knit dress with a folded turtleneck, long sleeves and a separate rectangular-buckle belt. Finished with a contrast black belt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lurene-belted-turtleneck-knit-dress-periwinkle/front.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-periwinkle/back.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-periwinkle/left.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-periwinkle/right.webp"
+  ],
+  "stock": 199,
+  "unitCostUsd": 28.85,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802700278618",
+  "sourceColor": "blue"
+},
+{
+  "slug": "lurene-belted-turtleneck-knit-dress-chestnut",
+  "name": "Lurene Belted Turtleneck Knit Dress — Chestnut",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 86.9,
+  "colors": [
+    "#864b40"
+  ],
+  "colorNames": [
+    "Chestnut"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A fitted ribbed knit dress with a folded turtleneck, long sleeves and a separate rectangular-buckle belt. Finished with a dark espresso belt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lurene-belted-turtleneck-knit-dress-chestnut/front.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-chestnut/back.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-chestnut/left.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-chestnut/right.webp"
+  ],
+  "stock": 200,
+  "unitCostUsd": 28.76,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802700278618",
+  "sourceColor": "Brown"
+},
+{
+  "slug": "lurene-belted-turtleneck-knit-dress-mushroom-taupe",
+  "name": "Lurene Belted Turtleneck Knit Dress — Mushroom Taupe",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 86.9,
+  "colors": [
+    "#8b8077"
+  ],
+  "colorNames": [
+    "Mushroom Taupe"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A fitted ribbed knit dress with a folded turtleneck, long sleeves and a separate rectangular-buckle belt. Finished with a dusty pink belt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lurene-belted-turtleneck-knit-dress-mushroom-taupe/front.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-mushroom-taupe/back.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-mushroom-taupe/left.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-mushroom-taupe/right.webp"
+  ],
+  "stock": 198,
+  "unitCostUsd": 28.86,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802700278618",
+  "sourceColor": "Camel"
+},
+{
+  "slug": "lurene-belted-turtleneck-knit-dress-cobalt",
+  "name": "Lurene Belted Turtleneck Knit Dress — Cobalt",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 86.9,
+  "colors": [
+    "#2034a7"
+  ],
+  "colorNames": [
+    "Cobalt"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A fitted ribbed knit dress with a folded turtleneck, long sleeves and a separate rectangular-buckle belt. Finished with a black belt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lurene-belted-turtleneck-knit-dress-cobalt/front.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-cobalt/back.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-cobalt/left.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-cobalt/right.webp"
+  ],
+  "stock": 199,
+  "unitCostUsd": 28.86,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802700278618",
+  "sourceColor": "Dark Blue"
+},
+{
+  "slug": "lurene-belted-turtleneck-knit-dress-heather-gray",
+  "name": "Lurene Belted Turtleneck Knit Dress — Heather Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 86.9,
+  "colors": [
+    "#8c8686"
+  ],
+  "colorNames": [
+    "Heather Gray"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A fitted ribbed knit dress with a folded turtleneck, long sleeves and a separate rectangular-buckle belt. Finished with a coordinating gray belt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lurene-belted-turtleneck-knit-dress-heather-gray/front.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-heather-gray/back.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-heather-gray/left.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-heather-gray/right.webp"
+  ],
+  "stock": 200,
+  "unitCostUsd": 28.84,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802700278618",
+  "sourceColor": "gray"
+},
+{
+  "slug": "lurene-belted-turtleneck-knit-dress-deep-teal",
+  "name": "Lurene Belted Turtleneck Knit Dress — Deep Teal",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 86.9,
+  "colors": [
+    "#254846"
+  ],
+  "colorNames": [
+    "Deep Teal"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A fitted ribbed knit dress with a folded turtleneck, long sleeves and a separate rectangular-buckle belt. Finished with a deep olive belt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lurene-belted-turtleneck-knit-dress-deep-teal/front.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-deep-teal/back.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-deep-teal/left.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-deep-teal/right.webp"
+  ],
+  "stock": 200,
+  "unitCostUsd": 28.69,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802700278618",
+  "sourceColor": "green"
+},
+{
+  "slug": "lurene-belted-turtleneck-knit-dress-fuchsia",
+  "name": "Lurene Belted Turtleneck Knit Dress — Fuchsia",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 86.9,
+  "colors": [
+    "#d92985"
+  ],
+  "colorNames": [
+    "Fuchsia"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A fitted ribbed knit dress with a folded turtleneck, long sleeves and a separate rectangular-buckle belt. Finished with a contrast black belt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lurene-belted-turtleneck-knit-dress-fuchsia/front.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-fuchsia/back.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-fuchsia/left.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-fuchsia/right.webp"
+  ],
+  "stock": 200,
+  "unitCostUsd": 28.84,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802700278618",
+  "sourceColor": "rose"
+},
+{
+  "slug": "lurene-belted-turtleneck-knit-dress-wine-red",
+  "name": "Lurene Belted Turtleneck Knit Dress — Wine Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 86.9,
+  "colors": [
+    "#8a2930"
+  ],
+  "colorNames": [
+    "Wine Red"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A fitted ribbed knit dress with a folded turtleneck, long sleeves and a separate rectangular-buckle belt. The black belt has a silver-tone rectangular buckle.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lurene-belted-turtleneck-knit-dress-wine-red/front.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-wine-red/back.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-wine-red/left.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-wine-red/right.webp"
+  ],
+  "stock": 199,
+  "unitCostUsd": 28.91,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802700278618",
+  "sourceColor": "wine"
 }
 ];
 
@@ -26085,6 +26419,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "kinelle-ribbed-polo-maxi-dress-mist-blue",
+  "lurene-belted-turtleneck-knit-dress-warm-ivory",
+  "lurene-belted-turtleneck-knit-dress-periwinkle",
+  "lurene-belted-turtleneck-knit-dress-chestnut",
+  "lurene-belted-turtleneck-knit-dress-mushroom-taupe",
+  "lurene-belted-turtleneck-knit-dress-cobalt",
+  "lurene-belted-turtleneck-knit-dress-heather-gray",
+  "lurene-belted-turtleneck-knit-dress-deep-teal",
+  "lurene-belted-turtleneck-knit-dress-fuchsia",
+  "lurene-belted-turtleneck-knit-dress-wine-red",
+
   "celenne-lantern-sleeve-knit-dress-apricot",
   "norelle-ribbed-v-neck-long-dress-soft-blue",
   "norelle-ribbed-v-neck-long-dress-burgundy",

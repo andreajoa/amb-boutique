@@ -905,6 +905,10 @@
    "landedCostUsd": 18.44,
    "source": "catalog-20261123-batch05-bindings.json"
   },
+  "kinelle-ribbed-polo-maxi-dress-mist-blue": {
+   "landedCostUsd": 18.24,
+   "source": "catalog-20261123-batch17-bindings.json"
+  },
   "kinelle-ribbed-polo-maxi-dress-olive": {
    "landedCostUsd": 19.38,
    "source": "catalog-20261123-batch05-bindings.json"
@@ -1021,13 +1025,49 @@
    "landedCostUsd": 28.97,
    "source": "catalog-20261123-batch14-bindings.json"
   },
+  "lurene-belted-turtleneck-knit-dress-chestnut": {
+   "landedCostUsd": 28.76,
+   "source": "catalog-20261123-batch17-bindings.json"
+  },
+  "lurene-belted-turtleneck-knit-dress-cobalt": {
+   "landedCostUsd": 28.86,
+   "source": "catalog-20261123-batch17-bindings.json"
+  },
+  "lurene-belted-turtleneck-knit-dress-deep-teal": {
+   "landedCostUsd": 28.69,
+   "source": "catalog-20261123-batch17-bindings.json"
+  },
+  "lurene-belted-turtleneck-knit-dress-fuchsia": {
+   "landedCostUsd": 28.84,
+   "source": "catalog-20261123-batch17-bindings.json"
+  },
+  "lurene-belted-turtleneck-knit-dress-heather-gray": {
+   "landedCostUsd": 28.84,
+   "source": "catalog-20261123-batch17-bindings.json"
+  },
+  "lurene-belted-turtleneck-knit-dress-mushroom-taupe": {
+   "landedCostUsd": 28.86,
+   "source": "catalog-20261123-batch17-bindings.json"
+  },
+  "lurene-belted-turtleneck-knit-dress-periwinkle": {
+   "landedCostUsd": 28.85,
+   "source": "catalog-20261123-batch17-bindings.json"
+  },
   "lurene-belted-turtleneck-knit-dress-sky-blue": {
    "landedCostUsd": 28.83,
    "source": "catalog-20261123-batch15-bindings.json"
   },
+  "lurene-belted-turtleneck-knit-dress-warm-ivory": {
+   "landedCostUsd": 28.79,
+   "source": "catalog-20261123-batch17-bindings.json"
+  },
   "lurene-belted-turtleneck-knit-dress-white": {
    "landedCostUsd": 28.8,
    "source": "catalog-20261123-batch14-bindings.json"
+  },
+  "lurene-belted-turtleneck-knit-dress-wine-red": {
+   "landedCostUsd": 28.91,
+   "source": "catalog-20261123-batch17-bindings.json"
   },
   "maelle-champagne-satin-midi-dress": {
    "landedCostUsd": 21.84,
