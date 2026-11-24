@@ -1,0 +1,275 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "seravelle-open-back-cowl-maxi-dress-rust",
+      "sourceProductId": "3256812045142943",
+      "sourceColor": "01 Brown",
+      "supplierId": "cmwhrm980002y0jmcaahklibd",
+      "sourceSkuIdsBySize": {
+        "S": "12000057836092609",
+        "XS": "12000057836092608",
+        "L": "12000057836092611",
+        "M": "12000057836092610"
+      },
+      "landedCostUsdBySize": {
+        "S": 46.2,
+        "XS": 46.2,
+        "L": 46.2,
+        "M": 46.2
+      },
+      "stockBySize": {
+        "S": 499,
+        "XS": 498,
+        "L": 500,
+        "M": 499
+      },
+      "retailPriceUsd": 138.9,
+      "verifiedAtUtc": "2026-11-24T16:05:32.511Z"
+    },
+    {
+      "slug": "oriana-eyelet-wide-leg-trouser-set-buttercream",
+      "sourceProductId": "3256812231822972",
+      "sourceColor": "yellow set",
+      "supplierId": "cmt60s57700li04iff2anli6f",
+      "sourceSkuIdsBySize": {
+        "L": "12000058316953234",
+        "M": "12000058316953233",
+        "S": "12000058316953232"
+      },
+      "landedCostUsdBySize": {
+        "L": 48.78,
+        "M": 48.78,
+        "S": 48.78
+      },
+      "stockBySize": {
+        "L": 99,
+        "M": 99,
+        "S": 99
+      },
+      "retailPriceUsd": 146.9,
+      "verifiedAtUtc": "2026-11-24T16:04:33.812Z"
+    },
+    {
+      "slug": "merovia-contrast-spot-mini-shirtdress-ivory-red",
+      "sourceProductId": "3256812214668261",
+      "sourceColor": "04 shirtdress",
+      "supplierId": "cmt62slfg005904kwt14m2uma",
+      "sourceSkuIdsBySize": {
+        "S": "12000059457114070",
+        "M": "12000059457114066",
+        "L": "12000059457114067"
+      },
+      "landedCostUsdBySize": {
+        "S": 32.49,
+        "M": 32.49,
+        "L": 32.49
+      },
+      "stockBySize": {
+        "S": 88,
+        "M": 90,
+        "L": 89
+      },
+      "retailPriceUsd": 97.9,
+      "verifiedAtUtc": "2026-11-24T16:03:35.563Z"
+    },
+    {
+      "slug": "celavie-cutout-mermaid-maxi-dress-coral",
+      "sourceProductId": "3256812532382912",
+      "sourceColor": "orange",
+      "supplierId": "cmt64kqig01kw04jn27i3bein",
+      "sourceSkuIdsBySize": {
+        "L": "12000059171906703",
+        "M": "12000059171906700",
+        "S": "12000059171906697"
+      },
+      "landedCostUsdBySize": {
+        "L": 33.79,
+        "M": 33.79,
+        "S": 33.79
+      },
+      "stockBySize": {
+        "L": 1000,
+        "M": 1000,
+        "S": 1000
+      },
+      "retailPriceUsd": 101.9,
+      "verifiedAtUtc": "2026-11-24T16:05:25.089Z"
+    },
+    {
+      "slug": "mariselle-ornamental-kaftan-maxi-dress-blue",
+      "sourceProductId": "3256808101521519",
+      "sourceColor": "dark blue",
+      "supplierId": "cmt63u8ct00pq04jnkscze5kh",
+      "sourceSkuIdsBySize": {
+        "XL": "12000044487466798",
+        "M": "12000044487466796",
+        "L": "12000044487466797",
+        "S": "12000044487466795"
+      },
+      "landedCostUsdBySize": {
+        "XL": 24.96,
+        "M": 24.96,
+        "L": 24.96,
+        "S": 24.96
+      },
+      "stockBySize": {
+        "XL": 999,
+        "M": 998,
+        "L": 998,
+        "S": 999
+      },
+      "retailPriceUsd": 74.9,
+      "verifiedAtUtc": "2026-11-24T16:05:51.202Z"
+    },
+    {
+      "slug": "verelle-keyhole-halter-maxi-dress-olive",
+      "sourceProductId": "3256812502949887",
+      "sourceColor": "Green",
+      "supplierId": "cmt64tbac01mr04jnv23aj3q0",
+      "sourceSkuIdsBySize": {
+        "L": "12000059084996916",
+        "S": "12000059084996914",
+        "M": "12000059084996915"
+      },
+      "landedCostUsdBySize": {
+        "L": 25.75,
+        "S": 25.75,
+        "M": 25.75
+      },
+      "stockBySize": {
+        "L": 9998,
+        "S": 9995,
+        "M": 9995
+      },
+      "retailPriceUsd": 77.9,
+      "verifiedAtUtc": "2026-11-24T16:04:27.438Z"
+    },
+    {
+      "slug": "beloria-swirl-print-maxi-dress-ochre-mosaic",
+      "sourceProductId": "3256809943426273",
+      "sourceColor": "Ro6",
+      "supplierId": "cmt63npw700jn04jnhafbubse",
+      "sourceSkuIdsBySize": {
+        "L": "12000051244697043",
+        "M": "12000051244697042",
+        "S": "12000051244697041",
+        "XXXL": "12000051244697046",
+        "XXL": "12000051244697045",
+        "XL": "12000051244697044"
+      },
+      "landedCostUsdBySize": {
+        "L": 15.94,
+        "M": 15.94,
+        "S": 15.94,
+        "XXXL": 15.94,
+        "XXL": 15.94,
+        "XL": 15.94
+      },
+      "stockBySize": {
+        "L": 100,
+        "M": 100,
+        "S": 100,
+        "XXXL": 100,
+        "XXL": 100,
+        "XL": 100
+      },
+      "retailPriceUsd": 47.9,
+      "verifiedAtUtc": "2026-11-24T16:03:12.689Z"
+    },
+    {
+      "slug": "beloria-swirl-print-maxi-dress-floral-spray",
+      "sourceProductId": "3256809943426273",
+      "sourceColor": "Ro4",
+      "supplierId": "cmt63npw700jn04jnhafbubse",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000051244697034",
+        "XXL": "12000051244697033",
+        "XL": "12000051244697032",
+        "L": "12000051244697031",
+        "M": "12000051244697030",
+        "S": "12000051244697029"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 15.94,
+        "XXL": 15.94,
+        "XL": 15.94,
+        "L": 15.94,
+        "M": 15.94,
+        "S": 15.94
+      },
+      "stockBySize": {
+        "XXXL": 100,
+        "XXL": 100,
+        "XL": 100,
+        "L": 100,
+        "M": 100,
+        "S": 100
+      },
+      "retailPriceUsd": 47.9,
+      "verifiedAtUtc": "2026-11-24T16:03:12.689Z"
+    },
+    {
+      "slug": "danora-distressed-denim-cutoffs-light-wash",
+      "sourceProductId": "3256809295478521",
+      "sourceColor": "Light Blue",
+      "supplierId": "cmt60g9l500fy04ifhigt7y7s",
+      "sourceSkuIdsBySize": {
+        "XL": "12000049237037180",
+        "XXL": "12000049237037181",
+        "M": "12000049237037178",
+        "L": "12000049237037179",
+        "XS": "12000049237037176",
+        "S": "12000049237037177"
+      },
+      "landedCostUsdBySize": {
+        "XL": 26.88,
+        "XXL": 27.08,
+        "M": 26.98,
+        "L": 27.08,
+        "XS": 26.18,
+        "S": 26.18
+      },
+      "stockBySize": {
+        "XL": 94,
+        "XXL": 94,
+        "M": 80,
+        "L": 88,
+        "XS": 78,
+        "S": 78
+      },
+      "retailPriceUsd": 81.9,
+      "verifiedAtUtc": "2026-11-24T16:04:12.368Z"
+    },
+    {
+      "slug": "renova-notched-denim-cutoffs-white",
+      "sourceProductId": "3256811554452854",
+      "sourceColor": "White",
+      "supplierId": "cmt60ejsj00dk04ifuuf9rkp7",
+      "sourceSkuIdsBySize": {
+        "S": "12000056411640001",
+        "L": "12000056405007986",
+        "XL": "12000056405007987",
+        "M": "12000056405007989",
+        "XXL": "12000056405007973"
+      },
+      "landedCostUsdBySize": {
+        "S": 23.28,
+        "L": 24,
+        "XL": 23.96,
+        "M": 23.82,
+        "XXL": 24.56
+      },
+      "stockBySize": {
+        "S": 100,
+        "L": 100,
+        "XL": 100,
+        "M": 100,
+        "XXL": 100
+      },
+      "retailPriceUsd": 73.9,
+      "verifiedAtUtc": "2026-11-24T16:03:59.629Z"
+    }
+  ]
+}

@@ -3053,5 +3053,88 @@
    "XL": 100,
    "XXL": 100
   }
+ },
+ "seravelle-open-back-cowl-maxi-dress-rust": {
+  "stockBySize": {
+   "S": 499,
+   "XS": 498,
+   "L": 500,
+   "M": 499
+  }
+ },
+ "oriana-eyelet-wide-leg-trouser-set-buttercream": {
+  "stockBySize": {
+   "L": 99,
+   "M": 99,
+   "S": 99
+  }
+ },
+ "merovia-contrast-spot-mini-shirtdress-ivory-red": {
+  "stockBySize": {
+   "S": 88,
+   "M": 90,
+   "L": 89
+  }
+ },
+ "celavie-cutout-mermaid-maxi-dress-coral": {
+  "stockBySize": {
+   "L": 1000,
+   "M": 1000,
+   "S": 1000
+  }
+ },
+ "mariselle-ornamental-kaftan-maxi-dress-blue": {
+  "stockBySize": {
+   "XL": 999,
+   "M": 998,
+   "L": 998,
+   "S": 999
+  }
+ },
+ "verelle-keyhole-halter-maxi-dress-olive": {
+  "stockBySize": {
+   "L": 9998,
+   "S": 9995,
+   "M": 9995
+  }
+ },
+ "beloria-swirl-print-maxi-dress-ochre-mosaic": {
+  "stockBySize": {
+   "L": 100,
+   "M": 100,
+   "S": 100,
+   "XXXL": 100,
+   "XXL": 100,
+   "XL": 100
+  }
+ },
+ "beloria-swirl-print-maxi-dress-floral-spray": {
+  "stockBySize": {
+   "XXXL": 100,
+   "XXL": 100,
+   "XL": 100,
+   "L": 100,
+   "M": 100,
+   "S": 100
+  }
+ },
+ "danora-distressed-denim-cutoffs-light-wash": {
+  "stockBySize": {
+   "XL": 94,
+   "XXL": 94,
+   "M": 80,
+   "L": 88,
+   "XS": 78,
+   "S": 78
+  }
+ },
+ "renova-notched-denim-cutoffs-white": {
+  "stockBySize": {
+   "S": 100,
+   "L": 100,
+   "XL": 100,
+   "M": 100,
+   "XXL": 100
+  }
  }
 }
