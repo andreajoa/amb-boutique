@@ -25017,6 +25017,372 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256806055973737",
   "sourceColor": "YELLOW"
+},
+{
+  "slug": "rivella-two-buckle-knit-dress-deep-blue",
+  "name": "Rivella Two-Buckle Knit Dress — Deep Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#163b64"
+  ],
+  "colorNames": [
+    "Deep Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed knit dress with a round neckline, two stacked buckle tabs, a contrasting black inset and a black hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rivella-two-buckle-knit-dress-deep-blue/front.webp",
+    "/products/rivella-two-buckle-knit-dress-deep-blue/back.webp",
+    "/products/rivella-two-buckle-knit-dress-deep-blue/left.webp",
+    "/products/rivella-two-buckle-knit-dress-deep-blue/right.webp"
+  ],
+  "stock": 5991,
+  "unitCostUsd": 30.71,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807983166816",
+  "sourceColor": "DEEP BLUE"
+},
+{
+  "slug": "camille-multi-pocket-crossbody-black",
+  "name": "Camille Crossbody — Black",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 34.9,
+  "colors": [
+    "#222222"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "23x17x11cm"
+  ],
+  "description": "A compact black crossbody with a pebbled finish, three main zip compartments, a front zipper pocket and an adjustable shoulder strap. The gallery includes the open interior.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/camille-multi-pocket-crossbody-black/front.webp",
+    "/products/camille-multi-pocket-crossbody-black/back.webp",
+    "/products/camille-multi-pocket-crossbody-black/left.webp",
+    "/products/camille-multi-pocket-crossbody-black/right.webp",
+    "/products/camille-multi-pocket-crossbody-black/inside.webp"
+  ],
+  "stock": 7,
+  "unitCostUsd": 11.44,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806153947521",
+  "sourceColor": "Black"
+},
+{
+  "slug": "lurene-belted-turtleneck-knit-dress-white",
+  "name": "Lurene Belted Turtleneck Knit Dress — White",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 86.9,
+  "colors": [
+    "#f1eee6"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A fitted ribbed knit dress with a folded turtleneck, long sleeves and a separate rectangular-buckle belt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lurene-belted-turtleneck-knit-dress-white/front.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-white/back.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-white/left.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-white/right.webp"
+  ],
+  "stock": 196,
+  "unitCostUsd": 28.8,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802700278618",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "rivella-two-buckle-knit-dress-claret",
+  "name": "Rivella Two-Buckle Knit Dress — Claret",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#8f2028"
+  ],
+  "colorNames": [
+    "Claret"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed knit dress with a round neckline, two stacked buckle tabs, a contrasting black inset and a black hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rivella-two-buckle-knit-dress-claret/front.webp",
+    "/products/rivella-two-buckle-knit-dress-claret/back.webp",
+    "/products/rivella-two-buckle-knit-dress-claret/left.webp",
+    "/products/rivella-two-buckle-knit-dress-claret/right.webp"
+  ],
+  "stock": 3979,
+  "unitCostUsd": 30.71,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807983166816",
+  "sourceColor": "Claret"
+},
+{
+  "slug": "rivella-two-buckle-knit-dress-heather-gray",
+  "name": "Rivella Two-Buckle Knit Dress — Heather Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#a1a0a3"
+  ],
+  "colorNames": [
+    "Heather Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed knit dress with a round neckline, two stacked buckle tabs, a contrasting black inset and a black hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rivella-two-buckle-knit-dress-heather-gray/front.webp",
+    "/products/rivella-two-buckle-knit-dress-heather-gray/back.webp",
+    "/products/rivella-two-buckle-knit-dress-heather-gray/left.webp",
+    "/products/rivella-two-buckle-knit-dress-heather-gray/right.webp"
+  ],
+  "stock": 3970,
+  "unitCostUsd": 30.71,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807983166816",
+  "sourceColor": "GRAY"
+},
+{
+  "slug": "rivella-two-buckle-knit-dress-forest",
+  "name": "Rivella Two-Buckle Knit Dress — Forest",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#153f32"
+  ],
+  "colorNames": [
+    "Forest"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed knit dress with a round neckline, two stacked buckle tabs, a contrasting black inset and a black hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rivella-two-buckle-knit-dress-forest/front.webp",
+    "/products/rivella-two-buckle-knit-dress-forest/back.webp",
+    "/products/rivella-two-buckle-knit-dress-forest/left.webp",
+    "/products/rivella-two-buckle-knit-dress-forest/right.webp"
+  ],
+  "stock": 3987,
+  "unitCostUsd": 30.71,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807983166816",
+  "sourceColor": "green"
+},
+{
+  "slug": "lurene-belted-turtleneck-knit-dress-black",
+  "name": "Lurene Belted Turtleneck Knit Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 87.9,
+  "colors": [
+    "#222222"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A fitted ribbed knit dress with a folded turtleneck, long sleeves and a separate rectangular-buckle belt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lurene-belted-turtleneck-knit-dress-black/front.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-black/back.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-black/left.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-black/right.webp"
+  ],
+  "stock": 197,
+  "unitCostUsd": 28.97,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802700278618",
+  "sourceColor": "BLACK"
+},
+{
+  "slug": "rivella-two-buckle-knit-dress-taupe",
+  "name": "Rivella Two-Buckle Knit Dress — Taupe",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#918173"
+  ],
+  "colorNames": [
+    "Taupe"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed knit dress with a round neckline, two stacked buckle tabs, a contrasting black inset and a black hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rivella-two-buckle-knit-dress-taupe/front.webp",
+    "/products/rivella-two-buckle-knit-dress-taupe/back.webp",
+    "/products/rivella-two-buckle-knit-dress-taupe/left.webp",
+    "/products/rivella-two-buckle-knit-dress-taupe/right.webp"
+  ],
+  "stock": 3985,
+  "unitCostUsd": 30.71,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807983166816",
+  "sourceColor": "Light Brown"
+},
+{
+  "slug": "rivella-two-buckle-knit-dress-raspberry",
+  "name": "Rivella Two-Buckle Knit Dress — Raspberry",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#a21659"
+  ],
+  "colorNames": [
+    "Raspberry"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed knit dress with a round neckline, two stacked buckle tabs, a contrasting black inset and a black hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rivella-two-buckle-knit-dress-raspberry/front.webp",
+    "/products/rivella-two-buckle-knit-dress-raspberry/back.webp",
+    "/products/rivella-two-buckle-knit-dress-raspberry/left.webp",
+    "/products/rivella-two-buckle-knit-dress-raspberry/right.webp"
+  ],
+  "stock": 3985,
+  "unitCostUsd": 30.71,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807983166816",
+  "sourceColor": "Rose Red"
+},
+{
+  "slug": "rivella-two-buckle-knit-dress-mustard",
+  "name": "Rivella Two-Buckle Knit Dress — Mustard",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#9d722b"
+  ],
+  "colorNames": [
+    "Mustard"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A long-sleeve ribbed knit dress with a round neckline, two stacked buckle tabs, a contrasting black inset and a black hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rivella-two-buckle-knit-dress-mustard/front.webp",
+    "/products/rivella-two-buckle-knit-dress-mustard/back.webp",
+    "/products/rivella-two-buckle-knit-dress-mustard/left.webp",
+    "/products/rivella-two-buckle-knit-dress-mustard/right.webp"
+  ],
+  "stock": 3985,
+  "unitCostUsd": 30.71,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807983166816",
+  "sourceColor": "YELLOW"
 }
 ];
 
@@ -25026,6 +25392,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "rivella-two-buckle-knit-dress-deep-blue",
+  "camille-multi-pocket-crossbody-black",
+  "lurene-belted-turtleneck-knit-dress-white",
+  "rivella-two-buckle-knit-dress-claret",
+  "rivella-two-buckle-knit-dress-heather-gray",
+  "rivella-two-buckle-knit-dress-forest",
+  "lurene-belted-turtleneck-knit-dress-black",
+  "rivella-two-buckle-knit-dress-taupe",
+  "rivella-two-buckle-knit-dress-raspberry",
+  "rivella-two-buckle-knit-dress-mustard",
+
   "avelora-ribbed-mock-neck-midi-dress-olive",
   "noelia-bow-satchel-black",
   "maerith-cable-knit-slit-midi-dress-copper-brown",

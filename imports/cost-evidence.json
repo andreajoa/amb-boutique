@@ -297,6 +297,10 @@
    "landedCostUsd": 44.59,
    "source": "markup-3x-20261025 (pilot)"
   },
+  "camille-multi-pocket-crossbody-black": {
+   "landedCostUsd": 11.44,
+   "source": "catalog-20261123-batch14-bindings.json"
+  },
   "camille-tailored-romper": {
    "landedCostUsd": 35.13,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
@@ -977,6 +981,14 @@
    "landedCostUsd": 14.28,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "lurene-belted-turtleneck-knit-dress-black": {
+   "landedCostUsd": 28.97,
+   "source": "catalog-20261123-batch14-bindings.json"
+  },
+  "lurene-belted-turtleneck-knit-dress-white": {
+   "landedCostUsd": 28.8,
+   "source": "catalog-20261123-batch14-bindings.json"
+  },
   "maelle-champagne-satin-midi-dress": {
    "landedCostUsd": 21.84,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
@@ -1524,6 +1536,34 @@
   "rio-stripe-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "rivella-two-buckle-knit-dress-claret": {
+   "landedCostUsd": 30.71,
+   "source": "catalog-20261123-batch14-bindings.json"
+  },
+  "rivella-two-buckle-knit-dress-deep-blue": {
+   "landedCostUsd": 30.71,
+   "source": "catalog-20261123-batch14-bindings.json"
+  },
+  "rivella-two-buckle-knit-dress-forest": {
+   "landedCostUsd": 30.71,
+   "source": "catalog-20261123-batch14-bindings.json"
+  },
+  "rivella-two-buckle-knit-dress-heather-gray": {
+   "landedCostUsd": 30.71,
+   "source": "catalog-20261123-batch14-bindings.json"
+  },
+  "rivella-two-buckle-knit-dress-mustard": {
+   "landedCostUsd": 30.71,
+   "source": "catalog-20261123-batch14-bindings.json"
+  },
+  "rivella-two-buckle-knit-dress-raspberry": {
+   "landedCostUsd": 30.71,
+   "source": "catalog-20261123-batch14-bindings.json"
+  },
+  "rivella-two-buckle-knit-dress-taupe": {
+   "landedCostUsd": 30.71,
+   "source": "catalog-20261123-batch14-bindings.json"
   },
   "roma-studded-hobo-black": {
    "landedCostUsd": 21.88,

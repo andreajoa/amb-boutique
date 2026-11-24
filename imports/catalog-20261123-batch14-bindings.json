@@ -1,0 +1,281 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "rivella-two-buckle-knit-dress-deep-blue",
+      "sourceProductId": "3256807983166816",
+      "sourceColor": "DEEP BLUE",
+      "supplierId": "cmwtov9jk00ul0jln6kd8nxu7",
+      "sourceSkuIdsBySize": {
+        "M": "12000060160362695",
+        "S": "12000060160362694",
+        "XXXL": "12000060160362699",
+        "XXL": "12000060160362698",
+        "XL": "12000060160362697",
+        "L": "12000060160362696"
+      },
+      "landedCostUsdBySize": {
+        "M": 30.71,
+        "S": 30.71,
+        "XXXL": 30.71,
+        "XXL": 30.71,
+        "XL": 30.71,
+        "L": 30.71
+      },
+      "stockBySize": {
+        "M": 999,
+        "S": 999,
+        "XXXL": 998,
+        "XXL": 998,
+        "XL": 999,
+        "L": 998
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T21:01:39.872Z"
+    },
+    {
+      "slug": "camille-multi-pocket-crossbody-black",
+      "sourceProductId": "3256806153947521",
+      "sourceColor": "Black",
+      "supplierId": "ambsp-ad4363d93273cfacf9ceed4eb53ebaa3",
+      "sourceSkuIdsBySize": {
+        "23x17x11cm": "12000036818566586"
+      },
+      "landedCostUsdBySize": {
+        "23x17x11cm": 11.44
+      },
+      "stockBySize": {
+        "23x17x11cm": 7
+      },
+      "retailPriceUsd": 34.9,
+      "verifiedAtUtc": "2026-11-24T00:40:51.276Z"
+    },
+    {
+      "slug": "lurene-belted-turtleneck-knit-dress-white",
+      "sourceProductId": "3256802700278618",
+      "sourceColor": "WHITE",
+      "supplierId": "cmwtp9ela013c0jlnvh9ncie9",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000022624693670"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 28.8
+      },
+      "stockBySize": {
+        "One Size": 196
+      },
+      "retailPriceUsd": 86.9,
+      "verifiedAtUtc": "2026-11-23T20:59:16.613Z"
+    },
+    {
+      "slug": "rivella-two-buckle-knit-dress-claret",
+      "sourceProductId": "3256807983166816",
+      "sourceColor": "Claret",
+      "supplierId": "cmwtov9jk00ul0jln6kd8nxu7",
+      "sourceSkuIdsBySize": {
+        "XL": "12000044076127521",
+        "L": "12000044076127520",
+        "XXXL": "12000044076127523",
+        "XXL": "12000044076127522",
+        "M": "12000044076127519",
+        "S": "12000044076127518"
+      },
+      "landedCostUsdBySize": {
+        "XL": 30.71,
+        "L": 30.71,
+        "XXXL": 30.71,
+        "XXL": 30.71,
+        "M": 30.71,
+        "S": 30.71
+      },
+      "stockBySize": {
+        "XL": 664,
+        "L": 661,
+        "XXXL": 662,
+        "XXL": 662,
+        "M": 665,
+        "S": 665
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T21:01:39.872Z"
+    },
+    {
+      "slug": "rivella-two-buckle-knit-dress-heather-gray",
+      "sourceProductId": "3256807983166816",
+      "sourceColor": "GRAY",
+      "supplierId": "cmwtov9jk00ul0jln6kd8nxu7",
+      "sourceSkuIdsBySize": {
+        "M": "12000044076127489",
+        "S": "12000044076127488",
+        "XL": "12000044076127491",
+        "L": "12000044076127490",
+        "XXXL": "12000044076127493",
+        "XXL": "12000044076127492"
+      },
+      "landedCostUsdBySize": {
+        "M": 30.71,
+        "S": 30.71,
+        "XL": 30.71,
+        "L": 30.71,
+        "XXXL": 30.71,
+        "XXL": 30.71
+      },
+      "stockBySize": {
+        "M": 659,
+        "S": 666,
+        "XL": 661,
+        "L": 664,
+        "XXXL": 659,
+        "XXL": 661
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T21:01:39.872Z"
+    },
+    {
+      "slug": "rivella-two-buckle-knit-dress-forest",
+      "sourceProductId": "3256807983166816",
+      "sourceColor": "green",
+      "supplierId": "cmwtov9jk00ul0jln6kd8nxu7",
+      "sourceSkuIdsBySize": {
+        "M": "12000044076127495",
+        "S": "12000044076127494",
+        "XL": "12000044076127497",
+        "L": "12000044076127496",
+        "XXXL": "12000044076127499",
+        "XXL": "12000044076127498"
+      },
+      "landedCostUsdBySize": {
+        "M": 30.71,
+        "S": 30.71,
+        "XL": 30.71,
+        "L": 30.71,
+        "XXXL": 30.71,
+        "XXL": 30.71
+      },
+      "stockBySize": {
+        "M": 663,
+        "S": 666,
+        "XL": 665,
+        "L": 665,
+        "XXXL": 665,
+        "XXL": 663
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T21:01:39.872Z"
+    },
+    {
+      "slug": "lurene-belted-turtleneck-knit-dress-black",
+      "sourceProductId": "3256802700278618",
+      "sourceColor": "BLACK",
+      "supplierId": "cmwtp9ela013c0jlnvh9ncie9",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000022624693669"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 28.97
+      },
+      "stockBySize": {
+        "One Size": 197
+      },
+      "retailPriceUsd": 87.9,
+      "verifiedAtUtc": "2026-11-23T21:07:02.437Z"
+    },
+    {
+      "slug": "rivella-two-buckle-knit-dress-taupe",
+      "sourceProductId": "3256807983166816",
+      "sourceColor": "Light Brown",
+      "supplierId": "cmwtov9jk00ul0jln6kd8nxu7",
+      "sourceSkuIdsBySize": {
+        "M": "12000044076127507",
+        "S": "12000044076127506",
+        "XL": "12000044076127509",
+        "L": "12000044076127508",
+        "XXXL": "12000044076127511",
+        "XXL": "12000044076127510"
+      },
+      "landedCostUsdBySize": {
+        "M": 30.71,
+        "S": 30.71,
+        "XL": 30.71,
+        "L": 30.71,
+        "XXXL": 30.71,
+        "XXL": 30.71
+      },
+      "stockBySize": {
+        "M": 663,
+        "S": 666,
+        "XL": 664,
+        "L": 664,
+        "XXXL": 664,
+        "XXL": 664
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T21:01:39.872Z"
+    },
+    {
+      "slug": "rivella-two-buckle-knit-dress-raspberry",
+      "sourceProductId": "3256807983166816",
+      "sourceColor": "Rose Red",
+      "supplierId": "cmwtov9jk00ul0jln6kd8nxu7",
+      "sourceSkuIdsBySize": {
+        "M": "12000044076127513",
+        "S": "12000044076127512",
+        "XL": "12000044076127515",
+        "L": "12000044076127514",
+        "XXXL": "12000044076127517",
+        "XXL": "12000044076127516"
+      },
+      "landedCostUsdBySize": {
+        "M": 30.71,
+        "S": 30.71,
+        "XL": 30.71,
+        "L": 30.71,
+        "XXXL": 30.71,
+        "XXL": 30.71
+      },
+      "stockBySize": {
+        "M": 665,
+        "S": 666,
+        "XL": 661,
+        "L": 665,
+        "XXXL": 662,
+        "XXL": 666
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T21:01:39.872Z"
+    },
+    {
+      "slug": "rivella-two-buckle-knit-dress-mustard",
+      "sourceProductId": "3256807983166816",
+      "sourceColor": "YELLOW",
+      "supplierId": "cmwtov9jk00ul0jln6kd8nxu7",
+      "sourceSkuIdsBySize": {
+        "M": "12000044076127501",
+        "S": "12000044076127500",
+        "XL": "12000044076127503",
+        "L": "12000044076127502",
+        "XXXL": "12000044076127505",
+        "XXL": "12000044076127504"
+      },
+      "landedCostUsdBySize": {
+        "M": 30.71,
+        "S": 30.71,
+        "XL": 30.71,
+        "L": 30.71,
+        "XXXL": 30.71,
+        "XXL": 30.71
+      },
+      "stockBySize": {
+        "M": 664,
+        "S": 666,
+        "XL": 663,
+        "L": 665,
+        "XXXL": 663,
+        "XXL": 664
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T21:01:39.872Z"
+    }
+  ]
+}
