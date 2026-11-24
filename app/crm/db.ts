@@ -1,10 +1,9 @@
 import "server-only";
-import { getAnalyticsSql } from "../analytics/db";
-import type { NeonQueryFunction } from "@neondatabase/serverless";
+import { getAnalyticsSql, type AnalyticsSql } from "../analytics/db";
 
 let setup: Promise<void> | undefined;
-export async function crmSql() {
-  const sql = getAnalyticsSql() as NeonQueryFunction<false,false> | null;
+export async function crmSql(): Promise<AnalyticsSql> {
+  const sql = getAnalyticsSql();
   if (!sql) throw new Error("CRM database is not configured");
   if (!setup) setup = sql.transaction([
     sql`SELECT pg_advisory_xact_lock(76108420)`,
