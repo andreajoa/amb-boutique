@@ -3225,5 +3225,94 @@
    "L": 91,
    "M": 88
   }
+ },
+ "aleria-draped-cold-shoulder-midi-dress-ochre": {
+  "stockBySize": {
+   "XXL": 998,
+   "XL": 998,
+   "L": 999,
+   "M": 997,
+   "XXXL": 999,
+   "S": 999
+  }
+ },
+ "andria-pin-dot-halter-mini-dress-black": {
+  "stockBySize": {
+   "S": 6,
+   "M": 10,
+   "L": 7
+  }
+ },
+ "celoria-pleated-floral-maxi-dress-blue-sage": {
+  "stockBySize": {
+   "XL": 22,
+   "L": 21,
+   "XXXL": 20,
+   "XXL": 21,
+   "M": 21,
+   "S": 20
+  }
+ },
+ "serenne-high-neck-rib-knit-mini-dress-ivory": {
+  "stockBySize": {
+   "M": 91,
+   "S": 92,
+   "L": 97
+  }
+ },
+ "mariselle-ornamental-kaftan-maxi-dress-white-blue": {
+  "stockBySize": {
+   "XL": 998,
+   "M": 999,
+   "L": 999,
+   "S": 999
+  }
+ },
+ "verelle-keyhole-halter-maxi-dress-charcoal": {
+  "stockBySize": {
+   "S": 9998,
+   "M": 9999,
+   "L": 9999
+  }
+ },
+ "celoria-pleated-floral-maxi-dress-blush-mauve": {
+  "stockBySize": {
+   "M": 21,
+   "S": 22,
+   "XL": 22,
+   "L": 22,
+   "XXXL": 22,
+   "XXL": 22
+  }
+ },
+ "celoria-pleated-floral-maxi-dress-lavender-mint": {
+  "stockBySize": {
+   "M": 20,
+   "S": 20,
+   "XL": 22,
+   "L": 20,
+   "XXXL": 21,
+   "XXL": 20
+  }
+ },
+ "celoria-pleated-floral-maxi-dress-chartreuse-pink": {
+  "stockBySize": {
+   "XL": 21,
+   "L": 22,
+   "XXXL": 22,
+   "XXL": 22,
+   "M": 22,
+   "S": 21
+  }
+ },
+ "danora-clean-hem-denim-shorts-black": {
+  "stockBySize": {
+   "XS": 91,
+   "S": 85,
+   "XL": 90,
+   "XXL": 87,
+   "M": 77,
+   "L": 78
+  }
  }
 }

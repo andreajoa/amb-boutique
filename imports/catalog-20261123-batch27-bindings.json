@@ -1,0 +1,293 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "aleria-draped-cold-shoulder-midi-dress-ochre",
+      "sourceProductId": "3256806664357699",
+      "sourceColor": "yellow",
+      "supplierId": "cmsyp28ar005304jlwh43ww1f",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000038511808587",
+        "XL": "12000038511808586",
+        "L": "12000038511808585",
+        "M": "12000038511808584",
+        "XXXL": "12000038511808588",
+        "S": "12000038511808583"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 22.57,
+        "XL": 22.57,
+        "L": 22.57,
+        "M": 22.57,
+        "XXXL": 22.57,
+        "S": 22.57
+      },
+      "stockBySize": {
+        "XXL": 998,
+        "XL": 998,
+        "L": 999,
+        "M": 997,
+        "XXXL": 999,
+        "S": 999
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-24T17:12:44.760Z"
+    },
+    {
+      "slug": "andria-pin-dot-halter-mini-dress-black",
+      "sourceProductId": "3256812020468976",
+      "sourceColor": "black",
+      "supplierId": "cmvr71z0p001608l903jfymxi",
+      "sourceSkuIdsBySize": {
+        "S": "12000057753349263",
+        "M": "12000057753349262",
+        "L": "12000057753349261"
+      },
+      "landedCostUsdBySize": {
+        "S": 10.38,
+        "M": 11.38,
+        "L": 11.48
+      },
+      "stockBySize": {
+        "S": 6,
+        "M": 10,
+        "L": 7
+      },
+      "retailPriceUsd": 34.9,
+      "verifiedAtUtc": "2026-11-24T17:12:36.876Z"
+    },
+    {
+      "slug": "celoria-pleated-floral-maxi-dress-blue-sage",
+      "sourceProductId": "3256810409992186",
+      "sourceColor": "1",
+      "supplierId": "cmuq63s0h001004l5burhl01k",
+      "sourceSkuIdsBySize": {
+        "XL": "12000052932236249",
+        "L": "12000052932236248",
+        "XXXL": "12000052932236251",
+        "XXL": "12000052932236250",
+        "M": "12000052932236247",
+        "S": "12000052932236246"
+      },
+      "landedCostUsdBySize": {
+        "XL": 26.88,
+        "L": 26.88,
+        "XXXL": 26.88,
+        "XXL": 26.88,
+        "M": 26.88,
+        "S": 26.88
+      },
+      "stockBySize": {
+        "XL": 22,
+        "L": 21,
+        "XXXL": 20,
+        "XXL": 21,
+        "M": 21,
+        "S": 20
+      },
+      "retailPriceUsd": 80.9,
+      "verifiedAtUtc": "2026-11-24T17:12:14.727Z"
+    },
+    {
+      "slug": "serenne-high-neck-rib-knit-mini-dress-ivory",
+      "sourceProductId": "3256809244695885",
+      "sourceColor": "Fqd942 white cropped top",
+      "supplierId": "cmwtpcfxf017d0jlnocw8qh0j",
+      "sourceSkuIdsBySize": {
+        "M": "12000049078690198",
+        "S": "12000049078690199",
+        "L": "12000049078690197"
+      },
+      "landedCostUsdBySize": {
+        "M": 35.36,
+        "S": 34.35,
+        "L": 35.98
+      },
+      "stockBySize": {
+        "M": 91,
+        "S": 92,
+        "L": 97
+      },
+      "retailPriceUsd": 108.9,
+      "verifiedAtUtc": "2026-11-24T17:12:52.227Z"
+    },
+    {
+      "slug": "mariselle-ornamental-kaftan-maxi-dress-white-blue",
+      "sourceProductId": "3256808101521519",
+      "sourceColor": "white blue",
+      "supplierId": "cmt63u8ct00pq04jnkscze5kh",
+      "sourceSkuIdsBySize": {
+        "XL": "12000044487466790",
+        "M": "12000044487466788",
+        "L": "12000044487466789",
+        "S": "12000044487466787"
+      },
+      "landedCostUsdBySize": {
+        "XL": 24.96,
+        "M": 24.96,
+        "L": 24.96,
+        "S": 24.96
+      },
+      "stockBySize": {
+        "XL": 998,
+        "M": 999,
+        "L": 999,
+        "S": 999
+      },
+      "retailPriceUsd": 74.9,
+      "verifiedAtUtc": "2026-11-24T17:12:57.860Z"
+    },
+    {
+      "slug": "verelle-keyhole-halter-maxi-dress-charcoal",
+      "sourceProductId": "3256812502949887",
+      "sourceColor": "Gray",
+      "supplierId": "cmt64tbac01mr04jnv23aj3q0",
+      "sourceSkuIdsBySize": {
+        "S": "12000059084996908",
+        "M": "12000059084996909",
+        "L": "12000059084996910"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.75,
+        "M": 25.75,
+        "L": 25.75
+      },
+      "stockBySize": {
+        "S": 9998,
+        "M": 9999,
+        "L": 9999
+      },
+      "retailPriceUsd": 77.9,
+      "verifiedAtUtc": "2026-11-24T17:13:03.924Z"
+    },
+    {
+      "slug": "celoria-pleated-floral-maxi-dress-blush-mauve",
+      "sourceProductId": "3256810409992186",
+      "sourceColor": "2",
+      "supplierId": "cmuq63s0h001004l5burhl01k",
+      "sourceSkuIdsBySize": {
+        "M": "12000052932236253",
+        "S": "12000052932236252",
+        "XL": "12000052932236255",
+        "L": "12000052932236254",
+        "XXXL": "12000052932236257",
+        "XXL": "12000052932236256"
+      },
+      "landedCostUsdBySize": {
+        "M": 26.88,
+        "S": 26.88,
+        "XL": 26.88,
+        "L": 26.88,
+        "XXXL": 26.88,
+        "XXL": 26.88
+      },
+      "stockBySize": {
+        "M": 21,
+        "S": 22,
+        "XL": 22,
+        "L": 22,
+        "XXXL": 22,
+        "XXL": 22
+      },
+      "retailPriceUsd": 80.9,
+      "verifiedAtUtc": "2026-11-24T17:12:14.727Z"
+    },
+    {
+      "slug": "celoria-pleated-floral-maxi-dress-lavender-mint",
+      "sourceProductId": "3256810409992186",
+      "sourceColor": "4",
+      "supplierId": "cmuq63s0h001004l5burhl01k",
+      "sourceSkuIdsBySize": {
+        "M": "12000052932236265",
+        "S": "12000052932236264",
+        "XL": "12000052932236267",
+        "L": "12000052932236266",
+        "XXXL": "12000052932236269",
+        "XXL": "12000052932236268"
+      },
+      "landedCostUsdBySize": {
+        "M": 26.88,
+        "S": 26.88,
+        "XL": 26.88,
+        "L": 26.88,
+        "XXXL": 26.88,
+        "XXL": 26.88
+      },
+      "stockBySize": {
+        "M": 20,
+        "S": 20,
+        "XL": 22,
+        "L": 20,
+        "XXXL": 21,
+        "XXL": 20
+      },
+      "retailPriceUsd": 80.9,
+      "verifiedAtUtc": "2026-11-24T17:12:14.727Z"
+    },
+    {
+      "slug": "celoria-pleated-floral-maxi-dress-chartreuse-pink",
+      "sourceProductId": "3256810409992186",
+      "sourceColor": "5",
+      "supplierId": "cmuq63s0h001004l5burhl01k",
+      "sourceSkuIdsBySize": {
+        "XL": "12000052932236273",
+        "L": "12000052932236272",
+        "XXXL": "12000052932236275",
+        "XXL": "12000052932236274",
+        "M": "12000052932236271",
+        "S": "12000052932236270"
+      },
+      "landedCostUsdBySize": {
+        "XL": 26.88,
+        "L": 26.88,
+        "XXXL": 26.88,
+        "XXL": 26.88,
+        "M": 26.88,
+        "S": 26.88
+      },
+      "stockBySize": {
+        "XL": 21,
+        "L": 22,
+        "XXXL": 22,
+        "XXL": 22,
+        "M": 22,
+        "S": 21
+      },
+      "retailPriceUsd": 80.9,
+      "verifiedAtUtc": "2026-11-24T17:12:14.727Z"
+    },
+    {
+      "slug": "danora-clean-hem-denim-shorts-black",
+      "sourceProductId": "3256809295478521",
+      "sourceColor": "Black",
+      "supplierId": "cmt60g9l500fy04ifhigt7y7s",
+      "sourceSkuIdsBySize": {
+        "XS": "12000049237037182",
+        "S": "12000049237037183",
+        "XL": "12000049237037186",
+        "XXL": "12000049237037187",
+        "M": "12000049237037184",
+        "L": "12000049237037185"
+      },
+      "landedCostUsdBySize": {
+        "XS": 10.94,
+        "S": 10.84,
+        "XL": 12.24,
+        "XXL": 12.54,
+        "M": 11.28,
+        "L": 11.14
+      },
+      "stockBySize": {
+        "XS": 91,
+        "S": 85,
+        "XL": 90,
+        "XXL": 87,
+        "M": 77,
+        "L": 78
+      },
+      "retailPriceUsd": 37.9,
+      "verifiedAtUtc": "2026-11-24T17:13:10.789Z"
+    }
+  ]
+}
