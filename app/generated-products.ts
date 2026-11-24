@@ -27842,6 +27842,374 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256805402756695",
   "sourceColor": "wHITE"
+},
+{
+  "slug": "soravia-abstract-one-shoulder-maxi-dress-ivory-multi",
+  "name": "Soravia Abstract One-Shoulder Maxi Dress — Ivory Multi",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 78.9,
+  "colors": [
+    "#e9e1d6"
+  ],
+  "colorNames": [
+    "Ivory Multi"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An ankle-length printed dress with an asymmetric neckline, draped sleeve and softly tapered skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/soravia-abstract-one-shoulder-maxi-dress-ivory-multi/front.webp",
+    "/products/soravia-abstract-one-shoulder-maxi-dress-ivory-multi/back.webp",
+    "/products/soravia-abstract-one-shoulder-maxi-dress-ivory-multi/left.webp",
+    "/products/soravia-abstract-one-shoulder-maxi-dress-ivory-multi/right.webp"
+  ],
+  "stock": 82,
+  "unitCostUsd": 26.01,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812216140657",
+  "sourceColor": "White"
+},
+{
+  "slug": "miralise-surplice-ruffle-gown-rust",
+  "name": "Miralise Surplice Ruffle Gown — Rust",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 129.9,
+  "colors": [
+    "#963e32"
+  ],
+  "colorNames": [
+    "Rust"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A floor-length gown with a surplice V-neck, gathered waist and a layered ruffle that opens above the longer back hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/miralise-surplice-ruffle-gown-rust/front.webp",
+    "/products/miralise-surplice-ruffle-gown-rust/back.webp",
+    "/products/miralise-surplice-ruffle-gown-rust/left.webp",
+    "/products/miralise-surplice-ruffle-gown-rust/right.webp"
+  ],
+  "stock": 53,
+  "unitCostUsd": 43.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805896462287",
+  "sourceColor": "rancheng"
+},
+{
+  "slug": "mavella-leopard-maxi-kaftan-leopard",
+  "name": "Mavella Leopard Maxi Kaftan — Leopard",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#926849"
+  ],
+  "colorNames": [
+    "Leopard"
+  ],
+  "sizes": [
+    "One size fits all"
+  ],
+  "description": "An ankle-length leopard-print kaftan with a V neckline and loose batwing sleeves.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/mavella-leopard-maxi-kaftan-leopard/front.webp",
+    "/products/mavella-leopard-maxi-kaftan-leopard/back.webp",
+    "/products/mavella-leopard-maxi-kaftan-leopard/left.webp",
+    "/products/mavella-leopard-maxi-kaftan-leopard/right.webp"
+  ],
+  "stock": 99996,
+  "unitCostUsd": 31.53,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809475159376",
+  "sourceColor": "Dn0069-23 leopard print"
+},
+{
+  "slug": "iverelle-button-front-wrap-maxi-skirt-sage",
+  "name": "Iverelle Button-Front Wrap Maxi Skirt — Sage",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 76.9,
+  "colors": [
+    "#7c8068"
+  ],
+  "colorNames": [
+    "Sage"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "An A-line maxi skirt with a smooth high waistband, an overlap at the front and off-center buttons.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/iverelle-button-front-wrap-maxi-skirt-sage/front.webp",
+    "/products/iverelle-button-front-wrap-maxi-skirt-sage/back.webp",
+    "/products/iverelle-button-front-wrap-maxi-skirt-sage/left.webp",
+    "/products/iverelle-button-front-wrap-maxi-skirt-sage/right.webp"
+  ],
+  "stock": 3326,
+  "unitCostUsd": 25.46,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811438135304",
+  "sourceColor": "green"
+},
+{
+  "slug": "islena-drawstring-tie-dye-cover-up-midnight-tie-dye",
+  "name": "Islena Drawstring Tie-Dye Cover-Up — Midnight Tie-Dye",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 49.9,
+  "colors": [
+    "#272936"
+  ],
+  "colorNames": [
+    "Midnight Tie-Dye"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A short tie-dye cover-up with a V neckline, loose batwing sleeves and a drawstring waist.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/islena-drawstring-tie-dye-cover-up-midnight-tie-dye/front.webp",
+    "/products/islena-drawstring-tie-dye-cover-up-midnight-tie-dye/back.webp",
+    "/products/islena-drawstring-tie-dye-cover-up-midnight-tie-dye/left.webp",
+    "/products/islena-drawstring-tie-dye-cover-up-midnight-tie-dye/right.webp"
+  ],
+  "stock": 4000,
+  "unitCostUsd": 16.35,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806745057977",
+  "sourceColor": "black"
+},
+{
+  "slug": "miralise-surplice-ruffle-gown-slate-blue",
+  "name": "Miralise Surplice Ruffle Gown — Slate Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 128.9,
+  "colors": [
+    "#315463"
+  ],
+  "colorNames": [
+    "Slate Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A floor-length gown with a surplice V-neck, gathered waist and a layered ruffle that opens above the longer back hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/miralise-surplice-ruffle-gown-slate-blue/front.webp",
+    "/products/miralise-surplice-ruffle-gown-slate-blue/back.webp",
+    "/products/miralise-surplice-ruffle-gown-slate-blue/left.webp",
+    "/products/miralise-surplice-ruffle-gown-slate-blue/right.webp"
+  ],
+  "stock": 61,
+  "unitCostUsd": 42.78,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805896462287",
+  "sourceColor": "wumailan"
+},
+{
+  "slug": "soravia-abstract-one-shoulder-maxi-dress-fuchsia-multi",
+  "name": "Soravia Abstract One-Shoulder Maxi Dress — Fuchsia Multi",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 78.9,
+  "colors": [
+    "#c83584"
+  ],
+  "colorNames": [
+    "Fuchsia Multi"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An ankle-length printed dress with an asymmetric neckline, draped sleeve and softly tapered skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/soravia-abstract-one-shoulder-maxi-dress-fuchsia-multi/front.webp",
+    "/products/soravia-abstract-one-shoulder-maxi-dress-fuchsia-multi/back.webp",
+    "/products/soravia-abstract-one-shoulder-maxi-dress-fuchsia-multi/left.webp",
+    "/products/soravia-abstract-one-shoulder-maxi-dress-fuchsia-multi/right.webp"
+  ],
+  "stock": 82,
+  "unitCostUsd": 26.01,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812216140657",
+  "sourceColor": "Rose Red"
+},
+{
+  "slug": "rosvienne-split-hem-button-maxi-skirt-midnight-blue",
+  "name": "Rosvienne Split-Hem Button Maxi Skirt — Midnight Blue",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 71.9,
+  "colors": [
+    "#26374d"
+  ],
+  "colorNames": [
+    "Midnight Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A flowing high-rise skirt with a front button row and a split hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rosvienne-split-hem-button-maxi-skirt-midnight-blue/front.webp",
+    "/products/rosvienne-split-hem-button-maxi-skirt-midnight-blue/back.webp",
+    "/products/rosvienne-split-hem-button-maxi-skirt-midnight-blue/left.webp",
+    "/products/rosvienne-split-hem-button-maxi-skirt-midnight-blue/right.webp"
+  ],
+  "stock": 4490,
+  "unitCostUsd": 23.78,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808210812742",
+  "sourceColor": "purplish blue"
+},
+{
+  "slug": "soravia-abstract-one-shoulder-maxi-dress-golden-multi",
+  "name": "Soravia Abstract One-Shoulder Maxi Dress — Golden Multi",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 78.9,
+  "colors": [
+    "#dda833"
+  ],
+  "colorNames": [
+    "Golden Multi"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "An ankle-length printed dress with an asymmetric neckline, draped sleeve and softly tapered skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/soravia-abstract-one-shoulder-maxi-dress-golden-multi/front.webp",
+    "/products/soravia-abstract-one-shoulder-maxi-dress-golden-multi/back.webp",
+    "/products/soravia-abstract-one-shoulder-maxi-dress-golden-multi/left.webp",
+    "/products/soravia-abstract-one-shoulder-maxi-dress-golden-multi/right.webp"
+  ],
+  "stock": 81,
+  "unitCostUsd": 26.01,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812216140657",
+  "sourceColor": "Yellow"
+},
+{
+  "slug": "danelle-distressed-raw-hem-denim-shorts-dark-wash",
+  "name": "Danelle Distressed Raw-Hem Denim Shorts — Dark Wash",
+  "category": "Shorts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 81.9,
+  "colors": [
+    "#496782"
+  ],
+  "colorNames": [
+    "Dark Wash"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "High-rise dark-wash denim shorts with front distressing, patch pockets and a frayed hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/danelle-distressed-raw-hem-denim-shorts-dark-wash/front.webp",
+    "/products/danelle-distressed-raw-hem-denim-shorts-dark-wash/back.webp",
+    "/products/danelle-distressed-raw-hem-denim-shorts-dark-wash/left.webp",
+    "/products/danelle-distressed-raw-hem-denim-shorts-dark-wash/right.webp"
+  ],
+  "stock": 562,
+  "unitCostUsd": 27.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809295478521",
+  "sourceColor": "Blue"
 }
 ];
 
@@ -27851,6 +28219,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "soravia-abstract-one-shoulder-maxi-dress-ivory-multi",
+  "miralise-surplice-ruffle-gown-rust",
+  "mavella-leopard-maxi-kaftan-leopard",
+  "iverelle-button-front-wrap-maxi-skirt-sage",
+  "islena-drawstring-tie-dye-cover-up-midnight-tie-dye",
+  "miralise-surplice-ruffle-gown-slate-blue",
+  "soravia-abstract-one-shoulder-maxi-dress-fuchsia-multi",
+  "rosvienne-split-hem-button-maxi-skirt-midnight-blue",
+  "soravia-abstract-one-shoulder-maxi-dress-golden-multi",
+  "danelle-distressed-raw-hem-denim-shorts-dark-wash",
+
   "eldrienne-paisley-chiffon-mini-dress-navy-paisley",
   "selorie-contrast-trim-tunic-midi-dress-ivory-with-black-trim",
   "cassienne-draped-halter-mini-dress-scarlet",

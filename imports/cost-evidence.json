@@ -525,6 +525,10 @@
    "landedCostUsd": 13.69,
    "source": "catalog-20261025-batch04-supplier-bindings.json"
   },
+  "danelle-distressed-raw-hem-denim-shorts-dark-wash": {
+   "landedCostUsd": 27.18,
+   "source": "catalog-20261123-batch22-bindings.json"
+  },
   "danika-black-halter-midi-dress": {
    "landedCostUsd": 24.44,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
@@ -897,6 +901,14 @@
    "landedCostUsd": 28.37,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
   },
+  "islena-drawstring-tie-dye-cover-up-midnight-tie-dye": {
+   "landedCostUsd": 16.35,
+   "source": "catalog-20261123-batch22-bindings.json"
+  },
+  "iverelle-button-front-wrap-maxi-skirt-sage": {
+   "landedCostUsd": 25.46,
+   "source": "catalog-20261123-batch22-bindings.json"
+  },
   "ivo-tribal-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -1229,6 +1241,10 @@
    "landedCostUsd": 22.62,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "mavella-leopard-maxi-kaftan-leopard": {
+   "landedCostUsd": 31.53,
+   "source": "catalog-20261123-batch22-bindings.json"
+  },
   "melrisa-ruched-high-neck-maxi-dress-black": {
    "landedCostUsd": 49,
    "source": "catalog-20261123-batch20-bindings.json"
@@ -1264,6 +1280,14 @@
   "miralise-surplice-ruffle-gown-lilac": {
    "landedCostUsd": 41.88,
    "source": "catalog-20261123-batch19-bindings.json"
+  },
+  "miralise-surplice-ruffle-gown-rust": {
+   "landedCostUsd": 43.18,
+   "source": "catalog-20261123-batch22-bindings.json"
+  },
+  "miralise-surplice-ruffle-gown-slate-blue": {
+   "landedCostUsd": 42.78,
+   "source": "catalog-20261123-batch22-bindings.json"
   },
   "mirelda-lattice-trim-shirt-dress-black": {
    "landedCostUsd": 30.85,
@@ -1833,6 +1857,10 @@
    "landedCostUsd": 23.78,
    "source": "catalog-20261123-batch21-bindings.json"
   },
+  "rosvienne-split-hem-button-maxi-skirt-midnight-blue": {
+   "landedCostUsd": 23.78,
+   "source": "catalog-20261123-batch22-bindings.json"
+  },
   "rovelle-turtleneck-sweater-midi-dress-black": {
    "landedCostUsd": 30.93,
    "source": "catalog-20261123-batch05-bindings.json"
@@ -1996,6 +2024,18 @@
   "solenne-printed-beach-cover-up-umber-zebra": {
    "landedCostUsd": 33.44,
    "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "soravia-abstract-one-shoulder-maxi-dress-fuchsia-multi": {
+   "landedCostUsd": 26.01,
+   "source": "catalog-20261123-batch22-bindings.json"
+  },
+  "soravia-abstract-one-shoulder-maxi-dress-golden-multi": {
+   "landedCostUsd": 26.01,
+   "source": "catalog-20261123-batch22-bindings.json"
+  },
+  "soravia-abstract-one-shoulder-maxi-dress-ivory-multi": {
+   "landedCostUsd": 26.01,
+   "source": "catalog-20261123-batch22-bindings.json"
   },
   "sorelle-draped-halter-maxi-dress-taupe": {
    "landedCostUsd": 25.75,

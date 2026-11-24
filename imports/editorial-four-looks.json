@@ -2,43 +2,43 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
-      "slug": "eldrienne-paisley-chiffon-mini-dress-navy-paisley",
-      "name": "Eldrienne Paisley Chiffon Mini Dress — Navy Paisley",
-      "image": "/products/eldrienne-paisley-chiffon-mini-dress-navy-paisley/front.webp",
-      "eyebrow": "NEW ARRIVAL",
-      "copy": "A printed chiffon mini dress with a high neckline, balloon sleeves and an asymmetric hem.",
-      "category": "Dresses",
-      "arrivalRank": 1036,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "selorie-contrast-trim-tunic-midi-dress-ivory-with-black-trim",
-      "name": "Selorie Contrast-Trim Tunic Midi Dress — Ivory with Black Trim",
-      "image": "/products/selorie-contrast-trim-tunic-midi-dress-ivory-with-black-trim/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A relaxed ivory midi dress with a split neckline, three-quarter sleeves, side slits and narrow black trim.",
-      "category": "Dresses",
-      "arrivalRank": 1035,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "alvielle-floral-bell-sleeve-mini-dress-ivory-floral",
-      "name": "Alvielle Floral Bell-Sleeve Mini Dress — Ivory Floral",
-      "image": "/products/alvielle-floral-bell-sleeve-mini-dress-ivory-floral/front.webp",
+      "slug": "soravia-abstract-one-shoulder-maxi-dress-ivory-multi",
+      "name": "Soravia Abstract One-Shoulder Maxi Dress — Ivory Multi",
+      "image": "/products/soravia-abstract-one-shoulder-maxi-dress-ivory-multi/front.webp",
       "eyebrow": "THE PRINT EDIT",
-      "copy": "A loose floral mini dress with a round neckline, three-quarter bell sleeves and a bordered ruffle hem.",
+      "copy": "An ankle-length printed dress with an asymmetric neckline, draped sleeve and softly tapered skirt.",
       "category": "Dresses",
-      "arrivalRank": 1032,
+      "arrivalRank": 1046,
       "classification": "verified-model"
     },
     {
-      "slug": "valenna-contrast-trim-button-dress-navy",
-      "name": "Valenna Contrast-Trim Button Dress — Navy",
-      "image": "/products/valenna-contrast-trim-button-dress-navy/front.webp",
-      "eyebrow": "SAN DIEGO EDIT",
-      "copy": "A navy collared dress with long sleeves, contrasting red-and-white trim and a front button closure.",
+      "slug": "miralise-surplice-ruffle-gown-rust",
+      "name": "Miralise Surplice Ruffle Gown — Rust",
+      "image": "/products/miralise-surplice-ruffle-gown-rust/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A floor-length gown with a surplice V-neck, gathered waist and a layered ruffle that opens above the longer back hem.",
       "category": "Dresses",
-      "arrivalRank": 1026,
+      "arrivalRank": 1045,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "mavella-leopard-maxi-kaftan-leopard",
+      "name": "Mavella Leopard Maxi Kaftan — Leopard",
+      "image": "/products/mavella-leopard-maxi-kaftan-leopard/front.webp",
+      "eyebrow": "THE PRINT EDIT",
+      "copy": "An ankle-length leopard-print kaftan with a V neckline and loose batwing sleeves.",
+      "category": "Dresses",
+      "arrivalRank": 1044,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "islena-drawstring-tie-dye-cover-up-midnight-tie-dye",
+      "name": "Islena Drawstring Tie-Dye Cover-Up — Midnight Tie-Dye",
+      "image": "/products/islena-drawstring-tie-dye-cover-up-midnight-tie-dye/front.webp",
+      "eyebrow": "SUNLIT EASE",
+      "copy": "A short tie-dye cover-up with a V neckline, loose batwing sleeves and a drawstring waist.",
+      "category": "Dresses",
+      "arrivalRank": 1042,
       "classification": "verified-model"
     }
   ]

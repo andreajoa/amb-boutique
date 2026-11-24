@@ -1,0 +1,290 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "soravia-abstract-one-shoulder-maxi-dress-ivory-multi",
+      "sourceProductId": "3256812216140657",
+      "sourceColor": "White",
+      "supplierId": "cmwhs8q1000aj0jmc5nw695hl",
+      "sourceSkuIdsBySize": {
+        "S": "12000058279277386",
+        "M": "12000058279277387",
+        "XXL": "12000058279277390",
+        "XXXL": "12000058279277391",
+        "L": "12000058279277388",
+        "XL": "12000058279277389"
+      },
+      "landedCostUsdBySize": {
+        "S": 26.01,
+        "M": 26.01,
+        "XXL": 26.01,
+        "XXXL": 26.01,
+        "L": 26.01,
+        "XL": 26.01
+      },
+      "stockBySize": {
+        "S": 14,
+        "M": 14,
+        "XXL": 15,
+        "XXXL": 13,
+        "L": 13,
+        "XL": 13
+      },
+      "retailPriceUsd": 78.9,
+      "verifiedAtUtc": "2026-11-24T14:42:17.091Z"
+    },
+    {
+      "slug": "miralise-surplice-ruffle-gown-rust",
+      "sourceProductId": "3256805896462287",
+      "sourceColor": "rancheng",
+      "supplierId": "cmt5zr68d000v04ifnnmda1gf",
+      "sourceSkuIdsBySize": {
+        "L": "12000036429550926",
+        "XL": "12000036429550927",
+        "S": "12000036429550924",
+        "M": "12000036429550925"
+      },
+      "landedCostUsdBySize": {
+        "L": 42.78,
+        "XL": 43.18,
+        "S": 42.48,
+        "M": 42.88
+      },
+      "stockBySize": {
+        "L": 12,
+        "XL": 15,
+        "S": 13,
+        "M": 13
+      },
+      "retailPriceUsd": 129.9,
+      "verifiedAtUtc": "2026-11-24T14:41:57.891Z"
+    },
+    {
+      "slug": "mavella-leopard-maxi-kaftan-leopard",
+      "sourceProductId": "3256809475159376",
+      "sourceColor": "Dn0069-23 leopard print",
+      "supplierId": "cmt60vy0c00pf04ifrvidjsgj",
+      "sourceSkuIdsBySize": {
+        "One size fits all": "12000049799245459"
+      },
+      "landedCostUsdBySize": {
+        "One size fits all": 31.53
+      },
+      "stockBySize": {
+        "One size fits all": 99996
+      },
+      "retailPriceUsd": 94.9,
+      "verifiedAtUtc": "2026-11-24T14:41:50.623Z"
+    },
+    {
+      "slug": "iverelle-button-front-wrap-maxi-skirt-sage",
+      "sourceProductId": "3256811438135304",
+      "sourceColor": "green",
+      "supplierId": "cmsy4qfs7002804ldxbxgpyyj",
+      "sourceSkuIdsBySize": {
+        "M": "12000056086676582",
+        "L": "12000056086676583",
+        "S": "12000056086676581",
+        "XL": "12000056086676584",
+        "XXL": "12000056086676585"
+      },
+      "landedCostUsdBySize": {
+        "M": 25.46,
+        "L": 25.46,
+        "S": 25.46,
+        "XL": 25.46,
+        "XXL": 25.46
+      },
+      "stockBySize": {
+        "M": 665,
+        "L": 665,
+        "S": 666,
+        "XL": 664,
+        "XXL": 666
+      },
+      "retailPriceUsd": 76.9,
+      "verifiedAtUtc": "2026-11-24T14:41:21.743Z"
+    },
+    {
+      "slug": "islena-drawstring-tie-dye-cover-up-midnight-tie-dye",
+      "sourceProductId": "3256806745057977",
+      "sourceColor": "black",
+      "supplierId": "cmt640ncp015k04jnel4nltsd",
+      "sourceSkuIdsBySize": {
+        "S": "12000038807100867",
+        "L": "12000038807100869",
+        "M": "12000038807100868",
+        "XXL": "12000038807100871",
+        "XL": "12000038807100870"
+      },
+      "landedCostUsdBySize": {
+        "S": 15.58,
+        "L": 16.35,
+        "M": 16.08,
+        "XXL": 15.51,
+        "XL": 16.24
+      },
+      "stockBySize": {
+        "S": 800,
+        "L": 800,
+        "M": 800,
+        "XXL": 800,
+        "XL": 800
+      },
+      "retailPriceUsd": 49.9,
+      "verifiedAtUtc": "2026-11-24T14:41:30.215Z"
+    },
+    {
+      "slug": "miralise-surplice-ruffle-gown-slate-blue",
+      "sourceProductId": "3256805896462287",
+      "sourceColor": "wumailan",
+      "supplierId": "cmt5zr68d000v04ifnnmda1gf",
+      "sourceSkuIdsBySize": {
+        "L": "12000036429550922",
+        "XL": "12000036429550923",
+        "S": "12000036429550920",
+        "M": "12000036429550921"
+      },
+      "landedCostUsdBySize": {
+        "L": 42.28,
+        "XL": 42.78,
+        "S": 42.28,
+        "M": 37.08
+      },
+      "stockBySize": {
+        "L": 10,
+        "XL": 14,
+        "S": 28,
+        "M": 9
+      },
+      "retailPriceUsd": 128.9,
+      "verifiedAtUtc": "2026-11-24T14:41:57.891Z"
+    },
+    {
+      "slug": "soravia-abstract-one-shoulder-maxi-dress-fuchsia-multi",
+      "sourceProductId": "3256812216140657",
+      "sourceColor": "Rose Red",
+      "supplierId": "cmwhs8q1000aj0jmc5nw695hl",
+      "sourceSkuIdsBySize": {
+        "L": "12000058279277382",
+        "XL": "12000058279277383",
+        "S": "12000058279277380",
+        "M": "12000058279277381",
+        "XXL": "12000058279277384",
+        "XXXL": "12000058279277385"
+      },
+      "landedCostUsdBySize": {
+        "L": 26.01,
+        "XL": 26.01,
+        "S": 26.01,
+        "M": 26.01,
+        "XXL": 26.01,
+        "XXXL": 26.01
+      },
+      "stockBySize": {
+        "L": 15,
+        "XL": 12,
+        "S": 13,
+        "M": 14,
+        "XXL": 14,
+        "XXXL": 14
+      },
+      "retailPriceUsd": 78.9,
+      "verifiedAtUtc": "2026-11-24T14:42:17.091Z"
+    },
+    {
+      "slug": "rosvienne-split-hem-button-maxi-skirt-midnight-blue",
+      "sourceProductId": "3256808210812742",
+      "sourceColor": "purplish blue",
+      "supplierId": "cmsy4tk6y004w04ld4k0af9em",
+      "sourceSkuIdsBySize": {
+        "M": "12000044854006559",
+        "S": "12000044854006558",
+        "XXL": "12000044854006562",
+        "XL": "12000044854006561",
+        "L": "12000044854006560"
+      },
+      "landedCostUsdBySize": {
+        "M": 23.78,
+        "S": 23.78,
+        "XXL": 23.78,
+        "XL": 23.78,
+        "L": 23.78
+      },
+      "stockBySize": {
+        "M": 898,
+        "S": 896,
+        "XXL": 899,
+        "XL": 898,
+        "L": 899
+      },
+      "retailPriceUsd": 71.9,
+      "verifiedAtUtc": "2026-11-24T14:42:06.614Z"
+    },
+    {
+      "slug": "soravia-abstract-one-shoulder-maxi-dress-golden-multi",
+      "sourceProductId": "3256812216140657",
+      "sourceColor": "Yellow",
+      "supplierId": "cmwhs8q1000aj0jmc5nw695hl",
+      "sourceSkuIdsBySize": {
+        "L": "12000058279277394",
+        "XL": "12000058279277395",
+        "S": "12000058279277392",
+        "M": "12000058279277393",
+        "XXL": "12000058279277396",
+        "XXXL": "12000058279277397"
+      },
+      "landedCostUsdBySize": {
+        "L": 26.01,
+        "XL": 26.01,
+        "S": 26.01,
+        "M": 26.01,
+        "XXL": 26.01,
+        "XXXL": 26.01
+      },
+      "stockBySize": {
+        "L": 11,
+        "XL": 14,
+        "S": 14,
+        "M": 14,
+        "XXL": 14,
+        "XXXL": 14
+      },
+      "retailPriceUsd": 78.9,
+      "verifiedAtUtc": "2026-11-24T14:42:17.091Z"
+    },
+    {
+      "slug": "danelle-distressed-raw-hem-denim-shorts-dark-wash",
+      "sourceProductId": "3256809295478521",
+      "sourceColor": "Blue",
+      "supplierId": "cmt60g9l500fy04ifhigt7y7s",
+      "sourceSkuIdsBySize": {
+        "XL": "12000049237037174",
+        "XXL": "12000049237037175",
+        "M": "12000049237037172",
+        "L": "12000049237037173",
+        "XS": "12000049237037170",
+        "S": "12000049237037171"
+      },
+      "landedCostUsdBySize": {
+        "XL": 26.98,
+        "XXL": 27.18,
+        "M": 26.58,
+        "L": 27.18,
+        "XS": 26.68,
+        "S": 25.88
+      },
+      "stockBySize": {
+        "XL": 95,
+        "XXL": 99,
+        "M": 92,
+        "L": 94,
+        "XS": 93,
+        "S": 89
+      },
+      "retailPriceUsd": 81.9,
+      "verifiedAtUtc": "2026-11-24T14:41:44.816Z"
+    }
+  ]
+}
