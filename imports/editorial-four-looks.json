@@ -2,6 +2,26 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
+      "slug": "valenna-contrast-trim-button-dress-navy",
+      "name": "Valenna Contrast-Trim Button Dress — Navy",
+      "image": "/products/valenna-contrast-trim-button-dress-navy/front.webp",
+      "eyebrow": "NEW ARRIVAL",
+      "copy": "A navy collared dress with long sleeves, contrasting red-and-white trim and a front button closure.",
+      "category": "Dresses",
+      "arrivalRank": 1026,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "melrisa-ruched-high-neck-maxi-dress-terracotta",
+      "name": "Melrisa Ruched High-Neck Maxi Dress — Terracotta",
+      "image": "/products/melrisa-ruched-high-neck-maxi-dress-terracotta/front.webp",
+      "eyebrow": "THE SOFT STATEMENT",
+      "copy": "A floor-length dress with a high neckline, long sleeves and diagonal ruching gathered around the hips.",
+      "category": "Dresses",
+      "arrivalRank": 1025,
+      "classification": "verified-model"
+    },
+    {
       "slug": "velloria-single-button-flare-suit-vermilion",
       "name": "Velloria Single-Button Flare Suit — Vermilion",
       "image": "/products/velloria-single-button-flare-suit-vermilion/front.webp",
@@ -19,26 +39,6 @@
       "copy": "A floor-length gown with a surplice V-neck, gathered waist and a layered ruffle that opens above the longer back hem.",
       "category": "Dresses",
       "arrivalRank": 1015,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "astrienne-cutout-column-maxi-dress-black",
-      "name": "Astrienne Cutout Column Maxi Dress — Black",
-      "image": "/products/astrienne-cutout-column-maxi-dress-black/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A sleeveless column maxi dress with a high round neckline and a single curved cutout at the waist.",
-      "category": "Dresses",
-      "arrivalRank": 1014,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "ruvelle-cape-sleeve-midi-dress-burgundy",
-      "name": "Ruvelle Cape-Sleeve Midi Dress — Burgundy",
-      "image": "/products/ruvelle-cape-sleeve-midi-dress-burgundy/front.webp",
-      "eyebrow": "SAN DIEGO EDIT",
-      "copy": "A fitted midi dress with a draped neckline, cape-like short sleeves and a center-back vent.",
-      "category": "Dresses",
-      "arrivalRank": 1012,
       "classification": "verified-model"
     }
   ]
