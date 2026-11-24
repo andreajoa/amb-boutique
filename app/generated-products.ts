@@ -29663,6 +29663,375 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256807055224637",
   "sourceColor": "Black"
+},
+{
+  "slug": "aleria-draped-cold-shoulder-midi-dress-ochre",
+  "name": "Aleria Draped Cold-Shoulder Midi Dress — Ochre",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#A86919"
+  ],
+  "colorNames": [
+    "Ochre"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted ochre midi dress with a draped high neckline and cutouts at the shoulders.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/aleria-draped-cold-shoulder-midi-dress-ochre/front.webp",
+    "/products/aleria-draped-cold-shoulder-midi-dress-ochre/back.webp",
+    "/products/aleria-draped-cold-shoulder-midi-dress-ochre/left.webp",
+    "/products/aleria-draped-cold-shoulder-midi-dress-ochre/right.webp"
+  ],
+  "stock": 5990,
+  "unitCostUsd": 22.57,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806664357699",
+  "sourceColor": "yellow"
+},
+{
+  "slug": "andria-pin-dot-halter-mini-dress-black",
+  "name": "Andria Pin-Dot Halter Mini Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 34.9,
+  "colors": [
+    "#282729"
+  ],
+  "colorNames": [
+    "Black and Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A flared black mini dress with a gathered halter neckline and small ivory dots.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/andria-pin-dot-halter-mini-dress-black/front.webp",
+    "/products/andria-pin-dot-halter-mini-dress-black/back.webp",
+    "/products/andria-pin-dot-halter-mini-dress-black/left.webp",
+    "/products/andria-pin-dot-halter-mini-dress-black/right.webp"
+  ],
+  "stock": 23,
+  "unitCostUsd": 11.48,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812020468976",
+  "sourceColor": "black"
+},
+{
+  "slug": "celoria-pleated-floral-maxi-dress-blue-sage",
+  "name": "Celoria Pleated Floral Maxi Dress — Blue and Sage",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 80.9,
+  "colors": [
+    "#A9BDD1"
+  ],
+  "colorNames": [
+    "Blue and Sage"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A square-neck floral maxi dress with wide straps, a defined waist and a softly pleated skirt.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/celoria-pleated-floral-maxi-dress-blue-sage/front.webp",
+    "/products/celoria-pleated-floral-maxi-dress-blue-sage/back.webp",
+    "/products/celoria-pleated-floral-maxi-dress-blue-sage/left.webp",
+    "/products/celoria-pleated-floral-maxi-dress-blue-sage/right.webp"
+  ],
+  "stock": 125,
+  "unitCostUsd": 26.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810409992186",
+  "sourceColor": "1"
+},
+{
+  "slug": "serenne-high-neck-rib-knit-mini-dress-ivory",
+  "name": "Serenne High-Neck Rib-Knit Mini Dress — Ivory",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 108.9,
+  "colors": [
+    "#E6DFCE"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted ivory rib-knit mini dress with a high neckline, long sleeves and a straight hem.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/serenne-high-neck-rib-knit-mini-dress-ivory/front.webp",
+    "/products/serenne-high-neck-rib-knit-mini-dress-ivory/back.webp",
+    "/products/serenne-high-neck-rib-knit-mini-dress-ivory/left.webp",
+    "/products/serenne-high-neck-rib-knit-mini-dress-ivory/right.webp"
+  ],
+  "stock": 280,
+  "unitCostUsd": 35.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809244695885",
+  "sourceColor": "Fqd942 white cropped top"
+},
+{
+  "slug": "mariselle-ornamental-kaftan-maxi-dress-white-blue",
+  "name": "Mariselle Ornamental Kaftan Maxi Dress — White and Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 74.9,
+  "colors": [
+    "#B7C4CC"
+  ],
+  "colorNames": [
+    "White and Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A V-neck maxi dress with loose sleeves, a cinched waist and a tonal blue print.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/mariselle-ornamental-kaftan-maxi-dress-white-blue/front.webp",
+    "/products/mariselle-ornamental-kaftan-maxi-dress-white-blue/back.webp",
+    "/products/mariselle-ornamental-kaftan-maxi-dress-white-blue/left.webp",
+    "/products/mariselle-ornamental-kaftan-maxi-dress-white-blue/right.webp"
+  ],
+  "stock": 3995,
+  "unitCostUsd": 24.96,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808101521519",
+  "sourceColor": "white blue"
+},
+{
+  "slug": "verelle-keyhole-halter-maxi-dress-charcoal",
+  "name": "Verelle Keyhole Halter Maxi Dress — Charcoal",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 77.9,
+  "colors": [
+    "#46464B"
+  ],
+  "colorNames": [
+    "Charcoal"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A floor-length halter dress with a long front keyhole, gathered twist waist and side cutouts.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/verelle-keyhole-halter-maxi-dress-charcoal/front.webp",
+    "/products/verelle-keyhole-halter-maxi-dress-charcoal/back.webp",
+    "/products/verelle-keyhole-halter-maxi-dress-charcoal/left.webp",
+    "/products/verelle-keyhole-halter-maxi-dress-charcoal/right.webp"
+  ],
+  "stock": 29996,
+  "unitCostUsd": 25.75,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812502949887",
+  "sourceColor": "Gray"
+},
+{
+  "slug": "celoria-pleated-floral-maxi-dress-blush-mauve",
+  "name": "Celoria Pleated Floral Maxi Dress — Blush and Mauve",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 80.9,
+  "colors": [
+    "#CEA8B6"
+  ],
+  "colorNames": [
+    "Blush and Mauve"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A square-neck floral maxi dress with wide straps, a defined waist and a softly pleated skirt.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/celoria-pleated-floral-maxi-dress-blush-mauve/front.webp",
+    "/products/celoria-pleated-floral-maxi-dress-blush-mauve/back.webp",
+    "/products/celoria-pleated-floral-maxi-dress-blush-mauve/left.webp",
+    "/products/celoria-pleated-floral-maxi-dress-blush-mauve/right.webp"
+  ],
+  "stock": 131,
+  "unitCostUsd": 26.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810409992186",
+  "sourceColor": "2"
+},
+{
+  "slug": "celoria-pleated-floral-maxi-dress-lavender-mint",
+  "name": "Celoria Pleated Floral Maxi Dress — Lavender and Mint",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 80.9,
+  "colors": [
+    "#C9C9C5"
+  ],
+  "colorNames": [
+    "Lavender and Mint"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A square-neck floral maxi dress with wide straps, a defined waist and a softly pleated skirt.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/celoria-pleated-floral-maxi-dress-lavender-mint/front.webp",
+    "/products/celoria-pleated-floral-maxi-dress-lavender-mint/back.webp",
+    "/products/celoria-pleated-floral-maxi-dress-lavender-mint/left.webp",
+    "/products/celoria-pleated-floral-maxi-dress-lavender-mint/right.webp"
+  ],
+  "stock": 123,
+  "unitCostUsd": 26.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810409992186",
+  "sourceColor": "4"
+},
+{
+  "slug": "celoria-pleated-floral-maxi-dress-chartreuse-pink",
+  "name": "Celoria Pleated Floral Maxi Dress — Chartreuse and Pink",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 80.9,
+  "colors": [
+    "#DBDA93"
+  ],
+  "colorNames": [
+    "Chartreuse and Pink"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A square-neck floral maxi dress with wide straps, a defined waist and a softly pleated skirt.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/celoria-pleated-floral-maxi-dress-chartreuse-pink/front.webp",
+    "/products/celoria-pleated-floral-maxi-dress-chartreuse-pink/back.webp",
+    "/products/celoria-pleated-floral-maxi-dress-chartreuse-pink/left.webp",
+    "/products/celoria-pleated-floral-maxi-dress-chartreuse-pink/right.webp"
+  ],
+  "stock": 130,
+  "unitCostUsd": 26.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810409992186",
+  "sourceColor": "5"
+},
+{
+  "slug": "danora-clean-hem-denim-shorts-black",
+  "name": "Danora Clean-Hem Denim Shorts — Black",
+  "category": "Shorts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 37.9,
+  "colors": [
+    "#252527"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "Black denim shorts with a clean hem, high waist and subtle tonal stitching.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/danora-clean-hem-denim-shorts-black/front.webp",
+    "/products/danora-clean-hem-denim-shorts-black/back.webp",
+    "/products/danora-clean-hem-denim-shorts-black/left.webp",
+    "/products/danora-clean-hem-denim-shorts-black/right.webp"
+  ],
+  "stock": 508,
+  "unitCostUsd": 12.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809295478521",
+  "sourceColor": "Black"
 }
 ];
 
@@ -29672,6 +30041,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "aleria-draped-cold-shoulder-midi-dress-ochre",
+  "andria-pin-dot-halter-mini-dress-black",
+  "celoria-pleated-floral-maxi-dress-blue-sage",
+  "serenne-high-neck-rib-knit-mini-dress-ivory",
+  "mariselle-ornamental-kaftan-maxi-dress-white-blue",
+  "verelle-keyhole-halter-maxi-dress-charcoal",
+  "celoria-pleated-floral-maxi-dress-blush-mauve",
+  "celoria-pleated-floral-maxi-dress-lavender-mint",
+  "celoria-pleated-floral-maxi-dress-chartreuse-pink",
+  "danora-clean-hem-denim-shorts-black",
+
   "mariselle-ornamental-kaftan-maxi-dress-camel",
   "verelle-keyhole-halter-maxi-dress-butter-yellow",
   "seravelle-open-back-cowl-maxi-dress-black",

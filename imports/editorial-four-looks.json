@@ -2,43 +2,43 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
-      "slug": "mariselle-ornamental-kaftan-maxi-dress-camel",
-      "name": "Mariselle Ornamental Kaftan Maxi Dress — Camel",
-      "image": "/products/mariselle-ornamental-kaftan-maxi-dress-camel/front.webp",
+      "slug": "aleria-draped-cold-shoulder-midi-dress-ochre",
+      "name": "Aleria Draped Cold-Shoulder Midi Dress — Ochre",
+      "image": "/products/aleria-draped-cold-shoulder-midi-dress-ochre/front.webp",
+      "eyebrow": "NEW ARRIVAL",
+      "copy": "A fitted ochre midi dress with a draped high neckline and cutouts at the shoulders.",
+      "category": "Dresses",
+      "arrivalRank": 1096,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "andria-pin-dot-halter-mini-dress-black",
+      "name": "Andria Pin-Dot Halter Mini Dress — Black",
+      "image": "/products/andria-pin-dot-halter-mini-dress-black/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A flared black mini dress with a gathered halter neckline and small ivory dots.",
+      "category": "Dresses",
+      "arrivalRank": 1095,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "celoria-pleated-floral-maxi-dress-blue-sage",
+      "name": "Celoria Pleated Floral Maxi Dress — Blue and Sage",
+      "image": "/products/celoria-pleated-floral-maxi-dress-blue-sage/front.webp",
       "eyebrow": "THE PRINT EDIT",
-      "copy": "A V-neck maxi dress with loose sleeves, a defined waist and ornamental print panels.",
+      "copy": "A square-neck floral maxi dress with wide straps, a defined waist and a softly pleated skirt.",
       "category": "Dresses",
-      "arrivalRank": 1086,
+      "arrivalRank": 1094,
       "classification": "verified-model"
     },
     {
-      "slug": "verelle-keyhole-halter-maxi-dress-butter-yellow",
-      "name": "Verelle Keyhole Halter Maxi Dress — Butter Yellow",
-      "image": "/products/verelle-keyhole-halter-maxi-dress-butter-yellow/front.webp",
-      "eyebrow": "THE SOFT STATEMENT",
-      "copy": "A floor-length halter dress with a long front keyhole, gathered twist waist and side cutouts.",
+      "slug": "serenne-high-neck-rib-knit-mini-dress-ivory",
+      "name": "Serenne High-Neck Rib-Knit Mini Dress — Ivory",
+      "image": "/products/serenne-high-neck-rib-knit-mini-dress-ivory/front.webp",
+      "eyebrow": "SAN DIEGO EDIT",
+      "copy": "A fitted ivory rib-knit mini dress with a high neckline, long sleeves and a straight hem.",
       "category": "Dresses",
-      "arrivalRank": 1085,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "seravelle-open-back-cowl-maxi-dress-black",
-      "name": "Seravelle Open-Back Cowl Maxi Dress — Black",
-      "image": "/products/seravelle-open-back-cowl-maxi-dress-black/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A sleeveless black column dress with a high neckline and draped open back.",
-      "category": "Dresses",
-      "arrivalRank": 1084,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "beloria-swirl-print-maxi-dress-ink-sweep",
-      "name": "Beloria Swirl Print Maxi Dress — Ink Sweep",
-      "image": "/products/beloria-swirl-print-maxi-dress-ink-sweep/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A sleeveless maxi dress patterned with sweeping black and gray brushstrokes against a white ground.",
-      "category": "Dresses",
-      "arrivalRank": 1083,
+      "arrivalRank": 1093,
       "classification": "verified-model"
     }
   ]

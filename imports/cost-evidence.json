@@ -1,6 +1,10 @@
 {
  "generatedBy": "scripts/build-cost-evidence.mjs",
  "products": {
+  "aleria-draped-cold-shoulder-midi-dress-ochre": {
+   "landedCostUsd": 22.57,
+   "source": "catalog-20261123-batch27-bindings.json"
+  },
   "alessa-milky-halter-midi-dress": {
    "landedCostUsd": 24.44,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
@@ -80,6 +84,10 @@
   "anais-trousers": {
    "landedCostUsd": 48.67,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "andria-pin-dot-halter-mini-dress-black": {
+   "landedCostUsd": 11.48,
+   "source": "catalog-20261123-batch27-bindings.json"
   },
   "apricot-crochet-fringe-dress": {
    "landedCostUsd": 44.67,
@@ -417,6 +425,22 @@
    "landedCostUsd": 32.1,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
   },
+  "celoria-pleated-floral-maxi-dress-blue-sage": {
+   "landedCostUsd": 26.88,
+   "source": "catalog-20261123-batch27-bindings.json"
+  },
+  "celoria-pleated-floral-maxi-dress-blush-mauve": {
+   "landedCostUsd": 26.88,
+   "source": "catalog-20261123-batch27-bindings.json"
+  },
+  "celoria-pleated-floral-maxi-dress-chartreuse-pink": {
+   "landedCostUsd": 26.88,
+   "source": "catalog-20261123-batch27-bindings.json"
+  },
+  "celoria-pleated-floral-maxi-dress-lavender-mint": {
+   "landedCostUsd": 26.88,
+   "source": "catalog-20261123-batch27-bindings.json"
+  },
   "cerelia-lace-corset-mini-dress-black": {
    "landedCostUsd": 40.99,
    "source": "catalog-20261123-batch01-bindings.json"
@@ -564,6 +588,10 @@
   "danika-black-halter-midi-dress": {
    "landedCostUsd": 24.44,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "danora-clean-hem-denim-shorts-black": {
+   "landedCostUsd": 12.54,
+   "source": "catalog-20261123-batch27-bindings.json"
   },
   "danora-distressed-denim-cutoffs-light-wash": {
    "landedCostUsd": 27.08,
@@ -1288,6 +1316,10 @@
   "mariselle-ornamental-kaftan-maxi-dress-camel": {
    "landedCostUsd": 24.96,
    "source": "catalog-20261123-batch26-bindings.json"
+  },
+  "mariselle-ornamental-kaftan-maxi-dress-white-blue": {
+   "landedCostUsd": 24.96,
+   "source": "catalog-20261123-batch27-bindings.json"
   },
   "marisol-striped-wide-leg-jumpsuit-light-blue": {
    "landedCostUsd": 22.62,
@@ -2101,6 +2133,10 @@
    "landedCostUsd": 35.98,
    "source": "catalog-20261123-batch18-bindings.json"
   },
+  "serenne-high-neck-rib-knit-mini-dress-ivory": {
+   "landedCostUsd": 35.98,
+   "source": "catalog-20261123-batch27-bindings.json"
+  },
   "sienna-chevron-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -2328,6 +2364,10 @@
   "verelle-keyhole-halter-maxi-dress-butter-yellow": {
    "landedCostUsd": 25.75,
    "source": "catalog-20261123-batch26-bindings.json"
+  },
+  "verelle-keyhole-halter-maxi-dress-charcoal": {
+   "landedCostUsd": 25.75,
+   "source": "catalog-20261123-batch27-bindings.json"
   },
   "verelle-keyhole-halter-maxi-dress-olive": {
    "landedCostUsd": 25.75,
