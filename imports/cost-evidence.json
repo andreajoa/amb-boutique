@@ -897,6 +897,18 @@
    "landedCostUsd": 11.32,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "lisette-textured-button-front-cardigan-crimson-mix": {
+   "landedCostUsd": 33.91,
+   "source": "catalog-20261123-batch12-bindings.json"
+  },
+  "lisette-textured-cardigan-and-skirt-set-crimson-mix": {
+   "landedCostUsd": 51.71,
+   "source": "catalog-20261123-batch12-bindings.json"
+  },
+  "lisette-textured-knit-pencil-skirt-crimson-mix": {
+   "landedCostUsd": 26.91,
+   "source": "catalog-20261123-batch12-bindings.json"
+  },
   "loretta-cold-shoulder-midi-dress-burnt-orange": {
    "landedCostUsd": 22.51,
    "source": "catalog-20261123-batch03-bindings.json"
@@ -1453,6 +1465,10 @@
    "landedCostUsd": 74.58,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
   },
+  "positano-shoulder-bag-cognac": {
+   "landedCostUsd": 74.58,
+   "source": "catalog-20261123-batch12-bindings.json"
+  },
   "prado-vneck-print-midi-dress": {
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -1536,6 +1552,10 @@
   "rovelle-turtleneck-sweater-midi-dress-cream": {
    "landedCostUsd": 30.93,
    "source": "catalog-20261123-batch05-bindings.json"
+  },
+  "rovelle-turtleneck-sweater-midi-dress-dark-gray": {
+   "landedCostUsd": 30.93,
+   "source": "catalog-20261123-batch12-bindings.json"
   },
   "rovelle-turtleneck-sweater-midi-dress-dark-green": {
    "landedCostUsd": 30.93,
@@ -1789,6 +1809,10 @@
    "landedCostUsd": 33.12,
    "source": "catalog-20261123-batch02-bindings.json"
   },
+  "viana-button-fly-denim-maxi-skirt-light-wash": {
+   "landedCostUsd": 25.38,
+   "source": "catalog-20261123-batch12-bindings.json"
+  },
   "vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19": {
    "landedCostUsd": 27.81,
    "source": "catalog-20261026-new-products-bindings.json"
@@ -1913,9 +1937,25 @@
    "landedCostUsd": 24.76,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
   },
+  "zelisse-chevron-knit-mini-dress-black": {
+   "landedCostUsd": 20.85,
+   "source": "catalog-20261123-batch12-bindings.json"
+  },
+  "zelisse-chevron-knit-mini-dress-indigo": {
+   "landedCostUsd": 20.85,
+   "source": "catalog-20261123-batch12-bindings.json"
+  },
+  "zelisse-chevron-knit-mini-dress-mustard": {
+   "landedCostUsd": 20.85,
+   "source": "catalog-20261123-batch12-bindings.json"
+  },
   "zelisse-chevron-knit-mini-dress-orange": {
    "landedCostUsd": 20.85,
    "source": "catalog-20261123-batch05-bindings.json"
+  },
+  "zelisse-chevron-knit-mini-dress-oxblood": {
+   "landedCostUsd": 20.85,
+   "source": "catalog-20261123-batch12-bindings.json"
   },
   "zelisse-chevron-knit-mini-dress-pink": {
    "landedCostUsd": 20.85,

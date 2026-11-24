@@ -1,0 +1,296 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "viana-button-fly-denim-maxi-skirt-light-wash",
+      "sourceProductId": "1005012774178610",
+      "sourceColor": "Light  Blue",
+      "supplierId": "cmsy4l66a000j04lc9nozj2cq",
+      "sourceSkuIdsBySize": {
+        "XS": "12000059283589800",
+        "S": "12000059283589801"
+      },
+      "landedCostUsdBySize": {
+        "XS": 25.08,
+        "S": 25.38
+      },
+      "stockBySize": {
+        "XS": 54,
+        "S": 53
+      },
+      "retailPriceUsd": 76.9,
+      "verifiedAtUtc": "2026-11-23T21:34:54.445Z"
+    },
+    {
+      "slug": "positano-shoulder-bag-cognac",
+      "sourceProductId": "3256811362986360",
+      "sourceColor": "Brown",
+      "supplierId": "cmuw4ly7r00mg04l25904gd2o",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000055888299871"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 74.58
+      },
+      "stockBySize": {
+        "One Size": 10
+      },
+      "retailPriceUsd": 223.9,
+      "verifiedAtUtc": "2026-11-24T00:06:27.993Z"
+    },
+    {
+      "slug": "lisette-textured-cardigan-and-skirt-set-crimson-mix",
+      "sourceProductId": "3256812840048482",
+      "sourceColor": "Suit",
+      "supplierId": "cmwtptpjc01xj0jlnj7eq0tlh",
+      "sourceSkuIdsBySize": {
+        "L": "12000060408081101",
+        "S": "12000060408081100",
+        "M": "12000060408081099"
+      },
+      "landedCostUsdBySize": {
+        "L": 51.71,
+        "S": 51.71,
+        "M": 51.71
+      },
+      "stockBySize": {
+        "L": 999,
+        "S": 999,
+        "M": 998
+      },
+      "retailPriceUsd": 155.9,
+      "verifiedAtUtc": "2026-11-23T21:09:55.466Z"
+    },
+    {
+      "slug": "rovelle-turtleneck-sweater-midi-dress-dark-gray",
+      "sourceProductId": "3256806046586241",
+      "sourceColor": "Dark Gray",
+      "supplierId": "cmwtpjnis01m90jln35px5c9x",
+      "sourceSkuIdsBySize": {
+        "XL": "12000036392545464",
+        "XXL": "12000036392545465",
+        "M": "12000036392545462",
+        "L": "12000036392545463",
+        "XS（old）": "12000036392545460",
+        "S": "12000036392545461"
+      },
+      "landedCostUsdBySize": {
+        "XL": 30.93,
+        "XXL": 30.93,
+        "M": 30.93,
+        "L": 30.93,
+        "XS（old）": 30.93,
+        "S": 30.93
+      },
+      "stockBySize": {
+        "XL": 95,
+        "XXL": 92,
+        "M": 97,
+        "L": 95,
+        "XS（old）": 100,
+        "S": 96
+      },
+      "retailPriceUsd": 92.9,
+      "verifiedAtUtc": "2026-11-23T21:07:41.706Z"
+    },
+    {
+      "slug": "zelisse-chevron-knit-mini-dress-black",
+      "sourceProductId": "3256804168483021",
+      "sourceColor": "BLACK",
+      "supplierId": "cmwto8n0b00cg0jln92wqebok",
+      "sourceSkuIdsBySize": {
+        "M": "12000028876834919",
+        "S": "12000028876834918",
+        "XXXL": "12000028876834923",
+        "XXL": "12000028876834922",
+        "XL": "12000028876834921",
+        "L": "12000028876834920",
+        "5XL": "12000028876834925",
+        "4XL": "12000028876834924"
+      },
+      "landedCostUsdBySize": {
+        "M": 20.85,
+        "S": 20.85,
+        "XXXL": 20.85,
+        "XXL": 20.85,
+        "XL": 20.85,
+        "L": 20.85,
+        "5XL": 20.85,
+        "4XL": 20.85
+      },
+      "stockBySize": {
+        "M": 911,
+        "S": 951,
+        "XXXL": 978,
+        "XXL": 975,
+        "XL": 953,
+        "L": 917,
+        "5XL": 997,
+        "4XL": 997
+      },
+      "retailPriceUsd": 62.9,
+      "verifiedAtUtc": "2026-11-23T21:07:19.858Z"
+    },
+    {
+      "slug": "lisette-textured-button-front-cardigan-crimson-mix",
+      "sourceProductId": "3256812840048482",
+      "sourceColor": "Only cardigan",
+      "supplierId": "cmwtptpjc01xj0jlnj7eq0tlh",
+      "sourceSkuIdsBySize": {
+        "S": "12000060062925939",
+        "M": "12000060062925940",
+        "L": "12000060062925941"
+      },
+      "landedCostUsdBySize": {
+        "S": 33.91,
+        "M": 33.91,
+        "L": 33.91
+      },
+      "stockBySize": {
+        "S": 998,
+        "M": 976,
+        "L": 999
+      },
+      "retailPriceUsd": 101.9,
+      "verifiedAtUtc": "2026-11-23T21:09:55.466Z"
+    },
+    {
+      "slug": "zelisse-chevron-knit-mini-dress-indigo",
+      "sourceProductId": "3256804168483021",
+      "sourceColor": "BLUE",
+      "supplierId": "cmwto8n0b00cg0jln92wqebok",
+      "sourceSkuIdsBySize": {
+        "M": "12000028876834943",
+        "S": "12000028876834942",
+        "XXXL": "12000028876834947",
+        "XXL": "12000028876834946",
+        "XL": "12000028876834945",
+        "L": "12000028876834944",
+        "5XL": "12000028876834949",
+        "4XL": "12000028876834948"
+      },
+      "landedCostUsdBySize": {
+        "M": 20.85,
+        "S": 20.85,
+        "XXXL": 20.85,
+        "XXL": 20.85,
+        "XL": 20.85,
+        "L": 20.85,
+        "5XL": 20.85,
+        "4XL": 20.85
+      },
+      "stockBySize": {
+        "M": 988,
+        "S": 1000,
+        "XXXL": 1005,
+        "XXL": 998,
+        "XL": 994,
+        "L": 990,
+        "5XL": 1006,
+        "4XL": 1004
+      },
+      "retailPriceUsd": 62.9,
+      "verifiedAtUtc": "2026-11-23T21:07:19.858Z"
+    },
+    {
+      "slug": "lisette-textured-knit-pencil-skirt-crimson-mix",
+      "sourceProductId": "3256812840048482",
+      "sourceColor": "Only skirt",
+      "supplierId": "cmwtptpjc01xj0jlnj7eq0tlh",
+      "sourceSkuIdsBySize": {
+        "S": "12000060062925942",
+        "M": "12000060062925943",
+        "L": "12000060062925944"
+      },
+      "landedCostUsdBySize": {
+        "S": 25.24,
+        "M": 26.91,
+        "L": 26.91
+      },
+      "stockBySize": {
+        "S": 998,
+        "M": 999,
+        "L": 999
+      },
+      "retailPriceUsd": 80.9,
+      "verifiedAtUtc": "2026-11-23T21:09:55.466Z"
+    },
+    {
+      "slug": "zelisse-chevron-knit-mini-dress-oxblood",
+      "sourceProductId": "3256804168483021",
+      "sourceColor": "RED",
+      "supplierId": "cmwto8n0b00cg0jln92wqebok",
+      "sourceSkuIdsBySize": {
+        "M": "12000028876834935",
+        "S": "12000028876834934",
+        "XXXL": "12000028876834939",
+        "XXL": "12000028876834938",
+        "XL": "12000028876834937",
+        "L": "12000028876834936",
+        "5XL": "12000028876834941",
+        "4XL": "12000028876834940"
+      },
+      "landedCostUsdBySize": {
+        "M": 20.85,
+        "S": 20.85,
+        "XXXL": 20.85,
+        "XXL": 20.85,
+        "XL": 20.85,
+        "L": 20.85,
+        "5XL": 20.85,
+        "4XL": 20.85
+      },
+      "stockBySize": {
+        "M": 991,
+        "S": 1000,
+        "XXXL": 1005,
+        "XXL": 999,
+        "XL": 1001,
+        "L": 993,
+        "5XL": 1007,
+        "4XL": 1006
+      },
+      "retailPriceUsd": 62.9,
+      "verifiedAtUtc": "2026-11-23T21:07:19.858Z"
+    },
+    {
+      "slug": "zelisse-chevron-knit-mini-dress-mustard",
+      "sourceProductId": "3256804168483021",
+      "sourceColor": "YELLOW",
+      "supplierId": "cmwto8n0b00cg0jln92wqebok",
+      "sourceSkuIdsBySize": {
+        "M": "12000028876834927",
+        "S": "12000028876834926",
+        "XXXL": "12000028876834931",
+        "XXL": "12000028876834930",
+        "XL": "12000028876834929",
+        "L": "12000028876834928",
+        "5XL": "12000028876834933",
+        "4XL": "12000028876834932"
+      },
+      "landedCostUsdBySize": {
+        "M": 20.85,
+        "S": 20.32,
+        "XXXL": 20.85,
+        "XXL": 20.85,
+        "XL": 20.85,
+        "L": 20.85,
+        "5XL": 20.85,
+        "4XL": 20.85
+      },
+      "stockBySize": {
+        "M": 998,
+        "S": 1001,
+        "XXXL": 1000,
+        "XXL": 1005,
+        "XL": 996,
+        "L": 993,
+        "5XL": 1008,
+        "4XL": 1009
+      },
+      "retailPriceUsd": 62.9,
+      "verifiedAtUtc": "2026-11-23T21:07:19.858Z"
+    }
+  ]
+}

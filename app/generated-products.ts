@@ -24282,6 +24282,377 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256808098729582",
   "sourceColor": "grey top"
+},
+{
+  "slug": "viana-button-fly-denim-maxi-skirt-light-wash",
+  "name": "Viana Button-Fly Denim Maxi Skirt — Light Wash",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 76.9,
+  "colors": [
+    "#8ba8c6"
+  ],
+  "colorNames": [
+    "Light Wash"
+  ],
+  "sizes": [
+    "XS",
+    "S"
+  ],
+  "description": "A high-waisted light-wash denim maxi skirt with a flared panelled silhouette, contrast stitching and an exposed button fly. This listing includes the skirt only.",
+  "materials": "See the product care label for material details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/viana-button-fly-denim-maxi-skirt-light-wash/front.webp",
+    "/products/viana-button-fly-denim-maxi-skirt-light-wash/back.webp",
+    "/products/viana-button-fly-denim-maxi-skirt-light-wash/left.webp",
+    "/products/viana-button-fly-denim-maxi-skirt-light-wash/right.webp"
+  ],
+  "stock": 107,
+  "unitCostUsd": 25.38,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005012774178610",
+  "sourceColor": "Light  Blue"
+},
+{
+  "slug": "positano-shoulder-bag-cognac",
+  "name": "Positano Shoulder Bag — Cognac",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 223.9,
+  "colors": [
+    "#a45b2e"
+  ],
+  "colorNames": [
+    "Cognac"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A cognac shoulder bag with a wide base, adjustable strap, side flap pockets and gold-tone front clasp. The open view shows the zippered interior compartment.",
+  "materials": "See the product care label for material details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/positano-shoulder-bag-cognac/front.webp",
+    "/products/positano-shoulder-bag-cognac/back.webp",
+    "/products/positano-shoulder-bag-cognac/left.webp",
+    "/products/positano-shoulder-bag-cognac/right.webp",
+    "/products/positano-shoulder-bag-cognac/inside.webp"
+  ],
+  "stock": 10,
+  "unitCostUsd": 74.58,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811362986360",
+  "sourceColor": "Brown"
+},
+{
+  "slug": "lisette-textured-cardigan-and-skirt-set-crimson-mix",
+  "name": "Lisette Textured Cardigan and Skirt Set — Crimson Mix",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 155.9,
+  "colors": [
+    "#996165"
+  ],
+  "colorNames": [
+    "Crimson Mix"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A two-piece textured knit set with a cropped button-front cardigan edged in crimson and a matching knee-length skirt. Both pieces are included.",
+  "materials": "See the product care label for material details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lisette-textured-cardigan-and-skirt-set-crimson-mix/front.webp",
+    "/products/lisette-textured-cardigan-and-skirt-set-crimson-mix/back.webp",
+    "/products/lisette-textured-cardigan-and-skirt-set-crimson-mix/left.webp",
+    "/products/lisette-textured-cardigan-and-skirt-set-crimson-mix/right.webp"
+  ],
+  "stock": 2996,
+  "unitCostUsd": 51.71,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812840048482",
+  "sourceColor": "Suit"
+},
+{
+  "slug": "rovelle-turtleneck-sweater-midi-dress-dark-gray",
+  "name": "Rovelle Turtleneck Sweater Midi Dress — Dark Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 92.9,
+  "colors": [
+    "#454547"
+  ],
+  "colorNames": [
+    "Dark Gray"
+  ],
+  "sizes": [
+    "XS（old）",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed knit midi dress with a folded turtleneck, dropped shoulders and ribbed cuffs.",
+  "materials": "See the product care label for material details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/rovelle-turtleneck-sweater-midi-dress-dark-gray/front.webp",
+    "/products/rovelle-turtleneck-sweater-midi-dress-dark-gray/back.webp",
+    "/products/rovelle-turtleneck-sweater-midi-dress-dark-gray/left.webp",
+    "/products/rovelle-turtleneck-sweater-midi-dress-dark-gray/right.webp"
+  ],
+  "stock": 575,
+  "unitCostUsd": 30.93,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806046586241",
+  "sourceColor": "Dark Gray"
+},
+{
+  "slug": "zelisse-chevron-knit-mini-dress-black",
+  "name": "Zelisse Chevron Knit Mini Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 62.9,
+  "colors": [
+    "#242424"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL",
+    "4XL",
+    "5XL"
+  ],
+  "description": "A fitted crew-neck sweater mini dress with long sleeves and a high-contrast chevron pattern.",
+  "materials": "See the product care label for material details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/zelisse-chevron-knit-mini-dress-black/front.webp",
+    "/products/zelisse-chevron-knit-mini-dress-black/back.webp",
+    "/products/zelisse-chevron-knit-mini-dress-black/left.webp",
+    "/products/zelisse-chevron-knit-mini-dress-black/right.webp"
+  ],
+  "stock": 7679,
+  "unitCostUsd": 20.85,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256804168483021",
+  "sourceColor": "BLACK"
+},
+{
+  "slug": "lisette-textured-button-front-cardigan-crimson-mix",
+  "name": "Lisette Textured Button-Front Cardigan — Crimson Mix",
+  "category": "Knitwear",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 101.9,
+  "colors": [
+    "#996165"
+  ],
+  "colorNames": [
+    "Crimson Mix"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A cropped textured knit cardigan with crimson trim, long sleeves and gold-tone buttons. This listing includes the cardigan only.",
+  "materials": "See the product care label for material details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lisette-textured-button-front-cardigan-crimson-mix/front.webp",
+    "/products/lisette-textured-button-front-cardigan-crimson-mix/back.webp",
+    "/products/lisette-textured-button-front-cardigan-crimson-mix/left.webp",
+    "/products/lisette-textured-button-front-cardigan-crimson-mix/right.webp"
+  ],
+  "stock": 2973,
+  "unitCostUsd": 33.91,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812840048482",
+  "sourceColor": "Only cardigan"
+},
+{
+  "slug": "zelisse-chevron-knit-mini-dress-indigo",
+  "name": "Zelisse Chevron Knit Mini Dress — Indigo",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 62.9,
+  "colors": [
+    "#29206a"
+  ],
+  "colorNames": [
+    "Indigo"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL",
+    "4XL",
+    "5XL"
+  ],
+  "description": "A fitted crew-neck sweater mini dress with long sleeves and a high-contrast chevron pattern.",
+  "materials": "See the product care label for material details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/zelisse-chevron-knit-mini-dress-indigo/front.webp",
+    "/products/zelisse-chevron-knit-mini-dress-indigo/back.webp",
+    "/products/zelisse-chevron-knit-mini-dress-indigo/left.webp",
+    "/products/zelisse-chevron-knit-mini-dress-indigo/right.webp"
+  ],
+  "stock": 7985,
+  "unitCostUsd": 20.85,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256804168483021",
+  "sourceColor": "BLUE"
+},
+{
+  "slug": "lisette-textured-knit-pencil-skirt-crimson-mix",
+  "name": "Lisette Textured Knit Pencil Skirt — Crimson Mix",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 80.9,
+  "colors": [
+    "#996165"
+  ],
+  "colorNames": [
+    "Crimson Mix"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A knee-length pencil skirt in a textured knit with gray, ivory and red flecks. This listing includes the skirt only.",
+  "materials": "See the product care label for material details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lisette-textured-knit-pencil-skirt-crimson-mix/front.webp",
+    "/products/lisette-textured-knit-pencil-skirt-crimson-mix/back.webp",
+    "/products/lisette-textured-knit-pencil-skirt-crimson-mix/left.webp",
+    "/products/lisette-textured-knit-pencil-skirt-crimson-mix/right.webp"
+  ],
+  "stock": 2996,
+  "unitCostUsd": 26.91,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812840048482",
+  "sourceColor": "Only skirt"
+},
+{
+  "slug": "zelisse-chevron-knit-mini-dress-oxblood",
+  "name": "Zelisse Chevron Knit Mini Dress — Oxblood",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 62.9,
+  "colors": [
+    "#721f24"
+  ],
+  "colorNames": [
+    "Oxblood"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL",
+    "4XL",
+    "5XL"
+  ],
+  "description": "A fitted crew-neck sweater mini dress with long sleeves and a high-contrast chevron pattern.",
+  "materials": "See the product care label for material details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/zelisse-chevron-knit-mini-dress-oxblood/front.webp",
+    "/products/zelisse-chevron-knit-mini-dress-oxblood/back.webp",
+    "/products/zelisse-chevron-knit-mini-dress-oxblood/left.webp",
+    "/products/zelisse-chevron-knit-mini-dress-oxblood/right.webp"
+  ],
+  "stock": 8002,
+  "unitCostUsd": 20.85,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256804168483021",
+  "sourceColor": "RED"
+},
+{
+  "slug": "zelisse-chevron-knit-mini-dress-mustard",
+  "name": "Zelisse Chevron Knit Mini Dress — Mustard",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 62.9,
+  "colors": [
+    "#a56620"
+  ],
+  "colorNames": [
+    "Mustard"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL",
+    "4XL",
+    "5XL"
+  ],
+  "description": "A fitted crew-neck sweater mini dress with long sleeves and a high-contrast chevron pattern.",
+  "materials": "See the product care label for material details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/zelisse-chevron-knit-mini-dress-mustard/front.webp",
+    "/products/zelisse-chevron-knit-mini-dress-mustard/back.webp",
+    "/products/zelisse-chevron-knit-mini-dress-mustard/left.webp",
+    "/products/zelisse-chevron-knit-mini-dress-mustard/right.webp"
+  ],
+  "stock": 8010,
+  "unitCostUsd": 20.85,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256804168483021",
+  "sourceColor": "YELLOW"
 }
 ];
 
@@ -24291,6 +24662,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "viana-button-fly-denim-maxi-skirt-light-wash",
+  "positano-shoulder-bag-cognac",
+  "lisette-textured-cardigan-and-skirt-set-crimson-mix",
+  "rovelle-turtleneck-sweater-midi-dress-dark-gray",
+  "zelisse-chevron-knit-mini-dress-black",
+  "lisette-textured-button-front-cardigan-crimson-mix",
+  "zelisse-chevron-knit-mini-dress-indigo",
+  "lisette-textured-knit-pencil-skirt-crimson-mix",
+  "zelisse-chevron-knit-mini-dress-oxblood",
+  "zelisse-chevron-knit-mini-dress-mustard",
+
   "marielle-cardigan-and-skirt-set-heather-gray",
   "marielle-button-front-knit-cardigan-espresso",
   "marielle-a-line-knit-mini-skirt-wine",

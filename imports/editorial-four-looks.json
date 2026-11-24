@@ -2,6 +2,16 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
+      "slug": "viana-button-fly-denim-maxi-skirt-light-wash",
+      "name": "Viana Button-Fly Denim Maxi Skirt — Light Wash",
+      "image": "/products/viana-button-fly-denim-maxi-skirt-light-wash/front.webp",
+      "eyebrow": "NEW ARRIVAL",
+      "copy": "A high-waisted light-wash denim maxi skirt with a flared panelled silhouette, contrast stitching and an exposed button fly.",
+      "category": "Skirts",
+      "arrivalRank": 946,
+      "classification": "verified-model"
+    },
+    {
       "slug": "aster-eyelet-two-piece-set-beige",
       "name": "Aster Eyelet Two-Piece Set — Beige",
       "image": "/products/aster-eyelet-two-piece-set-beige/front.webp",
@@ -29,16 +39,6 @@
       "copy": "An expressive abstract print cut with soft drape and tailored cuffs for polished day-to-evening dressing.",
       "category": "Tops",
       "arrivalRank": 810,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "pavelle-polka-dot-trouser-set-ivory-and-tan",
-      "name": "Pavelle Polka Dot Trouser Set — Ivory and Tan",
-      "image": "/products/pavelle-polka-dot-trouser-set-ivory-and-tan/front.webp",
-      "eyebrow": "EFFORTLESS POLISH",
-      "copy": "An asymmetric one-shoulder top paired with fluid wide-leg trousers in warm ivory and sand polka dots.",
-      "category": "Sets",
-      "arrivalRank": 801,
       "classification": "verified-model"
     }
   ]

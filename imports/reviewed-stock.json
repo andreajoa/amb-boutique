@@ -2048,5 +2048,95 @@
    "L": 1000,
    "M": 1000
   }
+ },
+ "viana-button-fly-denim-maxi-skirt-light-wash": {
+  "stockBySize": {
+   "XS": 54,
+   "S": 53
+  }
+ },
+ "positano-shoulder-bag-cognac": {
+  "stockBySize": {
+   "One Size": 10
+  }
+ },
+ "lisette-textured-cardigan-and-skirt-set-crimson-mix": {
+  "stockBySize": {
+   "L": 999,
+   "S": 999,
+   "M": 998
+  }
+ },
+ "rovelle-turtleneck-sweater-midi-dress-dark-gray": {
+  "stockBySize": {
+   "XL": 95,
+   "XXL": 92,
+   "M": 97,
+   "L": 95,
+   "XS（old）": 100,
+   "S": 96
+  }
+ },
+ "zelisse-chevron-knit-mini-dress-black": {
+  "stockBySize": {
+   "M": 911,
+   "S": 951,
+   "XXXL": 978,
+   "XXL": 975,
+   "XL": 953,
+   "L": 917,
+   "5XL": 997,
+   "4XL": 997
+  }
+ },
+ "lisette-textured-button-front-cardigan-crimson-mix": {
+  "stockBySize": {
+   "S": 998,
+   "M": 976,
+   "L": 999
+  }
+ },
+ "zelisse-chevron-knit-mini-dress-indigo": {
+  "stockBySize": {
+   "M": 988,
+   "S": 1000,
+   "XXXL": 1005,
+   "XXL": 998,
+   "XL": 994,
+   "L": 990,
+   "5XL": 1006,
+   "4XL": 1004
+  }
+ },
+ "lisette-textured-knit-pencil-skirt-crimson-mix": {
+  "stockBySize": {
+   "S": 998,
+   "M": 999,
+   "L": 999
+  }
+ },
+ "zelisse-chevron-knit-mini-dress-oxblood": {
+  "stockBySize": {
+   "M": 991,
+   "S": 1000,
+   "XXXL": 1005,
+   "XXL": 999,
+   "XL": 1001,
+   "L": 993,
+   "5XL": 1007,
+   "4XL": 1006
+  }
+ },
+ "zelisse-chevron-knit-mini-dress-mustard": {
+  "stockBySize": {
+   "M": 998,
+   "S": 1001,
+   "XXXL": 1000,
+   "XXL": 1005,
+   "XL": 996,
+   "L": 993,
+   "5XL": 1008,
+   "4XL": 1009
+  }
  }
 }
