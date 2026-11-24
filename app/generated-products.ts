@@ -31401,6 +31401,570 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256811464084073",
   "sourceColor": "Pink"
+},
+{
+  "slug": "solvaya-ribbed-halter-crop-top-white",
+  "name": "Solvaya Ribbed Halter Crop Top — White",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 31.9,
+  "colors": [
+    "#F3F2ED"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted ribbed crop top with a scoop front, wide halter straps and an open back.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solvaya-ribbed-halter-crop-top-white/front.webp",
+    "/products/solvaya-ribbed-halter-crop-top-white/back.webp",
+    "/products/solvaya-ribbed-halter-crop-top-white/left.webp",
+    "/products/solvaya-ribbed-halter-crop-top-white/right.webp"
+  ],
+  "stock": 60,
+  "unitCostUsd": 10.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806808170055",
+  "sourceColor": "White"
+},
+{
+  "slug": "annessa-lapel-tie-waist-romper-white",
+  "name": "Annessa Lapel Tie-Waist Romper — White",
+  "category": "Playsuits",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 96.9,
+  "colors": [
+    "#F1EFE8"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A sleeveless white romper with a notched lapel, a defined waist and pleated shorts.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/annessa-lapel-tie-waist-romper-white/front.webp",
+    "/products/annessa-lapel-tie-waist-romper-white/back.webp",
+    "/products/annessa-lapel-tie-waist-romper-white/left.webp",
+    "/products/annessa-lapel-tie-waist-romper-white/right.webp"
+  ],
+  "stock": 499987,
+  "unitCostUsd": 32.1,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812102239928",
+  "sourceColor": "white"
+},
+{
+  "slug": "savelle-ribbed-v-neck-tank-apricot",
+  "name": "Savelle Ribbed V-Neck Tank — Apricot",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 35.9,
+  "colors": [
+    "#BEA88B"
+  ],
+  "colorNames": [
+    "Apricot"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A sleeveless rib-knit tank with a V-neckline and a gently fitted silhouette.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/savelle-ribbed-v-neck-tank-apricot/front.webp",
+    "/products/savelle-ribbed-v-neck-tank-apricot/back.webp",
+    "/products/savelle-ribbed-v-neck-tank-apricot/left.webp",
+    "/products/savelle-ribbed-v-neck-tank-apricot/right.webp"
+  ],
+  "stock": 86,
+  "unitCostUsd": 11.74,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812144787790",
+  "sourceColor": "apricot color"
+},
+{
+  "slug": "yvaine-textured-high-neck-gown-sage",
+  "name": "Yvaine Textured High-Neck Gown — Sage",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 514.9,
+  "colors": [
+    "#8D9B87"
+  ],
+  "colorNames": [
+    "Sage"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "14 W",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length sage gown with a high neckline and diagonal textured detailing through the bodice.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/yvaine-textured-high-neck-gown-sage/front.webp",
+    "/products/yvaine-textured-high-neck-gown-sage/back.webp",
+    "/products/yvaine-textured-high-neck-gown-sage/left.webp",
+    "/products/yvaine-textured-high-neck-gown-sage/right.webp"
+  ],
+  "stock": 688,
+  "unitCostUsd": 171.49,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811940052222",
+  "sourceColor": "Picture color"
+},
+{
+  "slug": "marivelle-short-sleeve-lace-gown-powder-blue",
+  "name": "Marivelle Short-Sleeve Lace Gown — Powder Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 323.9,
+  "colors": [
+    "#9CAEC0"
+  ],
+  "colorNames": [
+    "Powder Blue"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marivelle-short-sleeve-lace-gown-powder-blue/front.webp",
+    "/products/marivelle-short-sleeve-lace-gown-powder-blue/back.webp",
+    "/products/marivelle-short-sleeve-lace-gown-powder-blue/left.webp",
+    "/products/marivelle-short-sleeve-lace-gown-powder-blue/right.webp"
+  ],
+  "stock": 2595,
+  "unitCostUsd": 107.96,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811609011827",
+  "sourceColor": "Photo Color1"
+},
+{
+  "slug": "evelisse-pleated-halter-gown-black",
+  "name": "Evelisse Pleated Halter Gown — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 311.9,
+  "colors": [
+    "#202022"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "14 W",
+    "US2- UK6- EU32",
+    "US4- UK8- EU34",
+    "US6- UK10- EU36",
+    "US8- UK12- EU38",
+    "US10- UK14- EU40",
+    "US12- UK16- EU42",
+    "US14- UK18- EU44",
+    "US16- UK20- EU46",
+    "US16W- UK20- EU46",
+    "US18W- UK22- EU48",
+    "US20W- UK24- EU50",
+    "US22W- UK26- EU52",
+    "US24W- UK28- EU54",
+    "US26W-UK30-EU56"
+  ],
+  "description": "A floor-length halter gown with a plunging V-neck, a gathered waist and a softly pleated skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/evelisse-pleated-halter-gown-black/front.webp",
+    "/products/evelisse-pleated-halter-gown-black/back.webp",
+    "/products/evelisse-pleated-halter-gown-black/left.webp",
+    "/products/evelisse-pleated-halter-gown-black/right.webp"
+  ],
+  "stock": 14984,
+  "unitCostUsd": 103.75,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812130790979",
+  "sourceColor": "Black"
+},
+{
+  "slug": "marivelle-short-sleeve-lace-gown-pale-green",
+  "name": "Marivelle Short-Sleeve Lace Gown — Pale Green",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 323.9,
+  "colors": [
+    "#9BA78D"
+  ],
+  "colorNames": [
+    "Pale Green"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marivelle-short-sleeve-lace-gown-pale-green/front.webp",
+    "/products/marivelle-short-sleeve-lace-gown-pale-green/back.webp",
+    "/products/marivelle-short-sleeve-lace-gown-pale-green/left.webp",
+    "/products/marivelle-short-sleeve-lace-gown-pale-green/right.webp"
+  ],
+  "stock": 2599,
+  "unitCostUsd": 107.96,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811609011827",
+  "sourceColor": "Photo Color2"
+},
+{
+  "slug": "marivelle-short-sleeve-lace-gown-black",
+  "name": "Marivelle Short-Sleeve Lace Gown — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 323.9,
+  "colors": [
+    "#222124"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marivelle-short-sleeve-lace-gown-black/front.webp",
+    "/products/marivelle-short-sleeve-lace-gown-black/back.webp",
+    "/products/marivelle-short-sleeve-lace-gown-black/left.webp",
+    "/products/marivelle-short-sleeve-lace-gown-black/right.webp"
+  ],
+  "stock": 2595,
+  "unitCostUsd": 107.96,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811609011827",
+  "sourceColor": "Photo Color3"
+},
+{
+  "slug": "marivelle-short-sleeve-lace-gown-navy",
+  "name": "Marivelle Short-Sleeve Lace Gown — Navy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 323.9,
+  "colors": [
+    "#30374E"
+  ],
+  "colorNames": [
+    "Navy"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marivelle-short-sleeve-lace-gown-navy/front.webp",
+    "/products/marivelle-short-sleeve-lace-gown-navy/back.webp",
+    "/products/marivelle-short-sleeve-lace-gown-navy/left.webp",
+    "/products/marivelle-short-sleeve-lace-gown-navy/right.webp"
+  ],
+  "stock": 2598,
+  "unitCostUsd": 107.96,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811609011827",
+  "sourceColor": "Photo Color4"
+},
+{
+  "slug": "evelisse-pleated-halter-gown-bronze-brown",
+  "name": "Evelisse Pleated Halter Gown — Bronze Brown",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 311.9,
+  "colors": [
+    "#824D2D"
+  ],
+  "colorNames": [
+    "Bronze Brown"
+  ],
+  "sizes": [
+    "14 W",
+    "US2- UK6- EU32",
+    "US4- UK8- EU34",
+    "US6- UK10- EU36",
+    "US8- UK12- EU38",
+    "US10- UK14- EU40",
+    "US12- UK16- EU42",
+    "US14- UK18- EU44",
+    "US16- UK20- EU46",
+    "US16W- UK20- EU46",
+    "US18W- UK22- EU48",
+    "US20W- UK24- EU50",
+    "US22W- UK26- EU52",
+    "US24W- UK28- EU54",
+    "US26W-UK30-EU56"
+  ],
+  "description": "A floor-length halter gown with a plunging V-neck, a gathered waist and a softly pleated skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/evelisse-pleated-halter-gown-bronze-brown/front.webp",
+    "/products/evelisse-pleated-halter-gown-bronze-brown/back.webp",
+    "/products/evelisse-pleated-halter-gown-bronze-brown/left.webp",
+    "/products/evelisse-pleated-halter-gown-bronze-brown/right.webp"
+  ],
+  "stock": 14983,
+  "unitCostUsd": 103.75,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812130790979",
+  "sourceColor": "Brown"
+},
+{
+  "slug": "evelisse-pleated-halter-gown-burgundy",
+  "name": "Evelisse Pleated Halter Gown — Burgundy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 311.9,
+  "colors": [
+    "#681C2A"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "14 W",
+    "US2- UK6- EU32",
+    "US4- UK8- EU34",
+    "US6- UK10- EU36",
+    "US8- UK12- EU38",
+    "US10- UK14- EU40",
+    "US12- UK16- EU42",
+    "US14- UK18- EU44",
+    "US16- UK20- EU46",
+    "US16W- UK20- EU46",
+    "US18W- UK22- EU48",
+    "US20W- UK24- EU50",
+    "US22W- UK26- EU52",
+    "US24W- UK28- EU54",
+    "US26W-UK30-EU56"
+  ],
+  "description": "A floor-length halter gown with a plunging V-neck, a gathered waist and a softly pleated skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/evelisse-pleated-halter-gown-burgundy/front.webp",
+    "/products/evelisse-pleated-halter-gown-burgundy/back.webp",
+    "/products/evelisse-pleated-halter-gown-burgundy/left.webp",
+    "/products/evelisse-pleated-halter-gown-burgundy/right.webp"
+  ],
+  "stock": 14979,
+  "unitCostUsd": 103.75,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812130790979",
+  "sourceColor": "Burgundy"
+},
+{
+  "slug": "evelisse-pleated-halter-gown-emerald",
+  "name": "Evelisse Pleated Halter Gown — Emerald",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 311.9,
+  "colors": [
+    "#1F533D"
+  ],
+  "colorNames": [
+    "Emerald"
+  ],
+  "sizes": [
+    "14 W",
+    "US2- UK6- EU32",
+    "US4- UK8- EU34",
+    "US6- UK10- EU36",
+    "US8- UK12- EU38",
+    "US10- UK14- EU40",
+    "US12- UK16- EU42",
+    "US14- UK18- EU44",
+    "US16- UK20- EU46",
+    "US16W- UK20- EU46",
+    "US18W- UK22- EU48",
+    "US20W- UK24- EU50",
+    "US22W- UK26- EU52",
+    "US24W- UK28- EU54",
+    "US26W-UK30-EU56"
+  ],
+  "description": "A floor-length halter gown with a plunging V-neck, a gathered waist and a softly pleated skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/evelisse-pleated-halter-gown-emerald/front.webp",
+    "/products/evelisse-pleated-halter-gown-emerald/back.webp",
+    "/products/evelisse-pleated-halter-gown-emerald/left.webp",
+    "/products/evelisse-pleated-halter-gown-emerald/right.webp"
+  ],
+  "stock": 14983,
+  "unitCostUsd": 103.75,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812130790979",
+  "sourceColor": "Green"
+},
+{
+  "slug": "velisse-woven-slingback-pump-cream",
+  "name": "Velisse Woven Slingback Pump — Cream",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 100.9,
+  "colors": [
+    "#E7DDCC"
+  ],
+  "colorNames": [
+    "Cream"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42"
+  ],
+  "subcategory": "Heels",
+  "description": "A cream pointed-toe pump with a woven openwork upper, slim slingback strap and slender heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/velisse-woven-slingback-pump-cream/front.webp",
+    "/products/velisse-woven-slingback-pump-cream/back.webp",
+    "/products/velisse-woven-slingback-pump-cream/left.webp",
+    "/products/velisse-woven-slingback-pump-cream/right.webp"
+  ],
+  "stock": 689,
+  "unitCostUsd": 33.56,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811834381313",
+  "sourceColor": "Creamy-white"
 }
 ];
 
@@ -31410,6 +31974,20 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "solvaya-ribbed-halter-crop-top-white",
+  "annessa-lapel-tie-waist-romper-white",
+  "savelle-ribbed-v-neck-tank-apricot",
+  "yvaine-textured-high-neck-gown-sage",
+  "marivelle-short-sleeve-lace-gown-powder-blue",
+  "evelisse-pleated-halter-gown-black",
+  "marivelle-short-sleeve-lace-gown-pale-green",
+  "marivelle-short-sleeve-lace-gown-black",
+  "marivelle-short-sleeve-lace-gown-navy",
+  "evelisse-pleated-halter-gown-bronze-brown",
+  "evelisse-pleated-halter-gown-burgundy",
+  "evelisse-pleated-halter-gown-emerald",
+  "velisse-woven-slingback-pump-cream",
+
   "vireya-ruffle-hem-romper-blush-pink",
 
   "nerissa-embossed-shoulder-tote-black",

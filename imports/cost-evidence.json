@@ -101,6 +101,10 @@
    "landedCostUsd": 11.48,
    "source": "catalog-20261123-batch27-bindings.json"
   },
+  "annessa-lapel-tie-waist-romper-white": {
+   "landedCostUsd": 32.1,
+   "source": "catalog-20261123-batch34-bindings.json"
+  },
   "apricot-crochet-fringe-dress": {
    "landedCostUsd": 44.67,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
@@ -853,6 +857,22 @@
    "landedCostUsd": 27.81,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "evelisse-pleated-halter-gown-black": {
+   "landedCostUsd": 103.75,
+   "source": "catalog-20261123-batch34-bindings.json"
+  },
+  "evelisse-pleated-halter-gown-bronze-brown": {
+   "landedCostUsd": 103.75,
+   "source": "catalog-20261123-batch34-bindings.json"
+  },
+  "evelisse-pleated-halter-gown-burgundy": {
+   "landedCostUsd": 103.75,
+   "source": "catalog-20261123-batch34-bindings.json"
+  },
+  "evelisse-pleated-halter-gown-emerald": {
+   "landedCostUsd": 103.75,
+   "source": "catalog-20261123-batch34-bindings.json"
+  },
   "evelisse-plunge-slit-maxi-dress-blush-champagne": {
    "landedCostUsd": 26.79,
    "source": "catalog-20261123-batch28-bindings.json"
@@ -1436,6 +1456,22 @@
   "marisol-striped-wide-leg-jumpsuit-royal-blue": {
    "landedCostUsd": 22.62,
    "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "marivelle-short-sleeve-lace-gown-black": {
+   "landedCostUsd": 107.96,
+   "source": "catalog-20261123-batch34-bindings.json"
+  },
+  "marivelle-short-sleeve-lace-gown-navy": {
+   "landedCostUsd": 107.96,
+   "source": "catalog-20261123-batch34-bindings.json"
+  },
+  "marivelle-short-sleeve-lace-gown-pale-green": {
+   "landedCostUsd": 107.96,
+   "source": "catalog-20261123-batch34-bindings.json"
+  },
+  "marivelle-short-sleeve-lace-gown-powder-blue": {
+   "landedCostUsd": 107.96,
+   "source": "catalog-20261123-batch34-bindings.json"
   },
   "mavella-leopard-maxi-kaftan-leopard": {
    "landedCostUsd": 31.53,
@@ -2221,6 +2257,10 @@
    "landedCostUsd": 36.16,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
   },
+  "savelle-ribbed-v-neck-tank-apricot": {
+   "landedCostUsd": 11.74,
+   "source": "catalog-20261123-batch34-bindings.json"
+  },
   "selorie-contrast-trim-tunic-midi-dress-ivory-with-black-trim": {
    "landedCostUsd": 8.48,
    "source": "catalog-20261123-batch21-bindings.json"
@@ -2332,6 +2372,10 @@
   "solenne-printed-beach-cover-up-umber-zebra": {
    "landedCostUsd": 33.44,
    "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "solvaya-ribbed-halter-crop-top-white": {
+   "landedCostUsd": 10.54,
+   "source": "catalog-20261123-batch34-bindings.json"
   },
   "soravia-abstract-one-shoulder-maxi-dress-fuchsia-multi": {
    "landedCostUsd": 26.01,
@@ -2472,6 +2516,10 @@
   "velenne-cowl-velvet-mini-dress-gold": {
    "landedCostUsd": 27.81,
    "source": "catalog-20261123-batch28-bindings.json"
+  },
+  "velisse-woven-slingback-pump-cream": {
+   "landedCostUsd": 33.56,
+   "source": "catalog-20261123-batch34-bindings.json"
   },
   "velloria-single-button-flare-suit-vermilion": {
    "landedCostUsd": 48.99,
@@ -2676,6 +2724,10 @@
   "xyla-wide-leg-trousers": {
    "landedCostUsd": 33.47,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "yvaine-textured-high-neck-gown-sage": {
+   "landedCostUsd": 171.49,
+   "source": "catalog-20261123-batch34-bindings.json"
   },
   "yvette-yellow-tiered-mermaid-gown": {
    "landedCostUsd": 149.38,
