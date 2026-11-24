@@ -2892,5 +2892,81 @@
    "XS": 93,
    "S": 89
   }
+ },
+ "mareselle-fringe-crochet-maxi-dress-orange": {
+  "stockBySize": {
+   "XL": 500,
+   "S": 500,
+   "M": 500,
+   "L": 500
+  }
+ },
+ "vionelle-trimmed-velvet-midi-dress-burgundy": {
+  "stockBySize": {
+   "XXL": 499,
+   "S": 490,
+   "M": 494,
+   "L": 499,
+   "XL": 497
+  }
+ },
+ "lissora-medallion-lace-skirt-set-apricot": {
+  "stockBySize": {
+   "One Size": 499
+  }
+ },
+ "beloria-swirl-print-maxi-dress-black-white": {
+  "stockBySize": {
+   "XXL": 100,
+   "XL": 100,
+   "L": 98,
+   "M": 100,
+   "XXXL": 100,
+   "S": 100
+  }
+ },
+ "merovia-draped-spot-mini-skirt-wine": {
+  "stockBySize": {
+   "L": 93,
+   "M": 90,
+   "S": 89
+  }
+ },
+ "mareselle-fringe-crochet-maxi-dress-beige": {
+  "stockBySize": {
+   "XL": 500,
+   "S": 500,
+   "M": 500,
+   "L": 500
+  }
+ },
+ "vionelle-trimmed-velvet-midi-dress-emerald": {
+  "stockBySize": {
+   "M": 491,
+   "L": 495,
+   "XL": 494,
+   "XXL": 494,
+   "S": 490
+  }
+ },
+ "lissora-medallion-lace-skirt-set-white": {
+  "stockBySize": {
+   "One Size": 499
+  }
+ },
+ "merovia-spotted-wrap-midi-skirt-tan-red": {
+  "stockBySize": {
+   "S": 83,
+   "L": 92,
+   "M": 88
+  }
+ },
+ "salira-floral-crochet-halter-maxi-cover-up-ivory": {
+  "stockBySize": {
+   "S": 926,
+   "M": 870,
+   "L": 952,
+   "XL": 957
+  }
  }
 }

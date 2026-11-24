@@ -1,0 +1,254 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "mareselle-fringe-crochet-maxi-dress-orange",
+      "sourceProductId": "3256811556273927",
+      "sourceColor": "03 Orange",
+      "supplierId": "cmtahn6q9000r04l41koe7s38",
+      "sourceSkuIdsBySize": {
+        "XL": "12000056414228136",
+        "S": "12000056414228133",
+        "M": "12000056414228134",
+        "L": "12000056414228135"
+      },
+      "landedCostUsdBySize": {
+        "XL": 43.5,
+        "S": 43.5,
+        "M": 43.5,
+        "L": 43.5
+      },
+      "stockBySize": {
+        "XL": 500,
+        "S": 500,
+        "M": 500,
+        "L": 500
+      },
+      "retailPriceUsd": 130.9,
+      "verifiedAtUtc": "2026-11-24T15:09:21.918Z"
+    },
+    {
+      "slug": "vionelle-trimmed-velvet-midi-dress-burgundy",
+      "sourceProductId": "3256810473743480",
+      "sourceColor": "03 Burgundy",
+      "supplierId": "cmwhser1d00df0jmcoofj14w7",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000060878585228",
+        "S": "12000060878585224",
+        "M": "12000060878585225",
+        "L": "12000060878585226",
+        "XL": "12000060878585227"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 51.54,
+        "S": 51.54,
+        "M": 51.54,
+        "L": 51.54,
+        "XL": 51.54
+      },
+      "stockBySize": {
+        "XXL": 499,
+        "S": 490,
+        "M": 494,
+        "L": 499,
+        "XL": 497
+      },
+      "retailPriceUsd": 154.9,
+      "verifiedAtUtc": "2026-11-24T15:09:12.534Z"
+    },
+    {
+      "slug": "lissora-medallion-lace-skirt-set-apricot",
+      "sourceProductId": "3256811978181157",
+      "sourceColor": "02 Apricot",
+      "supplierId": "cmt60qhkf00l004if3fqyf0zi",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000057661643150"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 55.37
+      },
+      "stockBySize": {
+        "One Size": 499
+      },
+      "retailPriceUsd": 166.9,
+      "verifiedAtUtc": "2026-11-24T15:09:02.628Z"
+    },
+    {
+      "slug": "beloria-swirl-print-maxi-dress-black-white",
+      "sourceProductId": "3256809943426273",
+      "sourceColor": "Ro3",
+      "supplierId": "cmt63npw700jn04jnhafbubse",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000051244697027",
+        "XL": "12000051244697026",
+        "L": "12000051244697025",
+        "M": "12000051244697024",
+        "XXXL": "12000051244697028",
+        "S": "12000051244697023"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 15.94,
+        "XL": 15.94,
+        "L": 15.94,
+        "M": 15.94,
+        "XXXL": 15.94,
+        "S": 15.94
+      },
+      "stockBySize": {
+        "XXL": 100,
+        "XL": 100,
+        "L": 98,
+        "M": 100,
+        "XXXL": 100,
+        "S": 100
+      },
+      "retailPriceUsd": 47.9,
+      "verifiedAtUtc": "2026-11-24T15:09:43.050Z"
+    },
+    {
+      "slug": "merovia-draped-spot-mini-skirt-wine",
+      "sourceProductId": "3256812214668261",
+      "sourceColor": "03 skirt",
+      "supplierId": "cmt62slfg005904kwt14m2uma",
+      "sourceSkuIdsBySize": {
+        "L": "12000059457114060",
+        "M": "12000059457114061",
+        "S": "12000059457114071"
+      },
+      "landedCostUsdBySize": {
+        "L": 27.73,
+        "M": 27.73,
+        "S": 27.73
+      },
+      "stockBySize": {
+        "L": 93,
+        "M": 90,
+        "S": 89
+      },
+      "retailPriceUsd": 83.9,
+      "verifiedAtUtc": "2026-11-24T15:09:55.050Z"
+    },
+    {
+      "slug": "mareselle-fringe-crochet-maxi-dress-beige",
+      "sourceProductId": "3256811556273927",
+      "sourceColor": "04 Beige",
+      "supplierId": "cmtahn6q9000r04l41koe7s38",
+      "sourceSkuIdsBySize": {
+        "XL": "12000056414228140",
+        "S": "12000056414228137",
+        "M": "12000056414228138",
+        "L": "12000056414228139"
+      },
+      "landedCostUsdBySize": {
+        "XL": 43.5,
+        "S": 43.5,
+        "M": 43.5,
+        "L": 43.5
+      },
+      "stockBySize": {
+        "XL": 500,
+        "S": 500,
+        "M": 500,
+        "L": 500
+      },
+      "retailPriceUsd": 130.9,
+      "verifiedAtUtc": "2026-11-24T15:09:21.918Z"
+    },
+    {
+      "slug": "vionelle-trimmed-velvet-midi-dress-emerald",
+      "sourceProductId": "3256810473743480",
+      "sourceColor": "02 Green",
+      "supplierId": "cmwhser1d00df0jmcoofj14w7",
+      "sourceSkuIdsBySize": {
+        "M": "12000060878585220",
+        "L": "12000060878585221",
+        "XL": "12000060878585222",
+        "XXL": "12000060878585223",
+        "S": "12000060878585219"
+      },
+      "landedCostUsdBySize": {
+        "M": 51.54,
+        "L": 51.54,
+        "XL": 51.54,
+        "XXL": 51.54,
+        "S": 51.54
+      },
+      "stockBySize": {
+        "M": 491,
+        "L": 495,
+        "XL": 494,
+        "XXL": 494,
+        "S": 490
+      },
+      "retailPriceUsd": 154.9,
+      "verifiedAtUtc": "2026-11-24T15:09:12.534Z"
+    },
+    {
+      "slug": "lissora-medallion-lace-skirt-set-white",
+      "sourceProductId": "3256811978181157",
+      "sourceColor": "01 White",
+      "supplierId": "cmt60qhkf00l004if3fqyf0zi",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000057661643149"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 55.37
+      },
+      "stockBySize": {
+        "One Size": 499
+      },
+      "retailPriceUsd": 166.9,
+      "verifiedAtUtc": "2026-11-24T15:09:02.628Z"
+    },
+    {
+      "slug": "merovia-spotted-wrap-midi-skirt-tan-red",
+      "sourceProductId": "3256812214668261",
+      "sourceColor": "02 skirt",
+      "supplierId": "cmt62slfg005904kwt14m2uma",
+      "sourceSkuIdsBySize": {
+        "S": "12000059457114069",
+        "L": "12000059457114064",
+        "M": "12000059457114065"
+      },
+      "landedCostUsdBySize": {
+        "S": 31.49,
+        "L": 31.49,
+        "M": 31.49
+      },
+      "stockBySize": {
+        "S": 83,
+        "L": 92,
+        "M": 88
+      },
+      "retailPriceUsd": 94.9,
+      "verifiedAtUtc": "2026-11-24T15:09:55.050Z"
+    },
+    {
+      "slug": "salira-floral-crochet-halter-maxi-cover-up-ivory",
+      "sourceProductId": "1005009466201567",
+      "sourceColor": "Image Color",
+      "supplierId": "cmsxzvuqa000b04ibfmlypio2",
+      "sourceSkuIdsBySize": {
+        "S": "12000049190115130",
+        "M": "12000049190115131",
+        "L": "12000049190115132",
+        "XL": "12000049190115133"
+      },
+      "landedCostUsdBySize": {
+        "S": 35.98,
+        "M": 35.98,
+        "L": 35.98,
+        "XL": 35.98
+      },
+      "stockBySize": {
+        "S": 926,
+        "M": 870,
+        "L": 952,
+        "XL": 957
+      },
+      "retailPriceUsd": 108.9,
+      "verifiedAtUtc": "2026-11-24T14:41:36.054Z"
+    }
+  ]
+}
