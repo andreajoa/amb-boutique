@@ -3572,5 +3572,35 @@
   "stockBySize": {
    "One Size": 3
   }
+ },
+ "nerissa-embossed-shoulder-tote-black": {
+  "stockBySize": {
+   "One Size": 808
+  }
+ },
+ "caldera-panelled-shoulder-tote-chocolate": {
+  "stockBySize": {
+   "One Size": 3
+  }
+ },
+ "mirella-crescent-shoulder-bag-brown-large": {
+  "stockBySize": {
+   "One Size": 19
+  }
+ },
+ "mirella-crescent-shoulder-bag-brown-small": {
+  "stockBySize": {
+   "One Size": 19
+  }
+ },
+ "mirella-crescent-shoulder-bag-khaki-large": {
+  "stockBySize": {
+   "One Size": 18
+  }
+ },
+ "mirella-crescent-shoulder-bag-khaki-small": {
+  "stockBySize": {
+   "One Size": 19
+  }
  }
 }

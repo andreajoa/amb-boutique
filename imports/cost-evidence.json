@@ -353,6 +353,10 @@
    "landedCostUsd": 45.05,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "caldera-panelled-shoulder-tote-chocolate": {
+   "landedCostUsd": 37.18,
+   "source": "catalog-20261123-batch32-bindings.json"
+  },
   "calla-maxi-dress": {
    "landedCostUsd": 39.22,
    "source": "markup-3x-20261025 (pilot)"
@@ -1505,6 +1509,22 @@
    "landedCostUsd": 30.85,
    "source": "catalog-20261123-batch04-bindings.json"
   },
+  "mirella-crescent-shoulder-bag-brown-large": {
+   "landedCostUsd": 27.48,
+   "source": "catalog-20261123-batch32-bindings.json"
+  },
+  "mirella-crescent-shoulder-bag-brown-small": {
+   "landedCostUsd": 26.11,
+   "source": "catalog-20261123-batch32-bindings.json"
+  },
+  "mirella-crescent-shoulder-bag-khaki-large": {
+   "landedCostUsd": 27.48,
+   "source": "catalog-20261123-batch32-bindings.json"
+  },
+  "mirella-crescent-shoulder-bag-khaki-small": {
+   "landedCostUsd": 26.11,
+   "source": "catalog-20261123-batch32-bindings.json"
+  },
   "mirella-pink-pleated-midi-dress": {
    "landedCostUsd": 36.16,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
@@ -1592,6 +1612,10 @@
   "nerina-blue-satin-midi-dress": {
    "landedCostUsd": 21.94,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "nerissa-embossed-shoulder-tote-black": {
+   "landedCostUsd": 22.51,
+   "source": "catalog-20261123-batch32-bindings.json"
   },
   "nerisse-button-collar-sweater-dress-black": {
    "landedCostUsd": 36.01,
