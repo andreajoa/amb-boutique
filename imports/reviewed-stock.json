@@ -2968,5 +2968,90 @@
    "L": 952,
    "XL": 957
   }
+ },
+ "mareselle-fringe-crochet-maxi-dress-buttercream": {
+  "stockBySize": {
+   "S": 500,
+   "M": 500,
+   "L": 500,
+   "XL": 500
+  }
+ },
+ "orvella-knotted-halter-maxi-dress-black": {
+  "stockBySize": {
+   "S": 9997,
+   "M": 9993,
+   "L": 9998
+  }
+ },
+ "faurelle-off-shoulder-spot-mini-dress-olive": {
+  "stockBySize": {
+   "L": 17,
+   "XL": 19,
+   "S": 20,
+   "M": 20,
+   "XXL": 20
+  }
+ },
+ "merovia-draped-tiger-mini-dress-tan-black": {
+  "stockBySize": {
+   "M": 88,
+   "L": 91,
+   "S": 76
+  }
+ },
+ "beloria-daisy-print-maxi-dress-black-white": {
+  "stockBySize": {
+   "L": 100,
+   "M": 100,
+   "S": 100,
+   "XXXL": 100,
+   "XXL": 100,
+   "XL": 100
+  }
+ },
+ "vionelle-trimmed-velvet-midi-dress-black": {
+  "stockBySize": {
+   "XXL": 493,
+   "XL": 495,
+   "L": 490,
+   "M": 494,
+   "S": 491
+  }
+ },
+ "vilora-ribbed-camisole-four-pack-multi": {
+  "stockBySize": {
+   "XS": 50,
+   "S": 50,
+   "M": 49,
+   "L": 50,
+   "XL": 49
+  }
+ },
+ "renova-notched-denim-cutoffs-hot-pink": {
+  "stockBySize": {
+   "S": 100,
+   "M": 100,
+   "L": 100,
+   "XXL": 100,
+   "XL": 100
+  }
+ },
+ "renova-notched-denim-cutoffs-lemon": {
+  "stockBySize": {
+   "M": 100,
+   "S": 100,
+   "L": 100,
+   "XXL": 100,
+   "XL": 100
+  }
+ },
+ "renova-notched-denim-cutoffs-aqua": {
+  "stockBySize": {
+   "L": 100,
+   "M": 100,
+   "XL": 100,
+   "XXL": 100
+  }
  }
 }

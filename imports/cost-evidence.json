@@ -213,6 +213,10 @@
    "landedCostUsd": 11.21,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "beloria-daisy-print-maxi-dress-black-white": {
+   "landedCostUsd": 15.94,
+   "source": "catalog-20261123-batch24-bindings.json"
+  },
   "beloria-swirl-print-maxi-dress-black-white": {
    "landedCostUsd": 15.94,
    "source": "catalog-20261123-batch23-bindings.json"
@@ -765,6 +769,10 @@
    "landedCostUsd": 155.74,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
   },
+  "faurelle-off-shoulder-spot-mini-dress-olive": {
+   "landedCostUsd": 28.03,
+   "source": "catalog-20261123-batch24-bindings.json"
+  },
   "fern-trousers": {
    "landedCostUsd": 48.99,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
@@ -1193,6 +1201,10 @@
    "landedCostUsd": 43.5,
    "source": "catalog-20261123-batch23-bindings.json"
   },
+  "mareselle-fringe-crochet-maxi-dress-buttercream": {
+   "landedCostUsd": 43.5,
+   "source": "catalog-20261123-batch24-bindings.json"
+  },
   "mareselle-fringe-crochet-maxi-dress-orange": {
    "landedCostUsd": 43.5,
    "source": "catalog-20261123-batch23-bindings.json"
@@ -1280,6 +1292,10 @@
   "merovia-draped-spot-mini-skirt-wine": {
    "landedCostUsd": 27.73,
    "source": "catalog-20261123-batch23-bindings.json"
+  },
+  "merovia-draped-tiger-mini-dress-tan-black": {
+   "landedCostUsd": 36.43,
+   "source": "catalog-20261123-batch24-bindings.json"
   },
   "merovia-spotted-wrap-midi-skirt-tan-red": {
    "landedCostUsd": 31.49,
@@ -1677,6 +1693,10 @@
    "landedCostUsd": 21.96,
    "source": "catalog-20261123-batch20-bindings.json"
   },
+  "orvella-knotted-halter-maxi-dress-black": {
+   "landedCostUsd": 25.75,
+   "source": "catalog-20261123-batch24-bindings.json"
+  },
   "ottilie-rose-pleated-midi-dress": {
    "landedCostUsd": 36.16,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
@@ -1800,6 +1820,18 @@
   "renata-black-pleated-midi-dress": {
    "landedCostUsd": 36.16,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "renova-notched-denim-cutoffs-aqua": {
+   "landedCostUsd": 24.38,
+   "source": "catalog-20261123-batch24-bindings.json"
+  },
+  "renova-notched-denim-cutoffs-hot-pink": {
+   "landedCostUsd": 24.09,
+   "source": "catalog-20261123-batch24-bindings.json"
+  },
+  "renova-notched-denim-cutoffs-lemon": {
+   "landedCostUsd": 24.18,
+   "source": "catalog-20261123-batch24-bindings.json"
   },
   "rio-stripe-swing-dress": {
    "landedCostUsd": 28.98,
@@ -2245,6 +2277,10 @@
    "landedCostUsd": 25.38,
    "source": "catalog-20261123-batch12-bindings.json"
   },
+  "vilora-ribbed-camisole-four-pack-multi": {
+   "landedCostUsd": 22.54,
+   "source": "catalog-20261123-batch24-bindings.json"
+  },
   "vionelle-lace-sleeve-asymmetric-mini-dress-black-style-19": {
    "landedCostUsd": 27.81,
    "source": "catalog-20261026-new-products-bindings.json"
@@ -2260,6 +2296,10 @@
   "vionelle-lace-sleeve-asymmetric-mini-dress-plum-style-18": {
    "landedCostUsd": 27.81,
    "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "vionelle-trimmed-velvet-midi-dress-black": {
+   "landedCostUsd": 51.54,
+   "source": "catalog-20261123-batch24-bindings.json"
   },
   "vionelle-trimmed-velvet-midi-dress-burgundy": {
    "landedCostUsd": 51.54,
