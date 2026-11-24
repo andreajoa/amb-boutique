@@ -2,6 +2,16 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
+      "slug": "vireya-ruffle-hem-romper-blush-pink",
+      "name": "Vireya Ruffle-Hem Romper — Blush Pink",
+      "image": "/products/vireya-ruffle-hem-romper-blush-pink/front.webp",
+      "eyebrow": "NEW ARRIVAL",
+      "copy": "A blush pink romper with a V-neck collar, short flutter sleeves and an adjustable drawstring waist.",
+      "category": "Playsuits",
+      "arrivalRank": 1134,
+      "classification": "detected-model"
+    },
+    {
       "slug": "aleria-draped-cold-shoulder-midi-dress-black",
       "name": "Aleria Draped Cold-Shoulder Midi Dress — Black",
       "image": "/products/aleria-draped-cold-shoulder-midi-dress-black/front.webp",
@@ -15,7 +25,7 @@
       "slug": "amarelle-draped-halter-top-scarlet",
       "name": "Amarelle Draped Halter Top — Scarlet",
       "image": "/products/amarelle-draped-halter-top-scarlet/front.webp",
-      "eyebrow": "THE SOFT STATEMENT",
+      "eyebrow": "CONFIDENT COLOR",
       "copy": "A scarlet halter top with a soft draped front, a pointed hem and ties at the neck.",
       "category": "Tops",
       "arrivalRank": 1125,
@@ -29,16 +39,6 @@
       "copy": "An espresso three-piece set with an asymmetrically ruffled dress layer, a lace-up corset top and matching shorts.",
       "category": "Sets",
       "arrivalRank": 1124,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "marielle-diagonal-stripe-cover-up-set-mauve",
-      "name": "Marielle Diagonal-Stripe Cover-Up Set — Mauve",
-      "image": "/products/marielle-diagonal-stripe-cover-up-set-mauve/front.webp",
-      "eyebrow": "SUNLIT EASE",
-      "copy": "A two-piece striped cover-up with a cropped V-neck top, flared sleeves and an ankle-length skirt.",
-      "category": "Sets",
-      "arrivalRank": 1123,
       "classification": "verified-model"
     }
   ]

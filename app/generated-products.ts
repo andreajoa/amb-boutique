@@ -31365,6 +31365,42 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256809762838771",
   "sourceColor": "Khaki S"
+},
+{
+  "slug": "vireya-ruffle-hem-romper-blush-pink",
+  "name": "Vireya Ruffle-Hem Romper — Blush Pink",
+  "category": "Playsuits",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 86.9,
+  "colors": [
+    "#D5A5A5"
+  ],
+  "colorNames": [
+    "Blush Pink"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A blush pink romper with a V-neck collar, short flutter sleeves and an adjustable drawstring waist. A ruffled hem finishes the relaxed shorts.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/vireya-ruffle-hem-romper-blush-pink/front.webp",
+    "/products/vireya-ruffle-hem-romper-blush-pink/back.webp",
+    "/products/vireya-ruffle-hem-romper-blush-pink/left.webp",
+    "/products/vireya-ruffle-hem-romper-blush-pink/right.webp"
+  ],
+  "stock": 393,
+  "unitCostUsd": 28.87,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811464084073",
+  "sourceColor": "Pink"
 }
 ];
 
@@ -31374,6 +31410,8 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "vireya-ruffle-hem-romper-blush-pink",
+
   "nerissa-embossed-shoulder-tote-black",
   "caldera-panelled-shoulder-tote-chocolate",
   "mirella-crescent-shoulder-bag-brown-large",
