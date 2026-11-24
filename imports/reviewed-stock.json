@@ -3314,5 +3314,85 @@
    "M": 77,
    "L": 78
   }
+ },
+ "melisse-lapel-knit-midi-dress-light-grey": {
+  "stockBySize": {
+   "S": 499,
+   "M": 499,
+   "XXL": 499,
+   "XXXL": 499,
+   "L": 499,
+   "XL": 499
+  }
+ },
+ "evelisse-plunge-slit-maxi-dress-blush-champagne": {
+  "stockBySize": {
+   "S": 4,
+   "L": 7,
+   "M": 488,
+   "XL": 10,
+   "XS（old）": 497
+  }
+ },
+ "ardelle-gathered-pin-dot-blouse-ivory": {
+  "stockBySize": {
+   "M": 9994,
+   "S": 9997,
+   "XXXL": 9991,
+   "XXL": 9997,
+   "XL": 9993,
+   "L": 9991
+  }
+ },
+ "velenne-cowl-velvet-mini-dress-gold": {
+  "stockBySize": {
+   "L": 63,
+   "XL": 62,
+   "S": 66,
+   "M": 64,
+   "XXL": 64,
+   "XXXL": 61
+  }
+ },
+ "beloria-swirl-print-maxi-dress-lettering": {
+  "stockBySize": {
+   "S": 100,
+   "XXL": 100,
+   "XL": 100,
+   "L": 100,
+   "M": 100,
+   "XXXL": 100
+  }
+ },
+ "evelisse-plunge-slit-maxi-dress-fuchsia": {
+  "stockBySize": {
+   "M": 5,
+   "XS（old）": 20,
+   "S": 11
+  }
+ },
+ "velora-batwing-kimono-cover-up-black": {
+  "stockBySize": {
+   "One Size": 490
+  }
+ },
+ "darcelle-distressed-raw-hem-denim-cutoffs-black": {
+  "stockBySize": {
+   "XL": 10,
+   "L": 9,
+   "M": 10,
+   "S": 8,
+   "XXL": 10
+  }
+ },
+ "ravelle-embossed-satchel-forest": {
+  "stockBySize": {
+   "One Size": 3
+  }
+ },
+ "ravelle-bar-handle-satchel-cognac": {
+  "stockBySize": {
+   "One Size": 91991
+  }
  }
 }

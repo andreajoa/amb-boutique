@@ -1,0 +1,266 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "melisse-lapel-knit-midi-dress-light-grey",
+      "sourceProductId": "3256810035548763",
+      "sourceColor": "05 Light Grey",
+      "supplierId": "cmwtpaqxk01560jlnj39823ib",
+      "sourceSkuIdsBySize": {
+        "S": "12000052607410322",
+        "M": "12000052607410323",
+        "XXL": "12000052607410326",
+        "XXXL": "12000052607410327",
+        "L": "12000052607410324",
+        "XL": "12000052607410325"
+      },
+      "landedCostUsdBySize": {
+        "S": 46.06,
+        "M": 46.06,
+        "XXL": 46.06,
+        "XXXL": 46.06,
+        "L": 46.06,
+        "XL": 46.06
+      },
+      "stockBySize": {
+        "S": 499,
+        "M": 499,
+        "XXL": 499,
+        "XXXL": 499,
+        "L": 499,
+        "XL": 499
+      },
+      "retailPriceUsd": 138.9,
+      "verifiedAtUtc": "2026-11-24T17:31:03.745Z"
+    },
+    {
+      "slug": "evelisse-plunge-slit-maxi-dress-blush-champagne",
+      "sourceProductId": "3256803434858469",
+      "sourceColor": "Champagne",
+      "supplierId": "cmvli9mmj001g06jyhj9f0qah",
+      "sourceSkuIdsBySize": {
+        "S": "12000026528747669",
+        "L": "12000026528747671",
+        "M": "12000026528747670",
+        "XL": "12000026528747672",
+        "XS（old）": "12000028425709489"
+      },
+      "landedCostUsdBySize": {
+        "S": 26.79,
+        "L": 26.79,
+        "M": 26.79,
+        "XL": 26.79,
+        "XS（old）": 26.79
+      },
+      "stockBySize": {
+        "S": 4,
+        "L": 7,
+        "M": 488,
+        "XL": 10,
+        "XS（old）": 497
+      },
+      "retailPriceUsd": 80.9,
+      "verifiedAtUtc": "2026-11-24T17:33:29.792Z"
+    },
+    {
+      "slug": "ardelle-gathered-pin-dot-blouse-ivory",
+      "sourceProductId": "3256807281435676",
+      "sourceColor": "white polka dot",
+      "supplierId": "cmuqhpgqj004o04lehtrrfews",
+      "sourceSkuIdsBySize": {
+        "M": "12000040877871259",
+        "S": "12000040877871258",
+        "XXXL": "12000040877871263",
+        "XXL": "12000040877871262",
+        "XL": "12000040877871261",
+        "L": "12000040877871260"
+      },
+      "landedCostUsdBySize": {
+        "M": 18.73,
+        "S": 17.96,
+        "XXXL": 18.73,
+        "XXL": 18.73,
+        "XL": 18.73,
+        "L": 18.73
+      },
+      "stockBySize": {
+        "M": 9994,
+        "S": 9997,
+        "XXXL": 9991,
+        "XXL": 9997,
+        "XL": 9993,
+        "L": 9991
+      },
+      "retailPriceUsd": 56.9,
+      "verifiedAtUtc": "2026-11-24T17:33:43.179Z"
+    },
+    {
+      "slug": "velenne-cowl-velvet-mini-dress-gold",
+      "sourceProductId": "3256810207199601",
+      "sourceColor": "15",
+      "supplierId": "cmvljlofq005206idjoob91bc",
+      "sourceSkuIdsBySize": {
+        "L": "12000053435360258",
+        "XL": "12000053435360259",
+        "S": "12000053435360256",
+        "M": "12000053435360257",
+        "XXL": "12000053435360260",
+        "XXXL": "12000053435360261"
+      },
+      "landedCostUsdBySize": {
+        "L": 27.81,
+        "XL": 27.81,
+        "S": 27.81,
+        "M": 27.81,
+        "XXL": 27.81,
+        "XXXL": 27.81
+      },
+      "stockBySize": {
+        "L": 63,
+        "XL": 62,
+        "S": 66,
+        "M": 64,
+        "XXL": 64,
+        "XXXL": 61
+      },
+      "retailPriceUsd": 83.9,
+      "verifiedAtUtc": "2026-11-24T17:34:56.168Z"
+    },
+    {
+      "slug": "beloria-swirl-print-maxi-dress-lettering",
+      "sourceProductId": "3256809943426273",
+      "sourceColor": "Ro5",
+      "supplierId": "cmt63npw700jn04jnhafbubse",
+      "sourceSkuIdsBySize": {
+        "S": "12000051244697035",
+        "XXL": "12000051244697039",
+        "XL": "12000051244697038",
+        "L": "12000051244697037",
+        "M": "12000051244697036",
+        "XXXL": "12000051244697040"
+      },
+      "landedCostUsdBySize": {
+        "S": 15.94,
+        "XXL": 15.94,
+        "XL": 15.94,
+        "L": 15.94,
+        "M": 15.94,
+        "XXXL": 15.94
+      },
+      "stockBySize": {
+        "S": 100,
+        "XXL": 100,
+        "XL": 100,
+        "L": 100,
+        "M": 100,
+        "XXXL": 100
+      },
+      "retailPriceUsd": 47.9,
+      "verifiedAtUtc": "2026-11-24T17:30:47.741Z"
+    },
+    {
+      "slug": "evelisse-plunge-slit-maxi-dress-fuchsia",
+      "sourceProductId": "3256803434858469",
+      "sourceColor": "Rose Red",
+      "supplierId": "cmvli9mmj001g06jyhj9f0qah",
+      "sourceSkuIdsBySize": {
+        "M": "12000030467218338",
+        "XS（old）": "12000030467218336",
+        "S": "12000030467218337"
+      },
+      "landedCostUsdBySize": {
+        "M": 26.79,
+        "XS（old）": 26.79,
+        "S": 26.79
+      },
+      "stockBySize": {
+        "M": 5,
+        "XS（old）": 20,
+        "S": 11
+      },
+      "retailPriceUsd": 80.9,
+      "verifiedAtUtc": "2026-11-24T17:33:29.792Z"
+    },
+    {
+      "slug": "velora-batwing-kimono-cover-up-black",
+      "sourceProductId": "3256810215849474",
+      "sourceColor": "2",
+      "supplierId": "cmt60y7l600r104ifdp23gf2e",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000057686926565"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 33.61
+      },
+      "stockBySize": {
+        "One Size": 490
+      },
+      "retailPriceUsd": 100.9,
+      "verifiedAtUtc": "2026-11-24T17:35:07.779Z"
+    },
+    {
+      "slug": "darcelle-distressed-raw-hem-denim-cutoffs-black",
+      "sourceProductId": "3256809801744851",
+      "sourceColor": "black",
+      "supplierId": "cmt609ao0008b04ifx6ecp90p",
+      "sourceSkuIdsBySize": {
+        "XL": "12000050768940815",
+        "L": "12000050768940814",
+        "M": "12000050768940813",
+        "S": "12000050768940812",
+        "XXL": "12000050768940816"
+      },
+      "landedCostUsdBySize": {
+        "XL": 19.44,
+        "L": 19.08,
+        "M": 19.14,
+        "S": 18.64,
+        "XXL": 19.61
+      },
+      "stockBySize": {
+        "XL": 10,
+        "L": 9,
+        "M": 10,
+        "S": 8,
+        "XXL": 10
+      },
+      "retailPriceUsd": 58.9,
+      "verifiedAtUtc": "2026-11-24T17:30:55.029Z"
+    },
+    {
+      "slug": "ravelle-embossed-satchel-forest",
+      "sourceProductId": "3256805030578196",
+      "sourceColor": "Green",
+      "supplierId": "cmuw4iuft00ji04l2pm8zl6dk",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000039239637275"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 33.88
+      },
+      "stockBySize": {
+        "One Size": 3
+      },
+      "retailPriceUsd": 101.9,
+      "verifiedAtUtc": "2026-11-24T17:32:13.468Z"
+    },
+    {
+      "slug": "ravelle-bar-handle-satchel-cognac",
+      "sourceProductId": "3256805030578196",
+      "sourceColor": "Yellow",
+      "supplierId": "cmuw4iuft00ji04l2pm8zl6dk",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000039240937637"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 28.38
+      },
+      "stockBySize": {
+        "One Size": 91991
+      },
+      "retailPriceUsd": 85.9,
+      "verifiedAtUtc": "2026-11-24T17:32:13.468Z"
+    }
+  ]
+}
