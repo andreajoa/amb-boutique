@@ -2,44 +2,44 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
-      "slug": "vireya-ruffle-hem-romper-blush-pink",
-      "name": "Vireya Ruffle-Hem Romper — Blush Pink",
-      "image": "/products/vireya-ruffle-hem-romper-blush-pink/front.webp",
+      "slug": "solvaya-ribbed-halter-crop-top-white",
+      "name": "Solvaya Ribbed Halter Crop Top — White",
+      "image": "/products/solvaya-ribbed-halter-crop-top-white/front.webp",
       "eyebrow": "NEW ARRIVAL",
-      "copy": "A blush pink romper with a V-neck collar, short flutter sleeves and an adjustable drawstring waist.",
+      "copy": "A fitted ribbed crop top with a scoop front, wide halter straps and an open back.",
+      "category": "Tops",
+      "arrivalRank": 1147,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "annessa-lapel-tie-waist-romper-white",
+      "name": "Annessa Lapel Tie-Waist Romper — White",
+      "image": "/products/annessa-lapel-tie-waist-romper-white/front.webp",
+      "eyebrow": "THE SOFT STATEMENT",
+      "copy": "A sleeveless white romper with a notched lapel, a defined waist and pleated shorts.",
       "category": "Playsuits",
-      "arrivalRank": 1134,
+      "arrivalRank": 1146,
       "classification": "detected-model"
     },
     {
-      "slug": "aleria-draped-cold-shoulder-midi-dress-black",
-      "name": "Aleria Draped Cold-Shoulder Midi Dress — Black",
-      "image": "/products/aleria-draped-cold-shoulder-midi-dress-black/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A fitted black midi dress with a draped high neckline and cutouts at the shoulders.",
-      "category": "Dresses",
-      "arrivalRank": 1126,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "amarelle-draped-halter-top-scarlet",
-      "name": "Amarelle Draped Halter Top — Scarlet",
-      "image": "/products/amarelle-draped-halter-top-scarlet/front.webp",
+      "slug": "savelle-ribbed-v-neck-tank-apricot",
+      "name": "Savelle Ribbed V-Neck Tank — Apricot",
+      "image": "/products/savelle-ribbed-v-neck-tank-apricot/front.webp",
       "eyebrow": "CONFIDENT COLOR",
-      "copy": "A scarlet halter top with a soft draped front, a pointed hem and ties at the neck.",
+      "copy": "A sleeveless rib-knit tank with a V-neckline and a gently fitted silhouette.",
       "category": "Tops",
-      "arrivalRank": 1125,
+      "arrivalRank": 1145,
       "classification": "verified-model"
     },
     {
-      "slug": "lorielle-ruffled-corset-three-piece-set-espresso",
-      "name": "Lorielle Ruffled Corset Three-Piece Set — Espresso",
-      "image": "/products/lorielle-ruffled-corset-three-piece-set-espresso/front.webp",
-      "eyebrow": "MODERN TAILORING",
-      "copy": "An espresso three-piece set with an asymmetrically ruffled dress layer, a lace-up corset top and matching shorts.",
-      "category": "Sets",
-      "arrivalRank": 1124,
-      "classification": "verified-model"
+      "slug": "yvaine-textured-high-neck-gown-sage",
+      "name": "Yvaine Textured High-Neck Gown — Sage",
+      "image": "/products/yvaine-textured-high-neck-gown-sage/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A floor-length sage gown with a high neckline and diagonal textured detailing through the bodice.",
+      "category": "Dresses",
+      "arrivalRank": 1144,
+      "classification": "detected-model"
     }
   ]
 }
