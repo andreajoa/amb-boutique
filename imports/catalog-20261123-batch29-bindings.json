@@ -1,0 +1,272 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "esmerelle-mock-neck-draped-maxi-dress-white",
+      "sourceProductId": "3256812597942489",
+      "sourceColor": "White",
+      "supplierId": "cmwhrpxo4003p0jmcj1xydvyj",
+      "sourceSkuIdsBySize": {
+        "L": "12000059368546096",
+        "M": "12000059368546095",
+        "S": "12000059368546094"
+      },
+      "landedCostUsdBySize": {
+        "L": 20.33,
+        "M": 20.33,
+        "S": 20.33
+      },
+      "stockBySize": {
+        "L": 92,
+        "M": 92,
+        "S": 70
+      },
+      "retailPriceUsd": 61.9,
+      "verifiedAtUtc": "2026-11-24T17:36:06.306Z"
+    },
+    {
+      "slug": "olivienne-beaded-drape-halter-maxi-dress-olive",
+      "sourceProductId": "3256811959702823",
+      "sourceColor": "01 Green",
+      "supplierId": "cmt64mk7d01ls04jnl4s36fno",
+      "sourceSkuIdsBySize": {
+        "L": "12000057621017609",
+        "M": "12000057621017608",
+        "S": "12000057621017607"
+      },
+      "landedCostUsdBySize": {
+        "L": 38.25,
+        "M": 38.25,
+        "S": 38.25
+      },
+      "stockBySize": {
+        "L": 486,
+        "M": 478,
+        "S": 398
+      },
+      "retailPriceUsd": 114.9,
+      "verifiedAtUtc": "2026-11-24T17:35:32.608Z"
+    },
+    {
+      "slug": "celesse-gathered-v-neck-kaftan-champagne",
+      "sourceProductId": "3256810466303742",
+      "sourceColor": "Q9801",
+      "supplierId": "cmt6100cl00rd04ifdbd2elpj",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000053085664707"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 25.78
+      },
+      "stockBySize": {
+        "One Size": 92
+      },
+      "retailPriceUsd": 77.9,
+      "verifiedAtUtc": "2026-11-24T17:35:18.271Z"
+    },
+    {
+      "slug": "velora-batwing-kimono-cover-up-taupe",
+      "sourceProductId": "3256810215849474",
+      "sourceColor": "1",
+      "supplierId": "cmt60y7l600r104ifdp23gf2e",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000052291029839"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 33.61
+      },
+      "stockBySize": {
+        "One Size": 490
+      },
+      "retailPriceUsd": 100.9,
+      "verifiedAtUtc": "2026-11-24T17:35:07.779Z"
+    },
+    {
+      "slug": "amarelle-wide-leg-trousers-scarlet",
+      "sourceProductId": "3256812221598829",
+      "sourceColor": "pants",
+      "supplierId": "cmvr6yczm000f08l9be4ohmwx",
+      "sourceSkuIdsBySize": {
+        "S": "12000058294475518",
+        "M": "12000058294475519",
+        "XS": "12000058294475517",
+        "L": "12000058294475520"
+      },
+      "landedCostUsdBySize": {
+        "S": 15.78,
+        "M": 15.84,
+        "XS": 15.74,
+        "L": 16.04
+      },
+      "stockBySize": {
+        "S": 4,
+        "M": 9,
+        "XS": 7,
+        "L": 4
+      },
+      "retailPriceUsd": 48.9,
+      "verifiedAtUtc": "2026-11-24T17:36:00.301Z"
+    },
+    {
+      "slug": "karissa-geometric-print-maxi-dress-teal-gold",
+      "sourceProductId": "3256808281141298",
+      "sourceColor": "chang08",
+      "supplierId": "cmt62zxhc001v04l44whc3h82",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000045267695272",
+        "S": "12000045267695267",
+        "M": "12000045267695268",
+        "L": "12000045267695269",
+        "XL": "12000045267695270",
+        "XXL": "12000045267695271"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 15.23,
+        "S": 15.23,
+        "M": 15.23,
+        "L": 15.23,
+        "XL": 15.23,
+        "XXL": 15.23
+      },
+      "stockBySize": {
+        "XXXL": 999,
+        "S": 998,
+        "M": 998,
+        "L": 995,
+        "XL": 998,
+        "XXL": 999
+      },
+      "retailPriceUsd": 45.9,
+      "verifiedAtUtc": "2026-11-24T17:34:27.114Z"
+    },
+    {
+      "slug": "karissa-geometric-print-maxi-dress-sapphire-coral",
+      "sourceProductId": "3256808281141298",
+      "sourceColor": "chang09",
+      "supplierId": "cmt62zxhc001v04l44whc3h82",
+      "sourceSkuIdsBySize": {
+        "S": "12000045267695273",
+        "M": "12000045267695274",
+        "L": "12000045267695275",
+        "XL": "12000045267695276",
+        "XXL": "12000045267695277",
+        "XXXL": "12000045267695278"
+      },
+      "landedCostUsdBySize": {
+        "S": 15.23,
+        "M": 15.23,
+        "L": 15.23,
+        "XL": 15.23,
+        "XXL": 15.23,
+        "XXXL": 15.23
+      },
+      "stockBySize": {
+        "S": 999,
+        "M": 998,
+        "L": 997,
+        "XL": 998,
+        "XXL": 999,
+        "XXXL": 999
+      },
+      "retailPriceUsd": 45.9,
+      "verifiedAtUtc": "2026-11-24T17:34:27.114Z"
+    },
+    {
+      "slug": "karissa-geometric-print-maxi-dress-charcoal-ivory",
+      "sourceProductId": "3256808281141298",
+      "sourceColor": "chang03",
+      "supplierId": "cmt62zxhc001v04l44whc3h82",
+      "sourceSkuIdsBySize": {
+        "XL": "12000045267695240",
+        "XXL": "12000045267695241",
+        "XXXL": "12000045267695242",
+        "S": "12000045267695237",
+        "M": "12000045267695238",
+        "L": "12000045267695239"
+      },
+      "landedCostUsdBySize": {
+        "XL": 15.23,
+        "XXL": 15.23,
+        "XXXL": 15.23,
+        "S": 15.23,
+        "M": 15.23,
+        "L": 15.23
+      },
+      "stockBySize": {
+        "XL": 999,
+        "XXL": 999,
+        "XXXL": 999,
+        "S": 999,
+        "M": 999,
+        "L": 999
+      },
+      "retailPriceUsd": 45.9,
+      "verifiedAtUtc": "2026-11-24T17:34:27.114Z"
+    },
+    {
+      "slug": "karissa-geometric-print-maxi-dress-rust-plum",
+      "sourceProductId": "3256808281141298",
+      "sourceColor": "chang04",
+      "supplierId": "cmt62zxhc001v04l44whc3h82",
+      "sourceSkuIdsBySize": {
+        "S": "12000045267695243",
+        "M": "12000045267695244",
+        "L": "12000045267695245",
+        "XL": "12000045267695246",
+        "XXL": "12000045267695247",
+        "XXXL": "12000045267695248"
+      },
+      "landedCostUsdBySize": {
+        "S": 15.23,
+        "M": 15.23,
+        "L": 15.23,
+        "XL": 15.23,
+        "XXL": 15.23,
+        "XXXL": 15.23
+      },
+      "stockBySize": {
+        "S": 999,
+        "M": 999,
+        "L": 999,
+        "XL": 999,
+        "XXL": 999,
+        "XXXL": 998
+      },
+      "retailPriceUsd": 45.9,
+      "verifiedAtUtc": "2026-11-24T17:34:27.114Z"
+    },
+    {
+      "slug": "karissa-geometric-print-maxi-dress-olive-rust",
+      "sourceProductId": "3256808281141298",
+      "sourceColor": "chang01",
+      "supplierId": "cmt62zxhc001v04l44whc3h82",
+      "sourceSkuIdsBySize": {
+        "S": "12000045267695225",
+        "M": "12000045267695226",
+        "L": "12000045267695227",
+        "XL": "12000045267695228",
+        "XXL": "12000045267695229",
+        "XXXL": "12000045267695230"
+      },
+      "landedCostUsdBySize": {
+        "S": 15.23,
+        "M": 15.23,
+        "L": 15.23,
+        "XL": 15.23,
+        "XXL": 15.23,
+        "XXXL": 15.23
+      },
+      "stockBySize": {
+        "S": 999,
+        "M": 999,
+        "L": 998,
+        "XL": 997,
+        "XXL": 998,
+        "XXXL": 999
+      },
+      "retailPriceUsd": 45.9,
+      "verifiedAtUtc": "2026-11-24T17:34:27.114Z"
+    }
+  ]
+}

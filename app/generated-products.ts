@@ -30394,6 +30394,368 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256805030578196",
   "sourceColor": "Yellow"
+},
+{
+  "slug": "esmerelle-mock-neck-draped-maxi-dress-white",
+  "name": "Esmerelle Mock-Neck Draped Maxi Dress — White",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 61.9,
+  "colors": [
+    "#F1EEE9"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted white maxi dress with a high neckline, long sleeves and soft gathers at the hip.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/esmerelle-mock-neck-draped-maxi-dress-white/front.webp",
+    "/products/esmerelle-mock-neck-draped-maxi-dress-white/back.webp",
+    "/products/esmerelle-mock-neck-draped-maxi-dress-white/left.webp",
+    "/products/esmerelle-mock-neck-draped-maxi-dress-white/right.webp"
+  ],
+  "stock": 254,
+  "unitCostUsd": 20.33,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812597942489",
+  "sourceColor": "White"
+},
+{
+  "slug": "olivienne-beaded-drape-halter-maxi-dress-olive",
+  "name": "Olivienne Beaded Drape Halter Maxi Dress — Olive",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 114.9,
+  "colors": [
+    "#6C7240"
+  ],
+  "colorNames": [
+    "Olive"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "An olive halter maxi dress with draped panels at the hips, side cutouts and slender beaded strands at the neckline.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/olivienne-beaded-drape-halter-maxi-dress-olive/front.webp",
+    "/products/olivienne-beaded-drape-halter-maxi-dress-olive/back.webp",
+    "/products/olivienne-beaded-drape-halter-maxi-dress-olive/left.webp",
+    "/products/olivienne-beaded-drape-halter-maxi-dress-olive/right.webp"
+  ],
+  "stock": 1362,
+  "unitCostUsd": 38.25,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811959702823",
+  "sourceColor": "01 Green"
+},
+{
+  "slug": "celesse-gathered-v-neck-kaftan-champagne",
+  "name": "Celesse Gathered V-Neck Kaftan — Champagne",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 77.9,
+  "colors": [
+    "#D9BF9E"
+  ],
+  "colorNames": [
+    "Champagne"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A flowing champagne kaftan with a V-neckline, a gathered front and wide sleeves.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/celesse-gathered-v-neck-kaftan-champagne/front.webp",
+    "/products/celesse-gathered-v-neck-kaftan-champagne/back.webp",
+    "/products/celesse-gathered-v-neck-kaftan-champagne/left.webp",
+    "/products/celesse-gathered-v-neck-kaftan-champagne/right.webp"
+  ],
+  "stock": 92,
+  "unitCostUsd": 25.78,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810466303742",
+  "sourceColor": "Q9801"
+},
+{
+  "slug": "velora-batwing-kimono-cover-up-taupe",
+  "name": "Velora Batwing Kimono Cover-Up — Taupe",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 100.9,
+  "colors": [
+    "#786E64"
+  ],
+  "colorNames": [
+    "Taupe"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A long open-front taupe cover-up with wide, softly draped sleeves.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/velora-batwing-kimono-cover-up-taupe/front.webp",
+    "/products/velora-batwing-kimono-cover-up-taupe/back.webp",
+    "/products/velora-batwing-kimono-cover-up-taupe/left.webp",
+    "/products/velora-batwing-kimono-cover-up-taupe/right.webp"
+  ],
+  "stock": 490,
+  "unitCostUsd": 33.61,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810215849474",
+  "sourceColor": "1"
+},
+{
+  "slug": "amarelle-wide-leg-trousers-scarlet",
+  "name": "Amarelle Wide-Leg Trousers — Scarlet",
+  "category": "Pants",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 48.9,
+  "colors": [
+    "#C73829"
+  ],
+  "colorNames": [
+    "Scarlet"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "Scarlet wide-leg trousers with a gathered drawstring waist and a fluid drape. The trousers are sold separately.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/amarelle-wide-leg-trousers-scarlet/front.webp",
+    "/products/amarelle-wide-leg-trousers-scarlet/back.webp",
+    "/products/amarelle-wide-leg-trousers-scarlet/left.webp",
+    "/products/amarelle-wide-leg-trousers-scarlet/right.webp"
+  ],
+  "stock": 24,
+  "unitCostUsd": 16.04,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812221598829",
+  "sourceColor": "pants"
+},
+{
+  "slug": "karissa-geometric-print-maxi-dress-teal-gold",
+  "name": "Karissa Geometric Print Maxi Dress — Teal and Gold",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 45.9,
+  "colors": [
+    "#46776E"
+  ],
+  "colorNames": [
+    "Teal and Gold"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless maxi dress with teal and gold geometric motifs.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/karissa-geometric-print-maxi-dress-teal-gold/front.webp",
+    "/products/karissa-geometric-print-maxi-dress-teal-gold/back.webp",
+    "/products/karissa-geometric-print-maxi-dress-teal-gold/left.webp",
+    "/products/karissa-geometric-print-maxi-dress-teal-gold/right.webp"
+  ],
+  "stock": 5987,
+  "unitCostUsd": 15.23,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808281141298",
+  "sourceColor": "chang08"
+},
+{
+  "slug": "karissa-geometric-print-maxi-dress-sapphire-coral",
+  "name": "Karissa Geometric Print Maxi Dress — Sapphire and Coral",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 45.9,
+  "colors": [
+    "#607A9B"
+  ],
+  "colorNames": [
+    "Sapphire and Coral"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless maxi dress with alternating sapphire and coral ornamental print panels.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/karissa-geometric-print-maxi-dress-sapphire-coral/front.webp",
+    "/products/karissa-geometric-print-maxi-dress-sapphire-coral/back.webp",
+    "/products/karissa-geometric-print-maxi-dress-sapphire-coral/left.webp",
+    "/products/karissa-geometric-print-maxi-dress-sapphire-coral/right.webp"
+  ],
+  "stock": 5990,
+  "unitCostUsd": 15.23,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808281141298",
+  "sourceColor": "chang09"
+},
+{
+  "slug": "karissa-geometric-print-maxi-dress-charcoal-ivory",
+  "name": "Karissa Geometric Print Maxi Dress — Charcoal and Ivory",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 45.9,
+  "colors": [
+    "#4B4B48"
+  ],
+  "colorNames": [
+    "Charcoal and Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless maxi dress with horizontal charcoal and ivory geometric bands.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/karissa-geometric-print-maxi-dress-charcoal-ivory/front.webp",
+    "/products/karissa-geometric-print-maxi-dress-charcoal-ivory/back.webp",
+    "/products/karissa-geometric-print-maxi-dress-charcoal-ivory/left.webp",
+    "/products/karissa-geometric-print-maxi-dress-charcoal-ivory/right.webp"
+  ],
+  "stock": 5994,
+  "unitCostUsd": 15.23,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808281141298",
+  "sourceColor": "chang03"
+},
+{
+  "slug": "karissa-geometric-print-maxi-dress-rust-plum",
+  "name": "Karissa Geometric Print Maxi Dress — Rust and Plum",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 45.9,
+  "colors": [
+    "#A55E4B"
+  ],
+  "colorNames": [
+    "Rust and Plum"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless maxi dress with bands of rust, plum and ochre motifs.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/karissa-geometric-print-maxi-dress-rust-plum/front.webp",
+    "/products/karissa-geometric-print-maxi-dress-rust-plum/back.webp",
+    "/products/karissa-geometric-print-maxi-dress-rust-plum/left.webp",
+    "/products/karissa-geometric-print-maxi-dress-rust-plum/right.webp"
+  ],
+  "stock": 5993,
+  "unitCostUsd": 15.23,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808281141298",
+  "sourceColor": "chang04"
+},
+{
+  "slug": "karissa-geometric-print-maxi-dress-olive-rust",
+  "name": "Karissa Geometric Print Maxi Dress — Olive and Rust",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 45.9,
+  "colors": [
+    "#806A46"
+  ],
+  "colorNames": [
+    "Olive and Rust"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless maxi dress with large patchwork motifs in olive, rust and charcoal.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/karissa-geometric-print-maxi-dress-olive-rust/front.webp",
+    "/products/karissa-geometric-print-maxi-dress-olive-rust/back.webp",
+    "/products/karissa-geometric-print-maxi-dress-olive-rust/left.webp",
+    "/products/karissa-geometric-print-maxi-dress-olive-rust/right.webp"
+  ],
+  "stock": 5990,
+  "unitCostUsd": 15.23,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808281141298",
+  "sourceColor": "chang01"
 }
 ];
 
@@ -30403,6 +30765,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "esmerelle-mock-neck-draped-maxi-dress-white",
+  "olivienne-beaded-drape-halter-maxi-dress-olive",
+  "celesse-gathered-v-neck-kaftan-champagne",
+  "velora-batwing-kimono-cover-up-taupe",
+  "amarelle-wide-leg-trousers-scarlet",
+  "karissa-geometric-print-maxi-dress-teal-gold",
+  "karissa-geometric-print-maxi-dress-sapphire-coral",
+  "karissa-geometric-print-maxi-dress-charcoal-ivory",
+  "karissa-geometric-print-maxi-dress-rust-plum",
+  "karissa-geometric-print-maxi-dress-olive-rust",
+
   "melisse-lapel-knit-midi-dress-light-grey",
   "evelisse-plunge-slit-maxi-dress-blush-champagne",
   "ardelle-gathered-pin-dot-blouse-ivory",
