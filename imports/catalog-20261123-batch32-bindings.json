@@ -1,0 +1,108 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "nerissa-embossed-shoulder-tote-black",
+      "sourceProductId": "3256807515109274",
+      "sourceColor": "Black",
+      "supplierId": "cmuw4e2c700bn04l2aurz153a",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000041909291879"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 22.51
+      },
+      "stockBySize": {
+        "One Size": 808
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-24T22:18:56.417Z"
+    },
+    {
+      "slug": "caldera-panelled-shoulder-tote-chocolate",
+      "sourceProductId": "3256807577253441",
+      "sourceColor": "Kangaroo Brown",
+      "supplierId": "ambsp-8d787a68fc6c4bb04128f593e8c1d29b",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000042129722844"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 37.18
+      },
+      "stockBySize": {
+        "One Size": 3
+      },
+      "retailPriceUsd": 111.9,
+      "verifiedAtUtc": "2026-11-24T22:19:04.110Z"
+    },
+    {
+      "slug": "mirella-crescent-shoulder-bag-brown-large",
+      "sourceProductId": "3256809762838771",
+      "sourceColor": "Brown L",
+      "supplierId": "cmuw3fej2000b04l2iysv8b97",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000050657210763"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 27.48
+      },
+      "stockBySize": {
+        "One Size": 19
+      },
+      "retailPriceUsd": 82.9,
+      "verifiedAtUtc": "2026-11-24T22:19:13.538Z"
+    },
+    {
+      "slug": "mirella-crescent-shoulder-bag-brown-small",
+      "sourceProductId": "3256809762838771",
+      "sourceColor": "Brown S",
+      "supplierId": "cmuw3fej2000b04l2iysv8b97",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000050657210762"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 26.11
+      },
+      "stockBySize": {
+        "One Size": 19
+      },
+      "retailPriceUsd": 78.9,
+      "verifiedAtUtc": "2026-11-24T22:19:13.538Z"
+    },
+    {
+      "slug": "mirella-crescent-shoulder-bag-khaki-large",
+      "sourceProductId": "3256809762838771",
+      "sourceColor": "Khaki L",
+      "supplierId": "cmuw3fej2000b04l2iysv8b97",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000050657210761"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 27.48
+      },
+      "stockBySize": {
+        "One Size": 18
+      },
+      "retailPriceUsd": 82.9,
+      "verifiedAtUtc": "2026-11-24T22:19:13.538Z"
+    },
+    {
+      "slug": "mirella-crescent-shoulder-bag-khaki-small",
+      "sourceProductId": "3256809762838771",
+      "sourceColor": "Khaki S",
+      "supplierId": "cmuw3fej2000b04l2iysv8b97",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000050657210760"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 26.11
+      },
+      "stockBySize": {
+        "One Size": 19
+      },
+      "retailPriceUsd": 78.9,
+      "verifiedAtUtc": "2026-11-24T22:19:13.538Z"
+    }
+  ]
+}

@@ -31161,6 +31161,210 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256805030578196",
   "sourceColor": "1 Layer Black"
+},
+{
+  "slug": "nerissa-embossed-shoulder-tote-black",
+  "name": "Nerissa Embossed Shoulder Tote — Black",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#222225"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A roomy black shoulder tote with an embossed finish, two handles and gold-tone hardware. The gallery shows the interior and its compartments.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/nerissa-embossed-shoulder-tote-black/front.webp",
+    "/products/nerissa-embossed-shoulder-tote-black/back.webp",
+    "/products/nerissa-embossed-shoulder-tote-black/left.webp",
+    "/products/nerissa-embossed-shoulder-tote-black/right.webp",
+    "/products/nerissa-embossed-shoulder-tote-black/inside.webp"
+  ],
+  "stock": 808,
+  "unitCostUsd": 22.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807515109274",
+  "sourceColor": "Black"
+},
+{
+  "slug": "caldera-panelled-shoulder-tote-chocolate",
+  "name": "Caldera Panelled Shoulder Tote — Chocolate",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 111.9,
+  "colors": [
+    "#49352a"
+  ],
+  "colorNames": [
+    "Chocolate"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured chocolate tote with patterned side panels, two top handles and a detachable shoulder strap. The gallery shows the interior compartments.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/caldera-panelled-shoulder-tote-chocolate/front.webp",
+    "/products/caldera-panelled-shoulder-tote-chocolate/back.webp",
+    "/products/caldera-panelled-shoulder-tote-chocolate/left.webp",
+    "/products/caldera-panelled-shoulder-tote-chocolate/right.webp",
+    "/products/caldera-panelled-shoulder-tote-chocolate/inside.webp"
+  ],
+  "stock": 3,
+  "unitCostUsd": 37.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807577253441",
+  "sourceColor": "Kangaroo Brown"
+},
+{
+  "slug": "mirella-crescent-shoulder-bag-brown-large",
+  "name": "Mirella Crescent Shoulder Bag — Brown Large",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 82.9,
+  "colors": [
+    "#655045"
+  ],
+  "colorNames": [
+    "Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A large crescent shoulder bag with a repeating pattern, dark brown trim and an adjustable strap. The interior photo shows the large size on the left.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/mirella-crescent-shoulder-bag-brown-large/front.webp",
+    "/products/mirella-crescent-shoulder-bag-brown-large/back.webp",
+    "/products/mirella-crescent-shoulder-bag-brown-large/left.webp",
+    "/products/mirella-crescent-shoulder-bag-brown-large/right.webp",
+    "/products/mirella-crescent-shoulder-bag-brown-large/inside.webp"
+  ],
+  "stock": 19,
+  "unitCostUsd": 27.48,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809762838771",
+  "sourceColor": "Brown L"
+},
+{
+  "slug": "mirella-crescent-shoulder-bag-brown-small",
+  "name": "Mirella Crescent Shoulder Bag — Brown Small",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 78.9,
+  "colors": [
+    "#655045"
+  ],
+  "colorNames": [
+    "Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact crescent shoulder bag with a repeating pattern, dark brown trim and an adjustable strap. The interior photo shows the small size on the right.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/mirella-crescent-shoulder-bag-brown-small/front.webp",
+    "/products/mirella-crescent-shoulder-bag-brown-small/back.webp",
+    "/products/mirella-crescent-shoulder-bag-brown-small/left.webp",
+    "/products/mirella-crescent-shoulder-bag-brown-small/right.webp",
+    "/products/mirella-crescent-shoulder-bag-brown-small/inside.webp"
+  ],
+  "stock": 19,
+  "unitCostUsd": 26.11,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809762838771",
+  "sourceColor": "Brown S"
+},
+{
+  "slug": "mirella-crescent-shoulder-bag-khaki-large",
+  "name": "Mirella Crescent Shoulder Bag — Khaki Large",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 82.9,
+  "colors": [
+    "#9A876C"
+  ],
+  "colorNames": [
+    "Khaki"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A large crescent shoulder bag with a repeating pattern, khaki trim and an adjustable strap. The interior photo shows the same large model in brown on the left.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/mirella-crescent-shoulder-bag-khaki-large/front.webp",
+    "/products/mirella-crescent-shoulder-bag-khaki-large/back.webp",
+    "/products/mirella-crescent-shoulder-bag-khaki-large/left.webp",
+    "/products/mirella-crescent-shoulder-bag-khaki-large/right.webp",
+    "/products/mirella-crescent-shoulder-bag-khaki-large/inside.webp"
+  ],
+  "stock": 18,
+  "unitCostUsd": 27.48,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809762838771",
+  "sourceColor": "Khaki L"
+},
+{
+  "slug": "mirella-crescent-shoulder-bag-khaki-small",
+  "name": "Mirella Crescent Shoulder Bag — Khaki Small",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 78.9,
+  "colors": [
+    "#9A876C"
+  ],
+  "colorNames": [
+    "Khaki"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact crescent shoulder bag with a repeating pattern, khaki trim and an adjustable strap. The interior photo shows the same small model in brown on the right.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/mirella-crescent-shoulder-bag-khaki-small/front.webp",
+    "/products/mirella-crescent-shoulder-bag-khaki-small/back.webp",
+    "/products/mirella-crescent-shoulder-bag-khaki-small/left.webp",
+    "/products/mirella-crescent-shoulder-bag-khaki-small/right.webp",
+    "/products/mirella-crescent-shoulder-bag-khaki-small/inside.webp"
+  ],
+  "stock": 19,
+  "unitCostUsd": 26.11,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809762838771",
+  "sourceColor": "Khaki S"
 }
 ];
 
@@ -31170,6 +31374,13 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "nerissa-embossed-shoulder-tote-black",
+  "caldera-panelled-shoulder-tote-chocolate",
+  "mirella-crescent-shoulder-bag-brown-large",
+  "mirella-crescent-shoulder-bag-brown-small",
+  "mirella-crescent-shoulder-bag-khaki-large",
+  "mirella-crescent-shoulder-bag-khaki-small",
+
   "ravelle-single-compartment-crossbody-bag-black",
 
   "aleria-draped-cold-shoulder-midi-dress-black",
