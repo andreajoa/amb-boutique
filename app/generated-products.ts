@@ -30032,6 +30032,368 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256809295478521",
   "sourceColor": "Black"
+},
+{
+  "slug": "melisse-lapel-knit-midi-dress-light-grey",
+  "name": "Melisse Lapel Knit Midi Dress — Light Grey",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 138.9,
+  "colors": [
+    "#C9C2B9"
+  ],
+  "colorNames": [
+    "Light Grey"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted knit midi dress with a V-shaped lapel collar and long sleeves.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/melisse-lapel-knit-midi-dress-light-grey/front.webp",
+    "/products/melisse-lapel-knit-midi-dress-light-grey/back.webp",
+    "/products/melisse-lapel-knit-midi-dress-light-grey/left.webp",
+    "/products/melisse-lapel-knit-midi-dress-light-grey/right.webp"
+  ],
+  "stock": 2994,
+  "unitCostUsd": 46.06,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810035548763",
+  "sourceColor": "05 Light Grey"
+},
+{
+  "slug": "evelisse-plunge-slit-maxi-dress-blush-champagne",
+  "name": "Evelisse Plunge Slit Maxi Dress — Blush Champagne",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 80.9,
+  "colors": [
+    "#D2AAAB"
+  ],
+  "colorNames": [
+    "Blush Champagne"
+  ],
+  "sizes": [
+    "XS（old）",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A flowing blush-champagne maxi dress with slender straps, a plunging bodice and a front slit.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/evelisse-plunge-slit-maxi-dress-blush-champagne/front.webp",
+    "/products/evelisse-plunge-slit-maxi-dress-blush-champagne/back.webp",
+    "/products/evelisse-plunge-slit-maxi-dress-blush-champagne/left.webp",
+    "/products/evelisse-plunge-slit-maxi-dress-blush-champagne/right.webp"
+  ],
+  "stock": 1006,
+  "unitCostUsd": 26.79,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256803434858469",
+  "sourceColor": "Champagne"
+},
+{
+  "slug": "ardelle-gathered-pin-dot-blouse-ivory",
+  "name": "Ardelle Gathered Polka-Dot Blouse — Ivory",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 56.9,
+  "colors": [
+    "#E7DECB"
+  ],
+  "colorNames": [
+    "Ivory and Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A relaxed ivory blouse with black polka dots, a gathered yoke and long sleeves.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/ardelle-gathered-pin-dot-blouse-ivory/front.webp",
+    "/products/ardelle-gathered-pin-dot-blouse-ivory/back.webp",
+    "/products/ardelle-gathered-pin-dot-blouse-ivory/left.webp",
+    "/products/ardelle-gathered-pin-dot-blouse-ivory/right.webp"
+  ],
+  "stock": 59963,
+  "unitCostUsd": 18.73,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807281435676",
+  "sourceColor": "white polka dot"
+},
+{
+  "slug": "velenne-cowl-velvet-mini-dress-gold",
+  "name": "Velenne Cowl Velvet Mini Dress — Gold",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 83.9,
+  "colors": [
+    "#A87735"
+  ],
+  "colorNames": [
+    "Gold"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A gold velvet mini dress with a draped cowl neckline and long sequined sleeves.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/velenne-cowl-velvet-mini-dress-gold/front.webp",
+    "/products/velenne-cowl-velvet-mini-dress-gold/back.webp",
+    "/products/velenne-cowl-velvet-mini-dress-gold/left.webp",
+    "/products/velenne-cowl-velvet-mini-dress-gold/right.webp"
+  ],
+  "stock": 380,
+  "unitCostUsd": 27.81,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810207199601",
+  "sourceColor": "15"
+},
+{
+  "slug": "beloria-swirl-print-maxi-dress-lettering",
+  "name": "Beloria Swirl Print Maxi Dress — Lettering",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 47.9,
+  "colors": [
+    "#DEDBD5"
+  ],
+  "colorNames": [
+    "Black and White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless maxi dress covered in black handwritten lettering against white.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/beloria-swirl-print-maxi-dress-lettering/front.webp",
+    "/products/beloria-swirl-print-maxi-dress-lettering/back.webp",
+    "/products/beloria-swirl-print-maxi-dress-lettering/left.webp",
+    "/products/beloria-swirl-print-maxi-dress-lettering/right.webp"
+  ],
+  "stock": 600,
+  "unitCostUsd": 15.94,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809943426273",
+  "sourceColor": "Ro5"
+},
+{
+  "slug": "evelisse-plunge-slit-maxi-dress-fuchsia",
+  "name": "Evelisse Plunge Slit Maxi Dress — Fuchsia",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 80.9,
+  "colors": [
+    "#C83180"
+  ],
+  "colorNames": [
+    "Fuchsia"
+  ],
+  "sizes": [
+    "XS（old）",
+    "S",
+    "M"
+  ],
+  "description": "A flowing fuchsia maxi dress with slender straps, a plunging bodice and a front slit.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/evelisse-plunge-slit-maxi-dress-fuchsia/front.webp",
+    "/products/evelisse-plunge-slit-maxi-dress-fuchsia/back.webp",
+    "/products/evelisse-plunge-slit-maxi-dress-fuchsia/left.webp",
+    "/products/evelisse-plunge-slit-maxi-dress-fuchsia/right.webp"
+  ],
+  "stock": 36,
+  "unitCostUsd": 26.79,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256803434858469",
+  "sourceColor": "Rose Red"
+},
+{
+  "slug": "velora-batwing-kimono-cover-up-black",
+  "name": "Velora Batwing Kimono Cover-Up — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 100.9,
+  "colors": [
+    "#232426"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A long open-front black cover-up with wide, softly draped sleeves.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/velora-batwing-kimono-cover-up-black/front.webp",
+    "/products/velora-batwing-kimono-cover-up-black/back.webp",
+    "/products/velora-batwing-kimono-cover-up-black/left.webp",
+    "/products/velora-batwing-kimono-cover-up-black/right.webp"
+  ],
+  "stock": 490,
+  "unitCostUsd": 33.61,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810215849474",
+  "sourceColor": "2"
+},
+{
+  "slug": "darcelle-distressed-raw-hem-denim-cutoffs-black",
+  "name": "Darcelle Distressed Raw-Hem Denim Cutoffs — Black",
+  "category": "Shorts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 58.9,
+  "colors": [
+    "#222222"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "High-waisted black denim cutoffs with frayed raw hems and localized distressing.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/darcelle-distressed-raw-hem-denim-cutoffs-black/front.webp",
+    "/products/darcelle-distressed-raw-hem-denim-cutoffs-black/back.webp",
+    "/products/darcelle-distressed-raw-hem-denim-cutoffs-black/left.webp",
+    "/products/darcelle-distressed-raw-hem-denim-cutoffs-black/right.webp"
+  ],
+  "stock": 47,
+  "unitCostUsd": 19.61,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809801744851",
+  "sourceColor": "black"
+},
+{
+  "slug": "ravelle-embossed-satchel-forest",
+  "name": "Ravelle Embossed Satchel — Forest",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 101.9,
+  "colors": [
+    "#34533C"
+  ],
+  "colorNames": [
+    "Forest and Cognac"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "An embossed forest-green satchel with cognac trim and a detachable strap. The interior photo shows the compartment layout of the same model in black.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/ravelle-embossed-satchel-forest/front.webp",
+    "/products/ravelle-embossed-satchel-forest/back.webp",
+    "/products/ravelle-embossed-satchel-forest/left.webp",
+    "/products/ravelle-embossed-satchel-forest/right.webp",
+    "/products/ravelle-embossed-satchel-forest/inside.webp"
+  ],
+  "stock": 3,
+  "unitCostUsd": 33.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805030578196",
+  "sourceColor": "Green"
+},
+{
+  "slug": "ravelle-bar-handle-satchel-cognac",
+  "name": "Ravelle Bar-Handle Satchel — Cognac",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 85.9,
+  "colors": [
+    "#AA663E"
+  ],
+  "colorNames": [
+    "Cognac"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A cognac satchel with a short bar handle, rounded panels and an adjustable shoulder strap. The interior photo shows the compartment layout of the same model in black.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/ravelle-bar-handle-satchel-cognac/front.webp",
+    "/products/ravelle-bar-handle-satchel-cognac/back.webp",
+    "/products/ravelle-bar-handle-satchel-cognac/left.webp",
+    "/products/ravelle-bar-handle-satchel-cognac/right.webp",
+    "/products/ravelle-bar-handle-satchel-cognac/inside.webp"
+  ],
+  "stock": 91991,
+  "unitCostUsd": 28.38,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805030578196",
+  "sourceColor": "Yellow"
 }
 ];
 
@@ -30041,6 +30403,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "melisse-lapel-knit-midi-dress-light-grey",
+  "evelisse-plunge-slit-maxi-dress-blush-champagne",
+  "ardelle-gathered-pin-dot-blouse-ivory",
+  "velenne-cowl-velvet-mini-dress-gold",
+  "beloria-swirl-print-maxi-dress-lettering",
+  "evelisse-plunge-slit-maxi-dress-fuchsia",
+  "velora-batwing-kimono-cover-up-black",
+  "darcelle-distressed-raw-hem-denim-cutoffs-black",
+  "ravelle-embossed-satchel-forest",
+  "ravelle-bar-handle-satchel-cognac",
+
   "aleria-draped-cold-shoulder-midi-dress-ochre",
   "andria-pin-dot-halter-mini-dress-black",
   "celoria-pleated-floral-maxi-dress-blue-sage",

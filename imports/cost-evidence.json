@@ -97,6 +97,10 @@
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
   },
+  "ardelle-gathered-pin-dot-blouse-ivory": {
+   "landedCostUsd": 18.73,
+   "source": "catalog-20261123-batch28-bindings.json"
+  },
   "arden-utility-romper": {
    "landedCostUsd": 48.8,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
@@ -236,6 +240,10 @@
   "beloria-swirl-print-maxi-dress-ink-sweep": {
    "landedCostUsd": 15.94,
    "source": "catalog-20261123-batch26-bindings.json"
+  },
+  "beloria-swirl-print-maxi-dress-lettering": {
+   "landedCostUsd": 15.94,
+   "source": "catalog-20261123-batch28-bindings.json"
   },
   "beloria-swirl-print-maxi-dress-monochrome-geometric": {
    "landedCostUsd": 15.94,
@@ -597,6 +605,10 @@
    "landedCostUsd": 27.08,
    "source": "catalog-20261123-batch25-bindings.json"
   },
+  "darcelle-distressed-raw-hem-denim-cutoffs-black": {
+   "landedCostUsd": 19.61,
+   "source": "catalog-20261123-batch28-bindings.json"
+  },
   "daria-denim-shorts": {
    "landedCostUsd": 22.23,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
@@ -816,6 +828,14 @@
   "evelisse-cowl-neck-velvet-mini-dress-royal-blue-style-06": {
    "landedCostUsd": 27.81,
    "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "evelisse-plunge-slit-maxi-dress-blush-champagne": {
+   "landedCostUsd": 26.79,
+   "source": "catalog-20261123-batch28-bindings.json"
+  },
+  "evelisse-plunge-slit-maxi-dress-fuchsia": {
+   "landedCostUsd": 26.79,
+   "source": "catalog-20261123-batch28-bindings.json"
   },
   "evora-navy-halter-midi-dress": {
    "landedCostUsd": 24.44,
@@ -1344,6 +1364,10 @@
   "mavella-leopard-maxi-kaftan-leopard": {
    "landedCostUsd": 31.53,
    "source": "catalog-20261123-batch22-bindings.json"
+  },
+  "melisse-lapel-knit-midi-dress-light-grey": {
+   "landedCostUsd": 46.06,
+   "source": "catalog-20261123-batch28-bindings.json"
   },
   "melrisa-ruched-high-neck-maxi-dress-black": {
    "landedCostUsd": 49,
@@ -1885,6 +1909,14 @@
    "landedCostUsd": 13.69,
    "source": "catalog-20261025-batch04-supplier-bindings.json"
   },
+  "ravelle-bar-handle-satchel-cognac": {
+   "landedCostUsd": 28.38,
+   "source": "catalog-20261123-batch28-bindings.json"
+  },
+  "ravelle-embossed-satchel-forest": {
+   "landedCostUsd": 33.88,
+   "source": "catalog-20261123-batch28-bindings.json"
+  },
   "ravelle-single-compartment-crossbody-bag-burgundy": {
    "landedCostUsd": 13.94,
    "source": "catalog-20261123-batch15-bindings.json"
@@ -2333,6 +2365,10 @@
    "landedCostUsd": 47.35,
    "source": "markup-3x-20261025 (pilot)"
   },
+  "velenne-cowl-velvet-mini-dress-gold": {
+   "landedCostUsd": 27.81,
+   "source": "catalog-20261123-batch28-bindings.json"
+  },
   "velloria-single-button-flare-suit-vermilion": {
    "landedCostUsd": 48.99,
    "source": "catalog-20261123-batch19-bindings.json"
@@ -2340,6 +2376,10 @@
   "velloria-single-button-flare-suit-white": {
    "landedCostUsd": 48.99,
    "source": "catalog-20261123-batch19-bindings.json"
+  },
+  "velora-batwing-kimono-cover-up-black": {
+   "landedCostUsd": 33.61,
+   "source": "catalog-20261123-batch28-bindings.json"
   },
   "venus-trousers": {
    "landedCostUsd": 47.35,
