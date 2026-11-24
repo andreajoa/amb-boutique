@@ -2,10 +2,20 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
+      "slug": "celenne-lantern-sleeve-knit-dress-heather-gray",
+      "name": "Celenne Lantern Sleeve Knit Dress — Heather Gray",
+      "image": "/products/celenne-lantern-sleeve-knit-dress-heather-gray/front.webp",
+      "eyebrow": "NEW ARRIVAL",
+      "copy": "A knee-length knit dress with a round neckline, full lantern sleeves, long ribbed cuffs and a fitted skirt.",
+      "category": "Dresses",
+      "arrivalRank": 976,
+      "classification": "verified-model"
+    },
+    {
       "slug": "avelora-ribbed-mock-neck-midi-dress-olive",
       "name": "Avelora Ribbed Mock-Neck Midi Dress — Olive",
       "image": "/products/avelora-ribbed-mock-neck-midi-dress-olive/front.webp",
-      "eyebrow": "NEW ARRIVAL",
+      "eyebrow": "THE SOFT STATEMENT",
       "copy": "A ribbed knit midi dress with a short mock neckline, slim sleeves, a fitted waist and a softly flared skirt.",
       "category": "Dresses",
       "arrivalRank": 956,
@@ -15,7 +25,7 @@
       "slug": "viana-button-fly-denim-maxi-skirt-light-wash",
       "name": "Viana Button-Fly Denim Maxi Skirt — Light Wash",
       "image": "/products/viana-button-fly-denim-maxi-skirt-light-wash/front.webp",
-      "eyebrow": "THE SOFT STATEMENT",
+      "eyebrow": "CONFIDENT COLOR",
       "copy": "A high-waisted light-wash denim maxi skirt with a flared panelled silhouette, contrast stitching and an exposed button fly.",
       "category": "Skirts",
       "arrivalRank": 946,
@@ -29,16 +39,6 @@
       "copy": "Delicate floral eyelet tailored into a sculpted sleeveless vest and sweeping wide-leg trouser set.",
       "category": "Sets",
       "arrivalRank": 836,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "solenne-printed-beach-cover-up-indigo-mosaic",
-      "name": "Solenne Printed Beach Cover-Up — Indigo Mosaic",
-      "image": "/products/solenne-printed-beach-cover-up-indigo-mosaic/front.webp",
-      "eyebrow": "RESORT ESCAPE",
-      "copy": "Fluid indigo mosaic prints and sweeping draped sleeves designed for effortless coastal movement.",
-      "category": "Dresses",
-      "arrivalRank": 833,
       "classification": "verified-model"
     }
   ]

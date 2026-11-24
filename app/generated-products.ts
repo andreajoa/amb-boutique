@@ -25383,6 +25383,366 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256807983166816",
   "sourceColor": "YELLOW"
+},
+{
+  "slug": "celenne-lantern-sleeve-knit-dress-heather-gray",
+  "name": "Celenne Lantern Sleeve Knit Dress — Heather Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 105.9,
+  "colors": [
+    "#757477"
+  ],
+  "colorNames": [
+    "Heather Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A knee-length knit dress with a round neckline, full lantern sleeves, long ribbed cuffs and a fitted skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/celenne-lantern-sleeve-knit-dress-heather-gray/front.webp",
+    "/products/celenne-lantern-sleeve-knit-dress-heather-gray/back.webp",
+    "/products/celenne-lantern-sleeve-knit-dress-heather-gray/left.webp",
+    "/products/celenne-lantern-sleeve-knit-dress-heather-gray/right.webp"
+  ],
+  "stock": 3973,
+  "unitCostUsd": 35.25,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809451783349",
+  "sourceColor": "grey"
+},
+{
+  "slug": "ravelle-single-compartment-crossbody-bag-burgundy",
+  "name": "Ravelle Single-Compartment Crossbody Bag — Burgundy",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 41.9,
+  "colors": [
+    "#6c2833"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact burgundy crossbody with a zip-top main compartment, stitched front panels and a detachable shoulder strap. The gallery shows the lining and inside pockets.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/ravelle-single-compartment-crossbody-bag-burgundy/front.webp",
+    "/products/ravelle-single-compartment-crossbody-bag-burgundy/back.webp",
+    "/products/ravelle-single-compartment-crossbody-bag-burgundy/left.webp",
+    "/products/ravelle-single-compartment-crossbody-bag-burgundy/right.webp",
+    "/products/ravelle-single-compartment-crossbody-bag-burgundy/inside.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 13.94,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805030578196",
+  "sourceColor": "1 Layer Burgundy"
+},
+{
+  "slug": "evania-diamond-cable-turtleneck-dress-oatmeal",
+  "name": "Evania Diamond Cable Turtleneck Dress — Oatmeal",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 101.9,
+  "colors": [
+    "#d9caba"
+  ],
+  "colorNames": [
+    "Oatmeal"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted diamond cable-knit dress with a folded turtleneck, long sleeves, a wide ribbed hem and a short side notch.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/evania-diamond-cable-turtleneck-dress-oatmeal/front.webp",
+    "/products/evania-diamond-cable-turtleneck-dress-oatmeal/back.webp",
+    "/products/evania-diamond-cable-turtleneck-dress-oatmeal/left.webp",
+    "/products/evania-diamond-cable-turtleneck-dress-oatmeal/right.webp"
+  ],
+  "stock": 2667,
+  "unitCostUsd": 33.83,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807098504897",
+  "sourceColor": "Apricocolor LYQ262"
+},
+{
+  "slug": "lurene-belted-turtleneck-knit-dress-sky-blue",
+  "name": "Lurene Belted Turtleneck Knit Dress — Sky Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 86.9,
+  "colors": [
+    "#37b5cc"
+  ],
+  "colorNames": [
+    "Sky Blue"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A fitted ribbed knit dress with a folded turtleneck, long sleeves and a separate black rectangular-buckle belt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lurene-belted-turtleneck-knit-dress-sky-blue/front.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-sky-blue/back.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-sky-blue/left.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-sky-blue/right.webp"
+  ],
+  "stock": 199,
+  "unitCostUsd": 28.83,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802700278618",
+  "sourceColor": "Sky Blue"
+},
+{
+  "slug": "evania-diamond-cable-turtleneck-dress-black",
+  "name": "Evania Diamond Cable Turtleneck Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 101.9,
+  "colors": [
+    "#252525"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted diamond cable-knit dress with a folded turtleneck, long sleeves, a wide ribbed hem and a short side notch.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/evania-diamond-cable-turtleneck-dress-black/front.webp",
+    "/products/evania-diamond-cable-turtleneck-dress-black/back.webp",
+    "/products/evania-diamond-cable-turtleneck-dress-black/left.webp",
+    "/products/evania-diamond-cable-turtleneck-dress-black/right.webp"
+  ],
+  "stock": 2746,
+  "unitCostUsd": 33.83,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807098504897",
+  "sourceColor": "Black LYQ262"
+},
+{
+  "slug": "celenne-lantern-sleeve-knit-dress-black",
+  "name": "Celenne Lantern Sleeve Knit Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 105.9,
+  "colors": [
+    "#242424"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A knee-length knit dress with a round neckline, full lantern sleeves, long ribbed cuffs and a fitted skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/celenne-lantern-sleeve-knit-dress-black/front.webp",
+    "/products/celenne-lantern-sleeve-knit-dress-black/back.webp",
+    "/products/celenne-lantern-sleeve-knit-dress-black/left.webp",
+    "/products/celenne-lantern-sleeve-knit-dress-black/right.webp"
+  ],
+  "stock": 3968,
+  "unitCostUsd": 35.25,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809451783349",
+  "sourceColor": "Black"
+},
+{
+  "slug": "evania-diamond-cable-turtleneck-dress-heather-gray",
+  "name": "Evania Diamond Cable Turtleneck Dress — Heather Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 101.9,
+  "colors": [
+    "#777779"
+  ],
+  "colorNames": [
+    "Heather Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted diamond cable-knit dress with a folded turtleneck, long sleeves, a wide ribbed hem and a short side notch.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/evania-diamond-cable-turtleneck-dress-heather-gray/front.webp",
+    "/products/evania-diamond-cable-turtleneck-dress-heather-gray/back.webp",
+    "/products/evania-diamond-cable-turtleneck-dress-heather-gray/left.webp",
+    "/products/evania-diamond-cable-turtleneck-dress-heather-gray/right.webp"
+  ],
+  "stock": 2773,
+  "unitCostUsd": 33.83,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807098504897",
+  "sourceColor": "GRAY LYQ262"
+},
+{
+  "slug": "celenne-lantern-sleeve-knit-dress-raspberry",
+  "name": "Celenne Lantern Sleeve Knit Dress — Raspberry",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 105.9,
+  "colors": [
+    "#a51c59"
+  ],
+  "colorNames": [
+    "Raspberry"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A knee-length knit dress with a round neckline, full lantern sleeves, long ribbed cuffs and a fitted skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/celenne-lantern-sleeve-knit-dress-raspberry/front.webp",
+    "/products/celenne-lantern-sleeve-knit-dress-raspberry/back.webp",
+    "/products/celenne-lantern-sleeve-knit-dress-raspberry/left.webp",
+    "/products/celenne-lantern-sleeve-knit-dress-raspberry/right.webp"
+  ],
+  "stock": 3971,
+  "unitCostUsd": 35.25,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809451783349",
+  "sourceColor": "rose red"
+},
+{
+  "slug": "evania-diamond-cable-turtleneck-dress-taupe",
+  "name": "Evania Diamond Cable Turtleneck Dress — Taupe",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 101.9,
+  "colors": [
+    "#957859"
+  ],
+  "colorNames": [
+    "Taupe"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted diamond cable-knit dress with a folded turtleneck, long sleeves, a wide ribbed hem and a short side notch.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/evania-diamond-cable-turtleneck-dress-taupe/front.webp",
+    "/products/evania-diamond-cable-turtleneck-dress-taupe/back.webp",
+    "/products/evania-diamond-cable-turtleneck-dress-taupe/left.webp",
+    "/products/evania-diamond-cable-turtleneck-dress-taupe/right.webp"
+  ],
+  "stock": 2744,
+  "unitCostUsd": 33.83,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807098504897",
+  "sourceColor": "Khaki  LYQ262"
+},
+{
+  "slug": "evania-diamond-cable-turtleneck-dress-mustard",
+  "name": "Evania Diamond Cable Turtleneck Dress — Mustard",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 101.9,
+  "colors": [
+    "#a76f20"
+  ],
+  "colorNames": [
+    "Mustard"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted diamond cable-knit dress with a folded turtleneck, long sleeves, a wide ribbed hem and a short side notch.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/evania-diamond-cable-turtleneck-dress-mustard/front.webp",
+    "/products/evania-diamond-cable-turtleneck-dress-mustard/back.webp",
+    "/products/evania-diamond-cable-turtleneck-dress-mustard/left.webp",
+    "/products/evania-diamond-cable-turtleneck-dress-mustard/right.webp"
+  ],
+  "stock": 2754,
+  "unitCostUsd": 33.83,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807098504897",
+  "sourceColor": "Yellow LYQ262"
 }
 ];
 
@@ -25392,6 +25752,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "celenne-lantern-sleeve-knit-dress-heather-gray",
+  "ravelle-single-compartment-crossbody-bag-burgundy",
+  "evania-diamond-cable-turtleneck-dress-oatmeal",
+  "lurene-belted-turtleneck-knit-dress-sky-blue",
+  "evania-diamond-cable-turtleneck-dress-black",
+  "celenne-lantern-sleeve-knit-dress-black",
+  "evania-diamond-cable-turtleneck-dress-heather-gray",
+  "celenne-lantern-sleeve-knit-dress-raspberry",
+  "evania-diamond-cable-turtleneck-dress-taupe",
+  "evania-diamond-cable-turtleneck-dress-mustard",
+
   "rivella-two-buckle-knit-dress-deep-blue",
   "camille-multi-pocket-crossbody-black",
   "lurene-belted-turtleneck-knit-dress-white",
