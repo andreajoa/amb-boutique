@@ -30756,6 +30756,377 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256808281141298",
   "sourceColor": "chang01"
+},
+{
+  "slug": "aleria-draped-cold-shoulder-midi-dress-black",
+  "name": "Aleria Draped Cold-Shoulder Midi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#222125"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted black midi dress with a draped high neckline and cutouts at the shoulders.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/aleria-draped-cold-shoulder-midi-dress-black/front.webp",
+    "/products/aleria-draped-cold-shoulder-midi-dress-black/back.webp",
+    "/products/aleria-draped-cold-shoulder-midi-dress-black/left.webp",
+    "/products/aleria-draped-cold-shoulder-midi-dress-black/right.webp"
+  ],
+  "stock": 5984,
+  "unitCostUsd": 22.57,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806664357699",
+  "sourceColor": "black"
+},
+{
+  "slug": "amarelle-draped-halter-top-scarlet",
+  "name": "Amarelle Draped Halter Top — Scarlet",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 29.9,
+  "colors": [
+    "#C63A2D"
+  ],
+  "colorNames": [
+    "Scarlet"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A scarlet halter top with a soft draped front, a pointed hem and ties at the neck. The top is sold separately.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/amarelle-draped-halter-top-scarlet/front.webp",
+    "/products/amarelle-draped-halter-top-scarlet/back.webp",
+    "/products/amarelle-draped-halter-top-scarlet/left.webp",
+    "/products/amarelle-draped-halter-top-scarlet/right.webp"
+  ],
+  "stock": 19,
+  "unitCostUsd": 9.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812221598829",
+  "sourceColor": "top"
+},
+{
+  "slug": "lorielle-ruffled-corset-three-piece-set-espresso",
+  "name": "Lorielle Ruffled Corset Three-Piece Set — Espresso",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 255.9,
+  "colors": [
+    "#544342"
+  ],
+  "colorNames": [
+    "Espresso"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "An espresso three-piece set with an asymmetrically ruffled dress layer, a lace-up corset top and matching shorts.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lorielle-ruffled-corset-three-piece-set-espresso/front.webp",
+    "/products/lorielle-ruffled-corset-three-piece-set-espresso/back.webp",
+    "/products/lorielle-ruffled-corset-three-piece-set-espresso/left.webp",
+    "/products/lorielle-ruffled-corset-three-piece-set-espresso/right.webp"
+  ],
+  "stock": 3996,
+  "unitCostUsd": 85.21,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808412523178",
+  "sourceColor": "Coffee"
+},
+{
+  "slug": "marielle-diagonal-stripe-cover-up-set-mauve",
+  "name": "Marielle Diagonal-Stripe Cover-Up Set — Mauve",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 82.9,
+  "colors": [
+    "#AE7B82"
+  ],
+  "colorNames": [
+    "Mauve and Cream"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A two-piece striped cover-up with a cropped V-neck top, flared sleeves and an ankle-length skirt. The layer worn underneath is for styling.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/marielle-diagonal-stripe-cover-up-set-mauve/front.webp",
+    "/products/marielle-diagonal-stripe-cover-up-set-mauve/back.webp",
+    "/products/marielle-diagonal-stripe-cover-up-set-mauve/left.webp",
+    "/products/marielle-diagonal-stripe-cover-up-set-mauve/right.webp"
+  ],
+  "stock": 2729,
+  "unitCostUsd": 27.42,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810213097293",
+  "sourceColor": "BH25857K11"
+},
+{
+  "slug": "lorielle-ruffled-corset-three-piece-set-powder-blue",
+  "name": "Lorielle Ruffled Corset Three-Piece Set — Powder Blue",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 255.9,
+  "colors": [
+    "#BFCEDB"
+  ],
+  "colorNames": [
+    "Powder Blue"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A powder-blue three-piece set with an asymmetrically ruffled dress layer, a lace-up corset top and matching shorts.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lorielle-ruffled-corset-three-piece-set-powder-blue/front.webp",
+    "/products/lorielle-ruffled-corset-three-piece-set-powder-blue/back.webp",
+    "/products/lorielle-ruffled-corset-three-piece-set-powder-blue/left.webp",
+    "/products/lorielle-ruffled-corset-three-piece-set-powder-blue/right.webp"
+  ],
+  "stock": 3986,
+  "unitCostUsd": 85.21,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808412523178",
+  "sourceColor": "Light Blue"
+},
+{
+  "slug": "karissa-geometric-print-maxi-dress-chartreuse-olive",
+  "name": "Karissa Geometric Print Maxi Dress — Chartreuse and Olive",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 45.9,
+  "colors": [
+    "#98983F"
+  ],
+  "colorNames": [
+    "Chartreuse and Olive"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless maxi dress with chartreuse and olive geometric bands.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/karissa-geometric-print-maxi-dress-chartreuse-olive/front.webp",
+    "/products/karissa-geometric-print-maxi-dress-chartreuse-olive/back.webp",
+    "/products/karissa-geometric-print-maxi-dress-chartreuse-olive/left.webp",
+    "/products/karissa-geometric-print-maxi-dress-chartreuse-olive/right.webp"
+  ],
+  "stock": 5983,
+  "unitCostUsd": 15.23,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808281141298",
+  "sourceColor": "chang00"
+},
+{
+  "slug": "karissa-geometric-print-maxi-dress-scarlet-ochre",
+  "name": "Karissa Geometric Print Maxi Dress — Scarlet and Ochre",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 45.9,
+  "colors": [
+    "#A55D3D"
+  ],
+  "colorNames": [
+    "Scarlet and Ochre"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless maxi dress with diagonal scarlet and ochre geometric panels.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/karissa-geometric-print-maxi-dress-scarlet-ochre/front.webp",
+    "/products/karissa-geometric-print-maxi-dress-scarlet-ochre/back.webp",
+    "/products/karissa-geometric-print-maxi-dress-scarlet-ochre/left.webp",
+    "/products/karissa-geometric-print-maxi-dress-scarlet-ochre/right.webp"
+  ],
+  "stock": 5991,
+  "unitCostUsd": 15.23,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808281141298",
+  "sourceColor": "chang02"
+},
+{
+  "slug": "karissa-geometric-print-maxi-dress-jade-citrus",
+  "name": "Karissa Geometric Print Maxi Dress — Jade and Citrus",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 45.9,
+  "colors": [
+    "#627847"
+  ],
+  "colorNames": [
+    "Jade and Citrus"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless maxi dress with large jade, orange and citrus geometric blocks.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/karissa-geometric-print-maxi-dress-jade-citrus/front.webp",
+    "/products/karissa-geometric-print-maxi-dress-jade-citrus/back.webp",
+    "/products/karissa-geometric-print-maxi-dress-jade-citrus/left.webp",
+    "/products/karissa-geometric-print-maxi-dress-jade-citrus/right.webp"
+  ],
+  "stock": 5980,
+  "unitCostUsd": 15.23,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808281141298",
+  "sourceColor": "chang05"
+},
+{
+  "slug": "karissa-geometric-print-maxi-dress-bronze-walnut",
+  "name": "Karissa Geometric Print Maxi Dress — Bronze and Walnut",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 45.9,
+  "colors": [
+    "#795943"
+  ],
+  "colorNames": [
+    "Bronze and Walnut"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless maxi dress with bronze and walnut tones arranged in geometric panels.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/karissa-geometric-print-maxi-dress-bronze-walnut/front.webp",
+    "/products/karissa-geometric-print-maxi-dress-bronze-walnut/back.webp",
+    "/products/karissa-geometric-print-maxi-dress-bronze-walnut/left.webp",
+    "/products/karissa-geometric-print-maxi-dress-bronze-walnut/right.webp"
+  ],
+  "stock": 5988,
+  "unitCostUsd": 15.23,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808281141298",
+  "sourceColor": "chang06"
+},
+{
+  "slug": "karissa-geometric-print-maxi-dress-ink-ivory",
+  "name": "Karissa Geometric Print Maxi Dress — Ink and Ivory",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 45.9,
+  "colors": [
+    "#413D35"
+  ],
+  "colorNames": [
+    "Ink and Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless maxi dress with bold ink and ivory geometric forms.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/karissa-geometric-print-maxi-dress-ink-ivory/front.webp",
+    "/products/karissa-geometric-print-maxi-dress-ink-ivory/back.webp",
+    "/products/karissa-geometric-print-maxi-dress-ink-ivory/left.webp",
+    "/products/karissa-geometric-print-maxi-dress-ink-ivory/right.webp"
+  ],
+  "stock": 5978,
+  "unitCostUsd": 15.23,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808281141298",
+  "sourceColor": "chang07"
 }
 ];
 
@@ -30765,6 +31136,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "aleria-draped-cold-shoulder-midi-dress-black",
+  "amarelle-draped-halter-top-scarlet",
+  "lorielle-ruffled-corset-three-piece-set-espresso",
+  "marielle-diagonal-stripe-cover-up-set-mauve",
+  "lorielle-ruffled-corset-three-piece-set-powder-blue",
+  "karissa-geometric-print-maxi-dress-chartreuse-olive",
+  "karissa-geometric-print-maxi-dress-scarlet-ochre",
+  "karissa-geometric-print-maxi-dress-jade-citrus",
+  "karissa-geometric-print-maxi-dress-bronze-walnut",
+  "karissa-geometric-print-maxi-dress-ink-ivory",
+
   "esmerelle-mock-neck-draped-maxi-dress-white",
   "olivienne-beaded-drape-halter-maxi-dress-olive",
   "celesse-gathered-v-neck-kaftan-champagne",

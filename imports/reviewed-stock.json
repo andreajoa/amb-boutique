@@ -3476,5 +3476,96 @@
    "XXL": 998,
    "XXXL": 999
   }
+ },
+ "aleria-draped-cold-shoulder-midi-dress-black": {
+  "stockBySize": {
+   "XXL": 997,
+   "XL": 996,
+   "L": 998,
+   "M": 995,
+   "XXXL": 999,
+   "S": 999
+  }
+ },
+ "amarelle-draped-halter-top-scarlet": {
+  "stockBySize": {
+   "S": 3,
+   "M": 5,
+   "XS": 6,
+   "L": 5
+  }
+ },
+ "lorielle-ruffled-corset-three-piece-set-espresso": {
+  "stockBySize": {
+   "S": 999,
+   "XS": 999,
+   "L": 999,
+   "M": 999
+  }
+ },
+ "marielle-diagonal-stripe-cover-up-set-mauve": {
+  "stockBySize": {
+   "L": 944,
+   "S": 881,
+   "M": 904
+  }
+ },
+ "lorielle-ruffled-corset-three-piece-set-powder-blue": {
+  "stockBySize": {
+   "M": 995,
+   "L": 999,
+   "XS": 998,
+   "S": 994
+  }
+ },
+ "karissa-geometric-print-maxi-dress-chartreuse-olive": {
+  "stockBySize": {
+   "XXXL": 995,
+   "S": 999,
+   "M": 996,
+   "L": 998,
+   "XL": 997,
+   "XXL": 998
+  }
+ },
+ "karissa-geometric-print-maxi-dress-scarlet-ochre": {
+  "stockBySize": {
+   "M": 999,
+   "L": 997,
+   "XL": 998,
+   "XXL": 999,
+   "XXXL": 999,
+   "S": 999
+  }
+ },
+ "karissa-geometric-print-maxi-dress-jade-citrus": {
+  "stockBySize": {
+   "S": 998,
+   "M": 996,
+   "L": 993,
+   "XL": 997,
+   "XXL": 998,
+   "XXXL": 998
+  }
+ },
+ "karissa-geometric-print-maxi-dress-bronze-walnut": {
+  "stockBySize": {
+   "M": 998,
+   "L": 996,
+   "XL": 998,
+   "XXL": 998,
+   "XXXL": 999,
+   "S": 999
+  }
+ },
+ "karissa-geometric-print-maxi-dress-ink-ivory": {
+  "stockBySize": {
+   "XL": 996,
+   "XXL": 996,
+   "XXXL": 998,
+   "S": 995,
+   "M": 998,
+   "L": 995
+  }
  }
 }
