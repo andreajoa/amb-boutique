@@ -1,0 +1,263 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "celenne-lantern-sleeve-knit-dress-heather-gray",
+      "sourceProductId": "3256809451783349",
+      "sourceColor": "grey",
+      "supplierId": "cmwtop7i100o50jlnocx4rehw",
+      "sourceSkuIdsBySize": {
+        "S": "12000049718689701",
+        "L": "12000049718689703",
+        "M": "12000049718689702",
+        "XL": "12000049718689704"
+      },
+      "landedCostUsdBySize": {
+        "S": 35.25,
+        "L": 35.25,
+        "M": 35.25,
+        "XL": 35.25
+      },
+      "stockBySize": {
+        "S": 995,
+        "L": 989,
+        "M": 996,
+        "XL": 993
+      },
+      "retailPriceUsd": 105.9,
+      "verifiedAtUtc": "2026-11-23T21:09:02.493Z"
+    },
+    {
+      "slug": "ravelle-single-compartment-crossbody-bag-burgundy",
+      "sourceProductId": "3256805030578196",
+      "sourceColor": "1 Layer Burgundy",
+      "supplierId": "cmuw4iuft00ji04l2pm8zl6dk",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000039238054731"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 13.94
+      },
+      "stockBySize": {
+        "One Size": 1
+      },
+      "retailPriceUsd": 41.9,
+      "verifiedAtUtc": "2026-11-24T00:44:54.128Z"
+    },
+    {
+      "slug": "evania-diamond-cable-turtleneck-dress-oatmeal",
+      "sourceProductId": "3256807098504897",
+      "sourceColor": "Apricocolor LYQ262",
+      "supplierId": "cmwtojbs800iw0jlnf2hl7xcx",
+      "sourceSkuIdsBySize": {
+        "S": "12000040069518039",
+        "L": "12000040069518041",
+        "M": "12000040069518040",
+        "XXL": "12000040069518043",
+        "XL": "12000040069518042"
+      },
+      "landedCostUsdBySize": {
+        "S": 33.83,
+        "L": 33.83,
+        "M": 33.83,
+        "XXL": 33.83,
+        "XL": 33.83
+      },
+      "stockBySize": {
+        "S": 519,
+        "L": 539,
+        "M": 507,
+        "XXL": 552,
+        "XL": 550
+      },
+      "retailPriceUsd": 101.9,
+      "verifiedAtUtc": "2026-11-23T21:08:17.417Z"
+    },
+    {
+      "slug": "lurene-belted-turtleneck-knit-dress-sky-blue",
+      "sourceProductId": "3256802700278618",
+      "sourceColor": "Sky Blue",
+      "supplierId": "cmwtp9ela013c0jlnvh9ncie9",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000030569185641"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 28.83
+      },
+      "stockBySize": {
+        "One Size": 199
+      },
+      "retailPriceUsd": 86.9,
+      "verifiedAtUtc": "2026-11-23T21:07:02.437Z"
+    },
+    {
+      "slug": "evania-diamond-cable-turtleneck-dress-black",
+      "sourceProductId": "3256807098504897",
+      "sourceColor": "Black LYQ262",
+      "supplierId": "cmwtojbs800iw0jlnf2hl7xcx",
+      "sourceSkuIdsBySize": {
+        "M": "12000040069518055",
+        "S": "12000040069518054",
+        "XL": "12000040069518057",
+        "L": "12000040069518056",
+        "XXL": "12000040069518058"
+      },
+      "landedCostUsdBySize": {
+        "M": 33.83,
+        "S": 33.83,
+        "XL": 33.83,
+        "L": 33.83,
+        "XXL": 33.83
+      },
+      "stockBySize": {
+        "M": 542,
+        "S": 546,
+        "XL": 555,
+        "L": 546,
+        "XXL": 557
+      },
+      "retailPriceUsd": 101.9,
+      "verifiedAtUtc": "2026-11-23T21:08:17.417Z"
+    },
+    {
+      "slug": "celenne-lantern-sleeve-knit-dress-black",
+      "sourceProductId": "3256809451783349",
+      "sourceColor": "Black",
+      "supplierId": "cmwtop7i100o50jlnocx4rehw",
+      "sourceSkuIdsBySize": {
+        "XL": "12000049718689700",
+        "S": "12000049718689697",
+        "L": "12000049718689699",
+        "M": "12000049718689698"
+      },
+      "landedCostUsdBySize": {
+        "XL": 35.25,
+        "S": 35.25,
+        "L": 35.25,
+        "M": 35.25
+      },
+      "stockBySize": {
+        "XL": 993,
+        "S": 995,
+        "L": 986,
+        "M": 994
+      },
+      "retailPriceUsd": 105.9,
+      "verifiedAtUtc": "2026-11-23T21:09:02.493Z"
+    },
+    {
+      "slug": "evania-diamond-cable-turtleneck-dress-heather-gray",
+      "sourceProductId": "3256807098504897",
+      "sourceColor": "GRAY LYQ262",
+      "supplierId": "cmwtojbs800iw0jlnf2hl7xcx",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000040069518048",
+        "M": "12000040069518045",
+        "S": "12000040069518044",
+        "XL": "12000040069518047",
+        "L": "12000040069518046"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 33.83,
+        "M": 33.83,
+        "S": 33.83,
+        "XL": 33.83,
+        "L": 33.83
+      },
+      "stockBySize": {
+        "XXL": 562,
+        "M": 551,
+        "S": 548,
+        "XL": 558,
+        "L": 554
+      },
+      "retailPriceUsd": 101.9,
+      "verifiedAtUtc": "2026-11-23T21:08:17.417Z"
+    },
+    {
+      "slug": "celenne-lantern-sleeve-knit-dress-raspberry",
+      "sourceProductId": "3256809451783349",
+      "sourceColor": "rose red",
+      "supplierId": "cmwtop7i100o50jlnocx4rehw",
+      "sourceSkuIdsBySize": {
+        "XL": "12000049718689692",
+        "S": "12000049718689689",
+        "L": "12000049718689691",
+        "M": "12000049718689690"
+      },
+      "landedCostUsdBySize": {
+        "XL": 35.25,
+        "S": 35.25,
+        "L": 35.25,
+        "M": 35.25
+      },
+      "stockBySize": {
+        "XL": 995,
+        "S": 995,
+        "L": 988,
+        "M": 993
+      },
+      "retailPriceUsd": 105.9,
+      "verifiedAtUtc": "2026-11-23T21:09:02.493Z"
+    },
+    {
+      "slug": "evania-diamond-cable-turtleneck-dress-taupe",
+      "sourceProductId": "3256807098504897",
+      "sourceColor": "Khaki  LYQ262",
+      "supplierId": "cmwtojbs800iw0jlnf2hl7xcx",
+      "sourceSkuIdsBySize": {
+        "M": "12000040069518035",
+        "S": "12000040069518034",
+        "XL": "12000040069518037",
+        "L": "12000040069518036",
+        "XXL": "12000040069518038"
+      },
+      "landedCostUsdBySize": {
+        "M": 33.83,
+        "S": 33.83,
+        "XL": 33.83,
+        "L": 33.83,
+        "XXL": 33.83
+      },
+      "stockBySize": {
+        "M": 538,
+        "S": 543,
+        "XL": 556,
+        "L": 544,
+        "XXL": 563
+      },
+      "retailPriceUsd": 101.9,
+      "verifiedAtUtc": "2026-11-23T21:08:17.417Z"
+    },
+    {
+      "slug": "evania-diamond-cable-turtleneck-dress-mustard",
+      "sourceProductId": "3256807098504897",
+      "sourceColor": "Yellow LYQ262",
+      "supplierId": "cmwtojbs800iw0jlnf2hl7xcx",
+      "sourceSkuIdsBySize": {
+        "S": "12000040069518049",
+        "L": "12000040069518051",
+        "M": "12000040069518050",
+        "XXL": "12000040069518053",
+        "XL": "12000040069518052"
+      },
+      "landedCostUsdBySize": {
+        "S": 32.13,
+        "L": 33.83,
+        "M": 33.83,
+        "XXL": 33.83,
+        "XL": 33.83
+      },
+      "stockBySize": {
+        "S": 546,
+        "L": 550,
+        "M": 542,
+        "XXL": 558,
+        "XL": 558
+      },
+      "retailPriceUsd": 101.9,
+      "verifiedAtUtc": "2026-11-23T21:08:17.417Z"
+    }
+  ]
+}

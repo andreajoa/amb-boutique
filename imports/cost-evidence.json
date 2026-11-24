@@ -349,6 +349,18 @@
    "landedCostUsd": 19.52,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
   },
+  "celenne-lantern-sleeve-knit-dress-black": {
+   "landedCostUsd": 35.25,
+   "source": "catalog-20261123-batch15-bindings.json"
+  },
+  "celenne-lantern-sleeve-knit-dress-heather-gray": {
+   "landedCostUsd": 35.25,
+   "source": "catalog-20261123-batch15-bindings.json"
+  },
+  "celenne-lantern-sleeve-knit-dress-raspberry": {
+   "landedCostUsd": 35.25,
+   "source": "catalog-20261123-batch15-bindings.json"
+  },
   "celeste-vneck-print-midi-dress": {
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -656,6 +668,26 @@
   "emerald-satin-maxi-dress": {
    "landedCostUsd": 22.02,
    "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256807236337080|green, 2026-10-25T03:03:42.321Z) · identidade confirmada"
+  },
+  "evania-diamond-cable-turtleneck-dress-black": {
+   "landedCostUsd": 33.83,
+   "source": "catalog-20261123-batch15-bindings.json"
+  },
+  "evania-diamond-cable-turtleneck-dress-heather-gray": {
+   "landedCostUsd": 33.83,
+   "source": "catalog-20261123-batch15-bindings.json"
+  },
+  "evania-diamond-cable-turtleneck-dress-mustard": {
+   "landedCostUsd": 33.83,
+   "source": "catalog-20261123-batch15-bindings.json"
+  },
+  "evania-diamond-cable-turtleneck-dress-oatmeal": {
+   "landedCostUsd": 33.83,
+   "source": "catalog-20261123-batch15-bindings.json"
+  },
+  "evania-diamond-cable-turtleneck-dress-taupe": {
+   "landedCostUsd": 33.83,
+   "source": "catalog-20261123-batch15-bindings.json"
   },
   "evelisse-cowl-neck-velvet-mini-dress-black-style-22": {
    "landedCostUsd": 26.08,
@@ -984,6 +1016,10 @@
   "lurene-belted-turtleneck-knit-dress-black": {
    "landedCostUsd": 28.97,
    "source": "catalog-20261123-batch14-bindings.json"
+  },
+  "lurene-belted-turtleneck-knit-dress-sky-blue": {
+   "landedCostUsd": 28.83,
+   "source": "catalog-20261123-batch15-bindings.json"
   },
   "lurene-belted-turtleneck-knit-dress-white": {
    "landedCostUsd": 28.8,
@@ -1524,6 +1560,10 @@
   "prisma-swirl-swing-midi-dress": {
    "landedCostUsd": 13.69,
    "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "ravelle-single-compartment-crossbody-bag-burgundy": {
+   "landedCostUsd": 13.94,
+   "source": "catalog-20261123-batch15-bindings.json"
   },
   "ravenna-black-tiered-mermaid-gown": {
    "landedCostUsd": 149.38,

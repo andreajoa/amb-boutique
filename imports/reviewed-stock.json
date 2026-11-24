@@ -2306,5 +2306,84 @@
    "XXXL": 663,
    "XXL": 664
   }
+ },
+ "celenne-lantern-sleeve-knit-dress-heather-gray": {
+  "stockBySize": {
+   "S": 995,
+   "L": 989,
+   "M": 996,
+   "XL": 993
+  }
+ },
+ "ravelle-single-compartment-crossbody-bag-burgundy": {
+  "stockBySize": {
+   "One Size": 1
+  }
+ },
+ "evania-diamond-cable-turtleneck-dress-oatmeal": {
+  "stockBySize": {
+   "S": 519,
+   "L": 539,
+   "M": 507,
+   "XXL": 552,
+   "XL": 550
+  }
+ },
+ "lurene-belted-turtleneck-knit-dress-sky-blue": {
+  "stockBySize": {
+   "One Size": 199
+  }
+ },
+ "evania-diamond-cable-turtleneck-dress-black": {
+  "stockBySize": {
+   "M": 542,
+   "S": 546,
+   "XL": 555,
+   "L": 546,
+   "XXL": 557
+  }
+ },
+ "celenne-lantern-sleeve-knit-dress-black": {
+  "stockBySize": {
+   "XL": 993,
+   "S": 995,
+   "L": 986,
+   "M": 994
+  }
+ },
+ "evania-diamond-cable-turtleneck-dress-heather-gray": {
+  "stockBySize": {
+   "XXL": 562,
+   "M": 551,
+   "S": 548,
+   "XL": 558,
+   "L": 554
+  }
+ },
+ "celenne-lantern-sleeve-knit-dress-raspberry": {
+  "stockBySize": {
+   "XL": 995,
+   "S": 995,
+   "L": 988,
+   "M": 993
+  }
+ },
+ "evania-diamond-cable-turtleneck-dress-taupe": {
+  "stockBySize": {
+   "M": 538,
+   "S": 543,
+   "XL": 556,
+   "L": 544,
+   "XXL": 563
+  }
+ },
+ "evania-diamond-cable-turtleneck-dress-mustard": {
+  "stockBySize": {
+   "S": 546,
+   "L": 550,
+   "M": 542,
+   "XXL": 558,
+   "XL": 558
+  }
  }
 }
