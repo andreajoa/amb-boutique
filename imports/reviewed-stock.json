@@ -2492,5 +2492,85 @@
   "stockBySize": {
    "One Size": 199
   }
+ },
+ "thessa-asymmetric-button-knit-midi-dress-camel": {
+  "stockBySize": {
+   "L": 116,
+   "XL": 115,
+   "S": 119,
+   "M": 113,
+   "XXL": 113
+  }
+ },
+ "dorelle-deep-v-rib-knit-midi-dress-oatmeal": {
+  "stockBySize": {
+   "XL": 499,
+   "XXL": 500,
+   "XXXL": 499,
+   "S": 499,
+   "M": 498,
+   "L": 497
+  }
+ },
+ "serenne-high-neck-rib-knit-midi-dress-black": {
+  "stockBySize": {
+   "L": 87,
+   "M": 73,
+   "S": 68
+  }
+ },
+ "lurene-belted-turtleneck-knit-dress-tangerine": {
+  "stockBySize": {
+   "One Size": 200
+  }
+ },
+ "serenne-high-neck-rib-knit-mini-dress-black": {
+  "stockBySize": {
+   "M": 94,
+   "S": 93,
+   "L": 99
+  }
+ },
+ "serenne-high-neck-rib-knit-midi-dress-ivory": {
+  "stockBySize": {
+   "S": 47,
+   "L": 75,
+   "M": 72
+  }
+ },
+ "dorelle-deep-v-rib-knit-midi-dress-black": {
+  "stockBySize": {
+   "XXL": 500,
+   "XL": 500,
+   "L": 494,
+   "M": 498,
+   "XXXL": 498,
+   "S": 495
+  }
+ },
+ "dorelle-deep-v-rib-knit-midi-dress-heather-gray": {
+  "stockBySize": {
+   "L": 495,
+   "M": 499,
+   "S": 500,
+   "XXXL": 500,
+   "XXL": 500,
+   "XL": 499
+  }
+ },
+ "dorelle-deep-v-rib-knit-midi-dress-wine-red": {
+  "stockBySize": {
+   "XXXL": 500,
+   "S": 498,
+   "XXL": 500,
+   "XL": 500,
+   "L": 499,
+   "M": 499
+  }
+ },
+ "lurene-belted-turtleneck-knit-dress-golden-yellow": {
+  "stockBySize": {
+   "One Size": 200
+  }
  }
 }

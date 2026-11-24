@@ -553,6 +553,22 @@
    "landedCostUsd": 27.68,
    "source": "catalog-20261025-batch03b-supplier-bindings.json"
   },
+  "dorelle-deep-v-rib-knit-midi-dress-black": {
+   "landedCostUsd": 40.82,
+   "source": "catalog-20261123-batch18-bindings.json"
+  },
+  "dorelle-deep-v-rib-knit-midi-dress-heather-gray": {
+   "landedCostUsd": 40.82,
+   "source": "catalog-20261123-batch18-bindings.json"
+  },
+  "dorelle-deep-v-rib-knit-midi-dress-oatmeal": {
+   "landedCostUsd": 40.82,
+   "source": "catalog-20261123-batch18-bindings.json"
+  },
+  "dorelle-deep-v-rib-knit-midi-dress-wine-red": {
+   "landedCostUsd": 40.82,
+   "source": "catalog-20261123-batch18-bindings.json"
+  },
   "duna-vneck-print-midi-dress": {
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -1041,6 +1057,10 @@
    "landedCostUsd": 28.84,
    "source": "catalog-20261123-batch17-bindings.json"
   },
+  "lurene-belted-turtleneck-knit-dress-golden-yellow": {
+   "landedCostUsd": 28.85,
+   "source": "catalog-20261123-batch18-bindings.json"
+  },
   "lurene-belted-turtleneck-knit-dress-heather-gray": {
    "landedCostUsd": 28.84,
    "source": "catalog-20261123-batch17-bindings.json"
@@ -1056,6 +1076,10 @@
   "lurene-belted-turtleneck-knit-dress-sky-blue": {
    "landedCostUsd": 28.83,
    "source": "catalog-20261123-batch15-bindings.json"
+  },
+  "lurene-belted-turtleneck-knit-dress-tangerine": {
+   "landedCostUsd": 28.84,
+   "source": "catalog-20261123-batch18-bindings.json"
   },
   "lurene-belted-turtleneck-knit-dress-warm-ivory": {
    "landedCostUsd": 28.79,
@@ -1813,6 +1837,18 @@
    "landedCostUsd": 85.21,
    "source": "catalog-20261123-batch01-bindings.json"
   },
+  "serenne-high-neck-rib-knit-midi-dress-black": {
+   "landedCostUsd": 38.56,
+   "source": "catalog-20261123-batch18-bindings.json"
+  },
+  "serenne-high-neck-rib-knit-midi-dress-ivory": {
+   "landedCostUsd": 38.39,
+   "source": "catalog-20261123-batch18-bindings.json"
+  },
+  "serenne-high-neck-rib-knit-mini-dress-black": {
+   "landedCostUsd": 35.98,
+   "source": "catalog-20261123-batch18-bindings.json"
+  },
   "sienna-chevron-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -1928,6 +1964,10 @@
   "thessa-asymmetric-button-knit-midi-dress-black": {
    "landedCostUsd": 29.27,
    "source": "catalog-20261123-batch13-bindings.json"
+  },
+  "thessa-asymmetric-button-knit-midi-dress-camel": {
+   "landedCostUsd": 29.27,
+   "source": "catalog-20261123-batch18-bindings.json"
   },
   "thessa-asymmetric-button-knit-midi-dress-oatmeal": {
    "landedCostUsd": 29.27,

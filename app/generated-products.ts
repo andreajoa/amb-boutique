@@ -26410,6 +26410,366 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256802700278618",
   "sourceColor": "wine"
+},
+{
+  "slug": "thessa-asymmetric-button-knit-midi-dress-camel",
+  "name": "Thessa Asymmetric Button Knit Midi Dress — Camel",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 87.9,
+  "colors": [
+    "#877361"
+  ],
+  "colorNames": [
+    "Camel"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A long-sleeve knit midi dress with an asymmetric row of gold-tone buttons, ribbed cuffs and a matching waist tie.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/thessa-asymmetric-button-knit-midi-dress-camel/front.webp",
+    "/products/thessa-asymmetric-button-knit-midi-dress-camel/back.webp",
+    "/products/thessa-asymmetric-button-knit-midi-dress-camel/left.webp",
+    "/products/thessa-asymmetric-button-knit-midi-dress-camel/right.webp"
+  ],
+  "stock": 576,
+  "unitCostUsd": 29.27,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809609488496",
+  "sourceColor": "Camel"
+},
+{
+  "slug": "dorelle-deep-v-rib-knit-midi-dress-oatmeal",
+  "name": "Dorelle Deep-V Rib-Knit Midi Dress — Oatmeal",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 122.9,
+  "colors": [
+    "#d8cbb9"
+  ],
+  "colorNames": [
+    "Oatmeal"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted knit midi dress with a stand collar that opens to a deep V. Fine vertical ribs run from the long sleeves through the straight skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/dorelle-deep-v-rib-knit-midi-dress-oatmeal/front.webp",
+    "/products/dorelle-deep-v-rib-knit-midi-dress-oatmeal/back.webp",
+    "/products/dorelle-deep-v-rib-knit-midi-dress-oatmeal/left.webp",
+    "/products/dorelle-deep-v-rib-knit-midi-dress-oatmeal/right.webp"
+  ],
+  "stock": 2992,
+  "unitCostUsd": 40.82,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810002723708",
+  "sourceColor": "As Picture"
+},
+{
+  "slug": "serenne-high-neck-rib-knit-midi-dress-black",
+  "name": "Serenne High-Neck Rib-Knit Midi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 115.9,
+  "colors": [
+    "#222225"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted rib-knit dress with a high neckline, long slim sleeves and a straight midi hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/serenne-high-neck-rib-knit-midi-dress-black/front.webp",
+    "/products/serenne-high-neck-rib-knit-midi-dress-black/back.webp",
+    "/products/serenne-high-neck-rib-knit-midi-dress-black/left.webp",
+    "/products/serenne-high-neck-rib-knit-midi-dress-black/right.webp"
+  ],
+  "stock": 228,
+  "unitCostUsd": 38.56,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809244695885",
+  "sourceColor": "Fqd941 black long style"
+},
+{
+  "slug": "lurene-belted-turtleneck-knit-dress-tangerine",
+  "name": "Lurene Belted Turtleneck Knit Dress — Tangerine",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 86.9,
+  "colors": [
+    "#f79116"
+  ],
+  "colorNames": [
+    "Tangerine"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A fitted ribbed knit dress with a folded turtleneck, long sleeves and a separate black rectangular-buckle belt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lurene-belted-turtleneck-knit-dress-tangerine/front.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-tangerine/back.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-tangerine/left.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-tangerine/right.webp"
+  ],
+  "stock": 200,
+  "unitCostUsd": 28.84,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802700278618",
+  "sourceColor": "orange"
+},
+{
+  "slug": "serenne-high-neck-rib-knit-mini-dress-black",
+  "name": "Serenne High-Neck Rib-Knit Mini Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 108.9,
+  "colors": [
+    "#242428"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted rib-knit mini dress with a high neckline, long slim sleeves and a straight hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/serenne-high-neck-rib-knit-mini-dress-black/front.webp",
+    "/products/serenne-high-neck-rib-knit-mini-dress-black/back.webp",
+    "/products/serenne-high-neck-rib-knit-mini-dress-black/left.webp",
+    "/products/serenne-high-neck-rib-knit-mini-dress-black/right.webp"
+  ],
+  "stock": 286,
+  "unitCostUsd": 35.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809244695885",
+  "sourceColor": "Fqd942 black short style"
+},
+{
+  "slug": "serenne-high-neck-rib-knit-midi-dress-ivory",
+  "name": "Serenne High-Neck Rib-Knit Midi Dress — Ivory",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 115.9,
+  "colors": [
+    "#e6dfce"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted rib-knit dress with a high neckline, long slim sleeves and a straight midi hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/serenne-high-neck-rib-knit-midi-dress-ivory/front.webp",
+    "/products/serenne-high-neck-rib-knit-midi-dress-ivory/back.webp",
+    "/products/serenne-high-neck-rib-knit-midi-dress-ivory/left.webp",
+    "/products/serenne-high-neck-rib-knit-midi-dress-ivory/right.webp"
+  ],
+  "stock": 194,
+  "unitCostUsd": 38.39,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809244695885",
+  "sourceColor": "Fqd941 white long style"
+},
+{
+  "slug": "dorelle-deep-v-rib-knit-midi-dress-black",
+  "name": "Dorelle Deep-V Rib-Knit Midi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 122.9,
+  "colors": [
+    "#242428"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted knit midi dress with a stand collar that opens to a deep V. Fine vertical ribs run from the long sleeves through the straight skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/dorelle-deep-v-rib-knit-midi-dress-black/front.webp",
+    "/products/dorelle-deep-v-rib-knit-midi-dress-black/back.webp",
+    "/products/dorelle-deep-v-rib-knit-midi-dress-black/left.webp",
+    "/products/dorelle-deep-v-rib-knit-midi-dress-black/right.webp"
+  ],
+  "stock": 2985,
+  "unitCostUsd": 40.82,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810002723708",
+  "sourceColor": "Black"
+},
+{
+  "slug": "dorelle-deep-v-rib-knit-midi-dress-heather-gray",
+  "name": "Dorelle Deep-V Rib-Knit Midi Dress — Heather Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 122.9,
+  "colors": [
+    "#7b7976"
+  ],
+  "colorNames": [
+    "Heather Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted knit midi dress with a stand collar that opens to a deep V. Fine vertical ribs run from the long sleeves through the straight skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/dorelle-deep-v-rib-knit-midi-dress-heather-gray/front.webp",
+    "/products/dorelle-deep-v-rib-knit-midi-dress-heather-gray/back.webp",
+    "/products/dorelle-deep-v-rib-knit-midi-dress-heather-gray/left.webp",
+    "/products/dorelle-deep-v-rib-knit-midi-dress-heather-gray/right.webp"
+  ],
+  "stock": 2993,
+  "unitCostUsd": 40.82,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810002723708",
+  "sourceColor": "Gray"
+},
+{
+  "slug": "dorelle-deep-v-rib-knit-midi-dress-wine-red",
+  "name": "Dorelle Deep-V Rib-Knit Midi Dress — Wine Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 122.9,
+  "colors": [
+    "#773c41"
+  ],
+  "colorNames": [
+    "Wine Red"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A fitted knit midi dress with a stand collar that opens to a deep V. Fine vertical ribs run from the long sleeves through the straight skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/dorelle-deep-v-rib-knit-midi-dress-wine-red/front.webp",
+    "/products/dorelle-deep-v-rib-knit-midi-dress-wine-red/back.webp",
+    "/products/dorelle-deep-v-rib-knit-midi-dress-wine-red/left.webp",
+    "/products/dorelle-deep-v-rib-knit-midi-dress-wine-red/right.webp"
+  ],
+  "stock": 2996,
+  "unitCostUsd": 40.82,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810002723708",
+  "sourceColor": "Wine Red"
+},
+{
+  "slug": "lurene-belted-turtleneck-knit-dress-golden-yellow",
+  "name": "Lurene Belted Turtleneck Knit Dress — Golden Yellow",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 86.9,
+  "colors": [
+    "#edbd26"
+  ],
+  "colorNames": [
+    "Golden Yellow"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A fitted ribbed knit dress with a folded turtleneck, long sleeves and a separate black rectangular-buckle belt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lurene-belted-turtleneck-knit-dress-golden-yellow/front.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-golden-yellow/back.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-golden-yellow/left.webp",
+    "/products/lurene-belted-turtleneck-knit-dress-golden-yellow/right.webp"
+  ],
+  "stock": 200,
+  "unitCostUsd": 28.85,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802700278618",
+  "sourceColor": "yellow"
 }
 ];
 
@@ -26419,6 +26779,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "thessa-asymmetric-button-knit-midi-dress-camel",
+  "dorelle-deep-v-rib-knit-midi-dress-oatmeal",
+  "serenne-high-neck-rib-knit-midi-dress-black",
+  "lurene-belted-turtleneck-knit-dress-tangerine",
+  "serenne-high-neck-rib-knit-mini-dress-black",
+  "serenne-high-neck-rib-knit-midi-dress-ivory",
+  "dorelle-deep-v-rib-knit-midi-dress-black",
+  "dorelle-deep-v-rib-knit-midi-dress-heather-gray",
+  "dorelle-deep-v-rib-knit-midi-dress-wine-red",
+  "lurene-belted-turtleneck-knit-dress-golden-yellow",
+
   "kinelle-ribbed-polo-maxi-dress-mist-blue",
   "lurene-belted-turtleneck-knit-dress-warm-ivory",
   "lurene-belted-turtleneck-knit-dress-periwinkle",
