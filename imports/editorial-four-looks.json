@@ -2,43 +2,43 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
-      "slug": "thessa-asymmetric-button-knit-midi-dress-camel",
-      "name": "Thessa Asymmetric Button Knit Midi Dress — Camel",
-      "image": "/products/thessa-asymmetric-button-knit-midi-dress-camel/front.webp",
-      "eyebrow": "NEW ARRIVAL",
-      "copy": "A long-sleeve knit midi dress with an asymmetric row of gold-tone buttons, ribbed cuffs and a matching waist tie.",
-      "category": "Dresses",
-      "arrivalRank": 1006,
+      "slug": "velloria-single-button-flare-suit-vermilion",
+      "name": "Velloria Single-Button Flare Suit — Vermilion",
+      "image": "/products/velloria-single-button-flare-suit-vermilion/front.webp",
+      "eyebrow": "MODERN TAILORING",
+      "copy": "A tailored two-piece set with a single-button blazer, notched lapels and matching full-length flared trousers.",
+      "category": "Sets",
+      "arrivalRank": 1016,
       "classification": "verified-model"
     },
     {
-      "slug": "dorelle-deep-v-rib-knit-midi-dress-oatmeal",
-      "name": "Dorelle Deep-V Rib-Knit Midi Dress — Oatmeal",
-      "image": "/products/dorelle-deep-v-rib-knit-midi-dress-oatmeal/front.webp",
-      "eyebrow": "THE SOFT STATEMENT",
-      "copy": "A fitted knit midi dress with a stand collar that opens to a deep V.",
-      "category": "Dresses",
-      "arrivalRank": 1005,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "serenne-high-neck-rib-knit-midi-dress-black",
-      "name": "Serenne High-Neck Rib-Knit Midi Dress — Black",
-      "image": "/products/serenne-high-neck-rib-knit-midi-dress-black/front.webp",
+      "slug": "miralise-surplice-ruffle-gown-lilac",
+      "name": "Miralise Surplice Ruffle Gown — Lilac",
+      "image": "/products/miralise-surplice-ruffle-gown-lilac/front.webp",
       "eyebrow": "AFTER DARK",
-      "copy": "A fitted rib-knit dress with a high neckline, long slim sleeves and a straight midi hem.",
+      "copy": "A floor-length gown with a surplice V-neck, gathered waist and a layered ruffle that opens above the longer back hem.",
       "category": "Dresses",
-      "arrivalRank": 1004,
+      "arrivalRank": 1015,
       "classification": "verified-model"
     },
     {
-      "slug": "serenne-high-neck-rib-knit-mini-dress-black",
-      "name": "Serenne High-Neck Rib-Knit Mini Dress — Black",
-      "image": "/products/serenne-high-neck-rib-knit-mini-dress-black/front.webp",
+      "slug": "astrienne-cutout-column-maxi-dress-black",
+      "name": "Astrienne Cutout Column Maxi Dress — Black",
+      "image": "/products/astrienne-cutout-column-maxi-dress-black/front.webp",
       "eyebrow": "AFTER DARK",
-      "copy": "A fitted rib-knit mini dress with a high neckline, long slim sleeves and a straight hem.",
+      "copy": "A sleeveless column maxi dress with a high round neckline and a single curved cutout at the waist.",
       "category": "Dresses",
-      "arrivalRank": 1002,
+      "arrivalRank": 1014,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "ruvelle-cape-sleeve-midi-dress-burgundy",
+      "name": "Ruvelle Cape-Sleeve Midi Dress — Burgundy",
+      "image": "/products/ruvelle-cape-sleeve-midi-dress-burgundy/front.webp",
+      "eyebrow": "SAN DIEGO EDIT",
+      "copy": "A fitted midi dress with a draped neckline, cape-like short sleeves and a center-back vent.",
+      "category": "Dresses",
+      "arrivalRank": 1012,
       "classification": "verified-model"
     }
   ]

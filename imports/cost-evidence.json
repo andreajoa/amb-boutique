@@ -125,6 +125,10 @@
    "landedCostUsd": 17.72,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "astrienne-cutout-column-maxi-dress-black": {
+   "landedCostUsd": 19.13,
+   "source": "catalog-20261123-batch19-bindings.json"
+  },
   "auralie-open-back-sequin-mini-dress-ice-blue": {
    "landedCostUsd": 42.11,
    "source": "catalog-20261123-batch02-bindings.json"
@@ -1205,6 +1209,14 @@
    "landedCostUsd": 37.29,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "miralise-surplice-ruffle-gown-aubergine": {
+   "landedCostUsd": 42.48,
+   "source": "catalog-20261123-batch19-bindings.json"
+  },
+  "miralise-surplice-ruffle-gown-lilac": {
+   "landedCostUsd": 41.88,
+   "source": "catalog-20261123-batch19-bindings.json"
+  },
   "mirelda-lattice-trim-shirt-dress-black": {
    "landedCostUsd": 30.85,
    "source": "catalog-20261123-batch04-bindings.json"
@@ -1789,6 +1801,14 @@
    "landedCostUsd": 112.75,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
   },
+  "ruvelle-cape-sleeve-midi-dress-black": {
+   "landedCostUsd": 23.18,
+   "source": "catalog-20261123-batch19-bindings.json"
+  },
+  "ruvelle-cape-sleeve-midi-dress-burgundy": {
+   "landedCostUsd": 24.08,
+   "source": "catalog-20261123-batch19-bindings.json"
+  },
   "sabine-gray-tiered-mermaid-gown": {
    "landedCostUsd": 149.38,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
@@ -1961,6 +1981,18 @@
    "landedCostUsd": 13.14,
    "source": "catalog-20261025-batch04-supplier-bindings.json"
   },
+  "tessaria-button-front-maxi-skirt-black": {
+   "landedCostUsd": 23.46,
+   "source": "catalog-20261123-batch19-bindings.json"
+  },
+  "tessaria-button-front-maxi-skirt-denim-blue": {
+   "landedCostUsd": 23.66,
+   "source": "catalog-20261123-batch19-bindings.json"
+  },
+  "tessaria-button-front-maxi-skirt-wine-red": {
+   "landedCostUsd": 23.66,
+   "source": "catalog-20261123-batch19-bindings.json"
+  },
   "thessa-asymmetric-button-knit-midi-dress-black": {
    "landedCostUsd": 29.27,
    "source": "catalog-20261123-batch13-bindings.json"
@@ -2008,6 +2040,14 @@
   "vela-ivory-tailored-set": {
    "landedCostUsd": 47.35,
    "source": "markup-3x-20261025 (pilot)"
+  },
+  "velloria-single-button-flare-suit-vermilion": {
+   "landedCostUsd": 48.99,
+   "source": "catalog-20261123-batch19-bindings.json"
+  },
+  "velloria-single-button-flare-suit-white": {
+   "landedCostUsd": 48.99,
+   "source": "catalog-20261123-batch19-bindings.json"
   },
   "venus-trousers": {
    "landedCostUsd": 47.35,

@@ -26770,6 +26770,362 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256802700278618",
   "sourceColor": "yellow"
+},
+{
+  "slug": "velloria-single-button-flare-suit-vermilion",
+  "name": "Velloria Single-Button Flare Suit — Vermilion",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 147.9,
+  "colors": [
+    "#bd3125"
+  ],
+  "colorNames": [
+    "Vermilion"
+  ],
+  "sizes": [
+    "S",
+    "XXL",
+    "XXXL",
+    "4XL"
+  ],
+  "description": "A tailored two-piece set with a single-button blazer, notched lapels and matching full-length flared trousers.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/velloria-single-button-flare-suit-vermilion/front.webp",
+    "/products/velloria-single-button-flare-suit-vermilion/back.webp",
+    "/products/velloria-single-button-flare-suit-vermilion/left.webp",
+    "/products/velloria-single-button-flare-suit-vermilion/right.webp"
+  ],
+  "stock": 57,
+  "unitCostUsd": 48.99,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802843819353",
+  "sourceColor": "Red"
+},
+{
+  "slug": "miralise-surplice-ruffle-gown-lilac",
+  "name": "Miralise Surplice Ruffle Gown — Lilac",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 125.9,
+  "colors": [
+    "#a994c7"
+  ],
+  "colorNames": [
+    "Lilac"
+  ],
+  "sizes": [
+    "S",
+    "M"
+  ],
+  "description": "A floor-length gown with a surplice V-neck, gathered waist and a layered ruffle that opens above the longer back hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/miralise-surplice-ruffle-gown-lilac/front.webp",
+    "/products/miralise-surplice-ruffle-gown-lilac/back.webp",
+    "/products/miralise-surplice-ruffle-gown-lilac/left.webp",
+    "/products/miralise-surplice-ruffle-gown-lilac/right.webp"
+  ],
+  "stock": 33,
+  "unitCostUsd": 41.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805896462287",
+  "sourceColor": "Light Purple"
+},
+{
+  "slug": "astrienne-cutout-column-maxi-dress-black",
+  "name": "Astrienne Cutout Column Maxi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 57.9,
+  "colors": [
+    "#252428"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A sleeveless column maxi dress with a high round neckline and a single curved cutout at the waist.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/astrienne-cutout-column-maxi-dress-black/front.webp",
+    "/products/astrienne-cutout-column-maxi-dress-black/back.webp",
+    "/products/astrienne-cutout-column-maxi-dress-black/left.webp",
+    "/products/astrienne-cutout-column-maxi-dress-black/right.webp"
+  ],
+  "stock": 197,
+  "unitCostUsd": 19.13,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805329029366",
+  "sourceColor": "black"
+},
+{
+  "slug": "tessaria-button-front-maxi-skirt-denim-blue",
+  "name": "Tessaria Button-Front Maxi Skirt — Denim Blue",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 71.9,
+  "colors": [
+    "#345681"
+  ],
+  "colorNames": [
+    "Denim Blue"
+  ],
+  "sizes": [
+    "2XL",
+    "3XL",
+    "L",
+    "XL"
+  ],
+  "description": "A full A-line maxi skirt with a defined waistband, soft pleats and a row of buttons down the front.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/tessaria-button-front-maxi-skirt-denim-blue/front.webp",
+    "/products/tessaria-button-front-maxi-skirt-denim-blue/back.webp",
+    "/products/tessaria-button-front-maxi-skirt-denim-blue/left.webp",
+    "/products/tessaria-button-front-maxi-skirt-denim-blue/right.webp"
+  ],
+  "stock": 12829,
+  "unitCostUsd": 23.66,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005004204388855",
+  "sourceColor": "Blue"
+},
+{
+  "slug": "ruvelle-cape-sleeve-midi-dress-burgundy",
+  "name": "Ruvelle Cape-Sleeve Midi Dress — Burgundy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 72.9,
+  "colors": [
+    "#752735"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted midi dress with a draped neckline, cape-like short sleeves and a center-back vent.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/ruvelle-cape-sleeve-midi-dress-burgundy/front.webp",
+    "/products/ruvelle-cape-sleeve-midi-dress-burgundy/back.webp",
+    "/products/ruvelle-cape-sleeve-midi-dress-burgundy/left.webp",
+    "/products/ruvelle-cape-sleeve-midi-dress-burgundy/right.webp"
+  ],
+  "stock": 3961,
+  "unitCostUsd": 24.08,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812139580294",
+  "sourceColor": "Burgundy"
+},
+{
+  "slug": "velloria-single-button-flare-suit-white",
+  "name": "Velloria Single-Button Flare Suit — White",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 147.9,
+  "colors": [
+    "#efeeea"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A tailored two-piece set with a single-button blazer, notched lapels and matching full-length flared trousers.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/velloria-single-button-flare-suit-white/front.webp",
+    "/products/velloria-single-button-flare-suit-white/back.webp",
+    "/products/velloria-single-button-flare-suit-white/left.webp",
+    "/products/velloria-single-button-flare-suit-white/right.webp"
+  ],
+  "stock": 346,
+  "unitCostUsd": 48.99,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802843819353",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "miralise-surplice-ruffle-gown-aubergine",
+  "name": "Miralise Surplice Ruffle Gown — Aubergine",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 127.9,
+  "colors": [
+    "#38223e"
+  ],
+  "colorNames": [
+    "Aubergine"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A floor-length gown with a surplice V-neck, gathered waist and a layered ruffle that opens above the longer back hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/miralise-surplice-ruffle-gown-aubergine/front.webp",
+    "/products/miralise-surplice-ruffle-gown-aubergine/back.webp",
+    "/products/miralise-surplice-ruffle-gown-aubergine/left.webp",
+    "/products/miralise-surplice-ruffle-gown-aubergine/right.webp"
+  ],
+  "stock": 53,
+  "unitCostUsd": 42.48,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805896462287",
+  "sourceColor": "PURPLE"
+},
+{
+  "slug": "tessaria-button-front-maxi-skirt-black",
+  "name": "Tessaria Button-Front Maxi Skirt — Black",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 70.9,
+  "colors": [
+    "#252628"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "2XL",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A full A-line maxi skirt with a defined waistband, soft pleats and a row of buttons down the front.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/tessaria-button-front-maxi-skirt-black/front.webp",
+    "/products/tessaria-button-front-maxi-skirt-black/back.webp",
+    "/products/tessaria-button-front-maxi-skirt-black/left.webp",
+    "/products/tessaria-button-front-maxi-skirt-black/right.webp"
+  ],
+  "stock": 3572,
+  "unitCostUsd": 23.46,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005004204388855",
+  "sourceColor": "Black"
+},
+{
+  "slug": "tessaria-button-front-maxi-skirt-wine-red",
+  "name": "Tessaria Button-Front Maxi Skirt — Wine Red",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 71.9,
+  "colors": [
+    "#863a43"
+  ],
+  "colorNames": [
+    "Wine Red"
+  ],
+  "sizes": [
+    "3XL"
+  ],
+  "description": "A full A-line maxi skirt with a defined waistband, soft pleats and a row of buttons down the front.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/tessaria-button-front-maxi-skirt-wine-red/front.webp",
+    "/products/tessaria-button-front-maxi-skirt-wine-red/back.webp",
+    "/products/tessaria-button-front-maxi-skirt-wine-red/left.webp",
+    "/products/tessaria-button-front-maxi-skirt-wine-red/right.webp"
+  ],
+  "stock": 885,
+  "unitCostUsd": 23.66,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005004204388855",
+  "sourceColor": "Wine Red"
+},
+{
+  "slug": "ruvelle-cape-sleeve-midi-dress-black",
+  "name": "Ruvelle Cape-Sleeve Midi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 69.9,
+  "colors": [
+    "#202020"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted midi dress with a draped neckline, cape-like short sleeves and a center-back vent.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/ruvelle-cape-sleeve-midi-dress-black/front.webp",
+    "/products/ruvelle-cape-sleeve-midi-dress-black/back.webp",
+    "/products/ruvelle-cape-sleeve-midi-dress-black/left.webp",
+    "/products/ruvelle-cape-sleeve-midi-dress-black/right.webp"
+  ],
+  "stock": 4974,
+  "unitCostUsd": 23.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812139580294",
+  "sourceColor": "black"
 }
 ];
 
@@ -26779,6 +27135,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "velloria-single-button-flare-suit-vermilion",
+  "miralise-surplice-ruffle-gown-lilac",
+  "astrienne-cutout-column-maxi-dress-black",
+  "tessaria-button-front-maxi-skirt-denim-blue",
+  "ruvelle-cape-sleeve-midi-dress-burgundy",
+  "velloria-single-button-flare-suit-white",
+  "miralise-surplice-ruffle-gown-aubergine",
+  "tessaria-button-front-maxi-skirt-black",
+  "tessaria-button-front-maxi-skirt-wine-red",
+  "ruvelle-cape-sleeve-midi-dress-black",
+
   "thessa-asymmetric-button-knit-midi-dress-camel",
   "dorelle-deep-v-rib-knit-midi-dress-oatmeal",
   "serenne-high-neck-rib-knit-midi-dress-black",
