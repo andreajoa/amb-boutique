@@ -31316,7 +31316,7 @@ const allGeneratedProducts: Product[] = [
   "sizes": [
     "One Size"
   ],
-  "description": "A large crescent shoulder bag with a repeating pattern, khaki trim and an adjustable strap. The interior photo shows the same large model in brown on the left.",
+  "description": "A large crescent shoulder bag with a repeating pattern, khaki trim and an adjustable strap. The large bag is on the left. The exterior color in the inside view was adjusted to show the Khaki finish.",
   "materials": "See the product label for material details.",
   "care": "Follow the product care label.",
   "images": [
@@ -31350,7 +31350,7 @@ const allGeneratedProducts: Product[] = [
   "sizes": [
     "One Size"
   ],
-  "description": "A compact crescent shoulder bag with a repeating pattern, khaki trim and an adjustable strap. The interior photo shows the same small model in brown on the right.",
+  "description": "A compact crescent shoulder bag with a repeating pattern, khaki trim and an adjustable strap. The small bag is on the right. The exterior color in the inside view was adjusted to show the Khaki finish.",
   "materials": "See the product label for material details.",
   "care": "Follow the product care label.",
   "images": [
