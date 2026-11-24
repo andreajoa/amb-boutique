@@ -1,0 +1,272 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "valenna-contrast-trim-button-dress-navy",
+      "sourceProductId": "3256813071209473",
+      "sourceColor": "Navy Blue",
+      "supplierId": "cmwhscjij00ci0jmc6kkjh2p1",
+      "sourceSkuIdsBySize": {
+        "S": "12000060630865729",
+        "M": "12000060630865730",
+        "L": "12000060630865731",
+        "XL": "12000060630865732",
+        "XXL": "12000060630865733"
+      },
+      "landedCostUsdBySize": {
+        "S": 53.16,
+        "M": 53.16,
+        "L": 53.16,
+        "XL": 53.16,
+        "XXL": 53.16
+      },
+      "stockBySize": {
+        "S": 499,
+        "M": 497,
+        "L": 495,
+        "XL": 499,
+        "XXL": 498
+      },
+      "retailPriceUsd": 159.9,
+      "verifiedAtUtc": "2026-11-24T03:13:18.736Z"
+    },
+    {
+      "slug": "melrisa-ruched-high-neck-maxi-dress-terracotta",
+      "sourceProductId": "3256810116455455",
+      "sourceColor": "Brown",
+      "supplierId": "cmwhrrut0004i0jmcbvygvwxg",
+      "sourceSkuIdsBySize": {
+        "S": "12000051859031545",
+        "XS": "12000051859031544",
+        "L": "12000051859031547",
+        "M": "12000051859031546",
+        "XL": "12000051859031548"
+      },
+      "landedCostUsdBySize": {
+        "S": 49,
+        "XS": 49,
+        "L": 49,
+        "M": 49,
+        "XL": 49
+      },
+      "stockBySize": {
+        "S": 49,
+        "XS": 50,
+        "L": 50,
+        "M": 49,
+        "XL": 49
+      },
+      "retailPriceUsd": 147.9,
+      "verifiedAtUtc": "2026-11-24T03:13:01.143Z"
+    },
+    {
+      "slug": "tavienne-layered-mesh-midi-skirt-dusty-rose",
+      "sourceProductId": "3256808764754635",
+      "sourceColor": "Pink",
+      "supplierId": "cmt64dcoy01es04jnan3l1tgi",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000047331685119"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 32.21
+      },
+      "stockBySize": {
+        "One Size": 188
+      },
+      "retailPriceUsd": 96.9,
+      "verifiedAtUtc": "2026-11-24T03:12:52.076Z"
+    },
+    {
+      "slug": "orselle-raw-hem-denim-shorts-light-wash",
+      "sourceProductId": "3256808381822257",
+      "sourceColor": "SKY BLUE",
+      "supplierId": "cmt60ayda00a704if5xmabxax",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000045753086284",
+        "L": "12000045753086282",
+        "XL": "12000045753086283",
+        "S": "12000045753086280",
+        "M": "12000045753086281"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 21.96,
+        "L": 21.96,
+        "XL": 21.96,
+        "S": 21.96,
+        "M": 21.96
+      },
+      "stockBySize": {
+        "XXL": 996,
+        "L": 990,
+        "XL": 991,
+        "S": 993,
+        "M": 987
+      },
+      "retailPriceUsd": 65.9,
+      "verifiedAtUtc": "2026-11-24T03:12:44.052Z"
+    },
+    {
+      "slug": "clarrise-button-slit-chiffon-midi-skirt-black",
+      "sourceProductId": "3256806310051961",
+      "sourceColor": "black",
+      "supplierId": "cmsy4rwmt003p04ld02ps12m2",
+      "sourceSkuIdsBySize": {
+        "S": "12000037417976533",
+        "M": "12000037417976532",
+        "L": "12000037417976535",
+        "XL": "12000037417976534",
+        "XXL": "12000037417976536"
+      },
+      "landedCostUsdBySize": {
+        "S": 23.48,
+        "M": 23.28,
+        "L": 23.44,
+        "XL": 23.94,
+        "XXL": 23.88
+      },
+      "stockBySize": {
+        "S": 8,
+        "M": 5,
+        "L": 7,
+        "XL": 7,
+        "XXL": 16
+      },
+      "retailPriceUsd": 71.9,
+      "verifiedAtUtc": "2026-11-24T03:13:11.970Z"
+    },
+    {
+      "slug": "melrisa-ruched-high-neck-maxi-dress-black",
+      "sourceProductId": "3256810116455455",
+      "sourceColor": "black",
+      "supplierId": "cmwhrrut0004i0jmcbvygvwxg",
+      "sourceSkuIdsBySize": {
+        "XL": "12000051859031553",
+        "L": "12000051859031552",
+        "XS": "12000051859031549",
+        "M": "12000051859031551",
+        "S": "12000051859031550"
+      },
+      "landedCostUsdBySize": {
+        "XL": 49,
+        "L": 49,
+        "XS": 49,
+        "M": 49,
+        "S": 49
+      },
+      "stockBySize": {
+        "XL": 49,
+        "L": 50,
+        "XS": 50,
+        "M": 50,
+        "S": 50
+      },
+      "retailPriceUsd": 147.9,
+      "verifiedAtUtc": "2026-11-24T03:13:01.143Z"
+    },
+    {
+      "slug": "orselle-raw-hem-denim-shorts-black",
+      "sourceProductId": "3256808381822257",
+      "sourceColor": "black",
+      "supplierId": "cmt60ayda00a704if5xmabxax",
+      "sourceSkuIdsBySize": {
+        "XL": "12000045753086278",
+        "XXL": "12000045753086279",
+        "M": "12000045753086276",
+        "L": "12000045753086277",
+        "S": "12000045753086275"
+      },
+      "landedCostUsdBySize": {
+        "XL": 21.96,
+        "XXL": 21.96,
+        "M": 21.96,
+        "L": 21.96,
+        "S": 21.96
+      },
+      "stockBySize": {
+        "XL": 994,
+        "XXL": 995,
+        "M": 987,
+        "L": 989,
+        "S": 991
+      },
+      "retailPriceUsd": 65.9,
+      "verifiedAtUtc": "2026-11-24T03:12:44.052Z"
+    },
+    {
+      "slug": "tavienne-layered-mesh-midi-skirt-mushroom-taupe",
+      "sourceProductId": "3256808764754635",
+      "sourceColor": "Khaki",
+      "supplierId": "cmt64dcoy01es04jnan3l1tgi",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000047331685118"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 34.91
+      },
+      "stockBySize": {
+        "One Size": 163
+      },
+      "retailPriceUsd": 104.9,
+      "verifiedAtUtc": "2026-11-24T03:12:52.076Z"
+    },
+    {
+      "slug": "melrisa-ruched-high-neck-maxi-dress-scarlet",
+      "sourceProductId": "3256810116455455",
+      "sourceColor": "Red",
+      "supplierId": "cmwhrrut0004i0jmcbvygvwxg",
+      "sourceSkuIdsBySize": {
+        "M": "12000057383222011",
+        "S": "12000057383222010",
+        "XS": "12000057383222009",
+        "XL": "12000057383222013",
+        "L": "12000057383222012"
+      },
+      "landedCostUsdBySize": {
+        "M": 49,
+        "S": 49,
+        "XS": 49,
+        "XL": 49,
+        "L": 49
+      },
+      "stockBySize": {
+        "M": 48,
+        "S": 50,
+        "XS": 50,
+        "XL": 50,
+        "L": 49
+      },
+      "retailPriceUsd": 147.9,
+      "verifiedAtUtc": "2026-11-24T03:13:01.143Z"
+    },
+    {
+      "slug": "orselle-raw-hem-denim-shorts-white",
+      "sourceProductId": "3256808381822257",
+      "sourceColor": "WHITE",
+      "supplierId": "cmt60ayda00a704if5xmabxax",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000045753086294",
+        "L": "12000045753086292",
+        "XL": "12000045753086293",
+        "S": "12000045753086290",
+        "M": "12000045753086291"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 21.96,
+        "L": 21.96,
+        "XL": 21.96,
+        "S": 21.96,
+        "M": 21.96
+      },
+      "stockBySize": {
+        "XXL": 992,
+        "L": 983,
+        "XL": 992,
+        "S": 986,
+        "M": 983
+      },
+      "retailPriceUsd": 65.9,
+      "verifiedAtUtc": "2026-11-24T03:12:44.052Z"
+    }
+  ]
+}

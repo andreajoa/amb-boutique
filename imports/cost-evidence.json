@@ -457,6 +457,10 @@
    "landedCostUsd": 28.51,
    "source": "catalog-20261123-batch07-bindings.json"
   },
+  "clarrise-button-slit-chiffon-midi-skirt-black": {
+   "landedCostUsd": 23.94,
+   "source": "catalog-20261123-batch20-bindings.json"
+  },
   "cobre-arc-maxi-dress": {
    "landedCostUsd": 13.58,
    "source": "catalog-20261025-batch04-supplier-bindings.json"
@@ -1193,6 +1197,18 @@
    "landedCostUsd": 22.62,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "melrisa-ruched-high-neck-maxi-dress-black": {
+   "landedCostUsd": 49,
+   "source": "catalog-20261123-batch20-bindings.json"
+  },
+  "melrisa-ruched-high-neck-maxi-dress-scarlet": {
+   "landedCostUsd": 49,
+   "source": "catalog-20261123-batch20-bindings.json"
+  },
+  "melrisa-ruched-high-neck-maxi-dress-terracotta": {
+   "landedCostUsd": 49,
+   "source": "catalog-20261123-batch20-bindings.json"
+  },
   "mimosa-vneck-print-midi-dress": {
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -1564,6 +1580,18 @@
   "orquidea-vneck-print-midi-dress": {
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "orselle-raw-hem-denim-shorts-black": {
+   "landedCostUsd": 21.96,
+   "source": "catalog-20261123-batch20-bindings.json"
+  },
+  "orselle-raw-hem-denim-shorts-light-wash": {
+   "landedCostUsd": 21.96,
+   "source": "catalog-20261123-batch20-bindings.json"
+  },
+  "orselle-raw-hem-denim-shorts-white": {
+   "landedCostUsd": 21.96,
+   "source": "catalog-20261123-batch20-bindings.json"
   },
   "ottilie-rose-pleated-midi-dress": {
    "landedCostUsd": 36.16,
@@ -1973,6 +2001,14 @@
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
   },
+  "tavienne-layered-mesh-midi-skirt-dusty-rose": {
+   "landedCostUsd": 32.21,
+   "source": "catalog-20261123-batch20-bindings.json"
+  },
+  "tavienne-layered-mesh-midi-skirt-mushroom-taupe": {
+   "landedCostUsd": 34.91,
+   "source": "catalog-20261123-batch20-bindings.json"
+  },
   "tela-patch-swing-midi-dress": {
    "landedCostUsd": 13.69,
    "source": "catalog-20261025-batch04-supplier-bindings.json"
@@ -2028,6 +2064,10 @@
   "valencia-tailored-romper": {
    "landedCostUsd": 35.13,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "valenna-contrast-trim-button-dress-navy": {
+   "landedCostUsd": 53.16,
+   "source": "catalog-20261123-batch20-bindings.json"
   },
   "valentina-wide-leg-trousers": {
    "landedCostUsd": 29.53,

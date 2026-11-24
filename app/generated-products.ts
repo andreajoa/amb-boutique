@@ -27126,6 +27126,368 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256812139580294",
   "sourceColor": "black"
+},
+{
+  "slug": "valenna-contrast-trim-button-dress-navy",
+  "name": "Valenna Contrast-Trim Button Dress — Navy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 159.9,
+  "colors": [
+    "#233246"
+  ],
+  "colorNames": [
+    "Navy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A navy collared dress with long sleeves, contrasting red-and-white trim and a front button closure.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/valenna-contrast-trim-button-dress-navy/front.webp",
+    "/products/valenna-contrast-trim-button-dress-navy/back.webp",
+    "/products/valenna-contrast-trim-button-dress-navy/left.webp",
+    "/products/valenna-contrast-trim-button-dress-navy/right.webp"
+  ],
+  "stock": 2488,
+  "unitCostUsd": 53.16,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813071209473",
+  "sourceColor": "Navy Blue"
+},
+{
+  "slug": "melrisa-ruched-high-neck-maxi-dress-terracotta",
+  "name": "Melrisa Ruched High-Neck Maxi Dress — Terracotta",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 147.9,
+  "colors": [
+    "#874539"
+  ],
+  "colorNames": [
+    "Terracotta"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A floor-length dress with a high neckline, long sleeves and diagonal ruching gathered around the hips.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/melrisa-ruched-high-neck-maxi-dress-terracotta/front.webp",
+    "/products/melrisa-ruched-high-neck-maxi-dress-terracotta/back.webp",
+    "/products/melrisa-ruched-high-neck-maxi-dress-terracotta/left.webp",
+    "/products/melrisa-ruched-high-neck-maxi-dress-terracotta/right.webp"
+  ],
+  "stock": 247,
+  "unitCostUsd": 49,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810116455455",
+  "sourceColor": "Brown"
+},
+{
+  "slug": "tavienne-layered-mesh-midi-skirt-dusty-rose",
+  "name": "Tavienne Layered Mesh Midi Skirt — Dusty Rose",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 96.9,
+  "colors": [
+    "#bf9197"
+  ],
+  "colorNames": [
+    "Dusty Rose"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A mesh midi skirt with a gathered waist, overlapping ruffles and a soft asymmetric hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/tavienne-layered-mesh-midi-skirt-dusty-rose/front.webp",
+    "/products/tavienne-layered-mesh-midi-skirt-dusty-rose/back.webp",
+    "/products/tavienne-layered-mesh-midi-skirt-dusty-rose/left.webp",
+    "/products/tavienne-layered-mesh-midi-skirt-dusty-rose/right.webp"
+  ],
+  "stock": 188,
+  "unitCostUsd": 32.21,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808764754635",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "orselle-raw-hem-denim-shorts-light-wash",
+  "name": "Orselle Raw-Hem Denim Shorts — Light Wash",
+  "category": "Shorts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 65.9,
+  "colors": [
+    "#91b0ba"
+  ],
+  "colorNames": [
+    "Light Wash"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "High-rise denim shorts with front and back pockets, short side notches and frayed hems.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/orselle-raw-hem-denim-shorts-light-wash/front.webp",
+    "/products/orselle-raw-hem-denim-shorts-light-wash/back.webp",
+    "/products/orselle-raw-hem-denim-shorts-light-wash/left.webp",
+    "/products/orselle-raw-hem-denim-shorts-light-wash/right.webp"
+  ],
+  "stock": 4957,
+  "unitCostUsd": 21.96,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808381822257",
+  "sourceColor": "SKY BLUE"
+},
+{
+  "slug": "clarrise-button-slit-chiffon-midi-skirt-black",
+  "name": "Clarrise Button-Slit Chiffon Midi Skirt — Black",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 71.9,
+  "colors": [
+    "#242326"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A high-waisted chiffon skirt with soft pleats, dark front buttons and an offset front slit.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/clarrise-button-slit-chiffon-midi-skirt-black/front.webp",
+    "/products/clarrise-button-slit-chiffon-midi-skirt-black/back.webp",
+    "/products/clarrise-button-slit-chiffon-midi-skirt-black/left.webp",
+    "/products/clarrise-button-slit-chiffon-midi-skirt-black/right.webp"
+  ],
+  "stock": 43,
+  "unitCostUsd": 23.94,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806310051961",
+  "sourceColor": "black"
+},
+{
+  "slug": "melrisa-ruched-high-neck-maxi-dress-black",
+  "name": "Melrisa Ruched High-Neck Maxi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 147.9,
+  "colors": [
+    "#222126"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A floor-length dress with a high neckline, long sleeves and diagonal ruching gathered around the hips.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/melrisa-ruched-high-neck-maxi-dress-black/front.webp",
+    "/products/melrisa-ruched-high-neck-maxi-dress-black/back.webp",
+    "/products/melrisa-ruched-high-neck-maxi-dress-black/left.webp",
+    "/products/melrisa-ruched-high-neck-maxi-dress-black/right.webp"
+  ],
+  "stock": 249,
+  "unitCostUsd": 49,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810116455455",
+  "sourceColor": "black"
+},
+{
+  "slug": "orselle-raw-hem-denim-shorts-black",
+  "name": "Orselle Raw-Hem Denim Shorts — Black",
+  "category": "Shorts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 65.9,
+  "colors": [
+    "#27282b"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "High-rise denim shorts with front and back pockets, short side notches and frayed hems.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/orselle-raw-hem-denim-shorts-black/front.webp",
+    "/products/orselle-raw-hem-denim-shorts-black/back.webp",
+    "/products/orselle-raw-hem-denim-shorts-black/left.webp",
+    "/products/orselle-raw-hem-denim-shorts-black/right.webp"
+  ],
+  "stock": 4956,
+  "unitCostUsd": 21.96,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808381822257",
+  "sourceColor": "black"
+},
+{
+  "slug": "tavienne-layered-mesh-midi-skirt-mushroom-taupe",
+  "name": "Tavienne Layered Mesh Midi Skirt — Mushroom Taupe",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 104.9,
+  "colors": [
+    "#817568"
+  ],
+  "colorNames": [
+    "Mushroom Taupe"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A mesh midi skirt with a gathered waist, overlapping ruffles and a soft asymmetric hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/tavienne-layered-mesh-midi-skirt-mushroom-taupe/front.webp",
+    "/products/tavienne-layered-mesh-midi-skirt-mushroom-taupe/back.webp",
+    "/products/tavienne-layered-mesh-midi-skirt-mushroom-taupe/left.webp",
+    "/products/tavienne-layered-mesh-midi-skirt-mushroom-taupe/right.webp"
+  ],
+  "stock": 163,
+  "unitCostUsd": 34.91,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808764754635",
+  "sourceColor": "Khaki"
+},
+{
+  "slug": "melrisa-ruched-high-neck-maxi-dress-scarlet",
+  "name": "Melrisa Ruched High-Neck Maxi Dress — Scarlet",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 147.9,
+  "colors": [
+    "#c22b30"
+  ],
+  "colorNames": [
+    "Scarlet"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A floor-length dress with a high neckline, long sleeves and diagonal ruching gathered around the hips.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/melrisa-ruched-high-neck-maxi-dress-scarlet/front.webp",
+    "/products/melrisa-ruched-high-neck-maxi-dress-scarlet/back.webp",
+    "/products/melrisa-ruched-high-neck-maxi-dress-scarlet/left.webp",
+    "/products/melrisa-ruched-high-neck-maxi-dress-scarlet/right.webp"
+  ],
+  "stock": 247,
+  "unitCostUsd": 49,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810116455455",
+  "sourceColor": "Red"
+},
+{
+  "slug": "orselle-raw-hem-denim-shorts-white",
+  "name": "Orselle Raw-Hem Denim Shorts — White",
+  "category": "Shorts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 65.9,
+  "colors": [
+    "#efeee9"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "High-rise denim shorts with front and back pockets, short side notches and frayed hems.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/orselle-raw-hem-denim-shorts-white/front.webp",
+    "/products/orselle-raw-hem-denim-shorts-white/back.webp",
+    "/products/orselle-raw-hem-denim-shorts-white/left.webp",
+    "/products/orselle-raw-hem-denim-shorts-white/right.webp"
+  ],
+  "stock": 4936,
+  "unitCostUsd": 21.96,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808381822257",
+  "sourceColor": "WHITE"
 }
 ];
 
@@ -27135,6 +27497,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "valenna-contrast-trim-button-dress-navy",
+  "melrisa-ruched-high-neck-maxi-dress-terracotta",
+  "tavienne-layered-mesh-midi-skirt-dusty-rose",
+  "orselle-raw-hem-denim-shorts-light-wash",
+  "clarrise-button-slit-chiffon-midi-skirt-black",
+  "melrisa-ruched-high-neck-maxi-dress-black",
+  "orselle-raw-hem-denim-shorts-black",
+  "tavienne-layered-mesh-midi-skirt-mushroom-taupe",
+  "melrisa-ruched-high-neck-maxi-dress-scarlet",
+  "orselle-raw-hem-denim-shorts-white",
+
   "velloria-single-button-flare-suit-vermilion",
   "miralise-surplice-ruffle-gown-lilac",
   "astrienne-cutout-column-maxi-dress-black",

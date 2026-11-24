@@ -2648,5 +2648,87 @@
    "M": 997,
    "XXL": 992
   }
+ },
+ "valenna-contrast-trim-button-dress-navy": {
+  "stockBySize": {
+   "S": 499,
+   "M": 497,
+   "L": 495,
+   "XL": 499,
+   "XXL": 498
+  }
+ },
+ "melrisa-ruched-high-neck-maxi-dress-terracotta": {
+  "stockBySize": {
+   "S": 49,
+   "XS": 50,
+   "L": 50,
+   "M": 49,
+   "XL": 49
+  }
+ },
+ "tavienne-layered-mesh-midi-skirt-dusty-rose": {
+  "stockBySize": {
+   "One Size": 188
+  }
+ },
+ "orselle-raw-hem-denim-shorts-light-wash": {
+  "stockBySize": {
+   "XXL": 996,
+   "L": 990,
+   "XL": 991,
+   "S": 993,
+   "M": 987
+  }
+ },
+ "clarrise-button-slit-chiffon-midi-skirt-black": {
+  "stockBySize": {
+   "S": 8,
+   "M": 5,
+   "L": 7,
+   "XL": 7,
+   "XXL": 16
+  }
+ },
+ "melrisa-ruched-high-neck-maxi-dress-black": {
+  "stockBySize": {
+   "XL": 49,
+   "L": 50,
+   "XS": 50,
+   "M": 50,
+   "S": 50
+  }
+ },
+ "orselle-raw-hem-denim-shorts-black": {
+  "stockBySize": {
+   "XL": 994,
+   "XXL": 995,
+   "M": 987,
+   "L": 989,
+   "S": 991
+  }
+ },
+ "tavienne-layered-mesh-midi-skirt-mushroom-taupe": {
+  "stockBySize": {
+   "One Size": 163
+  }
+ },
+ "melrisa-ruched-high-neck-maxi-dress-scarlet": {
+  "stockBySize": {
+   "M": 48,
+   "S": 50,
+   "XS": 50,
+   "XL": 50,
+   "L": 49
+  }
+ },
+ "orselle-raw-hem-denim-shorts-white": {
+  "stockBySize": {
+   "XXL": 992,
+   "L": 983,
+   "XL": 992,
+   "S": 986,
+   "M": 983
+  }
  }
 }
