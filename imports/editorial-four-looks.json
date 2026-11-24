@@ -2,13 +2,13 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
-      "slug": "celenne-lantern-sleeve-knit-dress-heather-gray",
-      "name": "Celenne Lantern Sleeve Knit Dress — Heather Gray",
-      "image": "/products/celenne-lantern-sleeve-knit-dress-heather-gray/front.webp",
+      "slug": "celenne-lantern-sleeve-knit-dress-apricot",
+      "name": "Celenne Lantern Sleeve Knit Dress — Apricot",
+      "image": "/products/celenne-lantern-sleeve-knit-dress-apricot/front.webp",
       "eyebrow": "NEW ARRIVAL",
-      "copy": "A knee-length knit dress with a round neckline, full lantern sleeves, long ribbed cuffs and a fitted skirt.",
+      "copy": "A soft knit dress with a boat neckline, lantern sleeves and fitted cuffs.",
       "category": "Dresses",
-      "arrivalRank": 976,
+      "arrivalRank": 986,
       "classification": "verified-model"
     },
     {

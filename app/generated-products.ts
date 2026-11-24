@@ -25743,6 +25743,339 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256807098504897",
   "sourceColor": "Yellow LYQ262"
+},
+{
+  "slug": "celenne-lantern-sleeve-knit-dress-apricot",
+  "name": "Celenne Lantern Sleeve Knit Dress — Apricot",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 105.9,
+  "colors": [
+    "#e0cdb3"
+  ],
+  "colorNames": [
+    "Apricot"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A soft knit dress with a boat neckline, lantern sleeves and fitted cuffs. A defined waistband gives way to a straight pencil skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/celenne-lantern-sleeve-knit-dress-apricot/front.webp",
+    "/products/celenne-lantern-sleeve-knit-dress-apricot/back.webp",
+    "/products/celenne-lantern-sleeve-knit-dress-apricot/left.webp",
+    "/products/celenne-lantern-sleeve-knit-dress-apricot/right.webp"
+  ],
+  "stock": 3977,
+  "unitCostUsd": 35.25,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809451783349",
+  "sourceColor": "apricot"
+},
+{
+  "slug": "norelle-ribbed-v-neck-long-dress-soft-blue",
+  "name": "Norelle Ribbed V-Neck Long Dress — Soft Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 66.9,
+  "colors": [
+    "#84a7bd"
+  ],
+  "colorNames": [
+    "Soft Blue"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A long-sleeve knit dress with a clean V-neck, vertical ribbing and a fitted silhouette. Approximate garment length: 115 cm (45 in).",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/norelle-ribbed-v-neck-long-dress-soft-blue/front.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-soft-blue/back.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-soft-blue/left.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-soft-blue/right.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 22.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807177059495",
+  "sourceColor": "Blue"
+},
+{
+  "slug": "norelle-ribbed-v-neck-long-dress-burgundy",
+  "name": "Norelle Ribbed V-Neck Long Dress — Burgundy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 68.9,
+  "colors": [
+    "#861f31"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A long-sleeve knit dress with a clean V-neck, vertical ribbing and a fitted silhouette. Approximate garment length: 115 cm (45 in).",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/norelle-ribbed-v-neck-long-dress-burgundy/front.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-burgundy/back.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-burgundy/left.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-burgundy/right.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 22.78,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807177059495",
+  "sourceColor": "Burgundy"
+},
+{
+  "slug": "norelle-ribbed-v-neck-long-dress-warm-taupe",
+  "name": "Norelle Ribbed V-Neck Long Dress — Warm Taupe",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 66.9,
+  "colors": [
+    "#b18d75"
+  ],
+  "colorNames": [
+    "Warm Taupe"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A long-sleeve knit dress with a clean V-neck, vertical ribbing and a fitted silhouette. Approximate garment length: 115 cm (45 in).",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/norelle-ribbed-v-neck-long-dress-warm-taupe/front.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-warm-taupe/back.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-warm-taupe/left.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-warm-taupe/right.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 22.14,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807177059495",
+  "sourceColor": "Khaki"
+},
+{
+  "slug": "norelle-ribbed-v-neck-long-dress-black",
+  "name": "Norelle Ribbed V-Neck Long Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#242325"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A long-sleeve knit dress with a clean V-neck, vertical ribbing and a fitted silhouette. Approximate garment length: 115 cm (45 in).",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/norelle-ribbed-v-neck-long-dress-black/front.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-black/back.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-black/left.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-black/right.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 22.32,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807177059495",
+  "sourceColor": "black"
+},
+{
+  "slug": "norelle-ribbed-v-neck-long-dress-heather-gray",
+  "name": "Norelle Ribbed V-Neck Long Dress — Heather Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 66.9,
+  "colors": [
+    "#8c8b88"
+  ],
+  "colorNames": [
+    "Heather Gray"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A long-sleeve knit dress with a clean V-neck, vertical ribbing and a fitted silhouette. Approximate garment length: 115 cm (45 in).",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/norelle-ribbed-v-neck-long-dress-heather-gray/front.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-heather-gray/back.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-heather-gray/left.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-heather-gray/right.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 22.11,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807177059495",
+  "sourceColor": "gray"
+},
+{
+  "slug": "norelle-ribbed-v-neck-long-dress-charcoal-olive",
+  "name": "Norelle Ribbed V-Neck Long Dress — Charcoal Olive",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 68.9,
+  "colors": [
+    "#41423a"
+  ],
+  "colorNames": [
+    "Charcoal Olive"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A long-sleeve knit dress with a clean V-neck, vertical ribbing and a fitted silhouette. Approximate garment length: 115 cm (45 in).",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/norelle-ribbed-v-neck-long-dress-charcoal-olive/front.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-charcoal-olive/back.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-charcoal-olive/left.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-charcoal-olive/right.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 22.74,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807177059495",
+  "sourceColor": "green"
+},
+{
+  "slug": "norelle-ribbed-v-neck-long-dress-navy",
+  "name": "Norelle Ribbed V-Neck Long Dress — Navy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 66.9,
+  "colors": [
+    "#24284e"
+  ],
+  "colorNames": [
+    "Navy"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A long-sleeve knit dress with a clean V-neck, vertical ribbing and a fitted silhouette. Approximate garment length: 115 cm (45 in).",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/norelle-ribbed-v-neck-long-dress-navy/front.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-navy/back.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-navy/left.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-navy/right.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 22.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807177059495",
+  "sourceColor": "navy blue"
+},
+{
+  "slug": "norelle-ribbed-v-neck-long-dress-dusty-pink",
+  "name": "Norelle Ribbed V-Neck Long Dress — Dusty Pink",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 66.9,
+  "colors": [
+    "#c98b90"
+  ],
+  "colorNames": [
+    "Dusty Pink"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A long-sleeve knit dress with a clean V-neck, vertical ribbing and a fitted silhouette. Approximate garment length: 115 cm (45 in).",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/norelle-ribbed-v-neck-long-dress-dusty-pink/front.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-dusty-pink/back.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-dusty-pink/left.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-dusty-pink/right.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 22.24,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807177059495",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "norelle-ribbed-v-neck-long-dress-mustard",
+  "name": "Norelle Ribbed V-Neck Long Dress — Mustard",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 67.9,
+  "colors": [
+    "#d5a226"
+  ],
+  "colorNames": [
+    "Mustard"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A long-sleeve knit dress with a clean V-neck, vertical ribbing and a fitted silhouette. Approximate garment length: 115 cm (45 in).",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/norelle-ribbed-v-neck-long-dress-mustard/front.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-mustard/back.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-mustard/left.webp",
+    "/products/norelle-ribbed-v-neck-long-dress-mustard/right.webp"
+  ],
+  "stock": 2,
+  "unitCostUsd": 22.32,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807177059495",
+  "sourceColor": "YELLOW"
 }
 ];
 
@@ -25752,6 +26085,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "celenne-lantern-sleeve-knit-dress-apricot",
+  "norelle-ribbed-v-neck-long-dress-soft-blue",
+  "norelle-ribbed-v-neck-long-dress-burgundy",
+  "norelle-ribbed-v-neck-long-dress-warm-taupe",
+  "norelle-ribbed-v-neck-long-dress-black",
+  "norelle-ribbed-v-neck-long-dress-heather-gray",
+  "norelle-ribbed-v-neck-long-dress-charcoal-olive",
+  "norelle-ribbed-v-neck-long-dress-navy",
+  "norelle-ribbed-v-neck-long-dress-dusty-pink",
+  "norelle-ribbed-v-neck-long-dress-mustard",
+
   "celenne-lantern-sleeve-knit-dress-heather-gray",
   "ravelle-single-compartment-crossbody-bag-burgundy",
   "evania-diamond-cable-turtleneck-dress-oatmeal",
