@@ -2385,5 +2385,58 @@
    "XXL": 558,
    "XL": 558
   }
+ },
+ "celenne-lantern-sleeve-knit-dress-apricot": {
+  "stockBySize": {
+   "S": 995,
+   "L": 992,
+   "M": 993,
+   "XL": 997
+  }
+ },
+ "norelle-ribbed-v-neck-long-dress-soft-blue": {
+  "stockBySize": {
+   "One Size": 1
+  }
+ },
+ "norelle-ribbed-v-neck-long-dress-burgundy": {
+  "stockBySize": {
+   "One Size": 1
+  }
+ },
+ "norelle-ribbed-v-neck-long-dress-warm-taupe": {
+  "stockBySize": {
+   "One Size": 1
+  }
+ },
+ "norelle-ribbed-v-neck-long-dress-black": {
+  "stockBySize": {
+   "One Size": 1
+  }
+ },
+ "norelle-ribbed-v-neck-long-dress-heather-gray": {
+  "stockBySize": {
+   "One Size": 1
+  }
+ },
+ "norelle-ribbed-v-neck-long-dress-charcoal-olive": {
+  "stockBySize": {
+   "One Size": 1
+  }
+ },
+ "norelle-ribbed-v-neck-long-dress-navy": {
+  "stockBySize": {
+   "One Size": 1
+  }
+ },
+ "norelle-ribbed-v-neck-long-dress-dusty-pink": {
+  "stockBySize": {
+   "One Size": 1
+  }
+ },
+ "norelle-ribbed-v-neck-long-dress-mustard": {
+  "stockBySize": {
+   "One Size": 2
+  }
  }
 }

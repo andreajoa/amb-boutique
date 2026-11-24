@@ -1,0 +1,185 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "celenne-lantern-sleeve-knit-dress-apricot",
+      "sourceProductId": "3256809451783349",
+      "sourceColor": "apricot",
+      "supplierId": "cmwtop7i100o50jlnocx4rehw",
+      "sourceSkuIdsBySize": {
+        "S": "12000049718689693",
+        "L": "12000049718689695",
+        "M": "12000049718689694",
+        "XL": "12000049718689696"
+      },
+      "landedCostUsdBySize": {
+        "S": 35.25,
+        "L": 35.25,
+        "M": 35.25,
+        "XL": 35.25
+      },
+      "stockBySize": {
+        "S": 995,
+        "L": 992,
+        "M": 993,
+        "XL": 997
+      },
+      "retailPriceUsd": 105.9,
+      "verifiedAtUtc": "2026-11-24T01:49:59.236Z"
+    },
+    {
+      "slug": "norelle-ribbed-v-neck-long-dress-soft-blue",
+      "sourceProductId": "3256807177059495",
+      "sourceColor": "Blue",
+      "supplierId": "cmwtp5yzu01000jln1kg87633",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000040438451806"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 22.18
+      },
+      "stockBySize": {
+        "One Size": 1
+      },
+      "retailPriceUsd": 66.9,
+      "verifiedAtUtc": "2026-11-24T01:49:53.857Z"
+    },
+    {
+      "slug": "norelle-ribbed-v-neck-long-dress-burgundy",
+      "sourceProductId": "3256807177059495",
+      "sourceColor": "Burgundy",
+      "supplierId": "cmwtp5yzu01000jln1kg87633",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000040438451814"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 22.78
+      },
+      "stockBySize": {
+        "One Size": 1
+      },
+      "retailPriceUsd": 68.9,
+      "verifiedAtUtc": "2026-11-24T01:49:53.857Z"
+    },
+    {
+      "slug": "norelle-ribbed-v-neck-long-dress-warm-taupe",
+      "sourceProductId": "3256807177059495",
+      "sourceColor": "Khaki",
+      "supplierId": "cmwtp5yzu01000jln1kg87633",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000040438451809"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 22.14
+      },
+      "stockBySize": {
+        "One Size": 1
+      },
+      "retailPriceUsd": 66.9,
+      "verifiedAtUtc": "2026-11-24T01:49:53.857Z"
+    },
+    {
+      "slug": "norelle-ribbed-v-neck-long-dress-black",
+      "sourceProductId": "3256807177059495",
+      "sourceColor": "black",
+      "supplierId": "cmwtp5yzu01000jln1kg87633",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000040438451813"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 22.32
+      },
+      "stockBySize": {
+        "One Size": 1
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-24T01:49:53.857Z"
+    },
+    {
+      "slug": "norelle-ribbed-v-neck-long-dress-heather-gray",
+      "sourceProductId": "3256807177059495",
+      "sourceColor": "gray",
+      "supplierId": "cmwtp5yzu01000jln1kg87633",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000040438451807"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 22.11
+      },
+      "stockBySize": {
+        "One Size": 1
+      },
+      "retailPriceUsd": 66.9,
+      "verifiedAtUtc": "2026-11-24T01:49:53.857Z"
+    },
+    {
+      "slug": "norelle-ribbed-v-neck-long-dress-charcoal-olive",
+      "sourceProductId": "3256807177059495",
+      "sourceColor": "green",
+      "supplierId": "cmwtp5yzu01000jln1kg87633",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000040438451812"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 22.74
+      },
+      "stockBySize": {
+        "One Size": 1
+      },
+      "retailPriceUsd": 68.9,
+      "verifiedAtUtc": "2026-11-24T01:49:53.857Z"
+    },
+    {
+      "slug": "norelle-ribbed-v-neck-long-dress-navy",
+      "sourceProductId": "3256807177059495",
+      "sourceColor": "navy blue",
+      "supplierId": "cmwtp5yzu01000jln1kg87633",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000040438451810"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 22.18
+      },
+      "stockBySize": {
+        "One Size": 1
+      },
+      "retailPriceUsd": 66.9,
+      "verifiedAtUtc": "2026-11-24T01:49:53.857Z"
+    },
+    {
+      "slug": "norelle-ribbed-v-neck-long-dress-dusty-pink",
+      "sourceProductId": "3256807177059495",
+      "sourceColor": "Pink",
+      "supplierId": "cmwtp5yzu01000jln1kg87633",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000040438451811"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 22.24
+      },
+      "stockBySize": {
+        "One Size": 1
+      },
+      "retailPriceUsd": 66.9,
+      "verifiedAtUtc": "2026-11-24T01:49:53.857Z"
+    },
+    {
+      "slug": "norelle-ribbed-v-neck-long-dress-mustard",
+      "sourceProductId": "3256807177059495",
+      "sourceColor": "YELLOW",
+      "supplierId": "cmwtp5yzu01000jln1kg87633",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000040438451808"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 22.32
+      },
+      "stockBySize": {
+        "One Size": 2
+      },
+      "retailPriceUsd": 67.9,
+      "verifiedAtUtc": "2026-11-24T01:49:53.857Z"
+    }
+  ]
+}

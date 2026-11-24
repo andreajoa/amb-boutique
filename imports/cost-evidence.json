@@ -349,6 +349,10 @@
    "landedCostUsd": 19.52,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
   },
+  "celenne-lantern-sleeve-knit-dress-apricot": {
+   "landedCostUsd": 35.25,
+   "source": "catalog-20261123-batch16-bindings.json"
+  },
   "celenne-lantern-sleeve-knit-dress-black": {
    "landedCostUsd": 35.25,
    "source": "catalog-20261123-batch15-bindings.json"
@@ -1300,6 +1304,42 @@
   "nola-a-line-dress": {
    "landedCostUsd": 42.48,
    "source": "markup-3x-20261025 (pilot)"
+  },
+  "norelle-ribbed-v-neck-long-dress-black": {
+   "landedCostUsd": 22.32,
+   "source": "catalog-20261123-batch16-bindings.json"
+  },
+  "norelle-ribbed-v-neck-long-dress-burgundy": {
+   "landedCostUsd": 22.78,
+   "source": "catalog-20261123-batch16-bindings.json"
+  },
+  "norelle-ribbed-v-neck-long-dress-charcoal-olive": {
+   "landedCostUsd": 22.74,
+   "source": "catalog-20261123-batch16-bindings.json"
+  },
+  "norelle-ribbed-v-neck-long-dress-dusty-pink": {
+   "landedCostUsd": 22.24,
+   "source": "catalog-20261123-batch16-bindings.json"
+  },
+  "norelle-ribbed-v-neck-long-dress-heather-gray": {
+   "landedCostUsd": 22.11,
+   "source": "catalog-20261123-batch16-bindings.json"
+  },
+  "norelle-ribbed-v-neck-long-dress-mustard": {
+   "landedCostUsd": 22.32,
+   "source": "catalog-20261123-batch16-bindings.json"
+  },
+  "norelle-ribbed-v-neck-long-dress-navy": {
+   "landedCostUsd": 22.18,
+   "source": "catalog-20261123-batch16-bindings.json"
+  },
+  "norelle-ribbed-v-neck-long-dress-soft-blue": {
+   "landedCostUsd": 22.18,
+   "source": "catalog-20261123-batch16-bindings.json"
+  },
+  "norelle-ribbed-v-neck-long-dress-warm-taupe": {
+   "landedCostUsd": 22.14,
+   "source": "catalog-20261123-batch16-bindings.json"
   },
   "nova-galaxy-swing-dress": {
    "landedCostUsd": 28.98,
