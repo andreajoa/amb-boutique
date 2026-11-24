@@ -2572,5 +2572,81 @@
   "stockBySize": {
    "One Size": 200
   }
+ },
+ "velloria-single-button-flare-suit-vermilion": {
+  "stockBySize": {
+   "4XL": 20,
+   "XXXL": 21,
+   "S": 2,
+   "XXL": 14
+  }
+ },
+ "miralise-surplice-ruffle-gown-lilac": {
+  "stockBySize": {
+   "S": 17,
+   "M": 16
+  }
+ },
+ "astrienne-cutout-column-maxi-dress-black": {
+  "stockBySize": {
+   "S": 76,
+   "L": 45,
+   "M": 76
+  }
+ },
+ "tessaria-button-front-maxi-skirt-denim-blue": {
+  "stockBySize": {
+   "2XL": 989,
+   "3XL": 9989,
+   "XL": 983,
+   "L": 868
+  }
+ },
+ "ruvelle-cape-sleeve-midi-dress-burgundy": {
+  "stockBySize": {
+   "S": 994,
+   "M": 992,
+   "XXL": 992,
+   "L": 2,
+   "XL": 981
+  }
+ },
+ "velloria-single-button-flare-suit-white": {
+  "stockBySize": {
+   "XXL": 56,
+   "XL": 98,
+   "L": 96,
+   "M": 96
+  }
+ },
+ "miralise-surplice-ruffle-gown-aubergine": {
+  "stockBySize": {
+   "L": 7,
+   "XL": 11,
+   "S": 27,
+   "M": 8
+  }
+ },
+ "tessaria-button-front-maxi-skirt-black": {
+  "stockBySize": {
+   "XL": 858,
+   "L": 863,
+   "M": 868,
+   "2XL": 983
+  }
+ },
+ "tessaria-button-front-maxi-skirt-wine-red": {
+  "stockBySize": {
+   "3XL": 885
+  }
+ },
+ "ruvelle-cape-sleeve-midi-dress-black": {
+  "stockBySize": {
+   "L": 993,
+   "XL": 995,
+   "S": 997,
+   "M": 997,
+   "XXL": 992
+  }
  }
 }

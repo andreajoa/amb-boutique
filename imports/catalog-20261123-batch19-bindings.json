@@ -1,0 +1,254 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "velloria-single-button-flare-suit-vermilion",
+      "sourceProductId": "3256802843819353",
+      "sourceColor": "Red",
+      "supplierId": "cmsyp95ta00cy04jlpdl9jt4u",
+      "sourceSkuIdsBySize": {
+        "4XL": "12000029073043245",
+        "XXXL": "12000029073043244",
+        "S": "12000023331163688",
+        "XXL": "12000027936510110"
+      },
+      "landedCostUsdBySize": {
+        "4XL": 48.99,
+        "XXXL": 48.99,
+        "S": 48.99,
+        "XXL": 48.99
+      },
+      "stockBySize": {
+        "4XL": 20,
+        "XXXL": 21,
+        "S": 2,
+        "XXL": 14
+      },
+      "retailPriceUsd": 147.9,
+      "verifiedAtUtc": "2026-11-24T02:52:11.960Z"
+    },
+    {
+      "slug": "miralise-surplice-ruffle-gown-lilac",
+      "sourceProductId": "3256805896462287",
+      "sourceColor": "Light Purple",
+      "supplierId": "cmt5zr68d000v04ifnnmda1gf",
+      "sourceSkuIdsBySize": {
+        "S": "12000036429550912",
+        "M": "12000036429550913"
+      },
+      "landedCostUsdBySize": {
+        "S": 41.88,
+        "M": 41.78
+      },
+      "stockBySize": {
+        "S": 17,
+        "M": 16
+      },
+      "retailPriceUsd": 125.9,
+      "verifiedAtUtc": "2026-11-24T02:52:38.670Z"
+    },
+    {
+      "slug": "astrienne-cutout-column-maxi-dress-black",
+      "sourceProductId": "3256805329029366",
+      "sourceColor": "black",
+      "supplierId": "cmwhrk0xn002c0jmc6cbcg5yc",
+      "sourceSkuIdsBySize": {
+        "S": "12000033375577513",
+        "L": "12000033375577515",
+        "M": "12000033375577514"
+      },
+      "landedCostUsdBySize": {
+        "S": 19.13,
+        "L": 19.13,
+        "M": 19.13
+      },
+      "stockBySize": {
+        "S": 76,
+        "L": 45,
+        "M": 76
+      },
+      "retailPriceUsd": 57.9,
+      "verifiedAtUtc": "2026-11-24T02:52:30.019Z"
+    },
+    {
+      "slug": "tessaria-button-front-maxi-skirt-denim-blue",
+      "sourceProductId": "1005004204388855",
+      "sourceColor": "Blue",
+      "supplierId": "cmsy2hkzb000m04jremay1tjn",
+      "sourceSkuIdsBySize": {
+        "2XL": "12000028368845357",
+        "3XL": "12000028368845358",
+        "XL": "12000028368845359",
+        "L": "12000028368845360"
+      },
+      "landedCostUsdBySize": {
+        "2XL": 23.46,
+        "3XL": 23.66,
+        "XL": 23.23,
+        "L": 22.8
+      },
+      "stockBySize": {
+        "2XL": 989,
+        "3XL": 9989,
+        "XL": 983,
+        "L": 868
+      },
+      "retailPriceUsd": 71.9,
+      "verifiedAtUtc": "2026-11-24T02:52:24.431Z"
+    },
+    {
+      "slug": "ruvelle-cape-sleeve-midi-dress-burgundy",
+      "sourceProductId": "3256812139580294",
+      "sourceColor": "Burgundy",
+      "supplierId": "cmsyp57ns009v04jlatpc9toq",
+      "sourceSkuIdsBySize": {
+        "S": "12000058088169158",
+        "M": "12000058088169159",
+        "XXL": "12000058088169162",
+        "L": "12000058088169160",
+        "XL": "12000058088169161"
+      },
+      "landedCostUsdBySize": {
+        "S": 22.74,
+        "M": 23.04,
+        "XXL": 24.08,
+        "L": 23.04,
+        "XL": 23.24
+      },
+      "stockBySize": {
+        "S": 994,
+        "M": 992,
+        "XXL": 992,
+        "L": 2,
+        "XL": 981
+      },
+      "retailPriceUsd": 72.9,
+      "verifiedAtUtc": "2026-11-24T02:52:55.098Z"
+    },
+    {
+      "slug": "velloria-single-button-flare-suit-white",
+      "sourceProductId": "3256802843819353",
+      "sourceColor": "WHITE",
+      "supplierId": "cmsyp95ta00cy04jlpdl9jt4u",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000027936510120",
+        "XL": "12000027936510119",
+        "L": "12000027936510118",
+        "M": "12000027936510117"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 48.99,
+        "XL": 48.99,
+        "L": 48.99,
+        "M": 48.99
+      },
+      "stockBySize": {
+        "XXL": 56,
+        "XL": 98,
+        "L": 96,
+        "M": 96
+      },
+      "retailPriceUsd": 147.9,
+      "verifiedAtUtc": "2026-11-24T02:52:11.960Z"
+    },
+    {
+      "slug": "miralise-surplice-ruffle-gown-aubergine",
+      "sourceProductId": "3256805896462287",
+      "sourceColor": "PURPLE",
+      "supplierId": "cmt5zr68d000v04ifnnmda1gf",
+      "sourceSkuIdsBySize": {
+        "L": "12000036429550918",
+        "XL": "12000036429550919",
+        "S": "12000036429550916",
+        "M": "12000036429550917"
+      },
+      "landedCostUsdBySize": {
+        "L": 42.08,
+        "XL": 42.48,
+        "S": 42.08,
+        "M": 42.18
+      },
+      "stockBySize": {
+        "L": 7,
+        "XL": 11,
+        "S": 27,
+        "M": 8
+      },
+      "retailPriceUsd": 127.9,
+      "verifiedAtUtc": "2026-11-24T02:52:38.670Z"
+    },
+    {
+      "slug": "tessaria-button-front-maxi-skirt-black",
+      "sourceProductId": "1005004204388855",
+      "sourceColor": "Black",
+      "supplierId": "cmsy2hkzb000m04jremay1tjn",
+      "sourceSkuIdsBySize": {
+        "XL": "12000028368845364",
+        "L": "12000028368845365",
+        "M": "12000028368845366",
+        "2XL": "12000028368845362"
+      },
+      "landedCostUsdBySize": {
+        "XL": 23.23,
+        "L": 22.8,
+        "M": 22.6,
+        "2XL": 23.46
+      },
+      "stockBySize": {
+        "XL": 858,
+        "L": 863,
+        "M": 868,
+        "2XL": 983
+      },
+      "retailPriceUsd": 70.9,
+      "verifiedAtUtc": "2026-11-24T02:52:24.431Z"
+    },
+    {
+      "slug": "tessaria-button-front-maxi-skirt-wine-red",
+      "sourceProductId": "1005004204388855",
+      "sourceColor": "Wine Red",
+      "supplierId": "cmsy2hkzb000m04jremay1tjn",
+      "sourceSkuIdsBySize": {
+        "3XL": "12000028368845353"
+      },
+      "landedCostUsdBySize": {
+        "3XL": 23.66
+      },
+      "stockBySize": {
+        "3XL": 885
+      },
+      "retailPriceUsd": 71.9,
+      "verifiedAtUtc": "2026-11-24T02:52:24.431Z"
+    },
+    {
+      "slug": "ruvelle-cape-sleeve-midi-dress-black",
+      "sourceProductId": "3256812139580294",
+      "sourceColor": "black",
+      "supplierId": "cmsyp57ns009v04jlatpc9toq",
+      "sourceSkuIdsBySize": {
+        "L": "12000058088169150",
+        "XL": "12000058088169151",
+        "S": "12000058088169148",
+        "M": "12000058088169149",
+        "XXL": "12000058088169152"
+      },
+      "landedCostUsdBySize": {
+        "L": 23.18,
+        "XL": 22.78,
+        "S": 22.38,
+        "M": 22.38,
+        "XXL": 23.14
+      },
+      "stockBySize": {
+        "L": 993,
+        "XL": 995,
+        "S": 997,
+        "M": 997,
+        "XXL": 992
+      },
+      "retailPriceUsd": 69.9,
+      "verifiedAtUtc": "2026-11-24T02:52:55.098Z"
+    }
+  ]
+}
