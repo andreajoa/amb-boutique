@@ -169,6 +169,18 @@
    "landedCostUsd": 27.08,
    "source": "catalog-20261123-batch10-bindings.json"
   },
+  "avelora-ribbed-mock-neck-midi-dress-black": {
+   "landedCostUsd": 29.58,
+   "source": "catalog-20261123-batch13-bindings.json"
+  },
+  "avelora-ribbed-mock-neck-midi-dress-olive": {
+   "landedCostUsd": 29.68,
+   "source": "catalog-20261123-batch13-bindings.json"
+  },
+  "avelora-ribbed-mock-neck-midi-dress-warm-ivory": {
+   "landedCostUsd": 29.58,
+   "source": "catalog-20261123-batch13-bindings.json"
+  },
   "azul-tile-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -969,9 +981,25 @@
    "landedCostUsd": 21.84,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
   },
+  "maerith-cable-knit-slit-midi-dress-black": {
+   "landedCostUsd": 49.58,
+   "source": "catalog-20261123-batch13-bindings.json"
+  },
+  "maerith-cable-knit-slit-midi-dress-copper-brown": {
+   "landedCostUsd": 49.88,
+   "source": "catalog-20261123-batch13-bindings.json"
+  },
   "maerith-cable-knit-slit-midi-dress-cream": {
    "landedCostUsd": 55.18,
    "source": "catalog-20261123-batch05-bindings.json"
+  },
+  "maerith-cable-knit-slit-midi-dress-kelly-green": {
+   "landedCostUsd": 49.88,
+   "source": "catalog-20261123-batch13-bindings.json"
+  },
+  "maerith-cable-knit-slit-midi-dress-lemon-yellow": {
+   "landedCostUsd": 62.18,
+   "source": "catalog-20261123-batch13-bindings.json"
   },
   "mali-mudcloth-swing-dress": {
    "landedCostUsd": 28.98,
@@ -1204,6 +1232,10 @@
   "noctelle-strapless-corset-midi-dress-black": {
    "landedCostUsd": 43.97,
    "source": "catalog-20261026-new-products-bindings.json"
+  },
+  "noelia-bow-satchel-black": {
+   "landedCostUsd": 14.14,
+   "source": "catalog-20261123-batch13-bindings.json"
   },
   "noemi-maxi-dress": {
    "landedCostUsd": 33.79,
@@ -1732,6 +1764,14 @@
   "terra-block-maxi-dress": {
    "landedCostUsd": 13.14,
    "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "thessa-asymmetric-button-knit-midi-dress-black": {
+   "landedCostUsd": 29.27,
+   "source": "catalog-20261123-batch13-bindings.json"
+  },
+  "thessa-asymmetric-button-knit-midi-dress-oatmeal": {
+   "landedCostUsd": 29.27,
+   "source": "catalog-20261123-batch13-bindings.json"
   },
   "tide-mosaic-swing-dress": {
    "landedCostUsd": 28.98,

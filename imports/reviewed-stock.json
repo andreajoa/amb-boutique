@@ -2138,5 +2138,88 @@
    "5XL": 1008,
    "4XL": 1009
   }
+ },
+ "avelora-ribbed-mock-neck-midi-dress-olive": {
+  "stockBySize": {
+   "S": 1599,
+   "XL": 1597,
+   "L": 1600,
+   "M": 1599
+  }
+ },
+ "noelia-bow-satchel-black": {
+  "stockBySize": {
+   "One Size": 1
+  }
+ },
+ "maerith-cable-knit-slit-midi-dress-copper-brown": {
+  "stockBySize": {
+   "L": 50,
+   "M": 50,
+   "XXL": 50,
+   "XL": 48,
+   "S": 50
+  }
+ },
+ "thessa-asymmetric-button-knit-midi-dress-black": {
+  "stockBySize": {
+   "S": 121,
+   "M": 116,
+   "XXL": 115,
+   "L": 118,
+   "XL": 121
+  }
+ },
+ "maerith-cable-knit-slit-midi-dress-black": {
+  "stockBySize": {
+   "L": 49,
+   "M": 50,
+   "XXL": 50,
+   "XL": 50,
+   "S": 50
+  }
+ },
+ "avelora-ribbed-mock-neck-midi-dress-warm-ivory": {
+  "stockBySize": {
+   "XL": 1599,
+   "L": 1594,
+   "M": 1595,
+   "S": 1590
+  }
+ },
+ "maerith-cable-knit-slit-midi-dress-kelly-green": {
+  "stockBySize": {
+   "M": 49,
+   "S": 50,
+   "XL": 50,
+   "L": 50,
+   "XXL": 50
+  }
+ },
+ "thessa-asymmetric-button-knit-midi-dress-oatmeal": {
+  "stockBySize": {
+   "L": 118,
+   "XL": 115,
+   "S": 120,
+   "M": 115,
+   "XXL": 123
+  }
+ },
+ "avelora-ribbed-mock-neck-midi-dress-black": {
+  "stockBySize": {
+   "S": 1597,
+   "XL": 1596,
+   "L": 1595,
+   "M": 1596
+  }
+ },
+ "maerith-cable-knit-slit-midi-dress-lemon-yellow": {
+  "stockBySize": {
+   "XXL": 50,
+   "XL": 50,
+   "S": 49,
+   "L": 50,
+   "M": 50
+  }
  }
 }

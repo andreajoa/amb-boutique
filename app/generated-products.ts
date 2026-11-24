@@ -24653,6 +24653,370 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256804168483021",
   "sourceColor": "YELLOW"
+},
+{
+  "slug": "avelora-ribbed-mock-neck-midi-dress-olive",
+  "name": "Avelora Ribbed Mock-Neck Midi Dress — Olive",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 89.9,
+  "colors": [
+    "#8a943c"
+  ],
+  "colorNames": [
+    "Olive"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A ribbed knit midi dress with a short mock neckline, slim sleeves, a fitted waist and a softly flared skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/avelora-ribbed-mock-neck-midi-dress-olive/front.webp",
+    "/products/avelora-ribbed-mock-neck-midi-dress-olive/back.webp",
+    "/products/avelora-ribbed-mock-neck-midi-dress-olive/left.webp",
+    "/products/avelora-ribbed-mock-neck-midi-dress-olive/right.webp"
+  ],
+  "stock": 6395,
+  "unitCostUsd": 29.68,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806195577389",
+  "sourceColor": "Green"
+},
+{
+  "slug": "noelia-bow-satchel-black",
+  "name": "Noelia Bow Satchel — Black",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 42.9,
+  "colors": [
+    "#202020"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured black satchel with two rounded handles, a detachable shoulder strap, a bow with a star charm and a rear zip pocket. The open view shows the interior compartments.",
+  "materials": "See the product care label for material details.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/noelia-bow-satchel-black/front.webp",
+    "/products/noelia-bow-satchel-black/back.webp",
+    "/products/noelia-bow-satchel-black/left.webp",
+    "/products/noelia-bow-satchel-black/right.webp",
+    "/products/noelia-bow-satchel-black/inside.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 14.14,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810056758129",
+  "sourceColor": "black"
+},
+{
+  "slug": "maerith-cable-knit-slit-midi-dress-copper-brown",
+  "name": "Maerith Cable Knit Slit Midi Dress — Copper Brown",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 149.9,
+  "colors": [
+    "#9b5121"
+  ],
+  "colorNames": [
+    "Copper Brown"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A cable-knit midi dress with a standing neckline, voluminous sleeves and an angled opening at the hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/maerith-cable-knit-slit-midi-dress-copper-brown/front.webp",
+    "/products/maerith-cable-knit-slit-midi-dress-copper-brown/back.webp",
+    "/products/maerith-cable-knit-slit-midi-dress-copper-brown/left.webp",
+    "/products/maerith-cable-knit-slit-midi-dress-copper-brown/right.webp"
+  ],
+  "stock": 248,
+  "unitCostUsd": 49.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806055973737",
+  "sourceColor": "Dark Brown"
+},
+{
+  "slug": "thessa-asymmetric-button-knit-midi-dress-black",
+  "name": "Thessa Asymmetric Button Knit Midi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 87.9,
+  "colors": [
+    "#222121"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fine-knit midi dress with a ribbed turtleneck, full sleeves, a self-tie waist and five metallic buttons set diagonally from the collar.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/thessa-asymmetric-button-knit-midi-dress-black/front.webp",
+    "/products/thessa-asymmetric-button-knit-midi-dress-black/back.webp",
+    "/products/thessa-asymmetric-button-knit-midi-dress-black/left.webp",
+    "/products/thessa-asymmetric-button-knit-midi-dress-black/right.webp"
+  ],
+  "stock": 591,
+  "unitCostUsd": 29.27,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809609488496",
+  "sourceColor": "Black"
+},
+{
+  "slug": "maerith-cable-knit-slit-midi-dress-black",
+  "name": "Maerith Cable Knit Slit Midi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 148.9,
+  "colors": [
+    "#212121"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A cable-knit midi dress with a standing neckline, voluminous sleeves and an angled opening at the hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/maerith-cable-knit-slit-midi-dress-black/front.webp",
+    "/products/maerith-cable-knit-slit-midi-dress-black/back.webp",
+    "/products/maerith-cable-knit-slit-midi-dress-black/left.webp",
+    "/products/maerith-cable-knit-slit-midi-dress-black/right.webp"
+  ],
+  "stock": 249,
+  "unitCostUsd": 49.58,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806055973737",
+  "sourceColor": "Black"
+},
+{
+  "slug": "avelora-ribbed-mock-neck-midi-dress-warm-ivory",
+  "name": "Avelora Ribbed Mock-Neck Midi Dress — Warm Ivory",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 88.9,
+  "colors": [
+    "#e1d0b8"
+  ],
+  "colorNames": [
+    "Warm Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A ribbed knit midi dress with a short mock neckline, slim sleeves, a fitted waist and a softly flared skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/avelora-ribbed-mock-neck-midi-dress-warm-ivory/front.webp",
+    "/products/avelora-ribbed-mock-neck-midi-dress-warm-ivory/back.webp",
+    "/products/avelora-ribbed-mock-neck-midi-dress-warm-ivory/left.webp",
+    "/products/avelora-ribbed-mock-neck-midi-dress-warm-ivory/right.webp"
+  ],
+  "stock": 6378,
+  "unitCostUsd": 29.58,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806195577389",
+  "sourceColor": "APRICOT"
+},
+{
+  "slug": "maerith-cable-knit-slit-midi-dress-kelly-green",
+  "name": "Maerith Cable Knit Slit Midi Dress — Kelly Green",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 149.9,
+  "colors": [
+    "#17763c"
+  ],
+  "colorNames": [
+    "Kelly Green"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A cable-knit midi dress with a standing neckline, voluminous sleeves and an angled opening at the hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/maerith-cable-knit-slit-midi-dress-kelly-green/front.webp",
+    "/products/maerith-cable-knit-slit-midi-dress-kelly-green/back.webp",
+    "/products/maerith-cable-knit-slit-midi-dress-kelly-green/left.webp",
+    "/products/maerith-cable-knit-slit-midi-dress-kelly-green/right.webp"
+  ],
+  "stock": 249,
+  "unitCostUsd": 49.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806055973737",
+  "sourceColor": "Green"
+},
+{
+  "slug": "thessa-asymmetric-button-knit-midi-dress-oatmeal",
+  "name": "Thessa Asymmetric Button Knit Midi Dress — Oatmeal",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 87.9,
+  "colors": [
+    "#c7b89f"
+  ],
+  "colorNames": [
+    "Oatmeal"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fine-knit midi dress with a ribbed turtleneck, full sleeves, a self-tie waist and five metallic buttons set diagonally from the collar.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/thessa-asymmetric-button-knit-midi-dress-oatmeal/front.webp",
+    "/products/thessa-asymmetric-button-knit-midi-dress-oatmeal/back.webp",
+    "/products/thessa-asymmetric-button-knit-midi-dress-oatmeal/left.webp",
+    "/products/thessa-asymmetric-button-knit-midi-dress-oatmeal/right.webp"
+  ],
+  "stock": 591,
+  "unitCostUsd": 29.27,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809609488496",
+  "sourceColor": "Beige"
+},
+{
+  "slug": "avelora-ribbed-mock-neck-midi-dress-black",
+  "name": "Avelora Ribbed Mock-Neck Midi Dress — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 88.9,
+  "colors": [
+    "#242424"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A ribbed knit midi dress with a short mock neckline, slim sleeves, a fitted waist and a softly flared skirt.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/avelora-ribbed-mock-neck-midi-dress-black/front.webp",
+    "/products/avelora-ribbed-mock-neck-midi-dress-black/back.webp",
+    "/products/avelora-ribbed-mock-neck-midi-dress-black/left.webp",
+    "/products/avelora-ribbed-mock-neck-midi-dress-black/right.webp"
+  ],
+  "stock": 6384,
+  "unitCostUsd": 29.58,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806195577389",
+  "sourceColor": "Black"
+},
+{
+  "slug": "maerith-cable-knit-slit-midi-dress-lemon-yellow",
+  "name": "Maerith Cable Knit Slit Midi Dress — Lemon Yellow",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 186.9,
+  "colors": [
+    "#e4bf20"
+  ],
+  "colorNames": [
+    "Lemon Yellow"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A cable-knit midi dress with a standing neckline, voluminous sleeves and an angled opening at the hem.",
+  "materials": "See the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/maerith-cable-knit-slit-midi-dress-lemon-yellow/front.webp",
+    "/products/maerith-cable-knit-slit-midi-dress-lemon-yellow/back.webp",
+    "/products/maerith-cable-knit-slit-midi-dress-lemon-yellow/left.webp",
+    "/products/maerith-cable-knit-slit-midi-dress-lemon-yellow/right.webp"
+  ],
+  "stock": 249,
+  "unitCostUsd": 62.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806055973737",
+  "sourceColor": "YELLOW"
 }
 ];
 
@@ -24662,6 +25026,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "avelora-ribbed-mock-neck-midi-dress-olive",
+  "noelia-bow-satchel-black",
+  "maerith-cable-knit-slit-midi-dress-copper-brown",
+  "thessa-asymmetric-button-knit-midi-dress-black",
+  "maerith-cable-knit-slit-midi-dress-black",
+  "avelora-ribbed-mock-neck-midi-dress-warm-ivory",
+  "maerith-cable-knit-slit-midi-dress-kelly-green",
+  "thessa-asymmetric-button-knit-midi-dress-oatmeal",
+  "avelora-ribbed-mock-neck-midi-dress-black",
+  "maerith-cable-knit-slit-midi-dress-lemon-yellow",
+
   "viana-button-fly-denim-maxi-skirt-light-wash",
   "positano-shoulder-bag-cognac",
   "lisette-textured-cardigan-and-skirt-set-crimson-mix",

@@ -2,10 +2,20 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
+      "slug": "avelora-ribbed-mock-neck-midi-dress-olive",
+      "name": "Avelora Ribbed Mock-Neck Midi Dress — Olive",
+      "image": "/products/avelora-ribbed-mock-neck-midi-dress-olive/front.webp",
+      "eyebrow": "NEW ARRIVAL",
+      "copy": "A ribbed knit midi dress with a short mock neckline, slim sleeves, a fitted waist and a softly flared skirt.",
+      "category": "Dresses",
+      "arrivalRank": 956,
+      "classification": "verified-model"
+    },
+    {
       "slug": "viana-button-fly-denim-maxi-skirt-light-wash",
       "name": "Viana Button-Fly Denim Maxi Skirt — Light Wash",
       "image": "/products/viana-button-fly-denim-maxi-skirt-light-wash/front.webp",
-      "eyebrow": "NEW ARRIVAL",
+      "eyebrow": "THE SOFT STATEMENT",
       "copy": "A high-waisted light-wash denim maxi skirt with a flared panelled silhouette, contrast stitching and an exposed button fly.",
       "category": "Skirts",
       "arrivalRank": 946,
@@ -29,16 +39,6 @@
       "copy": "Fluid indigo mosaic prints and sweeping draped sleeves designed for effortless coastal movement.",
       "category": "Dresses",
       "arrivalRank": 833,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "aveline-printed-blouse-blue-abstract",
-      "name": "Aveline Printed Blouse — Blue Abstract",
-      "image": "/products/aveline-printed-blouse-blue-abstract/front.webp",
-      "eyebrow": "MODERN STATEMENT",
-      "copy": "An expressive abstract print cut with soft drape and tailored cuffs for polished day-to-evening dressing.",
-      "category": "Tops",
-      "arrivalRank": 810,
       "classification": "verified-model"
     }
   ]

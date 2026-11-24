@@ -1,0 +1,275 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "avelora-ribbed-mock-neck-midi-dress-olive",
+      "sourceProductId": "3256806195577389",
+      "sourceColor": "Green",
+      "supplierId": "cmwtp409700yv0jlnloku2ceh",
+      "sourceSkuIdsBySize": {
+        "S": "12000036969318083",
+        "XL": "12000036969318086",
+        "L": "12000036969318085",
+        "M": "12000036969318084"
+      },
+      "landedCostUsdBySize": {
+        "S": 29.68,
+        "XL": 29.68,
+        "L": 29.38,
+        "M": 29.58
+      },
+      "stockBySize": {
+        "S": 1599,
+        "XL": 1597,
+        "L": 1600,
+        "M": 1599
+      },
+      "retailPriceUsd": 89.9,
+      "verifiedAtUtc": "2026-11-23T21:08:02.645Z"
+    },
+    {
+      "slug": "noelia-bow-satchel-black",
+      "sourceProductId": "3256810056758129",
+      "sourceColor": "black",
+      "supplierId": "ambsp-2f6d1c88bb16bf33f3b4baf21adf2c84",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000051655327938"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 14.14
+      },
+      "stockBySize": {
+        "One Size": 1
+      },
+      "retailPriceUsd": 42.9,
+      "verifiedAtUtc": "2026-11-24T00:16:50.155Z"
+    },
+    {
+      "slug": "maerith-cable-knit-slit-midi-dress-copper-brown",
+      "sourceProductId": "3256806055973737",
+      "sourceColor": "Dark Brown",
+      "supplierId": "cmwtpedj3018y0jln78hljirg",
+      "sourceSkuIdsBySize": {
+        "L": "12000036434428533",
+        "M": "12000036434428532",
+        "XXL": "12000036434428535",
+        "XL": "12000036434428534",
+        "S": "12000036434428531"
+      },
+      "landedCostUsdBySize": {
+        "L": 48.18,
+        "M": 49.38,
+        "XXL": 49.88,
+        "XL": 49.68,
+        "S": 46.18
+      },
+      "stockBySize": {
+        "L": 50,
+        "M": 50,
+        "XXL": 50,
+        "XL": 48,
+        "S": 50
+      },
+      "retailPriceUsd": 149.9,
+      "verifiedAtUtc": "2026-11-23T21:00:13.669Z"
+    },
+    {
+      "slug": "thessa-asymmetric-button-knit-midi-dress-black",
+      "sourceProductId": "3256809609488496",
+      "sourceColor": "Black",
+      "supplierId": "cmwtot31v00sd0jlnevkydzbb",
+      "sourceSkuIdsBySize": {
+        "S": "12000050188332822",
+        "M": "12000050188332823",
+        "XXL": "12000050188332826",
+        "L": "12000050188332824",
+        "XL": "12000050188332825"
+      },
+      "landedCostUsdBySize": {
+        "S": 29.27,
+        "M": 29.27,
+        "XXL": 29.27,
+        "L": 29.27,
+        "XL": 29.27
+      },
+      "stockBySize": {
+        "S": 121,
+        "M": 116,
+        "XXL": 115,
+        "L": 118,
+        "XL": 121
+      },
+      "retailPriceUsd": 87.9,
+      "verifiedAtUtc": "2026-11-23T21:09:13.091Z"
+    },
+    {
+      "slug": "maerith-cable-knit-slit-midi-dress-black",
+      "sourceProductId": "3256806055973737",
+      "sourceColor": "Black",
+      "supplierId": "cmwtpedj3018y0jln78hljirg",
+      "sourceSkuIdsBySize": {
+        "L": "12000036434428513",
+        "M": "12000036434428512",
+        "XXL": "12000036434428515",
+        "XL": "12000036434428514",
+        "S": "12000036434428511"
+      },
+      "landedCostUsdBySize": {
+        "L": 49.28,
+        "M": 48.48,
+        "XXL": 49.58,
+        "XL": 48.98,
+        "S": 46.28
+      },
+      "stockBySize": {
+        "L": 49,
+        "M": 50,
+        "XXL": 50,
+        "XL": 50,
+        "S": 50
+      },
+      "retailPriceUsd": 148.9,
+      "verifiedAtUtc": "2026-11-23T21:07:53.199Z"
+    },
+    {
+      "slug": "avelora-ribbed-mock-neck-midi-dress-warm-ivory",
+      "sourceProductId": "3256806195577389",
+      "sourceColor": "APRICOT",
+      "supplierId": "cmwtp409700yv0jlnloku2ceh",
+      "sourceSkuIdsBySize": {
+        "XL": "12000036969318090",
+        "L": "12000036969318089",
+        "M": "12000036969318088",
+        "S": "12000036969318087"
+      },
+      "landedCostUsdBySize": {
+        "XL": 29.28,
+        "L": 29.58,
+        "M": 29.28,
+        "S": 29.38
+      },
+      "stockBySize": {
+        "XL": 1599,
+        "L": 1594,
+        "M": 1595,
+        "S": 1590
+      },
+      "retailPriceUsd": 88.9,
+      "verifiedAtUtc": "2026-11-23T21:00:25.278Z"
+    },
+    {
+      "slug": "maerith-cable-knit-slit-midi-dress-kelly-green",
+      "sourceProductId": "3256806055973737",
+      "sourceColor": "Green",
+      "supplierId": "cmwtpedj3018y0jln78hljirg",
+      "sourceSkuIdsBySize": {
+        "M": "12000036434428517",
+        "S": "12000036434428516",
+        "XL": "12000036434428519",
+        "L": "12000036434428518",
+        "XXL": "12000036434428520"
+      },
+      "landedCostUsdBySize": {
+        "M": 48.48,
+        "S": 47.48,
+        "XL": 49.18,
+        "L": 49.58,
+        "XXL": 49.88
+      },
+      "stockBySize": {
+        "M": 49,
+        "S": 50,
+        "XL": 50,
+        "L": 50,
+        "XXL": 50
+      },
+      "retailPriceUsd": 149.9,
+      "verifiedAtUtc": "2026-11-23T21:07:53.199Z"
+    },
+    {
+      "slug": "thessa-asymmetric-button-knit-midi-dress-oatmeal",
+      "sourceProductId": "3256809609488496",
+      "sourceColor": "Beige",
+      "supplierId": "cmwtot31v00sd0jlnevkydzbb",
+      "sourceSkuIdsBySize": {
+        "L": "12000050188332818",
+        "XL": "12000050188332819",
+        "S": "12000050188332816",
+        "M": "12000050188332817",
+        "XXL": "12000050188332820"
+      },
+      "landedCostUsdBySize": {
+        "L": 29.27,
+        "XL": 29.27,
+        "S": 29.27,
+        "M": 29.27,
+        "XXL": 29.27
+      },
+      "stockBySize": {
+        "L": 118,
+        "XL": 115,
+        "S": 120,
+        "M": 115,
+        "XXL": 123
+      },
+      "retailPriceUsd": 87.9,
+      "verifiedAtUtc": "2026-11-23T21:03:29.435Z"
+    },
+    {
+      "slug": "avelora-ribbed-mock-neck-midi-dress-black",
+      "sourceProductId": "3256806195577389",
+      "sourceColor": "Black",
+      "supplierId": "cmwtp409700yv0jlnloku2ceh",
+      "sourceSkuIdsBySize": {
+        "S": "12000036969318079",
+        "XL": "12000036969318082",
+        "L": "12000036969318081",
+        "M": "12000036969318080"
+      },
+      "landedCostUsdBySize": {
+        "S": 29.48,
+        "XL": 28.78,
+        "L": 28.78,
+        "M": 29.58
+      },
+      "stockBySize": {
+        "S": 1597,
+        "XL": 1596,
+        "L": 1595,
+        "M": 1596
+      },
+      "retailPriceUsd": 88.9,
+      "verifiedAtUtc": "2026-11-23T21:08:02.645Z"
+    },
+    {
+      "slug": "maerith-cable-knit-slit-midi-dress-lemon-yellow",
+      "sourceProductId": "3256806055973737",
+      "sourceColor": "YELLOW",
+      "supplierId": "cmwtpedj3018y0jln78hljirg",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000036434428525",
+        "XL": "12000036434428524",
+        "S": "12000036434428521",
+        "L": "12000036434428523",
+        "M": "12000036434428522"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 62.18,
+        "XL": 49.68,
+        "S": 46.08,
+        "L": 49.18,
+        "M": 46.18
+      },
+      "stockBySize": {
+        "XXL": 50,
+        "XL": 50,
+        "S": 49,
+        "L": 50,
+        "M": 50
+      },
+      "retailPriceUsd": 186.9,
+      "verifiedAtUtc": "2026-11-23T21:00:13.669Z"
+    }
+  ]
+}
