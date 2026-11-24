@@ -2,10 +2,20 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
+      "slug": "kinelle-ribbed-polo-maxi-dress-mist-blue",
+      "name": "Kinelle Ribbed Polo Maxi Dress — Mist Blue",
+      "image": "/products/kinelle-ribbed-polo-maxi-dress-mist-blue/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A fitted ribbed maxi dress with a polo collar, an open V neckline, long sleeves and a single side slit.",
+      "category": "Dresses",
+      "arrivalRank": 996,
+      "classification": "verified-model"
+    },
+    {
       "slug": "celenne-lantern-sleeve-knit-dress-apricot",
       "name": "Celenne Lantern Sleeve Knit Dress — Apricot",
       "image": "/products/celenne-lantern-sleeve-knit-dress-apricot/front.webp",
-      "eyebrow": "NEW ARRIVAL",
+      "eyebrow": "THE SOFT STATEMENT",
       "copy": "A soft knit dress with a boat neckline, lantern sleeves and fitted cuffs.",
       "category": "Dresses",
       "arrivalRank": 986,
@@ -15,7 +25,7 @@
       "slug": "avelora-ribbed-mock-neck-midi-dress-olive",
       "name": "Avelora Ribbed Mock-Neck Midi Dress — Olive",
       "image": "/products/avelora-ribbed-mock-neck-midi-dress-olive/front.webp",
-      "eyebrow": "THE SOFT STATEMENT",
+      "eyebrow": "CONFIDENT COLOR",
       "copy": "A ribbed knit midi dress with a short mock neckline, slim sleeves, a fitted waist and a softly flared skirt.",
       "category": "Dresses",
       "arrivalRank": 956,
@@ -25,20 +35,10 @@
       "slug": "viana-button-fly-denim-maxi-skirt-light-wash",
       "name": "Viana Button-Fly Denim Maxi Skirt — Light Wash",
       "image": "/products/viana-button-fly-denim-maxi-skirt-light-wash/front.webp",
-      "eyebrow": "CONFIDENT COLOR",
+      "eyebrow": "SAN DIEGO EDIT",
       "copy": "A high-waisted light-wash denim maxi skirt with a flared panelled silhouette, contrast stitching and an exposed button fly.",
       "category": "Skirts",
       "arrivalRank": 946,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "aster-eyelet-two-piece-set-beige",
-      "name": "Aster Eyelet Two-Piece Set — Beige",
-      "image": "/products/aster-eyelet-two-piece-set-beige/front.webp",
-      "eyebrow": "SUNLIT TEXTURE",
-      "copy": "Delicate floral eyelet tailored into a sculpted sleeveless vest and sweeping wide-leg trouser set.",
-      "category": "Sets",
-      "arrivalRank": 836,
       "classification": "verified-model"
     }
   ]

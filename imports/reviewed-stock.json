@@ -2438,5 +2438,59 @@
   "stockBySize": {
    "One Size": 2
   }
+ },
+ "kinelle-ribbed-polo-maxi-dress-mist-blue": {
+  "stockBySize": {
+   "M": 38,
+   "S": 27,
+   "XL": 28,
+   "L": 33,
+   "XXL": 31
+  }
+ },
+ "lurene-belted-turtleneck-knit-dress-warm-ivory": {
+  "stockBySize": {
+   "One Size": 199
+  }
+ },
+ "lurene-belted-turtleneck-knit-dress-periwinkle": {
+  "stockBySize": {
+   "One Size": 199
+  }
+ },
+ "lurene-belted-turtleneck-knit-dress-chestnut": {
+  "stockBySize": {
+   "One Size": 200
+  }
+ },
+ "lurene-belted-turtleneck-knit-dress-mushroom-taupe": {
+  "stockBySize": {
+   "One Size": 198
+  }
+ },
+ "lurene-belted-turtleneck-knit-dress-cobalt": {
+  "stockBySize": {
+   "One Size": 199
+  }
+ },
+ "lurene-belted-turtleneck-knit-dress-heather-gray": {
+  "stockBySize": {
+   "One Size": 200
+  }
+ },
+ "lurene-belted-turtleneck-knit-dress-deep-teal": {
+  "stockBySize": {
+   "One Size": 200
+  }
+ },
+ "lurene-belted-turtleneck-knit-dress-fuchsia": {
+  "stockBySize": {
+   "One Size": 200
+  }
+ },
+ "lurene-belted-turtleneck-knit-dress-wine-red": {
+  "stockBySize": {
+   "One Size": 199
+  }
  }
 }
