@@ -2804,5 +2804,93 @@
    "M": 645,
    "S": 618
   }
+ },
+ "soravia-abstract-one-shoulder-maxi-dress-ivory-multi": {
+  "stockBySize": {
+   "S": 14,
+   "M": 14,
+   "XXL": 15,
+   "XXXL": 13,
+   "L": 13,
+   "XL": 13
+  }
+ },
+ "miralise-surplice-ruffle-gown-rust": {
+  "stockBySize": {
+   "L": 12,
+   "XL": 15,
+   "S": 13,
+   "M": 13
+  }
+ },
+ "mavella-leopard-maxi-kaftan-leopard": {
+  "stockBySize": {
+   "One size fits all": 99996
+  }
+ },
+ "iverelle-button-front-wrap-maxi-skirt-sage": {
+  "stockBySize": {
+   "M": 665,
+   "L": 665,
+   "S": 666,
+   "XL": 664,
+   "XXL": 666
+  }
+ },
+ "islena-drawstring-tie-dye-cover-up-midnight-tie-dye": {
+  "stockBySize": {
+   "S": 800,
+   "L": 800,
+   "M": 800,
+   "XXL": 800,
+   "XL": 800
+  }
+ },
+ "miralise-surplice-ruffle-gown-slate-blue": {
+  "stockBySize": {
+   "L": 10,
+   "XL": 14,
+   "S": 28,
+   "M": 9
+  }
+ },
+ "soravia-abstract-one-shoulder-maxi-dress-fuchsia-multi": {
+  "stockBySize": {
+   "L": 15,
+   "XL": 12,
+   "S": 13,
+   "M": 14,
+   "XXL": 14,
+   "XXXL": 14
+  }
+ },
+ "rosvienne-split-hem-button-maxi-skirt-midnight-blue": {
+  "stockBySize": {
+   "M": 898,
+   "S": 896,
+   "XXL": 899,
+   "XL": 898,
+   "L": 899
+  }
+ },
+ "soravia-abstract-one-shoulder-maxi-dress-golden-multi": {
+  "stockBySize": {
+   "L": 11,
+   "XL": 14,
+   "S": 14,
+   "M": 14,
+   "XXL": 14,
+   "XXXL": 14
+  }
+ },
+ "danelle-distressed-raw-hem-denim-shorts-dark-wash": {
+  "stockBySize": {
+   "XL": 95,
+   "XXL": 99,
+   "M": 92,
+   "L": 94,
+   "XS": 93,
+   "S": 89
+  }
  }
 }
