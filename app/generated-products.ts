@@ -28210,6 +28210,362 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256809295478521",
   "sourceColor": "Blue"
+},
+{
+  "slug": "mareselle-fringe-crochet-maxi-dress-orange",
+  "name": "Mareselle Fringe Crochet Maxi Dress — Orange",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 130.9,
+  "colors": [
+    "#C65126"
+  ],
+  "colorNames": [
+    "Orange"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "An orange one-shoulder crochet maxi with a curved waist cutout, an openwork skirt and long fringe.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/mareselle-fringe-crochet-maxi-dress-orange/front.webp",
+    "/products/mareselle-fringe-crochet-maxi-dress-orange/back.webp",
+    "/products/mareselle-fringe-crochet-maxi-dress-orange/left.webp",
+    "/products/mareselle-fringe-crochet-maxi-dress-orange/right.webp"
+  ],
+  "stock": 2000,
+  "unitCostUsd": 43.5,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811556273927",
+  "sourceColor": "03 Orange"
+},
+{
+  "slug": "vionelle-trimmed-velvet-midi-dress-burgundy",
+  "name": "Vionelle Trimmed Velvet Midi Dress — Burgundy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 154.9,
+  "colors": [
+    "#4A1626"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A fitted burgundy velvet midi dress with a high neckline and long sleeves. Feather-like trim adds texture at the cuffs and hem.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/vionelle-trimmed-velvet-midi-dress-burgundy/front.webp",
+    "/products/vionelle-trimmed-velvet-midi-dress-burgundy/back.webp",
+    "/products/vionelle-trimmed-velvet-midi-dress-burgundy/left.webp",
+    "/products/vionelle-trimmed-velvet-midi-dress-burgundy/right.webp"
+  ],
+  "stock": 2479,
+  "unitCostUsd": 51.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810473743480",
+  "sourceColor": "03 Burgundy"
+},
+{
+  "slug": "lissora-medallion-lace-skirt-set-apricot",
+  "name": "Lissora Medallion Lace Skirt Set — Apricot",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 166.9,
+  "colors": [
+    "#E6D3AE"
+  ],
+  "colorNames": [
+    "Apricot"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A matching lace set with a relaxed round-neck top and a long skirt. Circular floral medallions and scalloped edges carry through both pieces.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lissora-medallion-lace-skirt-set-apricot/front.webp",
+    "/products/lissora-medallion-lace-skirt-set-apricot/back.webp",
+    "/products/lissora-medallion-lace-skirt-set-apricot/left.webp",
+    "/products/lissora-medallion-lace-skirt-set-apricot/right.webp"
+  ],
+  "stock": 499,
+  "unitCostUsd": 55.37,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811978181157",
+  "sourceColor": "02 Apricot"
+},
+{
+  "slug": "beloria-swirl-print-maxi-dress-black-white",
+  "name": "Beloria Swirl Print Maxi Dress — Black and White",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 47.9,
+  "colors": [
+    "#272626"
+  ],
+  "colorNames": [
+    "Black and White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "description": "A sleeveless A-line maxi dress with a round neck and large black swirls across a white ground.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/beloria-swirl-print-maxi-dress-black-white/front.webp",
+    "/products/beloria-swirl-print-maxi-dress-black-white/back.webp",
+    "/products/beloria-swirl-print-maxi-dress-black-white/left.webp",
+    "/products/beloria-swirl-print-maxi-dress-black-white/right.webp"
+  ],
+  "stock": 598,
+  "unitCostUsd": 15.94,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809943426273",
+  "sourceColor": "Ro3"
+},
+{
+  "slug": "merovia-draped-spot-mini-skirt-wine",
+  "name": "Merovia Draped Spot Mini Skirt — Wine",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 83.9,
+  "colors": [
+    "#4C2434"
+  ],
+  "colorNames": [
+    "Wine"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A wine-colored wrap-style mini skirt with irregular spots, an angled hem and black fringe. The skirt ties at the hip.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/merovia-draped-spot-mini-skirt-wine/front.webp",
+    "/products/merovia-draped-spot-mini-skirt-wine/back.webp",
+    "/products/merovia-draped-spot-mini-skirt-wine/left.webp",
+    "/products/merovia-draped-spot-mini-skirt-wine/right.webp"
+  ],
+  "stock": 272,
+  "unitCostUsd": 27.73,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812214668261",
+  "sourceColor": "03 skirt"
+},
+{
+  "slug": "mareselle-fringe-crochet-maxi-dress-beige",
+  "name": "Mareselle Fringe Crochet Maxi Dress — Beige",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 130.9,
+  "colors": [
+    "#DFD4BC"
+  ],
+  "colorNames": [
+    "Beige"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A one-shoulder crochet maxi with a curved waist cutout and a long fringe hem. Solid crochet gives way to openwork and swinging tassels below the hip.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/mareselle-fringe-crochet-maxi-dress-beige/front.webp",
+    "/products/mareselle-fringe-crochet-maxi-dress-beige/back.webp",
+    "/products/mareselle-fringe-crochet-maxi-dress-beige/left.webp",
+    "/products/mareselle-fringe-crochet-maxi-dress-beige/right.webp"
+  ],
+  "stock": 2000,
+  "unitCostUsd": 43.5,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811556273927",
+  "sourceColor": "04 Beige"
+},
+{
+  "slug": "vionelle-trimmed-velvet-midi-dress-emerald",
+  "name": "Vionelle Trimmed Velvet Midi Dress — Emerald",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 154.9,
+  "colors": [
+    "#102F27"
+  ],
+  "colorNames": [
+    "Emerald"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "An emerald velvet midi dress with a high neckline and long sleeves. Deep burgundy trim finishes the cuffs and hem.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/vionelle-trimmed-velvet-midi-dress-emerald/front.webp",
+    "/products/vionelle-trimmed-velvet-midi-dress-emerald/back.webp",
+    "/products/vionelle-trimmed-velvet-midi-dress-emerald/left.webp",
+    "/products/vionelle-trimmed-velvet-midi-dress-emerald/right.webp"
+  ],
+  "stock": 2464,
+  "unitCostUsd": 51.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810473743480",
+  "sourceColor": "02 Green"
+},
+{
+  "slug": "lissora-medallion-lace-skirt-set-white",
+  "name": "Lissora Medallion Lace Skirt Set — White",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 166.9,
+  "colors": [
+    "#F4F3ED"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A matching white lace top and long skirt with circular floral medallions, elbow-length sleeves and scalloped edges.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/lissora-medallion-lace-skirt-set-white/front.webp",
+    "/products/lissora-medallion-lace-skirt-set-white/back.webp",
+    "/products/lissora-medallion-lace-skirt-set-white/left.webp",
+    "/products/lissora-medallion-lace-skirt-set-white/right.webp"
+  ],
+  "stock": 499,
+  "unitCostUsd": 55.37,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811978181157",
+  "sourceColor": "01 White"
+},
+{
+  "slug": "merovia-spotted-wrap-midi-skirt-tan-red",
+  "name": "Merovia Spotted Wrap Midi Skirt — Tan and Red",
+  "category": "Skirts",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#B08A60"
+  ],
+  "colorNames": [
+    "Tan, Red and Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A spotted wrap-style midi skirt with a tan body, red border and tie at the waist.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/merovia-spotted-wrap-midi-skirt-tan-red/front.webp",
+    "/products/merovia-spotted-wrap-midi-skirt-tan-red/back.webp",
+    "/products/merovia-spotted-wrap-midi-skirt-tan-red/left.webp",
+    "/products/merovia-spotted-wrap-midi-skirt-tan-red/right.webp"
+  ],
+  "stock": 263,
+  "unitCostUsd": 31.49,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812214668261",
+  "sourceColor": "02 skirt"
+},
+{
+  "slug": "salira-floral-crochet-halter-maxi-cover-up-ivory",
+  "name": "Salira Floral Crochet Halter Maxi Cover-Up — Ivory",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 108.9,
+  "colors": [
+    "#E7D6B7"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "An ivory halter maxi cover-up with floral crochet, openwork through the skirt and cutouts at the waist. The neckline ties at the back.",
+  "materials": "Refer to the garment care label for fiber content.",
+  "care": "Follow the garment or product care label.",
+  "images": [
+    "/products/salira-floral-crochet-halter-maxi-cover-up-ivory/front.webp",
+    "/products/salira-floral-crochet-halter-maxi-cover-up-ivory/back.webp",
+    "/products/salira-floral-crochet-halter-maxi-cover-up-ivory/left.webp",
+    "/products/salira-floral-crochet-halter-maxi-cover-up-ivory/right.webp"
+  ],
+  "stock": 3705,
+  "unitCostUsd": 35.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005009466201567",
+  "sourceColor": "Image Color"
 }
 ];
 
@@ -28219,6 +28575,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "mareselle-fringe-crochet-maxi-dress-orange",
+  "vionelle-trimmed-velvet-midi-dress-burgundy",
+  "lissora-medallion-lace-skirt-set-apricot",
+  "beloria-swirl-print-maxi-dress-black-white",
+  "merovia-draped-spot-mini-skirt-wine",
+  "mareselle-fringe-crochet-maxi-dress-beige",
+  "vionelle-trimmed-velvet-midi-dress-emerald",
+  "lissora-medallion-lace-skirt-set-white",
+  "merovia-spotted-wrap-midi-skirt-tan-red",
+  "salira-floral-crochet-halter-maxi-cover-up-ivory",
+
   "soravia-abstract-one-shoulder-maxi-dress-ivory-multi",
   "miralise-surplice-ruffle-gown-rust",
   "mavella-leopard-maxi-kaftan-leopard",
