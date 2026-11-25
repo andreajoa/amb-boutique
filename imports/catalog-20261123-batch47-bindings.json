@@ -1,0 +1,40 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "marevella-ornament-slingback-black-red",
+      "sourceProductId": "1005008660306361",
+      "sourceColor": "black",
+      "supplierId": "cmww1t40900pq1rtqxj4e9ix4",
+      "sourceSkuIdsBySize": {
+        "39": "12000046135888290"
+      },
+      "landedCostUsdBySize": {
+        "39": 54.98
+      },
+      "stockBySize": {
+        "39": 1
+      },
+      "retailPriceUsd": 165.9,
+      "verifiedAtUtc": "2026-11-25T20:46:15.092Z"
+    },
+    {
+      "slug": "amalfi-dumpling-bag-large-matte-black",
+      "sourceProductId": "1005013479804545",
+      "sourceColor": "Black L",
+      "supplierId": "cmww1q0bf00h61rtqc616zmu5",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000061253840017"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 52.38
+      },
+      "stockBySize": {
+        "One Size": 3
+      },
+      "retailPriceUsd": 157.9,
+      "verifiedAtUtc": "2026-11-25T20:46:27.912Z"
+    }
+  ]
+}

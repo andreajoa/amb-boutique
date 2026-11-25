@@ -61,6 +61,10 @@
    "landedCostUsd": 55.18,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
   },
+  "amalfi-dumpling-bag-large-matte-black": {
+   "landedCostUsd": 52.38,
+   "source": "catalog-20261123-batch47-bindings.json"
+  },
   "amalfi-dumpling-bag-large-white": {
    "landedCostUsd": 48.68,
    "source": "catalog-20261123-batch46-bindings.json"
@@ -1660,6 +1664,10 @@
   "mareselle-fringe-crochet-maxi-dress-orange": {
    "landedCostUsd": 43.5,
    "source": "catalog-20261123-batch23-bindings.json"
+  },
+  "marevella-ornament-slingback-black-red": {
+   "landedCostUsd": 54.98,
+   "source": "catalog-20261123-batch47-bindings.json"
   },
   "marevella-ornament-slingback-champagne-sparkle": {
    "landedCostUsd": 55.68,

@@ -5701,5 +5701,15 @@
   "stockBySize": {
    "One Size": 4
   }
+ },
+ "marevella-ornament-slingback-black-red": {
+  "stockBySize": {
+   "39": 1
+  }
+ },
+ "amalfi-dumpling-bag-large-matte-black": {
+  "stockBySize": {
+   "One Size": 3
+  }
  }
 }
