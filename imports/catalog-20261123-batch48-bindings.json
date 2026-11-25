@@ -1,0 +1,104 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "solenne-halter-button-front-vest-white",
+      "sourceProductId": "1005007475539145",
+      "sourceColor": "white top",
+      "supplierId": "cmsy02655003i04ib83f93zzd",
+      "sourceSkuIdsBySize": {
+        "L": "12000041014659947",
+        "M": "12000041014659946",
+        "S": "12000041014659945",
+        "XS": "12000041014659944"
+      },
+      "landedCostUsdBySize": {
+        "L": 15.38,
+        "M": 15.21,
+        "S": 15.04,
+        "XS": 15.38
+      },
+      "stockBySize": {
+        "L": 1,
+        "M": 1,
+        "S": 1,
+        "XS": 2
+      },
+      "retailPriceUsd": 46.9,
+      "verifiedAtUtc": "2026-11-25T21:03:05.017Z"
+    },
+    {
+      "slug": "solenne-halter-button-front-vest-black",
+      "sourceProductId": "1005007475539145",
+      "sourceColor": "black top",
+      "supplierId": "cmsy02655003i04ib83f93zzd",
+      "sourceSkuIdsBySize": {
+        "L": "12000041014659951",
+        "M": "12000041014659950",
+        "S": "12000041014659949",
+        "XS": "12000041014659948"
+      },
+      "landedCostUsdBySize": {
+        "L": 15.24,
+        "M": 14.94,
+        "S": 14.98,
+        "XS": 14.78
+      },
+      "stockBySize": {
+        "L": 1,
+        "M": 1,
+        "S": 2,
+        "XS": 2
+      },
+      "retailPriceUsd": 45.9,
+      "verifiedAtUtc": "2026-11-25T21:02:45.947Z"
+    },
+    {
+      "slug": "solenne-high-rise-wide-leg-trousers-black",
+      "sourceProductId": "1005007475539145",
+      "sourceColor": "black pants",
+      "supplierId": "cmsy02655003i04ib83f93zzd",
+      "sourceSkuIdsBySize": {
+        "L": "12000041014659955",
+        "M": "12000041014659954",
+        "S": "12000041014659953",
+        "XS": "12000041014659952"
+      },
+      "landedCostUsdBySize": {
+        "L": 21.94,
+        "M": 21.74,
+        "S": 21.71,
+        "XS": 21.74
+      },
+      "stockBySize": {
+        "L": 2,
+        "M": 2,
+        "S": 1,
+        "XS": 2
+      },
+      "retailPriceUsd": 65.9,
+      "verifiedAtUtc": "2026-11-25T21:02:36.517Z"
+    },
+    {
+      "slug": "solenne-high-rise-wide-leg-trousers-white",
+      "sourceProductId": "1005007475539145",
+      "sourceColor": "white pants",
+      "supplierId": "cmsy02655003i04ib83f93zzd",
+      "sourceSkuIdsBySize": {
+        "L": "12000041014659959",
+        "XS": "12000041014659956"
+      },
+      "landedCostUsdBySize": {
+        "L": 22.18,
+        "XS": 21.71
+      },
+      "stockBySize": {
+        "L": 1,
+        "XS": 2
+      },
+      "retailPriceUsd": 66.9,
+      "verifiedAtUtc": "2026-11-25T21:02:55.664Z"
+    }
+  ]
+}

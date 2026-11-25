@@ -37760,6 +37760,148 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "1005013479804545",
   "sourceColor": "Black L"
+},
+{
+  "slug": "solenne-halter-button-front-vest-white",
+  "name": "Solenne Halter Button-Front Vest — White",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 46.9,
+  "colors": [
+    "#F3F0E8"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted, sleeveless crossover-neckline vest with button closure at the front. Sold as an individual piece.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solenne-halter-button-front-vest-white/front.webp",
+    "/products/solenne-halter-button-front-vest-white/back.webp",
+    "/products/solenne-halter-button-front-vest-white/left.webp",
+    "/products/solenne-halter-button-front-vest-white/right.webp"
+  ],
+  "stock": 5,
+  "unitCostUsd": 15.38,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007475539145",
+  "sourceColor": "white top"
+},
+{
+  "slug": "solenne-halter-button-front-vest-black",
+  "name": "Solenne Halter Button-Front Vest — Black",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 45.9,
+  "colors": [
+    "#252322"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted, sleeveless crossover-neckline vest with button closure at the front. Sold as an individual piece.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solenne-halter-button-front-vest-black/front.webp",
+    "/products/solenne-halter-button-front-vest-black/back.webp",
+    "/products/solenne-halter-button-front-vest-black/left.webp",
+    "/products/solenne-halter-button-front-vest-black/right.webp"
+  ],
+  "stock": 6,
+  "unitCostUsd": 15.24,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007475539145",
+  "sourceColor": "black top"
+},
+{
+  "slug": "solenne-high-rise-wide-leg-trousers-black",
+  "name": "Solenne High-Rise Wide-Leg Trousers — Black",
+  "category": "Pants",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 65.9,
+  "colors": [
+    "#252322"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "High-rise tailored trousers with a wide leg and a full-length hem. Sold as an individual piece.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solenne-high-rise-wide-leg-trousers-black/front.webp",
+    "/products/solenne-high-rise-wide-leg-trousers-black/back.webp",
+    "/products/solenne-high-rise-wide-leg-trousers-black/left.webp",
+    "/products/solenne-high-rise-wide-leg-trousers-black/right.webp"
+  ],
+  "stock": 7,
+  "unitCostUsd": 21.94,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007475539145",
+  "sourceColor": "black pants"
+},
+{
+  "slug": "solenne-high-rise-wide-leg-trousers-white",
+  "name": "Solenne High-Rise Wide-Leg Trousers — White",
+  "category": "Pants",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 66.9,
+  "colors": [
+    "#F3F0E8"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "XS",
+    "L"
+  ],
+  "description": "High-rise tailored trousers with a wide leg and a full-length hem. Sold as an individual piece.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solenne-high-rise-wide-leg-trousers-white/front.webp",
+    "/products/solenne-high-rise-wide-leg-trousers-white/back.webp",
+    "/products/solenne-high-rise-wide-leg-trousers-white/left.webp",
+    "/products/solenne-high-rise-wide-leg-trousers-white/right.webp"
+  ],
+  "stock": 3,
+  "unitCostUsd": 22.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007475539145",
+  "sourceColor": "white pants"
 }
 ];
 
@@ -37769,6 +37911,11 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "solenne-halter-button-front-vest-white",
+  "solenne-halter-button-front-vest-black",
+  "solenne-high-rise-wide-leg-trousers-black",
+  "solenne-high-rise-wide-leg-trousers-white",
+
   "marevella-ornament-slingback-black-red",
   "amalfi-dumpling-bag-large-matte-black",
 
