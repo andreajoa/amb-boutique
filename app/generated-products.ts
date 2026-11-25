@@ -33189,6 +33189,571 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256806153947521",
   "sourceColor": "Red"
+},
+{
+  "slug": "lunessa-folded-bow-pump-black-10-5cm",
+  "name": "Lunessa Folded Bow Pump — Black · 10.5 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#242426"
+  ],
+  "colorNames": [
+    "Black · 10.5 cm"
+  ],
+  "sizes": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a folded bow, a closed heel and a 10.5 cm stiletto.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lunessa-folded-bow-pump-black-10-5cm/front.webp",
+    "/products/lunessa-folded-bow-pump-black-10-5cm/back.webp",
+    "/products/lunessa-folded-bow-pump-black-10-5cm/left.webp",
+    "/products/lunessa-folded-bow-pump-black-10-5cm/right.webp"
+  ],
+  "stock": 6168,
+  "unitCostUsd": 31.35,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802124736211",
+  "sourceColor": "Black10.5cm"
+},
+{
+  "slug": "lunessa-folded-bow-pump-black-7-5cm",
+  "name": "Lunessa Folded Bow Pump — Black · 7.5 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#242426"
+  ],
+  "colorNames": [
+    "Black · 7.5 cm"
+  ],
+  "sizes": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a folded bow, a closed heel and a 7.5 cm stiletto.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lunessa-folded-bow-pump-black-7-5cm/front.webp",
+    "/products/lunessa-folded-bow-pump-black-7-5cm/back.webp",
+    "/products/lunessa-folded-bow-pump-black-7-5cm/left.webp",
+    "/products/lunessa-folded-bow-pump-black-7-5cm/right.webp"
+  ],
+  "stock": 6209,
+  "unitCostUsd": 31.35,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802124736211",
+  "sourceColor": "Black7.5cm"
+},
+{
+  "slug": "lunessa-folded-bow-pump-ice-blue-10-5cm",
+  "name": "Lunessa Folded Bow Pump — Ice Blue · 10.5 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#A8BFC5"
+  ],
+  "colorNames": [
+    "Ice Blue · 10.5 cm"
+  ],
+  "sizes": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a folded bow, a closed heel and a 10.5 cm stiletto.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lunessa-folded-bow-pump-ice-blue-10-5cm/front.webp",
+    "/products/lunessa-folded-bow-pump-ice-blue-10-5cm/back.webp",
+    "/products/lunessa-folded-bow-pump-ice-blue-10-5cm/left.webp",
+    "/products/lunessa-folded-bow-pump-ice-blue-10-5cm/right.webp"
+  ],
+  "stock": 6149,
+  "unitCostUsd": 31.35,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802124736211",
+  "sourceColor": "Blue10.5cm"
+},
+{
+  "slug": "lunessa-folded-bow-pump-sky-blue-7-5cm",
+  "name": "Lunessa Folded Bow Pump — Sky Blue · 7.5 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#73B7D8"
+  ],
+  "colorNames": [
+    "Sky Blue · 7.5 cm"
+  ],
+  "sizes": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a folded bow, a closed heel and a 7.5 cm stiletto.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lunessa-folded-bow-pump-sky-blue-7-5cm/front.webp",
+    "/products/lunessa-folded-bow-pump-sky-blue-7-5cm/back.webp",
+    "/products/lunessa-folded-bow-pump-sky-blue-7-5cm/left.webp",
+    "/products/lunessa-folded-bow-pump-sky-blue-7-5cm/right.webp"
+  ],
+  "stock": 6210,
+  "unitCostUsd": 31.35,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802124736211",
+  "sourceColor": "Blue7.5cm"
+},
+{
+  "slug": "arielle-pearl-kitten-heel-sand",
+  "name": "Arielle Pearl-Detail Kitten Heel — Sand",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 125.9,
+  "colors": [
+    "#D8C3AA"
+  ],
+  "colorNames": [
+    "Sand"
+  ],
+  "sizes": [
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe slingback with pearl-like embellishment, a slim heel strap and a low curved kitten heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/arielle-pearl-kitten-heel-sand/front.webp",
+    "/products/arielle-pearl-kitten-heel-sand/back.webp",
+    "/products/arielle-pearl-kitten-heel-sand/left.webp",
+    "/products/arielle-pearl-kitten-heel-sand/right.webp"
+  ],
+  "stock": 122,
+  "unitCostUsd": 41.65,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806935931563",
+  "sourceColor": "Beige"
+},
+{
+  "slug": "ravissa-pointed-buckle-pump-abstract-multi",
+  "name": "Ravissa Pointed Buckle Pump — Abstract Multi",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 192.9,
+  "colors": [
+    "#BD634E"
+  ],
+  "colorNames": [
+    "Abstract Multi"
+  ],
+  "sizes": [
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a closed heel, a slim stiletto and a linked ornament at the toe.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/ravissa-pointed-buckle-pump-abstract-multi/front.webp",
+    "/products/ravissa-pointed-buckle-pump-abstract-multi/back.webp",
+    "/products/ravissa-pointed-buckle-pump-abstract-multi/left.webp",
+    "/products/ravissa-pointed-buckle-pump-abstract-multi/right.webp"
+  ],
+  "stock": 2,
+  "unitCostUsd": 64.08,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807172340708",
+  "sourceColor": "Assorted"
+},
+{
+  "slug": "ravissa-pointed-buckle-pump-soft-beige",
+  "name": "Ravissa Pointed Buckle Pump — Soft Beige",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 197.9,
+  "colors": [
+    "#E4D3BF"
+  ],
+  "colorNames": [
+    "Soft Beige"
+  ],
+  "sizes": [
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a closed heel, a slim stiletto and a linked ornament at the toe.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/ravissa-pointed-buckle-pump-soft-beige/front.webp",
+    "/products/ravissa-pointed-buckle-pump-soft-beige/back.webp",
+    "/products/ravissa-pointed-buckle-pump-soft-beige/left.webp",
+    "/products/ravissa-pointed-buckle-pump-soft-beige/right.webp"
+  ],
+  "stock": 17,
+  "unitCostUsd": 65.68,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807172340708",
+  "sourceColor": "Beige"
+},
+{
+  "slug": "ravissa-pointed-buckle-pump-scarlet",
+  "name": "Ravissa Pointed Buckle Pump — Scarlet",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 197.9,
+  "colors": [
+    "#B72435"
+  ],
+  "colorNames": [
+    "Scarlet"
+  ],
+  "sizes": [
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a closed heel, a slim stiletto and a linked ornament at the toe.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/ravissa-pointed-buckle-pump-scarlet/front.webp",
+    "/products/ravissa-pointed-buckle-pump-scarlet/back.webp",
+    "/products/ravissa-pointed-buckle-pump-scarlet/left.webp",
+    "/products/ravissa-pointed-buckle-pump-scarlet/right.webp"
+  ],
+  "stock": 44,
+  "unitCostUsd": 65.78,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807172340708",
+  "sourceColor": "Red"
+},
+{
+  "slug": "marevella-ornament-slingback-champagne-sparkle",
+  "name": "Marevella Ornament Slingback — Champagne Sparkle",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 167.9,
+  "colors": [
+    "#B5A78D"
+  ],
+  "colorNames": [
+    "Champagne Sparkle"
+  ],
+  "sizes": [
+    "36",
+    "37",
+    "38",
+    "39"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe slingback pump with a linked toe ornament and a slim heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marevella-ornament-slingback-champagne-sparkle/front.webp",
+    "/products/marevella-ornament-slingback-champagne-sparkle/back.webp",
+    "/products/marevella-ornament-slingback-champagne-sparkle/left.webp",
+    "/products/marevella-ornament-slingback-champagne-sparkle/right.webp"
+  ],
+  "stock": 9,
+  "unitCostUsd": 55.68,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808035604939",
+  "sourceColor": "Champagne"
+},
+{
+  "slug": "marevella-ornament-slingback-white-with-black-trim",
+  "name": "Marevella Ornament Slingback — White with Black Trim",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 166.9,
+  "colors": [
+    "#F0EFEB"
+  ],
+  "colorNames": [
+    "White with Black Trim"
+  ],
+  "sizes": [
+    "36",
+    "38",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe slingback pump with a linked toe ornament and a slim heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marevella-ornament-slingback-white-with-black-trim/front.webp",
+    "/products/marevella-ornament-slingback-white-with-black-trim/back.webp",
+    "/products/marevella-ornament-slingback-white-with-black-trim/left.webp",
+    "/products/marevella-ornament-slingback-white-with-black-trim/right.webp"
+  ],
+  "stock": 6,
+  "unitCostUsd": 55.58,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808035604939",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "eloria-crystal-strap-sandal-beige",
+  "name": "Eloria Crystal-Strap Sandal — Beige",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 75.9,
+  "colors": [
+    "#D3BB9E"
+  ],
+  "colorNames": [
+    "Beige"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45"
+  ],
+  "subcategory": "Heels",
+  "description": "An open-toe sandal with a crystal-accented front strap, an ankle tie and a block heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/eloria-crystal-strap-sandal-beige/front.webp",
+    "/products/eloria-crystal-strap-sandal-beige/back.webp",
+    "/products/eloria-crystal-strap-sandal-beige/left.webp",
+    "/products/eloria-crystal-strap-sandal-beige/right.webp"
+  ],
+  "stock": 436,
+  "unitCostUsd": 25.08,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808490153800",
+  "sourceColor": "Hongye228beige"
+},
+{
+  "slug": "selvara-pointed-slingback-black-10cm",
+  "name": "Selvara Pointed Slingback — Black · 10 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#222225"
+  ],
+  "colorNames": [
+    "Black · 10 cm"
+  ],
+  "sizes": [
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "subcategory": "Heels",
+  "description": "A black pointed-toe slingback with an open heel and a 10 cm slim heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/selvara-pointed-slingback-black-10cm/front.webp",
+    "/products/selvara-pointed-slingback-black-10cm/back.webp",
+    "/products/selvara-pointed-slingback-black-10cm/left.webp",
+    "/products/selvara-pointed-slingback-black-10cm/right.webp"
+  ],
+  "stock": 1369,
+  "unitCostUsd": 42.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808509819702",
+  "sourceColor": "black 10cm"
+},
+{
+  "slug": "selvara-pointed-slingback-black-12cm",
+  "name": "Selvara Pointed Slingback — Black · 12 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#222225"
+  ],
+  "colorNames": [
+    "Black · 12 cm"
+  ],
+  "sizes": [
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "subcategory": "Heels",
+  "description": "A black pointed-toe slingback with an open heel and a 12 cm slim heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/selvara-pointed-slingback-black-12cm/front.webp",
+    "/products/selvara-pointed-slingback-black-12cm/back.webp",
+    "/products/selvara-pointed-slingback-black-12cm/left.webp",
+    "/products/selvara-pointed-slingback-black-12cm/right.webp"
+  ],
+  "stock": 1378,
+  "unitCostUsd": 42.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808509819702",
+  "sourceColor": "black 12cm"
+},
+{
+  "slug": "selvara-pointed-slingback-black-6cm",
+  "name": "Selvara Pointed Slingback — Black · 6 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#222225"
+  ],
+  "colorNames": [
+    "Black · 6 cm"
+  ],
+  "sizes": [
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43"
+  ],
+  "subcategory": "Heels",
+  "description": "A black pointed-toe slingback with an open heel and a 6 cm slim heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/selvara-pointed-slingback-black-6cm/front.webp",
+    "/products/selvara-pointed-slingback-black-6cm/back.webp",
+    "/products/selvara-pointed-slingback-black-6cm/left.webp",
+    "/products/selvara-pointed-slingback-black-6cm/right.webp"
+  ],
+  "stock": 1072,
+  "unitCostUsd": 42.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808509819702",
+  "sourceColor": "black 6cm"
 }
 ];
 
@@ -33198,6 +33763,21 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "lunessa-folded-bow-pump-black-10-5cm",
+  "lunessa-folded-bow-pump-black-7-5cm",
+  "lunessa-folded-bow-pump-ice-blue-10-5cm",
+  "lunessa-folded-bow-pump-sky-blue-7-5cm",
+  "arielle-pearl-kitten-heel-sand",
+  "ravissa-pointed-buckle-pump-abstract-multi",
+  "ravissa-pointed-buckle-pump-soft-beige",
+  "ravissa-pointed-buckle-pump-scarlet",
+  "marevella-ornament-slingback-champagne-sparkle",
+  "marevella-ornament-slingback-white-with-black-trim",
+  "eloria-crystal-strap-sandal-beige",
+  "selvara-pointed-slingback-black-10cm",
+  "selvara-pointed-slingback-black-12cm",
+  "selvara-pointed-slingback-black-6cm",
+
   "talisse-triple-zip-crossbody-bag-deep-teal",
   "talisse-triple-zip-crossbody-bag-mauve",
   "talisse-triple-zip-crossbody-bag-cherry-red",
