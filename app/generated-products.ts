@@ -37081,6 +37081,286 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256812130790979",
   "sourceColor": "Red"
+},
+{
+  "slug": "elivane-pointed-slingback-pump-black-matte-10cm",
+  "name": "Elivane Pointed Slingback Pump — Matte Black 10 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 202.9,
+  "colors": [
+    "#262322"
+  ],
+  "colorNames": [
+    "Matte Black"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe slingback in matte black with a slim 10 cm heel and a red outsole.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/elivane-pointed-slingback-pump-black-matte-10cm/front.webp",
+    "/products/elivane-pointed-slingback-pump-black-matte-10cm/back.webp",
+    "/products/elivane-pointed-slingback-pump-black-matte-10cm/left.webp",
+    "/products/elivane-pointed-slingback-pump-black-matte-10cm/right.webp"
+  ],
+  "stock": 1543,
+  "unitCostUsd": 67.59,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007737102247",
+  "sourceColor": "Black matte 10cm"
+},
+{
+  "slug": "elivane-pointed-slingback-pump-black-gloss-10cm",
+  "name": "Elivane Pointed Slingback Pump — Gloss Black 10 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 202.9,
+  "colors": [
+    "#262322"
+  ],
+  "colorNames": [
+    "Gloss Black"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe slingback in gloss black with a slim 10 cm heel and a red outsole.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/elivane-pointed-slingback-pump-black-gloss-10cm/front.webp",
+    "/products/elivane-pointed-slingback-pump-black-gloss-10cm/back.webp",
+    "/products/elivane-pointed-slingback-pump-black-gloss-10cm/left.webp",
+    "/products/elivane-pointed-slingback-pump-black-gloss-10cm/right.webp"
+  ],
+  "stock": 1525,
+  "unitCostUsd": 67.59,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007737102247",
+  "sourceColor": "Black Light 10cm"
+},
+{
+  "slug": "elivane-pointed-slingback-pump-black-matte-8cm",
+  "name": "Elivane Pointed Slingback Pump — Matte Black 8 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 202.9,
+  "colors": [
+    "#262322"
+  ],
+  "colorNames": [
+    "Matte Black"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe slingback in matte black with a slim 8 cm heel and a red outsole.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/elivane-pointed-slingback-pump-black-matte-8cm/front.webp",
+    "/products/elivane-pointed-slingback-pump-black-matte-8cm/back.webp",
+    "/products/elivane-pointed-slingback-pump-black-matte-8cm/left.webp",
+    "/products/elivane-pointed-slingback-pump-black-matte-8cm/right.webp"
+  ],
+  "stock": 1537,
+  "unitCostUsd": 67.59,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007737102247",
+  "sourceColor": "Black matte 8cm"
+},
+{
+  "slug": "elivane-pointed-slingback-pump-black-gloss-8cm",
+  "name": "Elivane Pointed Slingback Pump — Gloss Black 8 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 202.9,
+  "colors": [
+    "#262322"
+  ],
+  "colorNames": [
+    "Gloss Black"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe slingback in gloss black with a slim 8 cm heel and a red outsole.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/elivane-pointed-slingback-pump-black-gloss-8cm/front.webp",
+    "/products/elivane-pointed-slingback-pump-black-gloss-8cm/back.webp",
+    "/products/elivane-pointed-slingback-pump-black-gloss-8cm/left.webp",
+    "/products/elivane-pointed-slingback-pump-black-gloss-8cm/right.webp"
+  ],
+  "stock": 1515,
+  "unitCostUsd": 67.59,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007737102247",
+  "sourceColor": "Black Light 8cm"
+},
+{
+  "slug": "elivane-pointed-slingback-pump-stone-gloss-10cm",
+  "name": "Elivane Pointed Slingback Pump — Gloss Stone 10 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 202.9,
+  "colors": [
+    "#B3A69B"
+  ],
+  "colorNames": [
+    "Gloss Stone"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe slingback in gloss stone with a slim 10 cm heel and a red outsole.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/elivane-pointed-slingback-pump-stone-gloss-10cm/front.webp",
+    "/products/elivane-pointed-slingback-pump-stone-gloss-10cm/back.webp",
+    "/products/elivane-pointed-slingback-pump-stone-gloss-10cm/left.webp",
+    "/products/elivane-pointed-slingback-pump-stone-gloss-10cm/right.webp"
+  ],
+  "stock": 1531,
+  "unitCostUsd": 67.59,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007737102247",
+  "sourceColor": "Naked gray 10cm"
+},
+{
+  "slug": "elivane-pointed-slingback-pump-nude-gloss-10cm",
+  "name": "Elivane Pointed Slingback Pump — Gloss Nude 10 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 202.9,
+  "colors": [
+    "#BD9175"
+  ],
+  "colorNames": [
+    "Gloss Nude"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe slingback in gloss nude with a slim 10 cm heel and a red outsole.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/elivane-pointed-slingback-pump-nude-gloss-10cm/front.webp",
+    "/products/elivane-pointed-slingback-pump-nude-gloss-10cm/back.webp",
+    "/products/elivane-pointed-slingback-pump-nude-gloss-10cm/left.webp",
+    "/products/elivane-pointed-slingback-pump-nude-gloss-10cm/right.webp"
+  ],
+  "stock": 1486,
+  "unitCostUsd": 67.59,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007737102247",
+  "sourceColor": "Naked color 10cm"
+},
+{
+  "slug": "elivane-pointed-slingback-pump-nude-gloss-8cm",
+  "name": "Elivane Pointed Slingback Pump — Gloss Nude 8 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 202.9,
+  "colors": [
+    "#BD9175"
+  ],
+  "colorNames": [
+    "Gloss Nude"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe slingback in gloss nude with a slim 8 cm heel and a red outsole.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/elivane-pointed-slingback-pump-nude-gloss-8cm/front.webp",
+    "/products/elivane-pointed-slingback-pump-nude-gloss-8cm/back.webp",
+    "/products/elivane-pointed-slingback-pump-nude-gloss-8cm/left.webp",
+    "/products/elivane-pointed-slingback-pump-nude-gloss-8cm/right.webp"
+  ],
+  "stock": 1456,
+  "unitCostUsd": 67.59,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005007737102247",
+  "sourceColor": "Naked color 8cm"
 }
 ];
 
@@ -37090,6 +37370,14 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "elivane-pointed-slingback-pump-black-matte-10cm",
+  "elivane-pointed-slingback-pump-black-gloss-10cm",
+  "elivane-pointed-slingback-pump-black-matte-8cm",
+  "elivane-pointed-slingback-pump-black-gloss-8cm",
+  "elivane-pointed-slingback-pump-stone-gloss-10cm",
+  "elivane-pointed-slingback-pump-nude-gloss-10cm",
+  "elivane-pointed-slingback-pump-nude-gloss-8cm",
+
   "marivelle-short-sleeve-lace-gown-champagne",
   "marivelle-short-sleeve-lace-gown-pink",
   "marivelle-short-sleeve-lace-gown-purple",
