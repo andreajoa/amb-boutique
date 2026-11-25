@@ -2,6 +2,36 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
+      "slug": "celivana-lace-up-halter-gown-forest-green",
+      "name": "Celivana Lace-Up Halter Gown — Forest Green",
+      "image": "/products/celivana-lace-up-halter-gown-forest-green/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A pleated floor-length halter gown with a wide gathered waist, a lace-up back and a draped neck tie.",
+      "category": "Dresses",
+      "arrivalRank": 1172,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "miralisse-tiered-mermaid-gown-black",
+      "name": "Miralisse Tiered Mermaid Gown — Black",
+      "image": "/products/miralisse-tiered-mermaid-gown-black/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A floor-length mermaid gown with pointed shoulder details, sheer long sleeves and a tiered ruffle hem.",
+      "category": "Dresses",
+      "arrivalRank": 1171,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "evelisse-pleated-halter-gown-sage",
+      "name": "Evelisse Pleated Halter Gown — Sage",
+      "image": "/products/evelisse-pleated-halter-gown-sage/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A floor-length halter gown with a plunging V-neck, a gathered waist and a softly pleated skirt.",
+      "category": "Dresses",
+      "arrivalRank": 1170,
+      "classification": "verified-model"
+    },
+    {
       "slug": "orvella-tailored-lace-slit-gown-black",
       "name": "Orvella Tailored Lace-Slit Gown — Black",
       "image": "/products/orvella-tailored-lace-slit-gown-black/front.webp",
@@ -9,36 +39,6 @@
       "copy": "A long-sleeve black evening gown with notched lapels, a fitted waist and a slit with floral lace inset.",
       "category": "Dresses",
       "arrivalRank": 1157,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "seravina-sequin-halter-gown-rose-pink",
-      "name": "Seravina Sequin Halter Gown — Rose Pink",
-      "image": "/products/seravina-sequin-halter-gown-rose-pink/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A rose pink sequin gown with a deep V halter neckline, an open back and a fitted floor-length skirt.",
-      "category": "Dresses",
-      "arrivalRank": 1156,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "viorelle-beaded-mermaid-gown-ruby-red",
-      "name": "Viorelle Beaded Mermaid Gown — Ruby Red",
-      "image": "/products/viorelle-beaded-mermaid-gown-ruby-red/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A ruby red strapless gown with beaded detailing, a sweetheart neckline and a sweeping mermaid hem.",
-      "category": "Dresses",
-      "arrivalRank": 1155,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "lisavelle-beaded-strapless-gown-ice-blue",
-      "name": "Lisavelle Beaded Strapless Gown — Ice Blue",
-      "image": "/products/lisavelle-beaded-strapless-gown-ice-blue/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "An ice blue floor-length gown with a strapless plunge neckline and beaded detailing.",
-      "category": "Dresses",
-      "arrivalRank": 1154,
       "classification": "verified-model"
     }
   ]

@@ -32407,6 +32407,686 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256810335051258",
   "sourceColor": "GRAY"
+},
+{
+  "slug": "celivana-lace-up-halter-gown-forest-green",
+  "name": "Celivana Lace-Up Halter Gown — Forest Green",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 255.9,
+  "colors": [
+    "#295342"
+  ],
+  "colorNames": [
+    "Forest Green"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A pleated floor-length halter gown with a wide gathered waist, a lace-up back and a draped neck tie.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celivana-lace-up-halter-gown-forest-green/front.webp",
+    "/products/celivana-lace-up-halter-gown-forest-green/back.webp",
+    "/products/celivana-lace-up-halter-gown-forest-green/left.webp",
+    "/products/celivana-lace-up-halter-gown-forest-green/right.webp"
+  ],
+  "stock": 351,
+  "unitCostUsd": 85.3,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810335051258",
+  "sourceColor": "green"
+},
+{
+  "slug": "miralisse-tiered-mermaid-gown-black",
+  "name": "Miralisse Tiered Mermaid Gown — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 410.9,
+  "colors": [
+    "#262429"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length mermaid gown with pointed shoulder details, sheer long sleeves and a tiered ruffle hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/miralisse-tiered-mermaid-gown-black/front.webp",
+    "/products/miralisse-tiered-mermaid-gown-black/back.webp",
+    "/products/miralisse-tiered-mermaid-gown-black/left.webp",
+    "/products/miralisse-tiered-mermaid-gown-black/right.webp"
+  ],
+  "stock": 1299,
+  "unitCostUsd": 136.71,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812744901666",
+  "sourceColor": "AS PIC"
+},
+{
+  "slug": "evelisse-pleated-halter-gown-sage",
+  "name": "Evelisse Pleated Halter Gown — Sage",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 311.9,
+  "colors": [
+    "#A2AE92"
+  ],
+  "colorNames": [
+    "Sage"
+  ],
+  "sizes": [
+    "14 W",
+    "US2- UK6- EU32",
+    "US4- UK8- EU34",
+    "US6- UK10- EU36",
+    "US8- UK12- EU38",
+    "US10- UK14- EU40",
+    "US12- UK16- EU42",
+    "US14- UK18- EU44",
+    "US16- UK20- EU46",
+    "US16W- UK20- EU46",
+    "US18W- UK22- EU48",
+    "US20W- UK24- EU50",
+    "US22W- UK26- EU52",
+    "US24W- UK28- EU54",
+    "US26W-UK30-EU56"
+  ],
+  "description": "A floor-length halter gown with a plunging V-neck, a gathered waist and a softly pleated skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/evelisse-pleated-halter-gown-sage/front.webp",
+    "/products/evelisse-pleated-halter-gown-sage/back.webp",
+    "/products/evelisse-pleated-halter-gown-sage/left.webp",
+    "/products/evelisse-pleated-halter-gown-sage/right.webp"
+  ],
+  "stock": 14983,
+  "unitCostUsd": 103.75,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812130790979",
+  "sourceColor": "Sage Green"
+},
+{
+  "slug": "avessa-ruched-mesh-ankle-boot-black",
+  "name": "Avessa Ruched Mesh Ankle Boot — Black",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 289.9,
+  "colors": [
+    "#28252B"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "subcategory": "Heels",
+  "description": "A black open-toe mesh ankle boot with gathered trim, gold-tone beads and a slim heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/avessa-ruched-mesh-ankle-boot-black/front.webp",
+    "/products/avessa-ruched-mesh-ankle-boot-black/back.webp",
+    "/products/avessa-ruched-mesh-ankle-boot-black/left.webp",
+    "/products/avessa-ruched-mesh-ankle-boot-black/right.webp"
+  ],
+  "stock": 2935,
+  "unitCostUsd": 96.55,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808364011686",
+  "sourceColor": "as show color"
+},
+{
+  "slug": "celivana-lace-up-halter-gown-ivory",
+  "name": "Celivana Lace-Up Halter Gown — Ivory",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 255.9,
+  "colors": [
+    "#E1D7C1"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A pleated floor-length halter gown with a wide gathered waist, a lace-up back and a draped neck tie.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celivana-lace-up-halter-gown-ivory/front.webp",
+    "/products/celivana-lace-up-halter-gown-ivory/back.webp",
+    "/products/celivana-lace-up-halter-gown-ivory/left.webp",
+    "/products/celivana-lace-up-halter-gown-ivory/right.webp"
+  ],
+  "stock": 351,
+  "unitCostUsd": 85.3,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810335051258",
+  "sourceColor": "Ivory"
+},
+{
+  "slug": "celivana-lace-up-halter-gown-red",
+  "name": "Celivana Lace-Up Halter Gown — Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 255.9,
+  "colors": [
+    "#A32234"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A pleated floor-length halter gown with a wide gathered waist, a lace-up back and a draped neck tie.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celivana-lace-up-halter-gown-red/front.webp",
+    "/products/celivana-lace-up-halter-gown-red/back.webp",
+    "/products/celivana-lace-up-halter-gown-red/left.webp",
+    "/products/celivana-lace-up-halter-gown-red/right.webp"
+  ],
+  "stock": 351,
+  "unitCostUsd": 85.3,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810335051258",
+  "sourceColor": "Red"
+},
+{
+  "slug": "celivana-lace-up-halter-gown-white",
+  "name": "Celivana Lace-Up Halter Gown — White",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 255.9,
+  "colors": [
+    "#F3F2EC"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A pleated floor-length halter gown with a wide gathered waist, a lace-up back and a draped neck tie.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celivana-lace-up-halter-gown-white/front.webp",
+    "/products/celivana-lace-up-halter-gown-white/back.webp",
+    "/products/celivana-lace-up-halter-gown-white/left.webp",
+    "/products/celivana-lace-up-halter-gown-white/right.webp"
+  ],
+  "stock": 351,
+  "unitCostUsd": 85.3,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810335051258",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "celivana-lace-up-halter-gown-hot-pink",
+  "name": "Celivana Lace-Up Halter Gown — Hot Pink",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 255.9,
+  "colors": [
+    "#9E245E"
+  ],
+  "colorNames": [
+    "Hot Pink"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A pleated floor-length halter gown with a wide gathered waist, a lace-up back and a draped neck tie.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celivana-lace-up-halter-gown-hot-pink/front.webp",
+    "/products/celivana-lace-up-halter-gown-hot-pink/back.webp",
+    "/products/celivana-lace-up-halter-gown-hot-pink/left.webp",
+    "/products/celivana-lace-up-halter-gown-hot-pink/right.webp"
+  ],
+  "stock": 351,
+  "unitCostUsd": 85.3,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810335051258",
+  "sourceColor": "Hot Pink"
+},
+{
+  "slug": "miralisse-tiered-mermaid-gown-royal-blue",
+  "name": "Miralisse Tiered Mermaid Gown — Royal Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 410.9,
+  "colors": [
+    "#233C87"
+  ],
+  "colorNames": [
+    "Royal Blue"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length mermaid gown with pointed shoulder details, sheer long sleeves and a tiered ruffle hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/miralisse-tiered-mermaid-gown-royal-blue/front.webp",
+    "/products/miralisse-tiered-mermaid-gown-royal-blue/back.webp",
+    "/products/miralisse-tiered-mermaid-gown-royal-blue/left.webp",
+    "/products/miralisse-tiered-mermaid-gown-royal-blue/right.webp"
+  ],
+  "stock": 1300,
+  "unitCostUsd": 136.71,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812744901666",
+  "sourceColor": "Blue"
+},
+{
+  "slug": "miralisse-tiered-mermaid-gown-burgundy",
+  "name": "Miralisse Tiered Mermaid Gown — Burgundy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 410.9,
+  "colors": [
+    "#652034"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length mermaid gown with pointed shoulder details, sheer long sleeves and a tiered ruffle hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/miralisse-tiered-mermaid-gown-burgundy/front.webp",
+    "/products/miralisse-tiered-mermaid-gown-burgundy/back.webp",
+    "/products/miralisse-tiered-mermaid-gown-burgundy/left.webp",
+    "/products/miralisse-tiered-mermaid-gown-burgundy/right.webp"
+  ],
+  "stock": 1300,
+  "unitCostUsd": 136.71,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812744901666",
+  "sourceColor": "Burgundy"
+},
+{
+  "slug": "miralisse-tiered-mermaid-gown-champagne",
+  "name": "Miralisse Tiered Mermaid Gown — Champagne",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 410.9,
+  "colors": [
+    "#B5AB97"
+  ],
+  "colorNames": [
+    "Champagne"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length mermaid gown with pointed shoulder details, sheer long sleeves and a tiered ruffle hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/miralisse-tiered-mermaid-gown-champagne/front.webp",
+    "/products/miralisse-tiered-mermaid-gown-champagne/back.webp",
+    "/products/miralisse-tiered-mermaid-gown-champagne/left.webp",
+    "/products/miralisse-tiered-mermaid-gown-champagne/right.webp"
+  ],
+  "stock": 1300,
+  "unitCostUsd": 136.71,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812744901666",
+  "sourceColor": "Champagne"
+},
+{
+  "slug": "miralisse-tiered-mermaid-gown-gray",
+  "name": "Miralisse Tiered Mermaid Gown — Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 410.9,
+  "colors": [
+    "#858894"
+  ],
+  "colorNames": [
+    "Gray"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length mermaid gown with pointed shoulder details, sheer long sleeves and a tiered ruffle hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/miralisse-tiered-mermaid-gown-gray/front.webp",
+    "/products/miralisse-tiered-mermaid-gown-gray/back.webp",
+    "/products/miralisse-tiered-mermaid-gown-gray/left.webp",
+    "/products/miralisse-tiered-mermaid-gown-gray/right.webp"
+  ],
+  "stock": 1300,
+  "unitCostUsd": 136.71,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812744901666",
+  "sourceColor": "GRAY"
+},
+{
+  "slug": "miralisse-tiered-mermaid-gown-deep-green",
+  "name": "Miralisse Tiered Mermaid Gown — Deep Green",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 410.9,
+  "colors": [
+    "#275439"
+  ],
+  "colorNames": [
+    "Deep Green"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length mermaid gown with pointed shoulder details, sheer long sleeves and a tiered ruffle hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/miralisse-tiered-mermaid-gown-deep-green/front.webp",
+    "/products/miralisse-tiered-mermaid-gown-deep-green/back.webp",
+    "/products/miralisse-tiered-mermaid-gown-deep-green/left.webp",
+    "/products/miralisse-tiered-mermaid-gown-deep-green/right.webp"
+  ],
+  "stock": 1300,
+  "unitCostUsd": 136.71,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812744901666",
+  "sourceColor": "green"
+},
+{
+  "slug": "miralisse-tiered-mermaid-gown-navy",
+  "name": "Miralisse Tiered Mermaid Gown — Navy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 410.9,
+  "colors": [
+    "#293250"
+  ],
+  "colorNames": [
+    "Navy"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length mermaid gown with pointed shoulder details, sheer long sleeves and a tiered ruffle hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/miralisse-tiered-mermaid-gown-navy/front.webp",
+    "/products/miralisse-tiered-mermaid-gown-navy/back.webp",
+    "/products/miralisse-tiered-mermaid-gown-navy/left.webp",
+    "/products/miralisse-tiered-mermaid-gown-navy/right.webp"
+  ],
+  "stock": 1300,
+  "unitCostUsd": 136.71,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812744901666",
+  "sourceColor": "Navy Blue"
+},
+{
+  "slug": "evelisse-pleated-halter-gown-white",
+  "name": "Evelisse Pleated Halter Gown — White",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 311.9,
+  "colors": [
+    "#EEEAE1"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "14 W",
+    "US2- UK6- EU32",
+    "US4- UK8- EU34",
+    "US6- UK10- EU36",
+    "US8- UK12- EU38",
+    "US10- UK14- EU40",
+    "US12- UK16- EU42",
+    "US14- UK18- EU44",
+    "US16- UK20- EU46",
+    "US16W- UK20- EU46",
+    "US18W- UK22- EU48",
+    "US20W- UK24- EU50",
+    "US22W- UK26- EU52",
+    "US24W- UK28- EU54",
+    "US26W-UK30-EU56"
+  ],
+  "description": "A floor-length halter gown with a plunging V-neck, a gathered waist and a softly pleated skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/evelisse-pleated-halter-gown-white/front.webp",
+    "/products/evelisse-pleated-halter-gown-white/back.webp",
+    "/products/evelisse-pleated-halter-gown-white/left.webp",
+    "/products/evelisse-pleated-halter-gown-white/right.webp"
+  ],
+  "stock": 14985,
+  "unitCostUsd": 103.75,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812130790979",
+  "sourceColor": "White"
 }
 ];
 
@@ -32416,6 +33096,22 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "celivana-lace-up-halter-gown-forest-green",
+  "miralisse-tiered-mermaid-gown-black",
+  "evelisse-pleated-halter-gown-sage",
+  "avessa-ruched-mesh-ankle-boot-black",
+  "celivana-lace-up-halter-gown-ivory",
+  "celivana-lace-up-halter-gown-red",
+  "celivana-lace-up-halter-gown-white",
+  "celivana-lace-up-halter-gown-hot-pink",
+  "miralisse-tiered-mermaid-gown-royal-blue",
+  "miralisse-tiered-mermaid-gown-burgundy",
+  "miralisse-tiered-mermaid-gown-champagne",
+  "miralisse-tiered-mermaid-gown-gray",
+  "miralisse-tiered-mermaid-gown-deep-green",
+  "miralisse-tiered-mermaid-gown-navy",
+  "evelisse-pleated-halter-gown-white",
+
   "orvella-tailored-lace-slit-gown-black",
   "seravina-sequin-halter-gown-rose-pink",
   "viorelle-beaded-mermaid-gown-ruby-red",
