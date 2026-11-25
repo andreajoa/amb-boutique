@@ -38140,6 +38140,40 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256807207184285",
   "sourceColor": "DEEP BLUE"
+},
+{
+  "slug": "celvara-scarf-bucket-bag-soft-gray",
+  "name": "Celvara Scarf Bucket Bag — Soft Gray",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 77.9,
+  "colors": [
+    "#90847D"
+  ],
+  "colorNames": [
+    "Soft Gray"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A soft gray bucket bag with rounded handles, a printed scarf accent and a gold-tone clasp. The open view is a still from the supplier’s video. Display contents are styling props.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celvara-scarf-bucket-bag-soft-gray/front.webp",
+    "/products/celvara-scarf-bucket-bag-soft-gray/back.webp",
+    "/products/celvara-scarf-bucket-bag-soft-gray/left.webp",
+    "/products/celvara-scarf-bucket-bag-soft-gray/right.webp",
+    "/products/celvara-scarf-bucket-bag-soft-gray/inside.webp"
+  ],
+  "stock": 14,
+  "unitCostUsd": 25.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812387706209",
+  "sourceColor": "grey"
 }
 ];
 
@@ -38149,6 +38183,8 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "celvara-scarf-bucket-bag-soft-gray",
+
   "verenne-medallion-shopper-tote-black",
   "verenne-medallion-shopper-tote-brown",
   "verenne-medallion-shopper-tote-deep-blue",
