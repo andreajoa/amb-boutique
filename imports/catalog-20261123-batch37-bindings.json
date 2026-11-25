@@ -1,0 +1,57 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "talisse-triple-zip-crossbody-bag-deep-teal",
+      "sourceProductId": "3256806153947521",
+      "sourceColor": "Green",
+      "supplierId": "ambsp-ad4363d93273cfacf9ceed4eb53ebaa3",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036818566587"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 11.98
+      },
+      "stockBySize": {
+        "One Size": 1
+      },
+      "retailPriceUsd": 36.9,
+      "verifiedAtUtc": "2026-11-24T23:29:16.952Z"
+    },
+    {
+      "slug": "talisse-triple-zip-crossbody-bag-mauve",
+      "sourceProductId": "3256806153947521",
+      "sourceColor": "Purple",
+      "supplierId": "ambsp-ad4363d93273cfacf9ceed4eb53ebaa3",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000051137481803"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 13.58
+      },
+      "stockBySize": {
+        "One Size": 996
+      },
+      "retailPriceUsd": 40.9,
+      "verifiedAtUtc": "2026-11-24T23:29:16.952Z"
+    },
+    {
+      "slug": "talisse-triple-zip-crossbody-bag-cherry-red",
+      "sourceProductId": "3256806153947521",
+      "sourceColor": "Red",
+      "supplierId": "ambsp-ad4363d93273cfacf9ceed4eb53ebaa3",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000036818566585"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 11.58
+      },
+      "stockBySize": {
+        "One Size": 1
+      },
+      "retailPriceUsd": 34.9,
+      "verifiedAtUtc": "2026-11-24T23:29:16.952Z"
+    }
+  ]
+}

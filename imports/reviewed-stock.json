@@ -4230,5 +4230,20 @@
    "US18W- UK22- EU48": 999,
    "US16W- UK20- EU46": 999
   }
+ },
+ "talisse-triple-zip-crossbody-bag-deep-teal": {
+  "stockBySize": {
+   "One Size": 1
+  }
+ },
+ "talisse-triple-zip-crossbody-bag-mauve": {
+  "stockBySize": {
+   "One Size": 996
+  }
+ },
+ "talisse-triple-zip-crossbody-bag-cherry-red": {
+  "stockBySize": {
+   "One Size": 1
+  }
  }
 }
