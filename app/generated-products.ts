@@ -38038,6 +38038,108 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256810056758129",
   "sourceColor": "burgundy"
+},
+{
+  "slug": "verenne-medallion-shopper-tote-black",
+  "name": "Verenne Medallion Shopper Tote — Black",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 103.9,
+  "colors": [
+    "#272728"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured shopper tote with slim shoulder handles, a zip opening and a round gold-tone charm. Visible exterior color in the interior image has been adjusted to illustrate this option. The open view shows the bag’s dark lining and interior pocket.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/verenne-medallion-shopper-tote-black/front.webp",
+    "/products/verenne-medallion-shopper-tote-black/back.webp",
+    "/products/verenne-medallion-shopper-tote-black/left.webp",
+    "/products/verenne-medallion-shopper-tote-black/right.webp",
+    "/products/verenne-medallion-shopper-tote-black/inside.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 34.48,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807207184285",
+  "sourceColor": "black"
+},
+{
+  "slug": "verenne-medallion-shopper-tote-brown",
+  "name": "Verenne Medallion Shopper Tote — Cognac Brown",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 109.9,
+  "colors": [
+    "#AA602F"
+  ],
+  "colorNames": [
+    "Cognac Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured shopper tote with slim shoulder handles, a zip opening and a round gold-tone charm. The open view shows the bag’s dark lining and interior pocket.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/verenne-medallion-shopper-tote-brown/front.webp",
+    "/products/verenne-medallion-shopper-tote-brown/back.webp",
+    "/products/verenne-medallion-shopper-tote-brown/left.webp",
+    "/products/verenne-medallion-shopper-tote-brown/right.webp",
+    "/products/verenne-medallion-shopper-tote-brown/inside.webp"
+  ],
+  "stock": 3,
+  "unitCostUsd": 36.58,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807207184285",
+  "sourceColor": "Brown"
+},
+{
+  "slug": "verenne-medallion-shopper-tote-deep-blue",
+  "name": "Verenne Medallion Shopper Tote — Deep Blue",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 107.9,
+  "colors": [
+    "#2B4D73"
+  ],
+  "colorNames": [
+    "Deep Blue"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured shopper tote with slim shoulder handles, a zip opening and a round gold-tone charm. Visible exterior color in the interior image has been adjusted to illustrate this option. The open view shows the bag’s dark lining and interior pocket.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/verenne-medallion-shopper-tote-deep-blue/front.webp",
+    "/products/verenne-medallion-shopper-tote-deep-blue/back.webp",
+    "/products/verenne-medallion-shopper-tote-deep-blue/left.webp",
+    "/products/verenne-medallion-shopper-tote-deep-blue/right.webp",
+    "/products/verenne-medallion-shopper-tote-deep-blue/inside.webp"
+  ],
+  "stock": 3,
+  "unitCostUsd": 35.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807207184285",
+  "sourceColor": "DEEP BLUE"
 }
 ];
 
@@ -38047,6 +38149,10 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "verenne-medallion-shopper-tote-black",
+  "verenne-medallion-shopper-tote-brown",
+  "verenne-medallion-shopper-tote-deep-blue",
+
   "noelia-bow-satchel-blue",
   "noelia-bow-satchel-pink",
   "noelia-bow-satchel-burgundy",

@@ -5762,5 +5762,20 @@
   "stockBySize": {
    "One Size": 1
   }
+ },
+ "verenne-medallion-shopper-tote-black": {
+  "stockBySize": {
+   "One Size": 1
+  }
+ },
+ "verenne-medallion-shopper-tote-brown": {
+  "stockBySize": {
+   "One Size": 3
+  }
+ },
+ "verenne-medallion-shopper-tote-deep-blue": {
+  "stockBySize": {
+   "One Size": 3
+  }
  }
 }

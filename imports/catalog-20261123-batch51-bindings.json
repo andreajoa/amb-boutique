@@ -1,0 +1,57 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "verenne-medallion-shopper-tote-black",
+      "sourceProductId": "3256807207184285",
+      "sourceColor": "black",
+      "supplierId": "ambsp-188bf89d4c4a0ef94e3ba03a2903722d",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000040563565216"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 34.48
+      },
+      "stockBySize": {
+        "One Size": 1
+      },
+      "retailPriceUsd": 103.9,
+      "verifiedAtUtc": "2026-11-25T21:32:19.540Z"
+    },
+    {
+      "slug": "verenne-medallion-shopper-tote-brown",
+      "sourceProductId": "3256807207184285",
+      "sourceColor": "Brown",
+      "supplierId": "ambsp-188bf89d4c4a0ef94e3ba03a2903722d",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000040563565217"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 36.58
+      },
+      "stockBySize": {
+        "One Size": 3
+      },
+      "retailPriceUsd": 109.9,
+      "verifiedAtUtc": "2026-11-25T21:32:32.391Z"
+    },
+    {
+      "slug": "verenne-medallion-shopper-tote-deep-blue",
+      "sourceProductId": "3256807207184285",
+      "sourceColor": "DEEP BLUE",
+      "supplierId": "ambsp-188bf89d4c4a0ef94e3ba03a2903722d",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000040563565218"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 35.88
+      },
+      "stockBySize": {
+        "One Size": 3
+      },
+      "retailPriceUsd": 107.9,
+      "verifiedAtUtc": "2026-11-25T21:32:45.009Z"
+    }
+  ]
+}

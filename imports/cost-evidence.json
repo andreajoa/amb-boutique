@@ -3145,6 +3145,18 @@
    "landedCostUsd": 25.75,
    "source": "catalog-20261123-batch25-bindings.json"
   },
+  "verenne-medallion-shopper-tote-black": {
+   "landedCostUsd": 34.48,
+   "source": "catalog-20261123-batch51-bindings.json"
+  },
+  "verenne-medallion-shopper-tote-brown": {
+   "landedCostUsd": 36.58,
+   "source": "catalog-20261123-batch51-bindings.json"
+  },
+  "verenne-medallion-shopper-tote-deep-blue": {
+   "landedCostUsd": 35.88,
+   "source": "catalog-20261123-batch51-bindings.json"
+  },
   "vespera-tailored-vest-trouser-set-black": {
    "landedCostUsd": 33.12,
    "source": "catalog-20261123-batch03-bindings.json"
