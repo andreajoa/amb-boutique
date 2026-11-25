@@ -1,0 +1,108 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "amalfi-dumpling-bag-small-canvas",
+      "sourceProductId": "1005010591309746",
+      "sourceColor": "Canvas Brown S",
+      "supplierId": "cmww1pdj600fp1rtqe5xt3gvx",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000052918282021"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 41.98
+      },
+      "stockBySize": {
+        "One Size": 5
+      },
+      "retailPriceUsd": 126.9,
+      "verifiedAtUtc": "2026-11-25T11:35:35.701Z"
+    },
+    {
+      "slug": "amalfi-dumpling-bag-large-canvas",
+      "sourceProductId": "1005010591309746",
+      "sourceColor": "Canvas brown L",
+      "supplierId": "cmww1pdj600fp1rtqe5xt3gvx",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000052918282010"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 44.68
+      },
+      "stockBySize": {
+        "One Size": 5
+      },
+      "retailPriceUsd": 134.9,
+      "verifiedAtUtc": "2026-11-25T11:35:35.701Z"
+    },
+    {
+      "slug": "amalfi-dumpling-bag-small-coffee",
+      "sourceProductId": "1005010591309746",
+      "sourceColor": "coffee small",
+      "supplierId": "cmww1pdj600fp1rtqe5xt3gvx",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000052918282022"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 38.58
+      },
+      "stockBySize": {
+        "One Size": 4
+      },
+      "retailPriceUsd": 115.9,
+      "verifiedAtUtc": "2026-11-25T11:35:35.701Z"
+    },
+    {
+      "slug": "amalfi-dumpling-bag-large-coffee",
+      "sourceProductId": "1005010591309746",
+      "sourceColor": "coffee L",
+      "supplierId": "cmww1pdj600fp1rtqe5xt3gvx",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000052918282014"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 46.38
+      },
+      "stockBySize": {
+        "One Size": 5
+      },
+      "retailPriceUsd": 139.9,
+      "verifiedAtUtc": "2026-11-25T11:35:35.701Z"
+    },
+    {
+      "slug": "amalfi-dumpling-bag-large-green",
+      "sourceProductId": "1005010591309746",
+      "sourceColor": "L green",
+      "supplierId": "cmww1pdj600fp1rtqe5xt3gvx",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000052918282018"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 46.18
+      },
+      "stockBySize": {
+        "One Size": 5
+      },
+      "retailPriceUsd": 138.9,
+      "verifiedAtUtc": "2026-11-25T11:35:35.701Z"
+    },
+    {
+      "slug": "amalfi-dumpling-bag-large-white",
+      "sourceProductId": "1005010591309746",
+      "sourceColor": "White L",
+      "supplierId": "cmww1pdj600fp1rtqe5xt3gvx",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000052918282017"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 48.68
+      },
+      "stockBySize": {
+        "One Size": 4
+      },
+      "retailPriceUsd": 146.9,
+      "verifiedAtUtc": "2026-11-25T11:35:35.701Z"
+    }
+  ]
+}

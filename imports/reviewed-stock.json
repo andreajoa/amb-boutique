@@ -5671,5 +5671,35 @@
    "XL": 500,
    "XXL": 500
   }
+ },
+ "amalfi-dumpling-bag-small-canvas": {
+  "stockBySize": {
+   "One Size": 5
+  }
+ },
+ "amalfi-dumpling-bag-large-canvas": {
+  "stockBySize": {
+   "One Size": 5
+  }
+ },
+ "amalfi-dumpling-bag-small-coffee": {
+  "stockBySize": {
+   "One Size": 4
+  }
+ },
+ "amalfi-dumpling-bag-large-coffee": {
+  "stockBySize": {
+   "One Size": 5
+  }
+ },
+ "amalfi-dumpling-bag-large-green": {
+  "stockBySize": {
+   "One Size": 5
+  }
+ },
+ "amalfi-dumpling-bag-large-white": {
+  "stockBySize": {
+   "One Size": 4
+  }
  }
 }
