@@ -37692,6 +37692,74 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "1005010591309746",
   "sourceColor": "White L"
+},
+{
+  "slug": "marevella-ornament-slingback-black-red",
+  "name": "Marevella Ornament Slingback — Black and Red",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 165.9,
+  "colors": [
+    "#252223"
+  ],
+  "colorNames": [
+    "Black and Red"
+  ],
+  "sizes": [
+    "39"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed black pump with a dark ornament across the toe and a contrasting red slingback and stiletto heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marevella-ornament-slingback-black-red/front.webp",
+    "/products/marevella-ornament-slingback-black-red/back.webp",
+    "/products/marevella-ornament-slingback-black-red/left.webp",
+    "/products/marevella-ornament-slingback-black-red/right.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 54.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005008660306361",
+  "sourceColor": "black"
+},
+{
+  "slug": "amalfi-dumpling-bag-large-matte-black",
+  "name": "Amalfi Dumpling Bag Large — Matte Black",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 157.9,
+  "colors": [
+    "#171617"
+  ],
+  "colorNames": [
+    "Matte Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A large matte black handbag with a rounded handle, winged sides and a small gold-tone front buckle.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/amalfi-dumpling-bag-large-matte-black/front.webp",
+    "/products/amalfi-dumpling-bag-large-matte-black/back.webp",
+    "/products/amalfi-dumpling-bag-large-matte-black/left.webp",
+    "/products/amalfi-dumpling-bag-large-matte-black/right.webp",
+    "/products/amalfi-dumpling-bag-large-matte-black/inside.webp"
+  ],
+  "stock": 3,
+  "unitCostUsd": 52.38,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005013479804545",
+  "sourceColor": "Black L"
 }
 ];
 
@@ -37701,6 +37769,9 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "marevella-ornament-slingback-black-red",
+  "amalfi-dumpling-bag-large-matte-black",
+
   "amalfi-dumpling-bag-small-canvas",
   "amalfi-dumpling-bag-large-canvas",
   "amalfi-dumpling-bag-small-coffee",
