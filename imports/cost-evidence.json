@@ -217,6 +217,10 @@
    "landedCostUsd": 29.58,
    "source": "catalog-20261123-batch13-bindings.json"
   },
+  "avessa-ruched-mesh-ankle-boot-black": {
+   "landedCostUsd": 96.55,
+   "source": "catalog-20261123-batch36-bindings.json"
+  },
   "azul-tile-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -476,6 +480,26 @@
   "celivana-lace-up-halter-gown-charcoal": {
    "landedCostUsd": 85.3,
    "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "celivana-lace-up-halter-gown-forest-green": {
+   "landedCostUsd": 85.3,
+   "source": "catalog-20261123-batch36-bindings.json"
+  },
+  "celivana-lace-up-halter-gown-hot-pink": {
+   "landedCostUsd": 85.3,
+   "source": "catalog-20261123-batch36-bindings.json"
+  },
+  "celivana-lace-up-halter-gown-ivory": {
+   "landedCostUsd": 85.3,
+   "source": "catalog-20261123-batch36-bindings.json"
+  },
+  "celivana-lace-up-halter-gown-red": {
+   "landedCostUsd": 85.3,
+   "source": "catalog-20261123-batch36-bindings.json"
+  },
+  "celivana-lace-up-halter-gown-white": {
+   "landedCostUsd": 85.3,
+   "source": "catalog-20261123-batch36-bindings.json"
   },
   "celoria-pleated-floral-maxi-dress-blue-sage": {
    "landedCostUsd": 26.88,
@@ -892,6 +916,14 @@
   "evelisse-pleated-halter-gown-emerald": {
    "landedCostUsd": 103.75,
    "source": "catalog-20261123-batch34-bindings.json"
+  },
+  "evelisse-pleated-halter-gown-sage": {
+   "landedCostUsd": 103.75,
+   "source": "catalog-20261123-batch36-bindings.json"
+  },
+  "evelisse-pleated-halter-gown-white": {
+   "landedCostUsd": 103.75,
+   "source": "catalog-20261123-batch36-bindings.json"
   },
   "evelisse-plunge-slit-maxi-dress-blush-champagne": {
    "landedCostUsd": 26.79,
@@ -1564,6 +1596,34 @@
   "miralise-surplice-ruffle-gown-slate-blue": {
    "landedCostUsd": 42.78,
    "source": "catalog-20261123-batch22-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-black": {
+   "landedCostUsd": 136.71,
+   "source": "catalog-20261123-batch36-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-burgundy": {
+   "landedCostUsd": 136.71,
+   "source": "catalog-20261123-batch36-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-champagne": {
+   "landedCostUsd": 136.71,
+   "source": "catalog-20261123-batch36-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-deep-green": {
+   "landedCostUsd": 136.71,
+   "source": "catalog-20261123-batch36-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-gray": {
+   "landedCostUsd": 136.71,
+   "source": "catalog-20261123-batch36-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-navy": {
+   "landedCostUsd": 136.71,
+   "source": "catalog-20261123-batch36-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-royal-blue": {
+   "landedCostUsd": 136.71,
+   "source": "catalog-20261123-batch36-bindings.json"
   },
   "mirelda-lattice-trim-shirt-dress-black": {
    "landedCostUsd": 30.85,
