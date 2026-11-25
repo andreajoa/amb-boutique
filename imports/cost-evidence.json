@@ -121,6 +121,10 @@
    "landedCostUsd": 48.8,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
   },
+  "arielle-pearl-kitten-heel-sand": {
+   "landedCostUsd": 41.65,
+   "source": "catalog-20261123-batch38-bindings.json"
+  },
   "arlena-cutout-halter-maxi-dress-black": {
    "landedCostUsd": 56.41,
    "source": "catalog-20261026-new-products-bindings.json"
@@ -765,6 +769,10 @@
    "landedCostUsd": 25.88,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
   },
+  "eloria-crystal-strap-sandal-beige": {
+   "landedCostUsd": 25.08,
+   "source": "catalog-20261123-batch38-bindings.json"
+  },
   "elowen-champagne-corset-mermaid-gown": {
    "landedCostUsd": 137.04,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
@@ -1333,6 +1341,22 @@
    "landedCostUsd": 14.28,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "lunessa-folded-bow-pump-black-10-5cm": {
+   "landedCostUsd": 31.35,
+   "source": "catalog-20261123-batch38-bindings.json"
+  },
+  "lunessa-folded-bow-pump-black-7-5cm": {
+   "landedCostUsd": 31.35,
+   "source": "catalog-20261123-batch38-bindings.json"
+  },
+  "lunessa-folded-bow-pump-ice-blue-10-5cm": {
+   "landedCostUsd": 31.35,
+   "source": "catalog-20261123-batch38-bindings.json"
+  },
+  "lunessa-folded-bow-pump-sky-blue-7-5cm": {
+   "landedCostUsd": 31.35,
+   "source": "catalog-20261123-batch38-bindings.json"
+  },
   "lurene-belted-turtleneck-knit-dress-black": {
    "landedCostUsd": 28.97,
    "source": "catalog-20261123-batch14-bindings.json"
@@ -1432,6 +1456,14 @@
   "mareselle-fringe-crochet-maxi-dress-orange": {
    "landedCostUsd": 43.5,
    "source": "catalog-20261123-batch23-bindings.json"
+  },
+  "marevella-ornament-slingback-champagne-sparkle": {
+   "landedCostUsd": 55.68,
+   "source": "catalog-20261123-batch38-bindings.json"
+  },
+  "marevella-ornament-slingback-white-with-black-trim": {
+   "landedCostUsd": 55.58,
+   "source": "catalog-20261123-batch38-bindings.json"
   },
   "margaux-shirt-dress": {
    "landedCostUsd": 49.88,
@@ -2157,6 +2189,18 @@
    "landedCostUsd": 149.38,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
   },
+  "ravissa-pointed-buckle-pump-abstract-multi": {
+   "landedCostUsd": 64.08,
+   "source": "catalog-20261123-batch38-bindings.json"
+  },
+  "ravissa-pointed-buckle-pump-scarlet": {
+   "landedCostUsd": 65.78,
+   "source": "catalog-20261123-batch38-bindings.json"
+  },
+  "ravissa-pointed-buckle-pump-soft-beige": {
+   "landedCostUsd": 65.68,
+   "source": "catalog-20261123-batch38-bindings.json"
+  },
   "renata-black-pleated-midi-dress": {
    "landedCostUsd": 36.16,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
@@ -2356,6 +2400,18 @@
   "selorie-contrast-trim-tunic-midi-dress-ivory-with-black-trim": {
    "landedCostUsd": 8.48,
    "source": "catalog-20261123-batch21-bindings.json"
+  },
+  "selvara-pointed-slingback-black-10cm": {
+   "landedCostUsd": 42.19,
+   "source": "catalog-20261123-batch38-bindings.json"
+  },
+  "selvara-pointed-slingback-black-12cm": {
+   "landedCostUsd": 42.19,
+   "source": "catalog-20261123-batch38-bindings.json"
+  },
+  "selvara-pointed-slingback-black-6cm": {
+   "landedCostUsd": 42.19,
+   "source": "catalog-20261123-batch38-bindings.json"
   },
   "seravelle-open-back-cowl-maxi-dress-black": {
    "landedCostUsd": 46.2,
