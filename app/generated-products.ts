@@ -37361,6 +37361,133 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "1005007737102247",
   "sourceColor": "Naked color 8cm"
+},
+{
+  "slug": "orvella-tailored-lace-slit-gown-yellow",
+  "name": "Orvella Tailored Lace-Slit Gown — Yellow",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 415.9,
+  "colors": [
+    "#E4C269"
+  ],
+  "colorNames": [
+    "Yellow"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset. Gallery illustrates the supplier-listed Yellow color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/orvella-tailored-lace-slit-gown-yellow/front.webp",
+    "/products/orvella-tailored-lace-slit-gown-yellow/back.webp",
+    "/products/orvella-tailored-lace-slit-gown-yellow/left.webp",
+    "/products/orvella-tailored-lace-slit-gown-yellow/right.webp"
+  ],
+  "stock": 910,
+  "unitCostUsd": 138.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809847930202",
+  "sourceColor": "YELLOW"
+},
+{
+  "slug": "marivelle-short-sleeve-lace-gown-yellow",
+  "name": "Marivelle Short Sleeve Lace Gown — Yellow",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 324.9,
+  "colors": [
+    "#E4C269"
+  ],
+  "colorNames": [
+    "Yellow"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem. Gallery illustrates the supplier-listed Yellow color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marivelle-short-sleeve-lace-gown-yellow/front.webp",
+    "/products/marivelle-short-sleeve-lace-gown-yellow/back.webp",
+    "/products/marivelle-short-sleeve-lace-gown-yellow/left.webp",
+    "/products/marivelle-short-sleeve-lace-gown-yellow/right.webp"
+  ],
+  "stock": 2600,
+  "unitCostUsd": 108.03,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811609011827",
+  "sourceColor": "YELLOW"
+},
+{
+  "slug": "celinne-buckle-belt-romper-white",
+  "name": "Celinne Buckle-Belt Romper — White",
+  "category": "Playsuits",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 105.9,
+  "colors": [
+    "#F4EFE9"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A sleeveless white romper with a deep V neckline, tailored front pleats and a narrow belt with a rectangular buckle.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celinne-buckle-belt-romper-white/front.webp",
+    "/products/celinne-buckle-belt-romper-white/back.webp",
+    "/products/celinne-buckle-belt-romper-white/left.webp",
+    "/products/celinne-buckle-belt-romper-white/right.webp"
+  ],
+  "stock": 2494,
+  "unitCostUsd": 35.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811432198463",
+  "sourceColor": "White"
 }
 ];
 
@@ -37370,6 +37497,10 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "orvella-tailored-lace-slit-gown-yellow",
+  "marivelle-short-sleeve-lace-gown-yellow",
+  "celinne-buckle-belt-romper-white",
+
   "elivane-pointed-slingback-pump-black-matte-10cm",
   "elivane-pointed-slingback-pump-black-gloss-10cm",
   "elivane-pointed-slingback-pump-black-matte-8cm",

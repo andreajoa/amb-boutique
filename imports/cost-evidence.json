@@ -469,6 +469,10 @@
    "landedCostUsd": 32.1,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
   },
+  "celinne-buckle-belt-romper-white": {
+   "landedCostUsd": 35.19,
+   "source": "catalog-20261123-batch45-bindings.json"
+  },
   "celivana-lace-up-halter-gown-antique-gold": {
    "landedCostUsd": 85.3,
    "source": "catalog-20261123-batch35-bindings.json"
@@ -1769,6 +1773,10 @@
    "landedCostUsd": 108.03,
    "source": "catalog-20261123-batch41-bindings.json"
   },
+  "marivelle-short-sleeve-lace-gown-yellow": {
+   "landedCostUsd": 108.03,
+   "source": "catalog-20261123-batch45-bindings.json"
+  },
   "mavella-leopard-maxi-kaftan-leopard": {
    "landedCostUsd": 31.53,
    "source": "catalog-20261123-batch22-bindings.json"
@@ -2336,6 +2344,10 @@
   "orvella-tailored-lace-slit-gown-white": {
    "landedCostUsd": 138.34,
    "source": "catalog-20261123-batch41-bindings.json"
+  },
+  "orvella-tailored-lace-slit-gown-yellow": {
+   "landedCostUsd": 138.34,
+   "source": "catalog-20261123-batch45-bindings.json"
   },
   "ottilie-rose-pleated-midi-dress": {
    "landedCostUsd": 36.16,
