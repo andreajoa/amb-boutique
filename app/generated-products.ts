@@ -37902,6 +37902,40 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "1005007475539145",
   "sourceColor": "white pants"
+},
+{
+  "slug": "aurevia-sequin-v-neck-slip-mini-dress-silver",
+  "name": "Aurevia Sequin V-Neck Slip Mini Dress — Silver",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 41.9,
+  "colors": [
+    "#BDBABD"
+  ],
+  "colorNames": [
+    "Silver"
+  ],
+  "sizes": [
+    "S",
+    "M"
+  ],
+  "description": "A silver sequin slip mini dress with fine straps, a deep V neckline and a low open back.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/aurevia-sequin-v-neck-slip-mini-dress-silver/front.webp",
+    "/products/aurevia-sequin-v-neck-slip-mini-dress-silver/back.webp",
+    "/products/aurevia-sequin-v-neck-slip-mini-dress-silver/left.webp",
+    "/products/aurevia-sequin-v-neck-slip-mini-dress-silver/right.webp"
+  ],
+  "stock": 5,
+  "unitCostUsd": 13.64,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005005737836133",
+  "sourceColor": "WHITE"
 }
 ];
 
@@ -37911,6 +37945,8 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "aurevia-sequin-v-neck-slip-mini-dress-silver",
+
   "solenne-halter-button-front-vest-white",
   "solenne-halter-button-front-vest-black",
   "solenne-high-rise-wide-leg-trousers-black",

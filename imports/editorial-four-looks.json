@@ -2,10 +2,20 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
+      "slug": "aurevia-sequin-v-neck-slip-mini-dress-silver",
+      "name": "Aurevia Sequin V-Neck Slip Mini Dress — Silver",
+      "image": "/products/aurevia-sequin-v-neck-slip-mini-dress-silver/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A silver sequin slip mini dress with fine straps, a deep V neckline and a low open back.",
+      "category": "Dresses",
+      "arrivalRank": 1289,
+      "classification": "verified-model"
+    },
+    {
       "slug": "solenne-halter-button-front-vest-white",
       "name": "Solenne Halter Button-Front Vest — White",
       "image": "/products/solenne-halter-button-front-vest-white/front.webp",
-      "eyebrow": "NEW ARRIVAL",
+      "eyebrow": "THE SOFT STATEMENT",
       "copy": "A fitted, sleeveless crossover-neckline vest with button closure at the front.",
       "category": "Tops",
       "arrivalRank": 1288,
@@ -29,16 +39,6 @@
       "copy": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset.",
       "category": "Dresses",
       "arrivalRank": 1276,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "marivelle-short-sleeve-lace-gown-yellow",
-      "name": "Marivelle Short Sleeve Lace Gown — Yellow",
-      "image": "/products/marivelle-short-sleeve-lace-gown-yellow/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem.",
-      "category": "Dresses",
-      "arrivalRank": 1275,
       "classification": "verified-model"
     }
   ]
