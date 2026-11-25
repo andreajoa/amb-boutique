@@ -177,6 +177,10 @@
    "landedCostUsd": 42.11,
    "source": "catalog-20261123-batch02-bindings.json"
   },
+  "aurevella-strapless-floral-lace-gown-champagne": {
+   "landedCostUsd": 132.99,
+   "source": "catalog-20261123-batch40-bindings.json"
+  },
   "aurora-galaxy-swing-dress": {
    "landedCostUsd": 28.98,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
@@ -497,9 +501,17 @@
    "landedCostUsd": 85.3,
    "source": "catalog-20261123-batch36-bindings.json"
   },
+  "celivana-lace-up-halter-gown-pale-pink": {
+   "landedCostUsd": 85.36,
+   "source": "catalog-20261123-batch40-bindings.json"
+  },
   "celivana-lace-up-halter-gown-red": {
    "landedCostUsd": 85.3,
    "source": "catalog-20261123-batch36-bindings.json"
+  },
+  "celivana-lace-up-halter-gown-royal-purple": {
+   "landedCostUsd": 85.36,
+   "source": "catalog-20261123-batch40-bindings.json"
   },
   "celivana-lace-up-halter-gown-white": {
    "landedCostUsd": 85.3,
@@ -929,6 +941,10 @@
    "landedCostUsd": 103.75,
    "source": "catalog-20261123-batch34-bindings.json"
   },
+  "evelisse-pleated-halter-gown-butter-yellow": {
+   "landedCostUsd": 103.87,
+   "source": "catalog-20261123-batch40-bindings.json"
+  },
   "evelisse-pleated-halter-gown-emerald": {
    "landedCostUsd": 103.75,
    "source": "catalog-20261123-batch34-bindings.json"
@@ -976,6 +992,10 @@
   "fiora-sage-satin-midi-dress": {
    "landedCostUsd": 19.52,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "fioranna-lantern-sleeve-midi-dress-white": {
+   "landedCostUsd": 29.79,
+   "source": "catalog-20261123-batch40-bindings.json"
   },
   "fiorenza-sequin-bodice-maxi-dress-black": {
    "landedCostUsd": 28.55,
@@ -1561,6 +1581,10 @@
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
   },
+  "marinda-bow-handle-satchel-forest-green": {
+   "landedCostUsd": 14.38,
+   "source": "catalog-20261123-batch40-bindings.json"
+  },
   "mariselle-ornamental-kaftan-maxi-dress-blue": {
    "landedCostUsd": 24.96,
    "source": "catalog-20261123-batch25-bindings.json"
@@ -1604,6 +1628,10 @@
   "marivelle-short-sleeve-lace-gown-pale-green": {
    "landedCostUsd": 107.96,
    "source": "catalog-20261123-batch34-bindings.json"
+  },
+  "marivelle-short-sleeve-lace-gown-peach-blush": {
+   "landedCostUsd": 108.03,
+   "source": "catalog-20261123-batch40-bindings.json"
   },
   "marivelle-short-sleeve-lace-gown-powder-blue": {
    "landedCostUsd": 107.96,
@@ -1693,17 +1721,41 @@
    "landedCostUsd": 136.71,
    "source": "catalog-20261123-batch36-bindings.json"
   },
+  "miralisse-tiered-mermaid-gown-dusty-pink": {
+   "landedCostUsd": 136.83,
+   "source": "catalog-20261123-batch40-bindings.json"
+  },
   "miralisse-tiered-mermaid-gown-gray": {
    "landedCostUsd": 136.71,
    "source": "catalog-20261123-batch36-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-ivory": {
+   "landedCostUsd": 136.83,
+   "source": "catalog-20261123-batch40-bindings.json"
   },
   "miralisse-tiered-mermaid-gown-navy": {
    "landedCostUsd": 136.71,
    "source": "catalog-20261123-batch36-bindings.json"
   },
+  "miralisse-tiered-mermaid-gown-purple": {
+   "landedCostUsd": 136.83,
+   "source": "catalog-20261123-batch40-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-red": {
+   "landedCostUsd": 136.83,
+   "source": "catalog-20261123-batch40-bindings.json"
+  },
   "miralisse-tiered-mermaid-gown-royal-blue": {
    "landedCostUsd": 136.71,
    "source": "catalog-20261123-batch36-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-sky-blue": {
+   "landedCostUsd": 136.83,
+   "source": "catalog-20261123-batch40-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-soft-yellow": {
+   "landedCostUsd": 136.83,
+   "source": "catalog-20261123-batch40-bindings.json"
   },
   "mirelda-lattice-trim-shirt-dress-black": {
    "landedCostUsd": 30.85,
@@ -2233,6 +2285,14 @@
    "landedCostUsd": 13.94,
    "source": "catalog-20261123-batch15-bindings.json"
   },
+  "ravelle-structured-three-compartment-tote-black": {
+   "landedCostUsd": 32.28,
+   "source": "catalog-20261123-batch40-bindings.json"
+  },
+  "ravelle-structured-three-compartment-tote-burgundy": {
+   "landedCostUsd": 32.28,
+   "source": "catalog-20261123-batch40-bindings.json"
+  },
   "ravenna-black-tiered-mermaid-gown": {
    "landedCostUsd": 149.38,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
@@ -2608,6 +2668,10 @@
   "solenne-printed-beach-cover-up-umber-zebra": {
    "landedCostUsd": 33.44,
    "source": "catalog-20261123-batch01-bindings.json"
+  },
+  "solienna-draped-top-and-maxi-skirt-set-sand": {
+   "landedCostUsd": 41.47,
+   "source": "catalog-20261123-batch40-bindings.json"
   },
   "solvaya-ribbed-halter-crop-top-white": {
    "landedCostUsd": 10.54,

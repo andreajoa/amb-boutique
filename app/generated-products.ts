@@ -34659,6 +34659,673 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256808509819702",
   "sourceColor": "Naked color 12cm"
+},
+{
+  "slug": "fioranna-lantern-sleeve-midi-dress-white",
+  "name": "Fioranna Lantern-Sleeve Midi Dress — White",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 89.9,
+  "colors": [
+    "#F0EEE5"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A white V-neck midi dress with voluminous sleeves, a defined waist and a softly gathered skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/fioranna-lantern-sleeve-midi-dress-white/front.webp",
+    "/products/fioranna-lantern-sleeve-midi-dress-white/back.webp",
+    "/products/fioranna-lantern-sleeve-midi-dress-white/left.webp",
+    "/products/fioranna-lantern-sleeve-midi-dress-white/right.webp"
+  ],
+  "stock": 29978,
+  "unitCostUsd": 29.79,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808122208834",
+  "sourceColor": "White"
+},
+{
+  "slug": "marivelle-short-sleeve-lace-gown-peach-blush",
+  "name": "Marivelle Short-Sleeve Lace Gown — Peach Blush",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 324.9,
+  "colors": [
+    "#D3A695"
+  ],
+  "colorNames": [
+    "Peach Blush"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marivelle-short-sleeve-lace-gown-peach-blush/front.webp",
+    "/products/marivelle-short-sleeve-lace-gown-peach-blush/back.webp",
+    "/products/marivelle-short-sleeve-lace-gown-peach-blush/left.webp",
+    "/products/marivelle-short-sleeve-lace-gown-peach-blush/right.webp"
+  ],
+  "stock": 2600,
+  "unitCostUsd": 108.03,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811609011827",
+  "sourceColor": "Photo Color5"
+},
+{
+  "slug": "evelisse-pleated-halter-gown-butter-yellow",
+  "name": "Evelisse Pleated Halter Gown — Butter Yellow",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 311.9,
+  "colors": [
+    "#E2CE8C"
+  ],
+  "colorNames": [
+    "Butter Yellow"
+  ],
+  "sizes": [
+    "14 W",
+    "US2- UK6- EU32",
+    "US4- UK8- EU34",
+    "US6- UK10- EU36",
+    "US8- UK12- EU38",
+    "US10- UK14- EU40",
+    "US12- UK16- EU42",
+    "US14- UK18- EU44",
+    "US16- UK20- EU46",
+    "US16W- UK20- EU46",
+    "US18W- UK22- EU48",
+    "US20W- UK24- EU50",
+    "US22W- UK26- EU52",
+    "US24W- UK28- EU54",
+    "US26W-UK30-EU56"
+  ],
+  "description": "A floor-length halter gown with a plunging V-neck, a gathered waist and a softly pleated skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/evelisse-pleated-halter-gown-butter-yellow/front.webp",
+    "/products/evelisse-pleated-halter-gown-butter-yellow/back.webp",
+    "/products/evelisse-pleated-halter-gown-butter-yellow/left.webp",
+    "/products/evelisse-pleated-halter-gown-butter-yellow/right.webp"
+  ],
+  "stock": 14985,
+  "unitCostUsd": 103.87,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812130790979",
+  "sourceColor": "Yellow"
+},
+{
+  "slug": "solienna-draped-top-and-maxi-skirt-set-sand",
+  "name": "Solienna Draped Top and Maxi Skirt Set — Sand",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 124.9,
+  "colors": [
+    "#D5B388"
+  ],
+  "colorNames": [
+    "Sand"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "description": "A coordinated two-piece set with a draped off-shoulder top and a flowing full-length skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/solienna-draped-top-and-maxi-skirt-set-sand/front.webp",
+    "/products/solienna-draped-top-and-maxi-skirt-set-sand/back.webp",
+    "/products/solienna-draped-top-and-maxi-skirt-set-sand/left.webp",
+    "/products/solienna-draped-top-and-maxi-skirt-set-sand/right.webp"
+  ],
+  "stock": 3986,
+  "unitCostUsd": 41.47,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809699932052",
+  "sourceColor": "as the picture"
+},
+{
+  "slug": "aurevella-strapless-floral-lace-gown-champagne",
+  "name": "Aurevella Strapless Floral Lace Gown — Champagne",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 399.9,
+  "colors": [
+    "#C6AD94"
+  ],
+  "colorNames": [
+    "Champagne"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "14 W",
+    "16",
+    "16W"
+  ],
+  "description": "A floor-length strapless gown with a sweetheart neckline, a fitted bodice and shimmering floral lace.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/aurevella-strapless-floral-lace-gown-champagne/front.webp",
+    "/products/aurevella-strapless-floral-lace-gown-champagne/back.webp",
+    "/products/aurevella-strapless-floral-lace-gown-champagne/left.webp",
+    "/products/aurevella-strapless-floral-lace-gown-champagne/right.webp"
+  ],
+  "stock": 998,
+  "unitCostUsd": 132.99,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812468373035",
+  "sourceColor": "Same as Image"
+},
+{
+  "slug": "celivana-lace-up-halter-gown-pale-pink",
+  "name": "Celivana Lace-Up Halter Gown — Pale Pink",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 256.9,
+  "colors": [
+    "#C4A7B1"
+  ],
+  "colorNames": [
+    "Pale Pink"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A pleated floor-length halter gown with a wide gathered waist, a lace-up back and a draped neck tie.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celivana-lace-up-halter-gown-pale-pink/front.webp",
+    "/products/celivana-lace-up-halter-gown-pale-pink/back.webp",
+    "/products/celivana-lace-up-halter-gown-pale-pink/left.webp",
+    "/products/celivana-lace-up-halter-gown-pale-pink/right.webp"
+  ],
+  "stock": 351,
+  "unitCostUsd": 85.36,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810335051258",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "celivana-lace-up-halter-gown-royal-purple",
+  "name": "Celivana Lace-Up Halter Gown — Royal Purple",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 256.9,
+  "colors": [
+    "#4A347A"
+  ],
+  "colorNames": [
+    "Royal Purple"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A pleated floor-length halter gown with a wide gathered waist, a lace-up back and a draped neck tie.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celivana-lace-up-halter-gown-royal-purple/front.webp",
+    "/products/celivana-lace-up-halter-gown-royal-purple/back.webp",
+    "/products/celivana-lace-up-halter-gown-royal-purple/left.webp",
+    "/products/celivana-lace-up-halter-gown-royal-purple/right.webp"
+  ],
+  "stock": 351,
+  "unitCostUsd": 85.36,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810335051258",
+  "sourceColor": "PURPLE"
+},
+{
+  "slug": "miralisse-tiered-mermaid-gown-ivory",
+  "name": "Miralisse Tiered Mermaid Gown — Ivory",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 410.9,
+  "colors": [
+    "#E6E4D9"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length mermaid gown with pointed shoulder details, sheer long sleeves and a tiered ruffle hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/miralisse-tiered-mermaid-gown-ivory/front.webp",
+    "/products/miralisse-tiered-mermaid-gown-ivory/back.webp",
+    "/products/miralisse-tiered-mermaid-gown-ivory/left.webp",
+    "/products/miralisse-tiered-mermaid-gown-ivory/right.webp"
+  ],
+  "stock": 1300,
+  "unitCostUsd": 136.83,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812744901666",
+  "sourceColor": "Ivory"
+},
+{
+  "slug": "miralisse-tiered-mermaid-gown-dusty-pink",
+  "name": "Miralisse Tiered Mermaid Gown — Dusty Pink",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 410.9,
+  "colors": [
+    "#D2A1B3"
+  ],
+  "colorNames": [
+    "Dusty Pink"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length mermaid gown with pointed shoulder details, sheer long sleeves and a tiered ruffle hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/miralisse-tiered-mermaid-gown-dusty-pink/front.webp",
+    "/products/miralisse-tiered-mermaid-gown-dusty-pink/back.webp",
+    "/products/miralisse-tiered-mermaid-gown-dusty-pink/left.webp",
+    "/products/miralisse-tiered-mermaid-gown-dusty-pink/right.webp"
+  ],
+  "stock": 1300,
+  "unitCostUsd": 136.83,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812744901666",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "miralisse-tiered-mermaid-gown-purple",
+  "name": "Miralisse Tiered Mermaid Gown — Purple",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 410.9,
+  "colors": [
+    "#613989"
+  ],
+  "colorNames": [
+    "Purple"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length mermaid gown with pointed shoulder details, sheer long sleeves and a tiered ruffle hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/miralisse-tiered-mermaid-gown-purple/front.webp",
+    "/products/miralisse-tiered-mermaid-gown-purple/back.webp",
+    "/products/miralisse-tiered-mermaid-gown-purple/left.webp",
+    "/products/miralisse-tiered-mermaid-gown-purple/right.webp"
+  ],
+  "stock": 1300,
+  "unitCostUsd": 136.83,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812744901666",
+  "sourceColor": "PURPLE"
+},
+{
+  "slug": "miralisse-tiered-mermaid-gown-red",
+  "name": "Miralisse Tiered Mermaid Gown — Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 410.9,
+  "colors": [
+    "#A42339"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length mermaid gown with pointed shoulder details, sheer long sleeves and a tiered ruffle hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/miralisse-tiered-mermaid-gown-red/front.webp",
+    "/products/miralisse-tiered-mermaid-gown-red/back.webp",
+    "/products/miralisse-tiered-mermaid-gown-red/left.webp",
+    "/products/miralisse-tiered-mermaid-gown-red/right.webp"
+  ],
+  "stock": 1300,
+  "unitCostUsd": 136.83,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812744901666",
+  "sourceColor": "Red"
+},
+{
+  "slug": "miralisse-tiered-mermaid-gown-sky-blue",
+  "name": "Miralisse Tiered Mermaid Gown — Sky Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 410.9,
+  "colors": [
+    "#A4BBC8"
+  ],
+  "colorNames": [
+    "Sky Blue"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length mermaid gown with pointed shoulder details, sheer long sleeves and a tiered ruffle hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/miralisse-tiered-mermaid-gown-sky-blue/front.webp",
+    "/products/miralisse-tiered-mermaid-gown-sky-blue/back.webp",
+    "/products/miralisse-tiered-mermaid-gown-sky-blue/left.webp",
+    "/products/miralisse-tiered-mermaid-gown-sky-blue/right.webp"
+  ],
+  "stock": 1300,
+  "unitCostUsd": 136.83,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812744901666",
+  "sourceColor": "SKY BLUE"
+},
+{
+  "slug": "miralisse-tiered-mermaid-gown-soft-yellow",
+  "name": "Miralisse Tiered Mermaid Gown — Soft Yellow",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 410.9,
+  "colors": [
+    "#DACE7B"
+  ],
+  "colorNames": [
+    "Soft Yellow"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length mermaid gown with pointed shoulder details, sheer long sleeves and a tiered ruffle hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/miralisse-tiered-mermaid-gown-soft-yellow/front.webp",
+    "/products/miralisse-tiered-mermaid-gown-soft-yellow/back.webp",
+    "/products/miralisse-tiered-mermaid-gown-soft-yellow/left.webp",
+    "/products/miralisse-tiered-mermaid-gown-soft-yellow/right.webp"
+  ],
+  "stock": 1300,
+  "unitCostUsd": 136.83,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812744901666",
+  "sourceColor": "YELLOW"
+},
+{
+  "slug": "marinda-bow-handle-satchel-forest-green",
+  "name": "Marinda Bow-Handle Satchel — Forest Green",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 43.9,
+  "colors": [
+    "#354B37"
+  ],
+  "colorNames": [
+    "Forest Green"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A forest green satchel with a bow, a star charm, top handles and a detachable shoulder strap. The exterior color in the inside view was adjusted to show the Forest Green finish using a supplier photo of the same model. Contents shown for scale.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marinda-bow-handle-satchel-forest-green/front.webp",
+    "/products/marinda-bow-handle-satchel-forest-green/back.webp",
+    "/products/marinda-bow-handle-satchel-forest-green/left.webp",
+    "/products/marinda-bow-handle-satchel-forest-green/right.webp",
+    "/products/marinda-bow-handle-satchel-forest-green/inside.webp"
+  ],
+  "stock": 2,
+  "unitCostUsd": 14.38,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810056758129",
+  "sourceColor": "green"
+},
+{
+  "slug": "ravelle-structured-three-compartment-tote-black",
+  "name": "Ravelle Structured Three-Compartment Tote — Black",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 96.9,
+  "colors": [
+    "#252427"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured tote with top handles, a detachable strap and three compartments.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/ravelle-structured-three-compartment-tote-black/front.webp",
+    "/products/ravelle-structured-three-compartment-tote-black/back.webp",
+    "/products/ravelle-structured-three-compartment-tote-black/left.webp",
+    "/products/ravelle-structured-three-compartment-tote-black/right.webp",
+    "/products/ravelle-structured-three-compartment-tote-black/inside.webp"
+  ],
+  "stock": 2,
+  "unitCostUsd": 32.28,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805030578196",
+  "sourceColor": "Black"
+},
+{
+  "slug": "ravelle-structured-three-compartment-tote-burgundy",
+  "name": "Ravelle Structured Three-Compartment Tote — Burgundy",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 96.9,
+  "colors": [
+    "#691F2E"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured tote with top handles, a detachable strap and three compartments. The exterior color in the inside view was adjusted to show the Burgundy finish using a photo of the same model.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/ravelle-structured-three-compartment-tote-burgundy/front.webp",
+    "/products/ravelle-structured-three-compartment-tote-burgundy/back.webp",
+    "/products/ravelle-structured-three-compartment-tote-burgundy/left.webp",
+    "/products/ravelle-structured-three-compartment-tote-burgundy/right.webp",
+    "/products/ravelle-structured-three-compartment-tote-burgundy/inside.webp"
+  ],
+  "stock": 3,
+  "unitCostUsd": 32.28,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805030578196",
+  "sourceColor": "Burgundy"
 }
 ];
 
@@ -34668,6 +35335,23 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "fioranna-lantern-sleeve-midi-dress-white",
+  "marivelle-short-sleeve-lace-gown-peach-blush",
+  "evelisse-pleated-halter-gown-butter-yellow",
+  "solienna-draped-top-and-maxi-skirt-set-sand",
+  "aurevella-strapless-floral-lace-gown-champagne",
+  "celivana-lace-up-halter-gown-pale-pink",
+  "celivana-lace-up-halter-gown-royal-purple",
+  "miralisse-tiered-mermaid-gown-ivory",
+  "miralisse-tiered-mermaid-gown-dusty-pink",
+  "miralisse-tiered-mermaid-gown-purple",
+  "miralisse-tiered-mermaid-gown-red",
+  "miralisse-tiered-mermaid-gown-sky-blue",
+  "miralisse-tiered-mermaid-gown-soft-yellow",
+  "marinda-bow-handle-satchel-forest-green",
+  "ravelle-structured-three-compartment-tote-black",
+  "ravelle-structured-three-compartment-tote-burgundy",
+
   "lunessa-folded-bow-pump-warm-gray-10-5cm",
   "lunessa-folded-bow-pump-taupe-gray-7-5cm",
   "lunessa-folded-bow-pump-blush-pink-10-5cm",

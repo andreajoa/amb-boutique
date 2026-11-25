@@ -4700,5 +4700,221 @@
    "45": 99,
    "46": 99
   }
+ },
+ "fioranna-lantern-sleeve-midi-dress-white": {
+  "stockBySize": {
+   "L": 9994,
+   "S": 9989,
+   "M": 9995
+  }
+ },
+ "marivelle-short-sleeve-lace-gown-peach-blush": {
+  "stockBySize": {
+   "2": 200,
+   "4": 200,
+   "6": 200,
+   "8": 200,
+   "10": 200,
+   "12": 200,
+   "14": 200,
+   "16": 200,
+   "22W": 200,
+   "24W": 200,
+   "26W": 200,
+   "16W": 200,
+   "20W": 200
+  }
+ },
+ "evelisse-pleated-halter-gown-butter-yellow": {
+  "stockBySize": {
+   "US26W-UK30-EU56": 999,
+   "US24W- UK28- EU54": 999,
+   "US22W- UK26- EU52": 999,
+   "US20W- UK24- EU50": 999,
+   "US18W- UK22- EU48": 999,
+   "US16W- UK20- EU46": 999,
+   "US16- UK20- EU46": 999,
+   "14 W": 999,
+   "US14- UK18- EU44": 999,
+   "US12- UK16- EU42": 999,
+   "US10- UK14- EU40": 999,
+   "US8- UK12- EU38": 999,
+   "US6- UK10- EU36": 999,
+   "US4- UK8- EU34": 999,
+   "US2- UK6- EU32": 999
+  }
+ },
+ "solienna-draped-top-and-maxi-skirt-set-sand": {
+  "stockBySize": {
+   "S": 992,
+   "M": 995,
+   "L": 999,
+   "XL": 1000
+  }
+ },
+ "aurevella-strapless-floral-lace-gown-champagne": {
+  "stockBySize": {
+   "2": 100,
+   "4": 100,
+   "6": 99,
+   "8": 99,
+   "10": 100,
+   "12": 100,
+   "14": 100,
+   "16": 100,
+   "16W": 100,
+   "14 W": 100
+  }
+ },
+ "celivana-lace-up-halter-gown-pale-pink": {
+  "stockBySize": {
+   "2": 27,
+   "4": 27,
+   "6": 27,
+   "8": 27,
+   "10": 27,
+   "12": 27,
+   "14": 27,
+   "16": 27,
+   "16W": 27,
+   "20W": 27,
+   "24W": 27,
+   "22W": 27,
+   "26W": 27
+  }
+ },
+ "celivana-lace-up-halter-gown-royal-purple": {
+  "stockBySize": {
+   "2": 27,
+   "4": 27,
+   "6": 27,
+   "8": 27,
+   "10": 27,
+   "12": 27,
+   "14": 27,
+   "16": 27,
+   "16W": 27,
+   "22W": 27,
+   "20W": 27,
+   "26W": 27,
+   "24W": 27
+  }
+ },
+ "miralisse-tiered-mermaid-gown-ivory": {
+  "stockBySize": {
+   "2": 100,
+   "4": 100,
+   "6": 100,
+   "8": 100,
+   "10": 100,
+   "12": 100,
+   "14": 100,
+   "16": 100,
+   "22W": 100,
+   "20W": 100,
+   "26W": 100,
+   "24W": 100,
+   "16W": 100
+  }
+ },
+ "miralisse-tiered-mermaid-gown-dusty-pink": {
+  "stockBySize": {
+   "2": 100,
+   "4": 100,
+   "6": 100,
+   "8": 100,
+   "10": 100,
+   "12": 100,
+   "14": 100,
+   "16": 100,
+   "26W": 100,
+   "24W": 100,
+   "16W": 100,
+   "22W": 100,
+   "20W": 100
+  }
+ },
+ "miralisse-tiered-mermaid-gown-purple": {
+  "stockBySize": {
+   "2": 100,
+   "4": 100,
+   "6": 100,
+   "8": 100,
+   "10": 100,
+   "12": 100,
+   "14": 100,
+   "16": 100,
+   "26W": 100,
+   "24W": 100,
+   "16W": 100,
+   "22W": 100,
+   "20W": 100
+  }
+ },
+ "miralisse-tiered-mermaid-gown-red": {
+  "stockBySize": {
+   "2": 100,
+   "4": 100,
+   "6": 100,
+   "8": 100,
+   "10": 100,
+   "12": 100,
+   "14": 100,
+   "16": 100,
+   "16W": 100,
+   "22W": 100,
+   "20W": 100,
+   "26W": 100,
+   "24W": 100
+  }
+ },
+ "miralisse-tiered-mermaid-gown-sky-blue": {
+  "stockBySize": {
+   "2": 100,
+   "4": 100,
+   "6": 100,
+   "8": 100,
+   "10": 100,
+   "12": 100,
+   "14": 100,
+   "16": 100,
+   "16W": 100,
+   "22W": 100,
+   "20W": 100,
+   "26W": 100,
+   "24W": 100
+  }
+ },
+ "miralisse-tiered-mermaid-gown-soft-yellow": {
+  "stockBySize": {
+   "2": 100,
+   "4": 100,
+   "6": 100,
+   "8": 100,
+   "10": 100,
+   "12": 100,
+   "14": 100,
+   "16": 100,
+   "26W": 100,
+   "24W": 100,
+   "16W": 100,
+   "22W": 100,
+   "20W": 100
+  }
+ },
+ "marinda-bow-handle-satchel-forest-green": {
+  "stockBySize": {
+   "One Size": 2
+  }
+ },
+ "ravelle-structured-three-compartment-tote-black": {
+  "stockBySize": {
+   "One Size": 2
+  }
+ },
+ "ravelle-structured-three-compartment-tote-burgundy": {
+  "stockBySize": {
+   "One Size": 3
+  }
  }
 }
