@@ -2861,6 +2861,22 @@
    "landedCostUsd": 32.1,
    "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256812102239928|apricot, 2026-10-25T03:00:56.750Z) · identidade confirmada"
   },
+  "solenne-halter-button-front-vest-black": {
+   "landedCostUsd": 15.24,
+   "source": "catalog-20261123-batch48-bindings.json"
+  },
+  "solenne-halter-button-front-vest-white": {
+   "landedCostUsd": 15.38,
+   "source": "catalog-20261123-batch48-bindings.json"
+  },
+  "solenne-high-rise-wide-leg-trousers-black": {
+   "landedCostUsd": 21.94,
+   "source": "catalog-20261123-batch48-bindings.json"
+  },
+  "solenne-high-rise-wide-leg-trousers-white": {
+   "landedCostUsd": 22.18,
+   "source": "catalog-20261123-batch48-bindings.json"
+  },
   "solenne-printed-beach-cover-up-black-and-sand": {
    "landedCostUsd": 32.96,
    "source": "catalog-20261123-batch01-bindings.json"

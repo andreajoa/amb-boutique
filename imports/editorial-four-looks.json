@@ -2,6 +2,26 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
+      "slug": "solenne-halter-button-front-vest-white",
+      "name": "Solenne Halter Button-Front Vest — White",
+      "image": "/products/solenne-halter-button-front-vest-white/front.webp",
+      "eyebrow": "NEW ARRIVAL",
+      "copy": "A fitted, sleeveless crossover-neckline vest with button closure at the front.",
+      "category": "Tops",
+      "arrivalRank": 1288,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "solenne-high-rise-wide-leg-trousers-black",
+      "name": "Solenne High-Rise Wide-Leg Trousers — Black",
+      "image": "/products/solenne-high-rise-wide-leg-trousers-black/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "High-rise tailored trousers with a wide leg and a full-length hem.",
+      "category": "Pants",
+      "arrivalRank": 1286,
+      "classification": "verified-model"
+    },
+    {
       "slug": "orvella-tailored-lace-slit-gown-yellow",
       "name": "Orvella Tailored Lace-Slit Gown — Yellow",
       "image": "/products/orvella-tailored-lace-slit-gown-yellow/front.webp",
@@ -19,26 +39,6 @@
       "copy": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem.",
       "category": "Dresses",
       "arrivalRank": 1275,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "celinne-buckle-belt-romper-white",
-      "name": "Celinne Buckle-Belt Romper — White",
-      "image": "/products/celinne-buckle-belt-romper-white/front.webp",
-      "eyebrow": "MODERN TAILORING",
-      "copy": "A sleeveless white romper with a deep V neckline, tailored front pleats and a narrow belt with a rectangular buckle.",
-      "category": "Playsuits",
-      "arrivalRank": 1274,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "evelisse-pleated-halter-gown-blue",
-      "name": "Evelisse Pleated Halter Gown — Blue",
-      "image": "/products/evelisse-pleated-halter-gown-blue/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A floor-length pleated halter gown with a plunging neckline and fitted waistband.",
-      "category": "Dresses",
-      "arrivalRank": 1261,
       "classification": "verified-model"
     }
   ]

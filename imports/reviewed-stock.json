@@ -5711,5 +5711,35 @@
   "stockBySize": {
    "One Size": 3
   }
+ },
+ "solenne-halter-button-front-vest-white": {
+  "stockBySize": {
+   "L": 1,
+   "M": 1,
+   "S": 1,
+   "XS": 2
+  }
+ },
+ "solenne-halter-button-front-vest-black": {
+  "stockBySize": {
+   "L": 1,
+   "M": 1,
+   "S": 2,
+   "XS": 2
+  }
+ },
+ "solenne-high-rise-wide-leg-trousers-black": {
+  "stockBySize": {
+   "L": 2,
+   "M": 2,
+   "S": 1,
+   "XS": 2
+  }
+ },
+ "solenne-high-rise-wide-leg-trousers-white": {
+  "stockBySize": {
+   "L": 1,
+   "XS": 2
+  }
  }
 }
