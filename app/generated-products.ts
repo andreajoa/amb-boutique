@@ -33087,6 +33087,108 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256812130790979",
   "sourceColor": "White"
+},
+{
+  "slug": "talisse-triple-zip-crossbody-bag-deep-teal",
+  "name": "Talisse Triple-Zip Crossbody Bag — Deep Teal",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 36.9,
+  "colors": [
+    "#205247"
+  ],
+  "colorNames": [
+    "Deep Teal"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact crossbody with three zip compartments and an adjustable strap. The exterior color in the inside view was adjusted to show the Deep Teal finish, using a supplier photo of the same model. Contents shown for scale.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/talisse-triple-zip-crossbody-bag-deep-teal/front.webp",
+    "/products/talisse-triple-zip-crossbody-bag-deep-teal/back.webp",
+    "/products/talisse-triple-zip-crossbody-bag-deep-teal/left.webp",
+    "/products/talisse-triple-zip-crossbody-bag-deep-teal/right.webp",
+    "/products/talisse-triple-zip-crossbody-bag-deep-teal/inside.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 11.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806153947521",
+  "sourceColor": "Green"
+},
+{
+  "slug": "talisse-triple-zip-crossbody-bag-mauve",
+  "name": "Talisse Triple-Zip Crossbody Bag — Mauve",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 40.9,
+  "colors": [
+    "#996C88"
+  ],
+  "colorNames": [
+    "Mauve"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact crossbody with three zip compartments and an adjustable strap. The exterior color in the inside view was adjusted to show the Mauve finish, using a supplier photo of the same model. Contents shown for scale.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/talisse-triple-zip-crossbody-bag-mauve/front.webp",
+    "/products/talisse-triple-zip-crossbody-bag-mauve/back.webp",
+    "/products/talisse-triple-zip-crossbody-bag-mauve/left.webp",
+    "/products/talisse-triple-zip-crossbody-bag-mauve/right.webp",
+    "/products/talisse-triple-zip-crossbody-bag-mauve/inside.webp"
+  ],
+  "stock": 996,
+  "unitCostUsd": 13.58,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806153947521",
+  "sourceColor": "Purple"
+},
+{
+  "slug": "talisse-triple-zip-crossbody-bag-cherry-red",
+  "name": "Talisse Triple-Zip Crossbody Bag — Cherry Red",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 34.9,
+  "colors": [
+    "#A62B36"
+  ],
+  "colorNames": [
+    "Cherry Red"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A compact crossbody with three zip compartments and an adjustable strap. The exterior color in the inside view was adjusted to show the Cherry Red finish, using a supplier photo of the same model. Contents shown for scale.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/talisse-triple-zip-crossbody-bag-cherry-red/front.webp",
+    "/products/talisse-triple-zip-crossbody-bag-cherry-red/back.webp",
+    "/products/talisse-triple-zip-crossbody-bag-cherry-red/left.webp",
+    "/products/talisse-triple-zip-crossbody-bag-cherry-red/right.webp",
+    "/products/talisse-triple-zip-crossbody-bag-cherry-red/inside.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 11.58,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806153947521",
+  "sourceColor": "Red"
 }
 ];
 
@@ -33096,6 +33198,10 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "talisse-triple-zip-crossbody-bag-deep-teal",
+  "talisse-triple-zip-crossbody-bag-mauve",
+  "talisse-triple-zip-crossbody-bag-cherry-red",
+
   "celivana-lace-up-halter-gown-forest-green",
   "miralisse-tiered-mermaid-gown-black",
   "evelisse-pleated-halter-gown-sage",
