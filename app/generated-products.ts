@@ -36668,6 +36668,419 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256812293644387",
   "sourceColor": "YELLOW"
+},
+{
+  "slug": "marivelle-short-sleeve-lace-gown-champagne",
+  "name": "Marivelle Short Sleeve Lace Gown — Champagne",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 324.9,
+  "colors": [
+    "#CEBCA4"
+  ],
+  "colorNames": [
+    "Champagne"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem. Gallery illustrates the supplier-listed Champagne color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marivelle-short-sleeve-lace-gown-champagne/front.webp",
+    "/products/marivelle-short-sleeve-lace-gown-champagne/back.webp",
+    "/products/marivelle-short-sleeve-lace-gown-champagne/left.webp",
+    "/products/marivelle-short-sleeve-lace-gown-champagne/right.webp"
+  ],
+  "stock": 2599,
+  "unitCostUsd": 108.03,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811609011827",
+  "sourceColor": "Champagne"
+},
+{
+  "slug": "marivelle-short-sleeve-lace-gown-pink",
+  "name": "Marivelle Short Sleeve Lace Gown — Pink",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 324.9,
+  "colors": [
+    "#DB91AB"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem. Gallery illustrates the supplier-listed Pink color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marivelle-short-sleeve-lace-gown-pink/front.webp",
+    "/products/marivelle-short-sleeve-lace-gown-pink/back.webp",
+    "/products/marivelle-short-sleeve-lace-gown-pink/left.webp",
+    "/products/marivelle-short-sleeve-lace-gown-pink/right.webp"
+  ],
+  "stock": 2597,
+  "unitCostUsd": 108.03,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811609011827",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "marivelle-short-sleeve-lace-gown-purple",
+  "name": "Marivelle Short Sleeve Lace Gown — Purple",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 324.9,
+  "colors": [
+    "#805795"
+  ],
+  "colorNames": [
+    "Purple"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem. Gallery illustrates the supplier-listed Purple color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marivelle-short-sleeve-lace-gown-purple/front.webp",
+    "/products/marivelle-short-sleeve-lace-gown-purple/back.webp",
+    "/products/marivelle-short-sleeve-lace-gown-purple/left.webp",
+    "/products/marivelle-short-sleeve-lace-gown-purple/right.webp"
+  ],
+  "stock": 2600,
+  "unitCostUsd": 108.03,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811609011827",
+  "sourceColor": "PURPLE"
+},
+{
+  "slug": "marivelle-short-sleeve-lace-gown-red",
+  "name": "Marivelle Short Sleeve Lace Gown — Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 324.9,
+  "colors": [
+    "#AC3648"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem. Gallery illustrates the supplier-listed Red color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marivelle-short-sleeve-lace-gown-red/front.webp",
+    "/products/marivelle-short-sleeve-lace-gown-red/back.webp",
+    "/products/marivelle-short-sleeve-lace-gown-red/left.webp",
+    "/products/marivelle-short-sleeve-lace-gown-red/right.webp"
+  ],
+  "stock": 2600,
+  "unitCostUsd": 108.03,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811609011827",
+  "sourceColor": "Red"
+},
+{
+  "slug": "marivelle-short-sleeve-lace-gown-silver",
+  "name": "Marivelle Short Sleeve Lace Gown — Silver",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 324.9,
+  "colors": [
+    "#AAA9AD"
+  ],
+  "colorNames": [
+    "Silver"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem. Gallery illustrates the supplier-listed Silver color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marivelle-short-sleeve-lace-gown-silver/front.webp",
+    "/products/marivelle-short-sleeve-lace-gown-silver/back.webp",
+    "/products/marivelle-short-sleeve-lace-gown-silver/left.webp",
+    "/products/marivelle-short-sleeve-lace-gown-silver/right.webp"
+  ],
+  "stock": 2600,
+  "unitCostUsd": 108.03,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811609011827",
+  "sourceColor": "Silver"
+},
+{
+  "slug": "evelisse-pleated-halter-gown-blue",
+  "name": "Evelisse Pleated Halter Gown — Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 311.9,
+  "colors": [
+    "#365AA2"
+  ],
+  "colorNames": [
+    "Blue"
+  ],
+  "sizes": [
+    "14 W",
+    "US2- UK6- EU32",
+    "US4- UK8- EU34",
+    "US6- UK10- EU36",
+    "US8- UK12- EU38",
+    "US10- UK14- EU40",
+    "US12- UK16- EU42",
+    "US14- UK18- EU44",
+    "US16- UK20- EU46",
+    "US16W- UK20- EU46",
+    "US18W- UK22- EU48",
+    "US20W- UK24- EU50",
+    "US22W- UK26- EU52",
+    "US24W- UK28- EU54",
+    "US26W-UK30-EU56"
+  ],
+  "description": "A floor-length pleated halter gown with a plunging neckline and fitted waistband. Gallery illustrates the supplier-listed Blue color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/evelisse-pleated-halter-gown-blue/front.webp",
+    "/products/evelisse-pleated-halter-gown-blue/back.webp",
+    "/products/evelisse-pleated-halter-gown-blue/left.webp",
+    "/products/evelisse-pleated-halter-gown-blue/right.webp"
+  ],
+  "stock": 14985,
+  "unitCostUsd": 103.87,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812130790979",
+  "sourceColor": "Blue"
+},
+{
+  "slug": "evelisse-pleated-halter-gown-champagne",
+  "name": "Evelisse Pleated Halter Gown — Champagne",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 311.9,
+  "colors": [
+    "#CEBCA4"
+  ],
+  "colorNames": [
+    "Champagne"
+  ],
+  "sizes": [
+    "14 W",
+    "US2- UK6- EU32",
+    "US4- UK8- EU34",
+    "US6- UK10- EU36",
+    "US8- UK12- EU38",
+    "US10- UK14- EU40",
+    "US12- UK16- EU42",
+    "US14- UK18- EU44",
+    "US16- UK20- EU46",
+    "US16W- UK20- EU46",
+    "US18W- UK22- EU48",
+    "US20W- UK24- EU50",
+    "US22W- UK26- EU52",
+    "US24W- UK28- EU54",
+    "US26W-UK30-EU56"
+  ],
+  "description": "A floor-length pleated halter gown with a plunging neckline and fitted waistband. Gallery illustrates the supplier-listed Champagne color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/evelisse-pleated-halter-gown-champagne/front.webp",
+    "/products/evelisse-pleated-halter-gown-champagne/back.webp",
+    "/products/evelisse-pleated-halter-gown-champagne/left.webp",
+    "/products/evelisse-pleated-halter-gown-champagne/right.webp"
+  ],
+  "stock": 14985,
+  "unitCostUsd": 103.87,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812130790979",
+  "sourceColor": "Champagne"
+},
+{
+  "slug": "evelisse-pleated-halter-gown-pink",
+  "name": "Evelisse Pleated Halter Gown — Pink",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 311.9,
+  "colors": [
+    "#DB91AB"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "14 W",
+    "US2- UK6- EU32",
+    "US4- UK8- EU34",
+    "US6- UK10- EU36",
+    "US8- UK12- EU38",
+    "US10- UK14- EU40",
+    "US12- UK16- EU42",
+    "US14- UK18- EU44",
+    "US16- UK20- EU46",
+    "US16W- UK20- EU46",
+    "US18W- UK22- EU48",
+    "US20W- UK24- EU50",
+    "US22W- UK26- EU52",
+    "US24W- UK28- EU54",
+    "US26W-UK30-EU56"
+  ],
+  "description": "A floor-length pleated halter gown with a plunging neckline and fitted waistband. Gallery illustrates the supplier-listed Pink color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/evelisse-pleated-halter-gown-pink/front.webp",
+    "/products/evelisse-pleated-halter-gown-pink/back.webp",
+    "/products/evelisse-pleated-halter-gown-pink/left.webp",
+    "/products/evelisse-pleated-halter-gown-pink/right.webp"
+  ],
+  "stock": 14984,
+  "unitCostUsd": 103.87,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812130790979",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "evelisse-pleated-halter-gown-red",
+  "name": "Evelisse Pleated Halter Gown — Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 311.9,
+  "colors": [
+    "#AC3648"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "14 W",
+    "US2- UK6- EU32",
+    "US4- UK8- EU34",
+    "US6- UK10- EU36",
+    "US8- UK12- EU38",
+    "US10- UK14- EU40",
+    "US12- UK16- EU42",
+    "US14- UK18- EU44",
+    "US16- UK20- EU46",
+    "US16W- UK20- EU46",
+    "US18W- UK22- EU48",
+    "US20W- UK24- EU50",
+    "US22W- UK26- EU52",
+    "US24W- UK28- EU54",
+    "US26W-UK30-EU56"
+  ],
+  "description": "A floor-length pleated halter gown with a plunging neckline and fitted waistband. Gallery illustrates the supplier-listed Red color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/evelisse-pleated-halter-gown-red/front.webp",
+    "/products/evelisse-pleated-halter-gown-red/back.webp",
+    "/products/evelisse-pleated-halter-gown-red/left.webp",
+    "/products/evelisse-pleated-halter-gown-red/right.webp"
+  ],
+  "stock": 14985,
+  "unitCostUsd": 103.87,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812130790979",
+  "sourceColor": "Red"
 }
 ];
 
@@ -36677,6 +37090,16 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "marivelle-short-sleeve-lace-gown-champagne",
+  "marivelle-short-sleeve-lace-gown-pink",
+  "marivelle-short-sleeve-lace-gown-purple",
+  "marivelle-short-sleeve-lace-gown-red",
+  "marivelle-short-sleeve-lace-gown-silver",
+  "evelisse-pleated-halter-gown-blue",
+  "evelisse-pleated-halter-gown-champagne",
+  "evelisse-pleated-halter-gown-pink",
+  "evelisse-pleated-halter-gown-red",
+
   "orvella-tailored-lace-slit-gown-blue",
   "orvella-tailored-lace-slit-gown-burgundy",
   "orvella-tailored-lace-slit-gown-champagne",

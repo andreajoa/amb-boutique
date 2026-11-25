@@ -933,6 +933,10 @@
    "landedCostUsd": 103.75,
    "source": "catalog-20261123-batch34-bindings.json"
   },
+  "evelisse-pleated-halter-gown-blue": {
+   "landedCostUsd": 103.87,
+   "source": "catalog-20261123-batch43-bindings.json"
+  },
   "evelisse-pleated-halter-gown-bronze-brown": {
    "landedCostUsd": 103.75,
    "source": "catalog-20261123-batch34-bindings.json"
@@ -945,9 +949,21 @@
    "landedCostUsd": 103.87,
    "source": "catalog-20261123-batch40-bindings.json"
   },
+  "evelisse-pleated-halter-gown-champagne": {
+   "landedCostUsd": 103.87,
+   "source": "catalog-20261123-batch43-bindings.json"
+  },
   "evelisse-pleated-halter-gown-emerald": {
    "landedCostUsd": 103.75,
    "source": "catalog-20261123-batch34-bindings.json"
+  },
+  "evelisse-pleated-halter-gown-pink": {
+   "landedCostUsd": 103.87,
+   "source": "catalog-20261123-batch43-bindings.json"
+  },
+  "evelisse-pleated-halter-gown-red": {
+   "landedCostUsd": 103.87,
+   "source": "catalog-20261123-batch43-bindings.json"
   },
   "evelisse-pleated-halter-gown-sage": {
    "landedCostUsd": 103.75,
@@ -1685,6 +1701,10 @@
    "landedCostUsd": 107.96,
    "source": "catalog-20261123-batch34-bindings.json"
   },
+  "marivelle-short-sleeve-lace-gown-champagne": {
+   "landedCostUsd": 108.03,
+   "source": "catalog-20261123-batch43-bindings.json"
+  },
   "marivelle-short-sleeve-lace-gown-navy": {
    "landedCostUsd": 107.96,
    "source": "catalog-20261123-batch34-bindings.json"
@@ -1697,9 +1717,25 @@
    "landedCostUsd": 108.03,
    "source": "catalog-20261123-batch40-bindings.json"
   },
+  "marivelle-short-sleeve-lace-gown-pink": {
+   "landedCostUsd": 108.03,
+   "source": "catalog-20261123-batch43-bindings.json"
+  },
   "marivelle-short-sleeve-lace-gown-powder-blue": {
    "landedCostUsd": 107.96,
    "source": "catalog-20261123-batch34-bindings.json"
+  },
+  "marivelle-short-sleeve-lace-gown-purple": {
+   "landedCostUsd": 108.03,
+   "source": "catalog-20261123-batch43-bindings.json"
+  },
+  "marivelle-short-sleeve-lace-gown-red": {
+   "landedCostUsd": 108.03,
+   "source": "catalog-20261123-batch43-bindings.json"
+  },
+  "marivelle-short-sleeve-lace-gown-silver": {
+   "landedCostUsd": 108.03,
+   "source": "catalog-20261123-batch43-bindings.json"
   },
   "marivelle-short-sleeve-lace-gown-white": {
    "landedCostUsd": 108.03,
