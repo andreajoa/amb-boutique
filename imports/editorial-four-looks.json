@@ -2,6 +2,26 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
+      "slug": "marivelle-short-sleeve-lace-gown-champagne",
+      "name": "Marivelle Short Sleeve Lace Gown — Champagne",
+      "image": "/products/marivelle-short-sleeve-lace-gown-champagne/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem.",
+      "category": "Dresses",
+      "arrivalRank": 1266,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "evelisse-pleated-halter-gown-blue",
+      "name": "Evelisse Pleated Halter Gown — Blue",
+      "image": "/products/evelisse-pleated-halter-gown-blue/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A floor-length pleated halter gown with a plunging neckline and fitted waistband.",
+      "category": "Dresses",
+      "arrivalRank": 1261,
+      "classification": "verified-model"
+    },
+    {
       "slug": "orvella-tailored-lace-slit-gown-blue",
       "name": "Orvella Tailored Lace-Slit Gown — Blue",
       "image": "/products/orvella-tailored-lace-slit-gown-blue/front.webp",
@@ -19,26 +39,6 @@
       "copy": "A floor-length gown with a strapless plunge neckline and beaded detailing.",
       "category": "Dresses",
       "arrivalRank": 1247,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "serlina-leopard-print-slip-maxi-dress-sand",
-      "name": "Serlina Leopard-Print Slip Maxi Dress — Sand Leopard",
-      "image": "/products/serlina-leopard-print-slip-maxi-dress-sand/front.webp",
-      "eyebrow": "THE PRINT EDIT",
-      "copy": "A floor-length leopard-print slip dress with thin straps and a coordinating detachable scarf.",
-      "category": "Dresses",
-      "arrivalRank": 1235,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "isavelle-v-neck-tulle-bridal-gown-white",
-      "name": "Isavelle V-Neck Tulle Bridal Gown — White",
-      "image": "/products/isavelle-v-neck-tulle-bridal-gown-white/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A floor-length bridal gown with a plunging V-neck, slender straps and a flowing tulle skirt.",
-      "category": "Dresses",
-      "arrivalRank": 1234,
       "classification": "verified-model"
     }
   ]

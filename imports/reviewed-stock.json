@@ -5390,5 +5390,166 @@
    "20W": 100,
    "22W": 100
   }
+ },
+ "marivelle-short-sleeve-lace-gown-champagne": {
+  "stockBySize": {
+   "2": 200,
+   "4": 200,
+   "6": 200,
+   "8": 200,
+   "10": 200,
+   "12": 200,
+   "14": 200,
+   "16": 200,
+   "20W": 200,
+   "22W": 200,
+   "24W": 200,
+   "26W": 199,
+   "16W": 200
+  }
+ },
+ "marivelle-short-sleeve-lace-gown-pink": {
+  "stockBySize": {
+   "2": 200,
+   "4": 199,
+   "6": 200,
+   "8": 200,
+   "10": 200,
+   "12": 200,
+   "14": 200,
+   "16": 200,
+   "24W": 199,
+   "26W": 199,
+   "16W": 200,
+   "20W": 200,
+   "22W": 200
+  }
+ },
+ "marivelle-short-sleeve-lace-gown-purple": {
+  "stockBySize": {
+   "2": 200,
+   "4": 200,
+   "6": 200,
+   "8": 200,
+   "10": 200,
+   "12": 200,
+   "14": 200,
+   "16": 200,
+   "26W": 200,
+   "16W": 200,
+   "20W": 200,
+   "22W": 200,
+   "24W": 200
+  }
+ },
+ "marivelle-short-sleeve-lace-gown-red": {
+  "stockBySize": {
+   "2": 200,
+   "4": 200,
+   "6": 200,
+   "8": 200,
+   "10": 200,
+   "12": 200,
+   "14": 200,
+   "16": 200,
+   "16W": 200,
+   "20W": 200,
+   "22W": 200,
+   "24W": 200,
+   "26W": 200
+  }
+ },
+ "marivelle-short-sleeve-lace-gown-silver": {
+  "stockBySize": {
+   "2": 200,
+   "4": 200,
+   "6": 200,
+   "8": 200,
+   "10": 200,
+   "12": 200,
+   "14": 200,
+   "16": 200,
+   "16W": 200,
+   "20W": 200,
+   "22W": 200,
+   "24W": 200,
+   "26W": 200
+  }
+ },
+ "evelisse-pleated-halter-gown-blue": {
+  "stockBySize": {
+   "US26W-UK30-EU56": 999,
+   "US24W- UK28- EU54": 999,
+   "US2- UK6- EU32": 999,
+   "US10- UK14- EU40": 999,
+   "US8- UK12- EU38": 999,
+   "US6- UK10- EU36": 999,
+   "US4- UK8- EU34": 999,
+   "US16- UK20- EU46": 999,
+   "14 W": 999,
+   "US14- UK18- EU44": 999,
+   "US12- UK16- EU42": 999,
+   "US22W- UK26- EU52": 999,
+   "US20W- UK24- EU50": 999,
+   "US18W- UK22- EU48": 999,
+   "US16W- UK20- EU46": 999
+  }
+ },
+ "evelisse-pleated-halter-gown-champagne": {
+  "stockBySize": {
+   "US2- UK6- EU32": 999,
+   "US10- UK14- EU40": 999,
+   "US8- UK12- EU38": 999,
+   "US6- UK10- EU36": 999,
+   "US4- UK8- EU34": 999,
+   "US16- UK20- EU46": 999,
+   "14 W": 999,
+   "US14- UK18- EU44": 999,
+   "US12- UK16- EU42": 999,
+   "US22W- UK26- EU52": 999,
+   "US20W- UK24- EU50": 999,
+   "US18W- UK22- EU48": 999,
+   "US16W- UK20- EU46": 999,
+   "US26W-UK30-EU56": 999,
+   "US24W- UK28- EU54": 999
+  }
+ },
+ "evelisse-pleated-halter-gown-pink": {
+  "stockBySize": {
+   "US2- UK6- EU32": 999,
+   "US10- UK14- EU40": 999,
+   "US8- UK12- EU38": 999,
+   "US6- UK10- EU36": 999,
+   "US4- UK8- EU34": 999,
+   "US16- UK20- EU46": 999,
+   "14 W": 999,
+   "US14- UK18- EU44": 999,
+   "US12- UK16- EU42": 999,
+   "US22W- UK26- EU52": 999,
+   "US20W- UK24- EU50": 999,
+   "US18W- UK22- EU48": 999,
+   "US16W- UK20- EU46": 999,
+   "US26W-UK30-EU56": 999,
+   "US24W- UK28- EU54": 998
+  }
+ },
+ "evelisse-pleated-halter-gown-red": {
+  "stockBySize": {
+   "US2- UK6- EU32": 999,
+   "US10- UK14- EU40": 999,
+   "US8- UK12- EU38": 999,
+   "US6- UK10- EU36": 999,
+   "US4- UK8- EU34": 999,
+   "US16- UK20- EU46": 999,
+   "14 W": 999,
+   "US14- UK18- EU44": 999,
+   "US12- UK16- EU42": 999,
+   "US22W- UK26- EU52": 999,
+   "US20W- UK24- EU50": 999,
+   "US18W- UK22- EU48": 999,
+   "US16W- UK20- EU46": 999,
+   "US26W-UK30-EU56": 999,
+   "US24W- UK28- EU54": 999
+  }
  }
 }
