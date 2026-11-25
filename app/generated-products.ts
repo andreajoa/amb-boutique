@@ -33754,6 +33754,911 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256808509819702",
   "sourceColor": "black 6cm"
+},
+{
+  "slug": "lunessa-folded-bow-pump-warm-gray-10-5cm",
+  "name": "Lunessa Folded Bow Pump — Warm Gray · 10.5 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#B5A5A4"
+  ],
+  "colorNames": [
+    "Warm Gray · 10.5 cm"
+  ],
+  "sizes": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a folded bow, a closed heel and a 10.5 cm stiletto.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lunessa-folded-bow-pump-warm-gray-10-5cm/front.webp",
+    "/products/lunessa-folded-bow-pump-warm-gray-10-5cm/back.webp",
+    "/products/lunessa-folded-bow-pump-warm-gray-10-5cm/left.webp",
+    "/products/lunessa-folded-bow-pump-warm-gray-10-5cm/right.webp"
+  ],
+  "stock": 6180,
+  "unitCostUsd": 31.36,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802124736211",
+  "sourceColor": "Grey10.5cm"
+},
+{
+  "slug": "lunessa-folded-bow-pump-taupe-gray-7-5cm",
+  "name": "Lunessa Folded Bow Pump — Taupe Gray · 7.5 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#BFB4A7"
+  ],
+  "colorNames": [
+    "Taupe Gray · 7.5 cm"
+  ],
+  "sizes": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a folded bow, a closed heel and a 7.5 cm stiletto.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lunessa-folded-bow-pump-taupe-gray-7-5cm/front.webp",
+    "/products/lunessa-folded-bow-pump-taupe-gray-7-5cm/back.webp",
+    "/products/lunessa-folded-bow-pump-taupe-gray-7-5cm/left.webp",
+    "/products/lunessa-folded-bow-pump-taupe-gray-7-5cm/right.webp"
+  ],
+  "stock": 6204,
+  "unitCostUsd": 31.36,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802124736211",
+  "sourceColor": "Grey7.5cm"
+},
+{
+  "slug": "lunessa-folded-bow-pump-blush-pink-10-5cm",
+  "name": "Lunessa Folded Bow Pump — Blush Pink · 10.5 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#DBA2AE"
+  ],
+  "colorNames": [
+    "Blush Pink · 10.5 cm"
+  ],
+  "sizes": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a folded bow, a closed heel and a 10.5 cm stiletto.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lunessa-folded-bow-pump-blush-pink-10-5cm/front.webp",
+    "/products/lunessa-folded-bow-pump-blush-pink-10-5cm/back.webp",
+    "/products/lunessa-folded-bow-pump-blush-pink-10-5cm/left.webp",
+    "/products/lunessa-folded-bow-pump-blush-pink-10-5cm/right.webp"
+  ],
+  "stock": 6122,
+  "unitCostUsd": 31.36,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802124736211",
+  "sourceColor": "Pink10.5cm"
+},
+{
+  "slug": "lunessa-folded-bow-pump-peach-pink-7-5cm",
+  "name": "Lunessa Folded Bow Pump — Peach Pink · 7.5 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#EAB4AF"
+  ],
+  "colorNames": [
+    "Peach Pink · 7.5 cm"
+  ],
+  "sizes": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a folded bow, a closed heel and a 7.5 cm stiletto.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lunessa-folded-bow-pump-peach-pink-7-5cm/front.webp",
+    "/products/lunessa-folded-bow-pump-peach-pink-7-5cm/back.webp",
+    "/products/lunessa-folded-bow-pump-peach-pink-7-5cm/left.webp",
+    "/products/lunessa-folded-bow-pump-peach-pink-7-5cm/right.webp"
+  ],
+  "stock": 6211,
+  "unitCostUsd": 31.36,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802124736211",
+  "sourceColor": "Pink7.5cm"
+},
+{
+  "slug": "lunessa-folded-bow-pump-cherry-red-10-5cm",
+  "name": "Lunessa Folded Bow Pump — Cherry Red · 10.5 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#B02331"
+  ],
+  "colorNames": [
+    "Cherry Red · 10.5 cm"
+  ],
+  "sizes": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a folded bow, a closed heel and a 10.5 cm stiletto.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lunessa-folded-bow-pump-cherry-red-10-5cm/front.webp",
+    "/products/lunessa-folded-bow-pump-cherry-red-10-5cm/back.webp",
+    "/products/lunessa-folded-bow-pump-cherry-red-10-5cm/left.webp",
+    "/products/lunessa-folded-bow-pump-cherry-red-10-5cm/right.webp"
+  ],
+  "stock": 6182,
+  "unitCostUsd": 31.36,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802124736211",
+  "sourceColor": "Red10.5cm"
+},
+{
+  "slug": "lunessa-folded-bow-pump-scarlet-7-5cm",
+  "name": "Lunessa Folded Bow Pump — Scarlet · 7.5 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#CB3439"
+  ],
+  "colorNames": [
+    "Scarlet · 7.5 cm"
+  ],
+  "sizes": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a folded bow, a closed heel and a 7.5 cm stiletto.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lunessa-folded-bow-pump-scarlet-7-5cm/front.webp",
+    "/products/lunessa-folded-bow-pump-scarlet-7-5cm/back.webp",
+    "/products/lunessa-folded-bow-pump-scarlet-7-5cm/left.webp",
+    "/products/lunessa-folded-bow-pump-scarlet-7-5cm/right.webp"
+  ],
+  "stock": 6214,
+  "unitCostUsd": 31.36,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802124736211",
+  "sourceColor": "Red7.5cm"
+},
+{
+  "slug": "lunessa-folded-bow-pump-soft-white-10-5cm",
+  "name": "Lunessa Folded Bow Pump — Soft White · 10.5 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#F0EFE8"
+  ],
+  "colorNames": [
+    "Soft White · 10.5 cm"
+  ],
+  "sizes": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a folded bow, a closed heel and a 10.5 cm stiletto.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lunessa-folded-bow-pump-soft-white-10-5cm/front.webp",
+    "/products/lunessa-folded-bow-pump-soft-white-10-5cm/back.webp",
+    "/products/lunessa-folded-bow-pump-soft-white-10-5cm/left.webp",
+    "/products/lunessa-folded-bow-pump-soft-white-10-5cm/right.webp"
+  ],
+  "stock": 6147,
+  "unitCostUsd": 31.36,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802124736211",
+  "sourceColor": "White10.5cm"
+},
+{
+  "slug": "lunessa-folded-bow-pump-ivory-white-7-5cm",
+  "name": "Lunessa Folded Bow Pump — Ivory White · 7.5 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#F2EDDF"
+  ],
+  "colorNames": [
+    "Ivory White · 7.5 cm"
+  ],
+  "sizes": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a folded bow, a closed heel and a 7.5 cm stiletto.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lunessa-folded-bow-pump-ivory-white-7-5cm/front.webp",
+    "/products/lunessa-folded-bow-pump-ivory-white-7-5cm/back.webp",
+    "/products/lunessa-folded-bow-pump-ivory-white-7-5cm/left.webp",
+    "/products/lunessa-folded-bow-pump-ivory-white-7-5cm/right.webp"
+  ],
+  "stock": 6204,
+  "unitCostUsd": 31.36,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802124736211",
+  "sourceColor": "White7.5cm"
+},
+{
+  "slug": "lunessa-folded-bow-pump-lemon-yellow-10-5cm",
+  "name": "Lunessa Folded Bow Pump — Lemon Yellow · 10.5 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#E6D35C"
+  ],
+  "colorNames": [
+    "Lemon Yellow · 10.5 cm"
+  ],
+  "sizes": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a folded bow, a closed heel and a 10.5 cm stiletto.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lunessa-folded-bow-pump-lemon-yellow-10-5cm/front.webp",
+    "/products/lunessa-folded-bow-pump-lemon-yellow-10-5cm/back.webp",
+    "/products/lunessa-folded-bow-pump-lemon-yellow-10-5cm/left.webp",
+    "/products/lunessa-folded-bow-pump-lemon-yellow-10-5cm/right.webp"
+  ],
+  "stock": 6194,
+  "unitCostUsd": 31.36,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802124736211",
+  "sourceColor": "Yellow10.5cm"
+},
+{
+  "slug": "lunessa-folded-bow-pump-golden-yellow-7-5cm",
+  "name": "Lunessa Folded Bow Pump — Golden Yellow · 7.5 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 94.9,
+  "colors": [
+    "#E8C852"
+  ],
+  "colorNames": [
+    "Golden Yellow · 7.5 cm"
+  ],
+  "sizes": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+  ],
+  "subcategory": "Heels",
+  "description": "A pointed-toe pump with a folded bow, a closed heel and a 7.5 cm stiletto.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lunessa-folded-bow-pump-golden-yellow-7-5cm/front.webp",
+    "/products/lunessa-folded-bow-pump-golden-yellow-7-5cm/back.webp",
+    "/products/lunessa-folded-bow-pump-golden-yellow-7-5cm/left.webp",
+    "/products/lunessa-folded-bow-pump-golden-yellow-7-5cm/right.webp"
+  ],
+  "stock": 6209,
+  "unitCostUsd": 31.36,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802124736211",
+  "sourceColor": "Yellow7.5cm"
+},
+{
+  "slug": "eloria-crystal-strap-sandal-black",
+  "name": "Eloria Crystal-Strap Sandal — Black",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 75.9,
+  "colors": [
+    "#262628"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45"
+  ],
+  "subcategory": "Heels",
+  "description": "An open-toe sandal with a crystal-accented front strap, an ankle tie and a block heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/eloria-crystal-strap-sandal-black/front.webp",
+    "/products/eloria-crystal-strap-sandal-black/back.webp",
+    "/products/eloria-crystal-strap-sandal-black/left.webp",
+    "/products/eloria-crystal-strap-sandal-black/right.webp"
+  ],
+  "stock": 421,
+  "unitCostUsd": 24.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808490153800",
+  "sourceColor": "Hongye228black"
+},
+{
+  "slug": "eloria-crystal-strap-sandal-red",
+  "name": "Eloria Crystal-Strap Sandal — Red",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 73.9,
+  "colors": [
+    "#A82934"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45"
+  ],
+  "subcategory": "Heels",
+  "description": "An open-toe sandal with a crystal-accented front strap, an ankle tie and a block heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/eloria-crystal-strap-sandal-red/front.webp",
+    "/products/eloria-crystal-strap-sandal-red/back.webp",
+    "/products/eloria-crystal-strap-sandal-red/left.webp",
+    "/products/eloria-crystal-strap-sandal-red/right.webp"
+  ],
+  "stock": 437,
+  "unitCostUsd": 24.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808490153800",
+  "sourceColor": "Hongye228red"
+},
+{
+  "slug": "selvara-pointed-slingback-black-8cm",
+  "name": "Selvara Pointed Slingback — Black · 8 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#222225"
+  ],
+  "colorNames": [
+    "Black · 8 cm"
+  ],
+  "sizes": [
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "subcategory": "Heels",
+  "description": "An open-back pointed slingback with a slim rear strap and a 8 cm heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/selvara-pointed-slingback-black-8cm/front.webp",
+    "/products/selvara-pointed-slingback-black-8cm/back.webp",
+    "/products/selvara-pointed-slingback-black-8cm/left.webp",
+    "/products/selvara-pointed-slingback-black-8cm/right.webp"
+  ],
+  "stock": 1365,
+  "unitCostUsd": 42.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808509819702",
+  "sourceColor": "black 8cm"
+},
+{
+  "slug": "selvara-pointed-slingback-gloss-red-6cm",
+  "name": "Selvara Pointed Slingback — Gloss Red · 6 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#BF233D"
+  ],
+  "colorNames": [
+    "Gloss Red · 6 cm"
+  ],
+  "sizes": [
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43"
+  ],
+  "subcategory": "Heels",
+  "description": "An open-back pointed slingback with a slim rear strap and a 6 cm heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/selvara-pointed-slingback-gloss-red-6cm/front.webp",
+    "/products/selvara-pointed-slingback-gloss-red-6cm/back.webp",
+    "/products/selvara-pointed-slingback-gloss-red-6cm/left.webp",
+    "/products/selvara-pointed-slingback-gloss-red-6cm/right.webp"
+  ],
+  "stock": 1087,
+  "unitCostUsd": 42.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808509819702",
+  "sourceColor": "Laser red 6cm"
+},
+{
+  "slug": "selvara-pointed-slingback-gloss-red-8cm",
+  "name": "Selvara Pointed Slingback — Gloss Red · 8 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#BF233D"
+  ],
+  "colorNames": [
+    "Gloss Red · 8 cm"
+  ],
+  "sizes": [
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "subcategory": "Heels",
+  "description": "An open-back pointed slingback with a slim rear strap and a 8 cm heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/selvara-pointed-slingback-gloss-red-8cm/front.webp",
+    "/products/selvara-pointed-slingback-gloss-red-8cm/back.webp",
+    "/products/selvara-pointed-slingback-gloss-red-8cm/left.webp",
+    "/products/selvara-pointed-slingback-gloss-red-8cm/right.webp"
+  ],
+  "stock": 1383,
+  "unitCostUsd": 42.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808509819702",
+  "sourceColor": "Laser red 8cm"
+},
+{
+  "slug": "selvara-pointed-slingback-gloss-red-10cm",
+  "name": "Selvara Pointed Slingback — Gloss Red · 10 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#BF233D"
+  ],
+  "colorNames": [
+    "Gloss Red · 10 cm"
+  ],
+  "sizes": [
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "subcategory": "Heels",
+  "description": "An open-back pointed slingback with a slim rear strap and a 10 cm heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/selvara-pointed-slingback-gloss-red-10cm/front.webp",
+    "/products/selvara-pointed-slingback-gloss-red-10cm/back.webp",
+    "/products/selvara-pointed-slingback-gloss-red-10cm/left.webp",
+    "/products/selvara-pointed-slingback-gloss-red-10cm/right.webp"
+  ],
+  "stock": 1384,
+  "unitCostUsd": 42.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808509819702",
+  "sourceColor": "Laser red 10cm"
+},
+{
+  "slug": "selvara-pointed-slingback-gloss-red-12cm",
+  "name": "Selvara Pointed Slingback — Gloss Red · 12 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#BF233D"
+  ],
+  "colorNames": [
+    "Gloss Red · 12 cm"
+  ],
+  "sizes": [
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "subcategory": "Heels",
+  "description": "An open-back pointed slingback with a slim rear strap and a 12 cm heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/selvara-pointed-slingback-gloss-red-12cm/front.webp",
+    "/products/selvara-pointed-slingback-gloss-red-12cm/back.webp",
+    "/products/selvara-pointed-slingback-gloss-red-12cm/left.webp",
+    "/products/selvara-pointed-slingback-gloss-red-12cm/right.webp"
+  ],
+  "stock": 1381,
+  "unitCostUsd": 42.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808509819702",
+  "sourceColor": "Laser red 12cm"
+},
+{
+  "slug": "selvara-pointed-slingback-nude-beige-6cm",
+  "name": "Selvara Pointed Slingback — Nude Beige · 6 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#D0AF9A"
+  ],
+  "colorNames": [
+    "Nude Beige · 6 cm"
+  ],
+  "sizes": [
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43"
+  ],
+  "subcategory": "Heels",
+  "description": "An open-back pointed slingback with a slim rear strap and a 6 cm heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/selvara-pointed-slingback-nude-beige-6cm/front.webp",
+    "/products/selvara-pointed-slingback-nude-beige-6cm/back.webp",
+    "/products/selvara-pointed-slingback-nude-beige-6cm/left.webp",
+    "/products/selvara-pointed-slingback-nude-beige-6cm/right.webp"
+  ],
+  "stock": 1067,
+  "unitCostUsd": 42.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808509819702",
+  "sourceColor": "Naked color 6cm"
+},
+{
+  "slug": "selvara-pointed-slingback-nude-beige-8cm",
+  "name": "Selvara Pointed Slingback — Nude Beige · 8 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#D0AF9A"
+  ],
+  "colorNames": [
+    "Nude Beige · 8 cm"
+  ],
+  "sizes": [
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "subcategory": "Heels",
+  "description": "An open-back pointed slingback with a slim rear strap and a 8 cm heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/selvara-pointed-slingback-nude-beige-8cm/front.webp",
+    "/products/selvara-pointed-slingback-nude-beige-8cm/back.webp",
+    "/products/selvara-pointed-slingback-nude-beige-8cm/left.webp",
+    "/products/selvara-pointed-slingback-nude-beige-8cm/right.webp"
+  ],
+  "stock": 1330,
+  "unitCostUsd": 42.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808509819702",
+  "sourceColor": "Naked color 8cm"
+},
+{
+  "slug": "selvara-pointed-slingback-nude-beige-10cm",
+  "name": "Selvara Pointed Slingback — Nude Beige · 10 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#D0AF9A"
+  ],
+  "colorNames": [
+    "Nude Beige · 10 cm"
+  ],
+  "sizes": [
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "subcategory": "Heels",
+  "description": "An open-back pointed slingback with a slim rear strap and a 10 cm heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/selvara-pointed-slingback-nude-beige-10cm/front.webp",
+    "/products/selvara-pointed-slingback-nude-beige-10cm/back.webp",
+    "/products/selvara-pointed-slingback-nude-beige-10cm/left.webp",
+    "/products/selvara-pointed-slingback-nude-beige-10cm/right.webp"
+  ],
+  "stock": 1345,
+  "unitCostUsd": 42.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808509819702",
+  "sourceColor": "Naked color 10cm"
+},
+{
+  "slug": "selvara-pointed-slingback-nude-beige-12cm",
+  "name": "Selvara Pointed Slingback — Nude Beige · 12 cm",
+  "category": "Shoes",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#D0AF9A"
+  ],
+  "colorNames": [
+    "Nude Beige · 12 cm"
+  ],
+  "sizes": [
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "subcategory": "Heels",
+  "description": "An open-back pointed slingback with a slim rear strap and a 12 cm heel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/selvara-pointed-slingback-nude-beige-12cm/front.webp",
+    "/products/selvara-pointed-slingback-nude-beige-12cm/back.webp",
+    "/products/selvara-pointed-slingback-nude-beige-12cm/left.webp",
+    "/products/selvara-pointed-slingback-nude-beige-12cm/right.webp"
+  ],
+  "stock": 1365,
+  "unitCostUsd": 42.19,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256808509819702",
+  "sourceColor": "Naked color 12cm"
 }
 ];
 
@@ -33763,6 +34668,28 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "lunessa-folded-bow-pump-warm-gray-10-5cm",
+  "lunessa-folded-bow-pump-taupe-gray-7-5cm",
+  "lunessa-folded-bow-pump-blush-pink-10-5cm",
+  "lunessa-folded-bow-pump-peach-pink-7-5cm",
+  "lunessa-folded-bow-pump-cherry-red-10-5cm",
+  "lunessa-folded-bow-pump-scarlet-7-5cm",
+  "lunessa-folded-bow-pump-soft-white-10-5cm",
+  "lunessa-folded-bow-pump-ivory-white-7-5cm",
+  "lunessa-folded-bow-pump-lemon-yellow-10-5cm",
+  "lunessa-folded-bow-pump-golden-yellow-7-5cm",
+  "eloria-crystal-strap-sandal-black",
+  "eloria-crystal-strap-sandal-red",
+  "selvara-pointed-slingback-black-8cm",
+  "selvara-pointed-slingback-gloss-red-6cm",
+  "selvara-pointed-slingback-gloss-red-8cm",
+  "selvara-pointed-slingback-gloss-red-10cm",
+  "selvara-pointed-slingback-gloss-red-12cm",
+  "selvara-pointed-slingback-nude-beige-6cm",
+  "selvara-pointed-slingback-nude-beige-8cm",
+  "selvara-pointed-slingback-nude-beige-10cm",
+  "selvara-pointed-slingback-nude-beige-12cm",
+
   "lunessa-folded-bow-pump-black-10-5cm",
   "lunessa-folded-bow-pump-black-7-5cm",
   "lunessa-folded-bow-pump-ice-blue-10-5cm",

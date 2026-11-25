@@ -773,6 +773,14 @@
    "landedCostUsd": 25.08,
    "source": "catalog-20261123-batch38-bindings.json"
   },
+  "eloria-crystal-strap-sandal-black": {
+   "landedCostUsd": 24.98,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "eloria-crystal-strap-sandal-red": {
+   "landedCostUsd": 24.54,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
   "elowen-champagne-corset-mermaid-gown": {
    "landedCostUsd": 137.04,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
@@ -1349,13 +1357,53 @@
    "landedCostUsd": 31.35,
    "source": "catalog-20261123-batch38-bindings.json"
   },
+  "lunessa-folded-bow-pump-blush-pink-10-5cm": {
+   "landedCostUsd": 31.36,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "lunessa-folded-bow-pump-cherry-red-10-5cm": {
+   "landedCostUsd": 31.36,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "lunessa-folded-bow-pump-golden-yellow-7-5cm": {
+   "landedCostUsd": 31.36,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
   "lunessa-folded-bow-pump-ice-blue-10-5cm": {
    "landedCostUsd": 31.35,
    "source": "catalog-20261123-batch38-bindings.json"
   },
+  "lunessa-folded-bow-pump-ivory-white-7-5cm": {
+   "landedCostUsd": 31.36,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "lunessa-folded-bow-pump-lemon-yellow-10-5cm": {
+   "landedCostUsd": 31.36,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "lunessa-folded-bow-pump-peach-pink-7-5cm": {
+   "landedCostUsd": 31.36,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "lunessa-folded-bow-pump-scarlet-7-5cm": {
+   "landedCostUsd": 31.36,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
   "lunessa-folded-bow-pump-sky-blue-7-5cm": {
    "landedCostUsd": 31.35,
    "source": "catalog-20261123-batch38-bindings.json"
+  },
+  "lunessa-folded-bow-pump-soft-white-10-5cm": {
+   "landedCostUsd": 31.36,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "lunessa-folded-bow-pump-taupe-gray-7-5cm": {
+   "landedCostUsd": 31.36,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "lunessa-folded-bow-pump-warm-gray-10-5cm": {
+   "landedCostUsd": 31.36,
+   "source": "catalog-20261123-batch39-bindings.json"
   },
   "lurene-belted-turtleneck-knit-dress-black": {
    "landedCostUsd": 28.97,
@@ -2412,6 +2460,42 @@
   "selvara-pointed-slingback-black-6cm": {
    "landedCostUsd": 42.19,
    "source": "catalog-20261123-batch38-bindings.json"
+  },
+  "selvara-pointed-slingback-black-8cm": {
+   "landedCostUsd": 42.19,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "selvara-pointed-slingback-gloss-red-10cm": {
+   "landedCostUsd": 42.19,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "selvara-pointed-slingback-gloss-red-12cm": {
+   "landedCostUsd": 42.19,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "selvara-pointed-slingback-gloss-red-6cm": {
+   "landedCostUsd": 42.19,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "selvara-pointed-slingback-gloss-red-8cm": {
+   "landedCostUsd": 42.19,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "selvara-pointed-slingback-nude-beige-10cm": {
+   "landedCostUsd": 42.19,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "selvara-pointed-slingback-nude-beige-12cm": {
+   "landedCostUsd": 42.19,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "selvara-pointed-slingback-nude-beige-6cm": {
+   "landedCostUsd": 42.19,
+   "source": "catalog-20261123-batch39-bindings.json"
+  },
+  "selvara-pointed-slingback-nude-beige-8cm": {
+   "landedCostUsd": 42.19,
+   "source": "catalog-20261123-batch39-bindings.json"
   },
   "seravelle-open-back-cowl-maxi-dress-black": {
    "landedCostUsd": 46.2,
