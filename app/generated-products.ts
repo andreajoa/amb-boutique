@@ -35326,6 +35326,394 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256805030578196",
   "sourceColor": "Burgundy"
+},
+{
+  "slug": "serlina-leopard-print-slip-maxi-dress-sand",
+  "name": "Serlina Leopard-Print Slip Maxi Dress — Sand Leopard",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 114.9,
+  "colors": [
+    "#C5A178"
+  ],
+  "colorNames": [
+    "Sand Leopard"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A floor-length leopard-print slip dress with thin straps and a coordinating detachable scarf.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/serlina-leopard-print-slip-maxi-dress-sand/front.webp",
+    "/products/serlina-leopard-print-slip-maxi-dress-sand/back.webp",
+    "/products/serlina-leopard-print-slip-maxi-dress-sand/left.webp",
+    "/products/serlina-leopard-print-slip-maxi-dress-sand/right.webp"
+  ],
+  "stock": 294,
+  "unitCostUsd": 38.01,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812214331237",
+  "sourceColor": "as-pic 1"
+},
+{
+  "slug": "isavelle-v-neck-tulle-bridal-gown-white",
+  "name": "Isavelle V-Neck Tulle Bridal Gown — White",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 303.9,
+  "colors": [
+    "#F2F1ED"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length bridal gown with a plunging V-neck, slender straps and a flowing tulle skirt. Gallery illustrates the supplier-listed White color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/isavelle-v-neck-tulle-bridal-gown-white/front.webp",
+    "/products/isavelle-v-neck-tulle-bridal-gown-white/back.webp",
+    "/products/isavelle-v-neck-tulle-bridal-gown-white/left.webp",
+    "/products/isavelle-v-neck-tulle-bridal-gown-white/right.webp"
+  ],
+  "stock": 1940,
+  "unitCostUsd": 101.1,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802810470585",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "isavelle-v-neck-tulle-bridal-gown-ivory",
+  "name": "Isavelle V-Neck Tulle Bridal Gown — Ivory",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 303.9,
+  "colors": [
+    "#F0E8D7"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length bridal gown with a plunging V-neck, slender straps and a flowing tulle skirt. Gallery illustrates the supplier-listed Ivory color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/isavelle-v-neck-tulle-bridal-gown-ivory/front.webp",
+    "/products/isavelle-v-neck-tulle-bridal-gown-ivory/back.webp",
+    "/products/isavelle-v-neck-tulle-bridal-gown-ivory/left.webp",
+    "/products/isavelle-v-neck-tulle-bridal-gown-ivory/right.webp"
+  ],
+  "stock": 1942,
+  "unitCostUsd": 101.1,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256802810470585",
+  "sourceColor": "Ivory"
+},
+{
+  "slug": "orvella-tailored-lace-slit-gown-white",
+  "name": "Orvella Tailored Lace-Slit Gown — White",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 415.9,
+  "colors": [
+    "#F2F1ED"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset. Gallery illustrates the supplier-listed White color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/orvella-tailored-lace-slit-gown-white/front.webp",
+    "/products/orvella-tailored-lace-slit-gown-white/back.webp",
+    "/products/orvella-tailored-lace-slit-gown-white/left.webp",
+    "/products/orvella-tailored-lace-slit-gown-white/right.webp"
+  ],
+  "stock": 909,
+  "unitCostUsd": 138.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809847930202",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "orvella-tailored-lace-slit-gown-ivory",
+  "name": "Orvella Tailored Lace-Slit Gown — Ivory",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 414.9,
+  "colors": [
+    "#EFE8D9"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset. Gallery illustrates the supplier-listed Ivory color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/orvella-tailored-lace-slit-gown-ivory/front.webp",
+    "/products/orvella-tailored-lace-slit-gown-ivory/back.webp",
+    "/products/orvella-tailored-lace-slit-gown-ivory/left.webp",
+    "/products/orvella-tailored-lace-slit-gown-ivory/right.webp"
+  ],
+  "stock": 909,
+  "unitCostUsd": 138.25,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809847930202",
+  "sourceColor": "Ivory"
+},
+{
+  "slug": "lisavelle-beaded-strapless-gown-black",
+  "name": "Lisavelle Beaded Strapless Gown — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 568.9,
+  "colors": [
+    "#252429"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20W",
+    "22W"
+  ],
+  "description": "A floor-length gown with a strapless plunge neckline and beaded detailing. Gallery illustrates the supplier-listed Black color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lisavelle-beaded-strapless-gown-black/front.webp",
+    "/products/lisavelle-beaded-strapless-gown-black/back.webp",
+    "/products/lisavelle-beaded-strapless-gown-black/left.webp",
+    "/products/lisavelle-beaded-strapless-gown-black/right.webp"
+  ],
+  "stock": 1000,
+  "unitCostUsd": 189.55,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812293644387",
+  "sourceColor": "black"
+},
+{
+  "slug": "lisavelle-beaded-strapless-gown-white",
+  "name": "Lisavelle Beaded Strapless Gown — White",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 569.9,
+  "colors": [
+    "#F2F1ED"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20W",
+    "22W"
+  ],
+  "description": "A floor-length gown with a strapless plunge neckline and beaded detailing. Gallery illustrates the supplier-listed White color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lisavelle-beaded-strapless-gown-white/front.webp",
+    "/products/lisavelle-beaded-strapless-gown-white/back.webp",
+    "/products/lisavelle-beaded-strapless-gown-white/left.webp",
+    "/products/lisavelle-beaded-strapless-gown-white/right.webp"
+  ],
+  "stock": 1000,
+  "unitCostUsd": 189.67,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812293644387",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "seravina-sequin-halter-gown-navy",
+  "name": "Seravina Sequin Halter Gown — Navy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 623.9,
+  "colors": [
+    "#232D45"
+  ],
+  "colorNames": [
+    "Navy"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "14 W",
+    "16",
+    "16W",
+    "20W",
+    "22W"
+  ],
+  "description": "A floor-length sequin gown with a deep V halter neckline, an open back and a fitted skirt. Gallery illustrates the supplier-listed Navy color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/seravina-sequin-halter-gown-navy/front.webp",
+    "/products/seravina-sequin-halter-gown-navy/back.webp",
+    "/products/seravina-sequin-halter-gown-navy/left.webp",
+    "/products/seravina-sequin-halter-gown-navy/right.webp"
+  ],
+  "stock": 1200,
+  "unitCostUsd": 207.83,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809424749127",
+  "sourceColor": "Navy Blue"
+},
+{
+  "slug": "marivelle-short-sleeve-lace-gown-white",
+  "name": "Marivelle Short-Sleeve Lace Gown — White",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 324.9,
+  "colors": [
+    "#F2F1ED"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem. Gallery illustrates the supplier-listed White color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/marivelle-short-sleeve-lace-gown-white/front.webp",
+    "/products/marivelle-short-sleeve-lace-gown-white/back.webp",
+    "/products/marivelle-short-sleeve-lace-gown-white/left.webp",
+    "/products/marivelle-short-sleeve-lace-gown-white/right.webp"
+  ],
+  "stock": 2599,
+  "unitCostUsd": 108.03,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256811609011827",
+  "sourceColor": "WHITE"
 }
 ];
 
@@ -35335,6 +35723,16 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "serlina-leopard-print-slip-maxi-dress-sand",
+  "isavelle-v-neck-tulle-bridal-gown-white",
+  "isavelle-v-neck-tulle-bridal-gown-ivory",
+  "orvella-tailored-lace-slit-gown-white",
+  "orvella-tailored-lace-slit-gown-ivory",
+  "lisavelle-beaded-strapless-gown-black",
+  "lisavelle-beaded-strapless-gown-white",
+  "seravina-sequin-halter-gown-navy",
+  "marivelle-short-sleeve-lace-gown-white",
+
   "fioranna-lantern-sleeve-midi-dress-white",
   "marivelle-short-sleeve-lace-gown-peach-blush",
   "evelisse-pleated-halter-gown-butter-yellow",
