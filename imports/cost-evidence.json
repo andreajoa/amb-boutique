@@ -457,6 +457,46 @@
    "landedCostUsd": 32.1,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
   },
+  "celivana-lace-up-halter-gown-antique-gold": {
+   "landedCostUsd": 85.3,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "celivana-lace-up-halter-gown-black": {
+   "landedCostUsd": 85.3,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "celivana-lace-up-halter-gown-burgundy": {
+   "landedCostUsd": 85.3,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "celivana-lace-up-halter-gown-champagne": {
+   "landedCostUsd": 85.3,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "celivana-lace-up-halter-gown-charcoal": {
+   "landedCostUsd": 85.3,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "celivana-lace-up-halter-gown-forest-green": {
+   "landedCostUsd": 85.3,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "celivana-lace-up-halter-gown-hot-pink": {
+   "landedCostUsd": 85.3,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "celivana-lace-up-halter-gown-ivory": {
+   "landedCostUsd": 85.3,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "celivana-lace-up-halter-gown-red": {
+   "landedCostUsd": 85.3,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "celivana-lace-up-halter-gown-white": {
+   "landedCostUsd": 85.3,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
   "celoria-pleated-floral-maxi-dress-blue-sage": {
    "landedCostUsd": 26.88,
    "source": "catalog-20261123-batch27-bindings.json"
@@ -873,6 +913,14 @@
    "landedCostUsd": 103.75,
    "source": "catalog-20261123-batch34-bindings.json"
   },
+  "evelisse-pleated-halter-gown-sage": {
+   "landedCostUsd": 103.75,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "evelisse-pleated-halter-gown-white": {
+   "landedCostUsd": 103.75,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
   "evelisse-plunge-slit-maxi-dress-blush-champagne": {
    "landedCostUsd": 26.79,
    "source": "catalog-20261123-batch28-bindings.json"
@@ -1192,6 +1240,10 @@
   "liorenne-clear-strap-racerback-tank-white": {
    "landedCostUsd": 17.11,
    "source": "catalog-20261123-batch21-bindings.json"
+  },
+  "lisavelle-beaded-strapless-gown-ice-blue": {
+   "landedCostUsd": 189.55,
+   "source": "catalog-20261123-batch35-bindings.json"
   },
   "lisette-textured-button-front-cardigan-crimson-mix": {
    "landedCostUsd": 33.91,
@@ -1541,6 +1593,34 @@
    "landedCostUsd": 42.78,
    "source": "catalog-20261123-batch22-bindings.json"
   },
+  "miralisse-tiered-mermaid-gown-black": {
+   "landedCostUsd": 136.71,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-burgundy": {
+   "landedCostUsd": 136.71,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-champagne": {
+   "landedCostUsd": 136.71,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-deep-green": {
+   "landedCostUsd": 136.71,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-gray": {
+   "landedCostUsd": 136.71,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-navy": {
+   "landedCostUsd": 136.71,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "miralisse-tiered-mermaid-gown-royal-blue": {
+   "landedCostUsd": 136.71,
+   "source": "catalog-20261123-batch35-bindings.json"
+  },
   "mirelda-lattice-trim-shirt-dress-black": {
    "landedCostUsd": 30.85,
    "source": "catalog-20261123-batch04-bindings.json"
@@ -1608,6 +1688,10 @@
   "nera-linen-romper": {
    "landedCostUsd": 28.37,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "neravia-beaded-fringe-mini-dress-red": {
+   "landedCostUsd": 143.07,
+   "source": "catalog-20261123-batch35-bindings.json"
   },
   "nerelle-sleeveless-swing-mini-dress-army-green": {
    "landedCostUsd": 8.45,
@@ -1932,6 +2016,10 @@
   "orvella-knotted-halter-maxi-dress-black": {
    "landedCostUsd": 25.75,
    "source": "catalog-20261123-batch24-bindings.json"
+  },
+  "orvella-tailored-lace-slit-gown-black": {
+   "landedCostUsd": 138.25,
+   "source": "catalog-20261123-batch35-bindings.json"
   },
   "ottilie-rose-pleated-midi-dress": {
    "landedCostUsd": 36.16,
@@ -2272,6 +2360,10 @@
   "seravelle-open-back-cowl-maxi-dress-rust": {
    "landedCostUsd": 46.2,
    "source": "catalog-20261123-batch25-bindings.json"
+  },
+  "seravina-sequin-halter-gown-rose-pink": {
+   "landedCostUsd": 207.83,
+   "source": "catalog-20261123-batch35-bindings.json"
   },
   "serenella-ruffle-corset-three-piece-set-beige": {
    "landedCostUsd": 85.21,
@@ -2624,6 +2716,10 @@
   "vionelle-trimmed-velvet-midi-dress-emerald": {
    "landedCostUsd": 51.54,
    "source": "catalog-20261123-batch23-bindings.json"
+  },
+  "viorelle-beaded-mermaid-gown-ruby-red": {
+   "landedCostUsd": 161.53,
+   "source": "catalog-20261123-batch35-bindings.json"
   },
   "virelle-woven-crossbody-bag-berry-rose": {
    "landedCostUsd": 27.34,
