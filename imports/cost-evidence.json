@@ -2105,6 +2105,18 @@
    "landedCostUsd": 14.14,
    "source": "catalog-20261123-batch13-bindings.json"
   },
+  "noelia-bow-satchel-blue": {
+   "landedCostUsd": 14.08,
+   "source": "catalog-20261123-batch50-bindings.json"
+  },
+  "noelia-bow-satchel-burgundy": {
+   "landedCostUsd": 12.84,
+   "source": "catalog-20261123-batch50-bindings.json"
+  },
+  "noelia-bow-satchel-pink": {
+   "landedCostUsd": 13.51,
+   "source": "catalog-20261123-batch50-bindings.json"
+  },
   "noemi-maxi-dress": {
    "landedCostUsd": 33.79,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"

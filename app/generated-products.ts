@@ -37936,6 +37936,108 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "1005005737836133",
   "sourceColor": "WHITE"
+},
+{
+  "slug": "noelia-bow-satchel-blue",
+  "name": "Noelia Bow Satchel — Deep Blue",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 42.9,
+  "colors": [
+    "#263B70"
+  ],
+  "colorNames": [
+    "Deep Blue"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured satchel with two rounded handles, a bow and star charm, and a zip opening. The interior view uses the supplier’s photo of this design with the visible exterior color adjusted to illustrate this option. Display contents are styling props.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/noelia-bow-satchel-blue/front.webp",
+    "/products/noelia-bow-satchel-blue/back.webp",
+    "/products/noelia-bow-satchel-blue/left.webp",
+    "/products/noelia-bow-satchel-blue/right.webp",
+    "/products/noelia-bow-satchel-blue/inside.webp"
+  ],
+  "stock": 2,
+  "unitCostUsd": 14.08,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810056758129",
+  "sourceColor": "blue"
+},
+{
+  "slug": "noelia-bow-satchel-pink",
+  "name": "Noelia Bow Satchel — Dusty Pink",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 40.9,
+  "colors": [
+    "#9C6074"
+  ],
+  "colorNames": [
+    "Dusty Pink"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured satchel with two rounded handles, a bow and star charm, and a zip opening. The interior view uses the supplier’s photo of this design with the visible exterior color adjusted to illustrate this option. Display contents are styling props.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/noelia-bow-satchel-pink/front.webp",
+    "/products/noelia-bow-satchel-pink/back.webp",
+    "/products/noelia-bow-satchel-pink/left.webp",
+    "/products/noelia-bow-satchel-pink/right.webp",
+    "/products/noelia-bow-satchel-pink/inside.webp"
+  ],
+  "stock": 7,
+  "unitCostUsd": 13.51,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810056758129",
+  "sourceColor": "pink"
+},
+{
+  "slug": "noelia-bow-satchel-burgundy",
+  "name": "Noelia Bow Satchel — Burgundy",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 38.9,
+  "colors": [
+    "#9F274B"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured satchel with two rounded handles, a bow and star charm, and a zip opening. The interior view uses the supplier’s photo of this design with the visible exterior color adjusted to illustrate this option. Display contents are styling props.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/noelia-bow-satchel-burgundy/front.webp",
+    "/products/noelia-bow-satchel-burgundy/back.webp",
+    "/products/noelia-bow-satchel-burgundy/left.webp",
+    "/products/noelia-bow-satchel-burgundy/right.webp",
+    "/products/noelia-bow-satchel-burgundy/inside.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 12.84,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810056758129",
+  "sourceColor": "burgundy"
 }
 ];
 
@@ -37945,6 +38047,10 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "noelia-bow-satchel-blue",
+  "noelia-bow-satchel-pink",
+  "noelia-bow-satchel-burgundy",
+
   "aurevia-sequin-v-neck-slip-mini-dress-silver",
 
   "solenne-halter-button-front-vest-white",

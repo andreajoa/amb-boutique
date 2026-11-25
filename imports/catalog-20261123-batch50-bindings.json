@@ -1,0 +1,57 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "noelia-bow-satchel-blue",
+      "sourceProductId": "3256810056758129",
+      "sourceColor": "blue",
+      "supplierId": "ambsp-2f6d1c88bb16bf33f3b4baf21adf2c84",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000051655327937"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 14.08
+      },
+      "stockBySize": {
+        "One Size": 2
+      },
+      "retailPriceUsd": 42.9,
+      "verifiedAtUtc": "2026-11-25T21:03:22.092Z"
+    },
+    {
+      "slug": "noelia-bow-satchel-pink",
+      "sourceProductId": "3256810056758129",
+      "sourceColor": "pink",
+      "supplierId": "ambsp-2f6d1c88bb16bf33f3b4baf21adf2c84",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000051655327939"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 13.51
+      },
+      "stockBySize": {
+        "One Size": 7
+      },
+      "retailPriceUsd": 40.9,
+      "verifiedAtUtc": "2026-11-25T21:03:39.289Z"
+    },
+    {
+      "slug": "noelia-bow-satchel-burgundy",
+      "sourceProductId": "3256810056758129",
+      "sourceColor": "burgundy",
+      "supplierId": "ambsp-2f6d1c88bb16bf33f3b4baf21adf2c84",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000051655327934"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 12.84
+      },
+      "stockBySize": {
+        "One Size": 1
+      },
+      "retailPriceUsd": 38.9,
+      "verifiedAtUtc": "2026-11-25T21:03:30.832Z"
+    }
+  ]
+}
