@@ -2,13 +2,33 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
-      "slug": "marivelle-short-sleeve-lace-gown-champagne",
-      "name": "Marivelle Short Sleeve Lace Gown — Champagne",
-      "image": "/products/marivelle-short-sleeve-lace-gown-champagne/front.webp",
+      "slug": "orvella-tailored-lace-slit-gown-yellow",
+      "name": "Orvella Tailored Lace-Slit Gown — Yellow",
+      "image": "/products/orvella-tailored-lace-slit-gown-yellow/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset.",
+      "category": "Dresses",
+      "arrivalRank": 1276,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "marivelle-short-sleeve-lace-gown-yellow",
+      "name": "Marivelle Short Sleeve Lace Gown — Yellow",
+      "image": "/products/marivelle-short-sleeve-lace-gown-yellow/front.webp",
       "eyebrow": "AFTER DARK",
       "copy": "A floor-length floral lace gown with a round neckline, short lace sleeves and a gently flared hem.",
       "category": "Dresses",
-      "arrivalRank": 1266,
+      "arrivalRank": 1275,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "celinne-buckle-belt-romper-white",
+      "name": "Celinne Buckle-Belt Romper — White",
+      "image": "/products/celinne-buckle-belt-romper-white/front.webp",
+      "eyebrow": "MODERN TAILORING",
+      "copy": "A sleeveless white romper with a deep V neckline, tailored front pleats and a narrow belt with a rectangular buckle.",
+      "category": "Playsuits",
+      "arrivalRank": 1274,
       "classification": "verified-model"
     },
     {
@@ -19,26 +39,6 @@
       "copy": "A floor-length pleated halter gown with a plunging neckline and fitted waistband.",
       "category": "Dresses",
       "arrivalRank": 1261,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "orvella-tailored-lace-slit-gown-blue",
-      "name": "Orvella Tailored Lace-Slit Gown — Blue",
-      "image": "/products/orvella-tailored-lace-slit-gown-blue/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset.",
-      "category": "Dresses",
-      "arrivalRank": 1257,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "lisavelle-beaded-strapless-gown-blue",
-      "name": "Lisavelle Beaded Strapless Gown — Blue",
-      "image": "/products/lisavelle-beaded-strapless-gown-blue/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A floor-length gown with a strapless plunge neckline and beaded detailing.",
-      "category": "Dresses",
-      "arrivalRank": 1247,
       "classification": "verified-model"
     }
   ]
