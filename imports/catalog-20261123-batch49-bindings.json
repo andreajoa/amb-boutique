@@ -1,0 +1,26 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "aurevia-sequin-v-neck-slip-mini-dress-silver",
+      "sourceProductId": "1005005737836133",
+      "sourceColor": "WHITE",
+      "supplierId": "sp_88c04a9affd945bf1d51db",
+      "sourceSkuIdsBySize": {
+        "M": "12000034182362852",
+        "S": "12000034182362851"
+      },
+      "landedCostUsdBySize": {
+        "M": 13.64,
+        "S": 13.44
+      },
+      "stockBySize": {
+        "M": 4,
+        "S": 1
+      },
+      "retailPriceUsd": 41.9,
+      "verifiedAtUtc": "2026-11-25T21:07:34.282Z"
+    }
+  ]
+}
