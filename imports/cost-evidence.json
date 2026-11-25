@@ -1117,6 +1117,14 @@
    "landedCostUsd": 11.58,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "isavelle-v-neck-tulle-bridal-gown-ivory": {
+   "landedCostUsd": 101.1,
+   "source": "catalog-20261123-batch41-bindings.json"
+  },
+  "isavelle-v-neck-tulle-bridal-gown-white": {
+   "landedCostUsd": 101.1,
+   "source": "catalog-20261123-batch41-bindings.json"
+  },
   "isla-linen-romper": {
    "landedCostUsd": 28.37,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
@@ -1281,9 +1289,17 @@
    "landedCostUsd": 17.11,
    "source": "catalog-20261123-batch21-bindings.json"
   },
+  "lisavelle-beaded-strapless-gown-black": {
+   "landedCostUsd": 189.55,
+   "source": "catalog-20261123-batch41-bindings.json"
+  },
   "lisavelle-beaded-strapless-gown-ice-blue": {
    "landedCostUsd": 189.55,
    "source": "catalog-20261123-batch35-bindings.json"
+  },
+  "lisavelle-beaded-strapless-gown-white": {
+   "landedCostUsd": 189.67,
+   "source": "catalog-20261123-batch41-bindings.json"
   },
   "lisette-textured-button-front-cardigan-crimson-mix": {
    "landedCostUsd": 33.91,
@@ -1636,6 +1652,10 @@
   "marivelle-short-sleeve-lace-gown-powder-blue": {
    "landedCostUsd": 107.96,
    "source": "catalog-20261123-batch34-bindings.json"
+  },
+  "marivelle-short-sleeve-lace-gown-white": {
+   "landedCostUsd": 108.03,
+   "source": "catalog-20261123-batch41-bindings.json"
   },
   "mavella-leopard-maxi-kaftan-leopard": {
    "landedCostUsd": 31.53,
@@ -2157,6 +2177,14 @@
    "landedCostUsd": 138.25,
    "source": "catalog-20261123-batch35-bindings.json"
   },
+  "orvella-tailored-lace-slit-gown-ivory": {
+   "landedCostUsd": 138.25,
+   "source": "catalog-20261123-batch41-bindings.json"
+  },
+  "orvella-tailored-lace-slit-gown-white": {
+   "landedCostUsd": 138.34,
+   "source": "catalog-20261123-batch41-bindings.json"
+  },
   "ottilie-rose-pleated-midi-dress": {
    "landedCostUsd": 36.16,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
@@ -2565,6 +2593,10 @@
    "landedCostUsd": 46.2,
    "source": "catalog-20261123-batch25-bindings.json"
   },
+  "seravina-sequin-halter-gown-navy": {
+   "landedCostUsd": 207.83,
+   "source": "catalog-20261123-batch41-bindings.json"
+  },
   "seravina-sequin-halter-gown-rose-pink": {
    "landedCostUsd": 207.83,
    "source": "catalog-20261123-batch35-bindings.json"
@@ -2608,6 +2640,10 @@
   "serenne-high-neck-rib-knit-mini-dress-ivory": {
    "landedCostUsd": 35.98,
    "source": "catalog-20261123-batch27-bindings.json"
+  },
+  "serlina-leopard-print-slip-maxi-dress-sand": {
+   "landedCostUsd": 38.01,
+   "source": "catalog-20261123-batch41-bindings.json"
   },
   "sienna-chevron-swing-dress": {
    "landedCostUsd": 28.98,
