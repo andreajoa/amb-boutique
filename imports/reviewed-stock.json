@@ -5551,5 +5551,82 @@
    "US26W-UK30-EU56": 999,
    "US24W- UK28- EU54": 999
   }
+ },
+ "elivane-pointed-slingback-pump-black-matte-10cm": {
+  "stockBySize": {
+   "35": 221,
+   "36": 221,
+   "37": 221,
+   "38": 221,
+   "39": 220,
+   "40": 219,
+   "41": 220
+  }
+ },
+ "elivane-pointed-slingback-pump-black-gloss-10cm": {
+  "stockBySize": {
+   "35": 221,
+   "36": 220,
+   "37": 217,
+   "38": 220,
+   "39": 213,
+   "40": 220,
+   "41": 214
+  }
+ },
+ "elivane-pointed-slingback-pump-black-matte-8cm": {
+  "stockBySize": {
+   "35": 222,
+   "36": 220,
+   "37": 222,
+   "38": 221,
+   "39": 218,
+   "40": 217,
+   "41": 217
+  }
+ },
+ "elivane-pointed-slingback-pump-black-gloss-8cm": {
+  "stockBySize": {
+   "35": 219,
+   "36": 218,
+   "37": 214,
+   "38": 215,
+   "39": 217,
+   "40": 215,
+   "41": 217
+  }
+ },
+ "elivane-pointed-slingback-pump-stone-gloss-10cm": {
+  "stockBySize": {
+   "35": 222,
+   "36": 219,
+   "37": 217,
+   "38": 220,
+   "39": 215,
+   "40": 219,
+   "41": 219
+  }
+ },
+ "elivane-pointed-slingback-pump-nude-gloss-10cm": {
+  "stockBySize": {
+   "35": 220,
+   "36": 220,
+   "37": 214,
+   "38": 209,
+   "39": 203,
+   "40": 211,
+   "41": 209
+  }
+ },
+ "elivane-pointed-slingback-pump-nude-gloss-8cm": {
+  "stockBySize": {
+   "35": 217,
+   "36": 217,
+   "37": 202,
+   "38": 200,
+   "39": 201,
+   "40": 209,
+   "41": 210
+  }
  }
 }
