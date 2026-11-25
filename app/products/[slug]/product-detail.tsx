@@ -87,7 +87,7 @@ export default function ProductDetail({
     [isShoe, fitProfile, product, sizes],
   );
   const marketCountry = markets[market]?.country || "the United States";
-  const deliveryLine = `Order today → estimated arrival ${deliveryEstimate.rangeLabel} (${deliveryEstimate.windowLabel} to ${marketCountry})`;
+  const deliveryLine = `Order today → estimated arrival ${deliveryEstimate.rangeLabel}`;
   const prepSummary = preparationNotice
     ? "Extended preparation applies · "
     : deliveryEstimate.isSupplierLinked
