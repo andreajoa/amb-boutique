@@ -195,8 +195,9 @@ export function Header() {
 }
 
 export function ProductCard({ product, compact = false }: { product: ProductCardProduct; compact?: boolean }) {
-  const { formatMoney } = useStore();
+  const { formatMoney, market, isProductUsWarehouse } = useStore();
   const directImage = getDirectProductImage(product, 0);
+  const shipsFromUs = market === "US" && isProductUsWarehouse(product.slug);
   return (
     <article className={`product-card${compact ? " compact" : ""}`} data-product-slug={product.slug}>
       <Link href={`/products/${product.slug}`} className={`product-photo sheet-${product.sheet} q${product.quadrant}${directImage ? " has-direct-image" : ""}`} style={directImage ? undefined : getProductImageStyle(product, 0)} aria-label={`View ${product.name}`} data-track={`view-product:${product.slug}`}>
@@ -210,6 +211,7 @@ export function ProductCard({ product, compact = false }: { product: ProductCard
           <span className={product.compareAt ? "sale-price" : ""}>{hasPriceRange(product) ? "From " : ""}{formatMoney(productPrice(product))}</span>
           {product.compareAt && <del>{formatMoney(product.compareAt)}</del>}
         </div>
+        {shipsFromUs && <p className="product-origin-tag">Ships from U.S.</p>}
         <div className="swatches" aria-label="Available colors">
           {product.colors.map((color) => <span key={color} style={{ backgroundColor: color }} />)}
         </div>

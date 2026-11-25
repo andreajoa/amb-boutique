@@ -33,10 +33,15 @@ export async function ensureProductDeliverySchema() {
           min_days INTEGER NOT NULL,
           max_days INTEGER NOT NULL,
           source TEXT NOT NULL DEFAULT 'supplier-quote',
+          us_warehouse BOOLEAN NOT NULL DEFAULT false,
           source_updated_at TIMESTAMPTZ,
           synced_at TIMESTAMPTZ NOT NULL DEFAULT now(),
           PRIMARY KEY (slug, market)
         )
+      `;
+      await sql`
+        ALTER TABLE amb_product_delivery_windows
+        ADD COLUMN IF NOT EXISTS us_warehouse BOOLEAN NOT NULL DEFAULT false
       `;
       await sql`
         CREATE INDEX IF NOT EXISTS idx_amb_product_delivery_synced
@@ -131,6 +136,7 @@ export async function syncDeliveryWindowsFromManager(): Promise<DeliverySyncResu
     min_days: number;
     max_days: number;
     source: string;
+    us_warehouse: boolean;
     source_updated_at: string | null;
   }> = [];
 
@@ -148,6 +154,7 @@ export async function syncDeliveryWindowsFromManager(): Promise<DeliverySyncResu
         min_days: win.minDays,
         max_days: win.maxDays,
         source: win.source || "supplier-quote",
+        us_warehouse: Boolean(market === "US" && win.usWarehouse),
         source_updated_at: sourceUpdatedAt,
       });
     }
@@ -158,20 +165,22 @@ export async function syncDeliveryWindowsFromManager(): Promise<DeliverySyncResu
   for (let i = 0; i < upsertRows.length; i += UPSERT_CHUNK_SIZE) {
     const chunkJson = JSON.stringify(upsertRows.slice(i, i + UPSERT_CHUNK_SIZE));
     await sql`
-      INSERT INTO amb_product_delivery_windows (slug, market, min_days, max_days, source, source_updated_at, synced_at)
-      SELECT t.slug, t.market, t.min_days, t.max_days, t.source, t.source_updated_at, now()
+      INSERT INTO amb_product_delivery_windows (slug, market, min_days, max_days, source, us_warehouse, source_updated_at, synced_at)
+      SELECT t.slug, t.market, t.min_days, t.max_days, t.source, t.us_warehouse, t.source_updated_at, now()
       FROM jsonb_to_recordset(${chunkJson}::jsonb) AS t(
         slug text,
         market text,
         min_days integer,
         max_days integer,
         source text,
+        us_warehouse boolean,
         source_updated_at timestamptz
       )
       ON CONFLICT (slug, market) DO UPDATE SET
         min_days = EXCLUDED.min_days,
         max_days = EXCLUDED.max_days,
         source = EXCLUDED.source,
+        us_warehouse = EXCLUDED.us_warehouse,
         source_updated_at = EXCLUDED.source_updated_at,
         synced_at = now()
     `;
@@ -236,7 +245,7 @@ async function loadDatabaseDeliveryWindows(): Promise<{ windows: DeliveryWindows
   try {
     await ensureProductDeliverySchema();
     const rows = await sql`
-      SELECT slug, market, min_days, max_days, source, synced_at
+      SELECT slug, market, min_days, max_days, source, us_warehouse, synced_at
       FROM amb_product_delivery_windows
     ` as Array<{
       slug: string;
@@ -244,6 +253,7 @@ async function loadDatabaseDeliveryWindows(): Promise<{ windows: DeliveryWindows
       min_days: number;
       max_days: number;
       source: string | null;
+      us_warehouse: boolean | null;
       synced_at: string | Date | null;
     }>;
 
@@ -259,6 +269,7 @@ async function loadDatabaseDeliveryWindows(): Promise<{ windows: DeliveryWindows
         minDays: Number(row.min_days),
         maxDays: Number(row.max_days),
         source: row.source === "manual" ? "manual" : "supplier-quote",
+        ...(market === "US" && row.us_warehouse === true ? { usWarehouse: true } : {}),
       };
       const syncedMs = row.synced_at ? new Date(row.synced_at).getTime() : 0;
       if (Number.isFinite(syncedMs) && syncedMs > latestSyncedAtMs) {

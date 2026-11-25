@@ -79,6 +79,7 @@ type StoreContextValue = {
   checkoutError: string;
   getProductPreparationNotice: (slug: string) => string | undefined;
   getProductDeliveryWindow: (slug: string, marketOverride?: MarketCode) => SupplierDeliveryWindow | undefined;
+  isProductUsWarehouse: (slug: string) => boolean;
 };
 
 const StoreContext = createContext<StoreContextValue | null>(null);
@@ -199,6 +200,10 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
   const getProductDeliveryWindow = useCallback(
     (slug: string, marketOverride?: MarketCode) => deliveryWindowsBySlug[slug]?.[marketOverride || market],
     [deliveryWindowsBySlug, market],
+  );
+  const isProductUsWarehouse = useCallback(
+    (slug: string) => Boolean(deliveryWindowsBySlug[slug]?.US?.usWarehouse),
+    [deliveryWindowsBySlug],
   );
 
   useEffect(() => {
@@ -404,7 +409,7 @@ export function StoreProvider({ children, catalog }: { children: React.ReactNode
     window.localStorage.removeItem(promoStorageKey);
   }, []);
   const closeCart = useCallback(() => setCartOpen(false), []);
-  const value = { catalog, cart, cartCount, cartTotal, estimatedTotal, cartOpen: drawerOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, lineOffers, hasIneligibleOfferItems, addItem, addItems, updateQuantity, removeItem, clearCart, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart, checkout, buyNow, checkoutError, getProductPreparationNotice, getProductDeliveryWindow };
+  const value = { catalog, cart, cartCount, cartTotal, estimatedTotal, cartOpen: drawerOpen, market, promoCode, visitorId, preferredCategories, setMarket, setPromoCode, setOrderNote, formatMoney, discount, effectiveDiscountUsd, lineOffers, hasIneligibleOfferItems, addItem, addItems, updateQuantity, removeItem, clearCart, recordProductView, trackEvent, openCart: () => { setCartOpen(true); trackEvent("cart_open", { valueUsd: estimatedTotal }); }, closeCart, checkout, buyNow, checkoutError, getProductPreparationNotice, getProductDeliveryWindow, isProductUsWarehouse };
   return <StoreContext.Provider value={value}>{children}<CartDrawer catalog={catalog} /></StoreContext.Provider>;
 }
 

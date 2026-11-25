@@ -49,32 +49,39 @@ export function CollectionsClient({ products, initialNewOnly = false, initialSor
   const [sort, setSort] = useState<CollectionSort>(initialSort);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [inStockOnly, setInStockOnly] = useState(false);
+  const [usOnly, setUsOnly] = useState(false);
   const [newOnly, setNewOnly] = useState(initialNewOnly);
   const [saleOnly, setSaleOnly] = useState(false);
   const [maxPrice, setMaxPrice] = useState(highestPrice);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const gridRef = useRef<HTMLDivElement>(null);
   const previousPositions = useRef(new Map<string, DOMRect>());
-  const { formatMoney } = useStore();
+  const { formatMoney, market, isProductUsWarehouse } = useStore();
+
+  const usProductCount = useMemo(
+    () => products.filter((product) => isProductUsWarehouse(product.slug)).length,
+    [isProductUsWarehouse, products],
+  );
 
   const filtered = useMemo(() => {
     const selected = products.filter((product) => {
       const matchesCategory = category === "All"
         || (category === "Heels" ? product.category === "Shoes" && product.subcategory === "Heels" : product.category === category);
       const matchesStock = !inStockOnly || product.available;
+      const matchesUs = !usOnly || isProductUsWarehouse(product.slug);
       const matchesNew = !newOnly || (product.newArrival ?? /^(new|just in)$/i.test(product.badge || ""));
       const matchesSale = !saleOnly || Boolean(product.compareAt && product.compareAt > product.price);
-      return matchesCategory && matchesStock && matchesNew && matchesSale && product.price <= maxPrice;
+      return matchesCategory && matchesStock && matchesUs && matchesNew && matchesSale && product.price <= maxPrice;
     });
     if (sort === "newest") selected.sort((a, b) => (b.arrivalRank ?? 0) - (a.arrivalRank ?? 0));
     if (sort === "low") selected.sort((a, b) => a.price - b.price);
     if (sort === "high") selected.sort((a, b) => b.price - a.price);
     if (sort === "name") selected.sort((a, b) => a.name.localeCompare(b.name));
     return selected;
-  }, [category, inStockOnly, maxPrice, newOnly, products, saleOnly, sort]);
+  }, [category, inStockOnly, isProductUsWarehouse, maxPrice, newOnly, products, saleOnly, sort, usOnly]);
 
   const visibleProducts = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
-  const activeFilterCount = Number(inStockOnly) + Number(newOnly && !initialNewOnly) + Number(saleOnly) + Number(maxPrice < highestPrice);
+  const activeFilterCount = Number(inStockOnly) + Number(usOnly) + Number(newOnly && !initialNewOnly) + Number(saleOnly) + Number(maxPrice < highestPrice);
 
   useLayoutEffect(() => {
     const grid = gridRef.current;
@@ -107,6 +114,7 @@ export function CollectionsClient({ products, initialNewOnly = false, initialSor
   const clearFilters = () => {
     setCategory("All");
     setInStockOnly(false);
+    setUsOnly(false);
     setNewOnly(initialNewOnly);
     setSaleOnly(false);
     setMaxPrice(highestPrice);
@@ -127,12 +135,23 @@ export function CollectionsClient({ products, initialNewOnly = false, initialSor
         <div className="collection-toolbar">
           <p aria-live="polite"><strong>{filtered.length}</strong> {filtered.length === 1 ? "piece" : "pieces"}</p>
           <div>
+            {market === "US" && usProductCount > 0 && (
+              <button
+                type="button"
+                className={`us-filter-button${usOnly ? " active" : ""}`}
+                aria-pressed={usOnly}
+                onClick={() => { setUsOnly((prev) => !prev); setVisibleCount(PAGE_SIZE); }}
+                data-track="collection-us-shipping-toggle"
+              >
+                Ships from U.S. ({usProductCount})
+              </button>
+            )}
             <button type="button" className={`filter-button${activeFilterCount ? " active" : ""}`} onClick={() => setFiltersOpen((open) => !open)} aria-expanded={filtersOpen} aria-controls="collection-filters" data-track="collection-filter-toggle">Filter{activeFilterCount ? ` (${activeFilterCount})` : ""} <span aria-hidden="true">☷</span></button>
             <label className="sort-select"><span className="sr-only">Sort products</span><select value={sort} onChange={(event) => { setSort(event.target.value as CollectionSort); setVisibleCount(PAGE_SIZE); }} data-track="collection-sort"><option value="featured">Sort by: Featured</option><option value="newest">Newest arrivals</option><option value="low">Price: Low to High</option><option value="high">Price: High to Low</option><option value="name">Name: A–Z</option></select></label>
           </div>
         </div>
 
-        {filtersOpen && <div className="filter-panel" id="collection-filters"><div><strong>Category</strong>{categories.map((item) => <label key={item.value}><input type="radio" name="category" checked={category === item.value} onChange={() => selectCategory(item.value)}/>{item.label}</label>)}</div><div><strong>Availability</strong><label><input type="checkbox" checked={inStockOnly} onChange={(event) => { setInStockOnly(event.target.checked); setVisibleCount(PAGE_SIZE); }}/> In stock</label><label><input type="checkbox" disabled={initialNewOnly} checked={newOnly} onChange={(event) => { setNewOnly(event.target.checked); setVisibleCount(PAGE_SIZE); }}/> New arrivals</label><label><input type="checkbox" checked={saleOnly} onChange={(event) => { setSaleOnly(event.target.checked); setVisibleCount(PAGE_SIZE); }}/> On sale</label></div><div><strong>Price</strong><span>Up to {formatMoney(maxPrice)}</span><input aria-label="Maximum price" type="range" min="0" max={highestPrice} step="5" value={maxPrice} onChange={(event) => { setMaxPrice(Number(event.target.value)); setVisibleCount(PAGE_SIZE); }}/><span className="filter-price-limit">Maximum {formatMoney(highestPrice)}</span></div><button type="button" onClick={clearFilters}>Clear filters</button></div>}
+        {filtersOpen && <div className="filter-panel" id="collection-filters"><div><strong>Category</strong>{categories.map((item) => <label key={item.value}><input type="radio" name="category" checked={category === item.value} onChange={() => selectCategory(item.value)}/>{item.label}</label>)}</div><div><strong>Availability</strong><label><input type="checkbox" checked={inStockOnly} onChange={(event) => { setInStockOnly(event.target.checked); setVisibleCount(PAGE_SIZE); }}/> In stock</label>{market === "US" && <label><input type="checkbox" checked={usOnly} onChange={(event) => { setUsOnly(event.target.checked); setVisibleCount(PAGE_SIZE); }}/> Ships from U.S.{usProductCount > 0 ? ` (${usProductCount})` : ""}</label>}<label><input type="checkbox" disabled={initialNewOnly} checked={newOnly} onChange={(event) => { setNewOnly(event.target.checked); setVisibleCount(PAGE_SIZE); }}/> New arrivals</label><label><input type="checkbox" checked={saleOnly} onChange={(event) => { setSaleOnly(event.target.checked); setVisibleCount(PAGE_SIZE); }}/> On sale</label></div><div><strong>Price</strong><span>Up to {formatMoney(maxPrice)}</span><input aria-label="Maximum price" type="range" min="0" max={highestPrice} step="5" value={maxPrice} onChange={(event) => { setMaxPrice(Number(event.target.value)); setVisibleCount(PAGE_SIZE); }}/><span className="filter-price-limit">Maximum {formatMoney(highestPrice)}</span></div><button type="button" onClick={clearFilters}>Clear filters</button></div>}
 
         {visibleProducts.length ? <div className="product-grid filterable-grid" ref={gridRef}>{visibleProducts.map((product) => <ProductCard key={product.slug} product={product} />)}</div> : <div className="collection-empty" role="status"><h2>No pieces match these filters.</h2><p>Clear the filters to return to the complete AMB edit.</p><button type="button" className="button dark" onClick={clearFilters}>Clear filters</button></div>}
         <p className="results-count">Showing {visibleProducts.length} of {filtered.length} matching pieces.</p>

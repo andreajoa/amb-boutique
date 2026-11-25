@@ -137,6 +137,32 @@ assert.match(routeSrc, /syncDeliveryWindowsFromManager\(/, "POST /api/delivery-w
 // 9. Delivery sync persists via bulk jsonb_to_recordset (avoids N sequential Neon round-trips / 502 timeouts)
 const deliveryStoreSrc = fs.readFileSync(path.resolve("app/product-delivery.ts"), "utf8");
 assert.match(deliveryStoreSrc, /jsonb_to_recordset/, "syncDeliveryWindowsFromManager must use bulk SQL upsert/prune");
+assert.match(deliveryStoreSrc, /us_warehouse/, "syncDeliveryWindowsFromManager must persist us_warehouse");
+
+// 10. US Warehouse flag sanitization (with and without quoted freight days, zero leakage)
+const usInput = {
+  "selorie-dress": {
+    shipsFromUs: true,
+    markets: { US: { minDays: 6, maxDays: 8, source: "supplier-quote", usWarehouse: true, sellerName: "Secret AliExpress" } },
+  },
+  "us-no-days-piece": {
+    shipsFromUs: true,
+    markets: {},
+  },
+  "cn-only-piece": {
+    markets: { US: { minDays: 12, maxDays: 16, source: "supplier-quote" } },
+  },
+};
+const usClean = deliveryShared.sanitizeDeliveryWindowsMap(usInput);
+assert.equal(usClean["selorie-dress"]?.US?.usWarehouse, true);
+assert.equal(usClean["selorie-dress"]?.US?.minDays, 6);
+assert.equal(deliveryShared.isUsWarehouseProduct(usClean["selorie-dress"]), true);
+assert.equal(deliveryShared.isUsWarehouseProduct(usClean["us-no-days-piece"]), true);
+assert.equal(deliveryShared.isUsWarehouseProduct(usClean["cn-only-piece"]), false);
+const usResolvedNoDays = deliveryShared.resolveCustomerDeliveryWindow("US", usClean["us-no-days-piece"]?.US);
+assert.equal(usResolvedNoDays.shipsFromUs, true);
+assert.equal(usResolvedNoDays.isSupplierLinked, false);
+assert.ok(!JSON.stringify(usClean).toLowerCase().includes("aliexpress"));
 
 console.log(JSON.stringify({
   ok: true,

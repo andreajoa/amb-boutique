@@ -4,6 +4,7 @@ export type SupplierDeliveryWindow = {
   minDays: number;
   maxDays: number;
   source?: "manual" | "supplier-quote";
+  usWarehouse?: boolean;
 };
 
 export type ProductDeliveryWindows = Partial<Record<MarketCode, SupplierDeliveryWindow>>;
@@ -22,6 +23,7 @@ export type ResolvedCustomerDeliveryWindow = {
   unit: "calendar" | "business";
   isSupplierLinked: boolean;
   isFast: boolean;
+  shipsFromUs: boolean;
   windowLabel: string;
 };
 
@@ -36,18 +38,24 @@ function clampInt(value: unknown, min: number, max: number): number | null {
 export function sanitizeDeliveryWindow(value: unknown): SupplierDeliveryWindow | null {
   if (!value || typeof value !== "object" || Array.isArray(value)) return null;
   const record = value as Record<string, unknown>;
+  const usWarehouse = record.usWarehouse === true;
   const minDays = clampInt(record.minDays, 1, 60);
   const maxDays = clampInt(record.maxDays ?? record.minDays, 1, 60);
-  if (!minDays || !maxDays) return null;
+  if (!minDays || !maxDays) {
+    if (usWarehouse) {
+      return { minDays: 0, maxDays: 0, source: "supplier-quote", usWarehouse: true };
+    }
+    return null;
+  }
 
   const low = Math.min(minDays, maxDays);
   const high = Math.max(minDays, maxDays);
   const source = record.source === "manual" ? "manual" : "supplier-quote";
-  return { minDays: low, maxDays: high, source };
+  return { minDays: low, maxDays: high, source, ...(usWarehouse ? { usWarehouse: true } : {}) };
 }
 
 /**
- * Strips any unexpected fields so only sanitized slug -> market -> { minDays, maxDays } ever crosses API boundaries.
+ * Strips any unexpected fields so only sanitized slug -> market -> { minDays, maxDays, usWarehouse? } ever crosses API boundaries.
  */
 export function sanitizeDeliveryWindowsMap(input: unknown): DeliveryWindowsMap {
   if (!input || typeof input !== "object" || Array.isArray(input)) return {};
@@ -59,6 +67,7 @@ export function sanitizeDeliveryWindowsMap(input: unknown): DeliveryWindowsMap {
     if (!rawMarkets || typeof rawMarkets !== "object" || Array.isArray(rawMarkets)) continue;
 
     const marketsObj = rawMarkets as Record<string, unknown>;
+    const topShipsFromUs = marketsObj.shipsFromUs === true;
     const candidateMarkets =
       marketsObj.markets && typeof marketsObj.markets === "object" && !Array.isArray(marketsObj.markets)
         ? (marketsObj.markets as Record<string, unknown>)
@@ -72,12 +81,24 @@ export function sanitizeDeliveryWindowsMap(input: unknown): DeliveryWindowsMap {
       if (clean) cleanMarkets[market] = clean;
     }
 
+    if (topShipsFromUs) {
+      if (cleanMarkets.US) {
+        cleanMarkets.US = { ...cleanMarkets.US, usWarehouse: true };
+      } else {
+        cleanMarkets.US = { minDays: 0, maxDays: 0, source: "supplier-quote", usWarehouse: true };
+      }
+    }
+
     if (Object.keys(cleanMarkets).length > 0) {
       result[slug] = cleanMarkets;
     }
   }
 
   return result;
+}
+
+export function isUsWarehouseProduct(windows?: ProductDeliveryWindows | null): boolean {
+  return Boolean(windows?.US?.usWarehouse);
 }
 
 /**
@@ -90,7 +111,8 @@ export function resolveCustomerDeliveryWindow(
   supplierWindow?: SupplierDeliveryWindow | null,
 ): ResolvedCustomerDeliveryWindow {
   const clean = sanitizeDeliveryWindow(supplierWindow);
-  if (clean) {
+  const shipsFromUs = Boolean(market === "US" && clean?.usWarehouse);
+  if (clean && clean.minDays >= 1 && clean.maxDays >= 1) {
     const transitMin = Math.max(2, Math.min(45, clean.minDays));
     const safetyBuffer = transitMin <= 7 ? 2 : transitMin <= 15 ? 3 : 4;
     const transitMax = Math.min(55, Math.max(clean.maxDays, transitMin + safetyBuffer));
@@ -110,6 +132,7 @@ export function resolveCustomerDeliveryWindow(
       unit: "calendar",
       isSupplierLinked: true,
       isFast,
+      shipsFromUs,
       windowLabel: `${totalMinDays}–${totalMaxDays} days`,
     };
   }
@@ -125,6 +148,7 @@ export function resolveCustomerDeliveryWindow(
     unit: "business",
     isSupplierLinked: false,
     isFast: false,
+    shipsFromUs,
     windowLabel: `${fallback.min}–${fallback.max} business days`,
   };
 }

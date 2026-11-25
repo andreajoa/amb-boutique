@@ -72,6 +72,7 @@ export default function ProductDetail({
   const [showDateCheck, setShowDateCheck] = useState(false);
   const [nowMs] = useState(() => Date.now());
   const supplierDeliveryWindow = getProductDeliveryWindow(product.slug) ?? initialDeliveryWindows?.[market];
+  const shipsFromUs = market === "US" && Boolean(supplierDeliveryWindow?.usWarehouse);
   const deliveryEstimate = useMemo(
     () => estimateDeliveryWindow(market, {
       nowMs,
@@ -258,8 +259,13 @@ export default function ProductDetail({
           <div className="quantity-block"><span>Quantity</span><div><button type="button" disabled={unavailable || purchaseQuantity <= 1} onClick={() => setQuantity(Math.max(1, purchaseQuantity - 1))} aria-label="Decrease quantity">−</button><span>{purchaseQuantity}</span><button type="button" disabled={unavailable || purchaseQuantity >= quantityLimit} onClick={() => setQuantity(purchaseQuantity + 1)} aria-label="Increase quantity">+</button></div></div>
           <p className="stock-line"><i/> {unavailable ? "Currently unavailable" : !preparationNotice && typeof activeStock === "number" && activeStock <= 5 ? `Only ${activeStock} left` : "Available to order"}</p>
           {preparationNotice && <p className="product-intro" data-preparation-notice>{preparationNotice}</p>}
-          <div className="trust-line pdp-delivery-box" data-delivery-estimate data-delivery-source={deliveryEstimate.isSupplierLinked ? "dynamic" : "market-default"}>
-            {deliveryEstimate.isFast && <span className="pdp-fast-badge">Faster Delivery</span>}
+          <div className="trust-line pdp-delivery-box" data-delivery-estimate data-delivery-source={deliveryEstimate.isSupplierLinked ? "dynamic" : "market-default"} data-ships-from-us={shipsFromUs ? "true" : "false"}>
+            {(shipsFromUs || deliveryEstimate.isFast) && (
+              <div className="pdp-delivery-badges">
+                {shipsFromUs && <span className="pdp-us-badge">Ships from U.S.</span>}
+                {deliveryEstimate.isFast && <span className="pdp-fast-badge">Faster Delivery</span>}
+              </div>
+            )}
             <p>{deliveryLine}</p>
             <small>
               {prepSummary}<Link href="/shipping">Shipping details</Link>
