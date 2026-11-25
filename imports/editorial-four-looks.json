@@ -2,44 +2,44 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
-      "slug": "solvaya-ribbed-halter-crop-top-white",
-      "name": "Solvaya Ribbed Halter Crop Top — White",
-      "image": "/products/solvaya-ribbed-halter-crop-top-white/front.webp",
-      "eyebrow": "NEW ARRIVAL",
-      "copy": "A fitted ribbed crop top with a scoop front, wide halter straps and an open back.",
-      "category": "Tops",
-      "arrivalRank": 1147,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "annessa-lapel-tie-waist-romper-white",
-      "name": "Annessa Lapel Tie-Waist Romper — White",
-      "image": "/products/annessa-lapel-tie-waist-romper-white/front.webp",
-      "eyebrow": "THE SOFT STATEMENT",
-      "copy": "A sleeveless white romper with a notched lapel, a defined waist and pleated shorts.",
-      "category": "Playsuits",
-      "arrivalRank": 1146,
-      "classification": "detected-model"
-    },
-    {
-      "slug": "savelle-ribbed-v-neck-tank-apricot",
-      "name": "Savelle Ribbed V-Neck Tank — Apricot",
-      "image": "/products/savelle-ribbed-v-neck-tank-apricot/front.webp",
-      "eyebrow": "CONFIDENT COLOR",
-      "copy": "A sleeveless rib-knit tank with a V-neckline and a gently fitted silhouette.",
-      "category": "Tops",
-      "arrivalRank": 1145,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "yvaine-textured-high-neck-gown-sage",
-      "name": "Yvaine Textured High-Neck Gown — Sage",
-      "image": "/products/yvaine-textured-high-neck-gown-sage/front.webp",
+      "slug": "orvella-tailored-lace-slit-gown-black",
+      "name": "Orvella Tailored Lace-Slit Gown — Black",
+      "image": "/products/orvella-tailored-lace-slit-gown-black/front.webp",
       "eyebrow": "AFTER DARK",
-      "copy": "A floor-length sage gown with a high neckline and diagonal textured detailing through the bodice.",
+      "copy": "A long-sleeve black evening gown with notched lapels, a fitted waist and a slit with floral lace inset.",
       "category": "Dresses",
-      "arrivalRank": 1144,
-      "classification": "detected-model"
+      "arrivalRank": 1157,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "seravina-sequin-halter-gown-rose-pink",
+      "name": "Seravina Sequin Halter Gown — Rose Pink",
+      "image": "/products/seravina-sequin-halter-gown-rose-pink/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A rose pink sequin gown with a deep V halter neckline, an open back and a fitted floor-length skirt.",
+      "category": "Dresses",
+      "arrivalRank": 1156,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "viorelle-beaded-mermaid-gown-ruby-red",
+      "name": "Viorelle Beaded Mermaid Gown — Ruby Red",
+      "image": "/products/viorelle-beaded-mermaid-gown-ruby-red/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A ruby red strapless gown with beaded detailing, a sweetheart neckline and a sweeping mermaid hem.",
+      "category": "Dresses",
+      "arrivalRank": 1155,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "lisavelle-beaded-strapless-gown-ice-blue",
+      "name": "Lisavelle Beaded Strapless Gown — Ice Blue",
+      "image": "/products/lisavelle-beaded-strapless-gown-ice-blue/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "An ice blue floor-length gown with a strapless plunge neckline and beaded detailing.",
+      "category": "Dresses",
+      "arrivalRank": 1154,
+      "classification": "verified-model"
     }
   ]
 }
