@@ -45,9 +45,25 @@
    "landedCostUsd": 57.68,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
   },
+  "amalfi-dumpling-bag-large-canvas": {
+   "landedCostUsd": 44.68,
+   "source": "catalog-20261123-batch46-bindings.json"
+  },
+  "amalfi-dumpling-bag-large-coffee": {
+   "landedCostUsd": 46.38,
+   "source": "catalog-20261123-batch46-bindings.json"
+  },
+  "amalfi-dumpling-bag-large-green": {
+   "landedCostUsd": 46.18,
+   "source": "catalog-20261123-batch46-bindings.json"
+  },
   "amalfi-dumpling-bag-large-latte": {
    "landedCostUsd": 55.18,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "amalfi-dumpling-bag-large-white": {
+   "landedCostUsd": 48.68,
+   "source": "catalog-20261123-batch46-bindings.json"
   },
   "amalfi-dumpling-bag-small-black": {
    "landedCostUsd": 40.58,
@@ -56,6 +72,14 @@
   "amalfi-dumpling-bag-small-brown": {
    "landedCostUsd": 42.38,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-19-31.837869+00-00/analysis-2026-10-25T03-07-36.967143+00-00)"
+  },
+  "amalfi-dumpling-bag-small-canvas": {
+   "landedCostUsd": 41.98,
+   "source": "catalog-20261123-batch46-bindings.json"
+  },
+  "amalfi-dumpling-bag-small-coffee": {
+   "landedCostUsd": 38.58,
+   "source": "catalog-20261123-batch46-bindings.json"
   },
   "amalfi-dumpling-bag-small-green": {
    "landedCostUsd": 42.58,

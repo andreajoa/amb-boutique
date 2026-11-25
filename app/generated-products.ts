@@ -37488,6 +37488,210 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256811432198463",
   "sourceColor": "White"
+},
+{
+  "slug": "amalfi-dumpling-bag-small-canvas",
+  "name": "Amalfi Dumpling Bag Small — Brown-Trim Canvas",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 126.9,
+  "colors": [
+    "#D5C8B6"
+  ],
+  "colorNames": [
+    "Brown-Trim Canvas"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A small winged handbag in brown-trim canvas with a rounded handle, softly folded sides and gold-tone front hardware.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/amalfi-dumpling-bag-small-canvas/front.webp",
+    "/products/amalfi-dumpling-bag-small-canvas/back.webp",
+    "/products/amalfi-dumpling-bag-small-canvas/left.webp",
+    "/products/amalfi-dumpling-bag-small-canvas/right.webp",
+    "/products/amalfi-dumpling-bag-small-canvas/inside.webp"
+  ],
+  "stock": 5,
+  "unitCostUsd": 41.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005010591309746",
+  "sourceColor": "Canvas Brown S"
+},
+{
+  "slug": "amalfi-dumpling-bag-large-canvas",
+  "name": "Amalfi Dumpling Bag Large — Brown-Trim Canvas",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 134.9,
+  "colors": [
+    "#D5C8B6"
+  ],
+  "colorNames": [
+    "Brown-Trim Canvas"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A large winged handbag in brown-trim canvas with a rounded handle, softly folded sides and gold-tone front hardware.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/amalfi-dumpling-bag-large-canvas/front.webp",
+    "/products/amalfi-dumpling-bag-large-canvas/back.webp",
+    "/products/amalfi-dumpling-bag-large-canvas/left.webp",
+    "/products/amalfi-dumpling-bag-large-canvas/right.webp",
+    "/products/amalfi-dumpling-bag-large-canvas/inside.webp"
+  ],
+  "stock": 5,
+  "unitCostUsd": 44.68,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005010591309746",
+  "sourceColor": "Canvas brown L"
+},
+{
+  "slug": "amalfi-dumpling-bag-small-coffee",
+  "name": "Amalfi Dumpling Bag Small — Dark Brown",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 115.9,
+  "colors": [
+    "#483A31"
+  ],
+  "colorNames": [
+    "Dark Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A small winged handbag in dark brown with a rounded handle, softly folded sides and gold-tone front hardware.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/amalfi-dumpling-bag-small-coffee/front.webp",
+    "/products/amalfi-dumpling-bag-small-coffee/back.webp",
+    "/products/amalfi-dumpling-bag-small-coffee/left.webp",
+    "/products/amalfi-dumpling-bag-small-coffee/right.webp",
+    "/products/amalfi-dumpling-bag-small-coffee/inside.webp"
+  ],
+  "stock": 4,
+  "unitCostUsd": 38.58,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005010591309746",
+  "sourceColor": "coffee small"
+},
+{
+  "slug": "amalfi-dumpling-bag-large-coffee",
+  "name": "Amalfi Dumpling Bag Large — Dark Brown",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 139.9,
+  "colors": [
+    "#483A31"
+  ],
+  "colorNames": [
+    "Dark Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A large winged handbag in dark brown with a rounded handle, softly folded sides and gold-tone front hardware.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/amalfi-dumpling-bag-large-coffee/front.webp",
+    "/products/amalfi-dumpling-bag-large-coffee/back.webp",
+    "/products/amalfi-dumpling-bag-large-coffee/left.webp",
+    "/products/amalfi-dumpling-bag-large-coffee/right.webp",
+    "/products/amalfi-dumpling-bag-large-coffee/inside.webp"
+  ],
+  "stock": 5,
+  "unitCostUsd": 46.38,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005010591309746",
+  "sourceColor": "coffee L"
+},
+{
+  "slug": "amalfi-dumpling-bag-large-green",
+  "name": "Amalfi Dumpling Bag Large — Olive Green",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 138.9,
+  "colors": [
+    "#656740"
+  ],
+  "colorNames": [
+    "Olive Green"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A large winged handbag in olive green with a rounded handle, softly folded sides and gold-tone front hardware.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/amalfi-dumpling-bag-large-green/front.webp",
+    "/products/amalfi-dumpling-bag-large-green/back.webp",
+    "/products/amalfi-dumpling-bag-large-green/left.webp",
+    "/products/amalfi-dumpling-bag-large-green/right.webp",
+    "/products/amalfi-dumpling-bag-large-green/inside.webp"
+  ],
+  "stock": 5,
+  "unitCostUsd": 46.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005010591309746",
+  "sourceColor": "L green"
+},
+{
+  "slug": "amalfi-dumpling-bag-large-white",
+  "name": "Amalfi Dumpling Bag Large — Ivory White",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 146.9,
+  "colors": [
+    "#E4DCCC"
+  ],
+  "colorNames": [
+    "Ivory White"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A large winged handbag in ivory white with a rounded handle, softly folded sides and gold-tone front hardware.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/amalfi-dumpling-bag-large-white/front.webp",
+    "/products/amalfi-dumpling-bag-large-white/back.webp",
+    "/products/amalfi-dumpling-bag-large-white/left.webp",
+    "/products/amalfi-dumpling-bag-large-white/right.webp",
+    "/products/amalfi-dumpling-bag-large-white/inside.webp"
+  ],
+  "stock": 4,
+  "unitCostUsd": 48.68,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005010591309746",
+  "sourceColor": "White L"
 }
 ];
 
@@ -37497,6 +37701,13 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "amalfi-dumpling-bag-small-canvas",
+  "amalfi-dumpling-bag-large-canvas",
+  "amalfi-dumpling-bag-small-coffee",
+  "amalfi-dumpling-bag-large-coffee",
+  "amalfi-dumpling-bag-large-green",
+  "amalfi-dumpling-bag-large-white",
+
   "orvella-tailored-lace-slit-gown-yellow",
   "marivelle-short-sleeve-lace-gown-yellow",
   "celinne-buckle-belt-romper-white",
