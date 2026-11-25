@@ -5747,5 +5747,20 @@
    "M": 4,
    "S": 1
   }
+ },
+ "noelia-bow-satchel-blue": {
+  "stockBySize": {
+   "One Size": 2
+  }
+ },
+ "noelia-bow-satchel-pink": {
+  "stockBySize": {
+   "One Size": 7
+  }
+ },
+ "noelia-bow-satchel-burgundy": {
+  "stockBySize": {
+   "One Size": 1
+  }
  }
 }
