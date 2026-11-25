@@ -4,6 +4,7 @@ import { Resend } from "resend";
 import { ambResendApiKey, ambResendFromEmail } from "./resend-config";
 import { createPublicTrackingToken, type AmbTrackingSnapshot } from "../fulfillment-tracking";
 import { emailProductGrid } from "./template";
+import { buildGmailAnnotationsScript } from "./gmail-annotations";
 import { formatTrackingInstant, marketTimeZone, trackingEventIso } from "../tracking-time";
 import { buildTrackingView } from "../tracking-view";
 
@@ -160,6 +161,11 @@ export function renderAmbTrackingUpdateEmail(input: {
       </td></tr></table>
     </td></tr>${SPACER}`;
 
+  const gmailAnnotations = buildGmailAnnotationsScript({
+    campaignKey: "order-tracking-update",
+    transactional: true,
+  });
+
   const html = `<!doctype html>
 <html lang="en">
 <head>
@@ -167,6 +173,7 @@ export function renderAmbTrackingUpdateEmail(input: {
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="x-apple-disable-message-reformatting">
   <title>${escapeHtml(copy.subject)}</title>
+  ${gmailAnnotations}
 </head>
 <body style="margin:0;padding:0;background-color:#f5efe5;color:#171512;font-family:Arial,Helvetica,sans-serif">
   <div style="display:none;max-height:0;overflow:hidden;opacity:0">${escapeHtml(`${view.headline}${view.latestDetail ? ` · ${view.latestDetail}` : ""}${estimatedDelivery ? ` · Estimated delivery by ${estimatedDelivery}` : ""}`)}</div>

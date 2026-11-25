@@ -1,6 +1,7 @@
 import { FIRST_ORDER_CODE } from "../commerce";
 import { products as catalog, type Product } from "../data";
 import { allCampaigns, type AmbCampaign } from "./campaigns";
+import { buildGmailAnnotationsScript, type GmailAnnotationProduct } from "./gmail-annotations";
 
 export type AmbOrderEmailItem = {
   name: string;
@@ -202,10 +203,11 @@ export function emailProductPicks(campaignKey: string, exclude: string[] = [], p
 export function emailProductGrid(campaignKey: string, options: {
   exclude?: string[];
   preferred?: Product["category"][];
+  picks?: Product[];
   eyebrow?: string;
   headline?: string;
 } = {}) {
-  const picks = emailProductPicks(campaignKey, options.exclude, options.preferred);
+  const picks = options.picks || emailProductPicks(campaignKey, options.exclude, options.preferred);
   if (!picks.length) return "";
   const cell = (product: Product) => {
     const url = escapeHtml(trackedUrl(`/products/${product.slug}`, campaignKey, `grid-${product.slug}`));
@@ -281,6 +283,12 @@ function renderWelcomeDiscountEmail(options: {
     { slug: "capri-utility-romper", name: "Capri Utility Romper", price: "$98 USD", image: "/products/capri-utility-romper/01.webp", label: "ONE-PIECE EASE" },
     { slug: "portofino-carryall-burgundy", name: "Portofino Carryall — Burgundy", price: "$79 USD", image: "/editorial/bags/products/portofino-carryall-burgundy/01.webp", label: "THE BAG EDIT" },
   ];
+  const more = emailProductPicks(campaignKey, products.map((product) => product.slug), [], 4)
+    .map((product) => ({ slug: product.slug, name: product.name, price: "", image: product.images?.[0] || "", label: product.category.toUpperCase() }));
+  const gmailAnnotations = buildGmailAnnotationsScript({
+    campaignKey,
+    products: [...products, ...more].map((item) => ({ slug: item.slug, name: item.name, image: item.image })),
+  });
 
   return `<!doctype html>
 <html lang="en">
@@ -288,6 +296,7 @@ function renderWelcomeDiscountEmail(options: {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="x-apple-disable-message-reformatting">
+  ${gmailAnnotations}
   <style>
     @media only screen and (max-width:620px) {
       .email-shell { width:100% !important; max-width:100% !important; margin-left:auto !important; margin-right:auto !important; }
@@ -353,8 +362,6 @@ function renderWelcomeDiscountEmail(options: {
             <tr>${productCard(products[0], campaignKey)}${productCard(products[1], campaignKey)}</tr>
             <tr>${productCard(products[2], campaignKey)}${productCard(products[3], campaignKey)}</tr>
             ${(() => {
-              const more = emailProductPicks(campaignKey, products.map((product) => product.slug), [], 4)
-                .map((product) => ({ slug: product.slug, name: product.name, price: "", image: product.images?.[0] || "", label: product.category.toUpperCase() }));
               const rows = [];
               for (let index = 0; index < more.length; index += 2) rows.push(`<tr>${productCard(more[index], campaignKey)}${more[index + 1] ? productCard(more[index + 1], campaignKey) : ""}</tr>`);
               return rows.join("");
@@ -435,12 +442,18 @@ function renderOrderConfirmationEmail(options: {
     typeof details.discount === "number" && details.discount > 0 ? ["Discount", -details.discount] : null,
   ].filter(Boolean) as Array<[string, number]>;
 
+  const gmailAnnotations = buildGmailAnnotationsScript({
+    campaignKey: "order-confirmed",
+    transactional: true,
+  });
+
   return `<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="x-apple-disable-message-reformatting">
+  ${gmailAnnotations}
 </head>
 <body style="margin:0;padding:0;background:#f5efe5;color:#171512;font-family:Arial,Helvetica,sans-serif">
   <div style="display:none;max-height:0;overflow:hidden;opacity:0">We’re preparing your order.</div>
@@ -521,6 +534,28 @@ export function renderAmbEmail(campaign: AmbCampaign, options: {
   const reference = options.orderReference
     ? `<p style="margin:20px 0 0;color:#6d6259;font-size:12px;letter-spacing:.08em">ORDER ${escapeHtml(options.orderReference)}</p>`
     : "";
+  const transactionalKeys = new Set(["order-confirmed", "order-next-steps", "order-shipped", "payment-recovery"]);
+  const isTransactional = transactionalKeys.has(campaign.key) || campaign.key.startsWith("tracking-");
+  const gridPicks = emailProductPicks(
+    campaign.key,
+    recovering && cartSlugs.length ? cartSlugs : [],
+    recovering && cartSlugs.length ? cartCategories : [],
+  );
+  const cartAnnotationProducts: GmailAnnotationProduct[] = recovering
+    ? (options.cartItems || []).flatMap((item) => {
+        const product = catalog.find((candidate) => candidate.slug === item.slug);
+        if (!product || product.gallerySprite || !product.images?.[0]) return [];
+        return [{ slug: product.slug, name: item.name || product.name, image: product.images[0] }];
+      })
+    : [];
+  const gmailAnnotations = buildGmailAnnotationsScript({
+    campaignKey: campaign.key,
+    transactional: isTransactional,
+    products: [
+      ...cartAnnotationProducts,
+      ...gridPicks.map((product) => ({ slug: product.slug, name: product.name, image: product.images?.[0] })),
+    ],
+  });
 
   return `<!doctype html>
 <html lang="en">
@@ -528,6 +563,7 @@ export function renderAmbEmail(campaign: AmbCampaign, options: {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="x-apple-disable-message-reformatting">
+  ${gmailAnnotations}
   <style>
     @media only screen and (max-width:620px) {
       .email-shell { width:100% !important; max-width:100% !important; margin-left:auto !important; margin-right:auto !important; }
@@ -568,8 +604,8 @@ export function renderAmbEmail(campaign: AmbCampaign, options: {
         ${recovering && options.cartItems?.length ? cartBlock(options.cartItems, ctaUrl, campaign.ctaLabel, campaign.key) : ""}
 
         ${emailProductGrid(campaign.key, recovering && cartSlugs.length
-          ? { exclude: cartSlugs, preferred: cartCategories, eyebrow: "COMPLETE THE LOOK", headline: "Chosen to go with your pick" }
-          : {})}
+          ? { picks: gridPicks, eyebrow: "COMPLETE THE LOOK", headline: "Chosen to go with your pick" }
+          : { picks: gridPicks })}
 
         <tr><td class="mobile-pad" align="center" style="padding:42px 58px 46px;background:#f4eee7;border-top:1px solid #e3dad0">
           <p style="margin:0 0 10px;color:#9c6747;font-size:10px;letter-spacing:.2em;font-weight:700">${confidence.eyebrow}</p>
