@@ -31965,6 +31965,448 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256811834381313",
   "sourceColor": "Creamy-white"
+},
+{
+  "slug": "orvella-tailored-lace-slit-gown-black",
+  "name": "Orvella Tailored Lace-Slit Gown — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 414.9,
+  "colors": [
+    "#232328"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A long-sleeve black evening gown with notched lapels, a fitted waist and a slit with floral lace inset.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/orvella-tailored-lace-slit-gown-black/front.webp",
+    "/products/orvella-tailored-lace-slit-gown-black/back.webp",
+    "/products/orvella-tailored-lace-slit-gown-black/left.webp",
+    "/products/orvella-tailored-lace-slit-gown-black/right.webp"
+  ],
+  "stock": 868,
+  "unitCostUsd": 138.25,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809847930202",
+  "sourceColor": "AS PIC"
+},
+{
+  "slug": "seravina-sequin-halter-gown-rose-pink",
+  "name": "Seravina Sequin Halter Gown — Rose Pink",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 623.9,
+  "colors": [
+    "#BF7390"
+  ],
+  "colorNames": [
+    "Rose Pink"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "14 W",
+    "16",
+    "16W",
+    "20W",
+    "22W"
+  ],
+  "description": "A rose pink sequin gown with a deep V halter neckline, an open back and a fitted floor-length skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/seravina-sequin-halter-gown-rose-pink/front.webp",
+    "/products/seravina-sequin-halter-gown-rose-pink/back.webp",
+    "/products/seravina-sequin-halter-gown-rose-pink/left.webp",
+    "/products/seravina-sequin-halter-gown-rose-pink/right.webp"
+  ],
+  "stock": 1199,
+  "unitCostUsd": 207.83,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809424749127",
+  "sourceColor": "as picture"
+},
+{
+  "slug": "viorelle-beaded-mermaid-gown-ruby-red",
+  "name": "Viorelle Beaded Mermaid Gown — Ruby Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 484.9,
+  "colors": [
+    "#961C2C"
+  ],
+  "colorNames": [
+    "Ruby Red"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "14 W",
+    "16",
+    "16W",
+    "18"
+  ],
+  "description": "A ruby red strapless gown with beaded detailing, a sweetheart neckline and a sweeping mermaid hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/viorelle-beaded-mermaid-gown-ruby-red/front.webp",
+    "/products/viorelle-beaded-mermaid-gown-ruby-red/back.webp",
+    "/products/viorelle-beaded-mermaid-gown-ruby-red/left.webp",
+    "/products/viorelle-beaded-mermaid-gown-ruby-red/right.webp"
+  ],
+  "stock": 383,
+  "unitCostUsd": 161.53,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810249343548",
+  "sourceColor": "as picture"
+},
+{
+  "slug": "lisavelle-beaded-strapless-gown-ice-blue",
+  "name": "Lisavelle Beaded Strapless Gown — Ice Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 568.9,
+  "colors": [
+    "#91A9C5"
+  ],
+  "colorNames": [
+    "Ice Blue"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20W",
+    "22W"
+  ],
+  "description": "An ice blue floor-length gown with a strapless plunge neckline and beaded detailing.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lisavelle-beaded-strapless-gown-ice-blue/front.webp",
+    "/products/lisavelle-beaded-strapless-gown-ice-blue/back.webp",
+    "/products/lisavelle-beaded-strapless-gown-ice-blue/left.webp",
+    "/products/lisavelle-beaded-strapless-gown-ice-blue/right.webp"
+  ],
+  "stock": 996,
+  "unitCostUsd": 189.55,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812293644387",
+  "sourceColor": "as picture color"
+},
+{
+  "slug": "neravia-beaded-fringe-mini-dress-red",
+  "name": "Neravia Beaded Fringe Mini Dress — Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 429.9,
+  "colors": [
+    "#A3222D"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W"
+  ],
+  "description": "A strapless red mini dress with a structured beaded bodice and a fringed skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/neravia-beaded-fringe-mini-dress-red/front.webp",
+    "/products/neravia-beaded-fringe-mini-dress-red/back.webp",
+    "/products/neravia-beaded-fringe-mini-dress-red/left.webp",
+    "/products/neravia-beaded-fringe-mini-dress-red/right.webp"
+  ],
+  "stock": 106,
+  "unitCostUsd": 143.07,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812245890987",
+  "sourceColor": "Model  Color"
+},
+{
+  "slug": "celivana-lace-up-halter-gown-champagne",
+  "name": "Celivana Lace-Up Halter Gown — Champagne",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 255.9,
+  "colors": [
+    "#D6BC87"
+  ],
+  "colorNames": [
+    "Champagne"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A pleated floor-length halter gown with a wide gathered waist, a lace-up back and a draped neck tie.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celivana-lace-up-halter-gown-champagne/front.webp",
+    "/products/celivana-lace-up-halter-gown-champagne/back.webp",
+    "/products/celivana-lace-up-halter-gown-champagne/left.webp",
+    "/products/celivana-lace-up-halter-gown-champagne/right.webp"
+  ],
+  "stock": 349,
+  "unitCostUsd": 85.3,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810335051258",
+  "sourceColor": "Champagne"
+},
+{
+  "slug": "celivana-lace-up-halter-gown-black",
+  "name": "Celivana Lace-Up Halter Gown — Black",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 255.9,
+  "colors": [
+    "#252427"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A pleated floor-length halter gown with a wide gathered waist, a lace-up back and a draped neck tie.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celivana-lace-up-halter-gown-black/front.webp",
+    "/products/celivana-lace-up-halter-gown-black/back.webp",
+    "/products/celivana-lace-up-halter-gown-black/left.webp",
+    "/products/celivana-lace-up-halter-gown-black/right.webp"
+  ],
+  "stock": 351,
+  "unitCostUsd": 85.3,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810335051258",
+  "sourceColor": "black"
+},
+{
+  "slug": "celivana-lace-up-halter-gown-burgundy",
+  "name": "Celivana Lace-Up Halter Gown — Burgundy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 255.9,
+  "colors": [
+    "#651B2A"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A pleated floor-length halter gown with a wide gathered waist, a lace-up back and a draped neck tie.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celivana-lace-up-halter-gown-burgundy/front.webp",
+    "/products/celivana-lace-up-halter-gown-burgundy/back.webp",
+    "/products/celivana-lace-up-halter-gown-burgundy/left.webp",
+    "/products/celivana-lace-up-halter-gown-burgundy/right.webp"
+  ],
+  "stock": 351,
+  "unitCostUsd": 85.3,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810335051258",
+  "sourceColor": "Burgundy"
+},
+{
+  "slug": "celivana-lace-up-halter-gown-antique-gold",
+  "name": "Celivana Lace-Up Halter Gown — Antique Gold",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 255.9,
+  "colors": [
+    "#A69350"
+  ],
+  "colorNames": [
+    "Antique Gold"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A pleated floor-length halter gown with a wide gathered waist, a lace-up back and a draped neck tie.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celivana-lace-up-halter-gown-antique-gold/front.webp",
+    "/products/celivana-lace-up-halter-gown-antique-gold/back.webp",
+    "/products/celivana-lace-up-halter-gown-antique-gold/left.webp",
+    "/products/celivana-lace-up-halter-gown-antique-gold/right.webp"
+  ],
+  "stock": 351,
+  "unitCostUsd": 85.3,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810335051258",
+  "sourceColor": "Gold"
+},
+{
+  "slug": "celivana-lace-up-halter-gown-charcoal",
+  "name": "Celivana Lace-Up Halter Gown — Charcoal",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 255.9,
+  "colors": [
+    "#52535C"
+  ],
+  "colorNames": [
+    "Charcoal"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A pleated floor-length halter gown with a wide gathered waist, a lace-up back and a draped neck tie.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celivana-lace-up-halter-gown-charcoal/front.webp",
+    "/products/celivana-lace-up-halter-gown-charcoal/back.webp",
+    "/products/celivana-lace-up-halter-gown-charcoal/left.webp",
+    "/products/celivana-lace-up-halter-gown-charcoal/right.webp"
+  ],
+  "stock": 351,
+  "unitCostUsd": 85.3,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810335051258",
+  "sourceColor": "GRAY"
 }
 ];
 
@@ -31974,6 +32416,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "orvella-tailored-lace-slit-gown-black",
+  "seravina-sequin-halter-gown-rose-pink",
+  "viorelle-beaded-mermaid-gown-ruby-red",
+  "lisavelle-beaded-strapless-gown-ice-blue",
+  "neravia-beaded-fringe-mini-dress-red",
+  "celivana-lace-up-halter-gown-champagne",
+  "celivana-lace-up-halter-gown-black",
+  "celivana-lace-up-halter-gown-burgundy",
+  "celivana-lace-up-halter-gown-antique-gold",
+  "celivana-lace-up-halter-gown-charcoal",
+
   "solvaya-ribbed-halter-crop-top-white",
   "annessa-lapel-tie-waist-romper-white",
   "savelle-ribbed-v-neck-tank-apricot",
