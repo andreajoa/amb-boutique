@@ -2,6 +2,26 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
+      "slug": "orvella-tailored-lace-slit-gown-blue",
+      "name": "Orvella Tailored Lace-Slit Gown — Blue",
+      "image": "/products/orvella-tailored-lace-slit-gown-blue/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset.",
+      "category": "Dresses",
+      "arrivalRank": 1257,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "lisavelle-beaded-strapless-gown-blue",
+      "name": "Lisavelle Beaded Strapless Gown — Blue",
+      "image": "/products/lisavelle-beaded-strapless-gown-blue/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A floor-length gown with a strapless plunge neckline and beaded detailing.",
+      "category": "Dresses",
+      "arrivalRank": 1247,
+      "classification": "verified-model"
+    },
+    {
       "slug": "serlina-leopard-print-slip-maxi-dress-sand",
       "name": "Serlina Leopard-Print Slip Maxi Dress — Sand Leopard",
       "image": "/products/serlina-leopard-print-slip-maxi-dress-sand/front.webp",
@@ -19,26 +39,6 @@
       "copy": "A floor-length bridal gown with a plunging V-neck, slender straps and a flowing tulle skirt.",
       "category": "Dresses",
       "arrivalRank": 1234,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "orvella-tailored-lace-slit-gown-white",
-      "name": "Orvella Tailored Lace-Slit Gown — White",
-      "image": "/products/orvella-tailored-lace-slit-gown-white/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset.",
-      "category": "Dresses",
-      "arrivalRank": 1232,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "lisavelle-beaded-strapless-gown-black",
-      "name": "Lisavelle Beaded Strapless Gown — Black",
-      "image": "/products/lisavelle-beaded-strapless-gown-black/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A floor-length gown with a strapless plunge neckline and beaded detailing.",
-      "category": "Dresses",
-      "arrivalRank": 1230,
       "classification": "verified-model"
     }
   ]

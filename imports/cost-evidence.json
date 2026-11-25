@@ -1293,13 +1293,61 @@
    "landedCostUsd": 189.55,
    "source": "catalog-20261123-batch41-bindings.json"
   },
+  "lisavelle-beaded-strapless-gown-blue": {
+   "landedCostUsd": 189.67,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "lisavelle-beaded-strapless-gown-brown": {
+   "landedCostUsd": 189.67,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "lisavelle-beaded-strapless-gown-gray": {
+   "landedCostUsd": 189.67,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "lisavelle-beaded-strapless-gown-green": {
+   "landedCostUsd": 189.67,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
   "lisavelle-beaded-strapless-gown-ice-blue": {
    "landedCostUsd": 189.55,
    "source": "catalog-20261123-batch35-bindings.json"
   },
+  "lisavelle-beaded-strapless-gown-ivory": {
+   "landedCostUsd": 189.67,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "lisavelle-beaded-strapless-gown-khaki": {
+   "landedCostUsd": 189.67,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "lisavelle-beaded-strapless-gown-orange": {
+   "landedCostUsd": 189.67,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "lisavelle-beaded-strapless-gown-pink": {
+   "landedCostUsd": 189.67,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "lisavelle-beaded-strapless-gown-purple": {
+   "landedCostUsd": 189.67,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "lisavelle-beaded-strapless-gown-red": {
+   "landedCostUsd": 189.67,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "lisavelle-beaded-strapless-gown-silver": {
+   "landedCostUsd": 189.67,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
   "lisavelle-beaded-strapless-gown-white": {
    "landedCostUsd": 189.67,
    "source": "catalog-20261123-batch41-bindings.json"
+  },
+  "lisavelle-beaded-strapless-gown-yellow": {
+   "landedCostUsd": 189.67,
+   "source": "catalog-20261123-batch42-bindings.json"
   },
   "lisette-textured-button-front-cardigan-crimson-mix": {
    "landedCostUsd": 33.91,
@@ -2177,9 +2225,49 @@
    "landedCostUsd": 138.25,
    "source": "catalog-20261123-batch35-bindings.json"
   },
+  "orvella-tailored-lace-slit-gown-blue": {
+   "landedCostUsd": 138.34,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "orvella-tailored-lace-slit-gown-burgundy": {
+   "landedCostUsd": 138.34,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "orvella-tailored-lace-slit-gown-champagne": {
+   "landedCostUsd": 138.34,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "orvella-tailored-lace-slit-gown-green": {
+   "landedCostUsd": 138.34,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
   "orvella-tailored-lace-slit-gown-ivory": {
    "landedCostUsd": 138.25,
    "source": "catalog-20261123-batch41-bindings.json"
+  },
+  "orvella-tailored-lace-slit-gown-navy-blue": {
+   "landedCostUsd": 138.34,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "orvella-tailored-lace-slit-gown-orange": {
+   "landedCostUsd": 138.34,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "orvella-tailored-lace-slit-gown-pink": {
+   "landedCostUsd": 138.34,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "orvella-tailored-lace-slit-gown-purple": {
+   "landedCostUsd": 138.34,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "orvella-tailored-lace-slit-gown-red": {
+   "landedCostUsd": 138.34,
+   "source": "catalog-20261123-batch42-bindings.json"
+  },
+  "orvella-tailored-lace-slit-gown-sky-blue": {
+   "landedCostUsd": 138.34,
+   "source": "catalog-20261123-batch42-bindings.json"
   },
   "orvella-tailored-lace-slit-gown-white": {
    "landedCostUsd": 138.34,

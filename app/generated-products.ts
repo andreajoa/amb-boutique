@@ -35714,6 +35714,960 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256811609011827",
   "sourceColor": "WHITE"
+},
+{
+  "slug": "orvella-tailored-lace-slit-gown-blue",
+  "name": "Orvella Tailored Lace-Slit Gown — Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 415.9,
+  "colors": [
+    "#3C65A4"
+  ],
+  "colorNames": [
+    "Blue"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset. Gallery illustrates the supplier-listed Blue color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/orvella-tailored-lace-slit-gown-blue/front.webp",
+    "/products/orvella-tailored-lace-slit-gown-blue/back.webp",
+    "/products/orvella-tailored-lace-slit-gown-blue/left.webp",
+    "/products/orvella-tailored-lace-slit-gown-blue/right.webp"
+  ],
+  "stock": 910,
+  "unitCostUsd": 138.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809847930202",
+  "sourceColor": "Blue"
+},
+{
+  "slug": "orvella-tailored-lace-slit-gown-burgundy",
+  "name": "Orvella Tailored Lace-Slit Gown — Burgundy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 415.9,
+  "colors": [
+    "#663043"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset. Gallery illustrates the supplier-listed Burgundy color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/orvella-tailored-lace-slit-gown-burgundy/front.webp",
+    "/products/orvella-tailored-lace-slit-gown-burgundy/back.webp",
+    "/products/orvella-tailored-lace-slit-gown-burgundy/left.webp",
+    "/products/orvella-tailored-lace-slit-gown-burgundy/right.webp"
+  ],
+  "stock": 907,
+  "unitCostUsd": 138.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809847930202",
+  "sourceColor": "Burgundy"
+},
+{
+  "slug": "orvella-tailored-lace-slit-gown-champagne",
+  "name": "Orvella Tailored Lace-Slit Gown — Champagne",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 415.9,
+  "colors": [
+    "#C8AD87"
+  ],
+  "colorNames": [
+    "Champagne"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset. Gallery illustrates the supplier-listed Champagne color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/orvella-tailored-lace-slit-gown-champagne/front.webp",
+    "/products/orvella-tailored-lace-slit-gown-champagne/back.webp",
+    "/products/orvella-tailored-lace-slit-gown-champagne/left.webp",
+    "/products/orvella-tailored-lace-slit-gown-champagne/right.webp"
+  ],
+  "stock": 909,
+  "unitCostUsd": 138.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809847930202",
+  "sourceColor": "Champagne"
+},
+{
+  "slug": "orvella-tailored-lace-slit-gown-green",
+  "name": "Orvella Tailored Lace-Slit Gown — Green",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 415.9,
+  "colors": [
+    "#456956"
+  ],
+  "colorNames": [
+    "Green"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset. Gallery illustrates the supplier-listed Green color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/orvella-tailored-lace-slit-gown-green/front.webp",
+    "/products/orvella-tailored-lace-slit-gown-green/back.webp",
+    "/products/orvella-tailored-lace-slit-gown-green/left.webp",
+    "/products/orvella-tailored-lace-slit-gown-green/right.webp"
+  ],
+  "stock": 909,
+  "unitCostUsd": 138.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809847930202",
+  "sourceColor": "green"
+},
+{
+  "slug": "orvella-tailored-lace-slit-gown-navy-blue",
+  "name": "Orvella Tailored Lace-Slit Gown — Navy Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 415.9,
+  "colors": [
+    "#232D45"
+  ],
+  "colorNames": [
+    "Navy Blue"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset. Gallery illustrates the supplier-listed Navy Blue color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/orvella-tailored-lace-slit-gown-navy-blue/front.webp",
+    "/products/orvella-tailored-lace-slit-gown-navy-blue/back.webp",
+    "/products/orvella-tailored-lace-slit-gown-navy-blue/left.webp",
+    "/products/orvella-tailored-lace-slit-gown-navy-blue/right.webp"
+  ],
+  "stock": 909,
+  "unitCostUsd": 138.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809847930202",
+  "sourceColor": "Navy Blue"
+},
+{
+  "slug": "orvella-tailored-lace-slit-gown-orange",
+  "name": "Orvella Tailored Lace-Slit Gown — Orange",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 415.9,
+  "colors": [
+    "#CA7737"
+  ],
+  "colorNames": [
+    "Orange"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset. Gallery illustrates the supplier-listed Orange color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/orvella-tailored-lace-slit-gown-orange/front.webp",
+    "/products/orvella-tailored-lace-slit-gown-orange/back.webp",
+    "/products/orvella-tailored-lace-slit-gown-orange/left.webp",
+    "/products/orvella-tailored-lace-slit-gown-orange/right.webp"
+  ],
+  "stock": 910,
+  "unitCostUsd": 138.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809847930202",
+  "sourceColor": "Orange"
+},
+{
+  "slug": "orvella-tailored-lace-slit-gown-pink",
+  "name": "Orvella Tailored Lace-Slit Gown — Pink",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 415.9,
+  "colors": [
+    "#D691AA"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset. Gallery illustrates the supplier-listed Pink color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/orvella-tailored-lace-slit-gown-pink/front.webp",
+    "/products/orvella-tailored-lace-slit-gown-pink/back.webp",
+    "/products/orvella-tailored-lace-slit-gown-pink/left.webp",
+    "/products/orvella-tailored-lace-slit-gown-pink/right.webp"
+  ],
+  "stock": 910,
+  "unitCostUsd": 138.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809847930202",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "orvella-tailored-lace-slit-gown-purple",
+  "name": "Orvella Tailored Lace-Slit Gown — Purple",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 415.9,
+  "colors": [
+    "#73548B"
+  ],
+  "colorNames": [
+    "Purple"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset. Gallery illustrates the supplier-listed Purple color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/orvella-tailored-lace-slit-gown-purple/front.webp",
+    "/products/orvella-tailored-lace-slit-gown-purple/back.webp",
+    "/products/orvella-tailored-lace-slit-gown-purple/left.webp",
+    "/products/orvella-tailored-lace-slit-gown-purple/right.webp"
+  ],
+  "stock": 910,
+  "unitCostUsd": 138.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809847930202",
+  "sourceColor": "PURPLE"
+},
+{
+  "slug": "orvella-tailored-lace-slit-gown-red",
+  "name": "Orvella Tailored Lace-Slit Gown — Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 415.9,
+  "colors": [
+    "#AB3046"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset. Gallery illustrates the supplier-listed Red color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/orvella-tailored-lace-slit-gown-red/front.webp",
+    "/products/orvella-tailored-lace-slit-gown-red/back.webp",
+    "/products/orvella-tailored-lace-slit-gown-red/left.webp",
+    "/products/orvella-tailored-lace-slit-gown-red/right.webp"
+  ],
+  "stock": 908,
+  "unitCostUsd": 138.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809847930202",
+  "sourceColor": "Red"
+},
+{
+  "slug": "orvella-tailored-lace-slit-gown-sky-blue",
+  "name": "Orvella Tailored Lace-Slit Gown — Sky Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 415.9,
+  "colors": [
+    "#93BDDE"
+  ],
+  "colorNames": [
+    "Sky Blue"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "16W",
+    "20W",
+    "22W",
+    "24W",
+    "26W"
+  ],
+  "description": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset. Gallery illustrates the supplier-listed Sky Blue color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/orvella-tailored-lace-slit-gown-sky-blue/front.webp",
+    "/products/orvella-tailored-lace-slit-gown-sky-blue/back.webp",
+    "/products/orvella-tailored-lace-slit-gown-sky-blue/left.webp",
+    "/products/orvella-tailored-lace-slit-gown-sky-blue/right.webp"
+  ],
+  "stock": 909,
+  "unitCostUsd": 138.34,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256809847930202",
+  "sourceColor": "SKY BLUE"
+},
+{
+  "slug": "lisavelle-beaded-strapless-gown-blue",
+  "name": "Lisavelle Beaded Strapless Gown — Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 569.9,
+  "colors": [
+    "#3C65A4"
+  ],
+  "colorNames": [
+    "Blue"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20W",
+    "22W"
+  ],
+  "description": "A floor-length gown with a strapless plunge neckline and beaded detailing. Gallery illustrates the supplier-listed Blue color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lisavelle-beaded-strapless-gown-blue/front.webp",
+    "/products/lisavelle-beaded-strapless-gown-blue/back.webp",
+    "/products/lisavelle-beaded-strapless-gown-blue/left.webp",
+    "/products/lisavelle-beaded-strapless-gown-blue/right.webp"
+  ],
+  "stock": 1000,
+  "unitCostUsd": 189.67,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812293644387",
+  "sourceColor": "Blue"
+},
+{
+  "slug": "lisavelle-beaded-strapless-gown-brown",
+  "name": "Lisavelle Beaded Strapless Gown — Brown",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 569.9,
+  "colors": [
+    "#745141"
+  ],
+  "colorNames": [
+    "Brown"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20W",
+    "22W"
+  ],
+  "description": "A floor-length gown with a strapless plunge neckline and beaded detailing. Gallery illustrates the supplier-listed Brown color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lisavelle-beaded-strapless-gown-brown/front.webp",
+    "/products/lisavelle-beaded-strapless-gown-brown/back.webp",
+    "/products/lisavelle-beaded-strapless-gown-brown/left.webp",
+    "/products/lisavelle-beaded-strapless-gown-brown/right.webp"
+  ],
+  "stock": 1000,
+  "unitCostUsd": 189.67,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812293644387",
+  "sourceColor": "Brown"
+},
+{
+  "slug": "lisavelle-beaded-strapless-gown-gray",
+  "name": "Lisavelle Beaded Strapless Gown — Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 569.9,
+  "colors": [
+    "#827E83"
+  ],
+  "colorNames": [
+    "Gray"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20W",
+    "22W"
+  ],
+  "description": "A floor-length gown with a strapless plunge neckline and beaded detailing. Gallery illustrates the supplier-listed Gray color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lisavelle-beaded-strapless-gown-gray/front.webp",
+    "/products/lisavelle-beaded-strapless-gown-gray/back.webp",
+    "/products/lisavelle-beaded-strapless-gown-gray/left.webp",
+    "/products/lisavelle-beaded-strapless-gown-gray/right.webp"
+  ],
+  "stock": 1000,
+  "unitCostUsd": 189.67,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812293644387",
+  "sourceColor": "GRAY"
+},
+{
+  "slug": "lisavelle-beaded-strapless-gown-green",
+  "name": "Lisavelle Beaded Strapless Gown — Green",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 569.9,
+  "colors": [
+    "#456956"
+  ],
+  "colorNames": [
+    "Green"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20W",
+    "22W"
+  ],
+  "description": "A floor-length gown with a strapless plunge neckline and beaded detailing. Gallery illustrates the supplier-listed Green color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lisavelle-beaded-strapless-gown-green/front.webp",
+    "/products/lisavelle-beaded-strapless-gown-green/back.webp",
+    "/products/lisavelle-beaded-strapless-gown-green/left.webp",
+    "/products/lisavelle-beaded-strapless-gown-green/right.webp"
+  ],
+  "stock": 1000,
+  "unitCostUsd": 189.67,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812293644387",
+  "sourceColor": "green"
+},
+{
+  "slug": "lisavelle-beaded-strapless-gown-ivory",
+  "name": "Lisavelle Beaded Strapless Gown — Ivory",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 569.9,
+  "colors": [
+    "#EEE5D5"
+  ],
+  "colorNames": [
+    "Ivory"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20W",
+    "22W"
+  ],
+  "description": "A floor-length gown with a strapless plunge neckline and beaded detailing. Gallery illustrates the supplier-listed Ivory color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lisavelle-beaded-strapless-gown-ivory/front.webp",
+    "/products/lisavelle-beaded-strapless-gown-ivory/back.webp",
+    "/products/lisavelle-beaded-strapless-gown-ivory/left.webp",
+    "/products/lisavelle-beaded-strapless-gown-ivory/right.webp"
+  ],
+  "stock": 1000,
+  "unitCostUsd": 189.67,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812293644387",
+  "sourceColor": "Ivory"
+},
+{
+  "slug": "lisavelle-beaded-strapless-gown-khaki",
+  "name": "Lisavelle Beaded Strapless Gown — Khaki",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 569.9,
+  "colors": [
+    "#AA9875"
+  ],
+  "colorNames": [
+    "Khaki"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20W",
+    "22W"
+  ],
+  "description": "A floor-length gown with a strapless plunge neckline and beaded detailing. Gallery illustrates the supplier-listed Khaki color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lisavelle-beaded-strapless-gown-khaki/front.webp",
+    "/products/lisavelle-beaded-strapless-gown-khaki/back.webp",
+    "/products/lisavelle-beaded-strapless-gown-khaki/left.webp",
+    "/products/lisavelle-beaded-strapless-gown-khaki/right.webp"
+  ],
+  "stock": 1000,
+  "unitCostUsd": 189.67,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812293644387",
+  "sourceColor": "Khaki"
+},
+{
+  "slug": "lisavelle-beaded-strapless-gown-orange",
+  "name": "Lisavelle Beaded Strapless Gown — Orange",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 569.9,
+  "colors": [
+    "#CA7737"
+  ],
+  "colorNames": [
+    "Orange"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20W",
+    "22W"
+  ],
+  "description": "A floor-length gown with a strapless plunge neckline and beaded detailing. Gallery illustrates the supplier-listed Orange color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lisavelle-beaded-strapless-gown-orange/front.webp",
+    "/products/lisavelle-beaded-strapless-gown-orange/back.webp",
+    "/products/lisavelle-beaded-strapless-gown-orange/left.webp",
+    "/products/lisavelle-beaded-strapless-gown-orange/right.webp"
+  ],
+  "stock": 1000,
+  "unitCostUsd": 189.67,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812293644387",
+  "sourceColor": "Orange"
+},
+{
+  "slug": "lisavelle-beaded-strapless-gown-pink",
+  "name": "Lisavelle Beaded Strapless Gown — Pink",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 569.9,
+  "colors": [
+    "#D691AA"
+  ],
+  "colorNames": [
+    "Pink"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20W",
+    "22W"
+  ],
+  "description": "A floor-length gown with a strapless plunge neckline and beaded detailing. Gallery illustrates the supplier-listed Pink color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lisavelle-beaded-strapless-gown-pink/front.webp",
+    "/products/lisavelle-beaded-strapless-gown-pink/back.webp",
+    "/products/lisavelle-beaded-strapless-gown-pink/left.webp",
+    "/products/lisavelle-beaded-strapless-gown-pink/right.webp"
+  ],
+  "stock": 1000,
+  "unitCostUsd": 189.67,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812293644387",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "lisavelle-beaded-strapless-gown-purple",
+  "name": "Lisavelle Beaded Strapless Gown — Purple",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 569.9,
+  "colors": [
+    "#73548B"
+  ],
+  "colorNames": [
+    "Purple"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20W",
+    "22W"
+  ],
+  "description": "A floor-length gown with a strapless plunge neckline and beaded detailing. Gallery illustrates the supplier-listed Purple color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lisavelle-beaded-strapless-gown-purple/front.webp",
+    "/products/lisavelle-beaded-strapless-gown-purple/back.webp",
+    "/products/lisavelle-beaded-strapless-gown-purple/left.webp",
+    "/products/lisavelle-beaded-strapless-gown-purple/right.webp"
+  ],
+  "stock": 1000,
+  "unitCostUsd": 189.67,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812293644387",
+  "sourceColor": "PURPLE"
+},
+{
+  "slug": "lisavelle-beaded-strapless-gown-red",
+  "name": "Lisavelle Beaded Strapless Gown — Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 569.9,
+  "colors": [
+    "#AB3046"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20W",
+    "22W"
+  ],
+  "description": "A floor-length gown with a strapless plunge neckline and beaded detailing. Gallery illustrates the supplier-listed Red color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lisavelle-beaded-strapless-gown-red/front.webp",
+    "/products/lisavelle-beaded-strapless-gown-red/back.webp",
+    "/products/lisavelle-beaded-strapless-gown-red/left.webp",
+    "/products/lisavelle-beaded-strapless-gown-red/right.webp"
+  ],
+  "stock": 1000,
+  "unitCostUsd": 189.67,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812293644387",
+  "sourceColor": "Red"
+},
+{
+  "slug": "lisavelle-beaded-strapless-gown-silver",
+  "name": "Lisavelle Beaded Strapless Gown — Silver",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 569.9,
+  "colors": [
+    "#ADABB2"
+  ],
+  "colorNames": [
+    "Silver"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20W",
+    "22W"
+  ],
+  "description": "A floor-length gown with a strapless plunge neckline and beaded detailing. Gallery illustrates the supplier-listed Silver color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lisavelle-beaded-strapless-gown-silver/front.webp",
+    "/products/lisavelle-beaded-strapless-gown-silver/back.webp",
+    "/products/lisavelle-beaded-strapless-gown-silver/left.webp",
+    "/products/lisavelle-beaded-strapless-gown-silver/right.webp"
+  ],
+  "stock": 1000,
+  "unitCostUsd": 189.67,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812293644387",
+  "sourceColor": "Silver"
+},
+{
+  "slug": "lisavelle-beaded-strapless-gown-yellow",
+  "name": "Lisavelle Beaded Strapless Gown — Yellow",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 569.9,
+  "colors": [
+    "#E4C269"
+  ],
+  "colorNames": [
+    "Yellow"
+  ],
+  "sizes": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20W",
+    "22W"
+  ],
+  "description": "A floor-length gown with a strapless plunge neckline and beaded detailing. Gallery illustrates the supplier-listed Yellow color on the same dress design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lisavelle-beaded-strapless-gown-yellow/front.webp",
+    "/products/lisavelle-beaded-strapless-gown-yellow/back.webp",
+    "/products/lisavelle-beaded-strapless-gown-yellow/left.webp",
+    "/products/lisavelle-beaded-strapless-gown-yellow/right.webp"
+  ],
+  "stock": 1000,
+  "unitCostUsd": 189.67,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812293644387",
+  "sourceColor": "YELLOW"
 }
 ];
 
@@ -35723,6 +36677,29 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "orvella-tailored-lace-slit-gown-blue",
+  "orvella-tailored-lace-slit-gown-burgundy",
+  "orvella-tailored-lace-slit-gown-champagne",
+  "orvella-tailored-lace-slit-gown-green",
+  "orvella-tailored-lace-slit-gown-navy-blue",
+  "orvella-tailored-lace-slit-gown-orange",
+  "orvella-tailored-lace-slit-gown-pink",
+  "orvella-tailored-lace-slit-gown-purple",
+  "orvella-tailored-lace-slit-gown-red",
+  "orvella-tailored-lace-slit-gown-sky-blue",
+  "lisavelle-beaded-strapless-gown-blue",
+  "lisavelle-beaded-strapless-gown-brown",
+  "lisavelle-beaded-strapless-gown-gray",
+  "lisavelle-beaded-strapless-gown-green",
+  "lisavelle-beaded-strapless-gown-ivory",
+  "lisavelle-beaded-strapless-gown-khaki",
+  "lisavelle-beaded-strapless-gown-orange",
+  "lisavelle-beaded-strapless-gown-pink",
+  "lisavelle-beaded-strapless-gown-purple",
+  "lisavelle-beaded-strapless-gown-red",
+  "lisavelle-beaded-strapless-gown-silver",
+  "lisavelle-beaded-strapless-gown-yellow",
+
   "serlina-leopard-print-slip-maxi-dress-sand",
   "isavelle-v-neck-tulle-bridal-gown-white",
   "isavelle-v-neck-tulle-bridal-gown-ivory",
