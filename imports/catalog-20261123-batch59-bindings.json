@@ -1,0 +1,23 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "avelisse-patterned-zip-tote-chocolate",
+      "sourceProductId": "3256812237797031",
+      "sourceColor": "Chocolate",
+      "supplierId": "cmuw3d0i5000804l6tb7hr1fi",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000058334573430"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 37.88
+      },
+      "stockBySize": {
+        "One Size": 291
+      },
+      "retailPriceUsd": 113.9,
+      "verifiedAtUtc": "2026-11-26T23:07:29.649Z"
+    }
+  ]
+}

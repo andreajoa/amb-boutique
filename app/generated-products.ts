@@ -39525,6 +39525,40 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256813425726649",
   "sourceColor": "Pink"
+},
+{
+  "slug": "avelisse-patterned-zip-tote-chocolate",
+  "name": "Avelisse Patterned Zip Tote — Chocolate",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 113.9,
+  "colors": [
+    "#674C40"
+  ],
+  "colorNames": [
+    "Chocolate"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A structured shoulder tote with a patterned exterior, chocolate trim, a zip closure and a lined main compartment. The supplier’s open view shows the interior with styling props.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/avelisse-patterned-zip-tote-chocolate/front.webp",
+    "/products/avelisse-patterned-zip-tote-chocolate/back.webp",
+    "/products/avelisse-patterned-zip-tote-chocolate/left.webp",
+    "/products/avelisse-patterned-zip-tote-chocolate/right.webp",
+    "/products/avelisse-patterned-zip-tote-chocolate/inside.webp"
+  ],
+  "stock": 291,
+  "unitCostUsd": 37.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812237797031",
+  "sourceColor": "Chocolate"
 }
 ];
 
@@ -39534,6 +39568,8 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "avelisse-patterned-zip-tote-chocolate",
+
   "levienne-rainbow-stripe-lounge-set-black",
   "levienne-rainbow-stripe-lounge-set-khaki",
   "levienne-rainbow-stripe-lounge-set-green",
