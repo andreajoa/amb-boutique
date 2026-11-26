@@ -677,6 +677,10 @@
    "landedCostUsd": 13.58,
    "source": "catalog-20261025-batch04-supplier-bindings.json"
   },
+  "cocelle-gingerbread-crewneck-sweatshirt-sage": {
+   "landedCostUsd": 17.65,
+   "source": "catalog-20261123-batch56-bindings.json"
+  },
   "colette-midi-dress": {
    "landedCostUsd": 32.29,
    "source": "cost-evidence-extra-20261028.json: price-audit-refresh 25/10 via all-codex-links (3256808122208834|blue, 2026-10-25T03:01:56.897Z) · identidade confirmada"
@@ -1372,6 +1376,10 @@
   "linea-stripe-maxi-dress": {
    "landedCostUsd": 13.14,
    "source": "catalog-20261025-batch04-supplier-bindings.json"
+  },
+  "linelle-contrast-cross-back-gown-black-champagne": {
+   "landedCostUsd": 33.33,
+   "source": "catalog-20261123-batch56-bindings.json"
   },
   "liora-twist-back-knit-tank-black": {
    "landedCostUsd": 11.44,
@@ -2077,6 +2085,14 @@
    "landedCostUsd": 8.17,
    "source": "catalog-20261026-new-products-bindings.json"
   },
+  "neressa-cape-sleeve-mini-dress-purple": {
+   "landedCostUsd": 37.77,
+   "source": "catalog-20261123-batch56-bindings.json"
+  },
+  "neressa-cape-sleeve-mini-dress-red": {
+   "landedCostUsd": 37.43,
+   "source": "catalog-20261123-batch56-bindings.json"
+  },
   "nerina-blue-satin-midi-dress": {
    "landedCostUsd": 21.94,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
@@ -2128,6 +2144,10 @@
   "nico-maxi-dress": {
    "landedCostUsd": 33.79,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-35-46.396797+00-00/analysis-2026-10-25T03-10-11.000553+00-00)"
+  },
+  "nivalie-snowman-crewneck-sweatshirt-gray": {
+   "landedCostUsd": 14.89,
+   "source": "catalog-20261123-batch56-bindings.json"
   },
   "noctelle-strapless-corset-dress-red": {
    "landedCostUsd": 43.97,
@@ -2573,6 +2593,10 @@
    "landedCostUsd": 149.38,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T02-08-48.193261+00-00/analysis-2026-10-25T03-06-30.755854+00-00)"
   },
+  "ravielle-graffiti-bomber-jacket-multicolor": {
+   "landedCostUsd": 33.38,
+   "source": "catalog-20261123-batch56-bindings.json"
+  },
   "ravissa-pointed-buckle-pump-abstract-multi": {
    "landedCostUsd": 64.08,
    "source": "catalog-20261123-batch38-bindings.json"
@@ -2989,6 +3013,10 @@
    "landedCostUsd": 26.01,
    "source": "catalog-20261123-batch22-bindings.json"
   },
+  "sorelia-chiffon-high-low-dress-navy": {
+   "landedCostUsd": 31.28,
+   "source": "catalog-20261123-batch56-bindings.json"
+  },
   "sorelle-draped-halter-maxi-dress-taupe": {
    "landedCostUsd": 25.75,
    "source": "catalog-20261123-batch02-bindings.json"
@@ -3044,6 +3072,10 @@
   "taupe-vneck-print-midi-dress": {
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
+  },
+  "tavienne-belted-houndstooth-jacket-khaki": {
+   "landedCostUsd": 54.99,
+   "source": "catalog-20261123-batch56-bindings.json"
   },
   "tavienne-layered-mesh-midi-skirt-dusty-rose": {
    "landedCostUsd": 32.21,
