@@ -5889,5 +5889,114 @@
    "M": 99,
    "S": 100
   }
+ },
+ "maelle-lace-bow-high-low-dress-grey": {
+  "stockBySize": {
+   "XXXL": 30,
+   "XXL": 30,
+   "L": 30,
+   "XS": 30,
+   "XL": 30,
+   "S": 28,
+   "M": 30
+  }
+ },
+ "maelle-lace-bow-high-low-dress-khaki": {
+  "stockBySize": {
+   "M": 30,
+   "XXXL": 30,
+   "XXL": 30,
+   "L": 30,
+   "XS": 30,
+   "S": 30,
+   "XL": 30
+  }
+ },
+ "maelle-lace-bow-high-low-dress-red": {
+  "stockBySize": {
+   "XXL": 30,
+   "XXXL": 30,
+   "L": 30,
+   "XL": 30,
+   "XS": 30,
+   "M": 30,
+   "S": 30
+  }
+ },
+ "maelle-lace-bow-high-low-dress-pink": {
+  "stockBySize": {
+   "XS": 30,
+   "L": 30,
+   "XXL": 30,
+   "S": 30,
+   "XL": 29,
+   "XXXL": 30,
+   "M": 30
+  }
+ },
+ "maelle-lace-bow-high-low-dress-navy": {
+  "stockBySize": {
+   "L": 30,
+   "M": 30,
+   "S": 30,
+   "XXL": 30,
+   "XXXL": 30,
+   "XL": 30,
+   "XS": 30
+  }
+ },
+ "mirevie-smile-hoodie-jogger-set-green": {
+  "stockBySize": {
+   "XXL": 97,
+   "XL": 99,
+   "S": 99,
+   "L": 100,
+   "M": 100
+  }
+ },
+ "mirevie-smile-hoodie-jogger-set-black": {
+  "stockBySize": {
+   "M": 99,
+   "S": 100,
+   "XL": 100,
+   "L": 100,
+   "XXL": 99
+  }
+ },
+ "mirevie-smile-hoodie-jogger-set-dark-brown": {
+  "stockBySize": {
+   "L": 100,
+   "M": 99,
+   "XXL": 100,
+   "XL": 100,
+   "S": 100
+  }
+ },
+ "mirevie-smile-hoodie-jogger-set-purple": {
+  "stockBySize": {
+   "S": 99,
+   "L": 99,
+   "M": 99,
+   "XL": 99,
+   "XXL": 100
+  }
+ },
+ "mirevie-smile-hoodie-jogger-set-orange": {
+  "stockBySize": {
+   "XXL": 99,
+   "M": 99,
+   "S": 99,
+   "XL": 98,
+   "L": 96
+  }
+ },
+ "mirevie-smile-hoodie-jogger-set-sky-blue": {
+  "stockBySize": {
+   "S": 99,
+   "M": 100,
+   "L": 99,
+   "XL": 100,
+   "XXL": 100
+  }
  }
 }

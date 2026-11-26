@@ -38741,6 +38741,428 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256813242880059",
   "sourceColor": "green"
+},
+{
+  "slug": "maelle-lace-bow-high-low-dress-grey",
+  "name": "Maelle Lace-Bow High-Low Dress — Silver Gray",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 114.9,
+  "colors": [
+    "#9CA2AC"
+  ],
+  "colorNames": [
+    "Silver Gray"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "subcategory": "Midi Dresses",
+  "description": "A sleeveless occasion dress with a lace bodice, waist bow and flowing high-low chiffon skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/maelle-lace-bow-high-low-dress-grey/front.webp",
+    "/products/maelle-lace-bow-high-low-dress-grey/back.webp",
+    "/products/maelle-lace-bow-high-low-dress-grey/left.webp",
+    "/products/maelle-lace-bow-high-low-dress-grey/right.webp"
+  ],
+  "stock": 208,
+  "unitCostUsd": 38.08,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807618774394",
+  "sourceColor": "Grey"
+},
+{
+  "slug": "maelle-lace-bow-high-low-dress-khaki",
+  "name": "Maelle Lace-Bow High-Low Dress — Champagne",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 114.9,
+  "colors": [
+    "#C5AC8C"
+  ],
+  "colorNames": [
+    "Champagne"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "subcategory": "Midi Dresses",
+  "description": "A sleeveless occasion dress with a lace bodice, waist bow and flowing high-low chiffon skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/maelle-lace-bow-high-low-dress-khaki/front.webp",
+    "/products/maelle-lace-bow-high-low-dress-khaki/back.webp",
+    "/products/maelle-lace-bow-high-low-dress-khaki/left.webp",
+    "/products/maelle-lace-bow-high-low-dress-khaki/right.webp"
+  ],
+  "stock": 210,
+  "unitCostUsd": 38.08,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807618774394",
+  "sourceColor": "Khaki"
+},
+{
+  "slug": "maelle-lace-bow-high-low-dress-red",
+  "name": "Maelle Lace-Bow High-Low Dress — Scarlet",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 114.9,
+  "colors": [
+    "#AD1525"
+  ],
+  "colorNames": [
+    "Scarlet"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "subcategory": "Midi Dresses",
+  "description": "A sleeveless occasion dress with a lace bodice, waist bow and flowing high-low chiffon skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/maelle-lace-bow-high-low-dress-red/front.webp",
+    "/products/maelle-lace-bow-high-low-dress-red/back.webp",
+    "/products/maelle-lace-bow-high-low-dress-red/left.webp",
+    "/products/maelle-lace-bow-high-low-dress-red/right.webp"
+  ],
+  "stock": 210,
+  "unitCostUsd": 38.08,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807618774394",
+  "sourceColor": "Red"
+},
+{
+  "slug": "maelle-lace-bow-high-low-dress-pink",
+  "name": "Maelle Lace-Bow High-Low Dress — Dusty Rose",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 114.9,
+  "colors": [
+    "#BB8199"
+  ],
+  "colorNames": [
+    "Dusty Rose"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "subcategory": "Midi Dresses",
+  "description": "A sleeveless occasion dress with a lace bodice, waist bow and flowing high-low chiffon skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/maelle-lace-bow-high-low-dress-pink/front.webp",
+    "/products/maelle-lace-bow-high-low-dress-pink/back.webp",
+    "/products/maelle-lace-bow-high-low-dress-pink/left.webp",
+    "/products/maelle-lace-bow-high-low-dress-pink/right.webp"
+  ],
+  "stock": 209,
+  "unitCostUsd": 38.08,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807618774394",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "maelle-lace-bow-high-low-dress-navy",
+  "name": "Maelle Lace-Bow High-Low Dress — Navy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 114.9,
+  "colors": [
+    "#19253D"
+  ],
+  "colorNames": [
+    "Navy"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "XXXL"
+  ],
+  "subcategory": "Midi Dresses",
+  "description": "A sleeveless occasion dress with a lace bodice, waist bow and flowing high-low chiffon skirt.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/maelle-lace-bow-high-low-dress-navy/front.webp",
+    "/products/maelle-lace-bow-high-low-dress-navy/back.webp",
+    "/products/maelle-lace-bow-high-low-dress-navy/left.webp",
+    "/products/maelle-lace-bow-high-low-dress-navy/right.webp"
+  ],
+  "stock": 210,
+  "unitCostUsd": 38.08,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807618774394",
+  "sourceColor": "Navy"
+},
+{
+  "slug": "mirevie-smile-hoodie-jogger-set-green",
+  "name": "Mirevie Smile Hoodie & Jogger Set — Emerald",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 91.9,
+  "colors": [
+    "#198C50"
+  ],
+  "colorNames": [
+    "Emerald"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "An ivory long-sleeve hoodie with a smile graphic and matching-color cuffed joggers with a drawstring waist.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/mirevie-smile-hoodie-jogger-set-green/front.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-green/back.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-green/left.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-green/right.webp"
+  ],
+  "stock": 495,
+  "unitCostUsd": 30.38,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812792744122",
+  "sourceColor": "green"
+},
+{
+  "slug": "mirevie-smile-hoodie-jogger-set-black",
+  "name": "Mirevie Smile Hoodie & Jogger Set — Black",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 91.9,
+  "colors": [
+    "#282726"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "An ivory long-sleeve hoodie with a smile graphic and matching-color cuffed joggers with a drawstring waist.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/mirevie-smile-hoodie-jogger-set-black/front.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-black/back.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-black/left.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-black/right.webp"
+  ],
+  "stock": 498,
+  "unitCostUsd": 30.38,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812792744122",
+  "sourceColor": "black"
+},
+{
+  "slug": "mirevie-smile-hoodie-jogger-set-dark-brown",
+  "name": "Mirevie Smile Hoodie & Jogger Set — Chocolate",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 91.9,
+  "colors": [
+    "#644633"
+  ],
+  "colorNames": [
+    "Chocolate"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "An ivory long-sleeve hoodie with a smile graphic and matching-color cuffed joggers with a drawstring waist.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/mirevie-smile-hoodie-jogger-set-dark-brown/front.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-dark-brown/back.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-dark-brown/left.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-dark-brown/right.webp"
+  ],
+  "stock": 499,
+  "unitCostUsd": 30.38,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812792744122",
+  "sourceColor": "Dark Brown"
+},
+{
+  "slug": "mirevie-smile-hoodie-jogger-set-purple",
+  "name": "Mirevie Smile Hoodie & Jogger Set — Lilac",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 91.9,
+  "colors": [
+    "#AC94C4"
+  ],
+  "colorNames": [
+    "Lilac"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "An ivory long-sleeve hoodie with a smile graphic and matching-color cuffed joggers with a drawstring waist.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/mirevie-smile-hoodie-jogger-set-purple/front.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-purple/back.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-purple/left.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-purple/right.webp"
+  ],
+  "stock": 496,
+  "unitCostUsd": 30.38,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812792744122",
+  "sourceColor": "PURPLE"
+},
+{
+  "slug": "mirevie-smile-hoodie-jogger-set-orange",
+  "name": "Mirevie Smile Hoodie & Jogger Set — Tangerine",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 91.9,
+  "colors": [
+    "#DE6B2B"
+  ],
+  "colorNames": [
+    "Tangerine"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "An ivory long-sleeve hoodie with a smile graphic and matching-color cuffed joggers with a drawstring waist.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/mirevie-smile-hoodie-jogger-set-orange/front.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-orange/back.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-orange/left.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-orange/right.webp"
+  ],
+  "stock": 491,
+  "unitCostUsd": 30.38,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812792744122",
+  "sourceColor": "Orange"
+},
+{
+  "slug": "mirevie-smile-hoodie-jogger-set-sky-blue",
+  "name": "Mirevie Smile Hoodie & Jogger Set — Sky Blue",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 91.9,
+  "colors": [
+    "#86BADD"
+  ],
+  "colorNames": [
+    "Sky Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "An ivory long-sleeve hoodie with a smile graphic and matching-color cuffed joggers with a drawstring waist.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/mirevie-smile-hoodie-jogger-set-sky-blue/front.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-sky-blue/back.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-sky-blue/left.webp",
+    "/products/mirevie-smile-hoodie-jogger-set-sky-blue/right.webp"
+  ],
+  "stock": 498,
+  "unitCostUsd": 30.38,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812792744122",
+  "sourceColor": "SKY BLUE"
 }
 ];
 
@@ -38750,6 +39172,18 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "maelle-lace-bow-high-low-dress-grey",
+  "maelle-lace-bow-high-low-dress-khaki",
+  "maelle-lace-bow-high-low-dress-red",
+  "maelle-lace-bow-high-low-dress-pink",
+  "maelle-lace-bow-high-low-dress-navy",
+  "mirevie-smile-hoodie-jogger-set-green",
+  "mirevie-smile-hoodie-jogger-set-black",
+  "mirevie-smile-hoodie-jogger-set-dark-brown",
+  "mirevie-smile-hoodie-jogger-set-purple",
+  "mirevie-smile-hoodie-jogger-set-orange",
+  "mirevie-smile-hoodie-jogger-set-sky-blue",
+
   "sorelia-chiffon-high-low-dress-navy",
   "linelle-contrast-cross-back-gown-black-champagne",
   "ravielle-graffiti-bomber-jacket-multicolor",

@@ -1673,6 +1673,26 @@
    "landedCostUsd": 21.84,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
   },
+  "maelle-lace-bow-high-low-dress-grey": {
+   "landedCostUsd": 38.08,
+   "source": "catalog-20261123-batch57-bindings.json"
+  },
+  "maelle-lace-bow-high-low-dress-khaki": {
+   "landedCostUsd": 38.08,
+   "source": "catalog-20261123-batch57-bindings.json"
+  },
+  "maelle-lace-bow-high-low-dress-navy": {
+   "landedCostUsd": 38.08,
+   "source": "catalog-20261123-batch57-bindings.json"
+  },
+  "maelle-lace-bow-high-low-dress-pink": {
+   "landedCostUsd": 38.08,
+   "source": "catalog-20261123-batch57-bindings.json"
+  },
+  "maelle-lace-bow-high-low-dress-red": {
+   "landedCostUsd": 38.08,
+   "source": "catalog-20261123-batch57-bindings.json"
+  },
   "maerith-cable-knit-slit-midi-dress-black": {
    "landedCostUsd": 49.58,
    "source": "catalog-20261123-batch13-bindings.json"
@@ -2000,6 +2020,30 @@
   "mirella-pink-pleated-midi-dress": {
    "landedCostUsd": 36.16,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
+  },
+  "mirevie-smile-hoodie-jogger-set-black": {
+   "landedCostUsd": 30.38,
+   "source": "catalog-20261123-batch57-bindings.json"
+  },
+  "mirevie-smile-hoodie-jogger-set-dark-brown": {
+   "landedCostUsd": 30.38,
+   "source": "catalog-20261123-batch57-bindings.json"
+  },
+  "mirevie-smile-hoodie-jogger-set-green": {
+   "landedCostUsd": 30.38,
+   "source": "catalog-20261123-batch57-bindings.json"
+  },
+  "mirevie-smile-hoodie-jogger-set-orange": {
+   "landedCostUsd": 30.38,
+   "source": "catalog-20261123-batch57-bindings.json"
+  },
+  "mirevie-smile-hoodie-jogger-set-purple": {
+   "landedCostUsd": 30.38,
+   "source": "catalog-20261123-batch57-bindings.json"
+  },
+  "mirevie-smile-hoodie-jogger-set-sky-blue": {
+   "landedCostUsd": 30.38,
+   "source": "catalog-20261123-batch57-bindings.json"
   },
   "mocha-brush-swing-midi-dress": {
    "landedCostUsd": 13.69,

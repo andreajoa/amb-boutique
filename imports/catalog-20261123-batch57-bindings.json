@@ -1,0 +1,355 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "maelle-lace-bow-high-low-dress-grey",
+      "sourceProductId": "3256807618774394",
+      "sourceColor": "Grey",
+      "supplierId": "cmwxteocq00zy1rtq2kc8svrv",
+      "sourceSkuIdsBySize": {
+        "XXXL": "12000042260234223",
+        "XXL": "12000042260234221",
+        "L": "12000042260234219",
+        "XS": "12000042260234231",
+        "XL": "12000042260234229",
+        "S": "12000042260234227",
+        "M": "12000042260234225"
+      },
+      "landedCostUsdBySize": {
+        "XXXL": 38.08,
+        "XXL": 38.08,
+        "L": 38.08,
+        "XS": 38.08,
+        "XL": 38.08,
+        "S": 38.08,
+        "M": 38.08
+      },
+      "stockBySize": {
+        "XXXL": 30,
+        "XXL": 30,
+        "L": 30,
+        "XS": 30,
+        "XL": 30,
+        "S": 28,
+        "M": 30
+      },
+      "retailPriceUsd": 114.9,
+      "verifiedAtUtc": "2026-11-26T22:39:08.404Z"
+    },
+    {
+      "slug": "maelle-lace-bow-high-low-dress-khaki",
+      "sourceProductId": "3256807618774394",
+      "sourceColor": "Khaki",
+      "supplierId": "cmwxteocq00zy1rtq2kc8svrv",
+      "sourceSkuIdsBySize": {
+        "M": "12000042260234239",
+        "XXXL": "12000042260234237",
+        "XXL": "12000042260234235",
+        "L": "12000042260234233",
+        "XS": "12000042260234245",
+        "S": "12000042260234241",
+        "XL": "12000042260234243"
+      },
+      "landedCostUsdBySize": {
+        "M": 38.08,
+        "XXXL": 38.08,
+        "XXL": 38.08,
+        "L": 38.08,
+        "XS": 38.08,
+        "S": 38.08,
+        "XL": 38.08
+      },
+      "stockBySize": {
+        "M": 30,
+        "XXXL": 30,
+        "XXL": 30,
+        "L": 30,
+        "XS": 30,
+        "S": 30,
+        "XL": 30
+      },
+      "retailPriceUsd": 114.9,
+      "verifiedAtUtc": "2026-11-26T22:39:08.404Z"
+    },
+    {
+      "slug": "maelle-lace-bow-high-low-dress-red",
+      "sourceProductId": "3256807618774394",
+      "sourceColor": "Red",
+      "supplierId": "cmwxteocq00zy1rtq2kc8svrv",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000042260234277",
+        "XXXL": "12000042260234279",
+        "L": "12000042260234275",
+        "XL": "12000042260234285",
+        "XS": "12000042260234287",
+        "M": "12000042260234281",
+        "S": "12000042260234283"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 38.08,
+        "XXXL": 38.08,
+        "L": 38.08,
+        "XL": 38.08,
+        "XS": 38.08,
+        "M": 38.08,
+        "S": 38.08
+      },
+      "stockBySize": {
+        "XXL": 30,
+        "XXXL": 30,
+        "L": 30,
+        "XL": 30,
+        "XS": 30,
+        "M": 30,
+        "S": 30
+      },
+      "retailPriceUsd": 114.9,
+      "verifiedAtUtc": "2026-11-26T22:39:08.404Z"
+    },
+    {
+      "slug": "maelle-lace-bow-high-low-dress-pink",
+      "sourceProductId": "3256807618774394",
+      "sourceColor": "Pink",
+      "supplierId": "cmwxteocq00zy1rtq2kc8svrv",
+      "sourceSkuIdsBySize": {
+        "XS": "12000042260234273",
+        "L": "12000042260234261",
+        "XXL": "12000042260234263",
+        "S": "12000042260234269",
+        "XL": "12000042260234271",
+        "XXXL": "12000042260234265",
+        "M": "12000042260234267"
+      },
+      "landedCostUsdBySize": {
+        "XS": 38.08,
+        "L": 38.08,
+        "XXL": 38.08,
+        "S": 38.08,
+        "XL": 38.08,
+        "XXXL": 38.08,
+        "M": 38.08
+      },
+      "stockBySize": {
+        "XS": 30,
+        "L": 30,
+        "XXL": 30,
+        "S": 30,
+        "XL": 29,
+        "XXXL": 30,
+        "M": 30
+      },
+      "retailPriceUsd": 114.9,
+      "verifiedAtUtc": "2026-11-26T22:39:08.404Z"
+    },
+    {
+      "slug": "maelle-lace-bow-high-low-dress-navy",
+      "sourceProductId": "3256807618774394",
+      "sourceColor": "Navy",
+      "supplierId": "cmwxteocq00zy1rtq2kc8svrv",
+      "sourceSkuIdsBySize": {
+        "L": "12000042260234247",
+        "M": "12000042260234253",
+        "S": "12000042260234255",
+        "XXL": "12000042260234249",
+        "XXXL": "12000042260234251",
+        "XL": "12000042260234257",
+        "XS": "12000042260234259"
+      },
+      "landedCostUsdBySize": {
+        "L": 38.08,
+        "M": 38.08,
+        "S": 38.08,
+        "XXL": 38.08,
+        "XXXL": 38.08,
+        "XL": 38.08,
+        "XS": 38.08
+      },
+      "stockBySize": {
+        "L": 30,
+        "M": 30,
+        "S": 30,
+        "XXL": 30,
+        "XXXL": 30,
+        "XL": 30,
+        "XS": 30
+      },
+      "retailPriceUsd": 114.9,
+      "verifiedAtUtc": "2026-11-26T22:39:08.404Z"
+    },
+    {
+      "slug": "mirevie-smile-hoodie-jogger-set-green",
+      "sourceProductId": "3256812792744122",
+      "sourceColor": "green",
+      "supplierId": "cmwxv2jea01ak1rtqq5ov6u4m",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000059932696981",
+        "XL": "12000059932696980",
+        "S": "12000059932696977",
+        "L": "12000059932696979",
+        "M": "12000059932696978"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 30.38,
+        "XL": 30.38,
+        "S": 30.38,
+        "L": 30.38,
+        "M": 30.38
+      },
+      "stockBySize": {
+        "XXL": 97,
+        "XL": 99,
+        "S": 99,
+        "L": 100,
+        "M": 100
+      },
+      "retailPriceUsd": 91.9,
+      "verifiedAtUtc": "2026-11-26T22:39:30.440Z"
+    },
+    {
+      "slug": "mirevie-smile-hoodie-jogger-set-black",
+      "sourceProductId": "3256812792744122",
+      "sourceColor": "black",
+      "supplierId": "cmwxv2jea01ak1rtqq5ov6u4m",
+      "sourceSkuIdsBySize": {
+        "M": "12000059932696983",
+        "S": "12000059932696982",
+        "XL": "12000059932696985",
+        "L": "12000059932696984",
+        "XXL": "12000059932696986"
+      },
+      "landedCostUsdBySize": {
+        "M": 30.38,
+        "S": 30.38,
+        "XL": 30.38,
+        "L": 30.38,
+        "XXL": 30.38
+      },
+      "stockBySize": {
+        "M": 99,
+        "S": 100,
+        "XL": 100,
+        "L": 100,
+        "XXL": 99
+      },
+      "retailPriceUsd": 91.9,
+      "verifiedAtUtc": "2026-11-26T22:39:30.440Z"
+    },
+    {
+      "slug": "mirevie-smile-hoodie-jogger-set-dark-brown",
+      "sourceProductId": "3256812792744122",
+      "sourceColor": "Dark Brown",
+      "supplierId": "cmwxv2jea01ak1rtqq5ov6u4m",
+      "sourceSkuIdsBySize": {
+        "L": "12000059932696989",
+        "M": "12000059932696988",
+        "XXL": "12000059932696991",
+        "XL": "12000059932696990",
+        "S": "12000059932696987"
+      },
+      "landedCostUsdBySize": {
+        "L": 30.38,
+        "M": 30.38,
+        "XXL": 30.38,
+        "XL": 30.38,
+        "S": 30.38
+      },
+      "stockBySize": {
+        "L": 100,
+        "M": 99,
+        "XXL": 100,
+        "XL": 100,
+        "S": 100
+      },
+      "retailPriceUsd": 91.9,
+      "verifiedAtUtc": "2026-11-26T22:39:30.440Z"
+    },
+    {
+      "slug": "mirevie-smile-hoodie-jogger-set-purple",
+      "sourceProductId": "3256812792744122",
+      "sourceColor": "PURPLE",
+      "supplierId": "cmwxv2jea01ak1rtqq5ov6u4m",
+      "sourceSkuIdsBySize": {
+        "S": "12000059932696997",
+        "L": "12000059932696999",
+        "M": "12000059932696998",
+        "XL": "12000059932697000",
+        "XXL": "12000059933062001"
+      },
+      "landedCostUsdBySize": {
+        "S": 30.38,
+        "L": 30.38,
+        "M": 30.38,
+        "XL": 30.38,
+        "XXL": 30.38
+      },
+      "stockBySize": {
+        "S": 99,
+        "L": 99,
+        "M": 99,
+        "XL": 99,
+        "XXL": 100
+      },
+      "retailPriceUsd": 91.9,
+      "verifiedAtUtc": "2026-11-26T22:39:30.440Z"
+    },
+    {
+      "slug": "mirevie-smile-hoodie-jogger-set-orange",
+      "sourceProductId": "3256812792744122",
+      "sourceColor": "Orange",
+      "supplierId": "cmwxv2jea01ak1rtqq5ov6u4m",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000059932696996",
+        "M": "12000059932696993",
+        "S": "12000059932696992",
+        "XL": "12000059932696995",
+        "L": "12000059932696994"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 30.38,
+        "M": 30.38,
+        "S": 30.38,
+        "XL": 30.38,
+        "L": 30.38
+      },
+      "stockBySize": {
+        "XXL": 99,
+        "M": 99,
+        "S": 99,
+        "XL": 98,
+        "L": 96
+      },
+      "retailPriceUsd": 91.9,
+      "verifiedAtUtc": "2026-11-26T22:39:30.440Z"
+    },
+    {
+      "slug": "mirevie-smile-hoodie-jogger-set-sky-blue",
+      "sourceProductId": "3256812792744122",
+      "sourceColor": "SKY BLUE",
+      "supplierId": "cmwxv2jea01ak1rtqq5ov6u4m",
+      "sourceSkuIdsBySize": {
+        "S": "12000059933062002",
+        "M": "12000059933062003",
+        "L": "12000059933062004",
+        "XL": "12000059933062005",
+        "XXL": "12000059933062006"
+      },
+      "landedCostUsdBySize": {
+        "S": 30.38,
+        "M": 30.38,
+        "L": 30.38,
+        "XL": 30.38,
+        "XXL": 30.38
+      },
+      "stockBySize": {
+        "S": 99,
+        "M": 100,
+        "L": 99,
+        "XL": 100,
+        "XXL": 100
+      },
+      "retailPriceUsd": 91.9,
+      "verifiedAtUtc": "2026-11-26T22:39:30.440Z"
+    }
+  ]
+}
