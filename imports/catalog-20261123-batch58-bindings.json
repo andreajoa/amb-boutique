@@ -1,0 +1,272 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "levienne-rainbow-stripe-lounge-set-black",
+      "sourceProductId": "3256813321086030",
+      "sourceColor": "black",
+      "supplierId": "cmwxv5h8i01ds1rtqu1q5yvcn",
+      "sourceSkuIdsBySize": {
+        "S": "12000061283831004",
+        "M": "12000061283831005",
+        "L": "12000061283831006",
+        "XL": "12000061283831007",
+        "XXL": "12000061283831008"
+      },
+      "landedCostUsdBySize": {
+        "S": 22.69,
+        "M": 22.69,
+        "L": 22.69,
+        "XL": 22.69,
+        "XXL": 22.69
+      },
+      "stockBySize": {
+        "S": 1,
+        "M": 1,
+        "L": 1,
+        "XL": 1,
+        "XXL": 1
+      },
+      "retailPriceUsd": 68.9,
+      "verifiedAtUtc": "2026-11-26T22:40:19.385Z"
+    },
+    {
+      "slug": "levienne-rainbow-stripe-lounge-set-khaki",
+      "sourceProductId": "3256813321086030",
+      "sourceColor": "Khaki",
+      "supplierId": "cmwxv5h8i01ds1rtqu1q5yvcn",
+      "sourceSkuIdsBySize": {
+        "M": "12000061283831020",
+        "L": "12000061283831021",
+        "XL": "12000061283831022",
+        "XXL": "12000061283831023",
+        "S": "12000061283831019"
+      },
+      "landedCostUsdBySize": {
+        "M": 22.69,
+        "L": 22.69,
+        "XL": 22.69,
+        "XXL": 22.69,
+        "S": 22.69
+      },
+      "stockBySize": {
+        "M": 5,
+        "L": 5,
+        "XL": 5,
+        "XXL": 5,
+        "S": 5
+      },
+      "retailPriceUsd": 68.9,
+      "verifiedAtUtc": "2026-11-26T22:40:19.385Z"
+    },
+    {
+      "slug": "levienne-rainbow-stripe-lounge-set-green",
+      "sourceProductId": "3256813321086030",
+      "sourceColor": "green",
+      "supplierId": "cmwxv5h8i01ds1rtqu1q5yvcn",
+      "sourceSkuIdsBySize": {
+        "L": "12000061283831016",
+        "XL": "12000061283831017",
+        "XXL": "12000061283831018",
+        "S": "12000061283831014",
+        "M": "12000061283831015"
+      },
+      "landedCostUsdBySize": {
+        "L": 22.69,
+        "XL": 22.69,
+        "XXL": 22.69,
+        "S": 22.69,
+        "M": 22.69
+      },
+      "stockBySize": {
+        "L": 4,
+        "XL": 5,
+        "XXL": 4,
+        "S": 5,
+        "M": 4
+      },
+      "retailPriceUsd": 68.9,
+      "verifiedAtUtc": "2026-11-26T22:40:19.385Z"
+    },
+    {
+      "slug": "levienne-rainbow-stripe-lounge-set-blue",
+      "sourceProductId": "3256813321086030",
+      "sourceColor": "Blue",
+      "supplierId": "cmwxv5h8i01ds1rtqu1q5yvcn",
+      "sourceSkuIdsBySize": {
+        "XL": "12000061283831012",
+        "XXL": "12000061283831013",
+        "S": "12000061283831009",
+        "M": "12000061283831010",
+        "L": "12000061283831011"
+      },
+      "landedCostUsdBySize": {
+        "XL": 22.69,
+        "XXL": 22.69,
+        "S": 22.69,
+        "M": 22.69,
+        "L": 22.69
+      },
+      "stockBySize": {
+        "XL": 1,
+        "XXL": 1,
+        "S": 1,
+        "M": 1,
+        "L": 1
+      },
+      "retailPriceUsd": 68.9,
+      "verifiedAtUtc": "2026-11-26T22:40:19.385Z"
+    },
+    {
+      "slug": "levienne-rainbow-stripe-lounge-set-dark-brown",
+      "sourceProductId": "3256813321086030",
+      "sourceColor": "Dark Brown",
+      "supplierId": "cmwxv5h8i01ds1rtqu1q5yvcn",
+      "sourceSkuIdsBySize": {
+        "XL": "12000061283831032",
+        "XXL": "12000061283831033",
+        "S": "12000061283831029",
+        "M": "12000061283831030",
+        "L": "12000061283831031"
+      },
+      "landedCostUsdBySize": {
+        "XL": 22.69,
+        "XXL": 22.69,
+        "S": 22.69,
+        "M": 22.69,
+        "L": 22.69
+      },
+      "stockBySize": {
+        "XL": 2,
+        "XXL": 2,
+        "S": 2,
+        "M": 2,
+        "L": 2
+      },
+      "retailPriceUsd": 68.9,
+      "verifiedAtUtc": "2026-11-26T22:40:19.385Z"
+    },
+    {
+      "slug": "levienne-rainbow-stripe-lounge-set-white",
+      "sourceProductId": "3256813321086030",
+      "sourceColor": "WHITE",
+      "supplierId": "cmwxv5h8i01ds1rtqu1q5yvcn",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000061283831028",
+        "S": "12000061283831024",
+        "M": "12000061283831025",
+        "L": "12000061283831026",
+        "XL": "12000061283831027"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 22.69,
+        "S": 22.69,
+        "M": 22.69,
+        "L": 22.69,
+        "XL": 22.69
+      },
+      "stockBySize": {
+        "XXL": 5,
+        "S": 5,
+        "M": 5,
+        "L": 5,
+        "XL": 5
+      },
+      "retailPriceUsd": 68.9,
+      "verifiedAtUtc": "2026-11-26T22:40:19.385Z"
+    },
+    {
+      "slug": "cordelie-wide-neck-striped-sweater-gray",
+      "sourceProductId": "3256813425726649",
+      "sourceColor": "GRAY",
+      "supplierId": "cmwxuy7cl01861rtqadunccw8",
+      "sourceSkuIdsBySize": {
+        "M": "12000061644909780",
+        "L": "12000061644909781",
+        "S": "12000061644909779"
+      },
+      "landedCostUsdBySize": {
+        "M": 23.54,
+        "L": 23.54,
+        "S": 23.54
+      },
+      "stockBySize": {
+        "M": 14,
+        "L": 9,
+        "S": 14
+      },
+      "retailPriceUsd": 70.9,
+      "verifiedAtUtc": "2026-11-26T22:40:49.187Z"
+    },
+    {
+      "slug": "cordelie-wide-neck-striped-sweater-blue",
+      "sourceProductId": "3256813425726649",
+      "sourceColor": "Blue",
+      "supplierId": "cmwxuy7cl01861rtqadunccw8",
+      "sourceSkuIdsBySize": {
+        "S": "12000061644909782",
+        "M": "12000061644909783",
+        "L": "12000061644909784"
+      },
+      "landedCostUsdBySize": {
+        "S": 23.54,
+        "M": 23.54,
+        "L": 23.54
+      },
+      "stockBySize": {
+        "S": 5,
+        "M": 20,
+        "L": 19
+      },
+      "retailPriceUsd": 70.9,
+      "verifiedAtUtc": "2026-11-26T22:40:49.187Z"
+    },
+    {
+      "slug": "cordelie-wide-neck-striped-sweater-army-green",
+      "sourceProductId": "3256813425726649",
+      "sourceColor": "army green",
+      "supplierId": "cmwxuy7cl01861rtqadunccw8",
+      "sourceSkuIdsBySize": {
+        "S": "12000061644909776",
+        "M": "12000061644909777",
+        "L": "12000061644909778"
+      },
+      "landedCostUsdBySize": {
+        "S": 23.54,
+        "M": 23.54,
+        "L": 23.54
+      },
+      "stockBySize": {
+        "S": 15,
+        "M": 16,
+        "L": 18
+      },
+      "retailPriceUsd": 70.9,
+      "verifiedAtUtc": "2026-11-26T22:40:49.187Z"
+    },
+    {
+      "slug": "cordelie-wide-neck-striped-sweater-pink",
+      "sourceProductId": "3256813425726649",
+      "sourceColor": "Pink",
+      "supplierId": "cmwxuy7cl01861rtqadunccw8",
+      "sourceSkuIdsBySize": {
+        "S": "12000061644909773",
+        "M": "12000061644909774",
+        "L": "12000061644909775"
+      },
+      "landedCostUsdBySize": {
+        "S": 23.54,
+        "M": 23.54,
+        "L": 23.54
+      },
+      "stockBySize": {
+        "S": 11,
+        "M": 17,
+        "L": 11
+      },
+      "retailPriceUsd": 70.9,
+      "verifiedAtUtc": "2026-11-26T22:40:49.187Z"
+    }
+  ]
+}

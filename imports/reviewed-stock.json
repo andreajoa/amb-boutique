@@ -5998,5 +5998,87 @@
    "XL": 100,
    "XXL": 100
   }
+ },
+ "levienne-rainbow-stripe-lounge-set-black": {
+  "stockBySize": {
+   "S": 1,
+   "M": 1,
+   "L": 1,
+   "XL": 1,
+   "XXL": 1
+  }
+ },
+ "levienne-rainbow-stripe-lounge-set-khaki": {
+  "stockBySize": {
+   "M": 5,
+   "L": 5,
+   "XL": 5,
+   "XXL": 5,
+   "S": 5
+  }
+ },
+ "levienne-rainbow-stripe-lounge-set-green": {
+  "stockBySize": {
+   "L": 4,
+   "XL": 5,
+   "XXL": 4,
+   "S": 5,
+   "M": 4
+  }
+ },
+ "levienne-rainbow-stripe-lounge-set-blue": {
+  "stockBySize": {
+   "XL": 1,
+   "XXL": 1,
+   "S": 1,
+   "M": 1,
+   "L": 1
+  }
+ },
+ "levienne-rainbow-stripe-lounge-set-dark-brown": {
+  "stockBySize": {
+   "XL": 2,
+   "XXL": 2,
+   "S": 2,
+   "M": 2,
+   "L": 2
+  }
+ },
+ "levienne-rainbow-stripe-lounge-set-white": {
+  "stockBySize": {
+   "XXL": 5,
+   "S": 5,
+   "M": 5,
+   "L": 5,
+   "XL": 5
+  }
+ },
+ "cordelie-wide-neck-striped-sweater-gray": {
+  "stockBySize": {
+   "M": 14,
+   "L": 9,
+   "S": 14
+  }
+ },
+ "cordelie-wide-neck-striped-sweater-blue": {
+  "stockBySize": {
+   "S": 5,
+   "M": 20,
+   "L": 19
+  }
+ },
+ "cordelie-wide-neck-striped-sweater-army-green": {
+  "stockBySize": {
+   "S": 15,
+   "M": 16,
+   "L": 18
+  }
+ },
+ "cordelie-wide-neck-striped-sweater-pink": {
+  "stockBySize": {
+   "S": 11,
+   "M": 17,
+   "L": 11
+  }
  }
 }
