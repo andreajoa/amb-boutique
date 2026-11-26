@@ -38208,6 +38208,108 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256812387706209",
   "sourceColor": "black"
+},
+{
+  "slug": "amalfi-dumpling-bag-small-latte",
+  "name": "Amalfi Dumpling Bag Small — Latte",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 97.9,
+  "colors": [
+    "#A8875E"
+  ],
+  "colorNames": [
+    "Latte"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A small winged handbag with a rounded handle, folded sides and gold-tone closure. The open view uses the supplier’s image of this design with the visible exterior color adjusted to illustrate this option.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/amalfi-dumpling-bag-small-latte/front.webp",
+    "/products/amalfi-dumpling-bag-small-latte/back.webp",
+    "/products/amalfi-dumpling-bag-small-latte/left.webp",
+    "/products/amalfi-dumpling-bag-small-latte/right.webp",
+    "/products/amalfi-dumpling-bag-small-latte/inside.webp"
+  ],
+  "stock": 500,
+  "unitCostUsd": 32.59,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005012095344185",
+  "sourceColor": "Latte leather"
+},
+{
+  "slug": "amalfi-dumpling-bag-small-burgundy",
+  "name": "Amalfi Dumpling Bag Small — Burgundy",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 97.9,
+  "colors": [
+    "#852239"
+  ],
+  "colorNames": [
+    "Burgundy"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A small winged handbag with a rounded handle, folded sides and gold-tone closure. The open view uses the supplier’s image of this design with the visible exterior color adjusted to illustrate this option.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/amalfi-dumpling-bag-small-burgundy/front.webp",
+    "/products/amalfi-dumpling-bag-small-burgundy/back.webp",
+    "/products/amalfi-dumpling-bag-small-burgundy/left.webp",
+    "/products/amalfi-dumpling-bag-small-burgundy/right.webp",
+    "/products/amalfi-dumpling-bag-small-burgundy/inside.webp"
+  ],
+  "stock": 500,
+  "unitCostUsd": 32.59,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005012095344185",
+  "sourceColor": "Burgundy Leather"
+},
+{
+  "slug": "amalfi-dumpling-bag-large-brown",
+  "name": "Amalfi Dumpling Bag Large — Chestnut Brown",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 155.9,
+  "colors": [
+    "#8A5336"
+  ],
+  "colorNames": [
+    "Chestnut Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A large winged handbag with a rounded handle, folded sides and gold-tone closure. The open view uses the supplier’s image of this design with the visible exterior color adjusted to illustrate this option.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/amalfi-dumpling-bag-large-brown/front.webp",
+    "/products/amalfi-dumpling-bag-large-brown/back.webp",
+    "/products/amalfi-dumpling-bag-large-brown/left.webp",
+    "/products/amalfi-dumpling-bag-large-brown/right.webp",
+    "/products/amalfi-dumpling-bag-large-brown/inside.webp"
+  ],
+  "stock": 5,
+  "unitCostUsd": 51.88,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005013479804545",
+  "sourceColor": "Brown L"
 }
 ];
 
@@ -38217,6 +38319,10 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "amalfi-dumpling-bag-small-latte",
+  "amalfi-dumpling-bag-small-burgundy",
+  "amalfi-dumpling-bag-large-brown",
+
   "celvara-scarf-bucket-bag-black",
 
   "celvara-scarf-bucket-bag-soft-gray",
