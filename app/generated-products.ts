@@ -38174,6 +38174,40 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256812387706209",
   "sourceColor": "grey"
+},
+{
+  "slug": "celvara-scarf-bucket-bag-black",
+  "name": "Celvara Scarf Bucket Bag — Black",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 77.9,
+  "colors": [
+    "#212123"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A black bucket bag with rounded handles, a printed scarf accent and a gold-tone clasp. The open view is based on the same bag in the supplier’s video, with color adjusted to illustrate the black option. Display contents are styling props.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celvara-scarf-bucket-bag-black/front.webp",
+    "/products/celvara-scarf-bucket-bag-black/back.webp",
+    "/products/celvara-scarf-bucket-bag-black/left.webp",
+    "/products/celvara-scarf-bucket-bag-black/right.webp",
+    "/products/celvara-scarf-bucket-bag-black/inside.webp"
+  ],
+  "stock": 3,
+  "unitCostUsd": 25.68,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812387706209",
+  "sourceColor": "black"
 }
 ];
 
@@ -38183,6 +38217,8 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "celvara-scarf-bucket-bag-black",
+
   "celvara-scarf-bucket-bag-soft-gray",
 
   "verenne-medallion-shopper-tote-black",
