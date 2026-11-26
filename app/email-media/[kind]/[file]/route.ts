@@ -19,7 +19,7 @@ const HERO_FILES: Record<string, string> = {
 const PRODUCT_BY_SLUG = new Map(catalog.map((product) => [product.slug, product]));
 
 function safePublicPath(relativePath: string) {
-  const cleaned = relativePath.replace(/^\/+/, "");
+  const cleaned = relativePath.split(/[?#]/)[0].replace(/^\/+/, "");
   const resolved = path.resolve(PUBLIC_DIR, cleaned);
   if (!resolved.startsWith(`${PUBLIC_DIR}${path.sep}`)) return null;
   return resolved;

@@ -144,7 +144,8 @@ assert.equal(trackingData.length, 1);
 assert.equal(trackingData[0]["@type"], "Organization");
 
 // Verify /email-media/product/<slug>.jpg produces exact 600x600 JPEG & rejects traversal
-const sampleSlugs = [...checkedSlugs].slice(0, 6);
+// Includes a cache-busted (?v=...) catalog image (ischia-rope-tote-beige) to guard query-string stripping
+const sampleSlugs = [...new Set(["ischia-rope-tote-beige", ...checkedSlugs])].slice(0, 7);
 for (const slug of sampleSlugs) {
   const response = await emailMediaGet(new Request(`https://ambboutique.online/email-media/product/${slug}.jpg`), {
     params: Promise.resolve({ kind: "product", file: `${slug}.jpg` }),
