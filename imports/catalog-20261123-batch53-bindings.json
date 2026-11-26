@@ -1,0 +1,23 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "celvara-scarf-bucket-bag-black",
+      "sourceProductId": "3256812387706209",
+      "sourceColor": "black",
+      "supplierId": "cmuw3tyy8003204l21h43frt8",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000058753584032"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 25.68
+      },
+      "stockBySize": {
+        "One Size": 3
+      },
+      "retailPriceUsd": 77.9,
+      "verifiedAtUtc": "2026-11-26T02:03:46.900Z"
+    }
+  ]
+}
