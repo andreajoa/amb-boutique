@@ -7,7 +7,7 @@ const retiredProducts: Record<string, string> = retired.redirects;
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  serverExternalPackages: ["pg"],
+  serverExternalPackages: ["pg", "sharp"],
   images: { unoptimized: true },
   async redirects() {
     return Object.entries(retiredProducts).map(([from, to]) => ({
