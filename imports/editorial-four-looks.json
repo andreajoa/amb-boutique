@@ -2,10 +2,30 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
+      "slug": "levienne-rainbow-stripe-lounge-set-black",
+      "name": "Levienne Rainbow-Stripe Lounge Set — Black",
+      "image": "/products/levienne-rainbow-stripe-lounge-set-black/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A relaxed crewneck and drawstring jogger set with a retro stripe across the chest and contrasting side stripes down the legs.",
+      "category": "Sets",
+      "arrivalRank": 1333,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "cordelie-wide-neck-striped-sweater-gray",
+      "name": "Cordelie Wide-Neck Striped Sweater — Pearl Gray",
+      "image": "/products/cordelie-wide-neck-striped-sweater-gray/front.webp",
+      "eyebrow": "THE SOFT STATEMENT",
+      "copy": "A relaxed long-sleeve knit with a wide neckline and bold cream-and-color horizontal stripes.",
+      "category": "Knitwear",
+      "arrivalRank": 1327,
+      "classification": "verified-model"
+    },
+    {
       "slug": "maelle-lace-bow-high-low-dress-grey",
       "name": "Maelle Lace-Bow High-Low Dress — Silver Gray",
       "image": "/products/maelle-lace-bow-high-low-dress-grey/front.webp",
-      "eyebrow": "NEW ARRIVAL",
+      "eyebrow": "CONFIDENT COLOR",
       "copy": "A sleeveless occasion dress with a lace bodice, waist bow and flowing high-low chiffon skirt.",
       "category": "Dresses",
       "arrivalRank": 1323,
@@ -19,26 +39,6 @@
       "copy": "An ivory long-sleeve hoodie with a smile graphic and matching-color cuffed joggers with a drawstring waist.",
       "category": "Sets",
       "arrivalRank": 1318,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "sorelia-chiffon-high-low-dress-navy",
-      "name": "Sorelia Chiffon High-Low Dress — Navy",
-      "image": "/products/sorelia-chiffon-high-low-dress-navy/front.webp",
-      "eyebrow": "CONFIDENT COLOR",
-      "copy": "A V-neck chiffon dress with short flutter sleeves, a gathered waistband and a high-low hem.",
-      "category": "Dresses",
-      "arrivalRank": 1312,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "linelle-contrast-cross-back-gown-black-champagne",
-      "name": "Linelle Contrast Cross-Back Gown — Black & Champagne",
-      "image": "/products/linelle-contrast-cross-back-gown-black-champagne/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A floor-length two-tone gown with an open cross-strap back, contrast waistband and a softly draped champagne panel.",
-      "category": "Dresses",
-      "arrivalRank": 1311,
       "classification": "verified-model"
     }
   ]

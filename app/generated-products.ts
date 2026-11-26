@@ -39163,6 +39163,368 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256812792744122",
   "sourceColor": "SKY BLUE"
+},
+{
+  "slug": "levienne-rainbow-stripe-lounge-set-black",
+  "name": "Levienne Rainbow-Stripe Lounge Set — Black",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 68.9,
+  "colors": [
+    "#232224"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed crewneck and drawstring jogger set with a retro stripe across the chest and contrasting side stripes down the legs.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/levienne-rainbow-stripe-lounge-set-black/front.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-black/back.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-black/left.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-black/right.webp"
+  ],
+  "stock": 5,
+  "unitCostUsd": 22.69,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813321086030",
+  "sourceColor": "black"
+},
+{
+  "slug": "levienne-rainbow-stripe-lounge-set-khaki",
+  "name": "Levienne Rainbow-Stripe Lounge Set — Sand",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 68.9,
+  "colors": [
+    "#B49B80"
+  ],
+  "colorNames": [
+    "Sand"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed crewneck and drawstring jogger set with a retro stripe across the chest and contrasting side stripes down the legs.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/levienne-rainbow-stripe-lounge-set-khaki/front.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-khaki/back.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-khaki/left.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-khaki/right.webp"
+  ],
+  "stock": 25,
+  "unitCostUsd": 22.69,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813321086030",
+  "sourceColor": "Khaki"
+},
+{
+  "slug": "levienne-rainbow-stripe-lounge-set-green",
+  "name": "Levienne Rainbow-Stripe Lounge Set — Emerald",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 68.9,
+  "colors": [
+    "#24744B"
+  ],
+  "colorNames": [
+    "Emerald"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed crewneck and drawstring jogger set with a retro stripe across the chest and contrasting side stripes down the legs.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/levienne-rainbow-stripe-lounge-set-green/front.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-green/back.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-green/left.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-green/right.webp"
+  ],
+  "stock": 22,
+  "unitCostUsd": 22.69,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813321086030",
+  "sourceColor": "green"
+},
+{
+  "slug": "levienne-rainbow-stripe-lounge-set-blue",
+  "name": "Levienne Rainbow-Stripe Lounge Set — Sky Blue",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 68.9,
+  "colors": [
+    "#9BBFD6"
+  ],
+  "colorNames": [
+    "Sky Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed crewneck and drawstring jogger set with a retro stripe across the chest and contrasting side stripes down the legs.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/levienne-rainbow-stripe-lounge-set-blue/front.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-blue/back.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-blue/left.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-blue/right.webp"
+  ],
+  "stock": 5,
+  "unitCostUsd": 22.69,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813321086030",
+  "sourceColor": "Blue"
+},
+{
+  "slug": "levienne-rainbow-stripe-lounge-set-dark-brown",
+  "name": "Levienne Rainbow-Stripe Lounge Set — Chestnut",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 68.9,
+  "colors": [
+    "#795031"
+  ],
+  "colorNames": [
+    "Chestnut"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed crewneck and drawstring jogger set with a retro stripe across the chest and contrasting side stripes down the legs.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/levienne-rainbow-stripe-lounge-set-dark-brown/front.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-dark-brown/back.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-dark-brown/left.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-dark-brown/right.webp"
+  ],
+  "stock": 10,
+  "unitCostUsd": 22.69,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813321086030",
+  "sourceColor": "Dark Brown"
+},
+{
+  "slug": "levienne-rainbow-stripe-lounge-set-white",
+  "name": "Levienne Rainbow-Stripe Lounge Set — White",
+  "category": "Sets",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 68.9,
+  "colors": [
+    "#F1F0EC"
+  ],
+  "colorNames": [
+    "White"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed crewneck and drawstring jogger set with a retro stripe across the chest and contrasting side stripes down the legs.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/levienne-rainbow-stripe-lounge-set-white/front.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-white/back.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-white/left.webp",
+    "/products/levienne-rainbow-stripe-lounge-set-white/right.webp"
+  ],
+  "stock": 25,
+  "unitCostUsd": 22.69,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813321086030",
+  "sourceColor": "WHITE"
+},
+{
+  "slug": "cordelie-wide-neck-striped-sweater-gray",
+  "name": "Cordelie Wide-Neck Striped Sweater — Pearl Gray",
+  "category": "Knitwear",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 70.9,
+  "colors": [
+    "#979594"
+  ],
+  "colorNames": [
+    "Pearl Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A relaxed long-sleeve knit with a wide neckline and bold cream-and-color horizontal stripes.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/cordelie-wide-neck-striped-sweater-gray/front.webp",
+    "/products/cordelie-wide-neck-striped-sweater-gray/back.webp",
+    "/products/cordelie-wide-neck-striped-sweater-gray/left.webp",
+    "/products/cordelie-wide-neck-striped-sweater-gray/right.webp"
+  ],
+  "stock": 37,
+  "unitCostUsd": 23.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813425726649",
+  "sourceColor": "GRAY"
+},
+{
+  "slug": "cordelie-wide-neck-striped-sweater-blue",
+  "name": "Cordelie Wide-Neck Striped Sweater — Navy",
+  "category": "Knitwear",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 70.9,
+  "colors": [
+    "#22314A"
+  ],
+  "colorNames": [
+    "Navy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A relaxed long-sleeve knit with a wide neckline and bold cream-and-color horizontal stripes.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/cordelie-wide-neck-striped-sweater-blue/front.webp",
+    "/products/cordelie-wide-neck-striped-sweater-blue/back.webp",
+    "/products/cordelie-wide-neck-striped-sweater-blue/left.webp",
+    "/products/cordelie-wide-neck-striped-sweater-blue/right.webp"
+  ],
+  "stock": 44,
+  "unitCostUsd": 23.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813425726649",
+  "sourceColor": "Blue"
+},
+{
+  "slug": "cordelie-wide-neck-striped-sweater-army-green",
+  "name": "Cordelie Wide-Neck Striped Sweater — Olive",
+  "category": "Knitwear",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 70.9,
+  "colors": [
+    "#3D4833"
+  ],
+  "colorNames": [
+    "Olive"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A relaxed long-sleeve knit with a wide neckline and bold cream-and-color horizontal stripes.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/cordelie-wide-neck-striped-sweater-army-green/front.webp",
+    "/products/cordelie-wide-neck-striped-sweater-army-green/back.webp",
+    "/products/cordelie-wide-neck-striped-sweater-army-green/left.webp",
+    "/products/cordelie-wide-neck-striped-sweater-army-green/right.webp"
+  ],
+  "stock": 49,
+  "unitCostUsd": 23.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813425726649",
+  "sourceColor": "army green"
+},
+{
+  "slug": "cordelie-wide-neck-striped-sweater-pink",
+  "name": "Cordelie Wide-Neck Striped Sweater — Blush Pink",
+  "category": "Knitwear",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 70.9,
+  "colors": [
+    "#C985A3"
+  ],
+  "colorNames": [
+    "Blush Pink"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A relaxed long-sleeve knit with a wide neckline and bold cream-and-color horizontal stripes.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/cordelie-wide-neck-striped-sweater-pink/front.webp",
+    "/products/cordelie-wide-neck-striped-sweater-pink/back.webp",
+    "/products/cordelie-wide-neck-striped-sweater-pink/left.webp",
+    "/products/cordelie-wide-neck-striped-sweater-pink/right.webp"
+  ],
+  "stock": 39,
+  "unitCostUsd": 23.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813425726649",
+  "sourceColor": "Pink"
 }
 ];
 
@@ -39172,6 +39534,17 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "levienne-rainbow-stripe-lounge-set-black",
+  "levienne-rainbow-stripe-lounge-set-khaki",
+  "levienne-rainbow-stripe-lounge-set-green",
+  "levienne-rainbow-stripe-lounge-set-blue",
+  "levienne-rainbow-stripe-lounge-set-dark-brown",
+  "levienne-rainbow-stripe-lounge-set-white",
+  "cordelie-wide-neck-striped-sweater-gray",
+  "cordelie-wide-neck-striped-sweater-blue",
+  "cordelie-wide-neck-striped-sweater-army-green",
+  "cordelie-wide-neck-striped-sweater-pink",
+
   "maelle-lace-bow-high-low-dress-grey",
   "maelle-lace-bow-high-low-dress-khaki",
   "maelle-lace-bow-high-low-dress-red",
