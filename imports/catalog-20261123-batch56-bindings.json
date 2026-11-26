@@ -1,0 +1,223 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "sorelia-chiffon-high-low-dress-navy",
+      "sourceProductId": "3256806887063165",
+      "sourceColor": "Navy",
+      "supplierId": "cmwxrdllx00ui1rtqw0puj43k",
+      "sourceSkuIdsBySize": {
+        "XL": "12000039315270365",
+        "S": "12000039315270363",
+        "M": "12000039315270361",
+        "XXL": "12000039315270359",
+        "L": "12000039315270357"
+      },
+      "landedCostUsdBySize": {
+        "XL": 30.75,
+        "S": 31.28,
+        "M": 30.55,
+        "XXL": 31.12,
+        "L": 30.05
+      },
+      "stockBySize": {
+        "XL": 500,
+        "S": 500,
+        "M": 500,
+        "XXL": 500,
+        "L": 500
+      },
+      "retailPriceUsd": 93.9,
+      "verifiedAtUtc": "2026-11-26T22:35:20.629Z"
+    },
+    {
+      "slug": "linelle-contrast-cross-back-gown-black-champagne",
+      "sourceProductId": "3256807736613235",
+      "sourceColor": "Black",
+      "supplierId": "cmwxthnx9014a1rtq3lxd7qie",
+      "sourceSkuIdsBySize": {
+        "L": "12000042859880741",
+        "M": "12000042859880743",
+        "S": "12000042859880745",
+        "XL": "12000042859880747"
+      },
+      "landedCostUsdBySize": {
+        "L": 33.33,
+        "M": 33.17,
+        "S": 31.47,
+        "XL": 31.33
+      },
+      "stockBySize": {
+        "L": 99,
+        "M": 98,
+        "S": 98,
+        "XL": 98
+      },
+      "retailPriceUsd": 100.9,
+      "verifiedAtUtc": "2026-11-26T22:35:32.433Z"
+    },
+    {
+      "slug": "ravielle-graffiti-bomber-jacket-multicolor",
+      "sourceProductId": "3256812309617046",
+      "sourceColor": "MULTI",
+      "supplierId": "cmwxv89sh01gh1rtq0ld5m8yw",
+      "sourceSkuIdsBySize": {
+        "1XL": "12000058532159394",
+        "2XL": "12000058532159395",
+        "3XL": "12000058532159396",
+        "4XL": "12000058532159397",
+        "5XL": "12000058532159398"
+      },
+      "landedCostUsdBySize": {
+        "1XL": 33.38,
+        "2XL": 33.38,
+        "3XL": 33.38,
+        "4XL": 33.38,
+        "5XL": 33.38
+      },
+      "stockBySize": {
+        "1XL": 30,
+        "2XL": 27,
+        "3XL": 29,
+        "4XL": 30,
+        "5XL": 29
+      },
+      "retailPriceUsd": 100.9,
+      "verifiedAtUtc": "2026-11-26T22:35:48.509Z"
+    },
+    {
+      "slug": "neressa-cape-sleeve-mini-dress-red",
+      "sourceProductId": "3256804722586695",
+      "sourceColor": "Red",
+      "supplierId": "cmwxt65mr00w41rtqq9vv3567",
+      "sourceSkuIdsBySize": {
+        "5XL": "12000030982608828",
+        "4XL": "12000030982608826",
+        "XXXL": "12000030982608824",
+        "XL": "12000030982608820"
+      },
+      "landedCostUsdBySize": {
+        "5XL": 36.93,
+        "4XL": 36.43,
+        "XXXL": 36.84,
+        "XL": 37.43
+      },
+      "stockBySize": {
+        "5XL": 200,
+        "4XL": 200,
+        "XXXL": 200,
+        "XL": 200
+      },
+      "retailPriceUsd": 112.9,
+      "verifiedAtUtc": "2026-11-26T22:38:32.788Z"
+    },
+    {
+      "slug": "neressa-cape-sleeve-mini-dress-purple",
+      "sourceProductId": "3256804722586695",
+      "sourceColor": "PURPLE",
+      "supplierId": "cmwxt65mr00w41rtqq9vv3567",
+      "sourceSkuIdsBySize": {
+        "5XL": "12000030982608818",
+        "4XL": "12000030982608816",
+        "XXXL": "12000030982608814",
+        "XXL": "12000030982608812"
+      },
+      "landedCostUsdBySize": {
+        "5XL": 37.77,
+        "4XL": 37.1,
+        "XXXL": 37.51,
+        "XXL": 36.76
+      },
+      "stockBySize": {
+        "5XL": 200,
+        "4XL": 200,
+        "XXXL": 200,
+        "XXL": 200
+      },
+      "retailPriceUsd": 113.9,
+      "verifiedAtUtc": "2026-11-26T22:38:32.788Z"
+    },
+    {
+      "slug": "tavienne-belted-houndstooth-jacket-khaki",
+      "sourceProductId": "3256813191272892",
+      "sourceColor": "Khaki",
+      "supplierId": "cmwxv42xa01ci1rtqudmadgft",
+      "sourceSkuIdsBySize": {
+        "S": "12000061034060740",
+        "M": "12000061034060741",
+        "L": "12000061034060742"
+      },
+      "landedCostUsdBySize": {
+        "S": 54.99,
+        "M": 54.99,
+        "L": 54.99
+      },
+      "stockBySize": {
+        "S": 100,
+        "M": 100,
+        "L": 100
+      },
+      "retailPriceUsd": 165.9,
+      "verifiedAtUtc": "2026-11-26T22:37:44.037Z"
+    },
+    {
+      "slug": "nivalie-snowman-crewneck-sweatshirt-gray",
+      "sourceProductId": "3256813286352977",
+      "sourceColor": "GRAY",
+      "supplierId": "cmwxv0s1h01971rtqae262c4s",
+      "sourceSkuIdsBySize": {
+        "XXL": "12000061211845235",
+        "XL": "12000061211845234",
+        "L": "12000061211845233",
+        "M": "12000061211845232",
+        "S": "12000061211845231"
+      },
+      "landedCostUsdBySize": {
+        "XXL": 14.89,
+        "XL": 14.89,
+        "L": 14.89,
+        "M": 14.89,
+        "S": 14.89
+      },
+      "stockBySize": {
+        "XXL": 99,
+        "XL": 100,
+        "L": 97,
+        "M": 100,
+        "S": 100
+      },
+      "retailPriceUsd": 44.9,
+      "verifiedAtUtc": "2026-11-26T22:38:15.920Z"
+    },
+    {
+      "slug": "cocelle-gingerbread-crewneck-sweatshirt-sage",
+      "sourceProductId": "3256813242880059",
+      "sourceColor": "green",
+      "supplierId": "cmwxv71yq01fu1rtqamaqm7q8",
+      "sourceSkuIdsBySize": {
+        "XL": "12000061127006205",
+        "L": "12000061127006204",
+        "XXL": "12000061127006206",
+        "M": "12000061127006203",
+        "S": "12000061127006202"
+      },
+      "landedCostUsdBySize": {
+        "XL": 17.65,
+        "L": 17.65,
+        "XXL": 17.65,
+        "M": 17.65,
+        "S": 17.65
+      },
+      "stockBySize": {
+        "XL": 99,
+        "L": 96,
+        "XXL": 99,
+        "M": 99,
+        "S": 100
+      },
+      "retailPriceUsd": 53.9,
+      "verifiedAtUtc": "2026-11-26T22:37:59.110Z"
+    }
+  ]
+}

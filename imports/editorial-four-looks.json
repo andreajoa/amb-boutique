@@ -2,43 +2,43 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
-      "slug": "aurevia-sequin-v-neck-slip-mini-dress-silver",
-      "name": "Aurevia Sequin V-Neck Slip Mini Dress — Silver",
-      "image": "/products/aurevia-sequin-v-neck-slip-mini-dress-silver/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A silver sequin slip mini dress with fine straps, a deep V neckline and a low open back.",
+      "slug": "sorelia-chiffon-high-low-dress-navy",
+      "name": "Sorelia Chiffon High-Low Dress — Navy",
+      "image": "/products/sorelia-chiffon-high-low-dress-navy/front.webp",
+      "eyebrow": "NEW ARRIVAL",
+      "copy": "A V-neck chiffon dress with short flutter sleeves, a gathered waistband and a high-low hem.",
       "category": "Dresses",
-      "arrivalRank": 1289,
+      "arrivalRank": 1312,
       "classification": "verified-model"
     },
     {
-      "slug": "solenne-halter-button-front-vest-white",
-      "name": "Solenne Halter Button-Front Vest — White",
-      "image": "/products/solenne-halter-button-front-vest-white/front.webp",
-      "eyebrow": "THE SOFT STATEMENT",
-      "copy": "A fitted, sleeveless crossover-neckline vest with button closure at the front.",
+      "slug": "linelle-contrast-cross-back-gown-black-champagne",
+      "name": "Linelle Contrast Cross-Back Gown — Black & Champagne",
+      "image": "/products/linelle-contrast-cross-back-gown-black-champagne/front.webp",
+      "eyebrow": "AFTER DARK",
+      "copy": "A floor-length two-tone gown with an open cross-strap back, contrast waistband and a softly draped champagne panel.",
+      "category": "Dresses",
+      "arrivalRank": 1311,
+      "classification": "verified-model"
+    },
+    {
+      "slug": "ravielle-graffiti-bomber-jacket-multicolor",
+      "name": "Ravielle Graffiti Bomber Jacket — Multicolor",
+      "image": "/products/ravielle-graffiti-bomber-jacket-multicolor/front.webp",
+      "eyebrow": "THE PRINT EDIT",
+      "copy": "A zip-front bomber with an all-over multicolor print and ribbed collar, cuffs and hem.",
       "category": "Tops",
-      "arrivalRank": 1288,
+      "arrivalRank": 1310,
       "classification": "verified-model"
     },
     {
-      "slug": "solenne-high-rise-wide-leg-trousers-black",
-      "name": "Solenne High-Rise Wide-Leg Trousers — Black",
-      "image": "/products/solenne-high-rise-wide-leg-trousers-black/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "High-rise tailored trousers with a wide leg and a full-length hem.",
-      "category": "Pants",
-      "arrivalRank": 1286,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "orvella-tailored-lace-slit-gown-yellow",
-      "name": "Orvella Tailored Lace-Slit Gown — Yellow",
-      "image": "/products/orvella-tailored-lace-slit-gown-yellow/front.webp",
-      "eyebrow": "AFTER DARK",
-      "copy": "A long-sleeve evening gown with notched lapels, a fitted waist and a slit with a floral lace inset.",
+      "slug": "neressa-cape-sleeve-mini-dress-red",
+      "name": "Neressa Cape-Sleeve Mini Dress — Scarlet",
+      "image": "/products/neressa-cape-sleeve-mini-dress-red/front.webp",
+      "eyebrow": "SAN DIEGO EDIT",
+      "copy": "A fitted mini dress with an off-the-shoulder neckline and a sheer chiffon cape overlay.",
       "category": "Dresses",
-      "arrivalRank": 1276,
+      "arrivalRank": 1309,
       "classification": "verified-model"
     }
   ]

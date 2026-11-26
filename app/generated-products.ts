@@ -38446,6 +38446,301 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "1005006994948987",
   "sourceColor": "Dark brown"
+},
+{
+  "slug": "sorelia-chiffon-high-low-dress-navy",
+  "name": "Sorelia Chiffon High-Low Dress — Navy",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 93.9,
+  "colors": [
+    "#18243A"
+  ],
+  "colorNames": [
+    "Navy"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "subcategory": "Midi Dresses",
+  "description": "A V-neck chiffon dress with short flutter sleeves, a gathered waistband and a high-low hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/sorelia-chiffon-high-low-dress-navy/front.webp",
+    "/products/sorelia-chiffon-high-low-dress-navy/back.webp",
+    "/products/sorelia-chiffon-high-low-dress-navy/left.webp",
+    "/products/sorelia-chiffon-high-low-dress-navy/right.webp"
+  ],
+  "stock": 2500,
+  "unitCostUsd": 31.28,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806887063165",
+  "sourceColor": "Navy"
+},
+{
+  "slug": "linelle-contrast-cross-back-gown-black-champagne",
+  "name": "Linelle Contrast Cross-Back Gown — Black & Champagne",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 100.9,
+  "colors": [
+    "#292627"
+  ],
+  "colorNames": [
+    "Black & Champagne"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "subcategory": "Maxi Dresses",
+  "description": "A floor-length two-tone gown with an open cross-strap back, contrast waistband and a softly draped champagne panel.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/linelle-contrast-cross-back-gown-black-champagne/front.webp",
+    "/products/linelle-contrast-cross-back-gown-black-champagne/back.webp",
+    "/products/linelle-contrast-cross-back-gown-black-champagne/left.webp",
+    "/products/linelle-contrast-cross-back-gown-black-champagne/right.webp"
+  ],
+  "stock": 393,
+  "unitCostUsd": 33.33,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256807736613235",
+  "sourceColor": "Black"
+},
+{
+  "slug": "ravielle-graffiti-bomber-jacket-multicolor",
+  "name": "Ravielle Graffiti Bomber Jacket — Multicolor",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 100.9,
+  "colors": [
+    "#3D5964"
+  ],
+  "colorNames": [
+    "Multicolor"
+  ],
+  "sizes": [
+    "1XL",
+    "2XL",
+    "3XL",
+    "4XL",
+    "5XL"
+  ],
+  "description": "A zip-front bomber with an all-over multicolor print and ribbed collar, cuffs and hem.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/ravielle-graffiti-bomber-jacket-multicolor/front.webp",
+    "/products/ravielle-graffiti-bomber-jacket-multicolor/back.webp",
+    "/products/ravielle-graffiti-bomber-jacket-multicolor/left.webp",
+    "/products/ravielle-graffiti-bomber-jacket-multicolor/right.webp"
+  ],
+  "stock": 145,
+  "unitCostUsd": 33.38,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256812309617046",
+  "sourceColor": "MULTI"
+},
+{
+  "slug": "neressa-cape-sleeve-mini-dress-red",
+  "name": "Neressa Cape-Sleeve Mini Dress — Scarlet",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 112.9,
+  "colors": [
+    "#A41923"
+  ],
+  "colorNames": [
+    "Scarlet"
+  ],
+  "sizes": [
+    "XL",
+    "4XL",
+    "5XL",
+    "XXXL"
+  ],
+  "subcategory": "Mini Dresses",
+  "description": "A fitted mini dress with an off-the-shoulder neckline and a sheer chiffon cape overlay.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/neressa-cape-sleeve-mini-dress-red/front.webp",
+    "/products/neressa-cape-sleeve-mini-dress-red/back.webp",
+    "/products/neressa-cape-sleeve-mini-dress-red/left.webp",
+    "/products/neressa-cape-sleeve-mini-dress-red/right.webp"
+  ],
+  "stock": 800,
+  "unitCostUsd": 37.43,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256804722586695",
+  "sourceColor": "Red"
+},
+{
+  "slug": "neressa-cape-sleeve-mini-dress-purple",
+  "name": "Neressa Cape-Sleeve Mini Dress — Deep Plum",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 113.9,
+  "colors": [
+    "#4C2854"
+  ],
+  "colorNames": [
+    "Deep Plum"
+  ],
+  "sizes": [
+    "4XL",
+    "5XL",
+    "XXL",
+    "XXXL"
+  ],
+  "subcategory": "Mini Dresses",
+  "description": "A fitted mini dress with an off-the-shoulder neckline and a sheer chiffon cape overlay.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/neressa-cape-sleeve-mini-dress-purple/front.webp",
+    "/products/neressa-cape-sleeve-mini-dress-purple/back.webp",
+    "/products/neressa-cape-sleeve-mini-dress-purple/left.webp",
+    "/products/neressa-cape-sleeve-mini-dress-purple/right.webp"
+  ],
+  "stock": 800,
+  "unitCostUsd": 37.77,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256804722586695",
+  "sourceColor": "PURPLE"
+},
+{
+  "slug": "tavienne-belted-houndstooth-jacket-khaki",
+  "name": "Tavienne Belted Houndstooth Jacket — Khaki",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 165.9,
+  "colors": [
+    "#827365"
+  ],
+  "colorNames": [
+    "Khaki"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A short houndstooth jacket with a stand collar, full sleeves and a matching waist tie.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/tavienne-belted-houndstooth-jacket-khaki/front.webp",
+    "/products/tavienne-belted-houndstooth-jacket-khaki/back.webp",
+    "/products/tavienne-belted-houndstooth-jacket-khaki/left.webp",
+    "/products/tavienne-belted-houndstooth-jacket-khaki/right.webp"
+  ],
+  "stock": 300,
+  "unitCostUsd": 54.99,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813191272892",
+  "sourceColor": "Khaki"
+},
+{
+  "slug": "nivalie-snowman-crewneck-sweatshirt-gray",
+  "name": "Nivalie Snowman Crewneck Sweatshirt — Heather Gray",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 44.9,
+  "colors": [
+    "#B6B9C0"
+  ],
+  "colorNames": [
+    "Heather Gray"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed heather-gray crewneck with a winter snowman print and ribbed cuffs.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/nivalie-snowman-crewneck-sweatshirt-gray/front.webp",
+    "/products/nivalie-snowman-crewneck-sweatshirt-gray/back.webp",
+    "/products/nivalie-snowman-crewneck-sweatshirt-gray/left.webp",
+    "/products/nivalie-snowman-crewneck-sweatshirt-gray/right.webp"
+  ],
+  "stock": 496,
+  "unitCostUsd": 14.89,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813286352977",
+  "sourceColor": "GRAY"
+},
+{
+  "slug": "cocelle-gingerbread-crewneck-sweatshirt-sage",
+  "name": "Cocelle Gingerbread Crewneck Sweatshirt — Sage",
+  "category": "Tops",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 53.9,
+  "colors": [
+    "#626E56"
+  ],
+  "colorNames": [
+    "Sage"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "description": "A relaxed sage crewneck with a holiday cocoa and gingerbread graphic and ribbed cuffs.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/cocelle-gingerbread-crewneck-sweatshirt-sage/front.webp",
+    "/products/cocelle-gingerbread-crewneck-sweatshirt-sage/back.webp",
+    "/products/cocelle-gingerbread-crewneck-sweatshirt-sage/left.webp",
+    "/products/cocelle-gingerbread-crewneck-sweatshirt-sage/right.webp"
+  ],
+  "stock": 493,
+  "unitCostUsd": 17.65,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256813242880059",
+  "sourceColor": "green"
 }
 ];
 
@@ -38455,6 +38750,15 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "sorelia-chiffon-high-low-dress-navy",
+  "linelle-contrast-cross-back-gown-black-champagne",
+  "ravielle-graffiti-bomber-jacket-multicolor",
+  "neressa-cape-sleeve-mini-dress-red",
+  "neressa-cape-sleeve-mini-dress-purple",
+  "tavienne-belted-houndstooth-jacket-khaki",
+  "nivalie-snowman-crewneck-sweatshirt-gray",
+  "cocelle-gingerbread-crewneck-sweatshirt-sage",
+
   "fiorenne-mini-floral-backpack-apricot",
   "fiorenne-mini-floral-backpack-black",
   "fiorenne-mini-floral-backpack-pink",

@@ -5822,5 +5822,72 @@
   "stockBySize": {
    "One Size": 25
   }
+ },
+ "sorelia-chiffon-high-low-dress-navy": {
+  "stockBySize": {
+   "XL": 500,
+   "S": 500,
+   "M": 500,
+   "XXL": 500,
+   "L": 500
+  }
+ },
+ "linelle-contrast-cross-back-gown-black-champagne": {
+  "stockBySize": {
+   "L": 99,
+   "M": 98,
+   "S": 98,
+   "XL": 98
+  }
+ },
+ "ravielle-graffiti-bomber-jacket-multicolor": {
+  "stockBySize": {
+   "1XL": 30,
+   "2XL": 27,
+   "3XL": 29,
+   "4XL": 30,
+   "5XL": 29
+  }
+ },
+ "neressa-cape-sleeve-mini-dress-red": {
+  "stockBySize": {
+   "5XL": 200,
+   "4XL": 200,
+   "XXXL": 200,
+   "XL": 200
+  }
+ },
+ "neressa-cape-sleeve-mini-dress-purple": {
+  "stockBySize": {
+   "5XL": 200,
+   "4XL": 200,
+   "XXXL": 200,
+   "XXL": 200
+  }
+ },
+ "tavienne-belted-houndstooth-jacket-khaki": {
+  "stockBySize": {
+   "S": 100,
+   "M": 100,
+   "L": 100
+  }
+ },
+ "nivalie-snowman-crewneck-sweatshirt-gray": {
+  "stockBySize": {
+   "XXL": 99,
+   "XL": 100,
+   "L": 97,
+   "M": 100,
+   "S": 100
+  }
+ },
+ "cocelle-gingerbread-crewneck-sweatshirt-sage": {
+  "stockBySize": {
+   "XL": 99,
+   "L": 96,
+   "XXL": 99,
+   "M": 99,
+   "S": 100
+  }
  }
 }
