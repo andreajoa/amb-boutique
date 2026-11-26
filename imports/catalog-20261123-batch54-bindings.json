@@ -1,0 +1,57 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "amalfi-dumpling-bag-small-latte",
+      "sourceProductId": "1005012095344185",
+      "sourceColor": "Latte leather",
+      "supplierId": "cmww1qlfn00if1rtq38b1tvvm",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000057507462059"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 32.59
+      },
+      "stockBySize": {
+        "One Size": 500
+      },
+      "retailPriceUsd": 97.9,
+      "verifiedAtUtc": "2026-11-26T02:05:48.392Z"
+    },
+    {
+      "slug": "amalfi-dumpling-bag-small-burgundy",
+      "sourceProductId": "1005012095344185",
+      "sourceColor": "Burgundy Leather",
+      "supplierId": "cmww1qlfn00if1rtq38b1tvvm",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000057507462057"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 32.59
+      },
+      "stockBySize": {
+        "One Size": 500
+      },
+      "retailPriceUsd": 97.9,
+      "verifiedAtUtc": "2026-11-26T02:05:48.392Z"
+    },
+    {
+      "slug": "amalfi-dumpling-bag-large-brown",
+      "sourceProductId": "1005013479804545",
+      "sourceColor": "Brown L",
+      "supplierId": "cmww1q0bf00h61rtqc616zmu5",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000061253840016"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 51.88
+      },
+      "stockBySize": {
+        "One Size": 5
+      },
+      "retailPriceUsd": 155.9,
+      "verifiedAtUtc": "2026-11-26T02:06:46.478Z"
+    }
+  ]
+}

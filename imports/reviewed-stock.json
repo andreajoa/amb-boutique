@@ -5787,5 +5787,20 @@
   "stockBySize": {
    "One Size": 3
   }
+ },
+ "amalfi-dumpling-bag-small-latte": {
+  "stockBySize": {
+   "One Size": 500
+  }
+ },
+ "amalfi-dumpling-bag-small-burgundy": {
+  "stockBySize": {
+   "One Size": 500
+  }
+ },
+ "amalfi-dumpling-bag-large-brown": {
+  "stockBySize": {
+   "One Size": 5
+  }
  }
 }
