@@ -38310,6 +38310,142 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "1005013479804545",
   "sourceColor": "Brown L"
+},
+{
+  "slug": "fiorenne-mini-floral-backpack-apricot",
+  "name": "Fiorenne Mini Floral Backpack — Apricot Trim",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 20.9,
+  "colors": [
+    "#C19670"
+  ],
+  "colorNames": [
+    "Apricot Trim"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A rounded floral mini backpack with adjustable straps, a top handle and a front zip pocket. The interior photo shows the Dark Brown version of the same design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/fiorenne-mini-floral-backpack-apricot/front.webp",
+    "/products/fiorenne-mini-floral-backpack-apricot/back.webp",
+    "/products/fiorenne-mini-floral-backpack-apricot/left.webp",
+    "/products/fiorenne-mini-floral-backpack-apricot/right.webp",
+    "/products/fiorenne-mini-floral-backpack-apricot/inside.webp"
+  ],
+  "stock": 10,
+  "unitCostUsd": 6.94,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005006994948987",
+  "sourceColor": "apricot"
+},
+{
+  "slug": "fiorenne-mini-floral-backpack-black",
+  "name": "Fiorenne Mini Floral Backpack — Black",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 21.9,
+  "colors": [
+    "#262423"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A rounded floral mini backpack with adjustable straps, a top handle and a front zip pocket. The interior photo shows the Dark Brown version of the same design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/fiorenne-mini-floral-backpack-black/front.webp",
+    "/products/fiorenne-mini-floral-backpack-black/back.webp",
+    "/products/fiorenne-mini-floral-backpack-black/left.webp",
+    "/products/fiorenne-mini-floral-backpack-black/right.webp",
+    "/products/fiorenne-mini-floral-backpack-black/inside.webp"
+  ],
+  "stock": 70,
+  "unitCostUsd": 6.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005006994948987",
+  "sourceColor": "black"
+},
+{
+  "slug": "fiorenne-mini-floral-backpack-pink",
+  "name": "Fiorenne Mini Floral Backpack — Blush Pink",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 20.9,
+  "colors": [
+    "#D6A4A9"
+  ],
+  "colorNames": [
+    "Blush Pink"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A rounded floral mini backpack with adjustable straps, a top handle and a front zip pocket. The interior photo shows the Dark Brown version of the same design.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/fiorenne-mini-floral-backpack-pink/front.webp",
+    "/products/fiorenne-mini-floral-backpack-pink/back.webp",
+    "/products/fiorenne-mini-floral-backpack-pink/left.webp",
+    "/products/fiorenne-mini-floral-backpack-pink/right.webp",
+    "/products/fiorenne-mini-floral-backpack-pink/inside.webp"
+  ],
+  "stock": 37,
+  "unitCostUsd": 6.84,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005006994948987",
+  "sourceColor": "Pink"
+},
+{
+  "slug": "fiorenne-mini-floral-backpack-dark-brown",
+  "name": "Fiorenne Mini Floral Backpack — Dark Brown",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 18.9,
+  "colors": [
+    "#493426"
+  ],
+  "colorNames": [
+    "Dark Brown"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A rounded floral mini backpack with adjustable straps, a top handle and a front zip pocket.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/fiorenne-mini-floral-backpack-dark-brown/front.webp",
+    "/products/fiorenne-mini-floral-backpack-dark-brown/back.webp",
+    "/products/fiorenne-mini-floral-backpack-dark-brown/left.webp",
+    "/products/fiorenne-mini-floral-backpack-dark-brown/right.webp",
+    "/products/fiorenne-mini-floral-backpack-dark-brown/inside.webp"
+  ],
+  "stock": 25,
+  "unitCostUsd": 6.14,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005006994948987",
+  "sourceColor": "Dark brown"
 }
 ];
 
@@ -38319,6 +38455,11 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "fiorenne-mini-floral-backpack-apricot",
+  "fiorenne-mini-floral-backpack-black",
+  "fiorenne-mini-floral-backpack-pink",
+  "fiorenne-mini-floral-backpack-dark-brown",
+
   "amalfi-dumpling-bag-small-latte",
   "amalfi-dumpling-bag-small-burgundy",
   "amalfi-dumpling-bag-large-brown",
