@@ -5802,5 +5802,25 @@
   "stockBySize": {
    "One Size": 5
   }
+ },
+ "fiorenne-mini-floral-backpack-apricot": {
+  "stockBySize": {
+   "One Size": 10
+  }
+ },
+ "fiorenne-mini-floral-backpack-black": {
+  "stockBySize": {
+   "One Size": 70
+  }
+ },
+ "fiorenne-mini-floral-backpack-pink": {
+  "stockBySize": {
+   "One Size": 37
+  }
+ },
+ "fiorenne-mini-floral-backpack-dark-brown": {
+  "stockBySize": {
+   "One Size": 25
+  }
  }
 }

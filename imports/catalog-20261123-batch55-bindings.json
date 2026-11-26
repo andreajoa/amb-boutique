@@ -1,0 +1,74 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "fiorenne-mini-floral-backpack-apricot",
+      "sourceProductId": "1005006994948987",
+      "sourceColor": "apricot",
+      "supplierId": "cmwwx0phk00sg1rtqz339bj0m",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000038985131321"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 6.94
+      },
+      "stockBySize": {
+        "One Size": 10
+      },
+      "retailPriceUsd": 20.9,
+      "verifiedAtUtc": "2026-11-26T22:31:02.387Z"
+    },
+    {
+      "slug": "fiorenne-mini-floral-backpack-black",
+      "sourceProductId": "1005006994948987",
+      "sourceColor": "black",
+      "supplierId": "cmwwx0phk00sg1rtqz339bj0m",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000038985131320"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 6.98
+      },
+      "stockBySize": {
+        "One Size": 70
+      },
+      "retailPriceUsd": 21.9,
+      "verifiedAtUtc": "2026-11-26T22:31:02.387Z"
+    },
+    {
+      "slug": "fiorenne-mini-floral-backpack-pink",
+      "sourceProductId": "1005006994948987",
+      "sourceColor": "Pink",
+      "supplierId": "cmwwx0phk00sg1rtqz339bj0m",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000038985131322"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 6.84
+      },
+      "stockBySize": {
+        "One Size": 37
+      },
+      "retailPriceUsd": 20.9,
+      "verifiedAtUtc": "2026-11-26T22:31:02.387Z"
+    },
+    {
+      "slug": "fiorenne-mini-floral-backpack-dark-brown",
+      "sourceProductId": "1005006994948987",
+      "sourceColor": "Dark brown",
+      "supplierId": "cmwwx0phk00sg1rtqz339bj0m",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000038985131319"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 6.14
+      },
+      "stockBySize": {
+        "One Size": 25
+      },
+      "retailPriceUsd": 18.9,
+      "verifiedAtUtc": "2026-11-26T22:31:02.387Z"
+    }
+  ]
+}
