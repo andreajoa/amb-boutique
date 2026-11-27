@@ -1,0 +1,23 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "lorelle-croc-embossed-crossbody-wine-red",
+      "sourceProductId": "3256805030578196",
+      "sourceColor": "Winered",
+      "supplierId": "cmuw4iuft00ji04l2pm8zl6dk",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000039239637277"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 23.64
+      },
+      "stockBySize": {
+        "One Size": 91997
+      },
+      "retailPriceUsd": 71.9,
+      "verifiedAtUtc": "2026-11-27T18:01:26.412Z"
+    }
+  ]
+}

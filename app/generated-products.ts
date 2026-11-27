@@ -39559,6 +39559,40 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256812237797031",
   "sourceColor": "Chocolate"
+},
+{
+  "slug": "lorelle-croc-embossed-crossbody-wine-red",
+  "name": "Lorelle Croc-Embossed Crossbody — Wine Red",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 71.9,
+  "colors": [
+    "#742333"
+  ],
+  "colorNames": [
+    "Wine Red"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A wine-red crossbody with a crocodile-embossed front panel, gold-tone hardware, a detachable strap and three zip compartments. The supplier’s interior photo shows the same design in black.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/lorelle-croc-embossed-crossbody-wine-red/front.webp",
+    "/products/lorelle-croc-embossed-crossbody-wine-red/back.webp",
+    "/products/lorelle-croc-embossed-crossbody-wine-red/left.webp",
+    "/products/lorelle-croc-embossed-crossbody-wine-red/right.webp",
+    "/products/lorelle-croc-embossed-crossbody-wine-red/inside.webp"
+  ],
+  "stock": 91997,
+  "unitCostUsd": 23.64,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805030578196",
+  "sourceColor": "Winered"
 }
 ];
 
@@ -39568,6 +39602,8 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "lorelle-croc-embossed-crossbody-wine-red",
+
   "avelisse-patterned-zip-tote-chocolate",
 
   "levienne-rainbow-stripe-lounge-set-black",
