@@ -1,0 +1,29 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "celianne-lace-trim-sequin-slip-mini-dress-blush-merlot",
+      "sourceProductId": "1005013492277389",
+      "sourceColor": "A-pink",
+      "supplierId": "cmwzbj7hm00361rqnj79qyziy",
+      "sourceSkuIdsBySize": {
+        "M": "12000061272983650",
+        "L": "12000061272983651",
+        "S": "12000061272983649"
+      },
+      "landedCostUsdBySize": {
+        "M": 38.03,
+        "L": 38.03,
+        "S": 38.03
+      },
+      "stockBySize": {
+        "M": 998,
+        "L": 998,
+        "S": 998
+      },
+      "retailPriceUsd": 114.9,
+      "verifiedAtUtc": "2026-11-27T18:33:12.076Z"
+    }
+  ]
+}

@@ -39663,6 +39663,41 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "1005012706659538",
   "sourceColor": "02 light blue"
+},
+{
+  "slug": "celianne-lace-trim-sequin-slip-mini-dress-blush-merlot",
+  "name": "Celianne Lace-Trim Sequin Slip Mini Dress — Blush Merlot",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 114.9,
+  "colors": [
+    "#CEB0C6"
+  ],
+  "colorNames": [
+    "Blush Merlot"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted mini slip dress in sheer blush sequin mesh with merlot lace accents and slender shoulder straps. Shown with a styling underlayer that is sold separately.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celianne-lace-trim-sequin-slip-mini-dress-blush-merlot/front.webp",
+    "/products/celianne-lace-trim-sequin-slip-mini-dress-blush-merlot/back.webp",
+    "/products/celianne-lace-trim-sequin-slip-mini-dress-blush-merlot/left.webp",
+    "/products/celianne-lace-trim-sequin-slip-mini-dress-blush-merlot/right.webp"
+  ],
+  "stock": 2994,
+  "unitCostUsd": 38.03,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005013492277389",
+  "sourceColor": "A-pink"
 }
 ];
 
@@ -39672,6 +39707,8 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "celianne-lace-trim-sequin-slip-mini-dress-blush-merlot",
+
   "celianne-lace-trim-sequin-slip-mini-dress-garnet-rose",
   "celianne-lace-trim-sequin-slip-mini-dress-ice-blue",
 

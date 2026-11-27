@@ -2,13 +2,13 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
-      "slug": "celianne-lace-trim-sequin-slip-mini-dress-garnet-rose",
-      "name": "Celianne Lace-Trim Sequin Slip Mini Dress — Garnet Rose",
-      "image": "/products/celianne-lace-trim-sequin-slip-mini-dress-garnet-rose/front.webp",
+      "slug": "celianne-lace-trim-sequin-slip-mini-dress-blush-merlot",
+      "name": "Celianne Lace-Trim Sequin Slip Mini Dress — Blush Merlot",
+      "image": "/products/celianne-lace-trim-sequin-slip-mini-dress-blush-merlot/front.webp",
       "eyebrow": "AFTER DARK",
-      "copy": "A fitted mini slip dress with deep red sequined fabric and rose-pink floral lace, a square neckline and slender shoulder straps.",
+      "copy": "A fitted mini slip dress in sheer blush sequin mesh with merlot lace accents and slender shoulder straps.",
       "category": "Dresses",
-      "arrivalRank": 1337,
+      "arrivalRank": 1338,
       "classification": "verified-model"
     },
     {
