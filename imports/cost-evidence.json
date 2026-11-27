@@ -1305,6 +1305,10 @@
    "landedCostUsd": 25.1,
    "source": "catalog-20261025-batch03-supplier-bindings.json"
   },
+  "jingpin-heart-quilted-crossbody-black": {
+   "landedCostUsd": 7.18,
+   "source": "catalog-20261123-batch64-bindings.json"
+  },
   "jovina-black-pleated-maxi-dress": {
    "landedCostUsd": 34.69,
    "source": "markup-3x-20261025 (price-audit-refresh-2026-10-25T01-54-57-137Z/analysis-2026-10-25T02-03-00.377538+00-00)"
@@ -3532,6 +3536,10 @@
   "zelisse-chevron-knit-mini-dress-pink": {
    "landedCostUsd": 20.85,
    "source": "catalog-20261123-batch05-bindings.json"
+  },
+  "zmbird-coil-handle-satchel-beige": {
+   "landedCostUsd": 37.48,
+   "source": "catalog-20261123-batch64-bindings.json"
   },
   "zosia-green-pleated-midi-dress": {
    "landedCostUsd": 36.16,
