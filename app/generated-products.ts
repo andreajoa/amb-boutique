@@ -39732,6 +39732,74 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256810578504741",
   "sourceColor": "black"
+},
+{
+  "slug": "jingpin-heart-quilted-crossbody-black",
+  "name": "Jingpin Heart-Quilted Crossbody — Black",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 21.9,
+  "colors": [
+    "#191919"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A black crossbody with heart quilting, gold-tone zip pulls and an adjustable woven strap. Two zip compartments sit behind the front pocket. The interior view is a studio reconstruction based on a photograph of the same black bag.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/jingpin-heart-quilted-crossbody-black/front.webp",
+    "/products/jingpin-heart-quilted-crossbody-black/back.webp",
+    "/products/jingpin-heart-quilted-crossbody-black/left.webp",
+    "/products/jingpin-heart-quilted-crossbody-black/right.webp",
+    "/products/jingpin-heart-quilted-crossbody-black/inside.webp"
+  ],
+  "stock": 1,
+  "unitCostUsd": 7.18,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256806153947521",
+  "sourceColor": "as shown"
+},
+{
+  "slug": "zmbird-coil-handle-satchel-beige",
+  "name": "ZMBIRD Coil-Handle Satchel — Beige",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 112.9,
+  "colors": [
+    "#EAE3D0"
+  ],
+  "colorNames": [
+    "Beige"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A cream satchel with caramel handles, gunmetal coil fittings and a detachable shoulder strap. A zip divider organizes the interior. The interior view is a studio reconstruction from the supplier’s photograph of the same design in black.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/zmbird-coil-handle-satchel-beige/front.webp",
+    "/products/zmbird-coil-handle-satchel-beige/back.webp",
+    "/products/zmbird-coil-handle-satchel-beige/left.webp",
+    "/products/zmbird-coil-handle-satchel-beige/right.webp",
+    "/products/zmbird-coil-handle-satchel-beige/inside.webp"
+  ],
+  "stock": 79996,
+  "unitCostUsd": 37.48,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256805030578196",
+  "sourceColor": "Beige"
 }
 ];
 
@@ -39741,6 +39809,9 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "jingpin-heart-quilted-crossbody-black",
+  "zmbird-coil-handle-satchel-beige",
+
   "vionelle-bow-embossed-crossbody-black",
 
   "celianne-lace-trim-sequin-slip-mini-dress-blush-merlot",

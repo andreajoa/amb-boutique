@@ -1,0 +1,40 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "jingpin-heart-quilted-crossbody-black",
+      "sourceProductId": "3256806153947521",
+      "sourceColor": "as shown",
+      "supplierId": "ambsp-ad4363d93273cfacf9ceed4eb53ebaa3",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000046650328111"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 7.18
+      },
+      "stockBySize": {
+        "One Size": 1
+      },
+      "retailPriceUsd": 21.9,
+      "verifiedAtUtc": "2026-11-27T23:49:13.569Z"
+    },
+    {
+      "slug": "zmbird-coil-handle-satchel-beige",
+      "sourceProductId": "3256805030578196",
+      "sourceColor": "Beige",
+      "supplierId": "cmuw4iuft00ji04l2pm8zl6dk",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000039240937641"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 37.48
+      },
+      "stockBySize": {
+        "One Size": 79996
+      },
+      "retailPriceUsd": 112.9,
+      "verifiedAtUtc": "2026-11-27T23:49:16.691Z"
+    }
+  ]
+}
