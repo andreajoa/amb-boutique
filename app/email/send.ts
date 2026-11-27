@@ -6,6 +6,7 @@ import { findCampaign } from "./campaigns";
 import { renderAmbEmail, absoluteUrl, type AmbOrderEmailDetails, type AmbEmailCartItem } from "./template";
 import { getAnalyticsSql, jsonForDatabase } from "../analytics/db";
 import { ambResendApiKey, ambResendFromEmail } from "./resend-config";
+import { cancelAmbEmail, deliverAmbEmail } from "./transport";
 
 let resendClient: Resend | null | undefined;
 
@@ -171,7 +172,11 @@ export async function sendAmbEmail(options: {
   const from = ambResendFromEmail();
   const transactional = new Set(["order-confirmed", "order-next-steps", "order-shipped", "payment-recovery"]);
   const isTransactional = transactional.has(campaign.key) || campaign.key.startsWith("tracking-");
-  const result = await resend.emails.send({
+  // Follow-ups (recuperações, newsletters, etapas 2+) saem pelo NovaMail; o resto Resend → Brevo → NovaMail.
+  const isFollowUp = !isTransactional && (
+    campaign.type === "cart-recovery" || campaign.type === "checkout-recovery" || campaign.type === "newsletter" || (campaign.step || 1) >= 2
+  );
+  const delivered = await deliverAmbEmail({
     from,
     to: [options.to],
     replyTo: process.env.NEXT_PUBLIC_SUPPORT_EMAIL || "info@ambboutique.online",
@@ -188,8 +193,7 @@ export async function sendAmbEmail(options: {
       { name: "campaign", value: campaign.key },
       { name: "type", value: campaign.type },
     ],
-  });
-  if (result.error || !result.data?.id) throw new Error(result.error?.message || "Email provider did not accept the message.");
+  }, { followUp: isFollowUp });
 
   if (sql) {
     await sql`
@@ -198,14 +202,14 @@ export async function sendAmbEmail(options: {
         subject_variant, status, scheduled_for, metadata
       ) VALUES (
         ${options.contactId || null}, ${options.journeyId || null}, ${campaign.key},
-        ${result.data.id}, ${createHash("sha256").update(options.to.trim().toLowerCase()).digest("hex")},
+        ${delivered.id}, ${createHash("sha256").update(options.to.trim().toLowerCase()).digest("hex")},
         ${subjectTest.variant}, ${options.scheduledAt ? "scheduled" : "sent"}, ${options.scheduledAt || null},
-        ${jsonForDatabase({ recoveryUrl: options.recoveryUrl || campaign.ctaUrl })}::jsonb
+        ${jsonForDatabase({ recoveryUrl: options.recoveryUrl || campaign.ctaUrl, provider: delivered.provider })}::jsonb
       )
       ON CONFLICT (provider_id) DO NOTHING
     `;
   }
-  return { sent: true, preview: false, id: result.data.id, campaign: campaign.key };
+  return { sent: true, preview: false, id: delivered.id, provider: delivered.provider, campaign: campaign.key };
 }
 
 export async function scheduleEmailSequence(options: {
@@ -259,8 +263,7 @@ export async function scheduleRecoverySequence(options: {
 export async function cancelJourneyEmails(journeyId?: number | string | null) {
   if (!journeyId) return;
   const sql = getAnalyticsSql();
-  const resend = getResend();
-  if (!sql || !resend) return;
+  if (!sql) return;
   const rows = await sql`
     SELECT id, provider_id FROM amb_email_messages
     WHERE journey_id = ${journeyId}
@@ -270,9 +273,9 @@ export async function cancelJourneyEmails(journeyId?: number | string | null) {
   ` as Array<{ id: number; provider_id: string }>;
   for (const row of rows) {
     try {
-      const result = await resend.emails.cancel(row.provider_id);
-      if (result.error) {
-        console.error("AMB scheduled email cancellation failed", { providerId: row.provider_id, error: result.error.message });
+      const result = await cancelAmbEmail(row.provider_id);
+      if (!result.ok) {
+        console.error("AMB scheduled email cancellation failed", { providerId: row.provider_id, error: result.error });
         continue;
       }
       await sql`UPDATE amb_email_messages SET status = 'cancelled' WHERE id = ${row.id}`;
@@ -284,8 +287,7 @@ export async function cancelJourneyEmails(journeyId?: number | string | null) {
 
 export async function cancelContactEmails(email: string) {
   const sql = getAnalyticsSql();
-  const resend = getResend();
-  if (!sql || !resend) return;
+  if (!sql) return;
   const recipientHash = createHash("sha256").update(email.trim().toLowerCase()).digest("hex");
   const rows = await sql`
     SELECT id, provider_id FROM amb_email_messages
@@ -293,9 +295,9 @@ export async function cancelContactEmails(email: string) {
   ` as Array<{ id: number; provider_id: string }>;
   for (const row of rows) {
     try {
-      const result = await resend.emails.cancel(row.provider_id);
-      if (result.error) {
-        console.error("AMB scheduled email cancellation failed", { providerId: row.provider_id, error: result.error.message });
+      const result = await cancelAmbEmail(row.provider_id);
+      if (!result.ok) {
+        console.error("AMB scheduled email cancellation failed", { providerId: row.provider_id, error: result.error });
         continue;
       }
       await sql`UPDATE amb_email_messages SET status = 'cancelled' WHERE id = ${row.id}`;
@@ -308,8 +310,7 @@ export async function cancelContactEmails(email: string) {
 // A purchase ends every reminder about unfinished bags or checkouts for that shopper, on any of their journeys.
 export async function cancelContactRecoveryEmails(email: string) {
   const sql = getAnalyticsSql();
-  const resend = getResend();
-  if (!sql || !resend) return;
+  if (!sql) return;
   const recipientHash = createHash("sha256").update(email.trim().toLowerCase()).digest("hex");
   const rows = await sql`
     SELECT id, provider_id FROM amb_email_messages
@@ -318,9 +319,9 @@ export async function cancelContactRecoveryEmails(email: string) {
   ` as Array<{ id: number; provider_id: string }>;
   for (const row of rows) {
     try {
-      const result = await resend.emails.cancel(row.provider_id);
-      if (result.error) {
-        console.error("AMB scheduled email cancellation failed", { providerId: row.provider_id, error: result.error.message });
+      const result = await cancelAmbEmail(row.provider_id);
+      if (!result.ok) {
+        console.error("AMB scheduled email cancellation failed", { providerId: row.provider_id, error: result.error });
         continue;
       }
       await sql`UPDATE amb_email_messages SET status = 'cancelled' WHERE id = ${row.id}`;

@@ -1,6 +1,6 @@
 import "server-only";
 
-import { Resend } from "resend";
+import { deliverAmbEmail } from "./transport";
 import { ambResendApiKey, ambResendFromEmail } from "./resend-config";
 import { createPublicTrackingToken, type AmbTrackingSnapshot } from "../fulfillment-tracking";
 import { emailProductGrid } from "./template";
@@ -253,12 +253,11 @@ export async function sendAmbTrackingUpdateEmail(input: {
   market?: string | null;
   snapshot: AmbTrackingSnapshot;
 }) {
-  const apiKey = ambResendApiKey();
-  if (!apiKey) throw new Error("AMB Resend is not configured.");
-  const resend = new Resend(apiKey);
+  if (!ambResendApiKey()) throw new Error("AMB Resend is not configured.");
   const email = renderAmbTrackingUpdateEmail(input);
 
-  const result = await resend.emails.send({
+  // Resend → Brevo → NovaMail quando o limite do provedor anterior acabar.
+  const delivered = await deliverAmbEmail({
     from: ambResendFromEmail(),
     to: [input.to],
     replyTo: process.env.NEXT_PUBLIC_SUPPORT_EMAIL || "info@ambboutique.online",
@@ -269,9 +268,6 @@ export async function sendAmbTrackingUpdateEmail(input: {
       { name: "campaign", value: "order-tracking-update" },
       { name: "type", value: "lifecycle" },
     ],
-  });
-  if (result.error || !result.data?.id) {
-    throw new Error(result.error?.message || "Email provider did not accept tracking update.");
-  }
-  return { id: result.data.id, subject: email.subject, trackingUrl: email.trackingUrl };
+  }, { followUp: false });
+  return { id: delivered.id, subject: email.subject, trackingUrl: email.trackingUrl };
 }
