@@ -24,8 +24,9 @@ export type AmbMail = {
 const NOVAMAIL_URL = () => (process.env.NOVAMAIL_API_URL?.trim() || "https://api.novamail.nexaclouds.online").replace(/\/$/, "");
 const novamailKey = () => process.env.AMB_NOVAMAIL_API_KEY?.trim() || "";
 const brevoKey = () => process.env.AMB_BREVO_API_KEY?.trim() || process.env.BREVO_API_KEY?.trim() || "";
-// O NovaMail envia pelo domínio verificado nele (mail.ambboutique.online).
-const novamailFrom = (from: string) => process.env.AMB_NOVAMAIL_FROM?.trim() || from;
+// O NovaMail envia pelo domínio verificado nele (mail.ambboutique.online), com o mesmo nome de exibição.
+const novamailFrom = (from: string) =>
+  process.env.AMB_NOVAMAIL_FROM?.trim() || from.replace(/@(?:[a-z0-9-]+\.)*ambboutique\.online/i, "@mail.ambboutique.online");
 
 export class ProviderLimitError extends Error {}
 
