@@ -1,0 +1,52 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "celianne-lace-trim-sequin-slip-mini-dress-garnet-rose",
+      "sourceProductId": "1005012706659538",
+      "sourceColor": "02 red",
+      "supplierId": "cmwzb1gn4000h1rqnjykuhaqw",
+      "sourceSkuIdsBySize": {
+        "L": "12000059496302861",
+        "S": "12000059496302868",
+        "M": "12000059496302869"
+      },
+      "landedCostUsdBySize": {
+        "L": 43.98,
+        "S": 41.78,
+        "M": 43.98
+      },
+      "stockBySize": {
+        "L": 999,
+        "S": 999,
+        "M": 999
+      },
+      "retailPriceUsd": 132.9,
+      "verifiedAtUtc": "2026-11-27T18:19:55.879Z"
+    },
+    {
+      "slug": "celianne-lace-trim-sequin-slip-mini-dress-ice-blue",
+      "sourceProductId": "1005012706659538",
+      "sourceColor": "02 light blue",
+      "supplierId": "cmwzb1gn4000h1rqnjykuhaqw",
+      "sourceSkuIdsBySize": {
+        "M": "12000059496302863",
+        "L": "12000059496302865",
+        "S": "12000059496302866"
+      },
+      "landedCostUsdBySize": {
+        "M": 43.98,
+        "L": 43.98,
+        "S": 43.98
+      },
+      "stockBySize": {
+        "M": 999,
+        "L": 999,
+        "S": 999
+      },
+      "retailPriceUsd": 132.9,
+      "verifiedAtUtc": "2026-11-27T18:19:53.984Z"
+    }
+  ]
+}

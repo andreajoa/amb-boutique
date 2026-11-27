@@ -39593,6 +39593,76 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256805030578196",
   "sourceColor": "Winered"
+},
+{
+  "slug": "celianne-lace-trim-sequin-slip-mini-dress-garnet-rose",
+  "name": "Celianne Lace-Trim Sequin Slip Mini Dress — Garnet Rose",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 132.9,
+  "colors": [
+    "#922840"
+  ],
+  "colorNames": [
+    "Garnet Rose"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted mini slip dress with deep red sequined fabric and rose-pink floral lace, a square neckline and slender shoulder straps.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celianne-lace-trim-sequin-slip-mini-dress-garnet-rose/front.webp",
+    "/products/celianne-lace-trim-sequin-slip-mini-dress-garnet-rose/back.webp",
+    "/products/celianne-lace-trim-sequin-slip-mini-dress-garnet-rose/left.webp",
+    "/products/celianne-lace-trim-sequin-slip-mini-dress-garnet-rose/right.webp"
+  ],
+  "stock": 2997,
+  "unitCostUsd": 43.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005012706659538",
+  "sourceColor": "02 red"
+},
+{
+  "slug": "celianne-lace-trim-sequin-slip-mini-dress-ice-blue",
+  "name": "Celianne Lace-Trim Sequin Slip Mini Dress — Ice Blue",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 132.9,
+  "colors": [
+    "#B9D9DC"
+  ],
+  "colorNames": [
+    "Ice Blue"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A fitted mini slip dress with ice-blue sequined fabric and ivory floral lace, a square neckline and slender shoulder straps.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/celianne-lace-trim-sequin-slip-mini-dress-ice-blue/front.webp",
+    "/products/celianne-lace-trim-sequin-slip-mini-dress-ice-blue/back.webp",
+    "/products/celianne-lace-trim-sequin-slip-mini-dress-ice-blue/left.webp",
+    "/products/celianne-lace-trim-sequin-slip-mini-dress-ice-blue/right.webp"
+  ],
+  "stock": 2997,
+  "unitCostUsd": 43.98,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005012706659538",
+  "sourceColor": "02 light blue"
 }
 ];
 
@@ -39602,6 +39672,9 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "celianne-lace-trim-sequin-slip-mini-dress-garnet-rose",
+  "celianne-lace-trim-sequin-slip-mini-dress-ice-blue",
+
   "lorelle-croc-embossed-crossbody-wine-red",
 
   "avelisse-patterned-zip-tote-chocolate",
