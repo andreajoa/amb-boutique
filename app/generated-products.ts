@@ -39698,6 +39698,40 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "1005013492277389",
   "sourceColor": "A-pink"
+},
+{
+  "slug": "vionelle-bow-embossed-crossbody-black",
+  "name": "Vionelle Bow-Embossed Crossbody — Black",
+  "category": "Bags",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 27.9,
+  "colors": [
+    "#191919"
+  ],
+  "colorNames": [
+    "Black"
+  ],
+  "sizes": [
+    "One Size"
+  ],
+  "description": "A black crossbody with an embossed bow pattern, silver-tone zipper pulls and an adjustable strap. The main compartment is lined in black. The interior view is a studio reconstruction based on a photograph of the same bag.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/vionelle-bow-embossed-crossbody-black/front.webp",
+    "/products/vionelle-bow-embossed-crossbody-black/back.webp",
+    "/products/vionelle-bow-embossed-crossbody-black/left.webp",
+    "/products/vionelle-bow-embossed-crossbody-black/right.webp",
+    "/products/vionelle-bow-embossed-crossbody-black/inside.webp"
+  ],
+  "stock": 19,
+  "unitCostUsd": 9.08,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "3256810578504741",
+  "sourceColor": "black"
 }
 ];
 
@@ -39707,6 +39741,8 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "vionelle-bow-embossed-crossbody-black",
+
   "celianne-lace-trim-sequin-slip-mini-dress-blush-merlot",
 
   "celianne-lace-trim-sequin-slip-mini-dress-garnet-rose",

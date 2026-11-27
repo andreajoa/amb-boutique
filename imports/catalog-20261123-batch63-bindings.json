@@ -1,0 +1,23 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "vionelle-bow-embossed-crossbody-black",
+      "sourceProductId": "3256810578504741",
+      "sourceColor": "black",
+      "supplierId": "ambsp-4ffe4914bec6d14e396e076d7bf5a824",
+      "sourceSkuIdsBySize": {
+        "One Size": "12000053431053066"
+      },
+      "landedCostUsdBySize": {
+        "One Size": 9.08
+      },
+      "stockBySize": {
+        "One Size": 19
+      },
+      "retailPriceUsd": 27.9,
+      "verifiedAtUtc": "2026-11-27T23:06:26.386Z"
+    }
+  ]
+}
