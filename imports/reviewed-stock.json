@@ -6090,5 +6090,19 @@
   "stockBySize": {
    "One Size": 91997
   }
+ },
+ "celianne-lace-trim-sequin-slip-mini-dress-garnet-rose": {
+  "stockBySize": {
+   "L": 999,
+   "S": 999,
+   "M": 999
+  }
+ },
+ "celianne-lace-trim-sequin-slip-mini-dress-ice-blue": {
+  "stockBySize": {
+   "M": 999,
+   "L": 999,
+   "S": 999
+  }
  }
 }
