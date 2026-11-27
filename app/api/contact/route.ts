@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { ambResendApiKey, ambResendFromEmail } from "../../email/resend-config";
+import { deliverAmbEmail } from "../../email/transport";
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -23,31 +24,28 @@ export async function POST(request: Request) {
     );
   }
 
-  const response = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
+  // Resend → Brevo → NovaMail quando o limite do provedor anterior acabar.
+  let delivered = true;
+  let providerError = "";
+  try {
+    await deliverAmbEmail({
       from,
       to: ["ambb.outique@proton.me"],
-      reply_to: body.email,
+      replyTo: body.email,
       subject: `[AMB BOUTIQUE] ${body.topic || "Customer message"}${body.orderNumber ? ` · ${body.orderNumber}` : ""}`,
       text: `From: ${body.firstName} ${body.lastName || ""}
 Email: ${body.email}
 Order: ${body.orderNumber || "Not provided"}
 
 ${body.message}`,
-    }),
-  });
+    }, { followUp: false });
+  } catch (error) {
+    delivered = false;
+    providerError = error instanceof Error ? error.message : String(error);
+  }
 
-  if (!response.ok) {
-    const providerError = await response.text().catch(() => "");
-    console.error("AMB contact email delivery failed", {
-      status: response.status,
-      providerError,
-    });
+  if (!delivered) {
+    console.error("AMB contact email delivery failed", { providerError });
 
     return NextResponse.json(
       { error: "We couldn’t send your message right now. Please try again in a few minutes." },
