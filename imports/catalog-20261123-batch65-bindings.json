@@ -1,0 +1,75 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "mozision-draped-one-shoulder-maxi-dress-red",
+      "sourceProductId": "1005005429700441",
+      "sourceColor": "Red",
+      "supplierId": "cmx004qts004w1rqnadlomq81",
+      "sourceSkuIdsBySize": {
+        "M": "12000033628024696",
+        "L": "12000033628024699",
+        "S": "12000033628024693"
+      },
+      "landedCostUsdBySize": {
+        "M": 27.54,
+        "L": 27.54,
+        "S": 27.54
+      },
+      "stockBySize": {
+        "M": 8812,
+        "L": 8852,
+        "S": 8721
+      },
+      "retailPriceUsd": 82.9,
+      "verifiedAtUtc": "2026-11-28T06:01:27.612Z"
+    },
+    {
+      "slug": "mozision-draped-one-shoulder-maxi-dress-orange",
+      "sourceProductId": "1005005429700441",
+      "sourceColor": "Orange",
+      "supplierId": "cmx004qts004w1rqnadlomq81",
+      "sourceSkuIdsBySize": {
+        "L": "12000033628024701",
+        "M": "12000033628024698",
+        "S": "12000033628024695"
+      },
+      "landedCostUsdBySize": {
+        "L": 27.54,
+        "M": 27.54,
+        "S": 27.54
+      },
+      "stockBySize": {
+        "L": 8880,
+        "M": 8854,
+        "S": 8824
+      },
+      "retailPriceUsd": 82.9,
+      "verifiedAtUtc": "2026-11-28T06:01:27.612Z"
+    },
+    {
+      "slug": "mozision-draped-one-shoulder-maxi-dress-emerald-green",
+      "sourceProductId": "1005005429700441",
+      "sourceColor": "Green",
+      "supplierId": "cmx004qts004w1rqnadlomq81",
+      "sourceSkuIdsBySize": {
+        "L": "12000033628024700",
+        "M": "12000033628024697",
+        "S": "12000033628024694"
+      },
+      "landedCostUsdBySize": {
+        "L": 27.54,
+        "M": 27.54,
+        "S": 27.54
+      },
+      "stockBySize": {
+        "L": 8867,
+        "M": 8853,
+        "S": 8800
+      },
+      "retailPriceUsd": 82.9,
+      "verifiedAtUtc": "2026-11-28T06:01:27.612Z"
+    }
+  ]
+}
