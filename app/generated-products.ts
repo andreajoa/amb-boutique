@@ -39800,6 +39800,111 @@ const allGeneratedProducts: Product[] = [
   "minimumCostMultiplier": 3,
   "sourceProductId": "3256805030578196",
   "sourceColor": "Beige"
+},
+{
+  "slug": "mozision-draped-one-shoulder-maxi-dress-red",
+  "name": "Mozision Draped One-Shoulder Maxi Dress — Red",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 82.9,
+  "colors": [
+    "#B50E27"
+  ],
+  "colorNames": [
+    "Red"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A floor-length one-shoulder dress with an open back, diagonal back strap and ruching. A long sash falls from the back waist to the floor.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/mozision-draped-one-shoulder-maxi-dress-red/front.webp",
+    "/products/mozision-draped-one-shoulder-maxi-dress-red/back.webp",
+    "/products/mozision-draped-one-shoulder-maxi-dress-red/left.webp",
+    "/products/mozision-draped-one-shoulder-maxi-dress-red/right.webp"
+  ],
+  "stock": 26385,
+  "unitCostUsd": 27.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005005429700441",
+  "sourceColor": "Red"
+},
+{
+  "slug": "mozision-draped-one-shoulder-maxi-dress-orange",
+  "name": "Mozision Draped One-Shoulder Maxi Dress — Orange",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 82.9,
+  "colors": [
+    "#E3531C"
+  ],
+  "colorNames": [
+    "Orange"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A floor-length one-shoulder dress with an open back, diagonal back strap and ruching. A long sash falls from the back waist to the floor.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/mozision-draped-one-shoulder-maxi-dress-orange/front.webp",
+    "/products/mozision-draped-one-shoulder-maxi-dress-orange/back.webp",
+    "/products/mozision-draped-one-shoulder-maxi-dress-orange/left.webp",
+    "/products/mozision-draped-one-shoulder-maxi-dress-orange/right.webp"
+  ],
+  "stock": 26558,
+  "unitCostUsd": 27.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005005429700441",
+  "sourceColor": "Orange"
+},
+{
+  "slug": "mozision-draped-one-shoulder-maxi-dress-emerald-green",
+  "name": "Mozision Draped One-Shoulder Maxi Dress — Emerald Green",
+  "category": "Dresses",
+  "vendor": "AMB BOUTIQUE",
+  "badge": "Just In",
+  "sheet": "one",
+  "quadrant": 1,
+  "price": 82.9,
+  "colors": [
+    "#007351"
+  ],
+  "colorNames": [
+    "Emerald Green"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "description": "A floor-length one-shoulder dress with an open back, diagonal back strap and ruching. A long sash falls from the back waist to the floor.",
+  "materials": "See the product label for material details.",
+  "care": "Follow the product care label.",
+  "images": [
+    "/products/mozision-draped-one-shoulder-maxi-dress-emerald-green/front.webp",
+    "/products/mozision-draped-one-shoulder-maxi-dress-emerald-green/back.webp",
+    "/products/mozision-draped-one-shoulder-maxi-dress-emerald-green/left.webp",
+    "/products/mozision-draped-one-shoulder-maxi-dress-emerald-green/right.webp"
+  ],
+  "stock": 26520,
+  "unitCostUsd": 27.54,
+  "minimumCostMultiplier": 3,
+  "sourceProductId": "1005005429700441",
+  "sourceColor": "Green"
 }
 ];
 
@@ -39809,6 +39914,10 @@ const allGeneratedProducts: Product[] = [
 const ESTABLISHED_CATALOGUE_COUNT = 81;
 // Prepend newly published batches. New In and the homepage use this order.
 export const approvedNewProductSlugs = new Set<string>([
+  "mozision-draped-one-shoulder-maxi-dress-red",
+  "mozision-draped-one-shoulder-maxi-dress-orange",
+  "mozision-draped-one-shoulder-maxi-dress-emerald-green",
+
   "jingpin-heart-quilted-crossbody-black",
   "zmbird-coil-handle-satchel-beige",
 

@@ -6126,5 +6126,26 @@
   "stockBySize": {
    "One Size": 79996
   }
+ },
+ "mozision-draped-one-shoulder-maxi-dress-red": {
+  "stockBySize": {
+   "M": 8812,
+   "L": 8852,
+   "S": 8721
+  }
+ },
+ "mozision-draped-one-shoulder-maxi-dress-orange": {
+  "stockBySize": {
+   "L": 8880,
+   "M": 8854,
+   "S": 8824
+  }
+ },
+ "mozision-draped-one-shoulder-maxi-dress-emerald-green": {
+  "stockBySize": {
+   "L": 8867,
+   "M": 8853,
+   "S": 8800
+  }
  }
 }

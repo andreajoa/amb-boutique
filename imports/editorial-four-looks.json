@@ -2,6 +2,16 @@
   "rule": "Automatically selects the 4 newest distinct human-model apparel arrivals (excluding mannequins, bags, shoes and cropped shorts).",
   "looks": [
     {
+      "slug": "mozision-draped-one-shoulder-maxi-dress-red",
+      "name": "Mozision Draped One-Shoulder Maxi Dress — Red",
+      "image": "/products/mozision-draped-one-shoulder-maxi-dress-red/front.webp",
+      "eyebrow": "NEW ARRIVAL",
+      "copy": "A floor-length one-shoulder dress with an open back, diagonal back strap and ruching.",
+      "category": "Dresses",
+      "arrivalRank": 1344,
+      "classification": "detected-model"
+    },
+    {
       "slug": "celianne-lace-trim-sequin-slip-mini-dress-blush-merlot",
       "name": "Celianne Lace-Trim Sequin Slip Mini Dress — Blush Merlot",
       "image": "/products/celianne-lace-trim-sequin-slip-mini-dress-blush-merlot/front.webp",
@@ -25,20 +35,10 @@
       "slug": "cordelie-wide-neck-striped-sweater-gray",
       "name": "Cordelie Wide-Neck Striped Sweater — Pearl Gray",
       "image": "/products/cordelie-wide-neck-striped-sweater-gray/front.webp",
-      "eyebrow": "CONFIDENT COLOR",
+      "eyebrow": "SAN DIEGO EDIT",
       "copy": "A relaxed long-sleeve knit with a wide neckline and bold cream-and-color horizontal stripes.",
       "category": "Knitwear",
       "arrivalRank": 1327,
-      "classification": "verified-model"
-    },
-    {
-      "slug": "maelle-lace-bow-high-low-dress-grey",
-      "name": "Maelle Lace-Bow High-Low Dress — Silver Gray",
-      "image": "/products/maelle-lace-bow-high-low-dress-grey/front.webp",
-      "eyebrow": "SAN DIEGO EDIT",
-      "copy": "A sleeveless occasion dress with a lace bodice, waist bow and flowing high-low chiffon skirt.",
-      "category": "Dresses",
-      "arrivalRank": 1323,
       "classification": "verified-model"
     }
   ]
